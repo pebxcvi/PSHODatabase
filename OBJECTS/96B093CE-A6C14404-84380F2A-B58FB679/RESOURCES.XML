@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/minib_weaponpadplacer/MINIB_WeaponPadPlacer.mdl" />
+    <model name="MINIBOTS_Pad_Abuser.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_abuser/MINIBOTS_Pad_Abuser.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Ammo.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_ammo/MINIBOTS_Pad_Ammo.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Assaulter.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_assaulter/MINIBOTS_Pad_Assaulter.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Axe.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_axe/MINIBOTS_Pad_Axe.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Blade.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_blade/MINIBOTS_Pad_Blade.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Blaster.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_blaster/MINIBOTS_Pad_Blaster.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Death.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_death/MINIBOTS_Pad_Death.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Devestator.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_devestator/MINIBOTS_Pad_Devestator.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Flamethrower.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_flamethrower/MINIBOTS_Pad_Flamethrower.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Sniper.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_sniper/MINIBOTS_Pad_Sniper.mdl" memory="host" />
+    <model name="MINIBOTS_Pad_Thunder.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pad_thunder/MINIBOTS_Pad_Thunder.mdl" memory="host" />
+    <model name="MINIB_WeaponPadPlacer_ANIM.mdl" deferred_loading="false" protected="false" file="furniture/minib_weaponpadplacer/MINIB_WeaponPadPlacer_ANIM.mdl" memory="host" />
+    <texture name="constructor_cangrab.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_cangrab.dds" />
+    <texture name="Constructor_ItemLocked.png" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/Constructor_ItemLocked.png" />
+    <texture name="constructor_movingitem.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_movingitem.dds" />
+    <texture name="constructor_nothingselected.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_nothingselected.dds" />
+    <texture name="Pad_Abuser_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Abuser_128.png" />
+    <texture name="Pad_Ammo_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Ammo_128.png" />
+    <texture name="Pad_Assaulter_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Assaulter_128.png" />
+    <texture name="Pad_Axe_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Axe_128.png" />
+    <texture name="Pad_Blade_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Blade_128.png" />
+    <texture name="Pad_Blaster_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Blaster_128.png" />
+    <texture name="Pad_Death_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Death_128.png" />
+    <texture name="Pad_Devastator_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Devastator_128.png" />
+    <texture name="Pad_Sniper_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Sniper_128.png" />
+    <texture name="Pad_Thunder_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/minibots/Facility/Pad_Thunder_128.png" />
+    <texture name="WEAPON_flamer_128.png" deferred_loading="false" protected="false" file="thumbnails/minibots/WEAPON_flamer_128.png" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/minib_weaponpadplacer/MINIB_WeaponPadPlacer.hkx" memory="host" />
+    <collision name="Sprg13_Egghunt_Collider.hkx" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/models/Constructor_Collider.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Abuser.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_abuser/MINIBOTS_Pad_Abuser.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Ammo.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_ammo/MINIBOTS_Pad_Ammo.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Assaulter.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_assaulter/MINIBOTS_Pad_Assaulter.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Axe.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_axe/MINIBOTS_Pad_Axe.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Blade.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_blade/MINIBOTS_Pad_Blade.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Blaster.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_blaster/MINIBOTS_Pad_Blaster.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Death.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_death/MINIBOTS_Pad_Death.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Devestator.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_devestator/MINIBOTS_Pad_Devestator.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Flamethrower.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_flamethrower/MINIBOTS_Pad_Flamethrower.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Sniper.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_sniper/MINIBOTS_Pad_Sniper.hkx" memory="host" />
+    <collision name="MINIBOTS_Pad_Thunder.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_thunder/MINIBOTS_Pad_Thunder.hkx" memory="host" />
+    <anim name="MINIB_WeaponPadPlacer_ANIM.ani" deferred_loading="false" protected="false" file="furniture/minib_weaponpadplacer/MINIB_WeaponPadPlacer_ANIM.ani" memory="host" />
+    <skeleton name="MINIB_WeaponPadPlacer_ANIM.skn" deferred_loading="false" protected="false" file="furniture/minib_weaponpadplacer/MINIB_WeaponPadPlacer_ANIM.skn" memory="host" />
+    <soundbank name="Bramblenook_UI.bnk" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/audio/Bramblenook_UI.bnk" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active_3/lua/minigame.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/utilities/pad.luac" memory="host" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/utilities/statemachine.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/utilities/utility.luac" memory="host" />
+    <lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/states/state_idle.luac" memory="host" />
+    <lua name="State_PlaceItems.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/states/state_placeitems.luac" memory="host" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/network/messagemanager.luac" memory="host" />
+    <lua name="Constructor.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/constructor/constructor.luac" memory="host" />
+    <lua name="Level.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active/lua/constructor/level.luac" memory="main" />
+    <lua name="LevelComponents.lua" deferred_loading="false" protected="true" file="furniture/minib_battlefield_active_3/lua/constructor/levelcomponents.luac" memory="main" />
+  </local>
+  <external />
+</resources>

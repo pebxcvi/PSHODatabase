@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="rewardimg_jp" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/Textures/reward_JP.dds" />
+		<texture name="rewardimg_hk" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/Textures/reward_HK.dds" />
+		<texture name="rewardimg_kr" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/Textures/reward_KR.dds" />
+		<texture name="rewardimg_sg" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/Textures/reward_SG.dds" />
+		<texture name="rewardimg_tw" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/Textures/reward_TW.dds" />
+		<file name="types_osd" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/OSD/types.xml" />
+		<file name="base_osd" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/OSD/base.xml" />
+		<file name="always_osd" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/OSD/always.xml" />
+		<file name="network_xml" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/Network.xml" />
+		<soundbank name="soundbank_001" deferred_loading="false" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/sound/0038_all.bnk" />
+		<lua name="Questionnaire" deferred_loading="" protected="true" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/Questionnaire.lua" />
+		<lua name="serverurl" deferred_loading="false" protected="true" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/serverurl.lua" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/paHomeCommon.lua" />
+		<lua name="paHomeSound" deferred_loading="false" protected="true" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/paHomeSound.lua" />
+		<lua name="paHomeUI" deferred_loading="false" protected="true" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/paHomeUI.lua" />
+		<lua name="paHomeServerAccess" deferred_loading="false" protected="true" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/paHomeServerAccess.lua" />
+		<lua name="paHomePad2" deferred_loading="false" protected="true" file="objects/98492A31-3C184A55-A260815D-E7B2A088/Questionnaire/paHomePad2.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_Complete</LANG>
+    <LANG ID="en-GB">Your report has been submitted successfully.\n\nWe will not contact you again about this report unless it is absolutely necessary.</LANG>
+    <LANG ID="fr-FR">Votre rapport a été envoyé avec succès.\n\nNous ne reviendrons pas vers vous suite à ce rapport, sauf nécessité absolue.</LANG>
+    <LANG ID="de-DE">Ihre Meldung wurde erfolgreich hochgeladen.\n\nWir werden Sie im Zusammenhang mit dieser Meldung nicht wieder kontaktieren, es sei denn, es ist unbedingt erforderlich.</LANG>
+    <LANG ID="it-IT">La tua segnalazione è stata inviata.\n\nNon sarai contattato di nuovo sull'argomento salvo in caso di assoluta necessità.</LANG>
+    <LANG ID="es-ES">El informe se ha enviado correctamente.\n\nNo nos pondremos en contacto contigo sobre este informe a menos que sea estrictamente necesario.</LANG>
+    <LANG ID="ja-JP">ご報告ありがとうございました。\n\nこの件について調査し、必要がある場合にはご連絡させて頂きます。</LANG>
+    <LANG ID="ko-KR">신고 내용이 성공적으로 제출되었습니다.\n\n불가피한 상황이 발생하지 않는 이상, 신고 내용과 관련하여 본인에게 연락 드리지 않습니다.</LANG>
+    <LANG ID="en-SG">Your report has been submitted successfully.\n\nWe will not contact you again about this report unless it is absolutely necessary.</LANG>
+    <LANG ID="zh-HK">您已成功提出報告。\n\n除非有絕對必要，我們不會因為這份報告與您聯絡。</LANG>
+    <LANG ID="zh-TW">您已成功提出報告。\n\n除非有絕對必要，我們不會因為這份報告與您聯絡。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_ConfirmOffender</LANG>
+    <LANG ID="en-GB">Offender:</LANG>
+    <LANG ID="fr-FR">Personne signalée :</LANG>
+    <LANG ID="de-DE">Täter:</LANG>
+    <LANG ID="it-IT">Responsabile:</LANG>
+    <LANG ID="es-ES">Ofensor:</LANG>
+    <LANG ID="ja-JP">プレイヤー名:</LANG>
+    <LANG ID="ko-KR">신고 대상:</LANG>
+    <LANG ID="en-SG">Offender:</LANG>
+    <LANG ID="zh-HK">玩者名稱：</LANG>
+    <LANG ID="zh-TW">玩者名稱：</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_ConfirmReason</LANG>
+    <LANG ID="en-GB">Reason:</LANG>
+    <LANG ID="fr-FR">Raison :</LANG>
+    <LANG ID="de-DE">Grund:</LANG>
+    <LANG ID="it-IT">Motivo:</LANG>
+    <LANG ID="es-ES">Motivo:</LANG>
+    <LANG ID="ja-JP">理由:</LANG>
+    <LANG ID="ko-KR">사유:</LANG>
+    <LANG ID="en-SG">Reason:</LANG>
+    <LANG ID="zh-HK">原因：</LANG>
+    <LANG ID="zh-TW">原因：</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_Error_CreateObject</LANG>
+    <LANG ID="en-GB">Failed to create the report object.</LANG>
+    <LANG ID="fr-FR">Échec de la création de l'objet du rapport.</LANG>
+    <LANG ID="de-DE">Die Meldung konnte nicht erstellt werden.</LANG>
+    <LANG ID="it-IT">Impossibile creare l'oggetto segnalazione</LANG>
+    <LANG ID="es-ES">Error al crear el motivo del informe.</LANG>
+    <LANG ID="ja-JP">グリーフレポートの作成に失敗しました。</LANG>
+    <LANG ID="ko-KR">신고 내용 오브젝트를 생성하지 못했습니다</LANG>
+    <LANG ID="en-SG">Failed to create the report object.</LANG>
+    <LANG ID="zh-HK">無法建立報告</LANG>
+    <LANG ID="zh-TW">無法建立報告</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_Error_LoadXml</LANG>
+    <LANG ID="en-GB">Failed to load XML files.</LANG>
+    <LANG ID="fr-FR">Échec du chargement des fichiers XML.</LANG>
+    <LANG ID="de-DE">Laden von XML-Dateien fehlgeschlagen.</LANG>
+    <LANG ID="it-IT">Impossibile caricare i file XML.</LANG>
+    <LANG ID="es-ES">Error al cargar los documentos XML.</LANG>
+    <LANG ID="ja-JP">XMLファイルのロードに失敗しました。</LANG>
+    <LANG ID="ko-KR">XML 파일 불러오기에 실패했습니다.</LANG>
+    <LANG ID="en-SG">Failed to load XML files.</LANG>
+    <LANG ID="zh-HK">無法載入XML檔案。</LANG>
+    <LANG ID="zh-TW">無法載入XML檔案。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_Error_MapLanguage</LANG>
+    <LANG ID="en-GB">Failed to map your language to one that is supported.</LANG>
+    <LANG ID="fr-FR">Impossible d'associer votre langue à l'une des langues compatibles.</LANG>
+    <LANG ID="de-DE">Verbindung Ihrer Sprache mit unterstützter Sprache fehlgeschlagen.</LANG>
+    <LANG ID="it-IT">Impossibile riconoscere la lingua.</LANG>
+    <LANG ID="es-ES">No se ha podido detectar tu idioma como compatible.</LANG>
+    <LANG ID="ja-JP">サポート外の言語です。</LANG>
+    <LANG ID="ko-KR">지원되는 언어를 찾지 못했습니다.</LANG>
+    <LANG ID="en-SG">Failed to map your language to one that is supported.</LANG>
+    <LANG ID="zh-HK">無法判斷您的語言是否為支援語言。</LANG>
+    <LANG ID="zh-TW">無法判斷您的語言是否為支援語言。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_Error_NoPeople</LANG>
+    <LANG ID="en-GB">There are no people to report.</LANG>
+    <LANG ID="fr-FR">Aucune personne n'a été signalée.</LANG>
+    <LANG ID="de-DE">Es können keine Nutzer gemeldet werden.</LANG>
+    <LANG ID="it-IT">Nessuno da segnalare.</LANG>
+    <LANG ID="es-ES">No hay personas sobre las que informar.</LANG>
+    <LANG ID="ja-JP">報告対象のプレイヤーが存在しません。</LANG>
+    <LANG ID="ko-KR">신고할 대상이 없습니다.</LANG>
+    <LANG ID="en-SG">There are no people to report.</LANG>
+    <LANG ID="zh-HK">沒有可進行報告的對象。</LANG>
+    <LANG ID="zh-TW">沒有可進行報告的對象。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_Error_UploadReport</LANG>
+    <LANG ID="en-GB">Failed to upload the report.</LANG>
+    <LANG ID="fr-FR">Échec de l'envoi du rapport.</LANG>
+    <LANG ID="de-DE">Hochladen der Meldung fehlgeschlagen.</LANG>
+    <LANG ID="it-IT">Caricamento segnalazione fallito.</LANG>
+    <LANG ID="es-ES">Error al cargar el informe.</LANG>
+    <LANG ID="ja-JP">グリーフレポートの提出送信に失敗しました。</LANG>
+    <LANG ID="ko-KR">신고 내용을 업로드하지 못했습니다.</LANG>
+    <LANG ID="en-SG">Failed to upload the report.</LANG>
+    <LANG ID="zh-HK">無法上載報告</LANG>
+    <LANG ID="zh-TW">無法上載報告</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Body_Overview</LANG>
+    <LANG ID="en-GB">This facility is for reporting offensive, illegal or otherwise unsuitable behaviour within PlayStation®Home.  This does not necessarily include behaviour that you don't personally agree with.\n\nIf a user is not violating the Community Code of Conduct as set forth in the Sony Entertainment Network Terms of Service and User Agreement, please do not register a complaint.\n\nIf you make a false report, this may result in a termination or suspension of your Sony Entertainment Network account.
+</LANG>
+    <LANG ID="fr-FR">Cette fonction permet de signaler un comportement choquan, illégal ou innaproprié au sein du service PlayStation®Home. Ceci n'implique pas nécessairement  tous les comportements que vous n'approuvez pas.\n\nSi l'utilisateur ne viole en rien le code de conduite de la communauté tel qu'enoncé dans les Conditions d'utilisation et l'Accord utilisateur de Sony Entertainment Network, veuillez ne pas le signaler.\n\nEn cas de signalement injustifié, votre compte Sony Entertainment Network pourrait être résilié ou suspendu.
+</LANG>
+    <LANG ID="de-DE">Diese Funktion dient dazu, Verhalten bei PlayStation®Home zu melden, das anstößig, illegal oder anderweitig unangemessen ist.
+Das bedeutet nicht unbedingt, dass jedes Verhalten geahndet wird, das Sie persönlich für unangemessen halten.\n\nSollte ein Nutzer nicht gegen die gemeinschaftlichen Verhaltensregeln verstoßen, so wie sie in den allgemeinen Nutzungsbedingungen sowie der Nutzungsvereinbarung mit Sony Entertainment Network dargelegt sind, reichen Sie bitte keine Beschwerde ein.\n\nSollten Sie fälschlicherweise eine Beschwerde einreichen, kann dies die Aufhebung oder Kündigung Ihres Sony Entertainment Network Kontos zur Folge haben.
+</LANG>
+    <LANG ID="it-IT">Questo strumento é finalizzato a segnalare comportamenti offensivi, illeciti o in altra misura sconvenienti rilevati in PlayStation®Home.\n\nNon sono necessariamente da segnalare comportamenti non condivisi dall'utente. Se un utente non viola il Codice di condotta della comunità definito nei Termini di servizio e Condizioni d'uso di Sony Computer Entertainment Network, non effettuare una segnalazione. L'inoltro di una segnalazione falsa può comportare la chiusura o la sospensione dell'account Sony Entertainment Network.
+</LANG>
+    <LANG ID="es-ES">Esta herramienta sirve para reportar comportamientos ofensivos, ilegales o inapropiados dentro de PlayStation®Home.\n\nEsto no significa que puedas incluir reportes de comportamientos con los que no estés personalmente de acuerdo.\n\nSi un usuario no está violando el Código de Conducta de la Comunidad según lo establecido en los términos de Servicio y Acuerdos para el Usuario de Sony Entertainment Network, por favor no registre una queja. Si usted hace un informe falso, puede resultar en la terminación o suspensión de su cuenta Sony Entertainment Network.
+</LANG>
+    <LANG ID="ja-JP">この機能は、PlayStation®Homeにふさわしくないと思われる不快、違法、その他の行為を報告するためのものです。 ただし、あなたが個人的に同意できないというような内容は、含まれません。</LANG>
+    <LANG ID="ko-KR">이 시설은 불쾌하거나 불법적인, 또는 PlayStation®Home에 적합하지 않은 기타 행위를 신고하는 곳입니다. 이런 행위는 단지 본인이 동의하지 않는 행위가 모두 포함되지는 않습니다.</LANG>
+    <LANG ID="en-SG">This facility is for reporting offensive, illegal or otherwise unsuitable behaviour within PlayStation®Home. This does not necessarily include behaviour that you don't personally agree with.\n\nIf a user is not violating the Community Code of Conduct as set forth in the Sony Entertainment Network Terms of Service and User Agreement, please do not register a complaint.\n\nIf you make a false report, this may result in a termination or suspension of your Sony Entertainment Network account.</LANG>
+    <LANG ID="zh-HK">本功能用來報告令人不快、違法或其他PlayStation®Home內不適當的行為，不一定包括您個人不接受的行為。</LANG>
+    <LANG ID="zh-TW">本功能用來報告令人不快、違法或其他PlayStation®Home內不適當的行為，不一定包括您個人不接受的行為。</LANG>
+    <LANG ID="en-US">This facility is for reporting offensive, illegal or otherwise unsuitable behavior within PlayStation®Home. This does not necessarily include behavior that you don't personally agree with.\n\nIf a user is not violating the Community Code of Conduct as set forth in the Sony Entertainment Network Terms of Service and User Agreement, please do not register a complaint.\n\nIf you make a false report, this may result in a termination or suspension of your Sony Entertainment Network account.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Heading</LANG>
+    <LANG ID="en-GB">Submit Report</LANG>
+    <LANG ID="fr-FR">Envoi d'un rapport</LANG>
+    <LANG ID="de-DE">Meldung einreichen</LANG>
+    <LANG ID="it-IT">Invia segnalazione</LANG>
+    <LANG ID="es-ES">Enviar informe</LANG>
+    <LANG ID="ja-JP">悪質なプレイヤーを報告する</LANG>
+    <LANG ID="ko-KR">신고 내용을 제출합니다</LANG>
+    <LANG ID="en-SG">Submit Report</LANG>
+    <LANG ID="zh-HK">報告有問題玩者</LANG>
+    <LANG ID="zh-TW">報告有問題玩者</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Heading_Error</LANG>
+    <LANG ID="en-GB">Error</LANG>
+    <LANG ID="fr-FR">Erreur</LANG>
+    <LANG ID="de-DE">Fehler</LANG>
+    <LANG ID="it-IT">Errore</LANG>
+    <LANG ID="es-ES">Error</LANG>
+    <LANG ID="ja-JP">エラー</LANG>
+    <LANG ID="ko-KR">에러</LANG>
+    <LANG ID="en-SG">Error</LANG>
+    <LANG ID="zh-HK">錯誤</LANG>
+    <LANG ID="zh-TW">錯誤</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Legend_ChoosePerson</LANG>
+    <LANG ID="en-GB">[UP][DOWN] Navigate [CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="fr-FR">[UP][DOWN] Parcourir [CROSS] Continuer [CIRCLE] Retour</LANG>
+    <LANG ID="de-DE">[UP][DOWN] Navigieren [CROSS] Fortfahren [CIRCLE] Zurück</LANG>
+    <LANG ID="it-IT">[UP][DOWN] Naviga [CROSS] Continua [CIRCLE] Indietro</LANG>
+    <LANG ID="es-ES">[UP][DOWN] Navegar [CROSS]Continuar [CIRCLE]Atrás</LANG>
+    <LANG ID="ja-JP">[UP][DOWN] 選択 [CROSS] OK [CIRCLE] 戻る</LANG>
+    <LANG ID="ko-KR">[UP][DOWN] 이동 [CROSS] 계속 [CIRCLE] 뒤로</LANG>
+    <LANG ID="en-SG">[UP][DOWN] Navigate [CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="zh-HK">[UP][DOWN] 移動 [CROSS] 繼續 [CIRCLE] 返回</LANG>
+    <LANG ID="zh-TW">[UP][DOWN] 移動 [CROSS] 繼續 [CIRCLE] 返回</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Legend_ChooseReason</LANG>
+    <LANG ID="en-GB">[UP][DOWN] Navigate [CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="fr-FR">[UP][DOWN] Parcourir [CROSS] Continuer [CIRCLE] Retour</LANG>
+    <LANG ID="de-DE">[UP][DOWN] Navigieren [CROSS] Fortfahren [CIRCLE] Zurück</LANG>
+    <LANG ID="it-IT">[UP][DOWN] Naviga [CROSS] Continua [CIRCLE] Indietro</LANG>
+    <LANG ID="es-ES">[UP][DOWN] Navegar [CROSS]Continuar [CIRCLE]Atrás</LANG>
+    <LANG ID="ja-JP">[UP][DOWN] 選択 [CROSS] OK [CIRCLE] 戻る</LANG>
+    <LANG ID="ko-KR">[UP][DOWN] 이동 [CROSS] 계속 [CIRCLE] 뒤로</LANG>
+    <LANG ID="en-SG">[UP][DOWN] Navigate [CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="zh-HK">[UP][DOWN] 移動 [CROSS] 繼續 [CIRCLE] 返回</LANG>
+    <LANG ID="zh-TW">[UP][DOWN] 移動 [CROSS] 繼續 [CIRCLE] 返回</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Legend_Complete</LANG>
+    <LANG ID="en-GB">[CROSS] Continue</LANG>
+    <LANG ID="fr-FR">[CROSS] Continuer</LANG>
+    <LANG ID="de-DE">[CROSS] Fortfahren</LANG>
+    <LANG ID="it-IT">[CROSS] Continua</LANG>
+    <LANG ID="es-ES">[CROSS] Continuar</LANG>
+    <LANG ID="ja-JP">[CROSS] OK</LANG>
+    <LANG ID="ko-KR">[CROSS] 계속</LANG>
+    <LANG ID="en-SG">[CROSS] Continue</LANG>
+    <LANG ID="zh-HK">[CROSS] 繼續</LANG>
+    <LANG ID="zh-TW">[CROSS] 繼續</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Legend_Confirm</LANG>
+    <LANG ID="en-GB">[CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="fr-FR">[CROSS] Continuer [CIRCLE] Retour</LANG>
+    <LANG ID="de-DE">[CROSS] Fortfahren [CIRCLE] Zurück</LANG>
+    <LANG ID="it-IT">[CROSS] Continua [CIRCLE] Indietro</LANG>
+    <LANG ID="es-ES">[CROSS] Continuar [CIRCLE] Atrás</LANG>
+    <LANG ID="ja-JP">[CROSS] OK [CIRCLE] 戻る</LANG>
+    <LANG ID="ko-KR">[CROSS] 계속 [CIRCLE] 뒤로</LANG>
+    <LANG ID="en-SG">[CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="zh-HK">[CROSS] 繼續 [CIRCLE] 返回</LANG>
+    <LANG ID="zh-TW">[CROSS] 繼續 [CIRCLE] 返回</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Legend_Error</LANG>
+    <LANG ID="en-GB">[CIRCLE] Back</LANG>
+    <LANG ID="fr-FR">[CIRCLE] Retour</LANG>
+    <LANG ID="de-DE">[CIRCLE] Zurück</LANG>
+    <LANG ID="it-IT">[CIRCLE] Indietro</LANG>
+    <LANG ID="es-ES">[CIRCLE] Atrás</LANG>
+    <LANG ID="ja-JP">[CIRCLE] キャンセル</LANG>
+    <LANG ID="ko-KR">[CIRCLE] 뒤로</LANG>
+    <LANG ID="en-SG">[CIRCLE] Back</LANG>
+    <LANG ID="zh-HK">[CIRCLE] 返回</LANG>
+    <LANG ID="zh-TW">[CIRCLE] 返回</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Legend_Overview</LANG>
+    <LANG ID="en-GB">[CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="fr-FR">[CROSS] Continuer [CIRCLE] Retour</LANG>
+    <LANG ID="de-DE">[CROSS] Fortfahren [CIRCLE] Zurück</LANG>
+    <LANG ID="it-IT">[CROSS] Continua [CIRCLE] Indietro</LANG>
+    <LANG ID="es-ES">[CROSS] Continuar [CIRCLE] Atrás</LANG>
+    <LANG ID="ja-JP">[CROSS] OK [CIRCLE] 戻る</LANG>
+    <LANG ID="ko-KR">[CROSS] 계속 [CIRCLE] 뒤로</LANG>
+    <LANG ID="en-SG">[CROSS] Continue [CIRCLE] Back</LANG>
+    <LANG ID="zh-HK">[CROSS] 繼續 [CIRCLE] 返回</LANG>
+    <LANG ID="zh-TW">[CROSS] 繼續 [CIRCLE] 返回</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_Reasons</LANG>
+    <LANG ID="en-GB">Mature - Violence
+Mature - Sexual Content
+Mature - Drugs
+Offensive - Swearing or Bad Language
+Offensive - Discrimination
+Bullying/Harassment
+Advertising
+Defamation
+Copyright
+Impersonating SCE Official
+Impersonating Another User
+Inappropriate Online ID
+Solicitation for Personal Info
+Excessive Swearing/Vulgar Language
+Cheating/Glitching
+Disrupting Gameplay
+Other</LANG>
+    <LANG ID="fr-FR">Adulte - Violence
+Adulte - Sexe
+Adulte - Drogue
+Choquant - Grossièretés
+Choquant - Discrimination
+Intimidation/Harcèlement
+Publicité
+Diffamation
+Copyright
+Usurpation de l'identité d'un représentant de SCE
+Usurpation de l'identité d'un autre utilisateur
+ID en ligne inappropriée
+Demande d'informations personnelles
+Grossièretés excessives/Vulgarité
+Triche/Exploitation d'un problème technique
+Perturbation du jeu
+Autre</LANG>
+    <LANG ID="de-DE">Nicht jugendfrei – Gewalt
+Nicht jugendfrei – Sexuelle Inhalte
+Nicht jugendfrei – Drogen
+Anstößig – Schimpfwörter oder üble Sprache
+Anstößig – Diskriminierung
+Mobbing/Bedrohung
+Werbung
+Diffamierung
+Urheberrecht
+Ausgeben als Mitarbeiter von SCE
+Ausgeben als anderer Benutzer
+Unangemessene Anmelde-ID
+Einholung persönlicher Daten
+Exzessives Fluchen/Vulgäre Sprache
+Cheaten/Manipulation
+Unterbrechen des Spiels
+Andere</LANG>
+    <LANG ID="it-IT">Maturo: violenza
+Maturo: contenuti a sfondo sessuale
+Maturo: droghe
+Offensivo: imprecazioni o linguaggio offensivo
+Offensivo: discriminazione
+Maltrattamenti/Molestie
+Pubblicità
+Diffamazione
+Copyright
+Utente che si finge un impiegato SCE
+Utente che si finge un altro utente
+ID online inappropriato
+Richiesta di informazioni personali
+Imprecazioni continue/Linguaggio volgare
+Utilizzo di cheat/bug
+Disturbo durante il gioco
+Altro</LANG>
+    <LANG ID="es-ES">Para adultos: violencia
+Para adultos: contenido sexual
+Para adultos: drogas
+Ofensivo: blasfemias o lenguaje malsonante
+Ofensivo: discriminación
+Acoso/Hostigamiento
+Publicidad
+Difamación
+Copyright
+Suplantación de personal de SCE
+Suplantación de otro usuario
+ID online no apropiado
+Solicitud de información personal
+Lenguaje vulgar excesivo
+Trampas
+Interrupción del juego
+Otro</LANG>
+    <LANG ID="ja-JP">アカウント詐欺行為
+セクシャルハラスメント
+不適切な画像を配布する行為
+テキストによる不適切な表現行為
+宗教・人種・文化などを差別する発言や行為
+妨害行為
+営利行為
+挑発行為
+著作権など第三者の権利を侵害する行為
+運営スタッフになりすます行為
+他人になりすます行為
+不適切なオンラインID
+他人の個人情報を漏らす行為
+不適切な発言
+チートなどゲームデータを不正に改造する行為
+ゲーム起動を妨害する行為
+利用規約違反行為</LANG>
+    <LANG ID="ko-KR">성인 - 폭력성
+성인 - 선정성
+성인 - 약물
+불쾌함 - 욕설 혹은 부정적인 언어 사용
+불쾌함 - 차별
+폭력/괴롭힘
+광고
+명예훼손
+저작권
+SCE 직원 사칭
+다른 유저 사칭
+부적합한 온라인 ID
+개인정보 요청
+과도한 욕설/비속어
+반칙/우발적 장애
+게임 플레이 방해
+기타</LANG>
+    <LANG ID="en-SG">Mature - Violence
+Mature - Sexual Content
+Mature - Drugs
+Offensive - Swearing or Bad Language
+Offensive - Discrimination
+Bullying/Harassment
+Advertising
+Defamation
+Copyright
+Impersonating SCE Official
+Impersonating Another User
+Inappropriate Online ID
+Solicitation for Personal Info
+Excessive Swearing/Vulgar Language
+Cheating/Glitching
+Disrupting Gameplay
+Other</LANG>
+    <LANG ID="zh-HK">暴力行為
+性騷擾或色情內容
+違禁藥物
+粗俗語言
+歧視語言
+惡意欺侮或騷擾
+廣告或推銷行為
+毀謗
+侵犯他人著作權
+假扮SCE工作人員
+假扮其他玩家
+有問題的線上ID
+洩漏他人個人情報
+嚴重過度的粗俗語言
+改造程式等的非法行為
+干擾他人遊玩遊戲
+其他</LANG>
+    <LANG ID="zh-TW">暴力行為
+性騷擾或色情內容
+違禁藥物
+粗俗語言
+歧視語言
+惡意欺侮或騷擾
+廣告或推銷行為
+毀謗
+侵犯他人著作權
+假扮SCE工作人員
+假扮其他玩家
+有問題的線上ID
+洩漏他人個人情報
+嚴重過度的粗俗語言
+改造程式等的非法行為
+干擾他人遊玩遊戲
+其他</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_SubHeading_ChoosePerson</LANG>
+    <LANG ID="en-GB">Choose a person to report</LANG>
+    <LANG ID="fr-FR">Choisir une personne à signaler.</LANG>
+    <LANG ID="de-DE">Person auswählen, die gemeldet werden soll.</LANG>
+    <LANG ID="it-IT">Seleziona la persona da segnalare</LANG>
+    <LANG ID="es-ES">Elige la persona sobre la que quieres informar.</LANG>
+    <LANG ID="ja-JP">報告するプレイヤー名を選択する</LANG>
+    <LANG ID="ko-KR">신고할 대상을 선택합니다</LANG>
+    <LANG ID="en-SG">Choose a person to report</LANG>
+    <LANG ID="zh-HK">選擇要報告的玩者</LANG>
+    <LANG ID="zh-TW">選擇要報告的玩者</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_SubHeading_ChooseReason</LANG>
+    <LANG ID="en-GB">Choose a reason for the report</LANG>
+    <LANG ID="fr-FR">Choisir la raison du signalement.</LANG>
+    <LANG ID="de-DE">Grund für die Meldung auswählen.</LANG>
+    <LANG ID="it-IT">Seleziona il motivo della segnalazione</LANG>
+    <LANG ID="es-ES">Elige el motivo sobre el que deseas informar.</LANG>
+    <LANG ID="ja-JP">報告する理由を選択する</LANG>
+    <LANG ID="ko-KR">신고 사유를 선택합니다</LANG>
+    <LANG ID="en-SG">Choose a reason for the report</LANG>
+    <LANG ID="zh-HK">選擇報告原因</LANG>
+    <LANG ID="zh-TW">選擇報告原因</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_SubHeading_Complete</LANG>
+    <LANG ID="en-GB">Complete</LANG>
+    <LANG ID="fr-FR">Terminé</LANG>
+    <LANG ID="de-DE">Abgeschlossen</LANG>
+    <LANG ID="it-IT">Completato</LANG>
+    <LANG ID="es-ES">Completado</LANG>
+    <LANG ID="ja-JP">報告が完了しました。</LANG>
+    <LANG ID="ko-KR">완료</LANG>
+    <LANG ID="en-SG">Complete</LANG>
+    <LANG ID="zh-HK">完成</LANG>
+    <LANG ID="zh-TW">完成</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_SubHeading_Confirm</LANG>
+    <LANG ID="en-GB">Confirm you are happy with the details of the report</LANG>
+    <LANG ID="fr-FR">Confirmer que vous êtes satisfait(e) du contenu du rapport.</LANG>
+    <LANG ID="de-DE">Bestätigen Sie, dass Sie mit dem Inhalt des Berichts zufrieden sind.</LANG>
+    <LANG ID="it-IT">Conferma i dettagli della segnalazione</LANG>
+    <LANG ID="es-ES">Confirmar que estás de acuerdo con los detalles del informe.</LANG>
+    <LANG ID="ja-JP">報告内容をご確認ください。</LANG>
+    <LANG ID="ko-KR">신고 내용이 모두 올바른지 확인합니다</LANG>
+    <LANG ID="en-SG">Confirm you are happy with the details of the report</LANG>
+    <LANG ID="zh-HK">確認以上為您要報告的內容</LANG>
+    <LANG ID="zh-TW">確認以上為您要報告的內容</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_SubHeading_Gathering</LANG>
+    <LANG ID="en-GB">Gathering data...</LANG>
+    <LANG ID="fr-FR">Collecte des données…</LANG>
+    <LANG ID="de-DE">Daten werden erfasst …</LANG>
+    <LANG ID="it-IT">Recupero dati in corso...</LANG>
+    <LANG ID="es-ES">Reuniendo datos...</LANG>
+    <LANG ID="ja-JP">グリーフレポート用のデータを集めています･･･</LANG>
+    <LANG ID="ko-KR">데이터 수집 중…</LANG>
+    <LANG ID="en-SG">Gathering data...</LANG>
+    <LANG ID="zh-HK">資料蒐集中... </LANG>
+    <LANG ID="zh-TW">資料蒐集中... </LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_SubHeading_Overview</LANG>
+    <LANG ID="en-GB">Overview</LANG>
+    <LANG ID="fr-FR">Présentation</LANG>
+    <LANG ID="de-DE">Übersicht</LANG>
+    <LANG ID="it-IT">Panoramica</LANG>
+    <LANG ID="es-ES">Descripción general</LANG>
+    <LANG ID="ja-JP">概要</LANG>
+    <LANG ID="ko-KR">개요</LANG>
+    <LANG ID="en-SG">Overview</LANG>
+    <LANG ID="zh-HK">概要</LANG>
+    <LANG ID="zh-TW">概要</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GriefReport_SubHeading_Uploading</LANG>
+    <LANG ID="en-GB">Uploading...</LANG>
+    <LANG ID="fr-FR">Envoi…</LANG>
+    <LANG ID="de-DE">Wird hochgeladen …</LANG>
+    <LANG ID="it-IT">Caricamento in corso...</LANG>
+    <LANG ID="es-ES">Cargando...</LANG>
+    <LANG ID="ja-JP">グリーフレポートを送信しています…</LANG>
+    <LANG ID="ko-KR">업로드 중…</LANG>
+    <LANG ID="en-SG">Uploading...</LANG>
+    <LANG ID="zh-HK">正在上載…</LANG>
+    <LANG ID="zh-TW">正在上載…</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="en-GB">The Grief Report platform script object. [#Legal]</LANG>
+    <LANG ID="fr-FR">L'objet script de la plateforme de signalement des abus. [#Legal]</LANG>
+    <LANG ID="de-DE">Skriptobjekt der Beschwerdeplattform. [#Legal]</LANG>
+    <LANG ID="it-IT">Oggetto script piattaforma Segnala scorrettezze. [#Legal]</LANG>
+    <LANG ID="es-ES">Plataforma para los informes de penalización por escrito. [#Legal]</LANG>
+    <LANG ID="ja-JP">グリーフレポート プラットフォームスクリプト オブジェクト [#Legal]</LANG>
+    <LANG ID="ko-KR">악질 유저 신고 플랫폼 스크립트 오브젝트 [#Legal]</LANG>
+    <LANG ID="en-SG">The Grief Report platform script object. [#Legal]</LANG>
+    <LANG ID="zh-HK">投訴報告平台物件。 [#Legal]</LANG>
+    <LANG ID="zh-TW">投訴報告平台物件。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="en-GB">Grief Report</LANG>
+    <LANG ID="fr-FR">Signaler un abus</LANG>
+    <LANG ID="de-DE">Beschwerde</LANG>
+    <LANG ID="it-IT">Segnala scorrettezze</LANG>
+    <LANG ID="es-ES">Informe de penalización</LANG>
+    <LANG ID="ja-JP">グリーフレポート</LANG>
+    <LANG ID="ko-KR">악질 유저 신고</LANG>
+    <LANG ID="en-SG">Grief Report</LANG>
+    <LANG ID="zh-HK">投訴報告</LANG>
+    <LANG ID="zh-TW">投訴報告</LANG>
+  </PHRASE>
+</LOCALISATION>

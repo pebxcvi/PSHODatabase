@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="sound.dds" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/textures/sound.dds" />
+		<texture name="soundbar.dds" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/textures/soundbar.dds" />
+		<texture name="soundframe.dds" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/textures/soundframe.dds" />
+		<soundstream name="music1.mp3" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/music/20lb.mp3" />
+		<soundstream name="music2.mp3" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/music/Bleep.mp3" />
+		<soundstream name="music3.mp3" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/music/Cephalopod.mp3" />
+		<soundstream name="music4.mp3" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/music/get_your_groove_on.mp3" />
+		<soundstream name="music5.mp3" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/music/Latin_Industries.mp3" />
+		<soundstream name="music6.mp3" deferred_loading="false" protected="false" file="MiniGames/SoundSystem/music/Who_Likes_to_Party.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SoundSystem/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

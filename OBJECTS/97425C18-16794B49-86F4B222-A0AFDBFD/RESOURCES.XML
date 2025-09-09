@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="toilet_top.mdl" deferred_loading="false" protected="false" file="Actives/2014/noisy_toilet/models/toilet_top_white.mdl" memory="host" />
+		<model name="Noisy_Toilet.mdl" deferred_loading="false" protected="false" file="Actives/2014/noisy_toilet/models/Noisy_Toilet_black.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Actives/2014/noisy_toilet/files/Network.xml" memory="host" />
+		<collision name="Noisy_Toilet.hkx" deferred_loading="false" protected="false" file="Actives/2014/noisy_toilet/models/Noisy_Toilet.hkx" memory="host" />
+		<collision name="SafeVolume.hkx" deferred_loading="false" protected="false" file="Actives/2014/noisy_toilet/models/SafeVolume.hkx" memory="host" />
+		<soundbank name="toilet.bnk" deferred_loading="false" protected="false" file="Actives\2014\noisy_toilet\sound/toilet.bnk" memory="host" />
+		<soundstream name="noises.mp3" deferred_loading="false" protected="false" file="Actives/2014/noisy_toilet/sound/noises.mp3" memory="host" />
+		<soundstream name="toilet_flush.mp3" deferred_loading="false" protected="false" file="Actives\2014\noisy_toilet\sound/toilet_flush.mp3" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Actives\2014\noisy_toilet\lua/Main.lua" memory="host" />
+	</local>
+	<external />
+</resources>

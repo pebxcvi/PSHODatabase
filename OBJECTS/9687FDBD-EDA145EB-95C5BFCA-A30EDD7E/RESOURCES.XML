@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Casino_RotatingBed.mdl" deferred_loading="false" protected="false" file="furniture/casino_rotatingbed/Casino_RotatingBed.mdl" />
+		<model name="Aquarium_LargeSeaweed_Invisible.mdl" deferred_loading="false" protected="false" file="furniture/aquarium_largeseaweed/Aquarium_LargeSeaweed_Invisible.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Rotating_Bed_Active_Item/file/Network.xml" />
+		<collision name="Casino_RotatingBed.hkx" deferred_loading="false" protected="false" file="furniture/casino_rotatingbed/Casino_RotatingBed.hkx" />
+		<collision name="Casino_RotatingBed.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/casino_rotatingbed/Casino_RotatingBed.safevolume.hkx" />
+		<anim name="layingDown_Right" deferred_loading="false" protected="false" file="animation/male/layingdown/layingDown_Right.ani" />
+		<anim name="layDownLeft" deferred_loading="false" protected="false" file="animation/male/laydown/layDownLeft.ani" />
+		<anim name="layDownRight" deferred_loading="false" protected="false" file="animation/male/laydown/layDownRight.ani" />
+		<anim name="layDown_Left" deferred_loading="false" protected="false" file="animation/female/laydown/layDown_Left.ani" />
+		<anim name="layDown_Right" deferred_loading="false" protected="false" file="animation/female/laydown/layDown_Right.ani" />
+		<anim name="layDownLeft_02" deferred_loading="false" protected="false" file="animation/male/laydown/layDownLeft_02.ani" />
+		<anim name="layDownLeft_03" deferred_loading="false" protected="false" file="animation/male/laydown/layDownLeft_03.ani" />
+		<anim name="layDownLeft_04" deferred_loading="false" protected="false" file="animation/male/laydown/layDownLeft_04.ani" />
+		<anim name="layDownLeft_05" deferred_loading="false" protected="false" file="animation/male/laydown/layDownLeft_05.ani" />
+		<anim name="layDownLeft_01" deferred_loading="false" protected="false" file="animation/male/laydown/layDownLeft_01.ani" />
+		<repertoire name="maleRepertoire" deferred_loading="false" protected="false" file="objects/9687FDBD-EDA145EB-95C5BFCA-A30EDD7E/maleRepertoire.xml" />
+		<repertoire name="femaleRepertoire" deferred_loading="false" protected="false" file="objects/9687FDBD-EDA145EB-95C5BFCA-A30EDD7E/femaleRepertoire.xml" />
+		<emotes name="maleEmotes" deferred_loading="true" protected="false" file="objects/9687FDBD-EDA145EB-95C5BFCA-A30EDD7E/maleEmotes.xml" />
+		<emotes name="femaleEmotes" deferred_loading="true" protected="false" file="objects/9687FDBD-EDA145EB-95C5BFCA-A30EDD7E/femaleEmotes.xml" />
+		<lua name="RotatingBed.lua" deferred_loading="false" protected="true" file="MiniGames/Rotating_Bed_Active_Item/lua/RotatingBed.lua" />
+	</local>
+	<external />
+</resources>

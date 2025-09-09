@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Highlight.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Highlight_c.dds" />
+		<texture name="Image_Panel.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Image_Panel_c.dds" />
+		<texture name="Score_Panels.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Score_Panels_c.dds" />
+		<texture name="Square_Cyan.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Square_Cyan_c.dds" />
+		<texture name="Square_Green.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Square_Green_c.dds" />
+		<texture name="Square_Red.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Square_Red_c.dds" />
+		<texture name="Square_Yellow.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Square_Yellow_c.dds" />
+		<texture name="Timer_Panel.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Timer_Panel_c.dds" />
+		<texture name="Title_Panel.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Title_Panel_c.dds" />
+		<texture name="X.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Button_X_c.dds" />
+		<texture name="Circle.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Button_Circle_c.dds" />
+		<texture name="Square.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Button_Square_c.dds" />
+		<texture name="Triangle.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Button_Triangle_c.dds" />
+		<texture name="Answer_Panel.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Answer_Panel_c.dds" />
+		<texture name="Top_Panels.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Top_Panels_c.dds" />
+		<texture name="Question_Panel.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Question_Panel_c.dds" />
+		<texture name="CountDown3" deferred_loading="false" file="generic_shared_textures/Number_3.dds" />
+		<texture name="CountDown1" deferred_loading="false" file="generic_shared_textures/Number_1.dds" />
+		<texture name="CountDown2" deferred_loading="false" file="generic_shared_textures/Number_2.dds" />
+		<texture name="Number_10.dds" deferred_loading="false" file="MiniGames/MG04/Textures/Number_10.dds" />
+		<texture name="metalbg.dds" deferred_loading="false" file="MiniGames/MG04/Textures/metalbg.dds" />
+		<texture name="Number_0.dds" deferred_loading="false" file="generic_shared_textures/Number_0.dds" />
+		<texture name="Number_1.dds" deferred_loading="false" file="generic_shared_textures/Number_1.dds" />
+		<texture name="Number_2.dds" deferred_loading="false" file="generic_shared_textures/Number_2.dds" />
+		<texture name="Number_3.dds" deferred_loading="false" file="generic_shared_textures/Number_3.dds" />
+		<texture name="Number_4.dds" deferred_loading="false" file="generic_shared_textures/Number_4.dds" />
+		<texture name="Number_5.dds" deferred_loading="false" file="generic_shared_textures/Number_5.dds" />
+		<texture name="Number_6.dds" deferred_loading="false" file="generic_shared_textures/Number_6.dds" />
+		<texture name="Number_7.dds" deferred_loading="false" file="generic_shared_textures/Number_7.dds" />
+		<texture name="Number_8.dds" deferred_loading="false" file="generic_shared_textures/Number_8.dds" />
+		<texture name="Number_9.dds" deferred_loading="false" file="generic_shared_textures/Number_9.dds" />
+		<texture name="Winner_Panel.dds" deferred_loading="false" file="MiniGames/MG04/Textures/MG04_Background_Winner_c.dds" />
+		<texture name="logo.dds" deferred_loading="false" file="MiniGames/MG04/Textures/logo.dds" />
+		<texture name="CountDown0" deferred_loading="false" file="generic_shared_textures/Go.dds" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG04/OSD/types.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Player.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Settings.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="Trivia.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Trivia.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+	</local>
+	<external />
+</resources>

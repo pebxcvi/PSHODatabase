@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Carrot_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Carrot_Mature.mdl" />
+    <model name="Corn_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Corn_Mature.mdl" />
+    <model name="Lettuce_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Lettuce_Mature.mdl" />
+    <model name="Pumpkin_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Pumpkin_Mature.mdl" />
+    <model name="Sprout.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Sprout.mdl" />
+    <model name="Strawberry_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Strawberry_Mature.mdl" />
+    <model name="Turnip_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Turnip_Mature.mdl" />
+    <model name="Watermelon_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Watermelon_Mature.mdl" />
+    <model name="Onion_Mature.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/plants/Onion_Mature.mdl" />
+    <model name="WateringCan_RIG.mdl" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/models/WateringCan_RIG.mdl" />
+    <model name="FARM_Plot_Selector.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/props/FARM_Plot_Selector.mdl" />
+    <model name="WateringCan_Deluxe_RIG.mdl" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/models/WateringCan_Deluxe_RIG.mdl" />
+    <texture name="status_thirsty.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/status_thirsty.png" />
+    <texture name="status_watered.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/status_watered.png" />
+    <texture name="planting_xp_bar.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/planting_xp_bar.png" />
+    <texture name="planting_xp_bar_background.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/planting_xp_bar_background.png" />
+    <texture name="MainMenu_Background.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/MainMenu_Background.png" />
+    <texture name="MainMenu_Plant.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/MainMenu_Plant.png" />
+    <texture name="MainMenu_Selected.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/MainMenu_Selected.png" />
+    <texture name="MainMenu_Water.png" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/graphics/MainMenu_Water.png" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/file/Network.xml" />
+    <file name="CALIFB.TTF" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/font/CALIFB.TTF" />
+    <anim name="Female_Carry_Water_Idle01.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Female_Carry_Water_Idle01.ani" />
+    <anim name="Female_Carry_Water_Run.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Female_Carry_Water_Run.ani" />
+    <anim name="Female_Carry_Water_Walk.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Female_Carry_Water_Walk.ani" />
+    <anim name="Female_Empty_Water.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Female_Empty_Water.ani" />
+    <anim name="Male_Carry_Water_Idle01.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Male_Carry_Water_Idle01.ani" />
+    <anim name="Male_Carry_Water_Run.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Male_Carry_Water_Run.ani" />
+    <anim name="Male_Carry_Water_Walk.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Male_Carry_Water_Walk.ani" />
+    <anim name="Male_Empty_Water.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/anims/Male_Empty_Water.ani" />
+    <skeleton name="WateringCan_RIG.skn" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/models/WateringCan_RIG.skn" />
+    <soundbank name="Bramblenook_UI.bnk" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/audio/Bramblenook_UI.bnk" />
+    <soundstream name="Watering.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/audio/Watering.mp3" />
+    <soundstream name="PlantPurchased.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/audio/PlantPurchased.mp3" />
+    <soundstream name="Coins.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/audio/Coins.mp3" />
+    <repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/reps/male.xml" />
+    <repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/FARM_Planting/reps/female.xml" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/minigame.luac" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/network/messagemanager.luac" />
+    <lua name="Server.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/network/server.luac" />
+    <lua name="TransObject.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/network/transobject.luac" />
+    <lua name="State_Idle.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/states/state_idle.luac" />
+    <lua name="State_Plant.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/states/state_plant.luac" />
+    <lua name="State_Water.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/states/state_water.luac" />
+    <lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/utilities/batchresourceloader.luac" />
+    <lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/utilities/coroutinemanager.luac" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/utilities/pad.luac" />
+    <lua name="ParticleManager.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/utilities/particlemanager.luac" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/utilities/statemachine.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/utilities/utility.luac" />
+    <lua name="PlantTypes.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/plants/planttypes.luac" />
+    <lua name="Plot.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/plants/plot.luac" />
+    <lua name="PlotVisitor.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/plants/plotvisitor.luac" />
+    <lua name="PlantManager.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/plants/plantmanager.luac" />
+    <lua name="JoinPoint.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/misc/joinpoint.luac" />
+    <lua name="JoinPointManager.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/misc/joinpointmanager.luac" />
+    <lua name="PlayerFeedController.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/player/playerfeedcontroller.luac" />
+    <lua name="PlantStatsRenderer.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/plants/plantstatsrenderer.luac" />
+    <lua name="PlantProductionStats.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/plants/plantproductionstats.luac" />
+    <lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/states/state_mainmenu.luac" />
+    <lua name="InventoryChecker.lua" deferred_loading="false" protected="true" file="minigames/farm_planting/lua/utilities/inventorychecker.luac" />
+  </local>
+  <external />
+</resources>

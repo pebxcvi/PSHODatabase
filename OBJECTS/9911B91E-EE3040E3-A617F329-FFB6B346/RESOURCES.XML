@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/commoct_plasmaball/models/CommOct_PlasmaBallV1.mdl" />
+		<model name="CommOct_PlasmaBallV1_Core.mdl" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_plasmaball/models/CommOct_PlasmaBallV1_Core.mdl" />
+		<particle name="plasmaBall.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_plasmaball/ATGParticles/plasmaBall.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_plasmaball/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/commoct_plasmaball/models/CommOct_PlasmaBallV1.hkx" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_plasmaball/programming/MyPad.lua" />
+		<lua name="plasmaBall.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_plasmaball/programming/plasmaBall.lua" />
+		<lua name="core.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_plasmaball/programming/core.lua" />
+	</local>
+	<external />
+</resources>

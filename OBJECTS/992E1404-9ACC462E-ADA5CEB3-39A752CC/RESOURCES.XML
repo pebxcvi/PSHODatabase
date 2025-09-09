@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="GiftTerminal.mdl" deferred_loading="false" protected="false" file="furniture/casino_giftterminal/GiftTerminal.mdl" />
+		<texture name="buttonDisable.dds" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/textures/buttonDisable.dds" />
+		<texture name="buttonNormal.dds" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/textures/buttonNormal.dds" />
+		<texture name="buttonPressed.dds" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/textures/buttonPressed.dds" />
+		<texture name="scrollBar.dds" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/textures/scrollBar.dds" />
+		<texture name="chipHighlight.dds" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/textures/chipHighlight.dds" />
+		<texture name="giftBG.dds" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/textures/giftBG.dds" />
+		<texture name="buttonPrevSelection.dds" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/textures/buttonPrevSelection.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/ChipGiftMachine/file/Network.xml" />
+		<collision name="GiftTerminal.hkx" deferred_loading="false" protected="false" file="furniture/casino_giftterminal/GiftTerminal.hkx" />
+		<soundbank name="ChipGiftMachine.bnk" deferred_loading="true" protected="false" file="MiniGames/ChipGiftMachine/sound/ChipGiftMachine.bnk" />
+		<lua name="ChipGiftMachine" deferred_loading="false" protected="true" file="MiniGames/ChipGiftMachine/lua/ChipGiftMachine.lua" />
+		<lua name="KeyMaster" deferred_loading="false" protected="true" file="MiniGames/Libs/KeyMaster.lua" />
+		<lua name="SoundPlayer" deferred_loading="false" protected="true" file="MiniGames/BlackJack/SoundPlayer.lua" />
+	</local>
+	<external />
+</resources>

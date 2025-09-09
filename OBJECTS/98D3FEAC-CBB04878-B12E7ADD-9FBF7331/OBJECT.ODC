@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.75.0.85.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>98D3FEAC-CBB04878-B12E7ADD-9FBF7331</uuid>
+  <name lang="en-GB" default="true">Park Trash Can Reward</name>
+  <name lang="fr-FR" default="false">Trophée poubelle de parc</name>
+  <name lang="de-DE" default="false">Belohnung: Abfalleimer</name>
+  <name lang="it-IT" default="false">Premio Cestino immondizia del Parco</name>
+  <name lang="es-ES" default="false">Premio Papelera del parque</name>
+  <description lang="en-GB" default="true">A trash can furniture item.\nRewarded in Acorn Meadows Park for completing the challenge 'Hey, Big Spender!'. [#Legal]</description>
+  <description lang="fr-FR" default="false">Une poubelle.\nÀ gagner dans le parc Acorn Meadows en remportant le défi « Salut, gros dépensier ! ». [#Legal]</description>
+  <description lang="de-DE" default="false">Parkobjekt Abfalleimer.\nBelohnung für den erfolgreichen Abschluss der Herausforderung "Hey, Big Spender!". [#Legal]</description>
+  <description lang="it-IT" default="false">Articolo accessorio del cestino dell'immondizia.\nPremiato su Acorn Meadows Park per aver completato la sfida "Ehi, Spendaccione!". [#Legal]</description>
+  <description lang="es-ES" default="false">Artículo mobiliario, una papelera.\nRecompensa en el Parque de Campo Bellotas por completar el reto "¡Eh, Derrochador!" [#Legal]</description>
+  <maker lang="en-GB" default="true">VEEMEE</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T034.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T034.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T034.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>B8C9D182</timestamp>
+</odc>
