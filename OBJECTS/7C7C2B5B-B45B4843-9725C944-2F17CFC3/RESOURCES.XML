@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Swimming/Network.xml" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Swimming/file/config.xml" />
+		<anim name="f_cold_idle_anim" deferred_loading="false" file="animation/female/cold_f_01.ani" />
+		<anim name="m_cold_idel_anim" deferred_loading="false" file="animation/male/cold_m_01.ani" />
+		<anim name="run.ani" deferred_loading="false" protected="false" file="Locomotion/Swimming/anim/Male_Run.ani" memory="host" />
+		<anim name="idle.ani" deferred_loading="false" protected="false" file="Locomotion/Swimming/anim/Male_Idle.ani" />
+		<anim name="fidle.ani" deferred_loading="false" protected="false" file="Locomotion/Swimming/anim/Female_Idle.ani" memory="host" />
+		<anim name="frun.ani" deferred_loading="false" protected="false" file="Locomotion/Swimming/anim/Female_Run.ani" memory="main" />
+		<repertoire name="male" deferred_loading="false" file="Locomotion/Swimming/repertoire/male.xml" />
+		<repertoire name="female" deferred_loading="false" file="Locomotion/Swimming/repertoire/female.xml" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Swimming/main.lua" />
+		<lua name="plane.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Swimming/plane.lua" />
+		<lua name="underwater.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Swimming/underwater.lua" />
+	</local>
+</resources>

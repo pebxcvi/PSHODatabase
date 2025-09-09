@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Casino_AnniversaryCake.mdl" deferred_loading="true" protected="false" file="furniture/casino_anniversarycake/Casino_AnniversaryCake.mdl" />
+		<model name="Casino_AnniversaryCake_Lid.mdl" deferred_loading="true" protected="false" file="furniture/casino_anniversarycake/Casino_AnniversaryCake_Lid.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/SurpriseCakeObject/file/Network.xml" />
+		<collision name="Casino_AnniversaryCake.hkx" deferred_loading="true" protected="false" file="furniture/casino_anniversarycake/Casino_AnniversaryCake.hkx" />
+		<anim name="Casino_AnniversaryCake_Lid.ani" deferred_loading="true" protected="false" file="furniture/casino_anniversarycake/Casino_AnniversaryCake_Lid.ani" />
+		<anim name="Casino_AnniversaryCake_Surprise" deferred_loading="false" protected="false" file="animation/male/casino_anniversarycake_surprise/Casino_AnniversaryCake_Surprise.ani" />
+		<anim name="Casino_AnniversaryCake_FSurpris" deferred_loading="false" protected="false" file="animation/female/casino_anniversarycake_fsurpris/Casino_AnniversaryCake_FSurpris.ani" />
+		<skeleton name="Casino_AnniversaryCake_Lid.skn" deferred_loading="true" protected="false" file="furniture/casino_anniversarycake/Casino_AnniversaryCake_Lid.skn" />
+		<repertoire name="MaleRepertoire" deferred_loading="true" protected="false" file="MiniGames/SurpriseCake/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="true" protected="false" file="MiniGames/SurpriseCake/FemaleRepertoire.xml" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="MiniGames/SurpriseCake/MaleEmotes.xml" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="MiniGames/SurpriseCake/FemaleEmotes.xml" />
+		<lua name="SurpriseCakeObject.lua" deferred_loading="false" protected="true" file="MiniGames/SurpriseCakeObject/lua/SurpriseCakeObject.lua" />
+		<lua name="KeyMaster" deferred_loading="false" protected="true" file="MiniGames/Libs/KeyMaster.lua" />
+	</local>
+	<external />
+</resources>

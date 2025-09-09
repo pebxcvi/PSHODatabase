@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/ThreeDPrinter_CommercePink.mdl" memory="host" />
+		<model name="Icon_Active_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Active.mdl" memory="host" />
+		<model name="Icon_Apartment_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Apartment.mdl" memory="host" />
+		<model name="Icon_Arcade_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Arcade.mdl" memory="host" />
+		<model name="Icon_Bundle_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Bundle.mdl" memory="host" />
+		<model name="Icon_Clothing_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Clothing.mdl" memory="host" />
+		<model name="Icon_Companion_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Companion.mdl" memory="host" />
+		<model name="Icon_Furniture_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Furniture.mdl" memory="host" />
+		<model name="Icon_Locomotion_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Locomotion.mdl" memory="host" />
+		<model name="Icon_Portable_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Icon_Portable.mdl" memory="host" />
+		<model name="Tray_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Tray_CommercePink.mdl" />
+		<model name="Block_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/PowderBlock_CommercePink.mdl" />
+		<model name="LidModel" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Lid_CommercePink.mdl" />
+		<model name="Attention_Light_Model" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/AttentionLight.mdl" />
+		<texture name="ShopSelection" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ShopSelection.dds" />
+		<texture name="ShopArrowDown" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowDown.dds" />
+		<texture name="ShopArrowUp" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowUp.dds" />
+		<texture name="ShopBoughtIcon" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/BoughtIcon.dds" />
+		<texture name="ShopFrame" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Frame.dds" />
+		<texture name="Background" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/MainPanel.dds" />
+		<texture name="SpotlightMask" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/SpotlightMask.dds" />
+		<texture name="MainRightPanel" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/StartPageImage.dds" />
+		<texture name="MainButtonPanel" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/MedBox.dds" />
+		<texture name="MainPrintIcon" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Icon_Print.dds" />
+		<texture name="MainStoreIcon" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Icon_PSStore.dds" />
+		<texture name="MainGiftIcon" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Icon_Gifts.dds" />
+		<texture name="SelecterMedium" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Selecter_MedBox.dds" />
+		<texture name="GiftSendIcon" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Icon_GiftSend.dds" />
+		<texture name="GiftRejectIcon" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Icon_GiftRejected.dds" />
+		<texture name="GiftReceiveIcon" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Icon_GiftReceive.dds" />
+		<texture name="GiftRightPanel" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/GiftsPageImage.dds" />
+		<texture name="MainTopPanel" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/LongBox.dds" />
+		<texture name="GiftAcceptRejectButton" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/GiftAcceptReject.dds" />
+		<texture name="GiftAcceptRejectSelect" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/GiftAcceptReject_Selecter.dds" />
+		<texture name="ShopBackground" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/TokenShop_Background.dds" />
+		<texture name="Splash" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/Splash.dds" />
+		<texture name="GiftRejectedImage" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/GiftRejected_Image.dds" />
+		<texture name="InstructionsPanel" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/InstructionsPanel.dds" />
+		<texture name="GiftAcceptRejectButtonGreyed" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/GiftAcceptReject_Greyed.dds" />
+		<texture name="ListBox" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/textures/ListBox.dds" />
+		<texture name="ShopFemale" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/Female.dds" memory="host" />
+		<texture name="ShopMale" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/Male.dds" memory="host" />
+		<texture name="ShopUniSex" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/Unisex.dds" memory="host" />
+		<texture name="ShopNewIcon" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/NewIcon.dds" memory="host" />
+		<texture name="ShopGradient" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/TextGradient.dds" />
+		<texture name="ShopScrollbar" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/Scrollbar.dds" />
+		<texture name="veemee" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/textures/Thumbnails/veemee.png" />
+		<particle name="Laser_Effect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/3DprinterLaser.efx" memory="host" />
+		<particle name="Finish_effect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/3DprinterExplode.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/Network.xml" memory="host" />
+		<file name="VEEMEE_font" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/fonts/VEEMEE.ttf" memory="host" />
+		<collision name="ActiveCollision" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/ThreeDPrinter.hkx" memory="host" />
+		<anim name="LidOpen" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Lid_Open.ani" memory="host" />
+		<anim name="LidClosed" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Lid_Closed.ani" memory="host" />
+		<skeleton name="LidSkeleton" deferred_loading="false" protected="false" file="MiniGames/3DPrinter/models/Lid.skn" memory="host" />
+		<soundbank name="sounds" deferred_loading="true" protected="false" file="MiniGames/3DPrinter/sound/sounds.bnk" memory="host" />
+		<lua name="VHTTPRequest.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Framework/VHTTPRequest.luac" memory="host" />
+		<lua name="class.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Framework/class.luac" memory="host" />
+		<lua name="VLog.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Framework/VLog.luac" memory="host" />
+		<lua name="JSONUtility.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Framework/JSONUtility.luac" memory="host" />
+		<lua name="ServerMessageManager.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Framework/ServerMessageManager.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Framework/Utility.luac" memory="host" />
+		<lua name="Sound.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Sound.luac" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/3DPrinter/lua/Main.luac" memory="host" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Game.luac" />
+		<lua name="Pad.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Pad.luac" memory="host" />
+		<lua name="Anim.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Anim.luac" memory="host" />
+		<lua name="Menu.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Menu.luac" memory="host" />
+		<lua name="Gifting.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Gifting.luac" memory="host" />
+		<lua name="ParticleEffect.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/ParticleEffect.luac" memory="host" />
+		<lua name="Timer.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Timer.luac" memory="host" />
+		<lua name="Lights.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Lights.luac" memory="host" />
+		<lua name="ClippedText.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Framework/ClippedText.luac" memory="host" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="MiniGames/3DPrinter/lua/Framework/Core.luac" memory="host" />
+		<lua name="Commerce.lua" deferred_loading="true" protected="true" file="MiniGames/3DPrinter/lua/Commerce.luac" memory="host" />
+	</local>
+	<external />
+</resources>

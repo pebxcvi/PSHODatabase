@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="plinthGround_mdl" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/plinthGround.mdl" />
+		<model name="Tree_mdl" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/model/Tree.mdl" />
+		<model name="Flusho_mdl" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/model/Flusho.mdl" />
+		<model name="Tree_Trumpet_mdl" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/model/Tree_Trumpet.mdl" />
+		<model name="Spunland_logo_mdl" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/Spunland_logo.mdl" />
+		<model name="Spunland_logo_spiral_mdl" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/Spunland_logo_spiral.mdl" />
+		<model name="Rabbit_Expressions_mdl" deferred_loading="false" protected="false" file="animatedmodels/spunland_rabbit/model/Rabbit_Expressions.mdl" />
+		<model name="plinthGrass_mdl" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/plinthGrass.mdl" />
+		<particle name="trumpetPetals_Orange" deferred_loading="false" protected="false" file="environments/Spunland/ATGParticles/trumpetPetals_Orange_limited.efx" />
+		<anim name="Tree_Bopping" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/anim/Tree_Bopping.ani" />
+		<anim name="Flusho_Burp" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Burp.ani" />
+		<anim name="Flusho_Chew_Front" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Chew_Front.ani" />
+		<anim name="Flusho_Grazing" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Grazing.ani" />
+		<anim name="Flusho_Idle" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Idle.ani" />
+		<anim name="Flusho_Look_Chew_Left" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Look_Chew_Left.ani" />
+		<anim name="Flusho_Look_Chew_Right" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Look_Chew_Right.ani" />
+		<anim name="Flusho_Shake" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Shake.ani" />
+		<anim name="Flusho_Walk" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/anim/Flusho_Walk.ani" />
+		<anim name="Tree_Wobble" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/anim/Tree_Wobble.ani" />
+		<anim name="Trumpet_CodeScale" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_CodeScale.ani" />
+		<anim name="Trumpet_Fanfair" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Fanfair.ani" />
+		<anim name="Trumpet_Grow" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Grow.ani" />
+		<anim name="Trumpet_Grow_Idle" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Grow_Idle.ani" />
+		<anim name="Rabbit_Stationary_Bounce" deferred_loading="false" protected="false" file="animatedmodels/spunland_rabbit/anim/Rabbit_Stationary_Bounce.ani" />
+		<anim name="Rabbit_Hopping_Mad_01" deferred_loading="false" protected="false" file="animatedmodels/spunland_rabbit/anim/Rabbit_Hopping_Mad_01.ani" />
+		<skeleton name="Tree_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/skeleton/Tree.skn" />
+		<skeleton name="Flusho_skn" deferred_loading="false" protected="false" file="animatedmodels/spunland_flusho/skeleton/Flusho.skn" />
+		<skeleton name="Tree_Trumpet_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/skeleton/Tree_Trumpet.skn" />
+		<skeleton name="Rabbit_Spunner_skn" deferred_loading="false" protected="false" file="animatedmodels/spunland_rabbit/skeleton/Rabbit_Spunner.skn" />
+		<soundbank name="relocSoundz" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/audio/relocSoundz.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/MiniGame.lua" />
+		<lua name="cSpunTree" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/cSpunTree.lua" />
+		<lua name="cWorldManager" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/cWorldManager.lua" />
+		<lua name="SpunPlinthData" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/SpunPlinthData.lua" />
+		<lua name="supportFunctions" deferred_loading="false" protected="true" file="Spunland/SharedScripts/supportFunctions.lua" />
+		<lua name="cFlusho" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/cFlusho.lua" />
+		<lua name="cSpunLogo" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/cSpunLogo.lua" />
+		<lua name="cRabbit" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/cRabbit.lua" />
+		<lua name="cVectorBlend" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlend.lua" />
+		<lua name="cGround" deferred_loading="false" protected="true" file="MiniGames/SpunlandRelocator/lua/cGround.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<anim name="anm_F_shio_shirimoti_01.ani" deferred_loading="false" protected="false" file="LG_whale/cmn_design/motion/anm_F_shio_shirimoti_01.ani" />
+		<anim name="anm_M_shio_shirimoti_01.ani" deferred_loading="false" protected="false" file="LG_whale/cmn_design/motion/anm_M_shio_shirimoti_01.ani" />
+		<anim name="anm_F_fall_01_lp.ani" deferred_loading="false" protected="false" file="LG_whale/cmn_design/motion/anm_F_fall_01_lp.ani" />
+		<anim name="anm_M_fall_01_lp.ani" deferred_loading="false" protected="false" file="LG_whale/cmn_design/motion/anm_M_fall_01_lp.ani" />
+		<soundbank name="blow.bnk" deferred_loading="false" protected="false" file="LG_whale/sound/blow.bnk" />
+		<repertoire name="mail" deferred_loading="false" protected="false" file="LG_whale/soft_jp_00/SpoutWaterFalling/file/mail.xml" />
+		<repertoire name="femail" deferred_loading="false" protected="false" file="LG_whale/soft_jp_00/SpoutWaterFalling/file/femail.xml" />
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/MgMain.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/MiniGame.lua" />
+		<lua name="RelocateValueParam.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/RelocateValueParam.lua" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/Data.lua" />
+		<lua name="quake_data.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/quake_data.lua" />
+		<lua name="yure.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/yure.lua" />
+		<lua name="quake.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/quake.lua" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/CoroutineManager.lua" />
+		<lua name="UtilDebug.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDebug.lua" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" />
+		<lua name="UtilFade.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFade.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilGarbage.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Log.lua" />
+		<lua name="SpoutWaterFallingIF.lua" deferred_loading="false" protected="true" file="LG_whale/soft_jp_00/SpoutWaterFalling/lua/SpoutWaterFallingIF.lua" />
+	</local>
+	<external />
+</resources>

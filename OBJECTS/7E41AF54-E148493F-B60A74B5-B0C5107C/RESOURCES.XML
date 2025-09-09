@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/FARM_F_FineHarp.mdl" memory="host" />
+    <model name="WINT12_MusicBox_Gold_Lid.mdl" deferred_loading="false" protected="false" file="furniture/farm_musicbox/FARM_MusicBox_Lid.mdl" memory="host" />
+    <particle name="Gold_Music.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/WINT12/Gold_Music.efx" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/lua/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/FARM_F_FineHarp.hkx" memory="host" />
+    <soundstream name="nutcracker_01.mp3" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/music/harp_01.mp3" memory="host" />
+    <soundstream name="nutcracker_02.mp3" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/music/harp_02.mp3" memory="host" />
+    <soundstream name="nutcracker_03.mp3" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/music/harp_03.mp3" memory="host" />
+    <soundstream name="nutcracker_04.mp3" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/music/harp_04.mp3" memory="host" />
+    <soundstream name="nutcracker_05.mp3" deferred_loading="false" protected="false" file="furniture/farm_f_fineharp/music/harp_05.mp3" memory="host" />
+    <lua name="Gold_Main.lua" deferred_loading="false" protected="true" file="furniture/farm_f_fineharp/lua/harp_main.luac" memory="host" />
+  </local>
+  <external />
+</resources>

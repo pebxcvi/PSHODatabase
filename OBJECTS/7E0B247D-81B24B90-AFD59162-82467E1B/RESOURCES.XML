@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="wing03_Dragon.mdl" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_wing03/model/wing03_Dragon.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_wing03_fly/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03_fly/anim/idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03_fly/anim/move.ani" memory="host" />
+		<anim name="wing_flap.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03/anim/wing_flap.ani" memory="host" />
+		<anim name="wing_flapidle.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03/anim/wing_flapidle.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03_fly/anim/fmove.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03_fly/anim/fidle.ani" memory="host" />
+		<skeleton name="wing03_Dragon.skn" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03/skeleton/wing03_Dragon.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_wing03_fly/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_wing03_fly/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03_fly/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_wing03_fly/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/AvatarItem_wing03_fly/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

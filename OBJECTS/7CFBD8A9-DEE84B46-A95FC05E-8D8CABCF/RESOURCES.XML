@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Round_Bike/model/Loot_MIB_Monocycle_LOD.mdl" memory="host" />
+		<model name="Wheel_Idle.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Round_Bike/model/Wheel_Idle.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Round_Bike/file/config.xml" memory="host" />
+		<anim name="MIB_BIKE_Refrence_Right" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Refrence_Right.ani" />
+		<anim name="MIB_BIKE_Refrence_Move" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Refrence_Move.ani" />
+		<anim name="MIB_BIKE_Refrence_Left" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Refrence_Left.ani" />
+		<anim name="MIB_BIKE_Refrence_Idle" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Refrence_Idle.ani" />
+		<anim name="Wheel_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/Wheel_Idle.ani" />
+		<anim name="Wheel_Steady.ani" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/Wheel_Steady.ani" />
+		<anim name="MIB_BIKE_Female_Right" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Female_Right.ani" />
+		<anim name="MIB_BIKE_Female_Move" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Female_Move.ani" />
+		<anim name="MIB_BIKE_Female_Left" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Female_Left.ani" />
+		<anim name="MIB_BIKE_Female_Idle" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/anim/MIB_BIKE_Female_Idle.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/skeleton/Loot_MIB_Monocycle_LOD.skn" memory="host" />
+		<skeleton name="Wheel_Idle.skn" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Round_Bike/skeleton/Wheel_Idle.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Round_Bike/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Loot_MIB_Round_Bike/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

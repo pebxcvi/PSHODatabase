@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/VEEMEE_Rewards/lua/MiniGame.luac" memory="main" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="MiniGames/VEEMEE_Rewards/lua/Game.luac" memory="host" />
+		<lua name="JSONUtility.lua" deferred_loading="true" protected="true" file="MiniGames/VEEMEE_Rewards/lua/JSONUtility.luac" memory="host" />
+		<lua name="StringUtility.lua" deferred_loading="true" protected="true" file="MiniGames/VEEMEE_Rewards/lua/StringUtility.luac" memory="host" />
+		<lua name="VHTTPRequest.lua" deferred_loading="true" protected="true" file="MiniGames/VEEMEE_Rewards/lua/VHTTPRequest.luac" memory="host" />
+		<lua name="VLog.lua" deferred_loading="true" protected="true" file="MiniGames/VEEMEE_Rewards/lua/VLog.luac" memory="host" />
+		<lua name="ConfigManager.lua" deferred_loading="true" protected="true" file="MiniGames/VEEMEE_Rewards/lua/ConfigManager.luac" memory="host" />
+		<lua name="Stats.lua" deferred_loading="true" protected="true" file="MiniGames/VEEMEE_Rewards/lua/Stats.luac" memory="host" />
+	</local>
+	<external />
+</resources>

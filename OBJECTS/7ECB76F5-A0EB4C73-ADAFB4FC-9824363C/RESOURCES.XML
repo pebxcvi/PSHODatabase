@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="osd_types" deferred_loading="false" file="IremA8/soft_asia_00/PACHIDAI/OSD/osd_types.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremA8/soft_asia_00/PACHIDAI/OSD/WndTabSelectDialog.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremA8/soft_asia_00/PACHIDAI/OSD/WndTab.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremA8/soft_asia_00/PACHIDAI/OSD/WndTabMessageDialog.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremA8/soft_asia_00/PACHIDAI/OSD/SelectionButton.xml" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" file="IremA8/soft_asia_00/PACHIDAI/OSD/WndMessageDialog.xml" />
+		<file name="WndSimpleMenuDialog.xml" deferred_loading="false" file="IremA8/soft_asia_00/PACHIDAI/OSD/WndSimpleMenuDialog.xml" />
+		<anim name="a8_male_suwari_start" deferred_loading="true" file="IremA8/design/scenes/motion/a8_male_suwari_start.ani" />
+		<anim name="a8_male_suwari_gyogun" deferred_loading="true" file="IremA8/design/scenes/motion/a8_male_suwari_gyogun.ani" />
+		<anim name="A8_Male_suwari_haibi" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Male_suwari_haibi.ani" />
+		<anim name="A8_Male_suwari_button" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Male_suwari_button.ani" />
+		<anim name="A8_Male_suwari_gutsy" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Male_suwari_gutsy.ani" />
+		<anim name="A8_Male_suwari_nozoki" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Male_suwari_nozoki.ani" />
+		<anim name="A8_Male_suwari_block" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Male_suwari_block.ani" />
+		<anim name="A8_Male_suwari_doruboxtumi" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Male_suwari_doruboxtumi.ani" />
+		<anim name="A8_Female_suwari_start" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_start.ani" />
+		<anim name="A8_Female_suwari_gyogun" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_gyogun.ani" />
+		<anim name="A8_Female_suwari_haibi" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_haibi.ani" />
+		<anim name="A8_Female_suwari_button" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_button.ani" />
+		<anim name="A8_Female_suwari_gutsy" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_gutsy.ani" />
+		<anim name="A8_Female_suwari_nozoki" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_nozoki.ani" />
+		<anim name="A8_Female_suwari_block" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_block.ani" />
+		<anim name="A8_Female_suwari_doruboxtumi" deferred_loading="true" file="IremA8/design/scenes/motion/A8_Female_suwari_doruboxtumi.ani" />
+		<repertoire name="repertoire_m_pachidai" deferred_loading="true" file="objects/A00A1F53-DAAE4431-A3FF178E-10958913/repertoire_m_pachidai.xml" />
+		<repertoire name="repertoire_f_pachidai" deferred_loading="true" file="objects/A00A1F53-DAAE4431-A3FF178E-10958913/repertoire_f_pachidai.xml" />
+		<lua name="main" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/main.lua" />
+		<lua name="LuaTask" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/LuaTask.lua" />
+		<lua name="LuaMemblock" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/LuaMemblock.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/LuaPadUtil.lua" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/LuaUtil.lua" />
+		<lua name="gameflow" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/gameflow.lua" />
+		<lua name="gameact" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/gameact.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/DialogTabSelectS.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/DialogTab.lua" />
+		<lua name="ui" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/ui.lua" />
+		<lua name="LuaSingleEvent.lua" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/LuaSingleEvent.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremA8/soft_asia_00/PACHIDAI/DialogBasicS.lua" />
+	</local>
+	<external />
+</resources>

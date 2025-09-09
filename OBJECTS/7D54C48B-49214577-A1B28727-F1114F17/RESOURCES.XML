@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremSougen/soft_jp_00/Chest/OSD/WndTabSelectDialog.xml" memory="host" />
+		<file name="osd_types.xml" deferred_loading="false" file="IremSougen/soft_jp_00/Chest/OSD/osd_types.xml" memory="host" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremSougen/soft_jp_00/Chest/OSD/WndTab.xml" memory="host" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremSougen/soft_jp_00/Chest/OSD/WndTabMessageDialog.xml" memory="host" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremSougen/soft_jp_00/Chest/OSD/SelectionButton.xml" memory="host" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" file="IremSougen/soft_jp_00/Chest/OSD/WndMessageDialog.xml" memory="host" />
+		<file name="WndSelectDialog.xml" deferred_loading="false" protected="false" file="IremSougen/soft_jp_00/Chest/OSD/WndSelectDialog.xml" memory="host" />
+		<lua name="chest.lua" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/chest.lua" />
+		<lua name="Race" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/Race.lua" />
+		<lua name="LuaTask" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/LuaLib/LuaTask.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/LuaLib/LuaPadUtil.lua" />
+		<lua name="LuaMemblock" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/LuaLib/LuaMemblock.lua" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/LuaLib/LuaUtil.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/Dialog/DialogTab.lua" />
+		<lua name="LuaEvent" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/LuaLib/LuaEvent.lua" />
+		<lua name="Fade" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/Fade.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/LuaLib/LuaSingleEvent.lua" />
+		<lua name="DialogTabSelectS" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/Dialog/DialogTabSelectS.lua" />
+		<lua name="DialogBasicS" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/Dialog/DialogBasicS.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/Chest/main.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/DataStation/dataInterface.lua" />
+	</local>
+	<external />
+</resources>

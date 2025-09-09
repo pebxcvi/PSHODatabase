@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ACTIVE_VirtualCamera_off.mdl" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_off/ACTIVE_VirtualCamera_off.mdl" />
+		<model name="Stage_VirtualCamera_Off.mdl" deferred_loading="false" protected="false" file="furniture/Stage_VirtualCamera_Off/Stage_VirtualCamera_Off.mdl" />
+		<model name="Stage_VirtualCamera_On.mdl" deferred_loading="false" protected="false" file="furniture/stage_virtualcamera_on/Stage_VirtualCamera_On.mdl" />
+		<model name="ACTIVE_VirtualCamera_On.mdl" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_on/ACTIVE_VirtualCamera_On.mdl" />
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/model/ActiveModel.mdl" />
+		<model name="Telescope_white.mdl" deferred_loading="false" protected="false" file="furniture/telescope/Telescope_white.mdl" />
+		<texture name="stage_cubemap_grey.dds.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_cubemap_grey.dds.dds" />
+		<texture name="stage_spotlight_tripod_c.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_spotlight_tripod_c.dds" />
+		<texture name="stage_spotlight_tripod_n.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_spotlight_tripod_n.dds" />
+		<texture name="stage_spotlight_tripod_s.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_spotlight_tripod_s.dds" />
+		<texture name="stage_virtualcamera_c2alpha.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_virtualcamera_c2alpha.dds" />
+		<texture name="stage_virtualcamera_c.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_virtualcamera_c.dds" />
+		<texture name="stage_virtualcamera_off_c.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_virtualcamera_off_c.dds" />
+		<texture name="stage_virtualcamera_on_c.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_virtualcamera_on_c.dds" />
+		<texture name="Camera_english_800x400.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/Camera_english_800x400.dds" />
+		<texture name="Camera_frenchFR_800x400.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/Camera_frenchFR_800x400.dds" />
+		<texture name="stage_camera_c.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_camera_c.dds" />
+		<texture name="stage_camera_n.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_camera_n.dds" />
+		<texture name="Stage_Camera_Overlay1.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/Stage_Camera_Overlay1.dds" />
+		<texture name="Stage_Camera_Overlay2.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/Stage_Camera_Overlay2.dds" />
+		<texture name="stage_camera_s.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_camera_s.dds" />
+		<texture name="stage_cubemap_grey.dds" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/Texture/stage_cubemap_grey.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/file/Network.xml" />
+		<file name="basicPanel.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/OSD/basicPanel.xml" />
+		<file name="basictext.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/OSD/basictext.xml" />
+		<file name="textpanel.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/OSD/textpanel.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/OSD/types.xml" />
+		<file name="userInstructionLegend.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Photo_Telescope_White/OSD/userInstructionLegend.xml" />
+		<collision name="Telescope_white.hkx" deferred_loading="false" protected="false" file="furniture/telescope/Telescope_white.hkx" />
+		<collision name="Stage_VirtualCamera_On.hkx" deferred_loading="false" protected="false" file="furniture/stage_virtualcamera_on/Stage_VirtualCamera_On.hkx" />
+		<collision name="Stage_VirtualCamera_Off.hkx" deferred_loading="false" protected="false" file="furniture/Stage_VirtualCamera_Off/Stage_VirtualCamera_Off.hkx" />
+		<collision name="ACTIVE_VirtualCamera_off.hkx" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_off/ACTIVE_VirtualCamera_off.hkx" />
+		<collision name="ACTIVE_VirtualCamera_On.hkx" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_on/ACTIVE_VirtualCamera_On.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Photo_Telescope_White/lua/MiniGame.lua" />
+		<lua name="VirtualCamera.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Photo_Telescope_White/lua/VirtualCamera/VirtualCamera.lua" />
+		<lua name="OSDCameraProperties.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Photo_Telescope_White/lua/OSD/OSDCameraProperties.lua" />
+		<lua name="UserOSD.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Photo_Telescope_White/lua/OSD/UserOSD.lua" />
+		<lua name="UserOSDInfoBox.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Photo_Telescope_White/lua/OSD/UserOSDInfoBox.lua" />
+		<lua name="UserOSDInstruction.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Photo_Telescope_White/lua/OSD/UserOSDInstruction.lua" />
+		<lua name="Message.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Photo_Telescope_White/lua/Message/Message.lua" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Network/MiniGame/MsgManager/MessageManager.lua" />
+		<lua name="MessageData.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Network/MiniGame/MsgManager/MessageData.lua" />
+		<lua name="Vector.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Vector.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Class.lua" />
+		<lua name="Hashtable.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Hashtable.lua" />
+		<lua name="Stack.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Stack.lua" />
+		<lua name="ExTimer.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Concurrency/ExTimer.lua" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Debugger.lua" />
+	</local>
+	<external />
+</resources>

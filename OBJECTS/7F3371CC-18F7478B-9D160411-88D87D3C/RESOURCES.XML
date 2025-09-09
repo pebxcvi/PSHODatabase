@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="osd_types.xml" deferred_loading="false" file="IremLounge/soft/NPC_XA_009/version3/osd_types.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTabSelectDialog.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremLounge/soft/OSD/SelectionButton.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTab.xml" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" protected="false" file="IremLounge/soft/OSD/WndMessageDialog.xml" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="IremLounge/soft/Dialog/DialogTabSelectS.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremLounge/soft/NPC_XA_009/version3/DialogBasicS.lua" />
+		<lua name="npc_present_item.lua" deferred_loading="false" protected="true" file="IremLounge/soft/NPC/npc_present_item_S.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremLounge/soft/LuaPadUtil.lua" />
+		<lua name="NPC_XA_009.lua" deferred_loading="false" protected="true" file="IremLounge/soft/NPC_XA_009/version3/NPC_XA_009_NARITAN.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremLounge/soft/NPC_XA_009/version3/main.lua" />
+		<lua name="Xmas2010.lua" deferred_loading="false" protected="true" file="IremLounge/soft/Xmas2010.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="IremLounge/soft/LuaSingleEvent.lua" />
+	</local>
+	<external />
+</resources>

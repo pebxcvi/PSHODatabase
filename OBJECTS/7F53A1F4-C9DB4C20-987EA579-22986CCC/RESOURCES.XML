@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Background.dds" deferred_loading="false" protected="false" file="assets/RaidSetup/Background.dds" />
+		<texture name="RaidPreviewPlaceholder.dds" deferred_loading="false" protected="false" file="assets/RaidSetup/RaidPreviewPlaceholder.dds" />
+		<texture name="hilightBar.dds" deferred_loading="false" protected="false" file="assets/RaidSetup/hilightBar.dds" />
+		<texture name="RaidListBackground.dds" deferred_loading="false" protected="false" file="assets/RaidSetup/RaidListBackground.dds" />
+		<texture name="ScrollIndicator.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/ScrollIndicator.dds" />
+		<texture name="SpinnerRotation.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/SpinnerRotation.dds" />
+		<texture name="Prompt.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/RaidFailedBackground.dds" />
+		<texture name="Raid_Popup.dds" deferred_loading="false" protected="false" file="assets/RaidSetup/Raid_Popup.dds" />
+		<texture name="RobotScreenshot.dds" deferred_loading="false" protected="false" file="assets/RaidSetup/RobotScreenshot.dds" />
+		<file name="resources.xml" deferred_loading="false" protected="false" file="objects/7F53A1F4-C9DB4C20-987EA579-22986CCC/resourcesCopy.xml" />
+		<file name="ui_audio.bnk.xml" deferred_loading="false" protected="false" file="assets/audio/ui_audio.bnk.xml" />
+		<anim name="RobotGuardHologram.ani" deferred_loading="false" protected="false" file="assets/robotguard/RobotGuardHologram.ani" />
+		<soundbank name="ui_audio.bnk" deferred_loading="false" protected="false" file="assets/audio/ui_audio.bnk" />
+		<lua name="RaidSetupMinigame.lua" deferred_loading="false" protected="true" file="MiniGames/RaidSetup/RaidSetupMinigame.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/StateMachine.lua" />
+		<lua name="WebServiceController.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebServiceController.lua" />
+		<lua name="WebUtilities.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebUtilities.lua" />
+		<lua name="XmlHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/XmlHelpers.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Queue.lua" />
+		<lua name="ControllerController.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/ControllerController.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Utility.lua" />
+		<lua name="Strings.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Strings.lua" />
+		<lua name="Hub.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Hub.lua" />
+	</local>
+	<external />
+</resources>

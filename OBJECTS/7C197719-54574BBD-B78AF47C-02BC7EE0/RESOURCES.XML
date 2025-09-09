@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Dragon.mdl" deferred_loading="true" protected="false" file="locomotion/04_apr-ajagara-ajagaras_peak-dragon_mount_red/Dragon_B.mdl" />
+		<model name="Dragon_LOD.mdl" deferred_loading="true" protected="false" file="locomotion/04_apr-ajagara-ajagaras_peak-dragon_mount_red/Dragon_B_LOD.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/file/config.xml" memory="host" />
+		<anim name="F_Fly" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/F_Fly.ani" memory="host" />
+		<anim name="F_Idle" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/F_Idle.ani" />
+		<anim name="F_Run" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/F_Run.ani" memory="host" />
+		<anim name="M_Fly" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/M_Fly.ani" memory="host" />
+		<anim name="M_Idle" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/M_Idle.ani" />
+		<anim name="M_Run" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/M_Run.ani" memory="host" />
+		<anim name="Dragon_Fly.ani" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/Dragon_Fly.ani" memory="host" />
+		<anim name="Dragon_Idle.ani" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/Dragon_Idle.ani" />
+		<anim name="Dragon_Run.ani" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/anim/Dragon_Run.ani" memory="host" />
+		<skeleton name="Dragon.skn" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/Dragon_B.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="locomotion/04_Apr-Ajagara-Ajagaras_Peak-Dragon_Mount_Black/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/model/Skateboard_BornLucky.mdl" memory="main" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/model/Skateboard_BornLucky.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/fidle.ani" memory="host" />
+		<anim name="special.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/Special3_NollieShuvit360.ani" memory="host" />
+		<anim name="board_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/board_Idle.ani" />
+		<anim name="board_move.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/board_move.ani" />
+		<anim name="FSpecial.ani" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/anim/fSpecial3_NollieShuvit360.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/skeleton/Skateboard_VEEMEE_1.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Skateboard_VEEMEE_1/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Skateboard_VEEMEE_1/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
