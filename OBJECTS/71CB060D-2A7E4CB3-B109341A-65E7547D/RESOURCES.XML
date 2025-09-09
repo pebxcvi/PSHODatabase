@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="asteroid_belt.mdl" deferred_loading="false" protected="false" file="environments/models/sky_balls/asteroid_belt.mdl" />
+    <model name="planet_01.mdl" deferred_loading="false" protected="false" file="environments/models/sky_balls/planet_01.mdl" />
+    <particle name="Fire_VIP_FirePit_1.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Fire_VIP_FirePit_1.efx" />
+    <particle name="Fire_VIP_FirePit_2.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Fire_VIP_FirePit_2.efx" />
+    <particle name="Fire_VIP_FirePit_3.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Fire_VIP_FirePit_3.efx" />
+    <particle name="Fire_VIP_FirePit_4.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Fire_VIP_FirePit_4.efx" />
+    <particle name="Fire_VIP_FirePit_5.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Fire_VIP_FirePit_5.efx" />
+    <particle name="steam_stack1.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/steam_stack1.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="Games/Public_Hexx_CentralManager/file/Network.xml" />
+    <collision name="Buildings_01.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Buildings_01.hkx" />
+    <collision name="Entry_Tower.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Entry_Tower.hkx" />
+    <collision name="Roads_01.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Roads_01.hkx" />
+    <collision name="Draw_Bridge_01.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Draw_Bridge_01.hkx" />
+    <collision name="Pine_Tree_01.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Pine_Tree_01.hkx" />
+    <collision name="Tower_01.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Tower_01.hkx" />
+    <collision name="barrell.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/barrell.hkx" />
+    <collision name="Bridge.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Bridge.hkx" />
+    <collision name="Bridge_extension.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Bridge_extension.hkx" />
+    <collision name="bridge_joiner.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/bridge_joiner.hkx" />
+    <collision name="Ramp.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Ramp.hkx" />
+    <collision name="Crate.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Crate.hkx" />
+    <collision name="Wagon_01.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Wagon_01.hkx" />
+    <collision name="Wheel_Barrow.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Wheel_Barrow.hkx" />
+    <collision name="Roads_02.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Roads_02.hkx" />
+    <collision name="Dragon_Statue.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Dragon_Statue.hkx" />
+    <collision name="Center_Dome.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Center_Dome.hkx" />
+    <collision name="Center_Platform_01.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Center_Platform_01.hkx" />
+    <collision name="Stained_Glass_Window.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Stained_Glass_Window.hkx" />
+    <collision name="Planter.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Planter.hkx" />
+    <collision name="rock_form_3.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/rock_form_3.hkx" />
+    <collision name="Bridge_Rock.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Bridge_Rock.hkx" />
+    <collision name="Chandelier_Large_01.hkx" deferred_loading="false" protected="false" file="assets/chandelier/Chandelier_Large_01.hkx" />
+    <collision name="HexxRoom_Access_Collide.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/HexxRoom_Access_Collide.hkx" />
+    <collision name="Lounge_Access_Collide.hkx" deferred_loading="false" protected="false" file="environments/avalon_spaces/assets_public_space_01/Lounge_Access_Collide.hkx" />
+    <soundbank name="CentralManager_Soundbank.bnk" deferred_loading="false" protected="false" file="Games/Public_Hexx_CentralManager/audio/CentralManager_Soundbank.bnk" />
+    <soundstream name="music3.mp3" deferred_loading="true" protected="false" file="Games/common/audio/music3.mp3" />
+    <soundstream name="music2.mp3" deferred_loading="true" protected="false" file="Games/common/audio/music2.mp3" />
+    <soundstream name="AMB_Exterior_wind.mp3" deferred_loading="false" protected="false" file="Games/common/audio/AMB_Exterior_wind.mp3" />
+    <soundstream name="music1.mp3" deferred_loading="true" protected="false" file="Games/common/audio/music1.mp3" memory="main" />
+    <lua name="Audio_Resources.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/audio_resources.luac" />
+    <lua name="CollisionManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/collisionmanager.luac" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/main.luac" />
+    <lua name="Main_Init.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/main_init.luac" />
+    <lua name="Main_LoadLua.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/main_loadlua.luac" />
+    <lua name="Main_Resources.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/main_resources.luac" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/messagemanager.luac" />
+    <lua name="OscillationManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/oscillationmanager.luac" />
+    <lua name="SoundManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/soundmanager.luac" />
+    <lua name="Audio_Component.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/audio_component.luac" />
+    <lua name="Core.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/core.luac" />
+    <lua name="EventManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/eventmanager.luac" />
+    <lua name="Misc.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/misc.luac" />
+    <lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/resourcemanager.luac" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/statemachine.luac" />
+    <lua name="Table_x.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/table_x.luac" />
+    <lua name="Util.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/util.luac" />
+    <lua name="Utility_NodeManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/utility_nodemanager.luac" />
+    <lua name="Utility_Oscillate.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/utility_oscillate.luac" />
+    <lua name="ParticleObject.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/scriptedobjects/particleobject.luac" />
+    <lua name="ScriptedObject.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/scriptedobjects/scriptedobject.luac" />
+    <lua name="ScriptedObject_Resources.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/scriptedobjects/scriptedobject_resources.luac" />
+    <lua name="ScriptedObjectManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/scriptedobjects/scriptedobjectmanager.luac" />
+    <lua name="Communicator.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/communicator/communicator.luac" />
+    <lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/communicator/communicator_projectdefined.luac" />
+    <lua name="AsyncCommandManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/communicator/asynccommandmanager.luac" />
+    <lua name="NPTCommunicator.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/communicator/nptcommunicator.luac" />
+    <lua name="Utility_SquarePanelIntersect.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/utility_squarepanelintersect.luac" />
+    <lua name="ZoneManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/zonemanager.luac" />
+    <lua name="Zone_Resources.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/zone_resources.luac" />
+    <lua name="FirePitManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/firepitmanager.luac" />
+    <lua name="Utility_TimeLerp.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/library/utility_timelerp.luac" />
+    <lua name="SkyManager.lua" deferred_loading="false" protected="true" file="games/public_hexx_centralmanager/lua/skymanager.luac" />
+  </local>
+  <external />
+</resources>

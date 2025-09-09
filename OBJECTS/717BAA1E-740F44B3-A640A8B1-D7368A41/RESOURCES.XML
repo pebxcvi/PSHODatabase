@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="phone.mdl" deferred_loading="true" protected="false" file="Locomotion/phone.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LMO_Texting/file/config.xml" memory="host" />
+		<anim name="Texting_Idle_M.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/anim/Texting_Idle_M.ani" memory="host" />
+		<anim name="Texting_Walk_M.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/anim/Texting_Walk_M.ani" memory="host" />
+		<anim name="Texting_Idle_F.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/anim/Texting_Idle_F.ani" memory="host" />
+		<anim name="Texting_Walk_F.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/anim/Texting_Walk_F.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Texting/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/LMO_Texting/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

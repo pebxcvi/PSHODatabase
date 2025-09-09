@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CUTT_Corn1x1.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Corn1x1.mdl" />
+		<model name="CUTT_Corn3X1.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Corn3X1.mdl" />
+		<model name="Cutteridge_Scarecrow_lowpoly_RIG.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/scarecrow/Cutteridge_Scarecrow_lowpoly_RIG.mdl" />
+		<model name="CUTT_Sythe.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Sythe.mdl" />
+		<model name="LANDMARK_cross.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_cross.mdl" />
+		<model name="LANDMARK_lantern.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_lantern.mdl" />
+		<model name="LANDMARK_pitchfork.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_pitchfork.mdl" />
+		<model name="LANDMARK_pumpking.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_pumpking.mdl" />
+		<model name="LANDMARK_wheel.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_wheel.mdl" />
+		<texture name="whiteout.dds" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/whiteout.dds" />
+		<texture name="CUTT_logomark.dds" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_2012_Generic/CUTT_logomark.dds" />
+		<particle name="Maze_Glow01.efx" deferred_loading="true" protected="false" file="Tools/AtgParticles/Cutterridge/Maze_Glow01.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Corn_Maze/file/Network.xml" />
+		<collision name="CUTT_Corn1x1.hkx" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Corn1x1.hkx" />
+		<collision name="CUTT_Corn3X1.hkx" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Corn3X1.hkx" />
+		<collision name="LANDMARK_cross.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_cross.hkx" />
+		<collision name="LANDMARK_lantern.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_lantern.hkx" />
+		<collision name="LANDMARK_pitchfork.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_pitchfork.hkx" />
+		<collision name="LANDMARK_pumpking.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_pumpking.hkx" />
+		<collision name="LANDMARK_wheel.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/maze_objects/LANDMARK_wheel.hkx" />
+		<anim name="Cutteridge_Scarecrow_Attack01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/scarecrow/Cutteridge_Scarecrow_Attack01.ani" />
+		<anim name="Cutteridge_Scarecrow_Idle01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/scarecrow/Cutteridge_Scarecrow_Idle01.ani" />
+		<anim name="Cutteridge_Scarecrow_Run.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/scarecrow/Cutteridge_Scarecrow_Run.ani" />
+		<anim name="Cutteridge_Scarecrow_Walk.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/scarecrow/Cutteridge_Scarecrow_Walk.ani" />
+		<anim name="CUTT_Corn3X1.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Corn3X1.ani" />
+		<anim name="CUTT_Sythe.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Sythe.ani" />
+		<anim name="CUTT_CornMaze_DeathCam.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CornMaze_DeathCam.ani" />
+		<anim name="CUTT_CornMaze_IntroCam01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CornMaze_IntroCam01.ani" />
+		<anim name="CUTT_CornMaze_IntroCam02.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CornMaze_IntroCam02.ani" />
+		<anim name="CUTT_CornMaze_IntroCam03.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CornMaze_IntroCam03.ani" />
+		<skeleton name="Cutteridge_Scarecrow_lowpoly_RIG.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/scarecrow/Cutteridge_Scarecrow_lowpoly_RIG.skn" />
+		<skeleton name="CUTT_Corn3X1.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Corn3X1.skn" />
+		<skeleton name="CUTT_Sythe.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Sythe.skn" />
+		<skeleton name="CUTT_CornMaze_DeathCam.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CornMaze_DeathCam.skn" />
+		<soundbank name="Cutteridge_2012_Scarecrow.bnk" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Cutteridge_2012_Scarecrow.bnk" />
+		<soundstream name="ScarecrowSpawn.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/ScarecrowSpawn.mp3" />
+		<soundstream name="Punch.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Punch.mp3" />
+		<soundstream name="Growl2.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Growl2.mp3" />
+		<soundstream name="Growl1.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Growl1.mp3" />
+		<soundstream name="Breath.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Breath.mp3" />
+		<soundstream name="Bird4.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Bird4.mp3" />
+		<soundstream name="Bird3.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Bird3.mp3" />
+		<soundstream name="Bird2.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Bird2.mp3" />
+		<soundstream name="Bird1.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Bird1.mp3" />
+		<soundstream name="Growl3.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Corn_Maze/audio/Growl3.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/MiniGame.luac" />
+		<lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Utility/BatchResourceLoader.luac" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Utility/CoroutineManager.luac" />
+		<lua name="HideRemotePeople.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Utility/HideRemotePeople.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Utility/Pad.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Utility/Utility.luac" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/States/State_Idle.luac" />
+		<lua name="State_InGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/States/State_InGame.luac" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/States/State_MainMenu.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/States/StateMachine.luac" />
+		<lua name="LevelBuilder.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Game/LevelBuilder.luac" />
+		<lua name="Scarecrow.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Game/Scarecrow.luac" />
+		<lua name="State_Died.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/States/State_Died.luac" />
+		<lua name="State_Won.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/States/State_Won.luac" />
+		<lua name="State_Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/States/State_Intro.luac" />
+		<lua name="State_LanternNotOwned.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_2012_Generic/State_LanternNotOwned.luac" />
+		<lua name="InventoryChecker.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Corn_Maze/lua/Utility/InventoryChecker.luac" />
+	</local>
+	<external />
+</resources>

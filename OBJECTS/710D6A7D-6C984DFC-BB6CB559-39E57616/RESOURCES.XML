@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/WINT12_MusicBox_Silver.mdl" memory="host" />
+    <model name="WINT12_MusicBox_Gold_Lid.mdl" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/WINT12_MusicBox_Silver_Lid.mdl" memory="host" />
+    <particle name="Gold_Music.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/WINT12/Silver_Music.efx" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/lua/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/WINT12_MusicBox_Gold.hkx" memory="host" />
+    <collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/WINT12_MusicBox_Gold.safevolume.hkx" />
+    <anim name="WINT12_MusicBox_Gold_Lid_Close.ani" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/WINT12_MusicBox_Gold_Lid_Close.ani" memory="host" />
+    <anim name="WINT12_MusicBox_Gold_Lid_Open.ani" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/WINT12_MusicBox_Gold_Lid_Open.ani" memory="host" />
+    <skeleton name="WINT12_MusicBox_Gold_Lid.skn" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/WINT12_MusicBox_Gold_Lid.skn" memory="host" />
+    <soundstream name="nutcracker_01.mp3" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/audio/silver/nutcracker_01.mp3" memory="host" />
+    <soundstream name="nutcracker_02.mp3" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/audio/silver/nutcracker_02.mp3" memory="host" />
+    <soundstream name="nutcracker_03.mp3" deferred_loading="false" protected="false" file="furniture/wint12_musicbox/audio/silver/nutcracker_03.mp3" memory="host" />
+    <lua name="Silver_Main.lua" deferred_loading="false" protected="true" file="furniture/wint12_musicbox/lua/silver_main.luac" memory="host" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<particle name="snowflakes.efx" deferred_loading="false" protected="false" file="environments/2011/per/per_icepalace/ATGParticles/snowflakes.efx" memory="host" />
+		<particle name="snowLedgeLg.efx" deferred_loading="false" protected="false" file="environments/2011/per/per_icepalace/ATGParticles/snowLedgeLg.efx" memory="host" />
+		<lua name="InventoryCheck.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_icepalace/lua/InventoryCheck.lua" />
+		<lua name="MansionsCheck.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_icepalace/lua/MansionsCheck.lua" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_icepalace/lua/Updater.lua" />
+		<lua name="Snow.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_icepalace/lua/Snow.lua" />
+	</local>
+	<external />
+</resources>

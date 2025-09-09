@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ShuttersMDL" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/shutters/Shutters.mdl" />
+		<texture name="shuttertex" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/shutters/shuttertex.dds" />
+		<file name="shutters.bank" deferred_loading="false" protected="false" file="MiniGames/StationToy_1/Sound/shutters.bank" />
+		<anim name="ShuttersAni" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/shutters/Shutters.ani" />
+		<anim name="ShuttersANI2" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/shutters/ShuttersDown.ani" />
+		<skeleton name="ShuttersSKN" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/shutters/Shutters.skn" />
+		<soundbank name="stationSound" deferred_loading="false" protected="false" file="MiniGames/StationToy_1/Sound/shutters.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/StationToy_1/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

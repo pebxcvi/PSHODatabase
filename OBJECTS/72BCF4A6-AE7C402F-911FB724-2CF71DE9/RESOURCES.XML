@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="sheet_music.mdl" deferred_loading="true" file="MiniGames/SantasQuests/Models/sheet_music.mdl" />
+		<texture name="music_sheet" deferred_loading="true" file="MiniGames/SantasQuests/Textures/sheet_music_c.DDS" />
+		<particle name="snow_dig.efx" deferred_loading="false" file="ATGParticles/generic/efx/snow_dig.efx" />
+		<anim name="femaleDig" deferred_loading="false" file="Animation_V4/female/dig_f_01.ani" />
+		<anim name="maleDig" deferred_loading="false" file="Animation_V4/male/dig_m_01.ani" />
+		<soundstream name="music1" deferred_loading="false" file="MiniGames/SantasQuests/sounds/Home_Christmas_Tuba.mp3" />
+		<soundstream name="music2" deferred_loading="false" file="MiniGames/SantasQuests/sounds/Home_Christmas_Clari.mp3" />
+		<soundstream name="music3" deferred_loading="false" file="MiniGames/SantasQuests/sounds/Home_Christmas_Glock.mp3" />
+		<soundstream name="music4" deferred_loading="false" file="MiniGames/SantasQuests/sounds/Home_Christmas_Tromb.mp3" />
+		<soundstream name="music5" deferred_loading="false" file="MiniGames/SantasQuests/sounds/Home_Christmas_Trump.mp3" />
+		<repertoire name="male_digger" deferred_loading="false" file="objects/E8411060-5AE9468C-AB1AFF28-899B4633/maleDiggerRepertoire.xml" />
+		<repertoire name="female_digger" deferred_loading="false" file="objects/E8411060-5AE9468C-AB1AFF28-899B4633/femaleDiggerRepertoire.xml" />
+		<lua name="script" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/MusicQuest.lua" />
+		<lua name="xmasshared.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasshared.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+	</local>
+	<external />
+</resources>

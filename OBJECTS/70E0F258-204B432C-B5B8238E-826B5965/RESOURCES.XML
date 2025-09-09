@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01_dami.mdl" />
+		<model name="mvar01.mdl" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01_dami.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01_dami.safevolume.hkx" />
+		<anim name="mvar01_Flight_idle01.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01_Flight_idle01.ani" />
+		<anim name="mvar01_Flight_to_Human01.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01_Flight_to_Human01.ani" />
+		<anim name="mvar01_Human_idle01.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01_Human_idle01.ani" />
+		<anim name="mvar01_Human_to_Flight01.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01_Human_to_Flight01.ani" />
+		<skeleton name="mvar01.skn" deferred_loading="false" protected="false" file="furniture/lagrange/mvar01/mvar01.skn" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="objects/70E0F258-204B432C-B5B8238E-826B5965/main.lua" />
+	</local>
+	<external />
+</resources>

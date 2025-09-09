@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="rocket_LMO.mdl" deferred_loading="true" protected="false" file="Locomotion/Rocket/model/rocket_LMO_Idle.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Rocket/file/config_RocketRed.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Fidle.ani" memory="host" />
+		<anim name="rocket_Flounge.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Flounge.ani" memory="host" />
+		<anim name="rocket_Lounge.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_Lounge.ani" memory="host" />
+		<anim name="rocket_LMO_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/model/rocket_LMO_Idle.ani" memory="host" />
+		<anim name="rocket_LMO_Moving.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/model/rocket_LMO_Moving.ani" memory="host" />
+		<anim name="rocket_LoopEmote.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_LoopEmote.ani" memory="host" />
+		<anim name="rocket_FloopEmote.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_FloopEmote.ani" memory="host" />
+		<anim name="rocket_CutoutEmote.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_CutoutEmote.ani" memory="host" />
+		<anim name="rocket_FcutoutEmote.ani" deferred_loading="true" protected="false" file="Locomotion/Rocket/anim/rocket_FcutoutEmote.ani" memory="host" />
+		<skeleton name="rocket_LMO_Idle.skn" deferred_loading="true" protected="false" file="Locomotion/Rocket/model/rocket_LMO_Idle.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Rocket/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Rocket/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Rocket/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Rocket/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Rocket/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

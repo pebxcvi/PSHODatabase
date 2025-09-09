@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<collision name="BarrierPlaque_Collision" deferred_loading="false" protected="false" file="environments/musicunlimited/BarrierPlaque.hkx" />
+		<collision name="BarrierPole_Collision" deferred_loading="false" protected="false" file="environments/musicunlimited/BarrierPole.hkx" />
+		<collision name="BarrierRope_Collision" deferred_loading="false" protected="false" file="environments/musicunlimited/BarrierRope.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/MusicUnlimitedClubVIPAccess/MiniGame.lua" />
+		<lua name="Pad_lua" deferred_loading="false" protected="true" file="MiniGames/MusicUnlimitedClubVIPAccess/Pad.lua" />
+		<lua name="Inventory_lua" deferred_loading="false" protected="true" file="MiniGames/MusicUnlimitedClubVIPAccess/Inventory.lua" />
+		<lua name="Plane_lua" deferred_loading="false" protected="true" file="MiniGames/MusicUnlimitedClubVIPAccess/Plane.lua" />
+	</local>
+	<external />
+</resources>

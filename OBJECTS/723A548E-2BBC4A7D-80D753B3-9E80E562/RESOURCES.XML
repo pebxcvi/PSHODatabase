@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="countdown_base_mdl" deferred_loading="false" protected="false" file="MiniGames/David_Guetta_Countdown/models/vz_base.mdl" />
+		<model name="icon_mesh_mdl" deferred_loading="false" protected="false" file="MiniGames/David_Guetta_Countdown/models/vz_icon_mesh_sm.mdl" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="MiniGames/David_Guetta_Countdown/OSD/types.xml" />
+		<file name="osd_info" deferred_loading="false" protected="false" file="MiniGames/David_Guetta_Countdown/OSD/info.xml" />
+		<collision name="mu_base.hkx" deferred_loading="false" protected="false" file="MiniGames/David_Guetta_Countdown/models/mu_base.hkx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="MiniGames/David_Guetta_Countdown/models/mu_base.hkx" />
+		<lua name="mu_script" deferred_loading="false" protected="true" file="MiniGames/David_Guetta_Countdown/lua/vz_script_SCEA.lua" />
+	</local>
+	<external />
+</resources>

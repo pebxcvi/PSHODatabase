@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="assets/helicopter/Helicopter_Loop.mdl" memory="host" />
+		<model name="Helicopter_Loop.mdl" deferred_loading="false" protected="false" file="assets/helicopter/Helicopter_Loop.mdl" memory="host" />
+		<model name="landingpad_lp.mdl" deferred_loading="false" protected="false" file="assets/helicopter/landingpad_lp.mdl" memory="host" />
+		<texture name="mask1.dds" deferred_loading="false" protected="false" file="Games/common/textures/light_masks/mask1.dds" memory="host" />
+		<texture name="Bottom.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Bottom.dds" memory="host" />
+		<texture name="BottomLeft.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/BottomLeft.dds" memory="host" />
+		<texture name="BottomRight.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/BottomRight.dds" memory="host" />
+		<texture name="Center.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Center.dds" memory="host" />
+		<texture name="Left.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Left.dds" memory="host" />
+		<texture name="Right.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Right.dds" memory="host" />
+		<texture name="Top.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Top.dds" memory="host" />
+		<texture name="TopLeft.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/TopLeft.dds" memory="host" />
+		<texture name="TopRight.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/TopRight.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Games/Surveillance_Helicopter/file/Network.xml" memory="host" />
+		<collision name="landingpad_lp.hkx" deferred_loading="false" protected="false" file="assets/helicopter/landingpad_lp.hkx" memory="host" />
+		<collision name="helicopter_collide.hkx" deferred_loading="false" protected="false" file="assets/helicopter/helicopter_collide.hkx" />
+		<anim name="Helicopter_Loop.ani" deferred_loading="false" protected="false" file="assets/helicopter/Helicopter_Loop.ani" memory="host" />
+		<skeleton name="Helicopter_Loop.skn" deferred_loading="false" protected="false" file="assets/helicopter/Helicopter_Loop.skn" memory="host" />
+		<soundbank name="helicopter_sfx.bnk" deferred_loading="false" protected="false" file="Games/Surveillance_Helicopter/audio/helicopter_sfx.bnk" memory="host" />
+		<lua name="Automaton.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Automaton.lua" memory="host" />
+		<lua name="Main_Init.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Main_Init.lua" memory="host" />
+		<lua name="Main_LoadLua.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Main_LoadLua.lua" memory="host" />
+		<lua name="Main_Resources.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Main_Resources.lua" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/MessageManager.lua" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/MiniGame.lua" memory="host" />
+		<lua name="MenuState_Idle.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/MenuStates/MenuState_Idle.lua" memory="host" />
+		<lua name="MenuState_Main.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/MenuStates/MenuState_Main.lua" memory="host" />
+		<lua name="AvatarCam.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/AvatarCam.lua" memory="host" />
+		<lua name="ControllerModule.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/ControllerModule.lua" memory="host" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/Core.lua" memory="host" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/EventManager.lua" memory="host" />
+		<lua name="Factory_OSD.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/Factory_OSD.lua" memory="host" />
+		<lua name="PlayerController.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/PlayerController.lua" memory="host" />
+		<lua name="RayCastManager.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/RayCastManager.lua" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/StateMachine.lua" memory="host" />
+		<lua name="Table_x.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/Table_x.lua" memory="host" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/Library/Util.lua" memory="host" />
+		<lua name="GameState_Idle.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/GameStates/GameState_Idle.lua" memory="host" />
+		<lua name="GameState_Main.lua" deferred_loading="false" protected="true" file="Games/Surveillance_Helicopter/lua/GameStates/GameState_Main.lua" memory="host" />
+	</local>
+	<external />
+</resources>

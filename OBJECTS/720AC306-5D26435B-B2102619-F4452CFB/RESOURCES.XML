@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="tail.mdl" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_tail02/model/tail02_Cat_toraB.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_tail02/file/config.xml" memory="host" />
+		<anim name="tail_flap.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_tail02/anim/tail_flap.ani" memory="host" />
+		<anim name="tail_happy.ani" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_tail02/anim/tail_happy.ani" memory="host" />
+		<anim name="tail_idle.ani" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_tail02/anim/tail_idle.ani" memory="host" />
+		<anim name="tail_sad.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_tail02/anim/tail_sad.ani" memory="host" />
+		<skeleton name="tail.skn" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_tail02/skeleton/tail02_Cat.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/AvatarItem_tail02/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

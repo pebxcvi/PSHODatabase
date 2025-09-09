@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="apple.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/apple/apple.mdl" />
+		<model name="Brush.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/brush/Brush.mdl" />
+		<model name="carrot.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/carrot/carrot.mdl" />
+		<model name="hay.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/hay/hay.mdl" />
+		<model name="horse_poo.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/horse_poo/horse_poo.mdl" />
+		<model name="shovel.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/shovel/shovel.mdl" />
+		<model name="sugar.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/sugar/sugar.mdl" />
+		<model name="horse_generic.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/horsegeneric/horse_generic.mdl" />
+		<model name="horse_generic_no_saddle.mdl" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/horsegenericnosaddle/horse_generic_no_saddle.mdl" />
+		<model name="padlock.mdl" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.mdl" />
+		<model name="buybag.mdl" deferred_loading="false" protected="false">
+			<override file="common/generic_models/buybag/buybag_j.mdl" locale="ja-JP" />
+			<override file="common/generic_models/buybag/buybag.mdl" />
+		</model>
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" />
+		</texture>
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_O.dds" />
+		</texture>
+		<texture name="horse_box.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/horse_box.dds" />
+		<texture name="horse_box_select.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/horse_box_select.dds" />
+		<texture name="horse_box_dont_own.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/horse_box_dont_own.dds" />
+		<texture name="icon_stroke.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_stroke.dds" />
+		<texture name="icon_feed.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_feed.dds" />
+		<texture name="icon_feed_apple.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_feed_apple.dds" />
+		<texture name="icon_feed_carrot.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_feed_carrot.dds" />
+		<texture name="icon_feed_hay.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_feed_hay.dds" />
+		<texture name="icon_feed_sugar.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_feed_sugar.dds" />
+		<texture name="icon_groom.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_groom.dds" />
+		<texture name="icon_highlight.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_highlight.dds" />
+		<texture name="icon_muck.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_muck.dds" />
+		<texture name="icon_nohorse.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_nohorse.dds" />
+		<texture name="icon_sitting.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/icon_sitting.dds" />
+		<texture name="timer_solid.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/timer_solid.dds" />
+		<texture name="timer_half.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/timer_half.dds" />
+		<texture name="timer_glisten.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/timer_glisten.dds" />
+		<texture name="timer_border.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/timer_border.dds" />
+		<texture name="button_L1R1" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/Controls/button_L1R1.dds" />
+		<texture name="dapple_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseDapple/dapple_horse_d.dds" />
+		<texture name="dapple_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseDapple/dapple_horsetail_d.dds" />
+		<texture name="rainbow_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseRainbow/rainbow_horse_d.dds" />
+		<texture name="rainbow_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseRainbow/rainbow_horsetail_d.dds" />
+		<texture name="black_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleBlack/black_saddle_horse_d.dds" />
+		<texture name="black_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleBlack/black_saddle_horsetail_d.dds" />
+		<texture name="black_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleBlack/black_saddle_saddle_d.dds" />
+		<texture name="brown_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleBrown/brown_saddle_horse_d.dds" />
+		<texture name="brown_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleBrown/brown_saddle_horsetail_d.dds" />
+		<texture name="brown_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleBrown/brown_saddle_saddle_d.dds" />
+		<texture name="dapple_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleDapple/dapple_saddle_horse_d.dds" />
+		<texture name="dapple_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleDapple/dapple_saddle_horsetail_d.dds" />
+		<texture name="dapple_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleDapple/dapple_saddle_saddle_d.dds" />
+		<texture name="grey_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleGrey/grey_saddle_horse_d.dds" />
+		<texture name="grey_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleGrey/grey_saddle_horsetail_d.dds" />
+		<texture name="grey_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleGrey/grey_saddle_saddle_d.dds" />
+		<texture name="palo_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddlePalo/palo_saddle_horse_d.dds" />
+		<texture name="palo_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddlePalo/palo_saddle_horsetail_d.dds" />
+		<texture name="palo_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddlePalo/palo_saddle_saddle_d.dds" />
+		<texture name="pink_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddlePink/pink_saddle_horse_d.dds" />
+		<texture name="pink_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddlePink/pink_saddle_horsetail_d.dds" />
+		<texture name="pink_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddlePink/pink_saddle_saddle_d.dds" />
+		<texture name="rainbow_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleRainbow/rainbow_saddle_horse_d.dds" />
+		<texture name="rainbow_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleRainbow/rainbow_saddle_horsetail_d.dds" />
+		<texture name="rainbow_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleRainbow/rainbow_saddle_saddle_d.dds" />
+		<texture name="spotted_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleSpotted/spotted_saddle_horse_d.dds" />
+		<texture name="spotted_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleSpotted/spotted_saddle_horsetail_d.dds" />
+		<texture name="spotted_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleSpotted/spotted_saddle_saddle_d.dds" />
+		<texture name="white_saddle_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleWhite/white_saddle_horse_d.dds" />
+		<texture name="white_saddle_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleWhite/white_saddle_horsetail_d.dds" />
+		<texture name="white_saddle_saddle_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleWhite/white_saddle_saddle_d.dds" />
+		<texture name="spotted_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSpotted/spotted_horse_d.dds" />
+		<texture name="spotted_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSpotted/spotted_horsetail_d.dds" />
+		<texture name="white_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseWhite/white_horse_d.dds" />
+		<texture name="white_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseWhite/white_horsetail_d.dds" />
+		<texture name="free_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/HUDTextures/free_icon.dds" />
+		<texture name="rainbow_saddle_saddle_s.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseSaddleRainbow/rainbow_saddle_saddle_s.dds" />
+		<texture name="saddle_s.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/horsegeneric/saddle_s.dds" />
+		<texture name="pink_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorsePink/pink_horse_d.dds" />
+		<texture name="pink_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorsePink/pink_horsetail_d.dds" />
+		<texture name="palo_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorsePalo/palo_horse_d.dds" />
+		<texture name="palo_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorsePalo/palo_horsetail_d.dds" />
+		<texture name="pinto_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorsePintoPony/pinto_horse_d.dds" />
+		<texture name="pinto_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorsePintoPony/pinto_horsetail_d.dds" />
+		<texture name="grey_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseGrey/grey_horse_d.dds" />
+		<texture name="grey_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseGrey/grey_horsetail_d.dds" />
+		<texture name="black_horse_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseBlack/black_horse_d.dds" />
+		<texture name="black_horsetail_d.dds" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseBlack/black_horsetail_d.dds" />
+		<particle name="campfire.efx" deferred_loading="false" protected="false" file="apartments/ranch/ranch_apartment/particles/campfire.efx" />
+		<collision name="horse_generic.hkx" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/horsegeneric/horse_generic.hkx" />
+		<collision name="HorseMoverCol.hkx" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/HorseMoverCol.hkx" />
+		<collision name="buybag.hkx" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/commercepoint/buybag.hkx" />
+		<collision name="ApartmentCollision.hkx" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/apartmentcollision/ApartmentCollision.hkx" />
+		<collision name="ClubhouseCollision.hkx" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/clubhousecollision/ClubhouseCollision.hkx" />
+		<collision name="padlock.hkx" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.hkx" />
+		<anim name="F_horse_feeding.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_horse_feeding.ani" />
+		<anim name="F_horse_grooming.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_horse_grooming.ani" />
+		<anim name="F_horse_petting.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_horse_petting.ani" />
+		<anim name="F_mucking_out.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_mucking_out.ani" />
+		<anim name="horse_feeding.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_feeding.ani" />
+		<anim name="horse_grazing.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_grazing.ani" />
+		<anim name="horse_grooming.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_grooming.ani" />
+		<anim name="horse_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_Idle.ani" />
+		<anim name="horse_petting.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_petting.ani" />
+		<anim name="horse_rearHead.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_rearHead.ani" />
+		<anim name="M_horse_feeding.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_horse_feeding.ani" />
+		<anim name="M_horse_grooming.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_horse_grooming.ani" />
+		<anim name="M_horse_petting.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_horse_petting.ani" />
+		<anim name="M_mucking_out.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_mucking_out.ani" />
+		<anim name="F_Idle_onHorse.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_Idle_onHorse.ani" />
+		<anim name="M_Idle_onHorse.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_Idle_onHorse.ani" />
+		<anim name="F_Idle_onHorse_bare.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_Idle_onHorse_bare.ani" />
+		<anim name="M_Idle_onHorse_bare.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_Idle_onHorse_bare.ani" />
+		<anim name="horse_canter.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_canter.ani" />
+		<anim name="horse_trot.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Horse/horse_trot.ani" />
+		<anim name="F_trot.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_trot.ani" />
+		<anim name="F_canter.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_canter.ani" />
+		<anim name="M_trot.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_trot.ani" />
+		<anim name="M_canter.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_canter.ani" />
+		<anim name="F_idle_high.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_idle_high.ani" />
+		<anim name="M_idle_high.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_idle_high.ani" />
+		<anim name="buybag.ani" deferred_loading="false" protected="false">
+			<override file="common/generic_models/buybag/buybag_j.ani" locale="ja-JP" />
+			<override file="MiniGames/Ranch/PrairieHorse/Models/commercepoint/buybag.ani" />
+		</anim>
+		<anim name="F_trotNoSaddle.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_trotNoSaddle.ani" />
+		<anim name="F_canterNoSaddle.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_canterNoSaddle.ani" />
+		<anim name="F_Idle_onHorseNoSaddle.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Female/F_Idle_onHorseNoSaddle.ani" />
+		<anim name="M_trotNoSaddle.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_trotNoSaddle.ani" />
+		<anim name="M_canterNoSaddle.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_canterNoSaddle.ani" />
+		<anim name="M_idle_highNoSaddle.ani" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Anims/Male/M_idle_highNoSaddle.ani" />
+		<anim name="padlock.ani" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.ani" />
+		<skeleton name="horse_generic.skn" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/horsegeneric/horse_generic.skn" />
+		<skeleton name="horse_generic_no_saddle.skn" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Models/horsegenericnosaddle/horse_generic_no_saddle.skn" />
+		<skeleton name="buybag.skn" deferred_loading="false" protected="false">
+			<override file="common/generic_models/buybag/buybag_j.skn" locale="ja-JP" />
+			<override file="MiniGames/Ranch/PrairieHorse/Models/commercepoint/buybag.skn" />
+		</skeleton>
+		<skeleton name="padlock.skn" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.skn" />
+		<soundbank name="GameSounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Ranch/PrairieHorse/Sounds/GameSounds.bnk" />
+		<repertoire name="MaleAnims.xml" deferred_loading="false" protected="false" file="objects/CF5AAB0A-1B5849AF-84E19541-7B52BB5D/MaleAnims.xml" />
+		<repertoire name="FemaleAnims.xml" deferred_loading="false" protected="false" file="objects/CF5AAB0A-1B5849AF-84E19541-7B52BB5D/FemaleAnims.xml" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/MainClub.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Controller.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/GameHud.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Jamin.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Math.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Playmetrix.lua" />
+		<lua name="Trigger.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Trigger.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Tween.lua" />
+		<lua name="VidCapture.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/VidCapture.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Misc.lua" />
+		<lua name="GameInfo.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/GameInfo.lua" />
+		<lua name="RideHorse.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/RideHorse.lua" />
+	</local>
+	<external />
+</resources>
