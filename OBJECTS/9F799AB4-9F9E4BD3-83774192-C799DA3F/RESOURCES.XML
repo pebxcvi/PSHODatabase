@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="DS-DIGIT.TTF" deferred_loading="false" protected="false" file="MiniGames/CountdownClock/font/DS-DIGIT.TTF" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/CountdownClock/lua/minigame.lua" />
+		<lua name="Event.lua" deferred_loading="false" protected="true" file="MiniGames/CountdownClock/lua/Event.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="MiniGames/CountdownClock/lua/EventManager.lua" />
+		<lua name="SingleShotEvent.lua" deferred_loading="false" protected="true" file="MiniGames/CountdownClock/lua/SingleShotEvent.lua" />
+	</local>
+	<external />
+</resources>

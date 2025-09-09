@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>A0266F81-7FFA4165-ABCF8780-B4F71E5B</uuid>
+  <name lang="en-GB" default="true">Audi Apartment</name>
+  <description lang="en-GB" default="true">The Audi apartment is your reward for reaching the skies in the Audi Vertical Run game. Enjoy the view of the city below or relax while watching selected Audi content.</description>
+  <description lang="fr-FR" default="false">L'Appartement Audi est le bénéfice attribué pour avoir atteint les plus hauts niveaux dans le jeu Audi Vertical Run. Appréciez la vue panoramique au-dessus de la ville ou détendez-vous en regardant des contenus Audi spécialement sélectionnés.</description>
+  <description lang="de-DE" default="false">Das Audi Apartment ist Dein Gewinn, wenn Du den Himmel im Audi Vertical Run Spiel erreichst. Genieße den Blick auf die Stadt unter Dir oder entspann Dich, während Du ausgewählte Audi Filme ansiehst.</description>
+  <description lang="it-IT" default="false">L'appartamento a marchio Audi è il premio per aver toccato il cielo nel gioco Audi Vertical Run. Goditi la vista della città ai tuoi piedi o rilassati guardando contenuti selezionati da Audi.</description>
+  <description lang="es-ES" default="false">L'appartamento a marchio Audi è il premio per aver toccato il cielo nel gioco Audi Vertical Run. Goditi la vista della città ai tuoi piedi o rilassati guardando contenuti selezionati da Audi.</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scene_type">apartment</element>
+    <element name="scenename">AudiApt_394B_F75E</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="US" minimum_age="0" parental_control_level="1" />
+    <age_rating country="JP" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="1" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="CA" minimum_age="0" parental_control_level="1" />
+  </legal>
+  <timestamp>EC1A7DE6</timestamp>
+</odc>

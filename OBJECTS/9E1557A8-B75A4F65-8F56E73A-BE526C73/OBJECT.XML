@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">Lockwood</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Lockwood</company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">US</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">CA</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">KR</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">3</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">Female01_JewelRightEar_Block_6</name>
+		<type type="string">JewelRightEar</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_JewelRightEar_Block_6</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_JewelRightEar_Block_6_lod1.mdl</lod1>
+					<lod2 type="string">Female01_JewelRightEar_Block_6_lod2.mdl</lod2>
+					<lod3 type="string">Female01_JewelRightEar_Block_6_lod3.mdl</lod3>
+				</lods>
+				<skeleton type="string">head</skeleton>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">ATGMaterial3SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_JewelRightEar_Block_6.ATGMaterial3SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_JewelRightEar_Block_6.ATGMaterial3SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_JewelRightEar_Block_6.ATGMaterial3SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

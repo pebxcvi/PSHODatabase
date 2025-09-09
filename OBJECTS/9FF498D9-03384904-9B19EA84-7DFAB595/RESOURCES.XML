@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/nmlscenemanager/file/Network.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscenemanager/lua/MiniGame.lua" />
+		<lua name="VMDebug.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscenemanager/lua/VMDebug.lua" />
+		<lua name="SceneManager.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscenemanager/lua/SceneManager.lua" />
+		<lua name="nmlTrackerEvents.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscenemanager/lua/nmlTrackerEvents.lua" />
+		<lua name="nmlTracker.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscenemanager/lua/nmlTracker.lua" />
+		<lua name="version.lua" deferred_loading="false" protected="true" file="Core/version.lua" />
+	</local>
+	<external />
+</resources>

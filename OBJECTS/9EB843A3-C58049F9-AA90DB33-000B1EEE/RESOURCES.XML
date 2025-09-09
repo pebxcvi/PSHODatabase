@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/models/PlaceholderCube.mdl" />
+		<model name="MachineModel" deferred_loading="false" protected="false" file="furniture/gym_rowingmachine/Gym_RowingMachine.mdl" />
+		<texture name="HUD_Button_Circle" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Button_Circle.dds" />
+		<texture name="HUD_Button_Cross" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Button_Cross.dds" />
+		<texture name="HUD_Button_Square" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Button_Square.dds" />
+		<texture name="HUD_Button_Triangle" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Button_Triangle.dds" />
+		<texture name="HUD_FitnessLevelBar" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/FitnessLevelBar.dds" />
+		<texture name="HUD_Game_Beat" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Beat_Spritesheet.dds" />
+		<texture name="HUD_Game_Light_Hit" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Game_Light_Hit.dds" />
+		<texture name="HUD_Game_Light_Miss" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Game_Light_Miss.dds" />
+		<texture name="HUD_Game_Screen" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Game_Screen.dds" />
+		<texture name="HUD_ListBars_MainScreen" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/ListBars_MainScreen.dds" />
+		<texture name="HUD_ListBars_StatsScreen" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/ListBars_StatsScreen.dds" />
+		<texture name="HUD_SplashLogo" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/SplashLogo.dds" />
+		<texture name="HUD_Background" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Screen.dds" />
+		<texture name="HUD_MuscleGroup" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/MuscleGroups3.dds" />
+		<texture name="ShopBackground" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/MyGym_Background.dds" />
+		<texture name="ShopSelection" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ShopSelection.dds" />
+		<texture name="ShopArrowDown" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowDown.dds" />
+		<texture name="ShopArrowUp" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowUp.dds" />
+		<texture name="ShopBoughtIcon" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/BoughtIcon.dds" />
+		<texture name="ShopFrame" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/Frame.dds" />
+		<texture name="029E5C3E-BFA94E0A-9EB9946F-20B9AA55.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/029E5C3E-BFA94E0A-9EB9946F-20B9AA55.png" memory="host" />
+		<texture name="0DB8818E-8D5C47DB-8C7F3C91-B3F9A560.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/0DB8818E-8D5C47DB-8C7F3C91-B3F9A560.png" memory="host" />
+		<texture name="15BD3CCA-7DB14856-A6B74FA9-46DA3AC8.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/15BD3CCA-7DB14856-A6B74FA9-46DA3AC8.png" memory="host" />
+		<texture name="1702C4A6-B7CE40FD-9A5AAA43-0BF17B8D.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/1702C4A6-B7CE40FD-9A5AAA43-0BF17B8D.png" memory="host" />
+		<texture name="1F66922F-202E488E-9DFD46B1-B69C88BF.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/1F66922F-202E488E-9DFD46B1-B69C88BF.png" memory="host" />
+		<texture name="21C1DA4C-761D4E18-8BD435CC-448DF872.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/21C1DA4C-761D4E18-8BD435CC-448DF872.png" memory="host" />
+		<texture name="24BCD99F-C30448AA-B6E4405A-DEB2509C.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/24BCD99F-C30448AA-B6E4405A-DEB2509C.png" memory="host" />
+		<texture name="2851A131-B50448DD-9AB67C65-6E8F24EA.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/2851A131-B50448DD-9AB67C65-6E8F24EA.png" memory="host" />
+		<texture name="291BACE7-05E1456F-8249E647-651F5CE6.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/291BACE7-05E1456F-8249E647-651F5CE6.png" memory="host" />
+		<texture name="355AFC15-A9E04956-AD4DB00F-5195B78A.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/355AFC15-A9E04956-AD4DB00F-5195B78A.png" memory="host" />
+		<texture name="4D0EDA06-B1F44B7A-8E7758EE-90D1AE8E.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/4D0EDA06-B1F44B7A-8E7758EE-90D1AE8E.png" memory="host" />
+		<texture name="59F39261-3E964DBB-A33842D7-520B0F66.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/59F39261-3E964DBB-A33842D7-520B0F66.png" memory="host" />
+		<texture name="69BFD2C7-94274B8A-96FB89E1-871BDAC0.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/69BFD2C7-94274B8A-96FB89E1-871BDAC0.png" memory="host" />
+		<texture name="6BB16252-85914B33-85EB5BAF-54C01A68.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/6BB16252-85914B33-85EB5BAF-54C01A68.png" memory="host" />
+		<texture name="6E8E213F-89714F29-A318E28A-986D971D.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/6E8E213F-89714F29-A318E28A-986D971D.png" memory="host" />
+		<texture name="7B664B18-3E2D43F7-AB7B2DB4-FA0626A4.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/7B664B18-3E2D43F7-AB7B2DB4-FA0626A4.png" memory="host" />
+		<texture name="7C28A8DB-750F4372-AA435EB5-3A9E490E.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/7C28A8DB-750F4372-AA435EB5-3A9E490E.png" memory="host" />
+		<texture name="7C6B6576-2F434DCE-8DFB1E5C-1FC74D8E.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/7C6B6576-2F434DCE-8DFB1E5C-1FC74D8E.png" memory="host" />
+		<texture name="8229FFA2-B9B54F0E-B455E329-73FD6DCF.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/8229FFA2-B9B54F0E-B455E329-73FD6DCF.png" memory="host" />
+		<texture name="9102F551-7D0949E2-9950942C-71A6BA10.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/9102F551-7D0949E2-9950942C-71A6BA10.png" memory="host" />
+		<texture name="9B6972AE-107C43E1-AC816248-CDE01A37.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/9B6972AE-107C43E1-AC816248-CDE01A37.png" memory="host" />
+		<texture name="9E2301F7-C9B149A9-B614AC61-EF9BB3B8.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/9E2301F7-C9B149A9-B614AC61-EF9BB3B8.png" memory="host" />
+		<texture name="A14D8567-349543D3-A7920749-92D9ED2E.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/A14D8567-349543D3-A7920749-92D9ED2E.png" memory="host" />
+		<texture name="A8FBB840-83704220-B0072B3F-32949BA4.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/A8FBB840-83704220-B0072B3F-32949BA4.png" memory="host" />
+		<texture name="BEEBF4A3-4E044313-8656CD22-A270DB52.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/BEEBF4A3-4E044313-8656CD22-A270DB52.png" memory="host" />
+		<texture name="C5123E66-3B254AFD-A33E444F-197CD0A0.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/C5123E66-3B254AFD-A33E444F-197CD0A0.png" memory="host" />
+		<texture name="D0F0990C-FBA447EB-B12AE773-37C52F9D.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/D0F0990C-FBA447EB-B12AE773-37C52F9D.png" memory="host" />
+		<texture name="D1FE1948-FB39464C-93E7A9F2-21AC9B0D.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/D1FE1948-FB39464C-93E7A9F2-21AC9B0D.png" memory="host" />
+		<texture name="D68A12D0-79324CC7-B5A77E81-7F971622.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/D68A12D0-79324CC7-B5A77E81-7F971622.png" memory="host" />
+		<texture name="F751EA04-E08F4566-B17A985B-025421A8.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/F751EA04-E08F4566-B17A985B-025421A8.png" memory="host" />
+		<texture name="F95F9367-0F3F4E3B-A669C575-55A9BCEF.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/F95F9367-0F3F4E3B-A669C575-55A9BCEF.png" memory="host" />
+		<texture name="FA0E1204-A9554E9E-A71003B7-80DEDB42.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/FA0E1204-A9554E9E-A71003B7-80DEDB42.png" memory="host" />
+		<texture name="HUD_Play_Screen" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/textures/Play_Screen.dds" />
+		<texture name="CDEE7C8F-3E8B494A-9179BC13-362D7FCE.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/CDEE7C8F-3E8B494A-9179BC13-362D7FCE.png" memory="host" />
+		<texture name="6E7ABA56-B66B416A-B6260F22-6D06C104.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/6E7ABA56-B66B416A-B6260F22-6D06C104.png" memory="host" />
+		<texture name="D689E3AC-911C4828-BC4E9E95-B7F5B8AF.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/D689E3AC-911C4828-BC4E9E95-B7F5B8AF.png" memory="host" />
+		<texture name="D61ED46B-4EC74D33-BBDE3446-D8817D49.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/D61ED46B-4EC74D33-BBDE3446-D8817D49.png" memory="host" />
+		<texture name="961805DC-A2D64F1A-A36CC16D-1A374AF8.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/961805DC-A2D64F1A-A36CC16D-1A374AF8.png" memory="host" />
+		<texture name="91DFA8B3-41204B57-A00B0625-F19D7A04.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/91DFA8B3-41204B57-A00B0625-F19D7A04.png" memory="host" />
+		<texture name="87E4BA8F-42AC42DE-82DF8BD7-554C5770.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/87E4BA8F-42AC42DE-82DF8BD7-554C5770.png" memory="host" />
+		<texture name="23EAC8F9-2351473B-B8FBC591-BE8A743F.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/23EAC8F9-2351473B-B8FBC591-BE8A743F.png" memory="host" />
+		<texture name="11D1D0F3-DA0E467D-82206D6A-8899F407.png" deferred_loading="true" protected="false" file="thumbnails/MiniGames/MyGymFitnessMachines/11D1D0F3-DA0E467D-82206D6A-8899F407.png" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/Network.xml" />
+		<file name="MaleAnims" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/my_gym_fitness_male.xml" />
+		<file name="FemaleAnims" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/my_gym_fitness_female.xml" />
+		<file name="news.xml" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/news.xml" />
+		<file name="main_font" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/tenbyfive.ttf" memory="host" />
+		<file name="VEEMEE_font" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/fonts/VEEMEE.ttf" memory="host" />
+		<collision name="ActiveCollision" deferred_loading="false" protected="false" file="furniture/gym_rowingmachine/Gym_RowingMachine.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/gym_rowingmachine/Gym_RowingMachine.safevolume.hkx" />
+		<anim name="MachineAnim" deferred_loading="false" protected="false" file="furniture/gym_rowingmachine/Gym_RowingMachine.ani" />
+		<anim name="Gym_FitnessMachine_Male_Anim" deferred_loading="false" protected="false" file="animation/male/gym_rowingmachine/Gym_RowingMachine.ani" />
+		<anim name="Gym_FitnessMachine_Female_Anim" deferred_loading="false" protected="false" file="animation/female/gym_rowingmachine/Gym_RowingMachine.ani" />
+		<skeleton name="MachineSkel" deferred_loading="false" protected="false" file="furniture/gym_rowingmachine/Gym_RowingMachine.skn" />
+		<soundbank name="sounds" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/sound/sounds.bnk" memory="host" />
+		<repertoire name="my_gym_fitness_male" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/my_gym_fitness_male.xml" />
+		<repertoire name="my_gym_fitness_female" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/my_gym_fitness_female.xml" />
+		<lua name="Anim.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Anim.luac" memory="host" />
+		<lua name="JSONUtility.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/framework/JSONUtility.luac" memory="host" />
+		<lua name="Menu.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Menu.luac" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Main.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Pad.luac" memory="host" />
+		<lua name="PlayerProfile.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/PlayerProfile.luac" memory="host" />
+		<lua name="Sound.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Sound.luac" memory="host" />
+		<lua name="Stats.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Stats.luac" memory="host" />
+		<lua name="StringUtility.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/framework/StringUtility.luac" memory="host" />
+		<lua name="VHTTPRequest.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/framework/VHTTPRequest.luac" memory="host" />
+		<lua name="VLog.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/framework/VLog.luac" memory="host" />
+		<lua name="News.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/News.luac" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Game.luac" memory="host" />
+		<lua name="Shop.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/Shop.luac" memory="host" />
+		<lua name="MyGymShop.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/lua/MyGymShop.luac" memory="host" />
+		<lua name="ConfigurationManager.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/ConfigurationManager.luac" memory="host" />
+		<lua name="class.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/class.luac" memory="host" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/Inventory.luac" memory="host" />
+		<lua name="Consumable.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/Consumable.luac" memory="host" />
+		<lua name="ObjectMetadata.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/ObjectMetadata.luac" memory="host" />
+		<lua name="TextBox.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/TextBox.luac" memory="host" />
+	</local>
+	<external />
+</resources>

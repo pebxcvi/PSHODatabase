@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="wings_rem.mdl" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/model/wings_r.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/file/config.xml" memory="host" />
+		<anim name="wings_boost.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/anim/wings_r.ani" memory="host" />
+		<anim name="wings_idle.ani" deferred_loading="true" protected="false" file="locomotion/shrink_-_dragon/anim/wings_idle.ani" memory="host" />
+		<anim name="wings_move.ani" deferred_loading="true" protected="false" file="locomotion/shrink_-_dragon/anim/wings_move.ani" memory="host" />
+		<anim name="m_idle.ani" deferred_loading="true" protected="false" file="locomotion/shrink_-_dragon/anim/male_idle_bake.ani" memory="host" />
+		<anim name="m_move.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/anim/male_move_bake.ani" memory="host" />
+		<anim name="male_l.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/anim/male_l.ani" />
+		<anim name="male_r.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/anim/male_r.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/skeleton/wings_r.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/shrink_-_dragon/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

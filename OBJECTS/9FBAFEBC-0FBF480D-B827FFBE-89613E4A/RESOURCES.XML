@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/SPD13_RainbowMaker.mdl" />
+    <model name="SPD13_PinWheel_Rig_Anim.mdl" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/SPD13_PinWheel_Rig_Anim.mdl" />
+    <model name="SPD13_PotOGold.mdl" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/SPD13_PotOGold.mdl" />
+    <model name="SPD13_Rainbow.mdl" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/SPD13_Rainbow.mdl" />
+    <particle name="Mist01.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/SPD13/Mist01.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/Network.xml" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/SPD13_RainbowMaker.hkx" />
+    <anim name="SPD13_PinWheel_Rig_Anim.ani" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/SPD13_PinWheel_Rig_Anim.ani" />
+    <skeleton name="SPD13_PinWheel_Rig_Anim.skn" deferred_loading="false" protected="false" file="furniture/spd13_rainbowmaker/SPD13_PinWheel_Rig_Anim.skn" />
+    <lua name="ApartmentEffects.lua" deferred_loading="false" protected="true" file="furniture/spd13_rainbowmaker/apartmenteffects.luac" />
+    <lua name="ApartmentMapper.lua" deferred_loading="false" protected="true" file="furniture/spd13_rainbowmaker/apartmentmapper.luac" />
+    <lua name="ClumpPointCheck.lua" deferred_loading="false" protected="true" file="furniture/spd13_rainbowmaker/clumppointcheck.luac" />
+    <lua name="Rayball.lua" deferred_loading="false" protected="true" file="furniture/spd13_rainbowmaker/rayball.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/spd13_rainbowmaker/utility.luac" />
+    <lua name="RainbowMakerMain.lua" deferred_loading="false" protected="true" file="furniture/spd13_rainbowmaker/rainbowmakermain.luac" />
+  </local>
+  <external />
+</resources>

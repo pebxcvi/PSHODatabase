@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="HomePlaza_Screen.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/HomePlaza_Screen.mdl" />
+		<model name="HomePlaza_Screen_blocker.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/HomePlaza_Screen_blocker.mdl" />
+		<model name="Colour_1_start.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_1_start.mdl" />
+		<model name="Colour_2_start.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_2_start.mdl" />
+		<model name="Colour_3_start.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_3_start.mdl" />
+		<model name="Colour_4_start.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_4_start.mdl" />
+		<model name="Colour_5_start.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_5_start.mdl" />
+		<model name="Colour_6_start.mdl" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_6_start.mdl" />
+		<texture name="Initialising-Graphic.dds" deferred_loading="false" file="MiniGames/HomePlazaJukebox/Graphics/Initialising-Graphic.dds" />
+		<texture name="Track-List-Up.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Track-List-Up.dds" />
+		<texture name="Track-List-Down.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Track-List-Down.dds" />
+		<texture name="Track-List.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Track-List.dds" />
+		<texture name="Home-Logo.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Home-Logo.dds" />
+		<texture name="Current-Votes.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Current-Votes.dds" />
+		<texture name="Next-Track-Time.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Next-Track-Time.dds" />
+		<texture name="Now-Playing.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Now-Playing.dds" />
+		<texture name="Button-Up-Down.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Button-Up-Down.dds" />
+		<texture name="Button-Circle.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Button-Circle.dds" />
+		<texture name="Button-Cross.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/Graphics/Button-Cross.dds" />
+		<texture name="HomePlaza_Screen_blocker.dds" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/texture/HomePlaza_Screen_blocker.dds" />
+		<anim name="Colour_1_start.ani" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_1_start.ani" />
+		<anim name="Colour_2_start.ani" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_2_start.ani" />
+		<anim name="Colour_3_start.ani" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_3_start.ani" />
+		<anim name="Colour_4_start.ani" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_4_start.ani" />
+		<anim name="Colour_5_start.ani" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_5_start.ani" />
+		<anim name="Colour_6_start.ani" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_6_start.ani" />
+		<skeleton name="Colour_1_start.skn" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_1_start.skn" />
+		<skeleton name="Colour_2_start.skn" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_2_start.skn" />
+		<skeleton name="Colour_3_start.skn" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_3_start.skn" />
+		<skeleton name="Colour_4_start.skn" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_4_start.skn" />
+		<skeleton name="Colour_5_start.skn" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_5_start.skn" />
+		<skeleton name="Colour_6_start.skn" deferred_loading="false" file="MiniGames/HomePlazaJukeBox/models/Anims/Colour_6_start.skn" />
+		<lua name="JukeBox.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/JukeBox.lua" />
+		<lua name="VoteCollector.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/VoteCollector.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/Network.lua" />
+		<lua name="PadButton.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/PadButton.lua" />
+		<lua name="PadInterface.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/PadInterface.lua" />
+		<lua name="Mp3Track.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/Mp3Track.lua" />
+		<lua name="TrackList.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/TrackList.lua" />
+		<lua name="TrackListConfig.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/TrackListConfig.lua" />
+		<lua name="VideoTrack.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/VideoTrack.lua" />
+		<lua name="Bit.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/Bit.lua" />
+		<lua name="Colour.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/Colour.lua" />
+		<lua name="Dampener2.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/Dampener2.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUDTextPanel.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUDLib.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUDText.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/HUDLib/HUDListBox.lua" />
+		<lua name="HUDVoteListItem.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/HUDVoteListItem.lua" />
+		<lua name="HUDVoteList.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/HUDVoteList.lua" />
+		<lua name="JukeBoxConfig.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxConfig.lua" />
+		<lua name="HUDConfig.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/HUDConfig.lua" />
+		<lua name="PlayerTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/PlayerTrigger.lua" />
+		<lua name="MediaScreen.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/MediaScreen.lua" />
+		<lua name="MediaScreenConfig.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/MediaScreenConfig.lua" />
+		<lua name="DelayedDampener.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/DelayedDampener.lua" />
+		<lua name="ScreenCamera.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/ScreenCamera.lua" />
+		<lua name="InternetDataDownloader.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/InternetDataDownloader.lua" />
+		<lua name="Mp4AudioTrack.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/JukeBoxCore/Mp4AudioTrack.lua" />
+		<lua name="Effects.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Effects.lua" />
+		<lua name="CallerQueue.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/CallerQueue.lua" />
+		<lua name="General_Fn_Lib.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlazaJukeBox/Lua_fn_libs/General_Fn_Lib.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/jukeboxgow/model/JukeboxGoW.mdl" />
+		<model name="JukeboxGoW_PurpleLED.mdl" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/model/JukeboxGoW_PurpleLED.mdl" />
+		<model name="JukeboxGoW_Bubbles.mdl" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/model/JukeboxGoW_Bubbles.mdl" />
+		<model name="JukeboxGoW_FrontLight.mdl" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/model/JukeboxGoW_FrontLight.mdl" />
+		<model name="JukeboxGoW_lowerLED.mdl" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/model/JukeboxGoW_lowerLED.mdl" />
+		<texture name="jukeboxGoW_c.dds" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/textures/jukeboxGoW_c.dds" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/textures/blank.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/Network.xml" />
+		<file name="jukebox_songlist.xml" deferred_loading="false" protected="false" file="ActiveItems/jukeboxgow/jukebox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/jukeboxgow/model/JukeboxGoW.hkx" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/jukeboxgow/MyPad.lua" />
+		<lua name="JukeboxGoW.lua" deferred_loading="false" protected="true" file="ActiveItems/jukeboxgow/JukeboxGoW.lua" />
+	</local>
+	<external />
+</resources>

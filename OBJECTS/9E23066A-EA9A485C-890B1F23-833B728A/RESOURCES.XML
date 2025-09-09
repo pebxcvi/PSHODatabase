@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/LeopardCub/model/leopard.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/LeopardCub/model/leopard_LoPoly.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/LeopardCub/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="false" protected="false" file="CompanionFollowers/LeopardCub/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/LeopardCub/anim/idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/LeopardCub/anim/walk.ani" memory="main" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/LeopardCub/anim/idle2.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/LeopardCub/anim/run.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="CompanionFollowers/LeopardCub/skeleton/leopard.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/LeopardCub/lua/boot.luac" memory="host" id="437254856" />
+	</local>
+	<external />
+</resources>

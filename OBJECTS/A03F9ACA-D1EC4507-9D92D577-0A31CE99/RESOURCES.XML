@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ScoreDigit9.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_9.mdl" />
+		<model name="ScoreDigit0.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_0.mdl" />
+		<model name="ScoreDigit1.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_1.mdl" />
+		<model name="ScoreDigit2.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_2.mdl" />
+		<model name="ScoreDigit3.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_3.mdl" />
+		<model name="ScoreDigit4.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_4.mdl" />
+		<model name="ScoreDigit5.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_5.mdl" />
+		<model name="ScoreDigit6.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_6.mdl" />
+		<model name="ScoreDigit7.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_7.mdl" />
+		<model name="ScoreDigit8.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_led_red_8.mdl" />
+		<model name="StackTimerLED.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_countdown_dot.mdl" />
+		<model name="StackLED.mdl" deferred_loading="false" file="MiniGames/MG02/Models/mg02_red_button_bars.mdl" />
+		<model name="BlockLED00.mdl" deferred_loading="false" protected="" file="MiniGames/MG02/Models/MG02_White_Button_Down.mdl" />
+		<model name="BlockLED10.mdl" deferred_loading="false" protected="" file="MiniGames/MG02/Models/MG02_White_Button_Right.mdl" />
+		<model name="BlockLED20.mdl" deferred_loading="false" protected="" file="MiniGames/MG02/Models/MG02_White_Button_Left.mdl" />
+		<model name="BlockLED30.mdl" deferred_loading="false" protected="" file="MiniGames/MG02/Models/MG02_White_Button_Up.mdl" />
+		<model name="BlockLED01.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Red_Button_Down.mdl" />
+		<model name="BlockLED11.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Red_Button_Right.mdl" />
+		<model name="BlockLED21.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Red_Button_Left.mdl" />
+		<model name="BlockLED31.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Red_Button_Up.mdl" />
+		<model name="BlockLED02.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Green_Button_Down.mdl" />
+		<model name="BlockLED12.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Green_Button_Right.mdl" />
+		<model name="BlockLED22.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Green_Button_Left.mdl" />
+		<model name="BlockLED32.mdl" deferred_loading="false" protected="false" file="MiniGames/MG02/Models/MG02_Green_Button_Up.mdl" />
+		<model name="Table.mdl" deferred_loading="false" protected="" file="MiniGames/MG02/Models/mg02_push_ups.mdl" />
+		<texture name="CountDown3" deferred_loading="false" file="generic_shared_textures/Number_3.dds" />
+		<texture name="CountDown1" deferred_loading="false" file="generic_shared_textures/Number_1.dds" />
+		<texture name="CountDown2" deferred_loading="false" file="generic_shared_textures/Number_2.dds" />
+		<texture name="CountDown0" deferred_loading="false" file="generic_shared_textures/Go.dds" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG02/OSD/types.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<collision name="Table.hkx" deferred_loading="false" protected="" file="MiniGames/MG02/Models/mg02_push_ups.hkx" />
+		<anim name="male_Pushup" deferred_loading="false" protected="" file="MiniGames/MG02/Animations/male/pushup.ani" />
+		<anim name="female_Pushup" deferred_loading="false" protected="" file="MiniGames/MG02/Animations/female/pushup.ani" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="" file="MiniGames/MG02/Animations/Male_Animations_Pushups.xml" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="" file="MiniGames/MG02/Animations/Female_Animations_Pushups.xml" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG02/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG02/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG02/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG02/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG02/Source/Player.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG02/Source/Settings_PushUps.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="Table.lua" deferred_loading="false" protected="true" file="MiniGames/MG02/Source/Table.lua" />
+	</local>
+	<external />
+</resources>

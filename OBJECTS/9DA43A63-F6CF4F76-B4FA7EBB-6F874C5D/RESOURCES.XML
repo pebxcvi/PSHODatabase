@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/fastdrawarcademachine/FastDrawArcadeMachine.mdl" />
+		<file name="networkDefs.xml" deferred_loading="false" protected="false" file="objects/9DA43A63-F6CF4F76-B4FA7EBB-6F874C5D/networkDefs.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/fastdrawarcademachine/FastDrawArcadeMachine.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Scripts/FDLaunch.lua" />
+	</local>
+	<external />
+</resources>
