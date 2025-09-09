@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="Actives/XiTeleporter/model/ActiveModel.mdl" />
+		<model name="day5.mdl" deferred_loading="false" protected="false" file="game/xoff_cola/day5.mdl" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="Actives/XiTeleporter/collision/ActiveModel.hkx" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="Actives/XiTeleporter/collision/ActiveModel.safevolume.hkx" />
+		<collision name="day5.hkx" deferred_loading="false" protected="false" file="game/xoff_cola/day5.hkx" />
+		<lua name="Active.lua" deferred_loading="false" protected="true" file="Actives/XiTeleporter/lua/Active.lua" />
+	</local>
+	<external />
+</resources>

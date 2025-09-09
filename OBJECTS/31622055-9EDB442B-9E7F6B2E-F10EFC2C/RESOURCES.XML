@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Kingyo_sukui_01.mdl" deferred_loading="false" protected="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_sukui_01.mdl" />
+		<model name="Kingyo_case.mdl" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_case.mdl" />
+		<model name="Kingyo_own_01.mdl" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_own_01.mdl" />
+		<model name="Kingyo_sukui_02.mdl" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_sukui_02.mdl" />
+		<model name="Kingyo_fish1.mdl" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish1.mdl" />
+		<model name="Kingyo_fish3.mdl" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish3.mdl" />
+		<model name="Kingyo_fish4.mdl" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish4.mdl" />
+		<model name="Kingyo_fish2.mdl" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish2.mdl" />
+		<texture name="tama_ari.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/2D/fukiya/tama_ari.dds" />
+		<texture name="tama_nasi.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/2D/fukiya/tama_nasi.dds" />
+		<texture name="line_01.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/kingyo/2D/line_01.dds" />
+		<texture name="SpotlightMask.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/2D/start_title.dds" />
+		<particle name="eff_fish_w01.efx" deferred_loading="false" protected="false" file="Edo/cmn_design/ATGParticles/Efx/eff_fish_w01.efx" memory="host" />
+		<particle name="eff_fish_w03.efx" deferred_loading="false" protected="false" file="Edo/cmn_design/ATGParticles/Efx/eff_fish_w03.efx" memory="host" />
+		<particle name="eff_fish_w02.efx" deferred_loading="false" protected="false" file="Edo/cmn_design/ATGParticles/Efx/eff_fish_w02.efx" memory="host" />
+		<file name="SelectionButton.xml" deferred_loading="false" protected="false" file="Edo/soft_jp_00/Kingyo/file/SelectionButton.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="Edo/soft_jp_00/Kingyo/file/types.xml" />
+		<file name="WndTab.xml" deferred_loading="false" protected="false" file="Edo/soft_jp_00/Kingyo/file/WndTab.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" protected="false" file="Edo/soft_jp_00/Kingyo/file/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" protected="false" file="Edo/soft_jp_00/Kingyo/file/WndTabSelectDialog.xml" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" protected="false" file="Edo/soft_jp_00/Kingyo/file/WndMessageDialog.xml" />
+		<anim name="Kingyo_fish1_anm_cap.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish1_anm_cap.ani" memory="host" />
+		<anim name="Kingyo_fish1_anm_ntl.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish1_anm_ntl.ani" memory="host" />
+		<anim name="Kingyo_fish2_anm_cap.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish2_anm_cap.ani" memory="host" />
+		<anim name="Kingyo_fish2_anm_ntl.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish2_anm_ntl.ani" memory="host" />
+		<anim name="Kingyo_fish3_anm_cap.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish3_anm_cap.ani" memory="host" />
+		<anim name="Kingyo_fish3_anm_ntl.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish3_anm_ntl.ani" memory="host" />
+		<anim name="Kingyo_fish4_anm_cap.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish4_anm_cap.ani" memory="host" />
+		<anim name="Kingyo_fish4_anm_ntl.ani" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish4_anm_ntl.ani" memory="host" />
+		<skeleton name="Kingyo_fish4_anm_ntl.skn" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish4_anm_ntl.skn" memory="host" />
+		<skeleton name="Kingyo_fish1_anm_ntl.skn" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish1_anm_ntl.skn" memory="host" />
+		<skeleton name="Kingyo_fish2_anm_ntl.skn" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish2_anm_ntl.skn" memory="host" />
+		<skeleton name="Kingyo_fish3_anm_ntl.skn" deferred_loading="false" file="Edo/cmn_design/kingyo/scenes/Kingyo_fish3_anm_ntl.skn" memory="host" />
+		<soundbank name="Kingyo.bnk" deferred_loading="false" protected="false" file="Edo/sound/Kingyo.bnk" memory="host" />
+		<lua name="LuaCamera" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaCamera.lua" />
+		<lua name="LuaMath" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaMath.lua" />
+		<lua name="LuaMemblock" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaMemblock.lua" />
+		<lua name="LuaObj" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaObj.lua" />
+		<lua name="LuaPadSensor" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaPadSensor.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaPadUtil.lua" />
+		<lua name="LuaSensorCursor" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaSensorCursor.lua" />
+		<lua name="LuaSimpleEffect" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaSimpleEffect.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaSingleEvent.lua" />
+		<lua name="LuaTask" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaTask.lua" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/LuaUtil.lua" />
+		<lua name="system" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/system.lua" />
+		<lua name="poi" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/poi.lua" />
+		<lua name="petkingyo" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/petkingyo.lua" />
+		<lua name="navi" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/navi.lua" />
+		<lua name="main" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/main.lua" />
+		<lua name="kreward" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/kreward.lua" />
+		<lua name="case" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/case.lua" />
+		<lua name="data_kingyo" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/data_kingyo.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/DialogBasicS.lua" />
+		<lua name="DialogSelect" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/DialogSelect.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/DialogTabSelectS.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/DialogTab.lua" />
+		<lua name="kingyo" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/kingyo.lua" />
+		<lua name="game_flow" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/game_flow.lua" />
+		<lua name="game_act" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/game_act.lua" />
+		<lua name="disp_result" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/disp_result.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/Inventory.lua" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Kingyo/lua/AsyncCommandJobManager.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/Lib/lua/UtilGarbage.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/DataStation/lua/dataInterfaceMinimum.lua" />
+	</local>
+	<external />
+</resources>

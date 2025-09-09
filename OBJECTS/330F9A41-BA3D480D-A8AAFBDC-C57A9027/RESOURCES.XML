@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="antitorque_rotor.mdl" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/antitorque_rotor.mdl" />
+		<model name="helicopter_body.mdl" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/helicopter_body.mdl" />
+		<model name="helicopter_door.mdl" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/helicopter_door.mdl" />
+		<model name="helicopter_main_rotor.mdl" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/helicopter_main_rotor.mdl" />
+		<particle name="tandust.efx" deferred_loading="false" protected="false" file="MiniGames/vehiclehub/effects/tandust.efx" />
+		<particle name="tandust.efx_1" deferred_loading="false" protected="false" file="MiniGames/vehiclehub/effects/tandust.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/vehiclehub/programming/Network.xml" />
+		<file name="000.xml" deferred_loading="false" protected="false" file="MiniGames/vehiclehub/programming/000.xml" />
+		<collision name="helicopter_body.hkx" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/helicopter_body.hkx" />
+		<collision name="helicopter_door.hkx" deferred_loading="false" protected="false" file="environments/luxapt/tycoonpenthouse/helicopter_door.hkx" />
+		<anim name="helicopter_door_close.ani" deferred_loading="false" protected="false" file="environments/luxapt/tycoonpenthouse/helicopter_door_close.ani" />
+		<anim name="helicopter_door_open.ani" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/helicopter_door_open.ani" />
+		<anim name="Female_GetIn_Helicopter.ani" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/minigames/helicopter/models/anims/Female_GetIn_Helicopter.ani" />
+		<anim name="Female_GetOut_Helicopter.ani" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/minigames/helicopter/models/anims/Female_GetOut_Helicopter.ani" />
+		<anim name="Female_SittingIn_Helicopter_Pose.ani" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/minigames/helicopter/models/anims/Female_SittingIn_Helicopter_Pose.ani" />
+		<anim name="Male_GetIn_Helicopter.ani" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/minigames/helicopter/models/anims/Male_GetIn_Helicopter.ani" />
+		<anim name="Male_GetOut_Helicopter.ani" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/minigames/helicopter/models/anims/Male_GetOut_Helicopter.ani" />
+		<anim name="Male_SittingIn_Helicopter_Pose.ani" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/minigames/helicopter/models/anims/Male_SittingIn_Helicopter_Pose.ani" />
+		<skeleton name="helicopter_door.skn" deferred_loading="false" protected="false" file="environments/LuxApt/tycoonpenthouse/helicopter_door.skn" />
+		<soundbank name="heli.bnk" deferred_loading="false" protected="false" file="environments/luxapt/tycoonpenthouse/minigames/helicopter/Sounds/heli.bnk" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="objects/330F9A41-BA3D480D-A8AAFBDC-C57A9027/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="objects/330F9A41-BA3D480D-A8AAFBDC-C57A9027/FemaleRepertoire.xml" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/HeliData.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/HeliMain.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Sound/SfxMgr.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/MyPad.lua" />
+		<lua name="VehicleHub.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/VehicleHub.lua" />
+		<lua name="Vehicle.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Vehicle.lua" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Animations/Animations.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/StateMachine/StateMachine.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/StateMachine/State.lua" />
+		<lua name="Copter.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Copter.lua" />
+		<lua name="Copter.lua_1" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Copter.lua" />
+	</local>
+	<external />
+</resources>

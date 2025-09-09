@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/TRON_LightCycle.mdl" memory="host" />
+		<model name="TRON_LightCycle_Emissives" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/TRON_LightCycle_Emissives.mdl" />
+		<texture name="black_glass_75a.dds" deferred_loading="false" protected="false" file="generic_shared_textures/black_glass_75a.dds" />
+		<texture name="mg_lightcycle_emissives_01" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/mg_lightcycle_emissives_01.dds" memory="host" />
+		<texture name="mg_lightcycle_emissives_02" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/mg_lightcycle_emissives_02.dds" memory="host" />
+		<texture name="mg_lightcycle_emissives_03" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/mg_lightcycle_emissives_03.dds" />
+		<texture name="mg_lightcycle_emissives_04" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/mg_lightcycle_emissives_04.dds" />
+		<file name="network.xml" deferred_loading="false" protected="false" file="objects/605C1534-A30F43EE-8A983F6A-C774E8AA/network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/TRON_LightCycle.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/tron_lightcycle/TRON_LightCycle.safevolume.hkx" />
+		<lua name="TronLaunchMiniGameAPT.lua" deferred_loading="false" protected="true" file="objects/31D30FD2-325E4685-8B30624E-2F91E0DF/TronLaunchMiniGameAPT.lua" />
+	</local>
+	<external />
+</resources>

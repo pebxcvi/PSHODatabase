@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/FP_Zombie_Locomotion/model/zombie_Rigging_Walk.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/FP_Zombie_Locomotion/file/config.xml" memory="host" />
+		<anim name="Default_Walk_Male" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/Default_Walk_Male.ani" />
+		<anim name="zombie_Rigging_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/zombie_Rigging_Walk.ani" />
+		<anim name="zombie_Rigging_Idle01.ani" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/zombie_Rigging_Idle01.ani" />
+		<anim name="Default_Idle_Male" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/Default_Idle_Male.ani" memory="host" />
+		<anim name="Default_Walk_Right_Male" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/Default_Walk_Right_Male.ani" memory="host" />
+		<anim name="Default_Walk_left_Male" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/Default_Walk_left_Male.ani" memory="host" />
+		<anim name="F_Default_Idle" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/F_Default_Idle.ani" memory="host" />
+		<anim name="F_Default_Right" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/F_Default_Right.ani" memory="host" />
+		<anim name="F_Default_Left" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/F_Default_Left.ani" memory="host" />
+		<anim name="F_Default_Walk" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/anim/F_Default_Walk.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/skeleton/zombie_Rigging_Walk.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Zombie_Locomotion/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/FP_Zombie_Locomotion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

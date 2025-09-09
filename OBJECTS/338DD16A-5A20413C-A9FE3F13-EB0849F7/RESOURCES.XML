@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="MatchingScreens_Background.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Background.dds" />
+		<texture name="MatchingScreens_Cross.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Cross.dds" />
+		<texture name="MatchingScreens_DeathMatchIcon.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_DeathMatchIcon.dds" />
+		<texture name="MatchingScreens_Image_Level1.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Image_Level1.dds" />
+		<texture name="MatchingScreens_Image_MultiplayerRanked.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Image_MultiplayerRanked.dds" />
+		<texture name="MatchingScreens_Image_MultiplayerUnranked.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Image_MultiplayerUnranked.dds" />
+		<texture name="MatchingScreens_Image_Tutorial.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Image_Tutorial.dds" />
+		<texture name="MatchingScreens_SalvageIcon.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_SalvageIcon.dds" />
+		<texture name="MatchingScreens_SelectionBox_Large.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_SelectionBox_Large.dds" />
+		<texture name="MatchingScreens_SelectionBox_Small.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_SelectionBox_Small.dds" />
+		<texture name="MatchingScreens_Tick.dds" deferred_loading="true" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Tick.dds" />
+		<texture name="Button_Circle.dds" deferred_loading="true" protected="false" file="RealTimeGames/No_Mans_Land/textures/TR/EquipScreens/Weapons/Button_Circle.dds" />
+		<texture name="Button_Dpad.dds" deferred_loading="true" protected="false" file="RealTimeGames/No_Mans_Land/textures/TR/EquipScreens/Weapons/Button_Dpad.dds" />
+		<texture name="Button_X.dds" deferred_loading="true" protected="false" file="RealTimeGames/No_Mans_Land/textures/TR/EquipScreens/Weapons/Button_X.dds" />
+		<texture name="MatchingScreens_Image_AnyLevel.dds" deferred_loading="false" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Image_AnyLevel.dds" />
+		<texture name="MatchingScreens_Image_Level2.dds" deferred_loading="false" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Image_Level2.dds" />
+		<texture name="MatchingScreens_Image_NewAsia.dds" deferred_loading="false" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_Image_NewAsia.dds" />
+		<texture name="Button_Triangle.dds" deferred_loading="false" protected="false" file="RealTimeGames/No_Mans_Land/textures/TR/EquipScreens/Weapons/Button_Triangle.dds" />
+		<texture name="MatchingScreens_PSStoreBag.dds" deferred_loading="false" protected="false" file="MiniGames/nmlmatchmanager/file/Textures/TR/MatchingScreens_PSStoreBag.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/nmlscenemanager/file/Network.xml" />
+		<file name="tenbyfive.ttf" deferred_loading="false" protected="false" file="RealTimeGames/No_Mans_Land/fonts/tenbyfive.ttf" />
+		<soundbank name="TutorialAmbience.bnk" deferred_loading="false" protected="false" file="RealTimeGames/No_Mans_Land/sound/TutorialAmbience.bnk" />
+		<soundbank name="PlayerSfx.bnk" deferred_loading="true" protected="false" file="RealTimeGames/No_Mans_Land/sound/PlayerSfx.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/MiniGame.lua" />
+		<lua name="VMDebug.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscenemanager/lua/VMDebug.lua" />
+		<lua name="MatchManager.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/MatchManager.lua" />
+		<lua name="uiString.lua" deferred_loading="false" protected="true" file="RealTimeGames/No_Mans_Land/lua/uiString.lua" />
+		<lua name="matchstate-attract.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-attract.lua" />
+		<lua name="matchstate-authenticate.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-authenticate.lua" />
+		<lua name="matchstate-mainmenu.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-tr-mainmenu.lua" />
+		<lua name="matchstate-joinlevel.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-joinlevel.lua" />
+		<lua name="matchstate-loadlevel.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-loadlevel.lua" />
+		<lua name="matchstate-multimatch.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-multimatch.lua" />
+		<lua name="matchstate-multiindividual.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-multiindividual.lua" />
+		<lua name="kitString.lua" deferred_loading="false" protected="true" file="MiniGames/nmlkitmanager/lua/kitString.lua" />
+		<lua name="version.lua" deferred_loading="false" protected="true" file="Core/version.lua" />
+		<lua name="matchstate-commerce.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-commerce.lua" />
+		<lua name="matchstate-commercecheck.lua" deferred_loading="false" protected="true" file="MiniGames/nmlmatchmanager/lua/matchstate-commercecheck.lua" />
+	</local>
+	<external />
+</resources>

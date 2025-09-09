@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Water_Taxi.mdl" deferred_loading="true" protected="false" file="games/common/vehicles/water_taxi/Water_Taxi.mdl" />
+    <model name="Taxi_Driver_Model.mdl" deferred_loading="true" protected="false" file="games/common/characters/taxi_driver/Taxi_Driver_Model.mdl" />
+    <texture name="Pure_Black_c.dds" deferred_loading="false" protected="false" file="games/IslandWaterTaxi/textures/Pure_Black_c.dds" />
+    <anim name="Taxi_Driver_Animation.ani" deferred_loading="true" protected="false" file="games/common/characters/taxi_driver/Taxi_Driver_Animation.ani" />
+    <skeleton name="Taxi_Driver_Model.skn" deferred_loading="true" protected="false" file="games/common/characters/taxi_driver/Taxi_Driver_Model.skn" />
+    <soundbank name="WaterTaxiSounds.bnk" deferred_loading="false" protected="false" file="games/IslandWaterTaxi/audio/WaterTaxiSounds.bnk" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/islandwatertaxi/lua/minigame.luac" />
+    <lua name="Misc.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Misc.luac" />
+    <lua name="MiniGame_Pad.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/MiniGame_Pad.luac" />
+    <lua name="Misc_Lerp.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Misc_Lerp.luac" />
+    <lua name="Misc_LockPlayer.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Misc_LockPlayer.luac" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/StateMachine.luac" />
+    <lua name="Helpers.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Helpers.luac" />
+    <lua name="CatmullRom.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/CatmullRom.luac" />
+    <lua name="Component_GameTriggerMove.lua" deferred_loading="false" protected="true" file="games/islandwatertaxi/lua/library/component_gametriggermove.luac" />
+    <lua name="NodeGraphAIStates.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/NodeGraph_AI/NodeGraphAIStates.luac" />
+    <lua name="NodeGraphAIWaypoints.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/NodeGraph_AI/NodeGraphAIWaypoints.luac" />
+    <lua name="RayObject.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/NodeGraph_AI/RayObject.luac" />
+    <lua name="GameCamera.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/GameCamera.luac" />
+    <lua name="WaterTaxi.lua" deferred_loading="false" protected="true" file="games/islandwatertaxi/lua/watertaxi.luac" />
+    <lua name="NodeGraph.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/NodeGraph_AIv2/NodeGraph.luac" />
+    <lua name="NodeGraphAI.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/NodeGraph_AIv2/NodeGraphAI.luac" />
+    <lua name="WaterTaxiResources.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/WaterTaxiResources.luac" />
+    <lua name="Component_OSDBasicSingleGraphicClass.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Component_OSDBasicSingleGraphicClass.luac" />
+    <lua name="Communicator.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator.luac" />
+    <lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Communicator_ProjectDefined.luac" />
+    <lua name="Core.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Core.luac" />
+    <lua name="Util.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Util.luac" />
+    <lua name="Misc_OSD.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/Misc_OSD.luac" />
+    <lua name="RewardCheck.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/RewardCheck.luac" />
+    <lua name="DeferredLoadingResources.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/DeferredLoadingResources.luac" />
+    <lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="games/IslandWaterTaxi/lua/Library/ResourceManager.luac" />
+  </local>
+  <external />
+</resources>

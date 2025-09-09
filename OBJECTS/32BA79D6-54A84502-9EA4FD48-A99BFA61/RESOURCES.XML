@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="DoorSwitch_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/DoorSwitch.mdl" />
+		<model name="Cannon_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/cannon.mdl" />
+		<model name="Squid_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/squid.mdl" />
+		<model name="Gate_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/gate.mdl" />
+		<model name="Grav_Crash_Ship_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/ship.mdl" />
+		<model name="MazeBarrier_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/MazeBarrier.mdl" />
+		<model name="diamond_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/diamond.mdl" />
+		<model name="DoorSwitchRed_mdl" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/doorswitchred.mdl" />
+		<texture name="Panel_Small_dds" deferred_loading="false" file="Scripts/gravity_crash_maze/images/panels/GravityCrash_info_panel.dds" />
+		<texture name="Panel_Large_dds" deferred_loading="false" file="Scripts/gravity_crash_maze/images/panels/GravityCrash_question_panel.dds" />
+		<texture name="Diamond_dds" deferred_loading="false" file="Scripts/gravity_crash_maze/images/diamond.dds" />
+		<particle name="Beam_efx" deferred_loading="false" file="ATGParticles/GravityCrash/beam.efx" />
+		<file name="OSD_Types_xml" deferred_loading="false" file="Scripts/gravity_crash_maze/OSD/types.xml" />
+		<collision name="MazeBarrier_hkx" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/MazeBarrier.hkx" />
+		<collision name="Cannon_hkx" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/cannon.hkx" />
+		<collision name="Gate_hkx" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/gate.hkx" />
+		<anim name="Cannon_ani" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/cannon.ani" />
+		<anim name="Gate_ani" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/gate.ani" />
+		<anim name="Squid_ani" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/squid.ani" />
+		<anim name="Grav_Crash_Ship_ani" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/shipanim.ani" />
+		<anim name="diamond_ani" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/diamond.ani" />
+		<anim name="GateClose_ani" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/gateclose.ani" />
+		<skeleton name="Cannon_skn" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/cannon.skn" />
+		<skeleton name="Gate_skn" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/gate.skn" />
+		<skeleton name="Squid_skn" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/squid.skn" />
+		<skeleton name="Grav_Crash_Ship_skn" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/ship.skn" />
+		<skeleton name="diamond_skn" deferred_loading="false" file="environments/gravity_crash_maze_7fa3_7bf8/objects/diamond.skn" />
+		<soundstream name="CliffDiverEdit_mp3" deferred_loading="false" file="Scripts/gravity_crash_maze/audio/CliffDiverEdit.mp3" />
+		<lua name="Util_lua" deferred_loading="false" protected="true" file="Scripts/gravity_crash_maze/Util.lua" />
+		<lua name="Gravity_crash_maze_minigame_lua" deferred_loading="false" protected="true" file="Scripts/gravity_crash_maze/Gravity_crash_maze_minigame.lua" />
+		<lua name="Constants_lua" deferred_loading="false" protected="true" file="Scripts/gravity_crash_maze/Constants.lua" />
+	</local>
+	<external />
+</resources>

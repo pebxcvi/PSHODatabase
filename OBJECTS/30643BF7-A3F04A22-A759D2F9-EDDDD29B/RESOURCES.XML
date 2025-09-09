@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mask01" file="MiniGames/Uncharted2/MaskHunt/models/Mask1.mdl" deferred_loading="false" />
+		<model name="mask02" file="MiniGames/Uncharted2/MaskHunt/models/Mask2.mdl" deferred_loading="false" />
+		<model name="mask03" file="MiniGames/Uncharted2/MaskHunt/models/Mask3.mdl" deferred_loading="false" />
+		<model name="mask04" file="MiniGames/Uncharted2/MaskHunt/models/Mask4.mdl" deferred_loading="false" />
+		<model name="mask05" file="MiniGames/Uncharted2/MaskHunt/models/Mask5.mdl" deferred_loading="false" />
+		<model name="mask01centre" file="MiniGames/Uncharted2/MaskHunt/models/Mask1centre.mdl" deferred_loading="false" />
+		<model name="mask02centre" file="MiniGames/Uncharted2/MaskHunt/models/Mask2centre.mdl" deferred_loading="false" />
+		<model name="mask03centre" file="MiniGames/Uncharted2/MaskHunt/models/Mask3centre.mdl" deferred_loading="false" />
+		<model name="mask04centre" file="MiniGames/Uncharted2/MaskHunt/models/Mask4centre.mdl" deferred_loading="false" />
+		<model name="mask05centre" file="MiniGames/Uncharted2/MaskHunt/models/Mask5centre.mdl" deferred_loading="false" />
+		<model name="maskBust" file="MiniGames/Uncharted2/MaskHunt/models/Mask_Stonehead.mdl" deferred_loading="false" />
+		<model name="mask06centre" file="MiniGames/Uncharted2/MaskHunt/models/Mask6centre.mdl" deferred_loading="false" />
+		<model name="mask07centre" file="MiniGames/Uncharted2/MaskHunt/models/Mask7centre.mdl" deferred_loading="false" />
+		<model name="mask06" file="MiniGames/Uncharted2/MaskHunt/models/Mask6.mdl" deferred_loading="false" />
+		<model name="mask07" file="MiniGames/Uncharted2/MaskHunt/models/Mask7.mdl" deferred_loading="false" />
+		<model name="model_InventoryStrip" file="MiniGames/Uncharted2/MaskHunt/models/InventoryStrip.mdl" deferred_loading="false" />
+		<texture name="osd_medium" file="MiniGames/Uncharted2/MaskHunt/textures/OSD_medium.dds" deferred_loading="false" />
+		<texture name="texture_Hammer" file="MiniGames/Uncharted2/MaskHunt/Hammer.dds" deferred_loading="false" />
+		<texture name="texture_Hand" file="MiniGames/Uncharted2/MaskHunt/HAND.dds" deferred_loading="false" />
+		<file name="main.lua" file="MiniGames/Uncharted2/MaskHunt/main.lua" deferred_loading="false" />
+		<file name="Log.lua" file="MiniGames/Uncharted2/MaskHunt/Log.lua" deferred_loading="false" />
+		<file name="Maths.lua" file="MiniGames/Uncharted2/MaskHunt/Maths.lua" deferred_loading="false" />
+		<file name="Vector.lua" file="MiniGames/Uncharted2/MaskHunt/Vector.lua" deferred_loading="false" />
+		<file name="Intersect.lua" file="MiniGames/Uncharted2/MaskHunt/Intersect.lua" deferred_loading="false" />
+		<file name="ScreenCamera.lua" file="MiniGames/Uncharted2/MaskHunt/ScreenCamera.lua" deferred_loading="false" />
+		<file name="Controller.lua" file="MiniGames/Uncharted2/MaskHunt/Controller.lua" deferred_loading="false" />
+		<file name="Tween.lua" file="MiniGames/Uncharted2/MaskHunt/Tween.lua" deferred_loading="false" />
+		<file name="types.xml" file="MiniGames/Uncharted2/MaskHunt/OSD/types.xml" deferred_loading="false" />
+		<file name="osd_basictext" file="MiniGames/Uncharted2/MaskHunt/OSD/basictext.xml" deferred_loading="false" />
+		<file name="osd_basicchip" file="MiniGames/Uncharted2/MaskHunt/OSD/basicchip.xml" deferred_loading="false" />
+		<file name="osd_errorchip" file="MiniGames/Uncharted2/MaskHunt/OSD/errorchip.xml" deferred_loading="false" />
+		<file name="osd_huntchip" file="MiniGames/Uncharted2/MaskHunt/OSD/huntchip.xml" deferred_loading="false" />
+		<file name="RewardMgr.lua" file="MiniGames/Uncharted2/MaskHunt/RewardMgr.lua" deferred_loading="false" />
+		<file name="Bitwise.lua" file="MiniGames/Uncharted2/MaskHunt/Bitwise.lua" deferred_loading="false" />
+		<file name="OHS.lua" file="MiniGames/Uncharted2/MaskHunt/OHS.lua" deferred_loading="false" />
+		<file name="Jamin.lua" file="MiniGames/Uncharted2/MaskHunt/Jamin.lua" deferred_loading="false" />
+		<file name="encrypt.lua" file="MiniGames/Uncharted2/MaskHunt/encrypt.lua" deferred_loading="false" />
+		<file name="Pickup.lua" file="MiniGames/Uncharted2/MaskHunt/Pickup.lua" deferred_loading="false" />
+		<file name="PopUp.lua" file="MiniGames/Uncharted2/MaskHunt/PopUp.lua" deferred_loading="false" />
+		<file name="StopWatch.lua" file="MiniGames/Uncharted2/MaskHunt/StopWatch.lua" deferred_loading="false" />
+		<file name="osd_timechip" file="MiniGames/Uncharted2/MaskHunt/OSD/timechip.xml" deferred_loading="false" />
+		<file name="StoneSound.lua" file="MiniGames/Uncharted2/MaskHunt/StoneSound.lua" deferred_loading="false" />
+		<file name="TableF.lua" file="MiniGames/Uncharted2/MaskHunt/TableF.lua" deferred_loading="false" />
+		<file name="Comms.lua" file="MiniGames/Uncharted2/Leaderboard/Comms.lua" deferred_loading="false" />
+		<file name="MaskData.lua" file="MiniGames/Uncharted2/MaskHunt/MaskData.lua" deferred_loading="false" />
+		<file name="PlaceState.lua" file="MiniGames/Uncharted2/MaskHunt/PlaceState.lua" deferred_loading="false" />
+		<file name="StopWatchHud.lua" file="MiniGames/Uncharted2/MaskHunt/StopWatchHud.lua" deferred_loading="false" />
+		<file name="osd_stopwatchchip" file="MiniGames/Uncharted2/MaskHunt/OSD/stopwatchchip.xml" deferred_loading="false" />
+		<file name="BangState.lua" file="MiniGames/Uncharted2/MaskHunt/BangState.lua" deferred_loading="false" />
+		<file name="Shaker.lua" file="MiniGames/Uncharted2/MaskHunt/Shaker.lua" deferred_loading="false" />
+		<soundbank name="maskSound.bnk" file="MiniGames/Uncharted2/MaskHunt/sounds/maskSound.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

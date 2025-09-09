@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model_Torch01" file="MiniGames/Uncharted2/TorchGame/models/Torch_01.mdl" deferred_loading="false" />
+		<model name="model_Torch02" file="MiniGames/Uncharted2/TorchGame/models/Torch_02.mdl" deferred_loading="false" />
+		<model name="model_Torch03" file="MiniGames/Uncharted2/TorchGame/models/Torch_03.mdl" deferred_loading="false" />
+		<model name="model_Torch04" file="MiniGames/Uncharted2/TorchGame/models/Torch_04.mdl" deferred_loading="false" />
+		<model name="model_Torch05" file="MiniGames/Uncharted2/TorchGame/models/Torch_05.mdl" deferred_loading="false" />
+		<model name="model_Torch06" file="MiniGames/Uncharted2/TorchGame/models/Torch_06.mdl" deferred_loading="false" />
+		<model name="model_Torch07" file="MiniGames/Uncharted2/TorchGame/models/Torch_07.mdl" deferred_loading="false" />
+		<texture name="FLAMEANIM.dds" file="MiniGames/Uncharted2/TorchGame/particles/FLAMEANIM.dds" deferred_loading="false" />
+		<texture name="Flare.dds" file="MiniGames/Uncharted2/TorchGame/particles/Flare.dds" deferred_loading="false" />
+		<texture name="Spark.dds" file="MiniGames/Uncharted2/TorchGame/particles/Spark.dds" deferred_loading="false" />
+		<texture name="64_smokeAlpha.dds" file="MiniGames/Uncharted2/TorchGame/particles/64_smokeAlpha.dds" deferred_loading="false" />
+		<texture name="osd_medium" file="MiniGames/Uncharted2/TorchGame/textures/OSD_medium.dds" deferred_loading="false" />
+		<texture name="texture_Flame" file="MiniGames/Uncharted2/TorchGame/textures/FLAME_.dds" deferred_loading="false" />
+		<texture name="texture_FlameOff" file="MiniGames/Uncharted2/TorchGame/textures/FLAME_OFF.dds" deferred_loading="false" />
+		<particle name="particle_OnFire" file="MiniGames/Uncharted2/TorchGame/particles/onfire.efx" deferred_loading="false" />
+		<particle name="particle_Spark" file="MiniGames/Uncharted2/TorchGame/particles/spark.efx" deferred_loading="false" />
+		<file name="DbgChannel.lua" file="MiniGames/Uncharted2/TorchGame/DbgChannel.lua" deferred_loading="false" />
+		<file name="DebugDraw.lua" file="MiniGames/Uncharted2/TorchGame/DebugDraw.lua" deferred_loading="false" />
+		<file name="Intersect.lua" file="MiniGames/Uncharted2/TorchGame/Intersect.lua" deferred_loading="false" />
+		<file name="Log.lua" file="MiniGames/Uncharted2/TorchGame/Log.lua" deferred_loading="false" />
+		<file name="main.lua" file="MiniGames/Uncharted2/TorchGame/main.lua" deferred_loading="false" />
+		<file name="Maths.lua" file="MiniGames/Uncharted2/TorchGame/Maths.lua" deferred_loading="false" />
+		<file name="Vector.lua" file="MiniGames/Uncharted2/TorchGame/Vector.lua" deferred_loading="false" />
+		<file name="TorchGame.lua" file="MiniGames/Uncharted2/TorchGame/TorchGame.lua" deferred_loading="false" />
+		<file name="TableF.lua" file="MiniGames/Uncharted2/TorchGame/TableF.lua" deferred_loading="false" />
+		<file name="TorchData.lua" file="MiniGames/Uncharted2/TorchGame/TorchData.lua" deferred_loading="false" />
+		<file name="encrypt.lua" file="MiniGames/Uncharted2/TorchGame/encrypt.lua" deferred_loading="false" />
+		<file name="Jamin.lua" file="MiniGames/Uncharted2/TorchGame/Jamin.lua" deferred_loading="false" />
+		<file name="OHS.lua" file="MiniGames/Uncharted2/TorchGame/OHS.lua" deferred_loading="false" />
+		<file name="TorchSound.lua" file="MiniGames/Uncharted2/TorchGame/TorchSound.lua" deferred_loading="false" />
+		<file name="Remote.lua" file="MiniGames/Uncharted2/TorchGame/Remote.lua" deferred_loading="false" />
+		<file name="TorchXML.lua" file="MiniGames/Uncharted2/TorchGame/TorchXML.lua" deferred_loading="false" />
+		<file name="osd_types" file="MiniGames/Uncharted2/TorchGame/OSD/types.xml" deferred_loading="false" />
+		<file name="osd_timereport" file="MiniGames/Uncharted2/TorchGame/OSD/timeReport.xml" deferred_loading="false" />
+		<file name="TimeReporter.lua" file="MiniGames/Uncharted2/TorchGame/TimeReporter.lua" deferred_loading="false" />
+		<file name="LightSetup.lua" file="MiniGames/Uncharted2/TorchGame/LightSetup.lua" deferred_loading="false" />
+		<file name="DynamicLights.lua" file="MiniGames/Uncharted2/TorchGame/DynamicLights.lua" deferred_loading="false" />
+		<file name="Comms.lua" file="MiniGames/Uncharted2/Leaderboard/Comms.lua" deferred_loading="false" />
+		<file name="TorchHud.lua" file="MiniGames/Uncharted2/TorchGame/TorchHud.lua" deferred_loading="false" />
+		<file name="Tween.lua" file="MiniGames/Uncharted2/TorchGame/Tween.lua" deferred_loading="false" />
+		<file name="Style.lua" file="MiniGames/Uncharted2/TorchGame/Style.lua" deferred_loading="false" />
+		<file name="Comms.lua_1" file="MiniGames/Uncharted2/Leaderboard/Comms.lua" deferred_loading="false" />
+		<collision name="Torch_07.hkx" file="MiniGames/Uncharted2/TorchGame/models/Torch_07.hkx" deferred_loading="false" />
+		<collision name="Torch_01.hkx" file="MiniGames/Uncharted2/TorchGame/models/Torch_01.hkx" deferred_loading="false" />
+		<collision name="Torch_02.hkx" file="MiniGames/Uncharted2/TorchGame/models/Torch_02.hkx" deferred_loading="false" />
+		<collision name="Torch_03.hkx" file="MiniGames/Uncharted2/TorchGame/models/Torch_03.hkx" deferred_loading="false" />
+		<collision name="Torch_04.hkx" file="MiniGames/Uncharted2/TorchGame/models/Torch_04.hkx" deferred_loading="false" />
+		<collision name="Torch_05.hkx" file="MiniGames/Uncharted2/TorchGame/models/Torch_05.hkx" deferred_loading="false" />
+		<collision name="Torch_06.hkx" file="MiniGames/Uncharted2/TorchGame/models/Torch_06.hkx" deferred_loading="false" />
+		<soundbank name="torchSound.bnk" file="MiniGames/Uncharted2/TorchGame/sounds/torchSound.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

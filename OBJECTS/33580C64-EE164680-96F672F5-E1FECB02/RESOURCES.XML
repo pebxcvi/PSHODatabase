@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.slot" deferred_loading="true" protected="false" file="furniture/groupdancediscoball/GroupDanceDiscoBall.mdl" memory="host" />
+		<model name="RemoteDiscoBall.mdl" deferred_loading="false" protected="false" file="furniture/groupdancediscoball/RemoteDiscoBall.mdl" />
+		<file name="configuration.xml" deferred_loading="true" protected="false" file="GroupAnimPacks/Kpop/configuration.xml" memory="host" />
+		<anim name="ani.f_waiting" deferred_loading="true" protected="false" file="GroupAnimPacks/test/anim/Pose_F_07_p2.ani" memory="host" />
+		<anim name="ani.m_waiting" deferred_loading="true" protected="false" file="GroupAnimPacks/test/anim/pose_m_06_p2.ani" memory="host" />
+		<anim name="ani.M_14_P1" deferred_loading="true" protected="false" file="animation/male/dance/man_Dance_p3_frameFix.ani" memory="host" />
+		<anim name="ani.F_14_P1" deferred_loading="true" protected="false" file="animation/female/dance/Female_Dance_p3_framefix.ani" memory="host" />
+		<anim name="ani.M_08_P2" deferred_loading="true" protected="false" file="animation/male/dance/man_Dance_p4.ani" memory="host" />
+		<anim name="ani.F_08_P2" deferred_loading="true" protected="false" file="animation/female/dance/Female_Dance_p4.ani" memory="host" />
+		<anim name="WavingSkip.ani" deferred_loading="true" protected="false" file="AvatarAnimPacks/Dance_Warp_Male/anim/man_Dance_p5.ani" memory="host" />
+		<anim name="fWavingSkip.ani" deferred_loading="true" protected="false" file="AvatarAnimPacks/Dance_Warp_Female/anim/female_dance_p5.ani" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="GroupAnimPacks/test/repertoire/male_new.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="GroupAnimPacks/test/repertoire/female_new.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="GroupAnimPacks/test/lua/boot.luac" memory="host" id="599727570" />
+	</local>
+	<external />
+</resources>

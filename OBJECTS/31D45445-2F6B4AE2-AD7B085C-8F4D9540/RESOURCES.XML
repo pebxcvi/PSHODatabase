@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/boxing/file/configuration.xml" memory="host" />
+		<anim name="Boxing_bobandweave" deferred_loading="true" protected="false" file="animation/male/boxing/Boxing_bobandweave.ani" />
+		<anim name="Boxing_dempseyroll" deferred_loading="true" protected="false" file="animation/male/boxing/Boxing_dempseyroll.ani" />
+		<anim name="Boxing_footwork" deferred_loading="true" protected="false" file="animation/male/boxing/Boxing_footwork.ani" />
+		<anim name="Boxing_idle" deferred_loading="true" protected="false" file="animation/male/boxing/Boxing_idle.ani" />
+		<anim name="Boxing_jab" deferred_loading="true" protected="false" file="animation/male/boxing/Boxing_jab.ani" />
+		<anim name="Boxing_jabcross" deferred_loading="true" protected="false" file="animation/male/boxing/Boxing_jabcross.ani" />
+		<anim name="Boxing_Uppercut" deferred_loading="true" protected="false" file="animation/male/boxing/Boxing_Uppercut.ani" />
+		<anim name="BoxingFem_BobandWeave" deferred_loading="true" protected="false" file="animation/female/boxingfem/BoxingFem_BobandWeave.ani" />
+		<anim name="BoxingFem_DempseyRoll" deferred_loading="true" protected="false" file="animation/female/boxingfem/BoxingFem_DempseyRoll.ani" />
+		<anim name="BoxingFem_Footwork" deferred_loading="true" protected="false" file="animation/female/boxingfem/BoxingFem_Footwork.ani" />
+		<anim name="BoxingFem_Idle" deferred_loading="true" protected="false" file="animation/female/boxingfem/BoxingFem_Idle.ani" />
+		<anim name="BoxingFem_Jab" deferred_loading="true" protected="false" file="animation/female/boxingfem/BoxingFem_Jab.ani" />
+		<anim name="BoxingFem_JabCross" deferred_loading="true" protected="false" file="animation/female/boxingfem/BoxingFem_JabCross.ani" />
+		<anim name="BoxingFem_Uppercut" deferred_loading="true" protected="false" file="animation/female/boxingfem/BoxingFem_Uppercut.ani" />
+		<soundbank name="bnk.audio" deferred_loading="true" protected="false" file="AvatarAnimPacks/boxing/soundbank/audio.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/boxing/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/boxing/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/boxing/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/boxing/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/boxing/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

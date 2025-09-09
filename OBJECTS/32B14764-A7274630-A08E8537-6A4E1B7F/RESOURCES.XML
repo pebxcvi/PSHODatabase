@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="hand_bag_lod.mdl" deferred_loading="true" protected="false" file="Locomotion/hand_bag/hand_bag_lod.mdl" memory="host" />
+		<model name="hand_bag.mdl" deferred_loading="true" protected="false" file="Locomotion/hand_bag/hand_bag.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/hand_bag/file/config.xml" memory="host" />
+		<anim name="handbag_idle" deferred_loading="true" protected="false" file="Locomotion/hand_bag/handbag_idle.ani" memory="host" />
+		<anim name="F_walk_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/F_walk_Handbag.ani" memory="host" />
+		<anim name="F_jog_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/F_jog_Handbag.ani" memory="host" />
+		<anim name="F_run_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/F_run_Handbag.ani" memory="host" />
+		<anim name="M_walk_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/M_walk_Handbag.ani" memory="host" />
+		<anim name="M_jog_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/M_jog_Handbag.ani" memory="host" />
+		<anim name="M_run_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/M_run_Handbag.ani" memory="host" />
+		<anim name="F_idle_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/F_idle_Handbag.ani" memory="host" />
+		<anim name="M_idle_Handbag" deferred_loading="true" protected="false" file="Locomotion/hand_bag/M_idle_Handbag.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/hand_bag/skeleton/board.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/hand_bag/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/hand_bag/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/hand_bag/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/hand_bag/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/hand_bag/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

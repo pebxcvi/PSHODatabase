@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_gorgia_automat_close" file="japanevents/breakstation/saku.mdl" deferred_loading="false" />
+		<model name="mdl_gorgia_automat_open" file="japanevents/breakstation/GEORGIA_Vendor_HS.mdl" deferred_loading="false" />
+		<file name="lua_main" file="MiniGames/GeorgiaAutomat/scripts/main.lua" deferred_loading="false" />
+		<file name="lua_mathx" file="MiniGames/GeorgiaAutomat/scripts/mathx.lua" deferred_loading="false" />
+		<file name="lua_misc" file="MiniGames/GeorgiaAutomat/scripts/misc.lua" deferred_loading="false" />
+		<file name="lua_padUtil" file="MiniGames/GeorgiaAutomat/scripts/padUtil.lua" deferred_loading="false" />
+		<file name="lua_task" file="MiniGames/GeorgiaAutomat/scripts/task.lua" deferred_loading="false" />
+		<file name="lua_time" file="MiniGames/GeorgiaAutomat/scripts/time.lua" deferred_loading="false" />
+		<file name="osd_types" file="MiniGames/GeorgiaAutomat/osd/types.xml" deferred_loading="false" />
+		<file name="osd_Navi" file="MiniGames/GeorgiaAutomat/osd/Navi.xml" deferred_loading="false" />
+		<file name="osd_name" file="MiniGames/GeorgiaAutomat/osd/name.xml" deferred_loading="false" />
+		<file name="osd_chip" file="MiniGames/GeorgiaAutomat/osd/chip.xml" deferred_loading="false" />
+		<file name="osd_commingsoon" file="MiniGames/GeorgiaAutomat/osd/commingsoon.xml" deferred_loading="false" />
+		<file name="osd_error" file="MiniGames/GeorgiaAutomat/osd/error.xml" deferred_loading="false" />
+		<file name="lua_paHomeCommon" file="MiniGames/GeorgiaAutomat/scripts/pa/paHomeCommon.lua" deferred_loading="false" />
+		<file name="lua_paHomeServerAccess" file="MiniGames/GeorgiaAutomat/scripts/pa/paHomeServerAccess.lua" deferred_loading="false" />
+		<file name="lua_serverurl" file="MiniGames/GeorgiaAutomat/scripts/pa/serverurl.lua" deferred_loading="false" />
+		<file name="lua_share_setting" file="environments/home_internal_scej/breakstation/share_setting.lua" deferred_loading="false" />
+		<collision name="hkx_gorgia_automat_close" file="japanevents/breakstation/saku.hkx" deferred_loading="false" />
+		<collision name="hkx_gorgia_automat_open" file="japanevents/breakstation/GEORGIA_Vendor_HS.hkx" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

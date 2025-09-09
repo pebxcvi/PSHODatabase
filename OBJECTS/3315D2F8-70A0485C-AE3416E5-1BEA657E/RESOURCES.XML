@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/spunland_picture_5/spunland_picture_5.mdl" />
+		<model name="tile_1" deferred_loading="false" protected="false" file="furniture/spunland_picture_2/tile_1_pic4.mdl" />
+		<model name="select" deferred_loading="false" protected="false" file="furniture/spunland_picture_2/select.mdl" />
+		<texture name="az_1" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_1.dds" />
+		<texture name="az_2" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_2.dds" />
+		<texture name="az_4" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_4.dds" />
+		<texture name="az_5" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_5.dds" />
+		<texture name="az_6" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_6.dds" />
+		<texture name="az_7" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_7.dds" />
+		<texture name="az_8" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_8.dds" />
+		<texture name="az_9" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/az_9.dds" />
+		<texture name="mm_2" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_2.dds" />
+		<texture name="mm_3" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_3.dds" />
+		<texture name="mm_4" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_4.dds" />
+		<texture name="mm_5" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_5.dds" />
+		<texture name="mm_6" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_6.dds" />
+		<texture name="mm_7" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_7.dds" />
+		<texture name="mm_8" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_8.dds" />
+		<texture name="mm_9" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/mm_9.dds" />
+		<texture name="win_1" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_1.dds" />
+		<texture name="win_2" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_2.dds" />
+		<texture name="win_3" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_3.dds" />
+		<texture name="win_4" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_4.dds" />
+		<texture name="win_5" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_5.dds" />
+		<texture name="win_6" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_6.dds" />
+		<texture name="win_7" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_7.dds" />
+		<texture name="win_8" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/win_8.dds" />
+		<texture name="char_1" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_1.dds" />
+		<texture name="char_2" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_2.dds" />
+		<texture name="char_3" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_3.dds" />
+		<texture name="char_4" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_4.dds" />
+		<texture name="char_5" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_5.dds" />
+		<texture name="char_6" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_6.dds" />
+		<texture name="char_7" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_7.dds" />
+		<texture name="char_8" deferred_loading="false" protected="false" file="Spunland/SharedTextures/PictoPuzzles/picture5/char_8.dds" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/spunland_picture_2/spunland_picture_2.hkx" />
+		<soundbank name="pictoFx" deferred_loading="false" protected="false" file="furniture/spunland_picture_2/audio/pictoFx.bnk" />
+		<lua name="cTileGame" deferred_loading="false" protected="true" file="furniture/spunland_picture_5/lua/cTileGame.lua" />
+		<lua name="cTileObject" deferred_loading="false" protected="true" file="Spunland/SharedScripts/pictonundrum/cTileObject.lua" />
+		<lua name="cPlayerState" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cPlayerState.lua" />
+		<lua name="puzzleData" deferred_loading="false" protected="true" file="furniture/spunland_picture_5/lua/puzzleData.lua" />
+		<lua name="inventoryManager" deferred_loading="false" protected="true" file="Spunland/SharedScripts/inventoryManager.lua" />
+		<lua name="cVectorBlendLoop" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlendLoop.lua" />
+		<lua name="spunland_picture_5" deferred_loading="false" protected="true" file="furniture/spunland_picture_5/lua/spunland_picture_5.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/commoct_tablefiberopticv2/models/CommOct_TableFiberOpticsV2_Base.mdl" />
+		<model name="CommOct_TableFiberOpticsV2_Off.mdl" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_tablefiberopticv2/models/CommOct_TableFiberOpticsV2_Off.mdl" />
+		<model name="CommOct_TableFiberOpticsV2_On.mdl" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_tablefiberopticv2/models/CommOct_TableFiberOpticsV2_On.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_tablefiberopticv2/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/commoct_tablefiberopticv2/models/CommOct_TableFiberOpticsV2_Base.hkx" />
+		<lua name="fiberOpticsPlant.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_tablefiberopticv2/programming/fiberOpticsPlant.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_tablefiberopticv2/programming/MyPad.lua" />
+	</local>
+	<external />
+</resources>

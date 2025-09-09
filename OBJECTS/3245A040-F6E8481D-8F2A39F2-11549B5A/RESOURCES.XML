@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="osd_types.xml" deferred_loading="false" file="IremLounge/soft/NPC_CERBERUS/osd_types.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTabSelectDialog.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremLounge/soft/OSD/SelectionButton.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTab.xml" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" protected="false" file="IremLounge/soft/OSD/WndMessageDialog.xml" />
+		<soundbank name="SOUND_NPC_CERBERUS.bnk" deferred_loading="false" protected="false" file="IremLounge/sound/SOUND_NPC_CERBERUS.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremLounge/soft/NPC_CERBERUS/main.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremLounge/soft/LuaPadUtil.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="IremLounge/soft/Dialog/DialogTabSelectS.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="IremLounge/soft/LuaSingleEvent.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremLounge/soft/NPC_CERBERUS/DialogBasicS.lua" />
+		<lua name="NPC_CERBERUS.lua" deferred_loading="false" protected="true" file="IremLounge/soft/NPC_CERBERUS/NPC_CERBERUS.lua" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="IremLounge/soft/LuaUtil.lua" />
+	</local>
+	<external />
+</resources>

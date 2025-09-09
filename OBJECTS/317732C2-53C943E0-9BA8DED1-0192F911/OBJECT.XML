@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.3.2.16.BETA1" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Elephant_Statue</name>
+		<description type="string">Elephant_Statue_Description</description>
+		<author type="string">Furniture Department</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Sony Computer Entertainment</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<furniture>
+		<model type="string">model</model>
+		<collision type="string">collision</collision>
+		<appliance type="string">PlainObject</appliance>
+		<seats type="list" />
+	</furniture>
+</objectdef>
