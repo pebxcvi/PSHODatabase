@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="GolfBall.mdl" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/TeedOff_Golfball.mdl" memory="host" />
+		<model name="Putter.mdl" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/TeedOff_Putter.mdl" memory="host" />
+		<model name="Light0.mdl" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/TeedOff_Light_Neutral.mdl" memory="host" />
+		<model name="Light1.mdl" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/TeedOff_Light_On.mdl" memory="host" />
+		<model name="Blocker.mdl" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/TeedOff_Blocker_100.mdl" memory="host" />
+		<model name="PopUp.mdl" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/TeedOff_Blocker_50.mdl" memory="host" />
+		<model name="Steam.mdl" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/steam/TeedOffSteam.mdl" memory="host" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/TeedOff/Textures/SM_OSD_Bullet_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/TeedOff/Textures/SM_OSD_Goal_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails/prizeplacard_08_01_female_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails/prizeplacard_08_01_male_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails/prizeplacard_08_04_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails/prizeplacard_08_07_THMB_128.png" />
+		<texture name="Prize9" deferred_loading="false" file="thumbnails/prizeplacard_08_09_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails/prizeplacard_08_10_female_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails/prizeplacard_08_10_male_THMB_128.png" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="goalcheck" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Green_Check_OSD_c.dds" />
+		<texture name="Prize2_Female" deferred_loading="false" protected="" file="thumbnails/prizeplacard_08_02_female_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_08_02_male_THMB_128.png" />
+		<texture name="Prize3_Female" deferred_loading="false" protected="" file="thumbnails/prizeplacard_08_03_female_THMB_128.png" />
+		<texture name="Prize3_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_08_03_male_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" protected="" file="thumbnails/prizeplacard_08_05_female_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_08_05_male_THMB_128.png" />
+		<texture name="Prize6" deferred_loading="false" protected="" file="thumbnails/prizeplacard_08_06_THMB_128.png" />
+		<texture name="Prize8" deferred_loading="false" protected="" file="thumbnails/prizeplacard_08_08_THMB_128.png" />
+		<texture name="BlockerTexture0.dds" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/Textures/teadoff_blocker_sidetoside_turtle_c.dds" />
+		<texture name="BlockerTexture1.dds" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/Textures/teadoff_blocker_sidetoside_duck_c.dds" />
+		<texture name="BlockerTexture2.dds" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/Textures/teadoff_blocker_sidetoside_snake_c.dds" />
+		<texture name="BlockerTexture3.dds" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/Textures/teadoff_blocker_sidetoside_bunny_c.dds" />
+		<texture name="BlockerTexture4.dds" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Models/Textures/teadoff_blocker_sidetoside_squirrel_c.dds" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/StartUpDialog.xml" memory="host" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/WinnerDialog.xml" memory="host" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" memory="host" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" memory="host" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHud.xml" memory="host" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/TeedOff/OSD/types.xml" memory="host" />
+		<anim name="Male_Swing" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/male/Swing.ani" memory="host" />
+		<anim name="Male_Idle" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/male/Idle.ani" memory="host" />
+		<anim name="Female_Swing" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/female/Swing.ani" memory="host" />
+		<anim name="Female_Idle" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/female/Idle.ani" memory="host" />
+		<anim name="Steam.ani" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/steam/TeedOffSteam.ani" memory="host" />
+		<skeleton name="Steam.skn" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/steam/TeedOffSteam.skn" memory="host" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/Male_Animations.xml" memory="host" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/TeedOff/Animations/Female_Animations.xml" memory="host" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Audio.lua" memory="host" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Camera.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Game.lua" memory="host" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Network.lua" memory="host" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" memory="host" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" memory="host" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" memory="host" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" memory="host" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" memory="host" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" memory="host" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Settings.lua" memory="host" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" memory="host" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Player.lua" memory="host" />
+		<lua name="Ball.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Ball.lua" memory="host" />
+		<lua name="Lights.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Lights.lua" memory="host" />
+		<lua name="Blocker.lua" deferred_loading="false" protected="true" file="MiniGames/TeedOff/Source/Blocker.lua" memory="host" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" memory="host" />
+	</local>
+	<external />
+</resources>

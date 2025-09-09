@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Highlight" deferred_loading="false" protected="false" file="MiniGames/HS4_Content_Relocator/file/Highlight.png" memory="host" />
+		<texture name="icon" deferred_loading="false" protected="false" file="MiniGames/HS4_Content_Relocator/file/points_of_interest_ic.dds" memory="host" />
+		<xml name="screens.xml" deferred_loading="false" protected="false" file="MiniGames/HS4_Content_Relocator/file/screens.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="environments/homesquare4/hs4_relocator/HS4_relocator_body.hkx" memory="host" />
+		<soundbank name="navigation.bnk" deferred_loading="false" protected="false" file="Apps/ChallengeApp/file/Audio/navigation.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/HS4_Content_Relocator/lua/MiniGame.lua" memory="host" />
+		<lua name="Canvas.lua" deferred_loading="false" protected="true" file="libs/gui/Canvas.lua" memory="host" />
+		<lua name="Colours.lua" deferred_loading="false" protected="true" file="libs/gui/Colours.lua" memory="host" />
+		<lua name="XMLParser.lua" deferred_loading="false" protected="true" file="MiniGames/HS4_Content_Relocator/lua/XMLParser.lua" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/HS4_Content_Relocator/lua/Pad.lua" memory="host" />
+		<lua name="Render.lua" deferred_loading="false" protected="true" file="MiniGames/HS4_Content_Relocator/lua/Render.lua" memory="host" />
+		<lua name="ThreadManager.lua" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" memory="host" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="libs/system/Log.lua" memory="host" />
+		<lua name="animregisters.lua" deferred_loading="false" protected="true" file="libs/util/animregisters.lua" memory="host" />
+		<lua name="Easing.lua" deferred_loading="false" protected="true" file="libs/util/Easing.lua" memory="host" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="MiniGames/HS4_Content_Relocator/lua/PostScore.lua" />
+	</local>
+	<external />
+</resources>

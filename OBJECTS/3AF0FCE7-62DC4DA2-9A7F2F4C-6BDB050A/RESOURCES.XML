@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/lion_guardcompanion/model/GuardCompanion_Local.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/lion_guardcompanion/model/GuardCompanion_Remote.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Test_Companion/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="false" protected="false" file="CompanionFollowers/Test_Companion/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="assets/characters/guard_01/new_guard/animation/axe/Axe_Idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="assets/characters/guard_01/new_guard/animation/sword/Sword_Walk.ani" memory="host" />
+		<anim name="LookAround.ani" deferred_loading="false" protected="false" file="assets/characters/guard_01/new_guard/animation/sword/Sword_LookAround.ani" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="assets/characters/guard_01/new_guard/model/Guard_Sword.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Test_Companion/lua/boot.luac" memory="host" id="437254856" />
+	</local>
+	<external />
+</resources>

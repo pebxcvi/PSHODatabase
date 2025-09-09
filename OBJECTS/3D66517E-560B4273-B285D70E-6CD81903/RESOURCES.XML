@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/farm_calf_pen/FARM_Calf_Manger.mdl" />
+    <model name="FARM_Calf_RIG.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/cow/FARM_Calf_RIG.mdl" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_calf_pen/FARM_Calf_Manger.hkx" />
+    <collision name="FARM_Calf_RIG.hkx" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/cow/FARM_Calf_RIG.hkx" />
+    <collision name="FARM_Calf_Manger.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/farm_calf_pen/FARM_Calf_Manger.safevolume.hkx" />
+    <anim name="FARM_Calf_Idle.ani" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/cow/FARM_Calf_Idle.ani" />
+    <anim name="FARM_Calf_Idle_Unique.ani" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/cow/FARM_Calf_Idle_Unique.ani" />
+    <anim name="FARM_Calf_Walk.ani" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/cow/FARM_Calf_Walk.ani" />
+    <skeleton name="FARM_Calf_RIG.skn" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/cow/FARM_Calf_RIG.skn" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_calf_pen/lua/utility.luac" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/farm_calf_pen/lua/main.luac" memory="host" />
+    <lua name="Calf.lua" deferred_loading="false" protected="true" file="furniture/farm_calf_pen/lua/calf.luac" memory="host" />
+  </local>
+  <external />
+</resources>

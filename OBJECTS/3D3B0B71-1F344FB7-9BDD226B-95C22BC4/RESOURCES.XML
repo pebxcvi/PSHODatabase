@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="locomotion/fan/fan_V3.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Fan/file/config.xml" memory="host" />
+		<anim name="fan_close.ani" deferred_loading="true" protected="false" file="Locomotion/fan/fan_close.ani" memory="host" />
+		<anim name="fan_open.ani" deferred_loading="true" protected="false" file="Locomotion/fan/fan_open.ani" memory="host" />
+		<anim name="F_fan_walk" deferred_loading="true" protected="false" file="Locomotion/fan/F_fan_walk.ani" memory="host" />
+		<anim name="F_fan_run" deferred_loading="true" protected="false" file="Locomotion/fan/F_fan_run.ani" memory="host" />
+		<anim name="F_Idle02" deferred_loading="true" protected="false" file="Locomotion/fan/F_Idle02.ani" memory="host" />
+		<anim name="F_Idle01" deferred_loading="true" protected="false" file="Locomotion/fan/F_Idle01.ani" memory="host" />
+		<anim name="M_fan_run" deferred_loading="true" protected="false" file="Locomotion/fan/M_fan_run.ani" memory="host" />
+		<anim name="M_fan_walk" deferred_loading="true" protected="false" file="Locomotion/fan/M_fan_walk.ani" memory="host" />
+		<anim name="M_Idle01" deferred_loading="true" protected="false" file="Locomotion/fan/M_Idle01.ani" memory="host" />
+		<anim name="M_Idle02" deferred_loading="true" protected="false" file="Locomotion/fan/M_Idle02.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/fan/fan.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Fan/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Fan/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Fan/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Fan/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Fan/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

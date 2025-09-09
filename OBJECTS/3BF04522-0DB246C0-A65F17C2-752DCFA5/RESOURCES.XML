@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cellphone_new_white.mdl" deferred_loading="true" protected="false" file="locomotion/cellphone_new_white.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="locomotion/Phone_white/file/config.xml" memory="host" />
+		<anim name="phone_idle.ani" deferred_loading="true" protected="false" file="animation/female/phone/phone_idle.ani" memory="host" />
+		<anim name="phone_in.ani" deferred_loading="true" protected="false" file="animation/female/phone/phone_in.ani" memory="host" />
+		<anim name="phone_run.ani" deferred_loading="true" protected="false" file="animation/female/phone/phone_run.ani" />
+		<anim name="cellphone_new_in.ani" deferred_loading="true" protected="false" file="locomotion/cellphone_new_in.ani" />
+		<anim name="cellphone_new_moving.ani" deferred_loading="true" protected="false" file="locomotion/cellphone_new_moving.ani" />
+		<anim name="phone_emote.ani" deferred_loading="true" protected="false" file="animation/female/phone_emote/phone_emote.ani" />
+		<anim name="phone_run.ani_1" deferred_loading="true" protected="false" file="animation/male/phone/phone_run.ani" memory="host" />
+		<anim name="phone_in.ani_1" deferred_loading="true" protected="false" file="animation/male/phone_in/phone_in.ani" memory="host" />
+		<anim name="phone_idle.ani_1" deferred_loading="true" protected="false" file="animation/male/phone_idle/phone_idle.ani" />
+		<anim name="phone_emote.ani_1" deferred_loading="true" protected="false" file="animation/male/phone_emote/phone_emote.ani" memory="host" />
+		<anim name="cellphone_new_white_moving.ani" deferred_loading="true" protected="false" file="locomotion/cellphone_new_white_moving.ani" />
+		<anim name="cellphone_new_white_in.ani" deferred_loading="true" protected="false" file="locomotion/cellphone_new_white_in.ani" memory="host" />
+		<skeleton name="cellphone_new.skn" deferred_loading="true" protected="false" file="locomotion/cellphone_new.skn" />
+		<skeleton name="cellphone_new_white.skn" deferred_loading="true" protected="false" file="locomotion/cellphone_new_white.skn" />
+		<soundbank name="Telephone_LMO.bnk" deferred_loading="true" protected="false" file="locomotion/Phone_white/file/Telephone_LMO.bnk" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="locomotion/Phone_white/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/Phone_white/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/Phone_white/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/Phone_white/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Phone/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

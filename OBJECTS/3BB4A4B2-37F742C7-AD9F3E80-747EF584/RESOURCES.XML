@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="TweetBkgrnd.dds" deferred_loading="false" file="MiniGames/Sodium/Twitter/Graphics/TweetBkgrnd.dds" />
+		<texture name="Loading_front.dds" deferred_loading="false" file="MiniGames/Sodium/Twitter/Graphics/Loading_front.dds" />
+		<texture name="Loading_back.dds" deferred_loading="false" file="MiniGames/Sodium/Twitter/Graphics/Loading_back.dds" />
+		<texture name="TwitterLogo.dds" deferred_loading="false" file="MiniGames/Sodium/Twitter/Graphics/TwitterLogo.dds" />
+		<texture name="MB_Club_TweetBkgrnd.dds" deferred_loading="false" file="MiniGames/Sodium/Twitter/Graphics/MB_Club_TweetBkgrnd.dds" />
+		<file name="OsdTypes.xml" deferred_loading="false" file="MiniGames/Sodium/Twitter/Source/Main/OsdTypes.xml" />
+		<lua name="PadState.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Shared/PadState.lua" />
+		<lua name="ScreenCamera.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Shared/ScreenCamera.lua" />
+		<lua name="Delegate.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/Delegate.lua" />
+		<lua name="HsmlWriter.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/HsmlWriter.lua" />
+		<lua name="OsdMessageBox.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/OsdMessageBox.lua" />
+		<lua name="OsdSimpleMenuX.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/OsdSimpleMenuX.lua" />
+		<lua name="ResourceRequest.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/ResourceRequest.lua" />
+		<lua name="TextSegmentList.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/TextSegmentList.lua" />
+		<lua name="XmlNavigator.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/XmlNavigator.lua" />
+		<lua name="Twitter.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Twitter/Twitter.lua" />
+		<lua name="TwitterUserTimelineScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Twitter/TwitterUserTimelineScreen.lua" />
+		<lua name="TwitterTimelineCache.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Twitter/TwitterTimelineCache.lua" />
+		<lua name="TwitterTextParser.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Twitter/TwitterTextParser.lua" />
+		<lua name="TwitterScrollingScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Twitter/TwitterScrollingScreen.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Main/Main.lua" />
+		<lua name="Hud.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Main/Hud.lua" />
+		<lua name="FlowLayoutBox.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/FlowLayout/FlowLayoutBox.lua" />
+		<lua name="FlowLayoutStyle.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/FlowLayout/FlowLayoutStyle.lua" />
+		<lua name="FlowLayoutText.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/FlowLayout/FlowLayoutText.lua" />
+		<lua name="FlowLayoutDocument.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/FlowLayout/FlowLayoutDocument.lua" />
+		<lua name="FlowLayoutObject.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/FlowLayout/FlowLayoutObject.lua" />
+		<lua name="Dampener2.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Shared/Dampener2.lua" />
+		<lua name="ripairs.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Shared/ripairs.lua" />
+		<lua name="luabit.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/luabit.lua" />
+		<lua name="utf8.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Core/utf8.lua" />
+		<lua name="LoadingMarker.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/LoadingMarker.lua" />
+		<lua name="General_Fn_Lib.Lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Twitter/Source/Shared/General_Fn_Lib.Lua" />
+	</local>
+	<external />
+</resources>

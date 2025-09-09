@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="Actives/BubbleMachine/model/ActiveModel.mdl" />
+		<model name="ball.mdl" deferred_loading="false" protected="false" file="furniture/disco_ball/ball.mdl" />
+		<model name="disco.mdl" deferred_loading="false" protected="false" file="furniture/disco_ball/disco.mdl" />
+		<model name="BubbleMachine.mdl" deferred_loading="false" protected="false" file="environments/nightclub_apartment/BubbleMachine.mdl" />
+		<texture name="ball_c.dds" deferred_loading="false" protected="false" file="furniture/disco_ball/ball_c.dds" />
+		<texture name="ball_s.dds" deferred_loading="false" protected="false" file="furniture/disco_ball/ball_s.dds" />
+		<texture name="color.dds" deferred_loading="false" protected="false" file="furniture/disco_ball/color.dds" />
+		<texture name="shadow.dds" deferred_loading="false" protected="false" file="furniture/disco_ball/shadow.dds" />
+		<texture name="Mask.dds" deferred_loading="false" protected="false" file="Actives/BubbleMachine/textures/Mask.dds" />
+		<particle name="BubbleParticle.efx" deferred_loading="false" protected="false" file="environments/nightclub_apartment/BubbleParticle.efx" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="Actives/BubbleMachine/collision/ActiveModel.hkx" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/industrialbubblemachine/IndustrialBubbleMachine.safevolume.hkx" />
+		<collision name="ball.hkx" deferred_loading="false" protected="false" file="furniture/disco_ball/ball.hkx" />
+		<collision name="disco.hkx" deferred_loading="false" protected="false" file="furniture/disco_ball/disco.hkx" />
+		<collision name="BubbleMachine.hkx" deferred_loading="false" protected="false" file="environments/nightclub_apartment/BubbleMachine.hkx" />
+		<lua name="Active.lua" deferred_loading="false" protected="true" file="Actives/BubbleMachine/lua/Active.lua" />
+	</local>
+	<external />
+</resources>

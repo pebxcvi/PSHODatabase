@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="ja-JP">みんなで撮ろうヨ！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="en-GB">PhotoGame [#Legal]</LANG>
+    <LANG ID="fr-FR">PhotoGame [#Legal]</LANG>
+    <LANG ID="de-DE">PhotoGame [#Legal]</LANG>
+    <LANG ID="it-IT">PhotoGame [#Legal]</LANG>
+    <LANG ID="es-ES">PhotoGame [#Legal]</LANG>
+    <LANG ID="ja-JP">みんなで撮ろうヨ！ [#Legal]</LANG>
+    <LANG ID="ko-KR">PhotoGame [#Legal]</LANG>
+    <LANG ID="en-SG">PhotoGame [#Legal]</LANG>
+    <LANG ID="zh-HK">PhotoGame [#Legal]</LANG>
+    <LANG ID="zh-TW">PhotoGame [#Legal]</LANG>
+    <LANG ID="en-US">PhotoGame [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">ExportMessage</LANG>
+    <LANG ID="ja-JP">HDD書き出し中...</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">OsdLimit</LANG>
+    <LANG ID="ja-JP">残り時間 %s</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Game_LeftJoy</LANG>
+    <LANG ID="ja-JP">[LEFTSTICK] スプライト位置移動</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Game_UpDown</LANG>
+    <LANG ID="ja-JP">[UP][DOWN] 効果変更</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Game_Triangle</LANG>
+    <LANG ID="ja-JP">[TRIANGLE] HDD保存</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Game_Square</LANG>
+    <LANG ID="ja-JP">[SQUARE] スプライト配置決定</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Game_Circle</LANG>
+    <LANG ID="ja-JP">[ACCEPT] 撮影</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Start_Circle</LANG>
+    <LANG ID="ja-JP">[ACCEPT] 次へ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Start_UpDpwn</LANG>
+    <LANG ID="ja-JP">[UP][DOWN] 選択</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Start_Decide</LANG>
+    <LANG ID="ja-JP">[ACCEPT] 決定</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Start_Cancel</LANG>
+    <LANG ID="ja-JP">[DECLINE] キャンセル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Start_Close</LANG>
+    <LANG ID="ja-JP">[DECLINE] 閉じる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Start_ForceStart</LANG>
+    <LANG ID="ja-JP">[SQUARE] このメンバーで始める</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_End_Circle</LANG>
+    <LANG ID="ja-JP">[ACCEPT] 終了</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Move_Key</LANG>
+    <LANG ID="ja-JP">[UP][DOWN][LEFT][RIGHT] 移動</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Move_L2</LANG>
+    <LANG ID="ja-JP">[L2] 高さを下げる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OsdLegend_Move_R2</LANG>
+    <LANG ID="ja-JP">[R2] 高さを上げる</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">SelectTop_OneOrGroupQ</LANG>
+    <LANG ID="ja-JP">撮影モードを選択してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_TicketQ</LANG>
+    <LANG ID="ja-JP">撮影室に入場するには「GZチケット」が1枚必要です\n撮影を始めますか？</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_MemberOrHostQ</LANG>
+    <LANG ID="ja-JP">他のグループに参加しますか？\n自分でグループを作成することもできます。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_HostListQ</LANG>
+    <LANG ID="ja-JP">一緒に撮りたい人を選択してください\n見つからない場合、自分がメンバーを募集します\n([SQUARE]でリストの更新を行います)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_MemberRecognizeQ</LANG>
+    <LANG ID="ja-JP">%s さんと一緒に写真をとりますか？</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_GoWithMemberQ</LANG>
+    <LANG ID="ja-JP">今のメンバーで撮影を開始しますか？</LANG>
+  </PHRASE>
+
+
+  <PHRASE>
+    <LANG ID="REF">SelectTop_One</LANG>
+    <LANG ID="ja-JP">１人で撮影する</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_Group</LANG>
+    <LANG ID="ja-JP">友達と一緒に撮影する</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_Cancel</LANG>
+    <LANG ID="ja-JP">やめる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_TicketYes</LANG>
+    <LANG ID="ja-JP">撮影室に入る</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_TicketNo</LANG>
+    <LANG ID="ja-JP">やめる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_MemberOrHostHost</LANG>
+    <LANG ID="ja-JP">メンバーを募集する</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_MemberOrHostMember</LANG>
+    <LANG ID="ja-JP">他のグループに参加する</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_HostMe</LANG>
+    <LANG ID="ja-JP">自分がホストになる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_GoWithMember_Wait</LANG>
+    <LANG ID="ja-JP">まだ待つ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_GoWithMember_Go</LANG>
+    <LANG ID="ja-JP">今のメンバーで始める</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_Yes</LANG>
+    <LANG ID="ja-JP">はい</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectTop_No</LANG>
+    <LANG ID="ja-JP">いいえ</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">Message_HDDWarning</LANG>
+    <LANG ID="ja-JP">HDDに十分な空き容量を用意してプレイしてください\nまた本体の画面設定によって保存される写真の大きさが異なります</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_NoTicket</LANG>
+    <LANG ID="ja-JP">「GZチケット」がありません\nストアにてお買い求めください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_WaitMember</LANG>
+    <LANG ID="ja-JP">他のメンバーの参加を待っています･･･</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_WaitHostRecognize</LANG>
+    <LANG ID="ja-JP">ホストの承認を待っています･･･</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_HostRecognized</LANG>
+    <LANG ID="ja-JP">参加が承認されました</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_HostNotRecognized</LANG>
+    <LANG ID="ja-JP">参加が承認されませんでした\n他のグループを選択してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_HostNotCorrect</LANG>
+    <LANG ID="ja-JP">そのグループの受付は終了しています</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_HostMissing</LANG>
+    <LANG ID="ja-JP">ホストがいなくなったので解散します</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_HostChange</LANG>
+    <LANG ID="ja-JP">ホストとの接続が切れました\nあなたがホストとしてメンバーを募集します</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">Message_WaitHostMemberCorrect</LANG>
+    <LANG ID="ja-JP">ホストがメンバーを募集しています･･･</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_MemberCorrectEnd</LANG>
+    <LANG ID="ja-JP">メンバーが揃いました　写真撮影を開始します</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Message_MemberCorrectEnd_OnePerson</LANG>
+    <LANG ID="ja-JP">写真撮影を開始します</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">Warning_CantChooseSameGrid</LANG>
+    <LANG ID="ja-JP">人と同じ位置は選択できません</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Warning_CantChooseOldSameGrid</LANG>
+    <LANG ID="ja-JP">元の位置に他の人がすでにいます\n他の場所を選んでください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Warning_NowSaving</LANG>
+    <LANG ID="ja-JP">保存中です…\n撮影はお待ちください</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">OtherExitMessage</LANG>
+    <LANG ID="ja-JP">%s さんは\nあと%d秒で退室します</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">ExitMessage</LANG>
+    <LANG ID="ja-JP">あなたはあと%d秒で退室します</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">ExitMessage_Cancel</LANG>
+    <LANG ID="ja-JP">退室宣言をキャンセルするには、[DECLINE]ボタンを押してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LeaveMessageByTime</LANG>
+    <LANG ID="ja-JP">制限時間が経過しました。\n写真撮影機を終了します。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LeaveMessageByExit</LANG>
+    <LANG ID="ja-JP">退室しました。\n写真撮影機を終了します。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LimitTime_DispText</LANG>
+    <LANG ID="ja-JP">%02d:%02d</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_1</LANG>
+    <LANG ID="ja-JP">アバターの位置を変える</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_2</LANG>
+    <LANG ID="ja-JP">フェイス・表情を変える</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_3</LANG>
+    <LANG ID="ja-JP">ポーズを変える</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_4</LANG>
+    <LANG ID="ja-JP">ピクチャーフレームを変える</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_5</LANG>
+    <LANG ID="ja-JP">背景画像を変える</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_6</LANG>
+    <LANG ID="ja-JP">写真効果を変える</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_7</LANG>
+    <LANG ID="ja-JP">配置イラストを変える</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_8</LANG>
+    <LANG ID="ja-JP">退室宣言をする</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_SelectGridText_9</LANG>
+    <LANG ID="ja-JP">メニューを閉じる</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_000</LANG>
+    <LANG ID="ja-JP">フレームなし</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_01</LANG>
+    <LANG ID="ja-JP">お花</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_02</LANG>
+    <LANG ID="ja-JP">ハート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_03</LANG>
+    <LANG ID="ja-JP">星</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_04</LANG>
+    <LANG ID="ja-JP">波</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_05</LANG>
+    <LANG ID="ja-JP">バブル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_06</LANG>
+    <LANG ID="ja-JP">ピンクグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_07</LANG>
+    <LANG ID="ja-JP">レッドグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_08</LANG>
+    <LANG ID="ja-JP">ブルーグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_09</LANG>
+    <LANG ID="ja-JP">ホワイトグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_10</LANG>
+    <LANG ID="ja-JP">リボン</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_11</LANG>
+    <LANG ID="ja-JP">虹</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_12</LANG>
+    <LANG ID="ja-JP">パステル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_13</LANG>
+    <LANG ID="ja-JP">サメ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_FrameName_14</LANG>
+    <LANG ID="ja-JP">ちょうちょ</LANG>
+  </PHRASE>
+
+
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_00</LANG>
+    <LANG ID="ja-JP">ニュートラル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_01</LANG>
+    <LANG ID="ja-JP">ピース</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_02</LANG>
+    <LANG ID="ja-JP">ダブルピース</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_03</LANG>
+    <LANG ID="ja-JP">ハート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_04</LANG>
+    <LANG ID="ja-JP">二人でハート(左)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_05</LANG>
+    <LANG ID="ja-JP">二人でハート(右)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_06</LANG>
+    <LANG ID="ja-JP">両手を広げて前に</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_07</LANG>
+    <LANG ID="ja-JP">顔の横でピース①</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_08</LANG>
+    <LANG ID="ja-JP">顔の横でピース②</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_09</LANG>
+    <LANG ID="ja-JP">腕組み(高い)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_10</LANG>
+    <LANG ID="ja-JP">腕組み(低い)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_11</LANG>
+    <LANG ID="ja-JP">肩組み(右)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_12</LANG>
+    <LANG ID="ja-JP">肩組み(中央)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_13</LANG>
+    <LANG ID="ja-JP">肩組み(左)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_14</LANG>
+    <LANG ID="ja-JP">抱きあう(左)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_15</LANG>
+    <LANG ID="ja-JP">抱きあう(右)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_16</LANG>
+    <LANG ID="ja-JP">お姫様抱っこ(左)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_17</LANG>
+    <LANG ID="ja-JP">お姫様抱っこ(右)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_18</LANG>
+    <LANG ID="ja-JP">抱き寄せる(左)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_19</LANG>
+    <LANG ID="ja-JP">抱き寄せる(右)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_20</LANG>
+    <LANG ID="ja-JP">立つ(まっすぐ)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_21</LANG>
+    <LANG ID="ja-JP">立つ(右15度)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_22</LANG>
+    <LANG ID="ja-JP">立つ(右30度)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_23</LANG>
+    <LANG ID="ja-JP">立つ(右80度)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_24</LANG>
+    <LANG ID="ja-JP">立つ(左15度)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_25</LANG>
+    <LANG ID="ja-JP">立つ(左30度)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_26</LANG>
+    <LANG ID="ja-JP">立つ(左80度)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_27</LANG>
+    <LANG ID="ja-JP">胸を強調する</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_28</LANG>
+    <LANG ID="ja-JP">POSE28</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_29</LANG>
+    <LANG ID="ja-JP">POSE29</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_30</LANG>
+    <LANG ID="ja-JP">POSE30</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_31</LANG>
+    <LANG ID="ja-JP">POSE31</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_32</LANG>
+    <LANG ID="ja-JP">POSE32</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_33</LANG>
+    <LANG ID="ja-JP">POSE33</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_34</LANG>
+    <LANG ID="ja-JP">POSE34</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_PoseName_35</LANG>
+    <LANG ID="ja-JP">POSE35</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_01</LANG>
+    <LANG ID="ja-JP">グリーングラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_02</LANG>
+    <LANG ID="ja-JP">ハート</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_03</LANG>
+    <LANG ID="ja-JP">ブルースペクトル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_04</LANG>
+    <LANG ID="ja-JP">アクア</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_05</LANG>
+    <LANG ID="ja-JP">スカイ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_06</LANG>
+    <LANG ID="ja-JP">ピンクグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_07</LANG>
+    <LANG ID="ja-JP">レッドグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_08</LANG>
+    <LANG ID="ja-JP">ブルーグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_09</LANG>
+    <LANG ID="ja-JP">スカイブルー</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_10</LANG>
+    <LANG ID="ja-JP">水玉ピンク</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_11</LANG>
+    <LANG ID="ja-JP">虹</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_12</LANG>
+    <LANG ID="ja-JP">パステルピンク</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_13</LANG>
+    <LANG ID="ja-JP">サメ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_14</LANG>
+    <LANG ID="ja-JP">パープルグラデーション</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_15</LANG>
+    <LANG ID="ja-JP">BackIllust15</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_16</LANG>
+    <LANG ID="ja-JP">BackIllust16</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_17</LANG>
+    <LANG ID="ja-JP">BackIllust17</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_18</LANG>
+    <LANG ID="ja-JP">BackIllust18</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_19</LANG>
+    <LANG ID="ja-JP">BackIllust19</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_20</LANG>
+    <LANG ID="ja-JP">BackIllust20</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_21</LANG>
+    <LANG ID="ja-JP">BackIllust21</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_22</LANG>
+    <LANG ID="ja-JP">BackIllust22</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_23</LANG>
+    <LANG ID="ja-JP">BackIllust23</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackIllustName_24</LANG>
+    <LANG ID="ja-JP">BackIllust24</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_01</LANG>
+    <LANG ID="ja-JP">縄文杉</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_02</LANG>
+    <LANG ID="ja-JP">アンコールワット①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_03</LANG>
+    <LANG ID="ja-JP">アンコールワット②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_04</LANG>
+    <LANG ID="ja-JP">アンコールワット③</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_05</LANG>
+    <LANG ID="ja-JP">アンコールワット④</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_06</LANG>
+    <LANG ID="ja-JP">アンコールワット⑤</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_07</LANG>
+    <LANG ID="ja-JP">イースター島①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_08</LANG>
+    <LANG ID="ja-JP">イースター島②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_09</LANG>
+    <LANG ID="ja-JP">イースター島③</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_10</LANG>
+    <LANG ID="ja-JP">オーストラリア①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_11</LANG>
+    <LANG ID="ja-JP">オーストラリア②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_12</LANG>
+    <LANG ID="ja-JP">オーストラリア③</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_13</LANG>
+    <LANG ID="ja-JP">クロアチア①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_14</LANG>
+    <LANG ID="ja-JP">クロアチア②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_15</LANG>
+    <LANG ID="ja-JP">クロアチア③</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_16</LANG>
+    <LANG ID="ja-JP">クロアチア④</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_17</LANG>
+    <LANG ID="ja-JP">サクレ・クール寺院</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_18</LANG>
+    <LANG ID="ja-JP">シドニー①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_19</LANG>
+    <LANG ID="ja-JP">シドニー②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_20</LANG>
+    <LANG ID="ja-JP">シドニー③</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_21</LANG>
+    <LANG ID="ja-JP">シドニー④</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_22</LANG>
+    <LANG ID="ja-JP">チチカカ湖</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_23</LANG>
+    <LANG ID="ja-JP">テーブルマウンテン</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_24</LANG>
+    <LANG ID="ja-JP">パルテノン神殿</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_25</LANG>
+    <LANG ID="ja-JP">ベルサイユ宮殿①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_26</LANG>
+    <LANG ID="ja-JP">ベルサイユ宮殿②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_27</LANG>
+    <LANG ID="ja-JP">マチュピチュ①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_28</LANG>
+    <LANG ID="ja-JP">マチュピチュ②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_29</LANG>
+    <LANG ID="ja-JP">モン・サン・ミッシェル</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_30</LANG>
+    <LANG ID="ja-JP">ラスベガス①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_31</LANG>
+    <LANG ID="ja-JP">ラスベガス②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_32</LANG>
+    <LANG ID="ja-JP">レプティス・マグナ</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_33</LANG>
+    <LANG ID="ja-JP">屋久島</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_34</LANG>
+    <LANG ID="ja-JP">凱旋門</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_35</LANG>
+    <LANG ID="ja-JP">韓国</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_36</LANG>
+    <LANG ID="ja-JP">石垣島①</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_37</LANG>
+    <LANG ID="ja-JP">石垣島②</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_38</LANG>
+    <LANG ID="ja-JP">万里の長城</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_ScreenEffect_00</LANG>
+    <LANG ID="ja-JP">なし</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_ScreenEffect_01</LANG>
+    <LANG ID="ja-JP">モノクロ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_ScreenEffect_02</LANG>
+    <LANG ID="ja-JP">セピア</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_ScreenEffect_03</LANG>
+    <LANG ID="ja-JP">ネガ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_ScreenEffect_04</LANG>
+    <LANG ID="ja-JP">トイカメラ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SYSYTEM_NOWLOADING0</LANG>
+    <LANG ID="en-GB">NowLoading[#Legal]</LANG>
+    <LANG ID="fr-FR">Chargement[#Legal]</LANG>
+    <LANG ID="de-DE">NowLoading[#Legal]</LANG>
+    <LANG ID="it-IT">Caricamento[#Legal]</LANG>
+    <LANG ID="es-ES">Cargando [#Legal]</LANG>
+    <LANG ID="ja-JP">NowLoading[#Legal]</LANG>
+    <LANG ID="ko-KR">NowLoading[#Legal]</LANG>
+    <LANG ID="en-SG">NowLoading[#Legal]</LANG>
+    <LANG ID="zh-HK">載入中[#Legal]</LANG>
+    <LANG ID="zh-TW">載入中[#Legal]</LANG>
+    <LANG ID="en-US">NowLoading[#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SYSYTEM_NOWLOADING1</LANG>
+    <LANG ID="en-GB">NowLoading.[#Legal]</LANG>
+    <LANG ID="fr-FR">Chargement.[#Legal]</LANG>
+    <LANG ID="de-DE">NowLoading.[#Legal]</LANG>
+    <LANG ID="it-IT">Caricamento.[#Legal]</LANG>
+    <LANG ID="es-ES">Cargando. [#Legal]</LANG>
+    <LANG ID="ja-JP">NowLoading.[#Legal]</LANG>
+    <LANG ID="ko-KR">NowLoading.[#Legal]</LANG>
+    <LANG ID="en-SG">NowLoading.[#Legal]</LANG>
+    <LANG ID="zh-HK">載入中.[#Legal]</LANG>
+    <LANG ID="zh-TW">載入中.[#Legal]</LANG>
+    <LANG ID="en-US">NowLoading.[#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SYSYTEM_NOWLOADING2</LANG>
+    <LANG ID="en-GB">NowLoading..[#Legal]</LANG>
+    <LANG ID="fr-FR">Chargement..[#Legal]</LANG>
+    <LANG ID="de-DE">NowLoading..[#Legal]</LANG>
+    <LANG ID="it-IT">Caricamento..[#Legal]</LANG>
+    <LANG ID="es-ES">Cargando.. [#Legal]</LANG>
+    <LANG ID="ja-JP">NowLoading..[#Legal]</LANG>
+    <LANG ID="ko-KR">NowLoading..[#Legal]</LANG>
+    <LANG ID="en-SG">NowLoading..[#Legal]</LANG>
+    <LANG ID="zh-HK">載入中..[#Legal]</LANG>
+    <LANG ID="zh-TW">載入中..[#Legal]</LANG>
+    <LANG ID="en-US">NowLoading..[#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SYSYTEM_NOWLOADING3</LANG>
+    <LANG ID="en-GB">NowLoading...[#Legal]</LANG>
+    <LANG ID="fr-FR">Chargement...[#Legal]</LANG>
+    <LANG ID="de-DE">NowLoading...[#Legal]</LANG>
+    <LANG ID="it-IT">Caricamento...[#Legal]</LANG>
+    <LANG ID="es-ES">Cargando... [#Legal]</LANG>
+    <LANG ID="ja-JP">NowLoading...[#Legal]</LANG>
+    <LANG ID="ko-KR">NowLoading...[#Legal]</LANG>
+    <LANG ID="en-SG">NowLoading...[#Legal]</LANG>
+    <LANG ID="zh-HK">載入中...[#Legal]</LANG>
+    <LANG ID="zh-TW">載入中...[#Legal]</LANG>
+    <LANG ID="en-US">NowLoading...[#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SYSYTEM_FILENAME</LANG>
+    <LANG ID="ja-JP">Mintoro_Photo[#Legal]</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">GetHappyPoint_1</LANG>
+    <LANG ID="ja-JP">なんだかハッピーになった！\n[HPP]ハッピーポイントを手に入れた！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GetHappyPoint_2</LANG>
+    <LANG ID="ja-JP">みんなで撮ったので、とてもハッピーになった！\n[HPP]ハッピーポイントを手に入れた！</LANG>
+  </PHRASE>
+
+
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_01</LANG><LANG ID="ja-JP">傘持ち(左)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_02</LANG><LANG ID="ja-JP">傘持ち(右)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_03</LANG><LANG ID="ja-JP">傘・見返り(左)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_04</LANG><LANG ID="ja-JP">傘・見返り(右)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_05</LANG><LANG ID="ja-JP">あいあい傘１(左)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_06</LANG><LANG ID="ja-JP">あいあい傘１(右)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_07</LANG><LANG ID="ja-JP">あいあい傘２(左)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_08</LANG><LANG ID="ja-JP">あいあい傘２(右)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_09</LANG><LANG ID="ja-JP">寄り添い(左)</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_kasa_10</LANG><LANG ID="ja-JP">寄り添い(右)</LANG></PHRASE>
+
+
+
+  <PHRASE>
+    <LANG ID="REF">SelectTop_ConfirmDisablePose</LANG>
+    <LANG ID="ja-JP">傘を持っているとき専用のポーズが追加されました！\n以下のようなポーズで撮影したい場合は　傘アイテムを身に着けてください\n撮影を始めますか？</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_rain_01</LANG>
+    <LANG ID="ja-JP">雨の繁華街①</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_rain_02</LANG>
+    <LANG ID="ja-JP">雨の繁華街②</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_rain_03</LANG>
+    <LANG ID="ja-JP">雨の繁華街③</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">UI_BackName_rain_04</LANG>
+    <LANG ID="ja-JP">雨の繁華街④</LANG>
+  </PHRASE>
+
+
+
+
+
+<!--賀正シリーズ-->
+  <PHRASE><LANG ID="REF">UI_PoseName_Gasho_01</LANG><LANG ID="ja-JP">晴れ着①</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_Gasho_01_R</LANG><LANG ID="ja-JP">晴れ着①（右）</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_Gasho_01_L</LANG><LANG ID="ja-JP">晴れ着①（左）</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_Gasho_02</LANG><LANG ID="ja-JP">晴れ着②</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_PoseName_Gasho_03</LANG><LANG ID="ja-JP">晴れ着③</LANG></PHRASE>
+
+  <PHRASE><LANG ID="REF">UI_FrameName_xmas2012_1</LANG><LANG ID="ja-JP">年末①</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_FrameName_xmas2012_2</LANG><LANG ID="ja-JP">年末②</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_FrameName_new2013_1</LANG><LANG ID="ja-JP">新年①</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_FrameName_new2013_2</LANG><LANG ID="ja-JP">新年②</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_FrameName_snow</LANG><LANG ID="ja-JP">雪</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_BackName_hankagai2012_01</LANG><LANG ID="ja-JP">年末①</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_BackName_hankagai2012_02</LANG><LANG ID="ja-JP">年末②</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_BackName_hankagai2012_03</LANG><LANG ID="ja-JP">年末③</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_BackName_hankagai2012_04</LANG><LANG ID="ja-JP">年末④</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_BackName_hankagai2013_01</LANG><LANG ID="ja-JP">新年①</LANG></PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">SelectTop_ConfirmDisablePose_NewYear</LANG>
+    <LANG ID="ja-JP">晴れ着を身に着けているとき専用のポーズが追加されました！\n以下のようなポーズで撮影したい場合は　晴れ着アイテムを身に着けてください\n撮影を始めますか？</LANG>
+  </PHRASE>
+
+<!--バレンタインシリーズ-->
+  <PHRASE><LANG ID="REF">UI_FrameName_Valentine01</LANG><LANG ID="ja-JP">バレンタイン①</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">UI_FrameName_Valentine02</LANG><LANG ID="ja-JP">バレンタイン②</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">GetPictureFrameMessage</LANG><LANG ID="ja-JP">おつかれさまでした！\n今回のプレイを記念して　バレンタイン期間限定プレゼント！\n[ITEM]を　手に入れた！</LANG></PHRASE>
+  <PHRASE><LANG ID="REF">RewardName</LANG><LANG ID="ja-JP">ハートのフォトフレーム</LANG></PHRASE>
+
+
+</LOCALISATION>

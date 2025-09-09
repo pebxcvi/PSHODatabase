@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="Companion_Follower/Gecko/geckoRig.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/Gecko/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="Companion_Follower/Gecko/geckoWalk.ani" memory="main" />
+		<anim name="idle3" deferred_loading="false" protected="false" file="Companion_Follower/Gecko/geckoIdle03.ani" memory="host" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="Companion_Follower/Gecko/geckoIdle01.ani" memory="host" />
+		<anim name="idle2" deferred_loading="false" protected="false" file="Companion_Follower/Gecko/geckoIdle02.ani" memory="host" />
+		<anim name="run" deferred_loading="false" protected="false" file="Companion_Follower/Gecko/geckoRun.ani" memory="main" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="Companion_Follower/Gecko/geckoRig.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/Gecko/lua/scriptremote.luac" memory="main" id="217002282" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/Gecko/lua/script.luac" memory="main" id="2428944273" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/Gecko/lua/xml.luac" memory="main" id="146193299" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/Gecko/lua/scriptlocal.luac" memory="main" id="336017207" />
+	</local>
+	<external />
+</resources>

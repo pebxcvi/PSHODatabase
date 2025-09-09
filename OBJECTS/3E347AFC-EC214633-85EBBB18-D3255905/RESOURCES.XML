@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commseptember_2010/commsept_orangecat/models/Catbed.mdl" />
+		<model name="CommSept_Orangecat.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_orangecat/models/CommSept_Orangecat.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commseptember_2010/commsept_orangecat/models/Catbed.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="activeitems/commseptember_2010/commsept_orangecat/models/Catbed.safevolume.hkx" />
+		<anim name="CommSept_Orangecat_Sit_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_orangecat/models/anims/CommSept_Orangecat_Sit_Idle.ani" />
+		<anim name="CommSept_Orangecat_Sitting_licking_paws.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_orangecat/models/anims/CommSept_Orangecat_Sitting_licking_paws.ani" />
+		<anim name="CommSept_Orangecat_Sitting_looking_around.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_orangecat/models/anims/CommSept_Orangecat_Sitting_looking_around.ani" />
+		<skeleton name="CommSept_Orangecat.skn" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_orangecat/models/CommSept_Orangecat.skn" />
+		<soundbank name="orangeCat.bnk" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_orangecat/sounds/orangeCat.bnk" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/Animations.lua" />
+		<lua name="AnimationSequencer.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/AnimationSequencer.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/Main.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/Pet.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/State.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/StateMachine.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/Utility.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_orangecat/programming/SfxMgr.lua" />
+	</local>
+	<external />
+</resources>

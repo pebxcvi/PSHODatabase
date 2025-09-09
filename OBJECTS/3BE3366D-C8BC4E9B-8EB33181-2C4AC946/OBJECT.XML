@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">Dave</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string"></company>
+		<template type="string">scene_minigame</template>
+		<template_version type="string">1.1.0</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<lua_environment>
+		<script type="string">Main.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">OnListenerReceivedData()</on_listener_received_data>
+		<on_destroy type="string">OnDestroy()</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+	</lua_environment>
+	<entity />
+	<embedded_object>
+		<on_update type="string">OnUpdate()</on_update>
+		<string_parameters type="list" />
+		<boolean_parameters type="list">
+			<parameter type="bag">
+				<name type="string">b_build_new_raycast_data</name>
+				<default_value type="bool">false</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">b_print_landscapeobject_table</name>
+				<default_value type="bool">false</default_value>
+			</parameter>
+		</boolean_parameters>
+		<numeric_parameters type="list">
+			<parameter type="bag">
+				<name type="string">n_raycast_density</name>
+				<default_value type="float">10</default_value>
+				<min_value type="string">1</min_value>
+				<max_value type="string">10</max_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_raycast_resolution</name>
+				<default_value type="float">5</default_value>
+				<min_value type="string">5</min_value>
+				<max_value type="string">10</max_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_raycast_length_x</name>
+				<default_value type="float">250</default_value>
+				<min_value type="string">1</min_value>
+				<max_value type="string">500</max_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_raycast_length_z</name>
+				<default_value type="float">250</default_value>
+				<min_value type="string">1</min_value>
+				<max_value type="string">500</max_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_raycast_start_vector_x</name>
+				<default_value type="float">-200</default_value>
+				<min_value type="string">-250</min_value>
+				<max_value type="string">250</max_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_raycast_start_vector_y</name>
+				<default_value type="float">50</default_value>
+				<min_value type="string">-250</min_value>
+				<max_value type="string">250</max_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_raycast_start_vector_z</name>
+				<default_value type="float">-50</default_value>
+				<min_value type="string">-250</min_value>
+				<max_value type="string">250</max_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_grid_size</name>
+				<default_value type="float">20</default_value>
+				<min_value type="string">2</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_grid_width</name>
+				<default_value type="float">25</default_value>
+				<min_value type="string">2</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_grid_visible_depth</name>
+				<default_value type="float">3</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_grid_activation_per_frame</name>
+				<default_value type="float">2</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_random_scale_value_land</name>
+				<default_value type="float">1</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_random_scale_value_water</name>
+				<default_value type="float">5</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_wait_time_before_raycast</name>
+				<default_value type="float">10</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_attach_to_grid_limiter</name>
+				<default_value type="float">5</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+		</numeric_parameters>
+		<enum_parameters type="list" />
+	</embedded_object>
+</objectdef>

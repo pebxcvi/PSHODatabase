@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Flying_Board/model/Flying_Board_1.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Flying_Board/file/config.xml" memory="host" />
+		<anim name="Flying_Board_idle" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/anim/Flying_Board_idle.ani" />
+		<anim name="Flying_Board_move" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/anim/Flying_Board_move.ani" />
+		<anim name="Ship_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/anim/Ship_Idle.ani" />
+		<anim name="Ship_Steady.ani" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/anim/Ship_Steady.ani" memory="main" />
+		<anim name="Flying_Board_Female_idle" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/anim/Flying_Board_Female_idle.ani" />
+		<anim name="Flying_Board_Female_move" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/anim/Flying_Board_Female_move.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/skeleton/Flying_Board_1.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Flying_Board/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Loot_MIB_Flying_Board/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

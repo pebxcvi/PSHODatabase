@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Waterfall.mdl" deferred_loading="true" protected="false" file="assets/dungeon/Waterfall.mdl" />
+		<model name="Waterfall_splash.mdl" deferred_loading="true" protected="false" file="assets/dungeon/Waterfall_splash.mdl" />
+		<model name="Logs_02.mdl" deferred_loading="true" protected="false" file="assets/fire_place/Logs_02.mdl" />
+		<model name="Fire_base.mdl" deferred_loading="true" protected="false" file="assets/dungeon/Fire_base.mdl" />
+		<model name="Well_PullHandle.mdl" deferred_loading="true" protected="false" file="assets/dungeon/Well_PullHandle.mdl" />
+		<texture name="Bottom.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/Bottom.dds" />
+		<texture name="BottomLeft.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/BottomLeft.dds" />
+		<texture name="BottomRight.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/BottomRight.dds" />
+		<texture name="Center.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/Center.dds" />
+		<texture name="Left.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/Left.dds" />
+		<texture name="Right.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/Right.dds" />
+		<texture name="Top.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/Top.dds" />
+		<texture name="TopLeft.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/TopLeft.dds" />
+		<texture name="TopRight.dds" deferred_loading="true" protected="false" file="Games/common/textures/osd/TopRight.dds" />
+		<texture name="gnome_256.dds" deferred_loading="true" protected="false" file="Games/common/textures/crystal_game/gnome_256.dds" />
+		<particle name="Fire_fountain.efx" deferred_loading="true" protected="false" file="Games/common/Efx/Effects/Fire_fountain.efx" />
+		<particle name="Fire_fountain2.efx" deferred_loading="true" protected="false" file="Games/common/Efx/Effects/Fire_fountain2.efx" />
+		<particle name="mist1green.efx" deferred_loading="true" protected="false" file="Games/common/Efx/Effects/mist1green.efx" />
+		<particle name="mist2rise.efx" deferred_loading="true" protected="false" file="Games/common/Efx/Effects/mist2rise.efx" />
+		<particle name="steam_blast.efx" deferred_loading="true" protected="false" file="Games/common/Efx/Effects/steam_blast.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Games/Apartment_Dungeon_FireWaterChange/file/Network.xml" />
+		<file name="comic.ttf" deferred_loading="false" protected="false" file="Games/common/font/comic.ttf" />
+		<anim name="Waterfall.ani" deferred_loading="true" protected="false" file="assets/dungeon/Waterfall.ani" />
+		<anim name="Waterfall_end.ani" deferred_loading="true" protected="false" file="assets/dungeon/Waterfall_end.ani" />
+		<anim name="Waterfall_start.ani" deferred_loading="true" protected="false" file="assets/dungeon/Waterfall_start.ani" />
+		<anim name="Well_PullHandle.ani" deferred_loading="true" protected="false" file="assets/dungeon/Well_PullHandle.ani" />
+		<skeleton name="Waterfall.skn" deferred_loading="true" protected="false" file="assets/dungeon/Waterfall.skn" />
+		<skeleton name="Well_PullHandle.skn" deferred_loading="true" protected="false" file="assets/dungeon/Well_PullHandle.skn" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Main.luac" />
+		<lua name="Main_Init.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Main_Init.luac" />
+		<lua name="Main_LoadLua.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Main_LoadLua.luac" />
+		<lua name="Main_Resources.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Main_Resources.luac" />
+		<lua name="GameState_Idle.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/GameStates/GameState_Idle.luac" />
+		<lua name="GameState_InTransition.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/GameStates/GameState_InTransition.luac" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/Core.luac" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/EventManager.luac" />
+		<lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/ResourceManager.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/StateMachine.luac" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/Util.luac" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/MessageManager.luac" />
+		<lua name="Table_x.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/Table_x.luac" />
+		<lua name="GameState_FeedMonster.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/GameStates/GameState_FeedMonster.luac" />
+		<lua name="ControllerModule.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/ControllerModule.luac" />
+		<lua name="Factory_OSD.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/Library/Factory_OSD.luac" />
+		<lua name="GameState_FeedMonster_Guest.lua" deferred_loading="false" protected="true" file="Games/Apartment_Dungeon_FireWaterChange/lua/GameStates/GameState_FeedMonster_Guest.luac" />
+	</local>
+	<external />
+</resources>

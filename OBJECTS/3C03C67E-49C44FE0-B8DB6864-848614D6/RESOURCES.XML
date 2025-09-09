@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="JukeBox.mdl" deferred_loading="false" protected="false" file="environments/red_bull_beach/props/jukebox/JukeBox.mdl" />
+		<texture name="Initialising-Graphic.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/Initialising-Graphic.dds" />
+		<texture name="JukeBoxBkgrnd.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/JukeBoxBkgrnd.dds" />
+		<texture name="YourVote-Right.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/YourVote-Right.dds" />
+		<texture name="Button-Up-Down.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/Button-Up-Down.dds" />
+		<texture name="Countdown-TR.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/Countdown-TR.dds" />
+		<texture name="VoteList-BL.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/VoteList-BL.dds" />
+		<texture name="TrackList-SelectedItemBackTexture.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/TrackList-SelectedItemBackTexture.dds" />
+		<texture name="Track-List-Up.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/Track-List-Up.dds" />
+		<texture name="Track-List-Down.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/Track-List-Down.dds" />
+		<texture name="Red_Bull_Logo.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/Graphics/Red_Bull_Logo.dds" />
+		<texture name="screen_d.dds" deferred_loading="false" file="MiniGames/RedBull_JukeBox/texture/screen_d.dds" />
+		<texture name="Button-Circle.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/Graphics/Button-Circle.dds" />
+		<texture name="Button-Cross.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/Graphics/Button-Cross.dds" />
+		<texture name="redbull_jukebox_c.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/texture/redbull_jukebox_c.dds" />
+		<texture name="redbull_jukebox_n.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/texture/redbull_jukebox_n.dds" />
+		<texture name="redbull_jukebox_s.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/texture/redbull_jukebox_s.dds" />
+		<texture name="redbull_jukebox_d.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/texture/redbull_jukebox_d.dds" />
+		<collision name="JukeBox.hkx" deferred_loading="false" protected="false" file="environments/red_bull_beach/props/jukebox/JukeBox.hkx" />
+		<soundstream name="11_Into_Your_Heart.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/11_Into_Your_Heart.mp3" />
+		<soundstream name="01_Spread_Your_Arms.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/01_Spread_Your_Arms.mp3" />
+		<soundstream name="02_Waffler.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/02_Waffler.mp3" />
+		<soundstream name="04_The_Ancient_Ascend.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/04_The_Ancient_Ascend.mp3" />
+		<soundstream name="05_Lorded.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/05_Lorded.mp3" />
+		<soundstream name="06_Earth_People_are_Basic.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/06_Earth_People_are_Basic.mp3" />
+		<soundstream name="07_The_Wicked_Twitch_of_the_West.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/07_The_Wicked_Twitch_of_the_West.mp3" />
+		<soundstream name="08_Esplanade.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/08_Esplanade.mp3" />
+		<soundstream name="09_No_Smoking.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/09_No_Smoking.mp3" />
+		<soundstream name="10_Addicted.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/10_Addicted.mp3" />
+		<soundstream name="13_Jungle_Trail.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/13_Jungle_Trail.mp3" />
+		<soundstream name="15_Cloud_Kings.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z_new/15_Cloud_Kings.mp3" />
+		<soundstream name="Algorythm-bk0050.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/Algorythm-bk0050.mp3" />
+		<soundstream name="BEAT_ROC_SLAP_121.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/BEAT_ROC_SLAP_121.mp3" />
+		<soundstream name="EQ_funkmp3.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/EQ_funkmp3.mp3" />
+		<soundstream name="gkoop_That_Hard_Ish_Oakland.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/gkoop_That_Hard_Ish_Oakland.mp3" />
+		<soundstream name="Rio_Opera_Galore.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/Rio_Opera_Galore.mp3" />
+		<soundstream name="s1_Lubby_Dubby.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/s1_Lubby_Dubby.mp3" />
+		<soundstream name="SWIFF_D_THE_ZONE_SHH_2.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/SWIFF_D_THE_ZONE_SHH_2.mp3" />
+		<soundstream name="oak-warriors.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/oak-warriors.mp3" />
+		<soundstream name="Brainstorm_Brain_-_Get_Ready_Stay_Ready.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/Brainstorm_Brain_-_Get_Ready_Stay_Ready.mp3" />
+		<soundstream name="TWard_Hip-Hop.mp3" deferred_loading="false" protected="false" file="MiniGames/RedBull_JukeBox/MP3z/TWard_Hip-Hop.mp3" />
+		<lua name="VoteCollector.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/VoteCollector.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Network.lua" />
+		<lua name="PadButton.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/PadButton.lua" />
+		<lua name="PadInterface.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/PadInterface.lua" />
+		<lua name="Mp3Track.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Mp3Track.lua" />
+		<lua name="TrackList.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/TrackList.lua" />
+		<lua name="TrackListConfig.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/TrackListConfig.lua" />
+		<lua name="VideoTrack.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/VideoTrack.lua" />
+		<lua name="Bit.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/Bit.lua" />
+		<lua name="Colour.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/Colour.lua" />
+		<lua name="Dampener2.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/Dampener2.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUDTextPanel.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUDLib.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUDText.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/HUDLib/HUDListBox.lua" />
+		<lua name="HUDVoteListItem.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/HUDVoteListItem.lua" />
+		<lua name="HUDVoteList.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/HUDVoteList.lua" />
+		<lua name="JukeBoxConfig.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/JukeBoxConfig.lua" />
+		<lua name="HUDConfig.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/HUDConfig.lua" />
+		<lua name="JukeBox.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/JukeBox.lua" />
+		<lua name="PlayerTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/PlayerTrigger.lua" />
+		<lua name="MediaScreenConfig.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/MediaScreenConfig.lua" />
+		<lua name="MediaScreen.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/MediaScreen.lua" />
+		<lua name="DelayedDampener.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/DelayedDampener.lua" />
+		<lua name="ScreenCamera.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/ScreenCamera.lua" />
+		<lua name="InternetDataDownloader.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/InternetDataDownloader.lua" />
+		<lua name="General_Fn_Lib.Lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Lua_fn_libs/General_Fn_Lib.Lua" />
+		<lua name="StateStats.Lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/StateStats.lua" />
+		<lua name="OHS.Lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/OHS.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_JukeBox/Jamin.lua" />
+	</local>
+	<external />
+</resources>

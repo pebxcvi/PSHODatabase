@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Singstore_logo.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/Singstore_logo.dds" />
+		<texture name="Jukebox_background.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/Jukebox_background.dds" />
+		<texture name="Singstar-logo.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/Singstar-logo.dds" />
+		<texture name="lowres_background.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/texture/lowres_background2.dds" />
+		<texture name="singstarlogo_vol2.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/singstarlogo_vol2.dds" />
+		<texture name="singstarlogo_hottesthits.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/singstarlogo_hottesthits.dds" />
+		<texture name="90s_logo.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/90s_logo.dds" />
+		<texture name="VOL4_logo.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/VOL4_logo.dds" />
+		<texture name="home-logo.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/home-logo.dds" />
+		<texture name="SingStore.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/SingStore.dds" />
+		<texture name="SingStar-Guitar.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/SingStar-Guitar.dds" />
+		<texture name="SingStar-Dance.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/SingStar-Dance.dds" />
+		<texture name="TOPTEXTBOX.dds" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Graphics/BUTTONS_BACKGROUNDS/TOPTEXTBOX.dds" />
+		<soundbank name="singstar_jukebox.bnk" deferred_loading="false" protected="false" file="MiniGames/Singstar_VideoPlayer/Sounds/singstar_jukebox.bnk" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/Network.lua" />
+		<lua name="VideoTrack.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/VideoTrack.lua" />
+		<lua name="MediaScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/MediaScreen.lua" />
+		<lua name="Mp3Track.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/Mp3Track.lua" />
+		<lua name="Mp4AudioTrack.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/Mp4AudioTrack.lua" />
+		<lua name="MediaScreenConfig.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/MediaScreenConfig.lua" />
+		<lua name="TrackListConfig.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/TrackListConfig.lua" />
+		<lua name="PadButton.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/PadButton.lua" />
+		<lua name="Bit.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/Bit.lua" />
+		<lua name="Dampener2.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/Dampener2.lua" />
+		<lua name="Colour.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/Colour.lua" />
+		<lua name="ScreenCamera.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/ScreenCamera.lua" />
+		<lua name="DelayedDampener.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/DelayedDampener.lua" />
+		<lua name="Image.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/Image.lua" />
+		<lua name="TrackList.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/TrackList.lua" />
+		<lua name="InternetDataDownloader.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/InternetDataDownloader.lua" />
+		<lua name="caller.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/caller.lua" />
+		<lua name="General_Reward.lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/General_Reward.lua" />
+		<lua name="SingStarVideoPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/SingStarVideoPlayer.lua" />
+		<lua name="General_Fn_Lib.Lua" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/General_Fn_Lib.Lua" />
+		<lua name="HUDConfig.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/HUDConfig.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/HUDLib.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/HUD.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/HUDObject.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/HUDText.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/HUDSprite.lua" />
+		<lua name="HUDInternetSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Singstar_VideoPlayer/HUDInternetSprite.lua" />
+	</local>
+	<external />
+</resources>

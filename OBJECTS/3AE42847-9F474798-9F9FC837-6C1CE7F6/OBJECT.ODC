@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.80.0.53.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>3AE42847-9F474798-9F9FC837-6C1CE7F6</uuid>
+  <name lang="fr-FR" default="false">La baie du Blaster</name>
+  <name lang="en-US" default="true">Blaster's Bay</name>
+  <description lang="fr-FR" default="false">Le fameux shooter addictif « Tank Top » est de retour dans cette incroyable baie privée. Vous pouvez désormais offrir cet espace personnel épique afin que vos amis se fraient un chemin à coup d'explosions jusqu'aux meilleurs scores à travers les palmiers, les formations rocheuses et les cascades magnifiques, en plus de pouvoir déverrouiller 10 récompenses exclusives. [#Legal]</description>
+  <description lang="de-DE" default="false">Der absolut fesselnde TankTop Shooter feiert in dieser genialen Privatbucht seine Rückkehr. Jetzt kannst du diesen genialen persönlichen Bereich verschenken, damit sich deine Freunde unter Palmen, zwischen Felsformationen und vor atemberaubenden Wasserfällen in die Highscores ballern und zusätzlich 10 exklusive Belohnungen freischalten können. [#Legal]</description>
+  <description lang="it-IT" default="false">Il famoso appassionante sparatutto è tornato insieme a questa fantastica baia privata. Ora puoi regalare questo spazio epico, così i tuoi amici potranno macinare record tra palme, formazioni rocciose incombenti e meravigliose cascate, e sbloccare 10 ricompense esclusive. [#Legal]</description>
+  <description lang="es-ES" default="false">El adictivo juego de disparos Tank Top ha vuelto en esta alucinante bahía privada. Ahora ya puedes regalar este espacio personal épico para que tus amigos puedan abrirse paso a tiros por entre palmeras, amenazadoras formaciones rocosas e impresionantes cascadas; además de desbloquear diez recompensas exclusivas. [#Legal]</description>
+  <description lang="en-US" default="true">The notoriously addictive TankTop shooter is back in this awesome private bay. Now you can gift this epic personal space so your friends can blast their way to high scores amongst the palm trees, looming rock formations and stunning waterfalls, as well as unlock 10 exclusive rewards. [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">SodiumBlastersBayApt_B991_7F76</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <heat />
+  <timestamp>272A53A4</timestamp>
+</odc>

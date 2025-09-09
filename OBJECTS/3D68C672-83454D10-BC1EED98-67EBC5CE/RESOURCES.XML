@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="attractPoint.mdl" deferred_loading="false" protected="false" file="attractpoint/attractPoint.mdl" />
+    <model name="Extra.mdl" deferred_loading="false" protected="false" file="furniture/extra/Extra.mdl" />
+    <model name="logo.mdl" deferred_loading="false" protected="false" file="attractpoint/logo.mdl" />
+    <collision name="attractPoint.hkx" deferred_loading="false" protected="false" file="attractpoint/attractPoint.hkx" />
+    <anim name="Extra.ani" deferred_loading="false" protected="false" file="furniture/extra/Extra.ani" />
+    <anim name="penguinIdleFlap.ani" deferred_loading="false" protected="false" file="furniture/extra/penguinIdleFlap.ani" />
+    <anim name="penguinIdleLookAround.ani" deferred_loading="false" protected="false" file="furniture/extra/penguinIdleLookAround.ani" />
+    <anim name="penguinIdleSnooze.ani" deferred_loading="false" protected="false" file="furniture/extra/penguinIdleSnooze.ani" />
+    <anim name="penguinIdleFart.ani" deferred_loading="false" protected="false" file="furniture/extra/penguinIdleFart.ani" />
+    <skeleton name="Extra.skn" deferred_loading="false" protected="false" file="furniture/extra/Extra.skn" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/play_los_penguini_brothers/lua/minigame.lua" />
+  </local>
+  <external />
+</resources>

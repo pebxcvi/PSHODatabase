@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>3CFA250A-13AB4F73-9D37F4D6-634B45DF</uuid>
+  <name lang="en-GB" default="true">Treasure Chest</name>
+  <name lang="fr-FR" default="false">Coffre au trésor</name>
+  <name lang="de-DE" default="false">Schatzkiste</name>
+  <name lang="it-IT" default="false">Scrigno del tesoro</name>
+  <name lang="es-ES" default="false">Cofre del Tesoro</name>
+  <name lang="ja-JP" default="false">宝箱</name>
+  <description lang="en-GB" default="true">Treasure Chest (Resident Evil 5)</description>
+  <description lang="fr-FR" default="false">Coffre au trésor (Resident Evil 5)</description>
+  <description lang="de-DE" default="false">Schatzkiste (Resident Evil 5)</description>
+  <description lang="it-IT" default="false">Scrigno del tesoro (Resident Evil 5)</description>
+  <description lang="es-ES" default="false">Cofre del Tesoro (Resident Evil 5)</description>
+  <description lang="ja-JP" default="false">宝箱(バイオハザード５)</description>
+  <maker lang="en-GB" default="true">Capcom Co.,ltd</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating country="US" rating_system="ESRB" rating="M" minimum_age="0" parental_control_level="0" content_type="ESRB_3,ESRB_11,ESRB_29" />
+    <age_rating country="CA" rating_system="ESRB" rating="M" minimum_age="0" parental_control_level="0" content_type="ESRB_3,ESRB_11,ESRB_29" />
+    <age_rating country="JP" minimum_age="0" parental_control_level="1" />
+    <age_rating rating_system="PEGI" rating="18+" minimum_age="0" parental_control_level="0" />
+    <age_rating country="GB" rating_system="BBFC" rating="18" minimum_age="0" parental_control_level="0" />
+    <age_rating country="DE" minimum_age="18" parental_control_level="0" />
+    <age_rating country="AU" rating_system="OFLCAU" rating="MA15+" minimum_age="0" parental_control_level="0" />
+    <age_rating country="NZ" rating_system="OFLCNZ" rating="R15" minimum_age="0" parental_control_level="0" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="HK" minimum_age="0" parental_control_level="1" />
+    <age_rating country="TW" minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>
