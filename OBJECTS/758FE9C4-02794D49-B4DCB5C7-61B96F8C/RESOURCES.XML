@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_WallClock.mdl" />
+		<model name="STEAMPUNK_Clock_Hourhand.mdl" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_Clock_Hourhand.mdl" />
+		<model name="STEAMPUNK_Clock_Minutehand.mdl" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_Clock_Minutehand.mdl" />
+		<model name="STEAMPUNK_Clock_Secondhand.mdl" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_Clock_Secondhand.mdl" />
+		<model name="STEAMPUNK_WallClock_animation.mdl" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_WallClock_animation.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_WallClock.hkx" />
+		<anim name="STEAMPUNK_WallClock_animation.ani" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_WallClock_animation.ani" />
+		<skeleton name="STEAMPUNK_WallClock_animation.skn" deferred_loading="false" protected="false" file="furniture/steampunk_wallclock/STEAMPUNK_WallClock_animation.skn" />
+		<lua name="STEAMPUNK_WallClock.lua" deferred_loading="false" protected="true" file="furniture/steampunk_wallclock/STEAMPUNK_WallClock.lua" />
+	</local>
+	<external />
+</resources>

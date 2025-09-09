@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="sparklers.mdl" deferred_loading="true" protected="false" file="Locomotion/Sparklers/sparklers.mdl" memory="main" />
+		<particle name="sparkling.efx" deferred_loading="true" protected="false" file="Locomotion/Sparklers/sparkling.efx" memory="main" />
+		<particle name="sparkling_tails2.efx" deferred_loading="true" protected="false" file="Locomotion/Sparklers/sparkling_tails2.efx" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Sparklers/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Sparklers/idle.ani" memory="main" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Sparklers/idle_f.ani" memory="main" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="Locomotion/Sparklers/run.ani" memory="host" />
+		<anim name="run_f.ani" deferred_loading="true" protected="false" file="Locomotion/Sparklers/run_f.ani" memory="host" />
+		<anim name="idle2.ani" deferred_loading="true" protected="false" file="Locomotion/Sparklers/idle2.ani" memory="main" />
+		<anim name="idle_f2.ani" deferred_loading="true" protected="false" file="Locomotion/Sparklers/idle_f2.ani" memory="main" />
+		<skeleton name="sparklers.skn" deferred_loading="true" protected="false" file="Locomotion/Sparklers/sparklers.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Sparklers/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Sparklers/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Sparklers/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Sparklers/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Sparklers/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

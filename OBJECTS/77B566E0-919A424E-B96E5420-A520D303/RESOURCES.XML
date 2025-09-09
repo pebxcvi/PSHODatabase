@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/cutt_demonic_ottoman/CUTT_Demonic_Ottoman_01.mdl" memory="host" />
+    <model name="HALL13_LargeCoffin_RIG.mdl" deferred_loading="false" protected="false" file="furniture/hall13_largecoffin/HALL13_LargeCoffin_RIG.mdl" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/farm_bearrug/Lua/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/hall13_largecoffin/HALL13_LargeCoffin.hkx" memory="host" />
+    <anim name="Female_CoffinPose01.ani" deferred_loading="false" protected="false" file="furniture/hall13_coffin/Female_CoffinPose01.ani" memory="host" />
+    <anim name="Female_CoffinPose02.ani" deferred_loading="false" protected="false" file="furniture/hall13_coffin/Female_CoffinPose02.ani" memory="host" />
+    <anim name="Female_CoffinPose03.ani" deferred_loading="false" protected="false" file="furniture/hall13_coffin/Female_CoffinPose03.ani" memory="host" />
+    <anim name="Male_CoffinPose01.ani" deferred_loading="false" protected="false" file="furniture/hall13_coffin/Male_CoffinPose01.ani" memory="host" />
+    <anim name="Male_CoffinPose02.ani" deferred_loading="false" protected="false" file="furniture/hall13_coffin/Male_CoffinPose02.ani" memory="host" />
+    <anim name="Male_CoffinPose03.ani" deferred_loading="false" protected="false" file="furniture/hall13_coffin/Male_CoffinPose03.ani" memory="host" />
+    <anim name="HALL13_LargeCoffin_ClosedIdle.ani" deferred_loading="false" protected="false" file="furniture/hall13_largecoffin/HALL13_LargeCoffin_ClosedIdle.ani" />
+    <anim name="HALL13_LargeCoffin_OpenIdle.ani" deferred_loading="false" protected="false" file="furniture/hall13_largecoffin/HALL13_LargeCoffin_OpenIdle.ani" />
+    <skeleton name="HALL13_LargeCoffin_RIG.skn" deferred_loading="false" protected="false" file="furniture/hall13_largecoffin/HALL13_LargeCoffin_RIG.skn" />
+    <soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/farm_bearrug/camera.mp3" memory="host" />
+    <repertoire name="male" deferred_loading="false" protected="false" file="furniture/hall13_coffin/rep/male.xml" memory="host" />
+    <repertoire name="female" deferred_loading="false" protected="false" file="furniture/hall13_coffin/rep/female.xml" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/hall13_largecoffin/lua/main.luac" memory="host" />
+    <lua name="Camera.lua" deferred_loading="false" protected="true" file="furniture/hall13_largecoffin/lua/camera.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_bearrug/lua/utility.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/hall13_largecoffin/lua/pad.luac" memory="host" />
+  </local>
+  <external />
+</resources>

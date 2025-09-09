@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">Luke</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string"></company>
+		<template type="string">scene_minigame</template>
+		<template_version type="string">1.1.0</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<lua_environment>
+		<script type="string">Main.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">OnListenerReceivedData()</on_listener_received_data>
+		<on_destroy type="string">OnDestroy()</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+	</lua_environment>
+	<embedded_object>
+		<on_update type="string">OnUpdate()</on_update>
+		<string_parameters type="list" />
+		<boolean_parameters type="list">
+			<parameter type="bag">
+				<name type="string">f_uses_waypoints</name>
+				<default_value type="bool">false</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">f_follows_player</name>
+				<default_value type="bool">true</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">bb_flocking_behavior</name>
+				<default_value type="bool">true</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">f_follows_water_taxi_left</name>
+				<default_value type="bool">false</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">f_follows_water_taxi_right</name>
+				<default_value type="bool">false</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">f_active_above_water</name>
+				<default_value type="bool">false</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">f_active_below_water</name>
+				<default_value type="bool">true</default_value>
+			</parameter>
+		</boolean_parameters>
+		<numeric_parameters type="list">
+			<parameter type="bag">
+				<name type="string">n_fish_in_each_flock</name>
+				<default_value type="float">7</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">n_flocks</name>
+				<default_value type="float">1</default_value>
+				<min_value type="string">1</min_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">max_height</name>
+				<default_value type="float">-2</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">min_height</name>
+				<default_value type="float">-9999</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">fish_min_size</name>
+				<default_value type="float">1</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">fish_max_size</name>
+				<default_value type="float">1</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">bb_tendency_toward_target</name>
+				<default_value type="float">1</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">bb_max_speed</name>
+				<default_value type="float">0.05</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">bb_turn_speed</name>
+				<default_value type="float">0.03</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">view_distance</name>
+				<default_value type="float">25</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">delay_time</name>
+				<default_value type="float">10</default_value>
+			</parameter>
+		</numeric_parameters>
+		<enum_parameters type="list">
+			<parameter type="bag">
+				<name type="string">fish_model</name>
+				<default_value type="string">all_fish</default_value>
+				<values type="string">all_fish,big_green,tiny_gold,medium_yellow,red_stripe,green_spots,orange_yellow,yellow_darkred,yellow_brown_spots,tiger,yellow_white_stripes,brown_blue,blue_white,sea_turtle,sea_turtle_families,seagull,dolphin</values>
+			</parameter>
+		</enum_parameters>
+	</embedded_object>
+</objectdef>

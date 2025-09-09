@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="MiniGames/TrophyCabinetWindows/model/ActiveModel.mdl" />
+		<model name="trophy.mdl" deferred_loading="false" protected="false" file="furniture/auto_union_type_c/Auto_Union_Type_C.mdl" />
+		<model name="TrophyModel9" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/Virtuoso.mdl" />
+		<model name="TrophyModel1" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/Aflat.mdl" />
+		<model name="TrophyModel2" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/Asharp.mdl" />
+		<model name="TrophyModel3" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/Amajor.mdl" />
+		<model name="TrophyModel4" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/SuitUp.mdl" />
+		<model name="TrophyModel5" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/TinklinIvories.mdl" />
+		<model name="TrophyModel6" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/PiaPiaPiano.mdl" />
+		<model name="TrophyModel7" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/Phantom.mdl" />
+		<model name="TrophyModel8" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/PianoHero.mdl" />
+		<model name="Cabinet_Model" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/piano2/Piano2Cabinet.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/file/Network.xml" />
+		<collision name="AudiCabinetSafeArea.hkx" deferred_loading="false" protected="false" file="MiniGames/TrophyCabinetWindows/models/AudiCabinetSafeArea.hkx" />
+		<collision name="Cabinet_Collision" deferred_loading="false" protected="false" file="MiniGames/AudiTrophyCabinet/models/Gecko/GeckoCabinet.hkx" />
+		<lua name="VMDebug" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMDebug.lua" />
+		<lua name="VMTrophyRequest" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMTrophyRequest.lua" />
+		<lua name="VMDynamicEntity" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMDynamicEntity.lua" />
+		<lua name="VMGame" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMGame.lua" />
+		<lua name="VMTimers" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMTimers.lua" />
+		<lua name="VMObjectPool" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMObjectPool.lua" />
+		<lua name="VMTrophy" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMTrophy.lua" />
+		<lua name="VMPad" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMPad.lua" />
+		<lua name="VMScore" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMScore.lua" />
+		<lua name="VMScoreBoard" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMScoreBoard.lua" />
+		<lua name="VMScoreRequest" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMScoreRequest.lua" />
+		<lua name="VMMiniGame" deferred_loading="false" protected="true" file="MiniGames/AudiTrophyCabinet/lua/VMMiniGame.lua" />
+	</local>
+	<external />
+</resources>

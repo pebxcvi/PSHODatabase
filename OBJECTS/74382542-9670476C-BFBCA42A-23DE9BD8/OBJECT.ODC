@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.75.0.85.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>74382542-9670476C-BFBCA42A-23DE9BD8</uuid>
+  <name lang="en-GB" default="true">Park Rock Seat Reward</name>
+  <name lang="fr-FR" default="false">Trophée siège rocher du parc</name>
+  <name lang="de-DE" default="false">Belohnung: Steinsitz</name>
+  <name lang="it-IT" default="false">Premio Sedile di roccia del Parco</name>
+  <name lang="es-ES" default="false">Premio Asiento de piedra del parque</name>
+  <description lang="en-GB" default="true">A hard rock seat furniture item.\nRewarded in Acorn Meadows Park for completing the challenge 'Junk Food Addict'. [#Legal]</description>
+  <description lang="fr-FR" default="false">Un rocher en forme de siège.\nÀ gagner dans le parc Acorn Meadows en remportant le défi « Accro aux “cochonneries” ». [#Legal]</description>
+  <description lang="de-DE" default="false">Parkobjekt Steinsitz.\nBelohnung für den erfolgreichen Abschluss der Herausforderung "Junk-Food-Liebhaber". [#Legal]</description>
+  <description lang="it-IT" default="false">Articolo accessorio del sedile di roccia.\nPremiato su Acorn Meadows Park per aver completato la sfida "Dipendente dal cibo spazzatura". [#Legal]</description>
+  <description lang="es-ES" default="false">Artículo de mobiliario del parque, un asiento de piedra.\nRecompensa en el Parque de Campo Bellotas por completar el reto "Adicto a la comida basura". [#Legal]</description>
+  <maker lang="en-GB" default="true">VEEMEE</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T034.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T034.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T034.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>5EDBAA5D</timestamp>
+</odc>

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="MiniBot_Stand_Idle_LowerTorso.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_Idle_LowerTorso.mdl" memory="main" />
+		<model name="MiniBot_Stand_Idle_UpperTorso.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_Idle_UpperTorso.mdl" memory="main" />
+		<model name="WEAPON_assaulter.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_assaulter.mdl" memory="main" />
+		<model name="WEAPON_grenade.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_grenade.mdl" memory="main" />
+		<model name="WEAPON_shotgun.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_shotgun.mdl" memory="main" />
+		<model name="BULLET_lightning_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/BULLET_lightning_01.mdl" memory="main" />
+		<model name="BULLET_laser_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/BULLET_laser_01.mdl" memory="main" />
+		<model name="FX_shockwave_ball_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/FX_shockwave_ball_01.mdl" memory="main" />
+		<model name="WEAPON_blade.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_blade.mdl" memory="main" />
+		<model name="WEAPON_blaster.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_blaster.mdl" memory="main" />
+		<model name="WEAPON_beamer.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_beamer.mdl" memory="main" />
+		<model name="BULLET_deathray_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/BULLET_deathray_01.mdl" memory="main" />
+		<model name="WEAPON_launcher.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_launcher.mdl" />
+		<model name="WEAPON_devestator.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_devestator.mdl" memory="main" />
+		<model name="WEAPON_devestator_rotator.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_devestator_rotator.mdl" memory="main" />
+		<model name="DECO_Face_00.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/accessories/DECO_Face_00.mdl" />
+		<model name="DECO_Face_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/accessories/DECO_Face_01.mdl" />
+		<model name="DECO_Face_02.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/accessories/DECO_Face_02.mdl" />
+		<model name="DECO_Face_03.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/accessories/DECO_Face_03.mdl" />
+		<model name="DECO_Face_04.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/accessories/DECO_Face_04.mdl" />
+		<model name="GADGET_guardian.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/GADGET_guardian.mdl" memory="main" />
+		<model name="GADGET_sentry.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/GADGET_sentry.mdl" memory="main" />
+		<model name="GADGET_turret.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/GADGET_turret.mdl" memory="main" />
+		<model name="GADGET_turret_guns.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/GADGET_turret_guns.mdl" memory="main" />
+		<model name="BULLET_healingray_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/BULLET_healingray_01.mdl" memory="main" />
+		<model name="WEAPON_sniper.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_sniper.mdl" />
+		<model name="WEAPON_blade_slash.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_blade_slash.mdl" />
+		<model name="SNIPER_beam.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/SNIPER_beam.mdl" />
+		<model name="AlvinBot_RIG.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/AlvinBot_RIG.mdl" />
+		<model name="SherryBot_RIG.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/SherryBot_RIG.mdl" />
+		<model name="JUGGERNAUT_CAKE.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/juggernaut_cake/JUGGERNAUT_CAKE.mdl" />
+		<model name="power_pulse.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/juggernaut_cake/power_pulse.mdl" />
+		<model name="WEAPON_axe_swoosh.mdl" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_axe_swoosh.mdl" />
+		<model name="WEAPON_axe.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_axe.mdl" />
+		<model name="platform_red.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/platform_red.mdl" />
+		<model name="ramp_red.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/ramp_red.mdl" />
+		<model name="shield_red.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/shield_red.mdl" />
+		<model name="wall_red.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/wall_red.mdl" />
+		<model name="WEAPON_PAD_Generic.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_PAD_Generic.mdl" />
+		<model name="Juggerbot_01_Idle.mdl" deferred_loading="true" protected="false" file="environments/minibots_singleplayer_promo/models/Juggerbot_01_Idle.mdl" />
+		<model name="ammo_pad_promo.mdl" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/ammo_pad_promo.mdl" />
+		<model name="BATTLEBOX_ARENA.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MiniBots_ArenaBox/models/BATTLEBOX_ARENA.mdl" />
+		<model name="CODEX_devestator.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/CODEX_devestator.mdl" />
+		<model name="CODEX_axe.mdl" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/CODEX_axe.mdl" />
+		<model name="bumper_green.mdl" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/bumper_green.mdl" />
+		<model name="promo_floor_sign.mdl" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/promo_floor_sign.mdl" />
+		<model name="scoreboard_01.mdl" deferred_loading="false" protected="false" file="environments/minibots_singleplayer_promo/models/scoreboard_01.mdl" />
+		<model name="hill_grass.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/hill_grass.mdl" />
+		<model name="tree.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/tree.mdl" />
+		<model name="wooden_platform.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/wooden_platform.mdl" />
+		<model name="wooden_wall_long.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/wooden_wall_long.mdl" />
+		<model name="wooden_wall_short.mdl" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/models/wooden_wall_short.mdl" />
+		<texture name="life_chip.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/textures/life_chip.dds" memory="main" />
+		<texture name="placeholder_s.dds" deferred_loading="false" protected="false" file="tools/generic_shared_textures/placeholder_s.dds" memory="main" />
+		<texture name="icon_assaulter.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_assaulter.dds" memory="main" />
+		<texture name="icon_grenade.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_grenade.dds" memory="main" />
+		<texture name="icon_shotgun.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_shotgun.dds" memory="main" />
+		<texture name="reticule_assaulter_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/reticule_assaulter_96.dds" memory="main" />
+		<texture name="reticule_shotgun_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/reticule_shotgun_96.dds" memory="main" />
+		<texture name="icon_gadget_boots.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_boots.dds" memory="main" />
+		<texture name="icon_gadget_pulse.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_pulse.dds" memory="main" />
+		<texture name="icon_gadget_sentry.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_sentry.dds" memory="main" />
+		<texture name="icon_gadget_stealth.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_stealth.dds" memory="main" />
+		<texture name="icon_gadget_teleport.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_teleport.dds" memory="main" />
+		<texture name="icon_gadget_turret.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_turret.dds" memory="main" />
+		<texture name="icon_kingdingaling.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_kingdingaling.dds" memory="main" />
+		<texture name="graphic_hit_direction.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/graphic_hit_direction.dds" memory="main" />
+		<texture name="gadget_lock_128.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/gadget_lock_128.dds" memory="main" />
+		<texture name="title_01.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/title_01.dds" memory="main" />
+		<texture name="reticule_assaulter_zoom_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/reticule_assaulter_zoom_96.dds" memory="main" />
+		<texture name="reticule_beamer_counter_8.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_beamer_counter_8.dds" memory="main" />
+		<texture name="reticule_beamer_main_64.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_beamer_main_64.dds" memory="main" />
+		<texture name="reticule_launcher_96.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_launcher_96.dds" memory="main" />
+		<texture name="background_main.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/background_main.dds" memory="main" />
+		<texture name="background_countdown.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/background_countdown.dds" memory="main" />
+		<texture name="background_hud.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/background_hud.dds" memory="main" />
+		<texture name="background_hud_gadget.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/background_hud_gadget.dds" memory="main" />
+		<texture name="background_hud_wavescore.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/background_hud_wavescore.dds" memory="main" />
+		<texture name="power_bar_active.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/power_bar_active.dds" memory="main" />
+		<texture name="power_bar_inactive.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/power_bar_inactive.dds" memory="main" />
+		<texture name="power_bar_off.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/power_bar_off.dds" memory="main" />
+		<texture name="ui_bullet.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_bullet.dds" memory="main" />
+		<texture name="reticule_blade_main_64.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/reticule_blade_main_64.dds" />
+		<texture name="icon_blade.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_blade.dds" memory="main" />
+		<texture name="ui_shell_bolt.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_bolt.dds" />
+		<texture name="ui_shell_bullet.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_bullet.dds" />
+		<texture name="ui_shell_dash.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_dash.dds" />
+		<texture name="ui_shell_rocket.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_rocket.dds" />
+		<texture name="icon_launcher.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_launcher.dds" />
+		<texture name="icon_beamer.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_beamer.dds" />
+		<texture name="ui_shell_shotgun.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_shotgun.dds" />
+		<texture name="reticule_launcher_charged_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/reticule_launcher_charged_96.dds" memory="main" />
+		<texture name="icon_dgun.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_dgun.dds" memory="main" />
+		<texture name="icon_blaster.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_blaster.dds" memory="main" />
+		<texture name="reticule_no_ammo.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/reticule_no_ammo.dds" />
+		<texture name="icon_gadget_guardian.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_guardian.dds" />
+		<texture name="icon_sniper.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_sniper.dds" />
+		<texture name="reticule_sniper_16.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/reticule_sniper_16.dds" />
+		<texture name="ui_shell_fuel.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_fuel.dds" />
+		<texture name="ui_shell_fuel_overlay.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_fuel_overlay.dds" />
+		<texture name="ui_shell_sniper.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/ui_shell_sniper.dds" />
+		<texture name="icon_observer.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_observer.dds" />
+		<texture name="icon_axe.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_axe.dds" />
+		<texture name="icon_gadget_cake.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_gadget_cake.dds" />
+		<texture name="icon_deaths.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_deaths.dds" />
+		<texture name="icon_kills.dds" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/graphics/icon_kills.dds" />
+		<texture name="juggerbot_mask.dds" deferred_loading="false" protected="false" file="MiniGames/Minibot_Setdressing_Promo/graphics/juggerbot_mask.dds" />
+		<texture name="promo_intro_DE.dds" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/graphics/promo_intro_DE.dds" />
+		<texture name="promo_intro_EN.dds" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/graphics/promo_intro_EN.dds" />
+		<texture name="promo_intro_ES.dds" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/graphics/promo_intro_ES.dds" />
+		<texture name="promo_intro_FR.dds" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/graphics/promo_intro_FR.dds" />
+		<texture name="promo_intro_IT.dds" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/graphics/promo_intro_IT.dds" />
+		<particle name="explosion.efx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/atgparticles/efx/explosion.efx" memory="main" />
+		<particle name="teleport_in.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/teleport_in.efx" memory="main" />
+		<particle name="rocketloop.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/rocketloop.efx" memory="main" />
+		<particle name="MiniBotBoltImpact.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/MiniBotBoltImpact.efx" memory="main" />
+		<particle name="RingwaveBlast_blue.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/RingwaveBlast_blue.efx" memory="main" />
+		<particle name="MDR_Impact.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/MDR_Impact.efx" memory="main" />
+		<particle name="SpawnPoint2.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/SpawnPoint2.efx" />
+		<particle name="Blaster_Impact.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/Blaster_Impact.efx" />
+		<particle name="HealBot.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/HealBot.efx" memory="main" />
+		<particle name="GrenadeRadius.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Lee/GrenadeRadius.efx" />
+		<particle name="PulseFieldSparks.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/PulseFieldSparks.efx" />
+		<particle name="StealthFieldParticle.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/StealthFieldParticle.efx" />
+		<particle name="BotSpawn.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/BotSpawn.efx" />
+		<particle name="ShellCasing.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/ShellCasing.efx" />
+		<particle name="berserkbot_effect.efx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/atgparticles/efx/berserkbot_effect.efx" />
+		<particle name="Coin_Point.efx" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/particles/Coin_Point.efx" />
+		<particle name="CP.efx" deferred_loading="true" protected="false" file="environments/minibots_trainingfacility_promo/particles/CP.efx" />
+		<particle name="Trial_Point.efx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/particles/Trial_Point.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/file/Network.xml" memory="main" />
+		<collision name="MiniBot_collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/MiniBot_collider.hkx" memory="main" />
+		<collision name="WEAPON_grenade.hkx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_grenade.hkx" memory="main" />
+		<collision name="GADGET_guardian.hkx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/GADGET_guardian.hkx" memory="main" />
+		<collision name="GADGET_sentry.hkx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/GADGET_sentry.hkx" memory="main" />
+		<collision name="GADGET_turret.hkx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/GADGET_turret.hkx" memory="main" />
+		<collision name="JUGGERNAUT_CAKE.hkx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/juggernaut_cake/JUGGERNAUT_CAKE.hkx" />
+		<collision name="ceiling_collider.hkx" deferred_loading="false" protected="false" file="environments/minibots_singleplayer_promo/models/ceiling_collider.hkx" />
+		<collision name="hill_grass.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/hill_grass.hkx" />
+		<collision name="platform_red.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/platform_red.hkx" />
+		<collision name="ramp_red.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/ramp_red.hkx" />
+		<collision name="shield_red.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/shield_red.hkx" />
+		<collision name="tree.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/tree.hkx" />
+		<collision name="wall_red.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/wall_red.hkx" />
+		<collision name="wooden_platform.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/wooden_platform.hkx" />
+		<collision name="wooden_wall_long.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/wooden_wall_long.hkx" />
+		<collision name="wooden_wall_short.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/wooden_wall_short.hkx" />
+		<collision name="WEAPON_PAD_Generic.hkx" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/WEAPON_PAD_Generic.hkx" />
+		<collision name="COLLIDER_floor.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/COLLIDER_floor.hkx" />
+		<collision name="ammo_pad_promo.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/ammo_pad_promo.hkx" />
+		<collision name="BATTLEBOX_ARENA.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MiniBots_ArenaBox/models/BATTLEBOX_ARENA.hkx" />
+		<collision name="COLLIDER_house.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/COLLIDER_house.hkx" />
+		<collision name="COLLIDER_ambient.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/COLLIDER_ambient.hkx" />
+		<collision name="bumper_green.hkx" deferred_loading="false" protected="false" file="environments/minibots_trainingfacility_promo/models/bumper_green.hkx" />
+		<collision name="scoreboard_01.hkx" deferred_loading="false" protected="false" file="environments/minibots_singleplayer_promo/models/scoreboard_01.hkx" />
+		<anim name="MiniBot_Stand_Idle_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_Idle_LowerTorso.ani" memory="main" />
+		<anim name="MiniBot_Stand_Idle_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_Idle_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Stand_RunForward_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_RunForward_LowerTorso.ani" memory="main" />
+		<anim name="MiniBot_Stand_RunForward_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_RunForward_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Jump_Float_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Jump_Float_LowerTorso.ani" memory="main" />
+		<anim name="MiniBot_Jump_Float_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Jump_Float_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Jump_Start_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Jump_Start_LowerTorso.ani" memory="main" />
+		<anim name="MiniBot_Jump_Start_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Jump_Start_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Stand_FireWeapon_UpperBody.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_FireWeapon_UpperBody.ani" memory="main" />
+		<anim name="MiniBot_Jump_FloatForward_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Jump_FloatForward_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Jump_FloatForward_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Jump_FloatForward_LowerTorso.ani" memory="main" />
+		<anim name="MiniBot_Weapon_Equip_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Weapon_Equip_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Weapon_Unequip_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Weapon_Unequip_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_HeadButt_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_HeadButt_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Weapon_ReloadLoop_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Weapon_ReloadLoop_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Weapon_ReloadStart_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Weapon_ReloadStart_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Death_StandingDeath_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Death_StandingDeath_LowerTorso.ani" memory="main" />
+		<anim name="MiniBot_Death_StandingDeath_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Death_StandingDeath_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Grenade_Throw_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Grenade_Throw_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Stand_PulseExplosion_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_PulseExplosion_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Death_SelfDestruct_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Death_SelfDestruct_LowerTorso.ani" memory="main" />
+		<anim name="MiniBot_Death_SelfDestruct_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Death_SelfDestruct_UpperTorso.ani" memory="main" />
+		<anim name="MiniBot_Blade_Attack.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Blade_Attack.ani" memory="main" />
+		<anim name="MiniBot_Blade_Idle.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Blade_Idle.ani" memory="main" />
+		<anim name="MiniBot_Blade_RunForward.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Blade_RunForward.ani" memory="main" />
+		<anim name="MiniBot_Blade_DashPose_LowerBody.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Blade_DashPose_LowerBody.ani" memory="main" />
+		<anim name="MiniBot_Blade_DashPose_UpperBody.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Blade_DashPose_UpperBody.ani" memory="main" />
+		<anim name="AlvinBot_Idle01.ani" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/AlvinBot_Idle01.ani" />
+		<anim name="SherryBot_Idle01.ani" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/SherryBot_Idle01.ani" />
+		<anim name="AlvinBot_ShopGreeting01.ani" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/AlvinBot_ShopGreeting01.ani" />
+		<anim name="SherryBot_ShopGreeting01.ani" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/SherryBot_ShopGreeting01.ani" />
+		<anim name="MiniBot_Axe_Spin.ani" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Axe_Spin.ani" />
+		<anim name="Juggerbot_01_Idle.ani" deferred_loading="true" protected="false" file="environments/minibots_singleplayer_promo/models/Juggerbot_01_Idle.ani" />
+		<skeleton name="MiniBot_Stand_Idle_LowerTorso.skn" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_Idle_LowerTorso.skn" memory="main" />
+		<skeleton name="MiniBot_Stand_Idle_UpperTorso.skn" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/animations/MiniBot_Stand_Idle_UpperTorso.skn" memory="main" />
+		<skeleton name="AlvinBot_RIG.skn" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/AlvinBot_RIG.skn" />
+		<skeleton name="SherryBot_RIG.skn" deferred_loading="true" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/models/shopkeepers/SherryBot_RIG.skn" />
+		<skeleton name="Juggerbot_01_Idle.skn" deferred_loading="true" protected="false" file="environments/minibots_singleplayer_promo/models/Juggerbot_01_Idle.skn" />
+		<soundbank name="MinibotSoundbank1.bnk" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/MinibotSoundbank1.bnk" memory="main" />
+		<soundbank name="MinibotSoundbankUI.bnk" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/MinibotSoundbankUI.bnk" memory="main" />
+		<soundbank name="MinibotSoundBank2.bnk" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/MinibotSoundBank2.bnk" />
+		<soundbank name="TrainingFacililtyMapEffects.bnk" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/TrainingFacililtyMapEffects.bnk" />
+		<soundbank name="TrainingFacilityWeapons.bnk" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/TrainingFacilityWeapons.bnk" />
+		<soundstream name="BackgroundMusic.mp3" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/BackgroundMusic.mp3" memory="main" />
+		<soundstream name="DoorOpen.mp3" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/DoorOpen.mp3" />
+		<soundstream name="Spawn.mp3" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/Spawn.mp3" />
+		<soundstream name="Die.mp3" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/Die.mp3" />
+		<soundstream name="Victory.mp3" deferred_loading="false" protected="false" file="RealTimeGames/TrainingFacilityPromo_SCEA/Audio/Victory.mp3" />
+		<lua name="RealTimeGame.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/RealTimeGame.luac" memory="main" />
+		<lua name="MinibotDebris.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/MinibotDebris.luac" memory="main" />
+		<lua name="RocketBoots.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/RocketBoots.luac" memory="main" />
+		<lua name="GadgetSentry.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/GadgetSentry.luac" memory="main" />
+		<lua name="aBuserShot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerShots/aBuserShot.luac" memory="main" />
+		<lua name="AssaulterShot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerShots/AssaulterShot.luac" memory="main" />
+		<lua name="PlayerWeaponaBuser.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponaBuser.luac" memory="main" />
+		<lua name="PlayerWeaponAssaulter.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponAssaulter.luac" memory="main" />
+		<lua name="Rayball.lua" deferred_loading="true" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Mapper/Rayball.luac" memory="main" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/Utility.luac" memory="main" />
+		<lua name="ApartmentMapper.lua" deferred_loading="true" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Mapper/ApartmentMapper.luac" memory="main" />
+		<lua name="SentryPointCheck.lua" deferred_loading="true" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Mapper/SentryPointCheck.luac" memory="main" />
+		<lua name="WeaponPointCheck.lua" deferred_loading="true" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Mapper/WeaponPointCheck.luac" memory="main" />
+		<lua name="PickupManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Pickups/PickupManager.luac" memory="main" />
+		<lua name="PlayerWeaponGrenade.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponGrenade.luac" memory="main" />
+		<lua name="BackgroundMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Minibots/BackgroundMinibot.luac" memory="main" />
+		<lua name="Minibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Minibots/Minibot.luac" memory="main" />
+		<lua name="MinibotCamera.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Minibots/MinibotCamera.luac" memory="main" />
+		<lua name="MinibotHealthChip.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Minibots/MinibotHealthChip.luac" memory="main" />
+		<lua name="StealthField.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/StealthField.luac" memory="main" />
+		<lua name="TurretGadget.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/TurretGadget.luac" memory="main" />
+		<lua name="NetworkMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Multiplayer/NetworkMinibot.luac" memory="main" />
+		<lua name="State_CustomizeMenu.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_CustomizeMenu.luac" memory="main" />
+		<lua name="State_Gadget.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_Gadget.luac" memory="main" />
+		<lua name="State_Lobby.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_Lobby.luac" memory="main" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_MainMenu.luac" memory="main" />
+		<lua name="State_Multiplayer.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_Multiplayer.luac" memory="main" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/StateMachine.luac" memory="main" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_Idle.luac" memory="main" />
+		<lua name="GlobalLib.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/GlobalLib.luac" memory="main" />
+		<lua name="State_LocalPlayerJoin.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_LocalPlayerJoin.luac" memory="main" />
+		<lua name="ParticleManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/ParticleManager.luac" memory="main" />
+		<lua name="TeleporterGadget.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/TeleporterGadget.luac" memory="main" />
+		<lua name="PulseExplosionGadget.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/PulseExplosionGadget.luac" memory="main" />
+		<lua name="InventoryChecker.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/SettingsInventory/InventoryChecker.luac" memory="main" />
+		<lua name="Mapper.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Mapper/Mapper.luac" memory="main" />
+		<lua name="State_HowToPlay.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_HowToPlay.luac" memory="main" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/CoroutineManager.luac" memory="main" />
+		<lua name="NetworkMessageManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Multiplayer/NetworkMessageManager.luac" memory="main" />
+		<lua name="BeamerShot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerShots/BeamerShot.luac" memory="main" />
+		<lua name="LauncherShot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerShots/LauncherShot.luac" memory="main" />
+		<lua name="PlayerWeaponBeamer.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponBeamer.luac" memory="main" />
+		<lua name="PlayerWeaponLauncher.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponLauncher.luac" memory="main" />
+		<lua name="PlayerWeaponBlade.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponBlade.luac" />
+		<lua name="PlayerWeaponBlaster.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponBlaster.luac" memory="main" />
+		<lua name="BlasterShot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerShots/BlasterShot.luac" memory="main" />
+		<lua name="PlayerWeaponDevistator.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponDevistator.luac" memory="main" />
+		<lua name="DevistatorShot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerShots/DevistatorShot.luac" memory="main" />
+		<lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/BatchResourceLoader.luac" memory="main" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/EventManager.luac" memory="main" />
+		<lua name="MapEffectManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/MapEffects/MapEffectManager.luac" memory="main" />
+		<lua name="MinibotHeads.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Minibots/MinibotHeads.luac" />
+		<lua name="PlayerSettings.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/SettingsInventory/PlayerSettings.luac" memory="main" />
+		<lua name="GadgetManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/SettingsInventory/GadgetManager.luac" memory="main" />
+		<lua name="WeaponManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/SettingsInventory/WeaponManager.luac" memory="main" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/Pad.luac" />
+		<lua name="SpawnManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Spawning/SpawnManager.luac" memory="main" />
+		<lua name="AchievementManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Achievements/AchievementManager.luac" />
+		<lua name="Achievements.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Achievements/Achievements.luac" />
+		<lua name="Guardian.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/Guardian.luac" />
+		<lua name="SniperShot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerShots/SniperShot.luac" />
+		<lua name="PlayerWeaponSniper.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponSniper.luac" />
+		<lua name="ArmoryManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Armory/ArmoryManager.luac" />
+		<lua name="PlayerEffectManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerEffects/PlayerEffectManager.luac" />
+		<lua name="State_MutliplayerGames.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_MutliplayerGames.luac" />
+		<lua name="State_CreateGame.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_CreateGame.luac" />
+		<lua name="Observer.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Observer/Observer.luac" />
+		<lua name="Pickups.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Pickups/Pickups.luac" />
+		<lua name="JumpbotronManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/MapEffects/JumpbotronManager.luac" />
+		<lua name="State_ScoreboardFromMainMenu.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_ScoreboardFromMainMenu.luac" />
+		<lua name="State_ScoreboardFromMultiplayerGame.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_ScoreboardFromMultiplayerGame.luac" />
+		<lua name="MinibotSpawnPointCheck.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Mapper/MinibotSpawnPointCheck.luac" />
+		<lua name="HideRemotePeople.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Utility/HideRemotePeople.luac" />
+		<lua name="CakeGadget.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/CakeGadget.luac" />
+		<lua name="PlayerWeaponAxe.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/PlayerWeapons/PlayerWeaponAxe.luac" />
+		<lua name="RemoteMineGadget.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Gadgets/RemoteMineGadget.luac" />
+		<lua name="Flying_Hover.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Vehicles/Flying_Hover.luac" />
+		<lua name="Test_Gun.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Vehicles/VehicleWeapons/Test_Gun.luac" />
+		<lua name="Test_Gun_Shot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Vehicles/VehicleShots/Test_Gun_Shot.luac" />
+		<lua name="Telemetry.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Telemetry/Telemetry.luac" />
+		<lua name="LevelBuilder.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/LevelBuilder/LevelBuilder.luac" />
+		<lua name="State_PickMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_PickMinibot.luac" />
+		<lua name="InvisMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Idling_Minibots/InvisMinibot.luac" />
+		<lua name="PulseMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Idling_Minibots/PulseMinibot.luac" />
+		<lua name="RocketbootMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Idling_Minibots/RocketbootMinibot.luac" />
+		<lua name="SentryMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Idling_Minibots/SentryMinibot.luac" />
+		<lua name="TeleporterMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Idling_Minibots/TeleporterMinibot.luac" />
+		<lua name="TurrentMinibot.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/Idling_Minibots/TurrentMinibot.luac" />
+		<lua name="State_GameOver.lua" deferred_loading="false" protected="true" file="RealTimeGames/TrainingFacilityPromo_SCEA/lua/States/State_GameOver.luac" />
+	</local>
+	<external />
+</resources>

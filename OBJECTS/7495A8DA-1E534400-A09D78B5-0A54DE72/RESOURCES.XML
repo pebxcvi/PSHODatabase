@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="bird.dds" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/textures/bird.dds" />
+		<texture name="pipe.dds" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/textures/pipe.dds" />
+		<texture name="pipeend.dds" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/textures/pipeend.dds" />
+		<texture name="background.dds" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/textures/background.dds" />
+		<texture name="ground.dds" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/textures/ground.dds" />
+		<texture name="screenimage.dds" deferred_loading="false" protected="false" file="ArcadeGames/screenimage.dds" />
+		<texture name="beam.dds" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/textures/beam.dds" />
+		<texture name="explosion.dds" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/textures/explosion.dds" />
+		<file name="np_pass" deferred_loading="false" protected="true" file="ArcadeGames/InfiniteFlyer/pass.bin" />
+		<soundbank name="sounds.bnk" deferred_loading="false" protected="false" file="ArcadeGames/InfiniteFlyer/sounds/sounds.bnk" />
+		<lua name="ArcadeGame.lua" deferred_loading="false" protected="true" file="ArcadeGames/InfiniteFlyer/lua/ArcadeGame.lua" />
+		<lua name="LeaderBoard.lua" deferred_loading="false" protected="true" file="ArcadeGames/InfiniteFlyer/lua/LeaderBoard.lua" />
+	</local>
+	<external />
+</resources>

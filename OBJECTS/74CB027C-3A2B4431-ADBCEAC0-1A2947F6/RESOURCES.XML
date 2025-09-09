@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="symbol.mdl" deferred_loading="false" file="MiniGames/InputNum/eventcorneryl/event_corner_mark_yl.mdl" />
+		<model name="symbol2.mdl" deferred_loading="false" file="furniture/eventcorneryl/event_corner_base.mdl" />
+		<texture name="edge.dds" deferred_loading="false" file="MiniGames/InputNum/common/tex/edge.dds" />
+		<texture name="parts_allow.dds" deferred_loading="false" file="MiniGames/InputNum/tex/parts_allow.dds" />
+		<file name="main.lua" deferred_loading="false" file="MiniGames/InputNum/main.lua" />
+		<file name="MsgWnd.lua" deferred_loading="false" file="MiniGames/InputNum/common/MsgWnd.lua" />
+		<file name="padUtil.lua" deferred_loading="false" file="MiniGames/InputNum/common/padUtil.lua" />
+		<file name="task.lua" deferred_loading="false" file="MiniGames/InputNum/common/task.lua" />
+		<file name="mathx.lua" deferred_loading="false" file="MiniGames/InputNum/common/mathx.lua" />
+		<file name="misc.lua" deferred_loading="false" file="MiniGames/InputNum/common/misc.lua" />
+		<file name="paHomeCommon.lua" deferred_loading="false" file="MiniGames/InputNum/pa/paHomeCommon.lua" />
+		<file name="paHomeServerAccess.lua" deferred_loading="false" file="MiniGames/InputNum/pa/paHomeServerAccess.lua" />
+		<file name="serverurl.lua" deferred_loading="false" file="MiniGames/InputNum/pa/serverurl.lua" />
+		<collision name="symbol.hkx" deferred_loading="false" file="furniture/eventcorneryl/event_corner_base.hkx" />
+	</local>
+	<external />
+</resources>

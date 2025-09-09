@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="gokart.mdl" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/gokartblack.mdl" />
+		<model name="bot.mdl" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/bot.mdl" />
+		<texture name="car.dds" deferred_loading="false" protected="false" file="MiniGames/KartGame/textures/car.dds" />
+		<texture name="rank_track.dds" deferred_loading="false" protected="false" file="MiniGames/KartGame/textures/rank_track.dds" />
+		<particle name="flame.efx" deferred_loading="false" protected="false" file="MiniGames/KartGame/particles/flame.efx" />
+		<particle name="smoke.efx" deferred_loading="false" protected="false" file="MiniGames/KartGame/particles/smoke.efx" />
+		<file name="minikartrace.ttf" deferred_loading="false" protected="false" file="MiniGames/KartGame/fonts/minikartrace.ttf" />
+		<file name="digiru.ttf" deferred_loading="false" protected="false" file="MiniGames/KartGame/fonts/digiru.ttf" />
+		<file name="np_pass" deferred_loading="false" protected="true" file="MiniGames/KartGame/pass.bin" />
+		<collision name="kartcollision.hkx" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/kartcollision.hkx" />
+		<collision name="boxCollision.hkx" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/boxCollision.hkx" />
+		<collision name="HovercraftCollision.hkx" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/HovercraftCollision.hkx" />
+		<collision name="SphereCollision.hkx" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/SphereCollision.hkx" />
+		<collision name="accurateCollision.hkx" deferred_loading="false" protected="false" file="animatedmodels/gokart/accurateCollision.hkx" />
+		<anim name="gokartboost.ani" deferred_loading="false" protected="false" file="MiniGames/KartGame/animation/male/gokartpose/gokartboost.ani" />
+		<anim name="gokartide.ani" deferred_loading="false" protected="false" file="MiniGames/KartGame/animation/male/gokartpose/gokartide.ani" />
+		<anim name="gokartpose.ani" deferred_loading="false" protected="false" file="MiniGames/KartGame/animation/male/gokartpose/gokartpose.ani" />
+		<anim name="fgokartboost.ani" deferred_loading="false" protected="false" file="MiniGames/KartGame/animation/female/gokartpose/fgokartboost.ani" />
+		<anim name="fgokartidle.ani" deferred_loading="false" protected="false" file="MiniGames/KartGame/animation/female/gokartpose/fgokartidle.ani" />
+		<anim name="fgokartpose.ani" deferred_loading="false" protected="false" file="MiniGames/KartGame/animation/female/gokartpose/fgokartpose.ani" />
+		<anim name="gokart.ani" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/gokart.ani" />
+		<skeleton name="gokart.skn" deferred_loading="false" protected="false" file="MiniGames/KartGame/models/gokart/gokart.skn" />
+		<soundbank name="sfx.bnk" deferred_loading="false" protected="false" file="MiniGames/KartGame/sounds/sfx.bnk" />
+		<soundstream name="musicTrack.mp3" deferred_loading="false" protected="false" file="MiniGames/KartGame/sounds/musicTrack.mp3" />
+		<repertoire name="male_repertoire" deferred_loading="false" protected="false" file="MiniGames/KartGame/repertoires/male_repertoire.xml" />
+		<repertoire name="female_repertoire" deferred_loading="false" protected="false" file="MiniGames/KartGame/repertoires/female_repertoire.xml" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="MiniGames/KartGame/repertoires/male_emotes.xml" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="MiniGames/KartGame/repertoires/female_emotes.xml" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/main.lua" />
+		<lua name="hudmessage.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/hudmessage.lua" />
+		<lua name="hudlap.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/hudlap.lua" />
+		<lua name="hudspeed.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/hudspeed.lua" />
+		<lua name="hudtimer.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/hudtimer.lua" />
+		<lua name="leaderboard.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/leaderboard.lua" />
+		<lua name="bots.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/bots.lua" />
+		<lua name="hudrank.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/hudrank.lua" />
+		<lua name="settings.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/settings_public.lua" />
+		<lua name="freeride.lua" deferred_loading="false" protected="true" file="MiniGames/KartGame/scripts/freeride.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/christmasmusic_2010/snowglobe/models/CommOct_SnowGlobeMusic.mdl" />
+		<particle name="snowGlobe_H.efx" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/effects/snowGlobe_H.efx" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/christmasmusic_2010/snowglobe/models/CommOct_SnowGlobeMusic.hkx" />
+		<soundstream name="3_O_Christmas_Tree.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/sound/3_O_Christmas_Tree.mp3" />
+		<soundstream name="1_Jingle_Bells.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/sound/1_Jingle_Bells.mp3" />
+		<soundstream name="2_What_Child_Is_This.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/snowglobe/sound/2_What_Child_Is_This.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/christmasmusic_2010/snowglobe/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="ActiveItems/christmasmusic_2010/snowglobe/programming/Boombox.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Ball.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Ball.mdl" />
+		<model name="flag.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/flag.mdl" />
+		<model name="Windmill.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Windmill.mdl" />
+		<model name="fence.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/fence.mdl" />
+		<model name="torchStand.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/torchStand.mdl" />
+		<model name="sticks.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/sticks.mdl" />
+		<model name="brickWall.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/brickWall.mdl" />
+		<model name="cannon_stand.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/cannon_stand.mdl" />
+		<model name="cannon.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/anim_models/cannon_shoot.mdl" />
+		<model name="Target.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Target.mdl" />
+		<model name="direction_marker.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/direction_marker.mdl" />
+		<model name="swingaxe.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/swingaxe.mdl" />
+		<model name="boat.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/boat.mdl" />
+		<model name="knight.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/knight.mdl" />
+		<model name="knightSuper.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/knightSuper.mdl" />
+		<model name="fairy.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/fairy.mdl" />
+		<model name="floating_target.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/floating_target.mdl" />
+		<model name="hut.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hut.mdl" />
+		<model name="guard_tower.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/guard_tower.mdl" />
+		<model name="guard_tower_gib03.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/guard_tower_gib03.mdl" />
+		<model name="guard_tower_gib01.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/guard_tower_gib01.mdl" />
+		<model name="guard_tower_gib02.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/guard_tower_gib02.mdl" />
+		<model name="mushroom.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/mushroom.mdl" />
+		<model name="temple.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/temple.mdl" />
+		<model name="mirror.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/mirror.mdl" />
+		<model name="laser.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/laser.mdl" />
+		<model name="windmill_blade.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/windmill_blade.mdl" />
+		<model name="spin_trap.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/spin_trap.mdl" />
+		<model name="rotate_bridge.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/rotate_bridge.mdl" />
+		<model name="hole6.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole6_SCEJ.mdl" />
+		<model name="leaf.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/leaf.mdl" />
+		<model name="mushroom_poisoned.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/mushroom_poisoned.mdl" />
+		<model name="giant_petal.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/giant_petal.mdl" />
+		<model name="venus_flytrap.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/venus_flytrap.mdl" />
+		<model name="stalagmite.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/stalagmite.mdl" />
+		<model name="hole1.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole1_SCEJ.mdl" />
+		<model name="hole4.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole4_SCEJ.mdl" />
+		<model name="hole5.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole5_SCEJ.mdl" />
+		<model name="hole7.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole7_SCEJ.mdl" />
+		<model name="hole3.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole3_SCEJ.mdl" />
+		<model name="hole2.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole2_SCEJ.mdl" />
+		<model name="hole8.mdl" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole8_SCEJ.mdl" />
+		<model name="skull.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/skull.mdl" />
+		<model name="frog.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/frog.mdl" />
+		<model name="stepping_stone.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/stepping_stone.mdl" />
+		<model name="croc.mdl" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/croc.mdl" />
+		<model name="hole9.mdl" deferred_loading="true" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Hole9_SCEJ.mdl" />
+		<model name="dragon2.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon2.mdl" />
+		<model name="target_ring_dragon.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/target_ring_dragon.mdl" />
+		<model name="hole9_vine_ramp.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole9_vine_ramp.mdl" />
+		<model name="hole9_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole9_lowpoly.mdl" />
+		<model name="hole1_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole1_lowpoly.mdl" />
+		<model name="hole2_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole2_lowpoly.mdl" />
+		<model name="hole3_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole3_lowpoly.mdl" />
+		<model name="hole4_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole4_lowpoly.mdl" />
+		<model name="hole5_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole5_lowpoly.mdl" />
+		<model name="hole6_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole6_lowpoly.mdl" />
+		<model name="hole7_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole7_lowpoly.mdl" />
+		<model name="hole8_lowpoly.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole8_lowpoly.mdl" />
+		<model name="giant_mushroom.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/giant_mushroom.mdl" />
+		<model name="log_loop.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/log_loop.mdl" />
+		<model name="hole_highlighter.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole_highlighter.mdl" />
+		<model name="orb_blue.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/orb_blue.mdl" />
+		<model name="orb_green.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/orb_green.mdl" />
+		<model name="orb_pink.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/orb_pink.mdl" />
+		<model name="orb_red.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/orb_red.mdl" />
+		<model name="orb_yellow.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/orb_yellow.mdl" />
+		<model name="miniFlag.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/miniFlag.mdl" />
+		<model name="clubHeld_Medium.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/clubHeld_Medium.mdl" />
+		<model name="clubHeld_Light.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/clubHeld_Light.mdl" />
+		<model name="swingaxe2.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/swingaxe2.mdl" />
+		<model name="swingaxe3.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/swingaxe3.mdl" />
+		<model name="swingbranch.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/swingbranch.mdl" />
+		<model name="Venus_flytrap_stump.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Venus_flytrap_stump.mdl" />
+		<model name="Skull_Eye_Left.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Skull_Eye_Left.mdl" />
+		<model name="Skull_Eye_Right.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Skull_Eye_Right.mdl" />
+		<model name="handglider.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/handglider.mdl" />
+		<model name="ant_Temple_Anim.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/ant_Temple_Anim.mdl" />
+		<model name="Ant_Queen_Temple_Anim.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Ant_Queen_Temple_Anim.mdl" />
+		<model name="clubHeld_Heavy.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/clubHeld_Heavy.mdl" />
+		<model name="Seed_bug_Anim_Attack.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Seed_bug_Anim_Attack.mdl" />
+		<model name="tarantula_spider_Anim_Walk.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/tarantula_spider_Anim_Walk.mdl" />
+		<model name="dragon_head.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_head.mdl" />
+		<model name="Seed_bug_Fire_Anim_Attack.mdl" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Seed_bug_Fire_Anim_Attack.mdl" />
+		<texture name="PowerBar.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PowerBar.dds" />
+		<texture name="PowerBarMask.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PowerBarMask.dds" />
+		<texture name="PowerBarMarker.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PowerBarMarker.dds" />
+		<texture name="GolfBallFire.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/GolfBallFire.dds" />
+		<texture name="GolfBallWet.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/GolfBallWet.dds" />
+		<texture name="ShroomHud.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/ShroomHud.dds" />
+		<texture name="AftertouchBar.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/AftertouchBar.dds" />
+		<texture name="AftertouchBarMask.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/AftertouchBarMask.dds" />
+		<texture name="PoisonedHud.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PoisonedHud.dds" />
+		<texture name="BoostActivator.dds" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/BoostActivator.dds" />
+		<texture name="ClubSelectHard.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/ClubSelectHard.dds" />
+		<texture name="ClubSelectLight.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/ClubSelectLight.dds" />
+		<texture name="ClubSelectMedium.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/ClubSelectMedium.dds" />
+		<texture name="FrogBar.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/FrogBar.dds" />
+		<texture name="whiteball.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/whiteball.dds" />
+		<texture name="whiteballsmall.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/whiteballsmall.dds" />
+		<texture name="blackball.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/blackball.dds" />
+		<texture name="blackballsmall.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/blackballsmall.dds" />
+		<texture name="objectiveSelector.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/objectiveSelector.dds" />
+		<texture name="par2.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/flagTextures/par2.dds" />
+		<texture name="par3.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/flagTextures/par3.dds" />
+		<texture name="par4.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/flagTextures/par4.dds" />
+		<texture name="par5.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/flagTextures/par5.dds" />
+		<texture name="par6.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/flagTextures/par6.dds" />
+		<texture name="SymbolBoost.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/SymbolBoost.dds" />
+		<texture name="AftertouchBarRecharge.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/AftertouchBarRecharge.dds" />
+		<texture name="AftertouchBarRechargeMarker.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/AftertouchBarRechargeMarker.dds" />
+		<texture name="par7.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/flagTextures/par7.dds" />
+		<texture name="hud_leaf.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/hud_leaf.dds" />
+		<texture name="ClubFilter.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/ClubFilter.dds" />
+		<texture name="controllerFromBack.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/controllerFromBack.dds" />
+		<texture name="wooden_frame.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/wooden_frame.dds" />
+		<texture name="button_X.dds" deferred_loading="false" protected="false">
+			<override file="minigames/arcade_hub/minigolf/textures/button_o.dds" locale="ja-*" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_o.dds" locale="zh-*" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_o.dds" locale="ko-*" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_o.dds" locale="en-SG" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_o.dds" locale="en-ID" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_o.dds" locale="en-MY" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_o.dds" locale="en-TH" />
+			<override file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_X.dds" />
+		</texture>
+		<texture name="splash.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/splash.dds" />
+		<texture name="menu_bar_left.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/menu_bar_left.dds" />
+		<texture name="menu_bar_mid.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/menu_bar_mid.dds" />
+		<texture name="menu_bar_right.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/menu_bar_right.dds" />
+		<texture name="menu_bar_right_big.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/menu_bar_right_big.dds" />
+		<texture name="menu_bar_left_big.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/menu_bar_left_big.dds" />
+		<texture name="menu_bar_mid_big.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/menu_bar_mid_big.dds" />
+		<texture name="Redball_D.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/Redball_D.dds" />
+		<texture name="Blueball_D.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/Blueball_D.dds" />
+		<texture name="Greenball_D.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/Greenball_D.dds" />
+		<texture name="hud_controlbar2.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/hud_controlbar2.dds" />
+		<texture name="hud_controlbar.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/hud_controlbar.dds" />
+		<texture name="GolfBallBlue.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/GolfBallBlue.dds" />
+		<texture name="GolfBallGreen.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/GolfBallGreen.dds" />
+		<texture name="GolfBallRed.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/GolfBallRed.dds" />
+		<texture name="button_Tri.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_TRI.dds" />
+		<texture name="button_Circle.dds" deferred_loading="false" protected="false">
+			<override file="minigames/arcade_hub/minigolf/textures/button_x.dds" locale="ja-*" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_x.dds" locale="ko-*" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_x.dds" locale="zh-*" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_x.dds" locale="en-SG" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_x.dds" locale="en-ID" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_x.dds" locale="en-MY" />
+			<override file="minigames/arcade_hub/minigolf/textures/button_x.dds" locale="en-TH" />
+			<override file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_O.dds" />
+		</texture>
+		<texture name="button_L1.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_L1.dds" />
+		<texture name="button_L2.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_L2.dds" />
+		<texture name="button_R1.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_R1.dds" />
+		<texture name="button_R2.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_R2.dds" />
+		<texture name="button_Square.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_Square.dds" />
+		<texture name="button_Lstick.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_Lstick.dds" />
+		<texture name="button_glow.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_glow.dds" />
+		<texture name="ticket_golden.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/ticket_golden.dds" />
+		<texture name="ticket_yellow.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/ticket_yellow.dds" />
+		<texture name="fairy.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/fairy.dds" />
+		<texture name="dragon_diff_BLUE.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/textures/dragon_diff_BLUE.dds" />
+		<texture name="dragon_diff_GREEN.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/textures/dragon_diff_GREEN.dds" />
+		<texture name="frog_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/frog_icon.dds" />
+		<texture name="arrow_left.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/arrow_left.dds" />
+		<texture name="arrow_right.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/arrow_right.dds" />
+		<texture name="Small_Dialogue_Panel.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/Small_Dialogue_Panel.dds" />
+		<texture name="button_R2_glow.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_R2_glow.dds" />
+		<texture name="button_L1_glow.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_L1_glow.dds" />
+		<texture name="menu_bar_tall.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/menu_bar_tall.dds" />
+		<texture name="button_Rstick.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/button_Rstick.dds" />
+		<texture name="preview1.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview1.dds" />
+		<texture name="preview2.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview2.dds" />
+		<texture name="preview3.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview3.dds" />
+		<texture name="preview4.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview4.dds" />
+		<texture name="preview5.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview5.dds" />
+		<texture name="preview6.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview6.dds" />
+		<texture name="preview7.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview7.dds" />
+		<texture name="preview8.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview8.dds" />
+		<texture name="preview9.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview9.dds" />
+		<texture name="preview10.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview10.dds" />
+		<texture name="preview11.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview11.dds" />
+		<texture name="preview12.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview12.dds" />
+		<texture name="preview13.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview13.dds" />
+		<texture name="preview14.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview14.dds" />
+		<texture name="preview15.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview15.dds" />
+		<texture name="preview16.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview16.dds" />
+		<texture name="preview17.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview17.dds" />
+		<texture name="preview18.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview18.dds" />
+		<texture name="preview19.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview19.dds" />
+		<texture name="preview20.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview20.dds" />
+		<texture name="preview21.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview21.dds" />
+		<texture name="preview22.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview22.dds" />
+		<texture name="preview23.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview23.dds" />
+		<texture name="preview24.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview24.dds" />
+		<texture name="preview25.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview25.dds" />
+		<texture name="preview26.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview26.dds" />
+		<texture name="preview27.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview27.dds" />
+		<texture name="preview28.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview28.dds" />
+		<texture name="preview29.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview29.dds" />
+		<texture name="preview30.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview30.dds" />
+		<texture name="preview31.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview31.dds" />
+		<texture name="preview32.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview32.dds" />
+		<texture name="preview33.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview33.dds" />
+		<texture name="preview34.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview34.dds" />
+		<texture name="preview35.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview35.dds" />
+		<texture name="preview36.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview36.dds" />
+		<texture name="preview37.dds" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Textures/PreviewImages/preview37.dds" />
+		<particle name="fire.efx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/fire.efx" />
+		<particle name="trail.efx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/trail.efx" />
+		<particle name="fairyHeal.efx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/fairyHeal.efx" />
+		<particle name="pickupCollect.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/pickupCollect.efx" />
+		<particle name="firework1" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/firework1.efx" />
+		<particle name="firework2" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/firework2.efx" />
+		<particle name="firework3" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/firework3.efx" />
+		<particle name="boost.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/boost.efx" />
+		<particle name="crocBite.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/crocBite.efx" />
+		<particle name="dragonWrongHit.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/dragonWrongHit.efx" />
+		<particle name="dragonWrongHitBlue.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/dragonWrongHitBlue.efx" />
+		<particle name="bug_explode.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/bug_explode.efx" />
+		<particle name="web_explode.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/web_explode.efx" />
+		<particle name="splash.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/splash.efx" />
+		<particle name="well_Splash.efx" deferred_loading="false" protected="false" file="environments/Arcade_Hub/particles/well_Splash.efx" />
+		<particle name="water_big_splash.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/water_big_splash.efx" />
+		<particle name="killerbees.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/killerbees.efx" />
+		<particle name="archer.efx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/effects/archer.efx" />
+		<collision name="Ball.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Ball.hkx" />
+		<collision name="windmill.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/windmill.hkx" />
+		<collision name="bridge.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/bridge.hkx" />
+		<collision name="fence.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/fence.hkx" />
+		<collision name="brickwall.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/brickwall.hkx" />
+		<collision name="swingaxe.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/swingaxe.hkx" />
+		<collision name="floating_target.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/floating_target.hkx" />
+		<collision name="temple.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/temple.hkx" />
+		<collision name="windmill_blade.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/windmill_blade.hkx" />
+		<collision name="log_loop.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/log_loop.hkx" />
+		<collision name="giant_mushroom.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/giant_mushroom.hkx" />
+		<collision name="spin_trap.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/spin_trap.hkx" />
+		<collision name="rotate_bridge.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/rotate_bridge.hkx" />
+		<collision name="hole6.hkx" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole6_SCEJ.hkx" memory="host" />
+		<collision name="leaf.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/leaf.hkx" />
+		<collision name="giant_petal.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/giant_petal.hkx" />
+		<collision name="hole4.hkx" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole4_SCEJ.hkx" memory="host" />
+		<collision name="hole5.hkx" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole5_SCEJ.hkx" memory="host" />
+		<collision name="hole7.hkx" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole7_SCEJ.hkx" memory="host" />
+		<collision name="hole3.hkx" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole3_SCEJ.hkx" memory="host" />
+		<collision name="hole2.hkx" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole2_SCEJ.hkx" memory="host" />
+		<collision name="hole8.hkx" deferred_loading="true" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole8_SCEJ.hkx" memory="host" />
+		<collision name="skull.hkx" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/skull.hkx" />
+		<collision name="hole9.hkx" deferred_loading="true" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Hole9_SCEJ.hkx" memory="host" />
+		<collision name="hole9_vine_ramp.hkx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole9_vine_ramp.hkx" />
+		<collision name="hole1.hkx" deferred_loading="true" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/hole1_SCEJ.hkx" memory="host" />
+		<collision name="guard_tower.hkx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/guard_tower.hkx" />
+		<collision name="stepping_stone.hkx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/stepping_stone.hkx" />
+		<collision name="swingaxe2.hkx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/swingaxe2.hkx" />
+		<collision name="swingaxe3.hkx" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/swingaxe3.hkx" />
+		<anim name="knight.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/knight.ani" />
+		<anim name="fairy.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/fairy.ani" />
+		<anim name="venus_flytrap.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/venus_flytrap.ani" />
+		<anim name="venus_flytrap_idle.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/venus_flytrap_idle.ani" />
+		<anim name="venus_flytrap_spit.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/venus_flytrap_spit.ani" />
+		<anim name="frog.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/frog.ani" />
+		<anim name="frog_jump.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/frog_jump.ani" />
+		<anim name="croc.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/croc.ani" />
+		<anim name="croc_jump.ani" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/croc_jump.ani" />
+		<anim name="dragon2_moveToSideIdle.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon2_moveToSideIdle.ani" />
+		<anim name="flag.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/flag.ani" />
+		<anim name="Female_GolfSwing_01" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Female_GolfSwing_01.ani" />
+		<anim name="Female_GolfSwing_02" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Female_GolfSwing_02.ani" />
+		<anim name="Female_GolfSwing_03" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Female_GolfSwing_03.ani" />
+		<anim name="Female_GolfSwing_04" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Female_GolfSwing_04.ani" />
+		<anim name="Female_GolfSwing_05" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Female_GolfSwing_05.ani" />
+		<anim name="Male_GolfSwing_01" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Male_GolfSwing_01.ani" />
+		<anim name="Male_GolfSwing_02" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Male_GolfSwing_02.ani" />
+		<anim name="Male_GolfSwing_03" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Male_GolfSwing_03.ani" />
+		<anim name="Male_GolfSwing_04" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Male_GolfSwing_04.ani" />
+		<anim name="Male_GolfSwing_05" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Male_GolfSwing_05.ani" />
+		<anim name="brickwall.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/brickwall.ani" />
+		<anim name="cannon_shoot.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/anim_models/cannon_shoot.ani" />
+		<anim name="Male_GolfSwing_Idle_New.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Male_GolfSwing_Idle_New.ani" />
+		<anim name="Female_GolfSwing_Idle_new.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/putting_anims/Female_GolfSwing_Idle_new.ani" />
+		<anim name="ant_Temple_Anim.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/ant_Temple_Anim.ani" />
+		<anim name="Ant_Queen_Temple_Anim.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Ant_Queen_Temple_Anim.ani" />
+		<anim name="Seed_bug_Anim_Walk.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Seed_bug_Anim_Walk.ani" />
+		<anim name="Seed_bug_Anim_Attack.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Seed_bug_Anim_Attack.ani" />
+		<anim name="Seed_bug_Anim_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Seed_bug_Anim_Idle.ani" />
+		<anim name="boat.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/boat.ani" />
+		<anim name="tarantula_spider_Anim_Walk.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/tarantula_spider_Anim_Walk.ani" />
+		<anim name="dragon_head.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_head.ani" />
+		<anim name="dragon_reared.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_reared.ani" />
+		<anim name="dragon_vulnerable.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_vulnerable.ani" />
+		<anim name="dragon_Hit_Mouth.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_Hit_Mouth.ani" />
+		<anim name="dragon2.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon2.ani" />
+		<anim name="dragon_Hit_Head.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_Hit_Head.ani" />
+		<anim name="dragon_death.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_death.ani" />
+		<anim name="dragon_reared_firebreath.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_reared_firebreath.ani" />
+		<anim name="dragon_idle_firebreath.ani" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_idle_firebreath.ani" />
+		<skeleton name="knight.skn" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/knight.skn" />
+		<skeleton name="fairy.skn" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/fairy.skn" />
+		<skeleton name="venus_flytrap.skn" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/venus_flytrap.skn" />
+		<skeleton name="frog.skn" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/frog.skn" />
+		<skeleton name="croc.skn" deferred_loading="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/croc.skn" />
+		<skeleton name="dragon2.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon2.skn" />
+		<skeleton name="flag.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/flag.skn" />
+		<skeleton name="brickwall.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/brickwall.skn" />
+		<skeleton name="cannon_shoot.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/anim_models/cannon_shoot.skn" />
+		<skeleton name="ant_Temple_Anim.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/ant_Temple_Anim.skn" />
+		<skeleton name="Ant_Queen_Temple_Anim.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Ant_Queen_Temple_Anim.skn" />
+		<skeleton name="Seed_bug_Anim_Attack.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/Seed_bug_Anim_Attack.skn" />
+		<skeleton name="boat.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/boat.skn" />
+		<skeleton name="tarantula_spider_Anim_Walk.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/tarantula_spider_Anim_Walk.skn" />
+		<skeleton name="dragon_head.skn" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/Models/dragon_head.skn" />
+		<soundbank name="hud_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/sounds/hud_sounds.bnk" />
+		<soundbank name="ingame_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/sounds/ingame_sounds.bnk" memory="host" />
+		<soundbank name="gameover_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/sounds/gameover_sounds.bnk" />
+		<soundbank name="ingame_sounds2.bnk" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/MiniGolf/sounds/ingame_sounds2.bnk" memory="main" />
+		<repertoire name="FemaleSwing" deferred_loading="false" protected="false" file="objects/75F46D34-84D34C0D-A8B353AB-642D3012/FemaleSwingAnims.xml" />
+		<repertoire name="MaleSwing" deferred_loading="false" protected="false" file="objects/75F46D34-84D34C0D-A8B353AB-642D3012/MaleSwingAnims.xml" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Controller.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Camera.lua" />
+		<lua name="MiniGolf.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/MiniGolf.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUDTextPanel.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HUDLib/HUDObject.lua" />
+		<lua name="GolfHud.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/GolfHud.lua" />
+		<lua name="HoleInfo.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/HoleInfo.lua" />
+		<lua name="Spline.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Spline.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Math.lua" />
+		<lua name="Trigger.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Trigger.lua" />
+		<lua name="GameObjects.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/GameObjects.lua" />
+		<lua name="Effects.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Effects.lua" />
+		<lua name="Lights.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Lights.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/OHS.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Jamin.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/NetLib.lua" />
+		<lua name="Sessions.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Sessions.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Misc.lua" />
+		<lua name="Flyby.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Flyby.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Tween.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Main.lua" />
+		<lua name="Unicode.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/Unicode.lua" />
+		<lua name="TicketManager.lua" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/MiniGolf/TicketManager.lua" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="libs/util/PostScore.lua" />
+		<lua name="ThreadManager.lua" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="libs/system/Log.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="NPC_MDL" deferred_loading="false" file="IremRtype/design/scenes/IR_npc_male_01.mdl" />
+		<collision name="NPC_HKX" deferred_loading="false" file="IremRtype/design/scenes/IR_npc_atari_01.hkx" />
+		<anim name="NPC_ANI" deferred_loading="false" file="IremRtype/design/scenes/IR_npc_male_01_anm_A.ani" />
+		<anim name="NPC_ANI_B" deferred_loading="false" file="IremRtype/design/scenes/IR_npc_male_01_anm_B.ani" />
+		<anim name="NPC_ANI_C" deferred_loading="false" file="IremRtype/design/scenes/IR_npc_male_01_anm_C.ani" />
+		<anim name="NPC_ANI_D" deferred_loading="false" file="IremRtype/design/scenes/IR_npc_male_01_anm_D.ani" />
+		<skeleton name="NPC_SKN" deferred_loading="false" file="IremRtype/design/scenes/IR_npc_male_01.skn" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/main.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/LuaPadUtil.lua" />
+		<lua name="npc_present_item.lua" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/npc_present_item_S.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/DialogD2/DialogBasicS.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/DialogD2/DialogTabSelectS.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/LuaSingleEvent.lua" />
+		<lua name="NPC_Unique.lua" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/NPC_Unique.lua" />
+		<lua name="LuaCamera.lua" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/LuaCamera.lua" />
+		<lua name="LuaMath.lua" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/NPC_002/LuaMath.lua" />
+		<lua name="SwithInOut.lua" deferred_loading="false" protected="true" file="IremRtype/soft_jp_00/SceneScript_InOut/SwithInOut.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Active_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Table2.mdl" memory="host" />
+		<model name="Chair_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Chair.mdl" memory="host" />
+		<model name="Placemat_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_PlaceMat.mdl" memory="host" />
+		<model name="Food_Starter_Model_1" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Starter_Prawns_01.mdl" memory="host" />
+		<model name="Food_Starter_Model_2" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Starter_Prawns_02.mdl" memory="host" />
+		<model name="Food_Starter_Model_3" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Starter_Prawns_03.mdl" memory="host" />
+		<model name="Food_Main_Model_1" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Main_Steak_01.mdl" memory="host" />
+		<model name="Food_Main_Model_2" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Main_Steak_02.mdl" memory="host" />
+		<model name="Food_Main_Model_3" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Main_Steak_03.mdl" memory="host" />
+		<model name="Food_Coffee_Saucer_Model_1" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Coffee_LatteSaucer_01.mdl" memory="host" />
+		<model name="Food_Coffee_Saucer_Model_2" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Coffee_LatteSaucer_02.mdl" memory="host" />
+		<model name="Food_Coffee_Saucer_Model_3" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Coffee_LatteSaucer_03.mdl" memory="host" />
+		<model name="Food_Dessert_Model_1" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Dessert_RaspberryPudding_01.mdl" memory="host" />
+		<model name="Food_Dessert_Model_2" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Dessert_RaspberryPudding_02.mdl" memory="host" />
+		<model name="Food_Dessert_Model_3" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Dessert_RaspberryPudding_03.mdl" memory="host" />
+		<model name="Fork_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Fork.mdl" memory="host" />
+		<model name="Knife_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Knife.mdl" memory="host" />
+		<model name="Spoon_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Spoon.mdl" memory="host" />
+		<model name="Flowers_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Flowers.mdl" memory="host" />
+		<model name="WineGlass_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_WineGlass.mdl" memory="host" />
+		<model name="Candle_Model" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Candle.mdl" memory="host" />
+		<model name="Coffee_Cup_Model_1" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Coffee_Latte_01.mdl" memory="host" />
+		<model name="Coffee_Cup_Model_2" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Coffee_Latte_02.mdl" memory="host" />
+		<model name="Coffee_Cup_Model_3" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Coffee_Latte_03.mdl" memory="host" />
+		<texture name="HUD_SplashPageSpinner" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/textures/SplashPageSpinner.dds" memory="host" />
+		<texture name="HUD_SplashPageDetail" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/textures/SplashPageDetail.dds" memory="host" />
+		<texture name="HUD_Panel_Small" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/textures/Panel_Small.dds" memory="host" />
+		<texture name="HUD_Panel_Large" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/textures/Panel_Large.dds" memory="host" />
+		<texture name="HUD_Courses_Selecter" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/textures/Courses_Selecter.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/file/Network_2.xml" memory="host" />
+		<collision name="Active_Collision" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Table2.hkx" memory="host" />
+		<collision name="Active_SafeVolume_Collision" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Table2_SafeZone.hkx" memory="host" />
+		<collision name="Chair_Collision" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/model/Dining_Chair.hkx" memory="host" />
+		<anim name="Male_Sit_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/m_sitIdle.ani" memory="host" />
+		<anim name="Female_Sit_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/f_sitIdle.ani" memory="host" />
+		<anim name="Male_Eat_Fork_Knife_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/m_eat_KF.ani" memory="host" />
+		<anim name="Male_Eat_Spoon_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/m_eat_S.ani" memory="host" />
+		<anim name="Male_Drink_Coffee_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/m_drink_latte.ani" memory="host" />
+		<anim name="Female_Eat_Fork_Knife_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/f_eat_KF.ani" memory="host" />
+		<anim name="Female_Eat_Spoon_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/f_eat_S.ani" memory="host" />
+		<anim name="Female_Drink_Coffee_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/f_drink_latte.ani" memory="host" />
+		<anim name="Female_Idle_Coffee_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/f_sitIdle_latte.ani" memory="host" />
+		<anim name="Male_Idle_Coffee_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/m_sitIdle_latte.ani" memory="host" />
+		<anim name="Female_Idle_Spoon_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/f_sitIdle_S.ani" memory="host" />
+		<anim name="Male_Idle_Spoon_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/m_sitIdle_S.ani" memory="host" />
+		<anim name="Female_Idle_Fork_Knife_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/f_sitIdle_KF.ani" memory="host" />
+		<anim name="Male_Idle_Fork_Knife_Anim" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/m_sitIdle_KF.ani" memory="host" />
+		<soundbank name="sounds" deferred_loading="true" protected="false" file="MiniGames/Catered_Dining/sound/sounds.bnk" memory="host" />
+		<repertoire name="dining_rep_male" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/dining_rep_male.xml" memory="host" />
+		<repertoire name="dining_rep_female" deferred_loading="false" protected="false" file="MiniGames/Catered_Dining/anims/dining_rep_female.xml" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Catered_Dining/lua/MiniGame.luac" memory="main" />
+		<lua name="Anim.lua" deferred_loading="true" protected="true" file="MiniGames/Catered_Dining/lua/Anim.luac" memory="host" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="MiniGames/Catered_Dining/lua/Game.luac" memory="host" />
+		<lua name="Menu.lua" deferred_loading="true" protected="true" file="MiniGames/Catered_Dining/lua/Menu.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="true" protected="true" file="MiniGames/Catered_Dining/lua/Pad.luac" memory="host" />
+		<lua name="Sound.lua" deferred_loading="true" protected="true" file="MiniGames/Catered_Dining/lua/Sound.luac" memory="host" />
+		<lua name="VLog.lua" deferred_loading="true" protected="true" file="MiniGames/Catered_Dining/lua/VLog.luac" memory="host" />
+		<lua name="Hud.lua" deferred_loading="true" protected="true" file="MiniGames/Catered_Dining/lua/Hud.luac" memory="host" />
+		<lua name="AnimData.lua" deferred_loading="false" protected="true" file="MiniGames/Catered_Dining/lua/AnimData2.luac" memory="host" />
+	</local>
+	<external />
+</resources>

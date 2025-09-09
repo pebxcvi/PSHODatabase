@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LMO_Sexy_Walk/file/config.xml" memory="host" />
+		<anim name="sexy_walk.ani" deferred_loading="true" protected="false" file="animation/female/sexy_walk/sexy_walk.ani" memory="host" />
+		<anim name="sexy_idle_1.ani" deferred_loading="true" protected="false" file="animation/female/sexy_idle_1/sexy_idle_1.ani" memory="host" />
+		<anim name="sexy_walk_m.ani" deferred_loading="true" protected="false" file="animation/male/sexy_walk_m/sexy_walk_m.ani" memory="host" />
+		<anim name="sexy_idle_m.ani" deferred_loading="true" protected="false" file="animation/male/sexy_idle_m/sexy_idle_m.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/LMO_Sexy_Walk/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/LMO_Sexy_Walk/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Sexy_Walk/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Sexy_Walk/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/LMO_Sexy_Walk/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

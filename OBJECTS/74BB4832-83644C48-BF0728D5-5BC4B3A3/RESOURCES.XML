@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="hg_guide_mdl" deferred_loading="false" protected="false" file="environmentanimations/hg_guide/hg_guide.mdl" />
+		<model name="hg_guide_ef_mdl" deferred_loading="false" protected="false" file="environmentanimations/hg_guide/hg_guide_ef.mdl" />
+		<model name="hg_guide_ef2_mdl" deferred_loading="false" protected="false" file="environmentanimations/hg_guide/hg_guide_ef2.mdl" />
+		<texture name="guide01" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide01.dds" />
+		<texture name="guide02" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide02.dds" />
+		<texture name="guide03" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide03.dds" />
+		<texture name="guide04" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide04.dds" />
+		<texture name="guide05" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide05.dds" />
+		<texture name="guide06" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide06.dds" />
+		<texture name="guide07" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide07.dds" />
+		<texture name="guide08" deferred_loading="false" protected="false" file="MiniGames/gate_map/icon/w_guide08.dds" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="MiniGames/gate_map/types.xml" />
+		<anim name="hg_guide_ef_ani" deferred_loading="false" protected="false" file="environmentanimations/hg_guide/hg_guide_ef.ani" />
+		<skeleton name="hg_guide_ef_skn" deferred_loading="false" protected="false" file="environmentanimations/hg_guide/hg_guide_ef.skn" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/gate_map/main.lua" />
+	</local>
+	<external />
+</resources>

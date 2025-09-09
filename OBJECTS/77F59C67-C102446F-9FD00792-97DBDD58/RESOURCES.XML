@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_SinisterSideboard.mdl" memory="host" />
+    <model name="HALL13_Candelabra.mdl" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_Candelabra.mdl" memory="host" />
+    <model name="HALL13_HandEyePasta.mdl" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_HandEyePasta.mdl" memory="host" />
+    <model name="HALL13_MudwormCupcakes.mdl" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_MudwormCupcakes.mdl" memory="host" />
+    <model name="HALL13_SkullGoblet.mdl" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_SkullGoblet.mdl" memory="host" />
+    <model name="HALL13_TenticleCocktail.mdl" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_TenticleCocktail.mdl" memory="host" />
+    <texture name="constructor_cangrab.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_cangrab.dds" memory="host" />
+    <texture name="Constructor_ItemLocked.png" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/Constructor_ItemLocked.png" memory="host" />
+    <texture name="constructor_movingitem.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_movingitem.dds" memory="host" />
+    <texture name="constructor_nothingselected.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_nothingselected.dds" memory="host" />
+    <texture name="HALL13_SinisterSideboard_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/HALL13_SinisterSideboard_128.png" />
+    <texture name="SS_HandEyePasta_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/SS_HandEyePasta_128.png" memory="host" />
+    <texture name="SS_MudWormCupcakes_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/SS_MudWormCupcakes_128.png" memory="host" />
+    <texture name="SS_SkullGoblet.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/SS_SkullGoblet.png" memory="host" />
+    <texture name="SS_TenticleCocktail_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/SS_TenticleCocktail_128.png" memory="host" />
+    <texture name="SS_Candelabra_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/SS_Candelabra_128.png" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_SinisterSideboard.hkx" memory="host" />
+    <collision name="Sprg13_Egghunt_Collider.hkx" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/models/Constructor_Collider.hkx" memory="host" />
+    <collision name="HALL13_Candelabra.hkx" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_Candelabra.hkx" memory="host" />
+    <collision name="HALL13_HandEyePasta.hkx" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_HandEyePasta.hkx" memory="host" />
+    <collision name="HALL13_MudwormCupcakes.hkx" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_MudwormCupcakes.hkx" memory="host" />
+    <collision name="HALL13_SkullGoblet.hkx" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_SkullGoblet.hkx" memory="host" />
+    <collision name="HALL13_TenticleCocktail.hkx" deferred_loading="false" protected="false" file="furniture/hall13_sinistersideboard/HALL13_TenticleCocktail.hkx" memory="host" />
+    <soundbank name="Bramblenook_UI.bnk" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/audio/Bramblenook_UI.bnk" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/minigame.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/utilities/pad.luac" memory="host" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/utilities/statemachine.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/utilities/utility.luac" memory="host" />
+    <lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/states/state_idle.luac" memory="host" />
+    <lua name="State_PlaceItems.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/states/state_placeitems.luac" memory="host" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/network/messagemanager.luac" memory="host" />
+    <lua name="Constructor.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/constructor/constructor.luac" memory="host" />
+    <lua name="Level.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/constructor/level.luac" memory="host" />
+    <lua name="LevelComponents.lua" deferred_loading="false" protected="true" file="furniture/hall13_sinistersideboard/lua/constructor/levelcomponents.luac" memory="host" />
+  </local>
+  <external />
+</resources>

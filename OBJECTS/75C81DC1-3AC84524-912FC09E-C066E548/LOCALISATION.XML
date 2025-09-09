@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+	<PHRASE>
+		<LANG ID="REF">kName</LANG>
+		<LANG ID="ja-JP">茶会</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">kDesc</LANG>
+		<LANG ID="ja-JP">茶会 [#Legal]</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Target_Text_Host</LANG>
+		<LANG ID="ja-JP">茶会の開催</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Target_Text_Client</LANG>
+		<LANG ID="ja-JP">茶会へ参加する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LegCapure</LANG>
+		<LANG ID="ja-JP">[SQUARE] 撮影</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_HostCowntDown</LANG>
+		<LANG ID="ja-JP">残り時間:%2d秒</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Quit</LANG>
+		<LANG ID="ja-JP">やめる</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Yes</LANG>
+		<LANG ID="ja-JP">はい</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">No</LANG>
+		<LANG ID="ja-JP">いいえ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Next</LANG>
+		<LANG ID="ja-JP">[ACCEPT]次へ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Back</LANG>
+		<LANG ID="ja-JP">[DECLINE]戻る</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LegMenuAccept</LANG>
+		<LANG ID="ja-JP">[ACCEPT]決定</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LegMenuCancel</LANG>
+		<LANG ID="ja-JP">[DECLINE]キャンセル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LegMenuSelect</LANG>
+		<LANG ID="ja-JP">[UP][DOWN]選択</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextLeg_Exit</LANG>
+		<LANG ID="ja-JP">[DECLINE]終了</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextLeg_ChangeCam</LANG>
+		<LANG ID="ja-JP">[R3]視点</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextLeg_ExPlain</LANG>
+		<LANG ID="ja-JP">[R2]解説</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Drift_Select_01</LANG>
+		<LANG ID="ja-JP">今回の茶会の趣旨を決めますか？\n（例：　◯◯さんの誕生日祝い　…など）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Input_Drift</LANG>
+		<LANG ID="ja-JP">茶会の趣旨を決める</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Next</LANG>
+		<LANG ID="ja-JP">次へ進む</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Cancel_TeaParty</LANG>
+		<LANG ID="ja-JP">茶会をとりやめる</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Drift_Select_02</LANG>
+		<LANG ID="ja-JP">茶会の趣旨を決めるのをやめて　次へ進みますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Drift_Select_03</LANG>
+		<LANG ID="ja-JP">今回の茶会の趣旨は　これでいいですか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Join_Select</LANG>
+		<LANG ID="ja-JP">この茶室の亭主が開催する茶室に参加できます\n茶室に参加しますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Client_Cant_Join</LANG>
+		<LANG ID="ja-JP">亭主が茶会の準備をしていません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextLeg_Start_Party</LANG>
+		<LANG ID="ja-JP">[ACCEPT]茶会を始める</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Lobby_Host_Wait_Client</LANG>
+		<LANG ID="ja-JP">客人を待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Host</LANG>
+		<LANG ID="ja-JP">亭主</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Client</LANG>
+		<LANG ID="ja-JP">客人</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Lobby_Host_Cancel_Party</LANG>
+		<LANG ID="ja-JP">茶会をとりやめますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Lobby_Client_Cancel_Party</LANG>
+		<LANG ID="ja-JP">茶会への参加をとりやめますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Lobby_Host_Start_Party</LANG>
+		<LANG ID="ja-JP">この参加者で茶会を始めますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Lobby_Disp_Drift</LANG>
+		<LANG ID="ja-JP">[DRIFT]の茶会を開催いたします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Lobby_Disp_No_Drift</LANG>
+		<LANG ID="ja-JP">[ONLINEID]さん主催の茶会を開催いたします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextLeg_Capture</LANG>
+		<LANG ID="ja-JP">[SQUARE]撮影</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextLeg_ExitTalk</LANG>
+		<LANG ID="ja-JP">[DECLINE]歓談を終わる</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_RequestContinue</LANG>
+		<LANG ID="ja-JP">歓談を続ける</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_RequestExit</LANG>
+		<LANG ID="ja-JP">お茶会をお仕舞いにいたします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_RequestExit_Client</LANG>
+		<LANG ID="ja-JP">お茶会をお仕舞いにしてください</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_RequestContinueMessage</LANG>
+		<LANG ID="ja-JP">まだお茶会を続けましょう</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Talk_Exit</LANG>
+		<LANG ID="ja-JP">[ONLINEID]さん主催の茶会をお仕舞いにいたします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_WaitCountDown</LANG>
+		<LANG ID="ja-JP">お待ちください…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Exit_By_Client</LANG>
+		<LANG ID="ja-JP">客人がいなくなってしまったので　茶会は中断されました</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Exit_By_Host</LANG>
+		<LANG ID="ja-JP">亭主がいなくなってしまったので　茶会は中断されました</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_10</LANG>
+		<LANG ID="ja-JP">お迎えのあいさつをします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_20</LANG>
+		<LANG ID="ja-JP">お礼のあいさつをします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_30</LANG>
+		<LANG ID="ja-JP">お出しするお菓子を選びます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_40</LANG>
+		<LANG ID="ja-JP">お菓子を出します</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_50</LANG>
+		<LANG ID="ja-JP">お菓子をいただきます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_60</LANG>
+		<LANG ID="ja-JP">お茶を点てます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_70</LANG>
+		<LANG ID="ja-JP">お茶をいただきます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_80</LANG>
+		<LANG ID="ja-JP">お茶の点て加減を尋ねます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_90</LANG>
+		<LANG ID="ja-JP">感想を答えます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_100</LANG>
+		<LANG ID="ja-JP">お茶について説明します</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_110</LANG>
+		<LANG ID="ja-JP">お茶碗を拝見します</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_120</LANG>
+		<LANG ID="ja-JP">歓談を勧めます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_10</LANG>
+		<LANG ID="ja-JP">ご亭主のあいさつを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_20</LANG>
+		<LANG ID="ja-JP">お客様のあいさつを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_30</LANG>
+		<LANG ID="ja-JP">ご亭主がお菓子を選ぶのを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_40</LANG>
+		<LANG ID="ja-JP">ご亭主がお菓子を出すのを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_50</LANG>
+		<LANG ID="ja-JP">お客様がお菓子を召し上がるのを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_60</LANG>
+		<LANG ID="ja-JP">ご亭主がお茶を点てるのを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_70</LANG>
+		<LANG ID="ja-JP">お客様がお茶を召し上がるのを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_80</LANG>
+		<LANG ID="ja-JP">ご亭主の問いかけを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_90</LANG>
+		<LANG ID="ja-JP">お客様の返事を待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_100</LANG>
+		<LANG ID="ja-JP">ご亭主の返事を待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_110</LANG>
+		<LANG ID="ja-JP">お客様がお茶碗をご覧になるのを待っています…</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_ComOther_120</LANG>
+		<LANG ID="ja-JP">（ご亭主の言葉を待っています…）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_10_01</LANG>
+		<LANG ID="ja-JP">こんにちは</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_10_02</LANG>
+		<LANG ID="ja-JP">ようこそいらっしゃいました</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_10_03</LANG>
+		<LANG ID="ja-JP">お待たせして　申し訳ありません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_10_04</LANG>
+		<LANG ID="ja-JP">（特にあいさつの言葉はない）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_10_1</LANG>
+		<LANG ID="ja-JP">こんにちは</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_10_2</LANG>
+		<LANG ID="ja-JP">ようこそいらっしゃいました</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_10_3</LANG>
+		<LANG ID="ja-JP">お待たせして　申し訳ありません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_10_4</LANG>
+		<LANG ID="ja-JP">（特にあいさつの言葉はなかった）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_20_01</LANG>
+		<LANG ID="ja-JP">こんにちは</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_20_02</LANG>
+		<LANG ID="ja-JP">お招きいただき　ありがとうございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_20_03</LANG>
+		<LANG ID="ja-JP">どうぞ　手短にお願いいたします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_20_04</LANG>
+		<LANG ID="ja-JP">（特にあいさつの言葉はない）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_20_1</LANG>
+		<LANG ID="ja-JP">こんにちは</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_20_2</LANG>
+		<LANG ID="ja-JP">お招きいただき　ありがとうございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_20_3</LANG>
+		<LANG ID="ja-JP">どうぞ　手短にお願いいたします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_20_4</LANG>
+		<LANG ID="ja-JP">（特にあいさつの言葉はなかった）</LANG>
+	</PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_01</LANG><LANG ID="ja-JP">団子</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_02</LANG><LANG ID="ja-JP">練り切り・花</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_03</LANG><LANG ID="ja-JP">練り切り・葉</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_04</LANG><LANG ID="ja-JP">大福</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_05</LANG><LANG ID="ja-JP">羊羹（ようかん）</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_06</LANG><LANG ID="ja-JP">葛饅頭</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_07</LANG><LANG ID="ja-JP">落雁</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_08</LANG><LANG ID="ja-JP">黄身しぐれ</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_09</LANG><LANG ID="ja-JP">うさぎ饅頭</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_10</LANG><LANG ID="ja-JP">唐饅頭（とうまんじゅう）</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_11</LANG><LANG ID="ja-JP">花びら餅</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_12</LANG><LANG ID="ja-JP">うぐいす餅</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_13</LANG><LANG ID="ja-JP">練り切り・寒椿</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_14</LANG><LANG ID="ja-JP">桜餅</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_15</LANG><LANG ID="ja-JP">花見団子</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_16</LANG><LANG ID="ja-JP">桜饅頭</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_17</LANG><LANG ID="ja-JP">いちご大福</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_18</LANG><LANG ID="ja-JP">練りきり・桜</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_19</LANG><LANG ID="ja-JP">練りきり・うぐいす</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_20</LANG><LANG ID="ja-JP">練り切り・青楓（あおかえで）</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_21</LANG><LANG ID="ja-JP">水無月</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_22</LANG><LANG ID="ja-JP">若あゆ</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_23</LANG><LANG ID="ja-JP">抹茶アイスクリーム </LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_24</LANG><LANG ID="ja-JP">水羊羹（みずようかん）</LANG></PHRASE>
+	<PHRASE><LANG ID="REF">TextSel_Com_30_25</LANG><LANG ID="ja-JP">夏みかんゼリー</LANG></PHRASE>
+	
+	<PHRASE><LANG ID="REF">TextMes_Com_30_0</LANG><LANG ID="ja-JP">（[SNACK] を出すことにした）</LANG></PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_40_01</LANG>
+		<LANG ID="ja-JP">お菓子をどうぞ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_40_02</LANG>
+		<LANG ID="ja-JP">どうか　お菓子を召し上がってください</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_40_03</LANG>
+		<LANG ID="ja-JP">食べたければどうぞ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_40_04</LANG>
+		<LANG ID="ja-JP">（特に言葉は添えない）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_40_1</LANG>
+		<LANG ID="ja-JP">お菓子をどうぞ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_40_2</LANG>
+		<LANG ID="ja-JP">どうか　お菓子を召し上がってください</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_40_3</LANG>
+		<LANG ID="ja-JP">食べたければどうぞ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_40_4</LANG>
+		<LANG ID="ja-JP">（特に言葉は添えずに　お菓子が差し出された）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_50_01</LANG>
+		<LANG ID="ja-JP">行儀よくいただく</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_50_02</LANG>
+		<LANG ID="ja-JP">無邪気にいただく</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_50_03</LANG>
+		<LANG ID="ja-JP">急いでいただく</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_50_1</LANG>
+		<LANG ID="ja-JP">（行儀よくお菓子をいただいた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_50_2</LANG>
+		<LANG ID="ja-JP">（無邪気にお菓子をいただいた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_50_3</LANG>
+		<LANG ID="ja-JP">（急いでお菓子をいただいた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_60_01</LANG>
+		<LANG ID="ja-JP">心を込めてお茶を点てる</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_60_02</LANG>
+		<LANG ID="ja-JP">急いでお茶を点てる</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_60_03</LANG>
+		<LANG ID="ja-JP">気もそぞろにお茶を点てる</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_60_1</LANG>
+		<LANG ID="ja-JP">（心を込めてお茶を点てた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_60_2</LANG>
+		<LANG ID="ja-JP">（急いでお茶を点てた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_60_3</LANG>
+		<LANG ID="ja-JP">（気もそぞろにお茶を点てた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_70_01</LANG>
+		<LANG ID="ja-JP">静かにいただく</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_70_02</LANG>
+		<LANG ID="ja-JP">音を立てていただく</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_70_03</LANG>
+		<LANG ID="ja-JP">急いでいただく</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_70_1</LANG>
+		<LANG ID="ja-JP">（静かにお茶をいただいた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_70_2</LANG>
+		<LANG ID="ja-JP">（音を立ててお茶をいただいた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_70_3</LANG>
+		<LANG ID="ja-JP">（急いでお茶をいただいた）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_80_01</LANG>
+		<LANG ID="ja-JP">お服加減はいかがですか</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_80_02</LANG>
+		<LANG ID="ja-JP">おいしいですか</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_80_03</LANG>
+		<LANG ID="ja-JP">どうですか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_80_04</LANG>
+		<LANG ID="ja-JP">おいしゅうございましょう</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_80_1</LANG>
+		<LANG ID="ja-JP">お服加減はいかがですか</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_80_2</LANG>
+		<LANG ID="ja-JP">おいしいですか</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_80_3</LANG>
+		<LANG ID="ja-JP">どうですか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_80_4</LANG>
+		<LANG ID="ja-JP">おいしゅうございましょう</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_90_01</LANG>
+		<LANG ID="ja-JP">とてもおいしゅうございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_90_02</LANG>
+		<LANG ID="ja-JP">ええ　まあ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_90_03</LANG>
+		<LANG ID="ja-JP">普通でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_90_04</LANG>
+		<LANG ID="ja-JP">ありていに言うと　…苦いです</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_90_1</LANG>
+		<LANG ID="ja-JP">とてもおいしゅうございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_90_2</LANG>
+		<LANG ID="ja-JP">ええ　まあ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_90_3</LANG>
+		<LANG ID="ja-JP">普通でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_90_4</LANG>
+		<LANG ID="ja-JP">ありていに言うと　…苦いです</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_100_01</LANG>
+		<LANG ID="ja-JP">名のある銘茶でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_100_02</LANG>
+		<LANG ID="ja-JP">粗茶でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_100_03</LANG>
+		<LANG ID="ja-JP">安物のお茶でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_100_04</LANG>
+		<LANG ID="ja-JP">（答えない）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_100_1</LANG>
+		<LANG ID="ja-JP">名のある銘茶でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_100_2</LANG>
+		<LANG ID="ja-JP">粗茶でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_100_3</LANG>
+		<LANG ID="ja-JP">安物のお茶でございます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_100_4</LANG>
+		<LANG ID="ja-JP">（返事はなかった）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_110_01</LANG>
+		<LANG ID="ja-JP">置いたまま拝見する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_110_02</LANG>
+		<LANG ID="ja-JP">手にとって拝見する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_110_03</LANG>
+		<LANG ID="ja-JP">裏返して拝見する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_110_04</LANG>
+		<LANG ID="ja-JP">拝見しない</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_110_1</LANG>
+		<LANG ID="ja-JP">（お茶碗を置いたまま拝見した）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_110_2</LANG>
+		<LANG ID="ja-JP">（お茶碗を手にとって拝見した）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_110_3</LANG>
+		<LANG ID="ja-JP">（お茶碗を裏返して拝見した）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_110_4</LANG>
+		<LANG ID="ja-JP">（お茶碗を拝見しなかった）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Com_120_01</LANG>
+		<LANG ID="ja-JP">どうぞご歓談を</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Com_120_1</LANG>
+		<LANG ID="ja-JP">どうぞご歓談を</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Explain_01</LANG>
+		<LANG ID="ja-JP">解説「お辞儀」</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Explain_01</LANG>
+		<LANG ID="ja-JP">お辞儀（おじぎ）。\n相手に対して腰をおりまげ、頭を下げる動作のことです。\n単なる挨拶のほかに、感謝や敬意を表す場合にも用いられます。\n日本においては、急所である「頭」を相手に対して差し出すことで、敵意がなく、\n尊敬をあらわす意味があるとされています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Explain_02</LANG>
+		<LANG ID="ja-JP">解説「正座」</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Explain_02</LANG>
+		<LANG ID="ja-JP">正座（せいざ）。\n揃えた両ひざを床につけてたたみ、そのかかとの上にお尻をのせるかたちで座る座り方。\n「畳に座る」という生活様式の日本においての伝統的な座り方のひとつ。\n礼儀正しい座り方とされており、茶道や葬儀などの式典に参加するときはこの座り方をします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Explain_03</LANG>
+		<LANG ID="ja-JP">解説「茶道」</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Explain_03</LANG>
+		<LANG ID="ja-JP">茶道（さどう、ちゃどう）。\n一定のしきたりにのっとってお茶をたて、ふるまう行為です。\n亭主は集まりの趣旨や季節などによって器やお菓子にはじまり、掛け軸や茶室に飾る花までも\n事細かに気を配り、客人はその深い思い入れを感じ取り、ともに楽しむ。\n「茶道」とは、その時間全体の事をさす言葉でもあります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Explain_04</LANG>
+		<LANG ID="ja-JP">解説「抹茶」</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Explain_04</LANG>
+		<LANG ID="ja-JP">抹茶（まっちゃ）。\n一般的に「茶道」で用いられるお茶とは、抹茶をさします。\n茶の葉を蒸してから乾燥させたものを茶臼でひいて粉末にしたもので、\n甘味と同時に爽やかな苦味があります。\n栽培時の手間のかけ方や気候による出来のよしあしで、高価なものもあります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Explain_05</LANG>
+		<LANG ID="ja-JP">解説「数寄」</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Explain_05</LANG>
+		<LANG ID="ja-JP">数寄（すき）。※「数奇」と書くこともあります。\nもとは和歌の世界に熱心であることをさす言葉だったものが、\n後に茶道そのものをさす言葉となったものです。\n茶道を深く理解してそれを実践したり、道具を収集したりする人のことを\n「数寄者（すきもの）」と呼ぶこともあるようです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextMes_Lobby_Host_Select_Bgm</LANG>
+		<LANG ID="ja-JP">茶会を開催することができます\n茶会中には　音楽を鳴らすことができます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Select_BGM_01</LANG>
+		<LANG ID="ja-JP">楽曲　一</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Select_BGM_02</LANG>
+		<LANG ID="ja-JP">楽曲　二</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Select_BGM_03</LANG>
+		<LANG ID="ja-JP">鳴らさない</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">TextSel_Select_BGM_Quit</LANG>
+		<LANG ID="ja-JP">茶会の開催をやめる</LANG>
+	</PHRASE>
+</LOCALISATION>

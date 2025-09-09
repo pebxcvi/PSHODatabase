@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/fireengine/model/FireEngine.mdl" memory="host" />
+		<model name="Remote.mdl" deferred_loading="true" protected="false" file="Locomotion/fireengine/model/FireEngine_Remote.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/FireEngine/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/FireEngine/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/FireEngine/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/fireengine/anim/Truck_Cab_Idle.ani" memory="main" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/FireEngine/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/fireengine/anim/Truck_Cab_Idle.ani" memory="main" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/FireEngine/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/FireEngine/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/fireengine/anim/Truck_Cab_fIdle.ani" memory="main" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/FireEngine/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/fireengine/anim/Truck_Cab_fIdle.ani" memory="main" />
+		<anim name="vehicle_idle.ani" deferred_loading="true" protected="false" file="Locomotion/fireengine/anim/vehicle_idle.ani" />
+		<anim name="vehicle_move.ani" deferred_loading="true" protected="false" file="Locomotion/fireengine/anim/vehicle_move.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/fireengine/model/FireEngine.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/FireEngine/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/FireEngine/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/FireEngine/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/FireEngine/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/FireEngine/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

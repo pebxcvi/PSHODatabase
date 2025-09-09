@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/farm_herbpots/HerbPots.mdl" memory="host" />
+		<model name="Herb01.mdl" deferred_loading="false" protected="false" file="furniture/farm_herbpots/Herb01.mdl" memory="host" />
+		<model name="Herb02.mdl" deferred_loading="false" protected="false" file="furniture/farm_herbpots/Herb02.mdl" memory="host" />
+		<model name="Herb03.mdl" deferred_loading="false" protected="false" file="furniture/farm_herbpots/Herb03.mdl" memory="host" />
+		<model name="Herb04.mdl" deferred_loading="false" protected="false" file="furniture/farm_herbpots/herb04.mdl" memory="host" />
+		<model name="Herb05.mdl" deferred_loading="false" protected="false" file="furniture/farm_herbpots/Herb05.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/farm_herbpots/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_herbpots/HerbPots.hkx" memory="host" />
+		<skeleton name="HerbPots.skn" deferred_loading="false" protected="false" file="furniture/farm_herbpots/HerbPots.skn" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/sprg13_flowerbed_m/lua/utilities/Pad.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/lua/utilities/StateMachine.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/lua/utilities/Utility.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/lua/states/State_Idle.luac" memory="host" />
+		<lua name="State_Plant.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/lua/states/State_Plant.luac" memory="host" />
+		<lua name="PlantTypes.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/lua/plot/PlantTypes.luac" memory="host" />
+		<lua name="PlotManager.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/lua/plot/PlotManager.luac" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/lua/network/MessageManager.luac" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/farm_herbpots/MiniGame.luac" memory="host" />
+	</local>
+	<external />
+</resources>

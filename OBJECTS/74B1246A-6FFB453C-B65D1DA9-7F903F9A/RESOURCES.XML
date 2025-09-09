@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/Loot_GrandfatherClock_Active.mdl" />
+		<model name="Clock_BigHourarm.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_BigHourarm.mdl" />
+		<model name="Clock_Cuckoo_Cuckoo.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_Cuckoo.mdl" />
+		<model name="Clock_Dancers_BeginEnd.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Dancers_BeginEnd.mdl" />
+		<model name="Clock_Littlearm.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Littlearm.mdl" />
+		<model name="Clock_Pendulum.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Pendulum.mdl" />
+		<model name="Clock_Cuckoo_doorclosed.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_doorclosed.mdl" />
+		<model name="Clock_Dancers_doors.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Dancers_doors.mdl" />
+		<model name="Clock_Cuckoo_End.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_End.mdl" />
+		<model name="Clock_Cuckoo_Start.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_Start.mdl" />
+		<model name="Clock_Cuckoo_door.mdl" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_door.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Actives/GrandfatherClock/file/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/Loot_GrandfatherClock_Active.hkx" />
+		<anim name="Clock_Cuckoo_Cuckoo.ani" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_Cuckoo.ani" />
+		<anim name="Clock_Dancers_BeginEnd.ani" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Dancers_BeginEnd.ani" />
+		<anim name="Clock_Pendulum.ani" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Pendulum.ani" />
+		<anim name="Clock_Cuckoo_End.ani" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_End.ani" />
+		<anim name="Clock_Cuckoo_Start.ani" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_Start.ani" memory="main" />
+		<skeleton name="Clock_Cuckoo_Cuckoo.skn" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_Cuckoo.skn" />
+		<skeleton name="Clock_Dancers_BeginEnd.skn" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Dancers_BeginEnd.skn" />
+		<skeleton name="Clock_Pendulum.skn" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Pendulum.skn" />
+		<skeleton name="Clock_Cuckoo_End.skn" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_End.skn" />
+		<skeleton name="Clock_Cuckoo_Start.skn" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/assets/Clock_Cuckoo_Start.skn" />
+		<soundbank name="grandfatherclock.bnk" deferred_loading="false" protected="false" file="furniture/loot_grandfather_clock_active/Audio/grandfatherclock.bnk" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Actives/GrandfatherClock/lua/main.luac" />
+		<lua name="network_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/network_lib.luac" />
+	</local>
+	<external />
+</resources>
