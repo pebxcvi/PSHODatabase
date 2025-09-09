@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/dummy/dummy.mdl" memory="host" />
+		<model name="vt2012_KnittingMachine.mdl" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine.mdl" memory="host" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/texture/edge.dds" />
+		<texture name="Stationery.dds" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/texture/Stationery.dds" />
+		<texture name="cursor_edge.dds" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/texture/cursor_edge.dds" />
+		<texture name="cursor_side.dds" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/texture/cursor_side.dds" />
+		<texture name="cursor_top.dds" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/texture/cursor_top.dds" />
+		<texture name="fx_fnt.dds" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/texture/fx_fnt.dds" />
+		<texture name="complete.dds" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/texture/complete.dds" />
+		<particle name="FunitureComplete.efx" deferred_loading="false" protected="false" file="ATGParticles/Valentine2012/Efx/FunitureComplete.efx" memory="host" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine.safevolume.hkx" memory="host" />
+		<collision name="vt2012_KnittingMachine.hkx" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine.hkx" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_001.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_002.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_002.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_003.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_003.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_004.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_004.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_005.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_005.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_006.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_006.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_007.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_007.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_001_2.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001_2.ani" memory="host" />
+		<anim name="vt2012_KnittingMachine_ANIM_001_3.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001_3.ani" memory="host" />
+		<skeleton name="vt2012_KnittingMachine.skn" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001.skn" memory="host" />
+		<soundbank name="sound.bnk" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/sound.bnk" memory="host" />
+		<soundstream name="bgm.mp3" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/bgm.mp3" />
+		<soundstream name="text_wipe.mp3" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/text_wipe.mp3" />
+		<soundstream name="start.mp3" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/start.mp3" />
+		<soundstream name="comp.mp3" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/comp.mp3" />
+		<soundstream name="comp_jingle.mp3" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/comp_jingle.mp3" />
+		<soundstream name="heart_popup.mp3" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/heart_popup.mp3" />
+		<soundstream name="comp_fx.mp3" deferred_loading="false" protected="false" file="MiniGames/Valentine2011Furniture/sound/comp_fx.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/MiniGame.luac" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/common/mathx.luac" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/common/misc.luac" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/common/padUtil.luac" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/common/task.luac" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/MsgWnd.luac" />
+		<lua name="Legend.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/Legend.luac" />
+		<lua name="GameMain.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/GameMain.luac" />
+		<lua name="paHomeCommon.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/server/paHomeCommon.luac" />
+		<lua name="paHomeCommonDebug.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/server/paHomeCommonDebug.luac" />
+		<lua name="paHomeServerBase.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/server/paHomeServerBase.luac" />
+		<lua name="paHomeServerCommon.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/server/paHomeServerCommon.luac" />
+		<lua name="paHomeServerCustom.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/server/paHomeServerCustom.luac" />
+		<lua name="paHomeServerGeneral.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/server/paHomeServerGeneral.luac" />
+		<lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/common/xmlUtil.luac" />
+		<lua name="SaveData.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/SaveData.luac" />
+		<lua name="configServer.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/configServer.luac" />
+		<lua name="SelWnd.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/SelWnd.luac" />
+		<lua name="SelFriend.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/SelFriend.luac" />
+		<lua name="InputForm.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/InputForm.luac" />
+		<lua name="sound.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/sound/sound.luac" />
+		<lua name="SoundList.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/SoundList.luac" />
+		<lua name="Machine.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/Machine.luac" />
+		<lua name="CompleteIcon.lua" deferred_loading="false" protected="true" file="MiniGames/Valentine2011Furniture/lua/CompleteIcon.luac" />
+	</local>
+	<external />
+</resources>

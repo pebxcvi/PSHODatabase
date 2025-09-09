@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.3.6.22.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">Rocky Teruya</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Sega</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string">ESRB</rating_system>
+				<rating type="string">M</rating>
+				<minimum_age type="int">17</minimum_age>
+				<parental_control_level type="int">9</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">Female01_Torso_AlphaProtocol_TacticalVest_P</name>
+		<type type="string">Tors</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_Torso_AlphaProtocol_TacticalVest_P</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_Torso_AlphaProtocol_TacticalVest_P_lod1.mdl</lod1>
+					<lod2 type="string">Female01_Torso_AlphaProtocol_TacticalVest_P_lod2.mdl</lod2>
+					<lod3 type="string">Female01_Torso_AlphaProtocol_TacticalVest_P_lod3.mdl</lod3>
+				</lods>
+				<skeleton type="string"></skeleton>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">vestSG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Torso_AlphaProtocol_TacticalVest_P.vestSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Torso_AlphaProtocol_TacticalVest_P.vestSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Torso_AlphaProtocol_TacticalVest_P.vestSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">torsoSG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Torso_AlphaProtocol_TacticalVest_P.torsoSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Torso_AlphaProtocol_TacticalVest_P.torsoSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Torso_AlphaProtocol_TacticalVest_P.torsoSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

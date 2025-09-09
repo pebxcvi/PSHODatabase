@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="anmModel_Heart_01.mdl" deferred_loading="false" protected="false" file="IremLounge/design/wedding/scenes/anmModel_Heart_01.mdl" />
+		<texture name="screen_01_c.dds" deferred_loading="false" protected="false" file="IremLounge/design/wedding/sourceimages/Screen_01_c.dds" />
+		<texture name="Heart_02_c.dds" deferred_loading="false" protected="false" file="IremLounge/design/wedding/sourceimages/Heart_02_c.dds" />
+		<particle name="Eff_wedding_01.efx" deferred_loading="false" protected="false" file="IremLounge/design/ATGParticles/Efx/Eff_wedding_01.efx" />
+		<file name="osd_types.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/osd_types.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/SelectionButton.xml" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/WndMessageDialog.xml" />
+		<file name="WndSelectDialog.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/WndSelectDialog.xml" />
+		<file name="WndSimpleMenuDialog.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/WndSimpleMenuDialog.xml" />
+		<file name="WndTab.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/WndTab.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" protected="false" file="IremLounge/soft/Marry/OSD/WndTabSelectDialog.xml" />
+		<anim name="Motion_kiss_female" deferred_loading="false" protected="false" file="IremLounge/design/wedding/scenes/Motion_kiss_female.ani" />
+		<anim name="Motion_kiss_male" deferred_loading="false" protected="false" file="IremLounge/design/wedding/scenes/Motion_kiss_male.ani" />
+		<anim name="anmModel_Heart_01.ani" deferred_loading="false" protected="false" file="IremLounge/design/wedding/scenes/anmModel_Heart_01.ani" />
+		<anim name="Motion_ntr_female" deferred_loading="false" protected="false" file="IremLounge/design/wedding/scenes/Motion_ntr_female.ani" />
+		<anim name="Motion_ntr_male" deferred_loading="false" protected="false" file="IremLounge/design/wedding/scenes/Motion_ntr_male.ani" />
+		<skeleton name="anmModel_Heart_01.skn" deferred_loading="false" protected="false" file="IremLounge/design/wedding/scenes/anmModel_Heart_01.skn" />
+		<soundstream name="M_06.mp3" deferred_loading="false" protected="false" file="IremLounge/sound/M_06.mp3" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="objects/2EF4503B-19BF45F4-A7BD3AD7-D3A51F6A/repertoires_female.xml" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="objects/2EF4503B-19BF45F4-A7BD3AD7-D3A51F6A/repertoires_male.xml" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/main.lua" />
+		<lua name="ceremony.lua" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/ceremony.lua" />
+		<lua name="Fade.lua" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/Fade.lua" />
+		<lua name="LuaTask" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/LuaLib/LuaTask.lua" />
+		<lua name="DialogTabSelectS" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/Dialog/DialogTabSelectS.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/Dialog/DialogBasic.lua" />
+		<lua name="DialogBasicS" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/Dialog/DialogBasicS.lua" />
+		<lua name="DialogSelect" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/Dialog/DialogSelect.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/Dialog/DialogTab.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/Dialog/DialogTabSelect.lua" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/LuaLib/LuaUtil.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/LuaLib/LuaSingleEvent.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/LuaLib/LuaPadUtil.lua" />
+		<lua name="LuaMemblock" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/LuaLib/LuaMemblock.lua" />
+		<lua name="LuaEvent" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/LuaLib/LuaEvent.lua" />
+		<lua name="work.lua" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/work.lua" />
+		<lua name="data.lua" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/data.lua" />
+		<lua name="props.lua" deferred_loading="false" protected="true" file="IremLounge/soft/Marry/props.lua" />
+	</local>
+	<external />
+</resources>

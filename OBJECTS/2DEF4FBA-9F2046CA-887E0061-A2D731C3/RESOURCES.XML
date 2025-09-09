@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_pyromancy/CommAug_Pyromancy.mdl" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_pyromancy/textures/blank.dds" />
+		<particle name="commAug_Pyromancy.efx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_pyromancy/ATGParticles/commAug_Pyromancy.efx" />
+		<particle name="commAug_Embers.efx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_pyromancy/ATGParticles/commAug_Embers.efx" />
+		<particle name="commAug_FlameLicks.efx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_pyromancy/ATGParticles/commAug_FlameLicks.efx" />
+		<particle name="commAug_HotVapors.efx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_pyromancy/ATGParticles/commAug_HotVapors.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_pyromancy/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_pyromancy/CommAug_Pyromancy.hkx" />
+		<soundbank name="fire_cauldron.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_pyromancy/audio/fire_cauldron.bnk" />
+		<lua name="pyromancy.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_pyromancy/programming/pyromancy.lua" />
+		<lua name="MyCamera.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_pyromancy/programming/MyCamera.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_pyromancy/programming/MyPad.lua" />
+	</local>
+	<external />
+</resources>

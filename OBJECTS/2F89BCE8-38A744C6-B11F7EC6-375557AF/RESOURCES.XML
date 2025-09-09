@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bk_fire_board_mdl" deferred_loading="false" protected="false" file="environmentanimations/bk_firetool/bk_fire_board.mdl" />
+		<model name="bk_fire_stick_mdl" deferred_loading="false" protected="false" file="environmentanimations/bk_firetool/bk_fire_stick.mdl" />
+		<texture name="batu_1_dds" deferred_loading="false" protected="false" file="MiniGames/bonk_fire/spr/batu_1.dds" />
+		<texture name="batu_2_dds" deferred_loading="false" protected="false" file="MiniGames/bonk_fire/spr/batu_2.dds" />
+		<texture name="maru_1_dds" deferred_loading="false" protected="false" file="MiniGames/bonk_fire/spr/maru_1.dds" />
+		<texture name="maru_2_dds" deferred_loading="false" protected="false" file="MiniGames/bonk_fire/spr/maru_2.dds" />
+		<texture name="yajirusi_dds" deferred_loading="false" protected="false" file="MiniGames/bonk_fire/spr/yajirusi.dds" />
+		<particle name="bk_smoke_l_efx" deferred_loading="false" protected="false" file="ATGParticles/bonkhouse_effect/Efx/bk_smoke_l.efx" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/bonk_fire/types.xml" />
+		<file name="osd_warning" deferred_loading="false" file="MiniGames/bonk_fire/warning.xml" />
+		<file name="osd_popup" deferred_loading="false" protected="false" file="MiniGames/bonk_fire/popup.xml" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/bonk_fire/main.lua" />
+	</local>
+	<external />
+</resources>

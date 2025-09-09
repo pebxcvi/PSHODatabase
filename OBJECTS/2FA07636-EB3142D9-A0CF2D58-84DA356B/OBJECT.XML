@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Home Square Fish</name>
+		<description type="string">Home Square Fish Desc</description>
+		<author type="string">CMachin</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Outso</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">7</minimum_age>
+				<parental_control_level type="int">3</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">US</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">KR</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">SG</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">CA</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+		</legal>
+	</header>
+	<lua_environment>
+		<script type="string">fish.lua</script>
+	</lua_environment>
+	<entity />
+	<mini_game>
+		<on_update type="string">onUpdate()</on_update>
+		<on_send_welcome_message type="string" />
+		<on_render type="string" />
+		<on_can_local_player_join type="string" />
+		<on_add_player type="string" />
+		<on_remove_player type="string" />
+		<on_local_player_join type="string" />
+		<on_local_player_leave type="string" />
+		<on_local_player_update_gameplay type="string" />
+		<join_type type="string">normal</join_type>
+	</mini_game>
+</objectdef>

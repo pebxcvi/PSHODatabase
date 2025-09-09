@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Carriage_Train.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/SummerModernTrainCarriage.mdl" />
+		<model name="Engine_Train.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/SummerModernTrainEngine.mdl" />
+		<model name="Tender_Train.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/SummerModernTrainTender.mdl" />
+		
+		<model name="Carriage_Train_Easter.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/ModernTrainCarriage.mdl" />
+		<model name="Engine_Train_Easter.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/ModernTrainEngine.mdl" />
+		<model name="Tender_Train_Easter.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/ModernTrainTender.mdl" />
+		
+		<model name="Carriage_Train_Birthday.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/BirthdayModernTrainCarriage.mdl" />
+		<model name="Engine_Train_Birthday.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/BirthdayModernTrainEngine.mdl" />
+		<model name="Tender_Train_Birthday.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/BirthdayModernTrainTender.mdl" />
+		
+		<model name="Engine_Train_lights_halloween.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train_lights_halloween.mdl" />
+		<model name="Train_headlight_halloween.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Train_headlight_halloween.mdl" />
+		<model name="Carriage_Train_lights_halloween.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train_lights_halloween.mdl" />
+		
+		<model name="Carriage_Train_Christmas.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train_Christmas.mdl" />
+		<model name="Engine_Train_Christmas.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train_Christmas.mdl" />
+		<model name="Tender_Train_Christmas.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Tender_Train_Christmas.mdl" />
+		
+		<model name="4thJuly_ModernTrainEngine.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/4thJuly_ModernTrainEngine.mdl" />
+		<model name="4thJuly_ModernTrainCarriage.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/4thJuly_ModernTrainCarriage.mdl" />
+		<model name="4thJuly_ModernTrainTender.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/moderntrain/4thJuly_ModernTrainTender.mdl" />
+		
+		<model name="Carriage_Train_StPatrictsDay.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train_StPatricksDay.mdl" />
+		<model name="Engine_Train_StPatrictsDay.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train_StPatricksDay.mdl" />
+		<model name="Tender_Train_StPatrictsDay.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Tender_Train_StPatricksDay.mdl" />
+		
+		<model name="Carriage_Train_Val.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train_Valentines.mdl" />
+		<model name="Engine_Train_Val.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train_Valentines.mdl" />
+		<model name="Tender_Train_Val.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Tender_Train_Valentines.mdl" />
+		
+		<model name="Carriage_Train_Reg.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train_Reg.mdl" />
+		<model name="Engine_Train_Reg.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train_Reg.mdl" />
+		<model name="Tender_Train_Reg.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/Train/Tender_Train_Reg.mdl" />
+		
+		<particle name="TrainSmoke.efx" deferred_loading="false" protected="false" file="ATGParticles/Park/TrainSmoke.efx" />
+		<particle name="TrainSmoke_SPD.efx" deferred_loading="false" protected="false" file="ATGParticles/Park/TrainSmoke_StPatricksDay.efx" />
+		<particle name="TrainSmoke_Night.efx" deferred_loading="false" protected="false" file="ATGParticles/Park/TrainSmoke_Night.efx" />
+		<particle name="TrainSmoke_halloween.efx" deferred_loading="false" protected="false" file="ATGParticles/Park/TrainSmoke_halloween.efx" />
+		<particle name="TrainSmoke_Valentines.efx" deferred_loading="false" protected="false" file="ATGParticles/Park/TrainSmoke_Valentines.efx" />
+		
+		<collision name="Carriage_Train.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/moderntrain/SummerModernTrainCarriage.hkx" />
+		<collision name="Engine_Train.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/moderntrain/SummerModernTrainEngine.hkx" />
+		<collision name="Tender_Train.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/moderntrain/SummerModernTrainTender.hkx" />
+		
+		<collision name="Carriage_Train_Easter.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/moderntrain/ModernTrainCarriage.hkx" />
+		<collision name="Engine_Train_Easter.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/moderntrain/ModernTrainEngine.hkx" />
+		<collision name="Tender_Train_Easter.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/moderntrain/ModernTrainTender.hkx" />
+		
+		<collision name="Carriage_Train_Old.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train.hkx" />
+		<collision name="Engine_Train_Old.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train.hkx" />
+		<collision name="Tender_Train_Old.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Tender_Train.hkx" />
+		
+		<anim name="Engine_Train.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train.ani" />
+		<anim name="Tender_Train.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Tender_Train.ani" />
+		<anim name="Carriage_Train.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train.ani" />
+		
+		<skeleton name="Engine_Train.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Engine_Train.skn" />
+		<skeleton name="Tender_Train.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Tender_Train.skn" />
+		<skeleton name="Carriage_Train.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Train/Carriage_Train.skn" />
+		
+		<lua name="TrainMG.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Social/Train/TrainMG.lua" />
+		<lua name="VMCRSpline.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Shared/VMCRSpline.lua" />
+		<lua name="VMPath.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Shared/VMPath.lua" />
+		<lua name="TrainPathData.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Social/Train/TrainPathData.lua" />
+		<lua name="lights.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Shared/lights.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Dragon_ground_Idle_scaled.mdl" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_ground_Idle_scaled.mdl" />
+		<model name="Fireball_1.mdl" deferred_loading="false" protected="false" file="assets/npcs/dragon/projectile/Fireball_1.mdl" />
+		<texture name="mask1.dds" deferred_loading="false" protected="false" file="Games/common/textures/light_masks/mask1.dds" memory="host" />
+		<texture name="Bottom.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Bottom.dds" memory="host" />
+		<texture name="BottomLeft.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/BottomLeft.dds" memory="host" />
+		<texture name="BottomRight.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/BottomRight.dds" memory="host" />
+		<texture name="Center.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Center.dds" memory="host" />
+		<texture name="Left.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Left.dds" memory="host" />
+		<texture name="Right.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Right.dds" memory="host" />
+		<texture name="Top.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/Top.dds" memory="host" />
+		<texture name="TopLeft.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/TopLeft.dds" memory="host" />
+		<texture name="TopRight.dds" deferred_loading="false" protected="false" file="Games/common/textures/osd/TopRight.dds" memory="host" />
+		<texture name="dragon_gold_c.dds" deferred_loading="false" protected="false" file="CompanionFollowers/dragon_companion/textures/dragon_gold_c.dds" />
+		<texture name="dragon_gold_s.dds" deferred_loading="false" protected="false" file="CompanionFollowers/dragon_companion/textures/dragon_gold_s.dds" />
+		<particle name="Magic_Poof_01.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Magic_Poof_01.efx" />
+		<particle name="Dragon_Fireball_1.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Dragon_Fireball_1.efx" />
+		<particle name="Fire_VIP_FirePit_1.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Fire_VIP_FirePit_1.efx" />
+		<particle name="Dragon_Fireball_explode_1.efx" deferred_loading="false" protected="false" file="Games/common/Efx/Effects/Dragon_Fireball_explode_1.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Games/Public_Dragon/file/Network.xml" memory="host" />
+		<collision name="Dragon_collision.hkx" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_collision.hkx" />
+		<collision name="Fireball_1.hkx" deferred_loading="false" protected="false" file="assets/npcs/dragon/projectile/Fireball_1.hkx" />
+		<anim name="Helicopter_Loop.ani" deferred_loading="false" protected="false" file="assets/helicopter/Helicopter_Loop.ani" memory="host" />
+		<anim name="Dragon_Ground_Idle.ani" deferred_loading="false" protected="false" file="assets/npcs/dragon/Dragon_Ground_Idle.ani" />
+		<anim name="Dragon_air_attack.ani" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_air_attack.ani" />
+		<anim name="Dragon_ground_Idle_scaled.ani" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_ground_Idle_scaled.ani" />
+		<anim name="Dragon_flying_scaled.ani" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_flying_scaled.ani" />
+		<anim name="Dragon_Gliding_scaled.ani" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_Gliding_scaled.ani" />
+		<anim name="Male_Dragon_Flying" deferred_loading="false" protected="false" file="animation/male/dragon_flying/Male_Dragon_Flying.ani" />
+		<anim name="Female_Dragon_Flying" deferred_loading="false" protected="false" file="animation/female/dragon_flying/Female_Dragon_Flying.ani" />
+		<anim name="dragon_flying_fiixed_Y" deferred_loading="false" protected="false" file="animation/female/dragon_flying/dragon_flying_fiixed_Y.ani" />
+		<anim name="Dragon_flying_male_fixed_Y" deferred_loading="false" protected="false" file="animation/male/dragon_flying/Dragon_flying_male_fixed_Y.ani" />
+		<anim name="Dragon_air_attack_scaled_2.ani" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_air_attack_scaled_2.ani" />
+		<anim name="Dragon_flying_fixed_Y_2" deferred_loading="false" protected="false" file="animation/male/dragon_flying/Dragon_flying_fixed_Y_2.ani" />
+		<skeleton name="Dragon_ground_Idle_scaled.skn" deferred_loading="false" protected="false" file="assets/npcs/dragon/fixed/Dragon_ground_Idle_scaled.skn" />
+		<soundbank name="Dragon_sfx.bnk" deferred_loading="false" protected="false" file="Games/Public_Dragon/audio/Dragon_sfx.bnk" />
+		<repertoire name="Male_DragonRider_repertoire" deferred_loading="false" protected="false" file="animation/Repertoire/Male_DragonRider_repertoire.xml" />
+		<repertoire name="Female_DragonRider_repertoire" deferred_loading="false" protected="false" file="animation/Repertoire/Female_DragonRider_repertoire.xml" />
+		<lua name="Automaton.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Automaton.luac" memory="host" />
+		<lua name="Main_Init.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Main_Init.luac" memory="host" />
+		<lua name="Main_LoadLua.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Main_LoadLua.luac" memory="host" />
+		<lua name="Main_Resources.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Main_Resources.luac" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/MessageManager.luac" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/MiniGame.luac" memory="host" />
+		<lua name="MenuState_Idle.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/MenuStates/MenuState_Idle.luac" memory="host" />
+		<lua name="MenuState_Main.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/MenuStates/MenuState_Main.luac" memory="host" />
+		<lua name="AvatarCam.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/AvatarCam.luac" memory="host" />
+		<lua name="ControllerModule.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/ControllerModule.luac" memory="host" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/Core.luac" memory="host" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/EventManager.luac" memory="host" />
+		<lua name="Factory_OSD.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/Factory_OSD.luac" memory="host" />
+		<lua name="PlayerController.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/PlayerController.luac" memory="host" />
+		<lua name="RayCastManager.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/RayCastManager.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/StateMachine.luac" memory="host" />
+		<lua name="Table_x.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/Table_x.luac" memory="host" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/Util.luac" memory="host" />
+		<lua name="GameState_Idle.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/GameStates/GameState_Idle.luac" memory="host" />
+		<lua name="GameState_Main.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/GameStates/GameState_Main.luac" memory="host" />
+		<lua name="Utility_TriggerMover.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/Utility_TriggerMover.luac" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Library/Misc.luac" />
+		<lua name="ProjectileManager.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/ProjectileManager.luac" />
+		<lua name="Projectile.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/Projectile.luac" />
+		<lua name="ProjectileHitEffect.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/ProjectileHitEffect.luac" />
+		<lua name="ProjectileHitEffectManager.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/ProjectileHitEffectManager.luac" />
+		<lua name="RewardCheck.lua" deferred_loading="false" protected="true" file="Games/Public_Dragon/lua/RewardCheck.luac" />
+	</local>
+	<external />
+</resources>
