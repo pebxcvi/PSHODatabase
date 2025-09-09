@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.80.0.53.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">alan.searle</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">VEEMEE</company>
+		<template type="string">locomotion_item</template>
+		<template_version type="string">1.1.2</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">KR</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">3</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">lua.boot</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string"></on_listener_received_data>
+		<on_destroy type="string">*OnDestroy</on_destroy>
+		<on_clothing_change type="string">*OnClothingChange</on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<entity />
+	<particles />
+	<network>
+		<definition type="string"></definition>
+		<on_bag_created type="string"></on_bag_created>
+		<on_bag_deleted type="string"></on_bag_deleted>
+		<on_message_received type="string">*OnMessageReceived</on_message_received>
+		<auto_replicate type="bool">true</auto_replicate>
+	</network>
+	<screen />
+	<pad />
+	<renderer />
+	<camera />
+	<system />
+	<light />
+	<repertoire>
+		<is_exclusive type="bool">true</is_exclusive>
+		<target_rigs type="list">
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">male</repertoire_resource>
+				<emote_resource type="string">male_emotes</emote_resource>
+				<label type="string"></label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">female</repertoire_resource>
+				<emote_resource type="string">female_emotes</emote_resource>
+				<label type="string"></label>
+			</target>
+		</target_rigs>
+		<anim_registers type="bag">
+			<max_players type="int">1</max_players>
+			<string_registers type="list" />
+			<bool_registers type="list" />
+			<number_registers type="list">
+				<register type="bag">
+					<name type="string">direction</name>
+					<lua_read type="bool">true</lua_read>
+					<lua_write type="bool">true</lua_write>
+					<repertoire_read type="bool">true</repertoire_read>
+					<repertoire_write type="bool">false</repertoire_write>
+					<min_value type="string">-1</min_value>
+					<max_value type="string">1</max_value>
+				</register>
+			</number_registers>
+			<integer_registers type="list" />
+		</anim_registers>
+	</repertoire>
+	<portable>
+		<on_update type="string">*OnUpdate</on_update>
+	</portable>
+	<resource_pack>
+		<is_resource_pack type="bool">false</is_resource_pack>
+		<objects type="list">
+			<object type="bag">
+				<id type="string">6E7F57CB-161D4AA9-BACFC175-602E6582</id>
+			</object>
+		</objects>
+	</resource_pack>
+</objectdef>

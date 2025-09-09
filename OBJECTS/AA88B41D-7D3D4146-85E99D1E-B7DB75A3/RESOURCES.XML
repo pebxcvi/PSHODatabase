@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="projector_off.mdl" deferred_loading="false" protected="false" file="environments/home_theater_pad/Assets/projector_off.mdl" memory="main" />
+    <model name="projector_on.mdl" deferred_loading="false" protected="false" file="environments/home_theater_pad/Assets/projector_on.mdl" memory="main" />
+    <model name="tikitheater_lightsoff.mdl" deferred_loading="false" protected="false" file="environments/home_theater_pad/Assets/tikitheater_lightsoff.mdl" memory="main" />
+    <model name="tikitheater_lightson.mdl" deferred_loading="false" protected="false" file="environments/home_theater_pad/Assets/tikitheater_lightson.mdl" memory="main" />
+    <model name="Media_apt_red_drapes.mdl" deferred_loading="false" protected="false" file="furniture/Media_apt_red_drapes/Media_apt_red_drapes.mdl" memory="main" />
+    <model name="Media_apt_TV.mdl" deferred_loading="false" protected="false" file="furniture/media_apt_tv/Media_apt_TV.mdl" memory="main" />
+    <texture name="Stage_SpotStencil_Soft.dds" deferred_loading="false" protected="false" file="MiniGames/MediaAptMediaCenter/Textures/Stage_SpotStencil_Soft.dds" memory="main" />
+    <collision name="Media_apt_red_drapes.hkx" deferred_loading="false" protected="false" file="furniture/Media_apt_red_drapes/Media_apt_red_drapes.hkx" memory="main" />
+    <collision name="Media_apt_red_drapes_open.hkx" deferred_loading="false" protected="false" file="furniture/Media_apt_red_drapes/Media_apt_red_drapes_open.hkx" memory="host" />
+    <collision name="Media_apt_TV.hkx" deferred_loading="false" protected="false" file="furniture/media_apt_tv/Media_apt_TV.hkx" memory="host" />
+    <collision name="Media_apt_TV_open.hkx" deferred_loading="false" protected="false" file="furniture/media_apt_tv/Media_apt_TV_open.hkx" memory="host" />
+    <anim name="Media_apt_red_drapes_close.ani" deferred_loading="false" protected="false" file="furniture/Media_apt_red_drapes/Media_apt_red_drapes_close.ani" memory="host" />
+    <anim name="Media_apt_red_drapes_open.ani" deferred_loading="false" protected="false" file="furniture/Media_apt_red_drapes/Media_apt_red_drapes_open.ani" memory="host" />
+    <anim name="Media_apt_TV_close.ani" deferred_loading="false" protected="false" file="furniture/media_apt_tv/Media_apt_TV_close.ani" memory="host" />
+    <anim name="Media_apt_TV_open.ani" deferred_loading="false" protected="false" file="furniture/media_apt_tv/Media_apt_TV_open.ani" memory="host" />
+    <skeleton name="Media_apt_red_drapes.skn" deferred_loading="false" protected="false" file="furniture/Media_apt_red_drapes/Media_apt_red_drapes.skn" memory="host" />
+    <skeleton name="Media_apt_TV.skn" deferred_loading="false" protected="false" file="furniture/media_apt_tv/Media_apt_TV.skn" memory="host" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/sceneanimations/basecode/main.luac" />
+    <lua name="utility.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/sceneanimations/basecode/utility.luac" />
+    <lua name="settings.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/sceneanimations/settings/hhh/settings.luac" />
+  </local>
+  <external />
+</resources>

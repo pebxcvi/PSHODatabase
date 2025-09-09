@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="singleplayer" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/singleplayer.mdl" />
+		<model name="speed" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/speed.mdl" />
+		<model name="time" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/time.mdl" />
+		<model name="tournament" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/tournament.mdl" />
+		<model name="sphere" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/sphere.mdl" />
+		<model name="detonator" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/detonator.mdl" />
+		<model name="eliminator" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/eliminator.mdl" />
+		<model name="zonebattle" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/zonebattle.mdl" />
+		<model name="zone" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/zone.mdl" />
+		<model name="brackets" deferred_loading="false" file="environments/wipeout_homespace/components/holograms/brackets.mdl" />
+		<texture name="text_background" deferred_loading="false" file="MiniGames/WO_Hologram/textures/text_background.dds" />
+		<texture name="outer_circle" deferred_loading="false" file="MiniGames/WO_Hologram/textures/outer_circle.dds" />
+		<texture name="inner_circle" deferred_loading="false" file="MiniGames/WO_Hologram/textures/inner_circle.dds" />
+		<soundbank name="sound" deferred_loading="false" file="MiniGames/WO_Hologram/sound/hologram_viewer.bnk" />
+		<lua name="hologram.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Hologram/hologram.lua" />
+		<lua name="mode_hologram.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Hologram/mode_hologram.lua" />
+	</local>
+	<external />
+</resources>

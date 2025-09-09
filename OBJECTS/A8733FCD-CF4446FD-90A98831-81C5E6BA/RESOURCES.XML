@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ENEMY_turret_mid.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_turret_mid.mdl" memory="host" />
+		<model name="ENEMY_turret_top.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_turret_top.mdl" memory="host" />
+		<model name="ENEMY_flier_mid.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_flier_mid.mdl" memory="host" />
+		<model name="ENEMY_flier_top.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_flier_top.mdl" memory="host" />
+		<model name="MiniBot_Stand_Idle_LowerTorso.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_Idle_LowerTorso.mdl" memory="host" />
+		<model name="MiniBot_Stand_Idle_UpperTorso.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_Idle_UpperTorso.mdl" memory="host" />
+		<model name="WEAPON_assaulter.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/WEAPON_assaulter.mdl" memory="host" />
+		<model name="WEAPON_grenade.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/WEAPON_grenade.mdl" memory="host" />
+		<model name="WEAPON_shotgun.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/WEAPON_shotgun.mdl" memory="host" />
+		<model name="BULLET_lightning_01.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BULLET_lightning_01.mdl" memory="host" />
+		<model name="Face_01.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/accessories/Face_01.mdl" memory="host" />
+		<model name="Face_02.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/accessories/Face_02.mdl" memory="host" />
+		<model name="Face_03.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/accessories/Face_03.mdl" memory="host" />
+		<model name="BATTLEBOX.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BATTLEBOX.mdl" memory="host" />
+		<model name="Face_04.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/accessories/Face_04.mdl" memory="host" />
+		<model name="BULLET_laser_01.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BULLET_laser_01.mdl" memory="host" />
+		<model name="Face_05.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/accessories/Face_05.mdl" memory="host" />
+		<model name="AMMO_BOX.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/AMMO_BOX.mdl" memory="host" />
+		<model name="FX_shockwave_ball_01.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/FX_shockwave_ball_01.mdl" memory="host" />
+		<model name="ENEMY_flier_damaged.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_flier_damaged.mdl" memory="host" />
+		<model name="ENEMY_turret_damaged.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_turret_damaged.mdl" memory="host" />
+		<model name="BULLET_enemy_01.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BULLET_enemy_01.mdl" memory="host" />
+		<model name="BULLET_missile_01.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BULLET_missile_01.mdl" memory="host" />
+		<model name="ENEMY_ripper_mid.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_ripper_mid.mdl" memory="host" />
+		<model name="ENEMY_ripper_saw.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_ripper_saw.mdl" memory="host" />
+		<model name="ENEMY_ripper_damaged.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_ripper_damaged.mdl" memory="host" />
+		<model name="MINIBOT_Turrent_LegsOnly.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/MINIBOT_Turrent_LegsOnly.mdl" memory="host" />
+		<model name="ENEMY_turret_base.mdl" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_turret_base.mdl" memory="host" />
+		<texture name="life_chip.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/life_chip.dds" memory="host" />
+		<texture name="minibot_decal_01.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/minibot_decal_01.dds" memory="host" />
+		<texture name="minibot_decal_02.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/minibot_decal_02.dds" memory="host" />
+		<texture name="MiniBot_decal_03.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/MiniBot_decal_03.dds" memory="host" />
+		<texture name="MiniBot_decal_04.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/MiniBot_decal_04.dds" memory="host" />
+		<texture name="MiniBot_decal_05.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/MiniBot_decal_05.dds" memory="host" />
+		<texture name="MiniBot_decal_06.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/MiniBot_decal_06.dds" memory="host" />
+		<texture name="placeholder_s.dds" deferred_loading="false" protected="false" file="tools/generic_shared_textures/placeholder_s.dds" memory="host" />
+		<texture name="icon_assaulter.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_assaulter.dds" memory="host" />
+		<texture name="icon_grenade.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_grenade.dds" memory="host" />
+		<texture name="icon_shotgun.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_shotgun.dds" memory="host" />
+		<texture name="reticule_assaulter_96.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_assaulter_96.dds" memory="host" />
+		<texture name="reticule_shotgun_96.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_shotgun_96.dds" memory="host" />
+		<texture name="icon_gadget_boots.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_gadget_boots.dds" memory="host" />
+		<texture name="icon_gadget_pulse.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_gadget_pulse.dds" memory="host" />
+		<texture name="icon_gadget_sentry.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_gadget_sentry.dds" memory="host" />
+		<texture name="icon_gadget_stealth.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_gadget_stealth.dds" memory="host" />
+		<texture name="icon_gadget_teleport.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_gadget_teleport.dds" memory="host" />
+		<texture name="icon_gadget_turret.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_gadget_turret.dds" memory="host" />
+		<texture name="icon_kingdingaling.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/icon_kingdingaling.dds" memory="host" />
+		<texture name="minibot_c.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/textures/minibot_c.dds" memory="host" />
+		<texture name="graphic_hit_direction.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/graphic_hit_direction.dds" memory="host" />
+		<texture name="gadget_lock_128.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/gadget_lock_128.dds" memory="host" />
+		<texture name="title_01.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/title_01.dds" memory="host" />
+		<texture name="reticule_assaulter_zoom_96.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_assaulter_zoom_96.dds" memory="host" />
+		<texture name="background_countdown.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/background_countdown.dds" />
+		<texture name="background_main.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/background_main.dds" />
+		<texture name="background_pickwave.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/background_pickwave.dds" />
+		<texture name="boss_health.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/boss_health.dds" />
+		<texture name="background_mapping.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/background_mapping.dds" memory="host" />
+		<texture name="ui_bullet.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/ui_bullet.dds" />
+		<texture name="ui_shell.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/ui_shell.dds" />
+		<texture name="background_hud.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/background_hud.dds" />
+		<texture name="background_hud_gadget.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/background_hud_gadget.dds" />
+		<texture name="background_hud_wavescore.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/background_hud_wavescore.dds" />
+		<texture name="power_bar_active.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/power_bar_active.dds" />
+		<texture name="power_bar_inactive.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/power_bar_inactive.dds" />
+		<texture name="power_bar_off.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/power_bar_off.dds" />
+		<texture name="enemy_altitude_down.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/enemy_altitude_down.dds" />
+		<texture name="enemy_altitude_up.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/enemy_altitude_up.dds" />
+		<texture name="graphic_enemy_direction.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/graphic_enemy_direction.dds" />
+		<texture name="boss_health_underlay.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/boss_health_underlay.dds" />
+		<texture name="PSstore_logo_mark_64.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/PSstore_logo_mark_64.dds" />
+		<particle name="explosion.efx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/atgparticles/efx/explosion.efx" memory="host" />
+		<particle name="teleport_in.efx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/atgparticles/efx/teleport_in.efx" memory="host" />
+		<particle name="rocketloop.efx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/atgparticles/efx/rocketloop.efx" memory="host" />
+		<particle name="flash.efx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/atgparticles/efx/flash.efx" memory="host" />
+		<particle name="BotDeath.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Lee/BotDeath.efx" memory="host" />
+		<particle name="GrenadeRadius.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Lee/GrenadeRadius.efx" memory="host" />
+		<particle name="ImpactSparks.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Lee/ImpactSparks.efx" memory="host" />
+		<particle name="Teleport_ChargeUp.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Lee/Teleport_ChargeUp.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/file/Network.xml" memory="host" />
+		<collision name="MiniBot_collider.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/MiniBot_collider.hkx" memory="host" />
+		<collision name="ENEMY_turret_base.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_turret_base.hkx" memory="host" />
+		<collision name="ENEMY_flier_mid.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_flier_mid.hkx" memory="host" />
+		<collision name="WEAPON_grenade.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/WEAPON_grenade.hkx" memory="host" />
+		<collision name="ENEMY_flier_top.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_flier_top.hkx" memory="host" />
+		<collision name="ENEMY_turret_top.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_turret_top.hkx" memory="host" />
+		<collision name="BATTLEBOX.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BATTLEBOX.hkx" memory="host" />
+		<collision name="BOSS_Flier_01.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BOSS_Flier_01.hkx" memory="host" />
+		<collision name="BATTLEBOX_SAFE.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/BATTLEBOX_SAFE.hkx" memory="host" />
+		<collision name="ENEMY_ripper_mid.hkx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/ENEMY_ripper_mid.hkx" memory="host" />
+		<anim name="MiniBot_Stand_Idle_LowerTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_Idle_LowerTorso.ani" memory="host" />
+		<anim name="MiniBot_Stand_Idle_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_Idle_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Stand_RunForward_LowerTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_RunForward_LowerTorso.ani" memory="host" />
+		<anim name="MiniBot_Stand_RunForward_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_RunForward_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Jump_Float_LowerTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Jump_Float_LowerTorso.ani" memory="host" />
+		<anim name="MiniBot_Jump_Float_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Jump_Float_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Jump_Start_LowerTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Jump_Start_LowerTorso.ani" memory="host" />
+		<anim name="MiniBot_Jump_Start_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Jump_Start_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Stand_FireWeapon_UpperBody.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_FireWeapon_UpperBody.ani" memory="host" />
+		<anim name="MiniBot_Jump_FloatForward_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Jump_FloatForward_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Jump_FloatForward_LowerTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Jump_FloatForward_LowerTorso.ani" memory="host" />
+		<anim name="MiniBot_Weapon_Equip_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Weapon_Equip_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Weapon_Unequip_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Weapon_Unequip_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_HeadButt_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_HeadButt_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Weapon_ReloadLoop_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Weapon_ReloadLoop_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Weapon_ReloadStart_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Weapon_ReloadStart_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Death_StandingDeath_LowerTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Death_StandingDeath_LowerTorso.ani" memory="host" />
+		<anim name="MiniBot_Death_StandingDeath_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Death_StandingDeath_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Grenade_Throw_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Grenade_Throw_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Stand_PulseExplosion_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_PulseExplosion_UpperTorso.ani" memory="host" />
+		<anim name="MiniBot_Death_SelfDestruct_LowerTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Death_SelfDestruct_LowerTorso.ani" memory="host" />
+		<anim name="MiniBot_Death_SelfDestruct_UpperTorso.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Death_SelfDestruct_UpperTorso.ani" memory="host" />
+		<anim name="MINIBOT_Turrent_Companion_WalkForward.ani" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/MINIBOT_Turrent_Companion_WalkForward.ani" memory="host" />
+		<skeleton name="MiniBot_Stand_Idle_LowerTorso.skn" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_Idle_LowerTorso.skn" memory="host" />
+		<skeleton name="MiniBot_Stand_Idle_UpperTorso.skn" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/animations/MiniBot_Stand_Idle_UpperTorso.skn" memory="host" />
+		<skeleton name="MINIBOT_Turrent_LegsOnly.skn" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/models/MINIBOT_Turrent_LegsOnly.skn" memory="host" />
+		<soundbank name="MinibotSoundbankUI.bnk" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/Audio/MinibotSoundbankUI.bnk" memory="host" />
+		<soundbank name="MinibotSoundbank1.bnk" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/Audio/MinibotSoundbank1.bnk" memory="host" />
+		<soundstream name="Victory.mp3" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/Audio/Victory.mp3" memory="host" />
+		<soundstream name="BackgroundMusic.mp3" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/Audio/BackgroundMusic.mp3" memory="host" />
+		<lua name="MinibotDebris.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/MinibotDebris.luac" memory="host" />
+		<lua name="RocketBoots.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Gadgets/RocketBoots.luac" memory="host" />
+		<lua name="GadgetSentry.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Gadgets/GadgetSentry.luac" memory="host" />
+		<lua name="WaveSpawner.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/WaveSpawner.luac" memory="host" />
+		<lua name="SentryDifficultyVisitor.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/SentryDifficultyVisitor.luac" memory="host" />
+		<lua name="TurretDifficultyVisitor.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/TurretDifficultyVisitor.luac" memory="host" />
+		<lua name="Wave.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/Wave.luac" memory="host" />
+		<lua name="MinibotAIShots.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/MinibotAIShots.luac" memory="host" />
+		<lua name="MinibotSentry.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/MinibotSentry.luac" memory="host" />
+		<lua name="MinibotTurret.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/MinibotTurret.luac" memory="host" />
+		<lua name="aBuserShot.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/PlayerShots/aBuserShot.luac" memory="host" />
+		<lua name="AssaulterShot.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/PlayerShots/AssaulterShot.luac" memory="host" />
+		<lua name="PlayerWeaponaBuser.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/PlayerWeapons/PlayerWeaponaBuser.luac" memory="host" />
+		<lua name="PlayerWeaponAssaulter.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/PlayerWeapons/PlayerWeaponAssaulter.luac" memory="host" />
+		<lua name="MinibotAIGuns.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/MinibotAIGuns.luac" memory="host" />
+		<lua name="Rayball.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/Rayball.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/Utility.luac" memory="host" />
+		<lua name="ApartmentMapper.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/ApartmentMapper.luac" memory="host" />
+		<lua name="SentryPointCheck.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/SentryPointCheck.luac" memory="host" />
+		<lua name="TurretPointCheck.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/TurretPointCheck.luac" memory="host" />
+		<lua name="WeaponPointCheck.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/WeaponPointCheck.luac" memory="host" />
+		<lua name="PickupManager.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Pickups/PickupManager.luac" memory="host" />
+		<lua name="Pickups.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Pickups/Pickups.luac" memory="host" />
+		<lua name="PlayerWeaponGrenade.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/PlayerWeapons/PlayerWeaponGrenade.luac" memory="host" />
+		<lua name="BackgroundMinibot.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Minibots/BackgroundMinibot.luac" memory="host" />
+		<lua name="Minibot.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Minibots/Minibot.luac" memory="host" />
+		<lua name="MinibotCamera.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Minibots/MinibotCamera.luac" memory="host" />
+		<lua name="MinibotFaces.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Minibots/MinibotFaces.luac" memory="host" />
+		<lua name="MinibotHealthChip.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Minibots/MinibotHealthChip.luac" memory="host" />
+		<lua name="StealthField.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Gadgets/StealthField.luac" memory="host" />
+		<lua name="TurretGadget.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Gadgets/TurretGadget.luac" memory="host" />
+		<lua name="State_CustomizeMenu.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_CustomizeMenu.luac" memory="host" />
+		<lua name="State_Gadget.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_Gadget.luac" memory="host" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_MainMenu.luac" memory="host" />
+		<lua name="State_SinglePlayer.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_SinglePlayer.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/StateMachine.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_Idle.luac" memory="host" />
+		<lua name="GlobalLib.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/GlobalLib.luac" memory="host" />
+		<lua name="State_LocalPlayerJoin.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_LocalPlayerJoin.luac" memory="host" />
+		<lua name="ParticleManager.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/ParticleManager.luac" memory="host" />
+		<lua name="TeleporterGadget.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Gadgets/TeleporterGadget.luac" memory="host" />
+		<lua name="PulseExplosionGadget.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Gadgets/PulseExplosionGadget.luac" memory="host" />
+		<lua name="InventoryChecker.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/InventoryChecker.luac" memory="host" />
+		<lua name="Mapper.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/Mapper.luac" memory="host" />
+		<lua name="SentryBoss.lua" deferred_loading="true" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/SentryBoss.luac" memory="host" />
+		<lua name="State_HowToPlay.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_HowToPlay.luac" memory="host" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/CoroutineManager.luac" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/MiniGame.luac" memory="host" />
+		<lua name="Ripper.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/Ripper.luac" memory="host" />
+		<lua name="RipperDifficultyVisitor.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/RipperDifficultyVisitor.luac" memory="host" />
+		<lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/BatchResourceLoader.luac" memory="host" />
+		<lua name="State_PickWave.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_PickWave.luac" memory="host" />
+		<lua name="State_TopScores.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_TopScores.luac" memory="host" />
+		<lua name="Scorekeeper.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/SinglePlayer/Scorekeeper.luac" />
+		<lua name="HideRemotePeople.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/Utility/HideRemotePeople.luac" memory="host" />
+		<lua name="State_MappingFailed.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_MappingFailed.luac" />
+		<lua name="State_EnemyViewer.lua" deferred_loading="false" protected="true" file="MiniGames/MiniBots_BattleBox/lua/States/State_EnemyViewer.luac" memory="host" />
+	</local>
+	<external />
+</resources>

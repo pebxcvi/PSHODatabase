@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">Title</LANG>
+    <LANG ID="ja-JP">地獄七並べ [#Legal]</LANG>
+    <LANG ID="ko-KR">지옥 시치나라베 [#Legal]</LANG>
+    <LANG ID="en-SG">Hell Sevens [#Legal]</LANG>
+    <LANG ID="zh-HK">地獄排七 [#Legal]</LANG>
+    <LANG ID="zh-TW">地獄排七 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Start</LANG>
+    <LANG ID="ja-JP">[CROSS] 開始</LANG>
+    <LANG ID="ko-KR">[CROSS] 개시</LANG>
+    <LANG ID="en-SG">[CROSS] Start</LANG>
+    <LANG ID="zh-HK">[CROSS] 開始</LANG>
+    <LANG ID="zh-TW">[CROSS] 開始</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectCard</LANG>
+    <LANG ID="ja-JP">[LEFT][RIGHT] カード選択</LANG>
+    <LANG ID="ko-KR">[LEFT][RIGHT] 카드 선택</LANG>
+    <LANG ID="en-SG">[LEFT][RIGHT] Select card</LANG>
+    <LANG ID="zh-HK">[LEFT][RIGHT] 選牌</LANG>
+    <LANG ID="zh-TW">[LEFT][RIGHT] 選牌</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SetCard</LANG>
+    <LANG ID="ja-JP">[CROSS] カードを出す</LANG>
+    <LANG ID="ko-KR">[CROSS] 카드를 낸다</LANG>
+    <LANG ID="en-SG">[CROSS] Play a card</LANG>
+    <LANG ID="zh-HK">[CROSS] 出牌</LANG>
+    <LANG ID="zh-TW">[CROSS] 出牌</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Pass</LANG>
+    <LANG ID="ja-JP">[SQUARE] パス</LANG>
+    <LANG ID="ko-KR">[SQUARE] 패스</LANG>
+    <LANG ID="en-SG">[SQUARE] Pass</LANG>
+    <LANG ID="zh-HK">[SQUARE] 略過</LANG>
+    <LANG ID="zh-TW">[SQUARE] 略過</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Next</LANG>
+    <LANG ID="ja-JP">[CROSS] 次へ</LANG>
+    <LANG ID="ko-KR">[CROSS] 다음으로</LANG>
+    <LANG ID="en-SG">[CROSS] Next</LANG>
+    <LANG ID="zh-HK">[CROSS] 下一步</LANG>
+    <LANG ID="zh-TW">[CROSS] 下一步</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Pressure</LANG>
+    <LANG ID="ja-JP">[R2] このカード出したい！</LANG>
+    <LANG ID="ko-KR">[R2] 이 카드를 내고싶어!</LANG>
+    <LANG ID="en-SG">[R2] I want to play this card!</LANG>
+    <LANG ID="zh-HK">[R2] 想出這張牌！</LANG>
+    <LANG ID="zh-TW">[R2] 想出這張牌！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">AppealTitle</LANG>
+    <LANG ID="ja-JP">アピール</LANG>
+    <LANG ID="ko-KR">어필</LANG>
+    <LANG ID="en-SG">Appeal</LANG>
+    <LANG ID="zh-HK">表現</LANG>
+    <LANG ID="zh-TW">表現</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Emotion</LANG>
+    <LANG ID="ja-JP">[L2] アピール</LANG>
+    <LANG ID="ko-KR">[L2] 어필</LANG>
+    <LANG ID="en-SG">[L2] Appeal</LANG>
+    <LANG ID="zh-HK">[L2] 表現</LANG>
+    <LANG ID="zh-TW">[L2] 表現</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Camera</LANG>
+    <LANG ID="ja-JP">[R3] カメラ</LANG>
+    <LANG ID="ko-KR">[R3] 카메라</LANG>
+    <LANG ID="en-SG">[R3] Camera</LANG>
+    <LANG ID="zh-HK">[R3] 相机</LANG>
+    <LANG ID="zh-TW">[R3] 相機</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SelectJoker</LANG>
+    <LANG ID="ja-JP">[UP] [DOWN] [LEFT] [RIGHT] 場所選択</LANG>
+    <LANG ID="ko-KR">[UP] [DOWN] [LEFT] [RIGHT] 장소선택</LANG>
+    <LANG ID="en-SG">[UP] [DOWN] [LEFT] [RIGHT] Select place</LANG>
+    <LANG ID="zh-HK">[UP] [DOWN] [LEFT] [RIGHT] 選擇地點</LANG>
+    <LANG ID="zh-TW">[UP] [DOWN] [LEFT] [RIGHT] 選擇地點</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SetJoker</LANG>
+    <LANG ID="ja-JP">[CROSS] ジョーカーを出す</LANG>
+    <LANG ID="ko-KR">[CROSS] 죠커를 낸다</LANG>
+    <LANG ID="en-SG">[CROSS] Play the joker</LANG>
+    <LANG ID="zh-HK">[CROSS] 出鬼牌</LANG>
+    <LANG ID="zh-TW">[CROSS] 出鬼牌</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">OK</LANG>
+    <LANG ID="ja-JP">[CROSS] 決定</LANG>
+    <LANG ID="ko-KR">[CROSS] 결정</LANG>
+    <LANG ID="en-SG">[CROSS] Decide</LANG>
+    <LANG ID="zh-HK">[CROSS] 決定</LANG>
+    <LANG ID="zh-TW">[CROSS] 決定</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Cancel</LANG>
+    <LANG ID="ja-JP">[CIRCLE] キャンセル</LANG>
+    <LANG ID="ko-KR">[CIRCLE] 캔슬</LANG>
+    <LANG ID="en-SG">[CIRCLE] Cancel</LANG>
+    <LANG ID="zh-HK">[CIRCLE] 取消</LANG>
+    <LANG ID="zh-TW">[CIRCLE] 取消</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Caution1</LANG>
+    <LANG ID="ja-JP">時間切れが連続しているため、あと</LANG>
+    <LANG ID="ko-KR">시간초과가 연속되고 있으므로, 앞으로</LANG>
+    <LANG ID="en-SG">Because of constant time-outs, the game will finish after</LANG>
+    <LANG ID="zh-HK">由於玩家連續用盡思考時間，再過</LANG>
+    <LANG ID="zh-TW">由於玩家連續用盡思考時間，再過</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Caution2</LANG>
+    <LANG ID="ja-JP">回でゲームを終了します</LANG>
+    <LANG ID="ko-KR">회로 게임을 종료합니다</LANG>
+    <LANG ID="en-SG">more times</LANG>
+    <LANG ID="zh-HK">次將結束本局。</LANG>
+    <LANG ID="zh-TW">次將結束本局。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TimeOver</LANG>
+    <LANG ID="ja-JP">時間切れが連続しているため、ゲームを終了します</LANG>
+    <LANG ID="ko-KR">시간초과가 연속되고 있으므로, 게임을 종료합니다</LANG>
+    <LANG ID="en-SG">The game will finish because of constant time-outs</LANG>
+    <LANG ID="zh-HK">由於玩家連續用盡思考時間，將結束本局。</LANG>
+    <LANG ID="zh-TW">由於玩家連續用盡思考時間，將結束本局。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">NextGame</LANG>
+    <LANG ID="ja-JP">秒後に次のゲーム開始</LANG>
+    <LANG ID="ko-KR">초 후에 다음 게임 개시</LANG>
+    <LANG ID="en-SG">second(s) later, next game will start.</LANG>
+    <LANG ID="zh-HK">秒後開始下一局</LANG>
+    <LANG ID="zh-TW">秒後開始下一局</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EndGame</LANG>
+    <LANG ID="ja-JP">秒後にゲーム終了</LANG>
+    <LANG ID="ko-KR">초 후에 게임 종료</LANG>
+    <LANG ID="en-SG">second(s) later, this game will finish.</LANG>
+    <LANG ID="zh-HK">秒後結束本局</LANG>
+    <LANG ID="zh-TW">秒後結束本局</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">MorePlayer</LANG>
+    <LANG ID="ja-JP">ゲームを開始するには3人必要です</LANG>
+    <LANG ID="ko-KR">게임을 개시하기 위해서는 3명이 필요합니다</LANG>
+    <LANG ID="en-SG">Need three people to start the game.</LANG>
+    <LANG ID="zh-HK">開始遊戲需要3名玩家</LANG>
+    <LANG ID="zh-TW">開始遊戲需要3名玩家</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PleaseWait</LANG>
+    <LANG ID="ja-JP">しばらくお待ち下さい…</LANG>
+    <LANG ID="ko-KR">잠시만 기다려 주세요…</LANG>
+    <LANG ID="en-SG">Please wait a moment…</LANG>
+    <LANG ID="zh-HK">請稍候…</LANG>
+    <LANG ID="zh-TW">請稍候…</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LessPlayer</LANG>
+    <LANG ID="ja-JP">プレイに必要な参加人数を下回りました\nゲームを終了します</LANG>
+    <LANG ID="ko-KR">플레이에 필요한 참가인수에 도달하지 못하였습니다\n게임을 종료합니다</LANG>
+    <LANG ID="en-SG">There are not enough players to play the game,\nso game will finish.</LANG>
+    <LANG ID="zh-HK">玩家人數低於必須參與人數。\n將結束本局。</LANG>
+    <LANG ID="zh-TW">玩家人數低於必須參與人數。\n將結束本局。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Logout_Player</LANG>
+    <LANG ID="ja-JP">さんが退室しました</LANG>
+    <LANG ID="ko-KR">님이 퇴실하였습니다.</LANG>
+    <LANG ID="en-SG">has left.</LANG>
+    <LANG ID="zh-HK">玩家離開房間。</LANG>
+    <LANG ID="zh-TW">玩家離開房間。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">JokerAdd</LANG>
+    <LANG ID="ja-JP">ジョーカーを手札に加えますか？\n残り時間…</LANG>
+    <LANG ID="ko-KR">죠커를 손 안의 패에 추가하시겠습니까?\n남은 시간…</LANG>
+    <LANG ID="en-SG">Will you pick up the joker?\n time remaining....</LANG>
+    <LANG ID="zh-HK">是否將鬼牌加入手牌？\n剩餘時間…</LANG>
+    <LANG ID="zh-TW">是否將鬼牌加入手牌？\n剩餘時間…</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">JokerAdd_Player</LANG>
+    <LANG ID="ja-JP">さんがジョーカーを受け取るか選択中です</LANG>
+    <LANG ID="ko-KR">님이 죠커를 받을지 선택중입니다</LANG>
+    <LANG ID="en-SG">is deciding whether to pick up the joker.</LANG>
+    <LANG ID="zh-HK">玩家正在選擇是否接收鬼牌。</LANG>
+    <LANG ID="zh-TW">玩家正在選擇是否接收鬼牌。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Gain</LANG>
+    <LANG ID="ja-JP">[CROSS] 受け取る</LANG>
+    <LANG ID="ko-KR">[CROSS] 받는다</LANG>
+    <LANG ID="en-SG">[CROSS] Accept</LANG>
+    <LANG ID="zh-HK">[CROSS] 接收</LANG>
+    <LANG ID="zh-TW">[CROSS] 接收</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Reject</LANG>
+    <LANG ID="ja-JP">[CIRCLE] 拒否</LANG>
+    <LANG ID="ko-KR">[CIRCLE] 거부</LANG>
+    <LANG ID="en-SG">[CIRCLE] Reject</LANG>
+    <LANG ID="zh-HK">[CIRCLE] 拒絕</LANG>
+    <LANG ID="zh-TW">[CIRCLE] 拒絕</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GainJoker</LANG>
+    <LANG ID="ja-JP">ジョーカーを手札に加えました</LANG>
+    <LANG ID="ko-KR">죠커를 손 안의 패에 추가하였습니다</LANG>
+    <LANG ID="en-SG">The joker has been added to your hand.</LANG>
+    <LANG ID="zh-HK">已將鬼牌加入手牌。</LANG>
+    <LANG ID="zh-TW">已將鬼牌加入手牌。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">RejectJoker</LANG>
+    <LANG ID="ja-JP">ジョーカーを捨てました</LANG>
+    <LANG ID="ko-KR">죠커를 버렸습니다</LANG>
+    <LANG ID="en-SG">You have thrown out the joker.</LANG>
+    <LANG ID="zh-HK">已放棄鬼牌。</LANG>
+    <LANG ID="zh-TW">已放棄鬼牌。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GainJoker_Player</LANG>
+    <LANG ID="ja-JP">さんは\nジョーカーを手札に加えました</LANG>
+    <LANG ID="ko-KR">님은\n죠커를 손 안의 패에 추가하였습니다</LANG>
+    <LANG ID="en-SG">has picked up\nthe joker.</LANG>
+    <LANG ID="zh-HK">玩家\n已將鬼牌加入手牌。</LANG>
+    <LANG ID="zh-TW">玩家\n已將鬼牌加入手牌。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">RejectJoker_Player</LANG>
+    <LANG ID="ja-JP">さんは\nジョーカーを捨てました</LANG>
+    <LANG ID="ko-KR">님은 \n죠커를 버렸습니다</LANG>
+    <LANG ID="en-SG">has thrown out\nthe joker.</LANG>
+    <LANG ID="zh-HK">玩家\n已放棄鬼牌。</LANG>
+    <LANG ID="zh-TW">玩家\n已放棄鬼牌。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Ranking</LANG>
+    <LANG ID="ja-JP">ランキング</LANG>
+    <LANG ID="ko-KR">랭킹</LANG>
+    <LANG ID="en-SG">Ranking</LANG>
+    <LANG ID="zh-HK">排行榜</LANG>
+    <LANG ID="zh-TW">排行榜</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">ScoreRanking</LANG>
+    <LANG ID="ja-JP">総合ランキング</LANG>
+    <LANG ID="ko-KR">총합랭킹</LANG>
+    <LANG ID="en-SG">Overall ranking</LANG>
+    <LANG ID="zh-HK">綜合排行榜</LANG>
+    <LANG ID="zh-TW">綜合排行榜</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1</LANG>
+    <LANG ID="ja-JP">にやり</LANG>
+    <LANG ID="ko-KR">히죽</LANG>
+    <LANG ID="en-SG">Grin</LANG>
+    <LANG ID="zh-HK">奸笑</LANG>
+    <LANG ID="zh-TW">奸笑</LANG>
+    <LANG ID="en-US">osumasi</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2</LANG>
+    <LANG ID="ja-JP">くやしい</LANG>
+    <LANG ID="ko-KR">분함</LANG>
+    <LANG ID="en-SG">Regrettable</LANG>
+    <LANG ID="zh-HK">懊悔</LANG>
+    <LANG ID="zh-TW">懊悔</LANG>
+    <LANG ID="en-US">itazura</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3</LANG>
+    <LANG ID="ja-JP">おすまし</LANG>
+    <LANG ID="ko-KR">새침함</LANG>
+    <LANG ID="en-SG">Smug</LANG>
+    <LANG ID="zh-HK">氣定神閒</LANG>
+    <LANG ID="zh-TW">氣定神閒</LANG>
+    <LANG ID="en-US">miru</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4</LANG>
+    <LANG ID="ja-JP">いたずら</LANG>
+    <LANG ID="ko-KR">장난</LANG>
+    <LANG ID="en-SG">Mischievous</LANG>
+    <LANG ID="zh-HK">惡作劇</LANG>
+    <LANG ID="zh-TW">惡作劇</LANG>
+    <LANG ID="en-US">tyouhatu</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5</LANG>
+    <LANG ID="ja-JP">見る</LANG>
+    <LANG ID="ko-KR">본다</LANG>
+    <LANG ID="en-SG">Look</LANG>
+    <LANG ID="zh-HK">看</LANG>
+    <LANG ID="zh-TW">看</LANG>
+    <LANG ID="en-US">[L2] tyouhatu</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6</LANG>
+    <LANG ID="ja-JP">挑発</LANG>
+    <LANG ID="ko-KR">도발</LANG>
+    <LANG ID="en-SG">Excited</LANG>
+    <LANG ID="zh-HK">挑釁</LANG>
+    <LANG ID="zh-TW">挑釁</LANG>
+    <LANG ID="en-US">chat</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionOver</LANG>
+    <LANG ID="ja-JP">回数オーバーです。\nしばらく時間をおいてください</LANG>
+    <LANG ID="ko-KR">횟수 오버입니다.\n잠시 동안 시간을 두어 주십시오</LANG>
+    <LANG ID="en-SG">Too many times.\nPlease wait a moment.</LANG>
+    <LANG ID="zh-HK">次數過多。\n請稍候再試。</LANG>
+    <LANG ID="zh-TW">次數過多。\n請稍候再試。</LANG>
+    <LANG ID="en-US">EmotionOver</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-1</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が魔王のような高笑いをした！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 마왕처럼 큰 소리로 웃었다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; laughs loudly like the devil!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;有如魔王般仰天長笑！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;有如魔王般仰天長笑！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-2</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;がニヤリと笑った…！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 히죽 웃었다…！</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; is smiling from ear to ear...!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;揚起嘴角奸笑…！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;揚起嘴角奸笑…！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-3</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が&lt;Enemy&gt;を見つめてニヤリと笑った…！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 &lt;Enemy&gt;님을 바라보며 히죽 웃었다…！</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; looks at &lt;Enemy&gt; and laughs with a grin...!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;注視著&lt;Enemy&gt;，並揚起嘴角奸笑…！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;注視著&lt;Enemy&gt;，並揚起嘴角奸笑…！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-4</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;はニヤニヤしている！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 히죽히죽대고 있다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; is grinning!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;笑得很賊！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;笑得很賊！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-5</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が不敵な笑みを浮かべた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 대담한 미소를 띄웠다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; laughs boldly!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;露出強勢的笑容！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;露出強勢的笑容！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-6</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は笑いをこらえきれない！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 웃음을 참을 수가 없다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; can't handle all the laughter!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;憋不住笑！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;憋不住笑！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-7</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;の笑みが気持ち悪い！！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님의 미소가 기분 나쁘다!!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; laugh is disgusting!!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;的笑容好噁心！！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;的笑容好噁心！！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat1-8</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は勝利を確信した！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 승리를 확신했다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; is sure of a win!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;確信自己的勝利！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;確信自己的勝利！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-1</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が手札を地面に叩きつけた！　そして拾い集めた…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 손 안의 패를 지면에 내던졌다! 그리고 주워 모았다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; throws their hand on the ground! And then picks it up....</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;將手牌摔在地上！然後撿了回來…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;將手牌摔在地上！然後撿了回來…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-2</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が地団駄を踏んだ！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 분해서 발을 동동 굴렀다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; stamps on the ground!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;氣得直跺腳！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;氣得直跺腳！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-3</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が悩ましげにため息を漏らした…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 고민스럽게 한숨을 내쉬었다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; sighs painfully....</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;煩惱地發出嘆息…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;煩惱地發出嘆息…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-4</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「なんでやねん！」と叫んだ！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「어째서야!」라고 외쳤다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; shouts "What!"</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;大喊：「為什麼！」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;大喊：「為什麼！」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-5</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が爆発寸前です</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 폭발 직전입니다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; is about to explode.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;快要爆炸了。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;快要爆炸了。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-6</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「落ち着け、まだ慌てるような時間じゃない」とつぶやいた…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「진정해, 아직 서두를만한 시간은 아니야」라고 중얼거렸다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; murmurs "Calm down, its not time to panic yet"....</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;喃喃說著：「冷靜點，還不到慌張的時候。」…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;喃喃說著：「冷靜點，還不到慌張的時候。」…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-7</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が禁じ手「ちゃぶ台返し」の姿勢をとった！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 금지된 수단「밥상 뒤집기」의 자세를 취했다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; takes an attitude of fouling by "overturning"!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;擺出禁招「翻桌」的姿勢！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;擺出禁招「翻桌」的姿勢！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-8</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「もうやめて　わたしのHPは0よ」と泣いた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「이제 그만둬 내 HP는 0이야」라며 울었다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; cries "stop it, my HP is 0"!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;哭著說：「住手，我的HP已經是0了」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;哭著說：「住手，我的HP已經是0了」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-9</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;の悔しがる姿をみんなが笑っている。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님의 분해하는 모습을 모두가 비웃고 있다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; looks frustrated, and everyone laughs.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;悔恨的模樣讓大家都笑了。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;悔恨的模樣讓大家都笑了。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat2-10</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は手札を握りつぶした。 そして皆に怒られた。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 손 안의 패를 찌부러뜨렸다. 그리고 모두에게 혼났다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; crushes their hand. And everyone is angry.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;捏爛了手牌。然後被大家罵了。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;捏爛了手牌。然後被大家罵了。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3-1</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「仕方ないわね」とつぶやいた</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「별수없지」라고 중얼거렸다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; murmurs "I guess it can't be helped".</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;喃喃說著：「沒辦法了」。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;喃喃說著：「沒辦法了」。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3-2</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「あなたのためにこのカード出したんじゃないからね！」とつぶやいた</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「당신을 위해서 이 카드를 낸 게 아니거든!」이라고 중얼거렸다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; murmurs "I didn't play this card for you!"</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;喃喃說著：「我出這張牌才不是為了你咧！」。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;喃喃說著：「我出這張牌才不是為了你咧！」。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3-3</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が動揺しながら「いいだろう、この勝負の勝ちは君たちに譲ってやろう」とつぶやいた</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 동요하면서「좋아, 이 승부의 승리는 너에게 양도해 주도록 하지」라고 중얼거렸다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; is agitated and murmurs "that's ok, I'll leave the winning up to you guys".</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;難掩動搖地喃喃說著：「也好，這局的勝利就讓給你們吧！」。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;難掩動搖地喃喃說著：「也好，這局的勝利就讓給你們吧！」。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3-4</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;の手札がまるでセレブの持つ扇のようだ。枚数が増えてるかもしれない。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님의 손 안의 패가 마치 상류층의 부채같다. 장수가 늘어난 건지도 모른다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; holds their hand like a celebrity holding a hand fan. The number of cards seem to be increasing.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;的手牌簡直像貴婦的扇子一樣豐厚。可能多了幾張牌。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;的手牌簡直像貴婦的扇子一樣豐厚。可能多了幾張牌。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3-5</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;の背後のバラが見える……気がする…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님의 배후에 장미가 보이는……듯하다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; has a rose behind their back....it feels like....</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;的背後……感覺好像有玫瑰盛開…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;的背後……感覺好像有玫瑰盛開…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3-6</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は「私とゲームできることを光栄に思うが良い」と気取った顔をした</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 「나와 게임을 할 수 있는 것을 영광으로 여기는게 좋아」라며 거드름피우는 얼굴을 했다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; looks pompous and says "you should feel honored to be playing with me".</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;一臉自以為是地說：「你們就以能和我玩牌為榮吧！」。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;一臉自以為是地說：「你們就以能和我玩牌為榮吧！」。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat3-7</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は「君たちのためにこのカードを出してあげよう」と宣言した</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 「너희들을 위해 이 카드를 내 주도록 하마」라고 선언했다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; announces "I'm going to play this card for all of you".</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;宣告：「為了你們好，我就出這張牌吧。」。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;宣告：「為了你們好，我就出這張牌吧。」。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-1</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;がおもむろに手札を口に含んだ！　そして戻した…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 천천히 손 안의 패를 입에 넣었다!　그리고 되돌려 놓았다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; slowly brings their hand up to their mouth!and then returns it....</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;不慌不忙地將手牌塞進嘴裡！然後拿了出來…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;不慌不忙地將手牌塞進嘴裡！然後拿了出來…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-2</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;がカードに唾を吐きかけ…るフリをした…！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 카드에 침을 뱉는…척을 했다…!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; pretends to spit on their card...!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;對牌吐口水…但只是做做樣子…！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;對牌吐口水…但只是做做樣子…！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-3</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「あ、UFOだ！」と叫んだ！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「어, UFO다!」라고 외쳤다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; shouts "Hey! A UFO!"</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;大喊：「啊，有幽浮！」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;大喊：「啊，有幽浮！」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-4</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「地震だ！」と言いながら貧乏揺すりをはじめた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「지진이다!」라고 말하며 다리를 달달 떨기 시작했다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; starts twitching their leg, and says "Earthquake!".</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;說：「地震了！」，並開始抖腳！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;說：「地震了！」，並開始抖腳！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-5</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は上がりを宣言した。……ウソだった。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 상승을 선언했다. ……거짓말 이었다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; claims they are moving up!...it was a lie.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;宣告牌出完了……但卻是謊報。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;宣告牌出完了……但卻是謊報。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-6</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;はみんなに自分の手札を配ろうとした。ルール違反なので止められた。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 모두에게 자신의 손 안의 패를 나누어 주려고 했다. 룰 위반이므로 제지당했다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; goes to give out their hand to everyone. And is stopped for breaking the rules.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;打算將自己的手牌發給大家。但因為違反規則所以被制止了。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;打算將自己的手牌發給大家。但因為違反規則所以被制止了。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-7</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;の投げたカードが&lt;Enemy&gt;の額に命中！！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 던진 카드가 &lt;Enemy&gt;님의 이마에 명중!!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; throws a card that hits &lt;Enemy&gt;!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;丟出去的牌命中了&lt;Enemy&gt;的額頭！！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;丟出去的牌命中了&lt;Enemy&gt;的額頭！！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-8</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が手札を手品で消した！ しかし、足元に落ちていた…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 손 안의 패를 마술로 없앴다! 그러나, 발치에 떨어져 있었다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; uses magic to make their hand disappear! But it had fallen to the floor…</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;變了一個讓手牌消失的魔術！ 但是牌掉在腳邊…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;變了一個讓手牌消失的魔術！ 但是牌掉在腳邊…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-9</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が&lt;Enemy&gt;の手札を取ろうとした。&lt;Enemy&gt;は喜ぶが、やっぱりルール違反だ。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 &lt;Enemy&gt;님의 손 안의 패를 집으려고 했다. &lt;Enemy&gt;님은 기뻐하지만, 역시 룰 위반이다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; tries to take &lt;Enemy&gt;'s hand. &lt;Enemy&gt; is pleased, but it's still against the rules.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;打算拿&lt;Enemy&gt;的手牌。&lt;Enemy&gt;很高興，但這還是違反規則。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;打算拿&lt;Enemy&gt;的手牌。&lt;Enemy&gt;很高興，但這還是違反規則。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat4-10</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「ずっと&lt;Enemy&gt;のターン！！」と言ってみた。しかし、誰も聞いてなかった。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「계속&lt;Enemy&gt;님의 턴!!」이라고 말해 보았다. 그러나, 아무도 듣지 않았다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; says "It's always &lt;Enemy&gt;'s turn!!". But nobody was listening.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;不爽地說道：「一直都是&lt;Enemy&gt;的回合！！」。但是，沒有人反應。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;不爽地說道：「一直都是&lt;Enemy&gt;的回合！！」。但是，沒有人反應。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5-1</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が&lt;Enemy&gt;に熱い視線を送っている！　何か考えがありそうだ</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 &lt;Enemy&gt;님에게 뜨거운 시선을 보내고 있다! 뭔가 생각이 있는 모양이다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; gives &lt;Enemy&gt; a heated glance! They seem to have an idea.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;對&lt;Enemy&gt;投以熱情的視線！似乎有什麼想法。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;對&lt;Enemy&gt;投以熱情的視線！似乎有什麼想法。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5-2</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が&lt;Enemy&gt;にウインクをした！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 &lt;Enemy&gt;님에게 윙크를 했다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; winks at &lt;Enemy&gt;!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;對&lt;Enemy&gt;眨了眨眼！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;對&lt;Enemy&gt;眨了眨眼！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5-3</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が&lt;Enemy&gt;を舐めるように見た…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 &lt;Enemy&gt;님을 핥듯이 쳐다 보았다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; looks as if they are licking &lt;Enemy&gt;…</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;以輕視的眼神看著&lt;Enemy&gt;…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;以輕視的眼神看著&lt;Enemy&gt;…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5-4</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が&lt;Enemy&gt;の手札を見つめている…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 &lt;Enemy&gt;님의 손 안의 패를 바라보고 있다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; is watching &lt;Enemy&gt;'s hand…</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;注視著&lt;Enemy&gt;的手牌…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;注視著&lt;Enemy&gt;的手牌…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5-5</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が&lt;Enemy&gt;に愛の告白をするようだ</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 &lt;Enemy&gt;님에게 사랑을 고백할 모양이다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; seems to be confessing their love to &lt;Enemy&gt;.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;似乎想對&lt;Enemy&gt;做出愛的告白。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;似乎想對&lt;Enemy&gt;做出愛的告白。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5-6</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は&lt;Enemy&gt;を見つめた。&lt;Enemy&gt;は視線を逸らした……</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 &lt;Enemy&gt;님을 바라보았다. &lt;Enemy&gt;님은 시선을 돌렸다……</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; stares at &lt;Enemy&gt;. &lt;Enemy&gt; averts their gaze…</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;注視著&lt;Enemy&gt;。&lt;Enemy&gt;避開了視線……。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;注視著&lt;Enemy&gt;。&lt;Enemy&gt;避開了視線……。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat5-7</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;は&lt;Enemy&gt;にアイコンタクトを送った。しかし、意味は分からなかった…</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님은 &lt;Enemy&gt;님에게 아이콘택트를 보냈다. 그러나 의미는 알 수 없었다…</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; has eye contact with &lt;Enemy&gt;. But doesn't know why…</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;對&lt;Enemy&gt;使了個眼色。但是意思並沒有傳達…。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;對&lt;Enemy&gt;使了個眼色。但是意思並沒有傳達…。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-1</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「&lt;Enemy&gt;、そんな手札で大丈夫か？」と聞いてきた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「&lt;Enemy&gt;, 그런 패로 괜찮은가?」라고 물어왔다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; asks "&lt;Enemy&gt; are you sure your hand is ok?"!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;問了：「&lt;Enemy&gt;，你拿那種手牌行嗎？」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;問了：「&lt;Enemy&gt;，你拿那種手牌行嗎？」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-2</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「素人はひっこむんだ、ここからはプロの出番だ…」とつぶやいた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「초심자는 들어가 있어, 여기부터는 프로의 차례다…」라고 중얼거렸다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; murmurs "enough of the amateurs, now it's time for the pros..."!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;喃喃說著：「門外漢閃邊去，接下來換專業的出牌了…」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;喃喃說著：「門外漢閃邊去，接下來換專業的出牌了…」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-3</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「おっと、そんなあまあまな出し方して良いのかい？」と余裕の表情を浮かべた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「어이쿠, 그런 적당한 제시를 해도 좋은가?」라며 여유로운 표정을 띄웠다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; is relaxed and says "Oops, are you sure that kind of simple play is ok?"!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;說：「哎呀，你那種軟趴趴的出牌方式能贏嗎？」，表情顯得遊刃有餘！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;說：「哎呀，你那種軟趴趴的出牌方式能贏嗎？」，表情顯得遊刃有餘！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-4</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「&lt;Enemy&gt;、キサマの悪運もここまでだ…」とつぶやいた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「&lt;Enemy&gt;, 네놈의 악운도 여기까지다…」라고 중얼거렸다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; murmurs "&lt;Enemy&gt;, that's the end of your bad luck..."!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;喃喃說著：「&lt;Enemy&gt;，你的狗屎運也只能走到這裡了…」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;喃喃說著：「&lt;Enemy&gt;，你的狗屎運也只能走到這裡了…」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-5</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「余裕だぜ…」とつぶやいた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「여유지…」라고 중얼거렸다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; murmurs "no problems..."!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;喃喃說著：「這只是小意思…」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;喃喃說著：「這只是小意思…」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-6</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「ずっと私のターン！」と控えめに言った！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「계속 나의 턴!」이라고 조심스럽게 말했다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; says modestly "It's always my turn!"!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;低聲說著：「一直都是我的回合！」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;低聲說著：「一直都是我的回合！」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-7</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「オレに出番を回して良いのか？」と周りを見渡した。</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「나에게 차례를 돌려도 괜찮겠어?」라며 주변을 둘러보았다.</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; looks around and says "are you sure its safe to give me a turn?".</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;環顧四周，說：「可以換我出牌嗎？」</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;環顧四周，說：「可以換我出牌嗎？」</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-8</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「これでオレの勝利は決まった！」と高らかに言い放った！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「이걸로 나의 승리는 결정되었다!」라며 소리 높여 외쳤다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; declares in a loud voice "Now I'm certain to win!"!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;高聲張揚說：「這下我贏定了！」！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;高聲張揚說：「這下我贏定了！」！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-9</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「私が次に出すカード、分かるか？」と挑戦的なまなざしを向けた！</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「내가 다음에 낼 카드, 알겠어?」라며 도전적인 눈빛을 보냈다!</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; lays down a challenge, and says "I bet you don't know what card I'm going to play next"!</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;說：「你知道我下一次要出哪張牌嗎？」，眼神中帶著挑戰的意味！</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;說：「你知道我下一次要出哪張牌嗎？」，眼神中帶著挑戰的意味！</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">EmotionChat6-10</LANG>
+    <LANG ID="ja-JP">&lt;Player&gt;が「&lt;Enemy&gt;、お前が次に出すカードはアレだろう？」と言うが、カードは指定しなかった</LANG>
+    <LANG ID="ko-KR">&lt;Player&gt;님이 「&lt;Enemy&gt;, 네가 다음에 낼 카드는 그거지?」라고 말하지만, 카드는 지정하지 않았다</LANG>
+    <LANG ID="en-SG">&lt;Player&gt; says "&lt;Enemy&gt;, you're going to play that card next, aren't you?", but doesn't say which card.</LANG>
+    <LANG ID="zh-HK">&lt;Player&gt;說：「&lt;Enemy&gt;，你下一次要出那張牌對吧？」，但沒有指明是哪張牌。</LANG>
+    <LANG ID="zh-TW">&lt;Player&gt;說：「&lt;Enemy&gt;，你下一次要出那張牌對吧？」，但沒有指明是哪張牌。</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">saveMsg_1</LANG>
+    <LANG ID="ja-JP">ヘル獲得！&lt;&lt;ただいまの所持数</LANG>
+    <LANG ID="ko-KR">헬 획득!&lt;&lt;현재 소지헬 수</LANG>
+    <LANG ID="en-SG">Hell obtained! &lt;&lt;Amount in hand at present</LANG>
+    <LANG ID="zh-HK">獲得Hell了！&lt;&lt;現在擁有的數量</LANG>
+    <LANG ID="zh-TW">獲得Hell了！&lt;&lt;現在擁有的數量</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">saveMsg_2</LANG>
+    <LANG ID="ja-JP">ヘル&gt;&gt;</LANG>
+    <LANG ID="ko-KR">헬&gt;&gt;</LANG>
+    <LANG ID="en-SG">Hell&gt;&gt;</LANG>
+    <LANG ID="zh-HK">Hell&gt;&gt;</LANG>
+    <LANG ID="zh-TW">Hell&gt;&gt;</LANG>
+  </PHRASE>
+</LOCALISATION>

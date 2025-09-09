@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/xmas_muimui/advance_xmas_muimui.mdl" />
+		<model name="00_adm_modelonly.mdl" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/00_adm_modelonly.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/xmas_muimui/advance_xmas_muimui.hkx" />
+		<anim name="04_adm_locoin_1shot.ani" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/04_adm_locoin_1shot.ani" />
+		<anim name="01_adm_nearidle_loop.ani" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/01_adm_nearidle_loop.ani" />
+		<anim name="02_adm_faridle_loop.ani" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/02_adm_faridle_loop.ani" />
+		<anim name="03_adm_locoout_1shot.ani" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/03_adm_locoout_1shot.ani" />
+		<skeleton name="00_adm_modelonly.skn" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/00_adm_modelonly.skn" />
+		<soundstream name="MUI_01.mp3" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/MUI_01.mp3" />
+		<soundstream name="LOCO_03_01.mp3" deferred_loading="false" protected="false" file="Furniture/xmas_muimui/LOCO_03_01.mp3" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Furniture/xmas_muimui/main.lua" />
+	</local>
+	<external />
+</resources>

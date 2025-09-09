@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/model/pet_ghost.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/model/pet_ghost.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="false" protected="false" file="CompanionFollowers/pet_ghost/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/anim/pet_ghost_mot01.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/anim/pet_ghost_mot01.ani" memory="host" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/anim/applaud.ani" memory="host" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/anim/an_yawn.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/anim/pet_ghost_mot02.ani" memory="host" />
+		<anim name="ani.shakefists" deferred_loading="true" protected="false" file="CompanionFollowers/pet_ghost/anim/shakefists.ani" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="CompanionFollowers/pet_ghost/skeleton/pet_ghost.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/pet_ghost/lua/boot.luac" memory="host" id="437254856" />
+	</local>
+	<external />
+</resources>

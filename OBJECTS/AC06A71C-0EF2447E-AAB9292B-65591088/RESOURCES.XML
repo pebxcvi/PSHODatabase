@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Luggage01mdl" deferred_loading="false" protected="false" file="environments/hogwarts_express/props/Luggage02_Animated.mdl" memory="host" />
+		<model name="ectoplasmMdl" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/model/duel_ectoplasm_m_01.mdl" memory="host" />
+		<model name="lightMdl" deferred_loading="false" protected="false" file="environments/hogwarts_express/props/wallLight_Animated.mdl" memory="host" />
+		<model name="NPCModel" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_prefect_NPC.mdl" memory="host" />
+		<model name="wandModel" deferred_loading="false" protected="false" file="MiniGames/wizards_duel/models/wand.mdl" />
+		<model name="Shield.mdl" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/model/Shield.mdl" />
+		<texture name="Controller" deferred_loading="false" protected="false" file="UI/textures/Controller.dds" />
+		<texture name="circlebutton" deferred_loading="false" protected="false" file="UI/textures/circle_Matalic.dds" />
+		<texture name="DuelFrame" deferred_loading="false" protected="false" file="UI/textures/Duel_Frame.dds" />
+		<texture name="RecoveryBar" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/RecoveryBar.dds" />
+		<texture name="reticuleFumos" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Crosshair_Spell1.dds" />
+		<texture name="reticuleFlipendo" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Crosshair_Spell2.dds" />
+		<texture name="reticuleColloshoo" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Crosshair_Spell3.dds" />
+		<texture name="spell1" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/spell1.dds" />
+		<texture name="spell2" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/spell2.dds" />
+		<texture name="spell3" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/spell3.dds" />
+		<texture name="squarebutton" deferred_loading="false" protected="false" file="UI/textures/square_Matalic.dds" />
+		<texture name="TimeBar" deferred_loading="false" protected="false" file="UI/textures/Time_Bar.dds" />
+		<texture name="trianglebutton" deferred_loading="false" protected="false" file="UI/textures/triangle_Matalic.dds" />
+		<texture name="Stick" deferred_loading="false" protected="false" file="UI/textures/Stick.dds" />
+		<texture name="loadcircle" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/loadcircle.dds" />
+		<texture name="dialogtri" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/dialogtri.dds" />
+		<texture name="dialog" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/dialog.dds" />
+		<texture name="wand" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Spell_Select_Arrow.dds" />
+		<texture name="SpellBall3Sel" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Spellball_Selected3.dds" />
+		<texture name="SpellBall3" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/spellball3.dds" />
+		<texture name="SpellBall2Sel" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Spellball_Selected2.dds" />
+		<texture name="SpellBall2" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/spellball2.dds" />
+		<texture name="SpellBall1Sel" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Spellball_Selected1.dds" />
+		<texture name="SpellBall1" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/spellball1.dds" />
+		<texture name="CountdownFlash" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Countdown_Flash.dds" />
+		<texture name="CountdownRing" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Countdown_Rings.dds" />
+		<texture name="glitter.dds" deferred_loading="false" protected="false" file="ATGParticles/Generic/Textures/glitter.dds" />
+		<texture name="shield.dds" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/model/textures/shield.dds" />
+		<texture name="counterBtnCircle" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/circlebutton.dds" />
+		<texture name="counterBtnCircleFade" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/circlebutton_Fade.dds" />
+		<texture name="counterBtnCircleRed" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/circlebutton_Red.dds" />
+		<texture name="counterBtnSquare" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/squarebutton.dds" />
+		<texture name="counterBtnSquareFade" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/squarebutton_Fade.dds" />
+		<texture name="counterBtnSquareRed" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/squarebutton_Red.dds" />
+		<texture name="counterBtnTri" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/trianglebutton.dds" />
+		<texture name="counterBtnTriFade" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/trianglebutton_Fade.dds" />
+		<texture name="counterBtnTriRed" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/trianglebutton_Red.dds" />
+		<texture name="Spell_Selector.dds" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/images/Spell_Selector.dds" />
+		<particle name="cast_effect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/MagicBolt.efx" />
+		<particle name="onHitEffectPetrificus" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Hit_Pertificus_Totalus.efx" />
+		<particle name="onHitEffectFlipendo" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Hit_Flipendo.efx" />
+		<particle name="counterClashBreak" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Clash_Break.efx" />
+		<particle name="Fumos" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Fumos.efx" />
+		<particle name="luggageEffect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Luggage_Hit.efx" />
+		<particle name="lightEffect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spark_TrainLights.efx" />
+		<particle name="wandLight" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/wandLightTrail.efx" />
+		<particle name="PetrificusBolt" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Pertificus_Totalus.efx" />
+		<particle name="FlipendoBolt" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Flipendo.efx" />
+		<particle name="FumosBolt" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Fumos.efx" />
+		<particle name="PetrificusEffect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbullet_Pertificus_Totalus.efx" />
+		<particle name="FlipendoEffect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbullet_Flipendo.efx" />
+		<particle name="FumosEffect" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbullet_Fumos.efx" />
+		<particle name="PetrificusBlock" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Block_Pertificus_Totalus.efx" />
+		<particle name="FlipendoBlock" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Block_Flipendo.efx" />
+		<particle name="FumosBlock" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Block_Fumos.efx" />
+		<particle name="Spellbolt_Flipendo_End.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Flipendo_End.efx" />
+		<particle name="Spellbolt_Flipendo_Rebound.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Flipendo_Rebound.efx" />
+		<particle name="Spellbolt_Fumos_End.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Fumos_End.efx" />
+		<particle name="Spellbolt_Fumos_Rebound.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Fumos_Rebound.efx" />
+		<particle name="Spellbolt_Pertificus_End.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Pertificus_Totalus_End.efx" />
+		<particle name="Spellbolt_Pertificus_Rebound.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Pertificus_Totalus_Rebound.efx" />
+		<particle name="Spellbolt_Flipendo_Draw.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Flipendo_Draw.efx" />
+		<particle name="Spellbolt_Fumos_Draw.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Fumos_Draw.efx" />
+		<particle name="Spellbolt_Pertificus_Draw.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spellbolt_Pertificus_Totalus_Draw.efx" />
+		<particle name="Spell_Block.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Spell_Block.efx" />
+		<file name="RtNetwork" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/file/Network.xml" />
+		<file name="BookmanFont" deferred_loading="false" protected="false" file="UI/Fonts/BOOKOS.TTF" />
+		<collision name="furnitureradius" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/collision/furnitureradius.hkx" />
+		<collision name="colSphere" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/collision/col_sphere.hkx" />
+		<collision name="remoteColl" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/collision/wizardDualCapsule.hkx" />
+		<collision name="Luggage01hkx" deferred_loading="false" protected="false" file="environments/hogwarts_express/props/Luggage02_Animated.hkx" />
+		<collision name="lightHkx" deferred_loading="false" protected="false" file="environments/hogwarts_express/props/wallLight_Animated.hkx" />
+		<collision name="nomanslandHkx" deferred_loading="false" protected="false" file="environments/hogwarts_express/hogwartsExpressDualBlock.hkx" />
+		<anim name="DUEL_IDLE_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_IDLE_M_01.ani" memory="main" />
+		<anim name="DUEL_RIGHT_SLOW_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RIGHT_SLOW_M_01.ani" memory="main" />
+		<anim name="DUEL_BACKWARD_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BACKWARD_M_01.ani" memory="main" />
+		<anim name="DUEL_BACKWARD_SLOW_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BACKWARD_SLOW_M_01.ani" memory="main" />
+		<anim name="DUEL_FORWARD_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FORWARD_M_01.ani" memory="main" />
+		<anim name="DUEL_FORWARD_SLOW_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FORWARD_SLOW_M_01.ani" memory="main" />
+		<anim name="DUEL_RIGHT_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RIGHT_M_01.ani" memory="main" />
+		<anim name="DUEL_LEFT_SLOW_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LEFT_SLOW_M_01.ani" memory="main" />
+		<anim name="DUEL_LEFT_M_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LEFT_M_01.ani" memory="main" />
+		<anim name="AnimCounterWin" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOCK_M_01.ani" />
+		<anim name="AnimCounterNeutral" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOCK_M_02.ani" />
+		<anim name="AnimCounterLose" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOCK_M_03.ani" />
+		<anim name="AnimFlipendo" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_FLIPENDO_M_01.ani" memory="main" />
+		<anim name="AnimIncendio" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_INCENDIO_M_01.ani" memory="main" />
+		<anim name="AnimFumosHit" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FUMOS_M_01.ani" memory="main" />
+		<anim name="LuggageShakeAnim" deferred_loading="false" protected="false" file="realtimegames\wizardsduel\animation\DUEL_SHAKE_L2_01.ani" memory="main" />
+		<anim name="AnimFlipendoHit" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FLIPENDO_M_01.ani" memory="main" />
+		<anim name="AnimPetrificusHit" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RECOVER_BIND_M_01.ani" memory="main" />
+		<anim name="AnimPetrificusHitF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RECOVER_BIND_F_01.ani" memory="main" />
+		<anim name="AnimPetrificusWin" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_BIND_M_01.ani" memory="main" />
+		<anim name="AnimPetrificusWinF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_BIND_F_01.ani" memory="main" />
+		<anim name="AnimPetrificusLose1" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_M_01.ani" memory="main" />
+		<anim name="AnimPetrificusLose2" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_M_02.ani" memory="main" />
+		<anim name="AnimPetrificusLose3" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_M_03.ani" memory="main" />
+		<anim name="AnimPetrificusLose4" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_M_04.ani" memory="main" />
+		<anim name="AnimPetrificusLose1F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_F_01.ani" memory="main" />
+		<anim name="AnimPetrificusLose2F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_F_02.ani" memory="main" />
+		<anim name="AnimPetrificusLose3F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_F_03.ani" memory="main" />
+		<anim name="AnimPetrificusLose4F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_BIND_F_04.ani" memory="main" />
+		<anim name="AnimPetrificusLose21F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_F_01.ani" memory="main" />
+		<anim name="AnimPetrificusLose22F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_F_02.ani" memory="main" />
+		<anim name="AnimPetrificusLose23F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_F_03.ani" memory="main" />
+		<anim name="AnimPetrificusLose24F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_F_04.ani" memory="main" />
+		<anim name="AnimPetrificusLose21" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_M_01.ani" memory="main" />
+		<anim name="AnimPetrificusLose22" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_M_02.ani" memory="main" />
+		<anim name="AnimPetrificusLose23" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_M_03.ani" memory="main" />
+		<anim name="AnimPetrificusLose24" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_BIND_M_04.ani" memory="main" />
+		<anim name="AnimFlipendoRecover" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RECOVER_FLIPENDO_01.ani" memory="main" />
+		<anim name="AnimBlock" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_BLOCK_M_01.ani" memory="main" />
+		<anim name="Luggage01Ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_L2_01.ani" memory="main" />
+		<anim name="staggerright" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_RIGHT_M_01.ani" memory="main" />
+		<anim name="staggerbackwards" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_BACK_M_01.ani" memory="main" />
+		<anim name="staggerforward" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_FORWARD_M_01.ani" memory="main" />
+		<anim name="staggerleft" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_LEFT_M_01.ani" memory="main" />
+		<anim name="AnimFrogIdle" deferred_loading="false" protected="false" file="MiniGames/TrainQuiz/animations/QUIZ_JUMPLOW_PUFF_01.ani" memory="main" />
+		<anim name="AnimLight" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_S1_01.ani" memory="main" />
+		<anim name="ForwardPace" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FORWARD_PACE_M_01.ani" memory="main" />
+		<anim name="BowRude" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BOW_RUDE_01.ani" memory="main" />
+		<anim name="BowElaborate" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BOW_ELABORATE_01.ani" memory="main" />
+		<anim name="BowPolite" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BOW_POLITE_01.ani" memory="main" />
+		<anim name="DUEL_IDLE_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_IDLE_F_01.ani" memory="main" />
+		<anim name="DUEL_RIGHT_SLOW_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RIGHT_SLOW_F_01.ani" memory="main" />
+		<anim name="DUEL_FORWARD_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FORWARD_F_01.ani" memory="main" />
+		<anim name="DUEL_FORWARD_SLOW_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FORWARD_SLOW_F_01.ani" memory="main" />
+		<anim name="DUEL_RIGHT_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RIGHT_F_01.ani" memory="main" />
+		<anim name="DUEL_LEFT_SLOW_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LEFT_SLOW_F_01.ani" memory="main" />
+		<anim name="DUEL_LEFT_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LEFT_F_01.ani" memory="main" />
+		<anim name="AnimCounterWinF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOCK_F_01.ani" />
+		<anim name="AnimCounterNeutralF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOCK_F_02.ani" />
+		<anim name="AnimCounterLoseF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOCK_F_03.ani" />
+		<anim name="AnimIncendioF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_INCENDIO_F_01.ani" memory="main" />
+		<anim name="AnimFumosHitF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FUMOS_F_01.ani" memory="main" />
+		<anim name="AnimFlipendoHitF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FLIPENDO_F_01.ani" memory="main" />
+		<anim name="AnimFlipendoRecoverF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RECOVER_FLIPENDO_F_01.ani" memory="main" />
+		<anim name="AnimBlockF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_BLOCK_F_01.ani" memory="main" />
+		<anim name="staggerrightF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_RIGHT_F_01.ani" memory="main" />
+		<anim name="staggerbackwardsF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_BACK_F_01.ani" memory="main" />
+		<anim name="staggerforwardF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_FORWARD_F_01.ani" memory="main" />
+		<anim name="staggerleftF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_PUSH_LEFT_F_01.ani" memory="main" />
+		<anim name="ForwardPaceF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FORWARD_PACE_F_01.ani" memory="main" />
+		<anim name="BowRudeF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BOW_RUDE_F_01.ani" memory="main" />
+		<anim name="BowElaborateF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BOW_ELABORATE_F_01.ani" memory="main" />
+		<anim name="BowPoliteF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BOW_POLITE_F_01.ani" memory="main" />
+		<anim name="DUEL_BACKWARD_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BACKWARD_F_01.ani" memory="main" />
+		<anim name="DUEL_BACKWARD_SLOW_M_01F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BACKWARD_SLOW_F_01.ani" memory="main" />
+		<anim name="AnimFlipendoF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_FLIPENDO_F_01.ani" memory="main" />
+		<anim name="AnimPetrificus" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_COLLOSHOO_M_01.ani" memory="main" />
+		<anim name="AnimPetrificusF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_CAST_COLLOSHOO_F_01.ani" memory="main" />
+		<anim name="NPCAni" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_prefect_NPC.ani" memory="main" />
+		<anim name="anm_flipendo_deadM" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_FLIPENDO_M_01.ani" />
+		<anim name="anm_flipendo_failM" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FAIL_FLIPENDO_M_01.ani" />
+		<anim name="anm_flipendo_struggleM" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_STRUGGLE_FLIPENDO_M_01.ani" />
+		<anim name="anm_flipendo_winM" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_FLIPENDO_M_01.ani" />
+		<anim name="animLoseGameF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_F_01.ani" />
+		<anim name="animLoseGameM" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOSE_M_01.ani" />
+		<anim name="animWinGameF" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_F_01.ani" />
+		<anim name="animWinGameM" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_M_01.ani" />
+		<anim name="animPet1LostIntro" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_01.ani" />
+		<anim name="animPet1LostLoop" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_01B.ani" />
+		<anim name="animPet2LostIntro" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_02.ani" />
+		<anim name="animPet2LostLoop" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_02B.ani" />
+		<anim name="animPet3LostIntro" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_03.ani" />
+		<anim name="animPet3LostLoop" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_03B.ani" />
+		<anim name="animPet4LostIntro" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_04.ani" />
+		<anim name="animPet4LostLoop" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_M_04B.ani" />
+		<anim name="animLostFlipendoIntro" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_FLIPENDO_M_01.ani" />
+		<anim name="animLostFlipendoLoop" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_FLIPENDO_M_01B.ani" />
+		<anim name="DUEL_BATTLE_DRAW_M_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_DRAW_M_01.ani" />
+		<anim name="DUEL_BATTLE_DRAW_M_02.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_DRAW_M_02.ani" />
+		<anim name="DUEL_BATTLE_LOSE_M_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_LOSE_M_01.ani" />
+		<anim name="DUEL_BATTLE_WIN_M_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_WIN_M_01.ani" />
+		<anim name="DUEL_BATTLE_LOSE_F_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_LOSE_F_01.ani" />
+		<anim name="DUEL_BATTLE_WIN_F_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_WIN_F_01.ani" />
+		<anim name="DUEL_BATTLE_DRAW_F_01" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_DRAW_F_01.ani" />
+		<anim name="DUEL_BATTLE_DRAW_F_02" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_DRAW_F_02.ani" />
+		<anim name="DUEL_BATTLE_F_04.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_04.ani" />
+		<anim name="DUEL_BATTLE_F_05.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_05.ani" />
+		<anim name="DUEL_BATTLE_M_04.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_04.ani" />
+		<anim name="DUEL_BATTLE_M_05.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_05.ani" />
+		<anim name="DUEL_BATTLE_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_01.ani" />
+		<anim name="DUEL_BATTLE_F_02.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_02.ani" />
+		<anim name="DUEL_BATTLE_F_03.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_03.ani" />
+		<anim name="DUEL_BATTLE_M_03.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_03.ani" />
+		<anim name="DUEL_BATTLE_M_02.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_02.ani" />
+		<anim name="DUEL_BATTLE_M_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_01.ani" />
+		<anim name="DUEL_STRUGGLE_FLIPENDO_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_STRUGGLE_FLIPENDO_F_01.ani" />
+		<anim name="DUEL_WIN_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_F_01.ani" />
+		<anim name="DUEL_WIN_FLIPENDO_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_FLIPENDO_F_01.ani" />
+		<anim name="DUEL_FAIL_FLIPENDO_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FAIL_FLIPENDO_F_01.ani" />
+		<anim name="DUEL_DEAD_FLIPENDO_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEAD_FLIPENDO_F_01.ani" />
+		<anim name="DUEL_LOST_FLIPENDO_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_FLIPENDO_F_01.ani" />
+		<anim name="DUEL_LOST_FLIPENDO_F_01B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_FLIPENDO_F_01B.ani" />
+		<anim name="DUEL_LOST_BIND_F_01.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_01.ani" />
+		<anim name="DUEL_LOST_BIND_F_01B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_01B.ani" />
+		<anim name="DUEL_LOST_BIND_F_02.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_02.ani" />
+		<anim name="DUEL_LOST_BIND_F_02B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_02B.ani" />
+		<anim name="DUEL_LOST_BIND_F_03.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_03.ani" />
+		<anim name="DUEL_LOST_BIND_F_03B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_03B.ani" />
+		<anim name="DUEL_LOST_BIND_F_04.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_04.ani" />
+		<anim name="DUEL_LOST_BIND_F_04B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_LOST_BIND_F_04B.ani" />
+		<anim name="DUEL_BATTLE_F_01B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_01B.ani" />
+		<anim name="DUEL_BATTLE_F_02B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_02B.ani" />
+		<anim name="DUEL_BATTLE_F_03B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_03B.ani" />
+		<anim name="DUEL_BATTLE_F_04B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_F_04B.ani" />
+		<anim name="DUEL_BATTLE_M_01B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_01B.ani" />
+		<anim name="DUEL_BATTLE_M_02B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_02B.ani" />
+		<anim name="DUEL_BATTLE_M_03B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_03B.ani" />
+		<anim name="DUEL_BATTLE_M_04B.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_BATTLE_M_04B.ani" />
+		<anim name="DUEL_FAIL_FLIPENDO_F_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FAIL_FLIPENDO_F_01_F.ani" />
+		<anim name="DUEL_FAIL_FLIPENDO_M_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_FAIL_FLIPENDO_M_01_F.ani" />
+		<anim name="DUEL_HIT_FLIPENDO_F_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FLIPENDO_F_01_F.ani" />
+		<anim name="DUEL_HIT_FLIPENDO_M_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FLIPENDO_M_01_F.ani" />
+		<anim name="DUEL_HIT_FUMOS_F_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FUMOS_F_01_F.ani" />
+		<anim name="DUEL_HIT_FUMOS_M_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_HIT_FUMOS_M_01_F.ani" />
+		<anim name="DUEL_RECOVER_BIND_F_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RECOVER_BIND_F_01_F.ani" />
+		<anim name="DUEL_RECOVER_BIND_M_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_RECOVER_BIND_M_01_F.ani" />
+		<anim name="DUEL_STRUGGLE_FLIPENDO_F_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_STRUGGLE_FLIPENDO_F_01_F.ani" />
+		<anim name="DUEL_STRUGGLE_FLIPENDO_M_01_F.ani" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_STRUGGLE_FLIPENDO_M_01_F.ani" />
+		<anim name="DUEL_IDLE_M_01_F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_IDLE_M_01_F.ani" />
+		<anim name="DUEL_DEFAULT_M_01_F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEFAULT_M_01_F.ani" />
+		<anim name="DUEL_WIN_M_01_F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_M_01_F.ani" />
+		<anim name="DUEL_IDLE_F_01_F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_IDLE_F_01_F.ani" />
+		<anim name="DUEL_DEFAULT_F_01_F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_DEFAULT_F_01_F.ani" />
+		<anim name="DUEL_WIN_F_01_F" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_WIN_F_01_F.ani" />
+		<skeleton name="ectoplasmSkl" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/model/duel_ectoplasm_m_01.skn" />
+		<skeleton name="Luggage01Skn" deferred_loading="false" protected="false" file="environments/hogwarts_express/props/Luggage02_Animated.skn" />
+		<skeleton name="lightSkn" deferred_loading="false" protected="false" file="environments/hogwarts_express/props/wallLight_Animated.skn" />
+		<skeleton name="NPCSkel" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_prefect_NPC.skn" />
+		<soundbank name="SoundFx" deferred_loading="false" protected="false" file="Audio/Games/PM_SFX_WizardsDuel.bnk" memory="main" />
+		<soundbank name="VoiceOver" deferred_loading="false" protected="false" file="Audio/VOX/PM_VOX_Spells.bnk" memory="main" />
+		<soundstream name="WandDuel" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/sound/WandDuel.mp3" memory="main" />
+		<repertoire name="female_rep" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/repertoire/female_rep.xml" />
+		<repertoire name="male_rep" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/repertoire/male_rep.xml" />
+		<lua name="DebugUtils" deferred_loading="false" protected="true" file="Lua/Shared/DebugUtils.lua" />
+		<lua name="BasicSpells" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/BasicSpells.lua" />
+		<lua name="Collider" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Collider.lua" />
+		<lua name="Debug" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Debug.lua" />
+		<lua name="DebugLineManager" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/DebugLineManager.lua" />
+		<lua name="Destructible" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Destructible.lua" />
+		<lua name="DestructibleManager" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/DestructibleManager.lua" />
+		<lua name="EndLobby" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/EndLobby.lua" />
+		<lua name="DuelState" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/DuelState.lua" />
+		<lua name="GameState" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/GameState.lua" />
+		<lua name="LocPlayer" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/LocPlayer.lua" />
+		<lua name="Main" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Main.lua" />
+		<lua name="MinigameHelper" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/MinigameHelper.lua" />
+		<lua name="MusicHandler" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/MusicHandler.lua" />
+		<lua name="NetworkHandler" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/NetworkHandler.lua" />
+		<lua name="OsdHandler" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/OsdHandler.lua" />
+		<lua name="Player" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Player.lua" />
+		<lua name="PlayerCamera" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/PlayerCamera.lua" />
+		<lua name="PlayerManager" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/PlayerManager.lua" />
+		<lua name="RechargeMeter" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/RechargeMeter.lua" />
+		<lua name="SpellManager" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/SpellManager.lua" />
+		<lua name="TutorialManager" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/TutorialManager.lua" />
+		<lua name="Window" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Window.lua" />
+		<lua name="TimerOSD" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/TimerOSD.lua" />
+		<lua name="StartLobby" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/StartLobby.lua" />
+		<lua name="Spell" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Spell.lua" />
+		<lua name="RtCode" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/RtCode.lua" />
+		<lua name="RemotePlayer" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/RemotePlayer.lua" />
+		<lua name="SinglePlayerGameManager" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/SinglePlayerGameManager.lua" />
+		<lua name="Frog" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/Frog.lua" />
+		<lua name="PadShaker" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/PadShaker.lua" />
+		<lua name="WaveBrain" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/WaveBrain.lua" />
+		<lua name="ElipseCamera" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/ElipseCamera.lua" />
+		<lua name="LightManager" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/LightManager.lua" />
+		<lua name="BasePlayer.lua" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/BasePlayer.lua" />
+		<lua name="NPCPlayer.lua" deferred_loading="false" protected="true" file="realtimegames/wizardsduel/script/NPCPlayer.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">headerName</name>
+		<description type="string">headerDescription_SCEE</description>
+		<author type="string">Staffan Langin</author>
+		<object_version type="string">1.00</object_version>
+		<company type="string">Entertainment Products of Sweden AB</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">12</minimum_age>
+				<parental_control_level type="int">5</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">US</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">5</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">KR</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">7</minimum_age>
+				<parental_control_level type="int">5</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">CA</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">5</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">DE</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">7</minimum_age>
+				<parental_control_level type="int">5</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<lua_environment>
+		<script type="string">main</script>
+	</lua_environment>
+	<network>
+		<definition type="string" />
+		<on_bag_created type="string" />
+		<on_bag_deleted type="string" />
+		<on_message_received type="string">OnMessageReceived()</on_message_received>
+		<auto_replicate type="bool">false</auto_replicate>
+	</network>
+	<event_timer>
+		<name type="string" />
+		<command type="string">Update()</command>
+		<interval type="float">0</interval>
+	</event_timer>
+	<osd>
+		<types type="string" />
+	</osd>
+	<pad />
+	<renderer />
+	<system />
+	<game_launch>
+		<communication_id type="string">NPWR00362</communication_id>
+		<on_session_setup type="string">OnSessionSetup()</on_session_setup>
+		<on_request_full_refresh type="string">OnRequestFullRefresh()</on_request_full_refresh>
+		<on_add_player type="string">OnAddPlayer()</on_add_player>
+		<on_remove_player type="string">OnRemovePlayer()</on_remove_player>
+		<on_export_session_file type="string">OnExportSessionFile()</on_export_session_file>
+		<on_session_master_changed type="string">OnSessionMasterChanged()</on_session_master_changed>
+		<show_ui type="string">ShowUI()</show_ui>
+		<menu_options_xml type="string" />
+		<auto_export_session_file type="bool">false</auto_export_session_file>
+	</game_launch>
+</objectdef>

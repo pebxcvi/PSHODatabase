@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/farm_chicks/FARM_Chicks.mdl" />
+		<model name="FARM_Chick_BusterBlade.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chick_BusterBlade.mdl" />
+		<model name="FARM_Chick_RIG.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chick_RIG.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_chicks/FARM_Chicks.hkx" />
+		<anim name="FARM_Chick_Walk.ani" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chick_Walk.ani" />
+		<skeleton name="FARM_Chick_RIG.skn" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chick_RIG.skn" />
+		<soundstream name="Chicken_Baby.mp3" deferred_loading="false" protected="false" file="furniture/farm_chicks/audio/Chicken_Baby.mp3" />
+		<soundstream name="Chicken_Baby1.mp3" deferred_loading="false" protected="false" file="furniture/farm_chicks/audio/Chicken_Baby1.mp3" />
+		<soundstream name="Chicken_Baby2.mp3" deferred_loading="false" protected="false" file="furniture/farm_chicks/audio/Chicken_Baby2.mp3" />
+		<lua name="Chick.lua" deferred_loading="false" protected="true" file="furniture/farm_chicks/Chick.luac" />
+		<lua name="ChicksMain.lua" deferred_loading="false" protected="true" file="furniture/farm_chicks/ChicksMain.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_chicks/Utility.luac" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.52.0.2.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>A860BE2F-D55249AC-A73D0D5D-1E58AFBA</uuid>
+  <name lang="fr-FR" default="false">Récompense Canette Red Bull (pour Femme)</name>
+  <name lang="de-DE" default="false">Dose Red Bull (Damen)</name>
+  <name lang="it-IT" default="false">Lattina di Red Bull premio (Donna)</name>
+  <name lang="es-ES" default="false">lata de premio (para mujer)</name>
+  <name lang="en-US" default="true">Red Bull Can Reward (for Female)</name>
+  <description lang="fr-FR" default="false">Maintenant vous et votre avatar pouvez boire une Red Bull au même moment [#Legal]</description>
+  <description lang="de-DE" default="false">Jetzt kannst du gemeinsam mit deinem Avatar einen Red Bull trinken. [#Legal]</description>
+  <description lang="it-IT" default="false">Ora tu e il tuo avatar potete bervi una Red Bull insieme. [#Legal]</description>
+  <description lang="es-ES" default="false">Ya sabes lo que dicen, ¡este refresco te dará alas! [#Legal]</description>
+  <description lang="en-US" default="true">Now you and your avatar can have a Red Bull at the same time. [#Legal]</description>
+  <maker lang="en-US" default="true">Red Bull</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <timestamp>B5620586</timestamp>
+</odc>

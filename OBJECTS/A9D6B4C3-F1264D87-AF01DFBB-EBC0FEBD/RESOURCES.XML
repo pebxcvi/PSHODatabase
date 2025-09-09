@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/PirateMusicBox2.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/lua/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/lua/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/PirateMusicBox2.hkx" />
+		<soundstream name="Gaelic_Voyage_QT_0012_01001.mp3" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/sound/Gaelic_Voyage_QT_0012_01001.mp3" />
+		<soundstream name="Prepare_To_Be_Boarded_END_0119_01401.mp3" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/sound/Prepare_To_Be_Boarded_END_0119_01401.mp3" />
+		<soundstream name="The_Seven_Seas_WOM_1008_01901.mp3" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/sound/The_Seven_Seas_WOM_1008_01901.mp3" />
+		<soundstream name="Treasure_Hunt_END_0102_01401.mp3" deferred_loading="false" protected="false" file="furniture/2011/pirates/pirates_adventuremusic/sound/Treasure_Hunt_END_0102_01401.mp3" />
+		<lua name="MusicPlayer.lua" deferred_loading="false" protected="true" file="furniture/2011/pirates/pirates_adventuremusic/lua/MusicPlayer.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="furniture/2011/pirates/pirates_adventuremusic/lua/MyPad.lua" />
+		<lua name="pirates_adventuremusic_main.lua" deferred_loading="false" protected="true" file="furniture/2011/pirates/pirates_adventuremusic/lua/pirates_adventuremusic_main.lua" />
+	</local>
+	<external />
+</resources>

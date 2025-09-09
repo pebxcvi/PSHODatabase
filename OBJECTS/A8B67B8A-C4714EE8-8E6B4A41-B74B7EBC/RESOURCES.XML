@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="PokerChair" file="minigames/framework/models/PokerchairGodfather.mdl" />
+		<model name="blackTable" file="minigames/framework/models/PokerTableGodfather.mdl" />
+		<model name="PokerChipOne" file="minigames/framework/models/1_chip.mdl" />
+		<model name="PokerChipFive" file="minigames/framework/models/5_chip.mdl" />
+		<model name="PokerChipTen" file="minigames/framework/models/10_chip.mdl" />
+		<model name="PokerChipTwentyFive" file="minigames/framework/models/25_chip.mdl" />
+		<model name="PokerChipOneHundred" file="minigames/framework/models/100_chip.mdl" />
+		<model name="PokerChipFiveHundred" file="minigames/framework/models/500_chip.mdl" />
+		<model name="PokerChipOneThousand" file="minigames/framework/models/1000_chip.mdl" />
+		<model name="PokerChipFiveThousand" file="minigames/framework/models/5000_chip.mdl" />
+		<model name="PokerChipTenThousand" file="minigames/framework/models/10000_chip.mdl" />
+		<model name="PokerChipOne_5Stack" file="minigames/framework/models/1_5stack.mdl" />
+		<model name="PokerChipFive_5Stack" file="minigames/framework/models/5_5stack.mdl" />
+		<model name="PokerChipTen_5Stack" file="minigames/framework/models/10_5stack.mdl" />
+		<model name="PokerChipTwentyFive_5Stack" file="minigames/framework/models/25_5stack.mdl" />
+		<model name="PokerChipOneHundred_5Stack" file="minigames/framework/models/100_5stack.mdl" />
+		<model name="PokerChipFiveHundred_5Stack" file="minigames/framework/models/500_5stack.mdl" />
+		<model name="PokerChipOneThousand_5Stack" file="minigames/framework/models/1000_5stack.mdl" />
+		<model name="PokerChipFiveThousand_5Stack" file="minigames/framework/models/5000_5stack.mdl" />
+		<model name="PokerChipTenThousand_5Stack" file="minigames/framework/models/10000_5stack.mdl" />
+		<model name="PokerChipOne_10Stack" file="minigames/framework/models/1_10stack.mdl" />
+		<model name="PokerChipFive_10Stack" file="minigames/framework/models/5_10stack.mdl" />
+		<model name="PokerChipTen_10Stack" file="minigames/framework/models/10_10stack.mdl" />
+		<model name="PokerChipTwentyFive_10Stack" file="minigames/framework/models/25_10stack.mdl" />
+		<model name="PokerChipOneHundred_10Stack" file="minigames/framework/models/100_10stack.mdl" />
+		<model name="PokerChipFiveHundred_10Stack" file="minigames/framework/models/500_10stack.mdl" />
+		<model name="PokerChipOneThousand_10Stack" file="minigames/framework/models/1000_10stack.mdl" />
+		<model name="PokerChipFiveThousand_10Stack" file="minigames/framework/models/5000_10stack.mdl" />
+		
+		<model name="SignModel" file="minigames/framework/models/flatPanel.mdl" />
+		
+		<texture name="Control" file="minigames/framework/textures/godfatherpoker/control.dds" deferred_loading="false" />
+		<texture name="Sign" file="minigames/framework/textures/godfatherpoker/leather_patch.dds" deferred_loading="false" />
+		<texture name="SignSmall" file="minigames/framework/textures/godfatherpoker/leather_patch_small.dds" deferred_loading="false" />
+		<texture name="LeftTray" file="minigames/framework/textures/godfatherpoker/left_tray.dds" deferred_loading="false" />
+		<texture name="RightTray" file="minigames/framework/textures/godfatherpoker/right_tray.dds" deferred_loading="false" />
+		<texture name="BigBlind" file="minigames/framework/textures/godfatherpoker/BigBlind.dds" deferred_loading="false" />
+		<texture name="Dealer" file="minigames/framework/textures/godfatherpoker/Dealer.dds" deferred_loading="false" />
+		<texture name="Folded" file="minigames/framework/textures/godfatherpoker/Folded.dds" deferred_loading="false" />
+		<texture name="SmallBlind" file="minigames/framework/textures/godfatherpoker/SmallBlind.dds" deferred_loading="false" />
+		<texture name="Logo" file="minigames/framework/textures/godfatherpoker/Texas_Hold-Em_Logo.dds" deferred_loading="false" />
+		<texture name="LogoBack" file="minigames/framework/textures/godfatherpoker/Card_Back_New.dds" deferred_loading="false" />
+		<texture name="2h" file="minigames/framework/textures/GodfatherPoker/2h.dds" deferred_loading="false" />
+		<texture name="3h" file="minigames/framework/textures/godfatherpoker/3h.dds" deferred_loading="false" />
+		<texture name="4h" file="minigames/framework/textures/godfatherpoker/4h.dds" deferred_loading="false" />
+		<texture name="5h" file="minigames/framework/textures/godfatherpoker/5h.dds" deferred_loading="false" />
+		<texture name="6h" file="minigames/framework/textures/godfatherpoker/6h.dds" deferred_loading="false" />
+		<texture name="7h" file="minigames/framework/textures/godfatherpoker/7h.dds" deferred_loading="false" />
+		<texture name="8h" file="minigames/framework/textures/godfatherpoker/8h.dds" deferred_loading="false" />
+		<texture name="9h" file="minigames/framework/textures/godfatherpoker/9h.dds" deferred_loading="false" />
+		<texture name="0h" file="minigames/framework/textures/godfatherpoker/0h.dds" deferred_loading="false" />
+		<texture name="jh" file="minigames/framework/textures/godfatherpoker/jh.dds" deferred_loading="false" />
+		<texture name="qh" file="minigames/framework/textures/godfatherpoker/qh.dds" deferred_loading="false" />
+		<texture name="kh" file="minigames/framework/textures/godfatherpoker/kh.dds" deferred_loading="false" />
+		<texture name="ah" file="minigames/framework/textures/godfatherpoker/ah.dds" deferred_loading="false" />
+		<texture name="2d" file="minigames/framework/textures/godfatherpoker/2d.dds" deferred_loading="false" />
+		<texture name="3d" file="minigames/framework/textures/godfatherpoker/3d.dds" deferred_loading="false" />
+		<texture name="4d" file="minigames/framework/textures/godfatherpoker/4d.dds" deferred_loading="false" />
+		<texture name="5d" file="minigames/framework/textures/godfatherpoker/5d.dds" deferred_loading="false" />
+		<texture name="6d" file="minigames/framework/textures/godfatherpoker/6d.dds" deferred_loading="false" />
+		<texture name="7d" file="minigames/framework/textures/godfatherpoker/7d.dds" deferred_loading="false" />
+		<texture name="8d" file="minigames/framework/textures/godfatherpoker/8d.dds" deferred_loading="false" />
+		<texture name="9d" file="minigames/framework/textures/godfatherpoker/9d.dds" deferred_loading="false" />
+		<texture name="0d" file="minigames/framework/textures/godfatherpoker/0d.dds" deferred_loading="false" />
+		<texture name="jd" file="minigames/framework/textures/godfatherpoker/jd.dds" deferred_loading="false" />
+		<texture name="qd" file="minigames/framework/textures/godfatherpoker/qd.dds" deferred_loading="false" />
+		<texture name="kd" file="minigames/framework/textures/godfatherpoker/kd.dds" deferred_loading="false" />
+		<texture name="ad" file="minigames/framework/textures/godfatherpoker/ad.dds" deferred_loading="false" />
+		<texture name="2c" file="minigames/framework/textures/godfatherpoker/2c.dds" deferred_loading="false" />
+		<texture name="3c" file="minigames/framework/textures/godfatherpoker/3c.dds" deferred_loading="false" />
+		<texture name="4c" file="minigames/framework/textures/godfatherpoker/4c.dds" deferred_loading="false" />
+		<texture name="5c" file="minigames/framework/textures/godfatherpoker/5c.dds" deferred_loading="false" />
+		<texture name="6c" file="minigames/framework/textures/godfatherpoker/6c.dds" deferred_loading="false" />
+		<texture name="7c" file="minigames/framework/textures/godfatherpoker/7c.dds" deferred_loading="false" />
+		<texture name="8c" file="minigames/framework/textures/godfatherpoker/8c.dds" deferred_loading="false" />
+		<texture name="9c" file="minigames/framework/textures/godfatherpoker/9c.dds" deferred_loading="false" />
+		<texture name="0c" file="minigames/framework/textures/godfatherpoker/0c.dds" deferred_loading="false" />
+		<texture name="jc" file="minigames/framework/textures/godfatherpoker/jc.dds" deferred_loading="false" />
+		<texture name="qc" file="minigames/framework/textures/godfatherpoker/qc.dds" deferred_loading="false" />
+		<texture name="kc" file="minigames/framework/textures/godfatherpoker/kc.dds" deferred_loading="false" />
+		<texture name="ac" file="minigames/framework/textures/godfatherpoker/ac.dds" deferred_loading="false" />
+		<texture name="2s" file="minigames/framework/textures/godfatherpoker/2s.dds" deferred_loading="false" />
+		<texture name="3s" file="minigames/framework/textures/godfatherpoker/3s.dds" deferred_loading="false" />
+		<texture name="4s" file="minigames/framework/textures/godfatherpoker/4s.dds" deferred_loading="false" />
+		<texture name="5s" file="minigames/framework/textures/godfatherpoker/5s.dds" deferred_loading="false" />
+		<texture name="6s" file="minigames/framework/textures/godfatherpoker/6s.dds" deferred_loading="false" />
+		<texture name="7s" file="minigames/framework/textures/godfatherpoker/7s.dds" deferred_loading="false" />
+		<texture name="8s" file="minigames/framework/textures/godfatherpoker/8s.dds" deferred_loading="false" />
+		<texture name="9s" file="minigames/framework/textures/godfatherpoker/9s.dds" deferred_loading="false" />
+		<texture name="0s" file="minigames/framework/textures/godfatherpoker/0s.dds" deferred_loading="false" />
+		<texture name="js" file="minigames/framework/textures/godfatherpoker/js.dds" deferred_loading="false" />
+		<texture name="qs" file="minigames/framework/textures/godfatherpoker/qs.dds" deferred_loading="false" />
+		<texture name="ks" file="minigames/framework/textures/godfatherpoker/ks.dds" deferred_loading="false" />
+		<texture name="as" file="minigames/framework/textures/godfatherpoker/as.dds" deferred_loading="false" />
+		<texture name="Up" file="minigames/framework/textures/PadButtons/pad-up.dds" deferred_loading="false" />
+		<texture name="Left" file="minigames/framework/textures/PadButtons/pad-left.dds" deferred_loading="false" />
+		<texture name="Right" file="minigames/framework/textures/PadButtons/pad-right.dds" deferred_loading="false" />
+		<texture name="Down" file="minigames/framework/textures/PadButtons/pad-down.dds" deferred_loading="false" />
+		<texture name="Circle" file="minigames/framework/textures/PadButtons/circle.dds" deferred_loading="false" />
+		<texture name="Square" file="minigames/framework/textures/PadButtons/square.dds" deferred_loading="false" />
+		<texture name="Triangle" file="minigames/framework/textures/PadButtons/triangle.dds" deferred_loading="false" />
+		<texture name="Cross" file="minigames/framework/textures/PadButtons/cross.dds" deferred_loading="false" />
+		<texture name="GreenSquare" file="minigames/framework/textures/godfatherpoker/GreenSquare.dds" deferred_loading="false" />
+		<file name="GameScript" file="minigames/framework/LUA/Obfuscated/Game.lua" deferred_loading="false" />
+		<file name="Network_xml" file="minigames/poker_new_godfather/XML/Network.xml" deferred_loading="false" />
+		<file name="OSDImage" file="minigames/framework/OSD/OSDImage.xml" />
+		<file name="OSDTextRight" file="minigames/framework/OSD/OSDTextRight.xml" />
+		<file name="OSDTextLeft" file="minigames/framework/OSD/OSDTextLeft.xml" />
+		<file name="OSDTextCenter" file="minigames/framework/OSD/OSDTextCenter.xml" />
+		<file name="OSDTextPanel" file="minigames/framework/OSD/OSDTextPanel.xml" />
+		<file name="OSDRootType" file="minigames/poker_new_godfather/OSD/PokerOSDRootTypes.xml" deferred_loading="false" />
+		<file name="Camera" file="minigames/framework/LUA/Obfuscated/Camera.lua" deferred_loading="false" />
+		<file name="SecurityManager" file="minigames/framework/LUA/Obfuscated/SecurityManager.lua" deferred_loading="false" />
+		<file name="Utilities" file="minigames/framework/LUA/Obfuscated/Utilities.lua" deferred_loading="false" />
+		<file name="EventManager" file="minigames/framework/LUA/Obfuscated/EventManager.lua" deferred_loading="false" />
+		<file name="MessageManager" file="minigames/framework/LUA/Obfuscated/MessageManager.lua" deferred_loading="false" />
+		<file name="LOL" file="minigames/framework/LUA/Obfuscated/LOL.lua" deferred_loading="false" />
+		<file name="TimerClass" file="minigames/framework/LUA/Obfuscated/TimerClass.lua" deferred_loading="false" />
+		<file name="CountdownTimerClass" file="minigames/framework/LUA/Obfuscated/CountdownTimerClass.lua" deferred_loading="false" />
+		<file name="ProcessManager" file="minigames/framework/LUA/Obfuscated/ProcessManager.lua" deferred_loading="false" />
+		<file name="InputManager" file="minigames/framework/LUA/Obfuscated/InputManager.lua" deferred_loading="false" />
+		<file name="Matrix" file="minigames/framework/LUA/Obfuscated/Matrix.lua" deferred_loading="false" />
+		<file name="OSD" file="minigames/framework/LUA/Obfuscated/OSD.lua" deferred_loading="false" />
+		<file name="ScreenManager" file="minigames/framework/LUA/Obfuscated/ScreenManager.lua" deferred_loading="false" />
+		<file name="MiniGame" file="minigames/poker_new_godfather/LUA/Obfuscated/Poker.lua" deferred_loading="false" />
+		<file name="PokerCamera" file="minigames/poker_new_godfather/LUA/Obfuscated/PokerCamera.lua" deferred_loading="false" />
+		<file name="PokerTableLUA" file="minigames/poker_new_godfather/LUA/Obfuscated/PokerTable.lua" deferred_loading="false" />
+		<file name="PokerChairLUA" file="minigames/poker_new_godfather/LUA/Obfuscated/PokerChair.lua" deferred_loading="false" />
+		<file name="PokerChip" file="minigames/poker_new_godfather/LUA/Obfuscated/PokerChip.lua" deferred_loading="false" />
+		<file name="HoldEmAnalyzer" file="minigames/poker_new_godfather/LUA/Obfuscated/HoldEmAnalyzer.lua" deferred_loading="false" />
+		<file name="PokerStates" file="minigames/poker_new_godfather/PokerStates/Obfuscated/PokerStates.lua" deferred_loading="false" />
+		<file name="FirstPersonCamera" file="minigames/framework/LUA/Obfuscated/FirstPersonCamera.lua" deferred_loading="false" />
+		<file name="ParseXmlOnlineClass" file="minigames/framework/LUA/Obfuscated/ParseXmlOnlineClass.lua" deferred_loading="false" />
+		<file name="StateJoin" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateJoin.lua" deferred_loading="false" />
+		<file name="StateWelcome" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateWelcome.lua" deferred_loading="false" />
+		<file name="StateDetermineDealer" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateDetermineDealer.lua" deferred_loading="false" />
+		<file name="StateDeal" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateDeal.lua" deferred_loading="false" />
+		<file name="StateBet" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateBet.lua" deferred_loading="false" />
+		<file name="StateFlop" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateFlop.lua" deferred_loading="false" />
+		<file name="StateTurn" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateTurn.lua" deferred_loading="false" />
+		<file name="StateRiver" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateRiver.lua" deferred_loading="false" />
+		<file name="StateRevealCards" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateRevealCards.lua" deferred_loading="false" />
+		<file name="StateClearCards" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateClearCards.lua" deferred_loading="false" />
+		<file name="StateRemovePlayers" file="minigames/poker_new_godfather/PokerStates/Obfuscated/StateRemovePlayers.lua" deferred_loading="false" />
+		
+		<xml name="GameOSD" file="minigames/poker_new_godfather/XML/Godfather/gameOSD.xml" deferred_loading="false" />
+		<xml name="GameData" file="minigames/poker_new_godfather/XML/Godfather/gameData.xml" deferred_loading="false" />
+		
+		<collision name="PokerChairCollision" file="minigames/framework/models/pokerchair.hkx" deferred_loading="false" />
+		<collision name="PokerTableCollision" file="minigames/framework/models/pokertable.hkx" deferred_loading="false" />
+		
+		<soundbank name="PokerBank" file="minigames/poker_new_godfather/Sounds/PokerBank.bnk" />
+		
+	</local>
+	<external />
+</resources>
