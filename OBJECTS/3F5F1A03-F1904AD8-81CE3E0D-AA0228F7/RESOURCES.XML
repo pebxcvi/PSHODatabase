@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="jetski_01.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_01.mdl" memory="host" />
+		<model name="CPU_NPC_01.mdl" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_01.mdl" memory="host" />
+		<model name="CPU_NPC_02.mdl" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_02.mdl" memory="host" />
+		<model name="CPU_NPC_03.mdl" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_03.mdl" memory="host" />
+		<model name="CPU_NPC_04.mdl" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_04.mdl" memory="host" />
+		<model name="jetski_00.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_00.mdl" memory="host" />
+		<model name="jetski_02.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_02.mdl" memory="host" />
+		<model name="jetski_03.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_03.mdl" memory="host" />
+		<model name="jetski_04.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_04.mdl" memory="host" />
+		<model name="jetski_05.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_05.mdl" memory="host" />
+		<model name="jetski_06.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_06.mdl" memory="host" />
+		<model name="jetski_07.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_07.mdl" memory="host" />
+		<model name="jetski_08.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_08.mdl" memory="host" />
+		<model name="jetski_10.mdl" deferred_loading="true" protected="false" file="lb/scn/jetski_10.mdl" memory="host" />
+		<model name="course_line_01.mdl" deferred_loading="true" protected="false" file="lb/scn/course_line_01.mdl" memory="host" />
+		<texture name="UI_jetski_01.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/UI_jetski_01_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_jetski_01_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_jetski_01_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_jetski_01_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_jetski_01_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_jetski_01_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_jetski_01_de.dds" locale="de-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_jetski_01_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/UI_jetski_01.dds" locale="ja-*" />
+			<override file="lb/2d/works/01_water_bike_US/UI_jetski_01_us.dds" />
+		</texture>
+		<texture name="UI_jetski_02.dds" deferred_loading="false" protected="false" file="lb/2d/UI_jetski_02.dds" />
+		<texture name="UI_jetski_03.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/UI_jetski_03_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_jetski_03_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_jetski_03_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_jetski_03_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_jetski_03_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_jetski_03_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_jetski_03_de.dds" locale="de-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_jetski_03_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/UI_jetski_03.dds" locale="ja-*" />
+			<override file="lb/2d/works/01_water_bike_US/UI_jetski_03_us.dds" />
+		</texture>
+		<texture name="UI_number_M_0.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_0.dds" />
+		<texture name="UI_number_M_1.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_1.dds" />
+		<texture name="UI_number_M_2.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_2.dds" />
+		<texture name="UI_number_M_3.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_3.dds" />
+		<texture name="UI_number_M_4.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_4.dds" />
+		<texture name="UI_number_M_5.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_5.dds" />
+		<texture name="UI_number_M_6.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_6.dds" />
+		<texture name="UI_number_M_7.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_7.dds" />
+		<texture name="UI_number_M_8.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_8.dds" />
+		<texture name="UI_number_M_9.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_9.dds" />
+		<texture name="UI_number_S_0.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_0.dds" />
+		<texture name="UI_number_S_1.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_1.dds" />
+		<texture name="UI_number_S_2.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_2.dds" />
+		<texture name="UI_number_S_3.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_3.dds" />
+		<texture name="UI_number_S_4.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_4.dds" />
+		<texture name="UI_number_S_5.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_5.dds" />
+		<texture name="UI_number_S_6.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_6.dds" />
+		<texture name="UI_number_S_7.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_7.dds" />
+		<texture name="UI_number_S_8.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_8.dds" />
+		<texture name="UI_number_S_9.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_S_9.dds" />
+		<texture name="Rules_01.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/Rules_01_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/rules_01_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/rules_01_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/rules_01_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/rules_01_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/rules_01_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/rules_01_de.dds" locale="de-*" />
+			<override file="lb/2d/works/08_water_bike_TW/rules_01_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/Rules_01.dds" locale="ja-*" />
+			<override file="lb/2d/works/01_water_bike_US/Rules_01_us.dds" />
+		</texture>
+		<texture name="UI_jetski_04.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/UI_jetski_04_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_jetski_04_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_jetski_04_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_jetski_04_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_jetski_04_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_jetski_04_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_jetski_04_de.dds" locale="de-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_jetski_04_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/UI_jetski_04.dds" locale="ja-*" />
+			<override file="lb/2d/works/01_water_bike_US/UI_jetski_04_us.dds" />
+		</texture>
+		<texture name="UI_operation_01.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/UI_operation_01_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_operation_01_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_operation_01_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_operation_01_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_operation_01_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_operation_01_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_operation_01_de.dds" locale="de-*" />
+			<override file="lb/2d/UI_operation_01.dds" locale="ja-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_operation_01_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/works/01_water_bike_US/UI_operation_01_us.dds" />
+		</texture>
+		<texture name="Courses_A_title.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/Courses_A_title_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/Courses_A_title_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/Courses_A_title_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/Courses_A_title_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/Courses_A_title_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/Courses_A_title_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/Courses_A_title_de.dds" locale="de-*" />
+			<override file="lb/2d/Courses_A_title.dds" locale="ja-*" />
+			<override file="lb/2d/works/08_water_bike_TW/Courses_A_title_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/works/01_water_bike_US/Courses_A_title_us.dds" />
+		</texture>
+		<texture name="UI_courses_A.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/UI_courses_A_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_courses_A_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_courses_A_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_courses_A_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_courses_A_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_courses_A_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_courses_A_de.dds" locale="de-*" />
+			<override file="lb/2d/UI_courses_A.dds" locale="ja-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_courses_A_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/works/01_water_bike_US/UI_courses_A_us.dds" />
+		</texture>
+		<texture name="UI_operation_02.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_us/ui_operation_02_us.dds" locale="en-GB" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_operation_02_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_operation_02_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_operation_02_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_operation_02_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_operation_02_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_operation_02_de.dds" locale="de-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_operation_02_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/UI_operation_02.dds" locale="ja-*" />
+			<override file="lb/2d/works/01_water_bike_us/ui_operation_02_us.dds" locale="en-US" />
+			<override file="lb/2d/works/01_water_bike_us_asia/ui_operation_02_us_asia.dds" locale="en-SG" />
+			<override file="lb/2d/works/01_water_bike_US/UI_operation_02_us.dds" />
+		</texture>
+		<texture name="UI_select_text_01.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/UI_select_text_01_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_select_text_01_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_select_text_01_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_select_text_01_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_select_text_01_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_select_text_01_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_select_text_01_de.dds" locale="de-*" />
+			<override file="lb/2d/UI_select_text_01.dds" locale="ja-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_select_text_01_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/works/01_water_bike_US/UI_select_text_01_us.dds" />
+		</texture>
+		<texture name="UI_select_title.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/01_water_bike_US/UI_select_title_us.dds" locale="en-*" />
+			<override file="lb/2d/works/02_water_bike_HK/UI_select_title_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/03_water_bike_KR/UI_select_title_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/04_water_bike_FR/UI_select_title_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/05_water_bike_IT/UI_select_title_it.dds" locale="it-*" />
+			<override file="lb/2d/works/06_water_bike_ES/UI_select_title_es.dds" locale="es-*" />
+			<override file="lb/2d/works/07_water_bike_DE/UI_select_title_de.dds" locale="de-*" />
+			<override file="lb/2d/UI_select_title.dds" locale="ja-*" />
+			<override file="lb/2d/works/08_water_bike_TW/UI_select_title_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/works/01_water_bike_US/UI_select_title_us.dds" />
+		</texture>
+		<texture name="UI_select_waku.dds" deferred_loading="false" protected="false" file="lb/2d/UI_select_waku.dds" />
+		<texture name="UI_select_yazorushi_left.dds" deferred_loading="false" protected="false" file="lb/2d/UI_select_yazorushi_left.dds" />
+		<texture name="UI_select_yazorushi_right.dds" deferred_loading="false" protected="false" file="lb/2d/UI_select_yazorushi_right.dds" />
+		<texture name="UI_number_M_kigou1.dds" deferred_loading="false" protected="false" file="lb/2d/UI_number_M_kigou1.dds" />
+		<texture name="Courses_A_title_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/Courses_A_title_fr.dds" />
+		<texture name="Rules_01_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/Rules_01_fr.dds" />
+		<texture name="UI_courses_A_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_courses_A_fr.dds" />
+		<texture name="UI_jetski_01_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_jetski_01_fr.dds" />
+		<texture name="UI_jetski_03_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_jetski_03_fr.dds" />
+		<texture name="UI_jetski_04_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_jetski_04_fr.dds" />
+		<texture name="UI_operation_01_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_operation_01_fr.dds" />
+		<texture name="UI_operation_02_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_operation_02_fr.dds" />
+		<texture name="UI_select_text_01_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_select_text_01_fr.dds" />
+		<texture name="UI_select_title_fr.dds" deferred_loading="false" protected="false" file="lb/2d/works/04_water_bike_FR/UI_select_title_fr.dds" />
+		<texture name="Courses_A_title_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/Courses_A_title_us.dds" />
+		<texture name="Rules_01_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/Rules_01_us.dds" />
+		<texture name="UI_courses_A_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/UI_courses_A_us.dds" />
+		<texture name="UI_jetski_01_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/UI_jetski_01_us.dds" />
+		<texture name="UI_jetski_03_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/UI_jetski_03_us.dds" />
+		<texture name="UI_jetski_04_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/UI_jetski_04_us.dds" />
+		<texture name="UI_operation_01_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/UI_operation_01_us.dds" />
+		<texture name="UI_operation_02_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_US_Asia/UI_operation_02_us_asia.dds" />
+		<texture name="UI_select_text_01_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/UI_select_text_01_us.dds" />
+		<texture name="UI_select_title_enSG.dds" deferred_loading="false" protected="false" file="lb/2d/works/01_water_bike_us/UI_select_title_us.dds" />
+		<texture name="female01_skin_body_white_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/female01_skin_body_white_c.dds" />
+		<texture name="female01_skin_body_white_s.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/female01_skin_body_white_s.dds" />
+		<texture name="male01_skin_body_white_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/male01_skin_body_white_c.dds" />
+		<texture name="male01_skin_body_white_s.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/male01_skin_body_white_s.dds" />
+		<particle name="Eff_Water_shibuki_01.efx" deferred_loading="true" protected="false" file="lb/pt/Efx/Eff_Water_shibuki_01.efx" memory="host" />
+		<particle name="Eff_Water_shibuki_02.efx" deferred_loading="true" protected="false" file="lb/pt/Efx/Eff_Water_shibuki_02.efx" memory="host" />
+		<particle name="Eff_Water_shibuki_L.efx" deferred_loading="true" protected="false" file="lb/pt/Efx/Eff_Water_shibuki_L.efx" memory="host" />
+		<particle name="Eff_Water_shibuki_R.efx" deferred_loading="true" protected="false" file="lb/pt/Efx/Eff_Water_shibuki_R.efx" memory="host" />
+		<particle name="Eff_Water_shibuki_03.efx" deferred_loading="true" protected="false" file="lb/pt/Efx/Eff_Water_shibuki_03.efx" memory="host" />
+		<particle name="Eff_Water_shibuki_jump.efx" deferred_loading="true" protected="false" file="lb/pt/Efx/Eff_Water_shibuki_jump.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="lb/sj00/WaterBike_Race/file/Network.xml" />
+		<file name="Osd.xml" deferred_loading="false" protected="false" file="lb/sj00/WaterBike_Race/file/Osd.xml" />
+		<file name="OsdCraftMenu.xml" deferred_loading="false" protected="false" file="lb/sj00/WaterBike_Race/file/OsdCraftMenu.xml" />
+		<file name="OsdCourseMenu.xml" deferred_loading="false" protected="false" file="lb/sj00/WaterBike_Race/file/OsdCourseMenu.xml" />
+		<file name="Network_bags.xml" deferred_loading="false" protected="false" file="lb/sj00/WaterBike_Race/file/Network_bags.xml" />
+		<file name="OsdCraftInfo.xml" deferred_loading="false" protected="false" file="Lounge_Base/soft_jp_00/WaterBike_Race/file/OsdCraftInfo.xml" />
+		<collision name="jetski_01.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_01.hkx" memory="host" />
+		<collision name="jetski_00.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_00.hkx" memory="host" />
+		<collision name="jetski_02.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_02.hkx" memory="host" />
+		<collision name="jetski_03.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_03.hkx" memory="host" />
+		<collision name="jetski_04.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_04.hkx" memory="host" />
+		<collision name="jetski_05.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_05.hkx" memory="host" />
+		<collision name="jetski_06.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_06.hkx" memory="host" />
+		<collision name="jetski_07.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_07.hkx" memory="host" />
+		<collision name="jetski_08.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_08.hkx" memory="host" />
+		<collision name="jetski_10.hkx" deferred_loading="true" protected="false" file="lb/scn/jetski_10.hkx" memory="host" />
+		<collision name="course_line_01.hkx" deferred_loading="true" protected="false" file="lb/scn/course_line_01.hkx" memory="host" />
+		<anim name="anm_Female_wbike_jump_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_jump_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbike_jump_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_jump_stand.ani" memory="host" />
+		<anim name="anm_Female_wbike_left_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_left_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbike_left_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_left_stand.ani" memory="host" />
+		<anim name="anm_Female_wbike_right_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_right_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbike_right_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_right_stand.ani" memory="host" />
+		<anim name="anm_Female_wbike_stand_jump" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_stand_jump.ani" memory="host" />
+		<anim name="anm_Female_wbike_stand_left" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_stand_left.ani" memory="host" />
+		<anim name="anm_Female_wbike_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_stand_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbike_stand_right" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_stand_right.ani" memory="host" />
+		<anim name="anm_Female_wbike_stand_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_stand_swim_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbike_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_swim_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbike_swim_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbike_swim_stand_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbike_jump_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_jump_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbike_jump_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_jump_stand.ani" memory="host" />
+		<anim name="anm_Male_wbike_left_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_left_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbike_left_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_left_stand.ani" memory="host" />
+		<anim name="anm_Male_wbike_right_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_right_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbike_right_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_right_stand.ani" memory="host" />
+		<anim name="anm_Male_wbike_stand_jump" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_stand_jump.ani" memory="host" />
+		<anim name="anm_Male_wbike_stand_left" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_stand_left.ani" memory="host" />
+		<anim name="anm_Male_wbike_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_stand_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbike_stand_right" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_stand_right.ani" memory="host" />
+		<anim name="anm_Male_wbike_stand_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_stand_swim_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbike_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_swim_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbike_swim_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbike_swim_stand_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_jump_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_jump_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_jump_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_jump_stand.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_left_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_left_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_left_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_left_stand.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_right_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_right_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_right_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_right_stand.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_stand_jump" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_stand_jump.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_stand_left" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_stand_left.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_stand_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_stand_right" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_stand_right.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_stand_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_stand_swim_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_swim_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikeb_swim_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikeb_swim_stand_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_jump_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_jump_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_jump_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_jump_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_left_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_left_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_left_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_left_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_right_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_right_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_right_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_right_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_stand_jump" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_stand_jump.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_stand_left" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_stand_left.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_stand_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_stand_right" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_stand_right.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_stand_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_stand_swim_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_swim_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikeb_swim_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikeb_swim_stand_ntr.ani" memory="host" />
+		<anim name="CPU_NPC_01.ani" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_01.ani" memory="host" />
+		<anim name="CPU_NPC_02.ani" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_02.ani" memory="host" />
+		<anim name="CPU_NPC_03.ani" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_03.ani" memory="host" />
+		<anim name="CPU_NPC_04.ani" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_04.ani" memory="host" />
+		<anim name="anm_CPU_wbikeb_female_01.ani" deferred_loading="true" protected="false" file="lb/scn/anm_CPU_wbikeb_female_01.ani" memory="host" />
+		<anim name="anm_CPU_wbikeb_male_01.ani" deferred_loading="true" protected="false" file="lb/scn/anm_CPU_wbikeb_male_01.ani" memory="host" />
+		<anim name="anm_Female_wbikec_jump_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_jump_stand.ani" memory="host" />
+		<anim name="anm_Female_wbikec_left_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_left_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikec_left_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_left_stand.ani" memory="host" />
+		<anim name="anm_Female_wbikec_right_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_right_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikec_right_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_right_stand.ani" memory="host" />
+		<anim name="anm_Female_wbikec_stand_jump" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_stand_jump.ani" memory="host" />
+		<anim name="anm_Female_wbikec_stand_left" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_stand_left.ani" memory="host" />
+		<anim name="anm_Female_wbikec_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_stand_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikec_stand_right" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_stand_right.ani" memory="host" />
+		<anim name="anm_Female_wbikec_stand_swim" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_stand_swim.ani" memory="host" />
+		<anim name="anm_Female_wbikec_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_swim_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikec_swim_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_swim_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikec_jump_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_jump_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikec_left_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_left_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikec_left_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_left_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikec_right_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_right_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikec_right_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_right_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikec_stand_jump" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_stand_jump.ani" memory="host" />
+		<anim name="anm_Male_wbikec_stand_left" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_stand_left.ani" memory="host" />
+		<anim name="anm_Male_wbikec_stand_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_stand_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikec_stand_right" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_stand_right.ani" memory="host" />
+		<anim name="anm_Male_wbikec_stand_swim" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_stand_swim.ani" memory="host" />
+		<anim name="anm_Male_wbikec_swim_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_swim_ntr.ani" memory="host" />
+		<anim name="anm_Male_wbikec_swim_stand" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_swim_stand.ani" memory="host" />
+		<anim name="anm_Male_wbikec_jump_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Male_wbikec_jump_ntr.ani" memory="host" />
+		<anim name="anm_Female_wbikec_jump_ntr" deferred_loading="false" protected="false" file="lb/mot/anm_Female_wbikec_jump_ntr.ani" memory="host" />
+		<anim name="course_line_01.ani" deferred_loading="true" protected="false" file="lb/scn/course_line_01.ani" memory="host" />
+		<skeleton name="CPU_NPC_01.skn" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_01.skn" memory="host" />
+		<skeleton name="CPU_NPC_02.skn" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_02.skn" memory="host" />
+		<skeleton name="CPU_NPC_03.skn" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_03.skn" memory="host" />
+		<skeleton name="CPU_NPC_04.skn" deferred_loading="true" protected="false" file="lb/scn/CPU_NPC_04.skn" memory="host" />
+		<skeleton name="course_line_01.skn" deferred_loading="true" protected="false" file="lb/scn/course_line_01.skn" memory="host" />
+		<soundbank name="WaterBike_Race.bnk" deferred_loading="true" protected="false" file="Lounge_Base/sound/WaterBike_Race.bnk" memory="host" />
+		<soundstream name="MiniGame_jetski.mp3" deferred_loading="false" protected="false" file="Lounge_Base/sound/MiniGame_jetski.mp3" />
+		<repertoire name="RepertoireMale" deferred_loading="false" protected="false" file="lb/sj00/WaterBike_Race/file/RepertoireMale.xml" />
+		<repertoire name="RepertoireFemale" deferred_loading="false" protected="false" file="lb/sj00/WaterBike_Race/file/RepertoireFemale.xml" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Camera.lua" />
+		<lua name="collision.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/collision.lua" />
+		<lua name="constants.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/constants.lua" />
+		<lua name="Effects.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Effects.lua" />
+		<lua name="EndGameState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/EndGameState.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Game.lua" />
+		<lua name="GridState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/GridState.lua" />
+		<lua name="hud.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/hud.lua" />
+		<lua name="LobbyOsd.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/LobbyOsd.lua" />
+		<lua name="LobbyState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/LobbyState.lua" />
+		<lua name="LocalPlayer.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/LocalPlayer_xnet.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/MiniGame.lua" />
+		<lua name="Osd.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Osd.lua" />
+		<lua name="pickup.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/pickup.lua" />
+		<lua name="RaceState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/RaceState.lua" />
+		<lua name="Remote.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Remote.lua" />
+		<lua name="ResultsOsd.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/ResultsOsd.lua" />
+		<lua name="SpectatorState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/SpectatorState.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/StateMachine.lua" />
+		<lua name="Teacher.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Teacher.lua" />
+		<lua name="Track.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Track.lua" />
+		<lua name="utility.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/utility.lua" />
+		<lua name="Weapons.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Weapons.lua" />
+		<lua name="Craft.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Craft.lua" />
+		<lua name="PadIo.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/PadIo.lua" />
+		<lua name="Sprite.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Sprite.lua" />
+		<lua name="DebugUtil.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/DebugUtil.lua" />
+		<lua name="SprData.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/SprData.lua" />
+		<lua name="HudData.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/HudData.lua" />
+		<lua name="Course.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Course.lua" />
+		<lua name="Box.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Box.lua" />
+		<lua name="Human.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Human.lua" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/AsyncCommandJobManager.lua" />
+		<lua name="Ranking.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Ranking.lua" />
+		<lua name="SeaIF.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/SeaIF.lua" />
+		<lua name="CourseSelect.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/CourseSelect.lua" />
+		<lua name="CourseSelectOsd.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/CourseSelectOsd.lua" />
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/PhaseCtrl.lua" />
+		<lua name="CraftSelect.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/CraftSelect.lua" />
+		<lua name="CraftSelectOsd.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/CraftSelectOsd.lua" />
+		<lua name="RealTimeGame.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/RealTimeGame.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Main_xnet.lua" />
+		<lua name="SpriteUtil.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/SpriteUtil.lua" />
+		<lua name="IdleState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/IdleState_xnet.lua" />
+		<lua name="Netplay.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Netplay.lua" />
+		<lua name="Rail.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Rail.lua" />
+		<lua name="RailData.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/RailData.lua" />
+		<lua name="Npc.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Npc_xnet.lua" />
+		<lua name="Demo.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Demo.lua" />
+		<lua name="DemoData.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/DemoData.lua" />
+		<lua name="RuleState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/RuleState.lua" />
+		<lua name="LuaMath.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/LuaMath.lua" />
+		<lua name="CourseData.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/CourseData.lua" />
+		<lua name="CourseData01.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/CourseData01.lua" />
+		<lua name="RailData01.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/RailData01.lua" />
+		<lua name="RollCamera.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/RollCamera.lua" />
+		<lua name="CraftData.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/CraftData.lua" />
+		<lua name="NpcData.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/NpcData.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Inventory.lua" />
+		<lua name="WaitState.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/WaitState.lua" />
+		<lua name="Listener.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/Listener.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="lb/sj00/Lib/lua/UtilGarbage.lua" />
+		<lua name="datainterface.lua" deferred_loading="false" protected="true" file="lb/sj00/datastation/lua/datainterfaceLight.lua" />
+		<lua name="tropicalPoint.lua" deferred_loading="false" protected="true" file="lb/sj00/WaterBike_Race/lua/tropicalPoint.lua" />
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="lounge_base/GetRegionUUID.lua" />
+		<lua name="GetRegionResource.lua" deferred_loading="false" protected="true" file="lounge_base/GetRegionResource.lua" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PostScore.lua" />
+	</local>
+	<external />
+</resources>

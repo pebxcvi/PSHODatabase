@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Elevator.mdl" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevator.mdl" />
+		<model name="Elevatordoors_close.mdl" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_close.mdl" />
+		<model name="Elevatordoors_open.mdl" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_open.mdl" />
+		<model name="OverheadLights_OFF.mdl" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/OverheadLights_OFF.mdl" />
+		<model name="OverheadLights_ON.mdl" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/OverheadLights_ON.mdl" />
+		<texture name="loading_icongreen.dds" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/loading_icongreen.dds" />
+		<particle name="TransportBeamSA.efx" deferred_loading="false" protected="false" file="ATGParticles/SpaceApartmentFx/TransportBeamSA.efx" />
+		<particle name="neutrolizerflash.efx" deferred_loading="false" protected="false" file="ATGParticles/MIB/neutrolizerflash.efx" />
+		<file name="AGENCYR.TTF" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/font/AGENCYR.TTF" />
+		<collision name="Elevator.hkx" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevator.hkx" />
+		<collision name="Elevatordoors_collision.hkx" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_collision.hkx" />
+		<collision name="Agent_Room_Collision.hkx" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Agent_Room_Collision.hkx" />
+		<collision name="Alien_Door_Collision.hkx" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Alien_Door_Collision.hkx" />
+		<collision name="Elevator_Door_Collision.hkx" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevator_Door_Collision.hkx" />
+		<collision name="Elevatordoors_collision2.hkx" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_collision2.hkx" />
+		<collision name="Elevatordoors_collision1.hkx" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_collision1.hkx" />
+		<anim name="Elevatordoors_close.ani" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_close.ani" />
+		<anim name="Elevatordoors_open.ani" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_open.ani" />
+		<skeleton name="Elevatordoors_close.skn" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_close.skn" />
+		<skeleton name="Elevatordoors_open.skn" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/Elevatordoors_open.skn" />
+		<soundbank name="bank_rapid_transport.bnk" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/audio/bank_rapid_transport.bnk" />
+		<soundbank name="searchlight_soundfx.bnk" deferred_loading="false" protected="false" file="Actives/SearchLight/Audio/searchlight_soundfx.bnk" />
+		<soundbank name="MIBsounds.bnk" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/audio/MIBsounds.bnk" />
+		<soundbank name="MIBmusic.bnk" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/audio/MIBmusic.bnk" />
+		<lua name="lgs_menu_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/lgs_menu_lib.luac" />
+		<lua name="utility_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/utility_lib.luac" />
+		<lua name="dbcomm.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/dbcomm.luac" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/main.luac" />
+		<lua name="mainhud.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/mainhud.luac" />
+		<lua name="questions.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/questions.luac" />
+		<lua name="authorizer.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/authorizer.luac" />
+		<lua name="elevator.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/elevator.luac" />
+		<lua name="subgames.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/subgames.luac" />
+		<lua name="videos.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/videos.luac" />
+		<lua name="posters.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/posters.luac" />
+		<lua name="rewards.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/rewards.luac" />
+		<lua name="control_wrapper.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/control_wrapper.luac" />
+		<lua name="sound.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/sound.luac" />
+		<lua name="lights.lua" deferred_loading="false" protected="true" file="MiniGames/MIB_MainGame/lua/lights.luac" />
+		<image name="DROPBARBUTTON1.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBARBUTTON1.png" />
+		<image name="CAMERA_ICON.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/CAMERA_ICON.png" />
+		<image name="CIRCLE.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/CIRCLE.png" />
+		<image name="CROSS.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/CROSS.png" />
+		<image name="DROPBAR.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBAR.png" />
+		<image name="DROPBARBUTTON2.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBARBUTTON2.png" />
+		<image name="DROPBARBUTTON3.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBARBUTTON3.png" />
+		<image name="DROPBARBUTTON4.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBARBUTTON4.png" />
+		<image name="DROPBARMENU.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBARMENU.png" />
+		<image name="PICTURES_ICON.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/PICTURES_ICON.png" />
+		<image name="SHOPPINGCART_ICON.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SHOPPINGCART_ICON.png" />
+		<image name="SQUARE.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SQUARE.png" />
+		<image name="TRANSPORT_ICON.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/TRANSPORT_ICON.png" />
+		<image name="TRIANGLE.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/TRIANGLE.png" />
+		<image name="SELECTOR.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SELECTOR.png" />
+		<image name="SCREENMENU2_SELECTOR.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SCREENMENU2_SELECTOR.png" />
+		<image name="SMALLSCREEN_BLACKBACK.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SMALLSCREEN_BLACKBACK.png" />
+		<image name="SMALLSCREEN_CHROME.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SMALLSCREEN_CHROME.png" />
+		<image name="BIGSCREEN_BLACKBACK.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/BIGSCREEN_BLACKBACK.png" />
+		<image name="BIGSCREEN_CHROMEOVAL.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/BIGSCREEN_CHROMEOVAL.png" />
+		<image name="DROPBARLOGOX.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBARLOGOX.png" />
+		<image name="SCREENOVERLAY3.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SCREENOVERLAY3.png" />
+		<image name="DROPBARLOGOEMPTY.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/DROPBARLOGOEMPTY.png" />
+		<image name="SCREENMENU_SELECTOR_RIGHT.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SCREENMENU_SELECTOR_RIGHT.png" />
+		<image name="SCREENMENU_SELECTOR_LEFT.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SCREENMENU_SELECTOR_LEFT.png" />
+		<image name="SCREENMENU_SELECTOR_CENTER.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/SCREENMENU_SELECTOR_CENTER.png" />
+		<image name="MiB_PlaystationStore_minilogo.png" deferred_loading="false" protected="false" file="MiniGames/MIB_MainGame/textures/MiB_PlaystationStore_minilogo.png" />
+	</local>
+	<external />
+</resources>

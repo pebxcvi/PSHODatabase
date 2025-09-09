@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Chakakune_Cake.mdl" deferred_loading="false" protected="false" file="environmentanimations/chakakune_cake/Chakakune_Cake.mdl" />
+		<collision name="Chakakune_Cake_collision.hkx" deferred_loading="false" protected="false" file="environmentanimations/chakakune_cake/Chakakune_Cake_collision.hkx" />
+		<anim name="Chakakune_Cake.ani" deferred_loading="false" protected="false" file="environmentanimations/chakakune_cake/Chakakune_Cake.ani" />
+		<skeleton name="Chakakune_Cake.skn" deferred_loading="false" protected="false" file="environmentanimations/chakakune_cake/Chakakune_Cake.skn" />
+		<soundbank name="birthday2.bnk" deferred_loading="false" protected="false" file="MiniGames/birthday2nd/sound/birthday2.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/MiniGame.lua" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/pad.lua" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/param.lua" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/seqMgr.lua" />
+		<lua name="DemoSeq.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/DemoSeq.lua" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript/all.lua" />
+		<lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/cameraMgr.lua" />
+		<lua name="OsdMgr.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/OsdMgr.lua" />
+		<lua name="GetItemData.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/GetItemData.lua" />
+		<lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/itemListCheker.lua" />
+		<lua name="advSeq.lua" deferred_loading="false" protected="true" file="MiniGames/birthday2nd/lua/advSeq.lua" />
+	</local>
+	<external />
+</resources>

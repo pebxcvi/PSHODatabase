@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Eight.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Eight.mdl" />
+		<model name="Eleven.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Eleven.mdl" />
+		<model name="Five.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Five.mdl" />
+		<model name="Four.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Four.mdl" />
+		<model name="Nine.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Nine.mdl" />
+		<model name="One.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/One.mdl" />
+		<model name="Seven.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Seven.mdl" />
+		<model name="Six.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Six.mdl" />
+		<model name="Stand.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Stand.mdl" />
+		<model name="Ten.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Ten.mdl" />
+		<model name="Three.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Three.mdl" />
+		<model name="Two.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Two.mdl" />
+		<model name="Ring.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Models/red_bull_can_statue/Ring.mdl" />
+		<texture name="ps3_buttons_tex" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Textures/buttons_ps3_col.dds" />
+		<texture name="tex_loading" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Textures/loading.dds" />
+		<texture name="msgbox_tex" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Textures/msg_box.dds" />
+		<texture name="numbers.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Textures/numbers.dds" />
+		<texture name="ButtonPromptPanel.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Flugtag/Textures/UI/ButtonPromptPanel.dds" />
+		<texture name="CommunityBoardBG.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Textures/CommunityBoardBG.dds" />
+		<texture name="tex_loading.dds" deferred_loading="false" protected="false" file="MiniGames/UIElements/textures/tex_loading.dds" />
+		<texture name="FuzzySplash2.dds" deferred_loading="false" protected="false" file="MiniGames/Lua_fn_libs/Particle_Lib/texture/FuzzySplash2.dds" />
+		<particle name="portal.efx" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Effects/portal.efx" />
+		<particle name="SmokePuff.efx" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/Effects/SmokePuff.efx" />
+		<file name="community_ui.xml" deferred_loading="false" protected="false" file="MiniGames/RedBull_Community/XML/community_ui.xml" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/main.lua" />
+		<lua name="game.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/game.lua" />
+		<lua name="modelBuilder.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/modelBuilder.lua" />
+		<lua name="model_defs.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/model_defs.lua" />
+		<lua name="controls.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/controls.lua" />
+		<lua name="controlSchemes.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/controlSchemes.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/OHS.lua" />
+		<lua name="encrypt.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/encrypt.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/Jamin.lua" />
+		<lua name="msgBox_mgr.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/MsgBox/msgBox_mgr.lua" />
+		<lua name="msgBox_Renderer.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/MsgBox/msgBox_Renderer.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/Misc/misc.lua" />
+		<lua name="rect.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/Misc/rect.lua" />
+		<lua name="Effigy.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/Effigy.lua" />
+		<lua name="HelicopterCamera.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/HelicopterCamera.lua" />
+		<lua name="MultiTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/MultiTrigger.lua" />
+		<lua name="SoundLib.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/SoundLib.lua" />
+		<lua name="LerpCam.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/LerpCam.lua" />
+		<lua name="PieChart.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/PieChart.lua" />
+		<lua name="UIElement_Image.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIElement_Image.lua" />
+		<lua name="UIElement_NumberSprite.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIElement_NumberSprite.lua" />
+		<lua name="UIElement_Sprite.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIElement_Sprite.lua" />
+		<lua name="UIElement_TextBox.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIElement_TextBox.lua" />
+		<lua name="UIInterface.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIInterface.lua" />
+		<lua name="UILoader.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UILoader.lua" />
+		<lua name="UIManager.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIManager.lua" />
+		<lua name="UIPanel.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIPanel.lua" />
+		<lua name="UIScreen.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIScreen.lua" />
+		<lua name="UIView.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIView.lua" />
+		<lua name="UITransitions.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UITransitions.lua" />
+		<lua name="UIController.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIController.lua" />
+		<lua name="UIRegister.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/UIRegister.lua" />
+		<lua name="StateStats.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Community/StateStats.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<particle name="efx.ripple" deferred_loading="false" protected="false" file="atgparticles/generic/efx/swimming_01.efx" />
+		<particle name="efx.splash" deferred_loading="false" protected="false" file="atgparticles/generic/efx/swim_splash_01.efx" />
+		<particle name="efx.swim_wake" deferred_loading="false" protected="false" file="atgparticles/generic/efx/swim_wake.efx" />
+		<anim name="ani.treadwater_f" deferred_loading="false" protected="false" file="homesquare4/animations/female/TREADWATER_F_01.ani" memory="host" />
+		<anim name="ani.treadwater_m" deferred_loading="false" protected="false" file="homesquare4/animations/male/TREADWATER_M_01.ani" memory="host" />
+		<anim name="ani.swim_f" deferred_loading="false" protected="false" file="homesquare4/animations/female/SWIM_F_02.ani" memory="host" />
+		<anim name="ani.swim_m" deferred_loading="false" protected="false" file="homesquare4/animations/male/SWIM_M_02.ani" memory="host" />
+		<anim name="ani.tpose_f" deferred_loading="false" protected="false" file="homesquare4/animations/female/TPOSE_F_01.ani" memory="host" />
+		<anim name="ani.tpose_m" deferred_loading="false" protected="false" file="homesquare4/animations/male/TPOSE_M_01.ani" memory="host" />
+		<soundbank name="bnk.sound_effects" deferred_loading="false" protected="false" file="MiniGames/BeachSwim/file/HS4_SWIM.bnk" />
+		<repertoire name="swim_male" deferred_loading="false" protected="false" file="MiniGames/BeachSwim/repertoires/swim_male.xml" memory="host" />
+		<repertoire name="swim_female" deferred_loading="false" protected="false" file="MiniGames/BeachSwim/repertoires/swim_female.xml" memory="host" />
+		<repertoire name="camfix_male" deferred_loading="false" protected="false" file="MiniGames/BeachSwim/repertoires/camfix_male.xml" memory="host" />
+		<repertoire name="camfix_female" deferred_loading="false" protected="false" file="MiniGames/BeachSwim/repertoires/camfix_female.xml" memory="host" />
+		<lua name="lua.minigame" deferred_loading="false" protected="true" file="MiniGames/BeachSwim/lua/MiniGame.lua" memory="host" />
+		<lua name="lua.utilities" deferred_loading="false" protected="true" file="MiniGames/BeachSwim/lua/utilities.lua" memory="host" />
+		<lua name="lua.constants" deferred_loading="false" protected="true" file="MiniGames/BeachSwim/lua/constants.lua" memory="host" />
+		<lua name="lua.eventmanager" deferred_loading="false" protected="true" file="libs/system/EventManager.lua" memory="host" />
+		<lua name="lua.threadmanager" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" memory="host" />
+		<lua name="lua.swimming_vfx" deferred_loading="false" protected="true" file="MiniGames/BeachSwim/lua/swimming_vfx.lua" memory="host" />
+		<lua name="lua.log" deferred_loading="false" protected="true" file="libs/system/Log.lua" memory="host" />
+		<lua name="lua.postscore" deferred_loading="false" protected="true" file="libs/util/PostScore.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CommAug_ToyTrain.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/models/anim/CommAug_ToyTrain.mdl" />
+		<model name="CommAug_ToyTrain_LightRed.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/models/CommAug_ToyTrain_LightRed.mdl" />
+		<model name="CommAug_ToyTrain_LightGreen.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/models/CommAug_ToyTrain_LightGreen.mdl" />
+		<model name="model" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/models/CommAug_ToyTrainSet.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_toytrainset/models/CommAug_ToyTrainSet.hkx" />
+		<anim name="CommAug_ToyTrain.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/models/anim/CommAug_ToyTrain.ani" />
+		<skeleton name="CommAug_ToyTrain.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/models/anim/CommAug_ToyTrain.skn" />
+		<soundbank name="toyTrain.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_toytrainset/sound/toyTrain.bnk" />
+		<lua name="trainTrack.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_toytrainset/programming/trainTrack.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_toytrainset/programming/MyPad.lua" />
+		<lua name="train.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_toytrainset/programming/train.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CODEX_blade.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/CODEX_blade.mdl" />
+		<model name="CODEX_devestator.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/CODEX_devestator.mdl" />
+		<model name="WEAPON_assaulter.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_assaulter.mdl" />
+		<model name="WEAPON_beamer.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_beamer.mdl" />
+		<model name="WEAPON_grenade.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_grenade.mdl" />
+		<model name="WEAPON_launcher.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_launcher.mdl" />
+		<model name="WEAPON_shotgun.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_shotgun.mdl" />
+		<model name="WEAPON_sniper.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_sniper.mdl" />
+		<model name="WEAPON_blaster.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_blaster.mdl" />
+		<model name="ENEMY_turret_mid.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/ENEMY_turret_mid.mdl" />
+		<model name="SIGN_codex.mdl" deferred_loading="false" protected="false" file="MiniGames/TrainingFacilityCodex/models/SIGN_codex.mdl" />
+		<model name="CODEX_axe.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/CODEX_axe.mdl" />
+		<model name="WEAPON_flamer.mdl" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_flamer.mdl" />
+		<texture name="placeholder_s.dds" deferred_loading="false" protected="false" file="generic_shared_textures/placeholder_s.dds" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/MiniGame.luac" />
+		<lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/Utility/BatchResourceLoader.luac" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/Utility/CoroutineManager.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/Utility/Pad.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/Utility/Utility.luac" />
+		<lua name="State_Codex.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/States/State_Codex.luac" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/States/State_Idle.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/States/StateMachine.luac" />
+		<lua name="HideRemotePeople.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityCodex/lua/Utility/HideRemotePeople.luac" />
+	</local>
+	<external />
+</resources>

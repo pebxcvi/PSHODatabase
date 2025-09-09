@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/gears_of_time/model/gearsoftime_active.mdl" />
+		<model name="HourHandTemplate.mdl" deferred_loading="false" protected="false" file="furniture/gears_of_time/model/Gears_of_time_HourHand.mdl" />
+		<model name="MinuteHandTemplate.mdl" deferred_loading="false" protected="false" file="furniture/gears_of_time/model/Gears_of_time_MinuteHand.mdl" />
+		<model name="SecondHandTemplate.mdl" deferred_loading="false" protected="false" file="furniture/gears_of_time/model/Gears_of_time_SecondHand.mdl" />
+		<model name="ClockFaceTemplate.mdl" deferred_loading="false" protected="false" file="furniture/gears_of_time/model/Gears_of_time_Face.mdl" />
+		<file name="ClockConfig.xml" deferred_loading="false" protected="false" file="furniture/gears_of_time/files/ClockConfig.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/gears_of_time/collision/Gears_of_time_Face.hkx" />
+		<anim name="Gears_of_time_Face_anim.ani" deferred_loading="false" protected="false" file="furniture/gears_of_time/anim/Gears_of_time_Face_anim.ani" />
+		<skeleton name="Gears_of_time_Face_anim.skn" deferred_loading="false" protected="false" file="furniture/gears_of_time/skeleton/Gears_of_time_Face_anim.skn" />
+		<soundbank name="Clock_Gear.bnk" deferred_loading="false" protected="false" file="Scripts/Audio/Clock_Gear.bnk" />
+		<lua name="Active.lua" deferred_loading="false" protected="true" file="furniture/gears_of_time/lua/Active.lua" />
+	</local>
+	<external />
+</resources>

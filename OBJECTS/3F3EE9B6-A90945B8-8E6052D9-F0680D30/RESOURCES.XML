@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="tex.cross_bt" deferred_loading="false" protected="false" file="Apps/CardViewer/media/cross_bt.dds" />
+		<texture name="tex.square_bt" deferred_loading="false" protected="false" file="Apps/CardViewer/media/square_bt.dds" />
+		<texture name="tex.triangle_bt" deferred_loading="false" protected="false" file="Apps/CardViewer/media/triangle_bt.dds" />
+		<texture name="tex.legend" deferred_loading="false" protected="false" file="Apps/CardViewer/media/legend.dds" />
+		<texture name="tex.background" deferred_loading="false" protected="false" file="Apps/CardViewer/media/ps4_background.dds" />
+		<texture name="tex.cardviewer_ic" deferred_loading="false" protected="false" file="Apps/CardViewer/media/cardviewer_ic.dds" />
+		<texture name="tex.line" deferred_loading="false" protected="false" file="Apps/CardViewer/media/line.dds" />
+		<texture name="tex.b_botleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/bronze/b_botleft.dds" />
+		<texture name="tex.b_botright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/bronze/b_botright.dds" />
+		<texture name="tex.b_left" deferred_loading="false" protected="false" file="Apps/CardViewer/media/bronze/b_left.dds" />
+		<texture name="tex.b_right" deferred_loading="false" protected="false" file="Apps/CardViewer/media/bronze/b_right.dds" />
+		<texture name="tex.b_topleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/bronze/b_topleft.dds" />
+		<texture name="tex.b_topright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/bronze/b_topright.dds" />
+		<texture name="tex.g_botleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/gold/g_botleft.dds" />
+		<texture name="tex.g_botright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/gold/g_botright.dds" />
+		<texture name="tex.g_left" deferred_loading="false" protected="false" file="Apps/CardViewer/media/gold/g_left.dds" />
+		<texture name="tex.g_right" deferred_loading="false" protected="false" file="Apps/CardViewer/media/gold/g_right.dds" />
+		<texture name="tex.g_topleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/gold/g_topleft.dds" />
+		<texture name="tex.g_topright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/gold/g_topright.dds" />
+		<texture name="tex.p_botleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/platinum/p_botleft.dds" />
+		<texture name="tex.p_botright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/platinum/p_botright.dds" />
+		<texture name="tex.p_left" deferred_loading="false" protected="false" file="Apps/CardViewer/media/platinum/p_left.dds" />
+		<texture name="tex.p_right" deferred_loading="false" protected="false" file="Apps/CardViewer/media/platinum/p_right.dds" />
+		<texture name="tex.p_topleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/platinum/p_topleft.dds" />
+		<texture name="tex.p_topright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/platinum/p_topright.dds" />
+		<texture name="tex.s_botleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/silver/s_botleft.dds" />
+		<texture name="tex.s_botright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/silver/s_botright.dds" />
+		<texture name="tex.s_left" deferred_loading="false" protected="false" file="Apps/CardViewer/media/silver/s_left.dds" />
+		<texture name="tex.s_right" deferred_loading="false" protected="false" file="Apps/CardViewer/media/silver/s_right.dds" />
+		<texture name="tex.s_topleft" deferred_loading="false" protected="false" file="Apps/CardViewer/media/silver/s_topleft.dds" />
+		<texture name="tex.s_topright" deferred_loading="false" protected="false" file="Apps/CardViewer/media/silver/s_topright.dds" />
+		<texture name="tex.flag_eu" deferred_loading="false" protected="false" file="Apps/CardViewer/media/EU_flag.dds" />
+		<texture name="tex.flag_jp" deferred_loading="false" protected="false" file="Apps/CardViewer/media/JP_flag.dds" />
+		<texture name="tex.flag_us" deferred_loading="false" protected="false" file="Apps/CardViewer/media/US_flag.dds" />
+		<texture name="tex.circle_bt" deferred_loading="false" protected="false" file="Apps/CardViewer/media/circle_bt.dds" />
+		<texture name="tex.strip" deferred_loading="false" protected="false" file="Apps/CardViewer/media/strip.dds" />
+		<texture name="tex.loading" deferred_loading="false" protected="false" file="Apps/CardViewer/media/loading.dds" />
+		<texture name="tex.ps_symbols" deferred_loading="false" protected="false" file="Apps/CardViewer/media/ps_symbols.dds" />
+		<texture name="tex.p_star" deferred_loading="false" protected="false" file="Apps/CardViewer/media/platinum/p_star.dds" />
+		<texture name="tex.gradient" deferred_loading="false" protected="false" file="Apps/CardViewer/media/gradient.dds" />
+		<texture name="tex.glow" deferred_loading="false" protected="false" file="Apps/CardViewer/media/glow.dds" />
+		<texture name="tex.tick" deferred_loading="false" protected="false" file="Apps/CardViewer/media/tick.dds" />
+		<file name="catalog.json" deferred_loading="false" protected="false" file="Lua/Cards/catalog.json" />
+		<soundbank name="bnk.navigation" deferred_loading="false" protected="false" file="Apps/CardViewer/media/navigation.bnk" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Apps/CardViewer/lua/boot.lua" />
+		<lua name="libs.system.initialise" deferred_loading="false" protected="true" file="libs/system/Initialise.lua" />
+		<lua name="libs.system.assert" deferred_loading="false" protected="true" file="libs/system/Assert.lua" />
+		<lua name="libs.system.log" deferred_loading="false" protected="true" file="libs/system/Log.lua" />
+		<lua name="libs.system.threadmanager" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" />
+		<lua name="libs.util.easing" deferred_loading="true" protected="true" file="libs/util/Easing.lua" />
+		<lua name="libs.util.printdata" deferred_loading="true" protected="true" file="libs/util/PrintData.lua" />
+		<lua name="libs.system.stats" deferred_loading="true" protected="true" file="libs/system/Stats.lua" />
+		<lua name="libs.gui.canvas" deferred_loading="true" protected="true" file="libs/gui/Canvas.lua" />
+		<lua name="libs.gui.colours" deferred_loading="true" protected="true" file="libs/gui/Colours.lua" />
+		<lua name="libs.gui.widget" deferred_loading="true" protected="true" file="libs/gui/Widget.lua" />
+		<lua name="lua.texman" deferred_loading="true" protected="true" file="Apps/CardViewer/lua/texman.lua" />
+		<lua name="lua.app" deferred_loading="true" protected="true" file="Apps/CardViewer/lua/app.lua" />
+		<lua name="lua.constants" deferred_loading="true" protected="true" file="Apps/CardViewer/lua/constants.lua" />
+		<lua name="libs.util.animregisters" deferred_loading="false" protected="true" file="libs/util/animregisters.lua" />
+		<lua name="lua.legend" deferred_loading="true" protected="true" file="Apps/CardViewer/lua/legend.lua" />
+		<lua name="Inventory.lua" deferred_loading="true" protected="true" file="Lua/System/Inventory.lua" />
+		<lua name="Cards.lua" deferred_loading="true" protected="true" file="Lua/Cards/Cards.lua" />
+		<lua name="CardsView.lua" deferred_loading="true" protected="true" file="Lua/Cards/CardsView.lua" />
+		<lua name="GameData.lua" deferred_loading="true" protected="true" file="MiniGames/PS4_SaveData/GameData.lua" />
+		<lua name="lua.deckrenderer" deferred_loading="true" protected="true" file="Apps/CardViewer/lua/deckrenderer.lua" />
+		<lua name="lua.resourcepack" deferred_loading="true" protected="true" file="Apps/CardViewer/lua/resourcepack.lua" />
+		<lua name="lua.menu" deferred_loading="true" protected="true" file="Apps/CardViewer/lua/menu.lua" />
+	</local>
+	<external />
+</resources>

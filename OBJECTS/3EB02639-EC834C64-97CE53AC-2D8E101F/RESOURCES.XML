@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/model/hawk_00.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/model/hawk_00_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.ntr00" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/anim/ntr_00.ani" memory="host" />
+		<anim name="ani.fly_00_twistLeft" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/anim/fly_00_twistLeft.ani" memory="host" />
+		<anim name="ani.fly00" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/anim/fly_00.ani" memory="host" />
+		<anim name="ani.fly_00_twistRight" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/anim/fly_00_twistRight.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companion_follower/pet_hawk_air_00/skeleton/hawk_00.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="companion_follower/pet_hawk_air_00/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Horse.mdl" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_whiteblue/SkeletonHorse_rig.mdl" memory="main" />
+		<model name="Horse_LOD.mdl" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_whiteblue/SkeletonHorse_LOD.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/file/config.xml" memory="host" />
+		<anim name="Horse_Idle.ani" deferred_loading="true" protected="false" file="locomotion/06_Jun-Delirious_Squid-Cybergoth-Horse_Green/Horse_Idle.ani" memory="host" />
+		<anim name="Horse_Run.ani" deferred_loading="true" protected="false" file="locomotion/06_Jun-Delirious_Squid-Cybergoth-Horse_Green/Horse_Run.ani" memory="main" />
+		<anim name="Horse_Walk.ani" deferred_loading="true" protected="false" file="locomotion/06_Jun-Delirious_Squid-Cybergoth-Horse_Green/Horse_Walk.ani" memory="host" />
+		<anim name="M_Idle" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/Male_idle_final.ani" memory="host" />
+		<anim name="M_Run" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/male_Canter_final.ani" memory="main" />
+		<anim name="M_Walk" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/male_trot_final.ani" memory="host" />
+		<anim name="F_Idle" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/female_idle_final.ani" memory="host" />
+		<anim name="F_Run" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/female_canter_final.ani" memory="main" />
+		<anim name="F_Walk" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/female_trot_final.ani" memory="host" />
+		<skeleton name="Horse.skn" deferred_loading="true" protected="false" file="locomotion/06_Jun-Delirious_Squid-Cybergoth-Horse_Green/Horse_Model.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="locomotion/07_jul-ajagara-skeletonhorse-skeletonhorse_purp/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

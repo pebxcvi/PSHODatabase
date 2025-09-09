@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Flight_Pack1/file/config.xml" memory="host" />
+		<anim name="Flying_Boosts" deferred_loading="true" protected="false" file="animation/male/flying_cycles/Flying_Boosts.ani" />
+		<anim name="Flying_Idle" deferred_loading="true" protected="false" file="animation/male/flying_cycles/Flying_Idle.ani" />
+		<anim name="Flying_Jog" deferred_loading="true" protected="false" file="animation/male/flying_cycles/Flying_Jog.ani" />
+		<anim name="Flying_Run" deferred_loading="true" protected="false" file="animation/male/flying_cycles/Flying_Run.ani" />
+		<anim name="Flying_Walk" deferred_loading="true" protected="false" file="animation/male/flying_cycles/Flying_Walk.ani" />
+		<anim name="Flying_Emote" deferred_loading="true" protected="false" file="animation/male/flying_cycles/Flying_Emote.ani" />
+		<anim name="Flight_FemBoost" deferred_loading="true" protected="false" file="animation/female/flight_fem/Flight_FemBoost.ani" />
+		<anim name="Flight_FemEmote" deferred_loading="true" protected="false" file="animation/female/flight_fem/Flight_FemEmote.ani" />
+		<anim name="Flight_FemIdle" deferred_loading="true" protected="false" file="animation/female/flight_fem/Flight_FemIdle.ani" />
+		<anim name="Flight_FemJog" deferred_loading="true" protected="false" file="animation/female/flight_fem/Flight_FemJog.ani" />
+		<anim name="Flight_FemRun" deferred_loading="true" protected="false" file="animation/female/flight_fem/Flight_FemRun.ani" />
+		<anim name="Flight_FemWalk" deferred_loading="true" protected="false" file="animation/female/flight_fem/Flight_FemWalk.ani" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Flight_Pack1/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Flight_Pack1/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Flight_Pack1/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Flight_Pack1/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Flight_Pack1/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

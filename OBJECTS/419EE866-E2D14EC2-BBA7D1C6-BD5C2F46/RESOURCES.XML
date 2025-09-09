@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/spunland_roller_bot/file/config_Roller.xml" memory="host" />
+		<anim name="SBL_Roller.ani" deferred_loading="true" protected="false" file="animation/male/spun_bot_legs/SpunBotLegs_Roller.ani" memory="host" />
+		<anim name="SBL_Spin.ani" deferred_loading="true" protected="false" file="animation/male/spun_bot_legs/SpunBotLegs_Spin.ani" memory="main" />
+		<anim name="SBL_CircleCycle.ani" deferred_loading="true" protected="false" file="animation/male/spun_bot_legs/SpunBotLegs_CircleCycle.ani" memory="host" />
+		<anim name="SBL_Idle.ani" deferred_loading="true" protected="false" file="animation/male/spun_bot_legs/SpunBotLegs_Idle.ani" memory="host" />
+		<anim name="SBL_CircleStart.ani" deferred_loading="true" protected="false" file="animation/male/spun_bot_legs/SpunBotLegs_CircleStart.ani" memory="host" />
+		<anim name="SBL_Spread.ani" deferred_loading="true" protected="false" file="animation/male/spun_bot_legs/SpunBotLegs_Spread.ani" memory="host" />
+		<anim name="FSBL_CircleCycle.ani" deferred_loading="true" protected="false" file="animation/female/spun_bot_legs/FSpunBotLegs_CircleCycle.ani" memory="host" />
+		<anim name="FSBL_CircleStart.ani" deferred_loading="true" protected="false" file="animation/female/spun_bot_legs/FSpunBotLegs_CircleStart.ani" memory="host" />
+		<anim name="FSBL_Idle.ani" deferred_loading="true" protected="false" file="animation/female/spun_bot_legs/FSpunBotLegs_Idle.ani" memory="host" />
+		<anim name="FSBL_Roller.ani" deferred_loading="true" protected="false" file="animation/female/spun_bot_legs/FSpunBotLegs_Roller.ani" memory="host" />
+		<anim name="FSBL_Spin.ani" deferred_loading="true" protected="false" file="animation/female/spun_bot_legs/FSpunBotLegs_Spin.ani" />
+		<anim name="FSBL_Spread.ani" deferred_loading="true" protected="false" file="animation/female/spun_bot_legs/FSpunBotLegs_Spread.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/spunland_roller_bot/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/spunland_roller_bot/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_roller_bot/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_roller_bot/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_rabbit_hop/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
