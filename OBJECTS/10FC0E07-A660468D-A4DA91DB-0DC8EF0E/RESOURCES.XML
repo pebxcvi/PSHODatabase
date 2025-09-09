@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/hall13_werewolftombstone/HALL13_WerewolfTombstone.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/hall13_vampiretombstone/lua/network/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/hall13_werewolftombstone/HALL13_WerewolfTombstone.hkx" memory="host" />
+		<anim name="Female_Werewolf_Attack01.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Female_Werewolf_Attack01.ani" />
+		<anim name="Female_Werewolf_Howl.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Female_Werewolf_Howl.ani" />
+		<anim name="Female_Werewolf_Idle01.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Female_Werewolf_Idle01.ani" />
+		<anim name="Female_Werewolf_Run.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Female_Werewolf_Run.ani" />
+		<anim name="Female_Werewolf_Walk.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Female_Werewolf_Walk.ani" />
+		<anim name="Male_Werewolf_Attack01.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Male_Werewolf_Attack01.ani" />
+		<anim name="Male_Werewolf_Howl.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Male_Werewolf_Howl.ani" />
+		<anim name="Male_Werewolf_Idle01.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Male_Werewolf_Idle01.ani" />
+		<anim name="Male_Werewolf_Run.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Male_Werewolf_Run.ani" />
+		<anim name="Male_Werewolf_Walk.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Male_Werewolf_Walk.ani" />
+		<anim name="Female_Werewolf_Attack_UB.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Female_Werewolf_Attack_UB.ani" />
+		<anim name="Male_Werewolf_Attack_UB.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/Male_Werewolf_Attack_UB.ani" />
+		<repertoire name="male.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/HALL13_Werewolf/Repertoire/repertoire.xml" />
+		<repertoire name="female.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/HALL13_Werewolf/Repertoire/female_repertoire.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/hall13_werewolftombstone/Main.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/hall13_vampiretombstone/lua/utility/Pad.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/hall13_vampiretombstone/lua/utility/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="elf" deferred_loading="true" file="Animation_V4/models/elf_cam_look_left_01.mdl" />
+		<texture name="countdown_anim9.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim9.dds" />
+		<texture name="countdown_anim1.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim1.dds" />
+		<texture name="countdown_anim2.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim2.dds" />
+		<texture name="countdown_anim3.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim3.dds" />
+		<texture name="countdown_anim4.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim4.dds" />
+		<texture name="countdown_anim5.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim5.dds" />
+		<texture name="countdown_anim6.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim6.dds" />
+		<texture name="countdown_anim7.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim7.dds" />
+		<texture name="countdown_anim8.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim8.dds" />
+		<texture name="cross" deferred_loading="true" file="MiniGames/SantasQuests/Textures/gary-busey.dds" />
+		<texture name="circle" deferred_loading="true" file="MiniGames/SantasQuests/Textures/gary-busey.dds" />
+		<texture name="triangle" deferred_loading="true" file="MiniGames/SantasQuests/Textures/gary-busey.dds" />
+		<texture name="square" deferred_loading="true" file="MiniGames/SantasQuests/Textures/gary-busey.dds" />
+		<texture name="failholder.dds" deferred_loading="false" file="MiniGames/SantasQuests/Textures/failholder.dds" />
+		<texture name="fail.dds" deferred_loading="false" file="MiniGames/SantasQuests/Textures/fail.dds" />
+		<particle name="location_pfx" deferred_loading="false" file="ATGParticles/generic/efx/UI_EFFECT_0002.efx" />
+		<anim name="D_M_05_P2.ani" deferred_loading="false" file="Animation_V4/male/D_M_05_P2.ani" />
+		<anim name="D_M_14_P2.ani" deferred_loading="false" file="Animation_V4/male/D_M_14_P2.ani" />
+		<anim name="D_M_16_P2.ani" deferred_loading="false" file="Animation_V4/male/D_M_16_P2.ani" />
+		<anim name="D_M_12_P2.ani" deferred_loading="false" file="Animation_V4/male/D_M_12_P2.ani" />
+		<anim name="D_F_05_P2.ani" deferred_loading="false" file="Animation_V4/female/D_F_05_P2.ani" />
+		<anim name="D_F_14_P2.ani" deferred_loading="false" file="Animation_V4/female/D_F_14_P2.ani" />
+		<anim name="D_F_16_P2.ani" deferred_loading="false" file="Animation_V4/female/D_F_16_P2.ani" />
+		<anim name="D_F_12_P2.ani" deferred_loading="false" file="Animation_V4/female/D_F_12_P2.ani" />
+		<anim name="danceRocknRoll" deferred_loading="false" file="Animation_V4/male/D_M_12_P2.ani" />
+		<anim name="danceRobot" deferred_loading="false" file="Animation_V4/male/D_M_05_P2.ani" />
+		<anim name="danceRunning" deferred_loading="false" file="Animation_V4/male/D_M_16_P2.ani" />
+		<anim name="danceCabbage" deferred_loading="false" file="Animation_V4/male/D_M_14_P2.ani" />
+		<anim name="shrug.ani" deferred_loading="false" file="Animation_V4/male/EM_STA_M_08.ani" />
+		<anim name="idle.ani" deferred_loading="false" file="Animation_V4/male/I_STA_M_12.ani" />
+		<anim name="cheer.ani" deferred_loading="false" file="Animation_V4/male/em_sta_m_13_elf.ani" />
+		<anim name="shy.ani" deferred_loading="false" file="Animation_V4/male/em_sta_m_30_fb.ani" />
+		<skeleton name="elfskeleton" deferred_loading="false" file="MiniGames/SantasQuests/Models/elf.skn" />
+		<soundbank name="Sound" deferred_loading="false" file="Portables/Hovercraft/audio/Hovercraft.bnk" />
+		<lua name="script" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/SnowMaker.lua" />
+		<lua name="xmasshared.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasshared.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+	</local>
+	<external />
+</resources>

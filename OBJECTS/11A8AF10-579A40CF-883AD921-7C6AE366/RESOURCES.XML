@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/House.mdl" />
+    <model name="wolf.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/Walk.mdl" />
+    <file name="config.xml" deferred_loading="false" protected="false" file="Actives/Autom/file/config_Kitty.xml" />
+    <collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/House.hkx" />
+    <collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/HouseSafeVolume.hkx" />
+    <collision name="playerCapsuleCollision.hkx" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/Kitty.hkx" />
+    <anim name="walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/Walk.ani" />
+    <anim name="dance.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/Idle2.ani" />
+    <anim name="idle.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/Idle1.ani" />
+    <skeleton name="wolf.skn" deferred_loading="false" protected="false" file="CompanionFollowers/Kitty_Companion/Walk.skn" />
+    <soundbank name="CreatureSoundBank" deferred_loading="false" protected="false" file="Actives/Autom/file/Kitty_bank.bnk" />
+    <lua name="Active.lua" deferred_loading="false" protected="true" file="actives/autom/lua/active.luac" />
+    <lua name="SingleAutomaton.lua" deferred_loading="false" protected="true" file="actives/autom/lua/singleautomaton.luac" />
+    <lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="actives/autom/lua/coroutinemanager.luac" />
+    <lua name="ConfigLoader.lua" deferred_loading="false" protected="true" file="actives/autom/lua/configloader.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="scripts/libs/utility.luac" />
+  </local>
+  <external />
+</resources>

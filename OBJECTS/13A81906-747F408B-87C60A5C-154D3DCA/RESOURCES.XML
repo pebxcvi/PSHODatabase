@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Cab_01.mdl" deferred_loading="false" protected="false" file="games/common/vehicles/cab_01/Cab_01.mdl" />
+		<model name="Cab_02.mdl" deferred_loading="false" protected="false" file="games/common/vehicles/cab_01/Cab_02.mdl" />
+		<model name="Sedan_01.mdl" deferred_loading="false" protected="false" file="games/common/vehicles/sedan_01/Sedan_01.mdl" />
+		<model name="Sedan_02.mdl" deferred_loading="false" protected="false" file="games/common/vehicles/sedan_01/Sedan_02.mdl" />
+		<model name="Hummer_01.mdl" deferred_loading="false" protected="false" file="games/common/vehicles/hummer/Hummer_01.mdl" />
+		<model name="Van_01.mdl" deferred_loading="false" protected="false" file="games/common/vehicles/cityvan_01/Van_01.mdl" />
+		<model name="Van_02.mdl" deferred_loading="false" protected="false" file="games/common/vehicles/cityvan_01/Van_02.mdl" />
+		<model name="CuddlyBear_Small.mdl" deferred_loading="false" protected="false" file="games/common/characters/cuddlybear_small/CuddlyBear_Small.mdl" />
+		<anim name="Cab_01.ani" deferred_loading="false" protected="false" file="games/common/vehicles/cab_01/Cab_01.ani" />
+		<anim name="Cab_02.ani" deferred_loading="false" protected="false" file="games/common/vehicles/cab_01/Cab_02.ani" />
+		<anim name="Sedan_01.ani" deferred_loading="false" protected="false" file="games/common/vehicles/sedan_01/Sedan_01.ani" />
+		<anim name="Sedan_02.ani" deferred_loading="false" protected="false" file="games/common/vehicles/sedan_01/Sedan_02.ani" />
+		<anim name="Hummer_01.ani" deferred_loading="false" protected="false" file="games/common/vehicles/hummer/Hummer_01.ani" />
+		<anim name="Van_01.ani" deferred_loading="false" protected="false" file="games/common/vehicles/cityvan_01/Van_01.ani" />
+		<anim name="Van_02.ani" deferred_loading="false" protected="false" file="games/common/vehicles/cityvan_01/Van_02.ani" />
+		<anim name="CuddlyBear_Small_Walk.ani" deferred_loading="false" protected="false" file="games/common/characters/cuddlybear_small/CuddlyBear_Small_Walk.ani" />
+		<anim name="CuddlyBear_Small_Claw.ani" deferred_loading="false" protected="false" file="games/common/characters/cuddlybear_small/CuddlyBear_Small_Claw.ani" />
+		<skeleton name="CuddlyBear_Small.skn" deferred_loading="false" protected="false" file="games/common/characters/cuddlybear_small/CuddlyBear_Small.skn" />
+		<soundbank name="StreetViewSound.bnk" deferred_loading="false" protected="false" file="games/PrivateApartment/StreetView/audio/StreetViewSound.bnk" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="Lua_library/Library/Core.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/StreetView/lua/Main.lua" />
+		<lua name="TrafficManager.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/StreetView/lua/TrafficManager.lua" />
+		<lua name="BearManager.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/StreetView/lua/BearManager.lua" />
+		<lua name="Audio_Component.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/StreetView/lua/Audio_Component.lua" />
+		<lua name="Audio_Resources.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/StreetView/lua/Audio_Resources.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/StreetView/lua/Misc.lua" />
+		<lua name="Table_x.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/StreetView/lua/Table_x.lua" />
+	</local>
+	<external />
+</resources>

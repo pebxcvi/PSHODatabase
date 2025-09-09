@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="remoDragonMountBASE_01.mdl" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/DRAGONredREMO.mdl" memory="host" />
+		<model name="DragonMountBASE_01.mdl" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/DRAGONred.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/DragonMount/file/config.xml" memory="host" />
+		<anim name="DragonMountFlyIdle_01fast.ani" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountFlyIdle_01fast.ani" memory="host" />
+		<anim name="DragonMountHUMAN_IdleMALE.ani" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountHUMAN_IdleMALE.ani" memory="main" />
+		<anim name="DragonMountFlyIdleGlide_01.ani" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountFlyIdleGlide_01.ani" memory="host" />
+		<anim name="DragonMountHUMAN_IdleGLIDEMALE" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountHUMAN_IdleGLIDEMALE.ani" memory="main" />
+		<anim name="DragonMountHUMAN_IdleFEM" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountHUMAN_IdleFEM.ani" memory="main" />
+		<anim name="DragonMountHUMAN_IdleGLIDEFEM" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountHUMAN_IdleGLIDEFEM.ani" memory="main" />
+		<anim name="DragonMountFlyIdle_01.ani" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountFlyIdle_01.ani" memory="host" />
+		<anim name="DragonMountBASE_01.ani" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountBASE_01.ani" memory="host" />
+		<skeleton name="DragonMountBASE_01.skn" deferred_loading="true" protected="false" file="animatedmodels/dragonmount/blueOrange/DragonMountBASE_01.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/DragonMount/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/DragonMount/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/DragonMount/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/DragonMount/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/DragonMountRed/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

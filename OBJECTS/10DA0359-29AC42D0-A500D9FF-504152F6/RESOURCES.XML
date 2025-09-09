@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Brachiosaurus.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Brachiosaurus/Brachiosaurus.mdl" memory="host" />
+		<model name="Pterodactyl.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl.mdl" memory="host" />
+		<model name="Stegosaurus.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Stegosaurus/Stegosaurus.mdl" memory="host" />
+		<model name="Trex.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex.mdl" memory="host" />
+		<model name="Triceratops.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/triceratops/Triceratops.mdl" memory="host" />
+		<model name="Velociraptor.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor.mdl" memory="host" />
+		<model name="WoollyMammoth.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/woollymammoth/WoollyMammoth.mdl" memory="host" />
+		<model name="Sabertooth_Tiger.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/sabertooth_tiger/Sabertooth_Tiger.mdl" memory="host" />
+		<model name="binoculars.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/binoculars/binoculars.mdl" memory="host" />
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" />
+		</texture>
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Controls/button_X.dds" />
+		</texture>
+		<texture name="binoculars_overlay.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/binoculars_overlay.dds" />
+		<texture name="reticule.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/reticule.dds" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/edge.dds" />
+		<texture name="binoculars_zoom.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/binoculars_zoom.dds" />
+		<texture name="CoinBrachiosaurus.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinBrachiosaurus.dds" />
+		<texture name="CoinPterodactyl.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinPterodactyl.dds" />
+		<texture name="CoinStegosaurus.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinStegosaurus.dds" />
+		<texture name="CoinTrex.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinTrex.dds" />
+		<texture name="CoinTriceratops.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinTriceratops.dds" />
+		<texture name="CoinWoollyMammoth.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinWoollyMammoth.dds" />
+		<texture name="WoodPlaque.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/WoodPlaque.dds" />
+		<texture name="CoinSabreTooth.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinSabreTooth.dds" />
+		<texture name="CoinVelociraptor.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinVelociraptor.dds" />
+		<texture name="CoinPterodactylStatic.dds" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/HUDTextures/Scorecard/CoinPterodactylStatic.dds" />
+		<particle name="volcano_smoke.efx" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/Effects/volcano_smoke.efx" />
+		<collision name="Pterodactyl.hkx" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl.hkx" />
+		<collision name="binoculars.hkx" deferred_loading="false" protected="false" file="apartments/dinotop/assets/binoculars/binoculars.hkx" />
+		<anim name="Brachiosaurus_Idle_1.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Brachiosaurus/Brachiosaurus_Idle_1.ani" memory="host" />
+		<anim name="Brachiosaurus_Idle_2.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Brachiosaurus/Brachiosaurus_Idle_2.ani" memory="host" />
+		<anim name="Brachiosaurus_Idle_3.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Brachiosaurus/Brachiosaurus_Idle_3.ani" memory="host" />
+		<anim name="Pterodactyl_fly.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl_fly.ani" memory="host" />
+		<anim name="Pterodactyl_IdleBite.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl_IdleBite.ani" memory="host" />
+		<anim name="Pterodactyl_IdleFlap.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl_IdleFlap.ani" memory="host" />
+		<anim name="Pterodactyl_IdleSimple.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl_IdleSimple.ani" memory="host" />
+		<anim name="Pterodactyl_Run.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl_Run.ani" memory="host" />
+		<anim name="Pterodactyl_Walk.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl_Walk.ani" memory="host" />
+		<anim name="Stegosaurus_Walk.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Stegosaurus/Stegosaurus_Walk.ani" memory="host" />
+		<anim name="Stegosaurus_Idle01.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Stegosaurus/Stegosaurus_Idle01.ani" memory="host" />
+		<anim name="Stegosaurus_Idle02.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Stegosaurus/Stegosaurus_Idle02.ani" memory="host" />
+		<anim name="Stegosaurus_Idle03.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Stegosaurus/Stegosaurus_Idle03.ani" memory="host" />
+		<anim name="Stegosaurus_Run.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Stegosaurus/Stegosaurus_Run.ani" memory="host" />
+		<anim name="Trex_Idle.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex_Idle.ani" memory="host" />
+		<anim name="Trex_Roar.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex_Roar.ani" memory="host" />
+		<anim name="Trex_run.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex_run.ani" memory="host" />
+		<anim name="Trex_Snap.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex_Snap.ani" memory="host" />
+		<anim name="Trex_walk.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex_walk.ani" memory="host" />
+		<anim name="TRICERATOPS_Walk.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/triceratops/TRICERATOPS_Walk.ani" memory="host" />
+		<anim name="TRICERATOPS_IDLE01.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/triceratops/TRICERATOPS_IDLE01.ani" memory="host" />
+		<anim name="TRICERATOPS_IDLE02.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/triceratops/TRICERATOPS_IDLE02.ani" memory="host" />
+		<anim name="TRICERATOPS_IDLE03.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/triceratops/TRICERATOPS_IDLE03.ani" memory="host" />
+		<anim name="TRICERATOPS_Run.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/triceratops/TRICERATOPS_Run.ani" memory="host" />
+		<anim name="Velociraptor_Idle01_STRIPPED.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor_Idle01_STRIPPED.ani" memory="host" />
+		<anim name="Velociraptor_Idle02_STRIPPED.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor_Idle02_STRIPPED.ani" memory="host" />
+		<anim name="Velociraptor_Idle03_STRIPPED.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor_Idle03_STRIPPED.ani" memory="host" />
+		<anim name="Velociraptor_Idle04_STRIPPED.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor_Idle04_STRIPPED.ani" memory="host" />
+		<anim name="Velociraptor_Run_STRIPPED.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor_Run_STRIPPED.ani" memory="host" />
+		<anim name="Velociraptor_Walk_STRIPPED.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor_Walk_STRIPPED.ani" memory="host" />
+		<anim name="Woolly_BlowTrunk.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/woollymammoth/Woolly_BlowTrunk.ani" memory="host" />
+		<anim name="Woolly_HeadSwing.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/woollymammoth/Woolly_HeadSwing.ani" memory="host" />
+		<anim name="Woolly_Idle.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/woollymammoth/Woolly_Idle.ani" memory="host" />
+		<anim name="Woolly_Run.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/woollymammoth/Woolly_Run.ani" memory="host" />
+		<anim name="Woolly_Walk.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/woollymammoth/Woolly_Walk.ani" memory="host" />
+		<anim name="Sabertooth_Walk_001.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/sabertooth_tiger/Sabertooth_Walk_001.ani" memory="host" />
+		<anim name="Sabertooth_Angry_001.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/sabertooth_tiger/Sabertooth_Angry_001.ani" memory="host" />
+		<anim name="Sabertooth_Roar_001.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/sabertooth_tiger/Sabertooth_Roar_001.ani" memory="host" />
+		<anim name="Sabertooth_Run_001.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/sabertooth_tiger/Sabertooth_Run_001.ani" memory="host" />
+		<anim name="Sabertooth_Sit_001.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/sabertooth_tiger/Sabertooth_Sit_001.ani" memory="host" />
+		<skeleton name="Brachiosaurus.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Brachiosaurus/Brachiosaurus.skn" />
+		<skeleton name="Pterodactyl.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/pterodactyl/Pterodactyl.skn" />
+		<skeleton name="Stegosaurus.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/Stegosaurus/Stegosaurus.skn" />
+		<skeleton name="Trex.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex.skn" />
+		<skeleton name="Triceratops.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/triceratops/Triceratops.skn" />
+		<skeleton name="Velociraptor.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/velociraptor/Velociraptor.skn" />
+		<skeleton name="WoollyMammoth.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/woollymammoth/WoollyMammoth.skn" />
+		<skeleton name="Sabertooth_Tiger.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/sabertooth_tiger/Sabertooth_Tiger.skn" />
+		<soundbank name="GameSounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/Sounds/GameSounds.bnk" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Controller.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Jamin.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Math.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Playmetrix.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Tween.lua" />
+		<lua name="VidCapture.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/VidCapture.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/GameHud.lua" />
+		<lua name="Dinosaurs.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Dinosaurs.lua" />
+		<lua name="Binoculars.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Binoculars.lua" />
+		<lua name="Rewards.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Rewards.lua" />
+	</local>
+	<external />
+</resources>

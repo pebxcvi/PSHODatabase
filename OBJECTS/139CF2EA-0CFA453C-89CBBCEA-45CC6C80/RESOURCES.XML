@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="highlight" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/props/arrow.mdl" />
+		<model name="sack" deferred_loading="true" file="MiniGames/SantasQuests/Models/santas_sack_empty.mdl" />
+		<model name="Table" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/props/elftable.mdl" />
+		<model name="elf" deferred_loading="true" file="MiniGames/SantasQuests/Models/elf.mdl" />
+		<model name="gift01" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/props/minigamepresent01.mdl" />
+		<model name="gift02" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/props/minigamepresent02.mdl" />
+		<model name="gift03" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/props/minigamepresent03.mdl" />
+		<model name="gift04" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/props/minigamepresent04.mdl" />
+		<model name="gift05" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/props/minigamepresent05.mdl" />
+		<anim name="hold_03.ani" deferred_loading="false" file="Animation_V4/models/elf_holdpresent_03.ani" />
+		<anim name="hold_01.ani" deferred_loading="false" file="Animation_V4/models/elf_holdpresent_01.ani" />
+		<anim name="hold_02.ani" deferred_loading="false" file="Animation_V4/models/elf_holdpresent_02.ani" />
+		<anim name="idle01.ani" deferred_loading="false" file="Animation_V4/male/I_STA_M_07.ani" />
+		<skeleton name="skeleton" deferred_loading="false" file="MiniGames/SantasQuests/Models/elf.skn" />
+		<soundbank name="soundbank" deferred_loading="true" file="MiniGames/SantasQuests/sounds/parcel_stacking.bnk" />
+		<lua name="script" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/GiftsOfHanoi.lua" />
+		<lua name="xmasshared.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasshared.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+	</local>
+	<external />
+</resources>

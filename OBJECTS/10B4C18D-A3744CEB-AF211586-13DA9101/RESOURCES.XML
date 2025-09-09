@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="MirrorBall_Base_mdl" deferred_loading="false" file="japanevents/rollycafe/mirrorball/MirrorBall_Base.mdl" />
+		<model name="MirrorBall_Head_mdl" deferred_loading="false" file="japanevents/rollycafe/mirrorball/MirrorBall_Head.mdl" />
+		<model name="Spotlight_Base_mdl" deferred_loading="false" file="japanevents/rollycafe/spotlight/Spotlight_Base.mdl" />
+		<model name="Spotlight_Arm_mdl" deferred_loading="false" file="japanevents/rollycafe/spotlight/Spotlight_Arm.mdl" />
+		<model name="Spotlight_Head_mdl" deferred_loading="false" file="japanevents/rollycafe/spotlight/Spotlight_Head.mdl" />
+		<texture name="standby_image_jp_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/standby_image_jp.dds" />
+		<texture name="spotlightmask_default_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/spotlightmask_default.dds" />
+		<texture name="pointlightmask_mirror_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/pointlightmask_mirror.dds" />
+		<texture name="pointlightmask_lamp_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/pointlightmask_lamp.dds" />
+		<texture name="error_icon_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/XmasIcon_Red.dds" />
+		<texture name="download_icon_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/CafeIcon_Music.dds" />
+		<texture name="present_icon_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/Prezent.dds" />
+		<texture name="human_err_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/human_err.dds" />
+		<texture name="excuse_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/excuse.dds" />
+		<texture name="connect_err_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/connect_err.dds" />
+		<texture name="event_end_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/event_end.dds" />
+		<texture name="dance_fever_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/dance.dds" />
+		<texture name="cola_logo_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/dance.dds" />
+		<texture name="cola_logo_bottle_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/cola_logo_bottle.dds" />
+		<texture name="climax_fever_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/cola_logo.dds" />
+		<texture name="downloading_tex" deferred_loading="false" file="MiniGames/TrickOrTreat/textures/downloading.dds" />
+		<texture name="test.dds" deferred_loading="false" protected="false" file="MiniGames/TrickOrTreat/textures/screen_11.dds" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="MiniGames/TrickOrTreat/common/tex/edge.dds" />
+		<particle name="explosion_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Explosion/efx/BASIC_EXPLOSION_1.efx" />
+		<particle name="floorsmoke_efx" deferred_loading="false" file="ATGParticles/JapanEvents/floorsmoke/efx/floorsmoke.efx" />
+		<particle name="jetsmoke_efx" deferred_loading="false" file="ATGParticles/JapanEvents/jetsmoke/efx/jetsmoke.efx" />
+		<particle name="Live_confetti_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_confetti/efx/Live_confetti.efx" />
+		<particle name="Live_confetti_Imas_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_confetti_Imas/efx/Live_confetti_Imas.efx" />
+		<particle name="FIFA_confetti_efx" deferred_loading="false" file="ATGParticles/JapanEvents/FIFA_confetti/efx/FIFA_confetti.efx" />
+		<particle name="FIFA_Cocacola_confetti_efx" deferred_loading="false" file="ATGParticles/JapanEvents/FIFA_Cocacola_confetti/efx/FIFA_Cocacola_confetti.efx" />
+		<particle name="hc_razer_2_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_2/efx/hc_razer_2.efx" />
+		<particle name="hc_razer_3_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_3/efx/hc_razer_3.efx" />
+		<particle name="hc_razer_4_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_4/efx/hc_razer_4.efx" />
+		<particle name="hc_star_rain_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_star_rain/efx/hc_star_rain.efx" />
+		<particle name="hc_photon_twister_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_photon_twister/efx/hc_photon_twister.efx" />
+		<particle name="hc_phton_glowup_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_phton_glowup/efx/hc_phton_glowup.efx" />
+		<file name="Network_xml" deferred_loading="false" file="MiniGames/TrickOrTreat/Network.xml" memory="host" />
+		<file name="sync_osd" deferred_loading="false" file="MiniGames/TrickOrTreat/osd/sync.xml" memory="host" />
+		<file name="reward_icon_osd" deferred_loading="false" file="MiniGames/TrickOrTreat/osd/reward_icon.xml" memory="host" />
+		<file name="connecting_osd" deferred_loading="false" file="MiniGames/TrickOrTreat/osd/connecting.xml" memory="host" />
+		<file name="fever_osd" deferred_loading="false" file="MiniGames/TrickOrTreat/osd/fever.xml" memory="host" />
+		<file name="selectbar_osd" deferred_loading="false" file="MiniGames/TrickOrTreat/osd/selectbar.xml" memory="host" />
+		<file name="types_osd" deferred_loading="false" file="MiniGames/TrickOrTreat/osd/types.xml" memory="host" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeServerBase.lua" memory="host" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeServerTrigger.lua" memory="host" />
+		<lua name="paHomeServerGeneral" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeServerGeneral.lua" memory="host" />
+		<lua name="paHomeServerCustom" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeServerCustom.lua" memory="host" />
+		<lua name="paHomeServerCommon" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeServerCommon.lua" memory="host" />
+		<lua name="paHomeSoundMgr" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeSoundMgr.lua" memory="host" />
+		<lua name="paHomeSoundStream" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeSoundStream.lua" memory="host" />
+		<lua name="paHomeSoundBank" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeSoundBank.lua" memory="host" />
+		<lua name="paHomeUI2" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeUI2.lua" memory="host" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomePosCalc.lua" memory="host" />
+		<lua name="paHomeScreen" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeScreen.lua" memory="host" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/main.lua" memory="host" />
+		<lua name="gamemain" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/gamemain.lua" memory="host" />
+		<lua name="globalmain" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/globalmain.lua" memory="host" />
+		<lua name="version_label" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/version_label.lua" memory="host" />
+		<lua name="dbg_propaty" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/dbg_propaty.lua" memory="host" />
+		<lua name="permitted_region" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/permitted_region.lua" memory="host" />
+		<lua name="server_propaty" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/server_propaty.lua" memory="host" />
+		<lua name="adjust_propaty" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/adjust_propaty.lua" memory="host" />
+		<lua name="eventOsd" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/eventOsd.lua" memory="host" />
+		<lua name="eventTrigger" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/eventTrigger.lua" memory="host" />
+		<lua name="eventCommon" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/eventCommon.lua" memory="host" />
+		<lua name="eventlight" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/eventlight.lua" memory="host" />
+		<lua name="xmlExpand" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/xmlExpand.lua" memory="host" />
+		<lua name="xmlAction" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/xmlAction.lua" memory="host" />
+		<lua name="backread" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/backread.lua" memory="host" />
+		<lua name="reward_set" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/reward_set.lua" memory="host" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeTime.lua" memory="host" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeCommon.lua" memory="host" />
+		<lua name="paHomeCommonDebug" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/paHomeCommonDebug.lua" memory="host" />
+		<lua name="ResMan" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/ResMan.lua" memory="host" />
+		<lua name="pctMsg" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/pctMsg.lua" memory="host" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/common/misc.lua" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/common/mathx.lua" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/common/MsgWnd.lua" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/common/task.lua" />
+		<lua name="Sprite.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreat/common/Sprite.lua" />
+	</local>
+	<external />
+</resources>

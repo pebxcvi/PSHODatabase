@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="MirrorBall_Base_mdl" deferred_loading="false" file="japanevents/rollycafe/mirrorball/MirrorBall_Base.mdl" />
+		<model name="MirrorBall_Head_mdl" deferred_loading="false" file="japanevents/rollycafe/mirrorball/MirrorBall_Head.mdl" />
+		<model name="Spotlight_Base_mdl" deferred_loading="false" file="japanevents/rollycafe/spotlight/Spotlight_Base.mdl" />
+		<model name="Spotlight_Arm_mdl" deferred_loading="false" file="japanevents/rollycafe/spotlight/Spotlight_Arm.mdl" />
+		<model name="Spotlight_Head_mdl" deferred_loading="false" file="japanevents/rollycafe/spotlight/Spotlight_Head.mdl" />
+		<texture name="standby_image_jp_tex" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/textures/standby_image_jp.dds" />
+		<texture name="spotlightmask_default_tex" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/textures/spotlightmask_default.dds" />
+		<texture name="pointlightmask_mirror_tex" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/textures/pointlightmask_mirror.dds" />
+		<texture name="pointlightmask_lamp_tex" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/textures/pointlightmask_lamp.dds" />
+		<texture name="error_icon_tex" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/textures/XmasIcon_Red.dds" />
+		<texture name="download_icon_tex" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/textures/CafeIcon_Music.dds" />
+		<texture name="present_icon_tex" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/textures/Prezent.dds" />
+		<particle name="explosion_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Explosion/efx/BASIC_EXPLOSION_1.efx" />
+		<particle name="floorsmoke_efx" deferred_loading="false" file="ATGParticles/JapanEvents/floorsmoke/efx/floorsmoke.efx" />
+		<particle name="jetsmoke_efx" deferred_loading="false" file="ATGParticles/JapanEvents/jetsmoke/efx/jetsmoke.efx" />
+		<particle name="Live_confetti_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_confetti/efx/Live_confetti.efx" />
+		<particle name="Live_confetti_Imas_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_confetti_Imas/efx/Live_confetti_Imas.efx" />
+		<particle name="hc_razer_2_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_2/efx/hc_razer_2.efx" />
+		<particle name="hc_razer_3_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_3/efx/hc_razer_3.efx" />
+		<particle name="hc_razer_4_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_4/efx/hc_razer_4.efx" />
+		<particle name="hc_star_rain_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_star_rain/efx/hc_star_rain.efx" />
+		<particle name="hc_photon_twister_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_photon_twister/efx/hc_photon_twister.efx" />
+		<particle name="hc_phton_glowup_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_phton_glowup/efx/hc_phton_glowup.efx" />
+		<particle name="aura_fire.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/aura_fire.efx" />
+		<particle name="splotches.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/splotches.efx" />
+		<particle name="demons_strings.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/demons_strings_sorry.efx" />
+		<particle name="HS_Flying_Bat.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/HS_Flying_Bat/efx/HS_Flying_Bat.efx" />
+		<particle name="HS_Ghost_Left.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/HS_Ghost/efx/HS_Ghost_Left.efx" />
+		<particle name="HS_Ghost_Right.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/HS_Ghost/efx/HS_Ghost_Right.efx" />
+		<particle name="H01_Eye_Light_White.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H01_Eye_Light_White/efx/H01_Eye_Light_White.efx" />
+		<particle name="H02_Footpad_Yellow.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H02_Footpad_Yellow/efx/H02_Footpad_Yellow.efx" />
+		<particle name="H03_Footpad_White.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H03_Footpad_White/efx/H03_Footpad_White.efx" />
+		<particle name="H04_ArchEnemy.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H04_ArchEnemy/Efx/H04_ArchEnemy.efx" />
+		<particle name="H06_Leaf_Effect.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H06_Leaf_Effect/efx/H06_Leaf_Effect.efx" />
+		<particle name="H07_Aura_Red.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H07_Aura_Red/Efx/H07_Aura_Red.efx" />
+		<particle name="H08_Aura_Black.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H08_Aura_Black/Efx/H08_Aura_Black.efx" />
+		<particle name="H11_LocoRoco_Effect.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H11_LocoRoco_Effect/efx/H11_LocoRoco_Effect.efx" />
+		<particle name="H12_Toro_Effect.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/toro.efx" />
+		<particle name="H13_Kuro_Effect.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/kuro.efx" />
+		<particle name="H14_Wings_RN.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H14_Wings_RN/Efx/H14_Wings_RN.efx" />
+		<particle name="H15_Wings_Blue.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H15_Wings_Blue/Efx/H15_Wings_Blue.efx" />
+		<particle name="H16_Wings_Orange.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H16_Wings_Orange/Efx/H16_Wings_Orange.efx" />
+		<particle name="H17_Wings_Pink.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H17_Wings_Pink/Efx/H17_Wings_Pink.efx" />
+		<particle name="H18_Wings_Red.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H18_Wings_Red/Efx/H18_Wings_Red.efx" />
+		<particle name="H19_Wings_Yellow.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H19_Wings_Yellow/Efx/H19_Wings_Yellow.efx" />
+		<particle name="H20_Wings_White.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H20_Wings_White/Efx/H20_Wings_White.efx" />
+		<particle name="H21_Scales_Effect.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H21_Scales_Effect/Efx/H21_Scales_Effect.efx" />
+		<particle name="H22_Feather_Black.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H22_Feather_Black/Efx/H22_Feather_Black.efx" />
+		<particle name="H23_Feather_White.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H23_Feather_White/Efx/H23_Feather_White.efx" />
+		<particle name="H24_Ghost_Normal.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H24_Ghost_Normal/Efx/H24_Ghost_Normal.efx" />
+		<particle name="H25_Ghost_RN.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H25_Ghost_RN/Efx/H25_Ghost_RN.efx" />
+		<particle name="H26_LittleFire.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H26_LittleFire.efx" />
+		<particle name="H27_Bat_Normal.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H27_Bat_Normal/Efx/H27_Bat_Normal.efx" />
+		<particle name="H27b_Bat_Normal_Staff.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H27b_Bat_Normal_Staff/Efx/H27b_Bat_Normal_Staff.efx" />
+		<particle name="H28_Bat_DarkPurple.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H28_Bat_DarkPurple/Efx/H28_Bat_DarkPurple.efx" />
+		<particle name="H29_Bat_RN.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H29_Bat_RN/Efx/H29_Bat_RN.efx" />
+		<particle name="H31_Soul_Sigh.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H31_Soul_Sigh/efx/H31_Soul_Sigh.efx" />
+		<particle name="H38_Footpad_Hoof.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H38_Footpad_Hoof/efx/H38_Footpad_Hoof.efx" />
+		<particle name="H42_Disgaea_Heart.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H42_Disgaea_Heart/efx/H42_Disgaea_Heart.efx" />
+		<particle name="H46_Eye_Beam.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H46_Eye_Beam/Efx/H46_Eye_Beam.efx" />
+		<particle name="H49_Flying_Fire.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H49_Flying_Fire/Efx/H49_Flying_Fire.efx" />
+		<particle name="H50_GhostBusters.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H50_GhostBusters.efx" />
+		<particle name="H53_Bat_Gold.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H53_Bat_Gold/Efx/H53_Bat_Gold.efx" />
+		<particle name="H54_Soul_Aura_Shilver.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H54_Soul_Aura_Shilver/Efx/H54_Soul_Aura_Shilver.efx" />
+		<particle name="H55_Soul_Sigh_Shilver.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/demons_strings_trick.efx" />
+		<particle name="H56_Soul_Aura_White.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H56_Soul_Aura_White/Efx/H56_Soul_Aura_White.efx" />
+		<particle name="H57_Soul_Sigh_White.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/demons_strings_treat.efx" />
+		<particle name="H60_LocoRoco_Effect_M.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H60_LocoRoco_Effect_M/efx/H60_LocoRoco_Effect_M.efx" />
+		<particle name="H61_LocoRoco_Effect_D.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H61_LocoRoco_Effect_D/efx/H61_LocoRoco_Effect_D.efx" />
+		<particle name="glow.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/glow.efx" />
+		<particle name="LocoRoco_Effect_Cloth.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/LocoRoco_Effect_Cloth/efx/LocoRoco_Effect_Cloth.efx" />
+		<particle name="kuro_eye.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/kuro_eye.efx" />
+		<particle name="H39_Snow_Effect_A.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H39_Snow_Effect/efx/H39_Snow_Effect_A.efx" />
+		<particle name="H39_Snow_Effect_B.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H39_Snow_Effect/efx/H39_Snow_Effect_B.efx" />
+		<particle name="H01_Eye_Light_Small.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H01_Eye_Light_Small.efx" />
+		<particle name="H05_Footpad_Bone_Left.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H05_Footpad_Bone/efx/H05_Footpad_Bone_Left.efx" />
+		<particle name="H05_Footpad_Bone_Right.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H05_Footpad_Bone/efx/H05_Footpad_Bone_Right.efx" />
+		<particle name="H24b_Ghost_Normal_Staff.efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H24b_Ghost_Normal_Staff/efx/H24b_Ghost_Normal_Staff.efx" />
+		<particle name="blanka_ele_b.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/blanka_ele_b.efx" />
+		<particle name="VOLUME_HALLOWEEN.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/VOLUME_HALLOWEEN.efx" />
+		<particle name="bat_anim.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/bat_anim.efx" />
+		<particle name="blanka_b.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/blanka_b.efx" />
+		<particle name="blanka_ele.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/blanka_ele.efx" />
+		<particle name="butterfly_anim.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/butterfly_anim.efx" />
+		<particle name="CANDLE_HALLOWEEN.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/CANDLE_HALLOWEEN.efx" />
+		<particle name="demons_smoke.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/demons_smoke.efx" />
+		<particle name="demons_strings_sorry.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/demons_strings_sorry.efx" />
+		<particle name="demons_strings_treat.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/demons_strings_treat.efx" />
+		<particle name="demons_strings_trick.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/demons_strings_trick.efx" />
+		<particle name="eye_fire.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/eye_fire.efx" />
+		<particle name="eyebeam.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/eyebeam.efx" />
+		<particle name="foot.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/foot.efx" />
+		<particle name="foot_blend.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/foot_blend.efx" />
+		<particle name="foot_nikuq.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/foot_nikuq.efx" />
+		<particle name="H32_Bunny_Ear_Green.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H32_Bunny_Ear_Green.efx" />
+		<particle name="H32_Bunny_Ear_Q.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H32_Bunny_Ear_Q.efx" />
+		<particle name="H32_Bunny_Ear_S.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H32_Bunny_Ear_S.efx" />
+		<particle name="H33_Bunny_Ear_Red.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H33_Bunny_Ear_Red.efx" />
+		<particle name="H34_Bunny_Ear_White.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/H34_Bunny_Ear_White.efx" />
+		<particle name="hanabi_foot_splash.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/hanabi_foot_splash.efx" />
+		<particle name="hanabi_set_oodama.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/hanabi_set_oodama.efx" />
+		<particle name="hanabi_splash_c.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/hanabi_splash_c.efx" />
+		<particle name="hanabi_splash_senkou.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/hanabi_splash_senkou.efx" />
+		<particle name="handhanabi_splash.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/handhanabi_splash.efx" />
+		<particle name="hc_star_rain2.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/hc_star_rain.efx" />
+		<particle name="jack_candy.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/jack_candy.efx" />
+		<particle name="jack_eye.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/jack_eye.efx" />
+		<particle name="kuro.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/kuro.efx" />
+		<particle name="live_confetti2.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/live_confetti.efx" />
+		<particle name="star_dust.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/star_dust.efx" />
+		<particle name="toro.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/toro.efx" />
+		<file name="Network_xml" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/Network.xml" />
+		<file name="snd_title_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/snd_title.xml" />
+		<file name="snd_info_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/snd_info.xml" />
+		<file name="sync_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/sync.xml" />
+		<file name="maintenance_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/maintenance.xml" />
+		<file name="reward_failed_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/reward_failed.xml" />
+		<file name="state_icon_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/state_icon.xml" />
+		<file name="reward_icon_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/reward_icon.xml" />
+		<file name="selectbar_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/selectbar.xml" />
+		<file name="types_osd" deferred_loading="false" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/osd/types.xml" />
+		<soundbank name="explosion_bnk" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/sound/explosion.bnk" />
+		<soundbank name="se_imas_cann1_bnk" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/sound/se_imas_cann1_b.bnk" />
+		<soundbank name="se_imas_cheer_bnk" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/sound/se_imas_cheer_b.bnk" />
+		<soundbank name="se_imas_gas1_bnk" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/sound/se_imas_gas1_b.bnk" />
+		<soundstream name="asynchronous_mp3" deferred_loading="false" file="objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/sound/asynchronous.mp3" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeServerBase.luac" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeServerTrigger.luac" />
+		<lua name="paHomeServerGeneral" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeServerGeneral.luac" />
+		<lua name="paHomeSoundMgr" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeSoundMgr.luac" />
+		<lua name="paHomeSoundStream" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeSoundStream.luac" />
+		<lua name="paHomeSoundBank" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeSoundBank.luac" />
+		<lua name="paHomeUI2" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeUI2.luac" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomePosCalc.luac" />
+		<lua name="paHomeScreen" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeScreen.luac" />
+		<lua name="main" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/main.luac" />
+		<lua name="gamemain" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/gamemain.luac" />
+		<lua name="globalmain" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/globalmain.luac" />
+		<lua name="version_label" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/version_label.luac" />
+		<lua name="dbg_propaty" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/dbg_propaty.luac" />
+		<lua name="permitted_region" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/permitted_region.luac" />
+		<lua name="server_propaty" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/server_propaty.luac" />
+		<lua name="adjust_propaty" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/adjust_propaty.luac" />
+		<lua name="eventOsd" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/eventOsd.luac" />
+		<lua name="eventTrigger" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/eventTrigger.luac" />
+		<lua name="eventCommon" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/eventCommon.luac" />
+		<lua name="eventlight" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/eventlight.luac" />
+		<lua name="xmlExpand" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/xmlExpand.luac" />
+		<lua name="xmlAction" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/xmlAction.luac" />
+		<lua name="backread" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/backread.luac" />
+		<lua name="self_error" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/self_error.luac" />
+		<lua name="another_error" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/another_error.luac" />
+		<lua name="other_error" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/other_error.luac" />
+		<lua name="reward_set" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/reward_set.luac" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeTime.luac" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeCommon.luac" />
+		<lua name="paHomeCommonDebug" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/paHomeCommonDebug.luac" />
+		<lua name="ResMan" deferred_loading="false" protected="true" file="Objects/13C8C643-E6C94E55-8A24AA03-CA3E4B28/resource/ResMan.luac" />
+	</local>
+	<external />
+</resources>

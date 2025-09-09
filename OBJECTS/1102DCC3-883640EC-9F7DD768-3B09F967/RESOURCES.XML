@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Base.mdl" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Base.mdl" />
+		<model name="Cash.mdl" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Cash.mdl" />
+		<model name="Cash_25000.mdl" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Cash_25000.mdl" />
+		<model name="Teleporter.mdl" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Teleporter.mdl" />
+		<model name="MoneyOnFloor.mdl" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/MoneyOnFloor.mdl" />
+		<model name="BurnHolesOnFloor.mdl" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/BurnHolesOnFloor.mdl" />
+		<texture name="greenlight_c.dds" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Textures/greenlight_c.dds" />
+		<texture name="lightshaft_c.dds" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Textures/lightshaft_c.dds" />
+		<texture name="OSD_Main" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Textures/mainContainer.dds" />
+		<texture name="OSD_Text" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Textures/textContainer.dds" />
+		<texture name="glow_c.dds" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Textures/glow_c.dds" />
+		<particle name="FallingMoney.efx" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/FX/FallingMoney.efx" />
+		<particle name="FallingFire.efx" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/FX/FallingFire.efx" />
+		<file name="MainScreen.xml" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/OSD/MainScreen.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/OSD/types.xml" />
+		<collision name="Teleporter.hkx" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Teleporter.hkx" />
+		<anim name="Teleporter.ani" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Teleporter.ani" />
+		<skeleton name="Teleporter.skn" deferred_loading="false" protected="false" file="MiniGames/hot_zone_teleporter_e3/Models/Teleporter.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/hot_zone_teleporter_e3/Source/MiniGame.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/hot_zone_teleporter_e3/Source/MinigameDialogs.lua" />
+	</local>
+	<external />
+</resources>

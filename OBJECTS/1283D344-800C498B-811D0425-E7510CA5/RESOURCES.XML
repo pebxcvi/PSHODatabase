@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Syateki_tama.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_tama.mdl" />
+		<model name="Syateki_dodai.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_dodai.mdl" />
+		<model name="Syateki_Rifle_dodai.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_dodai.mdl" />
+		<model name="Syateki_Rifle_E00.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_E00.mdl" />
+		<model name="Syateki_Rifle_A00.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_A00.mdl" />
+		<model name="Syateki_Rifle_B00.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_B00.mdl" />
+		<model name="Syateki_Rifle_C00.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_C00.mdl" />
+		<model name="Syateki_Rifle_D00.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_D00.mdl" />
+		<model name="Syateki_tento.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_tento.mdl" />
+		<model name="Syateki_Rifle_E00_shot.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_E00_shot.mdl" />
+		<model name="Syateki_Rifle_A00_shot.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_A00_shot.mdl" />
+		<model name="Syateki_Rifle_B00_shot.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_B00_shot.mdl" />
+		<model name="Syateki_Rifle_C00_shot.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_C00_shot.mdl" />
+		<model name="Syateki_Rifle_D00_shot.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_D00_shot.mdl" />
+		<model name="syateki_mato_52.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_52.mdl" />
+		<model name="syateki_mato_51.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_51.mdl" />
+		<model name="syateki_mato_53.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_53.mdl" />
+		<model name="syateki_mato_54.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_54.mdl" />
+		<model name="syateki_mato_55.mdl" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_55.mdl" />
+		<texture name="targetmark" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/sourceimages/Targetmark.dds" />
+		<texture name="tama_nasi.dds" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/2D/tama_nasi.dds" />
+		<texture name="tama_ari.dds" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/2D/tama_ari.dds" />
+		<particle name="hitmark.efx" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/effect/hitmark.efx" />
+		<file name="main" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/main.lua" />
+		<file name="LuaMath" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/LuaMath.lua" />
+		<file name="LuaObj" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/LuaObj.lua" />
+		<file name="LuaPadUtil" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/LuaPadUtil.lua" />
+		<file name="LuaTask" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/LuaTask.lua" />
+		<file name="LuaUtil" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/LuaUtil.lua" />
+		<file name="game_flow" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/game_flow.lua" />
+		<file name="LuaMemblock" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/LuaMemblock.lua" />
+		<file name="data_keihin" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/Data/data_keihin.lua" />
+		<file name="data_rifle" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/Data/data_rifle.lua" />
+		<file name="data_tana" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/Data/data_tana.lua" />
+		<file name="tana" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/tana.lua" />
+		<file name="keihin" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/keihin.lua" />
+		<file name="dangan" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/dangan.lua" />
+		<file name="rifle" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/rifle.lua" />
+		<file name="plan_cmn" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/Data/plan_cmn.lua" />
+		<file name="osd_types" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/OSD/types.xml" />
+		<file name="DialogBasic" deferred_loading="false" file="IremLounge/soft/Dialog/DialogBasicS.lua" />
+		<file name="DialogSelect" deferred_loading="false" file="IremLounge/soft/Dialog/DialogSelect.lua" />
+		<file name="WndMessageDialog" deferred_loading="false" file="IremLounge/soft/OSD/WndMessageDialog.xml" />
+		<file name="WndSimpleMenuDialog" deferred_loading="false" file="IremLounge/soft/OSD/WndSimpleMenuDialog.xml" />
+		<file name="system" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/system.lua" />
+		<file name="OSDRifleSelect" deferred_loading="false" file="April2010/soft_jp_99/Minigame/MiniGames_syateki2/OSD/rifle_select.xml" />
+		<file name="LuaCamera" deferred_loading="false" file="IremLounge/soft/LuaCamera.lua" />
+		<file name="April2010.lua" deferred_loading="false" file="April2010/soft_jp_99/Minigame/Date/April2010.lua" />
+		<collision name="Syateki_tama.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_tama.hkx" />
+		<collision name="Syateki_dodai.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_dodai.hkx" />
+		<collision name="Syateki_Rifle_dodai.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_Rifle_dodai.hkx" />
+		<collision name="Syateki_tento.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/Syateki_tento.hkx" />
+		<collision name="syateki_mato_51.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_51.hkx" />
+		<collision name="syateki_mato_52.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_52.hkx" />
+		<collision name="syateki_mato_54.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_54.hkx" />
+		<collision name="syateki_mato_55.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_55.hkx" />
+		<collision name="syateki_mato_53.hkx" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/scenes/syateki_mato_53.hkx" />
+		<soundbank name="SOUND_B.bnk" deferred_loading="false" file="IremLounge/sound/SOUND_B.bnk" />
+	</local>
+	<external />
+</resources>

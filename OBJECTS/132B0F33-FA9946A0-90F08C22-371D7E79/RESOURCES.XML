@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="image6.dds" deferred_loading="false" protected="false" file="environments/phk_lounge/screen/images/image6.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/HostReceptionist/file/Network.xml" />
+		<collision name="ShopProtector.hkx" deferred_loading="false" protected="false" file="furniture/onigoto/ShopProtector_B.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/HostReceptionist/lua/MiniGame.lua" />
+		<lua name="libcore.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libcore.lua" />
+		<lua name="libgame.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libgame.lua" />
+		<lua name="liblistener.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/liblistener.lua" />
+		<lua name="libpad.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libpad.lua" />
+		<lua name="global.lua" deferred_loading="false" protected="true" file="Scripts/global.lua" />
+		<lua name="Menu.lua" deferred_loading="false" protected="true" file="MiniGames/HostReceptionist/lua/Menu.lua" />
+		<lua name="SoundControl.lua" deferred_loading="false" protected="true" file="Scripts/SoundControl.lua" />
+		<lua name="Fade.lua" deferred_loading="false" protected="true" file="MiniGames/CommonReceptionist/Fade.lua" />
+		<lua name="WaitTurn.lua" deferred_loading="false" protected="true" file="MiniGames/CommonReceptionist/WaitTurn.lua" />
+	</local>
+	<external />
+</resources>

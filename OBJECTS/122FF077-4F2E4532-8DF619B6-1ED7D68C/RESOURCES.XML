@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_moodies" deferred_loading="true" protected="false" file="locomotionassets/Moodies_Cloud_idle.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Moodies/file/cloud_config.xml" memory="host" />
+		<anim name="ani_moodies_idle" deferred_loading="true" protected="false" file="locomotionassets/Moodies_Cloud_idle.ani" memory="host" />
+		<anim name="ani_moodies_cloud_raining" deferred_loading="true" protected="false" file="locomotionassets/Moodies_Cloud_raining.ani" memory="host" />
+		<anim name="ani_fsprint" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/fsprint.ani" memory="host" />
+		<anim name="ani_fwalk" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/fwalk.ani" memory="host" />
+		<anim name="ani_mjog" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/mjog.ani" memory="host" />
+		<anim name="ani_mrun" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/mrun.ani" memory="host" />
+		<anim name="ani_mwalk" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/mwalk.ani" memory="host" />
+		<anim name="ani_msprint" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/msprint.ani" memory="host" />
+		<anim name="ani_moodies_cloud_rainbow" deferred_loading="true" protected="false" file="locomotionassets/Moodies_Cloud_rainbow.ani" memory="host" />
+		<anim name="ani_moodies_cloud_storm" deferred_loading="true" protected="false" file="locomotionassets/Moodies_Cloud_storm.ani" memory="host" />
+		<anim name="ani_FIdle" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/AquaMount_MantaRay_FIdle.ani" memory="host" />
+		<anim name="ani_Idle" deferred_loading="true" protected="false" file="Locomotion/Moodies/anim/AquaMount_MantaRay_Idle.ani" memory="host" />
+		<anim name="ani_Moodies_Cloud_confusion" deferred_loading="true" protected="false" file="locomotionassets/Moodies_Cloud_confusion.ani" memory="host" />
+		<skeleton name="skn_moodies" deferred_loading="true" protected="false" file="locomotionassets/Moodies_Cloud_idle.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Moodies/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Moodies/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Moodies/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Moodies/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Moodies/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
