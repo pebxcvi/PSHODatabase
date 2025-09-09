@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SoloBoothChair.mdl" deferred_loading="false" protected="false" file="environments/nightclub_apartment/SoloBoothChair.mdl" />
+		<model name="BottleInteractive.mdl" deferred_loading="false" protected="false" file="environments/nightclub_apartment/BottleInteractive.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/DrinkingSeat_Placeable/file/Network.xml" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/drinkingseat/DrinkingSeat.safevolume.hkx" />
+		<collision name="SoloBoothChair.hkx" deferred_loading="false" protected="false" file="environments/nightclub_apartment/SoloBoothChair.hkx" />
+		<anim name="BarChair__Male_Drink.ani" deferred_loading="false" protected="false" file="animation/male/barchair__male_idle/BarChair__Male_Drink.ani" />
+		<anim name="BarChair__Male_Idle.ani" deferred_loading="false" protected="false" file="animation/male/barchair__male_idle/BarChair__Male_Idle.ani" />
+		<anim name="BarChair__Male_SitDown.ani" deferred_loading="false" protected="false" file="animation/male/barchair__male_idle/BarChair__Male_SitDown.ani" />
+		<anim name="BarChair__Male_StandUp.ani" deferred_loading="false" protected="false" file="animation/male/barchair__male_idle/BarChair__Male_StandUp.ani" />
+		<anim name="BarChair_Female_Drink.ani" deferred_loading="false" protected="false" file="animation/female/barchair_female_idle/BarChair_Female_Drink.ani" />
+		<anim name="BarChair_Female_Idle.ani" deferred_loading="false" protected="false" file="animation/female/barchair_female_idle/BarChair_Female_Idle.ani" />
+		<anim name="BarChair_Female_SitDown.ani" deferred_loading="false" protected="false" file="animation/female/barchair_female_idle/BarChair_Female_SitDown.ani" />
+		<anim name="BarChair_Female_StandUp.ani" deferred_loading="false" protected="false" file="animation/female/barchair_female_idle/BarChair_Female_StandUp.ani" />
+		<repertoire name="seat_reps_m" deferred_loading="false" protected="false" file="MiniGames/DrinkingSeat_Placeable/repertoires/seat_reps_m.xml" />
+		<repertoire name="seat_reps_f" deferred_loading="false" protected="false" file="MiniGames/DrinkingSeat_Placeable/repertoires/seat_reps_f.xml" />
+		<emotes name="seat_emotes_m" deferred_loading="true" protected="false" file="MiniGames/DrinkingSeat_Placeable/repertoires/seat_emotes_m.xml" />
+		<emotes name="seat_emotes_f" deferred_loading="true" protected="false" file="MiniGames/DrinkingSeat_Placeable/repertoires/seat_emotes_f.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/DrinkingSeat_Placeable/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

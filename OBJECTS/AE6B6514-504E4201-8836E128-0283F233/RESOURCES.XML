@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="npc_osd_types.xml" deferred_loading="false" file="V8Lounge/soft_us_00/LookObj/OSD/npc_osd_types.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="V8Lounge/soft_us_00/LookObj/OSD/SelectionButton.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="V8Lounge/soft_us_00/LookObj/OSD/WndTab.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="V8Lounge/soft_us_00/LookObj/OSD/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="V8Lounge/soft_us_00/LookObj/OSD/WndTabSelectDialog.xml" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" file="V8Lounge/soft_us_00/LookObj/OSD/WndMessageDialog.xml" />
+		<lua name="npc_cmn.lua" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/npc_cmn.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/Dialog/DialogBasic.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/Dialog/DialogTab.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/Dialog/DialogTabSelect.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/LuaPadUtil.lua" />
+		<lua name="LuaDebugUtil" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/LuaDebugUtil.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/NPC02_BOY/main.lua" />
+		<lua name="NPC02_BOY.lua" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/NPC02_BOY/NPC02_BOY.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="V8Lounge/soft_us_00/LookObj/LuaSingleEvent.lua" />
+	</local>
+	<external />
+</resources>

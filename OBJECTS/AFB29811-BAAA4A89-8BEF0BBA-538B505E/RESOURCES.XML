@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="attract_point.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/attract_point/attract_point.mdl" />
+		<model name="buybag.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/dinotoo/objects/buybag/buybag.mdl" />
+		<model name="Trex.mdl" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex.mdl" />
+		<collision name="attract_point.hkx" deferred_loading="false" protected="false" file="apartments/dinotop/assets/attract_point/attract_point.hkx" />
+		<collision name="buybag.hkx" deferred_loading="false" protected="false" file="apartments/dinotop/dinotoo/objects/buybag/buybag.hkx" />
+		<anim name="buybag.ani" deferred_loading="false" protected="false" file="apartments/dinotop/dinotoo/objects/buybag/buybag.ani" />
+		<anim name="Trex_Idle.ani" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex_Idle.ani" />
+		<skeleton name="buybag.skn" deferred_loading="false" protected="false" file="apartments/dinotop/dinotoo/objects/buybag/buybag.skn" />
+		<skeleton name="Trex.skn" deferred_loading="false" protected="false" file="apartments/dinotop/assets/trex/Trex.skn" />
+		<soundbank name="Trex.bnk" deferred_loading="false" protected="false" file="MiniGames/Dinotop/ApartmentGame/Sounds/RelocatorSounds/Trex.bnk" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Jamin.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Playmetrix.lua" />
+		<lua name="Rewarder.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Rewarder.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Dinotop/ApartmentGame/Code/Relocator/Main_Station_Relocator.lua" />
+	</local>
+	<external />
+</resources>

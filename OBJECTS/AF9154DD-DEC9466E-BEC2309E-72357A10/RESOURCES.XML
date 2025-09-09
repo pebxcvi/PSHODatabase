@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BoatLight_stern_ON.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/BoatLight_stern_ON.mdl" />
+		<model name="BoatLight_bow_OFF.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/BoatLight_bow_OFF.mdl" />
+		<model name="BoatLight_bow_ON.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/BoatLight_bow_ON.mdl" />
+		<model name="BoatLight_stern_OFF.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/BoatLight_stern_OFF.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/YachtLightsControl/file/Network.xml" />
+		<lua name="yacht_lights_main.lua" deferred_loading="false" protected="true" file="MiniGames/YachtLightsControl/lua/yacht_lights_main.lua" />
+	</local>
+	<external />
+</resources>

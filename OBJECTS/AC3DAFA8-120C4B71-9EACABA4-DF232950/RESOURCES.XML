@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="GoWeb.mdl" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/model/Fire.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/HumanTorch/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanIdle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanJogLeft.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanJog.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanJogRight.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanJogLeft_F.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanJog_F.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanJogRight_F.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/anim/SaiyanIdle_F.ani" memory="host" />
+		<skeleton name="GoWeb.skn" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/model/Fire.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/HumanTorch/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/HumanTorch/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

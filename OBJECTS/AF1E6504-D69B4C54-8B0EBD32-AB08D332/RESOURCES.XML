@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="lollipop.mdl" deferred_loading="true" protected="false" file="locomotion/cutiepop.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Cutie_Lollipop/file/config.xml" memory="host" />
+		<anim name="lollipop_emote_entry.ani" deferred_loading="true" protected="false" file="animation/female/cutie_lollipop/lollipop_emote_entry.ani" memory="host" />
+		<anim name="lollipop_emote_loop.ani" deferred_loading="true" protected="false" file="animation/female/cutie_lollipop/lollipop_emote_loop.ani" memory="host" />
+		<anim name="lollipop_idle.ani" deferred_loading="true" protected="false" file="animation/female/cutie_lollipop/lollipop_idle.ani" memory="host" />
+		<anim name="cutie_skip_lolli.ani" deferred_loading="true" protected="false" file="animation/female/cutie_skip/cutie_skip_lolli.ani" memory="host" />
+		<anim name="cutie_lollipop_emote.ani" deferred_loading="true" protected="false" file="animation/male/cutie_lollipop/cutie_lollipop_emote.ani" memory="host" />
+		<anim name="cutie_lollipop_emote_in.ani" deferred_loading="true" protected="false" file="animation/male/cutie_lollipop/cutie_lollipop_emote_in.ani" memory="host" />
+		<anim name="cutie_lollipop_idle.ani" deferred_loading="true" protected="false" file="animation/male/cutie_lollipop/cutie_lollipop_idle.ani" memory="host" />
+		<anim name="cutie_skip_lolli.ani_1" deferred_loading="true" protected="false" file="animation/male/cutie_skip/cutie_skip_lolli.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Cutie_Lollipop/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Cutie_Lollipop/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Cutie_Lollipop/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Cutie_Lollipop/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Cutie_Lollipop/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

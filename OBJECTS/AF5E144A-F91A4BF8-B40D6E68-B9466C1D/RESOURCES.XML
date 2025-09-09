@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_dog/models/DogHouse.mdl" />
+		<model name="Dog.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/Dog.mdl" />
+		<model name="DogEyelid.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/DogEyelid.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_dog/models/DogHouse.hkx" />
+		<anim name="CommJuly_Dog_StandingIdle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_StandingIdle.ani" />
+		<anim name="CommJuly_Dog_Barking.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_Barking.ani" />
+		<anim name="CommJuly_Dog_PlayDead.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_PlayDead.ani" />
+		<anim name="CommJuly_Dog_RollOver.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_RollOver.ani" />
+		<anim name="CommJuly_Dog_Run.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_Run.ani" />
+		<anim name="CommJuly_Dog_Sitting.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_Sitting.ani" />
+		<anim name="CommJuly_Dog_SittingIdle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_SittingIdle.ani" />
+		<anim name="CommJuly_Dog_SittingToStanding.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_SittingToStanding.ani" />
+		<anim name="CommJuly_Dog_PlayDead_End.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_PlayDead_End.ani" />
+		<anim name="CommJuly_Dog_PlayDead_Cycle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/anims/CommJuly_Dog_PlayDead_Cycle.ani" />
+		<skeleton name="Dog.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/models/Dog.skn" />
+		<soundbank name="dog.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_dog/audio/dog.bnk" />
+		<lua name="dogMain.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_dog/programming/dogMain.lua" />
+		<lua name="Dog.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_dog/programming/Dog.lua" />
+	</local>
+	<external />
+</resources>

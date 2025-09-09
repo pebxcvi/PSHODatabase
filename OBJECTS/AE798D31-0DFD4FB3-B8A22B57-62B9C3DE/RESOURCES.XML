@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/model/SwarmOfBees_rig.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/model/SwarmOfBees_LOD2_rig.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/anim/Male_SwarmOfBees_Idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/anim/Male_SwarmOfBees_Walk.ani" memory="main" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/anim/Female_SwarmOfBees_Walk.ani" memory="main" />
+		<anim name="frun.ani" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/anim/F_SwarmOfBees_run.ani" memory="main" />
+		<anim name="Bees_idle.ani" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/anim/Bees_idle.ani" memory="main" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/anim/Female_SwarmOfBees_Idle.ani" memory="host" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/anim/M_SwarmOfBees_run.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/model/SwarmOfBees_rig.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/SwarmOfBees/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/SwarmOfBees/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/gold2.mdl" memory="main" />
+    <file name="Network.xml" deferred_loading="false" protected="true" file="Actives/BigBed_Original/file/Network.xml" />
+    <collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/gold2.hkx" memory="main" />
+    <collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/goldsafevolume.hkx" memory="main" />
+    <anim name="seatedposes_03_loop.ani" deferred_loading="false" protected="false" file="animation/male/seatedposes_03/seatedposes_03_loop.ani" />
+    <anim name="seatedposes_05_loop.ani" deferred_loading="false" protected="false" file="animation/male/seatedposes_05/seatedposes_05_loop.ani" />
+    <anim name="seatedposes_06.ani" deferred_loading="false" protected="false" file="animation/male/seatedposes_06/seatedposes_06.ani" />
+    <anim name="seatedposes_07.ani" deferred_loading="false" protected="false" file="animation/male/seatedposes_07/seatedposes_07.ani" />
+    <anim name="seatedposes_09_loop.ani" deferred_loading="false" protected="false" file="animation/male/seatedposes_09/seatedposes_09_loop.ani" />
+    <anim name="floorposes_03_loop.ani" deferred_loading="false" protected="false" file="animation/female/floorposes_03/floorposes_03_loop.ani" />
+    <anim name="flooorposes_05_loop.ani" deferred_loading="false" protected="false" file="animation/female/flooorposes_05/flooorposes_05_loop.ani" />
+    <anim name="floorposes_06_loop.ani" deferred_loading="false" protected="false" file="animation/female/floorposes_06/floorposes_06_loop.ani" />
+    <anim name="floorposes_07_loop.ani" deferred_loading="false" protected="false" file="animation/female/floorposes_07/floorposes_07_loop.ani" />
+    <anim name="floorposes_09_loop.ani" deferred_loading="false" protected="false" file="animation/female/floorposes_09/floorposes_09_loop.ani" />
+    <repertoire name="rep_male" deferred_loading="false" protected="false" file="Actives/BigBed_Original/rep/rep_male.xml" />
+    <repertoire name="rep_female" deferred_loading="false" protected="false" file="Actives/BigBed_Original/rep/rep_female.xml" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="actives/bigbed_original/lua/minigame.luac" />
+  </local>
+  <external />
+</resources>

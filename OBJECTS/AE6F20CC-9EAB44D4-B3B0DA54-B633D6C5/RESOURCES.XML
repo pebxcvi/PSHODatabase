@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="AngelWings_02.mdl" deferred_loading="false" protected="false" file="animatedmodels/angelwings/AngelWings_03gold.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/AngelWings/file/config.xml" memory="host" />
+		<anim name="SuccubusWings_angle.ani" deferred_loading="true" protected="false" file="animatedmodels/angelwings/AngelWings_02flaphalfangle.ani" memory="host" />
+		<anim name="SuccubusWings_flap.ani" deferred_loading="true" protected="false" file="animatedmodels/angelwings/AngelWings_02flaphalf.ani" memory="host" />
+		<anim name="SuccubusWings_idle.ani" deferred_loading="true" protected="false" file="animatedmodels/angelwings/AngelWings_02idle.ani" memory="host" />
+		<anim name="flyForward" deferred_loading="true" protected="false" file="Locomotion/SuccubusWings/anim/flyForward.ani" memory="main" />
+		<anim name="flyIdle" deferred_loading="true" protected="false" file="Locomotion/SuccubusWings/anim/flyIdle.ani" memory="host" />
+		<anim name="WingsFlyMaleForward" deferred_loading="true" protected="false" file="Locomotion/SuccubusWings/anim/WingsFlyMaleForward.ani" memory="main" />
+		<anim name="WingsFlyMaleIdle" deferred_loading="true" protected="false" file="Locomotion/SuccubusWings/anim/WingsFlyMaleIdle.ani" memory="main" />
+		<anim name="Succubus_flyswitch_off.ani" deferred_loading="true" protected="false" file="animatedmodels/succubuswings/Succubus_flyswitch_off.ani" memory="host" />
+		<anim name="Succubus_flyswitch_on.ani" deferred_loading="true" protected="false" file="animatedmodels/succubuswings/Succubus_flyswitch_on.ani" memory="host" />
+		<anim name="WingsFlyMaleDOWN.ani" deferred_loading="true" protected="false" file="animatedmodels/succubuswings/WingsFlyMaleDOWN.ani" memory="host" />
+		<anim name="WingsFlyMaleUP.ani" deferred_loading="true" protected="false" file="animatedmodels/succubuswings/WingsFlyMaleUP.ani" memory="host" />
+		<anim name="WingsFlyMaleSTANDIDLE" deferred_loading="true" protected="false" file="animatedmodels/succubuswings/WingsFlyMaleSTANDIDLE.ani" memory="host" />
+		<skeleton name="AngelWings_02.skn" deferred_loading="true" protected="false" file="animatedmodels/angelwings/AngelWings_03.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/AngelWings/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/AngelWings/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/AngelWings/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/AngelWings/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/AngelWings/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
