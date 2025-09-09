@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<author type="string">PlayStation©Home</author>
+		<description type="string">kDesc</description>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Sony Computer Entertainment</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">7</minimum_age>
+				<parental_control_level type="int">3</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">US</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">KR</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">3</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">SG</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">TW</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">HK</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">CA</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">Black leather jeans</name>
+		<type type="string">Legs</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_Legs_jeansleather</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_Legs_jeansleather.lod1</lod1>
+					<lod2 type="string">Female01_Legs_jeansleather.lod2</lod2>
+					<lod3 type="string">Female01_Legs_jeansleather.lod3</lod3>
+				</lods>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<format type="string">resource</format>
+								<source type="string">Female01_Legs_jeansleather.default.colourMap</source>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<format type="string">resource</format>
+								<source type="string">Female01_Legs_jeansleather.default.specularMap</source>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<format type="string">resource</format>
+								<source type="string">Female01_Legs_jeansleather.default.normalMap</source>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

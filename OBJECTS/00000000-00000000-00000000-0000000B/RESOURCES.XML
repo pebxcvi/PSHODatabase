@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" file="Items/Bubble_Machine/Bubble_Machine.mdl" />
+		<texture name="bubble_texture" file="atgparticles/generic/textures/bubbletexture.dds" />
+		<particle name="bubbles" file="AtgParticles/generic/efx/BUBBLE_EFFECT2.efx" />
+		<file name="network_xml" file="Portables/Bubble_Machine/NetBag.xml" />
+		<anim name="anim" file="Items/Bubble_Machine/Bubble_Machine.ani" />
+		<skeleton name="skel" file="Items/Bubble_Machine/Bubble_Machine.skn" />
+		<soundbank name="soundbank" file="Portables/Bubble_Machine/Audio/Bubble.bnk" />
+		<lua name="main" deferred_loading="" protected="true" file="Portables/Bubble_Machine/main.lua" />
+	</local>
+</resources>

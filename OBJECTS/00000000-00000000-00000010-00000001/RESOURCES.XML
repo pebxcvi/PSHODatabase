@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="FaceDefinition" file="Characters_V2/Female/Female01/Head/female_head.rig" />
+		<file name="FaceCustomisation" file="data/avatars/HumanFemale/HumanFemale_CharacterCustomisation.xml" />
+		<file name="Female_Eyebrow_Thin.lod1" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Thin_lod1.agf" />
+		<file name="Female_Eyebrow_Thin.lod2" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Thin_lod2.agf" />
+		<file name="Female_Eyebrow_Thin.lod3" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Thin_lod3.agf" />
+		<file name="Female_Eyebrow_Drawn.lod1" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Drawn_lod1.agf" />
+		<file name="Female_Eyebrow_Drawn.lod2" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Drawn_lod2.agf" />
+		<file name="Female_Eyebrow_Drawn.lod3" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Drawn_lod3.agf" />
+		<file name="Female_Eyebrow_Medium.lod1" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Medium_lod1.agf" />
+		<file name="Female_Eyebrow_Medium.lod2" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Medium_lod2.agf" />
+		<file name="Female_Eyebrow_Medium.lod3" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Medium_lod3.agf" />
+		<file name="Female_Eyebrow_Thick.lod1" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Thick_lod1.agf" />
+		<file name="Female_Eyebrow_Thick.lod2" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Thick_lod2.agf" />
+		<file name="Female_Eyebrow_Thick.lod3" deferred_loading="true" file="Characters_V2/Female/Female01/Head/TexGen/Female01_Eyebrows_Thick_lod3.agf" />
+		<anim name="standIdle" file="Animation_V4/female/NS_STA_F_01.ani" />
+		<anim name="standLeft" file="Animation_V4/female/NS_WEIGHT_F_01.ani" />
+		<anim name="standRight" file="Animation_V4/female/NS_WEIGHT_F_02.ani" />
+		<anim name="standWs#3L" file="Animation_V4/female/NS_WEIGHT_F_05.ani" />
+		<anim name="standWs#3R" file="Animation_V4/female/NS_WEIGHT_F_06.ani" />
+		<anim name="standWs#4L" file="Animation_V4/female/NS_WEIGHT_F_07.ani" />
+		<anim name="standWs#4R" file="Animation_V4/female/NS_WEIGHT_F_08.ani" />
+		<anim name="standWs#5L" file="Animation_V4/female/NS_WEIGHT_F_09.ani" />
+		<anim name="standWs#5R" file="Animation_V4/female/NS_WEIGHT_F_10.ani" />
+		<anim name="sitDown" file="Animation_V4/female/SD_F_01.ani" />
+		<anim name="sitIdle" file="Animation_V4/female/NS_SIT_F_01.ani" />
+		<anim name="sitIdlePerch#2" file="Animation_V4/female/NS_SIT_F_02.ani" />
+		<anim name="sitIdlePerch#3" file="Animation_V4/female/NS_SIT_F_03.ani" />
+		<anim name="sitIdlePerch#4" file="Animation_V4/female/NS_SIT_F_04.ani" />
+		<anim name="sitIdleRecline" file="Animation_V4/female/REC_ST_F_01.ani" />
+		<anim name="sitPerchToRecline" file="Animation_V4/female/REC_ST_F_IN_01.ani" />
+		<anim name="sitReclineToPerch" file="Animation_V4/female/REC_ST_F_OUT_01.ani" />
+		<anim name="standUp" file="Animation_V4/female/SU_F_01.ani" />
+		<anim name="sitDownLow" file="Animation_V4/female/SD_LOW_F_01.ani" />
+		<anim name="sitIdleLowPerch" file="Animation_V4/female/NS_LOW_F_01.ani" />
+		<anim name="sitIdleLowRecline" file="Animation_V4/female/REC_LOW_F_01.ani" />
+		<anim name="sitLoPerchToRecline" file="Animation_V4/female/REC_LOW_F_IN_01.ani" />
+		<anim name="sitLoReclineToPerch" file="Animation_V4/female/REC_LOW_F_OUT_01.ani" />
+		<anim name="standUpLow" file="Animation_V4/female/SU_LOW_F_01.ani" />
+		<anim name="sitDownHigh" file="Animation_V4/female/SD_HIGH_F_01.ani" />
+		<anim name="sitIdleHigh" file="Animation_V4/female/NS_HIGH_F_01.ani" />
+		<anim name="standUpHigh" file="Animation_V4/female/SU_HIGH_F_01.ani" />
+		<anim name="sitFloorDemure" file="Animation_V4/female/NS_FLO_F_01.ani" />
+		<anim name="sitFloorDemureIntro" file="Animation_V4/female/SD_F_02.ani" />
+		<anim name="sitFloorDemure-stand" file="Animation_V4/female/SU_F_02.ani" />
+		<anim name="sitFloorPolite" file="Animation_V4/female/NS_FLO_F_03.ani" />
+		<anim name="sitFloorPoliteIntro" file="Animation_V4/female/SD_F_03.ani" />
+		<anim name="sitFloorPolite-stand" file="Animation_V4/female/SU_F_03.ani" />
+		<anim name="faceIdle" file="Animation_v4/female/JUST_FACIAL/f_NS_STA_F_01.ani" />
+		<anim name="standPSP" file="Animation_v4/female/PSP_F_02.ani" />
+		<anim name="sitPSPMid" file="Animation_v4/female/PSP_F_01.ani" />
+		<anim name="sitPSPRecline" file="Animation_v4/female/PSP_REC_F_01.ani" />
+		<anim name="sitPSPLow" file="Animation_v4/female/PSP_LOW_F_01.ani" />
+		<anim name="sitPSPLowRecline" file="Animation_v4/female/PSP_REC_LOW_F_01.ani" />
+		<anim name="sitPSPHigh" file="Animation_v4/female/PSP_HIGH_F_01.ani" />
+		<anim name="sitFloorPSPDemure" file="Animation_v4/female/PSP_F_03.ani" />
+		<anim name="sitFloorPSPPolite" file="Animation_v4/female/PSP_FLO_3_F_01.ani" />
+		<anim name="walk" file="Animation_locomotion/M_F_02_P2.ani" />
+		<anim name="walkFast" file="Animation_locomotion/M_F_03_P2.ani" />
+		<anim name="jog" file="Animation_locomotion/M_F_04_P2.ani" />
+		<anim name="heelRock" file="Animation_V4/female/I_STA_F_07.ani" />
+		<anim name="footLook" file="Animation_V4/female/I_STA_F_10.ani" />
+		<anim name="footShuffle" file="Animation_V4/female/I_STA_F_12.ani" />
+		<anim name="faceHeelRock" file="Animation_v4/female/JUST_FACIAL/f_I_F_07.ani" />
+		<anim name="faceFootLook" file="Animation_v4/female/JUST_FACIAL/f_I_F_10.ani" />
+		<anim name="faceFootShuffle" file="Animation_v4/female/JUST_FACIAL/f_I_F_12.ani" />
+		<anim name="standTurn01" file="Animation_V4/female/T01_STA_F_01.ani" />
+		<anim name="standTurn02" file="Animation_V4/female/T01_STA_F_02.ani" />
+		<anim name="foldArms" file="Animation_V4/female/I_STA_F_08.ani" />
+		<anim name="shoulderRoll" file="Animation_V4/female/I_STA_F_09.ani" />
+		<anim name="checkHand" file="Animation_V4/female/I_STA_F_13.ani" />
+		<anim name="faceFoldArms" file="Animation_v4/female/JUST_FACIAL/f_I_F_08.ani" />
+		<anim name="faceShoulderRoll" file="Animation_v4/female/JUST_FACIAL/f_I_F_09.ani" />
+		<anim name="faceCheckHand" file="Animation_v4/female/JUST_FACIAL/f_I_F_13.ani" />
+		<anim name="headIdle01" file="Animation_V4/female/I_STA_F_01.ani" />
+		<anim name="headIdle02" file="Animation_V4/female/I_STA_F_02.ani" />
+		<anim name="headIdle03" file="Animation_V4/female/I_STA_F_03.ani" />
+		<anim name="headIdle04" file="Animation_V4/female/I_STA_F_04.ani" />
+		<anim name="headIdle05" file="Animation_V4/female/I_STA_F_05.ani" />
+		<anim name="headIdle06" file="Animation_V4/female/I_STA_F_06.ani" />
+		<anim name="faceIdle01" file="Animation_v4/female/JUST_FACIAL/f_I_F_01.ani" />
+		<anim name="faceIdle02" file="Animation_v4/female/JUST_FACIAL/f_I_F_02.ani" />
+		<anim name="faceIdle03" file="Animation_v4/female/JUST_FACIAL/f_I_F_03.ani" />
+		<anim name="faceIdle04" file="Animation_v4/female/JUST_FACIAL/f_I_F_04.ani" />
+		<anim name="faceIdle05" file="Animation_v4/female/JUST_FACIAL/f_I_F_05.ani" />
+		<anim name="faceIdle06" file="Animation_v4/female/JUST_FACIAL/f_I_F_06.ani" />
+		<anim name="sitTurn01" file="Animation_V4/female/T01_SIT_F_01.ani" />
+		<anim name="sitTurn02" file="Animation_V4/female/T01_SIT_F_02.ani" />
+		<anim name="sitFoldarms" file="Animation_V4/female/I_SIT_F_08.ani" />
+		<anim name="sitShoulderRoll" file="Animation_V4/female/I_SIT_F_09.ani" />
+		<anim name="sitCheckhand" file="Animation_V4/female/I_SIT_F_13.ani" />
+		<anim name="sitIdle01" file="Animation_V4/female/I_SIT_F_01.ani" />
+		<anim name="sitIdle02" file="Animation_V4/female/I_SIT_F_02.ani" />
+		<anim name="sitIdle03" file="Animation_V4/female/I_SIT_F_03.ani" />
+		<anim name="sitIdle04" file="Animation_V4/female/I_SIT_F_04.ani" />
+		<anim name="sitIdle05" file="Animation_V4/female/I_SIT_F_05.ani" />
+		<anim name="sitIdle06" file="Animation_V4/female/I_SIT_F_06.ani" />
+		<anim name="danceRock" file="Animation_V4/female/D_F_02_P2.ani" />
+		<anim name="danceDisco" file="Animation_V4/female/D_F_15_P2.ani" />
+		<anim name="danceRobot" file="Animation_V4/female/D_F_05_P2.ani" />
+		<anim name="danceRave" file="Animation_V4/female/D_F_08_P2.ani" />
+		<anim name="danceRocknRoll" file="Animation_V4/female/D_F_12_P2.ani" />
+		<anim name="danceRunning" file="Animation_V4/female/D_F_16_P2.ani" />
+		<anim name="danceCabbage" file="Animation_V4/female/D_F_14_P2.ani" />
+		<anim name="danceSalsa" file="Animation_V4/female/D_F_23_P2.ani" />
+		<anim name="danceBodyPop" file="Animation_V4/female/D_F_24_P2.ani" />
+		<anim name="danceSka" file="Animation_V4/female/D_F_25_P2.ani" />
+		<anim name="danceSkaIntro" file="Animation_V4/female/D_F_25_P1.ani" />
+		<anim name="faceDanceCasual" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="faceDanceRock" file="Animation_v4/female/JUST_FACIAL/f_D_F_02_P2.ani" />
+		<anim name="faceDanceDisco" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="faceDanceRobot" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="faceDanceRave" file="Animation_v4/female/JUST_FACIAL/f_D_F_08_P2.ani" />
+		<anim name="faceDanceRocknRoll" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="faceDanceRunning" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="faceDanceCabbage" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="faceDanceSalsa" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="faceDanceBodyPop" file="Animation_v4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="wave" file="Animation_V4/female/EM_STA_F_01.ani" />
+		<anim name="waveSIT" file="Animation_V4/female/EM_SIT_F_01.ani" />
+		<anim name="faceWave" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_01.ani" />
+		<anim name="attentionubSTA" file="Animation_V4/female/EM_STA_F_02_UB.ani" />
+		<anim name="attentionlbSTA" file="Animation_V4/female/EM_STA_F_02_LB.ani" />
+		<anim name="attentionSIT" file="Animation_V4/female/EM_SIT_F_02.ani" />
+		<anim name="faceAttention" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_02.ani" />
+		<anim name="saluteSTA" file="Animation_V4/female/EM_STA_F_03.ani" />
+		<anim name="saluteSIT" file="Animation_V4/female/EM_SIT_F_03.ani" />
+		<anim name="faceSalute" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_03.ani" />
+		<anim name="curtseyUB" file="Animation_V4/female/EM_STA_F_04_UB.ani" />
+		<anim name="curtseyLB" file="Animation_V4/female/EM_STA_F_04_LB.ani" />
+		<anim name="faceCurtsey" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_04.ani" />
+		<anim name="bowUB" file="Animation_V4/female/EM_STA_F_05_UB.ani" />
+		<anim name="bowLB" file="Animation_V4/female/EM_STA_F_05_LB.ani" />
+		<anim name="faceBow" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_12.ani" />
+		<anim name="blowKissSTA" file="Animation_V4/female/EM_STA_F_23.ani" />
+		<anim name="blowKissSIT" file="Animation_V4/female/EM_SIT_F_23.ani" />
+		<anim name="faceBlowKiss" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_12.ani" />
+		<anim name="beckonSTA" file="Animation_V4/female/EM_STA_F_27.ani" />
+		<anim name="beckonSIT" file="Animation_V4/female/EM_SIT_F_27.ani" />
+		<anim name="faceBeckon" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_27.ani" />
+		<anim name="agree" file="Animation_V4/female/EM_STA_F_06.ani" />
+		<anim name="faceAgree" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_06.ani" />
+		<anim name="disagree" file="Animation_V4/female/EM_STA_F_07.ani" />
+		<anim name="faceDisagree" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_07.ani" />
+		<anim name="shrug" file="Animation_V4/female/EM_STA_F_08.ani" />
+		<anim name="shrugSIT" file="Animation_V4/female/EM_SIT_F_08.ani" />
+		<anim name="faceShrug" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_08.ani" />
+		<anim name="yawn" file="Animation_V4/female/EM_STA_F_09.ani" />
+		<anim name="yawnSIT" file="Animation_V4/female/EM_SIT_F_09.ani" />
+		<anim name="faceYawn" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_09.ani" />
+		<anim name="okaySTA" file="Animation_V4/female/EM_STA_F_10.ani" />
+		<anim name="okaySIT" file="Animation_V4/female/EM_SIT_F_10.ani" />
+		<anim name="giggleUB" file="Animation_V4/female/EM_STA_F_29_UB.ani" />
+		<anim name="giggleLB" file="Animation_V4/female/EM_STA_F_29_LB.ani" />
+		<anim name="giggleSIT" file="Animation_V4/female/EM_SIT_F_29.ani" />
+		<anim name="faceGiggle" file="Animation_V4/female/JUST_FACIAL/F_EM_STA_F_29.ani" />
+		<anim name="shyUB" file="Animation_V4/female/EM_STA_F_30_UB.ani" />
+		<anim name="shyLB" file="Animation_V4/female/EM_STA_F_30_LB.ani" />
+		<anim name="shySIT" file="Animation_V4/female/EM_SIT_F_30.ani" />
+		<anim name="faceShy" file="Animation_V4/female/JUST_FACIAL/F_EM_STA_F_30.ani" />
+		<anim name="faceOkay" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_12.ani" />
+		<anim name="applaud" file="Animation_V4/female/EM_STA_F_11.ani" />
+		<anim name="applaudSIT" file="Animation_V4/female/EM_SIT_F_11.ani" />
+		<anim name="faceApplaud" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_11.ani" />
+		<anim name="clapSTA" file="Animation_V4/female/EM_STA_F_28.ani" />
+		<anim name="clapSIT" file="Animation_V4/female/EM_SIT_F_28.ani" />
+		<anim name="faceClap" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_28.ani" />
+		<anim name="cheerUB" file="Animation_V4/female/EM_STA_F_13_UB.ani" />
+		<anim name="cheerLB" file="Animation_V4/female/EM_STA_F_13_LB.ani" />
+		<anim name="cheerSIT" file="Animation_V4/female/EM_SIT_F_13.ani" />
+		<anim name="faceCheer" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_13.ani" />
+		<anim name="laughUB" file="Animation_V4/female/EM_STA_F_14_UB.ani" />
+		<anim name="laughLB" file="Animation_V4/female/EM_STA_F_14_LB.ani" />
+		<anim name="laughSIT" file="Animation_V4/female/EM_SIT_F_14.ani" />
+		<anim name="faceLaugh" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_14.ani" />
+		<anim name="yeahUB" file="Animation_V4/female/EM_STA_F_15_UB.ani" />
+		<anim name="yeahLB" file="Animation_V4/female/EM_STA_F_15_LB.ani" />
+		<anim name="yeahSIT" file="Animation_V4/female/EM_SIT_F_15.ani" />
+		<anim name="faceYeah" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_15.ani" />
+		<anim name="shakeFistsUB" file="Animation_V4/female/EM_STA_F_16_UB.ani" />
+		<anim name="shakeFistsLB" file="Animation_V4/female/EM_STA_F_16_LB.ani" />
+		<anim name="shakeFistsSIT" file="Animation_V4/female/EM_SIT_F_16.ani" />
+		<anim name="faceShakeFists" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_16.ani" />
+		<anim name="thumbsDown" file="Animation_V4/female/EM_STA_F_17.ani" />
+		<anim name="thumbsDownSIT" file="Animation_V4/female/EM_SIT_F_17.ani" />
+		<anim name="faceThumbsDown" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_17.ani" />
+		<anim name="noWaySTA" file="Animation_V4/female/EM_STA_F_18.ani" />
+		<anim name="noWaySIT" file="Animation_V4/female/EM_SIT_F_18.ani" />
+		<anim name="faceNoWay" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_18.ani" />
+		<anim name="frustrationUB" file="Animation_V4/female/EM_STA_F_19_UB.ani" />
+		<anim name="frustrationLB" file="Animation_V4/female/EM_STA_F_19_LB.ani" />
+		<anim name="frustrationSIT" file="Animation_V4/female/EM_SIT_F_19.ani" />
+		<anim name="faceFrustration" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_19.ani" />
+		<anim name="dismissiveUB" file="Animation_V4/female/EM_STA_F_20_UB.ani" />
+		<anim name="dismissiveLB" file="Animation_V4/female/EM_STA_F_20_LB.ani" />
+		<anim name="dismissiveSIT" file="Animation_V4/female/EM_SIT_F_20.ani" />
+		<anim name="faceDismissive" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_20.ani" />
+		<anim name="pointSTA" file="Animation_V4/female/EM_STA_F_26.ani" />
+		<anim name="pointSIT" file="Animation_V4/female/EM_SIT_F_26.ani" />
+		<anim name="facePoint" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_26.ani" />
+		<anim name="guns" file="Animation_V4/female/EM_STA_F_21.ani" />
+		<anim name="faceGuns" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_21.ani" />
+		<anim name="booSTA" file="Animation_V4/female/EM_STA_F_22.ani" />
+		<anim name="booSIT" file="Animation_V4/female/EM_SIT_F_22.ani" />
+		<anim name="faceBoo" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_22.ani" />
+		<anim name="spinUB" file="Animation_V4/female/EM_STA_F_24_UB.ani" />
+		<anim name="spinLB" file="Animation_V4/female/EM_STA_F_24_LB.ani" />
+		<anim name="faceSpin" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_24.ani" />
+		<anim name="poseUB" file="Animation_V4/female/EM_STA_F_25_UB.ani" />
+		<anim name="poseLB" file="Animation_V4/female/EM_STA_F_25_LB.ani" />
+		<anim name="poseSIT" file="Animation_V4/female/EM_SIT_F_24.ani" />
+		<anim name="facePoseSTA" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_25.ani" />
+		<anim name="facePoseSIT" file="Animation_v4/female/JUST_FACIAL/f_EM_STA_F_12.ani" />
+		<anim name="HeroineLeadInLB" file="Animation_v4/female/Pose_F_03_p1_lb.ani" />
+		<anim name="HeroineLeadInUB" file="Animation_v4/female/Pose_F_03_p1_ub.ani" />
+		<anim name="HeroineLoop" file="Animation_v4/female/Pose_F_03_p2.ani" />
+		<anim name="HeroineFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_03_p1.ani" />
+		<anim name="HeroineFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_03_p2.ani" />
+		<anim name="CatwalkIntroLB" file="Animation_v4/female/Pose_F_04_p1_lb.ani" />
+		<anim name="CatwalkIntroUB" file="Animation_v4/female/Pose_F_04_p1_ub.ani" />
+		<anim name="CatwalkLoop" file="Animation_v4/female/Pose_F_04_p2.ani" />
+		<anim name="CatwalkFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_04_p1.ani" />
+		<anim name="CatwalkFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_04_p2.ani" />
+		<anim name="CoyIntroLB" file="Animation_v4/female/Pose_F_05_p1_lb.ani" />
+		<anim name="CoyIntroUB" file="Animation_v4/female/Pose_F_05_p1_ub.ani" />
+		<anim name="CoyLoop" file="Animation_v4/female/Pose_F_05_p2.ani" />
+		<anim name="CoyFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_05_p1.ani" />
+		<anim name="CoyFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_05_p2.ani" />
+		<anim name="ElegantIntroLB" file="Animation_v4/female/Pose_F_06_p1_lb.ani" />
+		<anim name="ElegantIntroUB" file="Animation_v4/female/Pose_F_06_p1_ub.ani" />
+		<anim name="ElegantLoop" file="Animation_v4/female/Pose_F_06_p2.ani" />
+		<anim name="ElegantFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_06_p1.ani" />
+		<anim name="ElegantFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_06_p2.ani" />
+		<anim name="CasualIntroLB" file="Animation_v4/female/Pose_F_07_p1_lb.ani" />
+		<anim name="CasualIntroUB" file="Animation_v4/female/Pose_F_07_p1_ub.ani" />
+		<anim name="CasualLoop" file="Animation_v4/female/Pose_F_07_p2.ani" />
+		<anim name="CasualFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_07_p1.ani" />
+		<anim name="CasualFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_07_p2.ani" />
+		<anim name="FightIntroLB" file="Animation_v4/female/Pose_F_08_p1_lb.ani" />
+		<anim name="FightIntroUB" file="Animation_v4/female/Pose_F_08_p1_ub.ani" />
+		<anim name="FightLoop" file="Animation_v4/female/Pose_F_08_p2.ani" />
+		<anim name="FightFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_08_p1.ani" />
+		<anim name="FightFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_08_p2.ani" />
+		<anim name="AttentionIntroLB" file="Animation_v4/female/Pose_F_09_p1_lb.ani" />
+		<anim name="AttentionIntroUB" file="Animation_v4/female/Pose_F_09_p1_ub.ani" />
+		<anim name="AttentionLoop" file="Animation_v4/female/Pose_F_09_p2.ani" />
+		<anim name="AttentionFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_09_p1.ani" />
+		<anim name="AttentionFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_09_p2.ani" />
+		<anim name="ModelIntroLB" file="Animation_v4/female/Pose_F_10_p1_lb.ani" />
+		<anim name="ModelIntroUB" file="Animation_v4/female/Pose_F_10_p1_ub.ani" />
+		<anim name="ModelLoop" file="Animation_v4/female/Pose_F_10_p2.ani" />
+		<anim name="ModelFaceIn" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_10_p1.ani" />
+		<anim name="ModelFaceLoop" file="Animation_v4/female/JUST_FACIAL/F_Pose_F_10_p2.ani" />
+		<anim name="sitFloorWave" file="Animation_V4/female/EM_FLO_F_01.ani" />
+		<anim name="sitFloorSalute" file="Animation_V4/female/EM_FLO_F_03.ani" />
+		<anim name="sitFloorBlowKiss" file="Animation_V4/female/EM_FLO_F_23.ani" />
+		<anim name="sitFloorBeckon" file="Animation_V4/female/EM_FLO_F_27.ani" />
+		<anim name="sitFloorAgree" file="Animation_V4/female/EM_FLO_F_06.ani" />
+		<anim name="sitFloorDisagree" file="Animation_V4/female/EM_FLO_F_07.ani" />
+		<anim name="sitFloorOkay" file="Animation_V4/female/EM_FLO_F_10.ani" />
+		<anim name="sitFloorYeah" file="Animation_V4/female/EM_FLO_F_15.ani" />
+		<anim name="sitFloorNoWay" file="Animation_V4/female/EM_FLO_F_18.ani" />
+		<anim name="sitFloorPoint" file="Animation_V4/female/EM_FLO_F_26.ani" />
+		<anim name="sitFloRelaxWave" file="Animation_V4/female/EM_FLO_4_F_01.ani" />
+		<anim name="sitFloRelaxSalute" file="Animation_V4/female/EM_FLO_4_F_03.ani" />
+		<anim name="sitFloRelaxBlowKiss" file="Animation_V4/female/EM_FLO_4_F_23.ani" />
+		<anim name="sitFloRelaxBeckon" file="Animation_V4/female/EM_FLO_4_F_27.ani" />
+		<anim name="sitFloRelaxAgree" file="Animation_V4/female/EM_FLO_4_F_06.ani" />
+		<anim name="sitFloRelaxDisagree" file="Animation_V4/female/EM_FLO_4_F_07.ani" />
+		<anim name="sitFloRelaxOK" file="Animation_V4/female/EM_FLO_4_F_10.ani" />
+		<anim name="sitFloRelaxYeah" file="Animation_V4/female/EM_FLO_4_F_15.ani" />
+		<anim name="sitFloRelaxNoWay" file="Animation_V4/female/EM_FLO_4_F_18.ani" />
+		<anim name="sitFloRelaxPoint" file="Animation_V4/female/EM_FLO_4_F_26.ani" />
+		<anim name="coinToss" file="Animation_V4/female/coin_sta_f_01.ani" />
+		<anim name="thinkOfNumber" file="Animation_V4/female/THINK_STA_F_01.ani" />
+		<anim name="faceThinkOfNumber" file="Animation_V4/female/JUST_FACIAL/F_Think_sta_f_01.ani" />
+		<anim name="admirehead1" file="Animation_V4/female/AD_F_01.ani" />
+		<anim name="admirehead2" file="Animation_V4/female/AD_F_02.ani" />
+		<anim name="admirehands1" file="Animation_V4/female/AD_F_03.ani" />
+		<anim name="admirehands2" file="Animation_V4/female/AD_F_04.ani" />
+		<anim name="admirearms1" file="Animation_V4/female/AD_F_05.ani" />
+		<anim name="admirearms2" file="Animation_V4/female/AD_F_06.ani" />
+		<anim name="admiretorso1" file="Animation_V4/female/AD_F_07.ani" />
+		<anim name="admiretorso2" file="Animation_V4/female/AD_F_08.ani" />
+		<anim name="admirelegs1" file="Animation_V4/female/AD_F_09.ani" />
+		<anim name="admirelegs2" file="Animation_V4/female/AD_F_10.ani" />
+		<anim name="admirefeet1" file="Animation_V4/female/AD_F_11.ani" />
+		<anim name="admirefeet2" file="Animation_V4/female/AD_F_12.ani" />
+		<anim name="faceAdmireSelf01" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_01.ani" />
+		<anim name="faceAdmireSelf02" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_02.ani" />
+		<anim name="faceAdmireSelf03" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_03.ani" />
+		<anim name="faceAdmireSelf04" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_04.ani" />
+		<anim name="faceAdmireSelf05" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_05.ani" />
+		<anim name="faceAdmireSelf06" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_06.ani" />
+		<anim name="faceAdmireSelf07" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_07.ani" />
+		<anim name="faceAdmireSelf08" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_08.ani" />
+		<anim name="faceAdmireSelf09" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_09.ani" />
+		<anim name="faceAdmireSelf10" file="Animation_v3/female/female01/JUST_FACIAL/f_AD_F_10.ani" />
+		<anim name="standChat1" file="Animation_v4/female/CO_STA_F_01_C.ani" />
+		<anim name="standChat2" file="Animation_v4/female/CO_STA_F_02_C.ani" />
+		<anim name="standChat3" file="Animation_v4/female/CO_STA_F_03_C.ani" />
+		<anim name="standChat4" file="Animation_v4/female/CO_STA_F_04_C.ani" />
+		<anim name="standChat5" file="Animation_v4/female/CO_STA_F_05_C.ani" />
+		<anim name="standChat6" file="Animation_v4/female/CO_STA_F_06_C.ani" />
+		<anim name="standChat7" file="Animation_v4/female/CO_STA_F_07_C.ani" />
+		<anim name="standChat8" file="Animation_v4/female/CO_STA_F_08_C.ani" />
+		<anim name="sitChat1" file="Animation_v4/female/CO_SIT_F_01_C.ani" />
+		<anim name="sitChat2" file="Animation_v4/female/CO_SIT_F_02_C.ani" />
+		<anim name="sitChat3" file="Animation_v4/female/CO_SIT_F_03_C.ani" />
+		<anim name="sitChat4" file="Animation_v4/female/CO_SIT_F_04_C.ani" />
+		<anim name="sitChat5" file="Animation_v4/female/CO_SIT_F_05_C.ani" />
+		<anim name="sitChat6" file="Animation_v4/female/CO_SIT_F_06_C.ani" />
+		<anim name="sitChat7" file="Animation_v4/female/CO_SIT_F_07_C.ani" />
+		<anim name="sitChat8" file="Animation_v4/female/CO_SIT_F_08_C.ani" />
+		<anim name="sitFloorChat1" file="Animation_v4/female/CO_FLO_F_01_C.ani" />
+		<anim name="sitFloorChat2" file="Animation_v4/female/CO_FLO_F_02_C.ani" />
+		<anim name="sitFloorChat3" file="Animation_v4/female/CO_FLO_F_03_C.ani" />
+		<anim name="sitFloorChat4" file="Animation_v4/female/CO_FLO_F_04_C.ani" />
+		<anim name="sitFloorChat5" file="Animation_v4/female/CO_FLO_F_05_C.ani" />
+		<anim name="sitFloorChat6" file="Animation_v4/female/CO_FLO_F_06_C.ani" />
+		<anim name="sitFloorChat7" file="Animation_v4/female/CO_FLO_F_07_C.ani" />
+		<anim name="sitFloorChat8" file="Animation_v4/female/CO_FLO_F_08_C.ani" />
+		<anim name="sitFloRelaxChat1" file="Animation_v4/female/CO_FLO_4_F_01_V.ani" />
+		<anim name="sitFloRelaxChat2" file="Animation_v4/female/CO_FLO_4_F_02_V.ani" />
+		<anim name="sitFloRelaxChat3" file="Animation_v4/female/CO_FLO_4_F_03_V.ani" />
+		<anim name="sitFloRelaxTxtChat1" file="Animation_v4/female/CO_FLO_4_F_01_C.ani" />
+		<anim name="sitFloRelaxTxtChat2" file="Animation_v4/female/CO_FLO_4_F_02_C.ani" />
+		<anim name="sitFloRelaxTxtChat3" file="Animation_v4/female/CO_FLO_4_F_03_C.ani" />
+		<anim name="faceChat1" file="Animation_v4/female/JUST_FACIAL/F_CO_F_01_C.ani" />
+		<anim name="faceChat2" file="Animation_v4/female/JUST_FACIAL/F_CO_F_02_C.ani" />
+		<anim name="faceChat3" file="Animation_v4/female/JUST_FACIAL/F_CO_F_03_C.ani" />
+		<anim name="faceChat4" file="Animation_v4/female/JUST_FACIAL/F_CO_F_04_C.ani" />
+		<anim name="faceChat5" file="Animation_v4/female/JUST_FACIAL/F_CO_F_05_C.ani" />
+		<anim name="faceChat6" file="Animation_v4/female/JUST_FACIAL/F_CO_F_06_C.ani" />
+		<anim name="faceChat7" file="Animation_v4/female/JUST_FACIAL/F_CO_F_07_C.ani" />
+		<anim name="faceChat8" file="Animation_v4/female/JUST_FACIAL/F_CO_F_08_C.ani" />
+		<anim name="standVCom1" file="Animation_v4/female/CO_STA_F_01_V.ani" />
+		<anim name="standVCom2" file="Animation_v4/female/CO_STA_F_02_V.ani" />
+		<anim name="standVCom3" file="Animation_v4/female/CO_STA_F_03_V.ani" />
+		<anim name="sitVCom1" file="Animation_v4/female/CO_SIT_F_01_V.ani" />
+		<anim name="sitVCom2" file="Animation_v4/female/CO_SIT_F_02_V.ani" />
+		<anim name="sitVCom3" file="Animation_v4/female/CO_SIT_F_03_V.ani" />
+		<anim name="sitFloorVCom1" file="Animation_v4/female/CO_FLO_F_01_V.ani" />
+		<anim name="sitFloorVCom2" file="Animation_v4/female/CO_FLO_F_02_V.ani" />
+		<anim name="sitFloorVCom3" file="Animation_v4/female/CO_FLO_F_02_V.ani" />
+		<anim name="faceVCom1" file="Animation_v4/female/JUST_FACIAL/F_CO_F_01_V.ani" />
+		<anim name="faceVCom2" file="Animation_v4/female/JUST_FACIAL/F_CO_F_02_V.ani" />
+		<anim name="faceVCom3" file="Animation_v4/female/JUST_FACIAL/F_CO_F_03_V.ani" />
+		<anim name="standN-standL" file="Animation_v4/female/NS_WEIGHT_F_01_Tran_in.ani" />
+		<anim name="standN-standR" file="Animation_v4/female/NS_WEIGHT_F_02_Tran_in.ani" />
+		<anim name="standL-standN" file="Animation_v4/female/NS_WEIGHT_F_01_Tran_out.ani" />
+		<anim name="standR-standN" file="Animation_v4/female/NS_WEIGHT_F_02_Tran_out.ani" />
+		<anim name="standL-standR" file="Animation_v4/female/NS_WEIGHT_F_01_Tran_02.ani" />
+		<anim name="standR-standL" file="Animation_v4/female/NS_WEIGHT_F_02_Tran_01.ani" />
+		<anim name="standN-ws#3L" file="Animation_v4/female/NS_WEIGHT_f_05_Tran_in.ani" />
+		<anim name="standN-ws#3R" file="Animation_v4/female/NS_WEIGHT_f_06_Tran_in.ani" />
+		<anim name="ws#3L-standN" file="Animation_v4/female/NS_WEIGHT_f_05_Tran_out.ani" />
+		<anim name="ws#3R-standN" file="Animation_v4/female/NS_WEIGHT_f_06_Tran_out.ani" />
+		<anim name="ws#3L-ws#3R" file="Animation_v4/female/NS_WEIGHT_f_05_Tran_06.ani" />
+		<anim name="ws#3R-ws#3L" file="Animation_v4/female/NS_WEIGHT_f_06_Tran_05.ani" />
+		<anim name="standN-ws#4L" file="Animation_v4/female/NS_WEIGHT_f_07_Tran_in.ani" />
+		<anim name="standN-ws#4R" file="Animation_v4/female/NS_WEIGHT_f_08_Tran_in.ani" />
+		<anim name="ws#4L-standN" file="Animation_v4/female/NS_WEIGHT_f_07_Tran_out.ani" />
+		<anim name="ws#4R-standN" file="Animation_v4/female/NS_WEIGHT_f_08_Tran_out.ani" />
+		<anim name="ws#4L-ws#4R" file="Animation_v4/female/NS_WEIGHT_f_07_Tran_08.ani" />
+		<anim name="ws#4R-ws#4L" file="Animation_v4/female/NS_WEIGHT_f_08_Tran_07.ani" />
+		<anim name="standN-ws#5L" file="Animation_v4/female/NS_WEIGHT_f_09_Tran_in.ani" />
+		<anim name="standN-ws#5R" file="Animation_v4/female/NS_WEIGHT_f_10_Tran_in.ani" />
+		<anim name="ws#5L-standN" file="Animation_v4/female/NS_WEIGHT_f_09_Tran_out.ani" />
+		<anim name="ws#5R-standN" file="Animation_v4/female/NS_WEIGHT_f_10_Tran_out.ani" />
+		<anim name="ws#5L-ws#5R" file="Animation_v4/female/NS_WEIGHT_f_09_Tran_10.ani" />
+		<anim name="ws#5R-ws#5L" file="Animation_v4/female/NS_WEIGHT_f_10_Tran_09.ani" />
+		<anim name="sit-sit2" file="Animation_v4/female/NS_SIT_F_02_IN.ani" />
+		<anim name="sit2-sit" file="Animation_v4/female/NS_SIT_F_02_OUT.ani" />
+		<anim name="sit-sit3" file="Animation_v4/female/NS_SIT_F_03_IN.ani" />
+		<anim name="sit3-sit" file="Animation_v4/female/NS_SIT_F_03_OUT.ani" />
+		<anim name="sit-sit4" file="Animation_v4/female/NS_SIT_F_04_IN.ani" />
+		<anim name="sit4-sit" file="Animation_v4/female/NS_SIT_F_04_OUT.ani" />
+		<anim name="standN-DnRock" file="Animation_V4/female/D_F_02_P1.ani" />
+		<anim name="standN-DnDisco" file="Animation_V4/female/D_F_15_P1.ani" />
+		<anim name="standN-DnTwist" file="Animation_V4/female/D_F_04_P1.ani" />
+		<anim name="standN-DnRobot" file="Animation_V4/female/D_F_05_P1.ani" />
+		<anim name="standN-DnFunky" file="Animation_V4/female/D_F_06_P1.ani" />
+		<anim name="standN-DnHipHop" file="Animation_V4/female/D_F_07_P1.ani" />
+		<anim name="standN-DnRave" file="Animation_V4/female/D_F_08_P1.ani" />
+		<anim name="standN-DnRocknRoll" file="Animation_V4/female/D_F_12_P1.ani" />
+		<anim name="standN-DnRunning" file="Animation_V4/female/D_F_16_P1.ani" />
+		<anim name="standN-DnCabbage" file="Animation_V4/female/D_F_14_P1.ani" />
+		<anim name="standN-DnSalsa" file="Animation_V4/female/D_F_23_P1.ani" />
+		<anim name="BodyPopIntroUB" file="Animation_V4/female/D_F_24_P1_UB.ani" />
+		<anim name="BodyPopIntroLB" file="Animation_V4/female/D_F_24_P1_LB.ani" />
+		<anim name="FstandN-DnRock" file="Animation_V3/female/female01/JUST_FACIAL/f_EM_D_F_02_P1.ani" />
+		<anim name="FstandN-DnDisco" file="Animation_V3/female/female01/JUST_FACIAL/f_EM_D_F_03_P1.ani" />
+		<anim name="FstandN-DnTwist" file="Animation_V3/female/female01/JUST_FACIAL/f_EM_D_F_04_P1.ani" />
+		<anim name="FstandN-DnRobot" file="Animation_V3/female/female01/JUST_FACIAL/f_EM_D_F_05_P1.ani" />
+		<anim name="FstandN-DnFunky" file="Animation_V3/female/female01/JUST_FACIAL/f_EM_D_F_06_P1.ani" />
+		<anim name="FstandN-DnHipHop" file="Animation_V3/female/female01/JUST_FACIAL/f_EM_D_F_07_P1.ani" />
+		<anim name="FstandN-DnRave" file="Animation_V3/female/female01/JUST_FACIAL/f_EM_D_F_08_P1.ani" />
+		<anim name="ShiftLeftRelaxedCool" deferred_loading="false" file="Animation_V4/female/ns_weight_f_09.ani" />
+		<anim name="ShiftLeftRelaxedCoolIn" deferred_loading="false" file="Animation_V4/female/ns_weight_f_09_tran_in.ani" />
+		<anim name="f_POSE_F_03_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_03_p1.ani" />
+		<anim name="f_POSE_F_03_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_03_p2.ani" />
+		<anim name="f_POSE_F_04_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_04_p1.ani" />
+		<anim name="f_POSE_F_04_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_04_p2.ani" />
+		<anim name="f_POSE_F_05_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_05_p1.ani" />
+		<anim name="f_POSE_F_05_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_POSE_F_05_P2.ani" />
+		<anim name="f_POSE_F_06_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_06_p1.ani" />
+		<anim name="f_POSE_F_06_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_POSE_F_06_P2.ani" />
+		<anim name="f_POSE_F_07_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_07_p1.ani" />
+		<anim name="f_POSE_F_07_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_POSE_F_07_P2.ani" />
+		<anim name="f_POSE_F_08_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_POSE_F_08_P1.ani" />
+		<anim name="f_POSE_F_08_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_POSE_F_08_P2.ani" />
+		<anim name="f_POSE_F_09_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_POSE_F_09_P1.ani" />
+		<anim name="f_POSE_F_09_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_I_F_03.ani" />
+		<anim name="f_POSE_F_10_P1" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_POSE_F_10_P1.ani" />
+		<anim name="f_POSE_F_10_P2" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_pose_f_10_p2.ani" />
+		<anim name="f_EM_STA_F_29" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_em_sta_f_29.ani" />
+		<anim name="EM_STA_F_29_LB" deferred_loading="true" file="Animation_V4/female/em_sta_f_29_lb.ani" />
+		<anim name="EM_STA_F_29_UB" deferred_loading="true" file="Animation_V4/female/em_sta_f_29_ub.ani" />
+		<anim name="EM_SIT_F_29" deferred_loading="true" file="Animation_V4/female/em_sit_f_29.ani" />
+		<anim name="f_EM_STA_F_30" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_em_sta_f_30.ani" />
+		<anim name="EM_STA_F_30_LB" deferred_loading="true" file="Animation_V4/female/em_sta_f_30_lb.ani" />
+		<anim name="EM_STA_F_30_UB" deferred_loading="true" file="Animation_V4/female/em_sta_f_30_ub.ani" />
+		<anim name="EM_SIT_F_30" deferred_loading="true" file="Animation_V4/female/em_sit_f_30.ani" />
+		<anim name="FstandN-DnCasual" deferred_loading="true" file="Animation_V4/female/JUST_FACIAL/f_D_F_01_P2.ani" />
+		<anim name="danceCasual" deferred_loading="true" file="Animation_V4/female/D_F_01_P2.ani" />
+		<anim name="standN-DnCasual" deferred_loading="true" file="Animation_V4/female/D_F_01_P1.ani" />
+		<anim name="StandHappy02" deferred_loading="false" protected="false" file="Animation_V4/female/I_STA_HAPPY_F_02.ani" />
+		<anim name="StandHappy" deferred_loading="false" protected="false" file="Animation_V4/female/I_STA_HAPPY_F_01.ani" />
+		<anim name="StandSad" deferred_loading="false" protected="false" file="Animation_V4/female/I_STA_SAD_F_01.ani" />
+		<anim name="StandSad02" deferred_loading="false" protected="false" file="Animation_V4/female/I_STA_SAD_F_02.ani" />
+		<anim name="StandUnwell" deferred_loading="false" protected="false" file="Animation_V4/female/I_STA_UNWELL_F_01.ani" />
+		<anim name="StandConfused" deferred_loading="false" protected="false" file="Animation_V4/female/I_STA_CONFUSED_F_01.ani" />
+		<anim name="StandAngry" deferred_loading="false" protected="false" file="Animation_V4/female/I_STA_ANGRY_F_01.ani" />
+		<anim name="FaceHappySpot" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_HAPPY_F_01.ani" />
+		<anim name="FaceHappySpot02" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_HAPPY_F_02.ani" />
+		<anim name="FaceSadSpot02" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_SAD_F_02.ani" />
+		<anim name="FaceSadSpot" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_SAD_F_01.ani" />
+		<anim name="FaceUnwellSpot" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_UNWELL_F_01.ani" />
+		<anim name="FaceConfusedSpot" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_CONFUSED_F_01.ani" />
+		<anim name="FaceAngrySpot" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_ANGRY_F_01.ani" />
+		<anim name="FaceUnwell" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_UNWELL_F_LOOP_01.ani" />
+		<anim name="FaceConfused" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_CONFUSED_F_LOOP_01.ani" />
+		<anim name="FaceAngry" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_ANGRY_F_LOOP_01.ani" />
+		<anim name="FaceSad" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_SAD_F_LOOP_01.ani" />
+		<anim name="FaceHappy" deferred_loading="false" protected="false" file="Animation_V4/female/JUST_FACIAL/f_I_STA_HAPPY_F_LOOP_01.ani" />
+		<skeleton name="MainSkeleton" file="Skeleton_V2/female01_skeleton.skn" />
+		<skeleton name="head" file="Skeleton_V2/FEMALE01_FACE_SKELETON.skn" />
+		<repertoire name="repertoire" file="data/avatars/HumanFemale/HumanFemale_Repertoire.xml" />
+		<rig_settings name="RigSettings" file="data/avatars/HumanFemale/HumanFemale_CharacterCustomisation.xml" />
+		<control_rig name="femalehead" file="data/Avatars/HumanFemale/HumanFemale_HeadControlRig.xml" />
+		<emotes name="emotes" deferred_loading="true" file="data/Avatars/HumanFemale/HumanFemale_Emotes.xml" />
+	</local>
+</resources>

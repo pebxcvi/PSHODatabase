@@ -1,0 +1,26 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<skeleton name="skeleton" file="FallbackAvatar/ALL/fallbackAvatar.skn"/>		
+				
+		<model name="lod0" file="FallbackAvatar/ALL/fallbackAvatar_lod1.mdl"/>
+		<model name="lod1" file="FallbackAvatar/ALL/fallbackAvatar_lod2.mdl"/>
+		
+		<anim name="standIdle" file="FallbackAvatar/ALL/I_M_14.ani"/>
+		<anim name="sitIdle" file="FallbackAvatar/ALL/I_M_15.ani"/>
+		<anim name="walk" file="FallbackAvatar/ALL/M_STA_M_01_P2.ani"/>
+		<anim name="walkFast" file="FallbackAvatar/ALL/M_STA_M_02_P2.ani"/>
+		<anim name="jog" file="FallbackAvatar/ALL/M_STA_M_03_P2.ani"/>
+		<anim name="standPSP" file="FallbackAvatar/ALL/PSP_M_01.ani"/>
+		<anim name="sitPSP" file="FallbackAvatar/ALL/PSP_M_02.ani"/>
+		<anim name="standUp" file="FallbackAvatar/ALL/O_M_07.ani"/>
+		<anim name="sitDown" file="FallbackAvatar/ALL/O_M_06.ani"/>
+
+		<!-- 
+			 put the repertoire resource at the end so that the animation resources have loaded, and will be
+			 able to interrogate them for their durations
+		-->
+
+		<repertoire name="repertoire" file="FallbackAvatar/ALL/FallbackRepertoire.xml"/>
+
+	</local>
+</resources>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CommJuly_KittyCondo.mdl" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/CommJuly_KittyCondo.mdl" />
+		<model name="Cat.mdl" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/Cat.mdl" />
+		<model name="CatEyelid.mdl" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/CatEyelid.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/programming/Network.xml" />
+		<collision name="CommJuly_KittyCondo.hkx" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/CommJuly_KittyCondo.hkx" />
+		<collision name="CommJuly_KittyCondo_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/CommJuly_KittyCondo_SafeVolume.hkx" />
+		<anim name="CommJuly_Cat_Walk.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_Walk.ani" />
+		<anim name="CommJuly_Cat_LickingPaws.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_LickingPaws.ani" />
+		<anim name="CommJuly_Cat_ScratchingPost.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_ScratchingPost.ani" />
+		<anim name="CommJuly_Cat_Sleeping.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_Sleeping.ani" />
+		<anim name="CommJuly_Cat_Sleeping_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_Sleeping_Idle.ani" />
+		<anim name="CommJuly_Cat_Sleeping_to_Standing.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_Sleeping_to_Standing.ani" />
+		<anim name="CommJuly_Cat_Standing_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_Standing_Idle.ani" />
+		<anim name="CommJuly_Cat_TurnLeft.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_TurnLeft.ani" />
+		<anim name="CommJuly_Cat_TurnRight.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_TurnRight.ani" />
+		<anim name="CommJuly_Cat_JumpingUp.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_JumpingUp_Exp.ani" />
+		<anim name="CommJuly_Cat_JumpDown.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_JumpDown.ani" />
+		<anim name="CommJuly_Cat_TurnLeft_90.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_TurnLeft_90.ani" />
+		<anim name="CommJuly_Cat_TurnRight_90.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/anims/CommJuly_Cat_TurnRight_90.ani" />
+		<skeleton name="Cat.skn" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/models/Cat.skn" />
+		<soundbank name="cat.bnk" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_cat/sounds/cat.bnk" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/Main.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/Utility.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/StateMachine.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/Pet.lua" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/Animations.lua" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/Data.lua" />
+		<lua name="WayPoints.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/WayPoints.lua" />
+		<lua name="RandPick.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/RandPick.lua" />
+		<lua name="EyeLid.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/EyeLid.lua" />
+		<lua name="FIFO.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/FIFO.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_cat/programming/SfxMgr.lua" />
+	</local>
+	<external />
+</resources>

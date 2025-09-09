@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_03/model/model.mdl" memory="host" />
+		<model name="board_remote.mdl" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_03/model/model_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/leisureSheet_00/file/config.xml" memory="host" />
+		<anim name="f_open.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/f_open.ani" memory="host" />
+		<anim name="f_pose0.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/f_pose0.ani" memory="host" />
+		<anim name="f_pose1.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/f_pose1.ani" memory="host" />
+		<anim name="f_pose2.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/f_pose2.ani" memory="host" />
+		<anim name="f_pose3.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/f_pose3.ani" memory="host" />
+		<anim name="frun.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/frun.ani" memory="host" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/run.ani" memory="host" />
+		<anim name="m_open.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/m_open.ani" memory="host" />
+		<anim name="m_pose0.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/m_pose0.ani" memory="host" />
+		<anim name="m_pose1.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/m_pose1.ani" memory="host" />
+		<anim name="m_pose2.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/m_pose2.ani" memory="host" />
+		<anim name="m_pose3.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/m_pose3.ani" memory="host" />
+		<anim name="sheet_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/sheet_idle_00.ani" memory="host" />
+		<anim name="sheet_move_00.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/sheet_move_00.ani" memory="host" />
+		<anim name="sheet_open.ani" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/anim/sheet_open.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/skeleton/model.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/leisureSheet_00/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/leisureSheet_03/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

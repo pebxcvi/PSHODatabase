@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/stone_altar/Stone_Altar_white.mdl" />
+		<particle name="smoke.efx" deferred_loading="false" protected="false" file="ATGParticles/smoke.efx" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/stone_altar/Stone_Altar.hkx" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/candle/candle_one.hkx" />
+		<soundbank name="Horror_Pack_Audio.bnk" deferred_loading="false" protected="false" file="Actives/smokeyTable/sound/Horror_Pack_Audio.bnk" />
+		<lua name="Active.lua" deferred_loading="false" protected="true" file="Actives/smokeyTable/lua/Active.lua" />
+	</local>
+	<external />
+</resources>

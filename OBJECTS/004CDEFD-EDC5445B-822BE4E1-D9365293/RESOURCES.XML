@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="lid_model" deferred_loading="false" file="MiniGames/Christmas09/Presents/Present6/present6_lid.mdl" />
+		<model name="base_model" deferred_loading="false" file="MiniGames/Christmas09/Presents/Present6/present6.mdl" />
+		<texture name="gift1_image" deferred_loading="false" file="MiniGames/Christmas09/Presents/Present6/femalepresent_THUB128.dds" />
+		<texture name="gift2_image" deferred_loading="false" file="MiniGames/Christmas09/Presents/Present6/malepresent_THUB128.dds" />
+		<particle name="sparkles_effect" deferred_loading="false" file="ATGParticles/generic/efx/christmas_present_trail.efx" />
+		<file name="test.xml" deferred_loading="false" file="MiniGames/SantasQuests/test.xml" />
+		<collision name="lid_collision" deferred_loading="false" file="MiniGames/Christmas09/Presents/Present6/present6_lid.hkx" />
+		<collision name="base_collision" deferred_loading="false" file="MiniGames/Christmas09/Presents/Present6/present6.hkx" />
+		<lua name="init_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/init.lua" />
+		<lua name="main_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/main.lua" />
+		<lua name="network_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/network.lua" />
+		<lua name="osd_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/osd.lua" />
+		<lua name="script_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/script.lua" />
+		<lua name="tools_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/tools.lua" />
+		<lua name="present_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/Present6/Present.lua" />
+		<lua name="xml_lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/Presents/xml.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+		<lua name="VMInventory.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas09/VMInventory.lua" />
+	</local>
+	<external />
+</resources>

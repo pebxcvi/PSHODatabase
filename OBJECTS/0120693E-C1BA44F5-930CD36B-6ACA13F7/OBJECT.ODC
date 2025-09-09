@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.3.6.22.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>0120693E-C1BA44F5-930CD36B-6ACA13F7</uuid>
+  <name lang="fr-FR" default="false">Trophée en argent de client</name>
+  <name lang="de-DE" default="false">Silber-Auszeichnung für Quench-Kunde</name>
+  <name lang="it-IT" default="false">Premio cliente d'argento</name>
+  <name lang="es-ES" default="false">Trofeo de plata de cliente</name>
+  <name lang="ja-JP" default="false">Scorpio'sカスタマー・シルバートロフィー</name>
+  <name lang="ko-KR" default="false">퀜치 고객 은 트로피</name>
+  <name lang="zh-HK" default="false">「淬火」客戶銀質獎章</name>
+  <name lang="zh-TW" default="false">「淬火」客戶銀質獎章</name>
+  <name lang="en-US" default="true">Quench Customer Silver Accolade</name>
+  <description lang="fr-FR" default="false">Récompense décernée aux clients les plus appréciés du Scorpio's</description>
+  <description lang="de-DE" default="false">Wird an die meistgeschätzten Gäste im Scorpio's  vergeben</description>
+  <description lang="it-IT" default="false">Assegnato agli avventori abituali dello Scorpio's</description>
+  <description lang="es-ES" default="false">Concedido a los clientes de Scorpio’s más valorados</description>
+  <description lang="ja-JP" default="false">Scorpio'sロイヤルカスタマーへの賞。</description>
+  <description lang="ko-KR" default="false">가장 소중한 Scorpio's 고객에게 수여합니다.</description>
+  <description lang="zh-HK" default="false">授予最有價值的 Scorpio's 客戶。</description>
+  <description lang="zh-TW" default="false">授予最有價值的 Scorpio's 客戶。</description>
+  <description lang="en-US" default="true">Rewarded to the most valued of Scorpio customers.</description>
+  <maker lang="en-US" default="true">Sodium - Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T035.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T035.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T035.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <timestamp>53ECEB17</timestamp>
+</odc>

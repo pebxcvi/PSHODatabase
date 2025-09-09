@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="OPENHOUSE_promoPOINT_Question.mdl" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_promoPOINT_Question.mdl" />
+		<file name="textpanel.xml" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/GuidedTour/OSD/textpanel.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/GuidedTour/OSD/types.xml" />
+		<anim name="OPENHOUSE_promoPOINT_Question.ani" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_promoPOINT_Question.ani" />
+		<skeleton name="OPENHOUSE_promoPOINT_Question.skn" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_promoPOINT_Question.skn" />
+		<lua name="utility_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/utility_lib.luac" />
+		<lua name="tour_gb_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/Ghostbusters/GuidedTour/tour_gb_settings.luac" />
+		<lua name="tour_sa_scea_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/SpaceApartment_SCEA/GuidedTour/tour_sa_scea_settings.luac" />
+		<lua name="tour_ss2_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/SS2/GuidedTour/tour_ss2_settings.luac" />
+		<lua name="tour_ss3_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/SS3/GuidedTour/tour_ss3_settings.luac" />
+		<lua name="tour_yacht_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/Yacht/GuidedTour/tour_yacht_settings.luac" />
+		<lua name="tour_main.lua" deferred_loading="false" protected="true" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/GuidedTour/tour_main.luac" />
+	</local>
+	<external />
+</resources>

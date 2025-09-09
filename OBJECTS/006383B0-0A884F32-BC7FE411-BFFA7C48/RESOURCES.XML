@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<!-- Model -->
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="posertrons/2013/January/lkwd_general/jewel_of_the_skies_bed/bed.mdl" memory="host"/>
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="posertrons/2013/January/lkwd_general/jewel_of_the_skies_bed/bed.hkx" memory="host"/>
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="posertrons/2013/January/lkwd_general/jewel_of_the_skies_bed/bed.hkx" memory="host"/>
+		
+		<!-- Data -->
+		<file name="Defs.xml" deferred_loading="false" protected="false" file="posertrons/2013/January/lkwd_general/jewel_of_the_skies_bed/Defs.xml" />
+
+		<!-- Resources -->
+		<repertoire name="female.xml" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/repertoires/female.xml" memory="host"/>
+		<anim name="female_lying_bed_idle" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/female_lying_bed_idle.ani" memory="host"/>
+		<anim name="female_lying_bed_idle_mirrored" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/female_lying_bed_idle_mirrored.ani" memory="host"/>
+		<anim name="female_lying_bed_relax" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/female_lying_bed_relax.ani" memory="host"/>
+		<anim name="female_lying_bed_relax_mirrored" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/female_lying_bed_relax_mirrored.ani" memory="host"/>
+
+		<repertoire name="male.xml" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/repertoires/male.xml" memory="host"/>
+		<anim name="male_lying_bed_idle" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/male_lying_bed_idle.ani" memory="host"/>
+		<anim name="male_lying_bed_idle_mirrored" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/male_lying_bed_idle_mirrored.ani" memory="host"/>
+		<anim name="male_lying_bed_relax" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/male_lying_bed_relax.ani" memory="host"/>
+		<anim name="male_lying_bed_relax_mirrored" deferred_loading="false" protected="false" file="posertrons/2013/January/sodium/bed/animations/male_lying_bed_relax_mirrored.ani" memory="host"/>
+
+		<!-- System -->
+		<lua name="Startup.lua" deferred_loading="false" protected="true" file="posertrons/_Code/MainSystems/Startup.luac" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="posertrons/_Code/MainSystems/Main.luac" />
+		<lua name="Hud.lua" deferred_loading="false" protected="true" file="posertrons/_Code/MainSystems/Hud.luac" />
+		<lua name="Seat.lua" deferred_loading="false" protected="true" file="posertrons/_Code/MainSystems/Seat.luac" />
+		<lua name="AnimMgr.lua" deferred_loading="false" protected="true" file="posertrons/_Code/MainSystems/AnimMgr.luac" />		
+
+		<!-- Support Systems -->
+		<lua name="NetState.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/NetState.luac" />
+		<lua name="NetState_Occupancy.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/NetState_Occupancy.luac" />
+		<lua name="NetState_UserRegister.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/NetState_UserRegister.luac" />
+		<lua name="XmlConvert.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/XmlConvert.luac" />
+		<lua name="PadControl.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/PadControl.luac" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/NetLib.luac" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/Jamin.luac" />
+		<lua name="Fsm_Mealey.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/Fsm_Mealey.luac" />
+		<lua name="ThirdPersonCamera.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/ThirdPersonCamera.luac" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/Playmetrix.luac" />
+		<lua name="CoroutineMgr.lua" deferred_loading="false" protected="true" file="posertrons/_Code/SupportSystems/CoroutineMgr.luac" />
+
+		<file name="NetworkDef.xml" deferred_loading="false" protected="false" file="posertrons/_Code/NetworkDef.xml" />
+		<texture name="gradient.dds" deferred_loading="false" protected="false" file="posertrons/_Code/UniversalResources/gradient.dds" />
+	</local>
+	<external />
+</resources>

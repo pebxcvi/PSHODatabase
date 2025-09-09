@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mech" deferred_loading="true" protected="false" file="animatedmodels/mech/Oxide_exomech.mdl" memory="host" />
+		<model name="MechRemote" deferred_loading="true" protected="false" file="animatedmodels/mech/Oxide_exomechRemote.mdl" />
+		<particle name="MechJets.efx" deferred_loading="true" protected="false" file="Locomotion/Mech/particle/MechJets.efx" memory="main" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/HoverBikeRed/particle/flame.efx" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Mech/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="animation/male/mechpilot/MechPilot_idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="animation/male/mechpilot/MechPilot_walk.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="animation/male/mechpilot/MechPilot_walk.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="animation/female/mechpilot/fMechPilot_walk.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="animation/female/mechpilot/fMechPilot_fly.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="animation/female/mechpilot/fMechPilot_ildle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="false" protected="false" file="animation/male/mechpilot/MechPilot_fly.ani" memory="host" />
+		<anim name="MechFly.ani" deferred_loading="true" protected="false" file="animatedmodels/mech/MechFly.ani" memory="host" />
+		<anim name="MechIdle.ani" deferred_loading="true" protected="false" file="animatedmodels/mech/MechIdle.ani" memory="host" />
+		<anim name="MechWalk.ani" deferred_loading="true" protected="false" file="animatedmodels/mech/MechWalk.ani" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="animation/female/mechpilot/fMechPilot_walk.ani" memory="host" />
+		<anim name="MechStatic.ani" deferred_loading="false" protected="false" file="animatedmodels/mech/MechStatic.ani" memory="host" />
+		<anim name="Wave.ani" deferred_loading="false" protected="false" file="animation/male/mechpilot/MechPilot_wave.ani" memory="host" />
+		<anim name="Fwave.ani" deferred_loading="false" protected="false" file="animation/female/mechpilot/fmechpilot_wave.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="animatedmodels/mech/Mech.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="Locomotion/Mech/soundbank/audio.bnk" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Mech/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Mech/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Mech/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Mech/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Mech/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

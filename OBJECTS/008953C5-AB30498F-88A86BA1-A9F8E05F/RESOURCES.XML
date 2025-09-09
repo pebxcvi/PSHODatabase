@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="psvita_poly_file01.mdl" deferred_loading="false" protected="false" file="environments/psvita_homesquare/psvita_poly_file01.mdl" />
+		<texture name="screen_background.dds" deferred_loading="false" protected="false" file="MiniGames/SignupObject_VitaScene/file/screen_background.dds" />
+		<anim name="psvita_poly_file01.ani" deferred_loading="false" protected="false" file="environments/psvita_homesquare/psvita_poly_file01.ani" />
+		<skeleton name="psvita_poly_file01.skn" deferred_loading="false" protected="false" file="environments/psvita_homesquare/psvita_poly_file01.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SignupObject_VitaScene/lua/MiniGame.lua" />
+		<lua name="Document_lua" deferred_loading="false" protected="true" file="MiniGames/SignupObject_VitaScene/lua/Document.lua" />
+		<lua name="Utility_lua" deferred_loading="false" protected="true" file="Scripts/LuaLibs/Utility.lua" />
+		<lua name="AsyncInventoryChecker_lua" deferred_loading="false" protected="true" file="MiniGames/SignupObject_VitaScene/lua/AsyncInventoryChecker.lua" />
+	</local>
+	<external />
+</resources>

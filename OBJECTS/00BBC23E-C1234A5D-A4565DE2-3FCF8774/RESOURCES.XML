@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/model/GoldPhoenix_Rig_Lod1.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/model/GoldPhoenix_Rig_Lod2.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/particle/PhoenixFlames.efx" memory="main" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/file/config.xml" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/anim/move.ani" memory="main" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/anim/fmove.ani" memory="main" />
+		<anim name="beast_idle.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/anim/Phoenix_Hover_V01.ani" memory="main" />
+		<anim name="beast_run.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/anim/Phoenix_Run_V01.ani" memory="main" />
+		<anim name="beast_walk.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/anim/Phoenix_Walk_V01.ani" memory="main" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/skeleton/phoenix_Rig_Lod1.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/MythAvatarPhoenix/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

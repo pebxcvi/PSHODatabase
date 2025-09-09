@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="corner.dds" deferred_loading="false" file="Portables/Camera/res/corner.dds" />
+		<texture name="view_finder.dds" deferred_loading="false" file="Portables/Camera/res/view_finder.dds" />
+		<texture name="tick.dds" deferred_loading="false" file="Portables/Camera/res/tick.dds" />
+		<texture name="zoom.dds" deferred_loading="false" file="Portables/Camera/res/zoom.dds" />
+		<texture name="arrow.dds" deferred_loading="false" file="Portables/Camera/res/arrow.dds" />
+		<soundbank name="audio" deferred_loading="false" file="Portables/Camera/res/Camera.bnk" memory="host" />
+		<lua name="script" protected="true" file="Portables/Camera/script/bootstrap.lua" />
+		<lua name="local.lua" deferred_loading="true" protected="true" file="Portables/Camera/script/local.lua" />
+		<lua name="remote.lua" deferred_loading="true" protected="true" file="Portables/Camera/script/remote.lua" />
+	</local>
+</resources>

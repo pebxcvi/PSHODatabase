@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="main.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/main.luac" memory="host" />
+		<lua name="maiocontrols.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/maiocontrols.luac" />
+		<lua name="xmlconvert.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/xmlconvertv2.luac" memory="host" />
+		<lua name="res.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/res.luac" memory="host" />
+		<lua name="fsm.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/fsm.luac" memory="host" />
+		<lua name="padcontrol.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/padcontrol.luac" memory="host" />
+		<lua name="unicode.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/unicode.luac" memory="host" />
+		<lua name="savedata.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/savedata.luac" memory="host" />
+		<lua name="savedataasync.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/savedataasync.luac" memory="host" />
+		<lua name="jsonutility.lua" deferred_loading="false" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/util/jsonutility.luac" memory="host" />
+		<lua name="scenelist.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/scenelist.luac" />
+		<lua name="relocator.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/relocator.luac"  />
+		<lua name="ghost.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/ghost.luac" />
+		<lua name="freemove.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/freemove.luac" />
+		<lua name="runspeed.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/runspeed.luac" />
+		<lua name="customstatus.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/customstatus.luac" />
+		<lua name="copyavatar.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/copyavatar.luac" />
+		<lua name="teleporter.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/teleporter.luac" />
+		<lua name="visibility.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/visibility.luac" />
+		<lua name="telepin.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/telepin.luac" />
+		<lua name="ice.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/ice.luac" />
+		<lua name="portables.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/portables.luac" />
+		<lua name="ise.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/ise.luac" />
+		<lua name="avatarsize.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/avatarsize.luac" />
+		<lua name="headsize.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/headsize.luac" />
+		<lua name="necksize.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/necksize.luac" />
+		<lua name="nosesize.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/nosesize.luac" />
+		<lua name="camera.lua" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/options/camera.luac" />
+		<xml name="CustomOSDMenus" deferred_loading="false" file="objects/00000000-00000000-000000A0-00000003/all-in-one/osd/CustomOSDMenus.xml"/>
+		<xml name="OSDMenuMAIOControls" deferred_loading="false" file="objects/00000000-00000000-000000A0-00000003/all-in-one/osd/maiocontrols.xml" />
+		<xml name="OSDMenuCustomStatus" deferred_loading="false" file="objects/00000000-00000000-000000A0-00000003/all-in-one/osd/customstatus.xml" />
+		<xml name="rellst.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/relocator/rellst.xml" memory="main" />
+		<xml name="rwdlst.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/ise/rwdlst.xml" memory="main" />
+		<xml name="femalecstlst.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/ice/femalecstlst.xml" memory="main" />
+		<xml name="malecstlst.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/ice/malecstlst.xml" memory="main" />
+		<xml name="portables.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/portables/portables.xml" memory="main" />
+		<xml name="custompresets.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/status/custompresets.xml" memory="main" />
+		<xml name="sizepermissions.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/avatarsize/sizepermissions.xml" memory="main" />
+		<xml name="rewards.xml" deferred_loading="true" protected="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/ISE/rewards.xml" memory="main" />
+		<file name="sceneinfo.txt" deferred_loading="true" file="objects/00000000-00000000-000000A0-00000003/all-in-one/xml/environments/sceneinfo.txt" memory="main" />
+		<file name="Network.xml" file="objects/00000000-00000000-000000A0-00000003/all-in-one/network.xml" />
+	</local>
+</resources>

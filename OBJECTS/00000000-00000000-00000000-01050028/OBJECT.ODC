@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>00000000-00000000-00000000-01050028</uuid>
+  <name lang="en-GB" default="true">Court Shoes</name>
+  <name lang="fr-FR" default="false">Escarpins</name>
+  <name lang="de-DE" default="false">Pumps</name>
+  <name lang="it-IT" default="false">Scarpe col tacco</name>
+  <name lang="es-ES" default="false">Zapatos de tacón bajo</name>
+  <name lang="ja-JP" default="false">パンプス（花柄）</name>
+  <name lang="ko-KR" default="false">테니스화</name>
+  <name lang="zh-HK" default="false">包頭鞋（花）</name>
+  <name lang="zh-TW" default="false">包頭鞋（花）</name>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small.png</small_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">FREE</entitlement_id>
+    <entitlement_id territory="SCEA">FREE</entitlement_id>
+    <entitlement_id territory="SCEJ">FREE</entitlement_id>
+    <entitlement_id territory="SCEAsia">FREE</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="7" parental_control_level="3" />
+    <age_rating country="US" minimum_age="0" parental_control_level="1" />
+    <age_rating country="JP" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="1" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="CA" minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>

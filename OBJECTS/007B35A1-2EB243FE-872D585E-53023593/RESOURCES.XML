@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="wheel.mdl" deferred_loading="false" protected="false" file="MiniGames/ferriswheel/models/wheel.mdl" />
+		<model name="gondola.mdl" deferred_loading="false" protected="false" file="MiniGames/ferriswheel/models/gondola.mdl" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/ferriswheel/scripts/types.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="MiniGames/ferriswheel/scripts/simplemenu.xml" />
+		<collision name="gondola.hkx" deferred_loading="false" protected="false" file="MiniGames/ferriswheel/models/gondola.hkx" />
+		<lua name="ferris_wheel.lua" deferred_loading="false" protected="true" file="MiniGames/ferriswheel/scripts/ferris_wheel.lua" />
+		<lua name="Minigame.lua" deferred_loading="false" protected="true" file="MiniGames/ferriswheel/scripts/Minigame.lua" />
+		<lua name="camera.lua" deferred_loading="false" protected="true" file="MiniGames/ferriswheel/scripts/camera.lua" />
+		<lua name="gondola.lua" deferred_loading="false" protected="true" file="MiniGames/ferriswheel/scripts/gondola.lua" />
+		<lua name="Message.lua" deferred_loading="false" protected="true" file="MiniGames/ferriswheel/scripts/Message.lua" />
+		<lua name="Invite_Manager.lua" deferred_loading="false" protected="true" file="MiniGames/ferriswheel/scripts/Invite_Manager.lua" />
+		<lua name="OSD_Board.lua" deferred_loading="false" protected="true" file="MiniGames/ferriswheel/scripts/OSD_Board.lua" />
+	</local>
+	<external />
+</resources>

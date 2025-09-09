@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ch_503_901.mdl" deferred_loading="false" file="furniture/anime_prinny_race/scenes/ch_503_901.mdl" />
+		<texture name="texture1" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/data/PrinnyRace_Manual_01.dds" />
+		<texture name="texture2" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/data/PrinnyRace_Manual_02.dds" />
+		<texture name="texture3" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/data/PrinnyRace_Manual_03.dds" />
+		<texture name="texture1_en_us" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/data/PrinnyRace_Manual_01_en.dds" />
+		<texture name="texture2_en_us" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/data/PrinnyRace_Manual_02_en.dds" />
+		<texture name="texture3_en_us" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/data/PrinnyRace_Manual_03_en.dds" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/types.xml" />
+		<collision name="Fig_Prinny.hkx" deferred_loading="false" file="furniture/Fig_Prinny/Fig_Prinny.hkx" />
+		<anim name="ch_503_191.ani" deferred_loading="false" file="furniture/anime_prinny_race/scenes/ch_503_901.ani" />
+		<skeleton name="ch_503_901.skn" deferred_loading="false" file="furniture/anime_prinny_race/scenes/ch_503_901.skn" />
+		<soundbank name="snd.bnk" deferred_loading="false" file="MiniGames/PrinnyRaceHelp/snd.bnk" />
+		<lua name="TextureAnimation.lua" deferred_loading="false" protected="true" file="MiniGames/PrinnyRaceHelp/TextureAnimation.lua" />
+		<lua name="ArrayList.lua" deferred_loading="false" protected="true" file="MiniGames/PrinnyRaceHelp/ArrayList.lua" />
+		<lua name="PrinnyRaceHelp.lua" deferred_loading="false" protected="true" file="MiniGames/PrinnyRaceHelp/PrinnyRaceHelp.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="character_ryu.mdl" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/Ryu.mdl" />
+		<model name="character_sackboy.mdl" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/sackboy_cart2.mdl" />
+		<model name="character_salvador.mdl" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/Merc_low.mdl" />
+		<model name="character_assassins.mdl" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/AC3_Connor.mdl" />
+		<model name="character_merc_jet.mdl" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/mechjet/mechjet_lod.mdl" />
+		<texture name="CameraFocusMid.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/CameraFocusMid.dds" />
+		<texture name="CameraFocusEdge.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/CameraFocusEdge.dds" />
+		<texture name="film_strip.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/film_strip.dds" />
+		<texture name="photobooth_hud.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/photobooth_hud.dds" />
+		<texture name="Photobooth_menu.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/Photobooth_menu.dds" />
+		<texture name="photo_background.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/photo_background.dds" />
+		<texture name="logo_assassins.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/photobooth_ac3_logo.dds" />
+		<texture name="logo_borderlands2.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/photobooth_bl2_logo.dds" />
+		<texture name="logo_sfxt.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/photobooth_sfxt_logo.dds" />
+		<texture name="logo_lbpk.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/photobooth_lbpk_logo.dds" />
+		<texture name="logo_lkwd.dds" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Hud/photobooth_lkwd_logo.dds" />
+		<collision name="character_ryu.hkx" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/Ryu.hkx" />
+		<collision name="character_assassins.hkx" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/AC3_Connor.hkx" />
+		<collision name="character_salvador.hkx" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/Merc_low.hkx" />
+		<collision name="character_sackboy.hkx" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/sackboy_cart2.hkx" />
+		<collision name="character_merc_jet.hkx" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Art/Models/mechjet/mechjet_lod.hkx" />
+		<soundbank name="sound.bnk" deferred_loading="false" protected="false" file="MiniGames/E3_Booth_2012/Photobooth/Sound/sound.bnk" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Camera.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Main.lua" />
+		<lua name="PhotoboothGame.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/PhotoboothGame.lua" />
+		<lua name="PhotoboothScreens.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/PhotoboothScreens.lua" />
+		<lua name="ScreenShot.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/ScreenShot.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Util/Controller.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Util/Jamin.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Util/Math.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Util/OHS.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="Rewarder.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Util/Rewarder.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/E3_Booth_2012/Photobooth/Code/Util/Playmetrix.lua" />
+	</local>
+	<external />
+</resources>
