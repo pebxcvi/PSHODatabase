@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_Moodies_AngelDevil" deferred_loading="true" protected="false" file="locomotionassets/Moodies_AngelDevil_idle.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Moodies_-_Angel_and_Devil/file/GabeAndBael_config.xml" memory="host" />
+		<anim name="ani_Moodies_AngelDevil_idle" deferred_loading="true" protected="false" file="locomotionassets/Moodies_AngelDevil_idle.ani" memory="host" />
+		<anim name="ani_BaelOnly" deferred_loading="true" protected="false" file="locomotionassets/Moodies_AngelDevil_BaelOnly.ani" memory="host" />
+		<anim name="ani_GabeOnly" deferred_loading="true" protected="false" file="locomotionassets/Moodies_AngelDevil_GabeOnly.ani" memory="host" />
+		<anim name="ani_G_B_Transition" deferred_loading="true" protected="false" file="animation/male/g_b_transition/G_B_Transition.ani" memory="host" />
+		<anim name="ani_Bael_Attack" deferred_loading="true" protected="false" file="locomotionassets/Moodies_AngelDevil_BaelAttack2.ani" memory="host" />
+		<anim name="ani_Gabe_Attack" deferred_loading="true" protected="false" file="locomotionassets/Moodies_AngelDevil_GabeAttack.ani" memory="host" />
+		<skeleton name="skn_Moodies_AngelDevil" deferred_loading="true" protected="false" file="locomotionassets/Moodies_AngelDevil_idle.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Moodies_-_Angel_and_Devil/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Moodies_-_Angel_and_Devil/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Moodies_-_Angel_and_Devil/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Moodies_-_Angel_and_Devil/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Moodies_-_Angel_and_Devil/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

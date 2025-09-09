@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.86.0.17.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">Lockwood</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Lockwood</company>
+		<template type="string">active_minigame</template>
+		<template_version type="string">1.1.0</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">US</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">CA</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<furniture>
+		<model type="string">base.mdl</model>
+		<collision type="string">base.hkx</collision>
+		<appliance type="string">PlainObject</appliance>
+		<camera_focus_offset type="vector">1 2 0</camera_focus_offset>
+		<camera_distance type="float">6</camera_distance>
+		<seats type="list" />
+		<always_allow_retargeting type="bool">false</always_allow_retargeting>
+	</furniture>
+	<lua_environment>
+		<script type="string">Main.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">OnListenerReceivedData()</on_listener_received_data>
+		<on_destroy type="string">OnDestroy()</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list">
+			<object type="bag">
+				<id type="string">540C8A5A-18D34DB4-894532B3-F44D2725</id>
+			</object>
+			<object type="bag">
+				<id type="string">8ED2336E-7A624AF4-AC24DB9C-A5A88C5D</id>
+			</object>
+			<object type="bag">
+				<id type="string">86115AA9-3C844F61-BCFDCFFA-BEA2777F</id>
+			</object>
+			<object type="bag">
+				<id type="string">F2179C47-93744FAC-A7263CBF-3CA64D19</id>
+			</object>
+			<object type="bag">
+				<id type="string">4389AE7D-14F6434A-A0DDCCD0-2C15F484</id>
+			</object>
+			<object type="bag">
+				<id type="string">62E34C02-83C14A2D-8B42EE85-2CD91D85</id>
+			</object>
+			<object type="bag">
+				<id type="string">9B21ED7D-686D4A98-B1990E9B-0058FD4E</id>
+			</object>
+			<object type="bag">
+				<id type="string">D9C4CB64-530F419A-875BCF5F-3E2B3790</id>
+			</object>
+			<object type="bag">
+				<id type="string">D240BA6A-F9204286-808D2E66-03347DF9</id>
+			</object>
+			<object type="bag">
+				<id type="string">3B4E4792-6E91499D-9699BB8B-52F6F96A</id>
+			</object>
+			<object type="bag">
+				<id type="string">166522D1-0CFE412B-88C0DA89-D598147F</id>
+			</object>
+			<object type="bag">
+				<id type="string">90448CC6-000D48D7-BA23664B-16BC6E67</id>
+			</object>
+			<object type="bag">
+				<id type="string">C3835154-9B734FC6-915B087E-433BEA75</id>
+			</object>
+			<object type="bag">
+				<id type="string">770FF739-DAD44413-AD5ADAC4-2BA06BC9</id>
+			</object>
+			<object type="bag">
+				<id type="string">E5ED6504-4FF448F7-9FC0FA0E-048FDC8E</id>
+			</object>
+			<object type="bag">
+				<id type="string">BBCB3BD5-41E548EA-924B4FF9-0328B764</id>
+			</object>
+			<object type="bag">
+				<id type="string">0D8AC4C8-1FF849BD-899D9D18-A597E2E2</id>
+			</object>
+			<object type="bag">
+				<id type="string">7F2FA371-A97E4508-AA98AAF2-F894D6AF</id>
+			</object>
+			<object type="bag">
+				<id type="string">545FA64C-37574674-A0C81E15-50E9199C</id>
+			</object>
+			<object type="bag">
+				<id type="string">D93E363E-C0704610-8FAED188-BB4E0C79</id>
+			</object>
+			<object type="bag">
+				<id type="string">D410D8EE-19DA42BE-84E1D058-F4A8B875</id>
+			</object>
+			<object type="bag">
+				<id type="string">CDDD34A8-CEA948CF-A06EB96D-76F0044E</id>
+			</object>
+		</senders>
+	</lua_environment>
+	<targetable>
+		<interactive type="bool">false</interactive>
+		<on_activated type="string"></on_activated>
+		<on_targeted type="string"></on_targeted>
+		<is_targetable_by_remote_people type="bool">true</is_targetable_by_remote_people>
+		<trigger_radius type="float">2</trigger_radius>
+		<can_be_targeted_while_seated type="bool">false</can_be_targeted_while_seated>
+	</targetable>
+	<entity />
+	<mini_game>
+		<on_update type="string">*OnUpdate</on_update>
+		<on_send_welcome_message type="string">*OnSendWelcomeMessage</on_send_welcome_message>
+		<on_render type="string">*OnRender</on_render>
+		<on_can_local_player_join type="string">*OnCanLocalPlayerJoin</on_can_local_player_join>
+		<on_add_player type="string">*OnAddPlayer</on_add_player>
+		<on_remove_player type="string">*OnRemovePlayer</on_remove_player>
+		<on_local_player_join type="string">*OnLocalPlayerJoin</on_local_player_join>
+		<on_local_player_leave type="string">*OnLocalPlayerLeave</on_local_player_leave>
+		<on_local_player_update_gameplay type="string">*OnLocalPlayerUpdateGameplay</on_local_player_update_gameplay>
+		<join_type type="string">normal</join_type>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<session_size type="int">1</session_size>
+		<network_session type="bool">false</network_session>
+		<on_custom_exit_menu_option_selected type="string"></on_custom_exit_menu_option_selected>
+		<is_allowed_presence_broadcast type="bool">false</is_allowed_presence_broadcast>
+	</mini_game>
+	<screen />
+	<pad />
+	<renderer />
+	<camera />
+	<system />
+	<light />
+	<game_spawner>
+		<game_type type="string">mini_game</game_type>
+		<attached_to_furniture type="bool">true</attached_to_furniture>
+		<use_default_camera type="bool">true</use_default_camera>
+		<local_person_visible type="bool">false</local_person_visible>
+		<remote_people_visible type="bool">false</remote_people_visible>
+		<remote_portables_visible type="bool">true</remote_portables_visible>
+		<mini_game type="bag" />
+	</game_spawner>
+	<active>
+		<on_update type="string">*OnActiveUpdate</on_update>
+		<upright_validation type="bool">true</upright_validation>
+		<safe_volume type="string">base.safevolume.hkx</safe_volume>
+		<on_move type="string"></on_move>
+	</active>
+	<embedded_object>
+		<on_update type="string"></on_update>
+		<string_parameters type="list">
+			<parameter type="bag">
+				<name type="string">tabs</name>
+				<default_value type="string">subway</default_value>
+			</parameter>
+		</string_parameters>
+		<boolean_parameters type="list">
+			<parameter type="bag">
+				<name type="string">face_local_player</name>
+				<default_value type="bool">true</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">scene_object</name>
+				<default_value type="bool">false</default_value>
+			</parameter>
+		</boolean_parameters>
+		<numeric_parameters type="list" />
+		<enum_parameters type="list" />
+	</embedded_object>
+	<memory_slots>
+		<slots type="list" />
+	</memory_slots>
+</objectdef>

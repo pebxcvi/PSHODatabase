@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="GoldfishBowl.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/GoldfishBowl.mdl" memory="host" />
+		<model name="FishTank_Small.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/FishTank_Small.mdl" memory="host" />
+		<model name="FishTank_Medium.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/FishTank_Medium.mdl" memory="host" />
+		<model name="FishTank_Large.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/FishTank_Large.mdl" memory="host" />
+		<model name="FishTank_XLarge.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/FishTank_XLarge.mdl" memory="host" />
+		<model name="FishTank_Ultimate.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/FishTank_Ultimate.mdl" memory="host" />
+		<model name="Gravel0.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/Gravel0.mdl" memory="host" />
+		<model name="Gravel1.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/Gravel1.mdl" memory="host" />
+		<model name="Gravel2.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/Gravel2.mdl" memory="host" />
+		<model name="Gravel3.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/Gravel3.mdl" memory="host" />
+		<model name="Gravel4.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/Gravel4.mdl" memory="host" />
+		<model name="Gravel5.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/Gravel5.mdl" memory="host" />
+		<model name="gravelblack0.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblack0.mdl" memory="host" />
+		<model name="gravelblack1.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblack1.mdl" memory="host" />
+		<model name="gravelblack2.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblack2.mdl" memory="host" />
+		<model name="gravelblack3.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblack3.mdl" memory="host" />
+		<model name="gravelblack4.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblack4.mdl" memory="host" />
+		<model name="gravelblack5.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblack5.mdl" memory="host" />
+		<model name="gravelblue0.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblue0.mdl" memory="host" />
+		<model name="gravelblue1.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblue1.mdl" memory="host" />
+		<model name="gravelblue2.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblue2.mdl" memory="host" />
+		<model name="gravelblue3.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblue3.mdl" memory="host" />
+		<model name="gravelblue4.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblue4.mdl" memory="host" />
+		<model name="gravelblue5.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/gravel/gravelblue5.mdl" memory="host" />
+		<model name="tansand0.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/tansand0.mdl" memory="host" />
+		<model name="tansand1.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/tansand1.mdl" memory="host" />
+		<model name="tansand2.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/tansand2.mdl" memory="host" />
+		<model name="tansand3.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/tansand3.mdl" memory="host" />
+		<model name="tansand4.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/tansand4.mdl" memory="host" />
+		<model name="tansand5.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/tansand5.mdl" memory="host" />
+		<model name="whiteSand0.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/whiteSand0.mdl" memory="host" />
+		<model name="whiteSand1.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/whiteSand1.mdl" memory="host" />
+		<model name="whiteSand2.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/whiteSand2.mdl" memory="host" />
+		<model name="whiteSand3.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/whiteSand3.mdl" memory="host" />
+		<model name="whiteSand4.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/whiteSand4.mdl" memory="host" />
+		<model name="whiteSand5.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/decorations/sand/whiteSand5.mdl" memory="host" />
+		<model name="DebugCube.mdl" deferred_loading="false" protected="false" file="furniture/fishtank/debugcube/DebugCube.mdl" memory="host" />
+		<model name="Clownfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/Clownfish_High.mdl" memory="host" />
+		<model name="BlueTang_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_High.mdl" memory="host" />
+		<model name="Bubbler.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/decorations/Bubbler.mdl" memory="host" />
+		<model name="HarlequinTusk_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/harlequintuskfish/HarlequinTusk_High.mdl" memory="host" />
+		<model name="Butterflyfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/Butterflyfish_High.mdl" memory="host" />
+		<model name="BarredAngelfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_High.mdl" memory="host" />
+		<model name="BicolorParrotfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_High.mdl" memory="host" />
+		<model name="Guppy_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_High.mdl" memory="host" />
+		<model name="BlueDiscus_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluediscus/BlueDiscus_High.mdl" memory="host" />
+		<model name="MoorishIdol_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_High.mdl" memory="host" />
+		<model name="FlowerhornCichlid_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/flowerhorncichlid/FlowerhornCichlid_High.mdl" memory="host" />
+		<model name="MandarinFish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_High.mdl" memory="host" />
+		<model name="SiameseFightingFish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/siamesefightingfish/SiameseFightingFish_High.mdl" memory="host" />
+		<model name="CommonGoldfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_High.mdl" memory="host" />
+		<model name="ClownTigger_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_High.mdl" memory="host" />
+		<model name="WhitePlane.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/WhitePlane.mdl" />
+		<model name="Fantail_Goldfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_High.mdl" memory="host" />
+		<model name="YellowTang_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/yellowtang/YellowTang_High.mdl" memory="host" />
+		<model name="tasslefilefish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/tasslefilefish_High.mdl" memory="host" />
+		<model name="Flame_Angelfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/flame_angelfish/Flame_Angelfish_High.mdl" memory="host" />
+		<model name="CortexRainbowWrasse_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezrainbowwrasse/CortexRainbowWrasse_High.mdl" memory="host" />
+		<model name="Longnose_Hawk_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_High.mdl" memory="host" />
+		<model name="Harlequin_Sweetlips_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/harlequin_sweetlips/Harlequin_Sweetlips_High.mdl" memory="host" />
+		<model name="Saddleback_Clownfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/saddleback_clownfish/Saddleback_Clownfish_High.mdl" memory="host" />
+		<model name="YellowTailDamsel_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/yellowtaildamsel/YellowTailDamsel_High.mdl" memory="host" />
+		<model name="CaveTetra_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cavetetra/CaveTetra_High.mdl" memory="host" />
+		<model name="neonTetra_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/neontetra/neonTetra_high.mdl" memory="host" />
+		<model name="GreenSwordTail_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/greenswordtail/GreenSwordTail_High.mdl" memory="host" />
+		<model name="RainbowNotho_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/rainbownotho/RainbowNotho_High.mdl" memory="host" />
+		<model name="ElectricYellowCichlid_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/electricyellowcichlid/ElectricYellowCichlid_High.mdl" memory="host" />
+		<model name="BicolorAngelFish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_High.mdl" memory="host" />
+		<model name="CoralBeauty_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/coral_beauty/CoralBeauty_High.mdl" memory="host" />
+		<model name="Majestic_Angelfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/majestic_angelfish/Majestic_Angelfish_High.mdl" memory="host" />
+		<model name="GoldenStripedGrouper_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/goldenstripedgrouper/GoldenStripedGrouper_High.mdl" memory="host" />
+		<model name="Squareback_Anthias_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/squareback_anthias/Squareback_Anthias_High.mdl" memory="host" />
+		<model name="FireFish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_High.mdl" memory="host" />
+		<model name="BanggaiCardinalFish_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_high.mdl" memory="host" />
+		<model name="CatalinaGoby_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/catalinagoby/CatalinaGoby_High.mdl" memory="host" />
+		<model name="Citron_Clown_Goby_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/citron_clown_goby/Citron_Clown_Goby_High.mdl" memory="host" />
+		<model name="Serpae_Tetra_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/serpae_tetra/Serpae_Tetra_High.mdl" memory="host" />
+		<model name="LivingstonCichlid_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/livingstoncichlid/LivingstonCichlid_High.mdl" memory="host" />
+		<model name="kuhliLoach_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_high.mdl" memory="host" />
+		<model name="Seahorse_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_High.mdl" memory="host" />
+		<model name="zebraLionFish_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebralionfish/zebraLionFish_high.mdl" memory="host" />
+		<model name="Royal_Gramma_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/royal_gramma/Royal_Gramma_High.mdl" memory="host" />
+		<model name="BubbleEye_GoldFish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bubbleeye_goldfish/BubbleEye_GoldFish_High.mdl" memory="host" />
+		<model name="altumAngelfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/altumangelfish/altumAngelfish_High.mdl" memory="host" />
+		<model name="pandamoor_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_high.mdl" memory="host" />
+		<model name="freckledHawkFish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/freckledhawkfish/freckledHawkFish_High.mdl" memory="host" />
+		<model name="cortezangelfish_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_High.mdl" memory="host" />
+		<model name="threadfinSnapper_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/threadfinsnapper/threadfinSnapper_High.mdl" memory="host" />
+		<model name="zebrapleco_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_high.mdl" memory="host" />
+		<model name="stingray_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_high.mdl" memory="host" />
+		<model name="Sucker_High.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_High.mdl" memory="host" />
+		<model name="volcanobubbler_high.mdl" deferred_loading="true" protected="false" file="furniture/fishtank/decorations/volcanobubbler/volcanobubbler_high.mdl" memory="host" />
+		<model name="petshop_Cat_Black.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/petshop_Cat_Black.mdl" />
+		<model name="petshop_Cat_Siamese.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/petshop_Cat_Siamese.mdl" />
+		<model name="petshop_Cat_TabbyBrown.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/petshop_Cat_TabbyBrown.mdl" />
+		<model name="petshop_Cat_TabbyOrange.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/petshop_Cat_TabbyOrange.mdl" />
+		<model name="petshop_Cat_Tortoiseshell.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/petshop_Cat_Tortoiseshell.mdl" />
+		<model name="petshop_Cat_White.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/petshop_Cat_White.mdl" />
+		<model name="petshop_roo_paintweights.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/petshop_roo_paintweights.mdl" />
+		<model name="GermanShepherd_Rig.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/husky/GermanShepherd_Rig.mdl" />
+		<model name="Husky_Red_Rig.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/husky/Husky_Red_Rig.mdl" />
+		<model name="Husky_White_Rig.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/husky/Husky_White_Rig.mdl" />
+		<model name="Husky_Rig.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/husky/Husky_Rig.mdl" />
+		<model name="Weasel_Dancing.mdl" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/weasel_animations/Weasel_Dancing.mdl" />
+		<model name="Monkey.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Ikea_Monkey/model/IkeaMonkey_Rig.mdl" />
+		<texture name="RewardPopup.dds" deferred_loading="false" protected="false" file="MiniGames/Aquarium/model/RewardPopup.dds" />
+		<particle name="Bubble.efx" deferred_loading="false" protected="false" file="ATGParticles/Bubble/Bubble.efx" memory="host" />
+		<anim name="BlueTang_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_High.ani" memory="host" />
+		<anim name="HarlequinTusk_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/harlequintuskfish/HarlequinTusk_High.ani" memory="host" />
+		<anim name="RegularSwim_Baked.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/animations/RegularSwim_Baked.ani" memory="host" />
+		<anim name="BarredAngelfish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_High.ani" memory="host" />
+		<anim name="BicolorParrotfish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_High.ani" memory="host" />
+		<anim name="Guppy_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_High.ani" memory="host" />
+		<anim name="MoorishIdol_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_High.ani" memory="host" />
+		<anim name="MandarinFish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_High.ani" memory="host" />
+		<anim name="ClownTigger_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_High.ani" memory="host" />
+		<anim name="CommonGoldfish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_High.ani" memory="host" />
+		<anim name="Fantail_Goldfish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_High.ani" memory="host" />
+		<anim name="tasslefilefish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/tasslefilefish_High.ani" memory="host" />
+		<anim name="Longnose_Hawk_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_High.ani" memory="host" />
+		<anim name="BicolorAngelFish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_High.ani" memory="host" />
+		<anim name="FireFish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_High.ani" memory="host" />
+		<anim name="BanggaiCardinalFish_high.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_high.ani" memory="host" />
+		<anim name="kuhliLoach_high.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_high.ani" memory="host" />
+		<anim name="Seahorse_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_High.ani" memory="host" />
+		<anim name="pandamoor_high.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_high.ani" memory="host" />
+		<anim name="cortezangelfish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_High.ani" memory="host" />
+		<anim name="zebrapleco_high.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_high.ani" memory="host" />
+		<anim name="stingray_high.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_high.ani" memory="host" />
+		<anim name="Sucker_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_High.ani" memory="host" />
+		<anim name="Robofish_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/robotfish/Robofish_High.ani" memory="host" />
+		<anim name="JellyFish.ani" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/JellyFish.ani" memory="host" />
+		<anim name="Aquarium_LargeSeaweed.ani" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/Aquarium_LargeSeaweed.ani" memory="host" />
+		<anim name="RegularSwim_LeftTurn_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/animations/RegularSwim_LeftTurn_60.ani" memory="host" />
+		<anim name="RegularSwim_LeftTurn_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/animations/RegularSwim_LeftTurn_120.ani" memory="host" />
+		<anim name="RegularSwim_LeftTurn_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/animations/RegularSwim_LeftTurn_180.ani" memory="host" />
+		<anim name="RegularSwim_RightTurn_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/animations/RegularSwim_RightTurn_60.ani" memory="host" />
+		<anim name="RegularSwim_RightTurn_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/animations/RegularSwim_RightTurn_120.ani" memory="host" />
+		<anim name="CommonGoldfish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_Left_60.ani" memory="host" />
+		<anim name="CommonGoldfish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_Left_120.ani" memory="host" />
+		<anim name="CommonGoldfish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_Left_180.ani" memory="host" />
+		<anim name="CommonGoldfish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_Right_60.ani" memory="host" />
+		<anim name="CommonGoldfish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_Right_120.ani" memory="host" />
+		<anim name="Guppy_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_Left_60.ani" memory="host" />
+		<anim name="Guppy_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_Left_120.ani" memory="host" />
+		<anim name="Guppy_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_Left_180.ani" memory="host" />
+		<anim name="Guppy_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_Right_60.ani" memory="host" />
+		<anim name="Guppy_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_Right_120.ani" memory="host" />
+		<anim name="Fantail_Goldfish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_Left_60.ani" memory="host" />
+		<anim name="Fantail_Goldfish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_Left_120.ani" memory="host" />
+		<anim name="Fantail_Goldfish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_Left_180.ani" memory="host" />
+		<anim name="Fantail_Goldfish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_Right_60.ani" memory="host" />
+		<anim name="Fantail_Goldfish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_Right_120.ani" memory="host" />
+		<anim name="BlueTang_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_Left_60.ani" memory="host" />
+		<anim name="BlueTang_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_Left_120.ani" memory="host" />
+		<anim name="BlueTang_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_Left_180.ani" memory="host" />
+		<anim name="BlueTang_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_Right_60.ani" memory="host" />
+		<anim name="BlueTang_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_Right_120.ani" memory="host" />
+		<anim name="BarredAngelfish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_Left_60.ani" memory="host" />
+		<anim name="BarredAngelfish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_Left_120.ani" memory="host" />
+		<anim name="BarredAngelfish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_Left_180.ani" memory="host" />
+		<anim name="BarredAngelfish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_Right_60.ani" memory="host" />
+		<anim name="BarredAngelfish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_Right_120.ani" memory="host" />
+		<anim name="BicolorParrotfish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_Left_60.ani" memory="host" />
+		<anim name="BicolorParrotfish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_Left_120.ani" memory="host" />
+		<anim name="BicolorParrotfish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_Left_180.ani" memory="host" />
+		<anim name="BicolorParrotfish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_Right_60.ani" memory="host" />
+		<anim name="BicolorParrotfish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_Right_120.ani" memory="host" />
+		<anim name="Seahorse_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_Left_60.ani" memory="host" />
+		<anim name="Seahorse_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_Left_120.ani" memory="host" />
+		<anim name="Seahorse_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_Left_180.ani" memory="host" />
+		<anim name="Seahorse_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_Right_60.ani" memory="host" />
+		<anim name="Seahorse_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_Right_120.ani" memory="host" />
+		<anim name="kuhliLoach_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_Left_60.ani" memory="host" />
+		<anim name="kuhliLoach_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_Left_120.ani" memory="host" />
+		<anim name="kuhliLoach_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_Left_180.ani" memory="host" />
+		<anim name="kuhliLoach_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_Right_60.ani" memory="host" />
+		<anim name="kuhliLoach_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_Right_120.ani" memory="host" />
+		<anim name="MoorishIdol_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_Left_60.ani" memory="host" />
+		<anim name="MoorishIdol_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_Left_120.ani" memory="host" />
+		<anim name="MoorishIdol_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_Left_180.ani" memory="host" />
+		<anim name="MoorishIdol_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_Right_60.ani" memory="host" />
+		<anim name="MoorishIdol_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_Right_120.ani" memory="host" />
+		<anim name="stingray_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_Left_60.ani" memory="host" />
+		<anim name="stingray_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_Left_120.ani" memory="host" />
+		<anim name="stingray_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_Left_180.ani" memory="host" />
+		<anim name="stingray_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_Right_60.ani" memory="host" />
+		<anim name="stingray_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_Right_120.ani" memory="host" />
+		<anim name="MandarinFish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_Left_60.ani" memory="host" />
+		<anim name="MandarinFish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_Left_120.ani" memory="host" />
+		<anim name="MandarinFish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_Left_180.ani" memory="host" />
+		<anim name="MandarinFish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_Right_60.ani" memory="host" />
+		<anim name="MandarinFish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_Right_120.ani" memory="host" />
+		<anim name="TassleFish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/TassleFish_Left_60.ani" memory="host" />
+		<anim name="TassleFish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/TassleFish_Left_120.ani" memory="host" />
+		<anim name="TassleFish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/TassleFish_Left_180.ani" memory="host" />
+		<anim name="TassleFish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/TassleFish_Right_60.ani" memory="host" />
+		<anim name="TassleFish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/TassleFish_Right_120.ani" memory="host" />
+		<anim name="zebrapleco_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_Left_60.ani" memory="host" />
+		<anim name="zebrapleco_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_Left_120.ani" memory="host" />
+		<anim name="zebrapleco_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_Left_180.ani" memory="host" />
+		<anim name="zebrapleco_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_Right_60.ani" memory="host" />
+		<anim name="zebrapleco_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_Right_120.ani" memory="host" />
+		<anim name="pandamoor_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_Left_60.ani" memory="host" />
+		<anim name="pandamoor_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_Left_120.ani" memory="host" />
+		<anim name="pandamoor_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_Left_180.ani" memory="host" />
+		<anim name="pandamoor_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_Right_60.ani" memory="host" />
+		<anim name="pandamoor_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_Right_120.ani" memory="host" />
+		<anim name="ClownTigger_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_Left_60.ani" memory="host" />
+		<anim name="ClownTigger_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_Left_120.ani" memory="host" />
+		<anim name="ClownTigger_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_Left_180.ani" memory="host" />
+		<anim name="ClownTigger_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_Right_60.ani" memory="host" />
+		<anim name="ClownTigger_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_Right_120.ani" memory="host" />
+		<anim name="Longnose_Hawk_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_Left_60.ani" memory="host" />
+		<anim name="Longnose_Hawk_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_Left_120.ani" memory="host" />
+		<anim name="Longnose_Hawk_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_Left_180.ani" memory="host" />
+		<anim name="Longnose_Hawk_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_Right_60.ani" memory="host" />
+		<anim name="Longnose_Hawk_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_Right_120.ani" memory="host" />
+		<anim name="BanggaiCardinalFish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_Left_60.ani" memory="host" />
+		<anim name="BanggaiCardinalFish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_Left_120.ani" memory="host" />
+		<anim name="BanggaiCardinalFish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_Left_180.ani" memory="host" />
+		<anim name="BanggaiCardinalFish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_Right_60.ani" memory="host" />
+		<anim name="BanggaiCardinalFish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_Right_120.ani" memory="host" />
+		<anim name="cortezangelfish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_Left_60.ani" memory="host" />
+		<anim name="cortezangelfish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_Left_120.ani" memory="host" />
+		<anim name="cortezangelfish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_Left_180.ani" memory="host" />
+		<anim name="cortezangelfish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_Right_60.ani" memory="host" />
+		<anim name="cortezangelfish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_Right_120.ani" memory="host" />
+		<anim name="BicolorAngelFish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_Left_60.ani" memory="host" />
+		<anim name="BicolorAngelFish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_Left_120.ani" memory="host" />
+		<anim name="BicolorAngelFish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_Left_180.ani" memory="host" />
+		<anim name="BicolorAngelFish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_Right_60.ani" memory="host" />
+		<anim name="BicolorAngelFish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_Right_120.ani" memory="host" />
+		<anim name="FireFish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_Left_60.ani" memory="host" />
+		<anim name="FireFish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_Left_120.ani" memory="host" />
+		<anim name="FireFish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_Left_180.ani" memory="host" />
+		<anim name="FireFish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_Right_60.ani" memory="host" />
+		<anim name="FireFish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_Right_120.ani" memory="host" />
+		<anim name="Sucker_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_Left_60.ani" memory="host" />
+		<anim name="Sucker_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_Left_120.ani" memory="host" />
+		<anim name="Sucker_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_Left_180.ani" memory="host" />
+		<anim name="Sucker_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_Right_60.ani" memory="host" />
+		<anim name="Sucker_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_Right_120.ani" memory="host" />
+		<anim name="Robofish_Left_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/robotfish/Robofish_Left_60.ani" memory="host" />
+		<anim name="Robofish_Left_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/robotfish/Robofish_Left_120.ani" memory="host" />
+		<anim name="Robofish_Left_180.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/robotfish/Robofish_Left_180.ani" memory="host" />
+		<anim name="Robofish_Right_60.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/robotfish/Robofish_Right_60.ani" memory="host" />
+		<anim name="Robofish_Right_120.ani" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/robotfish/Robofish_Right_120.ani" memory="host" />
+		<anim name="RobotFish_Rotated_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/RobotFish_Rotated_High.ani" memory="host" />
+		<anim name="SkeletonFish_Rotated_High.ani" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/SkeletonFish_Rotated_High.ani" memory="host" />
+		<anim name="Petshop_Cat_GetUp.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_GetUp.ani" />
+		<anim name="Petshop_Cat_Idle.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_Idle.ani" />
+		<anim name="Petshop_Cat_Lick.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_Lick.ani" />
+		<anim name="Petshop_Cat_LieDown.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_LieDown.ani" />
+		<anim name="Petshop_Cat_PawWindow.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_PawWindow.ani" />
+		<anim name="Petshop_Cat_Sleep1.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_Sleep1.ani" />
+		<anim name="Petshop_Cat_Sleep2.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_Sleep2.ani" />
+		<anim name="Petshop_Cat_Sniff.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_Sniff.ani" />
+		<anim name="Petshop_Cat_Walk.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/cat_animations/Petshop_Cat_Walk.ani" />
+		<anim name="Husky_Idle.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/husky_animations/Husky_Idle.ani" />
+		<anim name="Weasel_Dancing.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/weasel_animations/Weasel_Dancing.ani" />
+		<anim name="Husky_Bow.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/husky_animations/Husky_Bow.ani" />
+		<anim name="Husky_GetUp.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/husky_animations/Husky_GetUp.ani" />
+		<anim name="Husky_LieDown.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/husky_animations/Husky_LieDown.ani" />
+		<anim name="Husky_Sleep_2.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/husky_animations/Husky_Sleep_2.ani" />
+		<anim name="Husky_Walk.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/husky_animations/Husky_Walk.ani" />
+		<anim name="Weasel_Down.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/weasel_animations/Weasel_Down.ani" />
+		<anim name="Weasel_GetUp.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/weasel_animations/Weasel_GetUp.ani" />
+		<anim name="Weasel_Sleep.ani" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/weasel_animations/Weasel_Sleep.ani" />
+		<anim name="Monkey_Walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Ikea_Monkey/anim/IkeaMonkey_TestWalk_2.ani" />
+		<anim name="Monkey_Yawn.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Ikea_Monkey/anim/IkeaMonkey_SadIdle.ani" />
+		<anim name="Monkey_Applaud.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Ikea_Monkey/anim/IkeaMonkey_Look.ani" />
+		<anim name="Monkey_Idle.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Ikea_Monkey/anim/IkeaMonkey_Idle.ani" />
+		<skeleton name="Clownfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/Clownfish_High.skn" memory="host" />
+		<skeleton name="BlueTang_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluetang/BlueTang_High.skn" memory="host" />
+		<skeleton name="HarlequinTusk_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/harlequintuskfish/HarlequinTusk_High.skn" memory="host" />
+		<skeleton name="Butterflyfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/Butterflyfish_High.skn" memory="host" />
+		<skeleton name="BarredAngelfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/barredangelfish/BarredAngelfish_High.skn" memory="host" />
+		<skeleton name="BicolorParrotfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolorparrotfish/BicolorParrotfish_High.skn" memory="host" />
+		<skeleton name="Guppy_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/guppy/Guppy_High.skn" memory="host" />
+		<skeleton name="BlueDiscus_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bluediscus/BlueDiscus_High.skn" memory="host" />
+		<skeleton name="MoorishIdol_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/moorishidol/MoorishIdol_High.skn" memory="host" />
+		<skeleton name="FlowerhornCichlid_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/flowerhorncichlid/FlowerhornCichlid_High.skn" memory="host" />
+		<skeleton name="MandarinFish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/mandarinfish/MandarinFish_High.skn" memory="host" />
+		<skeleton name="SiameseFightingFish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/siamesefightingfish/SiameseFightingFish_High.skn" memory="host" />
+		<skeleton name="CommonGoldfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/commongoldfish/CommonGoldfish_High.skn" memory="host" />
+		<skeleton name="ClownTigger_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/clowntigger/ClownTigger_High.skn" memory="host" />
+		<skeleton name="Fantail_Goldfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/fantail_goldfish/Fantail_Goldfish_High.skn" memory="host" />
+		<skeleton name="YellowTang_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/yellowtang/YellowTang_High.skn" memory="host" />
+		<skeleton name="tasslefilefish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/tasslefilefish/tasslefilefish_High.skn" memory="host" />
+		<skeleton name="Flame_Angelfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/flame_angelfish/Flame_Angelfish_High.skn" memory="host" />
+		<skeleton name="CortexRainbowWrasse_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezrainbowwrasse/CortexRainbowWrasse_High.skn" memory="host" />
+		<skeleton name="Longnose_Hawk_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/longnose_hawk/Longnose_Hawk_High.skn" memory="host" />
+		<skeleton name="Harlequin_Sweetlips_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/harlequin_sweetlips/Harlequin_Sweetlips_High.skn" memory="host" />
+		<skeleton name="Saddleback_Clownfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/saddleback_clownfish/Saddleback_Clownfish_High.skn" memory="host" />
+		<skeleton name="YellowTailDamsel_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/yellowtaildamsel/YellowTailDamsel_High.skn" memory="host" />
+		<skeleton name="CaveTetra_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cavetetra/CaveTetra_High.skn" memory="host" />
+		<skeleton name="neonTetra_high.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/neontetra/neonTetra_high.skn" memory="host" />
+		<skeleton name="GreenSwordTail_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/greenswordtail/GreenSwordTail_High.skn" memory="host" />
+		<skeleton name="RainbowNotho_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/rainbownotho/RainbowNotho_High.skn" memory="host" />
+		<skeleton name="ElectricYellowCichlid_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/electricyellowcichlid/ElectricYellowCichlid_High.skn" memory="host" />
+		<skeleton name="BicolorAngelFish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bicolouredangelfish/BicolorAngelFish_High.skn" memory="host" />
+		<skeleton name="CoralBeauty_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/coral_beauty/CoralBeauty_High.skn" memory="host" />
+		<skeleton name="Majestic_Angelfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/majestic_angelfish/Majestic_Angelfish_High.skn" memory="host" />
+		<skeleton name="GoldenStripedGrouper_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/goldenstripedgrouper/GoldenStripedGrouper_High.skn" memory="host" />
+		<skeleton name="Squareback_Anthias_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/squareback_anthias/Squareback_Anthias_High.skn" memory="host" />
+		<skeleton name="FireFish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/firefish/FireFish_High.skn" memory="host" />
+		<skeleton name="BanggaiCardinalFish_high.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/banggaicardinalfish/BanggaiCardinalFish_high.skn" memory="host" />
+		<skeleton name="CatalinaGoby_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/catalinagoby/CatalinaGoby_High.skn" memory="host" />
+		<skeleton name="Citron_Clown_Goby_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/citron_clown_goby/Citron_Clown_Goby_High.skn" memory="host" />
+		<skeleton name="Serpae_Tetra_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/serpae_tetra/Serpae_Tetra_High.skn" memory="host" />
+		<skeleton name="LivingstonCichlid_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/livingstoncichlid/LivingstonCichlid_High.skn" memory="host" />
+		<skeleton name="kuhliLoach_high.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/kuhliloach/kuhliLoach_high.skn" memory="host" />
+		<skeleton name="Seahorse_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/seahorse/Seahorse_High.skn" memory="host" />
+		<skeleton name="zebraLionFish_high.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebralionfish/zebraLionFish_high.skn" memory="host" />
+		<skeleton name="Royal_Gramma_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/royal_gramma/Royal_Gramma_High.skn" memory="host" />
+		<skeleton name="BubbleEye_GoldFish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/bubbleeye_goldfish/BubbleEye_GoldFish_High.skn" memory="host" />
+		<skeleton name="altumAngelfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/altumangelfish/altumAngelfish_High.skn" memory="host" />
+		<skeleton name="pandamoor_high.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/pandamoor/pandamoor_high.skn" memory="host" />
+		<skeleton name="freckledHawkFish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/freckledhawkfish/freckledHawkFish_High.skn" memory="host" />
+		<skeleton name="cortezangelfish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/cortezangelfish/cortezangelfish_High.skn" memory="host" />
+		<skeleton name="threadfinSnapper_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/threadfinsnapper/threadfinSnapper_High.skn" memory="host" />
+		<skeleton name="zebrapleco_high.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/zebrapleco/zebrapleco_high.skn" memory="host" />
+		<skeleton name="stingray_high.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/stingray/stingray_high.skn" memory="host" />
+		<skeleton name="Sucker_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/suckerfish/Sucker_High.skn" memory="host" />
+		<skeleton name="skeletonFish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/skeletonfish/skeletonFish_High.skn" memory="host" />
+		<skeleton name="Robofish_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/fishmodels/robotfish/Robofish_High.skn" memory="host" />
+		<skeleton name="JellyFish.skn" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/JellyFish.skn" memory="host" />
+		<skeleton name="Aquarium_LargeSeaweed.skn" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/Aquarium_LargeSeaweed.skn" memory="host" />
+		<skeleton name="RobotFish_Rotated_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/RobotFish_Rotated_High.skn" memory="host" />
+		<skeleton name="SkeletonFish_Rotated_High.skn" deferred_loading="true" protected="false" file="furniture/fishtank/rewards/SkeletonFish_Rotated_High.skn" memory="host" />
+		<skeleton name="cat_skeleton.skn" deferred_loading="false" protected="false" file="CompanionFollowers/Roo/skeleton/petshop_roo_paintweights.skn" />
+		<skeleton name="dog_skeleton.skn" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/husky_animations/Husky_Idle.skn" />
+		<skeleton name="weasel_skeleton.skn" deferred_loading="false" protected="false" file="animation/non-avatar/petshop/weasel_animations/Weasel_Dancing.skn" />
+		<skeleton name="Monkey.skn" deferred_loading="false" protected="false" file="CompanionFollowers/Ikea_Monkey/skeleton/IkeaMonkey_Rig.skn" />
+		<lua name="PetShop.lua" deferred_loading="false" protected="true" file="MiniGames/PetShop/lua/PetShop.lua" />
+	</local>
+	<external />
+</resources>

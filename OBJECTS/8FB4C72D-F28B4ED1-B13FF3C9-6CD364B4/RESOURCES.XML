@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="texture_security" deferred_loading="false" file="MiniGames/AC2/SecretDoor/Art/security.dds" />
+		<texture name="texture_instructionBacking" deferred_loading="false" file="MiniGames/AC2/SecretDoor/Art/instructionsBacking.dds" />
+		<file name="lua_main" deferred_loading="false" file="MiniGames/AC2/SecretDoor/main.lua" />
+		<file name="lua_dependencies" deferred_loading="false" file="MiniGames/AC2/SecretDoor/Dependencies.lua" />
+		<file name="lua_tablef" deferred_loading="false" file="MiniGames/AC2/SecretDoor/Util/TableF.lua" />
+		<file name="lua_controller" deferred_loading="false" file="MiniGames/AC2/SecretDoor/Util/Controller.lua" />
+		<file name="lua_easyLocalise" deferred_loading="false" file="MiniGames/AC2/SecretDoor/Util/EasyLocalise.lua" />
+		<file name="lua_helpScreen" deferred_loading="false" file="MiniGames/AC2/SecretDoor/HelpScreen.lua" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/AC2/SecretDoor/OSD/types.xml" />
+		<file name="osd_menu" deferred_loading="false" file="MiniGames/AC2/SecretDoor/OSD/menu.xml" />
+		<file name="lua_OSDMenu" deferred_loading="false" file="MiniGames/AC2/SecretDoor/OSDMenu.lua" />
+	</local>
+	<external />
+</resources>

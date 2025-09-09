@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/farm_lambs/FARM_Lambs.mdl" />
+		<model name="FARM_Lamb_RIG.mdl" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/sheep/FARM_Lamb_RIG.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_lambs/FARM_Lambs.hkx" />
+		<anim name="FARM_Lamb_Walk.ani" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/sheep/FARM_Lamb_Walk.ani" />
+		<skeleton name="FARM_Lamb_RIG.skn" deferred_loading="false" protected="false" file="environments/farm_bramblenook/models/animals/sheep/FARM_Lamb_RIG.skn" />
+		<soundstream name="Sheep_Baby.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_Animals/audio/Sheep_Baby.mp3" />
+		<soundstream name="Sheep_Baby1.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_Animals/audio/Sheep_Baby1.mp3" />
+		<lua name="Lamb.lua" deferred_loading="false" protected="true" file="furniture/farm_lambs/Lamb.luac" />
+		<lua name="LambsMain.lua" deferred_loading="false" protected="true" file="furniture/farm_lambs/LambsMain.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_lambs/Utility.luac" />
+	</local>
+	<external />
+</resources>

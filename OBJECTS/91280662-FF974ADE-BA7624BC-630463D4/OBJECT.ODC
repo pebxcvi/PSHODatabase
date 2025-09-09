@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>91280662-FF974ADE-BA7624BC-630463D4</uuid>
+  <name lang="en-GB" default="true">inFAMOUS Trash Monster Trophy</name>
+  <name lang="fr-FR" default="false">inFAMOUS Trash Monstre Trophée</name>
+  <name lang="de-DE" default="false">Papierkorb Monster Trophäe</name>
+  <name lang="it-IT" default="false">cestino mostro trofeo</name>
+  <name lang="es-ES" default="false">basura monstruo trofeo</name>
+  <description lang="en-GB" default="true">A reward for playing the Reaper Shock game!</description>
+  <description lang="fr-FR" default="false">Une récompense pour avoir joué au jeu Reaper Shock (Les Faucheurs sous haute tension) !</description>
+  <description lang="de-DE" default="false">Eine Belohnung für die Wiedergabe der Reaper Schock Spiel!</description>
+  <description lang="it-IT" default="false">Un premio per la riproduzione del gioco Reaper Shock!</description>
+  <description lang="es-ES" default="false">Una recompensa para jugar el juego de choque Reaper!</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating rating_system="ESRB" rating="EC" minimum_age="0" parental_control_level="0" />
+  </legal>
+</odc>

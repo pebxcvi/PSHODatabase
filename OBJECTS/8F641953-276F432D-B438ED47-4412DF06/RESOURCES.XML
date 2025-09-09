@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Mayor_Podium.mdl" deferred_loading="true" protected="false" file="Locomotion/Mayor_Podium/model/Mayor_Podium.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Mayor_Podium/file/config.xml" memory="host" />
+		<anim name="mPodium_speech01.ani" deferred_loading="true" protected="false" file="animation/male/mpodium_idle/mPodium_speech01.ani" memory="host" />
+		<anim name="mPodium_Idle01.ani" deferred_loading="true" protected="false" file="animation/male/mpodium_idle01/mPodium_Idle01.ani" memory="host" />
+		<anim name="PeaceSigns.ani" deferred_loading="true" protected="false" file="animation/male/mpodium_idle/PeaceSigns.ani" memory="host" />
+		<anim name="mPoint.ani" deferred_loading="true" protected="false" file="animation/male/mpodium_idle/mPoint.ani" memory="host" />
+		<anim name="mDissaprove.ani" deferred_loading="true" protected="false" file="animation/male/mpodium_idle/mDissaprove.ani" memory="host" />
+		<anim name="mClimb.ani" deferred_loading="true" protected="false" file="Locomotion/Mayor_Podium/anim/mClimb.ani" memory="host" />
+		<anim name="mPerch.ani" deferred_loading="true" protected="false" file="Locomotion/Mayor_Podium/anim/mPerch.ani" memory="host" />
+		<anim name="mCelebrate.ani" deferred_loading="true" protected="false" file="animation/male/mpodium_idle/mCelebrate.ani" memory="host" />
+		<anim name="fPodium_Idle.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fPodium_Idle.ani" memory="host" />
+		<anim name="fClimb.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fClimb.ani" memory="host" />
+		<anim name="fDissaprove.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fDissaprove.ani" memory="host" />
+		<anim name="fPodium_Celebrate.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fPodium_Celebrate.ani" memory="host" />
+		<anim name="fPodium_Perch.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fPodium_Perch.ani" memory="host" />
+		<anim name="fPodium_Point.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fPodium_Point.ani" memory="host" />
+		<anim name="fPodium_Speech.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fPodium_Speech.ani" memory="host" />
+		<anim name="fPeaceSigns.ani" deferred_loading="true" protected="false" file="animation/female/fpodium_idle/fPeaceSigns.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Mayor_Podium/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Mayor_Podium/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Mayor_Podium/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Mayor_Podium/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Mayor_Podium/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_GingerbreadHouse.mdl" />
+		<model name="WINT12_Gingerbreadhouse_Doors.mdl" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_Gingerbreadhouse_Doors.mdl" memory="host" />
+		<model name="WINT12_Gingerbreadhouse_GBMan2_RIG.mdl" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_Gingerbreadhouse_GBMan2_RIG.mdl" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_GingerbreadHouse.hkx" />
+		<collision name="safevolume.hkx" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_GingerbreadHouse.safevolume.hkx" />
+		<anim name="WINT12_Gingerbreadhouse_Doors.ani" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_Gingerbreadhouse_Doors.ani" memory="host" />
+		<anim name="WINT12_Gingerbreadhouse_GBMan2_Walk.ani" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_Gingerbreadhouse_GBMan2_Walk.ani" memory="host" />
+		<anim name="WINT12_Gingerbreadhouse_Doors_Close.ani" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_Gingerbreadhouse_Doors_Close.ani" memory="host" />
+		<skeleton name="WINT12_Gingerbreadhouse_Doors.skn" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_Gingerbreadhouse_Doors.skn" memory="host" />
+		<skeleton name="WINT12_Gingerbreadhouse_GBMan2_RIG.skn" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/WINT12_Gingerbreadhouse_GBMan2_RIG.skn" memory="host" />
+		<soundstream name="GingerbreadSound1.mp3" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/audio/GingerbreadSound1.mp3" />
+		<soundstream name="GingerbreadSound2.mp3" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/audio/GingerbreadSound2.mp3" />
+		<soundstream name="GingerbreadSound3.mp3" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/audio/GingerbreadSound3.mp3" />
+		<soundstream name="GingerbreadSound4.mp3" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/audio/GingerbreadSound4.mp3" />
+		<soundstream name="GingerbreadSound5.mp3" deferred_loading="false" protected="false" file="furniture/wint12_gingerbreadhouse/audio/GingerbreadSound5.mp3" />
+		<lua name="Gingerman.lua" deferred_loading="false" protected="true" file="furniture/wint12_gingerbreadhouse/lua/Gingerman.luac" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/wint12_gingerbreadhouse/lua/Main.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/wint12_gingerbreadhouse/lua/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

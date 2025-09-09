@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="barrier_bedroom_closed_idle.mdl" deferred_loading="false" protected="false" file="environments/boutique_apartment/assets/barrier_bedroom_closed_idle.mdl" />
+		<model name="barrier_bedroom_open_idle.mdl" deferred_loading="false" protected="false" file="environments/boutique_apartment/assets/barrier_bedroom_open_idle.mdl" />
+		<model name="flythrough_bathroom.mdl" deferred_loading="false" protected="false" file="animation/flythrough_bathroom.mdl" />
+		<model name="flythrough_bedroom.mdl" deferred_loading="false" protected="false" file="animation/flythrough_bedroom.mdl" />
+		<model name="flythrough_kitchen.mdl" deferred_loading="false" protected="false" file="animation/flythrough_kitchen.mdl" />
+		<model name="flythrough_lounge.mdl" deferred_loading="false" protected="false" file="animation/flythrough_lounge.mdl" />
+		<model name="flythrough_terrace.mdl" deferred_loading="false" protected="false" file="animation/flythrough_terrace.mdl" />
+		<model name="barrier_bedroom.mdl" deferred_loading="false" protected="false" file="barrier_bedroom.mdl" />
+		<model name="barrier_bedroom_none.mdl" deferred_loading="false" protected="false" file="barrier_bedroom_none.mdl" />
+		<model name="barrier_bathroom.mdl" deferred_loading="false" protected="false" file="barrier_bathroom.mdl" />
+		<model name="barrier_bathroom_none.mdl" deferred_loading="false" protected="false" file="barrier_bathroom_none.mdl" />
+		<model name="barrier_kitchen.mdl" deferred_loading="false" protected="false" file="barrier_kitchen.mdl" />
+		<model name="barrier_kitchen_none.mdl" deferred_loading="false" protected="false" file="barrier_kitchen_none.mdl" />
+		<model name="barrier_lounge.mdl" deferred_loading="false" protected="false" file="barrier_lounge.mdl" />
+		<model name="barrier_lounge_none.mdl" deferred_loading="false" protected="false" file="barrier_lounge_none.mdl" />
+		<model name="barrier_terrace.mdl" deferred_loading="false" protected="false" file="barrier_terrace.mdl" />
+		<model name="barrier_terrace_none.mdl" deferred_loading="false" protected="false" file="barrier_terrace_none.mdl" />
+		<model name="plinth.mdl" deferred_loading="false" protected="false" file="plinth.mdl" />
+		<texture name="bag" deferred_loading="false" protected="false" file="MiniGames/ComplexManager/file/commerce_bag_c.dds" />
+		<collision name="barrier_bedroom_closed_idle.hkx" deferred_loading="false" protected="false" file="environments/boutique_apartment/assets/barrier_bedroom_closed_idle.hkx" />
+		<collision name="barrier_bedroom_open_idle.hkx" deferred_loading="false" protected="false" file="environments/boutique_apartment/assets/barrier_bedroom_open_idle.hkx" />
+		<collision name="barrier_bedroom.hkx" deferred_loading="false" protected="false" file="barrier_bedroom.hkx" />
+		<collision name="barrier_bedroom_none.hkx" deferred_loading="false" protected="false" file="barrier_bedroom_none.hkx" />
+		<collision name="barrier_bathroom.hkx" deferred_loading="false" protected="false" file="barrier_bathroom.hkx" />
+		<collision name="barrier_bathroom_none.hkx" deferred_loading="false" protected="false" file="barrier_bathroom_none.hkx" />
+		<collision name="barrier_kitchen.hkx" deferred_loading="false" protected="false" file="barrier_kitchen.hkx" />
+		<collision name="barrier_kitchen_none.hkx" deferred_loading="false" protected="false" file="barrier_kitchen_none.hkx" />
+		<collision name="barrier_lounge.hkx" deferred_loading="false" protected="false" file="barrier_lounge.hkx" />
+		<collision name="barrier_lounge_none.hkx" deferred_loading="false" protected="false" file="barrier_lounge_none.hkx" />
+		<collision name="barrier_terrace.hkx" deferred_loading="false" protected="false" file="barrier_terrace.hkx" />
+		<collision name="barrier_terrace_none.hkx" deferred_loading="false" protected="false" file="barrier_terrace_none.hkx" />
+		<collision name="plinth.hkx" deferred_loading="false" protected="false" file="plinth.hkx" />
+		<anim name="flythrough_bathroom.ani" deferred_loading="false" protected="false" file="animation/flythrough_bathroom.ani" />
+		<anim name="flythrough_bedroom.ani" deferred_loading="false" protected="false" file="animation/flythrough_bedroom.ani" />
+		<anim name="flythrough_kitchen.ani" deferred_loading="false" protected="false" file="animation/flythrough_kitchen.ani" />
+		<anim name="flythrough_lounge.ani" deferred_loading="false" protected="false" file="animation/flythrough_lounge.ani" />
+		<anim name="flythrough_terrace.ani" deferred_loading="false" protected="false" file="animation/flythrough_terrace.ani" />
+		<skeleton name="flythrough_bathroom.skn" deferred_loading="false" protected="false" file="animation/flythrough_bathroom.skn" />
+		<skeleton name="flythrough_bedroom.skn" deferred_loading="false" protected="false" file="animation/flythrough_bedroom.skn" />
+		<skeleton name="flythrough_kitchen.skn" deferred_loading="false" protected="false" file="animation/flythrough_kitchen.skn" />
+		<skeleton name="flythrough_lounge.skn" deferred_loading="false" protected="false" file="animation/flythrough_lounge.skn" />
+		<skeleton name="flythrough_terrace.skn" deferred_loading="false" protected="false" file="animation/flythrough_terrace.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ComplexManager/lua/MiniGame.lua" />
+		<lua name="Contants.lua" deferred_loading="false" protected="true" file="MiniGames/ComplexManager/lua/Contants.lua" />
+	</local>
+	<external />
+</resources>

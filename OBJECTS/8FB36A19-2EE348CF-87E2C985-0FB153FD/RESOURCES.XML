@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Model" deferred_loading="true" file="MiniGames/SantasQuests/Models/star_shard.mdl" />
+		<model name="star" deferred_loading="false" file="MiniGames/SantasQuests/Models/star_shard_complete.mdl" />
+		<texture name="cross" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_cross.dds" />
+		<texture name="circle" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_circle.dds" />
+		<texture name="triangle" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_triangle.dds" />
+		<texture name="square" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_square.dds" />
+		<particle name="particle" deferred_loading="false" file="ATGParticles/generic/efx/christmas_present_trail.efx" />
+		<soundbank name="Sound" deferred_loading="false" file="Portables/Hovercraft/audio/Hovercraft.bnk" />
+		<soundbank name="soundbank" deferred_loading="false" file="MiniGames/SantasQuests/sounds/star_detector.bnk" />
+		<lua name="script" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/StarDetector.lua" />
+		<lua name="xmasshared.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasshared.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+	</local>
+	<external />
+</resources>
