@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<xml name="types" deferred_loading="false" file="MiniGames/WO_Team_Logo_Hunt/types.xml" />
+		<xml name="displaybackground" deferred_loading="false" file="MiniGames/WO_Team_Logo_Hunt/displaybackground.xml" />
+		<xml name="textDisplay" deferred_loading="false" file="MiniGames/WO_Team_Logo_Hunt/textDisplay.xml" />
+		<lua name="LogoHunt.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Team_Logo_Hunt/LogoHunt.lua" />
+		<lua name="LogoHuntTextDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Team_Logo_Hunt/LogoHuntTextDisplay.lua" />
+	</local>
+	<external />
+</resources>

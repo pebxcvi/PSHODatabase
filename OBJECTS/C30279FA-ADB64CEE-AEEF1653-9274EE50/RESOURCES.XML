@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="knife.mdl" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/knife.mdl" memory="main" />
+		<model name="PuzzleBox_Skull.mdl" deferred_loading="false" protected="false" file="furniture/cutteridge_puzzlebox/PuzzleBox_Skull.mdl" memory="main" />
+		<model name="book.mdl" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/book.mdl" memory="main" />
+		<model name="candleabra.mdl" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/candleabra.mdl" memory="main" />
+		<model name="plate.mdl" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/plate.mdl" memory="main" />
+		<model name="CUTTERIDGE_PuzzleBox.mdl" deferred_loading="false" protected="false" file="furniture/cutteridge_puzzlebox/CUTTERIDGE_PuzzleBox.mdl" memory="main" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist/file/Network.xml" memory="main" />
+		<collision name="knife.hkx" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/knife.hkx" memory="main" />
+		<collision name="PuzzleBox_Skull.hkx" deferred_loading="false" protected="false" file="furniture/cutteridge_puzzlebox/PuzzleBox_Skull.hkx" memory="main" />
+		<collision name="book.hkx" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/book.hkx" memory="main" />
+		<collision name="candleabra.hkx" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/candleabra.hkx" memory="main" />
+		<collision name="plate.hkx" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/plate.hkx" memory="main" />
+		<collision name="CUTTERIDGE_PuzzleBox.hkx" deferred_loading="false" protected="false" file="furniture/cutteridge_puzzlebox/CUTTERIDGE_PuzzleBox.hkx" memory="main" />
+		<soundbank name="puzzelbox.bnk" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/Audio/puzzelbox.bnk" memory="main" />
+		<soundstream name="Knife.mp3" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/Audio/Knife.mp3" memory="main" />
+		<soundstream name="Swipe.mp3" deferred_loading="false" protected="false" file="MiniGames/Poltergeist/Audio/Swipe.mp3" memory="main" />
+		<lua name="Item.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/Item.luac" memory="main" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/State_MainMenu.luac" memory="main" />
+		<lua name="State_PlaceItem.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/State_PlaceItem.luac" memory="main" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/Utility.luac" memory="main" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/MessageManager.luac" memory="main" />
+		<lua name="ItemManager.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/ItemManager.luac" memory="main" />
+		<lua name="PoltergeistCamera.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/PoltergeistCamera.luac" memory="main" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/State_Idle.luac" memory="main" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/Pad.luac" memory="main" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/StateMachine.luac" memory="main" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist/lua/MiniGame.luac" memory="main" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="arrow.mdl" deferred_loading="false" protected="false" file="Resources/arrow/arrow.mdl" />
+    <texture name="bustup.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/bustup.dds" />
+    <texture name="TutorialWindow.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/TutorialWindow.dds" />
+    <texture name="sp_02_00.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_00.dds" />
+    <texture name="sp_02_01.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_01.dds" />
+    <texture name="sp_02_02.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_02.dds" />
+    <texture name="sp_02_03.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_03.dds" />
+    <texture name="sp_02_04.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_04.dds" />
+    <texture name="sp_02_05.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_05.dds" />
+    <texture name="sp_02_06.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_06.dds" />
+    <texture name="sp_02_07.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_07.dds" />
+    <texture name="sp_02_08.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_08.dds" />
+    <texture name="sp_02_09.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_09.dds" />
+    <texture name="sp_02_10.dds" deferred_loading="false" protected="false" file="Resources/UI/Tutorial/sp_02_10.dds" />
+    <lua name="Setting.lua" deferred_loading="false" protected="true" file="embeddedobjects/tutorialmenusystem/file/setting.luac" />
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="embeddedobjects/tutorialmenusystem/lua/main.luac" />
+    <lua name="libGlobalSettingHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/globalsettinghelper.luac" />
+    <lua name="libUserDataTypes.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatatypes.luac" />
+    <lua name="libUserDataHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatahelper.luac" />
+    <lua name="libCmnMenuHelper.lua" deferred_loading="false" protected="true" file="lualibs/ui/cmnmenuhelper.luac" />
+    <lua name="libCrop.lua" deferred_loading="false" protected="true" file="lualibs/game/crop.luac" />
+    <lua name="DataTable.lua" deferred_loading="false" protected="true" file="embeddedobjects/tutorialmenusystem/lua/datatable.luac" />
+    <lua name="libAsyncExecutor.lua" deferred_loading="false" protected="true" file="lualibs/resource/asyncexecutor.luac" />
+    <lua name="libRewardsExecutor.lua" deferred_loading="false" protected="true" file="lualibs/resource/rewardsexecutor.luac" />
+    <lua name="TutorialSaveCtrl.lua" deferred_loading="false" protected="true" file="embeddedobjects/tutorialmenusystem/lua/tutorialsavectrl.luac" />
+    <lua name="TutorialMenu.lua" deferred_loading="false" protected="true" file="embeddedobjects/tutorialmenusystem/lua/tutorialmenu.luac" />
+    <lua name="libAnnounceHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/announcehelper.luac" />
+    <lua name="libMath.lua" deferred_loading="false" protected="true" file="lualibs/util/math.luac" />
+  </local>
+  <external />
+</resources>

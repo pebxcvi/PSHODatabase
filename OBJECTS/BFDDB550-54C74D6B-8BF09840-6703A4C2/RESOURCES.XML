@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="YC_Interior_FurnitureSet.mdl" deferred_loading="true" protected="false" file="games/common/environments/yacht_club/YC_Interior_FurnitureSet.mdl" memory="main" />
+    <model name="YC_Interior_FurnitureSet_02.mdl" deferred_loading="true" protected="false" file="games/common/environments/yacht_club/YC_Interior_FurnitureSet_02.mdl" />
+    <model name="barStool.mdl" deferred_loading="true" protected="false" file="games/common/props/barstool/barStool.mdl" />
+    <model name="YC_chandelier.mdl" deferred_loading="true" protected="false" file="games/common/props/chandelier/YC_chandelier.mdl" />
+    <model name="yc_wall_sconce.mdl" deferred_loading="true" protected="false" file="games/common/props/yc_wall_sconce/yc_wall_sconce.mdl" />
+    <model name="YC_tablelamp.mdl" deferred_loading="true" protected="false" file="games/common/props/yc_tablelamp/YC_tablelamp.mdl" />
+    <model name="YC_Bar_Area.mdl" deferred_loading="true" protected="false" file="games/common/environments/yacht_club/YC_Bar_Area.mdl" />
+    <model name="YC_kiosk_top.mdl" deferred_loading="true" protected="false" file="games/common/environments/yacht_club/YC_kiosk_top.mdl" />
+    <model name="sailboat.mdl" deferred_loading="true" protected="false" file="games/common/props/yc_sailboat/sailboat.mdl" />
+    <model name="YC_Exterior_hi.mdl" deferred_loading="false" protected="false" file="games/common/environments/yacht_club/YC_Exterior_hi.mdl" />
+    <model name="YC_railing.mdl" deferred_loading="true" protected="false" file="games/common/environments/yacht_club/YC_railing.mdl" />
+    <model name="Hostess.mdl" deferred_loading="false" protected="false" file="games/common/characters/hostess/Hostess.mdl" />
+    <model name="YC_LowPoly.mdl" deferred_loading="false" protected="false" file="games/common/environments/yacht_club/YC_LowPoly.mdl" />
+    <model name="drinkTray.mdl" deferred_loading="false" protected="false" file="games/common/props/drinktray/drinkTray.mdl" />
+    <texture name="hostess2_colormap.dds" deferred_loading="false" protected="false" file="games/common/characters/hostess/textures/hostess2_colormap.dds" />
+    <collision name="YC_kiosk_top.hkx" deferred_loading="false" protected="false" file="games/common/environments/yacht_club/YC_kiosk_top.hkx" />
+    <collision name="sailboat.hkx" deferred_loading="false" protected="false" file="games/common/props/yc_sailboat/sailboat.hkx" />
+    <collision name="Waitress_01.hkx" deferred_loading="false" protected="false" file="games/common/characters/hostess/Waitress_01.hkx" />
+    <collision name="cabana.hkx" deferred_loading="false" protected="false" file="games/common/props/cabana/cabana.hkx" />
+    <collision name="patioChair.hkx" deferred_loading="false" protected="false" file="games/common/props/patiochair/patioChair.hkx" />
+    <collision name="patioChairB.hkx" deferred_loading="false" protected="false" file="games/common/props/patiochairb/patioChairB.hkx" />
+    <collision name="patioSideTable.hkx" deferred_loading="false" protected="false" file="games/common/props/patiosidetable/patioSideTable.hkx" />
+    <collision name="patioTable.hkx" deferred_loading="false" protected="false" file="games/common/props/patiotable/patioTable.hkx" />
+    <collision name="loungeChair.hkx" deferred_loading="false" protected="false" file="games/common/props/loungechair/loungeChair.hkx" />
+    <collision name="loungeLoveseat.hkx" deferred_loading="false" protected="false" file="games/common/props/loungeloveseat/loungeLoveseat.hkx" />
+    <collision name="lowTable.hkx" deferred_loading="false" protected="false" file="games/common/props/lowtable/lowTable.hkx" />
+    <collision name="umbrella.hkx" deferred_loading="false" protected="false" file="games/common/props/umbrella/umbrella.hkx" />
+    <collision name="tall_lightposts.hkx" deferred_loading="false" protected="false" file="games/common/props/yc_light_posts/tall_lightposts.hkx" />
+    <collision name="yc_sign_exterior_01.hkx" deferred_loading="false" protected="false" file="games/common/props/yc_sign/yc_sign_exterior_01.hkx" memory="main" />
+    <anim name="Female_DiverIdle" deferred_loading="false" protected="false" file="animation/female/female_diverswim/Female_DiverIdle.ani" />
+    <anim name="Female_DiverSwim" deferred_loading="false" protected="false" file="animation/female/female_diverswim/Female_DiverSwim.ani" />
+    <anim name="Male_DiverIdle" deferred_loading="false" protected="false" file="animation/male/male_diverswim/Male_DiverIdle.ani" />
+    <anim name="Male_DiverSwim" deferred_loading="false" protected="false" file="animation/male/male_diverswim/Male_DiverSwim.ani" />
+    <anim name="Waitress1_Tray_IdleCycle.ani" deferred_loading="false" protected="false" file="games/common/characters/hostess/Waitress1_Tray_IdleCycle.ani" />
+    <anim name="Waitress1-Walk_Cycle.ani" deferred_loading="false" protected="false" file="games/common/characters/hostess/Waitress1-Walk_Cycle.ani" />
+    <skeleton name="Hostess.skn" deferred_loading="false" protected="false" file="games/common/characters/hostess/Hostess.skn" />
+    <soundbank name="IslandSounds.bnk" deferred_loading="false" protected="false" file="EmbeddedObjects/IslandManager_YC/audio/IslandSounds.bnk" />
+    <soundstream name="waves.mp3" deferred_loading="false" protected="false" file="EmbeddedObjects/IslandManager_YC/audio/waves.mp3" />
+    <soundstream name="BrazilSeashore.mp3" deferred_loading="false" protected="false" file="EmbeddedObjects/IslandManager_YC/audio/BrazilSeashore.mp3" />
+    <repertoire name="Female_Ocean_Repertoire" deferred_loading="false" protected="false" file="animation/Repertoires/Female_Ocean_Repertoire.xml" />
+    <repertoire name="Male_Ocean_Repertoire" deferred_loading="false" protected="false" file="animation/Repertoires/Male_Ocean_Repertoire.xml" />
+    <lua name="AssetManager.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/AssetManager.luac" memory="main" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="embeddedobjects/islandmanager_yc/lua/main.luac" memory="main" />
+    <lua name="EventManager.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/EventManager.luac" memory="main" />
+    <lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/ResourceManager.luac" memory="main" />
+    <lua name="Util.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/Util.luac" memory="main" />
+    <lua name="Core.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/Core.luac" memory="main" />
+    <lua name="Audio_Component.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/Audio_Component.luac" memory="main" />
+    <lua name="Misc.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/Misc.luac" memory="main" />
+    <lua name="IslandSound.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/IslandSound.luac" memory="main" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/StateMachine.luac" memory="main" />
+    <lua name="IslandSoundResources.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/IslandSoundResources.luac" memory="main" />
+    <lua name="SoundStateMachine.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/SoundStateMachine.luac" memory="main" />
+    <lua name="Helpers.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/Helpers.luac" memory="main" />
+    <lua name="Vector4_x.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/Vector4_x.luac" memory="main" />
+    <lua name="NodeGraph.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/NodeGraph_AI/NodeGraph.luac" memory="main" />
+    <lua name="NodeGraphAI.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/NodeGraph_AI/NodeGraphAI.luac" memory="main" />
+    <lua name="NodeGraphAIStates.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/NodeGraph_AI/NodeGraphAIStates.luac" memory="main" />
+    <lua name="NodeGraphAIWaypoints.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/NodeGraph_AI/NodeGraphAIWaypoints.luac" memory="main" />
+    <lua name="RayObject.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/NodeGraph_AI/RayObject.luac" memory="main" />
+    <lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator_ProjectDefined.luac" memory="main" />
+    <lua name="Communicator.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator.luac" memory="main" />
+    <lua name="Misc_LockPlayer.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/IslandManager_YC/lua/Library/Misc_LockPlayer.luac" memory="main" />
+  </local>
+  <external />
+</resources>

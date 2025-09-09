@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="WallEditorBackground.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/WallEditorBackground.dds" />
+		<texture name="ControllerInstruction.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/ControllerInstruction.dds" />
+		<texture name="TextureNameBackground.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/TextureNameBackground.dds" />
+		<texture name="ScrollBarBackground.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/ScrollBarBackground.dds" />
+		<texture name="ScrollBar.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/ScrollBar.dds" />
+		<texture name="TextureBackground.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/TextureBackground.dds" />
+		<texture name="YinYang.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/YinYang.dds" />
+		<texture name="BatWing.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/BatWing.dds" />
+		<texture name="Explosive.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Explosive.dds" />
+		<texture name="Happyface.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Happyface.dds" />
+		<texture name="Hippy-flower1.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Hippy-flower1.dds" />
+		<texture name="Hippy-flower2.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Hippy-flower2.dds" />
+		<texture name="HWY.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/HWY.dds" />
+		<texture name="Peace.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Peace.dds" />
+		<texture name="PoPo.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/PoPo.dds" />
+		<texture name="Radiation01.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Radiation01.dds" />
+		<texture name="Radiation02.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Radiation02.dds" />
+		<texture name="RememberRibbon.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/RememberRibbon.dds" />
+		<texture name="Skull.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/Skull.dds" />
+		<texture name="SkullBones.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/SkullBones.dds" />
+		<texture name="FlameFront.dds" deferred_loading="false" file="MiniGames/StickerWall/Textures/FlameFront.dds" />
+		<texture name="AngelWing.dds" deferred_loading="false" protected="" file="MiniGames/StickerWall/Textures/AngelWing.dds" />
+		<file name="osd_mainmenu" deferred_loading="false" file="MiniGames/StickerWall/OSD/mainmenu.xml" />
+		<file name="osd_rankingboardmenu" deferred_loading="false" file="MiniGames/StickerWall/OSD/rankingboardmenu.xml" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/StickerWall/OSD/types.xml" />
+		<file name="osd_legalagreement" deferred_loading="false" file="MiniGames/StickerWall/OSD/legalagreement.xml" />
+		<file name="osd_walleditormenu" deferred_loading="false" file="MiniGames/StickerWall/OSD/walleditormenu.xml" />
+		<file name="osd_instruction" deferred_loading="false" file="MiniGames/StickerWall/OSD/instruction.xml" />
+		<file name="osd_wallviewertips" deferred_loading="false" file="MiniGames/StickerWall/OSD/wallviewertips.xml" />
+		<file name="osd_namelist" deferred_loading="false" file="MiniGames/StickerWall/OSD/namelist.xml" />
+		<file name="osd_requesttips" deferred_loading="false" file="MiniGames/StickerWall/OSD/requesttips.xml" />
+		<lua name="Definition.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/Definition.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/Game.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/Controller.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/Util.lua" />
+		<lua name="OSD.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/OSD.lua" />
+		<lua name="GameStates.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/GameStates.lua" />
+		<lua name="Wall.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/Wall.lua" />
+		<lua name="UI.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/UI.lua" />
+		<lua name="WallEditor.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/WallEditor.lua" />
+		<lua name="WallViewer.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/WallViewer.lua" />
+		<lua name="RequestTips.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/RequestTips.lua" />
+		<lua name="StickerWall.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/StickerWall.lua" />
+		<lua name="UGCGallery.lua" deferred_loading="false" protected="true" file="MiniGames/StickerWall/UGCGallery.lua" />
+	</local>
+	<external />
+</resources>

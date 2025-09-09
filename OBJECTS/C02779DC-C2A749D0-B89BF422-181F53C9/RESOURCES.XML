@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_arrowG" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/Models/Darts_Arrow_Green.mdl" />
+		<model name="mdl_arrowR" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/Models/Darts_Arrow_Red.mdl" />
+		<model name="mdl_aim03" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/Models/Darts03.mdl" />
+		<texture name="tex_score01" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/score_01.dds" deferred_loading="false" />
+		<texture name="tex_score02" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/score_02.dds" deferred_loading="false" />
+		<texture name="tex_score03" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/score_03.dds" deferred_loading="false" />
+		<texture name="TVboard_perfect" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_perfect.dds" deferred_loading="false" />
+		<texture name="TVboard_bad" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_bad.dds" deferred_loading="false" />
+		<texture name="TVboard_bye" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_bye.dds" deferred_loading="false" />
+		<texture name="TVboard_default" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_default.dds" deferred_loading="false" />
+		<texture name="TVboard_good_01" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_good_01.dds" deferred_loading="false" />
+		<texture name="TVboard_good_02" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_good_02.dds" deferred_loading="false" />
+		<texture name="TVboard_gyouten" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_gyouten.dds" deferred_loading="false" />
+		<texture name="TVboard_Hello" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_Hello.dds" deferred_loading="false" />
+		<texture name="TVboard_nextime" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_nextime.dds" deferred_loading="false" />
+		<texture name="TVboard_noGood_01" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_noGood_01.dds" deferred_loading="false" />
+		<texture name="TVboard_noGood_02" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_noGood_02.dds" deferred_loading="false" />
+		<texture name="TVboard_noGood_03" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_noGood_03.dds" deferred_loading="false" />
+		<texture name="TVboard_noGood_04" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/textures/TVboard_noGood_04.dds" deferred_loading="false" />
+		<file name="osd_scorebar" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/scorebar.xml" />
+		<file name="osd_selectbar" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/selectbar.xml" />
+		<file name="osd_selectosd" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/selectosd.xml" />
+		<file name="osd_userbar" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/userbar.xml" />
+		<file name="osd_userosd" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/userosd.xml" />
+		<file name="osd_rankingbar" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/rankingbar.xml" />
+		<file name="osd_rankingosd" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/rankingosd.xml" />
+		<file name="osd_helpbar" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/helpbar.xml" />
+		<file name="osd_helposd" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/helposd.xml" />
+		<file name="osd_joinbar" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/joinbar.xml" />
+		<file name="osd_joinosd" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/joinosd.xml" />
+		<file name="osd_scoreosd" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/scoreosd.xml" />
+		<file name="osd_cricketscore" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/cricketscore.xml" deferred_loading="false" />
+		<file name="osd_triggerchip" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/triggerchip.xml" deferred_loading="false" />
+		<file name="osd_errorchip" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/errorchip.xml" deferred_loading="false" />
+		<file name="osd_description" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/description.xml" deferred_loading="false" />
+		<file name="osd_message" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/messageosd.xml" deferred_loading="false" />
+		<file name="osd_types" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/OSD/types.xml" />
+		<file name="xml_network" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/Network.xml" />
+		<file name="darts" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/darts.lua" deferred_loading="false" />
+		<file name="arrow" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/arrow.lua" deferred_loading="false" />
+		<file name="gameplay" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/gameplay.lua" deferred_loading="false" />
+		<file name="gameui" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/gameui.lua" deferred_loading="false" />
+		<file name="message" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/message.lua" deferred_loading="false" />
+		<file name="paHomeSound" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/paHomeSound.lua" deferred_loading="false" />
+		<file name="paHomeDebug" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/paHomeDebug.lua" deferred_loading="false" />
+		<file name="paHomeMatrix" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/paHomeMatrix.lua" deferred_loading="false" />
+		<soundbank name="sound_ip_en" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/sound/S9001.bnk" />
+		<soundbank name="sound_base" file="objects/c02779dc-c2a749d0-b89bf422-181f53c9/Darts/sound/S9002.bnk" />
+	</local>
+	<external />
+</resources>

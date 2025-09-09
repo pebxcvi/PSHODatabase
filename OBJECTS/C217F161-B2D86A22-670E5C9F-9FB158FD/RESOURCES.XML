@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="load_theater_dat.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_Theater/Shared_fn/load_theater_dat.lua" />
+		<lua name="timed_reward.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_Theater/TimedRewards/Scripts/timed_reward.lua" />
+		<lua name="savedataasync.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_Theater/Util/savedataasync.lua" />
+		<lua name="jsonutility.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_Theater/Util/jsonutility.lua" />
+	</local>
+	<external />
+</resources>

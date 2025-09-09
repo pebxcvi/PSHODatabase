@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_bird/models/birdCage.mdl" />
+		<model name="bird.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/bird.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_bird/models/birdCage.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_bird/models/birdCage.safevolume.hkx" />
+		<anim name="Bird_Branch1_CleaningSelf.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_Branch1_CleaningSelf.ani" />
+		<anim name="Bird_Branch2_CleaningSelf.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_Branch2_CleaningSelf.ani" />
+		<anim name="Bird_Branch_2_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_Branch_2_Idle.ani" />
+		<anim name="Bird_Feeding_Cycle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_Feeding_Cycle.ani" />
+		<anim name="Bird_Feeding_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_Feeding_Idle.ani" />
+		<anim name="Bird_Fly_Branch2_To_Branch1.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_Fly_Branch2_To_Branch1.ani" />
+		<anim name="Bird_Fly_FoodToBranch.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_Fly_FoodToBranch.ani" />
+		<anim name="Bird_FlyOut_Of_Cage.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_FlyOut_Of_Cage.ani" />
+		<anim name="Bird_FlyToBranch_2.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_FlyToBranch_2.ani" />
+		<anim name="Bird_FlyToFood.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_FlyToFood.ani" />
+		<anim name="Bird_PerchIdle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_PerchIdle.ani" />
+		<anim name="Bird_PerchLooking.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/anims/Bird_PerchLooking.ani" />
+		<skeleton name="bird.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/models/bird.skn" />
+		<soundbank name="bird.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_bird/sounds/bird.bnk" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_bird/programming/Animations.lua" />
+		<lua name="AnimationSequencer.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_bird/programming/AnimationSequencer.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_bird/programming/Main.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_bird/programming/Pet.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_bird/programming/StateMachine.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_bird/programming/Utility.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_bird/programming/SfxMgr.lua" />
+	</local>
+	<external />
+</resources>

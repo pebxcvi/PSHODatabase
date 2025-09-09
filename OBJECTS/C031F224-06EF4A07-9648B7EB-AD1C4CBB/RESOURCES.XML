@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="GarbageBagMdl" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garbagebag/GarbageBag.mdl" />
+		<model name="GarbageCubeMdl" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garbagecube/GarbageCube.mdl" />
+		<model name="GarbageChuteDoorMdl" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garagechutedoor/GarbageChuteDoor.mdl" />
+		<model name="GarbageChuteTopMdl" deferred_loading="false" protected="false" file="furniture/garbagechute/GarbageChuteTop.mdl" />
+		<file name="garbage.bank" deferred_loading="false" protected="false" file="MiniGames/Station_Toy3/Sound/garbage.bank" />
+		<collision name="GarbageBagCol" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garbagebag/GarbageBag.hkx" />
+		<collision name="GarbageCubeCol" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garbagecube/GarbageCube.hkx" />
+		<collision name="GarbageChuteTopCol" deferred_loading="false" protected="false" file="furniture/garbagechute/GarbageChuteTop.hkx" />
+		<collision name="GarbageChuteDoorCol" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garagechutedoor/GarbageChuteDoor.hkx" />
+		<anim name="GarbageChuteDoorAni" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garagechutedoor/GarbageChuteDoor.ani" />
+		<anim name="GarbageChuteDoorAni2" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garagechutedoor/GarbageChuteDoorUP.ani" />
+		<skeleton name="GarbageChuteDoorSkn" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/garagechutedoor/GarbageChuteDoor.skn" />
+		<soundbank name="stationSound" deferred_loading="false" protected="false" file="MiniGames/Station_Toy3/Sound/garbage.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Station_Toy3/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<collision name="swing_floor_01_close_collision.hkx" deferred_loading="false" file="environments/locohouse_test_001/swing_floor_01_close_collision.hkx" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="Scripts/common/mathx.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="Scripts/common/misc.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/Swing/main.lua" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="Scripts/common/padUtil.lua" />
+		<lua name="settingsSwing.lua" deferred_loading="false" protected="true" file="Settings/settingsSwing.lua" />
+		<lua name="listener.lua" deferred_loading="false" protected="true" file="environments/locohouse/script/listener_minimum.lua" />
+		<lua name="cmnDefinition.lua" deferred_loading="false" protected="true" file="environments/locohouse/script/cmnDefinition.lua" />
+	</local>
+	<external />
+</resources>

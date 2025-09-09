@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.86.0.17.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">GBBrislSi</author>
+		<object_version type="string">1.01</object_version>
+		<company type="string"></company>
+		<template type="string">arcade_game</template>
+		<template_version type="string">1.0.2</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">boot.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">*OnListenerReceivedData</on_listener_received_data>
+		<on_destroy type="string">*OnDestroy</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list">
+			<object type="bag">
+				<id type="string">BEFEDB6A-609747E8-9DE19E2B-2E8F0562</id>
+			</object>
+			<object type="bag">
+				<id type="string">8D1F1F41-06924EF0-B4C364C7-D33B52EE</id>
+			</object>
+			<object type="bag">
+				<id type="string">F14C0D58-A3934173-99C50269-84DCB78C</id>
+			</object>
+			<object type="bag">
+				<id type="string">268895E3-B88C4A45-A6CAE5BC-CB2DE1AA</id>
+			</object>
+		</senders>
+	</lua_environment>
+	<event_timer>
+		<name type="string"></name>
+		<command type="string">*OnUpdate</command>
+		<interval type="float">0</interval>
+	</event_timer>
+	<resource_pack>
+		<is_resource_pack type="bool">false</is_resource_pack>
+		<objects type="list">
+			<object type="bag">
+				<id type="string">033A859F-0A854A8F-BF1FF933-47CB29DF</id>
+			</object>
+		</objects>
+	</resource_pack>
+</objectdef>

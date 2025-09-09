@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="osd_Message" deferred_loading="false" file="MiniGames/Elevator/osd/Message.xml" />
+		<file name="osd_Navi" deferred_loading="false" file="MiniGames/Elevator/osd/Navi.xml" />
+		<file name="osd_MenuList" deferred_loading="false" file="MiniGames/Elevator/osd/MenuList.xml" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/Elevator/osd/types.xml" />
+		<lua name="lua_padUtil" deferred_loading="false" protected="true" file="MiniGames/Elevator/padUtil.lua" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/Elevator/main.lua" />
+	</local>
+	<external />
+</resources>

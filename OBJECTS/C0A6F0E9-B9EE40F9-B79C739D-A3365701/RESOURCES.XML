@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/overpowered/Aura_efx_R.mdl" memory="host" />
+		<model name="lod.mdl" deferred_loading="true" protected="false" file="Locomotion/overpowered/Aura_efx_lod_R.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/OverPowered/file/config.xml" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/OverPowered/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/OverPowered/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/OverPowered/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/OverPowered/anim/fidle.ani" memory="host" />
+		<anim name="M_Activate" deferred_loading="true" protected="false" file="Locomotion/overpowered/M_Activate.ani" memory="host" />
+		<anim name="M_Level01_Idle" deferred_loading="true" protected="false" file="Locomotion/overpowered/M_Level01_Idle.ani" memory="host" />
+		<anim name="M_Level01_Move" deferred_loading="true" protected="false" file="Locomotion/overpowered/M_Level01_Move.ani" memory="host" />
+		<anim name="Charging.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/Charging.ani" memory="host" />
+		<anim name="Level01.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/Level01.ani" memory="host" />
+		<anim name="Level02.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/Level02.ani" memory="host" />
+		<anim name="Uncharged.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/Uncharged.ani" memory="host" />
+		<anim name="M_Idle" deferred_loading="true" protected="false" file="Locomotion/overpowered/M_Idle.ani" memory="host" />
+		<anim name="M_Activate_Outro" deferred_loading="true" protected="false" file="Locomotion/overpowered/M_Activate_Outro.ani" memory="host" />
+		<anim name="M_Activate_lvl02" deferred_loading="true" protected="false" file="Locomotion/overpowered/M_Activate_lvl02.ani" memory="host" />
+		<anim name="F_Activate.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/F_Activate.ani" memory="host" />
+		<anim name="F_Activate_lvl02.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/F_Activate_lvl02.ani" memory="host" />
+		<anim name="F_Activate_Outro.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/F_Activate_Outro.ani" memory="host" />
+		<anim name="F_Level01_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/F_Level01_Idle.ani" memory="host" />
+		<anim name="F_Level01_Move.ani" deferred_loading="true" protected="false" file="Locomotion/overpowered/F_Level01_Move.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/overpowered/Aura_efx.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/OverPowered/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/OverPowered/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/OverPowered/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/OverPowered/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/OverPowered/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

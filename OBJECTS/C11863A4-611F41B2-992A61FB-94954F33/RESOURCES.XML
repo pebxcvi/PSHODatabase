@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Peakvox_Box.mdl" deferred_loading="false" protected="false" file="environmentanimations/peakvox_box/Peakvox_Box.mdl" memory="host" />
+    <texture name="help02.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help02.dds" memory="host" />
+    <texture name="help05.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help05.dds" memory="host" />
+    <texture name="help06.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help06.dds" memory="host" />
+    <texture name="help07.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help07.dds" memory="host" />
+    <texture name="help08.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help08.dds" memory="host" />
+    <texture name="help09.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help09.dds" memory="host" />
+    <texture name="help10.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help10.dds" memory="host" />
+    <texture name="help11.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help11.dds" memory="host" />
+    <texture name="help15.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help15.dds" memory="host" />
+    <texture name="help13.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help13.dds" memory="host" />
+    <texture name="help14.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help14.dds" memory="host" />
+    <texture name="help16.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help16.dds" memory="host" />
+    <texture name="help17.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help17.dds" memory="host" />
+    <texture name="help18.dds" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/texture/help18.dds" memory="host" />
+    <collision name="peakvox_box.hkx" deferred_loading="false" protected="false" file="environmentanimations/peakvox_box/peakvox_box.hkx" memory="host" />
+    <anim name="Peakvox_Box.ani" deferred_loading="false" protected="false" file="environmentanimations/peakvox_box/Peakvox_Box.ani" memory="host" />
+    <skeleton name="Peakvox_Box.skn" deferred_loading="false" protected="false" file="environmentanimations/peakvox_box/Peakvox_Box.skn" memory="host" />
+    <soundbank name="help.bnk" deferred_loading="false" protected="false" file="MiniGames/US_HelpObject/sound/help.bnk" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/us_helpobject/lua/minigame.luac" memory="host" />
+    <lua name="pad.lua" deferred_loading="false" protected="true" file="minigames/us_helpobject/lua/pad.luac" memory="host" />
+    <lua name="params.lua" deferred_loading="false" protected="true" file="minigames/us_helpobject/lua/params.luac" memory="host" />
+    <lua name="all.lua" deferred_loading="false" protected="true" file="environments/scenescript_us/all.luac" memory="host" />
+    <lua name="helpManager.lua" deferred_loading="false" protected="true" file="minigames/us_helpobject/lua/helpmanager.luac" memory="host" />
+    <lua name="HelpRender.lua" deferred_loading="false" protected="true" file="minigames/us_helpobject/lua/helprender.luac" memory="host" />
+    <lua name="uvData.lua" deferred_loading="false" protected="true" file="minigames/us_helpobject/lua/uvdata.luac" memory="host" />
+    <lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="minigames/us_helpobject/lua/cameramgr.luac" memory="host" />
+  </local>
+  <external />
+</resources>

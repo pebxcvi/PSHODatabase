@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bigship" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bigship.mdl" memory="main" />
+		<model name="liftership" deferred_loading="false" file="MiniGames/WO_Shooter/Models/liftership.mdl" memory="main" />
+		<model name="tanker" deferred_loading="false" file="MiniGames/WO_Shooter/Models/tanker.mdl" memory="main" />
+		<model name="sleekship" deferred_loading="false" file="MiniGames/WO_Shooter/Models/sleekship.mdl" memory="main" />
+		<model name="missile" deferred_loading="false" file="MiniGames/WO_Shooter/Models/missile.mdl" memory="main" />
+		<model name="rocket" deferred_loading="false" file="MiniGames/WO_Shooter/Models/rocket.mdl" memory="main" />
+		<model name="bosshead.mdl" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bosshead.mdl" memory="main" />
+		<model name="bossleftshoulder.mdl" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bossleftshoulder.mdl" memory="main" />
+		<model name="bossrightshoulder.mdl" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bossrightshoulder.mdl" memory="main" />
+		<model name="bosstorso.mdl" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bosstorso.mdl" memory="main" />
+		<texture name="HUD_texture_sheet.dds" deferred_loading="false" file="MiniGames/WO_Shooter/textures/HUD_texture_sheet_alpha.dds" memory="main" />
+		<texture name="dlc_robot_colours.dds" deferred_loading="false" protected="false" file="MiniGames/WO_Shooter/Models/textures/dlc_robot_colours.dds" memory="main" />
+		<texture name="dlc_robot_spec.dds" deferred_loading="false" protected="false" file="MiniGames/WO_Shooter/Models/textures/dlc_robot_spec.dds" memory="main" />
+		<particle name="firetrail" deferred_loading="false" file="MiniGames/WO_Shooter/particles/firetrail.efx" memory="main" />
+		<particle name="proton" deferred_loading="false" file="MiniGames/WO_Shooter/particles/proton.efx" memory="main" />
+		<particle name="fireball" deferred_loading="false" file="MiniGames/WO_Shooter/particles/fireball.efx" memory="main" />
+		<particle name="protonbeam" deferred_loading="false" file="MiniGames/WO_Shooter/particles/protonbeam.efx" memory="main" />
+		<particle name="burningboss" deferred_loading="false" file="MiniGames/WO_Shooter/particles/burningboss.efx" memory="main" />
+		<particle name="botexplosion" deferred_loading="false" protected="" file="MiniGames/WO_Shooter/particles/botexplosion.efx" memory="main" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/WO_Shooter/src/Network.xml" />
+		<anim name="bosshead.ani" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bosshead.ani" memory="main" />
+		<anim name="bossleftshoulder.ani" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bossleftshoulder.ani" memory="main" />
+		<anim name="bossrightshoulder.ani" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bossrightshoulder.ani" memory="main" />
+		<anim name="bosstorso.ani" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bosstorso.ani" memory="main" />
+		<skeleton name="bosshead.skn" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bosshead.skn" memory="main" />
+		<skeleton name="bossleftshoulder.skn" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bossleftshoulder.skn" memory="main" />
+		<skeleton name="bossrightshoulder.skn" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bossrightshoulder.skn" memory="main" />
+		<skeleton name="bosstorso.skn" deferred_loading="false" file="MiniGames/WO_Shooter/Models/bosstorso.skn" memory="main" />
+		<soundbank name="audiobankWPShooter" deferred_loading="false" file="MiniGames/WO_Shooter/Audio/HomeSpace.bnk" memory="main" />
+		<lua name="AnimatedSprite.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/AnimatedSprite.lua" memory="main" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Class.lua" memory="main" />
+		<lua name="Console.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Console.lua" memory="main" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Debugger.lua" memory="main" />
+		<lua name="OSDManager.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/OSDManager.lua" memory="main" />
+		<lua name="PadManager.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/PadManager.lua" memory="main" />
+		<lua name="Sound3D.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Sound3D.lua" memory="main" />
+		<lua name="Sprites.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Sprites.lua" memory="main" />
+		<lua name="WipEoutShooter.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/WipEoutShooter.lua" memory="main" />
+		<lua name="Wipeout_GUIManager.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_GUIManager.lua" memory="main" />
+		<lua name="Wipeout_Crosshair.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_Crosshair.lua" memory="main" />
+		<lua name="Wipeout_EnemyManager.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_EnemyManager.lua" memory="main" />
+		<lua name="Wipeout_Weapons.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_Weapons.lua" memory="main" />
+		<lua name="SyncedState.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/SyncedState.lua" memory="main" />
+		<lua name="Wipeout_Particles.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_Particles.lua" memory="main" />
+		<lua name="Wipeout_WaveManager.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_WaveManager.lua" memory="main" />
+		<lua name="Wipeout_StateManager.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_StateManager.lua" memory="main" />
+		<lua name="Wipeout_HighScores.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_HighScores.lua" memory="main" />
+		<lua name="Wipeout_Sound.lua" deferred_loading="false" protected="true" file="MiniGames/WO_Shooter/src/Wipeout_Sound.lua" memory="main" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="libs/util/PostScore.lua" />
+	</local>
+	<external />
+</resources>

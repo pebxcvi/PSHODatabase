@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Virus_02.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_02.mdl" memory="host" />
+		<model name="Virus_03.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_03.mdl" memory="host" />
+		<model name="item_01.mdl" deferred_loading="false" protected="false" file="furniture/board/item_01.mdl" memory="host" />
+		<model name="item_02.mdl" deferred_loading="false" protected="false" file="furniture/board/item_02.mdl" memory="host" />
+		<model name="item_03.mdl" deferred_loading="false" protected="false" file="furniture/board/item_03.mdl" memory="host" />
+		<model name="item_01_shell.mdl" deferred_loading="false" protected="false" file="furniture/board/item_01_shell.mdl" memory="host" />
+		<model name="Eff_Fire01.mdl" deferred_loading="false" protected="false" file="furniture/board/Eff_Fire01.mdl" memory="host" />
+		<model name="DNA_01a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_01a.mdl" memory="host" />
+		<model name="DNA_01b.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_01b.mdl" memory="host" />
+		<model name="DNA_02a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_02a.mdl" memory="host" />
+		<model name="DNA_02b.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_02b.mdl" memory="host" />
+		<model name="DNA_03a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_03a.mdl" memory="host" />
+		<model name="DNA_03b.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_03b.mdl" memory="host" />
+		<model name="DNA_Aura01a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_Aura01a.mdl" memory="host" />
+		<model name="DNA_Aura01b.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_Aura01b.mdl" memory="host" />
+		<model name="Eff_Bullet01.mdl" deferred_loading="false" protected="false" file="furniture/board/Eff_Bullet01.mdl" memory="host" />
+		<model name="horde_object.mdl" deferred_loading="false" protected="false" file="furniture/board/horde_object.mdl" memory="host" />
+		<model name="Virus_01.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_01.mdl" memory="host" />
+		<texture name="hud_00" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/Textures/hud_00.dds" memory="host" />
+		<texture name="hurryup" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/Textures/hurryup.dds" memory="host" />
+		<texture name="kev_score" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/Textures/kev_score.dds" memory="host" />
+		<texture name="t_man_0n" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/Textures/t_man_0n.dds" memory="host" />
+		<texture name="t_man_1s" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/Textures/t_man_1s.dds" memory="host" />
+		<texture name="t_man_2h" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/Textures/t_man_2h.dds" memory="host" />
+		<texture name="num00" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/Textures/num00.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/file/Network.xml" memory="host" />
+		<soundbank name="kevSound" deferred_loading="false" protected="false" file="MiniGames/Asia_escape_virus/sound/kevSound.bnk" memory="host" />
+		<lua name="gameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/gameMgr.lua" memory="host" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/seqMgr.lua" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/main.lua" memory="host" />
+		<lua name="camera.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/camera.lua" memory="host" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/pad.lua" memory="host" />
+		<lua name="entity.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/entity/entity.lua" memory="host" />
+		<lua name="dna.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/entity/dna.lua" memory="host" />
+		<lua name="virus.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/entity/virus.lua" memory="host" />
+		<lua name="playerDna.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/entity/playerDna.lua" memory="host" />
+		<lua name="params.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/params.lua" memory="host" />
+		<lua name="immunity.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/entity/immunity.lua" memory="host" />
+		<lua name="vaccine.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/entity/vaccine.lua" memory="host" />
+		<lua name="hud.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/hud.lua" memory="host" />
+		<lua name="bullet.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/entity/bullet.lua" memory="host" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript/all.lua" memory="host" />
+		<lua name="stageNormal.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/stage/stageNormal.lua" memory="host" />
+		<lua name="stageShooter.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/stage/stageShooter.lua" memory="host" />
+		<lua name="stageHorde.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/stage/stageHorde.lua" memory="host" />
+		<lua name="net.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/net.lua" memory="host" />
+		<lua name="uvData.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/uvData.lua" memory="host" />
+		<lua name="osdLayer.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_escape_virus/lua/osdLayer.lua" />
+	</local>
+	<external />
+</resources>

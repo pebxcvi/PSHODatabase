@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/models/CommMar_SpinTheBottle.mdl" />
+		<model name="CommMar_SpinTheBottle_bottle.mdl" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/models/CommMar_SpinTheBottle_bottle.mdl" />
+		<particle name="kiss.efx" deferred_loading="false" protected="false" file="activeItems/2011/commmar/commmar_spinthebottle/particles/kiss.efx" />
+		<particle name="kiss2.efx" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/particles/kiss2.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/2011/commmar/commmar_spinthebottle/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/models/CommMar_SpinTheBottle.hkx" />
+		<collision name="CommMar_SpinTheBottle_bottle.hkx" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/models/CommMar_SpinTheBottle_bottle.hkx" />
+		<collision name="CommMar_SpinTheBottle.safevolume.hkx" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/models/CommMar_SpinTheBottle.safevolume.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/models/CommMar_SpinTheBottle.safevolume.hkx" />
+		<anim name="SpinTheBottle_SitDown" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/male/SpinTheBottle_SitDown.ani" />
+		<anim name="SpinTheBottle_SittingIdle" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/male/SpinTheBottle_SittingIdle.ani" />
+		<anim name="SpinTheBottle_BlowKiss" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/male/SpinTheBottle_BlowKiss.ani" />
+		<anim name="SpinTheBottle_BlowKiss_v2" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/male/SpinTheBottle_BlowKiss_v2.ani" />
+		<anim name="SpinTheBottle_GetUp" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/male/SpinTheBottle_GetUp.ani" />
+		<anim name="SpinTheBottle_SitLookAround" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/male/SpinTheBottle_SitLookAround.ani" />
+		<anim name="SpinTheBottle_SitShoulderShrug" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/male/SpinTheBottle_SitShoulderShrug.ani" />
+		<anim name="SpinTheBottle_Female_SitDown" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/female/SpinTheBottle_Female_SitDown.ani" />
+		<anim name="SpinTheBottle_Female_SitLookAround" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/female/SpinTheBottle_Female_SitLookAround.ani" />
+		<anim name="SpinTheBottle_Female_SitShoulderShrug" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/female/SpinTheBottle_Female_SitShoulderShrug.ani" />
+		<anim name="SpinTheBottle_Female_SittingIdle" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/female/SpinTheBottle_Female_SittingIdle.ani" />
+		<anim name="SpinTheBottle_Female_BlowKiss" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/female/SpinTheBottle_Female_BlowKiss.ani" />
+		<anim name="SpinTheBottle_Female_BlowKiss_v2" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/female/SpinTheBottle_Female_BlowKiss_v2.ani" />
+		<anim name="SpinTheBottle_Female_GetUp" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/anims/female/SpinTheBottle_Female_GetUp.ani" />
+		<soundbank name="commmar_spinthebottle.bnk" deferred_loading="false" protected="false" file="activeitems/2011/commmar/commmar_spinthebottle/sounds/commmar_spinthebottle.bnk" memory="host" />
+		<repertoire name="maleRepertoire" deferred_loading="false" protected="false" file="objects/C11E4D77-1D154000-84946D56-D05923B8/repertoires/maleRepertoire.xml" />
+		<repertoire name="femaleRepertoire" deferred_loading="false" protected="false" file="objects/C11E4D77-1D154000-84946D56-D05923B8/repertoires/femaleRepertoires.xml" />
+		<lua name="spinthebottle.lua" deferred_loading="false" protected="true" file="ActiveItems/2011/commmar/commmar_spinthebottle/programming/spinthebottle.lua" />
+	</local>
+	<external />
+</resources>

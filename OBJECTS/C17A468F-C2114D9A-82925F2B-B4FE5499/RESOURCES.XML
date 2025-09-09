@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="hamburger_new.mdl" deferred_loading="true" protected="false" file="locomotion/hamburger_new.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Eating_Hamburger/file/config.xml" memory="host" />
+		<anim name="hamburger_run1.ani" deferred_loading="true" protected="false" file="animation/female/eating_hamburger/hamburger_run1.ani" memory="main" />
+		<anim name="food_burger_idle_export.ani" deferred_loading="true" protected="false" file="animation/male/food_burger/food_burger_idle_export.ani" memory="host" />
+		<anim name="food_burger_emote_export.ani" deferred_loading="true" protected="false" file="animation/male/food_burger/food_burger_emote_export.ani" memory="host" />
+		<anim name="food_burger_run.ani" deferred_loading="true" protected="false" file="animation/male/food_burger/food_burger_run.ani" memory="host" />
+		<anim name="food_burger_idle_export.ani_1" deferred_loading="true" protected="false" file="animation/female/food_burger/food_burger_idle_export.ani" memory="host" />
+		<anim name="food_burger_emote_export.ani_1" deferred_loading="true" protected="false" file="animation/female/food_burger/food_burger_emote_export.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Eating_Hamburger/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Eating_Hamburger/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Eating_Hamburger/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Eating_Hamburger/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Eating_Hamburger/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
