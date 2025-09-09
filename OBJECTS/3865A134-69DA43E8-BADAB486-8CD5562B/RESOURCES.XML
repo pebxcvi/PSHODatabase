@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/base.mdl" memory="host" />
+		<model name="base_lod.mdl" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/base_lod.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Electric_Teleport_Red/file/config.xml" memory="host" />
+		<anim name="MaleWalk.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/MaleWalk.ani" memory="host" />
+		<anim name="MaleRun.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/MaleRun.ani" memory="host" />
+		<anim name="MaleSprint.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/MaleSprint.ani" memory="host" />
+		<anim name="boostloop01.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/boostloop01.ani" memory="host" />
+		<anim name="boostoutro01.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/boostoutro01.ani" memory="host" />
+		<anim name="boosthidden.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/BoostHidden.ani" memory="host" />
+		<anim name="boostintro01.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/boostintro_01.ani" memory="host" />
+		<anim name="BoostAura.ani" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/BoostAura.ani" memory="host" />
+		<anim name="MaleIdle" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/MaleIdle.ani" memory="host" />
+		<anim name="FemaleWalk" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/FemaleWalk.ani" memory="host" />
+		<anim name="FemaleRun" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/FemaleRun.ani" memory="host" />
+		<anim name="FemaleIdle" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/FemaleIdle.ani" memory="host" />
+		<anim name="FemaleSprint" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/FemaleSprint.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="false" protected="false" file="Locomotion/Electric_Teleport_Red/base.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/Electric_Teleport_Red/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/Electric_Teleport_Red/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Electric_Teleport_Red/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Electric_Teleport_Red/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

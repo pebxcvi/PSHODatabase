@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="pipe.mdl" deferred_loading="false" file="MiniGames/PollingBooth/models/pipe.mdl" />
+		<model name="pollingbooth_working.mdl" deferred_loading="false" file="MiniGames/PollingBooth/models/pollingbooth_working.mdl" />
+		<texture name="triangle.dds" deferred_loading="false" file="MiniGames/PollingBooth/Textures/triangle.dds" />
+		<texture name="circle.dds" deferred_loading="false" file="MiniGames/PollingBooth/Textures/circle.dds" />
+		<texture name="cross.dds" deferred_loading="false" file="MiniGames/PollingBooth/Textures/cross.dds" />
+		<texture name="square.dds" deferred_loading="false" file="MiniGames/PollingBooth/Textures/square.dds" />
+		<particle name="water_fountain2.efx" deferred_loading="false" file="ATGParticles/water_fountain2.efx" />
+		<particle name="light1.efx" deferred_loading="false" file="ATGParticles/light1.efx" />
+		<particle name="light2.efx" deferred_loading="false" file="ATGParticles/light2.efx" />
+		<particle name="light4.efx" deferred_loading="false" file="ATGParticles/light4.efx" />
+		<particle name="light3.efx" deferred_loading="false" file="ATGParticles/light3.efx" />
+		<collision name="pipe.hkx" deferred_loading="false" file="MiniGames/PollingBooth/models/pipe.hkx" />
+		<collision name="pollingbooth_working.hkx" deferred_loading="false" file="MiniGames/PollingBooth/models/pollingbooth_working.hkx" />
+		<soundbank name="pollingbooth.bnk" deferred_loading="false" file="MiniGames/PollingBooth/Sounds/pollingbooth.bnk" memory="host" />
+		<lua name="PollingBooth.lua" deferred_loading="false" protected="true" file="MiniGames/PollingBooth/PollingBooth.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Class.lua" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Debugger.lua" />
+		<lua name="PadManager.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/PadManager.lua" />
+		<lua name="Fountain.lua" deferred_loading="false" protected="true" file="MiniGames/PollingBooth/Fountain.lua" />
+		<lua name="PollTracker.lua" deferred_loading="false" protected="true" file="MiniGames/PollingBooth/PollTracker.lua" />
+		<lua name="PollServer.lua" deferred_loading="false" protected="true" file="MiniGames/PollingBooth/PollServer.lua" />
+		<lua name="Sprites.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Sprites.lua" />
+	</local>
+	<external />
+</resources>

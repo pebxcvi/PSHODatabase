@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="KartBodyModel1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/concept_body.mdl" />
+		<model name="KartBodyModel2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/exotic_body.mdl" />
+		<model name="KartBodyModel3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/muscle_body.mdl" />
+		<model name="KartBodyModel4" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/off_road_body.mdl" />
+		<model name="KartBodyModel5" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/race_body.mdl" />
+		<model name="KartBodyModel6" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/silly_body.mdl" />
+		<model name="KartBodyModel7" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/vintage_body.mdl" />
+		<model name="KartBodyModel8" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/tuner_body.mdl" />
+		<model name="KartTireModel2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartTire/type_02.mdl" />
+		<model name="KartSeatModel1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartSeat/seats1_01.mdl" />
+		<model name="KartSeatModel2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartSeat/seats2_01.mdl" />
+		<model name="KartSeatModel3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartSeat/seats3_01.mdl" />
+		<model name="KartTopModel1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartTop/bigsuspension1_01.mdl" />
+		<model name="KartTopModel2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartTop/bigsuspension2_01.mdl" />
+		<model name="KartTopModel3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartTop/bigsuspension3_01.mdl" />
+		<model name="KartBackModel1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBack/spoilers1.mdl" />
+		<model name="KartBackModel2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBack/spoilers2.mdl" />
+		<model name="KartBackModel3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBack/spoilers3.mdl" />
+		<model name="KartFrontModel1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartFront/steering_wheel1_01.mdl" />
+		<model name="KartFrontModel2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartFront/steering_wheel2_01.mdl" />
+		<model name="KartFrontModel3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartFront/steering_wheel3_01.mdl" />
+		<model name="KartTireModel1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartTire/tyre_01.mdl" />
+		<model name="KartTireModel3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartTire/tyre_03.mdl" />
+		<model name="batwing.mdl" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartWeapon/batwing.mdl" />
+		<model name="SawCircleMdl" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartWeapon/sawcircle.mdl" />
+		<model name="SawRodMdl" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartWeapon/sawrod.mdl" />
+		<model name="spring.mdl" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartWeapon/spring.mdl" />
+		<model name="GatePieceModel1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_01.mdl" />
+		<model name="GatePieceModel2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_02.mdl" />
+		<model name="GatePieceModel3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_03.mdl" />
+		<model name="GatePieceModel4" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_04.mdl" />
+		<model name="npc_01_car.mdl" deferred_loading="false" file="environments/ModNation/Animation/npc_01/npc_01_car.mdl" />
+		<model name="npc_02_car.mdl" deferred_loading="false" file="environments/ModNation/Animation/npc_02/npc_02_car.mdl" />
+		<model name="HurdleModel" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Models/startline/zhalan.mdl" />
+		<model name="angelwing.mdl" deferred_loading="false" protected="" file="MiniGames/RacingGame_Prototype3/Models/KartWeapon/anglewing.mdl" />
+		<texture name="TotalScoreBackground.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/TotalScoreBackground.dds" />
+		<texture name="SignPlus.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/SignPlus.dds" />
+		<texture name="SignMinus.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/SignMinus.dds" />
+		<texture name="BlurEffectTexture" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/texture/blureffect.dds" />
+		<texture name="TimeLapBackground.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/TimeLapBackground.dds" />
+		<texture name="WeaponEnergyBackgroundPerson.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/WeaponEnergyBackgroundPerson.dds" />
+		<texture name="WeaponEnergyCoolDownStripe.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/WeaponEnergyCoolDownStripe.dds" />
+		<texture name="CustomizationBackground.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationBackground.dds" />
+		<texture name="CustomizationScrollBar.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationScrollBar.dds" />
+		<texture name="CustomizationScrollBarBackground.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationScrollBarBackground.dds" />
+		<texture name="CustomizationTagBody.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationTagBody.dds" />
+		<texture name="CustomizationTagSeat.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationTagSeat.dds" />
+		<texture name="CustomizationTagSpoiler.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationTagSpoiler.dds" />
+		<texture name="CustomizationTagSteering.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationTagSteering.dds" />
+		<texture name="CustomizationTagSuspension.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationTagSuspension.dds" />
+		<texture name="CustomizationRDirection.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationRDirection.dds" />
+		<texture name="CustomizationL1.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationL1.dds" />
+		<texture name="CustomizationLDirection.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationLDirection.dds" />
+		<texture name="CustomizationR1.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationR1.dds" />
+		<texture name="WelcomeFrame.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/WelcomeFrame.dds" />
+		<texture name="WelcomeFrameLeft.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/WelcomeFrameLeft.dds" />
+		<texture name="WelcomeFrameRight.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/WelcomeFrameRight.dds" />
+		<texture name="SandOnCameraTexture" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/texture/sandOnCamera.dds" />
+		<texture name="UISceneBackground.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/UISceneBackground.dds" />
+		<texture name="SymbolO.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/SymbolO.dds" />
+		<texture name="Bonus0.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus0.dds" />
+		<texture name="Bonus1.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus1.dds" />
+		<texture name="Bonus2.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus2.dds" />
+		<texture name="Bonus3.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus3.dds" />
+		<texture name="Bonus4.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus4.dds" />
+		<texture name="Bonus5.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus5.dds" />
+		<texture name="Bonus6.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus6.dds" />
+		<texture name="Bonus7.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus7.dds" />
+		<texture name="Bonus8.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus8.dds" />
+		<texture name="Bonus9.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/Bonus9.dds" />
+		<texture name="BonusBackground.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/BonusBackground.dds" />
+		<texture name="SymbolX.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/SymbolX.dds" />
+		<texture name="CustomizationTagTire.dds" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Textures/CustomizationTagTire.dds" />
+		<texture name="SpeedometerPointer.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/SpeedometerPointer.dds" />
+		<texture name="SpeedometerBackground.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/SpeedometerBackground.dds" />
+		<texture name="TrackTipCircleNormal.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/TrackTipCircleNormal.dds" />
+		<texture name="TrackTipCirclePressed.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/TrackTipCirclePressed.dds" />
+		<texture name="TrackTipCrossNormal.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/TrackTipCrossNormal.dds" />
+		<texture name="TrackTipCrossPressed.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/TrackTipCrossPressed.dds" />
+		<texture name="TrackTipSquareNormal.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/TrackTipSquareNormal.dds" />
+		<texture name="TrackTipSquarePressed.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/TrackTipSquarePressed.dds" />
+		<texture name="WelcomeFrameCar.dds" deferred_loading="false" protected="" file="MiniGames/RacingGame_Prototype3/Textures/WelcomeFrameCar.dds" />
+		<texture name="WeaponSaw.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/WeaponSaw.dds" />
+		<texture name="WeaponSpring.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/WeaponSpring.dds" />
+		<texture name="WeaponWings.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/WeaponWings.dds" />
+		<texture name="WeaponEnergyBackgroundBomb.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/WeaponEnergyBackgroundBomb.dds" />
+		<texture name="SpotlightMask" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/SpotlightMask.dds" />
+		<texture name="Number9.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number9.dds" />
+		<texture name="Number8.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number8.dds" />
+		<texture name="Number7.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number7.dds" />
+		<texture name="Number6.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number6.dds" />
+		<texture name="Number5.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number5.dds" />
+		<texture name="Number4.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number4.dds" />
+		<texture name="Number3.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number3.dds" />
+		<texture name="Number2.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number2.dds" />
+		<texture name="Number1.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number1.dds" />
+		<texture name="Number0.dds" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/Textures/Number0.dds" />
+		<particle name="LandingWaveParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/landingWave.efx" />
+		<particle name="LandingDustParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/landingSmoke.efx" />
+		<particle name="WaterOnCameraParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/waterOnCamera.efx" />
+		<particle name="BlurOnCameraParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/blureffect.efx" />
+		<particle name="DirtOnCameraParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/dirtOnCamera.efx" />
+		<particle name="SnowOnCameraParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/snowOnCamera.efx" />
+		<particle name="SnowParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/snowWeather.efx" />
+		<particle name="LandingAccessoryParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/landingAccessory.efx" />
+		<particle name="SnowUnderTyreParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/snowUnderTyre.efx" />
+		<particle name="SnowUnderTyreParticle_End" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/snowUnderTyre_End.efx" />
+		<particle name="WaterFlankCarParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/waterFlankCar.efx" />
+		<particle name="WaterUnderTyreParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/waterUnderTyre.efx" />
+		<particle name="DustParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/dustWeather.efx" />
+		<particle name="DustUnderTyreParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/dustUnderTyre.efx" />
+		<particle name="DirtUnderTyreParticle" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/SFX/dirtUnderTyre.efx" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/OSD/types.xml" />
+		<file name="osd_reportscore" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/OSD/reportScore.xml" />
+		<file name="osd_requesttips" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/OSD/requesttips.xml" />
+		<file name="osd_customizekarttips" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/OSD/customizekarttips.xml" />
+		<file name="osd_welcometextpanel" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/OSD/welcometextpanel.xml" />
+		<file name="osd_instruction" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/OSD/instruction.xml" />
+		<file name="osd_rewardmenu" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/OSD/rewardmenu.xml" />
+		<file name="osd_welcomepagetips" deferred_loading="false" protected="false" file="MiniGames/RacingGame_Prototype3/OSD/welcomepagetips.xml" />
+		<collision name="KartBodyCollision1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/concept_body.hkx" />
+		<collision name="KartBodyCollision2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/exotic_body.hkx" />
+		<collision name="KartBodyCollision3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/muscle_body.hkx" />
+		<collision name="KartBodyCollision4" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/off_road_body.hkx" />
+		<collision name="KartBodyCollision5" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/race_body.hkx" />
+		<collision name="KartBodyCollision6" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/silly_body.hkx" />
+		<collision name="KartBodyCollision7" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/vintage_body.hkx" />
+		<collision name="KartBodyCollision8" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/KartBody/tuner_body.hkx" />
+		<collision name="GateCollision" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door.hkx" />
+		<collision name="GatePieceCollision1" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_01.hkx" />
+		<collision name="GatePieceCollision2" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_02.hkx" />
+		<collision name="GatePieceCollision3" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_03.hkx" />
+		<collision name="GatePieceCollision4" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Models/Gate/door_04.hkx" />
+		<anim name="npc_01_car.ani" deferred_loading="false" file="environments/ModNation/Animation/npc_01/npc_01_car.ani" />
+		<anim name="npc_02_car.ani" deferred_loading="false" file="environments/ModNation/Animation/npc_02/npc_02_car.ani" />
+		<skeleton name="npc_01_car.skn" deferred_loading="false" file="environments/ModNation/Animation/npc_01/npc_01_car.skn" />
+		<skeleton name="npc_02_car.skn" deferred_loading="false" file="environments/ModNation/Animation/npc_02/npc_02_car.skn" />
+		<soundbank name="KartSoundBnk" deferred_loading="false" file="MiniGames/RacingGame_Prototype3/Sound/kart.bnk" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/Main.lua" />
+		<lua name="RTrack.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RTrack.lua" />
+		<lua name="RCamera.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RCamera.lua" />
+		<lua name="RGame.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RGame.lua" />
+		<lua name="RKart.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RKart.lua" />
+		<lua name="RPad.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RPad.lua" />
+		<lua name="RControlPoints.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RControlPoints.lua" />
+		<lua name="GameStates.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/GameStates.lua" />
+		<lua name="Definitions.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/Definitions.lua" />
+		<lua name="OSD.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/OSD.lua" />
+		<lua name="RequestTips.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RequestTips.lua" />
+		<lua name="Hud.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/Hud.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/Util.lua" />
+		<lua name="GameData.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/GameData.lua" />
+		<lua name="Weapon.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/Weapon.lua" />
+		<lua name="UI.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/UI.lua" />
+		<lua name="CustomizeKart.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/CustomizeKart.lua" />
+		<lua name="EffectState.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/EffectState.lua" />
+		<lua name="TrackObject.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/TrackObject.lua" />
+		<lua name="Welcome.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/Welcome.lua" />
+		<lua name="SceneBackground.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/SceneBackground.lua" />
+		<lua name="RGate.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RGate.lua" />
+		<lua name="RRock.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RRock.lua" />
+		<lua name="RSound.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RSound.lua" />
+		<lua name="RStaringHurdle.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RStaringHurdle.lua" />
+		<lua name="RRewards.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/RRewards.lua" />
+		<lua name="CountdownTimer.lua" deferred_loading="false" protected="true" file="MiniGames/RacingGame_Prototype3/CountdownTimer.lua" />
+	</local>
+	<external />
+</resources>

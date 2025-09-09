@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="top_on_model" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/elf_button_top_light_on.mdl" />
+		<model name="base_off_model" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/elf_button_base_light_off.mdl" />
+		<model name="base_on_model" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/elf_button_base_light_on.mdl" />
+		<model name="top_off_model" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/xmas_event_2009/elf_button_top_light_off.mdl" />
+		<texture name="countdown_anim9" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim9.dds" />
+		<texture name="countdown_anim1" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim1.dds" />
+		<texture name="countdown_anim2" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim2.dds" />
+		<texture name="countdown_anim3" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim3.dds" />
+		<texture name="countdown_anim4" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim4.dds" />
+		<texture name="countdown_anim5" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim5.dds" />
+		<texture name="countdown_anim6" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim6.dds" />
+		<texture name="countdown_anim7" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim7.dds" />
+		<texture name="countdown_anim8" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim8.dds" />
+		<particle name="location_pfx" deferred_loading="false" file="ATGParticles/generic/efx/UI_EFFECT_0003.efx" />
+		<particle name="particle_complete" deferred_loading="false" file="ATGParticles/generic/efx/xmas_3buttons_effect.efx" />
+		<particle name="particle" deferred_loading="false" file="ATGParticles/generic/efx/xmas_button_press_effect.efx" />
+		<soundbank name="soundbank" deferred_loading="false" file="MiniGames/SantasQuests/sounds/power_point.bnk" />
+		<lua name="script" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/ElectricianQuest.lua" />
+		<lua name="xmasshared.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasshared.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+		<lua name="cutscene.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/cutscene.lua" />
+	</local>
+	<external />
+</resources>

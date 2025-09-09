@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="DragonFlyModel" file="MiniGames/DragonFlySystem/dragonfly_model.mdl" />
+		<texture name="DragonFlyMap" file="MiniGames/DragonFlySystem/dragonflymap.dds" />
+		<file name="Tweener" file="MiniGames/Lua_fn_libs/tweener.lua" />
+		<file name="DragonFlySystemMain" file="MiniGames/DragonFlySystem/dragon_fly_system.lua" />
+		<file name="General_Fn_Lib.Lua" file="MiniGames/Lua_fn_libs/General_Fn_Lib.Lua" deferred_loading="false" />
+		<soundbank name="DragonFlySounds.bnk" file="MiniGames/DragonFlySystem/DragonFlySounds.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

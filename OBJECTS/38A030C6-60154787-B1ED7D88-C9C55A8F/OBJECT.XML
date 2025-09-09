@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">SF4_Game_Launching_Object</name>
+		<description type="string" />
+		<author type="string">Capcom Co., Ltd</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Capcom Co., Ltd</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<game_launch>
+		<communication_id type="string">NPWR00434_00</communication_id>
+		<on_session_setup type="string">OnSessionSetupDummy()</on_session_setup>
+		<on_request_full_refresh type="string">OnRequestFullRefresh()</on_request_full_refresh>
+		<on_add_player type="string">OnAddPlayer()</on_add_player>
+		<on_remove_player type="string">OnRemovePlayer()</on_remove_player>
+		<on_export_session_file type="string">OnExportSessionFile()</on_export_session_file>
+		<on_session_master_changed type="string" />
+		<show_ui type="string">ShowUI()</show_ui>
+		<menu_options_xml type="string">GAMELAUNCHOPTIONS.XML</menu_options_xml>
+		<auto_export_session_file type="bool">true</auto_export_session_file>
+	</game_launch>
+</objectdef>

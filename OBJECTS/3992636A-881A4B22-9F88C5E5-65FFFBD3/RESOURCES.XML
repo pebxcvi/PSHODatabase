@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/model/Companion_Soldier.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/model/Companion_Soldier_low.mdl" memory="host" />
+		<particle name="pfx.smoke" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/particle/smoke.efx" memory="host" />
+		<particle name="pfx.fly" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/particle/fly.efx" memory="host" />
+		<particle name="pfx.trails" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/particle/trails.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/walk.ani" memory="host" />
+		<anim name="ani.flap" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/an_flap.ani" memory="host" />
+		<anim name="ani.sat" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/an_sat.ani" memory="host" />
+		<anim name="ani.land" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/an_land.ani" memory="host" />
+		<anim name="ani.twist" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/an_twist.ani" memory="host" />
+		<anim name="ani.fly" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/an_fly.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/run.ani" memory="host" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/Soldier_PushUps.ani" memory="host" />
+		<anim name="ani.idle3" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/Soldier_Signature.ani" memory="host" />
+		<anim name="ani.idle4" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/anim/Soldier_Aha.ani" memory="main" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/skeleton/Companion_Soldier.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/Soldier/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Soldier/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="true" file="companion_follower/Pet_2012Apl_tanaka/model/Model.mdl" memory="host" />
+		<model name="model_remote" deferred_loading="true" file="companion_follower/Pet_2012Apl_tanaka/model/Model_remote.mdl" memory="host" />
+		
+		<!--<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/Pet_2012Apl_tanaka/file/configuration.xml" />-->
+		<file name="config.xml" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="walk" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/anim/walk.ani" memory="host" />
+		<anim name="idle3" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/anim/idle3.ani" memory="host" />
+		<anim name="idle1" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/anim/idle1.ani" memory="host" />
+		<anim name="idle2" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/anim/idle2.ani" memory="host" />
+		<anim name="run" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/anim/run.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companion_follower/Pet_2012Apl_tanaka/skeleton/skeleton.skn" memory="host" />
+		<!--<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/Pet_2012Apl_tanaka/lua/scriptremote.luac" memory="main" id="217002282" />-->
+		<!--<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/Pet_2012Apl_tanaka/lua/script.luac" memory="main" id="2428944273" />-->
+		<!--<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/Pet_2012Apl_tanaka/lua/xml.luac" memory="main" id="146193299" />-->
+		<!--<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/Pet_2012Apl_tanaka/lua/scriptlocal.luac" memory="main" id="336017207" />-->
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="companion_follower/Pet_2012Apl_tanaka/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

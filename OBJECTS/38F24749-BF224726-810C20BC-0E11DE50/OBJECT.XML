@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.80.0.53.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">WLim</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Konami Digital Entertainment, Inc.</company>
+		<template type="string">companion_follower_2</template>
+		<template_version type="string">1.8.0</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">lua.boot</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string"></on_listener_received_data>
+		<on_destroy type="string"></on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<targetable>
+		<interactive type="bool">false</interactive>
+		<on_activated type="string"></on_activated>
+		<on_targeted type="string"></on_targeted>
+		<is_targetable_by_remote_people type="bool">false</is_targetable_by_remote_people>
+		<trigger_radius type="float">-1</trigger_radius>
+		<can_be_targeted_while_seated type="bool">true</can_be_targeted_while_seated>
+	</targetable>
+	<entity />
+	<particles />
+	<network>
+		<definition type="string"></definition>
+		<on_bag_created type="string"></on_bag_created>
+		<on_bag_deleted type="string"></on_bag_deleted>
+		<on_message_received type="string">*OnMessageReceived</on_message_received>
+		<auto_replicate type="bool">true</auto_replicate>
+	</network>
+	<screen />
+	<pad />
+	<renderer />
+	<camera />
+	<system />
+	<light />
+	<portable>
+		<on_update type="string">*OnUpdate</on_update>
+	</portable>
+	<text_label />
+	<resource_pack>
+		<is_resource_pack type="bool">false</is_resource_pack>
+		<objects type="list">
+			<object type="bag">
+				<id type="string">63BD3272-06D64BD4-894DA8A0-589FA54B</id>
+			</object>
+		</objects>
+	</resource_pack>
+</objectdef>

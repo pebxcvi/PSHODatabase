@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.55.0.155.BETA2" version="1.0">
+  <version>1.0</version>
+  <uuid>376F1616-D7784F91-AC937178-F9E86626</uuid>
+  <name lang="fr-FR" default="false">Le resto de Silent Hill Downpour</name>
+  <name lang="de-DE" default="false">Silent Hill Downpour Restaurant</name>
+  <name lang="it-IT" default="false">Silent Hill Downpour Diner</name>
+  <name lang="es-ES" default="false">Cafetería de Silent Hill Downpour</name>
+  <name lang="en-US" default="true">Silent Hill: Downpour Diner</name>
+  <description lang="fr-FR" default="false">Ce restaurant est abandonné depuis... on ne sait plus vraiment quand. Cependant, je devrais jeter un coup d'œil pour trouver quelques réponses comme par exemple sur l'endroit où je me trouve. [#Legal]</description>
+  <description lang="de-DE" default="false">Dieses Restaurant ist verlassen... wer weiß, wie lange schon. Trotzdem, es besteht die Möglichkeit, dass ich hier ein paar Antworten darüber finden, wo ich bin, wenn ich mich umsehe. [#Legal]</description>
+  <description lang="it-IT" default="false">Questa  trattoria è stata abbandonata... per chissà quanto tempo.  Eppure, se mi guardo intorno, ci sono delle possibilità di ottenere delle risposte, come sapere dove mi trovo. [#Legal]</description>
+  <description lang="es-ES" default="false">Esta cafetería está abandonada desde hace... quién sabe cuánto tiempo. Todavía tengo la esperanza de obtener respuestas, puedo saber donde estoy si miro a mi alrededor. [#Legal]</description>
+  <description lang="en-US" default="true">This diner has been abandoned for… who knows how long. Still, there's a chance I'll get a few answers as to where I am if I look around. [#Legal]</description>
+  <maker lang="en-US" default="true">Konami</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">SilentHill_Diner_Apt_74B4_93D4</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">EP0101-NPER00034_00-000283</entitlement_id>
+    <entitlement_id territory="SCEA">UP0101-NPUR30230_00-000308</entitlement_id>
+    <category_id territory="SCEE">EP0101-NPER00034_00</category_id>
+    <category_id territory="SCEA">UP0101-NPUR30230_00</category_id>
+    <product_id territory="SCEE">EP0101-NPER00034_00-SILENTHILL000283</product_id>
+    <product_id territory="SCEA">UP0101-NPUR30230_00-KDESHDINERAPT001</product_id>
+  </entitlements>
+  <legal>
+    <age_rating rating_system="PEGI" rating="18+" minimum_age="18" parental_control_level="9" />
+    <age_rating rating_system="ESRB" rating="M" minimum_age="17" parental_control_level="9" />
+  </legal>
+  <timestamp>A463FE45</timestamp>
+</odc>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/model/BaldEagle_Rig.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/model/BaldEagle_Rig_LOD2.mdl" memory="host" />
+		<particle name="pfx.smoke" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/particle/smoke.efx" memory="host" />
+		<particle name="pfx.fly" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/particle/fly.efx" memory="host" />
+		<particle name="pfx.trails" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/particle/trails.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_idle01.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_walk.ani" memory="host" />
+		<anim name="ani.flap" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_flight.ani" memory="host" />
+		<anim name="ani.sat" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/an_sat.ani" memory="host" />
+		<anim name="ani.land" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_land.ani" memory="host" />
+		<anim name="ani.twist" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/an_twist.ani" memory="host" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_Idle03.ani" memory="host" />
+		<anim name="ani.fly" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_hover.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_run.ani" memory="host" />
+		<anim name="ani.shakefists" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/shakefists.ani" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/anim/BaldEagle_Idle02.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/skeleton/BaldEagle_Rig.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/BaldEagle/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/BaldEagle/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>
