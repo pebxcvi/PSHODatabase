@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="XmlElement.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_fn_lib/XmlElement.lua" />
+		<lua name="DestinationsCentralDispatch.lua" deferred_loading="false" protected="true" file="MiniGames/Destinations/CentralDispatch/DestinationsCentralDispatch.lua" />
+		<lua name="CentralDispatchManager.lua" deferred_loading="false" protected="true" file="MiniGames/Destinations/CentralDispatch/CentralDispatchManager.lua" />
+		<lua name="UserGameDataDispatch.lua" deferred_loading="false" protected="true" file="MiniGames/Destinations/CentralDispatch/UserGameDataDispatch.lua" />
+		<lua name="QuestDataDispatch.lua" deferred_loading="false" protected="true" file="MiniGames/Destinations/CentralDispatch/QuestDataDispatch.lua" />
+		<lua name="ServerTime.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_fn_lib/ServerTime.lua" />
+		<lua name="ActivityBoardDataDispatch.lua" deferred_loading="false" protected="true" file="MiniGames/Destinations/CentralDispatch/ActivityBoardDataDispatch.lua" />
+		<lua name="LeaderboardDataDispatch.lua" deferred_loading="false" protected="true" file="MiniGames/Destinations/CentralDispatch/LeaderboardDataDispatch.lua" />
+	</local>
+	<external />
+</resources>

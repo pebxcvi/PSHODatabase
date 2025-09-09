@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<anim name="buybag.ani" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.ani" />
+		<anim name="buybag_j.ani" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag_j.ani" />
+		<anim name="giftlogo.ani" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/giftlogo.ani" />
+		<anim name="lock.ani" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/lock.ani" />
+		<collision name="block_hidden.hkx" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_hidden.hkx" />
+		<collision name="block_new.hkx" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_new.hkx" />
+		<collision name="block_redeam.hkx" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_redeam.hkx" />
+		<collision name="block_sun.hkx" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_sun.hkx" />
+		<collision name="buybag.hkx" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.hkx" />
+		<collision name="giftlogo.hkx" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/giftlogo.hkx" />
+		<collision name="lock.hkx" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/lock.hkx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="common/features/v2_0/Network.xml" />
+		<lua name="AppletMain_commercePoint.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/CommercePoint/AppletMain_commercePoint.lua"/>
+		<lua name="AppletMain_twitter.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/TwitterScreen/AppletMain_twitter.lua"/>
+		<lua name="AppletMain_UUIDBlocker.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/uuidBlocker/AppletMain_UUIDBlocker.lua"/>
+		<lua name="AppletMain_BehaviourMonitor.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/behaviourMonitor/AppletMain_BehaviourMonitor.lua"/>
+		<lua name="AppletRegister_commercePoint.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/CommercePoint/AppletRegister_commercePoint.lua" />
+		<lua name="AppletRegister_Twitter.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/TwitterScreen/AppletRegister_Twitter.lua" />
+		<lua name="AppletRegister_UUIDblocker.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/uuidBlocker/AppletRegister_UUIDblocker.lua" />
+		<lua name="AppletRegister_BehaviourMonitor.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/behaviourMonitor/AppletRegister_BehaviourMonitor.lua"/>
+		<lua name="Twitter_IronFusion.lua" deferred_loading="true" protected="true" file="common/AppletSys/applets/TwitterScreen/Twitter_IronFusion.lua"/>
+		<lua name="Twitter_LockwoodCatwalk.lua" deferred_loading="true" protected="true" file="common/AppletSys/applets/TwitterScreen/Twitter_LockwoodCatwalk.lua"/>
+		<lua name="TwitterScreen.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/TwitterScreen/TwitterScreen.lua"/>
+		<lua name="TwitterScreenModes.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/TwitterScreen/TwitterScreenModes.lua"/>
+		<lua name="TwitterTimeline.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/TwitterScreen/TwitterTimeline.lua"/>
+		<lua name="UUIDBlocker.lua" deferred_loading="true" protected="true" file="common/AppletSys/applets/uuidBlocker/UUIDBlocker.lua"/>
+		<lua name="BehaviourMonitor.lua" deferred_loading="true" protected="true" file="common/AppletSys/applets/behaviourMonitor/BehaviourMonitor.lua"/>
+		<lua name="Toolbox.lua" deferred_loading="false" protected="true" file="common/shared/Toolbox/Toolbox.lua" />
+		<lua name="ToolboxSettings.lua" deferred_loading="false" protected="true" file="apartments/island_developement/hub_1/Toolbox/settings/settings_build_002.lua" />
+		<model name="block_hidden.mdl" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_hidden.mdl" />
+		<model name="block_new.mdl" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_new.mdl" />
+		<model name="block_redeam.mdl" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_redeam.mdl" />
+		<model name="block_sun.mdl" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/block_sun.mdl" />
+		<model name="buybag.mdl" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.mdl" />
+		<model name="buybag_j.mdl" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag_j.mdl" />
+		<model name="giftlogo.mdl" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/giftlogo.mdl" />
+		<model name="lock.mdl" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/lock.mdl" />
+		<skeleton name="buybag.skn" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.skn" />
+		<skeleton name="buybag_j.skn" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag_j.skn" />
+		<skeleton name="giftlogo.skn" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/giftlogo.skn" />
+		<skeleton name="lock.skn" deferred_loading="true" protected="false" file="apartments/island_developement/assets/hub/lock.skn" />
+		<texture name="buybag.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/uuidBlocker/buybag.dds"/>
+		<texture name="buybag_j.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/uuidBlocker/buybag_j.dds"/>
+		<texture name="IronFusion_Background.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/TwitterScreen/Textures/IronFusion_Background.dds" />
+		<texture name="IronFusion_Logo.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/TwitterScreen/Textures/IronFusion_Logo.dds" />
+		<texture name="LKWD_Lion_Grey.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/TwitterScreen/Textures/LKWD_Lion_Grey.dds" />
+		<texture name="LKWD_Lion_Red.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/TwitterScreen/Textures/LKWD_Lion_Red.dds" />
+		<texture name="LKWD_Long_Logo_Grey.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/TwitterScreen/Textures/LKWD_Long_Logo_Grey.dds" />
+		<texture name="LKWD_Long_Logo_Red.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/TwitterScreen/Textures/LKWD_Long_Logo_Red.dds" />
+		<texture name="loadingScreen.dds" deferred_loading="true" protected="false" file="apartments/island_developement/hub_1/Toolbox/loadingScreen.dds" />
+        <!-- Toolbox registration -->
+        <lua name="HDK_Common_Register.lua" deferred_loading="false" protected="true" file="common/shared/Toolbox/ToolboxRegister.lua" />
+		 <!-- Program execution constructs -->
+        <lua name="Coroutine.lua" deferred_loading="true" protected="true" file="common/shared/Coroutine.lua" />
+        <lua name="Process.lua" deferred_loading="true" protected="true" file="common/features/v3_0/editor/Process.lua" />
+        <lua name="mini_FSM.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/ProgramExecutionConstructs/mini_FSM.lua" />
+        <lua name="Fsm_Mealey.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/ProgramExecutionConstructs/Fsm_Mealey.lua" />
+        <lua name="Fsm_Moore.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/ProgramExecutionConstructs/Fsm_Moore.lua" />
+        <lua name="FireAndForget.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/ProgramExecutionConstructs/FireAndForget.lua" />
+        <lua name="CoroutineMgr.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/ProgramExecutionConstructs/CoroutineMgr.lua" />
+        <lua name="PlayerMgr.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/HomeLibraryWrappers/PlayerMgr.lua" />
+        <lua name="AsyncMgr.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/HomeLibraryWrappers/AsyncMgr.lua" />
+
+        <!-- Dynamic loading -->
+        <lua name="DynCode.lua" deferred_loading="false" protected="true" file="common/shared/Toolbox/DynamicLoading/DynCode.lua" />
+        <lua name="DynEntity.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/DynamicLoading/DynEntity.lua" />
+        <lua name="T_Ent.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/DynamicLoading/T_Ent.lua" />
+
+        <!-- ProtoDef -->
+        <lua name="ProtoDef.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Definitions/ProtoDef.lua" />
+        <lua name="DefDB.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Definitions/DefDB.lua" />
+
+        <!-- Home target advanced -->
+        <lua name="HomeTargetAdvanced.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Triggers/HomeTargetAdvanced.lua" />
+
+        <!-- Cameras -->
+        <lua name="CamPath.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Cameras/CamPath.lua" />
+
+        <!-- Home library wrappers -->
+        <lua name="qEntity.lua" deferred_loading="true" protected="true" file="common/shared/qEntity.lua" />
+        <lua name="AsyncWrapper.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/HomeLibraryWrappers/AsyncWrapper.lua" />
+        <lua name="RewardMgr.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/HomeLibraryWrappers/RewardMgr.lua" />
+
+        <!-- OHS and Networking -->
+        <lua name="Jamin.lua" deferred_loading="true" protected="true" file="common/shared/Jamin.lua" />
+        <lua name="Ohs.lua" deferred_loading="true" protected="true" file="common/shared/OHS.lua" />
+        <lua name="Playmetrix.lua" deferred_loading="true" protected="true" file="common/shared/Playmetrix.lua" />
+        <lua name="NetLib.lua" deferred_loading="true" protected="true" file="common/shared/NetLib.lua" />
+        <lua name="NetState.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Networking/NetState.lua" />
+        <lua name="NetState_NetworkedVariable.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Networking/NetState_NetworkedVariable.lua" />
+        <lua name="NetState_UserRegister.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Networking/NetState_UserRegister.lua" />
+        <lua name="NetState_Queue.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Networking/NetState_Queue.lua" />
+        <lua name="NetState_Occupancy.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Networking/NetState_Occupancy.lua" />
+
+        <!-- Useful stuff -->
+        <lua name="Misc_maths.lua" deferred_loading="true" protected="true" file="common/features/v3_0/editor/Misc_maths.lua" />
+        <lua name="Misc_extra.lua" deferred_loading="true" protected="true" file="common/features/v3_0/editor/Misc_extra.lua" />
+        <lua name="Misc_table.lua" deferred_loading="true" protected="true" file="common/features/v3_0/editor/Misc_table.lua" />
+
+        <!-- Input -->
+        <lua name="PadControl.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Controllers/PadControl.lua" />
+
+        <!-- Events and Triggers-->
+        <lua name="EventRelay.lua" deferred_loading="true" protected="true" file="common/shared/EventRelay.lua" />
+        <lua name="EventSys.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Triggers/EventSys.lua" />
+
+        <!-- Targetting System -->
+        <lua name="HomeTarget.lua" deferred_loading="true" protected="true" file="common/shared/HomeTarget.lua" />
+        <lua name="Trigger.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Triggers/Trigger.lua" />
+        <lua name="Trigger_Setup.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Triggers/Trigger_Setup.lua" />
+
+        <!-- Data -->
+        <lua name="ResSys.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/OnlineResources/ResSys.lua" />
+        <lua name="ParamDb.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/OnlineResources/ParamDb.lua" />
+        <lua name="ParamDb_Groups.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/OnlineResources/ParamDb_Groups.lua" />
+        <lua name="DefStore.lua" deferred_loading="true" protected="true" file="common/shared/DefStore.lua" />
+        <lua name="XmlConvert.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/OnlineResources/XmlConvertV2.lua" />
+        <lua name="Online_localisation.lua" deferred_loading="true" protected="true" file="common/shared/Online_localisation.lua" />
+
+        <!-- Sound -->
+        <lua name="SoundManager.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Sound/SoundManager.lua" />
+        <lua name="SoundInstance.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Sound/SoundInstance.lua" />
+        <lua name="SoundStreamChannel.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Sound/SoundStreamChannel.lua" />
+
+        <!-- Other -->
+        <lua name="OBB.lua" deferred_loading="true" protected="true" file="common/shared/OBB.lua" />
+        <lua name="Gui.lua" deferred_loading="true" protected="true" file="common/shared/Gui.lua" />
+        <lua name="AsyncInvMonitor.lua" deferred_loading="true" protected="true" file="common/shared/AsyncInvMonitor.lua" />
+
+        <!-- Math -->
+        <lua name="TiMath.lua" deferred_loading="true" protected="true" file="common/shared/Toolbox/Math/TiMath.lua" />
+
+        <lua name="FeatureSystem_Register.lua" deferred_loading="false" protected="true" file="common/features/v3_0/ToolboxRegister.lua" />
+
+        <!-- System -->
+        <lua name="Feature_system.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Feature_system.lua" />
+        <lua name="Feature_IO.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Feature_IO.lua" />
+        <lua name="Feature_SetDressing.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Feature_SetDressing.lua" />
+        <lua name="Feature_root_node.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Feature_root_node.lua" />
+        <lua name="Feature_sub_nodes.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Feature_sub_nodes.lua" />
+        <lua name="Feature_misc.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Feature_misc.lua" />
+        <lua name="Feature_Com.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Feature_Com.lua" />
+
+        <!-- Plugins -->
+        <lua name="Plugin_Features.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_Features.lua" />
+        <lua name="Plugin_Applet.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_Applet.lua" />
+        <lua name="Plugin_EntityGroup.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_EntityGroup.lua" />
+        <lua name="Plugin_Physics.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_Physics.lua" />
+        <lua name="Plugin_Rewards.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_Rewards.lua" />
+        <lua name="Plugin_LKWD_Life.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_LKWD_Life.lua" />
+        <lua name="Plugin_Detectors.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_Detectors.lua" />
+        <lua name="Plugin_SoundStream.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_SoundStream.lua" />
+        <lua name="Plugin_Activation.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_Activation.lua" />
+        <lua name="Plugin_RemoteActivation.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Plugin_RemoteActivation.lua" />
+
+        <!-- Features -->
+        <lua name="FEA_DynFx.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_DynFx.lua" />
+        <lua name="FEA_manaquin.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_manaquin.lua" />
+        <lua name="FEA_fx_bone.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_fx_bone.lua" />
+        <lua name="FEA_applet.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_applet.lua" />
+        <lua name="FEA_commerce_point.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_commerce_point.lua" />
+        <lua name="FEA_NodeEvents.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_NodeEvents.lua" />
+        <lua name="FEA_relocate.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_relocate.lua" />
+        <lua name="FEA_magic_poster.lua" deferred_loading="true" protected="true" file="common/features/v3_0/libs/Plugins/Features/FEA_magic_poster.lua" />
+
+
+		<lua name="AppletSystem_Register.lua" deferred_loading="false" protected="true" file="common/AppletSys/v3_0/ToolboxRegister.lua" />
+
+        <!-- System -->
+	    <lua name="AppletCore.lua" deferred_loading="true" protected="true" file="common/AppletSys/v3_0/AppletCore.lua" />
+	    <lua name="AppletContainer.lua" deferred_loading="true" protected="true" file="common/AppletSys/v3_0/AppletContainer.lua" />
+	    <lua name="AppletCoreExporter.lua" deferred_loading="true" protected="true" file="common/AppletSys/v3_0/AppletCoreExporter.lua" />
+	    <lua name="AppletAssetMan.lua" deferred_loading="true" protected="true" file="common/AppletSys/v3_0/AppletAssetMan.lua" />
+
+        <!-- Lockwood Life -->
+                <lua name="Dampener2.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/lua/Dampener2.lua" />
+                <lua name="Lua2Xml.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/lua/Lua2Xml.lua" />
+                <lua name="LockwoodLife.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/lua/LockwoodLife.lua" />
+		<soundbank name="LockwoodLife.bnk" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/sound/LockwoodLife.bnk" />
+		<texture name="star_large.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/texture/star_large.dds" />
+                <texture name="coin_large.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/texture/coin_large.dds" />
+                <texture name="lion_large.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/texture/lion_large.dds" />
+	</local>
+	<external />
+</resources>

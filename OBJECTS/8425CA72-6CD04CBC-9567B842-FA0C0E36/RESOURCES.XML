@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/model/GoldTank_HI.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/model/GoldTank_LO.mdl" memory="host" />
+		<model name="Tank_Tracks.mdl" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/model/Tank_Tracks.mdl" memory="host" />
+		<model name="Tank_Tracks_Remote.mdl" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/model/Tank_Tracks_Remote.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/file/config_tank.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/Male_with_tank_Idle_V01.ani" memory="main" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/Male_with_tank_Run_V01.ani" memory="main" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/Female_With_tank_Run_V01.ani" memory="main" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/Female_with_tank_Idle_V01.ani" memory="main" />
+		<anim name="VehicleIdle.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/tank_idle.ani" />
+		<anim name="VehicleWalk.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/tank_run.ani" />
+		<anim name="VehicleRun.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/tank_run.ani" />
+		<anim name="TracksMove.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/Tank_Tracks_Move.ani" />
+		<anim name="TracksIdle.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/anim/Tank_Tracks_Idle.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/model/vehi_tank_Rig_Lod2.skn" memory="host" />
+		<skeleton name="Tank_Tracks.skn" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/model/Tank_Tracks.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/AvatarVehicles/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/AvatarVehicles/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

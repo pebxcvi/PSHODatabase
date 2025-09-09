@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="rain_plane_01.mdl" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/models/rain_plane_01.mdl" />
+    <model name="rain_control_painting_rain_01.mdl" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/models/rain_control_painting_rain_01.mdl" />
+    <model name="rain_control_painting_01.mdl" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/models/rain_control_painting_01.mdl" />
+    <texture name="rain_painting_wet.dds" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/textures/effects/rain_painting_wet.dds" />
+    <texture name="rain_painting_normal.dds" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/textures/effects/rain_painting_normal.dds" />
+    <texture name="rain_painting_clear.dds" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/textures/effects/rain_painting_clear.dds" />
+    <file name="Network_Clubhouse.xml" deferred_loading="false" protected="false" file="MiniGames/Change_Weather/file/Network_Clubhouse.xml" />
+    <anim name="CutteridgeTree_slow.ani" deferred_loading="false" protected="false" file="environmentanimations/cutteridgetree/CutteridgeTree_slow.ani" />
+    <anim name="CutteridgeTree_fast.ani" deferred_loading="false" protected="false" file="environmentanimations/cutteridgetree/CutteridgeTree_slow.ani" />
+    <soundbank name="CutteridgeSceneSoundbank.bnk" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/Audio/CutteridgeSceneSoundbank.bnk" />
+    <lua name="Weather.lua" deferred_loading="false" protected="true" file="minigames/change_weather/lua/weather_snow.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="minigames/change_weather/lua/utility.luac" />
+    <lua name="TreeManager.lua" deferred_loading="false" protected="true" file="minigames/change_weather/lua/treemanager.luac" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="minigames/change_weather/lua/messagemanager.luac" />
+    <lua name="MiniGame_Clubhouse.lua" deferred_loading="false" protected="true" file="minigames/change_weather/lua/minigame_clubhouse.luac" />
+  </local>
+  <external />
+</resources>

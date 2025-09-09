@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="vortex_mdl" deferred_loading="false" file="environments/PSPGOV/vortex.mdl" />
+		<model name="hotspot_mdl" deferred_loading="false" file="environments/PSPGOV/hotspot.mdl" />
+		<model name="psp_mdl" deferred_loading="false" file="environments/PSPGOV/pspmodel.mdl" />
+		<model name="circlefloor.mdl" deferred_loading="false" file="environments/pspgopodiumspace_f302_5204/circlefloor.mdl" />
+		<model name="circlefloor01.mdl" deferred_loading="false" file="environments/pspgopodiumspace_f302_5204/circlefloor01.mdl" />
+		<model name="circlefloor02.mdl" deferred_loading="false" file="environments/pspgopodiumspace_f302_5204/circlefloor02.mdl" />
+		<model name="circlefloor03.mdl" deferred_loading="false" file="environments/pspgopodiumspace_f302_5204/circlefloor03.mdl" />
+		<model name="circlefloor04.mdl" deferred_loading="false" file="environments/pspgopodiumspace_f302_5204/circlefloor04.mdl" />
+		<model name="circlefloor05.mdl" deferred_loading="false" file="environments/pspgopodiumspace_f302_5204/circlefloor05.mdl" />
+		<model name="purplearrow_mdl" deferred_loading="false" file="environments/pspgopodiumspace_f302_5204/purplearrow.mdl" />
+		<texture name="SmallPanel_DT_dds" deferred_loading="false" file="Scripts/PSPGo_challenge/images/panels/SmallPanel_GC_plain.dds" />
+		<texture name="LargePanel_DT_dds" deferred_loading="false" file="Scripts/PSPGo_challenge/images/panels/LargePanel_GC_plain.dds" />
+		<texture name="psp_time_dds" deferred_loading="false" file="Scripts/PSPGo_challenge/images/psp_time.dds" />
+		<texture name="hotspot_icon_dds" deferred_loading="false" file="Scripts/PSPGo_challenge/images/hotspot_icon.dds" />
+		<texture name="MediumPanel_DT_dds" deferred_loading="false" file="Scripts/PSPGo_challenge/images/panels/MediumPanel_GC_plain.dds" />
+		<texture name="ok_dds" deferred_loading="false" file="Scripts/PSPGo_challenge/images/thumbsup.dds" />
+		<particle name="hotspot_efx" deferred_loading="false" file="ATGParticles/pspgo/hotspot.efx" />
+		<file name="Constants_lua" deferred_loading="false" file="Scripts/PSPGo_challenge/Constants.lua" />
+		<file name="Group_lua" deferred_loading="false" file="Scripts/PSPGo_challenge/Group.lua" />
+		<file name="PSPGoChallenge_lua" deferred_loading="false" file="Scripts/PSPGo_challenge/PSPGoChallenge.lua" />
+		<file name="Task_lua" deferred_loading="false" file="Scripts/PSPGo_challenge/Task.lua" />
+		<file name="Util_lua" deferred_loading="false" file="Scripts/PSPGo_challenge/Util.lua" />
+		<file name="Soundbank_Manager_lua" deferred_loading="false" file="Scripts/PSPGo_challenge/Soundbank_Manager.lua" />
+		<soundbank name="PSP_Go_Audio_bnk" deferred_loading="false" file="Scripts/PSPGo_challenge/audio/PSP_Go_Audio.bnk" />
+	</local>
+	<external />
+</resources>

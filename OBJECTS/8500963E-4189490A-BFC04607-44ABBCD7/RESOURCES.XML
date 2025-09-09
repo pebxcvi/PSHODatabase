@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ticker_character.mdl" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character.mdl" />
+		<model name="ticker_character1.mdl" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character1.mdl" />
+		<model name="ticker_character2.mdl" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character2.mdl" />
+		<model name="ticker_character3.mdl" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character3.mdl" />
+		<texture name="letters.dds" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/textures/letters.dds" />
+		<texture name="zero_alpha.dds" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/textures/zero_alpha.dds" />
+		<texture name="numbers.dds" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/textures/numbers.dds" />
+		<texture name="symbols.dds" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/textures/symbols.dds" />
+		<anim name="ticker_character1.ani" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character1.ani" />
+		<anim name="ticker_character2.ani" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character2.ani" />
+		<anim name="ticker_character3.ani" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character3.ani" />
+		<skeleton name="ticker_character1.skn" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character1.skn" />
+		<skeleton name="ticker_character2.skn" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character2.skn" />
+		<skeleton name="ticker_character3.skn" deferred_loading="false" protected="false" file="MiniGames/Sport_Ticker/models/ticker_character3.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Sport_Ticker/lua/MiniGame.lua" />
+		<lua name="Ticker.lua" deferred_loading="false" protected="true" file="MiniGames/Sport_Ticker/lua/Ticker.lua" />
+		<lua name="aHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/aHelpers.lua" />
+		<lua name="DataObject.lua" deferred_loading="false" protected="true" file="MiniGames/Sport_Ticker/lua/DataObject.lua" />
+		<lua name="LiveDataVisitor.lua" deferred_loading="false" protected="true" file="MiniGames/Sport_Ticker/lua/LiveDataVisitor.lua" />
+		<lua name="Mediator.lua" deferred_loading="false" protected="true" file="MiniGames/Sport_Ticker/lua/Mediator.lua" />
+		<lua name="Retreiver.lua" deferred_loading="false" protected="true" file="MiniGames/Sport_Ticker/lua/Retreiver.lua" />
+		<lua name="HeadlinesDataVisitor.lua" deferred_loading="false" protected="true" file="MiniGames/Sport_Ticker/lua/HeadlinesDataVisitor.lua" />
+	</local>
+	<external />
+</resources>

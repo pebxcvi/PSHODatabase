@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/HUNT_GhostOVision.mdl" memory="host" />
+    <model name="Slender.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Slender.mdl" memory="host" />
+    <model name="Girl.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Girl.mdl" memory="host" />
+    <model name="Boy.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Boy.mdl" memory="host" />
+    <model name="Reaper.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Reaper.mdl" memory="host" />
+    <model name="SlenderTroll.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/SlenderTroll.mdl" memory="host" />
+    <model name="writing.mdl" deferred_loading="false" protected="false" file="environments/minib_minibot_city/hall13/environment/cutteridge/writing.mdl" />
+    <texture name="overlay.dds" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/overlay.dds" memory="host" />
+    <texture name="black32.dds" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/black32.dds" memory="host" />
+    <texture name="noise.dds" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/noise.dds" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/Lua/network/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/HUNT_GhostOVision.hkx" memory="host" />
+    <soundstream name="breath.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/sound/breath.mp3" memory="host" />
+    <soundstream name="chant.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/sound/chant.mp3" memory="host" />
+    <soundstream name="musicbox.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/sound/musicbox.mp3" memory="host" />
+    <soundstream name="static.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/sound/static.mp3" memory="host" />
+    <soundstream name="whispers.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/sound/whispers.mp3" memory="host" />
+    <soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/sound/camera.mp3" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostovision/lua/minigame_public.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostovision/lua/utilities/pad.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostovision/lua/utilities/utility.luac" memory="host" />
+  </local>
+  <external />
+</resources>

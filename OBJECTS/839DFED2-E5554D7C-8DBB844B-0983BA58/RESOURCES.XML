@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Item.mdl" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_EmoHat/model/EmoHat.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_EmoHat/file/config.xml" memory="host" />
+		<anim name="Item_flap.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_EmoHat/anim/Item_flap.ani" memory="host" />
+		<anim name="Item_happy.ani" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_EmoHat/anim/Item_happy.ani" memory="host" />
+		<anim name="Item_idle.ani" deferred_loading="false" protected="false" file="Locomotion/AvatarItem_EmoHat/anim/Item_idle.ani" memory="host" />
+		<anim name="Item_angry.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_EmoHat/anim/Item_angry.ani" memory="host" />
+		<anim name="Item_sad.ani" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_EmoHat/anim/Item_sad.ani" />
+		<skeleton name="Item.skn" deferred_loading="true" protected="false" file="Locomotion/AvatarItem_EmoHat/skeleton/EmoHat.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/AvatarItem_EmoHat/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_heart" deferred_loading="true" protected="false" file="JapanEvents/macrossf/heart/Heart.mdl" />
+		<texture name="edge_dds" deferred_loading="false" protected="false" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/textures/edge.dds" />
+		<collision name="col_heart" deferred_loading="true" protected="false" file="JapanEvents/macrossf/heart/Heart.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/main.luac" memory="host" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeCommon.luac" memory="host" />
+		<lua name="paHomePad2" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomePad2.luac" memory="host" />
+		<lua name="eventLoadLibrary" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventLoadLibrary.luac" memory="host" />
+		<lua name="eventmain" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventmain.luac" memory="host" />
+		<lua name="eventStateGlobal" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventStateGlobal.luac" memory="host" />
+		<lua name="parameters" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/parameters.luac" memory="host" />
+		<lua name="paHomeCommonDebug" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeCommonDebug.luac" memory="host" />
+		<lua name="eventtrigger" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventtrigger.luac" memory="host" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeServerTrigger.luac" memory="host" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeServerBase.luac" memory="host" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeTime.luac" memory="host" />
+		<lua name="eventserver" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventserver.luac" memory="host" />
+		<lua name="paHomeServerGeneral" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeServerGeneral.luac" memory="host" />
+		<lua name="eventExternalData" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventExternalData.luac" memory="host" />
+		<lua name="eventAdventure" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventAdventure.luac" memory="host" />
+		<lua name="RndUI" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/RndUI.luac" memory="host" />
+		<lua name="mathx" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/mathx.luac" memory="host" />
+		<lua name="misc" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/misc.luac" memory="host" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomePosCalc.luac" memory="host" />
+		<lua name="renderParameters" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/renderParameters.luac" memory="host" />
+		<lua name="paHomeServerCustom" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeServerCustom.luac" memory="host" />
+		<lua name="paHomeServerCommon" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeServerCommon.luac" memory="host" />
+		<lua name="paHomeSoundMgr" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeSoundMgr.luac" memory="host" />
+		<lua name="paHomeSoundStream" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeSoundStream.luac" memory="host" />
+		<lua name="eventsound" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventsound.luac" memory="host" />
+		<lua name="eventreward" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventreward.luac" memory="host" />
+		<lua name="paHomeServerItemRanking" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeServerItemRanking.luac" memory="host" />
+		<lua name="eventStateGame" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventStateGame.luac" memory="host" />
+		<lua name="eventDebugDraw" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventDebugDraw.luac" memory="host" />
+		<lua name="adventureReadXml" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/adventureReadXml.luac" memory="host" />
+		<lua name="actionlist" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/actionlist.luac" memory="host" />
+		<lua name="eventmessage" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventmessage.luac" memory="host" />
+		<lua name="eventscreen" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventscreen.luac" memory="host" />
+		<lua name="eventResourceData" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/eventResourceData.luac" memory="host" />
+		<lua name="paHomeScreen" deferred_loading="false" protected="true" file="objects/84DEF98A-261E458E-B0E86812-51B5BAFF/lua/paHomeScreen.luac" memory="host" />
+	</local>
+	<external />
+</resources>

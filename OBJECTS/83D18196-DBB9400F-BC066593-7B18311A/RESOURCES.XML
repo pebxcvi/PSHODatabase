@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cow_mdl" deferred_loading="false" protected="false" file="Items/ufo/cow/cow.mdl" />
+		<model name="ufo_mdl" deferred_loading="false" protected="false" file="Items/ufo/ufo.mdl" />
+		<model name="ufo_base_mdl" deferred_loading="false" protected="false" file="Items/ufo/base/ufo_base.mdl" />
+		<model name="tractor_beam_mdl" deferred_loading="false" protected="false" file="Items/ufo/beam/tractor_beam.mdl" />
+		<model name="ufo_gate_mdl" deferred_loading="false" protected="false" file="Items/ufo/gate/ufo_gate.mdl" />
+		<model name="ufo_base_de_mdl" deferred_loading="false" protected="false" file="Items/ufo/base/ufo_base_de.mdl" />
+		<model name="ufo_base_es_mdl" deferred_loading="false" protected="false" file="Items/ufo/base/ufo_base_es.mdl" />
+		<model name="ufo_base_fr_mdl" deferred_loading="false" protected="false" file="Items/ufo/base/ufo_base_fr.mdl" />
+		<model name="ufo_base_it_mdl" deferred_loading="false" protected="false" file="Items/ufo/base/ufo_base_it.mdl" />
+		<texture name="light_flare_mask_dds" deferred_loading="false" protected="false" file="Items/ufo/light_flare_mask.dds" />
+		<texture name="UFO_On_dds" deferred_loading="false" protected="false" file="Items/ufo/images/UFO_On.dds" />
+		<texture name="UFO_Off_dds" deferred_loading="false" protected="false" file="Items/ufo/images/UFO_Off.dds" />
+		<collision name="ufo_hkx" deferred_loading="false" protected="false" file="Items/ufo/ufo.hkx" />
+		<collision name="ufo_base_hkx" deferred_loading="false" protected="false" file="Items/ufo/base/ufo_base.hkx" />
+		<collision name="ufo_base_safevolume_hkx" deferred_loading="false" protected="false" file="Items/ufo/base/ufo_base.safevolume.hkx" />
+		<collision name="cow_hkx" deferred_loading="false" protected="false" file="Items/ufo/cow/cow.hkx" />
+		<anim name="cow_ani" deferred_loading="false" protected="false" file="Items/ufo/cow/cow.ani" />
+		<anim name="ufo_ani" deferred_loading="false" protected="false" file="Items/ufo/ufo.ani" />
+		<anim name="tractor_beam_ani" deferred_loading="false" protected="false" file="Items/ufo/beam/tractor_beam.ani" />
+		<anim name="ufo_gate_ani" deferred_loading="false" protected="false" file="Items/ufo/gate/ufo_gate.ani" />
+		<skeleton name="cow_skn" deferred_loading="false" protected="false" file="Items/ufo/cow/cow.skn" />
+		<skeleton name="ufo_skn" deferred_loading="false" protected="false" file="Items/ufo/ufo.skn" />
+		<skeleton name="tractor_beam_skn" deferred_loading="false" protected="false" file="Items/ufo/beam/tractor_beam.skn" />
+		<skeleton name="ufo_gate_skn" deferred_loading="false" protected="false" file="Items/ufo/gate/ufo_gate.skn" />
+		<soundbank name="UFO_Home_bnk" deferred_loading="false" protected="false" file="Items/ufo/sounds/UFO_Home.bnk" />
+		<lua name="UFOScript_lua" deferred_loading="false" protected="true" file="Items/ufo/UFOScript.lua" />
+		<lua name="Soundbank_Manager_lua" deferred_loading="false" protected="true" file="Items/ufo/Soundbank_Manager.lua" />
+	</local>
+	<external />
+</resources>

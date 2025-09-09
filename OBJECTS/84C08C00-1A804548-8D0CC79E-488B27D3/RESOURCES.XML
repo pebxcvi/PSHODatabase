@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoaDispenser.mdl" />
+		<model name="WINT12_CocoaDispenser_RIG.mdl" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoaDispenser_RIG.mdl" memory="host" />
+		<model name="WINT12_CocoCup_RigAndAnim.mdl" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoCup_Model.mdl" memory="host" />
+		<model name="WINT12_ChocolateScrollingUV.mdl" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_ChocolateScrollingUV.mdl" memory="host" />
+		<particle name="Smokestack.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/WINT12/Smokestack.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoaDispenser.hkx" />
+		<anim name="WINT12_CocoaDispenser_IDLE.ani" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoaDispenser_IDLE.ani" />
+		<anim name="WINT12_CocoaDispenser_RIG.ani" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoaDispenser_RIG.ani" />
+		<anim name="WINT12_CocoCup_IDLE.ani" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoCup_IDLE.ani" />
+		<anim name="WINT12_CocoCup_RigAndAnim.ani" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoCup_RigAndAnim.ani" />
+		<anim name="WINT12_CocoaDispenser_Female_Drink.ani" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/anim/WINT12_CocoaDispenser_Female_Drink.ani" memory="host" />
+		<anim name="WINT12_CocoaDispenser_Male_Drink.ani" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/anim/WINT12_CocoaDispenser_Male_Drink.ani" memory="host" />
+		<skeleton name="WINT12_CocoaDispenser_RIG.skn" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoaDispenser_RIG.skn" />
+		<skeleton name="WINT12_CocoCup_RigAndAnim.skn" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/WINT12_CocoCup_RigAndAnim.skn" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/reps/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="furniture/wint12_cocoadispenser/reps/female.xml" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/wint12_cocoadispenser/Main.luac" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <texture name="Loading_San.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/Loading_San.dds" />
+    <texture name="save.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/save.dds" />
+    <texture name="cone.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/cone.dds" />
+    <texture name="NowLoading.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/NowLoading.dds" />
+    <lua name="libUserDataTypes.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatatypes.luac" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" />
+    <lua name="UserDataManager.lua" deferred_loading="false" protected="true" file="embeddedobjects/userdatamanager/lua/userdatamanager.luac" />
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" />
+    <lua name="libAnnounceHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/announcehelper.luac" />
+    <lua name="libResDownloader.lua" deferred_loading="false" protected="true" file="lualibs/resource/resdownloader.luac" />
+    <lua name="libJsonEncoder.lua" deferred_loading="false" protected="true" file="lualibs/resource/jsonencoder.luac" />
+    <lua name="GlobalSetting.lua" deferred_loading="false" protected="true" file="embeddedobjects/userdatamanager/lua/globalsetting.luac" />
+    <lua name="UserDataProcess.lua" deferred_loading="false" protected="true" file="embeddedobjects/userdatamanager/lua/userdataprocess.luac" />
+    <lua name="EventRecordsProcess.lua" deferred_loading="false" protected="true" file="embeddedobjects/userdatamanager/lua/eventrecordsprocess.luac" />
+  </local>
+  <external />
+</resources>

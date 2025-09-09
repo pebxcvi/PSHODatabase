@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cape.mdl" deferred_loading="false" protected="false" file="Locomotion/Cape_Hero_Blue/Dynamic_cape_Rig_Final.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/cape_hero/file/config.xml" memory="host" />
+		<anim name="capeIdle.ani" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_Idle_Cape.ani" memory="host" />
+		<anim name="capeFly.ani" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_Fly_Cape.ani" memory="host" />
+		<anim name="Cape_walk_Fem" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_walk_Fem.ani" memory="host" />
+		<anim name="Cape_Fly_Fem" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_Fly_Fem.ani" memory="host" />
+		<anim name="Cape_Idle_Fem" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_Idle_Fem.ani" memory="host" />
+		<anim name="Cape_FlyLeft_Fem" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_FlyLeft_Fem.ani" memory="host" />
+		<anim name="Cape_FlyRight_Fem" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_FlyRight_Fem.ani" memory="host" />
+		<anim name="Cape_walk_Male" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_walk_Male.ani" memory="host" />
+		<anim name="Cape_FlyLeft_Male" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_FlyLeft_Male.ani" memory="host" />
+		<anim name="Cape_Fly_Male" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_Fly_Male.ani" memory="host" />
+		<anim name="Cape_FlyRight_Male" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_FlyRight_Male.ani" memory="host" />
+		<anim name="Cape_Idle_Male" deferred_loading="true" protected="false" file="Locomotion/cape_hero/Cape_Idle_Male.ani" memory="host" />
+		<skeleton name="cape.skn" deferred_loading="true" protected="false" file="Locomotion/Cape_Hero/Dynamic_cape_Rig_Final.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/cape_hero/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/cape_hero/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/cape_hero/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/cape_hero/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/cape_hero/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bicycleMdl" deferred_loading="false" protected="false" file="furniture/bicycle/model/bicycle_yaling_3.mdl" />
+		<model name="armrestMdl" deferred_loading="false" protected="false" file="furniture/bicycle/model/bicycle_yaling_2.mdl" />
+		<model name="footplateMdl" deferred_loading="false" protected="false" file="furniture/bicycle/model/bicycle_loop.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/bicycle/file/Network.xml" />
+		<collision name="bicycleHkx" deferred_loading="false" protected="false" file="furniture/bicycle/collision/bicycle_6.hkx" />
+		<collision name="bicycle_01.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/bicycle/collision/bicycle_01.safevolume.hkx" />
+		<anim name="Female_bicycle_down.ani" deferred_loading="false" protected="false" file="furniture/bicycle/animation/female/Female_bicycle_down.ani" />
+		<anim name="Female_bicycle_loop.ani" deferred_loading="false" protected="false" file="furniture/bicycle/animation/female/Female_bicycle_loop.ani" />
+		<anim name="Female_bicycle_up.ani" deferred_loading="false" protected="false" file="furniture/bicycle/animation/female/Female_bicycle_up.ani" />
+		<anim name="bicycle_loop_female" deferred_loading="false" protected="false" file="furniture/bicycle/animation/female/bicycle_lopp.ani" />
+		<anim name="bicycle_down_female" deferred_loading="false" protected="false" file="furniture/bicycle/animation/female/bicycle_down.ani" />
+		<anim name="bicycle_up_female" deferred_loading="false" protected="false" file="furniture/bicycle/animation/female/bicycle_up.ani" />
+		<anim name="Male_bicycle_down.ani" deferred_loading="false" protected="false" file="furniture/bicycle/animation/male/Male_bicycle_down.ani" />
+		<anim name="Male_bicycle_loop.ani" deferred_loading="false" protected="false" file="furniture/bicycle/animation/male/Male_bicycle_loop.ani" />
+		<anim name="Male_bicycle_up.ani" deferred_loading="false" protected="false" file="furniture/bicycle/animation/male/Male_bicycle_up.ani" />
+		<anim name="bicycle_down_male" deferred_loading="false" protected="false" file="furniture/bicycle/animation/male/bicycle_down.ani" />
+		<anim name="bicycle_loop_male" deferred_loading="false" protected="false" file="furniture/bicycle/animation/male/bicycle_loop.ani" />
+		<anim name="bicycle_up_male" deferred_loading="false" protected="false" file="furniture/bicycle/animation/male/bicycle_up.ani" />
+		<skeleton name="footplateSkn" deferred_loading="false" protected="false" file="furniture/bicycle/skeleton/bicycle_loop.skn" />
+		<repertoire name="MaleRep" deferred_loading="false" protected="false" file="furniture/bicycle/rep/MaleRep.xml" />
+		<repertoire name="FemaleRep" deferred_loading="false" protected="false" file="furniture/bicycle/rep/FemaleRep.xml" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="furniture/bicycle/rep/MaleEmotes.xml" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="furniture/bicycle/rep/FemaleEmotes.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/bicycle/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>
