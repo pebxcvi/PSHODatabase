@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Spotlight_Test.mdl" deferred_loading="false" protected="false" file="environmentanimation/Spotlight_Test.mdl" />
+		<model name="Front_Lamp.mdl" deferred_loading="false" protected="false" file="environments/phk_lounge/parts/Front_Lamp.mdl" />
+		<model name="Spotlight_B.mdl" deferred_loading="false" protected="false" file="environmentanimation/Spotlight_B.mdl" />
+		<model name="Spotlight_A.mdl" deferred_loading="false" protected="false" file="environmentanimation/Spotlight_A.mdl" />
+		<model name="Spotlight_C.mdl" deferred_loading="false" protected="false" file="environmentanimation/Spotlight_C.mdl" />
+		<model name="Speaker_L.mdl" deferred_loading="false" protected="false" file="environments/phk_lounge/parts/Speaker_L.mdl" />
+		<model name="Speaker_R.mdl" deferred_loading="false" protected="false" file="environments/phk_lounge/parts/Speaker_R.mdl" />
+		<model name="Dance_Stage_Line.mdl" deferred_loading="false" protected="false" file="environments/phk_lounge/parts/Dance_Stage_Line.mdl" />
+		<model name="Back_Lamp.mdl" deferred_loading="false" protected="false" file="environments/phk_lounge/parts/Back_Lamp.mdl" />
+		<model name="Side_Lamp.mdl" deferred_loading="false" protected="false" file="environments/phk_lounge/parts/Side_Lamp.mdl" />
+		<model name="Sound_Eff_01.mdl" deferred_loading="false" protected="false" file="environmentanimation/Sound_Eff_01.mdl" />
+		<texture name="spot.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/spot.dds" />
+		<texture name="prince_00.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_00.dds" />
+		<texture name="prince_01.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_01.dds" />
+		<texture name="prince_02.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_02.dds" />
+		<texture name="prince_03.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_03.dds" />
+		<texture name="prince_04.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_04.dds" />
+		<texture name="prince_05.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_05.dds" />
+		<texture name="prince_06.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_06.dds" />
+		<texture name="prince_07.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_07.dds" />
+		<texture name="prince_08.dds" deferred_loading="false" protected="false" file="MiniGames/Dancing/tex/prince_08.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Dancing/file/Network.xml" />
+		<anim name="Spot_A_Anime_01.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_01.ani" />
+		<anim name="Spot_A_Anime_02.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_02.ani" />
+		<anim name="Spot_A_Anime_04.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_04.ani" />
+		<anim name="Spot_A_Anime_05.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_05.ani" />
+		<anim name="Spotlight_C.ani" deferred_loading="false" protected="false" file="environmentanimation/Spotlight_C.ani" />
+		<anim name="Spot_A_Anime_06.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_06.ani" />
+		<anim name="Spot_A_Anime_07.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_07.ani" />
+		<anim name="Spot_A_Anime_08.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_08.ani" />
+		<anim name="Spot_A_Anime_09.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_09.ani" />
+		<anim name="Spot_A_Anime_10.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_10.ani" />
+		<anim name="Spot_A_Anime_11.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_11.ani" />
+		<anim name="Spot_A_Anime_12.ani" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_12.ani" />
+		<anim name="Sound_Eff_01.ani" deferred_loading="false" protected="false" file="environmentanimation/Sound_Eff_01.ani" />
+		<skeleton name="Spot_A_Anime_01.skn" deferred_loading="false" protected="false" file="environmentanimation/Spot_A_Anime_01.skn" />
+		<skeleton name="Spotlight_A.skn" deferred_loading="false" protected="false" file="environmentanimation/Spotlight_A.skn" />
+		<skeleton name="Spotlight_C.skn" deferred_loading="false" protected="false" file="environmentanimation/Spotlight_C.skn" />
+		<skeleton name="Sound_Eff_01.skn" deferred_loading="false" protected="false" file="environmentanimation/Sound_Eff_01.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/MiniGame.lua" />
+		<lua name="global.lua" deferred_loading="false" protected="true" file="Scripts/global.lua" />
+		<lua name="libcore.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libcore.lua" />
+		<lua name="libgame.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libgame.lua" />
+		<lua name="liblistener.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/liblistener.lua" />
+		<lua name="SoundControl.lua" deferred_loading="false" protected="true" file="Scripts/SoundControl.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/SoundMgr.lua" />
+		<lua name="WaitingMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/WaitingMgr.lua" />
+		<lua name="Light.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/Light.lua" />
+		<lua name="LightMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/LightMgr.lua" />
+		<lua name="GameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/GameMgr.lua" />
+		<lua name="NetMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/NetMgr.lua" />
+		<lua name="libpad.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libpad.lua" />
+		<lua name="Fade.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/Fade.lua" />
+		<lua name="Osd.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/Osd.lua" />
+		<lua name="MessageDialog.lua" deferred_loading="false" protected="true" file="Scripts/MessageDialog.lua" />
+		<lua name="SpeakDialog.lua" deferred_loading="false" protected="true" file="Scripts/SpeakDialog.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Dancing/lua/Camera.lua" />
+	</local>
+	<external />
+</resources>

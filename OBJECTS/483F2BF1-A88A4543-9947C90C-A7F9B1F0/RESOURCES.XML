@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_Heart" deferred_loading="true" file="japanevents/macrossf/heart_emissive/heart_emissive.mdl" />
+		<model name="mdl_bajra_non_emissive" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_non_emissive.mdl" />
+		<model name="mdl_bajra_fly" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_fly.mdl" />
+		<model name="mdl_vf25_event_f" deferred_loading="true" file="JapanEvents/macrossf/vf25/VF25_Event_F.mdl" />
+		<model name="mdl_ranka_home_seikanhikouvf25_wait" deferred_loading="true" file="JapanEvents/macrossf/vf25/Ranka_Home_seikanhikouVF25_wait.mdl" />
+		<model name="mdl_ranka_home_seikanhikouvf25_start" deferred_loading="true" file="JapanEvents/macrossf/vf25/Ranka_Home_seikanhikouVF25_start.mdl" />
+		<model name="mdl_ranka_home_seikanhikouvf25_end" deferred_loading="true" file="JapanEvents/macrossf/vf25/Ranka_Home_seikanhikouVF25_end.mdl" />
+		<model name="mdl_mq_eventsmotion" deferred_loading="true" file="JapanEvents/macrossf/mq/MQ_EventsMotion.mdl" />
+		<model name="mdl_cyalume_events" deferred_loading="true" file="JapanEvents/macrossf/live_effect/cyalume/Cyalume_events.mdl" />
+		<model name="mdl_mq_ef_kamehav2" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_kamehav2.mdl" />
+		<model name="mdl_fire" deferred_loading="true" file="JapanEvents/macrossf/live_effect/fire/Fire.mdl" />
+		<model name="mdl_mq_ef_kameha" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_kameha.mdl" />
+		<model name="mdl_NightSky" deferred_loading="true" file="JapanEvents/macrossf/live_effect/nightsky/NightSky.mdl" />
+		<model name="mdl_Ranka_str04_C" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str04/Ranka_str04_C.mdl" />
+		<model name="mdl_Ranka_str04_B" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str04/Ranka_str04_B.mdl" />
+		<model name="mdl_Ranka_str04_A" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str04/Ranka_str04_A.mdl" />
+		<model name="mdl_Success" deferred_loading="true" file="JapanEvents/macrossf/live_effect/success/Success.mdl" />
+		<model name="mdl_stage_ef_00" deferred_loading="true" file="JapanEvents/macrossf/live_effect/stage/stage_ef_00.mdl" />
+		<model name="mdl_rosario" deferred_loading="true" file="JapanEvents/macrossf/live_effect/rosario/rosario.mdl" />
+		<model name="mdl_ripple" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ripple/ripple.mdl" />
+		<model name="mdl_Ranka_str03_V" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_V.mdl" />
+		<model name="mdl_Ranka_str03_Star" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_Star.mdl" />
+		<model name="mdl_Ranka_str03_O" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_O.mdl" />
+		<model name="mdl_Ranka_str03_L" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_L.mdl" />
+		<model name="mdl_Ranka_str03_E" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_E.mdl" />
+		<model name="mdl_Ranka_str03_C" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_C.mdl" />
+		<model name="mdl_Ranka_str03_B" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_B.mdl" />
+		<model name="mdl_Ranka_str03_A" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str03/Ranka_str03_A.mdl" />
+		<model name="mdl_Ranka_str01" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_str01/Ranka_str01.mdl" />
+		<model name="mdl_ranka_heart" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_heart/ranka_heart.mdl" />
+		<model name="mdl_polestar_star" deferred_loading="true" file="JapanEvents/macrossf/live_effect/polestar/polestar_star.mdl" />
+		<model name="mdl_polestar" deferred_loading="true" file="JapanEvents/macrossf/live_effect/polestar/polestar.mdl" />
+		<model name="mdl_PaperAirPlane" deferred_loading="true" file="JapanEvents/macrossf/live_effect/paperairplane/PaperAirPlane.mdl" />
+		<model name="mdl_defold_v2" deferred_loading="true" file="JapanEvents/macrossf/live_effect/defold_bg/defold_v2.mdl" />
+		<model name="mdl_defold" deferred_loading="true" file="JapanEvents/macrossf/live_effect/defold_bg/defold.mdl" />
+		<model name="mdl_sheryl_str03_V" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_V.mdl" />
+		<model name="mdl_sheryl_str03_O" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_O.mdl" />
+		<model name="mdl_sheryl_str03_L" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_L.mdl" />
+		<model name="mdl_sheryl_str03_Heart" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_Heart.mdl" />
+		<model name="mdl_sheryl_str03_E" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_E.mdl" />
+		<model name="mdl_sheryl_str03_D" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_D.mdl" />
+		<model name="mdl_sheryl_str03_C" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_C.mdl" />
+		<model name="mdl_sheryl_str03_B" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_B.mdl" />
+		<model name="mdl_sheryl_str03_A" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str03/sheryl_str03_A.mdl" />
+		<model name="mdl_sheryl_str02" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str02/sheryl_str02.mdl" />
+		<model name="mdl_sheryl_str01" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str01/sheryl_str01.mdl" />
+		<model name="mdl_sheryl_str04" deferred_loading="true" file="JapanEvents/macrossf/live_effect/sheryl_str04/sheryl_str04.mdl" />
+		<model name="mdl_petal_out" deferred_loading="true" file="JapanEvents/macrossf/live_effect/petal_out/petal_out.mdl" />
+		<model name="mdl_petal_mid" deferred_loading="true" file="JapanEvents/macrossf/live_effect/petal_mid/petal_mid.mdl" />
+		<model name="mdl_petal_in" deferred_loading="true" file="JapanEvents/macrossf/live_effect/petal_in/petal_in.mdl" />
+		<model name="mdl_mq_ef_tornado" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_tornado.mdl" />
+		<model name="mdl_mq_ef_shockwave" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_shockwave.mdl" />
+		<model name="mdl_mq_ef_beam_wave_thin" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_wave_thin.mdl" />
+		<model name="mdl_mq_ef_beam_wave_big" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_wave_big.mdl" />
+		<model name="mdl_mq_ef_beam_line" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_line.mdl" />
+		<model name="mdl_light_sht_yellow" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_yellow/light_sht_yellow.mdl" />
+		<model name="mdl_light_sht_white" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_white/light_sht_white.mdl" />
+		<model name="mdl_light_sht_red" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_red/light_sht_red.mdl" />
+		<model name="mdl_light_sht_purple" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_purple/light_sht_purple.mdl" />
+		<model name="mdl_light_sht_Pink" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_pink/light_sht_Pink.mdl" />
+		<model name="mdl_light_sht_orange" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_orange/light_sht_orange.mdl" />
+		<model name="mdl_light_sht_green" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_green/light_sht_green.mdl" />
+		<model name="mdl_light_sht_blue" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_sht_blue/light_sht_blue.mdl" />
+		<model name="mdl_light_lng_yellow" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_yellow/light_lng_yellow.mdl" />
+		<model name="mdl_light_lng_white" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_white/light_lng_white.mdl" />
+		<model name="mdl_light_lng_red" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_red/light_lng_red.mdl" />
+		<model name="mdl_light_lng_purple" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_purple/light_lng_purple.mdl" />
+		<model name="mdl_light_lng_Pink" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_pink/light_lng_Pink.mdl" />
+		<model name="mdl_light_lng_orange" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_orange/light_lng_orange.mdl" />
+		<model name="mdl_light_lng_green" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_green/light_lng_green.mdl" />
+		<model name="mdl_light_lng_blue" deferred_loading="true" file="JapanEvents/macrossf/live_effect/light_lng_blue/light_lng_blue.mdl" />
+		<model name="mdl_event_vf25s_start" deferred_loading="true" file="JapanEvents/macrossf/vf25s/event_vf25s_start.mdl" />
+		<model name="mdl_event_vf25s_loop" deferred_loading="true" file="JapanEvents/macrossf/vf25s/event_vf25s_loop.mdl" />
+		<model name="mdl_event_vf25g_start" deferred_loading="true" file="JapanEvents/macrossf/vf25g/event_vf25g_start.mdl" />
+		<model name="mdl_event_vf25g_loop" deferred_loading="true" file="JapanEvents/macrossf/vf25g/event_vf25g_loop.mdl" />
+		<model name="mdl_event_vf25_start" deferred_loading="true" file="JapanEvents/macrossf/vf25/event_vf25_start.mdl" />
+		<model name="mdl_event_vf25_loop" deferred_loading="true" file="JapanEvents/macrossf/vf25/event_vf25_loop.mdl" />
+		<model name="mdl_bajra_motion_c_loop" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_c_loop.mdl" />
+		<model name="mdl_bajra_motion_c" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_c.mdl" />
+		<model name="mdl_bajra_motion_b_loop" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_b_loop.mdl" />
+		<model name="mdl_bajra_motion_b" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_b.mdl" />
+		<model name="mdl_bajra_motion_a_loop" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_a_loop.mdl" />
+		<model name="mdl_bajra_motion_a" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_a.mdl" />
+		<model name="mdl_VF25S" deferred_loading="true" file="JapanEvents/macrossf/vf25s/VF25S.mdl" />
+		<model name="mdl_VF25G" deferred_loading="true" file="JapanEvents/macrossf/vf25g/VF25G.mdl" />
+		<model name="mdl_VF25_Event" deferred_loading="true" file="JapanEvents/macrossf/vf25/VF25_Event.mdl" />
+		<model name="mdl_Shery_HomeModel" deferred_loading="true" file="JapanEvents/macrossf/sheryl/Shery_HomeModel.mdl" />
+		<model name="mdl_Ranka_HomeModel" deferred_loading="true" file="JapanEvents/macrossf/ranka/Ranka_HomeModel.mdl" />
+		<model name="mdl_Monster" deferred_loading="true" file="JapanEvents/macrossf/monster/Monster.mdl" />
+		<model name="mdl_bajra_s" deferred_loading="true" file="JapanEvents/macrossf/bajra_s/Bajra_S.mdl" />
+		<model name="mdl_Bajra_Final" deferred_loading="true" file="JapanEvents/macrossf/bajra/Bajra_Final.mdl" />
+		<model name="mdl_AR_VJC" deferred_loading="true" file="JapanEvents/macrossf/ar_vjc/AR_VJC.mdl" />
+		<model name="mdl_AR_SVC" deferred_loading="true" file="JapanEvents/macrossf/ar_svc/AR_SVC.mdl" />
+		<model name="mdl_spotlight" deferred_loading="true" file="JapanEvents/macrossf/spotlight/spotlight.mdl" />
+		<model name="screen_mdl" deferred_loading="false" file="japanevents/macrossf/macross_screen/Gallery_Screen_macrossF_v3.mdl" />
+		<model name="mdl_mq" deferred_loading="true" file="japanevents/macrossf/mq/mq.mdl" />
+		<model name="mdl_sky_ball" deferred_loading="true" file="Japanevents/macrossf/bajra/sky_ball.mdl" />
+		<model name="sign_panel.mdl" deferred_loading="false" protected="false" file="Japanevents/sign_panel/sign_panel.mdl" />
+		<texture name="error_img_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/error_img.dds" />
+		<texture name="excuse_img_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/excuse_img.dds" />
+		<texture name="liveend_img_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/liveend_img.dds" />
+		<texture name="dayend_img_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/dayend_img.dds" />
+		<texture name="eventend_img_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/eventend_img.dds" />
+		<texture name="wait_img_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/imas_wait.dds" />
+		<texture name="pointlightmask_lamp.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/pointlightmask_lamp.dds" />
+		<texture name="pointlightmask_mirror.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/pointlightmask_mirror.dds" />
+		<texture name="pointlightmask_ranka.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/pointlightmask_ranka.dds" />
+		<texture name="pointlightmask_sheryl.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/pointlightmask_sheryl.dds" />
+		<texture name="spotlightmask_default.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/spotlightmask_default.dds" />
+		<texture name="spotlightmask_Ranka_B.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/spotlightmask_Ranka_B.dds" />
+		<texture name="spotlightmask_Sheryl_A.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/spotlightmask_Sheryl_A.dds" />
+		<texture name="spotlightmask_Sheryl_B.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/spotlightmask_Sheryl_B.dds" />
+		<texture name="spotlightmask_ranka_A.dds" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/spotlightmask_ranka_A.dds" />
+		<texture name="human_error_img_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/human_error_img.dds" />
+		<texture name="edge_dds" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/edge.dds" />
+		<texture name="defappealicon_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/heart.dds" />
+		<texture name="present_icon_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/present_icon.dds" />
+		<texture name="eventarea_tex" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/textures/eventarea.dds" />
+		<particle name="efx_growup_petal_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/growup_petal_00.efx" />
+		<particle name="efx_heart_exp_01_rolling" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_exp_01_rolling.efx" />
+		<particle name="efx_heart_exp_00_rolling" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_exp_00_rolling.efx" />
+		<particle name="efx_water_wall_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/water_wall_00.efx" />
+		<particle name="efx_heart_exp_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_exp_00.efx" />
+		<particle name="efx_heart_exp_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_exp_01.efx" />
+		<particle name="efx_photon_particles_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/photon_particles_00.efx" />
+		<particle name="efx_shooting_set_02" deferred_loading="false" file="ATGParticles/2011Macross/Efx/shooting_set_02.efx" />
+		<particle name="efx_ripple_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/ripple_00.efx" />
+		<particle name="efx_heart_spark_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_spark_01.efx" />
+		<particle name="efx_heart_zoom_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_zoom_00.efx" />
+		<particle name="efx_heart_spark_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_spark_00.efx" />
+		<particle name="efx_heart_appeal_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/heart_appeal_00.efx" />
+		<particle name="efx_tears_rain_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/tears_rain_00.efx" />
+		<particle name="efx_star_glowup_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/star_glowup_01.efx" />
+		<particle name="efx_star_glowup_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/star_glowup_00.efx" />
+		<particle name="efx_shooting_set_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/shooting_set_01.efx" />
+		<particle name="efx_photon_splash_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/photon_splash_00.efx" />
+		<particle name="efx_fire_pillar_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/fire_pillar_01.efx" />
+		<particle name="efx_fire_pillar_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/fire_pillar_00.efx" />
+		<particle name="efx_fire_particles_02" deferred_loading="false" file="ATGParticles/2011Macross/Efx/fire_particles_02.efx" />
+		<particle name="efx_fire_particles_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/fire_particles_01.efx" />
+		<particle name="efx_fire_particles_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/fire_particles_00.efx" />
+		<particle name="efx_butterfly_anim" deferred_loading="false" file="ATGParticles/2011Macross/Efx/butterfly_anim.efx" />
+		<particle name="efx_water_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/water_01.efx" />
+		<particle name="efx_shooting_set_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/shooting_set_00.efx" />
+		<particle name="efx_phton_glowup_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/phton_glowup_00.efx" />
+		<particle name="efx_muzzleflash_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/muzzleflash_00.efx" />
+		<particle name="efx_floorsmoke" deferred_loading="false" file="ATGParticles/2011Macross/Efx/floorsmoke.efx" />
+		<particle name="efx_circle_exp_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/circle_exp_00.efx" />
+		<particle name="efx_bullet_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/bullet_00.efx" />
+		<particle name="efx_watersprash_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/watersprash_01.efx" />
+		<particle name="efx_waterboil_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/waterboil_00.efx" />
+		<particle name="efx_cross_set_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/cross_set_00.efx" />
+		<particle name="efx_cross_01" deferred_loading="false" file="ATGParticles/2011Macross/Efx/cross_01.efx" />
+		<particle name="efx_cross_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/cross_00.efx" />
+		<particle name="efx_watersprash_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/watersprash_00.efx" />
+		<particle name="efx_star_rain_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/star_rain_00.efx" />
+		<particle name="efx_single_razer_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/single_razer_00.efx" />
+		<particle name="efx_rolling_razer_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/rolling_razer_00.efx" />
+		<particle name="efx_photon_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/photon_00.efx" />
+		<particle name="efx_photon_line" deferred_loading="false" file="ATGParticles/JapanEvents/photon_line/efx/photon_line.efx" />
+		<particle name="efx_cannon_heat" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/cannon_heat.efx" />
+		<particle name="efx_macross_charge" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/macross_charge.efx" />
+		<particle name="efx_cannon_ripple" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/cannon_ripple.efx" />
+		<particle name="efx_jack_eye_3" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/jack_eye_3.efx" />
+		<particle name="efx_jack_eye_2" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/jack_eye_2.efx" />
+		<particle name="efx_airplane" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/airplane.efx" />
+		<particle name="efx_black_wind" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/black_wind.efx" />
+		<particle name="efx_black_wind_01" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/black_wind_01.efx" />
+		<particle name="efx_bomb" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/bomb.efx" />
+		<particle name="efx_defoldsmoke" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/defoldsmoke.efx" />
+		<particle name="efx_destroy_fire" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/destroy_fire.efx" />
+		<particle name="efx_destroy_fire_01" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/destroy_fire_01.efx" />
+		<particle name="efx_fire_sparks" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/fire_sparks.efx" />
+		<particle name="efx_glass_crash" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/glass_crash.efx" />
+		<particle name="efx_ground_fire" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/ground_fire.efx" />
+		<particle name="efx_photon_snow" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/photon_snow.efx" />
+		<particle name="efx_rubble_splash" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/rubble_splash.efx" />
+		<particle name="efx_splash_ship" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/splash_ship.efx" />
+		<particle name="efx_star_rain_color" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/star_rain_color.efx" />
+		<particle name="efx_waterboil_01" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/waterboil_01.efx" />
+		<particle name="efx_watersprash_grande_01" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/watersprash_grande_01.efx" />
+		<particle name="efx_watersplash_ship" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/watersplash_ship.efx" />
+		<particle name="efx_watersprash_large_00" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/watersprash_large_00.efx" />
+		<particle name="efx_growup_petal_00" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/growup_petal_00.efx" />
+		<particle name="efx_cannon_ripple_1" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/cannon_ripple_1.efx" />
+		<particle name="efx_macross_charge_1" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/macross_charge_1.efx" />
+		<particle name="efx_water_boil_a" deferred_loading="false" file="ATGParticles/JapanEvents/MacrossF/Efx/water_boil_a.efx" />
+		<particle name="efx_Live_Appeal" deferred_loading="false" file="ATGParticles/Japanevents/Live_Appeal/Efx/Live_Appeal.efx" />
+		<particle name="efx_confetti_splash" deferred_loading="false" file="ATGParticles/Japanevents/confetti_splash/confetti_splash.efx" />
+		<particle name="efx_star_spark_00" deferred_loading="false" file="ATGParticles/2011Macross/Efx/star_spark_00.efx" />
+		<particle name="Live_confetti_efx" deferred_loading="false" file="ATGParticles/japanevents/Live_confetti/efx/Live_confetti.efx" />
+		<particle name="Live_confetti_c_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_confetti/efx/Live_confetti_c.efx" />
+		<particle name="Live_confetti_Imas_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_confetti/efx/Live_confetti_Imas.efx" />
+		<particle name="Live_FilmAppeal_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_FilmAppeal/efx/Live_FilmAppeal.efx" />
+		<particle name="Live_FilmAppeal_Imas_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Live_FilmAppeal_Imas/efx/Live_FilmAppeal_Imas.efx" />
+		<particle name="floorsmoke_efx" deferred_loading="false" file="ATGParticles/JapanEvents/floorsmoke/efx/floorsmoke.efx" />
+		<particle name="jetsmoke_efx" deferred_loading="false" file="ATGParticles/JapanEvents/jetsmoke/efx/jetsmoke.efx" />
+		<particle name="hc_razer_2_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_2/efx/hc_razer_2.efx" />
+		<particle name="hc_razer_3_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_3/efx/hc_razer_3.efx" />
+		<particle name="hc_razer_4_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_razer_4/efx/hc_razer_4.efx" />
+		<particle name="hc_star_rain_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_star_rain/efx/hc_star_rain.efx" />
+		<particle name="hc_photon_twister_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_photon_twister/efx/hc_photon_twister.efx" />
+		<particle name="hc_phton_glowup_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_phton_glowup/efx/hc_phton_glowup.efx" />
+		<particle name="hanabi_set_oodama_efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/hanabi_set_oodama.efx" />
+		<particle name="explosion_efx" deferred_loading="false" file="ATGParticles/JapanEvents/Explosion/efx/BASIC_EXPLOSION_1.efx" />
+		<particle name="blanka_ele_b_efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/blanka_ele_b.efx" />
+		<particle name="H23_Feather_White_efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Halloween/H23_Feather_White/Efx/H23_Feather_White.efx" />
+		<particle name="handhanabi_splash_efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/handhanabi_splash.efx" />
+		<particle name="hanabi_shoot_head.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_shoot_head.efx" />
+		<particle name="hanabi_shoot_tail.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_shoot_tail.efx" />
+		<particle name="hanabi_big_particle.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_big_particle.efx" />
+		<particle name="hanabi_sudare_tail.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_sudare_tail.efx" />
+		<particle name="hanabi_sudare_tail_2.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_sudare_tail_2.efx" />
+		<particle name="hanabi_set_oodama_origin.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_set_oodama_origin.efx" />
+		<particle name="hanabi_kiku.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_kiku.efx" />
+		<particle name="hanabi_back.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_back.efx" />
+		<particle name="hanabi_foot_splash.efx" deferred_loading="false" protected="false" file="ATGParticles/hanabi/Efx/hanabi_foot_splash.efx" />
+		<file name="always_osd" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/osd/always.xml" />
+		<file name="types" deferred_loading="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/osd/types.xml" />
+		<anim name="ani_Cyalume_events" deferred_loading="true" file="JapanEvents/macrossf/live_effect/cyalume/Cyalume_events.ani" memory="host" />
+		<anim name="ani_mq_ef_kamehav2" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_kamehav2.ani" memory="host" />
+		<anim name="ani_defold_v2" deferred_loading="true" file="JapanEvents/macrossf/live_effect/defold_bg/defold_v2.ani" memory="host" />
+		<anim name="ani_defold" deferred_loading="true" file="JapanEvents/macrossf/live_effect/defold_bg/defold.ani" memory="host" />
+		<anim name="ani_mq_ef_tornado" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_tornado.ani" memory="host" />
+		<anim name="ani_mq_ef_shockwave" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_shockwave.ani" memory="host" />
+		<anim name="ani_mq_ef_kameha" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_kameha.ani" memory="host" />
+		<anim name="ani_mq_ef_beam_wave_thin" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_wave_thin.ani" memory="host" />
+		<anim name="ani_mq_ef_beam_wave_big" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_wave_big.ani" memory="host" />
+		<anim name="ani_mq_ef_beam_line" deferred_loading="true" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_line.ani" memory="host" />
+		<anim name="ani_PaperAirPlane" deferred_loading="true" file="JapanEvents/macrossf/live_effect/paperairplane/PaperAirPlane.ani" memory="host" />
+		<anim name="ani_polestar_star" deferred_loading="true" file="JapanEvents/macrossf/live_effect/polestar/polestar_star.ani" memory="host" />
+		<anim name="ani_polestar" deferred_loading="true" file="JapanEvents/macrossf/live_effect/polestar/polestar.ani" memory="host" />
+		<anim name="ani_ranka_heart" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ranka_heart/ranka_heart.ani" memory="host" />
+		<anim name="ani_ripple" deferred_loading="true" file="JapanEvents/macrossf/live_effect/ripple/ripple.ani" memory="host" />
+		<anim name="ani_rosario" deferred_loading="true" file="JapanEvents/macrossf/live_effect/rosario/rosario.ani" memory="host" />
+		<anim name="ani_bajra_fly" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_fly.ani" memory="host" />
+		<anim name="ani_VF25_Event_F" deferred_loading="true" file="JapanEvents/macrossf/vf25/VF25_Event_F.ani" memory="host" />
+		<anim name="ani_event_vf25s_start" deferred_loading="true" file="JapanEvents/macrossf/vf25s/event_vf25s_start.ani" memory="host" />
+		<anim name="ani_event_vf25s_loop" deferred_loading="true" file="JapanEvents/macrossf/vf25s/event_vf25s_loop.ani" memory="host" />
+		<anim name="ani_event_vf25g_start" deferred_loading="true" file="JapanEvents/macrossf/vf25g/event_vf25g_start.ani" memory="host" />
+		<anim name="ani_event_vf25g_loop" deferred_loading="true" file="JapanEvents/macrossf/vf25g/event_vf25g_loop.ani" memory="host" />
+		<anim name="ani_event_vf25_start" deferred_loading="true" file="JapanEvents/macrossf/vf25/event_vf25_start.ani" memory="host" />
+		<anim name="ani_event_vf25_loop" deferred_loading="true" file="JapanEvents/macrossf/vf25/event_vf25_loop.ani" memory="host" />
+		<anim name="ani_bajra_motion_c_loop" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_c_loop.ani" memory="host" />
+		<anim name="ani_bajra_motion_c" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_c.ani" memory="host" />
+		<anim name="ani_bajra_motion_b_loop" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_b_loop.ani" memory="host" />
+		<anim name="ani_bajra_motion_b" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_b.ani" memory="host" />
+		<anim name="ani_bajra_motion_a_loop" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_a_loop.ani" memory="host" />
+		<anim name="ani_bajra_motion_a" deferred_loading="true" file="JapanEvents/macrossf/bajra/bajra_motion_a.ani" memory="host" />
+		<anim name="ani_MQ_EventsMotion" deferred_loading="true" file="JapanEvents/macrossf/mq/MQ_EventsMotion.ani" memory="host" />
+		<anim name="ani_VF25S" deferred_loading="true" file="JapanEvents/macrossf/vf25s/VF25S.ani" memory="host" />
+		<anim name="ani_VF25G" deferred_loading="true" file="JapanEvents/macrossf/vf25g/VF25G.ani" memory="host" />
+		<anim name="ani_VF25_Event" deferred_loading="true" file="JapanEvents/macrossf/vf25/VF25_Event.ani" memory="host" />
+		<anim name="ani_Shery_HomeModel" deferred_loading="true" file="JapanEvents/macrossf/sheryl/Shery_HomeModel.ani" memory="host" />
+		<anim name="ani_Monster" deferred_loading="true" file="JapanEvents/macrossf/monster/Monster.ani" memory="host" />
+		<anim name="ani_bajra_s" deferred_loading="true" file="JapanEvents/macrossf/bajra_s/Bajra_S.ani" memory="host" />
+		<anim name="ani_AR_VJC" deferred_loading="true" file="JapanEvents/macrossf/ar_vjc/AR_VJC.ani" memory="host" />
+		<anim name="ani_AR_SVC" deferred_loading="true" file="JapanEvents/macrossf/ar_svc/AR_SVC.ani" memory="host" />
+		<anim name="nothern_idle" deferred_loading="false" file="japanevents/macrossf/sheryl/Shery_Home_nothern_wait.ani" />
+		<anim name="nothern_dance" deferred_loading="true" file="japanevents/macrossf/sheryl/Shery_Home_nothern.ani" memory="host" />
+		<anim name="nothernFull_dance" deferred_loading="true" file="japanevents/macrossf/sheryl/Shery_Home_nothern_full.ani" memory="host" />
+		<anim name="anatanooto_idle" deferred_loading="false" file="japanevents/macrossf/ranka/Ranka_Home_anatanooto_wait.ani" />
+		<anim name="anatanooto_dance" deferred_loading="true" file="japanevents/macrossf/ranka/Ranka_Home_anatanooto.ani" memory="host" />
+		<anim name="anatanootoFull_dance" deferred_loading="true" file="japanevents/macrossf/ranka/Ranka_Home_anatanooto_full.ani" memory="host" />
+		<anim name="seikanhikou_idle" deferred_loading="false" file="japanevents/macrossf/ranka/Ranka_Home_seikanhikou_wait.ani" />
+		<anim name="seikanhikou_dance" deferred_loading="true" file="japanevents/macrossf/ranka/Ranka_Home_seikanhikou.ani" memory="host" />
+		<anim name="seikanhikou_start" deferred_loading="true" file="japanevents/macrossf/ranka/Ranka_Home_seikanhikou_start.ani" memory="host" />
+		<anim name="seikanhikou_end" deferred_loading="true" file="japanevents/macrossf/ranka/Ranka_Home_seikanhikou_end.ani" memory="host" />
+		<anim name="sei_vf25_idle" deferred_loading="false" file="japanevents/macrossf/vf25/Ranka_Home_seikanhikouVF25_wait.ani" />
+		<anim name="sei_vf25_start" deferred_loading="true" file="japanevents/macrossf/vf25/Ranka_Home_seikanhikouVF25_start.ani" memory="host" />
+		<anim name="sei_vf25_end" deferred_loading="true" file="japanevents/macrossf/vf25/Ranka_Home_seikanhikouVF25_end.ani" memory="host" />
+		<anim name="ani_00_Ranka_Live_stans_close" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/00_Ranka_Live_stans_close.ani" memory="host" />
+		<anim name="ani_01_Ranka_Live_close_eyes" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/01_Ranka_Live_close_eyes.ani" memory="host" />
+		<anim name="ani_02_Ranka_Live_step_one" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/02_Ranka_Live_step_one.ani" memory="host" />
+		<anim name="ani_02_Ranka_Live_step_side_00" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/02_Ranka_Live_step_side_00.ani" memory="host" />
+		<anim name="ani_02_Ranka_Live_step_side_01" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/02_Ranka_Live_step_side_01.ani" memory="host" />
+		<anim name="ani_02_Ranka_Live_step_side_02" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/02_Ranka_Live_step_side_02.ani" memory="host" />
+		<anim name="ani_02_Ranka_Live_step_side_03" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/02_Ranka_Live_step_side_03.ani" memory="host" />
+		<anim name="ani_03_Ranka_Live_step_stay" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/03_Ranka_Live_step_stay.ani" memory="host" />
+		<anim name="ani_04_Ranka_Live_rythm" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/04_Ranka_Live_rythm.ani" memory="host" />
+		<anim name="ani_04_Ranka_Live_rythm_fst" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/04_Ranka_Live_rythm_fst.ani" memory="host" />
+		<anim name="ani_05_Ranka_Live_sing_start" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/05_Ranka_Live_sing_start.ani" memory="host" />
+		<anim name="ani_06_Ranka_Live_singing" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/06_Ranka_Live_singing.ani" memory="host" />
+		<anim name="ani_06_Ranka_Live_singing_fst" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/06_Ranka_Live_singing_fst.ani" memory="host" />
+		<anim name="ani_07_Ranka_Live_sing_end" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/07_Ranka_Live_sing_end.ani" memory="host" />
+		<anim name="ani_07_Ranka_Live_sing_end_short" deferred_loading="true" file="japanevents/macrossf/ranka/motion_mb/07_Ranka_Live_sing_end_short.ani" memory="host" />
+		<anim name="ani_00_Sheryl_Live_intro" deferred_loading="true" file="japanevents/macrossf/sheryl/motion_mb/00_Sheryl_Live_intro.ani" memory="host" />
+		<anim name="ani_01_Sheryl_Live_Song_A" deferred_loading="true" file="japanevents/macrossf/sheryl/motion_mb/01_Sheryl_Live_Song_A.ani" memory="host" />
+		<anim name="ani_02_Sheryl_Live_Song_B" deferred_loading="true" file="japanevents/macrossf/sheryl/motion_mb/02_Sheryl_Live_Song_B.ani" memory="host" />
+		<anim name="ani_03_Sheryl_Live_Loop_A" deferred_loading="true" file="japanevents/macrossf/sheryl/motion_mb/03_Sheryl_Live_Loop_A.ani" memory="host" />
+		<anim name="ani_04_Sheryl_Live_end" deferred_loading="true" file="japanevents/macrossf/sheryl/motion_mb/04_Sheryl_Live_end.ani" memory="host" />
+		<anim name="ani_bajra_motion_fast_loop" deferred_loading="true" file="Japanevents/macrossf/bajra/bajra_motion_fast_loop.ani" memory="host" />
+		<anim name="ani_bajra_motion_slow_loop" deferred_loading="true" file="Japanevents/macrossf/bajra/bajra_motion_slow_loop.ani" memory="host" />
+		<skeleton name="skn_Cyalume_events" deferred_loading="false" file="JapanEvents/macrossf/live_effect/cyalume/Cyalume_events.skn" />
+		<skeleton name="skn_mq_ef_kamehav2" deferred_loading="false" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_kamehav2.skn" />
+		<skeleton name="skn_defold_v2" deferred_loading="false" file="JapanEvents/macrossf/live_effect/defold_bg/defold_v2.skn" />
+		<skeleton name="skn_defold" deferred_loading="false" file="JapanEvents/macrossf/live_effect/defold_bg/defold.skn" />
+		<skeleton name="skn_mq_ef_tornado" deferred_loading="false" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_tornado.skn" />
+		<skeleton name="skn_mq_ef_shockwave" deferred_loading="false" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_shockwave.skn" />
+		<skeleton name="skn_mq_ef_kameha" deferred_loading="false" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_kameha.skn" />
+		<skeleton name="skn_mq_ef_beam_wave_thin" deferred_loading="false" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_wave_thin.skn" />
+		<skeleton name="skn_mq_ef_beam_wave_big" deferred_loading="false" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_wave_big.skn" />
+		<skeleton name="skn_mq_ef_beam_line" deferred_loading="false" file="JapanEvents/macrossf/live_effect/macross_cannon/mq_ef_beam_line.skn" />
+		<skeleton name="skn_PaperAirPlane" deferred_loading="false" file="JapanEvents/macrossf/live_effect/paperairplane/PaperAirPlane.skn" />
+		<skeleton name="skn_polestar_star" deferred_loading="false" file="JapanEvents/macrossf/live_effect/polestar/polestar_star.skn" />
+		<skeleton name="skn_polestar" deferred_loading="false" file="JapanEvents/macrossf/live_effect/polestar/polestar.skn" />
+		<skeleton name="skn_ranka_heart" deferred_loading="false" file="JapanEvents/macrossf/live_effect/ranka_heart/ranka_heart.skn" />
+		<skeleton name="skn_ripple" deferred_loading="false" file="JapanEvents/macrossf/live_effect/ripple/ripple.skn" />
+		<skeleton name="skn_rosario" deferred_loading="false" file="JapanEvents/macrossf/live_effect/rosario/rosario.skn" />
+		<skeleton name="skn_VF25_Event_F" deferred_loading="false" file="JapanEvents/macrossf/vf25/VF25_Event_F.skn" />
+		<skeleton name="skn_Ranka_Home_seikanhikouVF25_wait" deferred_loading="false" file="JapanEvents/macrossf/vf25/Ranka_Home_seikanhikouVF25_wait.skn" />
+		<skeleton name="skn_Ranka_Home_seikanhikouVF25_start" deferred_loading="false" file="JapanEvents/macrossf/vf25/Ranka_Home_seikanhikouVF25_start.skn" />
+		<skeleton name="skn_Ranka_Home_seikanhikouVF25_end" deferred_loading="false" file="JapanEvents/macrossf/vf25/Ranka_Home_seikanhikouVF25_end.skn" />
+		<skeleton name="skn_event_vf25s_start" deferred_loading="false" file="JapanEvents/macrossf/vf25s/event_vf25s_start.skn" />
+		<skeleton name="skn_event_vf25s_loop" deferred_loading="false" file="JapanEvents/macrossf/vf25s/event_vf25s_loop.skn" />
+		<skeleton name="skn_event_vf25g_start" deferred_loading="false" file="JapanEvents/macrossf/vf25g/event_vf25g_start.skn" />
+		<skeleton name="skn_event_vf25g_loop" deferred_loading="false" file="JapanEvents/macrossf/vf25g/event_vf25g_loop.skn" />
+		<skeleton name="skn_event_vf25_start" deferred_loading="false" file="JapanEvents/macrossf/vf25/event_vf25_start.skn" />
+		<skeleton name="skn_event_vf25_loop" deferred_loading="false" file="JapanEvents/macrossf/vf25/event_vf25_loop.skn" />
+		<skeleton name="skn_Bajra_Final" deferred_loading="false" file="JapanEvents/macrossf/bajra/Bajra_Final.skn" />
+		<skeleton name="skn_VF25S" deferred_loading="false" file="JapanEvents/macrossf/vf25s/VF25S.skn" />
+		<skeleton name="skn_VF25G" deferred_loading="false" file="JapanEvents/macrossf/vf25g/VF25G.skn" />
+		<skeleton name="skn_VF25_Event" deferred_loading="false" file="JapanEvents/macrossf/vf25/VF25_Event.skn" />
+		<skeleton name="skn_Shery_HomeModel" deferred_loading="false" file="JapanEvents/macrossf/sheryl/Shery_HomeModel.skn" />
+		<skeleton name="skn_Ranka_HomeModel" deferred_loading="false" file="JapanEvents/macrossf/ranka/Ranka_HomeModel.skn" />
+		<skeleton name="skn_MQ_EventsMotion" deferred_loading="false" file="JapanEvents/macrossf/mq/MQ_EventsMotion.skn" />
+		<skeleton name="skn_Monster" deferred_loading="false" file="JapanEvents/macrossf/monster/Monster.skn" />
+		<skeleton name="skn_bajra_s" deferred_loading="false" file="JapanEvents/macrossf/bajra_s/Bajra_S.skn" />
+		<skeleton name="skn_AR_VJC" deferred_loading="false" file="JapanEvents/macrossf/ar_vjc/AR_VJC.skn" />
+		<skeleton name="skn_AR_SVC" deferred_loading="false" file="JapanEvents/macrossf/ar_svc/AR_SVC.skn" />
+		<soundbank name="fireworks.bnk" deferred_loading="false" protected="false" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/hanabi/sound/fireworks_mono.bnk" />
+		<lua name="main" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/main.luac" />
+		<lua name="eventLoadLibrary" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventLoadLibrary.luac" />
+		<lua name="paHomeUI" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeUI.luac" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeCommon.luac" />
+		<lua name="paHomeScreen" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeScreen.luac" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeServerBase.luac" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeServerTrigger.luac" />
+		<lua name="paHomeServerGeneral" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeServerGeneral.luac" />
+		<lua name="paHomeServerCommon" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeServerCommon.luac" />
+		<lua name="paHomeServerCustom" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeServerCustom.luac" />
+		<lua name="paHomeSoundMgr" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeSoundMgr.luac" />
+		<lua name="paHomeSoundBank" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeSoundBank.luac" />
+		<lua name="paHomeSoundStream" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeSoundStream.luac" />
+		<lua name="paHomeCommonDebug" deferred_loading="true" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeCommonDebug.luac" />
+		<lua name="parameters" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/parameters.luac" />
+		<lua name="eventmain" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventmain.luac" />
+		<lua name="eventStateGlobal" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventStateGlobal.luac" />
+		<lua name="eventStateGame" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventStateGame.luac" />
+		<lua name="eventosd" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventosd.luac" />
+		<lua name="eventtrigger" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventtrigger.luac" />
+		<lua name="eventsound" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventsound.luac" />
+		<lua name="eventserver" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventserver.luac" />
+		<lua name="eventscreen" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventscreen.luac" />
+		<lua name="eventcamera" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventcamera.luac" />
+		<lua name="eventlight" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventlight.luac" />
+		<lua name="eventmessage" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventmessage.luac" />
+		<lua name="eventreward" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventreward.luac" />
+		<lua name="eventResourceData" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventResourceData2.luac" />
+		<lua name="eventExternalData" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventExternalData.luac" />
+		<lua name="actionlist" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/actionlist.luac" />
+		<lua name="modelEffectMotion" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/modelEffectMotion.luac" />
+		<lua name="particleEffectMotion" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/particleEffectMotion.luac" />
+		<lua name="RndUI" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/RndUI.luac" />
+		<lua name="misc" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/misc.luac" />
+		<lua name="mathx" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/mathx.luac" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomePosCalc.luac" />
+		<lua name="eventRenderer" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventRenderer.luac" />
+		<lua name="rendererparam" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/rendererparam.luac" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/paHomeTime.luac" />
+		<lua name="eventResourceParam" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventResourceParam.luac" />
+		<lua name="event2Dsprite" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/event2Dsprite.luac" />
+		<lua name="eventUI" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventUI.luac" />
+		<lua name="eventSysMessage" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventSysMessage.luac" />
+		<lua name="eventModelSetting" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventModelSetting.luac" />
+		<lua name="event3DModel" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/event3DModel.luac" />
+		<lua name="skyparam" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/skyparam.luac" />
+		<lua name="eventSkySetting" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventSkySetting.luac" />
+		<lua name="eventHumanError" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventHumanError.luac" />
+		<lua name="eventSceneEntity" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventSceneEntity.luac" />
+		<lua name="eventSummary" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/eventSummary.luac" />
+		<lua name="information" deferred_loading="false" protected="true" file="objects/99EE60AF-48BF4F7F-BD0268B4-2EB03304/lua/doc/information.luac" />
+		<lua name="EffHanabi" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/hanabi/source/EffHanabi.luac" />
+		<lua name="FxInvoke" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/hanabi/source/FxInvoke.luac" />
+		<lua name="task" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/hanabi/source/task.luac" />
+		<lua name="fwmain" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/hanabi/source/fwmain.luac" />
+		<lua name="fwconfig" deferred_loading="false" protected="true" file="objects/483F2BF1-A88A4543-9947C90C-A7F9B1F0/scripts/hanabi/source/fwconfig.luac" />
+	</local>
+	<external />
+</resources>

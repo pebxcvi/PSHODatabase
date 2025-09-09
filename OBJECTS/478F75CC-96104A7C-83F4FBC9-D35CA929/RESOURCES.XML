@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Long_Sword.mdl" deferred_loading="true" protected="false" file="nonavataranim/long_sword/Long_Sword_spectral.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Long_Sword/file/config.xml" memory="host" />
+		<anim name="TwoHandedSword_Run" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandedSword_Run.ani" memory="host" />
+		<anim name="TwoHandSword_AtkPose" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_AtkPose.ani" />
+		<anim name="TwoHandSword_HighLow" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_HighLow.ani" memory="host" />
+		<anim name="TwoHandSword_Idle" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_Idle.ani" />
+		<anim name="TwoHandSword_Jog" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_Jog.ani" />
+		<anim name="TwoHandSword_Pose" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_Pose.ani" />
+		<anim name="TwoHandSword_Slash" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_Slash.ani" memory="host" />
+		<anim name="TwoHandSword_Walk" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_Walk.ani" memory="host" />
+		<anim name="TwoHandSword_SpinJab" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_SpinJab.ani" />
+		<anim name="Long_Sword.ani" deferred_loading="true" protected="false" file="nonavataranim/long_sword/Long_Sword.ani" />
+		<anim name="Long_Sword_flipped.ani" deferred_loading="true" protected="false" file="nonavataranim/long_sword/Long_Sword_flipped.ani" />
+		<anim name="TwoHandSword_KneelDownSword" deferred_loading="true" protected="false" file="animation/male/two_handed_sword/TwoHandSword_KneelDownSword.ani" />
+		<anim name="TwoHandSwordFem_Idle" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_Idle.ani" />
+		<anim name="TwoHandSwordFem_HighLow" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_HighLow.ani" memory="host" />
+		<anim name="TwoHandSwordFem_SpinJab" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_SpinJab.ani" memory="host" />
+		<anim name="TwoHandSwordFem_Slash" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_Slash.ani" />
+		<anim name="TwoHandSwordFem_Run" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_Run.ani" />
+		<anim name="TwoHandSwordFem_Jog" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_Jog.ani" />
+		<anim name="TwoHandSwordFem_Walk" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_Walk.ani" memory="host" />
+		<anim name="TwoHandSwordFem_AtkPose" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_AtkPose.ani" />
+		<anim name="TwoHandSwordFem_AttentionPose" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_AttentionPose.ani" />
+		<anim name="TwoHandSwordFem_KneelPose" deferred_loading="true" protected="false" file="animation/female/twohandswordfem/TwoHandSwordFem_KneelPose.ani" />
+		<skeleton name="Long_Sword.skn" deferred_loading="true" protected="false" file="nonavataranim/long_sword/Long_Sword.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Long_Sword/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Long_Sword/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Long_Sword/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Long_Sword/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Long_Sword/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

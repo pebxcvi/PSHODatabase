@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="osd_types" deferred_loading="false" file="MiniGames/PubPumps/OSD/types.xml" />
+		<file name="NetworkXML" deferred_loading="false" file="MiniGames/PubPumps/Network.xml" />
+		<file name="osd_pump_prompt" deferred_loading="false" file="MiniGames/PubPumps/OSD/pump_prompt.xml" />
+		<anim name="PullPumpAnim" deferred_loading="false" file="environments/pubapt/Models/pump.ani" />
+		<anim name="ResetPumpAnim" deferred_loading="false" file="environments/pubapt/Models/pump_reset.ani" />
+		<soundbank name="PubPumpsSounds" deferred_loading="false" file="MiniGames/PubPumps/Sound/PubPumpsSounds.bnk" />
+		<lua name="PubPumps" deferred_loading="false" protected="true" file="MiniGames/PubPumps/PubPumps.lua" />
+		<lua name="AreaTrigger" deferred_loading="false" protected="true" file="environments/pubapt/AreaTrigger.lua" />
+	</local>
+	<external />
+</resources>

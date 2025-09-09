@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="LoadingScreenTextBar" deferred_loading="false" protected="false" file="MiniGames/nmlscenetransition/Textures/LoadingScreen_TR_TextBar.dds" />
+		<texture name="LoadingScreenTextBarIcon" deferred_loading="false" protected="false" file="MiniGames/nmlscenetransition/Textures/LoadingScreen_TextBar_TR_ForIcons.dds" />
+		<texture name="LoadingScreenIconDeathMatch" deferred_loading="false" protected="false" file="MiniGames/nmlscenetransition/Textures/LoadingScreen_TR_Icon_DeathMatch.dds" />
+		<texture name="LoadingScreenIconSalvage" deferred_loading="false" protected="false" file="MiniGames/nmlscenetransition/Textures/LoadingScreen_Icon_Salvage.dds" />
+		<texture name="LoadingScreen_Splash" deferred_loading="false" protected="false" file="MiniGames/nmlscenetransition/Textures/LoadingScreen_Splash.dds" />
+		<texture name="NoMansLand_TRLobby_9382_FE1A" deferred_loading="true" protected="false" file="MiniGames/nmlscenetransition/Textures/LoadingScreen_TotalRecallLobby.dds" />
+		<texture name="NoMansLand_TRNewAsia_6A5B_8F06" deferred_loading="true" protected="false" file="MiniGames/nmlscenetransition/Textures/LoadingScreen_TotalRecall.dds" />
+		<file name="tenbyfive.ttf" deferred_loading="false" protected="false" file="RealTimeGames/No_Mans_Land/fonts/tenbyfive.ttf" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscenetransition/lua/MiniGame.lua" />
+		<lua name="version.lua" deferred_loading="false" protected="true" file="Core/version.lua" />
+	</local>
+	<external />
+</resources>

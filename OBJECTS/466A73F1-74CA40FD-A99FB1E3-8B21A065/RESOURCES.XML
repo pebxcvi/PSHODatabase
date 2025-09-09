@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="audihub_flyer_model" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_flyer.mdl" />
+		<model name="audihub_vistascopebase_model" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_vistascopebase.mdl" />
+		<model name="audihub_vistascopehead_model" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_vistascopehead.mdl" />
+		<texture name="PlayerCursor" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Player.dds" />
+		<texture name="FlyerView" deferred_loading="false" file="MiniGames/AudiWindows/Textures/FlyerView.dds" />
+		<texture name="Piece6_outer" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece6_outer.dds" />
+		<texture name="Piece1_outer" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece1_outer.dds" />
+		<texture name="Piece2_outer" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece2_outer.dds" />
+		<texture name="Piece3_outer" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece3_outer.dds" />
+		<texture name="Piece4_outer" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece4_outer.dds" />
+		<texture name="Piece5_outer" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece5_outer.dds" />
+		<texture name="collisionVFX" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Collision.dds" />
+		<texture name="hud_counter" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_counter.dds" />
+		<texture name="hud_piece" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_piece.dds" />
+		<texture name="Piece6_collect" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece6_collect.dds" />
+		<texture name="Piece1_avoid" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece1_avoid.dds" />
+		<texture name="Piece1_collect" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece1_collect.dds" />
+		<texture name="Piece2_avoid" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece2_avoid.dds" />
+		<texture name="Piece2_collect" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece2_collect.dds" />
+		<texture name="Piece3_avoid" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece3_avoid.dds" />
+		<texture name="Piece3_collect" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece3_collect.dds" />
+		<texture name="Piece4_avoid" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece4_avoid.dds" />
+		<texture name="Piece4_collect" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece4_collect.dds" />
+		<texture name="Piece5_avoid" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece5_avoid.dds" />
+		<texture name="Piece5_collect" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece5_collect.dds" />
+		<texture name="Piece6_avoid" deferred_loading="false" file="MiniGames/AudiWindows/Textures/Piece6_avoid.dds" />
+		<texture name="collectVFX6" deferred_loading="false" file="MiniGames/AudiWindows/Textures/collectVFX6.dds" />
+		<texture name="collectVFX2" deferred_loading="false" file="MiniGames/AudiWindows/Textures/collectVFX2.dds" />
+		<texture name="collectVFX3" deferred_loading="false" file="MiniGames/AudiWindows/Textures/collectVFX3.dds" />
+		<texture name="collectVFX4" deferred_loading="false" file="MiniGames/AudiWindows/Textures/collectVFX4.dds" />
+		<texture name="collectVFX5" deferred_loading="false" file="MiniGames/AudiWindows/Textures/collectVFX5.dds" />
+		<texture name="collectVFX1" deferred_loading="false" file="MiniGames/AudiWindows/Textures/collectVFX.dds" />
+		<texture name="A1_foreground" deferred_loading="false" file="MiniGames/AudiWindows/Textures/A1_logo.dds" />
+		<texture name="A1_background" deferred_loading="false" file="MiniGames/AudiWindows/Textures/A1Background_2.dds" />
+		<texture name="hud_win_lose_bg" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_winner_dialogue_no_corners.dds" />
+		<texture name="hud_help_bg" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_instruction_dialogue_no_corners.dds" />
+		<texture name="hud_red_tri_arrow" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_red_tri_arrow.dds" />
+		<texture name="hud_level_info_wheel" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_level_info_wheel.dds" />
+		<texture name="hud_level_info_alloy" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_level_info_alloy.dds" />
+		<texture name="hud_level_info_car" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_level_info_car.dds" />
+		<texture name="hud_level_info_gear_stick" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_level_info_gear_stick.dds" />
+		<texture name="hud_level_info_headlight" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_level_info_headlight.dds" />
+		<texture name="hud_level_info_radiator" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_level_info_radiator.dds" />
+		<texture name="hud_level_info_rev_counter" deferred_loading="false" file="MiniGames/AudiWindows/Textures/hud_level_info_rev_counter.dds" />
+		<collision name="audihub_vistascopebase_collision" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_vistascopebase.hkx" />
+		<anim name="audihub_flyer_anim" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_flyer.ani" />
+		<anim name="audihub_flyer_victory_anim" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_flyer_victory.ani" />
+		<anim name="audihub_vistascopehead_victory_anim" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_vistascopehead_victory.ani" />
+		<anim name="audihub_vistascopehead_anim" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_vistascopehead.ani" />
+		<anim name="audihub_vistascopehead_idle_anim" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_vistascopehead_idle.ani" />
+		<anim name="audihub_flyer_idle_anim" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_flyer_idle.ani" />
+		<skeleton name="audihub_flyer_skel" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_flyer.skn" />
+		<skeleton name="audihub_vistascopehead_skel" deferred_loading="false" file="MiniGames/AudiWindows/Models/audihub_vistascopehead.skn" />
+		<soundbank name="AudiWindowsSoundBank" deferred_loading="true" file="MiniGames/AudiWindows/Sounds/AudiWindows.bnk" />
+		<lua name="AudiWindows Script" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/AudiWindows.lua" />
+		<lua name="WindowsGame" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/WindowsGame.lua" />
+		<lua name="List" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/List.lua" />
+		<lua name="WindowsFSM" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/WindowsFSM.lua" />
+		<lua name="VEEMEEDebug" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/VEEMEEDebug.lua" />
+		<lua name="WindowScreen" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/WindowScreen.lua" />
+		<lua name="CRSplineWithOrientation" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/CRSplineWithOrientation.lua" />
+		<lua name="DollyCamera" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/DollyCamera.lua" />
+		<lua name="DollyCameraData" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/DollyCameraData.lua" />
+		<lua name="MapData" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/MapData.lua" />
+		<lua name="Piece" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/Piece.lua" />
+		<lua name="Timers" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/Timers.lua" />
+		<lua name="Collisions" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/Collisions.lua" />
+		<lua name="Pad" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/Pad.lua" />
+		<lua name="ObjectPool" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/ObjectPool.lua" />
+		<lua name="DynamicEntity" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/DynamicEntity.lua" />
+		<lua name="Path" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/Path.lua" />
+		<lua name="VMScoreRequest" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/VMScoreRequest.lua" />
+		<lua name="VMScore" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/VMScore.lua" />
+		<lua name="VMTrophyRequest" deferred_loading="false" protected="true" file="MiniGames/AudiWindows/VMTrophyRequest.lua" />
+	</local>
+	<external />
+</resources>

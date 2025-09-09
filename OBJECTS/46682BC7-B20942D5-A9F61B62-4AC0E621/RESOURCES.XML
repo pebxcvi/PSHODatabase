@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<soundbank name="phk_sound.bnk" deferred_loading="false" protected="false" file="environments/phk_lounge/phk_sound.bnk" />
+		<soundbank name="phk_minigame.bnk" deferred_loading="false" protected="false" file="environments/phk_lounge/phk_minigame.bnk" memory="main" />
+		<soundbank name="phk_fortune_teller.bnk" deferred_loading="false" protected="false" file="environments/phk_lounge/phk_fortune_teller.bnk" />
+		<soundbank name="phk_dance.bnk" deferred_loading="false" protected="false" file="environments/phk_lounge/phk_dance.bnk" />
+		<soundbank name="phk_dance_bgm.bnk" deferred_loading="false" protected="false" file="environments/phk_lounge/phk_dance_bgm.bnk" />
+		<soundbank name="phk_dance_sound.bnk" deferred_loading="false" protected="false" file="environments/phk_lounge/phk_dance_sound.bnk" />
+		<soundstream name="00_bgm_first.mp3" deferred_loading="false" protected="false" file="environments/phk_lounge/00_bgm_first.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SoundObject/lua/MiniGame.lua" />
+		<lua name="global.lua" deferred_loading="false" protected="true" file="Scripts/global.lua" />
+		<lua name="libsoundmanager.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libsoundmanager.lua" />
+		<lua name="liblistener.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/liblistener.lua" />
+		<lua name="libcore.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libcore.lua" />
+		<lua name="libgame.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libgame.lua" />
+	</local>
+	<external />
+</resources>

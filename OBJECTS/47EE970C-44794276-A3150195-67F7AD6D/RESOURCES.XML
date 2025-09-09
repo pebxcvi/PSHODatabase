@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="RaceConsole"	file="MiniGames/Framework/Models/Arcade_car.mdl" />
+		<model name="YellowRaceCar"	file="MiniGames/Framework/Models/Yellow_Race_CarX.mdl" />
+		<model name="GreenRaceCar"	file="MiniGames/Framework/Models/Green_Race_CarX.mdl" />
+		<model name="RedRaceCar"	file="MiniGames/Framework/Models/Red_Race_CarX.mdl" />
+		<model name="BlueRaceCar"	file="MiniGames/Framework/Models/Blue_Race_CarX.mdl" />
+		<model name="FrontWheel"	file="MiniGames/Framework/Models/WheelFront.mdl" />
+		<model name="RearWheel"		file="MiniGames/Framework/Models/WheelRear.mdl" />
+		<model name="SignModel"		file="minigames/framework/models/flatPanel.mdl" />
+		<model name="FightNightSign" file="minigames/framework/models/clubFNdoors.mdl" />
+		<model name="RetailSignage" file="minigames/framework/models/windowDisplays.mdl" />
+
+		<texture name="TextBox" file="MiniGames/Framework/Textures/Racing/Text_Box.dds" deferred_loading="false" />
+		<texture name="Logo" file="MiniGames/Framework/Textures/Racing/EA_Sports_Racing_Logo_Small.dds" deferred_loading="false" />
+		<texture name="Speedometer" file="MiniGames/Framework/Textures/Racing/Speedometer_Back.dds" deferred_loading="false" />
+		<texture name="SpeedoNeedle" file="MiniGames/Framework/Textures/Racing/Speedometer_Pin.dds" deferred_loading="false" />
+		<texture name="SpeedoGlass" file="MiniGames/Framework/Textures/Racing/Speedometer_Glass.dds" deferred_loading="false" />
+		<texture name="RedLight" file="MiniGames/Framework/Textures/Racing/Racing_Red_Light_Hot.dds" deferred_loading="false" />
+		<texture name="YellowLight" file="MiniGames/Framework/Textures/Racing/Racing_Yellow_Light_Hot.dds" deferred_loading="false" />
+		<texture name="GreenLight" file="MiniGames/Framework/Textures/Racing/Racing_Green_Light_Hot.dds" deferred_loading="false" />
+		<texture name="BlueLight" file="MiniGames/Framework/Textures/Racing/Racing_Blue_Light_Hot.dds" deferred_loading="false" />
+		<texture name="Watermark" file="minigames/framework/textures/Racing/Watermark.dds" deferred_loading="false" />
+		
+		<file name="Camera" file="MiniGames/Framework/LUA/Obfuscated/Camera.lua" deferred_loading="false" />
+		<file name="SecurityManager" file="minigames/framework/LUA/Obfuscated/SecurityManager.lua" deferred_loading="false" />
+		<file name="Utilities" file="MiniGames/Framework/LUA/Obfuscated/Utilities.lua" deferred_loading="false" />
+		<file name="EventManager" file="MiniGames/Framework/LUA/Obfuscated/EventManager.lua" deferred_loading="false" />
+		<file name="MessageManager" file="MiniGames/Framework/LUA/Obfuscated/MessageManager.lua" deferred_loading="false" />
+		<file name="LOL" file="MiniGames/Framework/LUA/Obfuscated/LOL.lua" deferred_loading="false" />
+		<file name="TimerClass" file="MiniGames/Framework/LUA/Obfuscated/TimerClass.lua" deferred_loading="false" />
+		<file name="CountdownTimerClass" file="MiniGames/Framework/LUA/Obfuscated/CountdownTimerClass.lua" deferred_loading="false" />
+		<file name="ProcessManager" file="MiniGames/Framework/LUA/Obfuscated/ProcessManager.lua" deferred_loading="false" />
+		<file name="InputManager" file="MiniGames/Framework/LUA/Obfuscated/InputManager.lua" deferred_loading="false" />
+		<file name="Matrix" file="MiniGames/Framework/LUA/Obfuscated/Matrix.lua" deferred_loading="false" />
+		<file name="OSD" file="MiniGames/Framework/LUA/Obfuscated/OSD.lua" deferred_loading="false" />
+		<file name="FirstPersonCamera" file="MiniGames/Framework/LUA/Obfuscated/FirstPersonCamera.lua" deferred_loading="false" />
+		<file name="ParseXmlOnlineClass" file="MiniGames/Framework/LUA/Obfuscated/ParseXmlOnlineClass.lua" deferred_loading="false" />
+		<file name="MiniGame" file="MiniGames/Racing_New/LUA/Obfuscated/Race.lua" deferred_loading="false" />
+		<file name="RaceLeaderboard" file="MiniGames/Racing_New/LUA/Obfuscated/RaceLeaderboard.lua" deferred_loading="false" />
+		<file name="RaceCamera" file="MiniGames/Racing_New/LUA/Obfuscated/RaceCamera.lua" deferred_loading="false" />
+		<file name="RaceBooth" file="MiniGames/Racing_New/LUA/Obfuscated/RaceBooth.lua" deferred_loading="false" />
+		<file name="RaceConsoleLUA" file="MiniGames/Racing_New/LUA/Obfuscated/RaceConsole.lua" deferred_loading="false" />
+		<file name="RaceCar" file="MiniGames/Racing_New/LUA/Obfuscated/RaceCar.lua" deferred_loading="false" />
+		<file name="RaceCarWheel" file="MiniGames/Racing_New/LUA/Obfuscated/RaceCarWheel.lua" deferred_loading="false" />
+		<file name="RaceStates" file="MiniGames/Racing_New/RaceStates/Obfuscated/RaceStates.lua" deferred_loading="false" />
+		<file name="StateJoin" file="MiniGames/Racing_New/RaceStates/Obfuscated/StateJoin.lua" deferred_loading="false" />
+		<file name="StateWelcome" file="MiniGames/Racing_New/RaceStates/Obfuscated/StateWelcome.lua" deferred_loading="false" />
+		<file name="StateGrid" file="MiniGames/Racing_New/RaceStates/Obfuscated/StateGrid.lua" deferred_loading="false" />
+		<file name="StateBoost" file="MiniGames/Racing_New/RaceStates/Obfuscated/StateBoost.lua" deferred_loading="false" />
+		<file name="StateBuy" file="MiniGames/Racing_New/RaceStates/Obfuscated/StateBuy.lua" deferred_loading="false" />
+
+		<particle name="TireDragLeft" file="MiniGames/Racing_New/Effects/drift_smoke_L.efx" deferred_loading="false" />
+		<particle name="TireDragRight" file="MiniGames/Racing_New/Effects/drift_smoke_R.efx" deferred_loading="false" />
+		<particle name="SmallBoost" file="MiniGames/Racing_New/Effects/mini-boost.efx" deferred_loading="false" />
+		<particle name="BigBoost" file="MiniGames/Racing_New/Effects/big-boost.efx" deferred_loading="false" />
+		<particle name="BigBoostNose" file="MiniGames/Racing_New/Effects/boost_nose.efx" deferred_loading="false" />
+		<particle name="Exhaust" file="MiniGames/Racing_New/Effects/exhaust.efx" deferred_loading="false" />
+		<particle name="Sparks" file="MiniGames/Racing_New/Effects/wall_sparks.efx" deferred_loading="false" />
+		
+		<soundbank name="Racing" file="Sounds/Racing.bnk" />
+		<soundstream name="RacingSong" file="Sounds/solegroove.mp3" />
+		
+		<file name="GameScript" file="MiniGames/Framework/LUA/Obfuscated/Game.lua" deferred_loading="false" />
+		<file name="Network_xml" file="MiniGames/Racing_New/Network.xml" deferred_loading="false" />
+
+		<file name="OSDImage" file="minigames/framework/OSD/OSDImage.xml" />
+		<file name="OSDTextRight" file="minigames/framework/OSD/OSDTextRight.xml" />
+		<file name="OSDTextLeft" file="minigames/framework/OSD/OSDTextLeft.xml" />
+		<file name="OSDTextCenter" file="minigames/framework/OSD/OSDTextCenter.xml" />
+		<file name="OSDTextPanel" file="minigames/framework/OSD/OSDTextPanel.xml" />
+		<file name="OSDRootType" file="MiniGames/Racing_New/OSD/RacingOSDRootTypes.xml" deferred_loading="false" />
+		
+		<xml name="GameOSD" file="MiniGames/Racing_New/XML/gameOSD.xml" deferred_loading="false" />
+		<xml name="GameData" file="MiniGames/Racing_New/XML/gameData.xml" deferred_loading="false" />
+				
+	</local>
+	<external />
+</resources>

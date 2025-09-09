@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_glitterlamp/CommAug_GlitterLamp.mdl" />
+		<model name="CommAug_GlitterLamp_Lights.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_glitterlamp/CommAug_GlitterLamp_Lights.mdl" />
+		<model name="CommAug_GlitterLamp_Shell.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_glitterlamp/CommAug_GlitterLamp_Shell.mdl" />
+		<particle name="CommAugustGlitterLamp.efx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_glitterlamp/ATGParticles/CommAugustGlitterLamp.efx" />
+		<particle name="CommAugustGlitterLampBirth.efx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_glitterlamp/ATGParticles/CommAugustGlitterLampBirth.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_glitterlamp/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_glitterlamp/CommAug_GlitterLamp.hkx" />
+		<lua name="glitterLamp.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_glitterlamp/programming/glitterLamp.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_glitterlamp/programming/MyPad.lua" />
+	</local>
+	<external />
+</resources>
