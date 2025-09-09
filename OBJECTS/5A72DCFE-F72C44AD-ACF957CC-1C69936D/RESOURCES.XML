@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/rc_mayflower/model/Mayflower_Rig_HI.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/rc_mayflower/model/Mayflower_Rig_LO.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/RC_Mayflower/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/RC_Mayflower/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="CompanionFollowers/RC_Mayflower/anim/applaud.ani" memory="host" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/RC_Mayflower/anim/an_yawn.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/RC_Mayflower/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/RC_Mayflower/anim/run.ani" memory="host" />
+		<anim name="ani.shakefists" deferred_loading="true" protected="false" file="CompanionFollowers/RC_Mayflower/anim/shakefists.ani" />
+		<anim name="ani.orbit" deferred_loading="true" protected="false" file="CompanionFollowers/rc_mayflower/anim/orbit.ani" memory="host" />
+		<anim name="ani.move" deferred_loading="true" protected="false" file="CompanionFollowers/rc_mayflower/anim/move.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/rc_mayflower/skeleton/Mayflower_Rig_HI.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/RC_Mayflower/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

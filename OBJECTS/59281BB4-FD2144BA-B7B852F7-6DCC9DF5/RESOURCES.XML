@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model_host.mdl" deferred_loading="true" protected="false" file="Locomotion/softcream_00/model/model_host.mdl" />
+		<model name="model_remote.mdl" deferred_loading="true" protected="false" file="Locomotion/softcream_00/model/model_remote.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/softcream_00/file/config.xml" memory="host" />
+		<anim name="anm_F_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/softcream_00/anim/anm_F_idle_00.ani" />
+		<anim name="anm_F_run_00.ani" deferred_loading="true" protected="false" file="Locomotion/softcream_00/anim/anm_F_run_00.ani" />
+		<anim name="anm_F_walk_00.ani" deferred_loading="true" protected="false" file="Locomotion/softcream_00/anim/anm_F_walk_00.ani" />
+		<anim name="anm_M_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/softcream_00/anim/anm_M_idle_00.ani" />
+		<anim name="anm_M_run_00.ani" deferred_loading="true" protected="false" file="Locomotion/softcream_00/anim/anm_M_run_00.ani" />
+		<anim name="anm_M_walk_00.ani" deferred_loading="true" protected="false" file="Locomotion/softcream_00/anim/anm_M_walk_00.ani" />
+		<skeleton name="model_host.skn" deferred_loading="true" protected="false" file="Locomotion/softcream_00/model/model_host.skn" />
+		<skeleton name="model_remote.skn" deferred_loading="true" protected="false" file="Locomotion/softcream_00/model/model_remote.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/softcream_00/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/softcream_00/repertoire/male.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/softcream_00/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

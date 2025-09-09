@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Airstreak1.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/Airstreak1.mdl" memory="host" />
+		<model name="arrow_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/arrow_001.mdl" memory="host" />
+		<model name="burner_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/burner_001.mdl" />
+		<model name="buybag.mdl" deferred_loading="false" protected="false">
+			<override file="common/generic_models/buybag/buybag_j.mdl" locale="ja-JP" />
+			<override file="common/generic_models/buybag/buybag.mdl" />
+		</model>
+		<model name="cactus_001.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/cactus_001.mdl" />
+		<model name="cactus_002.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/cactus_002.mdl" />
+		<model name="cactus_003.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/cactus_003.mdl" />
+		<model name="canopy_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/canopy_001.mdl" />
+		<model name="centre_ring.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/terrain/centre_ring.mdl" />
+		<model name="drive_unit_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/drive_unit_001.mdl" />
+		<model name="electricity_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/electricity_001.mdl" />
+		<model name="geyser_001.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/geyser_001.mdl" />
+		<model name="infopoint.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/infopoint.mdl" />
+		<model name="inner_ring.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/terrain/inner_ring.mdl" />
+		<model name="LaserDot.mdl" deferred_loading="false" protected="false" file="environments/SodiumBlimp/sodium_blimp/models/test/lazer_dot.mdl" />
+		<model name="LaserShaft.mdl" deferred_loading="false" protected="false" file="environments/SodiumBlimp/sodium_blimp/models/test/lazer_beam.mdl" />
+		<model name="metal_stand.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/metal_stand.mdl" />
+		<model name="mounting_arm.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/mounting_arm.mdl" />
+		<model name="outer_ring.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/terrain/outer_ring.mdl" />
+		<model name="rock_001.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_001.mdl" />
+		<model name="rock_002.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_002.mdl" />
+		<model name="rock_003.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_003.mdl" />
+		<model name="rock_004.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_004.mdl" />
+		<model name="rock_005.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_005.mdl" />
+		<model name="rock_006.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_006.mdl" />
+		<model name="rock_007.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_007.mdl" />
+		<model name="rock_008.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_008.mdl" />
+		<model name="rock_009.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_009.mdl" />
+		<model name="rock_010.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_010.mdl" />
+		<model name="rock_011.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_011.mdl" />
+		<model name="s2_craft.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/craft/s2_craft.mdl" />
+		<model name="shovel.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/shovel/shovel.mdl" />
+		<model name="sky_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/sky/sky_001.mdl" />
+		<model name="streamer_large.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/streamer_large.mdl" />
+		<model name="streamer_medium.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/streamer_medium.mdl" />
+		<model name="streamer_small.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/streamer_small.mdl" />
+		<model name="telePad_glow.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/effects/telePad_glow.mdl" />
+		<model name="teleporter_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/teleporter/teleporter_001.mdl" />
+		<model name="terrain_002.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/terrain/terrain_002.mdl" />
+		<model name="thumper_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_001.mdl" />
+		<model name="thumper_arm_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_arm_001.mdl" />
+		<model name="thumper_armbase_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_armbase_001.mdl" />
+		<model name="thumper_pad.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/thumper_pad.mdl" />
+		<model name="thumper_top_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_top_001.mdl" />
+		<model name="tree_fallen_001.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/tree_fallen_001.mdl" />
+		<model name="tree_stump_001.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/tree_stump_001.mdl" />
+		<model name="Veiwer_lazer_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/craft/veiwer_lazer_001.mdl" />
+		<model name="Veiwerbottom_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/craft/Veiwerbottom_001.mdl" />
+		<model name="Veiwertop_001.mdl" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/craft/Veiwertop_001.mdl" />
+		<model name="wind_turbine_001.mdl" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/wind_turbine_001.mdl" />
+		<texture name="0D017F43-D6634180-883DBFC6-A620CED4.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/0D017F43-D6634180-883DBFC6-A620CED4.dds" />
+		<texture name="11985565-99E146EC-9503F44F-F779784E.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/11985565-99E146EC-9503F44F-F779784E.dds" />
+		<texture name="1FC0B963-14604E1C-B35BD237-179389C2.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/1FC0B963-14604E1C-B35BD237-179389C2.dds" />
+		<texture name="20E1005B-554342CC-B36D949F-A58602E7.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/20E1005B-554342CC-B36D949F-A58602E7.dds" />
+		<texture name="21225CAF-C87D45E6-B896CCC2-3BE04183.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/21225CAF-C87D45E6-B896CCC2-3BE04183.dds" />
+		<texture name="2736AB7F-B8AF4787-8EEA27D8-90BD15D1.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/2736AB7F-B8AF4787-8EEA27D8-90BD15D1.dds" />
+		<texture name="86552141-9B4F4FDB-BF011070-C73D0096.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/86552141-9B4F4FDB-BF011070-C73D0096.dds" />
+		<texture name="89AA805A-86284BA4-8E01530A-946C7184.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/89AA805A-86284BA4-8E01530A-946C7184.dds" />
+		<texture name="8BC86F07-2AD94796-BE2409F8-7A621BE8.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/8BC86F07-2AD94796-BE2409F8-7A621BE8.dds" />
+		<texture name="91C41530-659646D5-876F7498-C626DF6E.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/91C41530-659646D5-876F7498-C626DF6E.dds" />
+		<texture name="9999A765-FDFE4E56-A0D64FFC-DB583F81.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/9999A765-FDFE4E56-A0D64FFC-DB583F81.dds" />
+		<texture name="9EF83EC0-EC7F40D4-A31D7F41-DD0400A8.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/9EF83EC0-EC7F40D4-A31D7F41-DD0400A8.dds" />
+		<texture name="ACAEFE41-02F447BC-BF19A2A0-07A6A756.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/ACAEFE41-02F447BC-BF19A2A0-07A6A756.dds" />
+		<texture name="arrow.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/arrow.dds" />
+		<texture name="B552A480-09FD4BDE-936785AA-98801762.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/B552A480-09FD4BDE-936785AA-98801762.dds" />
+		<texture name="B929CEF0-422A4D86-9B627342-23AAFA87.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/B929CEF0-422A4D86-9B627342-23AAFA87.dds" />
+		<texture name="BD3E6488-61644038-ABA3C2D5-778EA29F.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/BD3E6488-61644038-ABA3C2D5-778EA29F.dds" />
+		<texture name="binoculars_overlay.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/binoculars_overlay.dds" />
+		<texture name="binoculars_pointer.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/binoculars_pointer.dds" />
+		<texture name="blimp_silhouette.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/blimp_silhouette.dds" />
+		<texture name="button_circle.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/button_circle.dds" />
+		<texture name="button_cross.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/button_cross.dds" />
+		<texture name="C56A28FD-763D4B86-B8F4E97F-EE2377C3.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/C56A28FD-763D4B86-B8F4E97F-EE2377C3.dds" />
+		<texture name="compass_bg.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/compass_bg.dds" />
+		<texture name="compass_point.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/compass_point.dds" />
+		<texture name="Completion_Bar_1.dds" deferred_loading="false" file="MiniGames/Sodium/SodiumNPC/textures/Completion_Bar_1.dds" />
+		<texture name="Completion_Bar_2.dds" deferred_loading="false" file="MiniGames/Sodium/SodiumNPC/textures/Completion_Bar_2.dds" />
+		<texture name="Console_bg.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/Console_bg.dds" />
+		<texture name="currency_icon.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/currency_icon.dds" />
+		<texture name="D6ED0AF6-4A504A10-BA0E1746-C73D87DF.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/D6ED0AF6-4A504A10-BA0E1746-C73D87DF.dds" />
+		<texture name="D7CA5BEA-E4F6445A-AF366E44-A6BEF11D.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/D7CA5BEA-E4F6445A-AF366E44-A6BEF11D.dds" />
+		<texture name="dialog_topbar.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/dialog_topbar.dds" />
+		<texture name="dialog_white_back.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/dialog_white_back.dds" />
+		<texture name="dot.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/dot.dds" />
+		<texture name="E0EE0D08-4A11411C-BA7DB8C0-DCB7A30E.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/E0EE0D08-4A11411C-BA7DB8C0-DCB7A30E.dds" />
+		<texture name="F7EBA6C5-9DDB46FF-ADF79486-98D8131F.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/F7EBA6C5-9DDB46FF-ADF79486-98D8131F.dds" />
+		<texture name="F9907CF8-956E4A7A-A4D8BE5D-6F9AB0D3.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/F9907CF8-956E4A7A-A4D8BE5D-6F9AB0D3.dds" />
+		<texture name="FC0B1567-074A499F-84EA601B-4AACDEED.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/FC0B1567-074A499F-84EA601B-4AACDEED.dds" />
+		<texture name="FECD2D73-E62C47E4-A71F08C4-312C7833.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/rewards/FECD2D73-E62C47E4-A71F08C4-312C7833.dds" />
+		<texture name="FONT_digits.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/Sodium_Font.dds" />
+		<texture name="gold.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/gold_a.dds" />
+		<texture name="Hud_Overlay1.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/Hud_Overlay1.dds" />
+		<texture name="Hud_Overlay_Text.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/Hud_Overlay_Text.dds" />
+		<texture name="JATO_basic_Sink.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/Touchstone_image.dds" />
+		<texture name="JATO_Ride_Sink.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/Firecracker_image.dds" />
+		<texture name="JATO_SSRB_x_Sink.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/Turbulance_image.dds" />
+		<texture name="JATO_uber_Sink.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/Terrapin_image.dds" />
+		<texture name="jet_skin_01_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_01_d.dds" />
+		<texture name="jet_skin_02_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_02_d.dds" />
+		<texture name="jet_skin_03_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_03_d.dds" />
+		<texture name="jet_skin_04_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_04_d.dds" />
+		<texture name="jet_skin_05_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_05_d.dds" />
+		<texture name="jet_skin_06_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_06_d.dds" />
+		<texture name="jet_skin_07_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_07_d.dds" />
+		<texture name="jet_skin_08_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_08_d.dds" />
+		<texture name="jet_skin_09_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_09_d.dds" />
+		<texture name="jet_skin_10_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_10_d.dds" />
+		<texture name="jet_skin_11_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_11_d.dds" />
+		<texture name="jet_skin_12_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_12_d.dds" />
+		<texture name="jet_skin_13_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_13_d.dds" />
+		<texture name="jet_skin_14_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_14_d.dds" />
+		<texture name="jet_skin_15_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_15_d.dds" />
+		<texture name="jet_skin_16_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_16_d.dds" />
+		<texture name="jet_skin_17_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_17_d.dds" />
+		<texture name="jet_skin_18_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_18_d.dds" />
+		<texture name="jet_skin_19_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jet_skin_19_d.dds" />
+		<texture name="jetcraft_body_d.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/craft/jetcraft_body_d.dds" />
+		<texture name="loading.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/loading.dds" />
+		<texture name="mask_002.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/lights/mask_002.dds" />
+		<texture name="network_connect_icon.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/network_connect_icon.dds" />
+		<texture name="network_disconnect_icon.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/network_disconnect_icon.dds" />
+		<texture name="press_button_dialog1.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/press_button_dialog1.dds" />
+		<texture name="silicon.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/silicon_a.dds" />
+		<texture name="silver.dds" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/silver_a.dds" />
+		<texture name="spedometer_bars.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/spedometer_bars.dds" />
+		<texture name="spedometer_bg.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/spedometer_bg.dds" />
+		<texture name="spotlight.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/spotlight.dds" />
+		<texture name="test.dds" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/hud/test.dds" />
+		<particle name="cloud_002.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/cloud_002.efx" />
+		<particle name="glowser.efx" deferred_loading="false" protected="false" file="common/generic_models/buybag/particles/glowser.efx" />
+		<particle name="cloud_003.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/cloud_003.efx" />
+		<particle name="dig.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/scorpionDig.efx" />
+		<particle name="dust_cloud.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/dust_cloud.efx" />
+		<particle name="geyser_001_jet.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/geyser_001_jet.efx" />
+		<particle name="geyser_001_steam.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/geyser_001_steam.efx" />
+		<particle name="hoverBlast.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/hoverBlast.efx" />
+		<particle name="telepad_send.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/telepad_send.efx" />
+		<particle name="thumperCharge.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/thumperCharge.efx" />
+		<particle name="thumperThud.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/thumperThud.efx" />
+		<particle name="windStreak.efx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/effects/windStreak.efx" />
+		<file name="Blimp.gui-setup" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/src/Blimp.gui-setup" memory="host" />
+		<file name="sodium_font" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/textures/Sodium_Font_0.ttf" memory="host" />
+		<collision name="arrow_001.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/arrow_001.hkx" memory="host" />
+		<collision name="buybag.hkx" deferred_loading="false" protected="false" file="common/generic_models/buybag/buybag.hkx" />
+		<collision name="cactus_001.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/cactus_001.hkx" />
+		<collision name="cactus_002.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/cactus_002.hkx" />
+		<collision name="cactus_003.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/cactus_003.hkx" />
+		<collision name="drive_unit_001.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/drive_unit_001.hkx" />
+		<collision name="geyser_001.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/geyser_001.hkx" />
+		<collision name="humanhamster.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/hampsterball_2.hkx" />
+		<collision name="metal_stand.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/metal_stand.hkx" />
+		<collision name="rock_001.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_001.hkx" />
+		<collision name="rock_002.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_002.hkx" />
+		<collision name="rock_003.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_003.hkx" />
+		<collision name="rock_004.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_004.hkx" />
+		<collision name="rock_005.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_005.hkx" />
+		<collision name="rock_006.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_006.hkx" />
+		<collision name="rock_007.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_007.hkx" />
+		<collision name="rock_008.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_008.hkx" />
+		<collision name="rock_009.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_009.hkx" />
+		<collision name="rock_010.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_010.hkx" />
+		<collision name="rock_011.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_011.hkx" />
+		<collision name="rock_pool_001.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/rock_pool_001.hkx" />
+		<collision name="teleporter_001.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/teleporter/teleporter_001.hkx" />
+		<collision name="terrain_001.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/terrain/terrain_001.hkx" />
+		<collision name="thumper_001.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_001.hkx" />
+		<collision name="thumper_arm_001.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_arm_001.hkx" />
+		<collision name="thumper_base.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_base.hkx" />
+		<collision name="thumper_hammer.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_hammer.hkx" />
+		<collision name="thumper_pad.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/thumper_pad.hkx" />
+		<collision name="thumper_rack.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_rack.hkx" />
+		<collision name="tree_fallen_001.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/tree_fallen_001.hkx" />
+		<collision name="tree_stump_001.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/tree_stump_001.hkx" />
+		<collision name="Veiwerbottom_001.hkx" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/craft/Veiwerbottom_001.hkx" />
+		<collision name="wind_turbine_001.hkx" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/wind_turbine_001.hkx" />
+		<anim name="arrow_001.ani" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/arrow_001.ani" />
+		<anim name="buybag.ani" deferred_loading="false" protected="false">
+			<override file="common/generic_models/buybag/buybag_j.ani" locale="ja-JP" />
+			<override file="common/generic_models/buybag/buybag.ani" />
+		</anim>
+		<anim name="canopy_001.ani" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/canopy_001.ani" />
+		<anim name="shovelAnim_F.ani" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/anims/shovelAnim_F.ani" />
+		<anim name="shovelAnim_M.ani" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/anims/shovelAnim_M.ani" />
+		<anim name="thumper_001.ani" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_001.ani" />
+		<anim name="thumper_pad.ani" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/thumper_pad.ani" />
+		<anim name="wind_turbine_001.ani" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/wind_turbine_001.ani" />
+		<skeleton name="arrow_001.skn" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/arrow_001.skn" />
+		<skeleton name="buybag.skn" deferred_loading="false" protected="false">
+			<override file="common/generic_models/buybag/buybag_j.skn" locale="ja-JP" />
+			<override file="common/generic_models/buybag/buybag.skn" />
+		</skeleton>
+		<skeleton name="canopy_001.skn" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/blimp/canopy_001.skn" />
+		<skeleton name="thumper_001.skn" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/thumper_001.skn" />
+		<skeleton name="thumper_pad.skn" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/models/misc/thumper_pad.skn" />
+		<skeleton name="wind_turbine_001.skn" deferred_loading="true" protected="false" file="MiniGames/SodiumBlimp/Game/models/props/wind_turbine_001.skn" />
+		<soundbank name="Objectives.bnk" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/sounds/Objectives.bnk" memory="main" />
+		<soundbank name="SodiumBlimp.bnk" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/sounds/SodiumBlimp.bnk" memory="main" />
+		<repertoire name="SodiumBlimp_F" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/anims/SodiumBlimp_F.xml" />
+		<repertoire name="SodiumBlimp_M" deferred_loading="false" protected="false" file="MiniGames/SodiumBlimp/Game/anims/SodiumBlimp_M.xml" />
+		<lua name="Async.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Async.lua" />
+		<lua name="BinocularMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/BinocularMgr.lua" />
+		<lua name="BlimpMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/BlimpMgr.lua" />
+		<lua name="BurnerMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/BurnerMgr.lua" />
+		<lua name="CamDefs.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/CamDefs.lua" />
+		<lua name="CamMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/CamMgr.lua" />
+		<lua name="ClothMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/ClothMgr.lua" />
+		<lua name="CraftMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/CraftMgr.lua" />
+		<lua name="DbgMemHud.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/DbgMemHud.lua" />
+		<lua name="DbgMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/DbgMgr.lua" />
+		<lua name="Delayer.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Delayer.lua" />
+		<lua name="FSM.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/FSM.lua" />
+		<lua name="FSM_old.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/FSM_old.lua" />
+		<lua name="GameDefs.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/GameDefs.lua" />
+		<lua name="GameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/GameMgr.lua" />
+		<lua name="GfxMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/GfxMgr.lua" />
+		<lua name="Gui.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Gui.lua" />
+		<lua name="Gui_Digits.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Gui_Digits.lua" />
+		<lua name="Gui_Rect.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Gui_Rect.lua" />
+		<lua name="Gui_ScrollableText.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Gui_ScrollableText.lua" />
+		<lua name="Gui_Sprite.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Gui_Sprite.lua" />
+		<lua name="Gui_Text.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Gui_Text.lua" />
+		<lua name="Hud.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Hud.lua" />
+		<lua name="HudDefs.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/HudDefs.lua" />
+		<lua name="HudMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/HudMgr.lua" />
+		<lua name="InputMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/InputMgr.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Jamin.lua" />
+		<lua name="LightMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/LightMgr.lua" />
+		<lua name="Lua2Xml.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Lua2Xml.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Main.lua" />
+		<lua name="MapMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/MapMgr.lua" />
+		<lua name="Maths.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Maths.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/OHS.lua" />
+		<lua name="PersistenceMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/PersistenceMgr.lua" />
+		<lua name="PersistentPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/PersistentPlayer.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Playmetrix.lua" />
+		<lua name="Pool.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Pool.lua" />
+		<lua name="PropMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/PropMgr.lua" />
+		<lua name="qEntity.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/qEntity.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Queue.lua" />
+		<lua name="RayCaster.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/RayCaster.lua" />
+		<lua name="Relay.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Relay.lua" />
+		<lua name="ResMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/ResMgr.lua" />
+		<lua name="RewardManager.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/RewardManager.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/SoundMgr.lua" />
+		<lua name="Stack.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Stack.lua" />
+		<lua name="Streak.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Streak.lua" />
+		<lua name="TelepadFx.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/TelepadFx.lua" />
+		<lua name="TeleporterMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/TeleporterMgr.lua" />
+		<lua name="Thumper.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Thumper.lua" />
+		<lua name="ThumperMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/ThumperMgr.lua" />
+		<lua name="TriggerMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/TriggerMgr.lua" />
+		<lua name="TriggerZoneMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/TriggerZoneMgr.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/Tween.lua" />
+		<lua name="XmlMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SodiumBlimp/Game/src/XmlMgr.lua" />
+	</local>
+	<external />
+</resources>

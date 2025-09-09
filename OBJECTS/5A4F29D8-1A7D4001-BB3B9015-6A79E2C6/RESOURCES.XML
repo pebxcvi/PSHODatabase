@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Turret.mdl" deferred_loading="true" protected="false" file="Locomotion/Turret/Turret1.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Turret/file/config_Sound.xml" memory="host" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="Locomotion/Turret/run.ani" memory="host" />
+		<anim name="run_f.ani" deferred_loading="true" protected="false" file="Locomotion/Turret/run_f.ani" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Turret/idle.ani" memory="main" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Turret/idle_f.ani" memory="main" />
+		<anim name="Turret.ani" deferred_loading="true" protected="false" file="Locomotion/Turret/Turret.ani" />
+		<anim name="Turret_not.ani" deferred_loading="true" protected="false" file="Locomotion/Turret/Turret_not.ani" />
+		<skeleton name="Turret.skn" deferred_loading="true" protected="false" file="Locomotion/Turret/Turret.skn" />
+		<soundbank name="Turret_LMO" deferred_loading="true" protected="false" file="Locomotion/Turret/file/Turret_LMO3.bnk" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Turret/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Turret/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Turret/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Turret/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Harajuku/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

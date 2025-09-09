@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Heart01.mdl" deferred_loading="false" protected="false" file="environmentanimation/Heart01.mdl" />
+		<model name="Fake.mdl" deferred_loading="false" protected="false" file="furniture/onigoto/Fake.mdl" />
+		<model name="Joker.mdl" deferred_loading="false" protected="false" file="furniture/onigoto/Joker.mdl" />
+		<model name="Knight.mdl" deferred_loading="false" protected="false" file="furniture/onigoto/Knight.mdl" />
+		<model name="Balloon_King.mdl" deferred_loading="false" protected="false" file="environmentanimation/Balloon_King.mdl" />
+		<model name="Balloon_Maid.mdl" deferred_loading="false" protected="false" file="environmentanimation/Balloon_Maid.mdl" />
+		<model name="Balloon_Minister.mdl" deferred_loading="false" protected="false" file="environmentanimation/Balloon_Minister.mdl" />
+		<model name="Balloon_Fortune_teller.mdl" deferred_loading="false" protected="false" file="environmentanimation/Balloon_Fortune_teller.mdl" />
+		<model name="Balloon_Prince.mdl" deferred_loading="false" protected="false" file="environmentanimation/Balloon_Prince.mdl" />
+		<model name="Power_spot.mdl" deferred_loading="false" protected="false" file="furniture/power_spot/Power_spot.mdl" />
+		<model name="Complete_Vote.mdl" deferred_loading="false" protected="false" file="environmentanimation/Complete_Vote.mdl" />
+		<texture name="ui_base01.dds" deferred_loading="false" protected="false" file="MiniGames/ManagerObject/texture/ui_base01.dds" />
+		<texture name="ui_base02.dds" deferred_loading="false" protected="false" file="MiniGames/ManagerObject/texture/ui_base02.dds" />
+		<texture name="ui_base03.dds" deferred_loading="false" protected="false" file="MiniGames/ManagerObject/texture/ui_base03.dds" />
+		<texture name="ui_base06.dds" deferred_loading="false" protected="false" file="MiniGames/ManagerObject/texture/ui_base06.dds" />
+		<texture name="heart01_c.dds" deferred_loading="false" protected="false" file="environments/phk_lounge/texture/heart01_c.dds" />
+		<texture name="heart01_s.dds" deferred_loading="false" protected="false" file="environments/phk_lounge/texture/heart01_s.dds" />
+		<texture name="liveicon.dds" deferred_loading="false" protected="false" file="MiniGames/ManagerObject/texture/liveicon.dds" />
+		<texture name="ui_base07.dds" deferred_loading="false" protected="false" file="MiniGames/ManagerObject/texture/ui_base07.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/ManagerObject/file/Network.xml" />
+		<anim name="Complete_Vote.ani" deferred_loading="false" protected="false" file="environmentanimation/Complete_Vote.ani" />
+		<skeleton name="Complete_Vote.skn" deferred_loading="false" protected="false" file="environmentanimation/Complete_Vote.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/MiniGame.lua" />
+		<lua name="libcore.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libcore.lua" />
+		<lua name="libgame.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libgame.lua" />
+		<lua name="Debug.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/Debug.lua" />
+		<lua name="Rating.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/Rating.lua" />
+		<lua name="global.lua" deferred_loading="false" protected="true" file="Scripts/global.lua" />
+		<lua name="liblistener.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/liblistener.lua" />
+		<lua name="libsavemanager.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libsavemanager.lua" />
+		<lua name="savedata.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/savedata.lua" />
+		<lua name="Title.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/Title.lua" />
+		<lua name="libfade.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libfade.lua" />
+		<lua name="MiniGameControl.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/MiniGameControl.lua" />
+		<lua name="SaveControl.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/SaveControl.lua" />
+		<lua name="PhkManager.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/PhkManager.lua" />
+		<lua name="Ui.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/Ui.lua" />
+		<lua name="SoundControl.lua" deferred_loading="false" protected="true" file="Scripts/SoundControl.lua" />
+		<lua name="Plate.lua" deferred_loading="false" protected="true" file="Scripts/Plate.lua" />
+		<lua name="PlateControl.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/PlateControl.lua" />
+		<lua name="Member.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/Member.lua" />
+		<lua name="rewardTable.lua" deferred_loading="false" protected="true" file="Scripts/rewardTable.lua" />
+		<lua name="Infection.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/Infection.lua" />
+		<lua name="LoungeHonorManager.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/honor/LoungeHonorManager.lua" />
+		<lua name="RunningCheck.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/honor/RunningCheck.lua" />
+		<lua name="SeatCheck.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/honor/SeatCheck.lua" />
+		<lua name="AreaCheck.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/honor/AreaCheck.lua" />
+		<lua name="InventoryCheck.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/InventoryCheck.lua" />
+		<lua name="BroadcastResult.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/BroadcastResult.lua" />
+		<lua name="ParticleControl.lua" deferred_loading="false" protected="true" file="Scripts/ParticleControl.lua" />
+		<lua name="TicketMgr.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/TicketMgr.lua" />
+		<lua name="Backup.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/Backup.lua" />
+		<lua name="Server.lua" deferred_loading="false" protected="true" file="Scripts/Server.lua" />
+		<lua name="libtime.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libtime.lua" />
+		<lua name="DivinationArea.lua" deferred_loading="false" protected="true" file="MiniGames/ManagerObject/lua/DivinationArea.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CloudCityBed.mdl" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/model/CloudCityBed.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/programming/Network.xml" />
+		<collision name="CloudCityBed.hkx" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/model/CloudCityBed.hkx" />
+		<collision name="CloudCityBed_SafeVolume.hkx" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/model/CloudCityBed_SafeVolume.hkx" />
+		<anim name="Female_GetOffBed_LeftSide_180.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/female/Female_GetOffBed_LeftSide_180.ani" />
+		<anim name="Female_GetOffBed_RightSide_180.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/female/Female_GetOffBed_RightSide_180.ani" />
+		<anim name="Female_SitOnBed_LeftSide.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/female/Female_SitOnBed_LeftSide.ani" />
+		<anim name="Female_SitOnBed_LeftSide_Idle.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/female/Female_SitOnBed_LeftSide_Idle.ani" />
+		<anim name="Female_SitOnBed_RightSide.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/female/Female_SitOnBed_RightSide.ani" />
+		<anim name="Female_SitOnBed_RightSide_Idle.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/female/Female_SitOnBed_RightSide_Idle.ani" />
+		<anim name="Male_GetOffBed_LeftSide_180.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/male/Male_GetOffBed_LeftSide_180.ani" memory="host" />
+		<anim name="Male_GetOffBed_RightSide_180.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/male/Male_GetOffBed_RightSide_180.ani" memory="host" />
+		<anim name="Male_SitOnBed_LeftSide.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/male/Male_SitOnBed_LeftSide.ani" memory="host" />
+		<anim name="Male_SitOnBed_LeftSide_Idle.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/male/Male_SitOnBed_LeftSide_Idle.ani" memory="host" />
+		<anim name="Male_SitOnBed_RightSide.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/male/Male_SitOnBed_RightSide.ani" memory="host" />
+		<anim name="Male_SitOnBed_RightSide_Idle.ani" deferred_loading="false" protected="false" file="activeitems/2011/commmay/cloudcitybed/anims/male/Male_SitOnBed_RightSide_Idle.ani" memory="host" />
+		<repertoire name="repMale" deferred_loading="false" protected="false" file="objects/59D0F24F-22EF47C9-84FB25D9-C1CD127A/repertoires/repMale.xml" />
+		<repertoire name="repFemale" deferred_loading="false" protected="false" file="objects/59D0F24F-22EF47C9-84FB25D9-C1CD127A/repertoires/repFemale.xml" />
+		<lua name="bed.lua" deferred_loading="false" protected="true" file="activeitems/2011/commmay/cloudcitybed/programming/bed.lua" />
+	</local>
+	<external />
+</resources>

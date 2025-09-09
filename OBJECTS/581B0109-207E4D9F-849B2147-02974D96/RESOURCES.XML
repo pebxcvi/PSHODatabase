@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="rule_1.dds" deferred_loading="true" protected="false" file="Edo_Sub01\cmn_design\2d\UI_sample\TOL_dds\credit\credit.dds" />
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PhaseCtrl.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" />
+		<lua name="UtilFunc.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFunc.lua" />
+		
+		
+		<!--Grobal Lib( Differed Load)-->
+		<lua name="UtilWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/tempUtil/UtilWindow.lua" />
+		<lua name="PadIo.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/PadIo.lua" />
+		
+		<!--Local Script-->
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/MgMain.lua" />
+		<lua name="Minigame.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/Minigame.lua" />
+		<lua name="MgData.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/MgData.lua" />
+		<lua name="UtilDebug.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/UtilDebug.lua" />
+		<lua name="PhaseCmn.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/PhaseCmn.lua" />
+		
+		
+		<!--Local Script( Differed Load)-->
+		<lua name="GameData.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/GameData.lua" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/Game.lua" />
+		
+		<lua name="WindowData.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/StaffCredit/WindowData.lua" />
+	</local>
+	<external />
+</resources>
