@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="JellyFish_PathAnim.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/JellyFish_PathAnim.mdl" memory="main" />
+		<model name="JellyFishSmall_240-1440_Swim1.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/JellyFishSmall_240-1440_Swim1.mdl" memory="main" />
+		<texture name="Loading_sprite_loot64.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/Loading_sprite_loot64.dds" memory="main" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/SA_SceneManager/file/Network.xml" memory="main" />
+		<anim name="JellyFish_PathAnim.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/JellyFish_PathAnim.ani" memory="main" />
+		<anim name="JellyFishSmall_240-1440_Swim1.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/JellyFishSmall_240-1440_Swim1.ani" memory="main" />
+		<skeleton name="JellyFish_PathAnim.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/JellyFish_PathAnim.skn" memory="main" />
+		<skeleton name="JellyFishSmall_240-1440_Swim1.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/JellyFishSmall_240-1440_Swim1.skn" memory="main" />
+		<soundbank name="SA_SoundFX.bnk" deferred_loading="false" protected="false" file="environments/loot_space_apartment/audio/SA_SoundFX.bnk" memory="host" />
+		<lua name="scene_manager.lua" deferred_loading="false" protected="true" file="MiniGames/SA_SceneManager/lua/scene_manager.luac" memory="main" />
+		<lua name="sound_manager.lua" deferred_loading="false" protected="true" file="MiniGames/SA_SceneManager/lua/sound_manager.luac" memory="main" />
+		<lua name="jelly_fish.lua" deferred_loading="false" protected="true" file="MiniGames/SA_SceneManager/lua/jelly_fish.luac" memory="main" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="racecar.mdl" deferred_loading="true" protected="false" file="Locomotion/racecar/model/racecarb4.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/racecar/file/configMatt.xml" memory="main" />
+		<anim name="seat" deferred_loading="true" protected="false" file="Locomotion/racecar/model/seat2.ani" />
+		<anim name="ani.moving" deferred_loading="true" protected="false" file="Locomotion/racecar/model/wheels.ani" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="Locomotion/racecar/model/idle.ani" />
+		<anim name="steeright" deferred_loading="true" protected="false" file="Locomotion/racecar/model/steeright.ani" />
+		<anim name="steerleft" deferred_loading="true" protected="false" file="Locomotion/racecar/model/steerleft.ani" />
+		<anim name="fseat" deferred_loading="true" protected="false" file="Locomotion/racecar/model/fseat.ani" />
+		<anim name="fsteerleft" deferred_loading="true" protected="false" file="Locomotion/racecar/model/fsteerleft.ani" />
+		<anim name="fsteeright" deferred_loading="true" protected="false" file="Locomotion/racecar/model/fsteeright.ani" />
+		<skeleton name="skn.skn" deferred_loading="true" protected="false" file="Locomotion/racecar/model/racecarb4.skn" memory="main" />
+		<soundbank name="Car_LMO.bnk" deferred_loading="true" protected="false" file="Locomotion/racecar/file/Car_LMO.bnk" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/racecar/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/racecar/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/racecar/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/racecar/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/racecar/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

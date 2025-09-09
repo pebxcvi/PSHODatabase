@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="gate_arm.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/OfficersGate/models/gate_arm.mdl" />
+		<model name="gate.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/OfficersGate/models/gate.mdl" />
+		<collision name="gate.hkx" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/OfficersGate/models/gate.hkx" />
+		<collision name="gate_arm.hkx" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/OfficersGate/models/gate_arm.hkx" />
+		<soundbank name="door.bnk" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/OfficersGate/sound/door.bnk" />
+		<lua name="OpenGate.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/OfficersGate/lua/OpenGate.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/OfficersGate/lua/SoundMgr.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="alpha" deferred_loading="false" protected="false" file="MiniGames/Christmas_Relocator/file/frost.dds" />
+		<texture name="grottoTex" deferred_loading="true" protected="false" file="MiniGames/christmas_relocator/file/transitionforeground01.dds" />
+		<texture name="iceHeartTex" deferred_loading="true" protected="false" file="MiniGames/christmas_relocator/file/transitionforeground02.dds" />
+		<texture name="presentTableTex" deferred_loading="true" protected="false" file="MiniGames/christmas_relocator/file/transitionforeground03.dds" />
+		<texture name="darkElfTex" deferred_loading="true" protected="false" file="MiniGames/christmas_relocator/file/transitionforeground04.dds" />
+		<texture name="icePortalTex" deferred_loading="true" protected="false" file="MiniGames/christmas_relocator/file/transitionforeground05.dds" />
+		<texture name="victoryTex" deferred_loading="true" protected="false" file="MiniGames/christmas_relocator/file/transitionforeground06.dds" />
+		<texture name="iceTex" deferred_loading="false" protected="false" file="MiniGames/christmas_relocator/file/ice.dds" />
+		<texture name="bannerTex" deferred_loading="false" protected="false" file="MiniGames/christmas_relocator/file/title_banner.dds" />
+		<texture name="loadingTex" deferred_loading="false" protected="false" file="MiniGames/christmas_relocator/file/relocating_spin.dds" />
+		<soundbank name="FROST_LOAD_LOOP.bnk" deferred_loading="false" protected="false" file="MiniGames/christmas_relocator/file/Audio/FROST_LOAD_LOOP.bnk" />
+		<lua name="Relocator.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas_Relocator/lua/Relocator.lua" />
+		<lua name="Canvas.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas_Relocator/lua/Canvas.lua" />
+		<lua name="Colours.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas_Relocator/lua/Colours.lua" />
+		<lua name="util_easing.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas_Relocator/lua/util_easing.lua" />
+		<lua name="animregisters.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas_Relocator/lua/animregisters.lua" />
+	</local>
+	<external />
+</resources>

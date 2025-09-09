@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="tugofwar.mdl" deferred_loading="false" file="environments/tow_10m/tow_10m.mdl" />
+		<model name="ropefloordeco.mdl" deferred_loading="false" file="MiniGames/TugOfWar/ropefloordeco.mdl" />
+		<model name="rope" deferred_loading="false" file="MiniGames/TugOfWar/rope.mdl" />
+		<texture name="circle.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/circle.dds" />
+		<texture name="cross.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/cross.dds" />
+		<texture name="square.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/square.dds" />
+		<texture name="triangle.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/triangle.dds" />
+		<texture name="triangle_miss.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/triangle_miss.dds" />
+		<texture name="circle_miss.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/circle_miss.dds" />
+		<texture name="cross_miss.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/cross_miss.dds" />
+		<texture name="square_miss.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/square_miss.dds" />
+		<texture name="icon_overlay.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/icon_overlay.dds" />
+		<texture name="background.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/background.dds" />
+		<texture name="graph_blue.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/graph_blue.dds" />
+		<texture name="graph_overlay.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/graph_overlay.dds" />
+		<texture name="graph_red.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/graph_red.dds" />
+		<texture name="icon_highlight.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/icon_highlight.dds" />
+		<texture name="combo_box.dds" deferred_loading="false" file="MiniGames/TugOfWar/Textures/combo_box.dds" />
+		<particle name="star_player.efx" deferred_loading="false" file="ATGParticles/star_player.efx" />
+		<particle name="dust.efx" deferred_loading="false" file="ATGParticles/dust.efx" />
+		<file name="Bags.xml" deferred_loading="false" file="MiniGames/TugOfWar/Bags.xml" />
+		<xml name="Network.xml" deferred_loading="false" file="MiniGames/TugOfWar/Network.xml" />
+		<collision name="tugofwar.hkx" deferred_loading="false" file="environments/tow_10m/tow_10m.hkx" />
+		<anim name="ropepickupMale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/ropepull_pickup_idl.ani" />
+		<anim name="winMale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/win.ani" />
+		<anim name="ropepull_defeatMale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/ropepull_lose_idl.ani" />
+		<anim name="ropepull_winMale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/ropepull_win_idl.ani" />
+		<anim name="ropepull_idleMale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/ropepull_idl.ani" />
+		<anim name="standframeMale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/standframe.ani" />
+		<anim name="ropepull_idl_v2.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/ropepull_idl_v2.ani" />
+		<anim name="ropepull_idl_v3.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/ropepull_idl_v3.ani" />
+		<anim name="win_v3.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/win_v3.ani" />
+		<anim name="win_v2.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/win_v2.ani" />
+		<anim name="pullrope_pickup_idleFemale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope__pickup_idle.ani" />
+		<anim name="pullrope_idleFemale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope_idle.ani" />
+		<anim name="pullrope_lose_idleFemale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope_lose_idle.ani" />
+		<anim name="pullrope_win_idleFemale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope_win_idle.ani" />
+		<anim name="WinAnimationFemale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/WinAnimation.ani" />
+		<anim name="standanimationFemale" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/standanimation.ani" />
+		<anim name="win_v3Female.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/win_v3.ani" />
+		<anim name="win_v2Female.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/win_v2.ani" />
+		<anim name="pullrope_idle_v2Female.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope_idle_v2.ani" />
+		<anim name="pullrope_idle_v3Female.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope_idle_v3.ani" />
+		<anim name="pullrope_lose_idle_v2Female" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope_lose_idle_v2.ani" />
+		<anim name="pullrope_win_idle_v2Female" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/pullrope_win_idle_v2.ani" />
+		<anim name="lose_v1Male.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/lose_v1.ani" />
+		<anim name="lose_v1Female.ani" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/lose_v1.ani" />
+		<soundbank name="tugwar.bnk" deferred_loading="false" file="MiniGames/TugOfWar/Sounds/tugwar.bank" memory="host" />
+		<repertoire name="TugOfWarAnims" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/male/TugOfWar.xml" />
+		<repertoire name="TugOfWarFemme" deferred_loading="false" protected="" file="MiniGames/TugOfWar/Animations/female/TugOfWarFemme.xml" />
+		<lua name="TugOfWar.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/TugOfWar.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Class.lua" />
+		<lua name="PadManager.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/PadManager.lua" />
+		<lua name="SyncedState.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/SyncedState.lua" />
+		<lua name="Console.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Console.lua" />
+		<lua name="QTEGame.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/QTEGame.lua" />
+		<lua name="FloatingText.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/FloatingText.lua" />
+		<lua name="HighScores.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/HighScores.lua" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Debugger.lua" />
+		<lua name="DynamicRope.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/DynamicRope.lua" />
+		<lua name="leaderboard.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/leaderboard/leaderboard.lua" />
+		<lua name="OSDManager.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/OSDManager.lua" />
+		<lua name="LeaderboardManager.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/LeaderboardManager.lua" />
+		<lua name="help.lua" deferred_loading="false" protected="true" file="MiniGames/TugOfWar/help.lua" />
+	</local>
+	<external />
+</resources>

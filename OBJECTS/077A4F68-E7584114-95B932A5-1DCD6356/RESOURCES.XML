@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="NpcModel" deferred_loading="false" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/monster_02.mdl" />
+		<xml name="osd_messagebox" deferred_loading="false" protected="" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/messagebox.xml" />
+		<xml name="types" deferred_loading="false" protected="" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/types.xml" />
+		<collision name="NpcCollision" deferred_loading="false" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/monster_02.hkx" />
+		<lua name="Wait" deferred_loading="false" protected="true" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/Wait.lua" />
+		<lua name="main" deferred_loading="false" protected="true" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/main.lua" />
+		<lua name="messagebox" deferred_loading="false" protected="true" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/messagebox.lua" />
+		<lua name="Model" deferred_loading="false" protected="true" file="objects/077A4F68-E7584114-95B932A5-1DCD6356/Model.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="helpBOX_Green.mdl" deferred_loading="false" file="furniture/helpbox/helpBOX_Green.mdl" />
+		<model name="Stage_Camera_Green.mdl" deferred_loading="false" file="furniture/stage_camera/Stage_Camera_Green.mdl" />
+		<model name="Stage_CameraDolly_Green.mdl" deferred_loading="false" file="furniture/stage_cameradolly/Stage_CameraDolly_Green.mdl" />
+		<model name="Stage_VirtualCamera_Off_Green.mdl" deferred_loading="false" file="furniture/Stage_VirtualCamera_Off/Stage_VirtualCamera_Off_Green.mdl" />
+		<model name="Stage_VirtualCamera_On_Green.mdl" deferred_loading="false" file="furniture/stage_virtualcamera_on/Stage_VirtualCamera_On_Green.mdl" />
+		<texture name="helpbox.dds" deferred_loading="false" file="furniture/helpbox/textures/helpbox.dds" />
+		<texture name="Camera_english_800x400.dds" deferred_loading="false" file="MiniGames/RichCamera/Textures/Camera_english_800x400.dds" />
+		<texture name="Stage_Camera_Overlay1.dds" deferred_loading="false" file="MiniGames/RichCamera02/Textures/Stage_Camera_Overlay1.dds" />
+		<texture name="Stage_Camera_Overlay2.dds" deferred_loading="false" file="MiniGames/RichCamera02/Textures/Stage_Camera_Overlay2.dds" />
+		<texture name="Camera_frenchFR_800x400.dds" deferred_loading="false" file="MiniGames/RichCamera02/Textures/Camera_frenchFR_800x400.dds" />
+		<texture name="Camera_frenchCA_800x400.dds" deferred_loading="false" protected="false" file="MiniGames/RichCamera02/Textures/Camera_frenchCA_800x400.dds" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/RichCamera/Network.xml" />
+		<file name="basiclegend.xml" deferred_loading="false" file="MiniGames/RichCamera/OSD/basiclegend.xml" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/RichCamera/OSD/types.xml" />
+		<file name="basictext.xml" deferred_loading="false" file="MiniGames/RichCamera/OSD/basictext.xml" />
+		<file name="textpanel.xml" deferred_loading="false" file="MiniGames/RichCamera02/OSD/textpanel.xml" />
+		<collision name="helpBOX_Green.hkx" deferred_loading="false" file="furniture/helpbox/helpBOX_Green.hkx" />
+		<collision name="Stage_Camera_Green.hkx" deferred_loading="false" file="furniture/stage_camera/Stage_Camera_Green.hkx" />
+		<collision name="Stage_CameraDolly_Green.hkx" deferred_loading="false" file="furniture/stage_cameradolly/Stage_CameraDolly_Green.hkx" />
+		<collision name="Stage_VirtualCamera_Off_Green.hkx" deferred_loading="false" file="furniture/Stage_VirtualCamera_Off/Stage_VirtualCamera_Off_Green.hkx" />
+		<collision name="Stage_VirtualCamera_On_Green.hkx" deferred_loading="false" file="furniture/stage_virtualcamera_on/Stage_VirtualCamera_On_Green.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/RichCamera02/main.lua" />
+	</local>
+	<external />
+</resources>

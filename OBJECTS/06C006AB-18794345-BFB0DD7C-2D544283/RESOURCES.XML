@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_lavalamp/CommAugust_LavaLamp.mdl" />
+		<model name="CommAugust_LavaLamp_Loop.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_lavalamp/CommAugust_LavaLamp_Loop.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_lavalamp/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_lavalamp/CommAugust_LavaLamp.hkx" />
+		<anim name="CommAugust_LavaLamp_Loop.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_lavalamp/CommAugust_LavaLamp_Loop.ani" />
+		<skeleton name="CommAugust_LavaLamp_Loop.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_lavalamp/CommAugust_LavaLamp_Loop.skn" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_lavalamp/programming/MyPad.lua" />
+		<lua name="lavaLamp.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_lavalamp/programming/lavaLamp.lua" />
+	</local>
+	<external />
+</resources>

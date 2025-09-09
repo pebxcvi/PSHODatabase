@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="DoctorWho_LaserWall_Tardis_OFF.mdl" deferred_loading="false" protected="false" file="environments/doctorwho_tardis/assets/DoctorWho_LaserWall_Tardis_OFF.mdl" />
+    <model name="DoctorWho_LaserWall_Tardis_ON.mdl" deferred_loading="false" protected="false" file="environments/doctorwho_tardis/assets/DoctorWho_LaserWall_Tardis_ON.mdl" />
+    <texture name="psn_store_logo.png" deferred_loading="false" protected="false" file="MiniGames/Tardis/textures/psn_store_logo.png" />
+    <collision name="DoctorWho_LaserWall_Tardis_ON.hkx" deferred_loading="false" protected="false" file="environments/doctorwho_tardis/assets/DoctorWho_LaserWall_Tardis_ON.hkx" />
+    <lua name="strict.lua" deferred_loading="false" protected="true" file="minigames/libraries/strict.luac" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="minigames/tardis_ropes/lua/main.luac" />
+  </local>
+  <external />
+</resources>

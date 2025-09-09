@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="PVL_ticket_free" deferred_loading="false" protected="false" file="MiniGames/Asia_UnionSaveObject/textures/PVL_ticket_free.dds" memory="host" />
+		<texture name="PVL_ticket_waku" deferred_loading="false" protected="false" file="MiniGames/Asia_UnionSaveObject/textures/PVL_ticket_waku.dds" memory="host" />
+		<texture name="PVL_logo" deferred_loading="false" protected="false" file="MiniGames/Asia_UnionSaveObject/textures/PVL_logo.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Asia_UnionSaveObject/file/Network.xml" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/main.lua" memory="host" />
+		<lua name="saveLoad.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/saveLoad.lua" memory="host" />
+		<lua name="params.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/params.lua" memory="host" />
+		<lua name="listener.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/listener.lua" memory="host" />
+		<lua name="ticket.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/ticket.lua" memory="host" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript/all.lua" memory="host" />
+		<lua name="telop.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/telop.lua" memory="host" />
+		<lua name="telopData.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/telopData.lua" memory="host" />
+		<lua name="network.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/network.lua" memory="host" />
+		<lua name="reward.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/reward.lua" memory="host" />
+		<lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/Asia_UnionSaveObject/lua/itemListCheker.lua" />
+	</local>
+	<external />
+</resources>

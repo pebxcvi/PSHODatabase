@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/FP_Promotional_Locomotion/model/FP_Promotional_twist_Locomotion.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/FP_Promotional_Locomotion/file/config.xml" memory="host" />
+		<anim name="Default_Start" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/Default_Start.ani" />
+		<anim name="Default_Move.ani" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/Default_Move.ani" />
+		<anim name="Default_Left.ani" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/Default_Left.ani" />
+		<anim name="Default_Right.ani" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/Default_Right.ani" />
+		<anim name="F_Default_Left" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/F_Default_Left.ani" />
+		<anim name="F_Default_Right" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/F_Default_Right.ani" />
+		<anim name="F_Default_move" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/F_Default_move.ani" />
+		<anim name="F_idle" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/anim/F_idle.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/skeleton/FP_Pimemto_Companion.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Pimemto_Companion/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/FP_Pimemto_Companion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
