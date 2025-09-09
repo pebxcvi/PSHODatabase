@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" version="1.0">
+  <version>1.0</version>
+  <uuid>9464C689-B4534308-A9520DD2-DD17B4CB</uuid>
+  <name lang="en-GB" default="true">Electricity Box</name>
+  <name lang="fr-FR" default="false">Générateur d’électricité statique</name>
+  <name lang="de-DE" default="false">Elektrostatischer Generator</name>
+  <name lang="it-IT" default="false">Generatore elettrostatico</name>
+  <name lang="es-ES" default="false">Generador electroestático</name>
+  <name lang="ja-JP" default="false">エレキテルの箱</name>
+  <name lang="ko-KR" default="false">전기 상자</name>
+  <name lang="zh-HK" default="false">摩擦發電箱</name>
+  <name lang="zh-TW" default="false">摩擦發電箱</name>
+  <description lang="en-GB" default="true">A medical device brought to Japan in the Edo period.\n
+Able to generate static-electricity and is a popular showcase.[#Legal]</description>
+  <description lang="fr-FR" default="false">Instrument médical utilisé à l’époque Edo.\nGénère de l’électricité statique et attire une foule de curieux.[#Legal]</description>
+  <description lang="de-DE" default="false">Ein medizinisches Gerät der Edo-Zeit.\nEs generiert statische Elektrizität und dessen Vorführung ist beliebt.[#Legal]</description>
+  <description lang="it-IT" default="false">Un apparecchio medico del periodo Edo.\nGenera elettricità statica ed è una nota attrazione. [#Legal]</description>
+  <description lang="es-ES" default="false">Un instrumento médico del período de Edo.\nGenera electricidad estática y es un espectáculo popular.[#Legal]</description>
+  <description lang="ja-JP" default="false">江戸時代に日本に伝わった医療器具。\n静電気を発生させ、見世物として人気。[#Legal]</description>
+  <description lang="ko-KR" default="false">에도 시대에 일본에 전해진 의료 기구.\n정전기를 발생시켜, 구경거리로서 인기가 높았다.[#Legal]</description>
+  <description lang="zh-HK" default="false">於江戶時代傳入日本的醫療工具。\n能產生靜電，是受歡迎的展示品。[#Legal]</description>
+  <description lang="zh-TW" default="false">於江戶時代傳入日本的醫療工具。\n能產生靜電，是受歡迎的展示品。[#Legal]</description>
+  <maker lang="en-GB" default="true">Granzella Inc.</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <timestamp>B425AEA1</timestamp>
+</odc>

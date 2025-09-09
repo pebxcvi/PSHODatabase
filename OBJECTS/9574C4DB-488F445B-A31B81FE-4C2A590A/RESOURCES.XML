@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="wings_r.mdl" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/model/wings_r.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/file/config.xml" memory="host" />
+		<anim name="wings_boost.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/anim/wings_r.ani" memory="host" />
+		<anim name="wings_idle.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/anim/wings_idle.ani" memory="host" />
+		<anim name="wings_move.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/anim/wings_move.ani" memory="host" />
+		<anim name="fem_idle.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/anim/female_idle_bake.ani" />
+		<anim name="fem_l.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/anim/female_l.ani" />
+		<anim name="fem_move.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/anim/female_move_bake.ani" />
+		<anim name="fem_r.ani" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/anim/female_r.ani" />
+		<skeleton name="wings_r.skn" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragon/skeleton/wings_r.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/shrink_-_dragonFem/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/shrink_-_dragonFem/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_cow/models/fence.mdl" />
+		<model name="Cow.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/Cow.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_cow/models/fence.hkx" />
+		<anim name="CommAug_Cow_mooing.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_mooing.ani" />
+		<anim name="CommAug_Cow_Chew.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_Chew.ani" />
+		<anim name="CommAug_Cow_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_Idle.ani" />
+		<anim name="CommAug_Cow_Idle_withearflickering.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_Idle_withearflickering.ani" />
+		<anim name="CommAug_Cow_Look_Around.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_Look_Around.ani" />
+		<anim name="CommAug_Cow_LayDown_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_LayDown_Idle.ani" />
+		<anim name="CommAug_Cow_GetUp.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_GetUp.ani" />
+		<anim name="CommAug_Cow_LayDown.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_LayDown.ani" />
+		<anim name="CommAug_Cow_LayDown_LookAround.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/anims/CommAug_Cow_LayDown_LookAround.ani" />
+		<skeleton name="Cow.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/models/Cow.skn" />
+		<soundbank name="cow.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_cow/sound/cow.bnk" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_cow/programming/Animations.lua" />
+		<lua name="AnimationSequencer.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_cow/programming/AnimationSequencer.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_cow/programming/Main.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_cow/programming/Pet.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_cow/programming/SoundMgr.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_cow/programming/StateMachine.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_cow/programming/Utility.lua" />
+	</local>
+	<external />
+</resources>

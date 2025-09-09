@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<particle name="efx.splash" deferred_loading="false" protected="false" file="atgparticles/generic/efx/dive_splash_01.efx" />
+		<anim name="ani.m_dive_1" deferred_loading="false" protected="false" file="homesquare4/animations/male/DIVE_M_01.ani" memory="host" />
+		<anim name="ani.m_dive_2" deferred_loading="false" protected="false" file="homesquare4/animations/male/DIVE_M_02.ani" memory="host" />
+		<anim name="ani.f_dive_1" deferred_loading="false" protected="false" file="homesquare4/animations/female/DIVE_F_01.ani" memory="host" />
+		<anim name="ani.f_dive_2" deferred_loading="false" protected="false" file="homesquare4/animations/female/DIVE_F_02.ani" memory="host" />
+		<anim name="ani.f_dive_3" deferred_loading="false" protected="false" file="homesquare4/animations/female/DIVE_F_03.ani" memory="host" />
+		<anim name="ani.m_dive_3" deferred_loading="false" protected="false" file="homesquare4/animations/male/DIVE_M_03.ani" memory="host" />
+		<anim name="ani.f_dive_4" deferred_loading="false" protected="false" file="homesquare4/animations/female/DIVE_F_04.ani" memory="host" />
+		<anim name="ani.m_dive_4" deferred_loading="false" protected="false" file="homesquare4/animations/male/DIVE_M_04.ani" memory="host" />
+		<soundbank name="bnk.sound_effects" deferred_loading="false" protected="false" file="MiniGames/Home_Square_Cliff_Diving/file/HS4_DIVING.bnk" />
+		<lua name="lua.state" deferred_loading="false" protected="true" file="christmas/lua/maze2/state.lua" memory="host" />
+		<lua name="lua.utilities" deferred_loading="false" protected="true" file="MiniGames/BeachSwim/lua/utilities.lua" memory="host" />
+		<lua name="lua.main" deferred_loading="false" protected="true" file="MiniGames/Home_Square_Cliff_Diving/lua/MiniGame.lua" memory="host" />
+		<lua name="lua.threadmanager" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" memory="host" />
+		<lua name="lua.log" deferred_loading="false" protected="true" file="libs/system/Log.lua" memory="host" />
+		<lua name="lua.tween" deferred_loading="false" protected="true" file="libs/util/Tween.lua" memory="host" />
+		<lua name="lua.easing" deferred_loading="false" protected="true" file="libs/util/Easing.lua" memory="host" />
+		<lua name="lua.controller" deferred_loading="false" protected="true" file="MiniGames/Home_Square_Cliff_Diving/lua/controller.lua" memory="host" />
+		<lua name="lua.constants" deferred_loading="false" protected="true" file="MiniGames/Home_Square_Cliff_Diving/lua/constants.lua" memory="host" />
+		<lua name="lua.postscore" deferred_loading="false" protected="true" file="libs/util/PostScore.lua" memory="host" />
+	</local>
+	<external />
+</resources>

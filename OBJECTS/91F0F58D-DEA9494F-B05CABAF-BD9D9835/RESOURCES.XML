@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="NpcModel" deferred_loading="false" file="objects/91F0F58D-DEA9494F-B05CABAF-BD9D9835/Spelunker.mdl" />
+		<xml name="types" deferred_loading="false" protected="" file="objects/91F0F58D-DEA9494F-B05CABAF-BD9D9835/types.xml" />
+		<xml name="osd_selectbox" deferred_loading="false" protected="" file="objects/91F0F58D-DEA9494F-B05CABAF-BD9D9835/selectbox.xml" />
+		<collision name="NpcCollision" deferred_loading="false" file="objects/91F0F58D-DEA9494F-B05CABAF-BD9D9835/spelunker.hkx" />
+		<lua name="main" deferred_loading="false" protected="true" file="objects/91F0F58D-DEA9494F-B05CABAF-BD9D9835/main.lua" />
+		<lua name="SelectBox" deferred_loading="false" protected="true" file="objects/91F0F58D-DEA9494F-B05CABAF-BD9D9835/SelectBox.lua" />
+		<lua name="Model" deferred_loading="false" protected="true" file="objects/91F0F58D-DEA9494F-B05CABAF-BD9D9835/Model.lua" />
+	</local>
+	<external />
+</resources>

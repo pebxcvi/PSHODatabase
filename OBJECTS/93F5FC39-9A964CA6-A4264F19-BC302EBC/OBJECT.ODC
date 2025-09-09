@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>93F5FC39-9A964CA6-A4264F19-BC302EBC</uuid>
+  <name lang="en-GB" default="true">Home Square Chocolate</name>
+  <name lang="ja-JP" default="false">ホームスクエアチョコレート</name>
+  <name lang="ko-KR" default="false">홈 스퀘어 초콜릿</name>
+  <name lang="zh-HK" default="false">Home Square 朱古力</name>
+  <name lang="zh-TW" default="false">Home Square 巧克力</name>
+  <description lang="en-GB" default="true">A chocolate imitating the general structure of Home Square.</description>
+  <description lang="ja-JP" default="false">ホームスクエアの全体図を模したチョコレート</description>
+  <description lang="ko-KR" default="false">홈 스퀘어의 전체도를 본뜬 초콜릿</description>
+  <description lang="zh-HK" default="false">仿造Home Square整體形狀的朱古力。</description>
+  <description lang="zh-TW" default="false">仿造Home Square整體形狀的巧克力。</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small.png</small_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating country="JP" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="HK" minimum_age="0" parental_control_level="1" />
+    <age_rating country="TW" minimum_age="0" parental_control_level="1" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/Dance_Off_1_Female/file/configuration.xml" memory="host" />
+		<anim name="danceoff1.ani" deferred_loading="true" protected="false" file="animation/female/danceoff1/danceoff1.ani" memory="host" />
+		<anim name="putdown1.ani" deferred_loading="true" protected="false" file="animation/female/putdown1/putdown1.ani" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/Dance_Off_1_Female/repertoire/male.xml" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/Dance_Off_1_Female/repertoire/female.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Dance_Off_1_Female/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Dance_Off_1_Female/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/Dance_Off_1_Female/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="blower.mdl" deferred_loading="true" protected="false" file="Locomotion/blower.mdl" memory="host" />
+		<model name="bottle.mdl" deferred_loading="true" protected="false" file="Locomotion/bottle.mdl" memory="host" />
+		<texture name="bubble.dds" deferred_loading="true" protected="false" file="Locomotion/bubble.dds" memory="host" />
+		<particle name="bubbles_2Martin.efx" deferred_loading="false" protected="false" file="Locomotion/bubbles_2Martin.efx" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="locomotion/LMO_MagicWand1/file/config.xml" memory="host" />
+		<anim name="Bubbles_Emote_F.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_magicwand1/anim/Bubbles_Emote_F.ani" memory="host" />
+		<anim name="Bubbles_Emote_M.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_magicwand1/anim/Bubbles_Emote_M.ani" memory="host" />
+		<anim name="Bubbles_Idle_F.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_magicwand1/anim/Bubbles_Idle_F.ani" memory="host" />
+		<anim name="Bubbles_Idle_M.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_magicwand1/anim/Bubbles_Idle_M.ani" memory="host" />
+		<anim name="Bubbles_Walk_F.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_magicwand1/anim/Bubbles_Walk_F.ani" memory="host" />
+		<anim name="Bubbles_Walk_M.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_magicwand1/anim/Bubbles_Walk_M.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand1/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand1/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand1/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand1/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Dandelion_with_particles/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

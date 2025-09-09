@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Rainbow_idle.mdl" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_idle.mdl" />
+		<model name="Rainbow_start.mdl" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_start.mdl" />
+		<model name="Rainbow_switch.mdl" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_switch.mdl" memory="host" />
+		<particle name="rainning.efx" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/effect/rainning.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Rain_And_Rainbow/file/Network.xml" />
+		<file name="rainning_lightprobe.probe" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/rainning_lightprobe.probe" />
+		<file name="Luxury_Rainforest_Apartment.probe" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/Luxury_Rainforest_Apartment.probe" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/Rain_And_Rainbow/lua/types.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="MiniGames/Rain_And_Rainbow/lua/simplemenu.xml" />
+		<file name="000.xml" deferred_loading="false" protected="false" file="MiniGames/Rain_And_Rainbow/lua/000.xml" />
+		<collision name="Rainbow_switch.hkx" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_switch.hkx" />
+		<anim name="Rainbow_idle.ani" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_idle.ani" />
+		<anim name="Rainbow_start.ani" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_start.ani" />
+		<skeleton name="Rainbow_idle.skn" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_idle.skn" />
+		<skeleton name="Rainbow_start.skn" deferred_loading="false" protected="false" file="environments/luxury_rainforest_apartment/animate/rainbow/Rainbow_start.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Rain_And_Rainbow/lua/MiniGame.lua" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="MiniGames/Rain_And_Rainbow/lua/Updater.lua" />
+		<lua name="InventoryCheck.lua" deferred_loading="false" protected="true" file="MiniGames/Rain_And_Rainbow/lua/InventoryCheck.lua" />
+		<lua name="MansionsCheck.lua" deferred_loading="false" protected="true" file="MiniGames/Rain_And_Rainbow/lua/MansionsCheck.lua" />
+		<lua name="per_modasian_main.lua" deferred_loading="false" protected="true" file="MiniGames/Rain_And_Rainbow/lua/per_modasian_main.lua" />
+	</local>
+	<external />
+</resources>

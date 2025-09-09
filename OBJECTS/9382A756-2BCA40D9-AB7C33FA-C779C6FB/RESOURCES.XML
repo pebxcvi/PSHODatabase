@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/hedkandi_flamebox/HedKandi_FlameBox.mdl" />
+		<particle name="blast.efx" deferred_loading="false" protected="false" file="ATGParticles/HedKandi/flamebox_blast.efx" />
+		<particle name="flamebox.efx" deferred_loading="false" protected="false" file="ATGParticles/HedKandi/flamebox.efx" />
+		<xml name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/HedkandiFireworks/file/Network.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/hedkandi_flamebox/HedKandi_FlameBox.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/HedKandi/MiniGameFlameBox.lua" />
+		<lua name="VMParticleEffect.lua" deferred_loading="false" protected="true" file="MiniGames/HedkandiFireworks/lua/VMParticleEffect.lua" />
+		<lua name="VMTimers.lua" deferred_loading="false" protected="true" file="MiniGames/HedkandiFireworks/lua/VMTimers.lua" />
+	</local>
+	<external />
+</resources>
