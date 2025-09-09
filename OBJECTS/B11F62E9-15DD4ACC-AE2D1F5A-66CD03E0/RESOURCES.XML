@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/Comedy_Moves/file/configuration.xml" memory="host" />
+		<anim name="ap_standidle" deferred_loading="true" protected="false" file="animation/male/comedymoves/standIdle.ani" memory="host" />
+		<anim name="HarlemShake.ani" deferred_loading="true" protected="false" file="animation/male/traditionaldances/Capoeira.ani" memory="host" />
+		<anim name="ChickenDance.ani" deferred_loading="true" protected="false" file="animation/male/comedymoves/ChickenDance.ani" />
+		<anim name="BellyDance.ani" deferred_loading="true" protected="false" file="animation/female/traditionaldances/BellyDance.ani" memory="host" />
+		<anim name="Hula.ani" deferred_loading="true" protected="false" file="animation/female/traditionaldances/Hula.ani" />
+		<anim name="IndianDance.ani" deferred_loading="true" protected="false" file="animation/female/traditionaldances/IndianDance.ani" />
+		<anim name="fLineDancing.ani" deferred_loading="true" protected="false" file="animation/female/traditionaldances/fLineDancing.ani" memory="host" />
+		<anim name="Cossak.ani" deferred_loading="true" protected="false" file="animation/male/traditionaldances/Cossak.ani" memory="host" />
+		<anim name="LineDancing.ani" deferred_loading="true" protected="false" file="animation/male/traditionaldances/LineDancing.ani" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/TraditionalDances/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/TraditionalDances/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/TraditionalDances/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/TraditionalDances/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/Comedy_Moves/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

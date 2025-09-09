@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/dummy/dummy.mdl" memory="host" />
+    <model name="vt2012_KnittingMachine.mdl" deferred_loading="false" protected="false" file="furniture/wd2012_knittingmachine/wd2012_KnittingMachine.mdl" memory="host" />
+    <texture name="edge.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/edge.dds" />
+    <texture name="Stationery.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/Stationery.dds" />
+    <texture name="cursor_edge.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/cursor_edge.dds" />
+    <texture name="cursor_side.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/cursor_side.dds" />
+    <texture name="cursor_top.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/cursor_top.dds" />
+    <texture name="fx_fnt.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/fx_fnt.dds" />
+    <texture name="Stationery_classic.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/Stationery_classic.dds" />
+    <texture name="Stationery_pop.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/Stationery_pop.dds" />
+    <texture name="Stationery_rock.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/Stationery_rock.dds" />
+    <texture name="reward1.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/reward1.dds" />
+    <texture name="reward2.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/reward2.dds" />
+    <texture name="complete2.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/complete2.dds" />
+    <texture name="complete1.dds" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/texture/complete.dds" />
+    <particle name="FunitureComplete.efx" deferred_loading="false" protected="false" file="ATGParticles/Valentine2012/Efx/FunitureComplete.efx" memory="host" />
+    <collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine.safevolume.hkx" memory="host" />
+    <collision name="vt2012_KnittingMachine.hkx" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine.hkx" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_001.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_002.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_002.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_003.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_003.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_004.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_004.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_005.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_005.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_006.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_006.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_007.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_007.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_001_2.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001_2.ani" memory="host" />
+    <anim name="vt2012_KnittingMachine_ANIM_001_3.ani" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001_3.ani" memory="host" />
+    <skeleton name="vt2012_KnittingMachine.skn" deferred_loading="false" protected="false" file="furniture/vt2012_knittingmachine/vt2012_KnittingMachine_ANIM_001.skn" memory="host" />
+    <soundbank name="sound.bnk" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/sound.bnk" memory="host" />
+    <soundstream name="bgm.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/bgm.mp3" />
+    <soundstream name="start.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/start.mp3" />
+    <soundstream name="comp.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/comp.mp3" />
+    <soundstream name="comp_jingle.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/comp_jingle.mp3" />
+    <soundstream name="heart_popup.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/heart_popup.mp3" />
+    <soundstream name="comp_fx.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/comp_fx.mp3" />
+    <soundstream name="text_wipe_classic.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/text_wipe_classic.mp3" />
+    <soundstream name="text_wipe_pop.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/text_wipe_pop.mp3" />
+    <soundstream name="text_wipe_rock.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/text_wipe_rock.mp3" />
+    <soundstream name="bgm_rock.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/bgm_rock.mp3" memory="main" />
+    <soundstream name="bgm_classic.mp3" deferred_loading="false" protected="false" file="MiniGames/WhiteDay2012Furniture/sound/bgm_classic.mp3" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/minigame.lua" />
+    <lua name="mathx.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/common/mathx.lua" />
+    <lua name="misc.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/common/misc.lua" />
+    <lua name="padUtil.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/common/padutil.lua" />
+    <lua name="task.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/common/task.lua" />
+    <lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/msgwnd.lua" />
+    <lua name="Legend.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/legend.lua" />
+    <lua name="GameMain.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/gamemain.lua" />
+    <lua name="paHomeCommon.lua" deferred_loading="false" protected="true" file="scej_lib/server/pahomecommon.lua" />
+    <lua name="paHomeCommonDebug.lua" deferred_loading="false" protected="true" file="scej_lib/server/pahomecommondebug.lua" />
+    <lua name="paHomeServerBase.lua" deferred_loading="false" protected="true" file="scej_lib/server/pahomeserverbase.lua" />
+    <lua name="paHomeServerCommon.lua" deferred_loading="false" protected="true" file="scej_lib/server/pahomeservercommon.lua" />
+    <lua name="paHomeServerCustom.lua" deferred_loading="false" protected="true" file="scej_lib/server/pahomeservercustom.lua" />
+    <lua name="paHomeServerGeneral.lua" deferred_loading="false" protected="true" file="scej_lib/server/pahomeservergeneral.lua" />
+    <lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/common/xmlutil.lua" />
+    <lua name="SaveData.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/savedata.lua" />
+    <lua name="configServer.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/configserver.lua" />
+    <lua name="SelWnd.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/selwnd.lua" />
+    <lua name="SelFriend.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/selfriend.lua" />
+    <lua name="InputForm.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/inputform.lua" />
+    <lua name="sound.lua" deferred_loading="false" protected="true" file="scej_lib/sound/sound.lua" />
+    <lua name="SoundList.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/soundlist.lua" />
+    <lua name="Machine.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/machine.lua" />
+    <lua name="CompleteIcon.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/completeicon.lua" />
+    <lua name="AsyncCommand.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/common/asynccommand.lua" />
+    <lua name="TokenWnd.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/tokenwnd.lua" />
+    <lua name="SelTheme.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/seltheme.lua" />
+    <lua name="SelReward.lua" deferred_loading="false" protected="true" file="minigames/whiteday2012furniture/lua/selreward.lua" />
+  </local>
+  <external />
+</resources>

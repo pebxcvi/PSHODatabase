@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/cannon/cannon.mdl" memory="host" />
+		<model name="Cannon.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon.mdl" memory="host" />
+		<model name="Cannon_Ball.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Ball.mdl" memory="host" />
+		<model name="Cannon_Barrel.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel.mdl" memory="host" />
+		<model name="Cannon_Base.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Base.mdl" memory="host" />
+		<model name="cannon_lower.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/cannon_lower.mdl" memory="host" />
+		<model name="Cannon_mid.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_mid.mdl" memory="host" />
+		<model name="Cannon_Barrel_rear.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel_rear.mdl" memory="host" />
+		<model name="Cannon_Barrel_rear_recoil.mdl" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel_rear_recoil.mdl" memory="host" />
+		<texture name="64_explode_14.dds" deferred_loading="false" protected="false" file="MiniGames/Cannon/Efx/64_explode_14.dds" memory="host" />
+		<texture name="64x64_smoke13b.dds" deferred_loading="false" protected="false" file="MiniGames/Cannon/Efx/64x64_smoke13b.dds" memory="host" />
+		<texture name="64_smokeAlpha.dds" deferred_loading="false" protected="false" file="MiniGames/Cannon/Efx/64_smokeAlpha.dds" memory="host" />
+		<particle name="poof.efx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Efx/poof.efx" memory="host" />
+		<particle name="explosion.efx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Efx/explosion.efx" memory="host" />
+		<particle name="flash.efx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Efx/flash.efx" memory="host" />
+		<file name="ActiveFurnitureNetworkDefs.xml" deferred_loading="false" protected="false" file="MiniGames/Cannon/ActiveFurnitureNetworkDefs.xml" memory="host" />
+		<file name="cannon_ball.atgi" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/cannon_ball.atgi" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/cannon/cannon.hkx" />
+		<collision name="Cannon.hkx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon.hkx" />
+		<collision name="Cannon_Ball.hkx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Ball.hkx" />
+		<collision name="Cannon_Barrel.hkx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel.hkx" />
+		<collision name="Cannon_Base.hkx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Base.hkx" />
+		<collision name="cannon_lower.hkx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/cannon_lower.hkx" />
+		<collision name="Cannon_mid.hkx" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_mid.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="minigames/cannon/models/Cannon_Base.safevolume.hkx" />
+		<anim name="Cannon_Barrel.ani" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel.ani" memory="host" />
+		<anim name="cannon_lower.ani" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/cannon_lower.ani" memory="host" />
+		<anim name="Cannon_mid.ani" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_mid.ani" memory="host" />
+		<anim name="Cannon_Barrel_rear.ani" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel_rear.ani" memory="host" />
+		<anim name="Cannon_Barrel_rear_recoil.ani" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel_rear_recoil.ani" memory="host" />
+		<skeleton name="Cannon_Barrel.skn" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel.skn" memory="host" />
+		<skeleton name="cannon_lower.skn" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/cannon_lower.skn" memory="host" />
+		<skeleton name="Cannon_mid.skn" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_mid.skn" memory="host" />
+		<skeleton name="Cannon_Barrel_rear.skn" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel_rear.skn" memory="host" />
+		<skeleton name="Cannon_Barrel_rear_recoil.skn" deferred_loading="false" protected="false" file="MiniGames/Cannon/Models/Cannon_Barrel_rear_recoil.skn" memory="host" />
+		<soundbank name="sndbnk.bnk" deferred_loading="false" protected="false" file="MiniGames/Cannon/Sound/sndbnk.bnk" memory="host" />
+		<lua name="Cannon.lua" deferred_loading="false" protected="true" file="MiniGames/Cannon/Cannon.lua" memory="host" />
+	</local>
+	<external />
+</resources>

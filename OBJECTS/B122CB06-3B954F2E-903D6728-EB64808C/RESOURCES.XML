@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Hankagai/soft_jp_00/FoodVenderLobby/file/Network.xml" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/FoodVenderLobby/lua/MiniGame.lua" memory="host" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/FoodVenderLobby/lua/Data.lua" memory="host" />
+		<lua name="DelayLoad.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/FoodVenderLobby/lua/DelayLoad.lua" memory="host" />
+		<lua name="GameMain.lua" deferred_loading="true" protected="true" file="Hankagai/soft_jp_00/FoodVenderLobby/lua/GameMain.lua" memory="host" />
+		<lua name="WindowData.lua" deferred_loading="true" protected="true" file="Hankagai/soft_jp_00/NPCControllerHankagai/lua/WindowData.lua" memory="host" />
+		<lua name="dataInterface.lua" deferred_loading="true" protected="true" file="Hankagai/soft_jp_00/DataStation/lua/dataInterface.lua" memory="host" />
+	</local>
+	<external />
+</resources>

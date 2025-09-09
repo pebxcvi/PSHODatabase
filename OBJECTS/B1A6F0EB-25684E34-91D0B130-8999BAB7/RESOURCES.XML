@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset.mdl" memory="host" />
+    <model name="SPRG13_Swingset_Swing_RIG.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset_Swing_RIG.mdl" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/lua/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset.hkx" memory="host" />
+    <collision name="SPRG13_Swingset.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset.safevolume.hkx" />
+    <anim name="SPRG13_Swingset_Swing_SwingLoop.ani" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset_Swing_SwingLoop.ani" memory="host" />
+    <anim name="SPRG13_Swingset_Swing_SwingStart.ani" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset_Swing_SwingStart.ani" memory="host" />
+    <anim name="Female_SwingLoop.ani" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/anims/Female_SwingLoop.ani" memory="host" />
+    <anim name="Female_SwingStart.ani" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/anims/Female_SwingStart.ani" memory="host" />
+    <anim name="Male_SwingLoop.ani" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/anims/Male_SwingLoop.ani" memory="host" />
+    <anim name="Male_SwingStart.ani" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/anims/Male_SwingStart.ani" memory="host" />
+    <anim name="SPRG13_Swingset_Swing_Idle.ani" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset_Swing_Idle.ani" memory="host" />
+    <skeleton name="SPRG13_Swingset_Swing_RIG.skn" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/SPRG13_Swingset_Swing_RIG.skn" memory="host" />
+    <soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/camera.mp3" />
+    <repertoire name="male" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/reps/male.xml" memory="host" />
+    <repertoire name="female" deferred_loading="false" protected="false" file="furniture/sprg13_swingset/reps/female.xml" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/sprg13_swingset/lua/pad.luac" memory="host" />
+    <lua name="SwingSetCamera.lua" deferred_loading="false" protected="true" file="furniture/sprg13_swingset/lua/swingsetcamera.luac" memory="host" />
+    <lua name="SwingSetMain.lua" deferred_loading="false" protected="true" file="furniture/sprg13_swingset/lua/swingsetmain.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/sprg13_swingset/lua/utility.luac" memory="host" />
+  </local>
+  <external />
+</resources>

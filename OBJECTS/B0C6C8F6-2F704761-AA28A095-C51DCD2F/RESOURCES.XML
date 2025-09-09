@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <particle name="moving_effect" deferred_loading="false" protected="false" file="ATGParticles/Swimming/Swimming_Breaststroke.efx" />
+    <particle name="idle_effect" deferred_loading="false" protected="false" file="ATGParticles/Swimming/Swimming_Treading.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Swimming/file/Network.xml" />
+    <anim name="Swimming_Breaststroke_Male" deferred_loading="false" protected="false" file="animation/male/swimming_breaststroke_male/Swimming_Breaststroke_Male.ani" />
+    <anim name="Swimming_stationary_Pool_Male" deferred_loading="false" protected="false" file="animation/male/swimming_treading_male/Swimming_Treading_Male.ani" />
+    <anim name="Swimming_Treading_Female" deferred_loading="false" protected="false" file="animation/female/swimming_treading_female/Swimming_Treading_Female.ani" />
+    <anim name="Swimming_Breaststroke_Female" deferred_loading="false" protected="false" file="animation/female/swimming_breaststroke_female/Swimming_Breaststroke_Female.ani" />
+    <soundbank name="soundbank" deferred_loading="false" protected="false" file="environments/home_theater_pad/audio/HHA_SWIMMING.bnk" />
+    <repertoire name="Male_Swim" deferred_loading="false" protected="false" file="MiniGames/Swimming/repertoire/Male_Swim.xml" />
+    <repertoire name="Female_Swim" deferred_loading="false" protected="false" file="MiniGames/Swimming/repertoire/Female_Swim.xml" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/swimming/lua/minigame.luac" />
+    <lua name="strict.lua" deferred_loading="false" protected="true" file="minigames/libraries/strict.luac" />
+  </local>
+  <external />
+</resources>

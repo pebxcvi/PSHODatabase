@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_AquaMount" deferred_loading="true" protected="false" file="locomotionassets/AquaMount_Dolphin.mdl" memory="host" />
+		<particle name="efx_streak01" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/particle/streak01.efx" memory="host" />
+		<particle name="efx_water_bubbles01" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/particle/water_bubbles01.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/file/config_orca.xml" memory="host" />
+		<anim name="ani_AquaMount_idle" deferred_loading="true" protected="false" file="locomotionassets/AquaMount_Dolphin.ani" memory="host" />
+		<anim name="ani_AquaMount_Swim" deferred_loading="true" protected="false" file="locomotionassets/AquaMount_Dolphin_Swim.ani" memory="host" />
+		<anim name="ani_Idle" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Orca_Idle.ani" memory="host" />
+		<anim name="ani_Move" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Orca_Move.ani" memory="host" />
+		<anim name="ani_Left" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Shark_Left.ani" memory="host" />
+		<anim name="ani_Right" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Shark_Right.ani" memory="host" />
+		<anim name="ani_Fleft" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Shark_Fleft.ani" memory="host" />
+		<anim name="ani_Fright" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Shark_Fright.ani" memory="host" />
+		<anim name="ani_Fmove" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Orca_Fmove.ani" memory="host" />
+		<anim name="ani_Fidle" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/anim/AquaMount_Orca_FIdle.ani" memory="host" />
+		<anim name="ani_AquaMount_Boost" deferred_loading="true" protected="false" file="locomotionassets/AquaMount_Dolphin_Swim.ani" memory="host" />
+		<skeleton name="skn_AquaMount" deferred_loading="true" protected="false" file="locomotionassets/AquaMount_Dolphin.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Great_White_Shark/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Great_White_Shark/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

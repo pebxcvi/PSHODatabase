@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/christmasmusic_2010/santa/models/CommAug_SantaClaus.mdl" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/christmasmusic_2010/santa/models/CommAug_SantaClaus.hkx" />
+		<soundstream name="3_O_Come_All_Ye_Faithful.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/sound/3_O_Come_All_Ye_Faithful.mp3" />
+		<soundstream name="1_Joy_To_The_World.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/sound/1_Joy_To_The_World.mp3" />
+		<soundstream name="2_The_Twelve_Days_Of_Christmas.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/santa/sound/2_The_Twelve_Days_Of_Christmas.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/christmasmusic_2010/santa/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="ActiveItems/christmasmusic_2010/santa/programming/Boombox.lua" />
+	</local>
+	<external />
+</resources>

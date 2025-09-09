@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Game_Model" deferred_loading="false" protected="false" file="MiniGames/streetfightercommerce/models/StreetFighterCommerce.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/SFXT_Shop/Network.xml" />
+		<collision name="Game_Collision" deferred_loading="false" protected="false" file="MiniGames/sportsjumppoint/models/SportsJumpPoint.hkx" />
+		<anim name="Game_Anim" deferred_loading="false" protected="false" file="MiniGames/streetfightercommerce/models/StreetFighterCommerce.ani" />
+		<skeleton name="Game_Skel" deferred_loading="false" protected="false" file="MiniGames/streetfightercommerce/models/StreetFighterCommerce.skn" />
+		<lua name="main_lua" deferred_loading="false" protected="true" file="MiniGames/SFXT_Shop/lua/main.lua" />
+	</local>
+	<external />
+</resources>

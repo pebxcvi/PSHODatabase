@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="animatedmodels/bandit/Bandit.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Bandit/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/danm2/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="animatedmodels/bandit/bandit_idle_anim.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="animatedmodels/bandit/bandit_walk_anim.ani" memory="host" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="animatedmodels/bandit/bandit_shoot_anim.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="animatedmodels/bandit/bandit_run_anim.ani" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="animatedmodels/bandit/bandit_scratch_anim.ani" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="animatedmodels/bandit/Bandit.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/danm2/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

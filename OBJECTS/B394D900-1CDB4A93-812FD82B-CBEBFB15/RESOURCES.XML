@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Water.mdl" deferred_loading="false" protected="false" file="environments/viphotelsuite2/environmentmeshes/tub/Water.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/PenthouseBath/file/Network.xml" />
+		<anim name="BathTub_M" deferred_loading="false" protected="false" file="animation/male/bathtub_m/BathTub_M.ani" />
+		<anim name="BathTub_F" deferred_loading="false" protected="false" file="animation/female/bathtub_f/BathTub_F.ani" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="MiniGames/PenthouseBath/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="MiniGames/PenthouseBath/FemaleRepertoire.xml" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="MiniGames/PenthouseBath/MaleEmotes.xml" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="MiniGames/PenthouseBath/FemaleEmotes.xml" />
+		<lua name="PenthouseBath.lua" deferred_loading="false" protected="true" file="MiniGames/PenthouseBath/lua/PenthouseBath.lua" />
+	</local>
+	<external />
+</resources>

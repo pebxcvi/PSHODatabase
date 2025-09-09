@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>B2BB5B47-CB6F4286-B23741EF-64C70BED</uuid>
+  <name lang="en-GB" default="true">Fish radar</name>
+  <name lang="ja-JP" default="false">ギョレーダー</name>
+  <description lang="en-GB" default="true">"At somewhere in PlayStation®Home" Event　　　　　　　　　　　 Reward: A radar can let you search fishes.</description>
+  <description lang="fr-FR" default="false">"At somewhere in PlayStation®Home" Event　　　　　　　　　　　　　 Reward: A radar can let you search fishes.</description>
+  <description lang="it-IT" default="false">"At somewhere in PlayStation®Home" Event　　　　　　　　　　　　　 Reward: A radar can let you search fishes.</description>
+  <description lang="ja-JP" default="false">“PS Homeのあそこで”イベントリワード　ギョを探知するレーダー</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T032.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T032.png</small_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating country="JP" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="HK" minimum_age="0" parental_control_level="1" />
+    <age_rating country="TW" minimum_age="0" parental_control_level="1" />
+  </legal>
+  <timestamp>8BC4C211</timestamp>
+</odc>

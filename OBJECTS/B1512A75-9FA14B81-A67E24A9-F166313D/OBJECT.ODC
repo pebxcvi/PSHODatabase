@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.83.0.11.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>B1512A75-9FA14B81-A67E24A9-F166313D</uuid>
+  <name lang="en-GB" default="true">Relaxing Edo Bathhouse</name>
+  <name lang="fr-FR" default="false">Thermes relaxants d'Edo</name>
+  <name lang="de-DE" default="false">Entspannendes Edo-Badehaus</name>
+  <name lang="it-IT" default="false">Centro terMen Edo</name>
+  <name lang="es-ES" default="false">Casa de baño de la era Edo relajante</name>
+  <name lang="ja-JP" default="false">くつろぎの湯屋</name>
+  <description lang="en-GB" default="true">A relaxing atmosphere for body and soul. Invite a friend, take a soak together in the soothing waters, and watch the days fatigue melt away.[#Legal]</description>
+  <description lang="fr-FR" default="false">Une atmosphère relaxante pour le corps et l'esprit. Invitez un(e) ami(e) pour plonger ensemble dans des ondées soyeuses qui feront s'envoler la fatigue de la journée.[#Legal]</description>
+  <description lang="de-DE" default="false">Eine entspannende Atmosphäre für Körper und Geist. Lade einen Freund ein, entspannt euch im angenehm warmen Wasser und die Anstrengungen der letzten Tage werden davon gewaschen.[#Legal]</description>
+  <description lang="it-IT" default="false">Un'atmosfera rilassante per corpo e mente. Invita un amico a fare un bagno rilassante, e scaccia via la stanchezza accumulata con il tempo.[#Legal]</description>
+  <description lang="es-ES" default="false">Una atmósfera relajante para cuerpo y alma. Invita a un amigo a refrescarse en estas aguas tan tranquilas y mira como la fatiga del día se desvanece.[#Legal]</description>
+  <description lang="ja-JP" default="false">心と体を癒すくつろぎの空間。親しい友人を招いて、暖かい湯に一緒に浸かれば、日頃の疲れも飛んでいくことでしょう。[#Legal]</description>
+  <maker lang="en-GB" default="true">Granzella Inc.</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T032.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T032.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T032.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">EDO_Lounge_PS2_SCEE_5815_DCB5</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>8D368217</timestamp>
+</odc>
