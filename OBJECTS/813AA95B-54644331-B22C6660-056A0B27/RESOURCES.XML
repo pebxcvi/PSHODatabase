@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Engine_Three_mdl" deferred_loading="false" protected="false" file="game/engines/Engine_Three.mdl" />
+    <model name="Gun_Three_mdl" deferred_loading="false" protected="false" file="game/guns/Gun_Three.mdl" />
+    <model name="Hull_Three_mdl" deferred_loading="false" protected="false" file="game/hulls/Hull_Three.mdl" />
+    <model name="Missile_Three_mdl" deferred_loading="false" protected="false" file="game/missiles/Missile_Three.mdl" />
+    <texture name="aurora_dds" deferred_loading="true" protected="false" file="Scripts/SceneScript/aurora.dds" memory="main" />
+    <texture name="exit_panel_dds" deferred_loading="true" protected="false" file="Scripts/SkyRide_Minigame/images/exit_panel.dds" />
+    <texture name="orbCounterRevolves_dds" deferred_loading="true" protected="false" file="assets/textures/orbCounterRevolves.dds" />
+    <texture name="panel_middle_dds" deferred_loading="true" protected="false" file="Scripts/SkyRide_Minigame/images/babu_panel_middle.dds" />
+    <texture name="panel_end_dds" deferred_loading="true" protected="false" file="Scripts/SkyRide_Minigame/images/babu_panel_end.dds" />
+    <soundstream name="Aurora_Defenders_Hero_mp3" deferred_loading="false" protected="false" file="Scripts/SkyRide_Minigame/audio/Aurora_Defenders_Western.mp3" memory="main" />
+    <lua name="SkyRide_minigame.lua" deferred_loading="false" protected="true" file="scripts/skyride_minigame/skyride_minigame.lua" />
+    <lua name="Constants_lua" deferred_loading="false" protected="true" file="scripts/skyride_minigame/constants.lua" />
+    <lua name="Util_lua" deferred_loading="false" protected="true" file="scripts/skyride_minigame/util.lua" />
+    <lua name="ShipManager_lua" deferred_loading="false" protected="true" file="scripts/skyride_minigame/shipmanager.lua" />
+    <lua name="Soundbank_Manager_lua" deferred_loading="false" protected="true" file="scripts/lualibs/soundbank_manager.lua" />
+    <lua name="BSpline_lua" deferred_loading="false" protected="true" file="scripts/lualibs/bspline.lua" />
+    <lua name="pathFollow_lua" deferred_loading="false" protected="true" file="scripts/lualibs/pathfollow.lua" />
+    <lua name="DeferredResource_lua" deferred_loading="false" protected="true" file="scripts/lualibs/deferredresource.lua" />
+    <lua name="Fader_lua" deferred_loading="false" protected="true" file="scripts/lualibs/fader.lua" />
+    <lua name="ObjectComsShared_lua" deferred_loading="false" protected="true" file="scripts/object_coms_common/objectcomsshared.lua" />
+  </local>
+  <external />
+</resources>

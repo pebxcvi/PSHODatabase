@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.52.0.2.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>818AA160-AB284BBF-A5286639-9F0635AD</uuid>
+  <name lang="en-GB" default="true">Virtua Tennis 4 – Baseline Battle</name>
+  <description lang="en-GB" default="true">A Virtua Tennis Court Game. Stop the robots! [#Legal]</description>
+  <description lang="fr-FR" default="false">Un jeu Virtua Tennis. Arrêtez les robots! [#Legal]</description>
+  <description lang="de-DE" default="false">Ein virtuelles Tennisspiel. Haltet die Roboter auf. [#Legal]</description>
+  <description lang="it-IT" default="false">Un gioco virtuale sul campo da tennis. Ferma i robot. [#Legal]</description>
+  <description lang="es-ES" default="false">Un Juego Virtual en la Pista de Tenis. Detén a los robots [#Legal]  [#Legal]</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">Virtua_Tennis_4_Apt_9D88_A2D0</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating rating_system="PEGI" rating="3+" minimum_age="3" parental_control_level="2" />
+  </legal>
+  <timestamp>9539B8AB</timestamp>
+</odc>

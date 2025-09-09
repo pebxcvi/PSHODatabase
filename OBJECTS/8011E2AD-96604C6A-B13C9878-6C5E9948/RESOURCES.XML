@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cover" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_cover.mdl" />
+		<model name="gun" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_gun.mdl" />
+		<model name="safety" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_safety.mdl" />
+		<model name="tube" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_gastube.mdl" />
+		<texture name="ScoreCard.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/ScoreCard.dds" />		
+		<particle name="OPFORsparkle.efx" deferred_loading="false" file="ATGParticles/OPFOR/Effects/OPFORsparkle.efx" />
+		<file name="parts.lua" deferred_loading="false" file="MiniGames/SOCOM_goldAK/scripts/parts.lua" />
+		<file name="parts_toc.lua" deferred_loading="false" file="MiniGames/SOCOM_goldAK/scripts/parts_toc.lua" />
+		<file name="LB_fetchparts.lua" deferred_loading="false" file="MiniGames/SOCOM_goldAK/scripts/LB_fetchparts.lua" />
+		<file name="OHS.lua" deferred_loading="false" file="MiniGames/SCEA-OHS/OHS.lua" />
+		<file name="encrypt.lua" deferred_loading="false" file="MiniGames/SCEA-OHS/encrypt.lua" />
+		<file name="Jamin.lua" deferred_loading="false" file="MiniGames/SCEA-OHS/Jamin.lua" />
+		<file name="wordwrap.lua" deferred_loading="false" file="MiniGames/SCEA_fn_lib/wordwrap.lua" />
+		<file name="draw_items.lua" deferred_loading="false" file="MiniGames/SOCOM_goldAK/scripts/draw_items.lua" />
+	</local>
+	<external />
+</resources>

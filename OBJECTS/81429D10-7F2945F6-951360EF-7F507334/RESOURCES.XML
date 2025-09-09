@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Save/lua/MiniGame.lua" memory="host" />
+		<lua name="Version.lua" deferred_loading="false" protected="true" file="MiniGames/Save/lua/Version.lua" memory="host" />
+		<lua name="Save.lua" deferred_loading="false" protected="true" file="MiniGames/Save/lua/Save.lua" memory="host" />
+		<lua name="Entitlement.lua" deferred_loading="false" protected="true" file="MiniGames/Save/lua/Entitlement.lua" memory="host" />
+		<lua name="def_cmn.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_cmn.lua" memory="host" />
+		<lua name="def_object.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_object.lua" />
+		<lua name="verconv.lua" deferred_loading="false" protected="true" file="MiniGames/Save/lua/verconv.lua" />
+		<lua name="derby_para.lua" deferred_loading="false" protected="true" file="luacommon/lua/derby_para.lua" />
+		<lua name="def_catch.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_catch.lua" />
+		<lua name="def_pet.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_pet.lua" />
+		<lua name="convcmn.lua" deferred_loading="false" protected="true" file="MiniGames/SaveCmn/lua/convcmn.lua" />
+		<lua name="data_cmn.lua" deferred_loading="false" protected="true" file="MiniGames/SaveCmn/lua/data_cmn.lua" />
+		<lua name="def_travel.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_travel.lua" />
+	</local>
+	<external />
+</resources>

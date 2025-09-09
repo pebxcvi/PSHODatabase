@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="quiz.mdl" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/model/quiz.mdl" />
+		<texture name="MenuBG_Clean.dds" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/gui/MenuBG_Clean.dds" />
+		<texture name="ad_pic.dds" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/gui/ad_pic.dds" />
+		<texture name="bg.dds" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/gui/bg.dds" />
+		<texture name="cla.dds" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/gui/cla.dds" />
+		<texture name="nef.dds" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/gui/nef.dds" />
+		<texture name="qwa.dds" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/gui/qwa.dds" />
+		<texture name="rat.dds" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/gui/rat.dds" />
+		<collision name="quiz.hkx" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/model/quiz.hkx" />
+		<anim name="quiz.ani" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/model/quiz.ani" />
+		<skeleton name="quiz.skn" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/model/quiz.skn" />
+		<soundstream name="bg_music.mp3" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/sound/bg_music.mp3" />
+		<soundstream name="open.mp3" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/sound/open.mp3" />
+		<soundstream name="results.mp3" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/sound/results.mp3" />
+		<soundstream name="selectAnswer.mp3" deferred_loading="false" protected="false" file="MiniGames/ratchettandclankquiz/sound/selectAnswer.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ratchettandclankquiz/lua/MiniGame.lua" />
+		<lua name="Constants.lua" deferred_loading="false" protected="true" file="MiniGames/ratchettandclankquiz/lua/Constants.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="MiniGames/ratchettandclankquiz/lua/Util.lua" />
+	</local>
+	<external />
+</resources>

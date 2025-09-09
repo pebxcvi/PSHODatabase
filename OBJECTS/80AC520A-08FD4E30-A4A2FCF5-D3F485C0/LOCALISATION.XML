@@ -1,0 +1,4563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="ja-JP" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName_Immigration</LANG>
+    <LANG ID="en-GB">*Not Localised* Immigration</LANG>
+    <LANG ID="fr-FR">*Not Localised* Immigration</LANG>
+    <LANG ID="de-DE">*Not Localised* Immigration</LANG>
+    <LANG ID="it-IT">*Not Localised* Immigration</LANG>
+    <LANG ID="es-ES">*Not Localised* Immigration</LANG>
+    <LANG ID="ja-JP">国民管理局 </LANG>
+    <LANG ID="ko-KR">*Not Localised* Immigration</LANG>
+    <LANG ID="en-SG">*Not Localised* Immigration</LANG>
+    <LANG ID="zh-HK">*Not Localised* Immigration</LANG>
+    <LANG ID="zh-TW">*Not Localised* Immigration</LANG>
+    <LANG ID="en-US">*Not Localised* Immigration</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="en-GB">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="fr-FR">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="de-DE">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="it-IT">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="es-ES">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="ja-JP">国民管理局 [#Legal]</LANG>
+    <LANG ID="ko-KR">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="en-SG">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="zh-HK">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="zh-TW">*Not Localised* Immigration [#Legal]</LANG>
+    <LANG ID="en-US">*Not Localised* Immigration [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Title_00</LANG>
+    <LANG ID="ja-JP">　　　国民管理局 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Title_01</LANG>
+    <LANG ID="ja-JP">称号変更 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Select_Honor</LANG>
+    <LANG ID="ja-JP">称号の変更 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Select_Help</LANG>
+    <LANG ID="ja-JP">ヘルプ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Select_Paper</LANG>
+    <LANG ID="ja-JP">国民票の変更 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Select_HideUi</LANG>
+    <LANG ID="ja-JP">画面情報を表示しない [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Select_DispUi</LANG>
+    <LANG ID="ja-JP">画面情報を表示する [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Select_Exit</LANG>
+    <LANG ID="ja-JP">戻る [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Leg_Navi</LANG>
+    <LANG ID="ja-JP">[UP][DOWN]選択 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Leg_Next</LANG>
+    <LANG ID="ja-JP">[CROSS]次へ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Leg_Select</LANG>
+    <LANG ID="ja-JP">[CROSS]決定 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Leg_Cancel</LANG>
+    <LANG ID="ja-JP">[CIRCLE]戻る [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMenu_Leg_BackMenu</LANG>
+    <LANG ID="ja-JP">[CIRCLE]項目選択に戻る [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Main_01</LANG>
+    <LANG ID="ja-JP">国民管理局です。ここでは称号を変更したり、\nヘルプを確認したりできます！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Exit_01</LANG>
+    <LANG ID="ja-JP">また、いつでも来てくださいね！\nお待ちしてます！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Des_01</LANG>
+    <LANG ID="ja-JP">「%s」ですね？\nなかなかお似合いですよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Des_02</LANG>
+    <LANG ID="ja-JP">「%s」ですね？\nアナタにピッタリじゃないですか！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Des_03</LANG>
+    <LANG ID="ja-JP">「%s」ですね？\nこれならバッチリ目立てますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Des_04</LANG>
+    <LANG ID="ja-JP">「%s」ですね？\nさすが、人柄がにじみ出てますね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Des_05</LANG>
+    <LANG ID="ja-JP">「%s」ですね？\n一段と輝きが増したような気がします！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Des_06</LANG>
+    <LANG ID="ja-JP">「%s」ですね？\nきっと街ゆく人も振り返りますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kMsg_Des_07</LANG>
+    <LANG ID="ja-JP">「%s」ですね？\nめっちゃカッコイイですやん！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Title</LANG>
+    <LANG ID="ja-JP">　　　　ヘルプ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Info</LANG>
+    <LANG ID="ja-JP">どの項目についてお調べになりますか？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_01</LANG>
+    <LANG ID="ja-JP">照英王国について [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_02</LANG>
+    <LANG ID="ja-JP">国民について [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_03</LANG>
+    <LANG ID="ja-JP">建国ポイントについて [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_04</LANG>
+    <LANG ID="ja-JP">人気ポイントについて [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_05</LANG>
+    <LANG ID="ja-JP">幸福ポイントについて [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_06</LANG>
+    <LANG ID="ja-JP">祝福について [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_07</LANG>
+    <LANG ID="ja-JP">称号について [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_08</LANG>
+    <LANG ID="ja-JP">勅令について [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Select_09</LANG>
+    <LANG ID="ja-JP">大勅令について [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_01_01</LANG>
+    <LANG ID="ja-JP">照英国王が建てられた王国でございます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_01_02</LANG>
+    <LANG ID="ja-JP">皆さんには建築中の時期から\n遊んでもらっていたのですが、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_01_03</LANG>
+    <LANG ID="ja-JP">やっと、お城も完成して\n王国らしくなってきましたよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_01_04</LANG>
+    <LANG ID="ja-JP">国民管理局もほら！\nこんな立派な建物が……、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_01_05</LANG>
+    <LANG ID="ja-JP">あれ？　でも、なんで僕は外に……、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_01_06</LANG>
+    <LANG ID="ja-JP">ま、とにかく\nこれからも王国はドンドン発展しますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_01_07</LANG>
+    <LANG ID="ja-JP">もっともっと王国を発展させるため、\nご協力よろしくお願いします！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_01</LANG>
+    <LANG ID="ja-JP">照英王国では、誰でも国民となる事ができます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_02</LANG>
+    <LANG ID="ja-JP">照英王国の国民となり、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_03</LANG>
+    <LANG ID="ja-JP">ミニゲームのプレイを頑張ってみたり……、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_04</LANG>
+    <LANG ID="ja-JP">他の国民を喜ばせて祝福してもらったり……、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_05</LANG>
+    <LANG ID="ja-JP">ラジバンダリ☆！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_06</LANG>
+    <LANG ID="ja-JP">…… [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_07</LANG>
+    <LANG ID="ja-JP">王国の発展に貢献することができるんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_02_08</LANG>
+    <LANG ID="ja-JP">貢献すれば、\nもちろん色々とご褒美ももらえますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_03_01</LANG>
+    <LANG ID="ja-JP">ミニゲームや勅令をクリアすると、\n建国ポイントというものが貯まるんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_03_02</LANG>
+    <LANG ID="ja-JP">これは、その国民が\nどれだけ王国に貢献したかを表したものです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_03_03</LANG>
+    <LANG ID="ja-JP">このポイントが多ければ多いほど\n頑張って王国に貢献したことになります。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_03_04</LANG>
+    <LANG ID="ja-JP">ドンドン貯めれば、\n称号やアイテムを貰えることもありますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_03_05</LANG>
+    <LANG ID="ja-JP">頑張って、王国に貢献しましょう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_01</LANG>
+    <LANG ID="ja-JP">人気ポイントとは、\n他の国民から祝福を受けると増えるポイントです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_02</LANG>
+    <LANG ID="ja-JP">他の国民に喜んでもらって\nできるだけ、たくさんの祝福を受けましょう。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_03</LANG>
+    <LANG ID="ja-JP">そうすれば、ドンドン人気ポイントが貯まります。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_04</LANG>
+    <LANG ID="ja-JP">いわば、人気のバロメータですね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_05</LANG>
+    <LANG ID="ja-JP">もちろん、たくさん貯めると\n称号やアイテムを貰えることもありますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_06</LANG>
+    <LANG ID="ja-JP">だから、怖がらずにいろんな人たちに\n話しかけてください。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_07</LANG>
+    <LANG ID="ja-JP">まずは、話しかけて仲良くなったり\n楽しいことを教え合ったりして、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_08</LANG>
+    <LANG ID="ja-JP">まわりのみんなを楽しませてあげてください。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_09</LANG>
+    <LANG ID="ja-JP">それと、祝福をしてもらったら、\n今度はぜひ他の国民を祝福してあげてください。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_10</LANG>
+    <LANG ID="ja-JP">きっと喜んでもらえますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_11</LANG>
+    <LANG ID="ja-JP">そうやって、この王国に来る\nいろんな人に幸せを分けてあげてくださいね。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_04_12</LANG>
+    <LANG ID="ja-JP">みんなで幸せな王国をつくる！\nそれが、ボクたちの願いです！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_01</LANG>
+    <LANG ID="ja-JP">他の国民から祝福を受けると\n人気ポイントが貯まります。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_02</LANG>
+    <LANG ID="ja-JP">それと同時に、\n幸福ポイントというのも貯まるんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_03</LANG>
+    <LANG ID="ja-JP">そう、祝福を受けた国民は\nドンドン幸せになっていくんですね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_04</LANG>
+    <LANG ID="ja-JP">イイじゃないですかぁ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_05</LANG>
+    <LANG ID="ja-JP">でも、\n困ったことがあるんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_06</LANG>
+    <LANG ID="ja-JP">幸福ポイントがいっぱいになると\nもうこれ以上、幸せになれない……ってことで、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_07</LANG>
+    <LANG ID="ja-JP">人気ポイントが貯まらなくなるんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_08</LANG>
+    <LANG ID="ja-JP">自分の幸せに限界を感じる\n悲しい瞬間ですね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_09</LANG>
+    <LANG ID="ja-JP">そんなときこそ\n他の国民を祝福するんです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_10</LANG>
+    <LANG ID="ja-JP">他の国民を祝福すると\n幸福ポイントは減っていき、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_11</LANG>
+    <LANG ID="ja-JP">また、祝福を受けて人気ポイントが\n貯まる状態になります。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_12</LANG>
+    <LANG ID="ja-JP">いや、けっして\nあなたの幸せが減ってるわけではなく……、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_13</LANG>
+    <LANG ID="ja-JP">そう、幸せはひとり占めせず、\nみんなに分けてあげるわけですよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_05_14</LANG>
+    <LANG ID="ja-JP">みんなで幸せになって\n笑顔のあふれる王国にしましょう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_06_01</LANG>
+    <LANG ID="ja-JP">この照英王国にいる間は、\n他の国民に対して祝福をすることができます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_06_02</LANG>
+    <LANG ID="ja-JP">[CROSS]ボタンを押すと、自分の近くにいる\n国民が祝福されるんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_06_03</LANG>
+    <LANG ID="ja-JP">感謝の気持ちを伝えるため、\n愛する想いを伝えるため……、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_06_04</LANG>
+    <LANG ID="ja-JP">自由にいろんな人を祝福してください。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_06_05</LANG>
+    <LANG ID="ja-JP">また、画面の右下には、\n祝福回数が表示されています。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_06_06</LANG>
+    <LANG ID="ja-JP">ここで表示されている回数だけ\n他の国民を祝福することができます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_06_07</LANG>
+    <LANG ID="ja-JP">回数は時間がたつと少しずつ回復するので、\n遠慮せず、みんなで祝福しあって下さいね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_01</LANG>
+    <LANG ID="ja-JP">照英王国では、頭の上に称号が表示されています。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_02</LANG>
+    <LANG ID="ja-JP">称号とは、その人がどんな国民なのかを\n表しているものです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_03</LANG>
+    <LANG ID="ja-JP">ステキな称号を付けている人はステキな人、\n面白い称号を付けている人は面白い人なわけです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_04</LANG>
+    <LANG ID="ja-JP">もちろん、誰もが自由に称号を付けられる\nわけではありません。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_05</LANG>
+    <LANG ID="ja-JP">ミニゲームでハイスコアを出したり、\n建国ポイント、人気ポイントを貯めたりと、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_06</LANG>
+    <LANG ID="ja-JP">いろんな方法で、いろんな称号を\n手に入れることができます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_07</LANG>
+    <LANG ID="ja-JP">手に入れるのが難しい称号を持っていれば、\nきっとまわりに自慢できますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_08</LANG>
+    <LANG ID="ja-JP">あっ、それと皆さんが手に入れた称号は\nこの国民管理局で管理しています。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_09</LANG>
+    <LANG ID="ja-JP">ここで手に入れた称号の中から、好きな称号を\n自由に選んで付けることができますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_07_10</LANG>
+    <LANG ID="ja-JP">新しい称号を手に入れたら、\nぜひ、この国民管理局に来てください。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_08_01</LANG>
+    <LANG ID="ja-JP">実は王国を歩いていると、\n突然、照英国王が降ってくることがあるんです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_08_02</LANG>
+    <LANG ID="ja-JP">そのとき、国王直々に\n勅令（ミッション）を下すことがあるそうです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_08_03</LANG>
+    <LANG ID="ja-JP">この勅令をクリアすると、\n照英国王からご褒美が貰えるとか……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_08_04</LANG>
+    <LANG ID="ja-JP">もし、照英国王が降ってきたら\nチャンスと思って、ぜひトライしてください！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_09_01</LANG>
+    <LANG ID="ja-JP">大勅令とは、ひと月ごとに照英国王から\n国民全員に発令される勅令（ミッション）です。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_09_02</LANG>
+    <LANG ID="ja-JP">ひとりでクリアするのではなく、\n国民全員で団結してクリアを目指します。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_09_03</LANG>
+    <LANG ID="ja-JP">国民が団結する！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_09_04</LANG>
+    <LANG ID="ja-JP">いい言葉ですね！\nボクも思わず胸が熱くなります。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_09_05</LANG>
+    <LANG ID="ja-JP">みんなで団結して、\n成し遂げたあかつきには、 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_09_06</LANG>
+    <LANG ID="ja-JP">きっと照英国王も感動されることでしょう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHelp_Msg_09_07</LANG>
+    <LANG ID="ja-JP">王国に来たからには、\nぜひ一度、この「大勅令」に参加してくださいね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_000</LANG>
+    <LANG ID="ja-JP">ゲスト [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_000</LANG>
+    <LANG ID="ja-JP">N/A [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_001</LANG>
+    <LANG ID="ja-JP">国民見習い [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_001</LANG>
+    <LANG ID="ja-JP">まだまだ見習いだけど、早く一人前になりたい！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_002</LANG>
+    <LANG ID="ja-JP">駆け出し国民 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_002</LANG>
+    <LANG ID="ja-JP">まだヒヨッ子ですが、根性だけは負けません！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_003</LANG>
+    <LANG ID="ja-JP">新人国民 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_003</LANG>
+    <LANG ID="ja-JP">温かい目で見て、今後の私に期待してください。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_004</LANG>
+    <LANG ID="ja-JP">一般国民 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_004</LANG>
+    <LANG ID="ja-JP">やっと照英王国の国民らしくなってきた！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_005</LANG>
+    <LANG ID="ja-JP">上級国民 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_005</LANG>
+    <LANG ID="ja-JP">照英王国のことが知りたかったら\n何でもオレに訊いてくれ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_006</LANG>
+    <LANG ID="ja-JP">警備員見習い [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_006</LANG>
+    <LANG ID="ja-JP">王国の治安に役立ちたいんです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_007</LANG>
+    <LANG ID="ja-JP">王国警備員 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_007</LANG>
+    <LANG ID="ja-JP">立ってるだけでも、悪いヤツらがいなくなる！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_008</LANG>
+    <LANG ID="ja-JP">王国警備兵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_008</LANG>
+    <LANG ID="ja-JP">国境の守りは任せてください！\n……で、国境ってどこ？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_009</LANG>
+    <LANG ID="ja-JP">王国警備隊長 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_009</LANG>
+    <LANG ID="ja-JP">王国の平和と安全を守る警備隊長。\n事件とあらば、すぐ駆けつけます！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_010</LANG>
+    <LANG ID="ja-JP">傭兵見習い [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_010</LANG>
+    <LANG ID="ja-JP">自分の腕っぷしを信じて頂点を目指す！\nまずは、見習いからコツコツと……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_011</LANG>
+    <LANG ID="ja-JP">王国傭兵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_011</LANG>
+    <LANG ID="ja-JP">王国に雇われた腕の立つ猛者です。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_012</LANG>
+    <LANG ID="ja-JP">傭兵隊長 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_012</LANG>
+    <LANG ID="ja-JP">荒くれ者たちをまとめることができる\nそんな度量の持ち主です。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_013</LANG>
+    <LANG ID="ja-JP">兵士見習い [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_013</LANG>
+    <LANG ID="ja-JP">王国の正式な兵士の見習い。\n兵士としての正式採用ももう間近！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_014</LANG>
+    <LANG ID="ja-JP">王国兵士 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_014</LANG>
+    <LANG ID="ja-JP">王国に正式採用された兵士。\n王国を支える誇り高き者たち。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_015</LANG>
+    <LANG ID="ja-JP">王国兵士長 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_015</LANG>
+    <LANG ID="ja-JP">誇り高き者たちをまとめる兵士隊長。\nリーダーの器をもつもの。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_016</LANG>
+    <LANG ID="ja-JP">騎士見習い [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_016</LANG>
+    <LANG ID="ja-JP">王国での栄光へと続く道を上り始めたもの。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_017</LANG>
+    <LANG ID="ja-JP">王国騎士 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_017</LANG>
+    <LANG ID="ja-JP">みんなが憧れるナイトの称号を持つ騎士。\n自然にしてても、どことなくカッコイイ。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_018</LANG>
+    <LANG ID="ja-JP">騎士団長 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_018</LANG>
+    <LANG ID="ja-JP">王国のカッコイイ騎士達をまとめる\nこれまたカッコイイ団長さん。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_019</LANG>
+    <LANG ID="ja-JP">親衛隊見習い [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_019</LANG>
+    <LANG ID="ja-JP">騎士の中でも特に優秀な者が選ばれるのが親衛隊。\nまだ見習いだけど、エリート街道まっしぐら！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_020</LANG>
+    <LANG ID="ja-JP">国王親衛隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_020</LANG>
+    <LANG ID="ja-JP">国王を警護するエリート騎士達。\nきっと田舎のお母さんも鼻が高いハズ！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_021</LANG>
+    <LANG ID="ja-JP">親衛隊長 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_021</LANG>
+    <LANG ID="ja-JP">国王に危害を加えるものはオレが許さんっ！！\nとばかりに周囲ににらみを利かせてみる。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_022</LANG>
+    <LANG ID="ja-JP">士官への道 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_022</LANG>
+    <LANG ID="ja-JP">やっぱり出世するには、\n士官学校に入らないといけないみたい……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_023</LANG>
+    <LANG ID="ja-JP">カリスマ少佐 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_023</LANG>
+    <LANG ID="ja-JP">いつも自信満々でやる事なす事カッコイイ。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_024</LANG>
+    <LANG ID="ja-JP">頼れる中佐 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_024</LANG>
+    <LANG ID="ja-JP">いつも部下から身の上相談を持ちかけられる人情派。\n慕われるのは器が大きい証拠。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_025</LANG>
+    <LANG ID="ja-JP">仮面の大佐 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_025</LANG>
+    <LANG ID="ja-JP">大佐って、普通は仮面を付けてるものなのです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_026</LANG>
+    <LANG ID="ja-JP">切れモノの参謀 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_026</LANG>
+    <LANG ID="ja-JP">ナイフのような鋭さで王国軍内でも\n一目を置かれる切れ者。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_027</LANG>
+    <LANG ID="ja-JP">天才軍師 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_027</LANG>
+    <LANG ID="ja-JP">国王だって五分五分で迷ったら、\n多分、私に訊きますよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_028</LANG>
+    <LANG ID="ja-JP">愛国将軍 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_028</LANG>
+    <LANG ID="ja-JP">王国を愛する気持ちはだれよりも強い！\n国王と同じく、その気持ちを熱く熱く語るのだ！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_029</LANG>
+    <LANG ID="ja-JP">王国総理大臣 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_029</LANG>
+    <LANG ID="ja-JP">思わず言ってしまう一言、「アイム・ソーリー！」 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_030</LANG>
+    <LANG ID="ja-JP">爵位への道 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_030</LANG>
+    <LANG ID="ja-JP">これだけガンバったんだから、\n貴族になりたいんです……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_031</LANG>
+    <LANG ID="ja-JP">駆け出し準男爵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_031</LANG>
+    <LANG ID="ja-JP">とりあえず、貴族を名乗ってみました。\nでも「準」ってなに！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_032</LANG>
+    <LANG ID="ja-JP">なりたて男爵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_032</LANG>
+    <LANG ID="ja-JP">ヒゲを生やしてみたり、\nちょっと貴族っぽくなってきたかも……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_033</LANG>
+    <LANG ID="ja-JP">タカビー子爵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_033</LANG>
+    <LANG ID="ja-JP">貴族が板に付いてきたけど、\n少し上から目線なのが、玉にキズ……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_034</LANG>
+    <LANG ID="ja-JP">青年伯爵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_034</LANG>
+    <LANG ID="ja-JP">端麗な容姿と上品な佇まいが、\n高貴な雰囲気を際立たせる。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_035</LANG>
+    <LANG ID="ja-JP">由緒正しき侯爵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_035</LANG>
+    <LANG ID="ja-JP">この間まで平民だったけど、\n先祖は実は貴族だったことにしてみる。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_036</LANG>
+    <LANG ID="ja-JP">名門の公爵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_036</LANG>
+    <LANG ID="ja-JP">誰もが知っている貴族と言えば、コノ人！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_037</LANG>
+    <LANG ID="ja-JP">殿堂入り [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_037</LANG>
+    <LANG ID="ja-JP">国民みんなが納得する、実績と貫録を持ってます！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_038</LANG>
+    <LANG ID="ja-JP">勇者へと続く道 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_038</LANG>
+    <LANG ID="ja-JP">小さな王国の幸せもいいけど、\nさらなる高みを目指してみよう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_039</LANG>
+    <LANG ID="ja-JP">伝説の始まり [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_039</LANG>
+    <LANG ID="ja-JP">ついに……ついに！　始まった……はず！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_040</LANG>
+    <LANG ID="ja-JP">世界を旅する者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_040</LANG>
+    <LANG ID="ja-JP">広い世界に出ていって、自分探しの旅に出よう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_041</LANG>
+    <LANG ID="ja-JP">勇者の仲間募集中 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_041</LANG>
+    <LANG ID="ja-JP">旅に出るとしても、やっぱり一人は寂しいよね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_042</LANG>
+    <LANG ID="ja-JP">歴戦の勇 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_042</LANG>
+    <LANG ID="ja-JP">厳しい旅路の果てで、勇者は強くなる……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_043</LANG>
+    <LANG ID="ja-JP">魔王を討つ者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_043</LANG>
+    <LANG ID="ja-JP">やっぱり、魔王を倒すのが\nカッコイイ主人公の条件です！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_044</LANG>
+    <LANG ID="ja-JP">伝説の勇者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_044</LANG>
+    <LANG ID="ja-JP">ラスボスを倒してこそ、\nはじめて勇者と呼ばれるのだ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_045</LANG>
+    <LANG ID="ja-JP">王国の救世主 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_045</LANG>
+    <LANG ID="ja-JP">王国を救った救世主は、\n王国に危機が訪れるとき、きっと再び現れるはず！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_046</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_046</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_047</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_047</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_048</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_048</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_049</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_049</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_050</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_050</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_051</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_051</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_052</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_052</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_053</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_053</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_054</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_054</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_055</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_055</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_056</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_056</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_057</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_057</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_058</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_058</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_059</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_059</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_060</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_060</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_061</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_061</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_062</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_062</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_063</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_063</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_064</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_064</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_065</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_065</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_066</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_066</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_067</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_067</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_068</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_068</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_069</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_069</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_070</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_070</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_071</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_071</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_072</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_072</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_073</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_073</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_074</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_074</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_075</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_075</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_076</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_076</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_077</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_077</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_078</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_078</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_079</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_079</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_080</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_080</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_081</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_081</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_082</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_082</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_083</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_083</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_084</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_084</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_085</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_085</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_086</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_086</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_087</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_087</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_088</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_088</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_089</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_089</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_090</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_090</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_091</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_091</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_092</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_092</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_093</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_093</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_094</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_094</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_095</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_095</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_096</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_096</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_097</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_097</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_098</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_098</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_099</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_099</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_100</LANG>
+    <LANG ID="ja-JP">建国Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_100</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_101</LANG>
+    <LANG ID="ja-JP">小粋なアイツ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_101</LANG>
+    <LANG ID="ja-JP">思わず「ニヤリ」とさせられる\n気の効いた一言が、人気のヒミツ。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_102</LANG>
+    <LANG ID="ja-JP">ムードメーカー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_102</LANG>
+    <LANG ID="ja-JP">その場が明るくなるのは、その笑顔のおかげ。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_103</LANG>
+    <LANG ID="ja-JP">街の有名人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_103</LANG>
+    <LANG ID="ja-JP">みんなが知ってる人気者。\nでも、なぜ人気なのかは誰も知らない。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_104</LANG>
+    <LANG ID="ja-JP">街角の看板娘 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_104</LANG>
+    <LANG ID="ja-JP">その明るい笑顔がお店のカオ。\nでも、値引きはしませんよ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_105</LANG>
+    <LANG ID="ja-JP">表通りの人気者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_105</LANG>
+    <LANG ID="ja-JP">ほら、みんなが私を見てる！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_106</LANG>
+    <LANG ID="ja-JP">付き人修行中 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_106</LANG>
+    <LANG ID="ja-JP">今は修行中だけど、\nきっと師匠を超える大物になってやる！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_107</LANG>
+    <LANG ID="ja-JP">呼び込み係 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_107</LANG>
+    <LANG ID="ja-JP">通りの向こうまで聞こえる大きな声に\n思わずみんなが寄ってくる。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_108</LANG>
+    <LANG ID="ja-JP">着ぐるみの中の人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_108</LANG>
+    <LANG ID="ja-JP">天気の日は暑苦しいのと\n子どもに殴られるのは、あまり好きじゃない。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_109</LANG>
+    <LANG ID="ja-JP">駆け出しパフォーマー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_109</LANG>
+    <LANG ID="ja-JP">少し緊張してますが、上手に出来たら拍手を下さい。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_110</LANG>
+    <LANG ID="ja-JP">パントマイマー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_110</LANG>
+    <LANG ID="ja-JP">身振り手振りで皆を楽しませることが得意。\nでもおしゃべりは苦手！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_111</LANG>
+    <LANG ID="ja-JP">さすらいの旅芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_111</LANG>
+    <LANG ID="ja-JP">ふらっとやってきては皆に笑顔を届ける旅人。\n今日は東へ明日は西へ…って戻ってる！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_112</LANG>
+    <LANG ID="ja-JP">たそがれの大道芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_112</LANG>
+    <LANG ID="ja-JP">さまざまな芸を身につけた大道芸人。\nしかし、その背中はさびしい。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_113</LANG>
+    <LANG ID="ja-JP">ヒヨッコ芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_113</LANG>
+    <LANG ID="ja-JP">勢いはあります。\nでもアドリブは苦手です。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_114</LANG>
+    <LANG ID="ja-JP">ひな壇芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_114</LANG>
+    <LANG ID="ja-JP">やっとつかんだ準レギュラー！\n次はレギュラー取りたいな！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_115</LANG>
+    <LANG ID="ja-JP">リアクション芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_115</LANG>
+    <LANG ID="ja-JP">体を張った笑い取りが得意です。\nどんなアクシデントでもリアクションがとれます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_116</LANG>
+    <LANG ID="ja-JP">モノマネ芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_116</LANG>
+    <LANG ID="ja-JP">あまりに似すぎているため、\n本人より売れてしまった人気者。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_117</LANG>
+    <LANG ID="ja-JP">ブレイク芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_117</LANG>
+    <LANG ID="ja-JP">長年の苦労が実ってついにブレイク！\nでも来年には消えているかも……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_118</LANG>
+    <LANG ID="ja-JP">ヨイショの達人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_118</LANG>
+    <LANG ID="ja-JP">人を持ち上げるのはお手のもの！\n大御所に気に入られてレギュラーも増える！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_119</LANG>
+    <LANG ID="ja-JP">辛口トークの達人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_119</LANG>
+    <LANG ID="ja-JP">他人にはマネできない辛口トークが売りだけど、\nいつも内心はビクビクしてます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_120</LANG>
+    <LANG ID="ja-JP">おしゃべりマシンガン [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_120</LANG>
+    <LANG ID="ja-JP">トークは質より量だと思う。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_121</LANG>
+    <LANG ID="ja-JP">おかかえピエロ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_121</LANG>
+    <LANG ID="ja-JP">ついに人気が認められ、王国のお抱えに！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_122</LANG>
+    <LANG ID="ja-JP">恋の道化師 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_122</LANG>
+    <LANG ID="ja-JP">人を楽しませてばかり……、\nでも恋では自分が楽しみたいですよね？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_123</LANG>
+    <LANG ID="ja-JP">宮廷道化師 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_123</LANG>
+    <LANG ID="ja-JP">国王も思わず笑ってしまう芸に、\nみんなもきっと魅せられるはず！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_124</LANG>
+    <LANG ID="ja-JP">トリックスター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_124</LANG>
+    <LANG ID="ja-JP">王国内で大注目の人気ぶりはまさしく「台風の目」。\nみなさん要チェックです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_125</LANG>
+    <LANG ID="ja-JP">アイドル候補生 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_125</LANG>
+    <LANG ID="ja-JP">今度はアイドルに転身しようと思います。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_126</LANG>
+    <LANG ID="ja-JP">自称アイドル [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_126</LANG>
+    <LANG ID="ja-JP">アイドルって、自分で「アイドル」って言えば、\nアイドルなんでしょ？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_127</LANG>
+    <LANG ID="ja-JP">バラエティアイドル [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_127</LANG>
+    <LANG ID="ja-JP">バラエティ番組で活躍できる実力派。\n可愛いだけじゃないんです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_128</LANG>
+    <LANG ID="ja-JP">有名アイドル [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_128</LANG>
+    <LANG ID="ja-JP">名実ともに人気者となったアイドル。\n追っかけの数も半端じゃない！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_129</LANG>
+    <LANG ID="ja-JP">国民的アイドル [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_129</LANG>
+    <LANG ID="ja-JP">王国民のみんなから愛される、\n飛ぶ鳥を落とす勢いの人気者！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_130</LANG>
+    <LANG ID="ja-JP">懐かしのアイドル [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_130</LANG>
+    <LANG ID="ja-JP">人気もいつかは過ぎ去るもの。\nでも、懐かしの映像には必ず出てくる。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_131</LANG>
+    <LANG ID="ja-JP">チョイ役希望 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_131</LANG>
+    <LANG ID="ja-JP">思い切って役者を目指してみよう！\nまずは、地道なところから……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_132</LANG>
+    <LANG ID="ja-JP">ヤラレ役はおまかせ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_132</LANG>
+    <LANG ID="ja-JP">地味でもガンバっています！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_133</LANG>
+    <LANG ID="ja-JP">今週のオススメ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_133</LANG>
+    <LANG ID="ja-JP">お茶の間の皆さんに\n知ってもらうチャンスです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_134</LANG>
+    <LANG ID="ja-JP">ドラマ出演中 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_134</LANG>
+    <LANG ID="ja-JP">お見逃しなく！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_135</LANG>
+    <LANG ID="ja-JP">看板役者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_135</LANG>
+    <LANG ID="ja-JP">そろそろ主役も板に付いてきました！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_136</LANG>
+    <LANG ID="ja-JP">舞台の星 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_136</LANG>
+    <LANG ID="ja-JP">大勢の中に混じっていても、\nなんとなくオーラが違います。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_137</LANG>
+    <LANG ID="ja-JP">ブレイク寸前 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_137</LANG>
+    <LANG ID="ja-JP">すでに、マスコミ各社は大注目です。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_138</LANG>
+    <LANG ID="ja-JP">引っ張りダコ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_138</LANG>
+    <LANG ID="ja-JP">大人気で大忙し！\nもう、眠るヒマもありません……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_139</LANG>
+    <LANG ID="ja-JP">売れっ子 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_139</LANG>
+    <LANG ID="ja-JP">文字通り、売れているんです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_140</LANG>
+    <LANG ID="ja-JP">超売れっ子 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_140</LANG>
+    <LANG ID="ja-JP">文字通り、「超」売れているんです！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_141</LANG>
+    <LANG ID="ja-JP">大物役者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_141</LANG>
+    <LANG ID="ja-JP">一緒に居るだけで、\n思わず背筋がピンっと伸びてしまいます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_142</LANG>
+    <LANG ID="ja-JP">スター気取り [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_142</LANG>
+    <LANG ID="ja-JP">あまり調子に乗りすぎるとダメですからね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_143</LANG>
+    <LANG ID="ja-JP">俺は喜劇王になる！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_143</LANG>
+    <LANG ID="ja-JP">国民的な人気を得ても、さらなる高みを目指す！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_144</LANG>
+    <LANG ID="ja-JP">伝説の喜劇王 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_144</LANG>
+    <LANG ID="ja-JP">笑いと感動で\n全ての国民を幸せにするのだ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_145</LANG>
+    <LANG ID="ja-JP">神話になった者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_145</LANG>
+    <LANG ID="ja-JP">そして、幸せの象徴となるのです……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_146</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_146</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_147</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_147</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_148</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_148</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_149</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_149</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_150</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_150</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_151</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_151</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_152</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_152</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_153</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_153</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_154</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_154</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_155</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_155</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_156</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_156</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_157</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_157</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_158</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_158</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_159</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_159</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_160</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_160</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_161</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_161</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_162</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_162</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_163</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_163</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_164</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_164</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_165</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_165</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_166</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_166</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_167</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_167</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_168</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_168</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_169</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_169</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_170</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_170</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_171</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_171</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_172</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_172</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_173</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_173</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_174</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_174</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_175</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_175</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_176</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_176</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_177</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_177</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_178</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_178</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_179</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_179</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_180</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_180</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_181</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_181</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_182</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_182</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_183</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_183</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_184</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_184</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_185</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_185</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_186</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_186</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_187</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_187</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_188</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_188</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_189</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_189</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_190</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_190</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_191</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_191</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_192</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_192</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_193</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_193</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_194</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_194</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_195</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_195</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_196</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_196</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_197</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_197</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_198</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_198</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_199</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_199</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_200</LANG>
+    <LANG ID="ja-JP">人気Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_200</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_201</LANG>
+    <LANG ID="ja-JP">マンガン電池 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_201</LANG>
+    <LANG ID="ja-JP">いつでもどこでも手に入り、懐中電灯ぐらいなら\n十分に明るくできる庶民の味方。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_202</LANG>
+    <LANG ID="ja-JP">アルカリ電池 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_202</LANG>
+    <LANG ID="ja-JP">パワフルで長持ちが売り文句！\nより強く、明るく、激しく役立つみんなの人気者。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_203</LANG>
+    <LANG ID="ja-JP">発電する筋肉 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_203</LANG>
+    <LANG ID="ja-JP">ペダルをこぐことによって鍛え上げられた\n太く立派な太モモを持つ者。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_204</LANG>
+    <LANG ID="ja-JP">みんなの電池 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_204</LANG>
+    <LANG ID="ja-JP">いつも元気でエネルギッシュ！\nそんながんばり屋さんに贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_205</LANG>
+    <LANG ID="ja-JP">発電魂 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_205</LANG>
+    <LANG ID="ja-JP">王国民として生まれたからには\n発電に一生をささげる覚悟の一途な発電野郎。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_206</LANG>
+    <LANG ID="ja-JP">歩く発電機 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_206</LANG>
+    <LANG ID="ja-JP">みんなの為にガンバっているけど、近寄られると\nピリッと電気が……、人付き合いはちょっと苦手。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_207</LANG>
+    <LANG ID="ja-JP">一家に一台 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_207</LANG>
+    <LANG ID="ja-JP">一台で、ご家庭の電力は全てまかなえる\n非常にクリーンでエコな存在。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_208</LANG>
+    <LANG ID="ja-JP">王国のダイナモ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_208</LANG>
+    <LANG ID="ja-JP">無尽蔵のスタミナで誰よりも長く走り続ける。\n勢いだけなら誰にも負けない。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_209</LANG>
+    <LANG ID="ja-JP">王国名物人間発電所 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_209</LANG>
+    <LANG ID="ja-JP">そのペダルに王国の全てが懸かっている。\n唯一無二の存在価値は、まさしく王国の太陽。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_210</LANG>
+    <LANG ID="ja-JP">チャリンカー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_210</LANG>
+    <LANG ID="ja-JP">自転車を愛する全ての者に贈られる称号。\n自転車はこぎ続けないと倒れてしまうぞ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_211</LANG>
+    <LANG ID="ja-JP">サイクリング好き [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_211</LANG>
+    <LANG ID="ja-JP">いつでもどこでも自転車！\n自転車を愛して止まない者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_212</LANG>
+    <LANG ID="ja-JP">ツールド照英王国 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_212</LANG>
+    <LANG ID="ja-JP">世界有数の自転車レースを制覇した者に贈られる。\nマッチョな肉体に黄色いジャージが良く似合う。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_213</LANG>
+    <LANG ID="ja-JP">自転車の鉄人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_213</LANG>
+    <LANG ID="ja-JP">毎日自転車で走ることで研ぎ澄まされた肉体は、\nまさに鉄人と呼ぶに相応しい。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_214</LANG>
+    <LANG ID="ja-JP">日本縦断 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_214</LANG>
+    <LANG ID="ja-JP">途中で出会った温かい人々との思い出は\n青春の良き１ページとなる。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_215</LANG>
+    <LANG ID="ja-JP">大陸横断 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_215</LANG>
+    <LANG ID="ja-JP">そこに大地がある限り、全てを自転車で\n走り抜けてきた者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_216</LANG>
+    <LANG ID="ja-JP">グレートジャーニー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_216</LANG>
+    <LANG ID="ja-JP">世界の果てから果てまで、\nその軌跡は人類の歴史を物語る。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_217</LANG>
+    <LANG ID="ja-JP">ワールドツアー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_217</LANG>
+    <LANG ID="ja-JP">この世に自転車で行けない場所など存在しない\n伝説の自転車乗りに贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_218</LANG>
+    <LANG ID="ja-JP">マッスルレジェンド [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_218</LANG>
+    <LANG ID="ja-JP">自転車に乗るために生まれ、走り続けてきた者に\n贈られる称号。果てしなき道はさらに続く。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_219</LANG>
+    <LANG ID="ja-JP">スピードスター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_219</LANG>
+    <LANG ID="ja-JP">ラストスパートの鐘とともに、その両脚から\n生み出されるスピードは他の追随を許さない！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_220</LANG>
+    <LANG ID="ja-JP">自転車無双 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_220</LANG>
+    <LANG ID="ja-JP">人間の限界をはるかに超えたスピードを持つ者\nに贈られる称号。くれぐれも一般道では安全に！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_221</LANG>
+    <LANG ID="ja-JP">少年探偵団 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_221</LANG>
+    <LANG ID="ja-JP">われら少年探偵団！\nみんなで力を合わせて事件を解決だ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_222</LANG>
+    <LANG ID="ja-JP">お手伝い探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_222</LANG>
+    <LANG ID="ja-JP">お手伝いをしながら事件解決を目指すものに贈ら\nれる称号。今日も物陰から事件を目撃！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_223</LANG>
+    <LANG ID="ja-JP">尾行大好き [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_223</LANG>
+    <LANG ID="ja-JP">怪しいと思う人物は片っ端から尾行！\nその行動自体が怪しいという指摘も多い！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_224</LANG>
+    <LANG ID="ja-JP">新人探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_224</LANG>
+    <LANG ID="ja-JP">まだまだ新人ながらキラリと光る推理！\n名探偵と呼ばれる日も近いかも！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_225</LANG>
+    <LANG ID="ja-JP">名の売れた探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_225</LANG>
+    <LANG ID="ja-JP">いろいろと名の売れた探偵！\nおかげで調査に支障をきたすことも！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_226</LANG>
+    <LANG ID="ja-JP">バウンティハンター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_226</LANG>
+    <LANG ID="ja-JP">狙った獲物は逃さない！\n捕獲術エキスパートの賞金稼ぎ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_227</LANG>
+    <LANG ID="ja-JP">凄腕探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_227</LANG>
+    <LANG ID="ja-JP">長年の経験と勘に天才的なひらめき！\n向かうところ敵なしの凄腕探偵！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_228</LANG>
+    <LANG ID="ja-JP">王国探偵物語 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_228</LANG>
+    <LANG ID="ja-JP">王国で活躍するハードボイルドな探偵の物語。\nこの物語はまだまだ終わらない！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_229</LANG>
+    <LANG ID="ja-JP">伝説の名探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_229</LANG>
+    <LANG ID="ja-JP">多くの難事件を解決し、伝説となった名探偵に\n贈られる称号。そして伝説はこれからも続くのだ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_230</LANG>
+    <LANG ID="ja-JP">初歩的なことだよ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_230</LANG>
+    <LANG ID="ja-JP">不可能なものを除外し、残ったものが、\nどんなに信じられなくても、それが真相。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_231</LANG>
+    <LANG ID="ja-JP">このハナで全て解決！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_231</LANG>
+    <LANG ID="ja-JP">警察犬にも負けないこの嗅覚で、\nあやしいヤツらを嗅ぎ分ける！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_232</LANG>
+    <LANG ID="ja-JP">お巡りさんこいつです [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_232</LANG>
+    <LANG ID="ja-JP">怪しい人を見つけたらとりあえず通報しておく！？\nそんな方に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_233</LANG>
+    <LANG ID="ja-JP">ぜんぶお見通しだ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_233</LANG>
+    <LANG ID="ja-JP">どんなトリックでもあなたはすべてお見通し！\nそんな観察眼優れるものに贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_234</LANG>
+    <LANG ID="ja-JP">天然パーマとスクーター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_234</LANG>
+    <LANG ID="ja-JP">ちょっとおしゃべりだけど、自由なスタイルと\nこだわりのファッションが大人気！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_235</LANG>
+    <LANG ID="ja-JP">謎はすべて解けた [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_235</LANG>
+    <LANG ID="ja-JP">普段はお調子者だが、事件ではたぐい稀なる\n才能を発揮するものに贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_236</LANG>
+    <LANG ID="ja-JP">ウチのカミさんがね… [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_236</LANG>
+    <LANG ID="ja-JP">ウチのカミさんがね…と犯人を油断させることが\n得意な者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_237</LANG>
+    <LANG ID="ja-JP">眠るとなぜか名推理！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_237</LANG>
+    <LANG ID="ja-JP">眠らされている訳ではありません。\n誰かが代わりに推理することもありません。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_238</LANG>
+    <LANG ID="ja-JP">帽子とパイプと虫めがね [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_238</LANG>
+    <LANG ID="ja-JP">どんな事件でも解決してしまう探偵を\n極めた者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_239</LANG>
+    <LANG ID="ja-JP">筋肉で名推理 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_239</LANG>
+    <LANG ID="ja-JP">考えるよりも先に体が動いてしまう。\nそんな者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_240</LANG>
+    <LANG ID="ja-JP">怪盗ホイホイ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_240</LANG>
+    <LANG ID="ja-JP">導かれるように怪盗たちが捕まってしまう\nまるでトラップのような者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_241</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_241</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_242</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_242</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_243</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_243</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_244</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_244</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_245</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_245</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_246</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_246</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_247</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_247</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_248</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_248</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_249</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_249</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_250</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_250</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_251</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_251</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_252</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_252</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_253</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_253</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_254</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_254</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_255</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_255</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_256</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_256</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_257</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_257</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_258</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_258</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_259</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_259</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_260</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_260</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_261</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_261</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_262</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_262</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_263</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_263</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_264</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_264</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_265</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_265</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_266</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_266</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_267</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_267</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_268</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_268</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_269</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_269</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_270</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_270</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_271</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_271</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_272</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_272</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_273</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_273</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_274</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_274</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_275</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_275</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_276</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_276</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_277</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_277</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_278</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_278</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_279</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_279</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_280</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_280</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_281</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_281</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_282</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_282</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_283</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_283</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_284</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_284</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_285</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_285</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_286</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_286</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_287</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_287</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_288</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_288</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_289</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_289</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_290</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_290</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_291</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_291</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_292</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_292</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_293</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_293</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_294</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_294</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_295</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_295</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_296</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_296</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_297</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_297</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_298</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_298</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_299</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_299</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_300</LANG>
+    <LANG ID="ja-JP">ミニゲームDummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_300</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_301</LANG>
+    <LANG ID="ja-JP">国王 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_301</LANG>
+    <LANG ID="ja-JP">照英国王専用の称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_302</LANG>
+    <LANG ID="ja-JP">大臣 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_302</LANG>
+    <LANG ID="ja-JP">西井大臣専用の称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_303</LANG>
+    <LANG ID="ja-JP">メイド [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_303</LANG>
+    <LANG ID="ja-JP">水崎メイド専用の称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_304</LANG>
+    <LANG ID="ja-JP">なりたて [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_304</LANG>
+    <LANG ID="ja-JP">みんなが最初から持っている称号。\nようこそ照英王国へ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_305</LANG>
+    <LANG ID="ja-JP">豆まきスナイパー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_305</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n百発百中で「鬼はソト！　福はウチ！」 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_306</LANG>
+    <LANG ID="ja-JP">建国の旗頭 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_306</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n建国の旗とともに、記念日を祝おう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_307</LANG>
+    <LANG ID="ja-JP">桜の妖精 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_307</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n国王と同じくらい桜をこよなく愛している。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_308</LANG>
+    <LANG ID="ja-JP">ネコ番長 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_308</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n国王と同じくらい王国のネコ達を愛している。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_309</LANG>
+    <LANG ID="ja-JP">カエルの王子様 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_309</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n国王と同じくらい晴れ男！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_310</LANG>
+    <LANG ID="ja-JP">ビキニのまぶしいアイツ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_310</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n国王と同じくらいマッスルとビキニが似合う。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_311</LANG>
+    <LANG ID="ja-JP">ひまわりスマイル [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_311</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n国王と同じくらい笑顔がまぶしい。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_312</LANG>
+    <LANG ID="ja-JP">満月の使者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_312</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\nもしかしたら、地球人じゃないかもしれない……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_313</LANG>
+    <LANG ID="ja-JP">ハロウィンスター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_313</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n国王と同じくらいお菓子をたくさん配るはず……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_314</LANG>
+    <LANG ID="ja-JP">銀杏の王子様 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_314</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\nどことなく哀愁が漂うその姿が、国民の涙を誘う。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_315</LANG>
+    <LANG ID="ja-JP">サンタクロース [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_315</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n王国のみんなに幸せを届けるステキな存在。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_316</LANG>
+    <LANG ID="ja-JP">凧あげ名人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_316</LANG>
+    <LANG ID="ja-JP">国王が友と認めた国民にのみ贈られる称号。\n国王と一緒に王国の空に凧を揚げよう！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_317</LANG>
+    <LANG ID="ja-JP">豆まき射撃隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_317</LANG>
+    <LANG ID="ja-JP">１月の大勅令で優秀な成績の国民に贈られる称号。\n豆まきならオレの出番だ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_318</LANG>
+    <LANG ID="ja-JP">王国応援団 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_318</LANG>
+    <LANG ID="ja-JP">２月の大勅令で優秀な成績の国民に贈られる称号。\n王国を応援して、ドンドン旗を立てていくぞ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_319</LANG>
+    <LANG ID="ja-JP">お花見親衛隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_319</LANG>
+    <LANG ID="ja-JP">３月の大勅令で優秀な成績の国民に贈られる称号。\n宴会好きにピッタリ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_320</LANG>
+    <LANG ID="ja-JP">こいのぼり中隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_320</LANG>
+    <LANG ID="ja-JP">４月の大勅令で優秀な成績の国民に贈られる称号。\n男の子は元気が一番！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_321</LANG>
+    <LANG ID="ja-JP">ネコ奉行 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_321</LANG>
+    <LANG ID="ja-JP">５月の大勅令で優秀な成績の国民に贈られる称号。\n王国の猫の世話はまかせろ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_322</LANG>
+    <LANG ID="ja-JP">サーフィン海兵隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_322</LANG>
+    <LANG ID="ja-JP">６月の大勅令で優秀な成績の国民に贈られる称号。\n小麦色の肌がまぶしい……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_323</LANG>
+    <LANG ID="ja-JP">ひまわり軍楽隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_323</LANG>
+    <LANG ID="ja-JP">７月の大勅令で優秀な成績の国民に贈られる称号。\nひまわりのような明るい笑顔のアナタにぴったり！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_324</LANG>
+    <LANG ID="ja-JP">お月見斥候隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_324</LANG>
+    <LANG ID="ja-JP">８月の大勅令で優秀な成績の国民に贈られる称号。\n秋の風情が似合います。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_325</LANG>
+    <LANG ID="ja-JP">ハロウィン特務隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_325</LANG>
+    <LANG ID="ja-JP">９月の大勅令で優秀な成績の国民に贈られる称号。\nトリック・オア・トリート！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_326</LANG>
+    <LANG ID="ja-JP">焼イモ調達隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_326</LANG>
+    <LANG ID="ja-JP">１０月の大勅令で優秀な成績の国民に贈られる称号。\n秋はみんなで落ち葉を集めて、焼イモをするぞ！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_327</LANG>
+    <LANG ID="ja-JP">トナカイ小隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_327</LANG>
+    <LANG ID="ja-JP">１１月の大勅令で優秀な成績の国民に贈られる称号。\n王国中にクリスマスプレゼントを届けましょう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_328</LANG>
+    <LANG ID="ja-JP">モチまき隊 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_328</LANG>
+    <LANG ID="ja-JP">１２月の大勅令で優秀な成績の国民に贈られる称号。\nおモチをまいて、お正月気分を盛り上げよう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_329</LANG>
+    <LANG ID="ja-JP">連打の名人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_329</LANG>
+    <LANG ID="ja-JP">無心で連打する、連打の鬼！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_330</LANG>
+    <LANG ID="ja-JP">０w [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_330</LANG>
+    <LANG ID="ja-JP">次は発電してくださいね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_331</LANG>
+    <LANG ID="ja-JP">スタートダッシュ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_331</LANG>
+    <LANG ID="ja-JP">私の前を走るヤツは許さない！\nスタートダッシュに命を燃やす！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_332</LANG>
+    <LANG ID="ja-JP">一網打尽 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_332</LANG>
+    <LANG ID="ja-JP">どれだけ怪盗が現れようと、\n一撃で全員捕まえてしまう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_333</LANG>
+    <LANG ID="ja-JP">迷探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_333</LANG>
+    <LANG ID="ja-JP">やる事なす事空回り。\n落ち着いて推理し、相手を追い詰めよう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_334</LANG>
+    <LANG ID="ja-JP">崖っぷち探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_334</LANG>
+    <LANG ID="ja-JP">早く手柄を立てないと！\n首の皮一枚でつながっている探偵。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_335</LANG>
+    <LANG ID="ja-JP">特別追跡班 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_335</LANG>
+    <LANG ID="ja-JP">怪盗の居場所を突き止めるプロフェッショナル！\nでも自分で捕まえることはしない。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_336</LANG>
+    <LANG ID="ja-JP">一匹探偵 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_336</LANG>
+    <LANG ID="ja-JP">たとえ一人でも絶対に捕まえて見せる！\n王国を守る孤高の探偵。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_337</LANG>
+    <LANG ID="ja-JP">ガヤ芸人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_337</LANG>
+    <LANG ID="ja-JP">とにかくたくさんしゃべって、その場を盛り上げる！\nたまには嘘も付きますが！？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_338</LANG>
+    <LANG ID="ja-JP">ランニングマン [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_338</LANG>
+    <LANG ID="ja-JP">ダッシュは邪道！ランニングだけで追い詰める！\n踊るほうではないですよ？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_339</LANG>
+    <LANG ID="ja-JP">怪盗コスプレ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_339</LANG>
+    <LANG ID="ja-JP">心身共に怪盗気分！\nこれだと怪盗も油断するかも？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_340</LANG>
+    <LANG ID="ja-JP">王国大好き [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_340</LANG>
+    <LANG ID="ja-JP">王国を愛する気持ちは誰にも負けない！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_341</LANG>
+    <LANG ID="ja-JP">王国マスコット [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_341</LANG>
+    <LANG ID="ja-JP">みんな一度は見たことがある\n王国のマスコットキャラクター！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_342</LANG>
+    <LANG ID="ja-JP">王国フォーエバー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_342</LANG>
+    <LANG ID="ja-JP">王国で一日を過ごしたを者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_343</LANG>
+    <LANG ID="ja-JP">ハッピー＆ハッピー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_343</LANG>
+    <LANG ID="ja-JP">みんなに祝福され、\n幸福に満たされた者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_344</LANG>
+    <LANG ID="ja-JP">テレビっ子 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_344</LANG>
+    <LANG ID="ja-JP">テレビは1時間ごと約15分休憩しましょう！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_345</LANG>
+    <LANG ID="ja-JP">国民管理局受付 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_345</LANG>
+    <LANG ID="ja-JP">君も王国民にならないか！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_346</LANG>
+    <LANG ID="ja-JP">自分だけの特等席 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_346</LANG>
+    <LANG ID="ja-JP">一定時間、同じ座席に座った者に贈られる称号。\nお気に入りの場所が見つかったようですね！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_347</LANG>
+    <LANG ID="ja-JP">お手伝いさん [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_347</LANG>
+    <LANG ID="ja-JP">困っている人は見過ごせない！\nどんなことでも手伝います！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_348</LANG>
+    <LANG ID="ja-JP">勅令補佐官 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_348</LANG>
+    <LANG ID="ja-JP">数多くの勅令を手伝った者に贈られる称号。\n勅令は私に任せろ！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_349</LANG>
+    <LANG ID="ja-JP">V.I.P目撃者 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_349</LANG>
+    <LANG ID="ja-JP">照英王国V.I.Pを見た者に贈られる称号。\n照英王国万歳！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_350</LANG>
+    <LANG ID="ja-JP">海人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_350</LANG>
+    <LANG ID="ja-JP">海をこよなく愛する者に送られる称号。\nずっと見てても飽きない……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_351</LANG>
+    <LANG ID="ja-JP">目立ちたがり屋 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_351</LANG>
+    <LANG ID="ja-JP">何人上がってこようが、この台座はアタシのもの！\nそんな目立ちたがり屋さんに贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_352</LANG>
+    <LANG ID="ja-JP">城門警備員 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_352</LANG>
+    <LANG ID="ja-JP">何にも遊ぶものがないけど、それでもお城が好き！\nそんな人に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_353</LANG>
+    <LANG ID="ja-JP">優柔不断 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_353</LANG>
+    <LANG ID="ja-JP">照英王国に入ろうかどうかを\n長い時間迷い続けた者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_354</LANG>
+    <LANG ID="ja-JP">マイチャリ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_354</LANG>
+    <LANG ID="ja-JP">枕が替わると眠れないのと同じく、\n自転車も替わると調子が出ない。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_355</LANG>
+    <LANG ID="ja-JP">銅像ウォッチャー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_355</LANG>
+    <LANG ID="ja-JP">国王像をじっくりと眺めた者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_356</LANG>
+    <LANG ID="ja-JP">銅像マニア [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_356</LANG>
+    <LANG ID="ja-JP">国王像が大好きで、何度も見ないと気が済まない\n生粋のマニアに贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_357</LANG>
+    <LANG ID="ja-JP">称号コレクター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_357</LANG>
+    <LANG ID="ja-JP"> [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_358</LANG>
+    <LANG ID="ja-JP">称号マスター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_358</LANG>
+    <LANG ID="ja-JP"> [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_359</LANG>
+    <LANG ID="ja-JP">ジョガー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_359</LANG>
+    <LANG ID="ja-JP">王国をひたすら走り続けた者に贈られる称号。\n目指せ42.195km！！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_360</LANG>
+    <LANG ID="ja-JP">マラソンランナー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_360</LANG>
+    <LANG ID="ja-JP">ホントに42.195kmを走った人に贈られる称号。\n大変だったでしょ？ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_361</LANG>
+    <LANG ID="ja-JP">鉄脚 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_361</LANG>
+    <LANG ID="ja-JP">連続でダッシュをしても耐えられる\n強靭な脚を持つ者に贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_362</LANG>
+    <LANG ID="ja-JP">ホークアイ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_362</LANG>
+    <LANG ID="ja-JP">私　に　は　見　え　て　い　る [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_363</LANG>
+    <LANG ID="ja-JP">スナイパー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_363</LANG>
+    <LANG ID="ja-JP">狙った獲物は逃さない！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_364</LANG>
+    <LANG ID="ja-JP">占い師 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_364</LANG>
+    <LANG ID="ja-JP">王国占い師専用の称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_365</LANG>
+    <LANG ID="ja-JP">王子 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_365</LANG>
+    <LANG ID="ja-JP">王子専用の称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_366</LANG>
+    <LANG ID="ja-JP">大人の証 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_366</LANG>
+    <LANG ID="ja-JP">照英王国では未成年でも投票に参加！\nちょっと大人の気分が味わえます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_367</LANG>
+    <LANG ID="ja-JP">清き一票 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_367</LANG>
+    <LANG ID="ja-JP">悩んだ末に投じた一票には、\n大切な思いが詰まっているんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_368</LANG>
+    <LANG ID="ja-JP">あてずっぽう [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_368</LANG>
+    <LANG ID="ja-JP">それが良い選択かどうかは神のみぞ知る。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_369</LANG>
+    <LANG ID="ja-JP">ひとの意見が気になる [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_369</LANG>
+    <LANG ID="ja-JP">自分の意見はさておき、\n他の人がどう思っているのか気になっちゃいます。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_370</LANG>
+    <LANG ID="ja-JP">投票大好き！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_370</LANG>
+    <LANG ID="ja-JP">３度のメシより投票が好き！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_371</LANG>
+    <LANG ID="ja-JP">投票マスター [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_371</LANG>
+    <LANG ID="ja-JP">判らないことがあれば、何でも訊いてね！\n紙に書いて箱に入れるだけだけど。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_372</LANG>
+    <LANG ID="ja-JP">投票箱の番人 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_372</LANG>
+    <LANG ID="ja-JP">いつも投票箱が気になってしまう……、\nそんな投票マニアに贈られる称号。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_373</LANG>
+    <LANG ID="ja-JP">あ、ちょっと待って！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_373</LANG>
+    <LANG ID="ja-JP">いつも城門で言われるので、覚えちゃいました。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_374</LANG>
+    <LANG ID="ja-JP">気分はいつも総選挙！ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_374</LANG>
+    <LANG ID="ja-JP">自分のイチ推しが一番人気！\nこの快感はやめられないんです。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_375</LANG>
+    <LANG ID="ja-JP">国王の加護 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_375</LANG>
+    <LANG ID="ja-JP">王国を愛し続ける国民に贈られる称号。\nきっと国王のご加護があるはず……。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_376</LANG>
+    <LANG ID="ja-JP">王国の意志 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_376</LANG>
+    <LANG ID="ja-JP">これだけ投票を続けたのだから、\n私の意思は王国の意志……、だと思いたい。 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_377</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_377</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_378</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_378</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_379</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_379</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_380</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_380</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_381</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_381</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_382</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_382</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_383</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_383</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_384</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_384</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_385</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_385</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_386</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_386</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_387</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_387</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_388</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_388</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_389</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_389</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_390</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_390</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_391</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_391</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_392</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_392</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_393</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_393</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_394</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_394</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_395</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_395</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_396</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_396</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_397</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_397</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_398</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_398</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_399</LANG>
+    <LANG ID="ja-JP">特殊Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_399</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_400</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_400</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_401</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_401</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_402</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_402</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_403</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_403</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_404</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_404</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_405</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_405</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_406</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_406</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_407</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_407</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_408</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_408</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_409</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_409</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_410</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_410</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_411</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_411</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_412</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_412</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_413</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_413</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_414</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_414</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_415</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_415</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_416</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_416</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_417</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_417</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_418</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_418</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_419</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_419</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_420</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_420</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_421</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_421</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_422</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_422</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_423</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_423</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_424</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_424</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_425</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_425</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_426</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_426</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_427</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_427</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_428</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_428</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_429</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_429</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_430</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_430</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_431</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_431</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_432</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_432</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_433</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_433</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_434</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_434</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_435</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_435</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_436</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_436</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_437</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_437</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_438</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_438</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_439</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_439</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_440</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_440</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_441</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_441</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_442</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_442</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_443</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_443</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_444</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_444</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_445</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_445</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_446</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_446</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_447</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_447</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_448</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_448</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_449</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_449</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_450</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_450</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_451</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_451</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_452</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_452</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_453</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_453</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_454</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_454</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_455</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_455</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_456</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_456</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_457</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_457</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_458</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_458</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_459</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_459</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_460</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_460</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_461</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_461</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_462</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_462</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_463</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_463</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_464</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_464</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_465</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_465</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_466</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_466</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_467</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_467</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_468</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_468</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_469</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_469</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_470</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_470</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_471</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_471</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_472</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_472</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_473</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_473</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_474</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_474</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_475</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_475</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_476</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_476</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_477</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_477</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_478</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_478</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_479</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_479</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_480</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_480</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_481</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_481</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_482</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_482</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_483</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_483</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_484</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_484</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_485</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_485</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_486</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_486</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_487</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_487</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_488</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_488</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_489</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_489</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_490</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_490</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_491</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_491</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_492</LANG>
+    <LANG ID="ja-JP">予備Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_492</LANG>
+    <LANG ID="ja-JP">Dummy [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_493</LANG>
+    <LANG ID="ja-JP">キング･オブ･大胸筋 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_493</LANG>
+    <LANG ID="ja-JP">キング･オブ･大胸筋 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_494</LANG>
+    <LANG ID="ja-JP">思わず目をそらしてしまうボディビルダー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_494</LANG>
+    <LANG ID="ja-JP">思わず目をそらしてしまうボディビルダー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_495</LANG>
+    <LANG ID="ja-JP">ちょっと見栄っ張りな細マッチョ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_495</LANG>
+    <LANG ID="ja-JP">ちょっと見栄っ張りな細マッチョ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_496</LANG>
+    <LANG ID="ja-JP">プルンッ！とモッチリ・相撲レスラー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_496</LANG>
+    <LANG ID="ja-JP">プルンッ！とモッチリ・相撲レスラー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_497</LANG>
+    <LANG ID="ja-JP">上から目線の大臣秘書 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_497</LANG>
+    <LANG ID="ja-JP">上から目線の大臣秘書 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_498</LANG>
+    <LANG ID="ja-JP">モジモジしている国王貴族 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_498</LANG>
+    <LANG ID="ja-JP">モジモジしている国王貴族 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_499</LANG>
+    <LANG ID="ja-JP">恥ずかしがり屋のティラノサウルス [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_499</LANG>
+    <LANG ID="ja-JP">恥ずかしがり屋のティラノサウルス [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_500</LANG>
+    <LANG ID="ja-JP">職人気質なトノサマバッタ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_500</LANG>
+    <LANG ID="ja-JP">職人気質なトノサマバッタ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_501</LANG>
+    <LANG ID="ja-JP">王室御用達のタンクトップ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_501</LANG>
+    <LANG ID="ja-JP">王室御用達のタンクトップ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_502</LANG>
+    <LANG ID="ja-JP">お祭り気分の変身ベルト [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_502</LANG>
+    <LANG ID="ja-JP">お祭り気分の変身ベルト [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_503</LANG>
+    <LANG ID="ja-JP">ダイエット効果抜群のカウボーイハット [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_503</LANG>
+    <LANG ID="ja-JP">ダイエット効果抜群のカウボーイハット [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_504</LANG>
+    <LANG ID="ja-JP">態度だけはデカい蝶ネクタイ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_504</LANG>
+    <LANG ID="ja-JP">態度だけはデカい蝶ネクタイ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_505</LANG>
+    <LANG ID="ja-JP">自分で発電する扇風機 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_505</LANG>
+    <LANG ID="ja-JP">自分で発電する扇風機 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_506</LANG>
+    <LANG ID="ja-JP">嘘つきには見えないテレビ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_506</LANG>
+    <LANG ID="ja-JP">嘘つきには見えないテレビ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_507</LANG>
+    <LANG ID="ja-JP">すこし涙目になっているコーヒーメーカー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_507</LANG>
+    <LANG ID="ja-JP">すこし涙目になっているコーヒーメーカー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_508</LANG>
+    <LANG ID="ja-JP">動き出したら止まらないサイクロン掃除機 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_508</LANG>
+    <LANG ID="ja-JP">動き出したら止まらないサイクロン掃除機 [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_509</LANG>
+    <LANG ID="ja-JP">いつも怒っていそうなマンゴー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_509</LANG>
+    <LANG ID="ja-JP">いつも怒っていそうなマンゴー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_510</LANG>
+    <LANG ID="ja-JP">小刻みに震えるパパイヤ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_510</LANG>
+    <LANG ID="ja-JP">小刻みに震えるパパイヤ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_511</LANG>
+    <LANG ID="ja-JP">じっとり汗ばんだバナナ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_511</LANG>
+    <LANG ID="ja-JP">じっとり汗ばんだバナナ [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Name_512</LANG>
+    <LANG ID="ja-JP">鼻にツンとくるドリアン [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHonor_Info_512</LANG>
+    <LANG ID="ja-JP">鼻にツンとくるドリアン [#Legal]</LANG>
+  </PHRASE>
+</LOCALISATION>

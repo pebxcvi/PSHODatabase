@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="FireworkBase.mdl" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/models/FireworkBase.mdl" />
+		<model name="FireCracker.mdl" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/models/FireCracker.mdl" />
+		<particle name="burst-medium.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-medium.efx" memory="host" />
+		<particle name="burst-small.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-small.efx" memory="host" />
+		<particle name="burst-large-yellow.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-yellow.efx" memory="host" />
+		<particle name="burst-large-blue.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-blue.efx" memory="host" />
+		<particle name="burst-large-green.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-green.efx" memory="host" />
+		<particle name="burst-large-orange.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-orange.efx" memory="host" />
+		<particle name="burst-large-red.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-red.efx" memory="host" />
+		<particle name="burst-large-teal.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-teal.efx" memory="host" />
+		<particle name="burst-large-violet.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-violet.efx" memory="host" />
+		<particle name="burst-large-white.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-white.efx" memory="host" />
+		<particle name="burst-large-sparkler.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-sparkler.efx" memory="host" />
+		<particle name="burst-small-pop.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-small-pop.efx" memory="host" />
+		<particle name="burst-small-sparkler.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-small-sparkler.efx" memory="host" />
+		<particle name="burst-large-sphere.efx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/ATGParticles/burst-large-sphere.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/programming/Network.xml" />
+		<collision name="FireworkBase.hkx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/models/FireworkBase.hkx" />
+		<collision name="FireworkBase_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/models/FireworkBase_SafeVolume.hkx" />
+		<soundbank name="Fireworks.bnk" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_fireworks/Sound/Fireworks.bnk" memory="main" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_fireworks/programming/Main.lua" />
+		<lua name="Fireworks.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_fireworks/programming/Fireworks.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_fireworks/programming/List.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_fireworks/programming/Sound/SfxMgr.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_fireworks/programming/Utilities/Utility.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_fireworks/programming/Utilities/MyPad.lua" />
+	</local>
+	<external />
+</resources>

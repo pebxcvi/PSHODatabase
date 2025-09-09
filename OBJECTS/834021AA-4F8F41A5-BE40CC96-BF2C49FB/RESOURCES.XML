@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <soundbank name="sound.bnk" deferred_loading="false" protected="false" file="Resources/Snd/se/ChatFarm_EntryGate_SE.bnk" memory="host" />
+    <soundstream name="BGM.mp3" deferred_loading="false" protected="false" file="Resources/Snd/bgm/B_MAIN.mp3" memory="host" />
+    <lua name="Setting.lua" deferred_loading="false" protected="true" file="embeddedobjects/soundsystemforentrygate/lua/setting.luac" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="embeddedobjects/soundsystemforentrygate/lua/main.luac" memory="host" />
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" memory="host" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" memory="host" />
+    <lua name="libMath.lua" deferred_loading="false" protected="true" file="lualibs/util/math.luac" memory="host" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" memory="host" />
+    <lua name="libSound.lua" deferred_loading="false" protected="true" file="lualibs/sound/sound.luac" memory="host" />
+    <lua name="libSoundMain.lua" deferred_loading="false" protected="true" file="lualibs/sound/soundmain.luac" memory="host" />
+  </local>
+  <external />
+</resources>

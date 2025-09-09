@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_electralamp02/CommAug_ElectraLamp02.mdl" />
+		<model name="CommAug_ElectraLamp02_Glow.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_electralamp02/CommAug_ElectraLamp02_Glow.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_electralamp02/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_electralamp02/CommAug_ElectraLamp02.hkx" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_electralamp02/programming/MyPad.lua" />
+		<lua name="electricLamp.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_electralamp02/programming/electricLamp.lua" />
+	</local>
+	<external />
+</resources>
