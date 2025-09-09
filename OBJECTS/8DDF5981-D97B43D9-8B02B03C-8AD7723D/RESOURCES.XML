@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ToyStory_GameBlock_3.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_3.mdl" />
+		<model name="ToyStory_GameBlock_1.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_1.mdl" />
+		<model name="ToyStory_GameBlock_2.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_2.mdl" />
+		<model name="ToyStory_GameBlock_3_Glow.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_3_Glow.mdl" />
+		<model name="ToyStory_GameBlock_1_Glow.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_1_Glow.mdl" />
+		<model name="ToyStory_GameBlock_2_Glow.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_2_Glow.mdl" />
+		<model name="ToyStory_GameBall_Small.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBall_Small.mdl" />
+		<model name="ToyStory_GameBall_Big.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBall_Big.mdl" />
+		<model name="ToyStory_GameArrow.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameArrow.mdl" />
+		<model name="ToyStory_Baton.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_Baton.mdl" />
+		<model name="laser.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/laser.mdl" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/MG01/OSD/types.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/StartUpDialog.xml" />
+		<file name="osd_MiniGameHud.xml" deferred_loading="false" protected="false" file="MiniGames/MG01/OSD/MiniGameHud.xml" />
+		<collision name="ToyStory_GameBlock_1.hkx" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_1.hkx" />
+		<collision name="ToyStory_GameBlock_2.hkx" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_2.hkx" />
+		<collision name="ToyStory_GameBlock_3.hkx" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBlock_3.hkx" />
+		<collision name="ToyStory_GameBall_Small.hkx" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBall_Small.hkx" />
+		<collision name="ToyStory_GameBall_Big.hkx" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/ToyStory_GameBall_Big.hkx" />
+		<anim name="male_conducting.ani" deferred_loading="false" protected="false" file="animation/male/conducting/Conducting.ani" />
+		<anim name="female_conducting.ani" deferred_loading="false" protected="false" file="animation/female/conducting/Conducting.ani" />
+		<soundstream name="BLOCKSEDITAndysRoom.mix5.2.mp3" deferred_loading="false" protected="false" file="MiniGames/MG01/Sound/BLOCKSEDITAndysRoom.mix5.2.mp3" />
+		<repertoire name="female_animations" deferred_loading="false" protected="false" file="MiniGames/MG01/female_animations.xml" />
+		<repertoire name="male_animations" deferred_loading="false" protected="false" file="MiniGames/MG01/male_animations.xml" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Camera.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Network.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Settings.lua" />
+		<lua name="Block.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Block.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Game.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Player.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Audio.lua" />
+	</local>
+	<external />
+</resources>

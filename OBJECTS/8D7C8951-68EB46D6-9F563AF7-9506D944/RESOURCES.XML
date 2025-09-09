@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="EV_panel.mdl" deferred_loading="false" protected="false" file="furniture/ev_panel/EV_panel.mdl" />
+		<model name="LinkToShoei.mdl" deferred_loading="false" protected="false" file="furniture/linktoshoei/LinkToShoei.mdl" />
+		<model name="edotatefuda.mdl" deferred_loading="false" protected="false" file="furniture/collaboration/edotatefuda.mdl" />
+		<model name="tatefuda_GAW.mdl" deferred_loading="false" protected="false" file="furniture/collaboration/tatefuda_GAW.mdl" />
+		<collision name="EV_panel.hkx" deferred_loading="false" protected="false" file="furniture/ev_panel/EV_panel.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/peakvox_lounge_warp/lua/MiniGame.lua" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/peakvox_lounge_warp/lua/pad.lua" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/peakvox_lounge_warp/lua/param.lua" />
+	</local>
+	<external />
+</resources>

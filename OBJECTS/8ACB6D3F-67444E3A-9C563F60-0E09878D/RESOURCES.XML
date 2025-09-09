@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_PinataActive.mdl" />
+    <model name="MAYO13_Pinata_RIG.mdl" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_RIG.mdl" />
+    <model name="MAYO13_PinataBat_RIG.mdl" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_PinataBat_RIG.mdl" />
+    <texture name="PAD_Circle.dds" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/graphics/PAD_Circle.dds" />
+    <texture name="PAD_Cross.dds" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/graphics/PAD_Cross.dds" />
+    <texture name="PAD_Square.dds" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/graphics/PAD_Square.dds" />
+    <texture name="PAD_Triangle.dds" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/graphics/PAD_Triangle.dds" />
+    <texture name="Hit_Background.png" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/graphics/Hit_Background.png" />
+    <particle name="PinataHit.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/MAYO13/PinataHit.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/Network.xml" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_PinataActive.hkx" />
+    <collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_PinataActive.safevolume.hkx" />
+    <anim name="MAYO13_Pinata_Break.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_Break.ani" />
+    <anim name="MAYO13_Pinata_GetHit_L.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_GetHit_L.ani" />
+    <anim name="MAYO13_Pinata_GetHit_Overhead.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_GetHit_Overhead.ani" />
+    <anim name="MAYO13_Pinata_GetHit_R.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_GetHit_R.ani" />
+    <anim name="MAYO13_Pinata_GetHit_Underhand.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_GetHit_Underhand.ani" />
+    <anim name="MAYO13_Pinata_HitIdle.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_HitIdle.ani" />
+    <anim name="MAYO13_Pinata_RestingIdle.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_RestingIdle.ani" />
+    <anim name="Female_Pinata_ReadyIdle.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Female_Pinata_ReadyIdle.ani" />
+    <anim name="Female_Pinata_Swing_L.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Female_Pinata_Swing_L.ani" />
+    <anim name="Female_Pinata_Swing_Miss.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Female_Pinata_Swing_Miss.ani" />
+    <anim name="Female_Pinata_Swing_Overhead.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Female_Pinata_Swing_Overhead.ani" />
+    <anim name="Female_Pinata_Swing_R.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Female_Pinata_Swing_R.ani" />
+    <anim name="Female_Pinata_Swing_Underhand.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Female_Pinata_Swing_Underhand.ani" />
+    <anim name="Female_Pinata_Victory.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Female_Pinata_Victory.ani" />
+    <anim name="Male_Pinata_ReadyIdle.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Male_Pinata_ReadyIdle.ani" />
+    <anim name="Male_Pinata_Swing_L.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Male_Pinata_Swing_L.ani" />
+    <anim name="Male_Pinata_Swing_Miss.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Male_Pinata_Swing_Miss.ani" />
+    <anim name="Male_Pinata_Swing_Overhead.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Male_Pinata_Swing_Overhead.ani" />
+    <anim name="Male_Pinata_Swing_R.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Male_Pinata_Swing_R.ani" />
+    <anim name="Male_Pinata_Swing_Underhand.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Male_Pinata_Swing_Underhand.ani" />
+    <anim name="Male_Pinata_Victory.ani" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/anims/Male_Pinata_Victory.ani" />
+    <skeleton name="MAYO13_Pinata_RIG.skn" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_Pinata_RIG.skn" />
+    <skeleton name="MAYO13_PinataBat_RIG.skn" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/MAYO13_PinataBat_RIG.skn" />
+    <soundstream name="BatSwoosh.mp3" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/audio/BatSwoosh.mp3" />
+    <soundstream name="PinataHit.mp3" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/audio/PinataHit.mp3" />
+    <repertoire name="male" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/reps/male.xml" />
+    <repertoire name="female" deferred_loading="false" protected="false" file="furniture/mayo13_pinataactive/reps/female.xml" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/pad.luac" />
+    <lua name="Pinata.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/pinata.luac" />
+    <lua name="PinataMain.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/pinatamain.luac" />
+    <lua name="PlayerController.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/playercontroller.luac" />
+    <lua name="RemotePlayer.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/remoteplayer.luac" />
+    <lua name="State_Game.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/state_game.luac" />
+    <lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/state_idle.luac" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/statemachine.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/utility.luac" />
+    <lua name="State_Victory.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/state_victory.luac" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/mayo13_pinataactive/lua/messagemanager.luac" />
+  </local>
+  <external />
+</resources>

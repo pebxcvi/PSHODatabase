@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="lightBeam" deferred_loading="false" protected="false" file="assets/lightBeam.mdl" />
+		<model name="BandStage" deferred_loading="false" protected="false" file="assets/BandStage.mdl" />
+		<model name="BigScreen" deferred_loading="false" protected="false" file="assets/BigScreen.mdl" />
+		<model name="smokeMachine" deferred_loading="false" protected="false" file="assets/smokeMachine.mdl" />
+		<model name="light" deferred_loading="false" protected="false" file="assets/light.mdl" />
+		<model name="DiscoBall" deferred_loading="false" protected="false" file="assets/Disgo_ball.mdl" />
+		<texture name="Mask" deferred_loading="false" protected="false" file="assets/Mask.dds" />
+		<particle name="ConfettiMulti" deferred_loading="false" protected="false" file="ATGParticles/confetti_3.efx" />
+		<particle name="ConfettiBlue" deferred_loading="false" protected="false" file="ATGParticles/confetti_Blue.efx" />
+		<particle name="ConfettiGold" deferred_loading="false" protected="false" file="ATGParticles/confetti_Gold.efx" />
+		<particle name="ConfettiGreen" deferred_loading="false" protected="false" file="ATGParticles/confetti_Green.efx" />
+		<particle name="ConfettiRed" deferred_loading="false" protected="false" file="ATGParticles/confetti_Red.efx" />
+		<particle name="ConfettiSilver" deferred_loading="false" protected="false" file="ATGParticles/confetti_Silver.efx" />
+		<particle name="SmokeGreen" deferred_loading="false" protected="false" file="ATGParticles/smokeGreen.efx" />
+		<particle name="SmokeWhite" deferred_loading="false" protected="false" file="ATGParticles/smokeWhite.efx" />
+		<particle name="SmokeBlue" deferred_loading="false" protected="false" file="ATGParticles/smokeBlue.efx" />
+		<particle name="SmokePurple" deferred_loading="false" protected="false" file="ATGParticles/smokePurple.efx" />
+		<particle name="SmokeRed" deferred_loading="false" protected="false" file="ATGParticles/smokeRed.efx" />
+		<particle name="SmokeMulti" deferred_loading="false" protected="false" file="ATGParticles/smoke.efx" />
+		<particle name="PyroMulti" deferred_loading="false" protected="false" file="ATGParticles/Pyirotec_8.efx" />
+		<file name="BlueWhitePurpleMixedLighting" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/BlueWhitePurpleMixedLighting.xml" />
+		<file name="ColorfulFloorLights" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/ColorfulFloorLights.xml" />
+		<file name="VIPSmokeGrey" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/VIPSmokeGrey.xml" />
+		<file name="VIPParticles" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/VIPParticles.xml" />
+		<file name="VIPConfetti" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/VIPConfetti.xml" />
+		<file name="StairwellSmokeGrey" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/StairwellSmokeGrey.xml" />
+		<file name="StageGreySmoke" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/StageGreySmoke.xml" />
+		<file name="SmokeyJoes" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/SmokeyJoes.xml" />
+		<file name="RedWhiteBlueStageLights" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/RedWhiteBlueStageLights.xml" />
+		<file name="Pyros" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/Pyros.xml" />
+		<file name="FloorLightsWhite" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/FloorLightsWhite.xml" />
+		<file name="DancefloorSmokeGrey" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/DancefloorSmokeGrey.xml" />
+		<file name="DancefloorParticles" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/DancefloorParticles.xml" />
+		<file name="ConfettiMadness" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/ConfettiMadness.xml" />
+		<file name="ColorfulStageLights" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/ColorfulStageLights.xml" />
+		<file name="StageRedWhiteBlueSmoke" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/StageRedWhiteBlueSmoke.xml" />
+		<file name="RedWhiteAndBlue" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/RedWhiteAndBlue.xml" />
+		<file name="MixedLightAndSmoke" deferred_loading="false" protected="false" file="Scripts/XMLBasedShenannigans/MixedLightAndSmoke.xml" />
+		<collision name="smokeMachine.hkx" deferred_loading="false" protected="false" file="assets/smokeMachine.hkx" />
+		<soundbank name="SCEA_sounds.bnk" deferred_loading="false" protected="false" file="assets/SCEA_sounds.bnk" />
+		<lua name="XMLLocObj.lua" deferred_loading="false" protected="true" file="Scripts/XMLLocObj.lua" />
+		<lua name="cXMLData" deferred_loading="false" protected="true" file="Scripts/XMLBasedShenannigans/cXMLData.lua" />
+		<lua name="cColourLight" deferred_loading="false" protected="true" file="Scripts/XMLBasedShenannigans/cColourLight.lua" />
+		<lua name="cParticleEmmitter" deferred_loading="false" protected="true" file="Scripts/XMLBasedShenannigans/cParticleEmmitter.lua" />
+		<lua name="cVideoScreen" deferred_loading="false" protected="true" file="Scripts/XMLBasedShenannigans/cVideoScreen.lua" />
+		<lua name="cDiscoBall" deferred_loading="false" protected="true" file="Scripts/XMLBasedShenannigans/cDiscoBall.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Relocator_Model" deferred_loading="false" protected="false" file="MiniGames/AudiJumpPoint/models/AudiTechDriver_PlinthRelocator.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Audi_Technology_Relocator/file/Network.xml" />
+		<collision name="Relocator_Collision" deferred_loading="false" protected="false" file="MiniGames/trrelocator/models/TRRelocator.hkx" />
+		<anim name="Relocator_Anim" deferred_loading="false" protected="false" file="MiniGames/AudiJumpPoint/models/AudiTechDriver_PlinthRelocator.ani" />
+		<skeleton name="Relocator_Skel" deferred_loading="false" protected="false" file="MiniGames/AudiJumpPoint/models/AudiTechDriver_PlinthRelocator.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Audi_Technology_Relocator/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

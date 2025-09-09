@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.86.0.17.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>8C481875-B0104DC7-B66A49F3-AA16E177</uuid>
+  <name lang="fr-FR" default="false">Salon du crépuscule</name>
+  <name lang="de-DE" default="false">Twilight-Lounge</name>
+  <name lang="it-IT" default="false">Lounge Crepuscolo</name>
+  <name lang="es-ES" default="false">Sala Ocaso</name>
+  <name lang="en-US" default="true">Twilight Lounge</name>
+  <description lang="fr-FR" default="false">Le luxueux Salon du crépuscule est le lieu de rencontre de l'élite. Avec des sièges design, un éclairage chic, un bar génial et même un jacuzzi, c'est l'endroit idéal pour être vu ! [#Legal]</description>
+  <description lang="de-DE" default="false">In der luxuriösen Twilight-Lounge trifft sich die Elite. Mit ihren Designer-Sitzmöbeln, schicker Beleuchtung, einer abgefahrenen Bar und sogar einem Whirlpool ist sie der Ort schlechthin! [#Legal]</description>
+  <description lang="it-IT" default="false">Il lussuoso Lounge Crepuscolo è il luogo dove si intrattiene l'élite. Con le sue sedie di design, l'illuminazione chic, un bar originale e perfino una vasca con acqua calda, vale la pena visitare questo posto. [#Legal]</description>
+  <description lang="es-ES" default="false">La lujosa Sala Ocaso es el lugar de culto de la élite. ¡Con unos asientos de diseño, una iluminación chic, un bar atrevido y un jacuzzi es el lugar en el que dejarse ver! [#Legal]</description>
+  <description lang="en-US" default="true">The luxurious Twilight Lounge is the hangout of the elite. With designer seating, chic lighting, a funky bar, and even a hot tub this is the place to be seen! [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">Funky_Bar_Apt_1_E5DA_9863</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <heat />
+  <timestamp>D7F6B116</timestamp>
+</odc>

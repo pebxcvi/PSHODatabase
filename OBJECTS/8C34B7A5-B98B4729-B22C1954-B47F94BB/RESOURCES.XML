@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Cybermen_Companion/model/cybermen.mdl" memory="main" />
+		<model name="dummyModel" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_free_reward_zombie/FP_Free_Reward_zombie.mdl" memory="main" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/2013/ornaments/loot_cyberman_ornaments/Loot_Cyberman_Ornaments_blank.hkx" memory="main" />
+		<anim name="idle.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Cybermen_Companion/anim/Cyberman_idle.ani" memory="main" />
+		<anim name="bang.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Cybermen_Companion/anim/Cyberman_motion2.ani" memory="main" />
+		<anim name="march.ani" deferred_loading="false" protected="false" file="furniture/2013/applicances/active_CyberMen_Ornament/Ani/Cyberman_run.ani" memory="main" />
+		<anim name="stop.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Cybermen_Companion/anim/Cyberman_Special_Action_idle.ani" memory="main" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Cybermen_Companion/skeleton/cybermen.skn" memory="main" />
+		<soundbank name="audio.bnk" deferred_loading="false" protected="false" file="furniture/2013/applicances/active_CyberMen_Ornament/sound/cybermen.bnk" memory="host" />
+		<soundbank name="Cyberman_Stomp.bnk" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Cybermen_Companion/soundbank/Cyberman_Stomp.bnk" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Actives/BBCAnimatedOrnament/lua/brains/cyberman/main.luac" memory="main" />
+		<lua name="settings.lua" deferred_loading="false" protected="true" file="Actives/BBCAnimatedOrnament/lua/cyberman/settings.luac" memory="main" />
+	</local>
+	<external />
+</resources>

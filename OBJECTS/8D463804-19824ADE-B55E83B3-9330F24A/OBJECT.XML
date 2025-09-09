@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.80.0.53.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName_quest</name>
+		<description type="string">kDesc_quest</description>
+		<help_text type="string"></help_text>
+		<author type="string">honjo</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">O-Two inc.</company>
+		<template type="string">scene_minigame</template>
+		<template_version type="string">1.1.2</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">MiniGame.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">*OnListenerReceivedData</on_listener_received_data>
+		<on_destroy type="string">*OnDestroy</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<targetable>
+		<interactive type="bool">false</interactive>
+		<on_activated type="string"></on_activated>
+		<on_targeted type="string"></on_targeted>
+		<is_targetable_by_remote_people type="bool">false</is_targetable_by_remote_people>
+		<trigger_radius type="float">-1</trigger_radius>
+		<can_be_targeted_while_seated type="bool">false</can_be_targeted_while_seated>
+	</targetable>
+	<entity />
+	<particles />
+	<network>
+		<definition type="string">Network.xml</definition>
+		<on_bag_created type="string">*OnBagCreated</on_bag_created>
+		<on_bag_deleted type="string">*OnBagDeleted</on_bag_deleted>
+		<on_message_received type="string">*OnMessageReceived</on_message_received>
+		<auto_replicate type="bool">false</auto_replicate>
+	</network>
+	<mini_game>
+		<on_update type="string">*OnUpdate</on_update>
+		<on_send_welcome_message type="string">*OnSendWelcomeMessage</on_send_welcome_message>
+		<on_render type="string">*OnRender</on_render>
+		<on_can_local_player_join type="string">*OnCanLocalPlayerJoin</on_can_local_player_join>
+		<on_add_player type="string">*OnAddPlayer</on_add_player>
+		<on_remove_player type="string">*OnRemovePlayer</on_remove_player>
+		<on_local_player_join type="string">*OnLocalPlayerJoin</on_local_player_join>
+		<on_local_player_leave type="string">*OnLocalPlayerLeave</on_local_player_leave>
+		<on_local_player_update_gameplay type="string">*OnLocalPlayerUpdateGameplay</on_local_player_update_gameplay>
+		<join_type type="string">minimal</join_type>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<session_size type="int">60</session_size>
+		<network_session type="bool">true</network_session>
+		<on_custom_exit_menu_option_selected type="string"></on_custom_exit_menu_option_selected>
+		<is_allowed_presence_broadcast type="bool">false</is_allowed_presence_broadcast>
+	</mini_game>
+	<pad />
+	<renderer />
+	<camera />
+	<light />
+	<resource_pack>
+		<is_resource_pack type="bool">false</is_resource_pack>
+		<objects type="list">
+			<object type="bag">
+				<id type="string">724D9FE7-731D4389-B7E09AC7-C6B8671B</id>
+			</object>
+			<object type="bag">
+				<id type="string">E70CCA25-A6944AA3-ADD69BA3-BE99D017</id>
+			</object>
+			<object type="bag">
+				<id type="string">1164178B-266D4DF8-BA4929D5-F122DE0C</id>
+			</object>
+			<object type="bag">
+				<id type="string">53B62D73-75BC4213-BC137D4A-0ED4F105</id>
+			</object>
+			<object type="bag">
+				<id type="string">1E407480-851D4CB5-803D69BF-1A7F9558</id>
+			</object>
+			<object type="bag">
+				<id type="string">1CAD8D1C-61C442A2-8F0A90EC-949C512B</id>
+			</object>
+			<object type="bag">
+				<id type="string">D8885353-B1FB479B-9D8A4AC4-D8BDE3C3</id>
+			</object>
+			<object type="bag">
+				<id type="string">0AD555D3-78614E29-B688BBEB-EE321A75</id>
+			</object>
+			<object type="bag">
+				<id type="string">AF55915B-2042412D-817750AF-24FB087D</id>
+			</object>
+			<object type="bag">
+				<id type="string">9359D16C-75E94309-950B5047-12EC809D</id>
+			</object>
+			<object type="bag">
+				<id type="string">1A76424F-7B244C5C-838237DE-230FCC19</id>
+			</object>
+			<object type="bag">
+				<id type="string">3967B93B-12D34FDE-B5FB73CD-E1DF44FB</id>
+			</object>
+			<object type="bag">
+				<id type="string">AAFC359E-8DA54206-9891ADA9-F56E749F</id>
+			</object>
+			<object type="bag">
+				<id type="string">A6B3B43E-08A64508-BF8299AF-AB48426B</id>
+			</object>
+			<object type="bag">
+				<id type="string">C46EAB94-FAB64754-AFE9ADDE-28F70DC5</id>
+			</object>
+			<object type="bag">
+				<id type="string">001CF12F-928C476C-B3DBC7B0-7A9233BA</id>
+			</object>
+			<object type="bag">
+				<id type="string">3A88B363-4B9B45BE-A3F0FAB0-2C190E05</id>
+			</object>
+			<object type="bag">
+				<id type="string">4C4F976A-CBFB4528-8CF9799D-A35C6729</id>
+			</object>
+			<object type="bag">
+				<id type="string">D45F859F-195E43EE-ADEDC565-040DA123</id>
+			</object>
+			<object type="bag">
+				<id type="string">992F524E-DA484A86-957969D7-99307337</id>
+			</object>
+			<object type="bag">
+				<id type="string">83562A5D-BF594CFC-97700E6F-847D33A6</id>
+			</object>
+			<object type="bag">
+				<id type="string">AD2A64F0-03674162-AAB33E30-4F0C60D0</id>
+			</object>
+			<object type="bag">
+				<id type="string">C97B4699-DDB54693-A67C248C-73FD75E5</id>
+			</object>
+			<object type="bag">
+				<id type="string">0735F3ED-9A3146A7-BF4CFE25-F3E5C2D3</id>
+			</object>
+			<object type="bag">
+				<id type="string">A2E23320-CBA14117-B64AFA9E-F9238D80</id>
+			</object>
+			<object type="bag">
+				<id type="string">1A71B294-5BEF4AF2-A278A4B5-158F0A97</id>
+			</object>
+			<object type="bag">
+				<id type="string">13055603-187546B7-B2B95988-F9748A70</id>
+			</object>
+			<object type="bag">
+				<id type="string">4D340DC2-4ECA4A42-A8844793-6A61C82F</id>
+			</object>
+			<object type="bag">
+				<id type="string">2002CDAA-90A14DB9-9911C45D-CC7CB780</id>
+			</object>
+			<object type="bag">
+				<id type="string">D5BDEEF9-E0154B3D-9F055D04-166D5686</id>
+			</object>
+			<object type="bag">
+				<id type="string">4168C929-4A0C4048-94A3587A-9ECA4752</id>
+			</object>
+			<object type="bag">
+				<id type="string">4EA68D3C-F7534B16-B23C326B-3BEDEAF6</id>
+			</object>
+			<object type="bag">
+				<id type="string">D1B61391-ADB94B22-81866476-2457AED4</id>
+			</object>
+			<object type="bag">
+				<id type="string">24474BA4-CD634264-8C0BE201-5E9A4658</id>
+			</object>
+			<object type="bag">
+				<id type="string">02838661-154B4307-B18D6AAA-217F2B75</id>
+			</object>
+			<object type="bag">
+				<id type="string">26CDC053-F9BD4205-B5F12550-BB056BCD</id>
+			</object>
+			<object type="bag">
+				<id type="string">8F34BCB2-756D4124-9C9D80A3-ACBB10A8</id>
+			</object>
+			<object type="bag">
+				<id type="string">BFE109E0-CCAE4E0A-8AC210A6-9C04A9D7</id>
+			</object>
+			<object type="bag">
+				<id type="string">EDAEE79E-C80A4A8D-AC055F18-DFC46FA4</id>
+			</object>
+			<object type="bag">
+				<id type="string">6755CD26-39F94B73-8C423800-ED158A08</id>
+			</object>
+			<object type="bag">
+				<id type="string">82758610-16EE44F9-9332425B-1C6C17DB</id>
+			</object>
+			<object type="bag">
+				<id type="string">09373535-37D74F00-8EA2F2DC-4EF893B6</id>
+			</object>
+			<object type="bag">
+				<id type="string">B209D10D-900B480C-A134BA4C-1C9AF5F1</id>
+			</object>
+			<object type="bag">
+				<id type="string">D56349AE-6F37425B-BAC990B0-7638DDF6</id>
+			</object>
+			<object type="bag">
+				<id type="string">C94EB5C7-1A414BFB-AE4A0BF1-BB802514</id>
+			</object>
+			<object type="bag">
+				<id type="string">41EABF14-D006442D-923DD481-EDE7197B</id>
+			</object>
+			<object type="bag">
+				<id type="string">E0211F98-71E64809-BC483DF6-5622B505</id>
+			</object>
+			<object type="bag">
+				<id type="string">FC998BAF-D91148B0-B55B4931-2577F5A2</id>
+			</object>
+			<object type="bag">
+				<id type="string">4453AD9A-CDC24D39-B3AA9C90-53AF568C</id>
+			</object>
+			<object type="bag">
+				<id type="string">AABDD6E1-0988469E-A0E41224-10BDDB73</id>
+			</object>
+			<object type="bag">
+				<id type="string">A34399E4-05854E60-9099C804-FBEDD9BC</id>
+			</object>
+			<object type="bag">
+				<id type="string">ABBF1C6D-62554E78-959898FA-504E19D1</id>
+			</object>
+			<object type="bag">
+				<id type="string">69AD428F-75F34968-8740E136-BC9AC250</id>
+			</object>
+			<object type="bag">
+				<id type="string">9C6FE8F9-CFEF4A0C-A81B2303-B3298F71</id>
+			</object>
+			<object type="bag">
+				<id type="string">C5D93B79-DA7743BE-A56E6EC7-6BCEB0B7</id>
+			</object>
+			<object type="bag">
+				<id type="string">B161A677-E55D44AD-86E4FFE9-72E36EC6</id>
+			</object>
+			<object type="bag">
+				<id type="string">A44524BB-3DDE4222-8B9B5A45-90563EB8</id>
+			</object>
+			<object type="bag">
+				<id type="string">72420EC2-0C724DDC-AD2F55C6-1A31C9E2</id>
+			</object>
+			<object type="bag">
+				<id type="string">331E8EB4-96494829-BD2D46AB-9D09ED15</id>
+			</object>
+			<object type="bag">
+				<id type="string">313F5E99-73BE4955-AE21302E-E7371506</id>
+			</object>
+			<object type="bag">
+				<id type="string">90DF0D36-A4C1495E-ADD5A619-D4199554</id>
+			</object>
+			<object type="bag">
+				<id type="string">847FA419-139C43BA-A9F7F7BF-4D7394CA</id>
+			</object>
+			<object type="bag">
+				<id type="string">5C92CD23-E6FD4C08-99D01A52-C1473D10</id>
+			</object>
+			<object type="bag">
+				<id type="string">4B7BCB6F-8F964D6B-A180513A-2DFC1032</id>
+			</object>
+			<object type="bag">
+				<id type="string">EA72B188-58D949C1-9B988336-C74BCFB1</id>
+			</object>
+			<object type="bag">
+				<id type="string">3C303D2D-CBF946AC-9644579E-B6032B0C</id>
+			</object>
+			<object type="bag">
+				<id type="string">B6AA2DBD-88B5469B-BFEA27E2-1A8664EC</id>
+			</object>
+			<object type="bag">
+				<id type="string">4BBD8AAE-3DA14256-95442C6A-79C87969</id>
+			</object>
+			<object type="bag">
+				<id type="string">31B2C25F-DDDE489C-9E284053-5E7EBBB1</id>
+			</object>
+			<object type="bag">
+				<id type="string">501620A2-0A734498-BCBA7E57-6ADFED8F</id>
+			</object>
+			<object type="bag">
+				<id type="string">B00324A0-986B4555-A1AA2D25-607B72A9</id>
+			</object>
+			<object type="bag">
+				<id type="string">5055D0D6-91F94A27-8A114E44-D8652F5A</id>
+			</object>
+			<object type="bag">
+				<id type="string">483920EF-F41F4CC5-9F21FD1C-B1ED7413</id>
+			</object>
+			<object type="bag">
+				<id type="string">740165F1-9E1B4DFC-9507AE93-84C74D12</id>
+			</object>
+			<object type="bag">
+				<id type="string">28975AB8-E64F4600-AF68B9BB-05CF4B0E</id>
+			</object>
+			<object type="bag">
+				<id type="string">DB2F15D1-7D0641BF-8AD239F8-F00634E5</id>
+			</object>
+			<object type="bag">
+				<id type="string">124D0DCD-90C1499A-9A6C0717-F704ECB8</id>
+			</object>
+			<object type="bag">
+				<id type="string">7419BBDE-5A3D454D-8054D305-4536A7BC</id>
+			</object>
+			<object type="bag">
+				<id type="string">55121A3A-5ADE4440-8EAE801A-0A1C502E</id>
+			</object>
+			<object type="bag">
+				<id type="string">027DE073-5F4042B8-A674DA56-5C9A7EC9</id>
+			</object>
+			<object type="bag">
+				<id type="string">6CD7E5F4-0BC34C7F-BFBE3613-6182F293</id>
+			</object>
+			<object type="bag">
+				<id type="string">E2596853-689546B8-BADD2D1D-A7B7FA07</id>
+			</object>
+			<object type="bag">
+				<id type="string">E9A7F9E3-EC044B7E-ABEA84FA-FE22997D</id>
+			</object>
+			<object type="bag">
+				<id type="string">D2C19197-556C477F-979C76A7-C762B053</id>
+			</object>
+			<object type="bag">
+				<id type="string">67CD4263-E3324D25-A4A893D1-FCF5C1D9</id>
+			</object>
+			<object type="bag">
+				<id type="string">7602EC84-87B94E97-A3DEED46-5BA8DBAF</id>
+			</object>
+			<object type="bag">
+				<id type="string">79F33259-15494CA1-9E6C5362-2A3D1EC3</id>
+			</object>
+			<object type="bag">
+				<id type="string">ED9F23B4-18284E7F-A6BC6E58-851D45C4</id>
+			</object>
+			<object type="bag">
+				<id type="string">A862A28C-5FBB4F1E-AC6CC8AF-85022949</id>
+			</object>
+			<object type="bag">
+				<id type="string">16B082FB-79D84A28-A2D286A8-DF565839</id>
+			</object>
+			<object type="bag">
+				<id type="string">C507BE47-460F48CC-99A9DA7A-6B888BCE</id>
+			</object>
+			<object type="bag">
+				<id type="string">C5244981-2BEC4045-BD2CF2B7-56BD9E92</id>
+			</object>
+			<object type="bag">
+				<id type="string">CB542F66-C7804569-A456E4C6-06018EE2</id>
+			</object>
+			<object type="bag">
+				<id type="string">B6C9F48E-DBA04B8F-81CDECA8-63F18D6F</id>
+			</object>
+			<object type="bag">
+				<id type="string">28CBB876-90204D0F-AABDFFD2-414E5171</id>
+			</object>
+			<object type="bag">
+				<id type="string">10F72337-126F44CA-B60545B1-7C0D8980</id>
+			</object>
+			<object type="bag">
+				<id type="string">AC53C20F-ACA445F8-B3260E07-6BC63333</id>
+			</object>
+			<object type="bag">
+				<id type="string">AE3997CC-89DB49BA-A6881A48-B9CD7313</id>
+			</object>
+			<object type="bag">
+				<id type="string">A8D9A3B0-00564769-97CE173D-069CD66A</id>
+			</object>
+			<object type="bag">
+				<id type="string">2DD57725-1B0D4619-8830C533-26E5D92F</id>
+			</object>
+			<object type="bag">
+				<id type="string">EE967710-E51D498E-AD001371-ACF541AC</id>
+			</object>
+			<object type="bag">
+				<id type="string">F58AF2F0-2A6C46AE-842B30EA-09D08A51</id>
+			</object>
+			<object type="bag">
+				<id type="string">80198032-9FC04B12-BF28DB25-F1BC258E</id>
+			</object>
+			<object type="bag">
+				<id type="string">3047133D-337E405A-A79C744D-5D080048</id>
+			</object>
+			<object type="bag">
+				<id type="string">7FB7546E-C1494596-B66EE753-8345AFC6</id>
+			</object>
+			<object type="bag">
+				<id type="string">B6EB6EF7-F4E3462C-8A2A120A-FFE316AE</id>
+			</object>
+			<object type="bag">
+				<id type="string">F0F60F32-48594A70-BB2D821E-2CFA4217</id>
+			</object>
+			<object type="bag">
+				<id type="string">EA2EBDAB-E5454ABD-90362D3D-4B0AFD93</id>
+			</object>
+			<object type="bag">
+				<id type="string">BCF8A376-631D4144-99480D75-331F9972</id>
+			</object>
+			<object type="bag">
+				<id type="string">36E7D6DB-F5DA4B65-B4160DC9-0C90A9CB</id>
+			</object>
+			<object type="bag">
+				<id type="string">2B6861F1-2CA64540-8CD6451F-7C747CBE</id>
+			</object>
+		</objects>
+	</resource_pack>
+</objectdef>

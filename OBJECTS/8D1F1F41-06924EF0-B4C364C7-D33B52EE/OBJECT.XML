@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.82.0.17.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">gbpanespr</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string"></company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">boot.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string"></on_listener_received_data>
+		<on_destroy type="string">*OnDestroy</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<event_timer>
+		<name type="string"></name>
+		<command type="string">*OnUpdate</command>
+		<interval type="float">0</interval>
+	</event_timer>
+	<screen />
+	<pad />
+	<renderer />
+	<resource_pack>
+		<is_resource_pack type="bool">false</is_resource_pack>
+		<objects type="list">
+			<object type="bag">
+				<id type="string">EB6ECA9F-389B4140-96F12563-BE7264F8</id>
+			</object>
+		</objects>
+	</resource_pack>
+</objectdef>

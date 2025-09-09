@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="PicnicL.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicL.mdl" />
+		<model name="PicnicM.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicM.mdl" />
+		<model name="PicnicS.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicS.mdl" />
+		<model name="BasketL.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/BasketL.mdl" />
+		<model name="BasketM.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/BasketM.mdl" />
+		<model name="BasketS.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/BasketS.mdl" />
+		<model name="Stand.mdl" deferred_loading="false" protected="false" file="environments/veemeepark/concessionstands/PicnicCart.mdl" />
+		<model name="FoodSet_L.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_L.mdl" />
+		<model name="FoodSet_M.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_M.mdl" />
+		<model name="FoodSet_S.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_S.mdl" />
+		<model name="ChickenWing.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/ChickenWing.mdl" />
+		<model name="Glass.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/Glass.mdl" />
+		<model name="Sandwich.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/Sandwich.mdl" />
+		<model name="Picnic_Locator.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/models/Picnic_Locator.mdl" />
+		<model name="Picnic_Locator_Red.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/models/Picnic_Locator_Red.mdl" />
+		<model name="Picnic_Area.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/models/Picnic_Area.mdl" />
+		<model name="Waypoint_Picnic.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/models/Waypoint_Picnic.mdl" />
+		<collision name="PicnicL.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicL.hkx" />
+		<collision name="PicnicM.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicM.hkx" />
+		<collision name="PicnicS.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicS.hkx" />
+		<collision name="Stand.hkx" deferred_loading="false" protected="false" file="environments/veemeepark/concessionstands/PicnicCart.hkx" />
+		<anim name="PicnicL.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicL.ani" />
+		<anim name="PicnicM.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicM.ani" />
+		<anim name="PicnicS.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicS.ani" />
+		<anim name="FoodSet_L.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_L.ani" />
+		<anim name="FoodSet_M.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_M.ani" />
+		<anim name="FoodSet_S.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_S.ani" />
+		<anim name="Waypoint_Picnic.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/models/Waypoint_Picnic.ani" />
+		<skeleton name="PicnicL.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicL.skn" />
+		<skeleton name="PicnicM.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicM.skn" />
+		<skeleton name="PicnicS.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/PicnicS.skn" />
+		<skeleton name="FoodSet_L.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_L.skn" />
+		<skeleton name="FoodSet_M.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_M.skn" />
+		<skeleton name="FoodSet_S.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Picnic/picnicfood/FoodSet_S.skn" />
+		<skeleton name="Waypoint_Picnic.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/models/Waypoint_Picnic.skn" />
+		<lua name="PicnicMG.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Social/Picnic/PicnicMG.lua" />
+	</local>
+	<external />
+</resources>

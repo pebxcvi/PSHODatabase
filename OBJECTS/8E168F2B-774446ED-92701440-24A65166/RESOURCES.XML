@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/CommMay_2010/Lakehouse_Clock/models/CommMay_Clock.mdl" />
+		<model name="HourHand.mdl" deferred_loading="false" protected="false" file="ActiveItems/CommMay_2010/Lakehouse_Clock/models/CommMay_HourHand.mdl" />
+		<model name="MinuteHand.mdl" deferred_loading="false" protected="false" file="ActiveItems/CommMay_2010/Lakehouse_Clock/models/CommMay_MinuteHand.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/CommMay_2010/Lakehouse_Clock/models/CommMay_Clock.hkx" />
+		<soundbank name="Clock.bnk" deferred_loading="false" protected="false" file="ActiveItems/commmay_2010/lakehouse_clock/sound/Clock.bnk" />
+		<lua name="Clock.lua" deferred_loading="false" protected="true" file="ActiveItems/CommMay_2010/Lakehouse_Clock/programming/Clock.lua" />
+	</local>
+	<external />
+</resources>

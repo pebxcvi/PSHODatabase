@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CoinShower.mdl" deferred_loading="false" protected="false" file="environments/trainstation/setdressings/CoinShower.mdl" />
+		<texture name="tex_BasicMenu_Bottom" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Bottom.dds" />
+		<texture name="tex_BasicMenu_BottomLeft" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_BottomLeft.dds" />
+		<texture name="tex_BasicMenu_BottomRight" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_BottomRight.dds" />
+		<texture name="tex_BasicMenu_Center" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Center.dds" />
+		<texture name="tex_BasicMenu_Left" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Left.dds" />
+		<texture name="tex_BasicMenu_Right" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Right.dds" />
+		<texture name="tex_BasicMenu_Top" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Top.dds" />
+		<texture name="tex_BasicMenu_TopLeft" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_TopLeft.dds" />
+		<texture name="tex_BasicMenu_TopRight" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_TopRight.dds" />
+		<texture name="qrcode_128x128.dds" deferred_loading="false" protected="false" file="environments/trainstation/setdressings/qrcode_128x128.dds" />
+		<collision name="CoinShower.hkx" deferred_loading="false" protected="false" file="environments/trainstation/setdressings/CoinShower.hkx" />
+		<anim name="CoinShower.ani" deferred_loading="false" protected="false" file="environments/trainstation/setdressings/CoinShower.ani" />
+		<anim name="CoinShower_hidden.ani" deferred_loading="false" protected="false" file="environments/trainstation/setdressings/CoinShower_hidden.ani" />
+		<skeleton name="CoinShower.skn" deferred_loading="false" protected="false" file="environments/trainstation/setdressings/CoinShower.skn" />
+		<lua name="CoinShowerKiosk.lua" deferred_loading="false" protected="true" file="Scripts/SetDressings/CoinShowerKiosk.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Inventory.lua" />
+		<lua name="Window.lua" deferred_loading="false" protected="true" file="Scripts/GUI/Window.lua" />
+		<lua name="class.lua" deferred_loading="false" protected="true" file="Scripts/Misc/class.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="Scripts/Misc/List.lua" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Globals.lua" />
+		<lua name="Callback.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Callback.lua" />
+		<lua name="Debug.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Debug.lua" />
+	</local>
+	<external />
+</resources>
