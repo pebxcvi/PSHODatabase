@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="animatedmodels/personaltransporter/MonoWheelChrome.mdl" memory="host" />
+		<model name="PersonalTransporterRemote.mdl" deferred_loading="true" protected="false" file="animatedmodels/personaltransporter/MonoWheelChrome_Remot.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/PersonalTransporter/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="animation/male/personaltransporterrider/PersonalTransporterRiderIdle.ani" memory="main" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="animation/male/personaltransporterrider/monowheelLeft.ani" memory="main" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="animation/male/personaltransporterrider/PersonalTransporterRiderMove.ani" memory="main" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="animation/male/personaltransporterrider/monowheelRight.ani" memory="main" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="animation/female/personaltransporterfemale/monowheelFemaleLeft.ani" memory="main" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="animation/female/personaltransporterfemale/monowheelFemaleMove.ani" memory="main" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="animation/female/personaltransporterfemale/monowheeFemaleRight.ani" memory="main" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="animation/female/personaltransporterfemale/monowheelFemaleIdle.ani" memory="main" />
+		<anim name="PersonalTransporter.ani" deferred_loading="true" protected="false" file="animatedmodels/personaltransporter/MonoWheel.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="animatedmodels/personaltransporter/MonoWheel.skn" memory="host" />
+		<soundbank name="engineSounds.bnk" deferred_loading="true" protected="false" file="animatedmodels/personaltransporter/sounds/engineSounds.bnk" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/PersonalTransporter/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/PersonalTransporter/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/PersonalTransporter/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/PersonalTransporter/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/PersonalTransporter/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ears.mdl" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_ears/model/Rabbit_Ears_White.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spunland_rabbit_ears/file/config_white.xml" memory="host" />
+		<anim name="ears_idle.ani" deferred_loading="false" protected="false" file="Locomotion/spunland_rabbit_ears/anim/Rabbit_Ears_Idle.ani" memory="host" />
+		<anim name="ears_sad.ani" deferred_loading="false" protected="false" file="Locomotion/spunland_rabbit_ears/anim/Rabbit_Ears_Sad.ani" memory="host" />
+		<anim name="ears_happy.ani" deferred_loading="false" protected="false" file="Locomotion/spunland_rabbit_ears/anim/Rabbit_Ears_Happy.ani" memory="host" />
+		<anim name="ears_loco.ani" deferred_loading="false" protected="false" file="Locomotion/spunland_rabbit_ears/anim/Rabbit_Ears_Locomation.ani" memory="host" />
+		<skeleton name="ears.skn" deferred_loading="false" protected="false" file="Locomotion/spunland_rabbit_ears/model/Spunland_Rabbit_Ears.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_rabbit_ears/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

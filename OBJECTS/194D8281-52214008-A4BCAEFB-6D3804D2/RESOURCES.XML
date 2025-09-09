@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="wand_background.dds" deferred_loading="true" protected="false" file="MiniGames/Pottermore_Wand/textures/wand_background.dds" />
+		<texture name="wand01.dds" deferred_loading="true" protected="false" file="MiniGames/Pottermore_Wand/textures/wand01.dds" />
+		<texture name="wand02.dds" deferred_loading="true" protected="false" file="MiniGames/Pottermore_Wand/textures/wand02.dds" />
+		<texture name="wand03.dds" deferred_loading="true" protected="false" file="MiniGames/Pottermore_Wand/textures/wand03.dds" />
+		<texture name="black_handle01.dds" deferred_loading="true" protected="false" file="UI/Wands/black/black_handle01.dds" />
+		<texture name="black_handle02.dds" deferred_loading="true" protected="false" file="UI/Wands/black/black_handle02.dds" />
+		<texture name="black_handle03.dds" deferred_loading="true" protected="false" file="UI/Wands/black/black_handle03.dds" />
+		<texture name="black_shaft.dds" deferred_loading="true" protected="false" file="UI/Wands/black/black_shaft.dds" />
+		<texture name="brownRed_handle01.dds" deferred_loading="true" protected="false" file="UI/Wands/brownRed/brownRed_handle01.dds" />
+		<texture name="brownRed_handle02.dds" deferred_loading="true" protected="false" file="UI/Wands/brownRed/brownRed_handle02.dds" />
+		<texture name="brownRed_handle03.dds" deferred_loading="true" protected="false" file="UI/Wands/brownRed/brownRed_handle03.dds" />
+		<texture name="brownRed_shaft.dds" deferred_loading="true" protected="false" file="UI/Wands/brownRed/brownRed_shaft.dds" />
+		<texture name="extraWand_handle01.dds" deferred_loading="true" protected="false" file="UI/Wands/extraWand/extraWand_handle01.dds" />
+		<texture name="lightBrown_handle01.dds" deferred_loading="true" protected="false" file="UI/Wands/lightBrown/lightBrown_handle01.dds" />
+		<texture name="lightBrown_handle02.dds" deferred_loading="true" protected="false" file="UI/Wands/lightBrown/lightBrown_handle02.dds" />
+		<texture name="lightBrown_handle03.dds" deferred_loading="true" protected="false" file="UI/Wands/lightBrown/lightBrown_handle03.dds" />
+		<texture name="lightBrown_shaft.dds" deferred_loading="true" protected="false" file="UI/Wands/lightBrown/lightBrown_shaft.dds" />
+		<texture name="midBrown_handle01.dds" deferred_loading="true" protected="false" file="UI/Wands/midBrown/midBrown_handle01.dds" />
+		<texture name="midBrown_handle02.dds" deferred_loading="true" protected="false" file="UI/Wands/midBrown/midBrown_handle02.dds" />
+		<texture name="midBrown_handle03.dds" deferred_loading="true" protected="false" file="UI/Wands/midBrown/midBrown_handle03.dds" />
+		<texture name="midBrown_shaft.dds" deferred_loading="true" protected="false" file="UI/Wands/midBrown/midBrown_shaft.dds" />
+		<texture name="vLightBrown_handle01.dds" deferred_loading="true" protected="false" file="UI/Wands/vLightBrown/vLightBrown_handle01.dds" />
+		<texture name="vLightBrown_handle02.dds" deferred_loading="true" protected="false" file="UI/Wands/vLightBrown/vLightBrown_handle02.dds" />
+		<texture name="vLightBrown_handle03.dds" deferred_loading="true" protected="false" file="UI/Wands/vLightBrown/vLightBrown_handle03.dds" />
+		<texture name="vLightBrown_shaft.dds" deferred_loading="true" protected="false" file="UI/Wands/vLightBrown/vLightBrown_shaft.dds" />
+		<texture name="white_handle01.dds" deferred_loading="true" protected="false" file="UI/Wands/white/white_handle01.dds" />
+		<texture name="white_handle02.dds" deferred_loading="true" protected="false" file="UI/Wands/white/white_handle02.dds" />
+		<texture name="white_handle03.dds" deferred_loading="true" protected="false" file="UI/Wands/white/white_handle03.dds" />
+		<texture name="white_shaft.dds" deferred_loading="true" protected="false" file="UI/Wands/white/white_shaft.dds" />
+		<texture name="wand_dropdown.dds" deferred_loading="false" protected="false" file="MiniGames/Pottermore_Wand/textures/wand_dropdown.dds" />
+		<texture name="wand_dropdown02.dds" deferred_loading="false" protected="false" file="MiniGames/Pottermore_Wand/textures/wand_dropdown02.dds" />
+		<texture name="Error_Banner.dds" deferred_loading="true" protected="false" file="MiniGames/Famous_Wizards_Cards/UI/Error_Banner.dds" />
+		<texture name="wand_shadow.dds" deferred_loading="true" protected="false" file="MiniGames/Pottermore_Wand/textures/wand_shadow.dds" />
+		<file name="BOOKOS.TTF" deferred_loading="true" protected="false" file="UI/Fonts/BOOKOS.TTF" />
+		<file name="BOOKOSB.TTF" deferred_loading="true" protected="false" file="UI/Fonts/BOOKOSB.TTF" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/MiniGame.lua" />
+		<lua name="PottermoreCom.lua" deferred_loading="false" protected="true" file="Lua/Shared/PottermoreCom.lua" />
+		<lua name="SimpleSaveData.lua" deferred_loading="false" protected="true" file="Lua/Shared/SimpleSaveData.lua" />
+		<lua name="InventoryCheck.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/InventoryCheck.lua" />
+		<lua name="ShowWandInfo.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/ShowWandInfo.lua" />
+		<lua name="WandCheck.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/WandCheck.lua" />
+		<lua name="LinkPrompt.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/LinkPrompt.lua" />
+		<lua name="DeferredPack.lua" deferred_loading="false" protected="true" file="Lua/Shared/DeferredPack.lua" />
+		<lua name="WandUi.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/WandUi.lua" />
+		<lua name="WandMappings.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/WandMappings.lua" />
+		<lua name="GetSettings.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/GetSettings.lua" />
+		<lua name="NotAvailable.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/NotAvailable.lua" />
+		<lua name="PopUp.lua" deferred_loading="false" protected="true" file="MiniGames/Pottermore_Wand/lua/PopUp.lua" />
+	</local>
+	<external />
+</resources>

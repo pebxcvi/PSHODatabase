@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Sheep_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/sheep_ver01/model/Model.mdl" />
+		<model name="Whale_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/whale_fire/model/model.mdl" />
+		<model name="Zaurus_Fire_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/zaurus_fire/model/model.mdl" />
+		<model name="Bird_Thunder_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/Bird_thunder/model/Model.mdl" />
+		<model name="Devil_Plant_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/devil_plant/model/model.mdl" />
+		<model name="Element_Water_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/Element_water/model/Model.mdl" />
+		<model name="Mandragora_Ground_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/mandragora_ver04/model/Model.mdl" />
+		<model name="Wooperlooper_Ground_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/wooperlooper_ground/model/Model.mdl" />
+		<model name="Kirin_Thunder_Model.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/kirin_thunder/model/kirin_thunder.mdl" />
+		<model name="Yasha_Fire_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/yasya_fire/model/Model.mdl" />
+		<model name="Zombie_Rare.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_rare/model/zombie_rare.mdl" />
+		<model name="Paradine_Model.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/paradine_fire/model/paradine_fire.mdl" />
+		<model name="dragoon_fire.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/dragoon_fire/model/dragoon_fire.mdl" />
+		<model name="miko_water.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/Miko_water/model/miko_water.mdl" />
+		<texture name="ui_win_01.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_01.dds" />
+		<texture name="ui_win_10.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_10.dds" />
+		<texture name="ui_win_11.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_11.dds" />
+		<texture name="ui_win_06.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_06.dds" />
+		<texture name="ui_win_07.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_07.dds" />
+		<collision name="pet_collsion_60.hkx" deferred_loading="false" protected="false" file="MiniGames/common/collision/pet_collsion_60.hkx" />
+		<anim name="RPG_kirin_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_kirin/RPG_kirin_idle.ani" />
+		<anim name="RPG_zaurus_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_zaurus/RPG_zaurus_idle.ani" />
+		<anim name="RPG_wooper_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_idle.ani" />
+		<anim name="RPG_whale_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_whale/RPG_whale_idle.ani" />
+		<anim name="RPG_sheep_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_sheep/RPG_sheep_idle.ani" />
+		<anim name="RPG_mandragora_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_mandragora/RPG_mandragora_idle.ani" />
+		<anim name="RPG_Element_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_element/RPG_Element_idle.ani" />
+		<anim name="RPG_devil_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_devil/RPG_devil_idle.ani" />
+		<anim name="RPG_bird_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_Bird/RPG_bird_idle.ani" />
+		<anim name="RPG_fran_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_fran/RPG_fran_idle.ani" />
+		<anim name="RPG_yasya_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_yasya/RPG_yasya_idle.ani" />
+		<anim name="RPG_paradine_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_paradine/RPG_paradine_idle.ani" />
+		<anim name="RPG_miko_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_miko/RPG_miko_idle.ani" />
+		<anim name="RPG_dragoon_idle.ani" deferred_loading="false" protected="false" file="MiniGames/common/RPG_ani/RPG_ani_dragoon/RPG_dragoon_idle.ani" />
+		<skeleton name="Bird_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/Bird_fire/skeleton/skeleton.skn" />
+		<skeleton name="Devil_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/devil_fire/skeleton/skeleton.skn" />
+		<skeleton name="Element_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/Element_fire/skeleton/skeleton.skn" />
+		<skeleton name="Mandragora_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/mandragora/skeleton/skeleton.skn" />
+		<skeleton name="Sheep_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/sheep_ver01/skeleton/skeleton.skn" />
+		<skeleton name="Whale_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/whale_fire/skeleton/skeleton.skn" />
+		<skeleton name="Wooperlooper_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/wooperlooper_fire/skeleton/skeleton.skn" />
+		<skeleton name="Zaurus_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/zaurus_fire/skeleton/skeleton.skn" />
+		<skeleton name="Kirin_skeleton.skn" deferred_loading="false" protected="false" file="CompanionFollowers/kirin_fire/skeleton/kirin_fire.skn" />
+		<skeleton name="Yasha_Fire_Skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/yasya_fire/skeleton/skeleton.skn" />
+		<skeleton name="Zombie_Rare_Skeleton.skn" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_rare/skeleton/zombie_rare.skn" />
+		<skeleton name="Paradine_Model.skn" deferred_loading="false" protected="false" file="CompanionFollowers/paradine_fire/skeleton/paradine_fire.skn" />
+		<skeleton name="dragoon_fire.skn" deferred_loading="false" protected="false" file="CompanionFollowers/dragoon_fire/skeleton/dragoon_fire.skn" />
+		<skeleton name="miko_water.skn" deferred_loading="false" protected="false" file="CompanionFollowers/Miko_water/skeleton/miko_water.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/MiniGame.lua" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/param.lua" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/pad.lua" />
+		<lua name="DemoSeq.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/DemoSeq.lua" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/seqMgr.lua" />
+		<lua name="menuInstance.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/menuInstance.lua" />
+		<lua name="menuInstanceMgr.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/menuInstanceMgr.lua" />
+		<lua name="menuObject.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/menuObject.lua" />
+		<lua name="sceneLib.lua" deferred_loading="false" protected="true" file="environments/sceneScript/sceneLib.lua" />
+		<lua name="PetData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/PetData.lua" />
+		<lua name="gameData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/gameData.lua" />
+		<lua name="uvData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/uvData.lua" />
+		<lua name="AdvSeq.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/AdvSeq.lua" />
+		<lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/itemListCheker.lua" />
+		<lua name="CommonMenu.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/CommonMenu.lua" />
+		<lua name="CommonInit.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/CommonInit.lua" />
+		<lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/cameraMgr.lua" />
+		<lua name="NpcChara.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/NpcChara.lua" />
+		<lua name="npcData.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/npcData.lua" />
+		<lua name="NpcMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_NPC/lua/NpcMgr.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="GNN_rogo.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/GNN_rogo.dds" />
+		
+		<!--<texture name="live_00_Hankagai.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Hankagai.dds" />-->
+		<!--<texture name="live_00_Hikoubuttai_01.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Hikoubuttai_01.dds" />-->
+		<!--<texture name="live_00_Hikoubuttai_02.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Hikoubuttai_02.dds" />-->
+		<!--<texture name="live_00_Himitsukichi.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Himitsukichi.dds" />-->
+		<!--<texture name="live_00_Shinjyuku_01.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Shinjyuku_01.dds" />-->
+		<!--<texture name="live_00_Shinjyuku_02.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Shinjyuku_02.dds" />-->
+		<!--<texture name="live_00_Shinjyuku_03.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Shinjyuku_03.dds" />-->
+		<!--<texture name="live_01_east.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_east.dds" />-->
+		<!--<texture name="live_01_north.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_north.dds" />-->
+		<!--<texture name="live_01_northeast.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_northeast.dds" />-->
+		<!--<texture name="live_01_northwest.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_northwest.dds" />-->
+		<!--<texture name="live_01_south.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_south.dds" />-->
+		<!--<texture name="live_01_southeast.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_southeast.dds" />-->
+		<!--<texture name="live_01_southwest.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_southwest.dds" />-->
+		<!--<texture name="live_01_west.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_west.dds" />-->
+		
+		<texture name="live_00_Hankagai_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Hankagai_fr.dds" memory="host" />
+		<texture name="live_00_Hankagai.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_00_Hankagai_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hankagai_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hankagai_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hankagai_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hankagai_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_00_Hankagai.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hankagai_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_00_Hikoubuttai_01_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Hikoubuttai_01_fr.dds" memory="host" />
+		<texture name="live_00_Hikoubuttai_01.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_01_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_01_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_01_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_01_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_01_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_01.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_01_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_00_Hikoubuttai_02_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Hikoubuttai_02_fr.dds" memory="host" />
+		<texture name="live_00_Hikoubuttai_02.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_02_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_02_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_02_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_02_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_02_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_02.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_00_Hikoubuttai_02_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_00_Himitsukichi_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Himitsukichi_fr.dds" memory="host" />
+		<texture name="live_00_Himitsukichi.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_00_Himitsukichi_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_00_Himitsukichi_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_00_Himitsukichi_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_00_Himitsukichi_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_00_Himitsukichi_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_00_Himitsukichi.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_00_Himitsukichi_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_00_Shinjyuku_01_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Shinjyuku_01_fr.dds" memory="host" />
+		<texture name="live_00_Shinjyuku_01.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_01_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_01_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_01_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_01_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_01_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_01.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_01_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_00_Shinjyuku_02_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Shinjyuku_02_fr.dds" memory="host" />
+		<texture name="live_00_Shinjyuku_02.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_02_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_02_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_02_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_02_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_02_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_02.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_02_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_00_Shinjyuku_03_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_00_Shinjyuku_03_fr.dds" memory="host" />
+		<texture name="live_00_Shinjyuku_03.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_03_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_03_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_03_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_03_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_03_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_03.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_00_Shinjyuku_03_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_01_east_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_east_fr.dds" memory="host" />
+		<texture name="live_01_east.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_east_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_east_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_east_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_east_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_east_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_east.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_east_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_01_north_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_north_fr.dds" memory="host" />
+		<texture name="live_01_north.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_north_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_north_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_north_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_north_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_north_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_north.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_north_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_01_northeast_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_northeast_fr.dds" memory="host" />
+		<texture name="live_01_northeast.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_northeast_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_northeast_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_northeast_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_northeast_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_northeast_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_northeast.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_northeast_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_01_northwest_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_northwest_fr.dds" memory="host" />
+		<texture name="live_01_northwest.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_northwest_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_northwest_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_northwest_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_northwest_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_northwest_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_northwest.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_northwest_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_01_south_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_south_fr.dds" memory="host" />
+		<texture name="live_01_south.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_south_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_south_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_south_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_south_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_south_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_south.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_south_us.dds" />
+		</texture>
+		
+		
+		<texture name="live_01_southeast_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_southeast_fr.dds" memory="host" />
+		<texture name="live_01_southeast.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_southeast_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_southeast_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_southeast_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_southeast_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_southeast_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_southeast.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_southeast_us.dds" />
+		</texture>
+		
+		<texture name="live_01_southwest_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_southwest_fr.dds" memory="host" />
+		<texture name="live_01_southwest.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_southwest_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_southwest_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_southwest_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_southwest_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_southwest_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_southwest.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_southwest_us.dds" />
+		</texture>
+		
+		<texture name="live_01_west_fr.dds" deferred_loading="false" protected="false" file="April2012/2D/LiveCam/live_01_west_fr.dds" memory="host" />
+		<texture name="live_01_west.dds" deferred_loading="false" protected="false" memory="host">
+			<override file="April2012/2D/LiveCam/live_01_west_fr.dds" locale="fr-*" />
+			<override file="April2012/2D/LiveCam/live_01_west_de.dds" locale="de-*" />
+			<override file="April2012/2D/LiveCam/live_01_west_it.dds" locale="it-*" />
+			<override file="April2012/2D/LiveCam/live_01_west_es.dds" locale="es-*" />
+			<override file="April2012/2D/LiveCam/live_01_west_gb.dds" locale="en-GB" />
+			<override file="April2012/2D/LiveCam/live_01_west.dds" locale="ja-*" />
+			<override file="April2012/2D/LiveCam/live_01_west_us.dds" />
+		</texture>
+		
+		
+		
+		
+		<texture name="granzella_logo.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/granzella_logo.dds" />
+		<texture name="CommonUI_window_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_01.dds" />
+		<texture name="CommonUI_window_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_02.dds" />
+		<texture name="CommonUI_window_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_03.dds" />
+		<texture name="CommonUI_window_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_04.dds" />
+		<texture name="CommonUI_window_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_05.dds" />
+		<texture name="CommonUI_window_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_06.dds" />
+		<texture name="CommonUI_window_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_07.dds" />
+		<texture name="CommonUI_window_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_08.dds" />
+		<texture name="CommonUI_window_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_09.dds" />
+		<texture name="CommonUI_namewindow_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_01.dds" />
+		<texture name="CommonUI_namewindow_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_02.dds" />
+		<texture name="CommonUI_namewindow_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_03.dds" />
+		<texture name="CommonUI_namewindow_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_04.dds" />
+		<texture name="CommonUI_namewindow_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_05.dds" />
+		<texture name="CommonUI_namewindow_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_06.dds" />
+		<texture name="CommonUI_namewindow_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_07.dds" />
+		<texture name="CommonUI_namewindow_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_08.dds" />
+		<texture name="CommonUI_namewindow_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_09.dds" />
+		<texture name="CommonUI_notselect_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_01.dds" />
+		<texture name="CommonUI_notselect_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_02.dds" />
+		<texture name="CommonUI_notselect_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_03.dds" />
+		<texture name="CommonUI_notselect_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_04.dds" />
+		<texture name="CommonUI_notselect_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_05.dds" />
+		<texture name="CommonUI_notselect_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_06.dds" />
+		<texture name="CommonUI_notselect_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_07.dds" />
+		<texture name="CommonUI_notselect_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_08.dds" />
+		<texture name="CommonUI_notselect_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_09.dds" />
+		<texture name="CommonUI_select_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_01.dds" />
+		<texture name="CommonUI_select_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_02.dds" />
+		<texture name="CommonUI_select_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_03.dds" />
+		<texture name="CommonUI_select_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_04.dds" />
+		<texture name="CommonUI_select_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_05.dds" />
+		<texture name="CommonUI_select_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_06.dds" />
+		<texture name="CommonUI_select_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_07.dds" />
+		<texture name="CommonUI_select_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_08.dds" />
+		<texture name="CommonUI_select_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_09.dds" />
+		<file name="OsdTypes.xml" deferred_loading="false" protected="false" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/file/OsdTypes.xml" />
+		<file name="OsdSaving.xml" deferred_loading="false" protected="false" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/file/OsdSaving.xml" />
+		<soundbank name="photo.bnk" deferred_loading="false" protected="false" file="Hankagai/sound/photo.bnk" memory="host" />
+		<soundbank name="message.bnk" deferred_loading="true" protected="false" file="Hankagai/sound/message.bnk" memory="host" />
+		<lua name="MessageSound.lua" deferred_loading="true" protected="true" file="Hankagai/soft_jp_00/MessageSound.lua" memory="host" />
+		<lua name="CommonMessageWindow.lua" deferred_loading="true" protected="true" file="April2012/Shinjyuku/soft_jp_00/Lib/lua/CommonMessageWindow.lua" />
+		<lua name="CommonSelectWindow.lua" deferred_loading="true" protected="true" file="April2012/Shinjyuku/soft_jp_00/Lib/lua/CommonSelectWindow.lua" />
+		<lua name="DeveloperCamera.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/DeveloperCamera.lua" />
+		<lua name="DeveloperCameraIF.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/DeveloperCameraIF.lua" />
+		<lua name="CaptureAct.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/CaptureAct.lua" />
+		<lua name="Capture.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/Capture.lua" />
+		<lua name="data.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/data.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/MiniGame.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DataStation/lua/dataInterface.lua" />
+		<lua name="UtilMultiFocus.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/Lib/lua/UtilMultiFocus.lua" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/Lib/lua/UtilDeferredLoad.lua" />
+		<lua name="UtilWindow.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/UtilWindow.lua" />
+		<lua name="WindowData.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DeveloperCamera/lua/WindowData.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/Lib/lua/UtilGarbage.lua" />
+		<lua name="version.lua" deferred_loading="false" protected="true" file="Lounge_Base/soft_jp_00/version.lua" />
+		<lua name="GetRegionResource.lua" deferred_loading="false" protected="true" file="April2012/GetRegionResource.lua" />
+		
+	</local>
+	<external />
+</resources>

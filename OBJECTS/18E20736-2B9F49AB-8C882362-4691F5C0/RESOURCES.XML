@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="EventCorner.mdl" deferred_loading="true" protected="false" file="SCEJ_Lib/resource/model/eventcorner/EventCorner.mdl" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="SCEJ_Lib/ui/tex/edge.dds" />
+		<texture name="spot_circle.dds" deferred_loading="false" protected="false" file="MiniGames/StoreFrontGenerator/texture/spot_circle.dds" />
+		<collision name="EventCorner.hkx" deferred_loading="true" protected="false" file="SCEJ_Lib/resource/model/eventcorner/EventCorner.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/StoreFrontGenerator/lua/MiniGame.luac" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/mathx.luac" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/misc.luac" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/padUtil.luac" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/task.luac" />
+		<lua name="StoreFrontGenerator.lua" deferred_loading="false" protected="true" file="MiniGames/StoreFrontGenerator/lua/StoreFrontGenerator.luac" />
+		<lua name="EventSystem.lua" deferred_loading="false" protected="true" file="EmbeddedObject/EventSystem/EventSystem.luac" />
+		<lua name="information.lua" deferred_loading="false" protected="true" file="objects/99EE60AF-48BF4F7F-BD0268B4-2EB03304/lua/doc/information.luac" />
+		<lua name="StoreFront.lua" deferred_loading="false" protected="true" file="MiniGames/StoreFrontGenerator/lua/StoreFront.luac" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/ui/MsgWnd.luac" />
+		<lua name="Legend.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/ui/Legend.luac" />
+		<lua name="ResoucePack.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/ResoucePack.luac" />
+		<lua name="Listerner.lua" deferred_loading="false" protected="true" file="MiniGames/StoreFrontGenerator/lua/Listerner.luac" />
+	</local>
+	<external />
+</resources>

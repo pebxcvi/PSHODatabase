@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="minigame1_mdl" deferred_loading="false" file="japanevents/breakstation/saku.mdl" />
+		<model name="minigame2_mdl" deferred_loading="false" file="japanevents/Fifa/jabulani/Jabulani.mdl" />
+		<file name="Network_xml" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/Network.xml" />
+		<file name="sleep_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/sleep.xml" />
+		<file name="event_end_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/event_end.xml" />
+		<file name="move_rounge_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/move_rounge.xml" />
+		<file name="comming_soon_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/comming_soon.xml" />
+		<file name="server_error_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/server_error.xml" />
+		<file name="permit_region_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/permit_region.xml" />
+		<file name="infomation_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/infomation.xml" />
+		<file name="selectbar_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/selectbar.xml" />
+		<file name="types_osd" deferred_loading="false" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/osd/types.xml" />
+		<collision name="minigame1_hkx" deferred_loading="false" file="japanevents/Fifa/jabulani/Jabulani.hkx" />
+		<collision name="minigame2_hkx" deferred_loading="false" file="japanevents/Fifa/jabulani/Jabulani.hkx" />
+		<lua name="main" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/main.lua" />
+		<lua name="version_label" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/version_label.lua" />
+		<lua name="dbg_propaty" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/dbg_propaty.lua" />
+		<lua name="permitted_region" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/permitted_region.lua" />
+		<lua name="server_propaty" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/server_propaty.lua" />
+		<lua name="adjust_propaty" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/adjust_propaty.lua" />
+		<lua name="eventOsd" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/eventOsd.lua" />
+		<lua name="eventTrigger" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/eventTrigger.lua" />
+		<lua name="gamemain" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/gamemain.lua" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/paHomeCommon.lua" />
+		<lua name="paHomeCommonDebug" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/paHomeCommonDebug.lua" />
+		<lua name="paHomePad2" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/paHomePad2.lua" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/paHomeServerBase.lua" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/paHomeServerTrigger.lua" />
+		<lua name="paHomeUI2" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/paHomeUI2.lua" />
+		<lua name="globalmain" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/globalmain.lua" />
+		<lua name="registUpdate" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/registUpdate.lua" />
+		<lua name="eventCommon" deferred_loading="false" protected="true" file="Objects/181B7576-FCC54633-B51565F4-7B9B25F0/resource/eventCommon.lua" />
+	</local>
+	<external />
+</resources>

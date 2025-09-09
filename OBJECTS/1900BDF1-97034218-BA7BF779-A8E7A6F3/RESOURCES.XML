@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_HubSetDressing" deferred_loading="false" protected="false" file="marketing/hubsetdressing/HubSetDressing.mdl" />
+		<anim name="ani_HubSetDressing" deferred_loading="false" protected="false" file="marketing/hubsetdressing/HubSetDressing.ani" />
+		<skeleton name="skn_HubSetDressing" deferred_loading="false" protected="false" file="marketing/hubsetdressing/HubSetDressing.skn" />
+		<soundbank name="bnk_HT_SetDressing" deferred_loading="false" protected="false" file="Audio/SFX/HT_SetDressing.bnk" />
+		<lua name="HTSetDressing.lua" deferred_loading="false" protected="true" file="Scripts/SetDressings/HTSetDressing.lua" />
+		<lua name="HTSetDressing_IncludeFirst.lua" deferred_loading="false" protected="true" file="Scripts/SetDressings/HTSetDressing_IncludeFirst.lua" />
+		<lua name="HomeTownServer.lua" deferred_loading="false" protected="true" file="Scripts/HomeTown/HomeTownServer.lua" />
+		<lua name="Debug.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Debug.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="Scripts/Misc/List.lua" />
+		<lua name="class.lua" deferred_loading="false" protected="true" file="Scripts/Misc/class.lua" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Globals.lua" />
+		<lua name="Serialization.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Serialization.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Math.lua" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="Scripts/Misc/AsyncCommandJobManager.lua" />
+		<lua name="Sound.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Sound.lua" />
+		<lua name="HTSetDressing_SCEE_Plinth2.lua" deferred_loading="false" protected="true" file="Scripts/SetDressings/HTSetDressing_SCEE_Plinth2.lua" />
+	</local>
+	<external />
+</resources>

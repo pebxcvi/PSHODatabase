@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/SPRG13_BunnyDen.mdl" />
+    <model name="Bunny_RIG.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/Bunny_RIG.mdl" />
+    <model name="SpecialBunny_RIG.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/SpecialBunny_RIG.mdl" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/SPRG13_BunnyDen.hkx" />
+    <anim name="Bunny_Idle.ani" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/Bunny_Idle.ani" />
+    <anim name="Bunny_Walk.ani" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/Bunny_Walk.ani" />
+    <anim name="SpecialBunny_Idle.ani" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/SpecialBunny_Idle.ani" />
+    <anim name="SpecialBunny_Walk.ani" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/SpecialBunny_Walk.ani" />
+    <skeleton name="Bunny_RIG.skn" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/Bunny_RIG.skn" />
+    <skeleton name="SpecialBunny_RIG.skn" deferred_loading="false" protected="false" file="furniture/sprg13_bunnyden/models/SpecialBunny_RIG.skn" />
+    <lua name="Bunny.lua" deferred_loading="false" protected="true" file="furniture/sprg13_bunnyden/bunny.luac" />
+    <lua name="BunnyMain.lua" deferred_loading="false" protected="true" file="furniture/sprg13_bunnyden/bunnymain.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/sprg13_bunnyden/utility.luac" />
+  </local>
+  <external />
+</resources>
