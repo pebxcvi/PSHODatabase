@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/model/Eagle_Model_Hi.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/model/Eagle_Model_Lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/anim/idle.ani" memory="host" />
+		<anim name="ani.flap" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/anim/Eagle_Glide.ani" memory="host" />
+		<anim name="ani.twist" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/anim/an_twist.ani" memory="host" />
+		<anim name="ani.fly" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/anim/Eagle_Fly.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/model/Eagle_Model_Hi.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/Eagle/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Eagle/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

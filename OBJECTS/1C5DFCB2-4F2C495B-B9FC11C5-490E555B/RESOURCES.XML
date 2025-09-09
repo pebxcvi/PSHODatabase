@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SwanPedalo.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/SwanPedalo.mdl" />
+		<model name="PedaloWake.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/PedaloWake.mdl" />
+		<model name="DragonPedalo.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/DragonPedalo.mdl" />
+		<model name="Pedalo_pedals.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/Pedalo_pedals.mdl" />
+		<model name="TurkeyPedalo.mdl" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/TurkeyPedalo.mdl" />
+		<model name="VDPedalo.mdl" deferred_loading="false" protected="false" file="Locomotion/Pedalo/model/SwanPedalo_Pink.mdl" />
+		<model name="EasterPedalo.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/EasterChickPedalo.mdl" />
+		<model name="BirthdayPedalo.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/CupcakePedalo.mdl" />
+		<model name="EaglePedalo.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/EaglePedalo.mdl" />
+		<texture name="SwanPedaloBlack_c.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/textures/SwanPedaloBlack_c.dds" />
+		<texture name="SwanPedaloBlack_s.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/textures/SwanPedaloBlack_s.dds" />
+		<particle name="BoatRipples.efx" deferred_loading="false" protected="false" file="ATGParticles/Park/BoatRipples.efx" />
+		<collision name="SwanPedalo.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/SwanPedalo.hkx" />
+		<collision name="BirthdayPedalo.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/CupcakePedalo.hkx" />
+		<anim name="SwanPedalo_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/anims/SwanPedalo_Idle.ani" />
+		<anim name="SwanPedalo_Move.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/anims/SwanPedalo_Move.ani" />
+		<anim name="SwanPedalo_Reverse.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/anims/SwanPedalo_Reverse.ani" />
+		<skeleton name="SwanPedalo.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/SwanPedalo.skn" />
+		<skeleton name="Pedalo_pedals.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/PedalBoat/Pedalo_pedals.skn" />
+		<lua name="PedalBoatMG.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Social/PedalBoat/PedalBoatMG.lua" />
+	</local>
+	<external />
+</resources>

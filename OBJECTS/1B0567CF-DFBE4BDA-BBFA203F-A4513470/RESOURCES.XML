@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_rabbit/models/Rabbit_Home.mdl" />
+		<model name="Rabbit.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_rabbit/models/Rabbit.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_rabbit/models/Rabbit_Home.hkx" />
+		<anim name="CommJuly_Rabbit_Eating.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_rabbit/models/anims/CommJuly_Rabbit_Eating.ani" />
+		<anim name="CommJuly_Rabbit_Looking.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_rabbit/models/anims/CommJuly_Rabbit_Looking.ani" />
+		<anim name="CommJuly_Rabbit_StandingIdle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_rabbit/models/anims/CommJuly_Rabbit_StandingIdle.ani" />
+		<skeleton name="Rabbit.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_rabbit/models/Rabbit.skn" />
+		<soundbank name="bunny.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_rabbit/audio/bunny.bnk" />
+		<lua name="hoppy.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_rabbit/programming/hoppy.lua" />
+	</local>
+	<external />
+</resources>

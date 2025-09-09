@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Flag_p1_1_mdl" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_l/kadomatu_l.mdl" />
+		<model name="Flag_p1_2_mdl" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_r/kadomatu_r.mdl" />
+		<model name="Flag_p1_3_mdl" deferred_loading="false" file="JapanEvents/NewYear/goldenfoldingscreen/goldenfoldingscreen.mdl" />
+		<model name="Flag_p2_1_mdl" deferred_loading="true" file="JapanEvents/NewYear/fujitakanasubi/fuji.mdl" />
+		<model name="Flag_p2_2_mdl" deferred_loading="true" file="JapanEvents/NewYear/fujitakanasubi/taka.mdl" />
+		<model name="Flag_p2_3_mdl" deferred_loading="true" file="JapanEvents/NewYear/fujitakanasubi/nasubi.mdl" />
+		<model name="Flag_p3_1_mdl" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo.mdl" />
+		<model name="Flag_p3_2_mdl" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_miyagi.mdl" />
+		<model name="Flag_p3_3_mdl" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_tokyo.mdl" />
+		<model name="Flag_p3_4_mdl" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_yamagata.mdl" />
+		<model name="screen_mdl" deferred_loading="false" file="JapanEvents/NewYear/newyearcalender/newyearcalender.mdl" />
+		<texture name="spotlightmask_default_tex" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/textures/spotlightmask_default.dds" />
+		<file name="main" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/main.lua" />
+		<file name="ajust_propaty" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/ajust_propaty.lua" />
+		<file name="eventOsd" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/eventOsd.lua" />
+		<file name="eventTrigger" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/eventTrigger.lua" />
+		<file name="paHomeCommon" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/paHomeCommon.lua" />
+		<file name="paHomeDbgCommon" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/paHomeDbgCommon.lua" />
+		<file name="paHomeServerBase" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/paHomeServerBase.lua" />
+		<file name="paHomeServerTrigger" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/paHomeServerTrigger.lua" />
+		<file name="paHomeUI" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/paHomeUI.lua" />
+		<file name="paHomeScreen" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/paHomeScreen.lua" />
+		<file name="Network_xml" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/Network.xml" />
+		<file name="always_osd" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/osd/always.xml" />
+		<file name="selectbar_osd" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/osd/selectbar.xml" />
+		<file name="types_osd" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/osd/types.xml" />
+		<file name="globalmain" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/globalmain.lua" />
+		<file name="registUpdate" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/registUpdate.lua" />
+		<file name="eventCommon" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/eventCommon.lua" />
+		<file name="eventResLoad" deferred_loading="false" file="Objects/1CC37D89-879E4BEF-904EF230-7D5B7F9D/resource/eventResLoad.lua" />
+		<collision name="screen_hkx" deferred_loading="false" file="JapanEvents/NewYear/newyearcalender/newyearcalender.hkx" />
+		<collision name="Flag_p1_1_hkx" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_l/kadomatu_l.hkx" />
+		<collision name="Flag_p1_2_hkx" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_r/kadomatu_r.hkx" />
+		<collision name="Flag_p1_3_hkx" deferred_loading="false" file="JapanEvents/NewYear/goldenfoldingscreen/goldenfoldingscreen.hkx" />
+		<anim name="Flag_p3_1_ani" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo.ani" />
+		<anim name="Flag_p3_2_ani" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_miyagi.ani" />
+		<anim name="Flag_p3_3_ani" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_tokyo.ani" />
+		<anim name="Flag_p3_4_ani" deferred_loading="true" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_yamagata.ani" />
+		<skeleton name="Flag_p3_1_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo.skn" />
+		<skeleton name="Flag_p3_2_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_miyagi.skn" />
+		<skeleton name="Flag_p3_3_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_tokyo.skn" />
+		<skeleton name="Flag_p3_4_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_yamagata.skn" />
+	</local>
+	<external />
+</resources>

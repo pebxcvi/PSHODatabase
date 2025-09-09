@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="companion_follower/Velociraptor/Velociraptor_tPose.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/Velociraptor_Walk_STRIPPED.ani" memory="main" />
+		<anim name="idle3" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/Velociraptor_Idle03_STRIPPED.ani" memory="host" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/Velociraptor_Idle01_STRIPPED.ani" memory="host" />
+		<anim name="idle2" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/Velociraptor_Idle02_STRIPPED.ani" memory="host" />
+		<anim name="run" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/Velociraptor_Run_STRIPPED.ani" memory="main" />
+		<anim name="idle4" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/Velociraptor_Idle04_STRIPPED.ani" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="companion_follower/Velociraptor/Velociraptor_tPose.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/Velociraptor/lua/scriptremote.luac" id="217002282" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/Velociraptor/lua/script.luac" memory="main" id="2428944273" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/Velociraptor/lua/xml.luac" memory="main" id="146193299" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/Velociraptor/lua/scriptlocal.luac" id="3209855585" />
+	</local>
+	<external />
+</resources>

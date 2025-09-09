@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Loco.mdl" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_copterer/model/Aliing_Copterer.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spunland_aliing_copterer/file/config_Aliing_Copterer.xml" memory="main" />
+		<anim name="Loco_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_copterer/anim/Aliing_Copterer_Idle.ani" memory="main" />
+		<anim name="Loco_Move.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_copterer/anim/Aliing_Copterer_Move.ani" memory="main" />
+		<anim name="Fem_Idle" deferred_loading="true" protected="false" file="animation/female/spunland_aliing_copterer/FAliing_Copterer_Idle.ani" memory="main" />
+		<anim name="Fem_Move" deferred_loading="true" protected="false" file="animation/female/spunland_aliing_copterer/FAliing_Copterer_Move.ani" memory="main" />
+		<anim name="Male_Move.ani" deferred_loading="true" protected="false" file="animation/male/spunland_aliing_copterer/Aliing_Copterer_Move.ani" memory="main" />
+		<anim name="Male_Idle.ani" deferred_loading="true" protected="false" file="animation/male/spunland_aliing_copterer/Aliing_Copterer_Idle.ani" memory="main" />
+		<skeleton name="Loco.skn" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_copterer/skin/Aliing_Copterer.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_flaperer/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_flaperer/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_flaperer/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_aliing_flaperer/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_flusho_away/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

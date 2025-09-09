@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/hoverboard/model/board.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/hoverboard/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/hoverboard/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/hoverboard/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/fidle.ani" memory="host" />
+		<anim name="test_jump.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/test_jump.ani" memory="host" />
+		<anim name="test_jump_FM.ani" deferred_loading="true" protected="false" file="Locomotion/hoverboard/anim/test_jump_FM.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/hoverboard/skeleton/board.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/hoverboard/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/hoverboard/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/hoverboard/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/hoverboard/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/hoverboard/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

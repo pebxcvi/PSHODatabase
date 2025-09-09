@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companions/goblins/cook/Cook_setup_v14_j.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companions/goblins/cook/Cook_setup_low.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Goblin_Chef/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Goblin_Chef/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="companions/goblins/cook/Cook_idle_01_baked_02_j.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="companions/goblins/cook/Cook_Ciclo_Correr_v13_j.ani" memory="host" />
+		<anim name="ani.idle2" deferred_loading="false" protected="false" file="companions/goblins/cook/Cook_idle_01_baked_01_j.ani" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companions/goblins/cook/Cook_setup_v14_j.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Goblin_Chef/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

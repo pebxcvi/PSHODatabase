@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Sheep_mdl" file="environmentanimations/sheep/CH_BASE_Sheep.mdl" deferred_loading="false" />
+		<texture name="UI_counter_dds" file="environments/nsirchome_hub_2bc9_87fd/Textures/sheepinator_counter.dds" deferred_loading="false" />
+		<texture name="UI_timer_dds" file="environments/nsirchome_hub_2bc9_87fd/Textures/sheepinator_timer.dds" deferred_loading="false" />
+		<particle name="Sheep_rmvsheep_efx" file="ATGParticles/Ratchet/efx/rmvsheep.efx" deferred_loading="false" />
+		<particle name="Sheepinator_effect_efx" file="ATGParticles/Ratchet/efx/prpsheepinator.efx" deferred_loading="false" />
+		<file name="Sheepinator_lua" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_Sheepinator/Sheepinator.lua" deferred_loading="false" />
+		<file name="Sheepinator_osd_types_xml" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_Sheepinator/OSD/types.xml" deferred_loading="false" />
+		<file name="Sheepinator_osd_dialog_xml" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_Sheepinator/OSD/Dialog.xml" deferred_loading="false" />
+		<file name="Sheepinator_osd_popup_xml" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_Sheepinator/OSD/Popup.xml" deferred_loading="false" />
+		<file name="Sheepinator_osd_progress_xml" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_Sheepinator/OSD/progress.xml" deferred_loading="false" />
+		<file name="TriggerBox_lua" file="Scripts/TriggerBox.lua" deferred_loading="false" />
+		<file name="Platform_lua" file="Scripts/Platform.lua" deferred_loading="false" />
+		<collision name="wall_collision" file="environments/nsirchome_hub_2bc9_87fd/wall.hkx" deferred_loading="false" />
+		<anim name="Sheep_Bounce_ani" file="environmentanimations/sheep/Sheep_Bounce.ani" deferred_loading="false" />
+		<anim name="Sheep_Idle_ani" file="environmentanimations/sheep/Sheep_Idle.ani" deferred_loading="false" />
+		<anim name="SheepN8R_Idle_Fixed_ani" file="environmentanimations/sheepn8r/SheepN8R_Idle_Fixed.ani" deferred_loading="false" />
+		<skeleton name="Sheep_skn" file="environmentanimations/sheep/CH_BASE_Sheep.skn" deferred_loading="false" />
+		<soundbank name="sheep_soundbank" file="Sound/HUB.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>
