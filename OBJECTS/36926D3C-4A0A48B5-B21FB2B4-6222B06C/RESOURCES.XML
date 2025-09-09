@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="elf" deferred_loading="false" file="MiniGames/SantasQuests/Models/elf.mdl" />
+		<model name="Model" deferred_loading="false" file="Animation_V4/models/santa_beard_01.mdl" />
+		<model name="centre.mdl" deferred_loading="false" file="Environments/Home_internal_SCEE/Home_Lobbies/Xmas_Event_2009/props/central_decoration.mdl" />
+		<particle name="location_pfx" deferred_loading="false" file="ATGParticles/generic/efx/UI_EFFECT_0002.efx" />
+		<particle name="pulsefx" deferred_loading="false" file="ATGParticles/generic/efx/UI_EFFECT_0003.efx" />
+		<file name="test_all_available.xml" deferred_loading="false" file="MiniGames/SantasQuests/test_all_available.xml" />
+		<file name="test_scee.xml" deferred_loading="false" protected="false" file="MiniGames/SantasQuests/test_scee.xml" />
+		<file name="test_scea.xml" deferred_loading="false" protected="false" file="MiniGames/SantasQuests/test_scea.xml" />
+		<file name="test_sceasia.xml" deferred_loading="false" protected="false" file="MiniGames/SantasQuests/test_sceasia.xml" />
+		<collision name="elf_collision.hkx" deferred_loading="false" file="Furniture/Test_Items/elf_collision.hkx" />
+		<collision name="elfcollision" deferred_loading="false" file="Environments/Home_internal_SCEE/Home_Lobbies/Xmas_Event_2009/props/elfcollision.hkx" />
+		<anim name="santa_wakeup_01.ani" deferred_loading="false" file="Animation_V4/models/santa_wakeup_01.ani" />
+		<anim name="santa_beard_01.ani" deferred_loading="false" file="Animation_V4/models/santa_beard_01.ani" />
+		<anim name="santa_bellyslap_01.ani" deferred_loading="false" file="Animation_V4/models/santa_bellyslap_01.ani" />
+		<anim name="santa_breathe_01.ani" deferred_loading="false" file="Animation_V4/models/santa_breathe_01.ani" />
+		<anim name="santa_celeb_01.ani" deferred_loading="false" file="Animation_V4/models/santa_celeb_01.ani" />
+		<anim name="santa_conv_01.ani" deferred_loading="false" file="Animation_V4/models/santa_conv_01.ani" />
+		<anim name="santa_fallasleep_01.ani" deferred_loading="false" file="Animation_V4/models/santa_fallasleep_01.ani" />
+		<anim name="santa_laugh_01.ani" deferred_loading="false" file="Animation_V4/models/santa_laugh_01.ani" />
+		<anim name="santa_photo_01.ani" deferred_loading="false" file="Animation_V4/models/santa_photo_01.ani" />
+		<anim name="santa_sleep_01.ani" deferred_loading="false" file="Animation_V4/models/santa_sleep_01.ani" />
+		<anim name="elf_cam_thumbsup.ani" deferred_loading="false" file="Animation_V4/models/elf_cam_thumbsup.ani" />
+		<anim name="elf_cam_look_left_01.ani" deferred_loading="false" file="Animation_V4/models/elf_cam_look_left_01.ani" />
+		<anim name="elf_cam_look_left_02.ani" deferred_loading="false" file="Animation_V4/models/elf_cam_look_left_02.ani" />
+		<anim name="elf_cam_look_left_03.ani" deferred_loading="false" file="Animation_V4/models/elf_cam_look_left_03.ani" />
+		<anim name="elf_cam_look_right_01.ani" deferred_loading="false" file="Animation_V4/models/elf_cam_look_right_01.ani" />
+		<anim name="elf_cam_look_right_02.ani" deferred_loading="false" file="Animation_V4/models/elf_cam_look_right_02.ani" />
+		<anim name="elf_cam_look_right_03.ani" deferred_loading="false" file="Animation_V4/models/elf_cam_look_right_03.ani" />
+		<anim name="idle01.ani" deferred_loading="false" file="Animation_V4/male/I_STA_M_07.ani" />
+		<anim name="Applaud.ani" deferred_loading="false" file="Animation_V4/male/EM_STA_M_11.ani" />
+		<anim name="cold_anim" deferred_loading="false" file="Animation_V4/male/cold_m_01.ani" />
+		<anim name="fail.ani" deferred_loading="false" file="Animation_V4/male/EM_STA_M_18.ani" />
+		<anim name="elfsit.ani" deferred_loading="false" file="Animation_V4/male/NS_SIT_M_01.ani" />
+		<anim name="elfchat.ani" deferred_loading="false" file="Animation_V4/male/CO_STA_M_01_C.ani" />
+		<anim name="checkhand.ani" deferred_loading="false" file="Animation_V4/male/I_STA_M_13.ani" />
+		<anim name="crossarms.ani" deferred_loading="false" file="Animation_V4/male/I_STA_M_08.ani" />
+		<skeleton name="elfskeleton" deferred_loading="false" file="MiniGames/SantasQuests/Models/elf.skn" />
+		<skeleton name="santa_beard_01.skn" deferred_loading="false" file="Animation_V4/models/santa_beard_01.skn" />
+		<soundbank name="Jingles" deferred_loading="false" file="MiniGames/SantasQuests/sounds/Jingles.bnk" memory="host" />
+		<soundbank name="santa_bank" deferred_loading="false" file="MiniGames/SantasQuests/sounds/santa.bnk" />
+		<lua name="quest1.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/quest1.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/main.lua" />
+		<lua name="quest2.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/quest2.lua" />
+		<lua name="quest3.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/quest3.lua" />
+		<lua name="quest4.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/quest4.lua" />
+		<lua name="quest6.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/quest6.lua" />
+		<lua name="quest7.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/quest7.lua" />
+		<lua name="quest8.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/quest8.lua" />
+		<lua name="Commands.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/Commands.lua" />
+		<lua name="scheduler.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/scheduler.lua" />
+		<lua name="VMInventory.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/VMInventory.lua" />
+		<lua name="VMPlayerProfiles.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/VMPlayerProfiles.lua" />
+	</local>
+	<external />
+</resources>

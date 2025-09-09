@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="Edo/GetRegionUUIDLight.lua" />
+		<texture name="texture5_01_fr" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_01_fr.dds" />
+		<texture name="texture5_02_fr" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_02_fr.dds" />
+		<texture name="texture5_03_fr" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_03_fr.dds" />
+		<texture name="texture5_04_fr" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_04_fr.dds" />
+		<texture name="texture_title_fr" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\EDO_title_00_setubun_fr.dds" />
+		<texture name="texture5_01_us" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_01_us.dds" />
+		<texture name="texture5_02_us" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_02_us.dds" />
+		<texture name="texture5_03_us" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_03_us.dds" />
+		<texture name="texture5_04_us" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_05_04_us.dds" />
+		<texture name="texture_title_us" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\EDO_title_00_setubun_us.dds" />
+		<texture name="texture5_01" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_01_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_01_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_01_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_01_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_01_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_01.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/title/Poem_setubun_05_01.dds" />
+		</texture>
+		<texture name="texture5_02" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_02_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_02_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_02_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_02_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_02_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_02.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/title/Poem_setubun_05_02.dds" />
+		</texture>
+		<texture name="texture5_03" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_03_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_03_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_03_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_03_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_03_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_03.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/title/Poem_setubun_05_03.dds" />
+		</texture>
+		<texture name="texture5_04" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_04_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_04_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_04_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_04_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_04_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/title/poem_setubun_05_04.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/title/Poem_setubun_05_04.dds" />
+		</texture>
+		<texture name="EDO_title_onitaizi_01.dds" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\EDO_title_onitaizi_01.dds" />
+		<texture name="texture_title" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2d/title/EDO_title_00_setubun_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/title/EDO_title_00_setubun_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/title/EDO_title_00_setubun_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/title/EDO_title_00_setubun_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/title/EDO_title_00_setubun_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/title/EDO_title_00_setubun.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/title/EDO_title_00_setubun.dds" />
+		</texture>
+		
+		<texture name="Poem_setubun_makimono.dds" deferred_loading="false" protected="false" file="edo\cmn_design\2D\title\Poem_setubun_makimono.dds" />
+		
+		<particle name="Eff_modori_01.efx" deferred_loading="false" protected="false" file="Edo/cmn_design/ATGParticles/Efx/Eff_modori_01.efx" />
+		
+		
+		<soundstream name="bgm.mp3" deferred_loading="false" protected="false" file="Edo\sound\MP3\setsubun_op.mp3" />
+		<soundbank name="sound.bnk" deferred_loading="false" protected="false" file="Edo\sound\setsubun_op.bnk" />
+		
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua_Setsubun\MiniGame.lua" />
+		<lua name="SpawnEffect.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua_Setsubun\SpawnEffect.lua" />
+		<lua name="Telop.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua_Setsubun\Telop.lua" />
+		<lua name="TelopCam.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua_Setsubun\TelopCam.lua" />
+		<lua name="TelopSpr.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua_Setsubun\TelopSpr.lua" />
+		<lua name="TelopScene.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua_Setsubun\TelopScene.lua" />
+		<lua name="Data.lua" deferred_loading="false" protected="true">
+			<override file="edo/soft_jp_00/introcameramove/lua_setsubun/data.lua" locale="ja-JP" />
+			<override file="edo/soft_jp_00/introcameramove/lua_setsubun/data_h.lua" />
+		</lua>
+		<lua name="UtilSprite.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua_Setsubun\UtilSprite.lua" />
+		
+		
+		
+		<lua name="IntroCameraIF.lua" deferred_loading="false" protected="true" file="Edo\soft_jp_00\IntroCameraMove\lua\IntroCameraIF.lua" />
+		
+		
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/DataStation/lua/dataInterfaceLight.lua" />
+		<lua name="hornTradeItem.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/DataStation/lua/hornTradeItem.lua" />
+		<lua name="VersionStationIF.lua" deferred_loading="false" protected="true" file="home_gzcmn/VersionStation/lua/VersionStationIF.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="UtilFade.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFade.lua" />
+		<lua name="Snd.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Snd.lua" />
+		
+	</local>
+	<external />
+</resources>

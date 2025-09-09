@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/spacewalkactiveitem/SpacewalkActiveItem.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/spacewalkactiveitem/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/spacewalkactiveitem/SpacewalkActiveItem.hkx" memory="host" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/spacewalkactiveitem/SpacewalkActiveItem.safevolume.hkx" memory="host" />
+		<collision name="hkx_float" deferred_loading="false" protected="false" file="furniture/spacewalkactiveitem/float.hkx" memory="host" />
+		<anim name="anim_float_male" deferred_loading="true" protected="false" file="furniture/spacewalkactiveitem/Animations/male_anims/float.ani" memory="host" />
+		<anim name="anim_move_male" deferred_loading="true" protected="false" file="furniture/spacewalkactiveitem/Animations/male_anims/move.ani" memory="host" />
+		<anim name="anim_somersault_male" deferred_loading="true" protected="false" file="furniture/spacewalkactiveitem/Animations/male_anims/sumersault.ani" memory="host" />
+		<anim name="anim_float_female" deferred_loading="true" protected="false" file="furniture/spacewalkactiveitem/Animations/female_anims/float.ani" memory="host" />
+		<anim name="anim_move_female" deferred_loading="true" protected="false" file="furniture/spacewalkactiveitem/Animations/female_anims/move.ani" memory="host" />
+		<anim name="anim_somersault_female" deferred_loading="true" protected="false" file="furniture/spacewalkactiveitem/Animations/female_anims/sumersault.ani" memory="host" />
+		<repertoire name="SpacewalkMale" deferred_loading="false" protected="false" file="furniture/spacewalkactiveitem/Animations/male_anims/SpacewalkMale.xml" memory="host" />
+		<repertoire name="SpacewalkFemale" deferred_loading="false" protected="false" file="furniture/spacewalkactiveitem/Animations/female_anims/SpacewalkFemale.xml" memory="host" />
+		<lua name="Game_AptSpacewalk.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/Game_AptSpacewalk.luac" memory="host" />
+		<lua name="Debug.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/Debug.luac" memory="host" />
+		<lua name="GameObject.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/GameObject.luac" memory="host" />
+		<lua name="class.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/class.luac" memory="host" />
+		<lua name="AnimHelper.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/AnimHelper.luac" memory="host" />
+		<lua name="Level.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/Level.luac" memory="host" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/List.luac" memory="host" />
+		<lua name="Serialization.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/Serialization.luac" memory="host" />
+		<lua name="World.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/World.luac" memory="host" />
+		<lua name="Callback.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/Callback.luac" memory="host" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/Inventory.luac" memory="host" />
+		<lua name="Spacewalker.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/Spacewalker.luac" memory="host" />
+		<lua name="SpacewalkNetworking.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/SpacewalkNetworking.luac" memory="host" />
+		<lua name="SpacewalkOsd.lua" deferred_loading="false" protected="true" file="furniture/spacewalkactiveitem/Scripts/SpacewalkOsd.luac" memory="host" />
+	</local>
+	<external />
+</resources>

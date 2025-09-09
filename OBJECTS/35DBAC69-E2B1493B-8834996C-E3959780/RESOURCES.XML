@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="locoy_open_niko_2.mdl" deferred_loading="false" file="Furniture/loco_y/locoy_open_niko_2.mdl" />
+		<model name="locoy_close_niko.mdl" deferred_loading="false" file="Furniture/loco_y/locoy_close_niko.mdl" />
+		<model name="locoy_open_a.mdl" deferred_loading="false" file="Furniture/loco_y/locoy_open_a.mdl" />
+		<model name="locoy_open_niko.mdl" deferred_loading="false" file="Furniture/loco_y/locoy_open_niko.mdl" />
+		<model name="locoy_talk2.mdl" deferred_loading="false" file="Furniture/loco_y/locoy_talk2.mdl" />
+		<model name="locoy_talk1.mdl" deferred_loading="false" file="Furniture/loco_y/locoy_talk1.mdl" />
+		<particle name="swimming_00.efx" deferred_loading="false" file="ATGParticles/LocoRoco/Efx/swimming_00.efx" />
+		<file name="mathx.lua" deferred_loading="false" file="Scripts/common/mathx.lua" />
+		<file name="task.lua" deferred_loading="false" file="Scripts/common/task.lua" />
+		<file name="charLoco.lua" deferred_loading="false" file="MiniGames/LocoChar/charLocoShip.lua" />
+		<file name="main.lua" deferred_loading="false" file="MiniGames/LocoChar/mainShip.lua" />
+		<file name="spawnArea.lua" deferred_loading="false" file="MiniGames/LocoChar/spawnAreaShip.lua" />
+		<file name="listener.lua" deferred_loading="false" file="environments/MuimuiShip/script/listener.lua" />
+		<file name="cmnDefinition.lua" deferred_loading="false" file="environments/MuimuiShip/script/cmnDefinition.lua" />
+		<file name="charSwim.lua" deferred_loading="false" file="MiniGames/LocoChar/charSwimShip.lua" />
+		<file name="charSlider.lua" deferred_loading="false" file="MiniGames/LocoChar/charSliderShip.lua" />
+		<file name="charRandom.lua" deferred_loading="false" file="MiniGames/LocoChar/charRandomShip.lua" />
+		<file name="settingsChar.lua" deferred_loading="false" file="Settings/settingsChar.lua" />
+		<file name="settingSavedata.lua" deferred_loading="false" file="Settings/settingSavedata.lua" />
+		<file name="collect_picori.lua" deferred_loading="false" file="environments/locohouse/script/collect_picori.lua" />
+		<file name="collect_picori_define.lua" deferred_loading="false" file="environments/MuimuiShip/script/collect_picori_define.lua" />
+		<file name="picori.lua" deferred_loading="false" file="environments/locohouse/script/picori.lua" />
+		<file name="shigemi.lua" deferred_loading="false" file="MiniGames/LocoChar/shigemi.lua" />
+		<file name="misc.lua" deferred_loading="false" file="Scripts/common/misc.lua" />
+		<file name="settingsPicori.lua" deferred_loading="false" file="Settings/settingsPicoriShip.lua" />
+		<collision name="locoy_open_niko.hkx" deferred_loading="false" file="Furniture/loco_y/locoy_open_niko.hkx" />
+		<anim name="locoy_open_niko.ani" deferred_loading="false" file="Furniture/loco_y/locoy_open_niko.ani" />
+		<anim name="muimui_swim_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_swim_path.ani" />
+		<anim name="muimui_suberidai_section_5_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_suberidai_section_5_path.ani" />
+		<anim name="muimui_suberidai_section_1_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_suberidai_section_1_path.ani" />
+		<anim name="muimui_suberidai_section_2_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_suberidai_section_2_path.ani" />
+		<anim name="muimui_suberidai_section_3_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_suberidai_section_3_path.ani" />
+		<anim name="muimui_suberidai_section_4_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_suberidai_section_4_path.ani" />
+		<anim name="02_muimui_walk.ani" deferred_loading="false" file="Furniture/muimui/02_muimui_walk.ani" />
+		<anim name="13_suberidai.ani" deferred_loading="false" file="Furniture/muimui/13_suberidai.ani" />
+		<anim name="01_muimui_taiki.ani" deferred_loading="false" file="Furniture/muimui/01_muimui_taiki.ani" />
+		<anim name="muimui_random_section_1_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_1_path.ani" />
+		<anim name="muimui_random_section_2_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_2_path.ani" />
+		<anim name="muimui_random_section_3_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_3_path.ani" />
+		<anim name="muimui_random_section_4_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_4_path.ani" />
+		<anim name="muimui_random_section_5_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_5_path.ani" />
+		<anim name="muimui_random_section_6_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_6_path.ani" />
+		<anim name="muimui_random_section_7_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_7_path.ani" />
+		<anim name="muimui_random_section_8_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_8_path.ani" />
+		<anim name="muimui_random_section_9_path.ani" deferred_loading="false" file="environments/locohouse_for_animation/muimui_random_section_9_path.ani" />
+		<anim name="24_kubi_kashige.ani" deferred_loading="false" file="Furniture/muimui/24_kubi_kashige.ani" />
+		<anim name="25_aisatsu.ani" deferred_loading="false" file="Furniture/muimui/25_aisatsu.ani" />
+		<anim name="03_muimui_marathon.ani" deferred_loading="false" file="Furniture/muimui/03_muimui_marathon.ani" />
+		<anim name="muimui_swim_path_2.ani" deferred_loading="false" file="environments/MuimuiShip_for_animation/muimui_swim_path_2.ani" />
+		<skeleton name="locoy_open_niko.skn" deferred_loading="false" file="Furniture/loco_y/locoy_open_niko.skn" />
+		<skeleton name="path.skn" deferred_loading="false" file="environments/locohouse_for_animation/domingo_swim_path.skn" />
+		<model name="pikori_00" deferred_loading="false" file="environments/locohouse/pikori_00.mdl" />
+		<skeleton name="pikori_1" deferred_loading="false" file="environments/locohouse/pikori_00.skn" />
+		<anim name="pikori_2" deferred_loading="false" file="environments/locohouse/pikori_00.ani" />
+	</local>
+	<external />
+</resources>

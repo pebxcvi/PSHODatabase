@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SL.mdl" deferred_loading="true" protected="false" file="locomotion/miniSL_00/model/miniSL_hi_00.mdl" memory="host" />
+		<model name="SL_remote.mdl" deferred_loading="true" protected="false" file="locomotion/miniSL_00/model/miniSL_lo_00.mdl" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/miniSL_00/particle/smoke.efx" memory="host" />
+		<particle name="smoke_2.efx" deferred_loading="true" protected="false" file="Locomotion/miniSL_00/particle/smoke_2.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/miniSL_00/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/miniSL_00/anim/idle.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/miniSL_00/anim/fidle.ani" memory="host" />
+		<anim name="SL_move.ani" deferred_loading="true" protected="false" file="Locomotion/miniSL_00/anim/SL_move.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="locomotion/miniSL_00/skeleton/miniSL_hi_00.skn" memory="host" />
+		<soundbank name="sound.bnk" deferred_loading="true" protected="false" file="Locomotion/soundbank/sl.bnk" memory="main" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/miniSL_00/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/miniSL_00/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/miniSL_00/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/miniSL_00/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/miniSL_00/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

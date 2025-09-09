@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="actives/2014/game_table_chairs/models/GameTableChairs.mdl" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="Actives/2014/game_table_chairs/file/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="actives/2014/game_table_chairs/models/GameTableChairs.hkx" memory="host" />
+    <collision name="SafeVolume.hkx" deferred_loading="false" protected="false" file="Actives/2014/game_table_chairs/models/SafeVolume.hkx" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="actives/2014/game_table_chairs/lua/main.luac" memory="host" />
+    <lua name="Player.lua" deferred_loading="false" protected="true" file="actives/2014/game_table_chairs/lua/player.luac" memory="host" />
+    <lua name="Updater.lua" deferred_loading="false" protected="true" file="actives/2014/game_table_chairs/lua/updater.luac" memory="host" />
+  </local>
+  <external />
+</resources>

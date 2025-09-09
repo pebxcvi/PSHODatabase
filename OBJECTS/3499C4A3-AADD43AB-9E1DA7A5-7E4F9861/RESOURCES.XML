@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Bartender.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/tPose.mdl" />
+		<model name="Recruiter.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/Recruiter.mdl" />
+		<model name="Dust_bag.mdl" deferred_loading="false" protected="false" file="environments/dust/war_room/Dust_bag.mdl" />
+		<model name="E3_icon.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/e3/E3_icon.mdl" />
+		<texture name="TextBoxSelector.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/TextBoxSelector.dds" />
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" />
+		</texture>
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/Dust/Bartender/HUDTextures/button_O.dds" />
+		</texture>
+		<texture name="CCPlogo.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/CCPlogo.dds" />
+		<texture name="MenuSliderLine.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/MenuSliderLine.dds" />
+		<texture name="MenuArrowUp.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/MenuArrowUp.dds" />
+		<texture name="MenuSlider.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/MenuSlider.dds" />
+		<texture name="tshirt2.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/textures/tshirt2.dds" />
+		<texture name="background.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/background.dds" />
+		<texture name="races_Gallente" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Gallente.dds" />
+		<texture name="races_Minmatar" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Minmatar.dds" />
+		<texture name="races_Amarr" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Amarr.dds" />
+		<texture name="races_Caldari" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Caldari.dds" />
+		<texture name="StatBackground.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/StatScreen/StatBackground.dds" />
+		<texture name="StatDivider.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/StatScreen/StatDivider.dds" />
+		<texture name="TextBoxFront.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/TextBoxFront.dds" />
+		<texture name="TextBoxBacking.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/TextBoxBacking.dds" />
+		<texture name="races_Booth5" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Booth5.dds" />
+		<texture name="OptionTextBox.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/OptionTextBox.dds" />
+		<texture name="button_Dpad" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/button_Dpad.dds" />
+		<texture name="races_Booth6" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Booth6.dds" />
+		<texture name="question_box.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/question_box.dds" />
+		<texture name="highlight_box.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/highlight_box.dds" />
+		<texture name="backgroundBlack.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/backgroundBlack.dds" />
+		<texture name="races_Minmatar_r" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Minmatar_r.dds" />
+		<texture name="races_Amarr_r" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Amarr_r.dds" />
+		<texture name="races_Booth5_r" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Booth5_r.dds" />
+		<texture name="races_Booth6_r" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Booth6_r.dds" />
+		<texture name="races_Caldari_r" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Caldari_r.dds" />
+		<texture name="races_Gallente_r" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/races_Gallente_r.dds" />
+		<texture name="NoteBackground.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/NoteBackground.dds" />
+		<texture name="Bartender_Text_Outiline.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/Bartender_Text_Outiline.dds" />
+		<texture name="stick_R" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/stick_R.dds" />
+		<texture name="background2.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/HUDTextures/SceneScreens/background2.dds" />
+		<particle name="buttons.efx" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Particles/buttons.efx" />
+		<particle name="hologram.efx" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Particles/hologram.efx" />
+		<file name="EveFont.ttf" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/EveFont.ttf" />
+		<collision name="prison.hkx" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/prison.hkx" />
+		<collision name="Recruiter.hkx" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/Recruiter.hkx" />
+		<anim name="Walk" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Walk.ani" />
+		<anim name="Bartender_Idle_Stand_Breathe" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Bartender_Idle_Stand_Breathe.ani" />
+		<anim name="Bartender_Idle_Stand_BrushOff" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Bartender_Idle_Stand_BrushOff.ani" />
+		<anim name="Bartender_Idle_Stand_CrossArms" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Bartender_Idle_Stand_CrossArms.ani" />
+		<anim name="Bartender_Idle_Stand_LookAround" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Bartender_Idle_Stand_LookAround.ani" />
+		<anim name="Bartender_Idle_Stand_LookDown" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Bartender_Idle_Stand_LookDown.ani" />
+		<anim name="Bartender_Idle_Stand_Sleeves" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Bartender_Idle_Stand_Sleeves.ani" />
+		<anim name="Bartender_Idle_Stand_Crouch" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Bartender_Idle_Stand_Crouch.ani" />
+		<anim name="Dust_bag.ani" deferred_loading="false" protected="false" file="environments/dust/war_room/Dust_bag.ani" />
+		<anim name="E3_icon.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/e3/E3_icon.ani" />
+		<anim name="Recruiter_IdleHandsfold45.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_IdleHandsfold45.ani" />
+		<anim name="Recruiter_IdleHandsfold.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_IdleHandsfold.ani" />
+		<anim name="Recruiter_IdleKeepAlive45.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_IdleKeepAlive45.ani" />
+		<anim name="Recruiter_IdleKeepAlive.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_IdleKeepAlive.ani" />
+		<anim name="Recruiter_IdleShift45.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_IdleShift45.ani" />
+		<anim name="Recruiter_IdleShift.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_IdleShift.ani" />
+		<anim name="Recruiter_Turn45.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_Turn45.ani" />
+		<anim name="Recruiter_TurnBack.ani" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Anims/Recruiter_TurnBack.ani" />
+		<skeleton name="Bartender.skn" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/tPose.skn" />
+		<skeleton name="Recruiter.skn" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/Recruiter.skn" />
+		<skeleton name="Dust_bag.skn" deferred_loading="false" protected="false" file="environments/dust/war_room/Dust_bag.skn" />
+		<skeleton name="E3_icon.skn" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Models/e3/E3_icon.skn" />
+		<soundbank name="Bartender.bnk" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Sound/Bartender.bnk" />
+		<soundstream name="BarMusic.mp3" deferred_loading="false" protected="false" file="MiniGames/Dust/Bartender/Sound/BarMusic.mp3" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Controller.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Game.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/GameHud.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Jamin.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Math.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/OHS.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Tween.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="Remote.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Remote.lua" />
+		<lua name="Serialize.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Serialize.lua" />
+		<lua name="Screens.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Screens.lua" />
+		<lua name="StatsScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/StatsScreen.lua" />
+		<lua name="SceneScreens.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/SceneScreens.lua" />
+		<lua name="TwitterTimeline.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/TwitterTimeline.lua" />
+		<lua name="TwitterScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/TwitterScreen.lua" />
+		<lua name="Note.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Note.lua" />
+		<lua name="Dropship.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Dropship.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Bartender/Code/Playmetrix.lua" />
+	</local>
+	<external />
+</resources>

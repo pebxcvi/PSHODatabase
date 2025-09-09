@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local >
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/PlazaTeleporter/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/PlazaTeleporter/Code/Math.lua" />
+		<model name="Teleporter.mdl" deferred_loading="false" protected="false" file="external_props/Teleporter_External.mdl" />
+		<anim name="Teleporter.ani" deferred_loading="false" protected="false" file="external_props/Teleporter_External.ani" />
+		<skeleton name="Teleporter.skn" deferred_loading="false" protected="false" file="external_props/Teleporter_External.skn" />
+		<particle name="Dust_Teleporter.efx" deferred_loading="false" protected="false" file="ATGParticles/Teleporter/Dust_Teleporter.efx" />
+		<collision name="Teleporter.hkx" deferred_loading="false" protected="false" file="MiniGames/PlazaTeleporter/Art/Teleporter_collision.hkx" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="EarthFighter.mdl" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/EarthFighter.mdl" />
+    <model name="EarthFighter2.mdl" deferred_loading="false" protected="false" file="hellfiretest/earthfighter2/EarthFighter2.mdl" />
+    <model name="mdl_EarthFighterTurret" deferred_loading="false" protected="false" file="hellfiretest/turrets/Turret_01.mdl" />
+    <model name="mdl_EarthFighter2Turret" deferred_loading="false" protected="false" file="hellfiretest/turrets/Turret_02.mdl" />
+    <model name="mdl_EarthCargoShip" deferred_loading="false" protected="false" file="hellfiretest/earthcargo/EarthCargoShip.mdl" />
+    <model name="mdl_HangarLightsStatic" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/HangerLightsStatic.mdl" />
+    <model name="mdl_HangarLightsLaunch" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/HangerLightsLaunch.mdl" />
+    <model name="mdl_BotCapCore" deferred_loading="true" protected="false" file="hellfiretest/botcap/BotCapCore.mdl" />
+    <model name="mdl_BotCapPetal" deferred_loading="true" protected="false" file="hellfiretest/botcap/BotCapPetal.mdl" />
+    <model name="mdl_BotCapTurret" deferred_loading="true" protected="false" file="hellfiretest/botcap/BotCapTurret.mdl" />
+    <model name="mdl_Bot_Draxcore" deferred_loading="true" protected="false" file="hellfiretest/botbigboss/Bot_Draxcore.mdl" />
+    <model name="mdl_Bot_Draxcore_spin" deferred_loading="true" protected="false" file="hellfiretest/botbigboss/Bot_Draxcore_spin.mdl" />
+    <model name="mdl_Bot_Draxcharger" deferred_loading="true" protected="false" file="hellfiretest/botbigboss/Bot_Draxcharger.mdl" />
+    <model name="mdl_BotFighter" deferred_loading="true" protected="false" file="hellfiretest/botfighter/Bot_Fighter.mdl" />
+    <model name="mdl_BotScout" deferred_loading="true" protected="false" file="hellfiretest/botscout/Bot_Scout.mdl" />
+    <model name="mdl_BotTortoise" deferred_loading="true" protected="false" file="hellfiretest/bottortoise/Bot_Tortoise.mdl" />
+    <model name="mdl_BotJuggernaut" deferred_loading="true" protected="false" file="hellfiretest/botjuggernaut/Bot_Juggernaut.mdl" />
+    <model name="mdl_BotJuggernautElite" deferred_loading="true" protected="false" file="hellfiretest/botjuggernaut/Bot_JuggernautElite.mdl" />
+    <model name="mdl_BotExecutioner" deferred_loading="true" protected="false" file="hellfiretest/botexecutioner/botexecutioner.mdl" />
+    <model name="mdl_BotShocker" deferred_loading="true" protected="false" file="hellfiretest/botshocker/Bot_Shocker.mdl" />
+    <model name="mdl_BotSpider" deferred_loading="false" protected="false" file="hellfiretest/botspider/Bot_Spider.mdl" />
+    <model name="mdl_ObsidianHulk" deferred_loading="true" protected="false" file="hellfiretest/obsidiancap/ObsidianHulk.mdl" />
+    <model name="mdl_shields_idle" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_idle.mdl" />
+    <model name="mdl_shields_full" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_full.mdl" />
+    <model name="mdl_repeatS_laser" deferred_loading="false" protected="false" file="hellfiretest/repeaters_active/RepeaterS_laser.mdl" />
+    <model name="mdl_earthCapOneTurret" deferred_loading="true" protected="false" file="hellfiretest/earthcap/earthCapOneTurret.mdl" />
+    <model name="mdl_shields" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_down.mdl" />
+    <model name="mdl_shields_red_idle" deferred_loading="false" protected="false" file="models/shields/red_shields_idle.mdl" />
+    <model name="mdl_shields_red_full" deferred_loading="false" protected="false" file="models/shields/red_shields_full.mdl" />
+    <model name="mdl_shields_red" deferred_loading="false" protected="false" file="models/shields/red_shields_down.mdl" />
+    <model name="mdl_obj_arrow" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/Obj_arrow1.mdl" />
+    <model name="mdl_missile_01" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/missile_01.mdl" />
+    <model name="mdl_EarthCapOne" deferred_loading="true" protected="false" file="hellfiretest/earthcap/earthCapOne.mdl" />
+    <model name="mdl_tgtCircle" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/tgtCircle.mdl" />
+    <model name="mdl_mine_num1" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/mine_num1.mdl" />
+    <model name="mdl_mine_num2" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/mine_num2.mdl" />
+    <model name="mdl_mine_num3" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/mine_num3.mdl" />
+    <model name="mdl_mine_num4" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/mine_num4.mdl" />
+    <model name="mdl_mine_num5" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/mine_num5.mdl" />
+    <model name="mdl_remote_bomb" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/remote_bomb.mdl" />
+    <model name="mdl_warptrail" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/warptrail.mdl" />
+    <model name="mdl_ef02_exhaust" deferred_loading="false" protected="false" file="hellfiretest/earthfighter2/ef02_exhaust.mdl" />
+    <model name="mdl_booster_beam" deferred_loading="false" protected="false" file="weapons/booster_beam/booster_beam.mdl" />
+    <model name="mdl_charger_beam" deferred_loading="false" protected="false" file="weapons/booster_beam/charger_beam.mdl" />
+    <model name="mdl_asteroid_one" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_One.mdl" />
+    <model name="mdl_aster_terrain" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/claust_main.mdl" />
+    <model name="mdl_asteroid_four" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/asteroid_four.mdl" />
+    <model name="mdl_asteroid_three" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Three.mdl" />
+    <model name="mdl_asteroid_two" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Two.mdl" />
+    <model name="mdl_AsteroidMine1" deferred_loading="true" protected="false" file="hellfiretest/Atmosphere/Asteroid_Mine1.mdl" />
+    <model name="mdl_bot_beacon" deferred_loading="false" protected="false" file="hellfiretest/botbeacon/Bot_Beacon.mdl" />
+    <model name="mdl_earth_disruptor" deferred_loading="false" protected="false" file="hellfiretest/earthdisruptor/EarthDisruptor.mdl" />
+    <model name="mdl_MineMachineBig" deferred_loading="true" protected="false" file="hellfiretest/asteroidmine/machineBig.mdl" />
+    <model name="mdl_MineMachineSmall" deferred_loading="true" protected="false" file="hellfiretest/asteroidmine/machineSmall.mdl" />
+    <model name="mdl_MineRail45" deferred_loading="true" protected="false" file="hellfiretest/asteroidmine/rail45.mdl" />
+    <model name="mdl_MineRail90" deferred_loading="true" protected="false" file="hellfiretest/asteroidmine/rail90.mdl" />
+    <model name="mdl_MineRailStr" deferred_loading="true" protected="false" file="hellfiretest/asteroidmine/railstraight.mdl" />
+    <model name="mdl_botfighter_debris1" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/botfighter_debris1.mdl" />
+    <model name="mdl_botfighter_debris2" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/botfighter_debris2.mdl" />
+    <model name="mdl_botfighter_debris3" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/botfighter_debris3.mdl" />
+    <model name="mdl_botfighter_debris4" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/botfighter_debris4.mdl" />
+    <model name="mdl_earthfighter_debris1" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/earthfighter_debris1.mdl" />
+    <model name="mdl_earthfighter_debris2" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/earthfighter_debris2.mdl" />
+    <model name="mdl_earthfighter_debris3" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/earthfighter_debris3.mdl" />
+    <model name="mdl_earthfighter_debris4" deferred_loading="false" protected="false" file="hellfiretest/spacedebris/earthfighter_debris4.mdl" />
+    <model name="mdl_BotBee" deferred_loading="false" protected="false" file="hellfiretest/botbee/Bot_Bee.mdl" />
+    <model name="mdl_EarthCapTurret_active" deferred_loading="false" protected="false" file="hellfiretest/earthcap/EarthCapTurret_active.mdl" />
+    <model name="mdl_Obsidian_Blade" deferred_loading="false" protected="false" file="hellfiretest/obsidianblade/Obsidian_Blade.mdl" />
+    <model name="mdl_BotBuffer" deferred_loading="true" protected="false" file="hellfiretest/botbuffer/bot_buffer.mdl" />
+    <model name="mdl_BotBomber" deferred_loading="true" protected="false" file="hellfiretest/botbombadier/Bot_Bombadier.mdl" />
+    <model name="mdl_BotDevastator" deferred_loading="true" protected="false" file="hellfiretest/botdevastator/Bot_Devastator.mdl" />
+    <model name="mdl_BotDevastatorElite" deferred_loading="true" protected="false" file="hellfiretest/botdevastator/Bot_DevastatorElite.mdl" />
+    <model name="mdl_chainShock" deferred_loading="false" protected="false" file="models/weapons/chainshock/chainShock.mdl" />
+    <model name="mdl_Proximity_Mine" deferred_loading="false" protected="false" file="hellfiretest/proximitymine/Proximity_Mine.mdl" />
+    <model name="mdl_shieldbeamBubble" deferred_loading="false" protected="false" file="models/weapons/shieldbeam/shieldbeamBubble.mdl" />
+    <model name="mdl_Kraken" deferred_loading="true" protected="false" file="hellfiretest/kraken/Kraken.mdl" />
+    <model name="mdl_simpleKrak" deferred_loading="true" protected="false" file="hellfiretest/kraken/simpleKrak.mdl" />
+    <model name="mdl_EarthFighter3Turret" deferred_loading="false" protected="false" file="hellfiretest/turrets/Turret_03.mdl" />
+    <model name="mdl_EarthFighter4Turret" deferred_loading="false" protected="false" file="hellfiretest/turrets/Turret_04.mdl" />
+    <model name="mdl_TurretIndicator" deferred_loading="false" protected="false" file="hellfiretest/turrets/turret_indicator.mdl" />
+    <model name="mdl_EarthScout" deferred_loading="false" protected="false" file="hellfiretest/earthscout/earthfighter_scout.mdl" />
+    <model name="mdl_InfoArrow" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/InfoArrow.mdl" />
+    <model name="mdl_BotBomberElite" deferred_loading="true" protected="false" file="hellfiretest/botbombadier/bot_bombadierElite.mdl" />
+    <model name="mdl_BotBufferElite" deferred_loading="true" protected="false" file="hellfiretest/botbuffer/bot_bufferElite.mdl" />
+    <model name="mdl_BotFighterElite" deferred_loading="true" protected="false" file="hellfiretest/botfighter/Bot_FighterElite.mdl" />
+    <model name="mdl_BotScoutElite" deferred_loading="true" protected="false" file="hellfiretest/botscout/Bot_ScoutElite.mdl" />
+    <model name="mdl_BotTortoiseElite" deferred_loading="true" protected="false" file="hellfiretest/bottortoise/Bot_TortoiseElite.mdl" />
+    <model name="mdl_EarthHacker" deferred_loading="false" protected="false" file="hellfiretest/tank_hacker/tank_hacker.mdl" />
+    <model name="mdl_teamCircle" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/teamCircle.mdl" />
+    <model name="mdl_defShield" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/defShield.mdl" />
+    <model name="mdl_BotHobbler" deferred_loading="true" protected="false" file="hellfiretest/bothobbler/Bot_Hobbler.mdl" />
+    <model name="mdl_LanceS_laser" deferred_loading="false" protected="false" file="hellfiretest/lance_active/LanceS_laser.mdl" />
+    <model name="mdl_Achieve" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/achieve.mdl" />
+    <model name="mdl_ObsidianFighter" deferred_loading="false" protected="false" file="hellfiretest/obsidianfighter/ObsidianFighter.mdl" />
+    <model name="mdl_InfoArrowCircle" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/InfoArrowCircle.mdl" />
+    <texture name="homelogo.dds" deferred_loading="false" protected="false" file="hellfiretest/osd/art/homelogo.dds" />
+    <texture name="tex_skillboost" deferred_loading="false" protected="false" file="osd/textures/ps_boost_icn.dds" />
+    <texture name="tex_hilitecross" deferred_loading="false" protected="false" file="osd/textures/ps_hilite_blu.dds" />
+    <texture name="tex_energy_bar" deferred_loading="false" protected="false" file="OSD/textures/ps_shield_bar.dds" />
+    <texture name="tex_shields_bar" deferred_loading="false" protected="false" file="OSD/textures/ps_hull_bar.dds" />
+    <texture name="tex_radarbg" deferred_loading="false" protected="false" file="OSD/radar/radarbg.dds" />
+    <texture name="tex_greenarrow" deferred_loading="false" protected="false" file="OSD/radar/greenarrow.dds" />
+    <texture name="tex_bluearrow" deferred_loading="false" protected="false" file="OSD/radar/bluearrow.dds" />
+    <texture name="tex_redarrow" deferred_loading="false" protected="false" file="OSD/radar/redarrow.dds" />
+    <texture name="tex_nebulon_bar" deferred_loading="false" protected="false" file="OSD/textures/Nebulon_Bar_02.dds" />
+    <texture name="tex_xp_bar" deferred_loading="false" protected="false" file="OSD/textures/XP_Bar_01.dds" />
+    <texture name="tex_xp_frame" deferred_loading="false" protected="false" file="OSD/textures/XP_Frame_01.dds" />
+    <texture name="tex_boost_icon" deferred_loading="false" protected="false" file="OSD/textures/boost_hud_32.dds" />
+    <texture name="tex_objective_frame" deferred_loading="false" protected="false" file="OSD/textures/Mission_Frame_01.dds" />
+    <texture name="tex_pilot_fg" deferred_loading="false" protected="false" file="OSD/textures/PlayerControl1_01.dds" />
+    <texture name="tex_pilot_bg" deferred_loading="false" protected="false" file="OSD/textures/PlayerControl1_Black_01.dds" />
+    <texture name="tex_bar_energy" deferred_loading="false" protected="false" file="OSD/textures/Bar1_01.dds" />
+    <texture name="tex_bar_shields" deferred_loading="false" protected="false" file="OSD/textures/Bar2_01.dds" />
+    <texture name="tex_bar_hull" deferred_loading="false" protected="false" file="OSD/textures/Bar3_01.dds" />
+    <texture name="tex_copilot_bg" deferred_loading="false" protected="false" file="OSD/textures/PlayerControl2_Black_01.dds" />
+    <texture name="tex_copilot_fg" deferred_loading="false" protected="false" file="OSD/textures/PlayerControl2_01.dds" />
+    <texture name="tex_botcap_radar_icon" deferred_loading="false" protected="false" file="OSD/radar/botcap_radar_icon.dds" />
+    <texture name="tex_earthcap_radar_icon" deferred_loading="false" protected="false" file="OSD/radar/earthcap_radar_icon.dds" />
+    <texture name="tex_freighter_radar_icon" deferred_loading="false" protected="false" file="OSD/radar/freighter_icon1.dds" />
+    <texture name="tex_mine_radar_icon" deferred_loading="false" protected="false" file="OSD/radar/mine_icon1.dds" />
+    <texture name="tex_radar_screen" deferred_loading="false" protected="false" file="OSD/radar/radar_screen.dds" />
+    <texture name="tex_icon_boost" deferred_loading="false" protected="false" file="OSD/textures/Icon_Boost_A_01.dds" />
+    <texture name="tex_icon_chat" deferred_loading="false" protected="false" file="OSD/textures/Icon_Chat_A_01.dds" />
+    <texture name="tex_icon_heal" deferred_loading="false" protected="false" file="OSD/textures/Icon_Support_B_01.dds" />
+    <texture name="tex_circle_hilite" deferred_loading="false" protected="false" file="OSD/textures/Icon_Overlay_Highlight_01.dds" />
+    <texture name="tex_circle_dim" deferred_loading="false" protected="false" file="OSD/textures/Icon_Overlay_Lowlight_01.dds" />
+    <texture name="tex_icon_repeller" deferred_loading="false" protected="false" file="OSD/textures/Icon_Repeller_A_01.dds" />
+    <texture name="tex_icon_use" deferred_loading="false" protected="false" file="OSD/textures/Icon_Use_A_01.dds" />
+    <texture name="tex_icon_bomb" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Bomb_A_01.dds" />
+    <texture name="tex_icon_charged" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Charged_A_01.dds" />
+    <texture name="tex_icon_comet" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Comet_A_01.dds" />
+    <texture name="tex_icon_missile" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Missile_A_01.dds" />
+    <texture name="tex_square_hilite" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Overlay_Highlight_01.dds" />
+    <texture name="tex_square_dim" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Overlay_Lowlight_01.dds" />
+    <texture name="tex_icon_repeater" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Repeater_A_01.dds" />
+    <texture name="tex_mission_win_window" deferred_loading="false" protected="false" file="OSD/textures/mission_win_window.dds" />
+    <texture name="tex_boss_alert_window" deferred_loading="false" protected="false" file="OSD/textures/boss_alert_window1.dds" />
+    <texture name="tex_ef02_blue_cm" deferred_loading="true" protected="false" file="hellfiretest/earthfighter2/Earthfighter2_TigerOrange_01.dds" />
+    <texture name="tex_ef02_green_cm" deferred_loading="true" protected="false" file="hellfiretest/earthfighter2/Earthfighter2_FlamesRed_01.dds" />
+    <texture name="tex_ef02_green_crazy_cm" deferred_loading="true" protected="false" file="hellfiretest/earthfighter2/Earthfighter2_SkullTeal_01.dds" />
+    <texture name="tex_ef02_cm" deferred_loading="false" protected="false" file="hellfiretest/earthfighter2/ef02_cm.dds" />
+    <texture name="tex_earthfighter_c" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/earthfighter_c.dds" />
+    <texture name="tex_earthfighter_aqua_c" deferred_loading="true" protected="false" file="hellfiretest/earthfighter/EarthFighter_SkullTeal_01b.dds" />
+    <texture name="tex_earthfighter_pink_c" deferred_loading="true" protected="false" file="hellfiretest/earthfighter/EarthFighter_FlamesRed_01.dds" />
+    <texture name="tex_earthfighter_purple_c" deferred_loading="true" protected="false" file="hellfiretest/earthfighter/EarthFighter_TigerOrange_01.dds" />
+    <texture name="tex_MenuBackground" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuBackground.dds" />
+    <texture name="tex_MenuLeftBar" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuLeftBar.dds" />
+    <texture name="tex_MenuLegend" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuLegend.dds" />
+    <texture name="tex_MenuRightBar" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuRightBar.dds" />
+    <texture name="tex_MenuTitle" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuTitle.dds" />
+    <texture name="tex_ScrollBarThumb" deferred_loading="false" protected="false" file="OSD/textures/Menus/ScrollBarThumb.dds" />
+    <texture name="tex_MissionWindow_Body" deferred_loading="false" protected="false" file="OSD/textures/Menus/MissionWindow_Body.dds" />
+    <texture name="tex_MissionWindow_Bottom" deferred_loading="false" protected="false" file="OSD/textures/Menus/MissionWindow_Bottom.dds" />
+    <texture name="tex_MissionWindow_StatBox" deferred_loading="false" protected="false" file="OSD/textures/Menus/MissionWindow_StatBox.dds" />
+    <texture name="tex_MissionWindow_Top" deferred_loading="false" protected="false" file="OSD/textures/Menus/MissionWindow_Top.dds" />
+    <texture name="tex_Thumb_Missile" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Missile.dds" />
+    <texture name="tex_mission_list_icon" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Blank.dds" />
+    <texture name="tex_Thumb_PaintDefault" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_PaintDefault.dds" />
+    <texture name="tex_Thumb_PaintTribal" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_PaintTribal.dds" />
+    <texture name="tex_Thumb_PaintFlames" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_PaintFlames.dds" />
+    <texture name="tex_Thumb_PaintStripes" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_PaintStripes.dds" />
+    <texture name="tex_Thumb_AdvancedBoostingBuffer" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_AdvancedBoostingBuffer.dds" />
+    <texture name="tex_Thumb_BarrelRoll" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_BarrelRoll.dds" />
+    <texture name="tex_Thumb_BoosterBeam" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_BoosterBeam.dds" />
+    <texture name="tex_Thumb_ShieldBoost" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ShieldBoost.dds" />
+    <texture name="tex_Thumb_TurboMatrix1" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_TurboMatrix1.dds" />
+    <texture name="tex_Thumb_TurboMatrix2" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_TurboMatrix2.dds" />
+    <texture name="tex_Thumb_AbsorptionShield" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_AbsorptionShield.DDS" />
+    <texture name="tex_Thumb_BondedPlating" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_BondedPlating.DDS" />
+    <texture name="tex_Thumb_Icon_Boost" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Boost.DDS" />
+    <texture name="tex_Thumb_BurnoutRecoveryReserve" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_BurnoutRecoveryReserve.DDS" />
+    <texture name="tex_Thumb_CellEnergyReactor" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_CellEnergyReactor.DDS" />
+    <texture name="tex_Thumb_ChargedShot" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ChargedShot.DDS" />
+    <texture name="tex_Thumb_Comet" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Comet.DDS" />
+    <texture name="tex_Thumb_EnergyBufferArray" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_EnergyBufferArray.DDS" />
+    <texture name="tex_Thumb_FrontWeaponMount" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_FrontWeaponMount.DDS" />
+    <texture name="tex_Thumb_HeavyWeaponsBay" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_HeavyWeaponsBay.DDS" />
+    <texture name="tex_Thumb_InfusedArmor" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_InfusedArmor.DDS" />
+    <texture name="tex_Thumb_LoopDeLoop" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_LoopDeLoop.DDS" />
+    <texture name="tex_Thumb_OneEighty" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_OneEighty.DDS" />
+    <texture name="tex_Thumb_ReflectionShield" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ReflectionShield.DDS" />
+    <texture name="tex_Thumb_RemoteBomb" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_RemoteBomb.DDS" />
+    <texture name="tex_Thumb_Repeater" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Repeater.DDS" />
+    <texture name="tex_Thumb_ShieldDisruptor" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ShieldDisruptor.DDS" />
+    <texture name="tex_Thumb_TurretWeaponMount" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_TurretWeaponMount.DDS" />
+    <texture name="tex_Thumb_VictoryDance" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_VictoryDance.DDS" />
+    <texture name="tex_Thumb_Repeller" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Repeller.DDS" />
+    <texture name="tex_Thumb_Cloak" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Cloak.DDS" />
+    <texture name="tex_Thumb_Scanner" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_EnemyScanner.DDS" />
+    <texture name="tex_Thumb_ProximityMine" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ProximityMine.DDS" />
+    <texture name="tex_Thumb_ShieldBoosterBeam" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ShieldBoosterBeam.DDS" />
+    <texture name="tex_Thumb_OverlayMilitary" deferred_loading="false" protected="false" file="OSD/textures/Icons/IconOverlay1.DDS" />
+    <texture name="tex_Thumb_OverlayCommercial" deferred_loading="false" protected="false" file="OSD/textures/Icons/IconOverlay2.DDS" />
+    <texture name="tex_Thumb_ElectromagneticBomb" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ElectromagneticBomb.dds" />
+    <texture name="tex_Thumb_GenericRadialBlue" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_GenericRadialBlue.dds" />
+    <texture name="tex_Thumb_GenericRadialGreen" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_GenericRadialGreen.dds" />
+    <texture name="tex_Thumb_NebulonBooster" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_NebulonBooster.dds" />
+    <texture name="tex_Thumb_GenericRadialRed" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_GenericRadialRed.dds" />
+    <texture name="tex_Thumb_PulseShot" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_PulseShot.dds" />
+    <texture name="tex_Thumb_RadiantStorm" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_RadiantStorm.dds" />
+    <texture name="tex_Thumb_RankTab" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_RankTab.dds" />
+    <texture name="tex_Thumb_Taunt" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Taunt.dds" />
+    <texture name="tex_Thumb_XPBooster" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_XPBooster.dds" />
+    <texture name="tex_Thumb_Gladius" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Gladius.dds" />
+    <texture name="tex_Thumb_Witchdoctor" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Witchdoctor.dds" />
+    <texture name="tex_MessageBox" deferred_loading="false" protected="false" file="OSD/textures/MessageBox02.DDS" />
+    <texture name="tex_ShieldBoostGreen" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_ShieldBoostGreen.DDS" />
+    <texture name="tex_MissionBarBlack" deferred_loading="false" protected="false" file="OSD/textures/EnergyMeterA_Black.DDS" />
+    <texture name="tex_MissionBarGreen" deferred_loading="false" protected="false" file="OSD/textures/EnergyBarA_1.DDS" />
+    <texture name="tex_MissionBarBlue" deferred_loading="false" protected="false" file="OSD/textures/EnergyBarA_2.DDS" />
+    <texture name="tex_MissionBarRed" deferred_loading="false" protected="false" file="OSD/textures/EnergyBarA_3.DDS" />
+    <texture name="tex_MissionBarFrame" deferred_loading="false" protected="false" file="OSD/textures/EnergyMeterA.DDS" />
+    <texture name="tex_EarthScout_c" deferred_loading="false" protected="false" file="hellfiretest/earthscout/earthfighter_scout_c.dds" />
+    <texture name="tex_Thumb_Kunai" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Kunai.dds" />
+    <texture name="tex_MenuScrollBarThumb" deferred_loading="false" protected="false" file="OSD/textures/Menus/ScrollBarThumb.dds" />
+    <texture name="tex_MenuScrollBarBack" deferred_loading="false" protected="false" file="OSD/textures/Menus/ScrollBar.DDS" />
+    <texture name="tex_icon_beam" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_Beam_01.dds" />
+    <texture name="tex_icon_cloak" deferred_loading="false" protected="false" file="OSD/textures/Icon_Cloak_A_01.dds" />
+    <texture name="tex_earthscout_flames" deferred_loading="true" protected="false" file="hellfiretest/earthscout/EarthFighter_Scout_FlamesOrange_01.dds" />
+    <texture name="tex_earthscout_skull" deferred_loading="true" protected="false" file="hellfiretest/earthscout/EarthFighter_Scout_SkullTeal_01.dds" />
+    <texture name="tex_earthscout_tiger" deferred_loading="true" protected="false" file="hellfiretest/earthscout/EarthFighter_Scout_TigerPurple_01.dds" />
+    <texture name="tex_screenbg" deferred_loading="false" protected="false" file="OSD/textures/screenbg.dds" />
+    <texture name="tex_leaderboard_bg" deferred_loading="false" protected="false" file="OSD/textures/Leaderboard_01c.dds" />
+    <texture name="tex_leaderboard_fg" deferred_loading="false" protected="false" file="OSD/textures/Leaderboard_frame_01c.dds" />
+    <texture name="tex_MenuGreenArrowLeft" deferred_loading="false" protected="false" file="OSD/textures/Menus/greenarrowleft.dds" />
+    <texture name="tex_MenuGreenArrowRight" deferred_loading="false" protected="false" file="OSD/textures/Menus/greenarrowright.dds" />
+    <texture name="tex_MenuGreenArrowUp" deferred_loading="false" protected="false" file="OSD/textures/Menus/greenarrowup.dds" />
+    <texture name="tex_MenuGreenArrowDown" deferred_loading="false" protected="false" file="OSD/textures/Menus/greenarrow.dds" />
+    <texture name="tex_icon_quit" deferred_loading="false" protected="false" file="OSD/textures/Icon_Quit_01.dds" />
+    <texture name="tex_PSStoreBagIcon" deferred_loading="false" protected="false" file="OSD/textures/Menus/store_icon_sm.dds" />
+    <texture name="tex_PSStoreBagIcon2" deferred_loading="false" protected="false" file="OSD/textures/Menus/store_icon.dds" />
+    <texture name="tex_EarthHacker_flames" deferred_loading="true" protected="false" file="hellfiretest/tank_hacker/Tank_Hacker_FlamesRed_C.dds" />
+    <texture name="tex_EarthHacker_skull" deferred_loading="true" protected="false" file="hellfiretest/tank_hacker/Tank_Hacker_SkullTeal_C.dds" />
+    <texture name="tex_EarthHacker_tiger" deferred_loading="false" protected="false" file="hellfiretest/tank_hacker/Tank_Hacker_TigerOrange_C.dds" />
+    <texture name="tex_EarthHacker_c" deferred_loading="true" protected="false" file="hellfiretest/tank_hacker/tank_hacker_c.dds" />
+    <texture name="tex_Thumb_AIDominator" deferred_loading="false" protected="false" file="OSD/textures/AI_Dominator_01.dds" />
+    <texture name="tex_Thumb_IonBeam" deferred_loading="false" protected="false" file="OSD/textures/IonBeam_01.dds" />
+    <texture name="tex_Thumb_Codebreaker" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Codebreaker.dds" />
+    <texture name="tex_leaderboard_header" deferred_loading="false" protected="false" file="OSD/textures/Leaderboard_header_01c.dds" />
+    <texture name="tex_icon_defshield" deferred_loading="false" protected="false" file="OSD/textures/Icon_Square_DirectionShield_A_01.dds" />
+    <texture name="tex_Thumb_DefShield" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_DeflectionShield.dds" />
+    <texture name="tex_HangarFinal" deferred_loading="false" protected="false" file="hellfiretest/intro/HangarFinal.dds" />
+    <texture name="tex_Thumb_Apt" deferred_loading="false" protected="false" file="thumbnails/apt1_thumb_small.dds" />
+    <texture name="tex_Thumb_Dagger" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Dagger.dds" />
+    <texture name="tex_Thumb_Razordisc" deferred_loading="false" protected="false" file="OSD/textures/Icons/Icon_Razordisc.dds" />
+    <texture name="tex_mental_perma" deferred_loading="false" protected="false" file="thumbnails/mental_perma_128.png" />
+    <texture name="tex_all_rewards" deferred_loading="false" protected="false" file="OSD/textures/all_rewards.dds" />
+    <particle name="basicexplosion.efx" deferred_loading="false" protected="false" file="ATGParticles/ExampleEffects/Efx/basicexplosion.efx" />
+    <particle name="efx_nebExplosionPops" deferred_loading="false" protected="false" file="ATGParticles/Explosions/nebExplosionPops.efx" />
+    <particle name="efx_nebExplosionFinal" deferred_loading="false" protected="false" file="ATGParticles/Explosions/nebExplosionFinal.efx" />
+    <particle name="efx_nebExplosionFirst" deferred_loading="false" protected="false" file="ATGParticles/Explosions/nebExplosionFirst.efx" />
+    <particle name="efx_EarthEngine1" deferred_loading="false" protected="false" file="ATGParticles/Engines/GreenYellowEngine.efx" />
+    <particle name="efx_BotEngine1" deferred_loading="false" protected="false" file="ATGParticles/Engines/BlueGreenEngine.efx" />
+    <particle name="efx_cometR_active" deferred_loading="false" protected="false" file="ATGParticles/Weapons/comet_shot/cometR_active.efx" />
+    <particle name="efx_cometR_active2" deferred_loading="false" protected="false" file="ATGParticles/Weapons/comet_shot/cometR_active2.efx" />
+    <particle name="efx_cometS_fizzle" deferred_loading="false" protected="false" file="ATGParticles/Weapons/comet_shot/cometS_fizzle.efx" />
+    <particle name="efx_cometS_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/comet_shot/cometS_impact.efx" />
+    <particle name="efx_cometS_launched" deferred_loading="false" protected="false" file="ATGParticles/Weapons/comet_shot/cometS_launched.efx" />
+    <particle name="efx_disR_active" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/disR_active.efx" />
+    <particle name="efx_disR_active2" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/disR_active2.efx" />
+    <particle name="efx_disR_fizzle" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/disR_fizzle.efx" />
+    <particle name="efx_disR_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/disR_impact.efx" />
+    <particle name="efx_disR_launched" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/disR_launched.efx" />
+    <particle name="efx_disR2_active" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/MediumDisruptionShot_Active.efx" />
+    <particle name="efx_disR2_active2" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/MediumDisruptionShot_Active2.efx" />
+    <particle name="efx_disR2_fizzle" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/MediumDisruptionShot_Fizzle.efx" />
+    <particle name="efx_disR2_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/MediumDisruptionShot_Impact.efx" />
+    <particle name="efx_disR2_launched" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/MediumDisruptionShot_Launched.efx" />
+    <particle name="efx_explode3_first" deferred_loading="false" protected="false" file="ATGParticles/Explosions/explode3_first.efx" />
+    <particle name="efx_explode3_pop" deferred_loading="false" protected="false" file="ATGParticles/Explosions/explode3_pop.efx" />
+    <particle name="efx_explode3_final" deferred_loading="false" protected="false" file="ATGParticles/Explosions/explode3_final.efx" />
+    <particle name="efx_explode4_final" deferred_loading="false" protected="false" file="ATGParticles/Explosions/explode4_final.efx" />
+    <particle name="efx_repeatS_active" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeater_shot/repeatS_active.efx" />
+    <particle name="efx_repeatS_fizzle" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeater_shot/repeatS_fizzle.efx" />
+    <particle name="efx_repeatS_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeater_shot/repeatS_impact.efx" />
+    <particle name="efx_repeatS_launched" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeater_shot/repeaterS_launced.efx" />
+    <particle name="efx_disR3_active" deferred_loading="false" protected="false" file="ATGParticles/Weapons/disruption_shot/disR3_active.efx" />
+    <particle name="efx_shockwave1" deferred_loading="false" protected="false" file="ATGParticles/Explosions/shockwave1.efx" />
+    <particle name="efx_chargeshot_stage01" deferred_loading="false" protected="false" file="ATGParticles/Weapons/charge_shot/chargeshot_stage01.efx" />
+    <particle name="efx_chargeshot_stage02" deferred_loading="false" protected="false" file="ATGParticles/Weapons/charge_shot/chargeshot_stage02.efx" />
+    <particle name="efx_chargeshot_stage03" deferred_loading="false" protected="false" file="ATGParticles/Weapons/charge_shot/chargeshot_stage03.efx" />
+    <particle name="efx_LootActive" deferred_loading="false" protected="false" file="ATGParticles/Loot/Loot1.efx" />
+    <particle name="efx_LootPickup" deferred_loading="false" protected="false" file="ATGParticles/Loot/Loot2.efx" />
+    <particle name="efx_LootFizzle" deferred_loading="false" protected="false" file="ATGParticles/Loot/Loot3.efx" />
+    <particle name="efx_missile_trail" deferred_loading="false" protected="false" file="ATGParticles/Weapons/missle/missle_trail.efx" />
+    <particle name="efx_missile_fire" deferred_loading="false" protected="false" file="ATGParticles/Weapons/missle/missle_fire.efx" />
+    <particle name="efx_repeller" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeller/repeller.efx" />
+    <particle name="efx_botshockwave" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeller/botshockwave.efx" />
+    <particle name="efx_beaconshockwave" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeller/beaconshockwave.efx" />
+    <particle name="efx_beaconshockwavewarning" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeller/beaconshockwavewarning.efx" />
+    <particle name="efx_explode_small01" deferred_loading="false" protected="false" file="ATGParticles/Explosions/explode_small01.efx" />
+    <particle name="efx_explode_small02" deferred_loading="false" protected="false" file="ATGParticles/Explosions/explode_small02.efx" />
+    <particle name="efx_vortex" deferred_loading="false" protected="false" file="ATGParticles/Weapons/vortex/vortex.efx" />
+    <particle name="efx_vortex_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/vortex/vortex_impact.efx" />
+    <particle name="efx_shockwave" deferred_loading="false" protected="false" file="ATGParticles/Weapons/shockwave/shockwave.efx" />
+    <particle name="efx_support_aoe" deferred_loading="false" protected="false" file="ATGParticles/Weapons/support/support_aoe.efx" />
+    <particle name="efx_support_hit" deferred_loading="false" protected="false" file="ATGParticles/Weapons/support/support_hit.efx" />
+    <particle name="efx_shockwave_hit" deferred_loading="false" protected="false" file="ATGParticles/Weapons/support/shockwave_hit.efx" />
+    <particle name="efx_remote_bomb" deferred_loading="false" protected="false" file="ATGParticles/Weapons/remote_bomb/remote_bomb.efx" />
+    <particle name="efx_earth_engineGlow" deferred_loading="false" protected="false" file="ATGParticles/Engines/earth_engineGlow.efx" />
+    <particle name="efx_booster_beam" deferred_loading="false" protected="false" file="ATGParticles/Weapons/booster_beam/booster_beam.efx" />
+    <particle name="efx_EarthCapTurret_fizzle" deferred_loading="false" protected="false" file="ATGParticles/EarthCapTurret/EarthCapTurret_fizzle.efx" />
+    <particle name="efx_EarthCapTurret_impact" deferred_loading="false" protected="false" file="ATGParticles/EarthCapTurret/EarthCapTurret_impact.efx" />
+    <particle name="efx_ElectroBomb_Active" deferred_loading="false" protected="false" file="ATGParticles/ElectroBomb/ElectroBomb_Active.efx" />
+    <particle name="efx_ElectroBomb_Create" deferred_loading="false" protected="false" file="ATGParticles/ElectroBomb/ElectroBomb_Create.efx" />
+    <particle name="efx_ElectroBomb_Impact" deferred_loading="false" protected="false" file="ATGParticles/ElectroBomb/ElectroBomb_Impact.efx" />
+    <particle name="efx_Levelup" deferred_loading="false" protected="false" file="ATGParticles/Levelup/Levelup.efx" />
+    <particle name="efx_ObsidianBlade_Impact" deferred_loading="false" protected="false" file="ATGParticles/ObsidianBlade/ObsidianBlade_Impact.efx" />
+    <particle name="efx_ObsidianCapTurret_Active" deferred_loading="false" protected="false" file="ATGParticles/ObsidianCapTurret/ObsidianCapTurret_Active.efx" />
+    <particle name="efx_ObsidianCapTurret_Active2" deferred_loading="false" protected="false" file="ATGParticles/ObsidianCapTurret/ObsidianCapTurret_Active2.efx" />
+    <particle name="efx_ObsidianCapTurret_Create" deferred_loading="false" protected="false" file="ATGParticles/ObsidianCapTurret/ObsidianCapTurret_Create.efx" />
+    <particle name="efx_ObsidianCapTurret_Fizzle" deferred_loading="false" protected="false" file="ATGParticles/ObsidianCapTurret/ObsidianCapTurret_Fizzle.efx" />
+    <particle name="efx_ObsidianCapTurret_Impact" deferred_loading="false" protected="false" file="ATGParticles/ObsidianCapTurret/ObsidianCapTurret_Impact.efx" />
+    <particle name="efx_PulseShot_Create" deferred_loading="false" protected="false" file="ATGParticles/PulseShot/PulseShot_Create.efx" />
+    <particle name="efx_PulseShot_Impact" deferred_loading="false" protected="false" file="ATGParticles/PulseShot/PulseShot_Impact.efx" />
+    <particle name="efx_RadiantStorm_Active" deferred_loading="false" protected="false" file="ATGParticles/RadiantStorm/RadiantStorm_Active.efx" />
+    <particle name="efx_RadiantStorm_Create" deferred_loading="false" protected="false" file="ATGParticles/RadiantStorm/RadiantStorm_Create.efx" />
+    <particle name="efx_RadiantStorm_Impact" deferred_loading="false" protected="false" file="ATGParticles/RadiantStorm/RadiantStorm_Impact.efx" />
+    <particle name="efx_botcaptur2_active" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret2/botcaptur2_active.efx" />
+    <particle name="efx_botcaptur2_active2" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret2/botcaptur2_active2.efx" />
+    <particle name="efx_botcaptur2_create" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret2/botcaptur2_create.efx" />
+    <particle name="efx_botcaptur2_fizzle" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret2/botcaptur2_fizzle.efx" />
+    <particle name="efx_botcaptur2_impact" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret2/botcaptur2_impact.efx" />
+    <particle name="efx_botcaptur3_active2" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret3/botcaptur3_active2.efx" />
+    <particle name="efx_botcaptur3_create" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret3/botcaptur3_create.efx" />
+    <particle name="efx_botcaptur3_impact" deferred_loading="false" protected="false" file="ATGParticles/BotCapTurret3/botcaptur3_impact.efx" />
+    <particle name="efx_chainshock_fizzle" deferred_loading="false" protected="false" file="ATGParticles/ChainShock/chainshock_fizzle.efx" />
+    <particle name="efx_chainshock_impact" deferred_loading="false" protected="false" file="ATGParticles/ChainShock/chainshock_impact.efx" />
+    <particle name="efx_chaserdrone_create" deferred_loading="false" protected="false" file="ATGParticles/ChaserDrone/chaderdrone_launched.efx" />
+    <particle name="efx_cripplingfield_active" deferred_loading="false" protected="false" file="ATGParticles/CripplingField/cripplingfield_active.efx" />
+    <particle name="efx_cripplingfield_launched" deferred_loading="false" protected="false" file="ATGParticles/CripplingField/crippingfield_launched.efx" />
+    <particle name="efx_proximitymine_impact" deferred_loading="false" protected="false" file="ATGParticles/proximityMine/proximitymine_impact.efx" />
+    <particle name="efx_proximitymine_launched" deferred_loading="false" protected="false" file="ATGParticles/proximityMine/proximitymine_launched.efx" />
+    <particle name="efx_shieldbeam_launched" deferred_loading="false" protected="false" file="ATGParticles/ShieldBeam/shieldbeam_launched.efx" />
+    <particle name="efx_Buffer" deferred_loading="false" protected="false" file="ATGParticles/BufferFX/bufferfx.efx" />
+    <particle name="efx_chargeshot_active" deferred_loading="false" protected="false" file="ATGParticles/Weapons/charge_shot/chargeshot_active.efx" />
+    <particle name="efx_chargeshot_active2" deferred_loading="false" protected="false" file="ATGParticles/Weapons/charge_shot/chargeshot_active2.efx" />
+    <particle name="efx_chargeshot_fizzle" deferred_loading="false" protected="false" file="ATGParticles/Weapons/charge_shot/chargeshot_fizzle.efx" />
+    <particle name="efx_chargeshot_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/charge_shot/chargeshot_impact.efx" />
+    <particle name="efx_shield_beam" deferred_loading="false" protected="false" file="ATGParticles/ShieldBeam/shieldbeam_active.efx" />
+    <particle name="efx_bufferfx_active" deferred_loading="false" protected="false" file="ATGParticles/BufferFX/bufferfx_active.efx" />
+    <particle name="efx_HackerTaunt_Create" deferred_loading="false" protected="false" file="ATGParticles/Hacker/HackerTaunt_Create.efx" />
+    <particle name="efx_HackerTaunt_Impact" deferred_loading="false" protected="false" file="ATGParticles/Hacker/HackerTaunt_Impact.efx" />
+    <particle name="efx_HackerTaunt_BlueImpact" deferred_loading="false" protected="false" file="ATGParticles/Hacker/HackerTaunt_BlueImpact.efx" />
+    <particle name="efx_ion_beam" deferred_loading="false" protected="false" file="ATGParticles/BoosterBeam/ion_beam.efx" />
+    <particle name="efx_botshockwavewarning" deferred_loading="false" protected="false" file="ATGParticles/Weapons/repeller/botshockwavewarning.efx" />
+    <particle name="efx_lanceS_fizzle" deferred_loading="false" protected="false" file="ATGParticles/Weapons/lance_shot/lanceS_fizzle.efx" />
+    <particle name="efx_lanceS_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/lance_shot/lanceS_impact.efx" />
+    <particle name="efx_lanceS_launched" deferred_loading="false" protected="false" file="ATGParticles/Weapons/lance_shot/lanceS_launced.efx" />
+    <particle name="efx_shatterS_active" deferred_loading="false" protected="false" file="ATGParticles/Weapons/shatter_shot/shatterS_active.efx" />
+    <particle name="efx_shatterS_active2" deferred_loading="false" protected="false" file="ATGParticles/Weapons/shatter_shot/shatterS_active2.efx" />
+    <particle name="efx_shatterS_fizzle" deferred_loading="false" protected="false" file="ATGParticles/Weapons/shatter_shot/shatterS_fizzle.efx" />
+    <particle name="efx_shatterS_impact" deferred_loading="false" protected="false" file="ATGParticles/Weapons/shatter_shot/shatterS_impact.efx" />
+    <particle name="efx_shatterS_launched" deferred_loading="false" protected="false" file="ATGParticles/Weapons/shatter_shot/shatterS_launched.efx" />
+    <particle name="efx_shatter_explode" deferred_loading="false" protected="false" file="ATGParticles/Explosions/shatter_explode.efx" />
+    <particle name="efx_portal" deferred_loading="false" protected="false" file="ATGParticles/Portal/portal.efx" />
+    <particle name="efx_Kraken_RadiantStorm_Active" deferred_loading="false" protected="false" file="ATGParticles/RadiantStorm/Kraken_RadiantStorm_Active.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="Network.xml" />
+    <file name="types.xml" deferred_loading="false" protected="false" file="osd/types.xml" />
+    <file name="osd_controlhud_full" deferred_loading="false" protected="false" file="osd/controlhud_full.xml" />
+    <file name="osd_controlhud_wide" deferred_loading="false" protected="false" file="osd/controlhud_wide.xml" />
+    <file name="botfighter1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botfighter1.xml" memory="host" />
+    <file name="botfighter2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botfighter2.xml" memory="host" />
+    <file name="botfighter3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botfighter3.xml" memory="host" />
+    <file name="comet_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/comet_rank1.xml" memory="host" />
+    <file name="comet_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/comet_rank2.xml" memory="host" />
+    <file name="comet_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/comet_rank3.xml" memory="host" />
+    <file name="comet_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/comet_rank4.xml" memory="host" />
+    <file name="comet_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/comet_projectile1.xml" memory="host" />
+    <file name="missile_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/missile_rank1.xml" memory="host" />
+    <file name="missile_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/missile_rank2.xml" memory="host" />
+    <file name="missile_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/missile_rank3.xml" memory="host" />
+    <file name="missile_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/missile_rank4.xml" memory="host" />
+    <file name="botscout1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botscout1.xml" memory="host" />
+    <file name="botscout2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botscout2.xml" memory="host" />
+    <file name="botscout3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botscout3.xml" memory="host" />
+    <file name="bottortoise1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bottortoise1.xml" memory="host" />
+    <file name="bottortoise2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bottortoise2.xml" memory="host" />
+    <file name="bottortoise3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bottortoise3.xml" memory="host" />
+    <file name="botjuggernaut1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botjuggernaut1.xml" memory="host" />
+    <file name="botjuggernaut2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botjuggernaut2.xml" memory="host" />
+    <file name="botjuggernaut3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botjuggernaut3.xml" memory="host" />
+    <file name="botexecutioner1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botexecutioner1.xml" memory="host" />
+    <file name="botshocker1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botshocker1.xml" memory="host" />
+    <file name="botshocker3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botshocker3.xml" memory="host" />
+    <file name="disruption1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/disruption1.xml" memory="host" />
+    <file name="disruption2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/disruption2.xml" memory="host" />
+    <file name="disruption3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/disruption3.xml" memory="host" />
+    <file name="repeater_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeater_projectile1.xml" memory="host" />
+    <file name="generic_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/generic_projectile1.xml" memory="host" />
+    <file name="charged_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/charged_rank1.xml" memory="host" />
+    <file name="charged_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/charged_rank2.xml" memory="host" />
+    <file name="charged_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/charged_rank3.xml" memory="host" />
+    <file name="charged_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/charged_rank4.xml" memory="host" />
+    <file name="comet_projectile2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/comet_projectile2.xml" memory="host" />
+    <file name="earthcapturret.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthcapturret.xml" memory="host" />
+    <file name="comet2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/comet2.xml" memory="host" />
+    <file name="shieldboost_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_rank1.xml" memory="host" />
+    <file name="shieldboost_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_rank2.xml" memory="host" />
+    <file name="shieldboost_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_rank3.xml" memory="host" />
+    <file name="shieldboost_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_rank4.xml" memory="host" />
+    <file name="repeller_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeller_rank1.xml" memory="host" />
+    <file name="repeller_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeller_rank2.xml" memory="host" />
+    <file name="repeller_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeller_rank3.xml" memory="host" />
+    <file name="repeller_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeller_rank4.xml" memory="host" />
+    <file name="repeller_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeller_projectile1.xml" memory="host" />
+    <file name="remote_repeller1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/remote_repeller1.xml" memory="host" />
+    <file name="repeater_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeater_rank1.xml" memory="host" />
+    <file name="repeater_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeater_rank2.xml" memory="host" />
+    <file name="repeater_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeater_rank3.xml" memory="host" />
+    <file name="repeater_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/repeater_rank4.xml" memory="host" />
+    <file name="missile_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/missile_projectile1.xml" memory="host" />
+    <file name="bladelotus.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/bladelotus.xml" memory="host" />
+    <file name="draxcore1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/draxcore1.xml" memory="host" />
+    <file name="draxcharger1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/draxcharger1.xml" memory="host" />
+    <file name="remote_bomb_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/remote_bomb_projectile1.xml" memory="host" />
+    <file name="remote_bomb_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/remote_bomb_rank1.xml" memory="host" />
+    <file name="remote_bomb_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/remote_bomb_rank2.xml" memory="host" />
+    <file name="remote_bomb_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/remote_bomb_rank3.xml" memory="host" />
+    <file name="remote_bomb_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/remote_bomb_rank4.xml" memory="host" />
+    <file name="earthcap1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthcap1.xml" memory="host" />
+    <file name="osd_usedialog" deferred_loading="false" protected="false" file="osd/usedialog.xml" memory="host" />
+    <file name="osd_usedialog_content" deferred_loading="false" protected="false" file="OSD/usedialog_content.xml" memory="host" />
+    <file name="scene_EarthStation" deferred_loading="false" protected="false" file="environments/Nebulon/EarthStation.xml" memory="host" />
+    <file name="bladelotusrepel.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/bladelotusrepel.xml" memory="host" />
+    <file name="botbeacon1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbeacon1.xml" memory="host" />
+    <file name="botbeacon3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbeacon3.xml" memory="host" />
+    <file name="earthdisruptor1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthdisruptor1.xml" memory="host" />
+    <file name="beaconshockwave.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/beaconshockwave.xml" memory="host" />
+    <file name="beaconshockwavewarning.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/beaconshockwavewarning.xml" memory="host" />
+    <file name="botshockwave1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botshockwave1.xml" memory="host" />
+    <file name="botcapturret1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/botcapturret1.xml" memory="host" />
+    <file name="botcapturret2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/botcapturret2.xml" memory="host" />
+    <file name="botcapturret3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/botcapturret3.xml" memory="host" />
+    <file name="botcapturret4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/botcapturret4.xml" memory="host" />
+    <file name="bladeturret1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/bladeturret1.xml" memory="host" />
+    <file name="bladeturret2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/bladeturret2.xml" memory="host" />
+    <file name="bladeturret3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/bladeturret3.xml" memory="host" />
+    <file name="bladeturret4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/bladeturret4.xml" memory="host" />
+    <file name="vortex_projectile.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/vortex_projectile.xml" memory="host" />
+    <file name="vortex_weap.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/vortex_weap.xml" memory="host" />
+    <file name="spawner.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/spawner.xml" memory="host" />
+    <file name="missionlist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/missionlist.xml" memory="host" />
+    <file name="earthshipassault.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthships/earthshipassault.xml" memory="host" />
+    <file name="earthshiplist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthships/earthshiplist.xml" memory="host" />
+    <file name="earthshipscout.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthships/earthshipscout.xml" memory="host" />
+    <file name="earthshipsupport.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthships/earthshipsupport.xml" memory="host" />
+    <file name="earthshiptank.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthships/earthshiptank.xml" memory="host" />
+    <file name="earthshipstarter.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthships/earthshipstarter.xml" memory="host" />
+    <file name="boosterbeam_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/boosterbeam_rank1.xml" memory="host" />
+    <file name="boosterbeam_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/boosterbeam_rank2.xml" memory="host" />
+    <file name="boosterbeam_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/boosterbeam_rank3.xml" memory="host" />
+    <file name="boosterbeam_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/boosterbeam_rank4.xml" memory="host" />
+    <file name="disruptbeam1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/disruptbeam1.xml" memory="host" />
+    <file name="earthweaplist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/earthweaplist.xml" memory="host" />
+    <file name="earthturretweaplist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/earthturretweaplist.xml" memory="host" />
+    <file name="specialweaplist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/specialweaplist.xml" memory="host" />
+    <file name="maneuverlist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/maneuvers/maneuverlist.xml" memory="host" />
+    <file name="upgradelist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/upgradelist.xml" memory="host" />
+    <file name="asteroid1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/asteroid1.xml" memory="host" />
+    <file name="leeroy.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/leeroy.xml" memory="host" />
+    <file name="taunt_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/taunt_rank1.xml" memory="host" />
+    <file name="taunt_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/taunt_rank2.xml" memory="host" />
+    <file name="taunt_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/taunt_rank3.xml" memory="host" />
+    <file name="leeroy_comet.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/leeroy_comet.xml" memory="host" />
+    <file name="leeroy_taunt.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/leeroy_taunt.xml" memory="host" />
+    <file name="scene_MissionZero" deferred_loading="false" protected="false" file="environments/Nebulon/MissionZero.xml" memory="host" />
+    <file name="scene_Mission01ex" deferred_loading="false" protected="false" file="environments/Nebulon/Mission01ex.xml" memory="host" />
+    <file name="scene_MissionStory02" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory02.xml" memory="host" />
+    <file name="scene_MissionStory03" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory03.xml" memory="host" />
+    <file name="scene_Mission03ex" deferred_loading="false" protected="false" file="environments/Nebulon/Mission03ex.xml" memory="host" />
+    <file name="scene_MissionStory04" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory04.xml" memory="host" />
+    <file name="scene_Mission04ex" deferred_loading="false" protected="false" file="environments/Nebulon/Mission04ex.xml" memory="host" />
+    <file name="scene_MissionStory05" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory05.xml" memory="host" />
+    <file name="scene_MissionStory06" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory06.xml" memory="host" />
+    <file name="scene_Mission06ex" deferred_loading="false" protected="false" file="environments/Nebulon/Mission06ex.xml" memory="host" />
+    <file name="scene_MissionStory07" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory07.xml" memory="host" />
+    <file name="scene_MissionStory08" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory08.xml" memory="host" />
+    <file name="scene_MissionStory09" deferred_loading="false" protected="false" file="environments/Nebulon/MissionStory09.xml" memory="host" />
+    <file name="paintjoblist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/paintjobs/paintjoblist.xml" memory="host" />
+    <file name="botbee1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbee1.xml" memory="host" />
+    <file name="botspider1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botspider1.xml" memory="host" />
+    <file name="botbeeswarm.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbeeswarm.xml" memory="host" />
+    <file name="objectlist.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/objectlist.xml" memory="host" />
+    <file name="earthcapturret_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/earthcapturret_projectile1.xml" memory="host" />
+    <file name="earthcapturret1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/earthcapturret1.xml" memory="host" />
+    <file name="electro_bomb_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/electro_bomb_projectile1.xml" memory="host" />
+    <file name="electro_bomb_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/electro_bomb_rank1.xml" memory="host" />
+    <file name="electro_bomb_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/electro_bomb_rank2.xml" memory="host" />
+    <file name="electro_bomb_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/electro_bomb_rank3.xml" memory="host" />
+    <file name="electro_bomb_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/electro_bomb_rank4.xml" memory="host" />
+    <file name="obsidianblade1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/obsidianblade1.xml" memory="host" />
+    <file name="obsidiancapturret_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/obsidiancapturret_projectile1.xml" memory="host" />
+    <file name="obsidiancapturret1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/obsidiancapturret1.xml" memory="host" />
+    <file name="botbomber1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbomber1.xml" memory="host" />
+    <file name="botbomber2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbomber2.xml" memory="host" />
+    <file name="botbomber3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbomber3.xml" memory="host" />
+    <file name="botdevastator1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botdevastator1.xml" memory="host" />
+    <file name="botdevastator2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botdevastator2.xml" memory="host" />
+    <file name="botdevastator3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botdevastator3.xml" memory="host" />
+    <file name="botbuffer1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbuffer1.xml" memory="host" />
+    <file name="botbuffer2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbuffer2.xml" memory="host" />
+    <file name="botbuffer3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbuffer3.xml" memory="host" />
+    <file name="pulse_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/pulse_rank1.xml" memory="host" />
+    <file name="pulse_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/pulse_rank2.xml" memory="host" />
+    <file name="pulse_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/pulse_rank3.xml" memory="host" />
+    <file name="pulse_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/pulse_rank4.xml" memory="host" />
+    <file name="radiantstorm_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/radiantstorm_projectile1.xml" memory="host" />
+    <file name="radiantstorm_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/radiantstorm_rank1.xml" memory="host" />
+    <file name="radiantstorm_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/radiantstorm_rank2.xml" memory="host" />
+    <file name="radiantstorm_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/radiantstorm_rank3.xml" memory="host" />
+    <file name="radiantstorm_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/radiantstorm_rank4.xml" memory="host" />
+    <file name="botcaptur2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botcapturret2.xml" memory="host" />
+    <file name="botcaptur_projectile2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botcapturret_projectile2.xml" memory="host" />
+    <file name="botcaptur3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botcapturret3.xml" memory="host" />
+    <file name="botcaptur_projectile3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botcapturret_projectile3.xml" memory="host" />
+    <file name="chainshock_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/chainshock_rank1.xml" memory="host" />
+    <file name="chainshock_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/chainshock_rank2.xml" memory="host" />
+    <file name="chainshock_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/chainshock_rank3.xml" memory="host" />
+    <file name="chaserdrone1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/chaserdrone1.xml" memory="host" />
+    <file name="cripplingfield_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/cripplingfield_projectile1.xml" memory="host" />
+    <file name="cripplingfield_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/cripplingfield_rank1.xml" memory="host" />
+    <file name="cripplingfield_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/cripplingfield_rank2.xml" memory="host" />
+    <file name="cripplingfield_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/cripplingfield_rank3.xml" memory="host" />
+    <file name="proximity_mine_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/proximity_mine_projectile1.xml" memory="host" />
+    <file name="proximity_mine_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/proximity_mine_rank1.xml" memory="host" />
+    <file name="proximity_mine_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/proximity_mine_rank2.xml" memory="host" />
+    <file name="proximity_mine_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/proximity_mine_rank3.xml" memory="host" />
+    <file name="proximity_mine_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/proximity_mine_rank4.xml" memory="host" />
+    <file name="shieldbeam_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldbeam_rank1.xml" memory="host" />
+    <file name="shieldbeam_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldbeam_rank2.xml" memory="host" />
+    <file name="shieldbeam_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldbeam_rank3.xml" memory="host" />
+    <file name="shieldbeam_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldbeam_rank4.xml" memory="host" />
+    <file name="kraken.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/kraken/kraken.xml" memory="host" />
+    <file name="kraken2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/kraken/kraken2.xml" memory="host" />
+    <file name="kraken3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/kraken/kraken3.xml" memory="host" />
+    <file name="freighter.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/freighter.xml" memory="host" />
+    <file name="freighter2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/freighter2.xml" memory="host" />
+    <file name="hulk.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/hulk.xml" memory="host" />
+    <file name="hulk2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/hulk2.xml" memory="host" />
+    <file name="controlnode_m3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/props/controlnode_m3.xml" memory="host" />
+    <file name="disruption4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/disruption4.xml" memory="host" />
+    <file name="cloak_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/cloak_rank1.xml" memory="host" />
+    <file name="cloak_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/cloak_rank2.xml" memory="host" />
+    <file name="cloak_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/cloak_rank3.xml" memory="host" />
+    <file name="absorptionshield_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/absorptionshield_rank1.xml" memory="host" />
+    <file name="absorptionshield_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/absorptionshield_rank2.xml" memory="host" />
+    <file name="absorptionshield_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/absorptionshield_rank3.xml" memory="host" />
+    <file name="absorptionshield_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/absorptionshield_rank4.xml" memory="host" />
+    <file name="infusedarmor_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/infusedarmor_rank1.xml" memory="host" />
+    <file name="infusedarmor_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/infusedarmor_rank2.xml" memory="host" />
+    <file name="infusedarmor_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/infusedarmor_rank3.xml" memory="host" />
+    <file name="infusedarmor_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/infusedarmor_rank4.xml" memory="host" />
+    <file name="reflectionshield_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/reflectionshield_rank1.xml" memory="host" />
+    <file name="bondedcarapace_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/bondedcarapace_rank1.xml" memory="host" />
+    <file name="botbuffer_beam.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botbuffer_beam.xml" memory="host" />
+    <file name="overclock_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/overclock_rank1.xml" memory="host" />
+    <file name="overclock_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/overclock_rank2.xml" memory="host" />
+    <file name="overclock_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/overclock_rank3.xml" memory="host" />
+    <file name="reactor_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/reactor_rank1.xml" memory="host" />
+    <file name="reactor_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/reactor_rank2.xml" memory="host" />
+    <file name="reactor_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/reactor_rank3.xml" memory="host" />
+    <file name="reactor_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/reactor_rank4.xml" memory="host" />
+    <file name="beeweapon.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/beeweapon.xml" memory="host" />
+    <file name="radiantstorm_field.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/radiantstorm_field.xml" memory="host" />
+    <file name="freighterrepel.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/freighterrepel.xml" />
+    <file name="electro_bomb_field.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/electro_bomb_field.xml" />
+    <file name="charged_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/charged_projectile1.xml" />
+    <file name="bladelotus2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/bladelotus2.xml" />
+    <file name="elitebotcapturret1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/elitebotcapturret1.xml" />
+    <file name="elitebotcapturret2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/elitebotcapturret2.xml" />
+    <file name="elitebotcapturret3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/elitebotcapturret3.xml" />
+    <file name="elitebotcapturret4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/elitebotcapturret4.xml" />
+    <file name="elitebladeturret1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/elitebladeturret1.xml" />
+    <file name="elitebladeturret2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/elitebladeturret2.xml" />
+    <file name="elitebladeturret3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/elitebladeturret3.xml" />
+    <file name="elitebladeturret4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/bladelotus/elitebladeturret4.xml" />
+    <file name="turbomatrix_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/turbomatrix_rank1.xml" />
+    <file name="turbomatrix_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/turbomatrix_rank2.xml" />
+    <file name="turbomatrix_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/upgrades/turbomatrix_rank3.xml" />
+    <file name="hack_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/hack_rank1.xml" />
+    <file name="hack_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/hack_rank2.xml" />
+    <file name="hack_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/hack_rank3.xml" />
+    <file name="ionbeam_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/ionbeam_rank1.xml" />
+    <file name="ionbeam_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/ionbeam_rank2.xml" />
+    <file name="ionbeam_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/ionbeam_rank3.xml" />
+    <file name="ionbeam_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/ionbeam_rank4.xml" />
+    <file name="botshockwavewarning.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botshockwavewarning.xml" />
+    <file name="defshield_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/defshield_rank1.xml" />
+    <file name="defshield_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/defshield_rank2.xml" />
+    <file name="defshield_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/defshield_rank3.xml" />
+    <file name="defshield_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/defshield_rank4.xml" />
+    <file name="krakenturretweapon1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken/krakenturretweapon1.xml" />
+    <file name="scene_TestMission" deferred_loading="false" protected="false" file="environments/Nebulon/TestMission.xml" />
+    <file name="botshocker_field1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botshocker_field1.xml" />
+    <file name="botshocker_field2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botshocker_field2.xml" />
+    <file name="botshocker_field3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/botshocker_field3.xml" />
+    <file name="krakenturretweapon2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken/krakenturretweapon2.xml" />
+    <file name="krakenturret1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/kraken/krakenturret1.xml" />
+    <file name="krakenturret2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/kraken/krakenturret2.xml" />
+    <file name="missile_projectile_snare1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/missile_projectile_snare1.xml" />
+    <file name="bothobbler1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bothobbler1.xml" />
+    <file name="bothobbler3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bothobbler3.xml" />
+    <file name="hobbler_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/hobbler_projectile1.xml" />
+    <file name="hobbler_weap1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/hobbler_weap1.xml" />
+    <file name="hobbler_field1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/hobbler_field1.xml" />
+    <file name="lance_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/lance_projectile1.xml" />
+    <file name="lance_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/lance_rank1.xml" />
+    <file name="lance_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/lance_rank2.xml" />
+    <file name="lance_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/lance_rank3.xml" />
+    <file name="lance_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/lance_rank4.xml" />
+    <file name="shatter_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shatter_projectile1.xml" />
+    <file name="shatter_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shatter_rank1.xml" />
+    <file name="shatter_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shatter_rank2.xml" />
+    <file name="shatter_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shatter_rank3.xml" />
+    <file name="shatter_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shatter_rank4.xml" />
+    <file name="kraken_radiantstorm1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken_radiantstorm1.xml" />
+    <file name="kraken_radiantstorm2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken_radiantstorm2.xml" />
+    <file name="kraken_radiantstorm_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken_radiantstorm_projectile1.xml" />
+    <file name="kraken_remote_bomb_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken_remote_bomb_projectile1.xml" />
+    <file name="kraken_remote_bomb1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken_remote_bomb1.xml" />
+    <file name="kraken_remote_bomb2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/kraken_remote_bomb2.xml" />
+    <file name="unhackable_botbuffer1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/unhackable_botbuffer1.xml" />
+    <file name="unhackable_botbuffer2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/unhackable_botbuffer2.xml" />
+    <file name="unhackable_botbuffer3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/unhackable_botbuffer3.xml" />
+    <file name="beaconrepel.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/beaconrepel.xml" />
+    <file name="shieldboost_field1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_field1.xml" />
+    <file name="shieldboost_field2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_field2.xml" />
+    <file name="shieldboost_field3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_field3.xml" />
+    <file name="shieldboost_field4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/shieldboost_field4.xml" />
+    <file name="bothobbler2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bothobbler2.xml" />
+    <file name="botshocker2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botshocker2.xml" />
+    <file name="scene_Mission07ex" deferred_loading="false" protected="false" file="environments/Nebulon/Mission07ex.xml" />
+    <file name="botbeacon2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/botbeacon2.xml" />
+    <file name="debuffbeam_rank1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/debuffbeam_rank1.xml" />
+    <file name="debuffbeam_rank2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/debuffbeam_rank2.xml" />
+    <file name="debuffbeam_rank3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/debuffbeam_rank3.xml" />
+    <file name="debuffbeam_rank4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/debuffbeam_rank4.xml" />
+    <file name="obsidianshipdagger.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/earthships/obsidianshipdagger.xml" />
+    <file name="obsidianblade2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/obsidianblade2.xml" />
+    <file name="obsidianblade3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/obsidianblade3.xml" />
+    <file name="obsidianblade4.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/obsidianblade4.xml" />
+    <file name="blade_projectile1.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/blade_projectile1.xml" />
+    <file name="blade_projectile2.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/weapons/blade_projectile2.xml" />
+    <file name="bladelotus3.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/vehicles/bladelotus/bladelotus3.xml" />
+    <collision name="earthCapOne.hkx" deferred_loading="true" protected="false" file="hellfiretest/earthcap/earthCapOne.hkx" />
+    <collision name="EarthFighter.hkx" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/EarthFighter.hkx" memory="host" />
+    <collision name="hkx_VIPCollision" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/vip_collision.hkx" memory="host" />
+    <collision name="hkx_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/teleporter/novus_portal.hkx" />
+    <anim name="anim_HangarCameraLaunch" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/HangerCamera.ani" />
+    <anim name="anim_HangarLightsLaunch" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/HangerLightsLaunch.ani" />
+    <anim name="anim_BotFighterOpen" deferred_loading="false" protected="false" file="hellfiretest/botfighter/Bot_Fighter.ani" />
+    <anim name="anim_BotScoutOpen" deferred_loading="false" protected="false" file="hellfiretest/botscout/Bot_Scout.ani" />
+    <anim name="anim_BotTortoiseOpen" deferred_loading="false" protected="false" file="hellfiretest/bottortoise/Bot_Tortoise.ani" />
+    <anim name="anim_BotJuggernautIdle" deferred_loading="false" protected="false" file="hellfiretest/botjuggernaut/Bot_Juggernaut.ani" />
+    <anim name="anim_BotShockerIdle" deferred_loading="false" protected="false" file="hellfiretest/botshocker/Bot_Shocker.ani" />
+    <anim name="anim_BotSpiderOpen" deferred_loading="false" protected="false" file="hellfiretest/botspider/Bot_Spider.ani" />
+    <anim name="anim_BotSpiderIdle" deferred_loading="false" protected="false" file="hellfiretest/botspider/Bot_Spider_idle.ani" />
+    <anim name="anim_BotSpiderClose" deferred_loading="false" protected="false" file="hellfiretest/botspider/Bot_Spider_close.ani" />
+    <anim name="anim_BotCapCoreOpen" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapCore.ani" />
+    <anim name="anim_BotCapPetalOpen" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapPetal.ani" />
+    <anim name="anim_BotCapPetalClose" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapPetalClose.ani" />
+    <anim name="anim_BotCapPetalDeath1" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapPetalDeath1.ani" />
+    <anim name="anim_BotCapCoreDeath1" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapCoreDeath1.ani" />
+    <anim name="anim_BotCapIdle" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapIdle.ani" />
+    <anim name="anim_Bot_Draxcore" deferred_loading="false" protected="false" file="hellfiretest/botbigboss/Bot_Draxcore.ani" />
+    <anim name="anim_Bot_Draxcore_close" deferred_loading="false" protected="false" file="hellfiretest/botbigboss/Bot_Draxcore_close.ani" />
+    <anim name="anim_Bot_Draxcore_spin" deferred_loading="false" protected="false" file="hellfiretest/botbigboss/Bot_Draxcore_spin.ani" />
+    <anim name="anim_shields_down" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_down.ani" />
+    <anim name="anim_shields_up" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_up.ani" />
+    <anim name="anim_shields_red_down" deferred_loading="false" protected="false" file="models/shields/red_shields_down.ani" />
+    <anim name="anim_shields_red_up" deferred_loading="false" protected="false" file="models/shields/red_shields_up.ani" />
+    <anim name="anim_obj_arrow" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/Obj_arrow1.ani" />
+    <anim name="anim_shields_idle" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_idle.ani" />
+    <anim name="anim_remote_bomb" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/remote_bomb.ani" />
+    <anim name="ani_asteroid_one" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_One.ani" />
+    <anim name="ani_asteroid_three" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Three.ani" />
+    <anim name="ani_bot_beacon" deferred_loading="false" protected="false" file="hellfiretest/botbeacon/Bot_Beacon.ani" />
+    <anim name="ani_earth_disruptor" deferred_loading="false" protected="false" file="hellfiretest/earthdisruptor/EarthDisruptor.ani" />
+    <anim name="ani_asteroid_two" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Two.ani" />
+    <anim name="anim_FighterTakeOff" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/FighterTakeOff.ani" />
+    <anim name="anim_CameraTakeOff" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/HangerCamera.ani" />
+    <anim name="anim_FighterIdle" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/EarthFighter.ani" />
+    <anim name="anim_FighterGoIn" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/FighterGoIn.ani" />
+    <anim name="anim_FighterGoOut" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/FighterGoOut.ani" />
+    <anim name="anim_EarthCapDeath" deferred_loading="false" protected="false" file="hellfiretest/earthcap/earthCapOne.ani" />
+    <anim name="anim_Swarm" deferred_loading="false" protected="false" file="models/botbee/BeeAnim.ani" />
+    <anim name="anim_BotBuffer" deferred_loading="false" protected="false" file="hellfiretest/botbuffer/bot_buffer.ani" />
+    <anim name="anim_BotBomber" deferred_loading="false" protected="false" file="hellfiretest/botbombadier/Bot_Bombadier.ani" />
+    <anim name="anim_BotBeeIdle" deferred_loading="false" protected="false" file="hellfiretest/botbee/Bot_Bee.ani" />
+    <anim name="anim_asteroid_mine1" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Mine1.ani" />
+    <anim name="anim_asteroid_mine1_bot" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Mine1_bot.ani" />
+    <anim name="anim_Proximity_Mine" deferred_loading="false" protected="false" file="hellfiretest/proximitymine/Proximity_Mine.ani" />
+    <anim name="anim_Kraken" deferred_loading="false" protected="false" file="hellfiretest/kraken/Kraken.ani" />
+    <anim name="ani_teamCircle" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/teamCircle.ani" />
+    <anim name="anim_Kraken_feign" deferred_loading="false" protected="false" file="hellfiretest/kraken/Kraken_feign.ani" />
+    <anim name="anim_Kraken_death" deferred_loading="false" protected="false" file="hellfiretest/kraken/Kraken_death.ani" />
+    <anim name="anim_Kraken_idle" deferred_loading="false" protected="false" file="hellfiretest/kraken/Kraken_idle.ani" />
+    <anim name="anim_EarthHackerIdle" deferred_loading="false" protected="false" file="hellfiretest/tank_hacker/tank_hacker.ani" />
+    <anim name="anim_ObsidianFighterIdle" deferred_loading="false" protected="false" file="hellfiretest/obsidianfighter/ObsidianFighter.ani" />
+    <skeleton name="EarthFighter.skn" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/EarthFighter.skn" />
+    <skeleton name="EarthFighter2.skn" deferred_loading="false" protected="false" file="hellfiretest/earthfighter2/EarthFighter2.skn" />
+    <skeleton name="skn_EarthScout" deferred_loading="false" protected="false" file="hellfiretest/earthscout/earthfighter_scout.skn" />
+    <skeleton name="skn_HangarLightsLaunch" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/HangerLightsLaunch.skn" />
+    <skeleton name="skn_BotCapCore" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapCore.skn" />
+    <skeleton name="skn_Bot_Draxcore" deferred_loading="false" protected="false" file="hellfiretest/botbigboss/Bot_Draxcore.skn" />
+    <skeleton name="skn_Bot_Draxcore_spin" deferred_loading="false" protected="false" file="hellfiretest/botbigboss/Bot_Draxcore_spin.skn" />
+    <skeleton name="skn_Bot_Draxcharger" deferred_loading="false" protected="false" file="hellfiretest/botbigboss/Bot_Draxcharger.skn" />
+    <skeleton name="skn_BotCapPetal" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCapPetal.skn" />
+    <skeleton name="skn_BotFighter" deferred_loading="false" protected="false" file="hellfiretest/botfighter/Bot_Fighter.skn" />
+    <skeleton name="skn_BotScout" deferred_loading="false" protected="false" file="hellfiretest/botscout/Bot_Scout.skn" />
+    <skeleton name="skn_BotTortoise" deferred_loading="false" protected="false" file="hellfiretest/bottortoise/Bot_Tortoise.skn" />
+    <skeleton name="skn_BotJuggernaut" deferred_loading="false" protected="false" file="hellfiretest/botjuggernaut/Bot_Juggernaut.skn" />
+    <skeleton name="skn_BotExecutioner" deferred_loading="false" protected="false" file="hellfiretest/botexecutioner/botexecutioner.skn" />
+    <skeleton name="skn_BotShocker" deferred_loading="false" protected="false" file="hellfiretest/botshocker/Bot_Shocker.skn" />
+    <skeleton name="skn_BotSpider" deferred_loading="false" protected="false" file="hellfiretest/botspider/Bot_Spider.skn" />
+    <skeleton name="skn_EarthFighterTurret" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/EarthFighterTurret.skn" />
+    <skeleton name="skn_EarthFighter2Turret" deferred_loading="false" protected="false" file="hellfiretest/earthfighter2/EarthFighter2Turret.skn" />
+    <skeleton name="skn_earthCapOne" deferred_loading="false" protected="false" file="hellfiretest/earthcap/earthCapOne.skn" />
+    <skeleton name="skn_shields" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_down.skn" />
+    <skeleton name="skn_shields_red" deferred_loading="false" protected="false" file="models/shields/red_shields_down.skn" />
+    <skeleton name="skn_obj_arrow" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/Obj_arrow1.skn" />
+    <skeleton name="skn_BotCap" deferred_loading="false" protected="false" file="hellfiretest/botcap/BotCap.skn" />
+    <skeleton name="skn_shields_idle" deferred_loading="false" protected="false" file="models/shields/greenyellow_shields_idle.skn" />
+    <skeleton name="skn_remote_bomb" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/remote_bomb.skn" />
+    <skeleton name="skn_asteroid_one" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_One.skn" />
+    <skeleton name="skn_asteroid_three" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Three.skn" />
+    <skeleton name="skn_asteroid_two" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Two.skn" />
+    <skeleton name="skn_asteroid_mine1" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_Mine1.skn" />
+    <skeleton name="skn_bot_beacon" deferred_loading="false" protected="false" file="hellfiretest/botbeacon/Bot_Beacon.skn" />
+    <skeleton name="skn_earth_disruptor" deferred_loading="false" protected="false" file="hellfiretest/earthdisruptor/EarthDisruptor.skn" />
+    <skeleton name="skn_FighterTakeOff" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/FighterTakeOff.skn" />
+    <skeleton name="skn_CameraTakeOff" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/HangerCamera.skn" />
+    <skeleton name="skn_FighterGoIn" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/FighterGoIn.skn" />
+    <skeleton name="skn_FighterGoOut" deferred_loading="false" protected="false" file="hellfiretest/earthfighter/FighterGoOut.skn" />
+    <skeleton name="skn_Swarm" deferred_loading="false" protected="false" file="models/botbee/BeeAnim.skn" />
+    <skeleton name="skn_BotBuffer" deferred_loading="false" protected="false" file="hellfiretest/botbuffer/bot_buffer.skn" />
+    <skeleton name="skn_BotBomber" deferred_loading="false" protected="false" file="hellfiretest/botbombadier/Bot_Bombadier.skn" />
+    <skeleton name="skn_BotDevastator" deferred_loading="false" protected="false" file="hellfiretest/botdevastator/Bot_Devastator.skn" />
+    <skeleton name="skn_BotBee" deferred_loading="false" protected="false" file="hellfiretest/botbee/Bot_Bee.skn" />
+    <skeleton name="skn_Proximity_Mine" deferred_loading="false" protected="false" file="hellfiretest/proximitymine/Proximity_Mine.skn" />
+    <skeleton name="skn_EarthHacker" deferred_loading="false" protected="false" file="hellfiretest/tank_hacker/tank_hacker.skn" />
+    <skeleton name="skn_Kraken" deferred_loading="false" protected="false" file="hellfiretest/kraken/Kraken.skn" />
+    <skeleton name="skn_teamCircle" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/teamCircle.skn" />
+    <skeleton name="skn_ObsidianFighter" deferred_loading="false" protected="false" file="hellfiretest/obsidianfighter/ObsidianFighter.skn" />
+    <soundbank name="GameSFX" deferred_loading="false" protected="false" file="hellfiretest/audio/gamesound_game.bnk" />
+    <soundstream name="music_ActionNonBoss" deferred_loading="false" protected="false" file="hellfiretest/audio/music/NebulonActionNonBoss1FullLength.mp3" />
+    <soundstream name="music_SpaceStation" deferred_loading="false" protected="false" file="hellfiretest/audio/music/SpaceStationAmbience.mp3" />
+    <soundstream name="music_ActionBoss" deferred_loading="false" protected="false" file="hellfiretest/audio/music/NebulonBossAction.mp3" />
+    <soundstream name="music_NebulonAmbient" deferred_loading="false" protected="false" file="hellfiretest/audio/music/NebulonAmbient1.mp3" />
+    <soundstream name="music_Victory" deferred_loading="false" protected="false" file="hellfiretest/audio/music/NebulonVictorySong3.mp3" />
+    <soundstream name="music_ObsidianCapIntro" deferred_loading="false" protected="false" file="hellfiretest/audio/music/NebulonObsidianCapIntro3.mp3" />
+    <soundstream name="music_ObsidianLoopable" deferred_loading="false" protected="false" file="hellfiretest/audio/music/NebulonObsidianLoopable2.mp3" />
+    <soundstream name="music_IntenseAction" deferred_loading="false" protected="false" file="hellfiretest/audio/music/NebulonIntenseAction2Loopable.mp3" />
+    <lua name="Game_CoOp.lua" deferred_loading="false" protected="true" file="scripts/games/game_coop.luac" />
+    <lua name="class.lua" deferred_loading="false" protected="true" file="scripts/misc/class.luac" />
+    <lua name="Debug.lua" deferred_loading="false" protected="true" file="scripts/misc/debug.luac" />
+    <lua name="GameObject.lua" deferred_loading="false" protected="true" file="scripts/objects/gameobject.luac" />
+    <lua name="Ship.lua" deferred_loading="false" protected="true" file="scripts/objects/ship.luac" />
+    <lua name="Vehicle.lua" deferred_loading="false" protected="true" file="scripts/objects/vehicle.luac" />
+    <lua name="Weapon.lua" deferred_loading="false" protected="true" file="scripts/objects/weapon.luac" />
+    <lua name="World.lua" deferred_loading="false" protected="true" file="scripts/objects/world.luac" />
+    <lua name="AIComponent.lua" deferred_loading="false" protected="true" file="scripts/ai/aicomponent.luac" />
+    <lua name="NetworkedComponent.lua" deferred_loading="false" protected="true" file="scripts/components/networkedcomponent.luac" />
+    <lua name="PlayerComponent.lua" deferred_loading="false" protected="true" file="scripts/components/playercomponent.luac" />
+    <lua name="GameOsd.lua" deferred_loading="false" protected="true" file="scripts/osd/gameosd.luac" />
+    <lua name="WeaponsComponent.lua" deferred_loading="false" protected="true" file="scripts/components/weaponscomponent.luac" />
+    <lua name="LaunchProjectile.lua" deferred_loading="false" protected="true" file="scripts/objects/launchprojectile.luac" />
+    <lua name="OnHitDamage.lua" deferred_loading="false" protected="true" file="scripts/objects/onhitdamage.luac" />
+    <lua name="ParticleEffect.lua" deferred_loading="false" protected="true" file="scripts/objects/particleeffect.luac" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="scripts/misc/statemachine.luac" />
+    <lua name="Sound.lua" deferred_loading="false" protected="true" file="scripts/misc/sound.luac" />
+    <lua name="AISpawner.lua" deferred_loading="false" protected="true" file="scripts/ai/aispawner.luac" />
+    <lua name="AnimHelper.lua" deferred_loading="false" protected="true" file="scripts/misc/animhelper.luac" />
+    <lua name="Serialization.lua" deferred_loading="false" protected="true" file="scripts/misc/serialization.luac" />
+    <lua name="Trigger.lua" deferred_loading="false" protected="true" file="scripts/objects/trigger.luac" />
+    <lua name="Actions.lua" deferred_loading="false" protected="true" file="scripts/objects/actions.luac" />
+    <lua name="Conditions.lua" deferred_loading="false" protected="true" file="scripts/objects/conditions.luac" />
+    <lua name="Missions.lua" deferred_loading="false" protected="true" file="scripts/missions/missions.luac" />
+    <lua name="MissionZero.lua" deferred_loading="false" protected="true" file="scripts/missions/missionzero.luac" />
+    <lua name="StdMissionOne.lua" deferred_loading="false" protected="true" file="scripts/missions/stdmissionone.luac" />
+    <lua name="MissionOne.lua" deferred_loading="false" protected="true" file="scripts/missions/missionone.luac" />
+    <lua name="MissionOneEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missiononeex.luac" />
+    <lua name="MissionTwo.lua" deferred_loading="false" protected="true" file="scripts/missions/missiontwo.luac" />
+    <lua name="MissionThree.lua" deferred_loading="false" protected="true" file="scripts/missions/missionthree.luac" />
+    <lua name="MissionThreeEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionthreeex.luac" />
+    <lua name="MissionFourEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionfourex.luac" />
+    <lua name="MissionFour.lua" deferred_loading="false" protected="true" file="scripts/missions/missionfour.luac" />
+    <lua name="MissionFive.lua" deferred_loading="false" protected="true" file="scripts/missions/missionfive.luac" />
+    <lua name="MissionSix.lua" deferred_loading="false" protected="true" file="scripts/missions/missionsix.luac" />
+    <lua name="MissionSixEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionsixex.luac" />
+    <lua name="MissionSeven.lua" deferred_loading="false" protected="true" file="scripts/missions/missionseven.luac" />
+    <lua name="MissionEight.lua" deferred_loading="false" protected="true" file="scripts/missions/missioneight.luac" />
+    <lua name="MissionEightEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missioneightex.luac" />
+    <lua name="MissionEightMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missioneightmx.luac" />
+    <lua name="MissionNine.lua" deferred_loading="false" protected="true" file="scripts/missions/missionnine.luac" />
+    <lua name="MissionNineEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionnineex.luac" />
+    <lua name="MissionNineMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionninemx.luac" />
+    <lua name="MissionOneMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missiononemx.luac" />
+    <lua name="MissionFourMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionfourmx.luac" />
+    <lua name="MissionSixMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionsixmx.luac" />
+    <lua name="MissionTwoMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missiontwomx.luac" />
+    <lua name="MissionSevenMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionsevenmx.luac" />
+    <lua name="MissionThreeMx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionthreemx.luac" />
+    <lua name="List.lua" deferred_loading="false" protected="true" file="scripts/misc/list.luac" />
+    <lua name="Buff.lua" deferred_loading="false" protected="true" file="scripts/objects/buff.luac" />
+    <lua name="BuffEffects.lua" deferred_loading="false" protected="true" file="scripts/objects/buffeffects.luac" />
+    <lua name="AIBotBlackwing.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibotblackwing.luac" />
+    <lua name="AIStates.lua" deferred_loading="false" protected="true" file="scripts/ai/aistates.luac" />
+    <lua name="ChargeProjectile.lua" deferred_loading="false" protected="true" file="scripts/objects/chargeprojectile.luac" />
+    <lua name="AIBotScout.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibotscout.luac" />
+    <lua name="AIBotTortoise.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibottortoise.luac" />
+    <lua name="Loot.lua" deferred_loading="false" protected="true" file="scripts/objects/loot.luac" />
+    <lua name="Networking.lua" deferred_loading="false" protected="true" file="scripts/objects/networking.luac" />
+    <lua name="Radar.lua" deferred_loading="false" protected="true" file="scripts/osd/radar.luac" />
+    <lua name="bit.lua" deferred_loading="false" protected="true" file="scripts/misc/bit.luac" />
+    <lua name="hex.lua" deferred_loading="false" protected="true" file="scripts/misc/hex.luac" />
+    <lua name="Globals.lua" deferred_loading="false" protected="true" file="scripts/misc/globals.luac" />
+    <lua name="Collision.lua" deferred_loading="false" protected="true" file="scripts/misc/collision.luac" />
+    <lua name="CapShipTurret.lua" deferred_loading="false" protected="true" file="scripts/objects/capshipturret.luac" />
+    <lua name="Objectives.lua" deferred_loading="false" protected="true" file="scripts/missions/objectives.luac" />
+    <lua name="MiscWeaponEffects.lua" deferred_loading="false" protected="true" file="scripts/objects/miscweaponeffects.luac" />
+    <lua name="GuidanceComponent.lua" deferred_loading="false" protected="true" file="scripts/components/guidancecomponent.luac" />
+    <lua name="AIBladeLotus.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibladelotus.luac" />
+    <lua name="MusicHelper.lua" deferred_loading="false" protected="true" file="scripts/misc/musichelper.luac" />
+    <lua name="UseComponent.lua" deferred_loading="false" protected="true" file="scripts/components/usecomponent.luac" />
+    <lua name="Level.lua" deferred_loading="false" protected="true" file="scripts/objects/level.luac" />
+    <lua name="Callback.lua" deferred_loading="false" protected="true" file="scripts/misc/callback.luac" />
+    <lua name="ObjectiveWindow.lua" deferred_loading="false" protected="true" file="scripts/osd/objectivewindow.luac" />
+    <lua name="PilotHud.lua" deferred_loading="false" protected="true" file="scripts/osd/pilothud.luac" />
+    <lua name="Server.lua" deferred_loading="false" protected="true" file="scripts/objects/server.luac" />
+    <lua name="Shop.lua" deferred_loading="false" protected="true" file="scripts/shop/shop.luac" />
+    <lua name="Window.lua" deferred_loading="false" protected="true" file="scripts/gui/window.luac" />
+    <lua name="ShipConfig.lua" deferred_loading="false" protected="true" file="scripts/shop/shipconfig.luac" />
+    <lua name="Legend.lua" deferred_loading="false" protected="true" file="scripts/gui/legend.luac" />
+    <lua name="Menu.lua" deferred_loading="false" protected="true" file="scripts/gui/menu.luac" />
+    <lua name="Slider.lua" deferred_loading="false" protected="true" file="scripts/gui/slider.luac" />
+    <lua name="CreateGame.lua" deferred_loading="false" protected="true" file="scripts/gui/creategame.luac" />
+    <lua name="GameList.lua" deferred_loading="false" protected="true" file="scripts/gui/gamelist.luac" />
+    <lua name="HangarLaunch.lua" deferred_loading="false" protected="true" file="scripts/shop/hangarlaunch.luac" />
+    <lua name="AIBotBee.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibotbee.luac" />
+    <lua name="AIBotSpider.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibotspider.luac" />
+    <lua name="OfflineName.lua" deferred_loading="false" protected="true" file="scripts/offlinename.luac" />
+    <lua name="AIBotBomber.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibotbomber.luac" />
+    <lua name="AIBotBuffer.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibotbuffer.luac" />
+    <lua name="AIKraken.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aikraken.luac" />
+    <lua name="PlayerList.lua" deferred_loading="false" protected="true" file="scripts/osd/playerlist.luac" />
+    <lua name="GameMenu.lua" deferred_loading="false" protected="true" file="scripts/gui/gamemenu.luac" />
+    <lua name="AIEscort.lua" deferred_loading="false" protected="true" file="scripts/ai/aiescort.luac" />
+    <lua name="ControlNode.lua" deferred_loading="false" protected="true" file="scripts/objects/controlnode.luac" />
+    <lua name="MissionBars.lua" deferred_loading="false" protected="true" file="scripts/osd/missionbars.luac" />
+    <lua name="LeaderboardScreen.lua" deferred_loading="false" protected="true" file="scripts/osd/leaderboardscreen.luac" />
+    <lua name="MissionStats.lua" deferred_loading="false" protected="true" file="scripts/missions/missionstats.luac" />
+    <lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="scripts/misc/asynccommandjobmanager.luac" />
+    <lua name="FieldComponent.lua" deferred_loading="false" protected="true" file="scripts/components/fieldcomponent.luac" />
+    <lua name="FloatyText.lua" deferred_loading="false" protected="true" file="scripts/osd/floatytext.luac" />
+    <lua name="AptRelocator.lua" deferred_loading="false" protected="true" file="scripts/misc/aptrelocator.luac" />
+    <lua name="Game_CoOp_Shared.lua" deferred_loading="false" protected="true" file="scripts/games/game_coop_shared.luac" />
+    <lua name="MissionSevenEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missionsevenex.luac" />
+    <lua name="TestMission.lua" deferred_loading="false" protected="true" file="scripts/missions/testmission.luac" />
+    <lua name="MissionTwoEx.lua" deferred_loading="false" protected="true" file="scripts/missions/missiontwoex.luac" />
+    <lua name="AIBotShocker.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibotshocker.luac" />
+    <lua name="AIBotHobbler.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibothobbler.luac" />
+    <lua name="AIBeacon.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aibeacon.luac" />
+    <lua name="AIDrax.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aidrax.luac" />
+    <lua name="AIDraxcore.lua" deferred_loading="false" protected="true" file="scripts/ai/ships/aidraxcore.luac" />
+    <lua name="MissionWindow.lua" deferred_loading="false" protected="true" file="scripts/gui/missionwindow.luac" />
+    <lua name="Inventory.lua" deferred_loading="false" protected="true" file="scripts/misc/inventory.luac" />
+  </local>
+  <external />
+</resources>

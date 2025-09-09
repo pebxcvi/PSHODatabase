@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="HTmk2_body.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_body.mdl" />
+		<model name="HTmk2_bodyPlate2.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_bodyPlate2.mdl" />
+		<model name="HTmk2_burner_TwinJet.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_burner_TwinJet.mdl" />
+		<model name="HTmk2_canopy.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_canopy.mdl" />
+		<model name="HTmk2_jet_thrustClamp.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_jet_thrustClamp.mdl" />
+		<model name="HTmk2_jet_thrustFan.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_jet_thrustFan.mdl" />
+		<model name="HTmk2_jet_thrustMain.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_jet_thrustMain.mdl" />
+		<model name="HTmk2_jet_thrustMain_fx.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_jet_thrustMain_fx.mdl" />
+		<model name="HTmk2_jet_thrustMain_p2.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_jet_thrustMain_p2.mdl" />
+		<model name="HTmk2_thrustArm.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_thrustArm.mdl" />
+		<model name="HTmk2_underside.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/HTmk2_underside.mdl" />
+		<model name="beam_pointDefenceGlowRed.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/beam_pointDefenceGlowRed.mdl" />
+		<model name="beam_pointDefenceImpactRed.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/beam_pointDefenceImpactRed.mdl" />
+		<model name="beam_pointDefenceRed.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/beam_pointDefenceRed.mdl" />
+		<model name="fx_MissileFlame.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/fx_MissileFlame.mdl" />
+		<model name="missile_Bullpup.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/missile_Bullpup.mdl" />
+		<model name="wep_Plasma_Gun.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/wep_Plasma_Gun.mdl" />
+		<model name="wep_PointDefenceEmmiter.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/wep_PointDefenceEmmiter.mdl" />
+		<model name="wep_Std_Base.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Models/wep_Std_Base.mdl" />
+		<model name="S2_TransporterDevice_type2.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/S2_TransporterDevice_type2.mdl" />
+		<model name="portal_effect_s1.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/portal_effect_s1.mdl" />
+		<model name="portal_bolt04.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/portal_bolt_red04.mdl" />
+		<model name="portal_bolt01.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/portal_bolt_red01.mdl" />
+		<model name="portal_bolt02.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/portal_bolt_red02.mdl" />
+		<model name="portal_bolt03.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/portal_bolt_red03.mdl" />
+		<model name="portal_tunnel.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/portal_tunnel.mdl" />
+		<texture name="spotLight.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/spotLight.dds" />
+		<particle name="plaza_hoverBlast.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/props/hovertank/Effects/plaza_hoverBlast.efx" />
+		<particle name="sodium_firework_1.efx" deferred_loading="false" file="MiniGames/Sodium/Shared/dynFx/sodium_firework_1.efx" />
+		<particle name="PortalDevice_red.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/PortalDevice_red.efx" />
+		<particle name="PortalDevice_Travel.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/PortalDevice_Travel.efx" />
+		<collision name="engine_phys.hkx" deferred_loading="false" file="MiniGames/Sodium/Shared/dynFx/engine_phys.hkx" />
+		<collision name="s2_transporterdevice_type2.hkx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/dynFx/s2_transporterdevice.hkx" />
+		<soundbank name="sodium_displayTank_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/dynFx/sounds/sodium_displayTank_sounds.bnk" />
+		<lua name="Dampener2.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/Dampener2.lua" />
+		<lua name="EntityDB.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/EntityDB.lua" />
+		<lua name="General_Fn_Lib.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/General_Fn_Lib.lua" />
+		<lua name="assortedFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/assortedFunctions.lua" />
+		<lua name="firework_launcher.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/firework_launcher.lua" />
+		<lua name="gun.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/gun.lua" />
+		<lua name="hoverTank.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/hoverTank.lua" />
+		<lua name="hoverTank_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/hoverTank_Defs.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/actiondistrict_main.lua" />
+		<lua name="projectile.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/projectile.lua" />
+		<lua name="ripairs.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/ripairs.lua" />
+		<lua name="simple_Fx.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/simple_Fx.lua" />
+		<lua name="soundSys.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/soundSys.lua" />
+		<lua name="thrusterAssembley.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/thrusterAssembley.lua" />
+		<lua name="vecCalc.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/vecCalc.lua" />
+		<lua name="DynFx.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/DynFx.lua" />
+		<lua name="Teleportal_CustomEffects.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/dynFx/Teleportal_CustomEffects.lua" />
+		<lua name="DynFx_Libs.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/DynFx_Libs.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/OHS.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/props/hovertank/Jamin.lua" />
+	</local>
+	<external />
+</resources>

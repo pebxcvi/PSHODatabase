@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="VelvetRope" file="minigames/framework/models/clubFNvelvetRope.mdl" />
+		<collision name="VelvetRopeCol" file="minigames/framework/models/clubFNvelvetRope.hkx" deferred_loading="false" />
+		<model name="SignModel"		file="minigames/framework/models/flatPanel.mdl" />
+		<model name="DJLight"		file="environments/fightnight/clubFN_DJL_on.mdl" />
+		<skeleton name="DJLightSkel" file="environments/fightnight/clubFN_DJL_loop3.skn" />
+		<anim name="DJLightAnim1"	file="environments/fightnight/clubFN_DJL_loop1.ani" />
+		<anim name="DJLightAnim2"	file="environments/fightnight/clubFN_DJL_loop2.ani" />
+		<anim name="DJLightAnim3"	file="environments/fightnight/clubFN_DJL_loop3.ani" />
+		<anim name="DJLightAnimOff"	file="environments/fightnight/clubFN_DJL_off.ani" />
+		<anim name="DJLightAnimOn"	file="environments/fightnight/clubFN_DJL_on.ani" />
+		<model name="RingLight"		file="environments/fightnight/clubFN_RL_on.mdl" />
+		<skeleton name="RingLightSkel" file="environments/fightnight/clubFN_RL_loop2.skn" />
+		<anim name="RingLightAnim1"	file="environments/fightnight/clubFN_RL_loop1.ani" />
+		<anim name="RingLightAnim2"	file="environments/fightnight/clubFN_RL_loop2.ani" />
+		<anim name="RingLightAnimOff"	file="environments/fightnight/clubFN_RL_off.ani" />
+		<anim name="RingLightAnimOn"	file="environments/fightnight/clubFN_RL_on.ani" />
+
+		<texture name="TextBox" file="MiniGames/Framework/Textures/DJGame/Text_Box.dds" deferred_loading="false" />
+		<texture name="Record" file="MiniGames/Framework/Textures/DJGame/ring.dds" deferred_loading="false" />
+		<texture name="RedRecord" file="MiniGames/Framework/Textures/DJGame/red_ring.dds" deferred_loading="false" />
+		<texture name="BeatTarget" file="MiniGames/Framework/Textures/DJGame/beat_target.dds" deferred_loading="false" />
+		<texture name="BeatIndicator" file="MiniGames/Framework/Textures/DJGame/beat_indicator.dds" deferred_loading="false" />
+		<texture name="Cross" file="MiniGames/Framework/Textures/DJGame/x.dds" deferred_loading="false" />
+		<texture name="Square" file="MiniGames/Framework/Textures/DJGame/square.dds" deferred_loading="false" />
+		<texture name="Triangle" file="MiniGames/Framework/Textures/DJGame/triangle.dds" deferred_loading="false" />
+		<texture name="Circle" file="MiniGames/Framework/Textures/DJGame/circle.dds" deferred_loading="false" />
+		<texture name="Left" file="MiniGames/Framework/Textures/DJGame/left.dds" deferred_loading="false" />
+		<texture name="Up" file="MiniGames/Framework/Textures/DJGame/up.dds" deferred_loading="false" />
+		<texture name="Right" file="MiniGames/Framework/Textures/DJGame/right.dds" deferred_loading="false" />
+		<texture name="Down" file="MiniGames/Framework/Textures/DJGame/down.dds" deferred_loading="false" />
+		<texture name="DarkCross" file="MiniGames/Framework/Textures/DJGame/d_x.dds" deferred_loading="false" />
+		<texture name="DarkSquare" file="MiniGames/Framework/Textures/DJGame/d_square.dds" deferred_loading="false" />
+		<texture name="DarkTriangle" file="MiniGames/Framework/Textures/DJGame/d_triangle.dds" deferred_loading="false" />
+		<texture name="DarkCircle" file="MiniGames/Framework/Textures/DJGame/d_circle.dds" deferred_loading="false" />
+		<texture name="DarkLeft" file="MiniGames/Framework/Textures/DJGame/d_left.dds" deferred_loading="false" />
+		<texture name="DarkUp" file="MiniGames/Framework/Textures/DJGame/d_up.dds" deferred_loading="false" />
+		<texture name="DarkRight" file="MiniGames/Framework/Textures/DJGame/d_right.dds" deferred_loading="false" />
+		<texture name="DarkDown" file="MiniGames/Framework/Textures/DJGame/d_down.dds" deferred_loading="false" />
+		<texture name="BlueBonusBar" file="MiniGames/Framework/Textures/DJGame/bonus_bar.dds" deferred_loading="false" />
+		<texture name="YellowBonusBar" file="MiniGames/Framework/Textures/DJGame/bonus_bar_y.dds" deferred_loading="false" />
+		<texture name="RedBonusBar" file="MiniGames/Framework/Textures/DJGame/bonus_bar_r.dds" deferred_loading="false" />
+		<texture name="ShiftTray" file="MiniGames/Framework/Textures/DJGame/switch_path.dds" deferred_loading="false" />
+		<texture name="ShiftTrayRdy" file="MiniGames/Framework/Textures/DJGame/switch_path_rdy.dds" deferred_loading="false" />
+		<texture name="ShiftTrayOn" file="MiniGames/Framework/Textures/DJGame/switch_path_on.dds" deferred_loading="false" />
+		<texture name="ShiftKnob" file="MiniGames/Framework/Textures/DJGame/platter_switch.dds" deferred_loading="false" />
+		<texture name="HitSquareMark" file="MiniGames/Framework/Textures/DJGame/hit_mark.dds" deferred_loading="false" />
+		<texture name="HitCircleMark" file="MiniGames/Framework/Textures/DJGame/hit_button.dds" deferred_loading="false" />
+		<texture name="HitText" file="MiniGames/Framework/Textures/DJGame/hit_text.dds" deferred_loading="false" />
+		<texture name="MissSquareMark" file="MiniGames/Framework/Textures/DJGame/miss_mark.dds" deferred_loading="false" />
+		<texture name="MissCircleMark" file="MiniGames/Framework/Textures/DJGame/miss_button.dds" deferred_loading="false" />
+		<texture name="MissText" file="MiniGames/Framework/Textures/DJGame/miss_text.dds" deferred_loading="false" />
+		<texture name="PerfectSquareMark" file="MiniGames/Framework/Textures/DJGame/perfect_mark.dds" deferred_loading="false" />
+		<texture name="PerfectCircleMark" file="MiniGames/Framework/Textures/DJGame/perfect_button.dds" deferred_loading="false" />
+		<texture name="PerfectText" file="MiniGames/Framework/Textures/DJGame/perfect_text.dds" deferred_loading="false" />
+		
+		<file name="Camera" file="MiniGames/Framework/LUA/Obfuscated/Camera.lua" deferred_loading="false" />
+		<file name="SecurityManager" file="minigames/framework/LUA/Obfuscated/SecurityManager.lua" deferred_loading="false" />
+		<file name="Utilities" file="MiniGames/Framework/LUA/Obfuscated/Utilities.lua" deferred_loading="false" />
+		<file name="EventManager" file="MiniGames/Framework/LUA/Obfuscated/EventManager.lua" deferred_loading="false" />
+		<file name="MessageManager" file="MiniGames/Framework/LUA/Obfuscated/MessageManager.lua" deferred_loading="false" />
+		<file name="LOL" file="MiniGames/Framework/LUA/Obfuscated/LOL.lua" deferred_loading="false" />
+		<file name="TimerClass" file="MiniGames/Framework/LUA/Obfuscated/TimerClass.lua" deferred_loading="false" />
+		<file name="CountdownTimerClass" file="MiniGames/Framework/LUA/Obfuscated/CountdownTimerClass.lua" deferred_loading="false" />
+		<file name="ProcessManager" file="MiniGames/Framework/LUA/Obfuscated/ProcessManager.lua" deferred_loading="false" />
+		<file name="InputManager" file="MiniGames/Framework/LUA/Obfuscated/InputManager.lua" deferred_loading="false" />
+		<file name="Matrix" file="MiniGames/Framework/LUA/Obfuscated/Matrix.lua" deferred_loading="false" />
+		<file name="OSD" file="MiniGames/Framework/LUA/Obfuscated/OSD.lua" deferred_loading="false" />
+		<file name="ScreenManager" file="MiniGames/Framework/LUA/Obfuscated/ScreenManager.lua" deferred_loading="false" />
+		<file name="FirstPersonCamera" file="MiniGames/Framework/LUA/Obfuscated/FirstPersonCamera.lua" deferred_loading="false" />
+		<file name="ParseXmlOnlineClass" file="MiniGames/Framework/LUA/Obfuscated/ParseXmlOnlineClass.lua" deferred_loading="false" />
+		<file name="MiniGame" file="MiniGames/DJGame_New/LUA/Obfuscated/DJGame.lua" deferred_loading="false" />
+		<file name="DJCamera" file="MiniGames/DJGame_New/LUA/Obfuscated/DJCamera.lua" deferred_loading="false" />
+		<file name="DJLeaderboard" file="MiniGames/DJGame_New/LUA/Obfuscated/DJLeaderboard.lua" deferred_loading="false" />
+		<file name="DJGameStates" file="MiniGames/DJGame_New/DJGameStates/Obfuscated/DJGameStates.lua" deferred_loading="false" />
+		<file name="StateReady" file="MiniGames/DJGame_New/DJGameStates/Obfuscated/StateReady.lua" deferred_loading="false" />
+		<file name="StatePlay" file="MiniGames/DJGame_New/DJGameStates/Obfuscated/StatePlay.lua" deferred_loading="false" />
+		<file name="StateEnd" file="MiniGames/DJGame_New/DJGameStates/Obfuscated/StateEnd.lua" deferred_loading="false" />
+
+		<particle name="Sparks" file="MiniGames/Racing/Effects/wall_sparks.efx" deferred_loading="false" />
+		
+		<soundbank name="DJGame" file="Sounds/DJGame.bnk" />
+		<soundstream name="DJGameSong1" file="Sounds/GyroTrance_7_60__AW421501.mp3" />
+		<soundstream name="DJGameSong2" file="Sounds/Bombay_Flight_4__AW762201.mp3" />
+		<soundstream name="DJGameSong3" file="Sounds/High_Jinks__Rmx_60A.mp3" />
+		
+		<file name="GameScript" file="MiniGames/Framework/LUA/Game.lua" deferred_loading="false" />
+		<file name="Network_xml" file="MiniGames/DJGame_New/Network.xml" deferred_loading="false" />
+		<file name="OSDImage" file="minigames/framework/OSD/OSDImage.xml" />
+		<file name="OSDTextRight" file="minigames/framework/OSD/OSDTextRight.xml" />
+		<file name="OSDTextLeft" file="minigames/framework/OSD/OSDTextLeft.xml" />
+		<file name="OSDTextCenter" file="minigames/framework/OSD/OSDTextCenter.xml" />
+		<file name="OSDTextPanel" file="minigames/framework/OSD/OSDTextPanel.xml" />
+		<file name="OSDRootType" file="MiniGames/DJGame_New/OSD/DJGameOSDRootTypes.xml" deferred_loading="false" />
+		
+		<xml name="GameOSD" file="MiniGames/DJGame_New/XML/gameOSD.xml" deferred_loading="false" />
+		<xml name="GameData" file="MiniGames/DJGame_New/XML/gameData.xml" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

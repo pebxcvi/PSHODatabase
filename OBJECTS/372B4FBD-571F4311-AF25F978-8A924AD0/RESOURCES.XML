@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="Edo_Sub01/GetRegionUUID.lua" />
+		<model name="TOL_wall_01.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/TOL_wall_01.mdl" />
+		<model name="TOL_wall_02.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/TOL_wall_02.mdl" />
+		<model name="anm_TOL_item_green_lp.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_green.mdl" />
+		<model name="anm_TOL_item_blue_lp.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_blue.mdl" />
+		<model name="anm_TOL_item_red_lp.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_red.mdl" />
+		<model name="TOL_item_purple.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_purple.mdl" />
+		
+		
+		<model name="ushioni.mdl" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_lp.mdl" />
+		<model name="TOL_hole_y.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/TOL_hole_01.mdl" />
+		<model name="TOL_item_yellow.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_yellow.mdl" />
+		<model name="STREET_ONLY.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/STREET_ONLY.mdl" />
+		<model name="model_effect_blue.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_blue.mdl" />
+		<model name="model_effect_green.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_green.mdl" />
+		<!--<model name="model_effect_red.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_red.mdl" />-->
+		<model name="model_effect_hit_wall_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_hit_wall_00.mdl" />
+		<model name="anm_wall_01_shatter.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_01_shatter.mdl" />
+		<model name="anm_wall_02_shatter.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_02_shatter.mdl" />
+		<model name="model_effect_target.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_target.mdl" />
+		
+		<model name="TOL_item_tub.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_tub.mdl" />
+		<model name="anm_item_tub_hit.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/anm_item_tub_hit.mdl" />
+		<model name="model_effect_emergence_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_emergence_00.mdl" />
+		<model name="model_effect_confusion_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_confusion_00.mdl" />
+		<model name="model_effect_ougi_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_ougi_00.mdl" />
+		<model name="TOL_item_goal.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_goal.mdl" />
+		<model name="model_effect_blue_sp.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_blue_sp.mdl" />
+
+		<model name="model_effect_get_blue_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_blue_00.mdl" />
+		<model name="model_effect_get_green_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_green_00.mdl" />
+		<model name="model_effect_get_red_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_red_00.mdl" />
+		<model name="model_effect_get_purple_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_purple_00.mdl" />
+		<model name="model_effect_get_yellow_00.mdl" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_yellow_00.mdl" />
+		
+		<model name="TOL_item_miniushioni.mdl" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_miniushioni.mdl" />
+		
+		<model name="anmModel_star_02.mdl" deferred_loading="false" protected="false" >
+			<override file="Edo_Sub01/cmn_design/obj/anmModel_bosyu01.mdl" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/obj/anmModel_bosyu01_eu.mdl" />
+		</model>
+		<model name="anmModel_star_01.mdl" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_01.mdl" />
+
+
+		<texture name="CommonUI_window_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_01.dds" />
+		<texture name="CommonUI_window_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_02.dds" />
+		<texture name="CommonUI_window_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_03.dds" />
+		<texture name="CommonUI_window_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_04.dds" />
+		<texture name="CommonUI_window_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_05.dds" />
+		<texture name="CommonUI_window_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_06.dds" />
+		<texture name="CommonUI_window_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_07.dds" />
+		<texture name="CommonUI_window_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_08.dds" />
+		<texture name="CommonUI_window_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_09.dds" />
+		<texture name="CommonUI_namewindow_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_01.dds" />
+		<texture name="CommonUI_namewindow_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_02.dds" />
+		<texture name="CommonUI_namewindow_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_03.dds" />
+		<texture name="CommonUI_namewindow_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_04.dds" />
+		<texture name="CommonUI_namewindow_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_05.dds" />
+		<texture name="CommonUI_namewindow_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_06.dds" />
+		<texture name="CommonUI_namewindow_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_07.dds" />
+		<texture name="CommonUI_namewindow_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_08.dds" />
+		<texture name="CommonUI_namewindow_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_09.dds" />
+		<texture name="CommonUI_notselect_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_01.dds" />
+		<texture name="CommonUI_notselect_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_02.dds" />
+		<texture name="CommonUI_notselect_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_03.dds" />
+		<texture name="CommonUI_notselect_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_04.dds" />
+		<texture name="CommonUI_notselect_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_05.dds" />
+		<texture name="CommonUI_notselect_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_06.dds" />
+		<texture name="CommonUI_notselect_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_07.dds" />
+		<texture name="CommonUI_notselect_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_08.dds" />
+		<texture name="CommonUI_notselect_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_09.dds" />
+		<texture name="CommonUI_select_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_01.dds" />
+		<texture name="CommonUI_select_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_02.dds" />
+		<texture name="CommonUI_select_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_03.dds" />
+		<texture name="CommonUI_select_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_04.dds" />
+		<texture name="CommonUI_select_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_05.dds" />
+		<texture name="CommonUI_select_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_06.dds" />
+		<texture name="CommonUI_select_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_07.dds" />
+		<texture name="CommonUI_select_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_08.dds" />
+		<texture name="CommonUI_select_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_09.dds" />
+		
+		
+		<!--<texture name="Gameover" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/TOL_gameoer_01.dds" />-->
+		<!--<texture name="item_makimono" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/makimono.dds" />-->
+		<!--<texture name="munen" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/munen.dds" />-->
+		<!--<texture name="times" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/times.dds" />-->
+		<!--<texture name="select_icon_right2.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_icon_right2.dds" />-->
+		<!--<texture name="select_icon_left2.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_icon_left2.dds" />-->
+		<!--<texture name="select_hanko.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_hanko.dds" />-->
+		<!--<texture name="select_icon_right.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_icon_right.dds" />-->
+		<!--<texture name="select_icon_left.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_icon_left.dds" />-->
+		<!--<texture name="select_icon.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_icon.dds" />-->
+		<!--<texture name="select4.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select4.dds" />-->
+		<!--<texture name="select3.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select3.dds" />-->
+		<!--<texture name="select2.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select2.dds" />-->
+		<!--<texture name="select1.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select1.dds" />-->
+		<!--<texture name="select_0.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_0.dds" />-->
+		<!--<texture name="select_level_final.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_level_final.dds" />-->
+		<!--<texture name="select_level_first.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_level_first.dds" />-->
+		<!--<texture name="select_level_second.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_level_second.dds" />-->
+		<!--<texture name="select_level_third.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/select_level_third.dds" />-->
+		<!--<texture name="result_0.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/result_0.dds" />-->
+		<!--<texture name="result_hanko_0.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/result_hanko_0.dds" />-->
+		<!--<texture name="result_hanko_1.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/result_hanko_1.dds" />-->
+		<!--<texture name="result_hanko_2.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/result_hanko_2.dds" />-->
+		<!--<texture name="makimono.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/makimono.dds" />-->
+		<!--<texture name="accel_0.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/accel_0.dds" />-->
+		<!--<texture name="accel_1.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/accel_1.dds" />-->
+		<!--<texture name="accel_2.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/accel_2.dds" />-->
+		<!--<texture name="accel_3.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/accel_3.dds" />-->
+		<!--<texture name="accel_4.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/accel_4.dds" />-->
+		<!--<texture name="accel_5.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/accel_5.dds" />-->
+		<!--<texture name="item_blue.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/item_blue.dds" />-->
+		<!--<texture name="item_default.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/item_default.dds" />-->
+		<!--<texture name="item_green.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/item_green.dds" />-->
+		<!--<texture name="item_red.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/item_red.dds" />-->
+		<!--<texture name="makimono_1.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/makimono_1.dds" />-->
+		<!--<texture name="min_map_oni.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/min_map_oni.dds" />-->
+		<!--<texture name="mini_map_my_icon.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/mini_map_my_icon.dds" />-->
+		<!--<texture name="mini_map_street.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/mini_map_street.dds" />-->
+		<!--<texture name="time_bar_2.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/time_bar_2.dds" />-->
+		<!--<texture name="timebar.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/timebar.dds" />-->
+		<!--<texture name="grid.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/grid.dds" />-->
+		<!--<texture name="result_1.dds" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/2d/graphic/result_1.dds" />-->
+		
+		<texture name="count1.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/count1.dds" />
+		<texture name="count2.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/count2.dds" />
+		<texture name="count3.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/count3.dds" />
+		<texture name="countHazime.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countHazime.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countHazime_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countHazime_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countHazime_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countHazime_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countHazime_us.dds" />
+		</texture>
+		
+		<texture name="rizaruto0.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto0.dds" />
+		<texture name="rizaruto1.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto1.dds" />
+		<texture name="rizaruto2.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto2.dds" />
+		<texture name="rizaruto3.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto3.dds" />
+		<texture name="rizaruto4.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto4.dds" />
+		<texture name="rizaruto5.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto5.dds" />
+		<texture name="rizaruto6.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto6.dds" />
+		<texture name="rizaruto7.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto7.dds" />
+		<texture name="rizaruto8.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto8.dds" />
+		<texture name="rizaruto9.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/result_sample/rizaruto9.dds" />
+		<texture name="tol_ushioni.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/map_icon/enemy/tol_ushioni.dds" />
+		<texture name="tol_ushioni_oni.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/map_icon/enemy/tol_ushioni_oni.dds" />
+		<texture name="tol_player_blue.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/map_icon/player/tol_player_blue.dds" />
+		<texture name="tol_player_green.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/map_icon/player/tol_player_green.dds" />
+		<texture name="tol_player_purple.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/map_icon/player/tol_player_purple.dds" />
+		<texture name="tol_player_red.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/map_icon/player/tol_player_red.dds" />
+		<texture name="tol_kai_hanko.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/ougi_makimono/tol_kai_hanko.dds" />
+		<texture name="tol_ougi_bot.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/ougi_makimono/tol_ougi_bot.dds" />
+		
+		<texture name="icon_ougi_01.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/ougi_makimono/icon_ougi_01.dds" />
+		<texture name="icon_item_01.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_item_01.dds" />
+		<texture name="icon_item_02.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_item_02.dds" />
+		<texture name="icon_item_03.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_item_03.dds" />
+		<texture name="icon_item_04.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_item_04.dds" />
+		<texture name="item_moji_01.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/item_moji_01.dds" />
+		<texture name="item_moji_02.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/item_moji_02.dds" />
+		<texture name="item_moji_03.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/item_moji_03.dds" />
+		<texture name="item_moji_04.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/item_moji_04.dds" />
+
+		<texture  name="tol_gamen.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/tol_gamen_hukusuu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/tol_gamen_hukusuu_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/tol_gamen_hukusuu_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/tol_gamen_hukusuu_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/tol_gamen_hukusuu_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/tol_gamen_hukusuu_us.dds" />
+		</texture>
+
+		<texture  name="hanko_huka.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_huka.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_huka_us.dds" />
+		</texture>
+
+		<texture  name="hanko_ka.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_ka.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_ka_us.dds" />
+		</texture>
+
+		<texture  name="hanko_ryou.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_ryou.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_ryou_us.dds" />
+		</texture>
+
+		<texture name="hanko_tyousen.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_tyousen.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_tyousen_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_tyousen_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_tyousen_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_tyousen_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_tyousen_us.dds" />
+		</texture>
+		
+		<texture  name="hanko_yuu.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_yuu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_yuu_us.dds" />
+		</texture>
+
+		<texture name="match.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/match/match.dds" />
+		<texture name="match_kanou.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/match/match_kanou.dds" />
+		<texture name="match_zyunnbi.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/match/match_zyunnbi.dds" />
+		<texture  name="sougouhyouka.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_us.dds" />
+		</texture>
+
+		<texture name="nannido.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_us.dds" />
+		</texture>
+		
+		<texture name="nannido_boukyo.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_boukyo.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_boukyo_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_boukyo_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_boukyo_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_boukyo_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_boukyo_us.dds" />
+		</texture>
+		
+		<texture name="nannido_syokyu.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_syokyu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_syokyu_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_syokyu_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_syokyu_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_syokyu_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_syokyu_us.dds" />
+		</texture>
+		
+		<texture name="nannido_tyukyu.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_tyukyu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_tyukyu_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_tyukyu_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_tyukyu_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_tyukyu_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_tyukyu_us.dds" />
+		</texture>
+		
+		<texture name="nannido_zyokyu.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_zyokyu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_zyokyu_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_zyokyu_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_zyokyu_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_zyokyu_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/nannido_zyokyu_us.dds" />
+		</texture>
+		
+		
+		<texture name="hanko_zannen.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/hanko/hanko_zannen.dds" />
+		<texture  name="sougouhyouka_nanido_boukyo.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_boukyo.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_boukyo_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_boukyo_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_boukyo_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_boukyo_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_boukyo_us.dds" />
+		</texture>
+
+		<texture  name="sougouhyouka_nanido_syokyu.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_syokyu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_syokyu_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_syokyu_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_syokyu_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_syokyu_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_syokyu_us.dds" />
+		</texture>
+
+		<texture  name="sougouhyouka_nanido_tyukyu.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_tyukyu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_tyukyu_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_tyukyu_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_tyukyu_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_tyukyu_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_tyukyu_us.dds" />
+		</texture>
+
+		<texture  name="sougouhyouka_nanido_zyokyu.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_zyokyu.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_zyokyu_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_zyokyu_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_zyokyu_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_zyokyu_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_nanido_zyokyu_us.dds" />
+		</texture>
+
+	
+		<texture name="R.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/R.dds" />
+		<texture name="L.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/select/L.dds" />
+		
+<!--		<texture name="rule_1.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_1.dds" />-->
+<!--		<texture name="rule_2.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_2.dds" />-->
+<!--		<texture name="rule_3.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_3.dds" />-->
+<!--		<texture name="rule_4.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_4.dds" />-->
+		
+		<texture name="rule_1.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_1_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_1_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_1_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_1_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_1.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_1_us.dds" />
+		</texture>
+		<texture name="rule_2.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_2_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_2_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_2_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_2_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_2.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_2_us.dds" />
+		</texture>
+		<texture name="rule_3.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_3_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_3_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_3_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_3_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_3.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_3_us.dds" />
+		</texture>
+		<texture name="rule_4.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_4_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_4_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_4_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_4_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_4.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/setumei/rule_4_us.dds" />
+		</texture>
+		<texture  name="countgool.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countgool.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countgool_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countgool_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countgool_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countgool_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/race_count_sample/countgool_us.dds" />
+		</texture>
+
+		<texture  name="icon_button_renda.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_button_renda.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_button_renda_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_button_renda_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_button_renda_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_button_renda_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/tol_play_gamen/waza_makimono/icon_button_renda_us.dds" />
+		</texture>
+
+		<texture  name="sougouhyouka_taisen.dds" deferred_loading="true" protected="false" >
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_taisen.dds" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_taisen_fr.dds" locale="fr-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_taisen_de.dds" locale="de-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_taisen_it.dds" locale="it-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_taisen_es.dds" locale="es-*" />
+			<override file="Edo_Sub01/cmn_design/2d/UI_sample/TOL_dds/result/sougouhyouka_taisen_us.dds" />
+		</texture>
+
+		<texture name="ushioni_thumb.dds" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/2d/thumbnails/ushioni_thumb.dds" />
+
+		<particle name="test3.effect" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/tolfire.efx" />
+		<particle name="aaaau.effect" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/aaaau.efx" />
+		<particle name="blue_rings.effect" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/blue_rings.efx" />
+		<particle name="eff_aura_green_01.efx" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/eff_aura_green_01.efx" />
+		<particle name="eff_ougi_00.efx" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/eff_ougi_00.efx" />
+		<particle name="eff_ushioni_00.efx" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/eff_ushioni_00.efx" />
+		<particle name="blue_rings.efx" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/blue_rings.efx" />
+		<particle name="eff_green_sp.efx" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/eff_green_sp.efx" />
+		<particle name="eff_blue_sp.efx" deferred_loading="true" protected="false" file="Edo_Sub01/cmn_design/ATGParticles/Efx/eff_blue_sp.efx" />
+
+
+
+
+
+		
+		<!--<file name="tol_chip" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame/OSD/chip.xml" />-->
+		<!--<file name="tol_singlegraphic" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame/OSD/singlegraphic.xml" />-->
+		<!--<file name="tol_textpanel" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame/OSD/textpanel.xml" />-->
+		<!--<file name="osd_types" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame/OSD/types.xml" />-->
+		<!--<file name="tol_text" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame/OSD/text.xml" />-->
+		
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/file/Network.xml" />
+		<file name="NetworkLobby.xml" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/file/NetworkLobby.xml" />
+		
+		
+		<anim name="anm_M_TOL_break_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_break_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_dash2_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_dash2_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_float_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_float_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_jump_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_jump_lp.ani" memory="host"/>
+		<anim name="anm_M_tol_hole_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_tol_hole_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_down.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_down.ani" memory="host"/>
+		<anim name="anm_M_TOL_win2_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_win2_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_win3_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_win3_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_start2_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_start2_lp.ani" memory="host"/>
+		<anim name="anm_M_tol_hand_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_tol_hand_lp.ani" memory="host"/>
+		<anim name="anm_M_tol_run_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_tol_run_lp.ani" memory="host"/>
+		<anim name="anm_M_tol_run02_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_m_tol_run02_lp.ani" memory="host"/>
+		<anim name="anm_M_tol_yoroyoro_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_m_tol_yoroyoro_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_end.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_end.ani" memory="host"/>
+		<anim name="anm_M_TOL_end_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_end_lp.ani" memory="host"/>
+		<anim name="anm_M_TOL_hit.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_M_TOL_hit.ani" memory="host"/>
+		
+		
+		<anim name="anm_F_TOL_break_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_break_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_dash2_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_dash2_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_float_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_float_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_jump_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_jump_lp.ani" memory="host"/>
+		<anim name="anm_F_tol_hole_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_tol_hole_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_down.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_down.ani" memory="host"/>
+		<anim name="anm_F_TOL_win2_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_win2_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_win3_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_win3_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_start2_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_start2_lp.ani" memory="host"/>
+		<anim name="anm_F_tol_hand_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_tol_hand_lp.ani" memory="host"/>
+		<anim name="anm_F_tol_run_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_tol_run_lp.ani" memory="host"/>
+		<anim name="anm_F_tol_run02_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_f_tol_run02_lp.ani" memory="host"/>
+		<anim name="anm_F_tol_yoroyoro_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_tol_yoroyoro_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_end.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_end.ani" memory="host"/>
+		<anim name="anm_F_TOL_end_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_end_lp.ani" memory="host"/>
+		<anim name="anm_F_TOL_hit.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/motion/anm_F_TOL_hit.ani" memory="host"/>
+		
+		
+		<anim name="anm_ushioni_lp" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_lp.ani" memory="host"/>
+		<anim name="anm_TOL_item_updownturn_lp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/anm_TOL_item_updownturn_lp.ani" memory="host"/>
+		<anim name="model_effect_blue.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_blue.ani" memory="host"/>
+		<anim name="model_effect_green.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_green.ani" memory="host"/>
+		<anim name="model_effect_red.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_red.ani" memory="host"/>
+		<anim name="TOL_item_green.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_green.ani" memory="host"/>
+		<anim name="TOL_item_blue.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_blue.ani" memory="host"/>
+		<anim name="TOL_item_red.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_red.ani" memory="host"/>
+		<anim name="TOL_item_yellow.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_yellow.ani" memory="host"/>
+		<anim name="TOL_item_purple.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_purple.ani" memory="host"/>
+		<anim name="anm_item_tub_hit.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/anm_item_tub_hit.ani" memory="host"/>
+		<anim name="model_effect_emergence_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_emergence_00.ani" memory="host"/>
+		<anim name="model_effect_confusion_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_confusion_00.ani" memory="host"/>
+		<anim name="model_effect_ougi_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_ougi_00.ani" memory="host"/>
+		<anim name="TOL_item_goal.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_goal.ani" memory="host"/>
+		<anim name="model_effect_blue_sp.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_blue_sp.ani" memory="host"/>
+
+
+		<anim name="model_effect_get_blue_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_blue_00.ani" memory="host"/>
+		<anim name="model_effect_get_green_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_green_00.ani" memory="host"/>
+		<anim name="model_effect_get_red_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_red_00.ani" memory="host"/>
+		<anim name="model_effect_get_purple_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_purple_00.ani" memory="host"/>
+		<anim name="model_effect_get_yellow_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_yellow_00.ani" memory="host"/>
+		<anim name="TOL_item_miniushioni.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_miniushioni.ani" memory="host"/>
+
+		<anim name="TOL_wall_01.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/TOL_wall_01.ani" memory="host"/>
+		<anim name="TOL_wall_02.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/TOL_wall_02.ani" memory="host"/>
+		<anim name="model_effect_hit_wall_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_hit_wall_00.ani" memory="host"/>
+		
+		<anim name="anm_ushioni_fall_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_fall_00.ani" memory="host"/>
+		<anim name="anm_ushioni_ntr_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_ntr_00.ani" memory="host"/>
+		<anim name="anm_ushioni_goal_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_goal_00.ani" memory="host"/>
+		<anim name="anm_ushioni_goal_lp_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_goal_lp_00.ani" memory="host"/>
+		<anim name="anm_ushioni_atk_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_atk_00.ani" memory="host"/>
+		<anim name="anm_ushioni_atk_lp_00.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_atk_lp_00.ani" memory="host"/>
+		
+
+		<anim name="anm_wall_01_death.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_01_death.ani" memory="host"/>
+		<anim name="anm_wall_02_death.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_02_death.ani" memory="host"/>
+		
+		<anim name="anm_wall_01_death_left.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_01_death_left.ani" memory="host"/>
+		<anim name="anm_wall_01_death_right.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_01_death_right.ani" memory="host"/>
+		<anim name="anm_wall_02_death_left.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_02_death_left.ani" memory="host"/>
+		<anim name="anm_wall_02_death_right.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_02_death_right.ani" memory="host"/>
+		<anim name="anm_wall_01_shatter.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_01_shatter.ani" memory="host"/>
+		<anim name="anm_wall_02_shatter.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_02_shatter.ani" memory="host"/>
+
+		<anim name="model_effect_target.ani" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_target.ani" memory="host"/>
+
+		
+		<anim name="anmModel_star_02.ani" deferred_loading="false" protected="false" >
+			<override file="Edo_Sub01/cmn_design/obj/anmModel_bosyu01.ani" memory="host" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/obj/anmModel_bosyu01_eu.ani" memory="host" />
+		</anim>
+
+		<anim name="anmModel_star_01.ani" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_01.ani" memory="host" />
+
+		<skeleton name="ushioni.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/ushioni/anm_ushioni_lp.skn" />
+		<skeleton name="anm_TOL_item_updownturn_lp.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/anm_TOL_item_updownturn_lp.skn" />
+		<skeleton name="model_effect_blue.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_blue.skn" />
+		<skeleton name="model_effect_green.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_green.skn" />
+		<skeleton name="model_effect_red.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_red.skn" />
+		<skeleton name="TOL_item_green.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_green.skn" />
+		<skeleton name="TOL_item_blue.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_blue.skn" />
+		<skeleton name="TOL_item_red.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_red.skn" />
+		<skeleton name="TOL_item_yellow.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_yellow.skn" />
+		<skeleton name="TOL_item_purple.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_purple.skn" />
+		<skeleton name="anm_item_tub_hit.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/anm_item_tub_hit.skn" />
+		<skeleton name="model_effect_emergence_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_emergence_00.skn" />
+		<skeleton name="model_effect_confusion_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_confusion_00.skn" />
+		<skeleton name="model_effect_ougi_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_ougi_00.skn" />
+		<skeleton name="TOL_item_goal.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_goal.skn" />
+		<skeleton name="model_effect_blue_sp.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_blue_sp.skn" />
+
+
+
+		<skeleton name="model_effect_get_blue_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_blue_00.skn" />
+		<skeleton name="model_effect_get_green_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_green_00.skn" />
+		<skeleton name="model_effect_get_red_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_red_00.skn" />
+		<skeleton name="model_effect_get_purple_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_purple_00.skn" />
+		<skeleton name="model_effect_get_yellow_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_get_yellow_00.skn" />
+		<skeleton name="TOL_item_miniushioni.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/item/scenes/TOL_item_miniushioni.skn" />
+		
+		<skeleton name="TOL_wall_01.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/TOL_wall_01.skn" />
+		<skeleton name="TOL_wall_02.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/TOL_wall_02.skn" />
+		<skeleton name="anm_wall_01_shatter.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_01_shatter.skn" />
+		<skeleton name="anm_wall_02_shatter.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/enemy/scenes/anm_wall_02_shatter.skn" />
+		
+		<skeleton name="model_effect_hit_wall_00.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_hit_wall_00.skn" />
+		<skeleton name="model_effect_target.skn" deferred_loading="false" protected="false" file="Edo_Sub01/cmn_design/eff/scenes/model_effect_target.skn" />
+		
+		<skeleton name="anmModel_star_02.skn" deferred_loading="false" protected="false" >
+			<override file="Edo_Sub01/cmn_design/obj/anmModel_bosyu01.skn" memory="host" locale="ja-*" />
+			<override file="Edo_Sub01/cmn_design/obj/anmModel_bosyu01_eu.skn" memory="host" />
+		</skeleton>
+
+		<skeleton name="anmModel_star_01.skn" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_01.skn" memory="host" />
+		
+		<soundbank name="message.bnk" deferred_loading="true" protected="false" file="Hankagai/sound/message.bnk" memory="host" />
+		<soundbank name="SE.bnk" deferred_loading="true" protected="false" file="Edo_Sub01/sound/tol_bank.bnk" memory="host" />
+		<soundstream name="HellMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/HellMusic.mp3" />
+		<soundstream name="HardMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/HardMusic.mp3" />
+		<soundstream name="NormalMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/NormalMusic.mp3" />
+		<soundstream name="EasyMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/EasyMusic.mp3" />
+		<soundstream name="MenuMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/MenuMusic.mp3" />
+		<soundstream name="GameOverMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/GameOverMusic.mp3" />
+		<soundstream name="ClearMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/ClearMusic.mp3" />
+		<soundstream name="StartMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/StartMusic.mp3" />
+		<soundstream name="BoukyoMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/BoukyoMusic.mp3" />
+		<soundstream name="EndMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/EndMusic.mp3" />
+		<soundstream name="MunenMusic.mp3" deferred_loading="false" protected="false" file="Edo_Sub01/sound/mp3/TOLGame/MunenMusic.mp3" />
+		<repertoire name="MaleSample" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/file/MaleSample.xml" />
+		<repertoire name="FemaleSample" deferred_loading="false" protected="false" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/file/FemaleSample.xml" />
+		<!--Grobal Lib-->
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PhaseCtrl.lua" memory="host" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" memory="host" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" memory="host" />
+		<lua name="UtilFade.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFade.lua" memory="host" />
+		<lua name="UtilFunc.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFunc.lua" memory="host" />
+		<lua name="UtilMultiFocus.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilMultiFocus.lua" memory="host" />
+		
+		<lua name="UtilParam.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilParam.lua" memory="host" />
+		<lua name="UtilEffect.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilEffect.lua" memory="host" />
+		<lua name="UtilCamera.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilCamera.lua" memory="host" />
+		<lua name="UtilSprite.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilSprite.lua" memory="host" />
+		<lua name="UtilEntity.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilEntity.lua" memory="host" />
+		
+		<lua name="UtilWindow.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilWindow.lua" memory="host" />
+		<lua name="CommonNumberWindow.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/CommonNumberWindow.lua" memory="host" />
+		<lua name="PadIo.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PadIo.lua" memory="host" />
+		<lua name="Snd.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Snd.lua" memory="host" />
+		<lua name="QuakeData.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/QuakeData.lua" memory="host" />
+		<lua name="UtilQuake.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilQuake.lua" memory="host" />
+		
+		<lua name="UtilInventory.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilInventory.lua" memory="host" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/AsyncCommandJobManager.lua" memory="host" />
+		
+		<!--Grobal Lib( Differed Load)-->
+		<lua name="MessageSound.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/MessageSound.lua" memory="host" />
+		<lua name="CommonMessageWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonMessageWindow.lua" memory="host" />
+		<lua name="CommonSelectWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonSelectWindow.lua" memory="host" />
+		
+		<!--Local Script-->
+		<lua name="route.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/route_Multi.lua" memory="host" />
+		<!--<lua name="pad.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/pad.lua" memory="host" />-->
+		<!--<lua name="SE.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/SE.lua" memory="host" />-->
+		<!--<lua name="osd.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/osd.lua" memory="host" />-->
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/main.lua" memory="host" />
+		<!--<lua name="StartMovie.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/StartMovie.lua" memory="host" />-->
+		
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/MgMain.lua" memory="host" />
+		<lua name="Minigame.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Minigame.lua" memory="host" />
+		<lua name="MgData.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/MgData.lua" memory="host" />
+		<lua name="UtilDebug.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/UtilDebug.lua" memory="host" />
+		<lua name="PhaseCmn.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/PhaseCmn.lua" memory="host" />
+		
+		<lua name="RealTimeGame.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/RealTimeGame.lua" memory="host" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Network.lua" memory="host" />
+		<lua name="RtLib.lua" deferred_loading="false" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/RtLib.lua" memory="host" />
+		
+		
+		<!--Local Script( Differed Load)-->
+		<lua name="GamePhaseList.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GamePhaseList.lua" memory="host" />
+		<lua name="GameSpriteData.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GameSpriteData.lua" memory="host" />
+		<lua name="GameData.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GameData.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Game.lua" memory="host" />
+		<lua name="GameMenu.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameMenu.lua" memory="host" />
+		<lua name="GameStart.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameStart.lua" memory="host" />
+		<lua name="GameRunning.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameRunning.lua" memory="host" />
+		<lua name="GameResult.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameResult.lua" memory="host" />
+		<lua name="GameOver.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameOver.lua" memory="host" />
+		<lua name="GameClear.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameClear.lua" memory="host" />
+		<lua name="GameClientLobby.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameClientLobby.lua" memory="host" />
+		<lua name="GameHostLobby.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameHostLobby.lua" memory="host" />
+		<lua name="GameSelectMode.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameSelectMode.lua" memory="host" />
+		<lua name="GameSelectLevel.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameSelectLevel.lua" memory="host" />
+		<lua name="GameJoinRoom.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameJoinRoom.lua" memory="host" />
+		<lua name="GameRewardPresent.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/GamePhase/GameRewardPresent.lua" memory="host" />
+		
+		<lua name="Lobby.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Lobby.lua" memory="host" />
+		<lua name="WindowData.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/WindowData.lua" memory="host" />
+		<lua name="DebugMenu.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/DebugMenu.lua" memory="host" />
+		
+		<lua name="Ushioni.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Ushioni.lua" memory="host" />
+		<lua name="Course.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Course.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Player.lua" memory="host" />
+		<lua name="PlayerAct.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/PlayerAct.lua" memory="host" />
+		<lua name="Intercept.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Intercept/Intercept.lua" memory="host" />
+		<lua name="Intercept_Oni.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Intercept/Intercept_Oni.lua" memory="host" />
+		<lua name="Intercept_Oke.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Intercept/Intercept_Oke.lua" memory="host" />
+		<lua name="Replicate.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Replicate.lua" memory="host" />
+		<lua name="Score.lua" deferred_loading="true" protected="true" file="Edo_Sub01/soft_jp_00/TOLgame_ver2/Score.lua" memory="host" />
+		
+		
+		
+		
+	</local>
+	<external />
+</resources>

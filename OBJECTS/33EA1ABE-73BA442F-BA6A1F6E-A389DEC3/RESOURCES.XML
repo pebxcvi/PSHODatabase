@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="animatedmodels/zombie_walk/flies.mdl" memory="host" />
+		<model name="flies2.mdl" deferred_loading="true" protected="false" file="animatedmodels/zombie_walk/flies2.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Zombie_Walk/file/config.xml" memory="main" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="animation/male/zombiewalk/zombie_idle.ani" memory="main" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="animation/male/zombiewalk/zombie_walk.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="animation/male/zombiewalk/zombie_walk.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="animation/male/zombiewalk/zombie_walk.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="animation/female/zombiewalk/fZombieWalk.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="animation/female/zombiewalk/fZombieWalk.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="animation/female/zombiewalk/fZombieWalk.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="animation/female/zombiewalk/fZombieIdle.ani" memory="main" />
+		<anim name="flies.ani" deferred_loading="true" protected="false" file="animatedmodels/zombie_walk/flies.ani" />
+		<anim name="flies2.ani" deferred_loading="true" protected="false" file="animatedmodels/zombie_walk/flies2.ani" />
+		<anim name="zombie_idleLook.ani" deferred_loading="true" protected="false" file="animation/male/zombiewalk/zombie_idleLook.ani" memory="host" />
+		<anim name="zombie_action.ani" deferred_loading="true" protected="false" file="animation/male/zombiewalk/zombie_action.ani" />
+		<anim name="fZombieLook.ani" deferred_loading="true" protected="false" file="animation/female/zombiewalk/fZombieLook.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="animatedmodels/zombie_walk/flies.skn" memory="host" />
+		<skeleton name="flies2.skn" deferred_loading="true" protected="false" file="animatedmodels/zombie_walk/flies2.skn" />
+		<soundbank name="ZombieGroans.bnk" deferred_loading="true" protected="false" file="Locomotion/Zombie_Walk/Sound/ZombieGroans.bnk" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Zombie_Walk/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Zombie_Walk/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Zombie_Walk/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Zombie_Walk/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Zombie_Walk/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

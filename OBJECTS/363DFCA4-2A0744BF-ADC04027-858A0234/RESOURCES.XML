@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Menu_Instructions.dds" deferred_loading="false" file="MiniGames/Lagoon_EOD/Textures/Menu_Instructions.dds" memory="host" />
+		<texture name="mystery_pak.dds" deferred_loading="false" file="MiniGames/Lagoon_EOD/Textures/mystery_pak.dds" memory="host" />
+		<texture name="Menu_TitlesBG.dds" deferred_loading="false" file="MiniGames/Lagoon_EOD/Textures/Menu_TitlesBG.dds" memory="host" />
+		<texture name="sidebar.dds" deferred_loading="false" file="MiniGames/Lagoon_EOD/Textures/sidebar.dds" memory="host" />
+		<texture name="16x9.png" deferred_loading="false" file="MiniGames/Lagoon_EOD/Textures/16x9.png" memory="host" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/types.xml" memory="host" />
+		<file name="basicchip.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/basicchip.xml" memory="host" />
+		<file name="basicpopup.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/basicpopup.xml" memory="host" />
+		<file name="basicsinglegraphic.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/basicsinglegraphic.xml" memory="host" />
+		<file name="basictext.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/basictext.xml" memory="host" />
+		<file name="simplemenu.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/simplemenu.xml" memory="host" />
+		<file name="textpanel.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/textpanel.xml" memory="host" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/Network.xml" memory="host" />
+		<file name="basiclegend.xml" deferred_loading="false" file="MiniGames/Lagoon_EOD/OSD/basiclegend.xml" memory="host" />
+		<lua name="eod_menu.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_menu.lua" memory="host" />
+		<lua name="eod_motion.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_motion.lua" memory="host" />
+		<lua name="eod_main.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_main.lua" memory="host" />
+		<lua name="eod_screen.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_screen.lua" memory="host" />
+		<lua name="UI_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/UI_lib.lua" memory="host" />
+		<lua name="math_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/math_lib.lua" memory="host" />
+		<lua name="eod_network.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_network.lua" memory="host" />
+		<lua name="eod_instructions.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_instructions.lua" memory="host" />
+		<lua name="ent_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/ent_lib.lua" memory="host" />
+		<lua name="eod_np_ticketing.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_np_ticketing.lua" memory="host" />
+		<lua name="eod_xml_parsing.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_xml_parsing.lua" memory="host" />
+		<lua name="xml_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/xml_lib.lua" memory="host" />
+		<lua name="db_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/db_lib.lua" memory="host" />
+		<lua name="eod_passes.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_EOD/eod_passes.lua" memory="host" />
+		<lua name="lagoon_caper_data.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon_Capers/lua/lagoon_caper_data.lua" memory="host" />
+		<lua name="achievements_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/achievements_lib.lua" memory="host" />
+	</local>
+</resources>
