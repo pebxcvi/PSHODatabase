@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="rifle_01.mdl" deferred_loading="false" protected="false" file="Locomotion/rifle_shadow/rifle_shadow.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/lmo_standing_ready_1/file/standing_ready_1_config.xml" memory="host" />
+		<anim name="run_female.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/run_female.ani" memory="main" />
+		<anim name="run_male.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/run_male.ani" memory="main" />
+		<anim name="standing_pose_f.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_pose_f.ani" memory="main" />
+		<anim name="standing_pose_m.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_pose_m.ani" memory="main" />
+		<anim name="standing_lookaround_loop_f.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_lookaround_loop_f.ani" memory="host" />
+		<anim name="standing_lookaround_loop_m.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_lookaround_loop_m.ani" memory="host" />
+		<anim name="standing_forward_loop_f.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_forward_loop_f.ani" memory="host" />
+		<anim name="standing_forward_loop_m.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_forward_loop_m.ani" memory="host" />
+		<anim name="standing_hold_loop_f.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_hold_loop_f.ani" memory="host" />
+		<anim name="standing_hold_loop_m.ani" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/anim/standing_hold_loop_m.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/repertoire/female_standing1.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/repertoire/male_standing1.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/lmo_standing_ready_1/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/stick_work_01/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="pony.mdl" deferred_loading="true" protected="false" file="Locomotion/pony/pony3.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/pony/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/pony/idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/pony/avatar_walk.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/pony/avatar_walk_f.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/pony/idle_f.ani" memory="host" />
+		<anim name="pony.ani" deferred_loading="true" protected="false" file="Locomotion/pony/pony.ani" memory="main" />
+		<anim name="ponywalk.ani" deferred_loading="true" protected="false" file="Locomotion/pony/ponywalk.ani" memory="host" />
+		<anim name="ponyboost.ani" deferred_loading="true" protected="false" file="Locomotion/pony/ponyboost.ani" memory="host" />
+		<skeleton name="pony.skn" deferred_loading="true" protected="false" file="Locomotion/pony/pony.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/pony/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/pony/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/pony/repertoire/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/pony/repertoire/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Angel_wings/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

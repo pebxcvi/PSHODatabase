@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="bloom.mdl" deferred_loading="false" protected="false" file="game/catchcage/bloom.mdl" />
+    <model name="catchCage.mdl" deferred_loading="true" protected="false" file="game/catchcage/catchCage.mdl" />
+    <texture name="psn_bag.dds" deferred_loading="true" protected="false" file="MiniGames/Mystery_Items_Game/file/images/psn_bag.dds" />
+    <texture name="panel.dds" deferred_loading="true" protected="false" file="MiniGames/Mystery_Items_Game/file/images/panel_500.dds" />
+    <collision name="catchCage.hkx" deferred_loading="true" protected="false" file="game/catchcage/catchCage.hkx" />
+    <anim name="catchCage.ani" deferred_loading="true" protected="false" file="game/catchcage/catchCage.ani" />
+    <skeleton name="catchCage.skn" deferred_loading="true" protected="false" file="game/catchcage/catchCage.skn" />
+    <soundstream name="Happy_Collection.mp3" deferred_loading="false" protected="false" file="MiniGames/Mystery_Items_Game/file/Audio/Happy_Collection.mp3" memory="host" />
+    <soundstream name="Set_Trap.mp3" deferred_loading="false" protected="false" file="MiniGames/Mystery_Items_Game/file/Audio/Set_Trap.mp3" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/mystery_items_game/lua/minigame.lua" />
+    <lua name="AsyncInventoryChecker.lua" deferred_loading="false" protected="true" file="scripts/lualibs/asyncinventorychecker.lua" />
+    <lua name="Util.lua" deferred_loading="false" protected="true" file="scripts/lualibs/util.lua" />
+    <lua name="Document.lua" deferred_loading="false" protected="true" file="scripts/lualibs/document.lua" />
+    <lua name="Server.lua" deferred_loading="false" protected="true" file="scripts/lualibs/server.lua" />
+    <lua name="_Log.lua" deferred_loading="false" protected="true" file="minigames/mystery_items_game/lua/_log.lua" />
+    <lua name="Constants.lua" deferred_loading="false" protected="true" file="minigames/mystery_items_game/lua/constants.lua" />
+    <lua name="ChanceTable.lua" deferred_loading="false" protected="true" file="minigames/mystery_items_game/lua/chancetable.lua" />
+    <lua name="DeferredResource.lua" deferred_loading="false" protected="true" file="scripts/lualibs/deferredresource.lua" />
+    <lua name="ObjectComsShared.lua" deferred_loading="false" protected="true" file="scripts/object_coms_common/objectcomsshared.lua" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" version="1.0">
+  <version>1.0</version>
+  <uuid>2417EF0C-0DFE4A32-8BED8E77-B202A0BB</uuid>
+  <name lang="fr-FR" default="false">Brouette Prairie</name>
+  <name lang="de-DE" default="false">Prärie-Schubkarre</name>
+  <name lang="it-IT" default="false">Carriola Prateria</name>
+  <name lang="es-ES" default="false">Carretilla del prado</name>
+  <name lang="en-US" default="true">Prairie Wheelbarrow</name>
+  <description lang="fr-FR" default="false">Rustique ou rouillée ? Ça dépend du point de vue. [#Legal]</description>
+  <description lang="de-DE" default="false">Rustikal oder rostig? Alles eine Frage der Perspektive. [#Legal]</description>
+  <description lang="it-IT" default="false">Rustica o arrugginita? Tutto dipende dai punti di vista. [#Legal]</description>
+  <description lang="es-ES" default="false">¿Un adorno original o una antigualla? Tú eliges. [#Legal]</description>
+  <description lang="en-US" default="true">Rustic, or rusted? Depends on your perspective. [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat>
+    <main>1</main>
+    <host>1</host>
+    <vram>1</vram>
+    <ppu>1</ppu>
+    <net>1</net>
+  </heat>
+  <timestamp>430DD9A8</timestamp>
+</odc>

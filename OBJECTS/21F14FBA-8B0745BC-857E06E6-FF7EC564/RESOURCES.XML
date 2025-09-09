@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Zero-gravity_Simulation/file/Network.xml" />
+    <file name="osd_usedialog" deferred_loading="false" protected="false" file="OSD/usedialog.xml" />
+    <file name="types_spacewalk.xml" deferred_loading="false" protected="false" file="OSD/types_spacewalk.xml" />
+    <file name="osd_spacewalkhud_full" deferred_loading="false" protected="false" file="OSD/spacewalkhud_full.xml" />
+    <file name="osd_spacewalkhud_wide" deferred_loading="false" protected="false" file="OSD/spacewalkhud_wide.xml" />
+    <anim name="anim_float_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/float.ani" />
+    <anim name="anim_frontflip_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/frontflip.ani" />
+    <anim name="anim_move_jetpack_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/jet.ani" />
+    <anim name="anim_move_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/move.ani" />
+    <anim name="anim_shoot_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/shoot.ani" />
+    <anim name="anim_somersault_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/sumersault.ani" />
+    <anim name="anim_float_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/float.ani" />
+    <anim name="anim_frontflip_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/frontflip.ani" />
+    <anim name="anim_move_jetpack_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/jet.ani" />
+    <anim name="anim_move_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/move.ani" />
+    <anim name="anim_shoot_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/shoot.ani" />
+    <anim name="anim_somersault_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/sumersault.ani" />
+    <collision name="hkx_float" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/float.hkx" />
+    <soundbank name="GameSFX" deferred_loading="false" protected="false" file="hellfiretest/audio/gamesound_aptspacewalk.bnk" />
+    <repertoire name="SpacewalkMale" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/SpacewalkMale.xml" />
+    <repertoire name="SpacewalkFemale" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/SpacewalkFemale.xml" />
+    <lua name="Game_AptSpacewalk.lua" deferred_loading="false" protected="true" file="scripts/games/game_aptspacewalk.luac" />
+    <lua name="Debug.lua" deferred_loading="false" protected="true" file="scripts/misc/debug.luac" />
+    <lua name="GameObject.lua" deferred_loading="false" protected="true" file="scripts/objects/gameobject.luac" />
+    <lua name="class.lua" deferred_loading="false" protected="true" file="scripts/misc/class.luac" />
+    <lua name="AnimHelper.lua" deferred_loading="false" protected="true" file="scripts/misc/animhelper.luac" />
+    <lua name="Serialization.lua" deferred_loading="false" protected="true" file="scripts/misc/serialization.luac" />
+    <lua name="List.lua" deferred_loading="false" protected="true" file="scripts/misc/list.luac" />
+    <lua name="Sound.lua" deferred_loading="false" protected="true" file="scripts/misc/sound.luac" />
+    <lua name="Level.lua" deferred_loading="false" protected="true" file="scripts/objects/level.luac" />
+    <lua name="World.lua" deferred_loading="false" protected="true" file="scripts/objects/world.luac" />
+    <lua name="Spacewalker.lua" deferred_loading="false" protected="true" file="scripts/objects/spacewalker.luac" />
+    <lua name="SpacewalkNetworking.lua" deferred_loading="false" protected="true" file="scripts/objects/spacewalknetworking.luac" />
+    <lua name="SpacewalkOsd.lua" deferred_loading="false" protected="true" file="scripts/osd/spacewalkosd.luac" />
+    <lua name="ParticleEffect.lua" deferred_loading="false" protected="true" file="scripts/objects/particleeffect.luac" />
+    <lua name="Callback.lua" deferred_loading="false" protected="true" file="scripts/misc/callback.luac" />
+    <lua name="Inventory.lua" deferred_loading="false" protected="true" file="scripts/misc/inventory.luac" />
+  </local>
+  <external />
+</resources>

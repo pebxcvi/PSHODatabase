@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="KTerminalMdl" deferred_loading="false" protected="false" file="furniture/keno/KTerminal.mdl" />
+		<model name="KBoardMdl" deferred_loading="false" protected="false" file="furniture/keno/KBoard.mdl" />
+		<model name="KBenchMdl" deferred_loading="false" protected="false" file="furniture/keno/KBench.mdl" />
+		<model name="KBoardLightPlaneWhite" deferred_loading="false" protected="false" file="furniture/keno/KBoardLightPlane.mdl" />
+		<model name="KBoardLightPlaneBlue" deferred_loading="false" protected="false" file="furniture/keno/KBoardLightPlaneBlue.mdl" />
+		<model name="KBoardLightPlaneGreen" deferred_loading="false" protected="false" file="furniture/keno/KBoardLightPlaneGreen.mdl" />
+		<model name="KBoardLightPlaneOrange" deferred_loading="false" protected="false" file="furniture/keno/KBoardLightPlaneOrange.mdl" />
+		<model name="KBoardLightPlanePurple" deferred_loading="false" protected="false" file="furniture/keno/KBoardLightPlanePurple.mdl" />
+		<model name="KBoardLightPlaneYellow" deferred_loading="false" protected="false" file="furniture/keno/KBoardLightPlaneYellow.mdl" />
+		<texture name="bettingBox" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/BetBox.dds" />
+		<texture name="bettingBoxSelector" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/bettingBoxSelector.dds" />
+		<texture name="0Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/0.dds" />
+		<texture name="1Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/1.dds" />
+		<texture name="2Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/2.dds" />
+		<texture name="3Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/3.dds" />
+		<texture name="4Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/4.dds" />
+		<texture name="5Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/5.dds" />
+		<texture name="6Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/6.dds" />
+		<texture name="7Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/7.dds" />
+		<texture name="8Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/8.dds" />
+		<texture name="9Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/9.dds" />
+		<texture name="Circle_Button" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/Circle_Button.dds" />
+		<texture name="DownPressed" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/DownPressed.dds" />
+		<texture name="NumberHighlight" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/NumberHighlight.dds" />
+		<texture name="UpPressed" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/UpPressed.dds" />
+		<texture name="X_Button" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/X_Button.dds" />
+		<texture name="BetBox_disabled" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/BetBox_disabled.dds" />
+		<texture name="paneMessage" deferred_loading="false" protected="false" file="MiniGames/Keno/textures/paneMessage.dds" />
+		<texture name="paneBet" deferred_loading="false" protected="false" file="MiniGames/War/Textures/paneBet.dds" />
+		<texture name="Square_Button" deferred_loading="false" protected="false" file="MiniGames/Keno/textures/Square_Button.dds" />
+		<texture name="Triangle_Button" deferred_loading="false" protected="false" file="MiniGames/Keno/textures/Triangle_Button.dds" />
+		<texture name="displaySquare.dds" deferred_loading="false" protected="false" file="MiniGames/LiarsDice/textures/displaySquare.dds" />
+		<texture name="Instructions.dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/paneInstruct.dds" />
+		<texture name="Arrow_Right" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/buttonPageRight.dds" />
+		<texture name="Arrow_Left" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/buttonPageLeft.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Keno/file/Network.xml" />
+		<file name="payTable" deferred_loading="false" protected="false" file="MiniGames/Keno/file/PAY_TABLE.xml" />
+		<file name="keno_bank" deferred_loading="false" protected="false" file="MiniGames/Keno/sound/keno_sound.bank" />
+		<xml name="Config" deferred_loading="false" protected="false" file="MiniGames/Keno/file/Config.xml" />
+		<collision name="KTerminalCol" deferred_loading="false" protected="false" file="furniture/keno/KTerminal.hkx" />
+		<collision name="KBenchCol" deferred_loading="false" protected="false" file="furniture/keno/KBench.hkx" />
+		<soundbank name="keno_sound" deferred_loading="false" protected="false" file="MiniGames/Keno/sound/keno_sound.bnk" />
+		<lua name="NetworkRandom" deferred_loading="false" protected="true" file="MiniGames/Keno/lua/NetworkRandom_.lua" />
+		<lua name="GuiElement" deferred_loading="false" protected="true" file="MiniGames/BlackJack/GuiElement_.lua" />
+		<lua name="Gui" deferred_loading="false" protected="true" file="MiniGames/BlackJack/gui_.lua" />
+		<lua name="BetController" deferred_loading="false" protected="true" file="MiniGames/Keno/lua/BetController_.lua" />
+		<lua name="BetRoller" deferred_loading="false" protected="true" file="MiniGames/Libs/BetRoller_.lua" />
+		<lua name="KeyMaster" deferred_loading="false" protected="true" file="MiniGames/Libs/KeyMaster_.lua" />
+		<lua name="RewardManager" deferred_loading="false" protected="true" file="MiniGames/Libs/RewardManager_.lua" />
+		<lua name="SoundPlayer" deferred_loading="false" protected="true" file="MiniGames/BlackJack/SoundPlayer_.lua" />
+		<lua name="Keno" deferred_loading="false" protected="true" file="MiniGames/Keno/lua/keno_.lua" />
+	</local>
+	<external />
+</resources>

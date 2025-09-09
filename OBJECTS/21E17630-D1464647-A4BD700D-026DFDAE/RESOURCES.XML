@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="GetRegionResource.lua" deferred_loading="false" protected="true" file="Edo/GetRegionResource.lua"  memory="host" />
+		<texture name="EDO_title_00_us_asia.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/2D/title/EDO_title_00_us_asia.dds" />
+		<texture name="EDO_title_00_fr.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/2D/title/EDO_title_00_fr.dds" />
+		<texture name="EDO_title_00.dds" deferred_loading="false" protected="false" >
+			<override file="edo/cmn_design/2d/title/edo_title_00_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_jp.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_tw.dds" locale="zh-TW" />
+			<override file="Edo/cmn_design/2D/title/EDO_title_00_us.dds" />
+		</texture>
+		<particle name="Eff_modori_01.efx" deferred_loading="false" protected="false" file="Edo/cmn_design/ATGParticles/Efx/Eff_modori_01.efx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/IntroCameraMove/lua/ver3/MiniGame.lua" />
+		<lua name="IntroCameraIF.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/IntroCameraMove/lua/IntroCameraIF.lua" />
+		<lua name="Telop.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/IntroCameraMove/lua/Telop.lua" />
+		<lua name="TelopData.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/IntroCameraMove/lua/ForBonMatsuri/TelopData.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/DataStation/lua/dataInterfaceMinimum.lua" />
+		<lua name="VersionStationIF.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/VersionStation/lua/VersionStationIF.lua" />
+	</local>
+	<external />
+</resources>

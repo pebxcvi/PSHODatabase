@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cube.mdl" deferred_loading="false" file="MiniGames/MG01/Models/cube.mdl" />
+		<model name="led_red_9.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_9.mdl" memory="host" />
+		<model name="led_red_0.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_0.mdl" memory="host" />
+		<model name="led_red_1.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_1.mdl" memory="host" />
+		<model name="led_red_2.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_2.mdl" memory="host" />
+		<model name="led_red_3.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_3.mdl" memory="host" />
+		<model name="led_red_4.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_4.mdl" memory="host" />
+		<model name="led_red_5.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_5.mdl" memory="host" />
+		<model name="led_red_6.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_6.mdl" memory="host" />
+		<model name="led_red_7.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_7.mdl" memory="host" />
+		<model name="led_red_8.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_8.mdl" memory="host" />
+		<model name="led_colon_red.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_colon_red.mdl" memory="host" />
+		<model name="MG01_card_frame_Portrait.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/MG01_card_frame_Portrait.mdl" />
+		<model name="MG01_card_frame_Landscape.mdl" deferred_loading="false" protected="false" file="MiniGames/MG01/Models/MG01_card_frame_Landscape.mdl" />
+		<texture name="mg01_fightbook_logo.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_fightbook_logo.dds" memory="host" />
+		<texture name="mg01_fightbook_seperator.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_fightbook_seperator.dds" memory="host" />
+		<texture name="mg01_fightbook_button_selected.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_fightbook_button_selected.dds" memory="host" />
+		<texture name="mg01_fightbook_button_unselected.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_fightbook_button_unselected.dds" memory="host" />
+		<texture name="mg01_fightbook_smlogo.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_fightbook_smlogo.dds" memory="host" />
+		<texture name="mg01_arrow_up.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_arrow_up.dds" memory="host" />
+		<texture name="mg01_arrow_down.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_arrow_down.dds" memory="host" />
+		<texture name="mg01_arrow_right.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_arrow_right.dds" memory="host" />
+		<texture name="mg01_unknown.dds" deferred_loading="false" file="MiniGames/MG01/Textures/mg01_unknown.dds" memory="host" />
+		<texture name="A.NOGUEIRA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/A.NOGUEIRA.dds" memory="host" />
+		<texture name="S.CARWIN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/S.CARWIN_B.dds" memory="host" />
+		<texture name="A.NOGUEIRA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/A.NOGUEIRA_B.dds" memory="host" />
+		<texture name="B.LESNAR.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/B.LESNAR.dds" memory="host" />
+		<texture name="B.LESNAR_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/B.LESNAR_B.dds" memory="host" />
+		<texture name="C.KONGO.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/C.KONGO.dds" memory="host" />
+		<texture name="C.KONGO_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/C.KONGO_B.dds" memory="host" />
+		<texture name="C.VELASQUEZ.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/C.VELASQUEZ.dds" memory="host" />
+		<texture name="C.VELASQUEZ_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/C.VELASQUEZ_B.dds" memory="host" />
+		<texture name="F.MIR.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/F.MIR.dds" memory="host" />
+		<texture name="F.MIR_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/F.MIR_B.dds" memory="host" />
+		<texture name="G.GONZAGA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/G.GONZAGA.dds" memory="host" />
+		<texture name="G.GONZAGA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/G.GONZAGA_B.dds" memory="host" />
+		<texture name="H.HERRING.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/H.HERRING.dds" memory="host" />
+		<texture name="H.HERRING_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/H.HERRING_B.dds" memory="host" />
+		<texture name="R.COUTURE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/R.COUTURE.dds" memory="host" />
+		<texture name="R.COUTURE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/R.COUTURE_B.dds" memory="host" />
+		<texture name="S.CARWIN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Heavy/S.CARWIN.dds" memory="host" />
+		<texture name="T.TAVARES_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/T.TAVARES_B.dds" memory="host" />
+		<texture name="BJ.PENN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/BJ.PENN.dds" memory="host" />
+		<texture name="BJ.PENN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/BJ.PENN_B.dds" memory="host" />
+		<texture name="C.GUIDA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/C.GUIDA.dds" memory="host" />
+		<texture name="C.GUIDA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/C.GUIDA_B.dds" memory="host" />
+		<texture name="C.LIDDELL.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/C.LIDDELL.dds" memory="host" />
+		<texture name="C.LIDDELL_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/C.LIDDELL_B.dds" memory="host" />
+		<texture name="C.MILLER.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/C.MILLER.dds" memory="host" />
+		<texture name="C.MILLER_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/C.MILLER_B.dds" memory="host" />
+		<texture name="D.SANCHEZ.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/D.SANCHEZ.dds" memory="host" />
+		<texture name="D.SANCHEZ_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/D.SANCHEZ_B.dds" memory="host" />
+		<texture name="F.EDGAR.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/F.EDGAR.dds" memory="host" />
+		<texture name="F.EDGAR_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/F.EDGAR_B.dds" memory="host" />
+		<texture name="G.MAYNARD.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/G.MAYNARD.dds" memory="host" />
+		<texture name="G.MAYNARD_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/G.MAYNARD_B.dds" memory="host" />
+		<texture name="G.SOTIROPOULOS.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/G.SOTIROPOULOS.dds" memory="host" />
+		<texture name="G.SOTIROPOULOS_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/G.SOTIROPOULOS_B.dds" memory="host" />
+		<texture name="J.LAUZON.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.LAUZON.dds" memory="host" />
+		<texture name="J.LAUZON_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.LAUZON_B.dds" memory="host" />
+		<texture name="J.NEER.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.NEER.dds" memory="host" />
+		<texture name="J.NEER_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.NEER_B.dds" memory="host" />
+		<texture name="J.PULVER.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.PULVER.dds" memory="host" />
+		<texture name="J.PULVER_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.PULVER_B.dds" memory="host" />
+		<texture name="J.STEPHENS.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.STEPHENS.dds" memory="host" />
+		<texture name="J.STEPHENS_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.STEPHENS_B.dds" memory="host" />
+		<texture name="J.STEVENSON.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.STEVENSON.dds" memory="host" />
+		<texture name="J.STEVENSON_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/J.STEVENSON_B.dds" memory="host" />
+		<texture name="K.FLORIAN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/K.FLORIAN.dds" memory="host" />
+		<texture name="K.FLORIAN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/K.FLORIAN_B.dds" memory="host" />
+		<texture name="K.PELLEGRINO.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/K.PELLEGRINO.dds" memory="host" />
+		<texture name="K.PELLEGRINO_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/K.PELLEGRINO_B.dds" memory="host" />
+		<texture name="M.DANZIG.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/M.DANZIG.dds" memory="host" />
+		<texture name="M.DANZIG_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/M.DANZIG_B.dds" memory="host" />
+		<texture name="M.GAMBURYAN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/M.GAMBURYAN.dds" memory="host" />
+		<texture name="M.GAMBURYAN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/M.GAMBURYAN_B.dds" memory="host" />
+		<texture name="M.WIMAN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/M.WIMAN.dds" memory="host" />
+		<texture name="M.WIMAN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/M.WIMAN_B.dds" memory="host" />
+		<texture name="N.DIAZ.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/N.DIAZ.dds" memory="host" />
+		<texture name="N.DIAZ_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/N.DIAZ_B.dds" memory="host" />
+		<texture name="P.KELLY.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/P.KELLY.dds" memory="host" />
+		<texture name="P.KELLY_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/P.KELLY_B.dds" memory="host" />
+		<texture name="R.EMERSON.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/R.EMERSON.dds" memory="host" />
+		<texture name="R.EMERSON_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/R.EMERSON_B.dds" memory="host" />
+		<texture name="R.HUERTA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/R.HUERTA.dds" memory="host" />
+		<texture name="R.HUERTA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/R.HUERTA_B.dds" memory="host" />
+		<texture name="S.FISHER.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/S.FISHER.dds" memory="host" />
+		<texture name="S.FISHER_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/S.FISHER_B.dds" memory="host" />
+		<texture name="S.SHERK.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/S.SHERK.dds" memory="host" />
+		<texture name="S.SHERK_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/S.SHERK_B.dds" memory="host" />
+		<texture name="S.STOUT.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/S.STOUT.dds" memory="host" />
+		<texture name="S.STOUT_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/S.STOUT_B.dds" memory="host" />
+		<texture name="T.GRIFFIN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/T.GRIFFIN.dds" memory="host" />
+		<texture name="T.GRIFFIN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/T.GRIFFIN_B.dds" memory="host" />
+		<texture name="T.TAVARES.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Light/T.TAVARES.dds" memory="host" />
+		<texture name="W.SILVA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/W.SILVA_B.dds" memory="host" />
+		<texture name="B.VERA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/B.VERA.dds" memory="host" />
+		<texture name="B.VERA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/B.VERA_B.dds" memory="host" />
+		<texture name="F.GRIFFIN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/F.GRIFFIN.dds" memory="host" />
+		<texture name="F.GRIFFIN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/F.GRIFFIN_B.dds" memory="host" />
+		<texture name="H.ALEXANDER.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/H.ALEXANDER.dds" memory="host" />
+		<texture name="H.ALEXANDER_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/H.ALEXANDER_B.dds" memory="host" />
+		<texture name="K.JARDINE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/K.JARDINE.dds" memory="host" />
+		<texture name="K.JARDINE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/K.JARDINE_B.dds" memory="host" />
+		<texture name="L.CANE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/L.CANE.dds" memory="host" />
+		<texture name="L.CANE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/L.CANE_B.dds" memory="host" />
+		<texture name="L.MACHIDA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/L.MACHIDA.dds" memory="host" />
+		<texture name="L.MACHIDA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/L.MACHIDA_B.dds" memory="host" />
+		<texture name="M.EASTMAN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/M.EASTMAN.dds" memory="host" />
+		<texture name="M.EASTMAN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/M.EASTMAN_B.dds" memory="host" />
+		<texture name="M.HAMILL.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/M.HAMILL.dds" memory="host" />
+		<texture name="M.HAMILL_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/M.HAMILL_B.dds" memory="host" />
+		<texture name="M.RUA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/M.RUA.dds" memory="host" />
+		<texture name="M.RUA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/M.RUA_B.dds" memory="host" />
+		<texture name="Q.JACKSON.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/Q.JACKSON.dds" memory="host" />
+		<texture name="Q.JACKSON_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/Q.JACKSON_B.dds" memory="host" />
+		<texture name="R.EVANS.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/R.EVANS.dds" memory="host" />
+		<texture name="R.EVANS_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/R.EVANS_B.dds" memory="host" />
+		<texture name="R.FRANKLIN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/R.FRANKLIN.dds" memory="host" />
+		<texture name="R.FRANKLIN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/R.FRANKLIN_B.dds" memory="host" />
+		<texture name="S.BONNAR.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/S.BONNAR.dds" memory="host" />
+		<texture name="S.BONNAR_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/S.BONNAR_B.dds" memory="host" />
+		<texture name="T.BOETSCH.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/T.BOETSCH.dds" memory="host" />
+		<texture name="T.BOETSCH_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/T.BOETSCH_B.dds" memory="host" />
+		<texture name="T.SILVA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/T.SILVA.dds" memory="host" />
+		<texture name="T.SILVA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/T.SILVA_B.dds" memory="host" />
+		<texture name="W.SILVA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/LightHeavy/W.SILVA.dds" memory="host" />
+		<texture name="Y.OKAMI_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/Y.OKAMI_B.dds" memory="host" />
+		<texture name="A.SADOLLAH.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/A.SADOLLAH.dds" memory="host" />
+		<texture name="A.SADOLLAH_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/A.SADOLLAH_B.dds" memory="host" />
+		<texture name="A.SILVA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/A.SILVA.dds" memory="host" />
+		<texture name="A.SILVA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/A.SILVA_B.dds" memory="host" />
+		<texture name="C.DOLLAWAY.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/C.DOLLAWAY.dds" memory="host" />
+		<texture name="C.DOLLAWAY_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/C.DOLLAWAY_B.dds" memory="host" />
+		<texture name="C.LEBEN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/C.LEBEN.dds" memory="host" />
+		<texture name="C.LEBEN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/C.LEBEN_B.dds" memory="host" />
+		<texture name="D.HENDERSON_B---ERROR---.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/D.HENDERSON_B---ERROR---.dds" memory="host" />
+		<texture name="D.HENDERSON---ERROR---.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/D.HENDERSON---ERROR---.dds" memory="host" />
+		<texture name="D.MAIA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/D.MAIA.dds" memory="host" />
+		<texture name="D.MAIA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/D.MAIA_B.dds" memory="host" />
+		<texture name="E.HERMAN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/E.HERMAN.dds" memory="host" />
+		<texture name="E.HERMAN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/E.HERMAN_B.dds" memory="host" />
+		<texture name="G.RELJIC.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/G.RELJIC.dds" memory="host" />
+		<texture name="G.RELJIC_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/G.RELJIC_B.dds" memory="host" />
+		<texture name="J.MACDONALD.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/J.MACDONALD.dds" memory="host" />
+		<texture name="J.MACDONALD_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/J.MACDONALD_B.dds" memory="host" />
+		<texture name="K.GROVE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/K.GROVE.dds" memory="host" />
+		<texture name="K.GROVE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/K.GROVE_B.dds" memory="host" />
+		<texture name="M.BISPING.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/M.BISPING.dds" memory="host" />
+		<texture name="M.BISPING_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/M.BISPING_B.dds" memory="host" />
+		<texture name="N.MARQUARDT.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/N.MARQUARDT.dds" memory="host" />
+		<texture name="N.MARQUARDT_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/N.MARQUARDT_B.dds" memory="host" />
+		<texture name="N.QUARRY.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/N.QUARRY.dds" memory="host" />
+		<texture name="N.QUARRY_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/N.QUARRY_B.dds" memory="host" />
+		<texture name="P.COTE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/P.COTE.dds" memory="host" />
+		<texture name="P.COTE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/P.COTE_B.dds" memory="host" />
+		<texture name="R.PALHARES.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/R.PALHARES.dds" memory="host" />
+		<texture name="R.PALHARES_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/R.PALHARES_B.dds" memory="host" />
+		<texture name="T.CREDEUR.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/T.CREDEUR.dds" memory="host" />
+		<texture name="T.CREDEUR_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/T.CREDEUR_B.dds" memory="host" />
+		<texture name="T.LEITES.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/T.LEITES.dds" memory="host" />
+		<texture name="T.LEITES_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/T.LEITES_B.dds" memory="host" />
+		<texture name="W.GOUVEIA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/W.GOUVEIA.dds" memory="host" />
+		<texture name="W.GOUVEIA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/W.GOUVEIA_B.dds" memory="host" />
+		<texture name="Y.OKAMI.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/Y.OKAMI.dds" memory="host" />
+		<texture name="T.ALVES_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/T.ALVES_B.dds" memory="host" />
+		<texture name="A.GONO.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/A.GONO.dds" memory="host" />
+		<texture name="A.GONO_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/A.GONO_B.dds" memory="host" />
+		<texture name="A.JOHNSON.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/A.JOHNSON.dds" memory="host" />
+		<texture name="A.JOHNSON_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/A.JOHNSON_B.dds" memory="host" />
+		<texture name="B.SAUNDERS.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/B.SAUNDERS.dds" memory="host" />
+		<texture name="B.SAUNDERS_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/B.SAUNDERS_B.dds" memory="host" />
+		<texture name="C.LYTLE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/C.LYTLE.dds" memory="host" />
+		<texture name="C.LYTLE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/C.LYTLE_B.dds" memory="host" />
+		<texture name="D.HAZELETT.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/D.HAZELETT.dds" memory="host" />
+		<texture name="D.HAZELETT_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/D.HAZELETT_B.dds" memory="host" />
+		<texture name="D.KIM.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/D.KIM.dds" memory="host" />
+		<texture name="D.KIM_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/D.KIM_B.dds" memory="host" />
+		<texture name="G.STPIERRE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/G.STPIERRE.dds" memory="host" />
+		<texture name="G.STPIERRE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/G.STPIERRE_B.dds" memory="host" />
+		<texture name="J.FITCH.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/J.FITCH.dds" memory="host" />
+		<texture name="J.FITCH_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/J.FITCH_B.dds" memory="host" />
+		<texture name="J.GOULET.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/J.GOULET.dds" memory="host" />
+		<texture name="J.GOULET_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/J.GOULET_B.dds" memory="host" />
+		<texture name="J.KOSCHECK.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/J.KOSCHECK.dds" memory="host" />
+		<texture name="J.KOSCHECK_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/J.KOSCHECK_B.dds" memory="host" />
+		<texture name="K.PARISYAN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/K.PARISYAN.dds" memory="host" />
+		<texture name="K.PARISYAN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/K.PARISYAN_B.dds" memory="host" />
+		<texture name="M.BROWN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.BROWN.dds" memory="host" />
+		<texture name="M.BROWN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.BROWN_B.dds" memory="host" />
+		<texture name="M.DAVIS.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.DAVIS.dds" memory="host" />
+		<texture name="M.DAVIS_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.DAVIS_B.dds" memory="host" />
+		<texture name="M.HUGHES.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.HUGHES.dds" memory="host" />
+		<texture name="M.HUGHES_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.HUGHES_B.dds" memory="host" />
+		<texture name="M.KAMPMANN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.KAMPMANN.dds" memory="host" />
+		<texture name="M.KAMPMANN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.KAMPMANN_B.dds" memory="host" />
+		<texture name="M.RIDDLE.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.RIDDLE.dds" memory="host" />
+		<texture name="M.RIDDLE_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.RIDDLE_B.dds" memory="host" />
+		<texture name="M.SERRA.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.SERRA.dds" memory="host" />
+		<texture name="M.SERRA_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.SERRA_B.dds" memory="host" />
+		<texture name="M.SWICK.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.SWICK.dds" memory="host" />
+		<texture name="M.SWICK_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/M.SWICK_B.dds" memory="host" />
+		<texture name="P.TAYLOR.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/P.TAYLOR.dds" memory="host" />
+		<texture name="P.TAYLOR_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/P.TAYLOR_B.dds" memory="host" />
+		<texture name="R.CARNEIRO.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/R.CARNEIRO.dds" memory="host" />
+		<texture name="R.CARNEIRO_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/R.CARNEIRO_B.dds" memory="host" />
+		<texture name="R.CHONAN.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/R.CHONAN.dds" memory="host" />
+		<texture name="R.CHONAN_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/R.CHONAN_B.dds" memory="host" />
+		<texture name="R.MARKHAM.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/R.MARKHAM.dds" memory="host" />
+		<texture name="R.MARKHAM_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/R.MARKHAM_B.dds" memory="host" />
+		<texture name="T.ALVES.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Welter/T.ALVES.dds" memory="host" />
+		<texture name="D.HENDERSON_B.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/D.HENDERSON_B.dds" />
+		<texture name="D.HENDERSON.dds" deferred_loading="false" protected="false" file="MiniGames/MG01/Textures/Cards/Middle/D.HENDERSON.dds" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG01/OSD/types.xml" />
+		<file name="FightBook.xml" deferred_loading="false" file="MiniGames/MG01/OSD/FightBook.xml" />
+		<file name="FightBookCardDisplay.xml" deferred_loading="false" file="MiniGames/MG01/OSD/FightBookCardDisplay.xml" />
+		<file name="FightBookCollection.xml" deferred_loading="false" file="MiniGames/MG01/OSD/FightBookCollection.xml" />
+		<file name="FightBookContents.xml" deferred_loading="false" file="MiniGames/MG01/OSD/FightBookContents.xml" />
+		<file name="FightBookTrade.xml" deferred_loading="false" file="MiniGames/MG01/OSD/FightBookTrade.xml" />
+		<file name="FightBookButton.xml" deferred_loading="false" file="MiniGames/MG01/OSD/FightBookButton.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Player.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Settings.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="Handout.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/Handout.lua" />
+		<lua name="FightBook.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/FightBook.lua" />
+		<lua name="FightBookScreen.lua" deferred_loading="false" protected="true" file="MiniGames/MG01/Source/FightBookScreen.lua" />
+		<lua name="NPTicket.lua" deferred_loading="false" protected="true" file="environments/Shared_Code/NPTicket.lua" />
+	</local>
+	<external />
+</resources>

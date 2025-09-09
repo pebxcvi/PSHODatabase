@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Camera_model" deferred_loading="false" protected="false" file="MiniGames/AudiSled/pickups/pickup_camera.mdl" memory="host" />
+		<model name="CameraZone_model" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/CameraZone.mdl" memory="host" />
+		<model name="GatePost_model" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Gatepost.mdl" memory="host" />
+		<model name="Rock_model" deferred_loading="false" protected="false" file="environments/audisled/RockHazard001.mdl" memory="host" />
+		<model name="Gate_model" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Gate.mdl" memory="host" />
+		<model name="sled_model" deferred_loading="false" file="MiniGames/AudiSled/Models/Sled.mdl" memory="host" />
+		<model name="stig_model" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Rig.mdl" memory="host" />
+		<model name="pod_slotgray" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/pod_slotgray.mdl" memory="host" />
+		<model name="pod_slotblue" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/pod_slotblue.mdl" memory="host" />
+		<model name="EndGate_model" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/EndGate.mdl" memory="host" />
+		<texture name="ready_HUD_c" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/ReadyScreenTextBox.dds" memory="host" />
+		<texture name="TEX_HUD_scoreboard" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/scoreboard.dds" memory="host" />
+		<texture name="TEX_OSD_instructions" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/instructions.dds" memory="host" />
+		<texture name="TEX_OSD_background" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/welcome.dds" memory="host" />
+		<texture name="HUDFrost.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/HUDFrost.dds" memory="host" />
+		<texture name="HUDPhotoArrowInner.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/HUDPhotoArrowInner.dds" memory="host" />
+		<texture name="HUDPhotoArrowOuter.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/HUDPhotoArrowOuter.dds" memory="host" />
+		<texture name="HUDPhotoMain.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/HUDPhotoMain.dds" memory="host" />
+		<texture name="HUDSplitTimes.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/HUDSplitTimes.dds" memory="host" />
+		<texture name="HUDYetiIcon.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/HUDYetiIcon.dds" memory="host" />
+		<texture name="MainHUD.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/MainHUD.dds" memory="host" />
+		<texture name="HUDCrossIcon.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/HUDCrossIcon.dds" memory="host" />
+		<texture name="blank.dds" deferred_loading="true" protected="false" file="MiniGames/AudiSled/Textures/blank.dds" memory="host" />
+		<texture name="SummaryScreen.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/SummaryScreen.dds" memory="host" />
+		<texture name="HUDPhotoMain.dds_1" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/HUDPhotoMain.dds" memory="host" />
+		<texture name="HUDPhotoArrowInner.dds_1" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/HUDPhotoArrowInner.dds" memory="host" />
+		<texture name="HUDPhotoArrowOuter.dds_1" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/HUDPhotoArrowOuter.dds" memory="host" />
+		<texture name="SplashPage.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/SplashPage.dds" memory="host" />
+		<texture name="photo.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/blank.dds" />
+		<texture name="SplashPageAudiRings.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/SplashPageAudiRings.dds" />
+		<texture name="YetiPhoto3OK.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto3OK.dds" />
+		<texture name="YetiPhoto1Bad.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto1Bad.dds" />
+		<texture name="YetiPhoto1Good.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto1Good.dds" />
+		<texture name="YetiPhoto1OK.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto1OK.dds" />
+		<texture name="YetiPhoto2Bad.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto2Bad.dds" />
+		<texture name="YetiPhoto2Good.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto2Good.dds" />
+		<texture name="YetiPhoto2OK.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto2OK.dds" />
+		<texture name="YetiPhoto3Bad.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto3Bad.dds" />
+		<texture name="YetiPhoto3Good.dds" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Textures/YetiPhoto3Good.dds" />
+		<particle name="SnowSpray_vfx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/SnowSpray.efx" memory="host" />
+		<particle name="SnowExplode_vfx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/SnowflakeExplode.efx" memory="host" />
+		<particle name="SnowPuffs_vfx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/SnowPuffs.efx" memory="host" />
+		<particle name="TrackEdges_vfx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/TrackEdges.efx" />
+		<particle name="CameraPickup_vfx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/CAMPICKUP.efx" memory="host" />
+		<file name="Network_xml" deferred_loading="false" file="MiniGames/AudiSled/Network.xml" />
+		<file name="OSDtypes" deferred_loading="false" file="MiniGames/AudiSled/OSD/types.xml" />
+		<file name="XML_OSD_waiting" deferred_loading="false" file="MiniGames/AudiSled/OSD/waiting.xml" />
+		<file name="XML_OSD_welcome_menu" deferred_loading="false" protected="false" file="MiniGames/AudiSled/OSD/welcome_menu.xml" />
+		<file name="XML_OSD_end_game" deferred_loading="false" protected="false" file="MiniGames/AudiSled/OSD/end_game.xml" />
+		<file name="XML_OSD_end_game_menu" deferred_loading="false" protected="false" file="MiniGames/AudiSled/OSD/end_game_menu.xml" />
+		<file name="XML_OSD_instructions" deferred_loading="false" protected="false" file="MiniGames/AudiSled/OSD/instructions.xml" />
+		<file name="XML_OSD_welcome" deferred_loading="false" protected="false" file="MiniGames/AudiSled/OSD/welcome.xml" />
+		<anim name="CameraZone_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/CameraZone.ani" memory="host" />
+		<anim name="GatePost_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Gatepost.ani" memory="host" />
+		<anim name="Rock_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Rock.ani" memory="host" />
+		<anim name="sled_ride_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled.ani" memory="host" />
+		<anim name="stig_ride_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_RideNormal.ani" memory="host" />
+		<anim name="sled_crash_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_Crash.ani" memory="host" />
+		<anim name="stig_crash_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Crash.ani" memory="host" />
+		<anim name="sled_intro_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_Intro.ani" memory="host" />
+		<anim name="sled_intro_idle_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_Intro_Idle.ani" memory="host" />
+		<anim name="stig_intro_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Intro.ani" memory="host" />
+		<anim name="stig_intro_idle_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Intro_Idle.ani" memory="host" />
+		<anim name="sled_outro_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_Outro.ani" memory="host" />
+		<anim name="sled_outro_idle_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_Outro_Idle.ani" memory="host" />
+		<anim name="stig_outro_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Outro.ani" memory="host" />
+		<anim name="stig_outro_idle_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Outro_Idle.ani" memory="host" />
+		<anim name="gatepost_shake_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Gatepost_Shake.ani" memory="host" />
+		<anim name="gatepost_flatten_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Gatepost_Flatten.ani" memory="host" />
+		<anim name="gatepost_flatten_reverse_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Gatepost_FlattenReverse.ani" memory="host" />
+		<anim name="Sled_LeanLeft06.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft06.ani" />
+		<anim name="Sled_LeanLeft07.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft07.ani" />
+		<anim name="Sled_LeanLeft08.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft08.ani" />
+		<anim name="Sled_LeanLeft09.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft09.ani" />
+		<anim name="Sled_LeanLeft10.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft10.ani" />
+		<anim name="Sled_LeanLeft11.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft11.ani" />
+		<anim name="Sled_LeanLeft12.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft12.ani" />
+		<anim name="Sled_LeanLeft13.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft13.ani" />
+		<anim name="Sled_LeanLeft14.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft14.ani" />
+		<anim name="Sled_LeanLeft15.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft15.ani" />
+		<anim name="Sled_LeanLeft.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft.ani" />
+		<anim name="Sled_LeanRight02.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight02.ani" />
+		<anim name="Sled_LeanRight03.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight03.ani" />
+		<anim name="Sled_LeanRight04.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight04.ani" />
+		<anim name="Sled_LeanRight05.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight05.ani" />
+		<anim name="Sled_LeanRight06.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight06.ani" />
+		<anim name="Sled_LeanRight07.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight07.ani" />
+		<anim name="Sled_LeanRight08.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight08.ani" />
+		<anim name="Sled_LeanRight09.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight09.ani" />
+		<anim name="Sled_LeanRight10.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight10.ani" />
+		<anim name="Sled_LeanRight11.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight11.ani" />
+		<anim name="Sled_LeanRight12.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight12.ani" />
+		<anim name="Sled_LeanRight13.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight13.ani" />
+		<anim name="Sled_LeanRight14.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight14.ani" />
+		<anim name="Sled_LeanRight15.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight15.ani" />
+		<anim name="Sled_LeanRight.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanRight.ani" />
+		<anim name="Stig_LeanLeft03.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft03.ani" />
+		<anim name="Stig_LeanLeft04.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft04.ani" />
+		<anim name="Stig_LeanLeft05.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft05.ani" />
+		<anim name="Stig_LeanLeft06.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft06.ani" />
+		<anim name="Stig_LeanLeft07.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft07.ani" />
+		<anim name="Stig_LeanLeft08.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft08.ani" />
+		<anim name="Stig_LeanLeft09.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft09.ani" />
+		<anim name="Stig_LeanLeft10.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft10.ani" />
+		<anim name="Stig_LeanLeft12.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft12.ani" />
+		<anim name="Stig_LeanLeft13.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft13.ani" />
+		<anim name="Stig_LeanLeft14.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft14.ani" />
+		<anim name="Stig_LeanLeft15.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft15.ani" />
+		<anim name="Stig_LeanLeft.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft.ani" />
+		<anim name="Stig_LeanRight02.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight02.ani" />
+		<anim name="Stig_LeanRight03.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight03.ani" />
+		<anim name="Stig_LeanRight04.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight04.ani" />
+		<anim name="Stig_LeanRight05.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight05.ani" />
+		<anim name="Stig_LeanRight06.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight06.ani" />
+		<anim name="Stig_LeanRight07.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight07.ani" />
+		<anim name="Stig_LeanRight08.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight08.ani" />
+		<anim name="Stig_LeanRight09.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight09.ani" />
+		<anim name="Stig_LeanRight10.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight10.ani" />
+		<anim name="Stig_LeanRight11.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight11.ani" />
+		<anim name="Stig_LeanRight12.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight12.ani" />
+		<anim name="Stig_LeanRight13.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight13.ani" />
+		<anim name="Stig_LeanRight14.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight14.ani" />
+		<anim name="Stig_LeanRight15.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight15.ani" />
+		<anim name="Stig_LeanRight.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanRight.ani" />
+		<anim name="Sled_LeanLeft02.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft02.ani" />
+		<anim name="Sled_LeanLeft03.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft03.ani" />
+		<anim name="Sled_LeanLeft04.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft04.ani" />
+		<anim name="Sled_LeanLeft05.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Sled_LeanLeft05.ani" />
+		<anim name="Stig_LeanLeft11.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft11.ani" />
+		<anim name="Stig_LeanLeft02.ani" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_LeanLeft02.ani" />
+		<anim name="Camera_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/pickups/pickup_camera.ani" memory="host" />
+		<anim name="stig_brushing_anim" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Brushing.ani" />
+		<skeleton name="CameraZone_skel" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/CameraZone.skn" memory="host" />
+		<skeleton name="GatePost_skel" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Gatepost.skn" memory="host" />
+		<skeleton name="Rock_skel" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Rock.skn" memory="host" />
+		<skeleton name="sled_skeleton" deferred_loading="false" file="MiniGames/AudiSled/Models/Sled.skn" memory="host" />
+		<skeleton name="stig_skeleton" deferred_loading="false" protected="false" file="MiniGames/AudiSled/Models/Stig_Rig.skn" memory="host" />
+		<skeleton name="Camera_skel" deferred_loading="false" protected="false" file="MiniGames/AudiSled/pickups/pickup_camera.skn" memory="host" />
+		<soundbank name="AudiSledSoundBank" deferred_loading="false" file="MiniGames/AudiSled/Sound/AudiSled.bnk" memory="host" />
+		<lua name="VMDebug.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMDebug.lua" memory="host" />
+		<lua name="VMList.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMList.lua" memory="host" />
+		<lua name="VMScreenFader.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMScreenFader.lua" memory="host" />
+		<lua name="VMTimers.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMTimers.lua" memory="host" />
+		<lua name="VMPad.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMPad.lua" memory="host" />
+		<lua name="VMDynamicEntity.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMDynamicEntity.lua" memory="host" />
+		<lua name="VMObjectPool.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMObjectPool.lua" memory="host" />
+		<lua name="VMDollyCamera.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMDollyCamera.lua" memory="host" />
+		<lua name="VMPathData.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMPathData.lua" memory="host" />
+		<lua name="VMPath.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMPath.lua" memory="host" />
+		<lua name="VMCRSpline.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMCRSpline.lua" memory="host" />
+		<lua name="Hazard.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/Hazard.lua" memory="host" />
+		<lua name="HazardData.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/HazardData.lua" memory="host" />
+		<lua name="VMFSM.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMFSM.lua" memory="host" />
+		<lua name="Racer.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/Racer.lua" memory="host" />
+		<lua name="VMOSD.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMOSD.lua" memory="host" />
+		<lua name="VMHud.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMHud.lua" memory="host" />
+		<lua name="VMMiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMMiniGame.lua" memory="host" />
+		<lua name="VMGame.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMGame.lua" memory="host" />
+		<lua name="VMSounds.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMSounds.lua" memory="host" />
+		<lua name="VMParticleEffect.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMParticleEffect.lua" memory="host" />
+		<lua name="VMCamera.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMCamera.lua" memory="host" />
+		<lua name="VMVehicle.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSled/VMVehicle.lua" memory="host" />
+		<lua name="AudiSledHighScores" deferred_loading="false" protected="true" file="MiniGames/AudiSled/AudiSledHighScores.lua" memory="host" />
+		<lua name="AudiSledScoreUtils" deferred_loading="false" protected="true" file="MiniGames/AudiSled/AudiSledScoreUtils.lua" memory="host" />
+	</local>
+	<external />
+</resources>

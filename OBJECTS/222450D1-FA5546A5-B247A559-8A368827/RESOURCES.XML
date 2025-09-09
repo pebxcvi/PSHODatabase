@@ -1,0 +1,886 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<anim name="Female_Drive.ani" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/characteranims/Female_Drive.ani" memory="main" />
+		<anim name="Male_Drive.ani" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/characteranims/Male_Drive.ani" memory="main" />
+		<lua name="ap_S2_CommercePoint_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_CommercePoint/ap_S2_CommercePoint_main.lua" />
+		<lua name="ap_S2_CommercePoint_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_CommercePoint/ap_S2_CommercePoint_register.lua" />
+		<lua name="ap_S2_EquipmentGarage_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_EquipmentGarage/ap_S2_EquipmentGarage_main.lua" />
+		<lua name="ap_S2_EquipmentGarage_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_EquipmentGarage/ap_S2_EquipmentGarage_register.lua" />
+		<lua name="ap_S2_EULA_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_EULA/ap_S2_EULA_main.lua" />
+		<lua name="ap_S2_EULA_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_EULA/ap_S2_EULA_register.lua" />
+		<lua name="ap_S2_MainMenu_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_MainMenu/ap_S2_MainMenu_main.lua" />
+		<lua name="ap_S2_MainMenu_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_MainMenu/ap_S2_MainMenu_register.lua" />
+		<lua name="ap_S2_Multi_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_Multi/ap_S2_Multi_main.lua" />
+		<lua name="ap_S2_Multi_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_Multi/ap_S2_Multi_register.lua" />
+		<lua name="ap_S2_PartsShop_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_PartsShop/ap_S2_PartsShop_main.lua" />
+		<lua name="ap_S2_PartsShop_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_PartsShop/ap_S2_PartsShop_register.lua" />
+		<lua name="ap_S2_ReplayController_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_ReplayController/ap_S2_ReplayController_main.lua" />
+		<lua name="ap_S2_ReplayController_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_ReplayController/ap_S2_ReplayController_register.lua" />
+		<lua name="ap_S2_ScoreDisplay_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Applets/S2_ScoreDisplay/ap_S2_ScoreDisplay_main.lua" />
+		<lua name="ap_S2_ScoreDisplay_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Applets/S2_ScoreDisplay/ap_S2_ScoreDisplay_register.lua" />
+		<lua name="ap_S2_StandBy_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Applets/S2_StandBy/ap_S2_StandBy_main.lua" />
+		<lua name="ap_S2_StandBy_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Applets/S2_StandBy/ap_S2_StandBy_register.lua" />
+		<lua name="ap_S2_VehicleController_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_VehicleController/ap_S2_VehicleController_main.lua" />
+		<lua name="ap_S2_VehicleController_register.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_VehicleController/ap_S2_VehicleController_register.lua" />
+		<lua name="Applet_AssetMan.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/AppletSys/Applet_AssetMan.lua" />
+		<lua name="Applet_Container.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/AppletSys/Applet_Container.lua" />
+		<lua name="Applet_LoadingDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/AppletSys/Applet_LoadingDisplay.lua" />
+		<lua name="Applet_Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/AppletSys/Applet_Misc.lua" />
+		<lua name="Applet_System.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/AppletSys/Applet_System.lua" />
+		<lua name="Applet_template_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Defs/Applet_template_Defs.lua" />
+		<lua name="Async.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/Async.lua" />
+		<lua name="BlackBox.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/BlackBox.lua" />
+		<lua name="CheckObjectFocusStatus.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/CheckObjectFocusStatus.lua" />
+		<lua name="Colour_HSV.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Colour_HSV.lua" />
+		<lua name="ControlsBar.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/ControlsBar.lua" />
+		<lua name="Debug_Game_Editor_main.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/Debug_Game_Editor/Debug_Game_Editor_main.lua" />
+		<lua name="DetailsPane.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/DetailsPane.lua" />
+		<lua name="DynEntity.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/DynEntity.lua" />
+		<lua name="EquipmentMenu.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_EquipmentGarage/EquipmentMenu.lua" />
+		<lua name="EULA.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_EULA/EULA.lua" />
+		<lua name="Extrapolator.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Extrapolator.lua" />
+		<lua name="FlowController.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/FlowController.lua" />
+		<lua name="FSM.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Common/FSM.lua" />
+		<lua name="GarageHud.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_EquipmentGarage/GarageHud.lua" />
+		<lua name="GlobalColourScheme.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/GlobalColourScheme.lua" />
+		<lua name="GlobalSoundVolumes.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/GlobalSoundVolumes.lua" />
+		<lua name="Gui.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui.lua" />
+		<lua name="Gui_ConsumableList.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_ConsumableList.lua" />
+		<lua name="Gui_Emitter.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_Emitter.lua" />
+		<lua name="Gui_InitialBoost.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_InitialBoost.lua" />
+		<lua name="Gui_RacePosition.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_RacePosition.lua" />
+		<lua name="Gui_RaceTimer.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_RaceTimer.lua" />
+		<lua name="Gui_ScorePoints.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_ScorePoints.lua" />
+		<lua name="Gui_Speedo.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_Speedo.lua" />
+		<lua name="Gui_SplitTimes.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Gui_SplitTimes.lua" />
+		<lua name="GuidChecker.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Common/GuidChecker.lua" />
+		<lua name="Heartbeat.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/Heartbeat.lua" />
+		<lua name="HoloBoard_Sys.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HoloBoard_Sys.lua" />
+		<lua name="HoloRank.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HoloRank.lua" />
+		<lua name="Hud_Arrows.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_Arrows.lua" />
+		<lua name="Hud_Border.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_Border.lua" />
+		<lua name="Hud_Button.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_Button.lua" />
+		<lua name="Hud_Class.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/Hud_Class.lua" />
+		<lua name="Hud_ClassLoadout.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Hud_ClassLoadout.lua" />
+		<lua name="Hud_DetailsPane.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Hud_DetailsPane.lua" />
+		<lua name="Hud_Header.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_Header.lua" />
+		<lua name="Hud_HorzBars.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_HorzBars.lua" />
+		<lua name="Hud_LiniMap.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_LiniMap.lua" />
+		<lua name="Hud_MenuBG.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_MenuBG.lua" />
+		<lua name="Hud_PlayerInfo.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_PlayerInfo.lua" />
+		<lua name="Hud_PurchaseBox.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Hud_PurchaseBox.lua" />
+		<lua name="Hud_ScoreAllocator.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Applets/S2_ScoreDisplay/Hud_ScoreAllocator.lua" />
+		<lua name="Hud_ScrollBar.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_ScrollBar.lua" />
+		<lua name="Hud_Scroller.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_Scroller.lua" />
+		<lua name="Hud_ShipPane.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_ShipPane.lua" />
+		<lua name="Hud_ShipPlan.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_ShipPlan.lua" />
+		<lua name="Hud_SpecialIcon.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_SpecialIcon.lua" />
+		<lua name="Hud_StatBar.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_StatBar.lua" />
+		<lua name="Hud_StatBarDiscrete.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_StatBarDiscrete.lua" />
+		<lua name="Hud_StatPane.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/Hud_StatPane.lua" />
+		<lua name="Hud_TextSlider.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_TextSlider.lua" />
+		<lua name="Hud_TitlePanel.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/Hud_TitlePanel.lua" />
+		<lua name="HudBars.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Shared/HudBars.lua" />
+		<lua name="HudBox.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudBox.lua" />
+		<lua name="HudButton.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudButton.lua" />
+		<lua name="HudControls.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Shared/HudControls.lua" />
+		<lua name="HudDialogBox.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudDialogBox.lua" />
+		<lua name="HudFlash.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/common/HudFlash.lua" />
+		<lua name="HudImage.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudImage.lua" />
+		<lua name="HudLine.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Shared/HudLine.lua" />
+		<lua name="HudMap.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudMap.lua" />
+		<lua name="HudRect.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudRect.lua" />
+		<lua name="HudScrollBar.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudScrollBar.lua" />
+		<lua name="HudSprite.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Shared/HudSprite.lua" />
+		<lua name="HudStyle.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/HudStyle.lua" />
+		<lua name="HudTable.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Shared/HudTable.lua" />
+		<lua name="HudText.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/HudText.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Inventory.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Jamin.lua" />
+		<lua name="Jetcraft.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft.lua" />
+		<lua name="Jetcraft_AirStreak.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_AirStreak.lua" />
+		<lua name="Jetcraft_Components.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Components.lua" />
+		<lua name="Jetcraft_Engine.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Engine.lua" />
+		<lua name="Jetcraft_EngineSounds.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_EngineSounds.lua" />
+		<lua name="Jetcraft_Equip.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Equip.lua" />
+		<lua name="Jetcraft_Flaps.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Flaps.lua" />
+		<lua name="Jetcraft_Flightmodel.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Flightmodel.lua" />
+		<lua name="Jetcraft_Hud.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Hud.lua" />
+		<lua name="Jetcraft_Jato.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Jato.lua" />
+		<lua name="Jetcraft_network.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_network.lua" />
+		<lua name="Jetcraft_Recordings.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Defs/Jetcraft_Recordings.lua" />
+		<lua name="Jetcraft_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Defs/Jetcraft_Settings.lua" />
+		<lua name="Jetcraft_Simulate.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Simulate.lua" />
+		<lua name="Jetcraft_Skin.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_Skin.lua" />
+		<lua name="Jetcraft_SonicBoomer.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_SonicBoomer.lua" />
+		<lua name="Jetcraft_StatModule.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_StatModule.lua" />
+		<lua name="Jetcraft_TrackConstraint.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Jetcraft/Jetcraft_TrackConstraint.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Main.lua" />
+		<lua name="MainMenu.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_MainMenu/MainMenu.lua" />
+		<lua name="mDampener.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/mDampener.lua" />
+		<lua name="Menu_Controller.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Menu_Controller.lua" />
+		<lua name="MenuAnimBG.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/MenuAnimBG.lua" />
+		<lua name="MenuLib_Core.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/MenuLib_Core.lua" />
+		<lua name="MenuLib_UIstyle_DebugText.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/MenuLib_UIstyle_DebugText.lua" />
+		<lua name="MenuPOI.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Common/MenuPOI.lua" />
+		<lua name="mini_FSM.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/mini_FSM.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/Misc.lua" />
+		<lua name="Misc_table.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/Misc_table.lua" />
+		<lua name="Misc_utf8.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Misc_utf8.lua" />
+		<lua name="mp3Gui.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/mp3player/mp3Gui.lua" />
+		<lua name="mpSessions.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/mpSessions.lua" />
+		<lua name="Multiplayer_flow.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Defs/Multiplayer_flow.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/NetLib.lua" />
+		<lua name="Notify.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Notify.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/OHS.lua" />
+		<lua name="OptionsPane.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Applets/S2_MainMenu/OptionsPane.lua" />
+		<lua name="OutsoXMB.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/OutsoXMB.lua" />
+		<lua name="PadControl.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/PadControl.lua" />
+		<lua name="PartsShop.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_PartsShop/PartsShop.lua" />
+		<lua name="PartsShopHud.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_PartsShop/PartsShopHud.lua" />
+		<lua name="PersonMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/PersonMgr.lua" />
+		<lua name="PersonPopUp.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/PersonPopUp.lua" />
+		<lua name="qEntity.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/qEntity.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Queue.lua" />
+		<lua name="Race_DataRequest.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/race/Race_DataRequest.lua" />
+		<lua name="Race_GridLight.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Race/Race_GridLight.lua" />
+		<lua name="Race_JetTagsHud.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Race/Race_JetTagsHud.lua" />
+		<lua name="Race_Leaderboards.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Race/Race_Leaderboards.lua" />
+		<lua name="Race_Manager.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Race/Race_Manager.lua" />
+		<lua name="Race_Monitor.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Race/Race_Monitor.lua" />
+		<lua name="Race_Network.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/race/Race_Network.lua" />
+		<lua name="Race_TrackInst.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Race/Race_TrackInst.lua" />
+		<lua name="Race_TrackSys.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Race/Race_TrackSys.lua" />
+		<lua name="RadialMenu.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/RadialMenu.lua" />
+		<lua name="RankMovementScreen.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Applets/S2_ScoreDisplay/RankMovementScreen.lua" />
+		<lua name="Replay_Camera.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Replay_Camera.lua" />
+		<lua name="Res.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Res.lua" />
+		<lua name="RewardMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/RewardMgr.lua" />
+		<lua name="RipResourceXml.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/RipResourceXml.lua" />
+		<lua name="RPC.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/RPC.lua" />
+		<lua name="S2_Constants.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/S2_Constants.lua" />
+		<lua name="S2_GlobalThrobbingDevice.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/common/S2_GlobalThrobbingDevice.lua" />
+		<lua name="S2_IconAnimator.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/S2_IconAnimator.lua" />
+		<lua name="Sausage.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Sausage.lua" />
+		<lua name="SausageSim.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/SausageSim.lua" />
+		<lua name="Sequence.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/shared/Sequence.lua" />
+		<lua name="Sessions.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/Sessions.lua" />
+		<lua name="SessionsHud_Create.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/SessionsHud_Create.lua" />
+		<lua name="SessionsHud_List.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/SessionsHud_List.lua" />
+		<lua name="SessionsHud_Lobby.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/sodium2/Common/SessionsHud_Lobby.lua" />
+		<lua name="SigmaStat.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/SigmaStat.lua" />
+		<lua name="SimpleScript.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/SimpleScript.lua" />
+		<lua name="Singleplayer_flow.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Defs/Singleplayer_flow.lua" />
+		<lua name="Sodium2_Cameras.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Sodium2_Cameras.lua" />
+		<lua name="Sodium2_Fx.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Sodium2_Fx.lua" />
+		<lua name="soundSys.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/soundSys.lua" />
+		<lua name="StackCamera.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/StackCamera.lua" />
+		<lua name="Startup.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Startup.lua" />
+		<lua name="StateStats.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/StateStats.lua" />
+		<lua name="String_Extended.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/String_Extended.lua" />
+		<lua name="Tip.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Common/Tip.lua" />
+		<lua name="Track_0.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_0.lua" />
+		<lua name="Track_0a.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_0a.lua" />
+		<lua name="Track_1.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_1.lua" />
+		<lua name="Track_1a.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_1.lua" />
+		<lua name="Track_1a_INST.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_1a_model_INST.lua" />
+		<lua name="Track_2.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_2.lua" />
+		<lua name="Track_2_INST.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_2_model_INST.lua" />
+		<lua name="Track_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Defs/Track_Settings.lua" />
+		<lua name="TrackSelect_Menu.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/common/TrackSelect_Menu.lua" />
+		<lua name="TrackSelectHud.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_MainMenu/TrackSelectHud.lua" />
+		<lua name="Tweener.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Tweener.lua" />
+		<lua name="uParamSys.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/uParamSys.lua" />
+		<lua name="vDampener.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Sodium2/Common/vDampener.lua" />
+		<lua name="Version.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/shared/Version.lua" />
+		<lua name="Wallet.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Wallet.lua" />
+		<lua name="WelcomeMessage.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Applets/S2_MainMenu/WelcomeMessage.lua" />
+		<lua name="WelcomeMessageGen.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/sodium2/Common/WelcomeMessageGen.lua" />
+		<lua name="Wiggle.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/Wiggle.lua" />
+		<lua name="XMBAnim1.lua" deferred_loading="true" protected="true" file="MiniGames/Sodium/Sodium2/Common/XMBAnim1.lua" />
+		<lua name="XmlConvert.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/XmlConvert.lua" />
+		<lua name="XP.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/XP.lua" />
+		<lua name="XP_Hud.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/XP_Hud.lua" />
+		<model name="Airstreak1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Airstreak1.mdl" memory="host" />
+		<model name="blacksphere.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/blacksphere.mdl" memory="host" />
+		<model name="cave_brace.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/cave_brace/cave_brace.mdl" />
+		<model name="finish_gate.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/finish_gate.mdl" memory="host" />
+		<model name="flap_l1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_l1.mdl" memory="host" />
+		<model name="flap_l1_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_l1_Scythe.mdl" memory="host" />
+		<model name="flap_l1_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_l1_Scythe2.mdl" memory="host" />
+		<model name="flap_l1_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l1_Scythe3.mdl" />
+		<model name="flap_l1_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l1_Scythe4.mdl" />
+		<model name="flap_l1_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l1_Scythe5.mdl" />
+		<model name="flap_l1_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l1_Scythe6.mdl" />
+		<model name="flap_l2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_l2.mdl" memory="host" />
+		<model name="flap_l2_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_l2_Scythe.mdl" memory="host" />
+		<model name="flap_l2_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_l2_Scythe2.mdl" memory="host" />
+		<model name="flap_l2_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l2_Scythe3.mdl" />
+		<model name="flap_l2_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l2_Scythe4.mdl" />
+		<model name="flap_l2_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l2_Scythe5.mdl" />
+		<model name="flap_l2_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_l2_Scythe6.mdl" />
+		<model name="flap_r1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_r1.mdl" memory="host" />
+		<model name="flap_r1_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_r1_Scythe.mdl" memory="host" />
+		<model name="flap_r1_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_r1_Scythe2.mdl" memory="host" />
+		<model name="flap_r1_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r1_Scythe3.mdl" />
+		<model name="flap_r1_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r1_Scythe4.mdl" />
+		<model name="flap_r1_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r1_Scythe5.mdl" />
+		<model name="flap_r1_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r1_Scythe6.mdl" />
+		<model name="flap_r2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_r2.mdl" memory="host" />
+		<model name="flap_r2_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_r2_Scythe.mdl" memory="host" />
+		<model name="flap_r2_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/flap_r2_Scythe2.mdl" memory="host" />
+		<model name="flap_r2_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r2_Scythe3.mdl" />
+		<model name="flap_r2_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r2_Scythe4.mdl" />
+		<model name="flap_r2_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r2_Scythe5.mdl" />
+		<model name="flap_r2_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/flap_r2_Scythe6.mdl" />
+		<model name="GateLights_array.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_array.mdl" memory="host" />
+		<model name="GateLights_flashes.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_flashes.mdl" memory="host" />
+		<model name="GateLights_green1.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_green1.mdl" memory="host" />
+		<model name="GateLights_green2.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_green2.mdl" memory="host" />
+		<model name="GateLights_green3.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_green3.mdl" memory="host" />
+		<model name="GateLights_green4.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_green4.mdl" memory="host" />
+		<model name="GateLights_green5.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_green5.mdl" memory="host" />
+		<model name="GateLights_red1.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_red1.mdl" memory="host" />
+		<model name="GateLights_red2.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_red2.mdl" memory="host" />
+		<model name="GateLights_red3.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_red3.mdl" memory="host" />
+		<model name="GateLights_red4.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_red4.mdl" memory="host" />
+		<model name="GateLights_red5.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_red5.mdl" memory="host" />
+		<model name="GateLights_wires.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/GateLights_wires.mdl" memory="host" />
+		<model name="holorank.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/holorank.mdl" />
+		<model name="JATO1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO1.mdl" memory="host" />
+		<model name="JATO10.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO10.mdl" memory="host" />
+		<model name="JATO11.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO11.mdl" memory="host" />
+		<model name="JATO12.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO12.mdl" memory="host" />
+		<model name="JATO2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO2.mdl" memory="host" />
+		<model name="JATO3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO3.mdl" memory="host" />
+		<model name="JATO4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO4.mdl" memory="host" />
+		<model name="JATO5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO5.mdl" memory="host" />
+		<model name="JATO6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO6.mdl" memory="host" />
+		<model name="JATO7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO7.mdl" memory="host" />
+		<model name="JATO8.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO8.mdl" memory="host" />
+		<model name="JATO9.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/JATO9.mdl" memory="host" />
+		<model name="Jetcraft_1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1.mdl" memory="host" />
+		<model name="Jetcraft_1_engine1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine1.mdl" memory="host" />
+		<model name="Jetcraft_1_engine2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine2.mdl" memory="host" />
+		<model name="Jetcraft_1_engine2a.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine2a.mdl" memory="host" />
+		<model name="Jetcraft_1_engine2b.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine2b.mdl" memory="host" />
+		<model name="Jetcraft_1_engine3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine3.mdl" memory="host" />
+		<model name="Jetcraft_1_engine3a.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine3a.mdl" memory="host" />
+		<model name="Jetcraft_1_engine3b.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine3b.mdl" memory="host" />
+		<model name="Jetcraft_1_engine4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine4.mdl" memory="host" />
+		<model name="Jetcraft_1_engine4a.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine4a.mdl" memory="host" />
+		<model name="Jetcraft_1_engine5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine5.mdl" memory="host" />
+		<model name="Jetcraft_1_engine5a.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine5a.mdl" memory="host" />
+		<model name="Jetcraft_1_engine6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_engine6.mdl" memory="host" />
+		<model name="Jetcraft_1_glass.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_glass.mdl" memory="host" />
+		<model name="Jetcraft_1_glass_dark.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_1_glass_dark.mdl" memory="host" />
+		<model name="Jetcraft_canopy.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_canopy.mdl" memory="host" />
+		<model name="Jetcraft_canopy_glass.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_canopy_glass.mdl" memory="host" />
+		<model name="Jetcraft_canopy_glass_dark.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/Jetcraft_canopy_glass_dark.mdl" memory="host" />
+		<model name="L_F_foil.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/L_F_foil.mdl" memory="host" />
+		<model name="L_F_foil_bar.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/L_F_foil_bar.mdl" memory="host" />
+		<model name="L_F_foil_rear.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/L_F_foil_rear.mdl" memory="host" />
+		<model name="l_hover_engine1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/l_hover_engine1.mdl" memory="host" />
+		<model name="l_hover_engine2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/l_hover_engine2.mdl" memory="host" />
+		<model name="l_hover_engine3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/l_hover_engine3.mdl" memory="host" />
+		<model name="l_hover_engine4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/l_hover_engine4.mdl" memory="host" />
+		<model name="l_hover_engine5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/l_hover_engine5.mdl" memory="host" />
+		<model name="l_hover_engine6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/l_hover_engine6.mdl" memory="host" />
+		<model name="l_hover_engine7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/l_hover_engine7.mdl" />
+		<model name="new_circle_supports.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/new_supports/new_circle_supports.mdl" memory="host" />
+		<model name="New_supports.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/new_supports/New_supports.mdl" memory="host" />
+		<model name="pitch_flap_l1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe1.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe2.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe3.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe4.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe5.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe6.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe7.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe8.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe8.mdl" memory="host" />
+		<model name="pitch_flap_l1_Scythe9.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l1_Scythe9.mdl" memory="host" />
+		<model name="pitch_flap_l2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe1.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe2.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe3.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe4.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe5.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe6.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe7.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe8.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe8.mdl" memory="host" />
+		<model name="pitch_flap_l2_Scythe9.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_l2_Scythe9.mdl" memory="host" />
+		<model name="pitch_flap_r1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe1.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe2.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe3.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe4.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe5.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe6.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe7.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe8.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe8.mdl" memory="host" />
+		<model name="pitch_flap_r1_Scythe9.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r1_Scythe9.mdl" memory="host" />
+		<model name="pitch_flap_r2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe1.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe2.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe3.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe4.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe5.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe6.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe7.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe8.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe8.mdl" memory="host" />
+		<model name="pitch_flap_r2_Scythe9.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/pitch_flap_r2_Scythe9.mdl" memory="host" />
+		<model name="R_F_foil.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/R_F_foil.mdl" memory="host" />
+		<model name="R_F_foil_bar.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/R_F_foil_bar.mdl" memory="host" />
+		<model name="R_F_foil_rear.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/R_F_foil_rear.mdl" memory="host" />
+		<model name="r_hover_engine1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/r_hover_engine1.mdl" memory="host" />
+		<model name="r_hover_engine2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/r_hover_engine2.mdl" memory="host" />
+		<model name="r_hover_engine3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/r_hover_engine3.mdl" memory="host" />
+		<model name="r_hover_engine4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/r_hover_engine4.mdl" memory="host" />
+		<model name="r_hover_engine5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/r_hover_engine5.mdl" memory="host" />
+		<model name="r_hover_engine6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/r_hover_engine6.mdl" memory="host" />
+		<model name="r_hover_engine7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/r_hover_engine7.mdl" />
+		<model name="ruder_flap_bar.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_bar.mdl" memory="host" />
+		<model name="ruder_flap_l3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe1.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe2.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe3.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe4.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe5.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe6.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe7.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe8.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe8.mdl" memory="host" />
+		<model name="ruder_flap_l3_Scythe9.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_l3_Scythe9.mdl" memory="host" />
+		<model name="ruder_flap_r3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe1.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe1.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe2.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe3.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe3.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe4.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe4.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe5.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe5.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe6.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe6.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe7.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe7.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe8.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe8.mdl" memory="host" />
+		<model name="ruder_flap_r3_Scythe9.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Models/ruder_flap_r3_Scythe9.mdl" memory="host" />
+		<model name="Satellite.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/Satellite/Satellite.mdl" memory="host" />
+		<model name="side_banner.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/banners/side_banner.mdl" />
+		<model name="Spearhead_Drill.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/spearhead_drill/Spearhead_Drill.mdl" />
+		<model name="top_banner.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/banners/top_banner.mdl" />
+		<model name="track_1_brace.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/track_1_brace/track_1_brace.mdl" />
+		<model name="Track_1a.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_1a_model.mdl" memory="host" />
+		<model name="Track_2.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/Tracks/Track_2_model.mdl" memory="host" />
+		<model name="wind_turbine_top.mdl" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Models/props/animated_turbine/wind_turbine_top.mdl" />
+		<particle name="JatoThrust.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/JatoThrust.efx" memory="host" />
+		<particle name="Jet_flare.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/Jet_flare.efx" memory="host" />
+		<particle name="Jet_speed_1.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/Jet_speed_1.efx" memory="host" />
+		<particle name="Jet_speed_3.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/Jet_speed_3.efx" memory="host" />
+		<particle name="JetCraftTrail.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/JetCraftTrail.efx" memory="host" />
+		<particle name="JetFlare.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/JetFlare.efx" memory="host" />
+		<particle name="LaunchSmoke.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/LaunchSmoke.efx" memory="host" />
+		<particle name="sonic_barrier.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/sonic_barrier4.efx" memory="host" />
+		<particle name="Sound_barrier.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/Sound_barrier.efx" memory="host" />
+		<particle name="Sparks.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/Sparks.efx" memory="host" />
+		<particle name="windStreak.efx" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/efx/windStreak.efx" memory="host" />
+		<repertoire name="Female_Drive" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/characteranims/sodium2_Female_Drive.xml" memory="host" />
+		<repertoire name="Male_Drive" deferred_loading="true" protected="false" file="MiniGames/Sodium/Sodium2/Assets/characteranims/sodium2_Male_Drive.xml" memory="host" />
+		<soundbank name="Sodium_Racer.bnk" deferred_loading="false" protected="false" file="MiniGames/Sodium/Sodium2/Assets/sounds/Sodium_Racer.bnk" memory="main" />
+		<texture name="Aerobatic_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Aerobatic_DX_icon.dds" />
+		<texture name="Aerobatic_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Aerobatic_DX_image.dds" />
+		<texture name="Aerobatic_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Aerobatic_icon.dds" />
+		<texture name="Aerobatic_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Aerobatic_image.dds" />
+		<texture name="Aerofoil.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Aerofoil.dds" />
+		<texture name="Afterburner.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Afterburner.dds" />
+		<texture name="afterburners.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/afterburners.dds" />
+		<texture name="Aggressor_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Aggressor_DX_icon.dds" />
+		<texture name="Aggressor_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Aggressor_DX_image.dds" />
+		<texture name="Aggressor_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Aggressor_icon.dds" />
+		<texture name="Aggressor_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Aggressor_image.dds" />
+		<texture name="Air_Brakes.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Air_Brakes.dds" />
+		<texture name="Albatross_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Albatross_icon.dds" />
+		<texture name="Albatross_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Albatross_image.dds" />
+		<texture name="Animal_Magnetism_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Animal_Magnetism_image.dds" />
+		<texture name="Apollo_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Apollo_DX_icon.dds" />
+		<texture name="Apollo_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Apollo_DX_image.dds" />
+		<texture name="Apollo_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Apollo_icon.dds" />
+		<texture name="Apollo_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Apollo_image.dds" />
+		<texture name="Appletwist_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Appletwist_image.dds" />
+		<texture name="Seasons_Greetings_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Seasons_Greetings_image.dds" />
+		<texture name="Blue.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/race_info/Blue.dds" />
+		<texture name="Blue_Horizontal.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Blue_Horizontal.dds" />
+		<texture name="Blueviper_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Blueviper_image.dds" />
+		<texture name="Boneshaker_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Boneshaker_icon.dds" />
+		<texture name="Boneshaker_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Boneshaker_image.dds" />
+		<texture name="BorderImpact.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/race_info/BorderImpact.dds" />
+		<texture name="bottomLeft.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/bottomLeft.dds" />
+		<texture name="bottomMiddle.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/bottomMiddle.dds" />
+		<texture name="bottomRight.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/bottomRight.dds" />
+		<texture name="Bumble_Bee_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Bumble_Bee_image.dds" />
+		<texture name="button_highlight.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/button_highlight.dds" />
+		<texture name="chall_bg_lines.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_bg_lines.dds" />
+		<texture name="chall_bg_solid_lines.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_bg_solid_lines.dds" />
+		<texture name="chall_brdr_crnr.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_crnr.dds" />
+		<texture name="chall_brdr_ovrly_crnr.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_crnr.dds" />
+		<texture name="chall_brdr_ovrly_crnr_connect.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_crnr_connect.dds" />
+		<texture name="chall_brdr_ovrly_ornament_1_btm.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_1_btm.dds" />
+		<texture name="chall_brdr_ovrly_ornament_1_mid.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_1_mid.dds" />
+		<texture name="chall_brdr_ovrly_ornament_1_top.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_1_top.dds" />
+		<texture name="chall_brdr_ovrly_ornament_2_btm.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_2_btm.dds" />
+		<texture name="chall_brdr_ovrly_ornament_2_mid.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_2_mid.dds" />
+		<texture name="chall_brdr_ovrly_ornament_2_top.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_2_top.dds" />
+		<texture name="chall_brdr_ovrly_ornament_3.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_3.dds" />
+		<texture name="chall_brdr_ovrly_ornament_4.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_4.dds" />
+		<texture name="chall_brdr_ovrly_ornament_5.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_5.dds" />
+		<texture name="chall_brdr_ovrly_ornament_6.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_6.dds" />
+		<texture name="chall_brdr_ovrly_ornament_7_btm.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_7_btm.dds" />
+		<texture name="chall_brdr_ovrly_ornament_7_mid.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_7_mid.dds" />
+		<texture name="chall_brdr_ovrly_ornament_7_top.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_7_top.dds" />
+		<texture name="chall_brdr_ovrly_ornament_8.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_ornament_8.dds" />
+		<texture name="chall_brdr_ovrly_side.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_ovrly_side.dds" />
+		<texture name="chall_brdr_side.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_brdr_side.dds" />
+		<texture name="chall_status_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_status_icon.dds" />
+		<texture name="chall_text_box_crnr.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_text_box_crnr.dds" />
+		<texture name="chall_text_box_crnr_connect.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_text_box_crnr_connect.dds" />
+		<texture name="chall_text_box_side.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_text_box_side.dds" />
+		<texture name="chall_title_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_title_icon.dds" />
+		<texture name="chall_trophy.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/textures/chall_trophy.dds" />
+		<texture name="challenge_arrow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/challenge_arrow.dds" />
+		<texture name="challenge_msg_warning_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/challenge_hud/challenge_msg_warning_icon.dds" />
+		<texture name="class_star.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/class/class_star.dds" />
+		<texture name="Classic_Green_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Classic_Green_image.dds" />
+		<texture name="commerce.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/shared/textures/commerce.dds" />
+		<texture name="Completion_Bar_1.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/Completion_Bar_1.dds" />
+		<texture name="Completion_Bar_2.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/Completion_Bar_2.dds" />
+		<texture name="controls.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/shared/textures/controls_new.dds" />
+		<texture name="controls_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/controls_bg.dds" />
+		<texture name="credits.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/textures/Credit_Icon_Big.dds" />
+		<texture name="Crimson_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Crimson_image.dds" />
+		<texture name="ctrlBar_left.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/controls_bar/ctrlBar_left.dds" />
+		<texture name="ctrlBar_mid.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/controls_bar/ctrlBar_mid.dds" />
+		<texture name="ctrlBar_right.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/controls_bar/ctrlBar_right.dds" />
+		<texture name="currency_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/currency_icon.dds" />
+		<texture name="DarkXmbBG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/DarkXmbBG.dds" />
+		<texture name="details_button.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/details_pane/details_button.dds" />
+		<texture name="details_button_highlight.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/details_pane/details_button_highlight.dds" />
+		<texture name="details_pane.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/details_pane/details_pane.dds" />
+		<texture name="Deton8_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Deton8_DX_icon.dds" />
+		<texture name="Deton8_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Deton8_DX_image.dds" />
+		<texture name="Deton8_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Deton8_icon.dds" />
+		<texture name="Deton8_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Deton8_image.dds" />
+		<texture name="Dial_Blue_Ring.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_bits/Dial_Blue_Ring.dds" />
+		<texture name="Dial_Centre_Mark.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_bits/Dial_Centre_Mark.dds" />
+		<texture name="Dial_Centre_Ring.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_bits/Dial_Centre_Ring.dds" />
+		<texture name="Dial_Details.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_bits/Dial_Details.dds" />
+		<texture name="Dial_Green_Ring.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_bits/Dial_Green_Ring.dds" />
+		<texture name="Dial_Orange_Ring.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_bits/Dial_Orange_Ring.dds" />
+		<texture name="dot.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/textures/dot.dds" />
+		<texture name="Dynamite_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Dynamite_DX_icon.dds" />
+		<texture name="Dynamite_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Dynamite_DX_image.dds" />
+		<texture name="Dynamite_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Dynamite_icon.dds" />
+		<texture name="Dynamite_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Dynamite_image.dds" />
+		<texture name="Engine.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Engine.dds" />
+		<texture name="engine1.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/engine1.dds" />
+		<texture name="engine3.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/engine3.dds" />
+		<texture name="eruptor.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/eruptor.dds" />
+		<texture name="Firecracker_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Firecracker_DX_icon.dds" />
+		<texture name="Firecracker_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Firecracker_DX_image.dds" />
+		<texture name="Firecracker_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Firecracker_icon.dds" />
+		<texture name="Firecracker_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Firecracker_image.dds" />
+		<texture name="Flight_Computer.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Flight_Computer.dds" />
+		<texture name="Forefront_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Forefront_DX_icon.dds" />
+		<texture name="Forefront_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Forefront_DX_image.dds" />
+		<texture name="Forefront_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Forefront_icon.dds" />
+		<texture name="Forefront_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Forefront_image.dds" />
+		<texture name="Frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Frame.dds" />
+		<texture name="Friend.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_icons/Friend.dds" />
+		<texture name="Friend_bronze.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/FriendScreen/Friend_bronze.dds" />
+		<texture name="Friend_dull.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/FriendScreen/Friend_dull.dds" />
+		<texture name="Friend_gold.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/FriendScreen/Friend_gold.dds" />
+		<texture name="Friend_green.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/FriendScreen/Friend_green.dds" />
+		<texture name="Friend_marked.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/FriendScreen/Friend_marked.dds" />
+		<texture name="Friend_silver.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/FriendScreen/Friend_silver.dds" />
+		<texture name="friends_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/friends_bg.dds" />
+		<texture name="Fruit_Salad_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Fruit_Salad_image.dds" />
+		<texture name="Fuel_Type.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Fuel_Type.dds" />
+		<texture name="fueltype.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/fueltype.dds" />
+		<texture name="Galvonium_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Galvonium_DX_icon.dds" />
+		<texture name="Galvonium_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Galvonium_DX_image.dds" />
+		<texture name="Galvonium_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Galvonium_icon.dds" />
+		<texture name="Galvonium_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Galvonium_image.dds" />
+		<texture name="garage_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/garage_bg.dds" />
+		<texture name="garage_sd_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/garage_sd_bg.dds" />
+		<texture name="generic_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/generic_icon.dds" />
+		<texture name="Ghost.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Texture/Ghost.dds" />
+		<texture name="Green.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/race_info/Green.dds" />
+		<texture name="Green_Horizontal.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Green_Horizontal.dds" />
+		<texture name="Gui_Placeholder.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Gui_Placeholder.dds" />
+		<texture name="Halli_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Halli_icon.dds" />
+		<texture name="Halli_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Halli_image.dds" />
+		<texture name="Header_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Header/Header_BG.dds" />
+		<texture name="Header_Frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Header/Header_Frame.dds" />
+		<texture name="Header_Shine.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Header/Header_Shine.dds" />
+		<texture name="Hiromaru_racer_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Hiromaru_racer_image.dds" />
+		<texture name="Hornet_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Hornet_DX_icon.dds" />
+		<texture name="Hornet_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Hornet_DX_image.dds" />
+		<texture name="Hornet_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Hornet_icon.dds" />
+		<texture name="Hornet_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Hornet_image.dds" />
+		<texture name="Hover_Engines.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Hover_Engines.dds" />
+		<texture name="hoverengines.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/hoverengines.dds" />
+		<texture name="Hud_Overlay1.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/Hud_Overlay1.dds" />
+		<texture name="Hud_Overlay_Text.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/Hud_Overlay_Text.dds" />
+		<texture name="Humming_Bird_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Humming_Bird_DX_icon.dds" />
+		<texture name="Humming_Bird_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Humming_Bird_DX_image.dds" />
+		<texture name="Humming_Bird_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Humming_Bird_icon.dds" />
+		<texture name="Humming_Bird_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Humming_Bird_image.dds" />
+		<texture name="Hydrostatic_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Hydrostatic_DX_icon.dds" />
+		<texture name="Hydrostatic_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Hydrostatic_DX_image.dds" />
+		<texture name="Hydrostatic_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Hydrostatic_icon.dds" />
+		<texture name="Hydrostatic_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Hydrostatic_image.dds" />
+		<texture name="Ignition_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Ignition_DX_icon.dds" />
+		<texture name="Ignition_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Ignition_DX_image.dds" />
+		<texture name="Ignition_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Ignition_icon.dds" />
+		<texture name="Ignition_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Ignition_image.dds" />
+		<texture name="Image_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Parts/Image_BG.dds" />
+		<texture name="Inertia_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Inertia_DX_icon.dds" />
+		<texture name="Inertia_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Inertia_DX_image.dds" />
+		<texture name="Inertia_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Inertia_icon.dds" />
+		<texture name="Inertia_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Inertia_image.dds" />
+		<texture name="InScene.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_icons/InScene.dds" />
+		<texture name="Interceptor_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Interceptor_DX_icon.dds" />
+		<texture name="Interceptor_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Interceptor_DX_image.dds" />
+		<texture name="Interceptor_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Interceptor_icon.dds" />
+		<texture name="Interceptor_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Interceptor_image.dds" />
+		<texture name="Item_1.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Item_1.dds" />
+		<texture name="Item_2.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Item_2.dds" />
+		<texture name="jato_no_circuit.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/jato_no_circuit.dds" />
+		<texture name="jet_skin_01_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_01_d.dds" />
+		<texture name="jet_skin_02_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_02_d.dds" />
+		<texture name="jet_skin_03_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_03_d.dds" />
+		<texture name="jet_skin_04_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_04_d.dds" />
+		<texture name="jet_skin_05_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_05_d.dds" />
+		<texture name="jet_skin_06_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_06_d.dds" />
+		<texture name="jet_skin_07_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_07_d.dds" />
+		<texture name="jet_skin_08_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_08_d.dds" />
+		<texture name="jet_skin_09_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_09_d.dds" />
+		<texture name="jet_skin_10_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_10_d.dds" />
+		<texture name="jet_skin_11_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_11_d.dds" />
+		<texture name="jet_skin_12_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_12_d.dds" />
+		<texture name="jet_skin_13_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_13_d.dds" />
+		<texture name="jet_skin_14_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_14_d.dds" />
+		<texture name="jet_skin_15_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_15_d.dds" />
+		<texture name="jet_skin_16_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_16_d.dds" />
+		<texture name="jet_skin_17_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_17_d.dds" />
+		<texture name="jet_skin_18_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_18_d.dds" />
+		<texture name="jet_skin_19_d.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Skins/jet_skin_19_d.dds" />
+		<texture name="jetcraft_body_d.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/texture/jetcraft_body_d.dds" />
+		<texture name="jetcraft_body_n.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/texture/jetcraft_body_n.dds" />
+		<texture name="jetcraft_body_s.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/texture/jetcraft_body_s.dds" />
+		<texture name="Jetfan_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Jetfan_icon.dds" />
+		<texture name="Jetfan_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Jetfan_image.dds" />
+		<texture name="L1.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Shoulder_Buttons/L1.dds" />
+		<texture name="Leaderboard_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_Buttons/Leaderboard_BG.dds" />
+		<texture name="Leaderboard_Frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_Buttons/Leaderboard_Frame.dds" />
+		<texture name="Leaderboard_Highlight.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_Buttons/Leaderboard_Highlight.dds" />
+		<texture name="Leaderboard_Pressed.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_Buttons/Leaderboard_Pressed.dds" />
+		<texture name="Leaderboard_Shine.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_Buttons/Leaderboard_Shine.dds" />
+		<texture name="LevelUp_Bar_Arrow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Post_Race/LevelUp_Bar_Arrow.dds" />
+		<texture name="LevelUp_Bar_End.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Post_Race/LevelUp_Bar_End.dds" />
+		<texture name="LevelUp_Bar_Mid.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Post_Race/LevelUp_Bar_Mid.dds" />
+		<texture name="line.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/textures/line.dds" />
+		<texture name="lini_map_back_crnr.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/lini_map/lini_map_back_crnr.dds" />
+		<texture name="lini_map_back_side.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/lini_map/lini_map_back_side.dds" />
+		<texture name="lini_map_finish.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/lini_map/lini_map_finish.dds" />
+		<texture name="lini_map_jet.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/lini_map/lini_map_jet.dds" />
+		<texture name="Live_Wire_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Live_Wire_DX_icon.dds" />
+		<texture name="Live_Wire_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Live_Wire_DX_image.dds" />
+		<texture name="Live_Wire_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Live_Wire_icon.dds" />
+		<texture name="Live_Wire_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Live_Wire_image.dds" />
+		<texture name="loading.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/loading.dds" />
+		<texture name="Location_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Location_Buttons/Location_BG.dds" />
+		<texture name="Location_Frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Location_Buttons/Location_Frame.dds" />
+		<texture name="Location_Highlight.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Location_Buttons/Location_Highlight.dds" />
+		<texture name="Location_Pressed.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Location_Buttons/Location_Pressed.dds" />
+		<texture name="lock.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/lock.dds" />
+		<texture name="main_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/main_bg.dds" />
+		<texture name="Marshmallow_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Marshmallow_image.dds" />
+		<texture name="middleLeft.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/middleLeft.dds" />
+		<texture name="middleMiddle.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/middleMiddle.dds" />
+		<texture name="middleRight.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/middleRight.dds" />
+		<texture name="Molotov_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Molotov_DX_icon.dds" />
+		<texture name="Molotov_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Molotov_DX_image.dds" />
+		<texture name="Molotov_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Molotov_icon.dds" />
+		<texture name="Molotov_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Molotov_image.dds" />
+		<texture name="Momentum_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Momentum_icon.dds" />
+		<texture name="Momentum_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Momentum_image.dds" />
+		<texture name="Music_bg.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/music_player/Music_bg.dds" />
+		<texture name="Nanofiber_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Nanofiber_DX_icon.dds" />
+		<texture name="Nanofiber_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Nanofiber_DX_image.dds" />
+		<texture name="Nanofiber_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Nanofiber_icon.dds" />
+		<texture name="Nanofiber_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Nanofiber_image.dds" />
+		<texture name="network_connect_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/network_connect_icon.dds" />
+		<texture name="network_disconnect_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/network_disconnect_icon.dds" />
+		<texture name="nojato.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/nojato.dds" />
+		<texture name="Ominiplex_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Ominiplex_DX_image.dds" />
+		<texture name="Ominiplex_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Ominiplex_image.dds" />
+		<texture name="Omniplex_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Omniplex_DX_icon.dds" />
+		<texture name="Omniplex_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Omniplex_icon.dds" />
+		<texture name="Orange.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/race_info/Orange.dds" />
+		<texture name="overlayicon_locked.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sessions/overlayicon_locked.dds" />
+		<texture name="overlayicon_unlocked.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sessions/overlayicon_unlocked.dds" />
+		<texture name="owned.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/shop/owned.dds" />
+		<texture name="Paint.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Paint.dds" />
+		<texture name="Phoenix_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Phoenix_image.dds" />
+		<texture name="PhysicalChallenge.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/PhysicalChallenge.dds" />
+		<texture name="PlayerInfo_BG_Left.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/PlayerInfo/PlayerInfo_BG_Left.dds" />
+		<texture name="PlayerInfo_BG_Middle.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/PlayerInfo/PlayerInfo_BG_Middle.dds" />
+		<texture name="PlayerInfo_BG_Right.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/PlayerInfo/PlayerInfo_BG_Right.dds" />
+		<texture name="POI.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/POI.dds" />
+		<texture name="Position.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/race_info/Position.dds" />
+		<texture name="qty_crnr.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/shop/qty_crnr.dds" />
+		<texture name="qty_side.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/shop/qty_side.dds" />
+		<texture name="R1.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Shoulder_Buttons/R1.dds" />
+		<texture name="Radial_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Radial_Buttons/Radial_BG.dds" />
+		<texture name="Radial_Frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Radial_Buttons/Radial_Frame.dds" />
+		<texture name="Radial_Greebles.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Radial_Buttons/Radial_Greebles.dds" />
+		<texture name="Radial_Highlight.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Radial_Buttons/Radial_Highlight.dds" />
+		<texture name="Radial_Pressed.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Radial_Buttons/Radial_Pressed.dds" />
+		<texture name="Rascal_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Rascal_icon.dds" />
+		<texture name="Rascal_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Rascal_image.dds" />
+		<texture name="Rival.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Leaderboard_icons/Rival.dds" />
+		<texture name="rm_Arcade.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Arcade.dds" />
+		<texture name="rm_Back.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Back.dds" />
+		<texture name="rm_Challenge.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Challenge.dds" />
+		<texture name="rm_Controls.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Controls.dds" />
+		<texture name="rm_Engineering.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Engineering.dds" />
+		<texture name="rm_Exit.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Exit.dds" />
+		<texture name="rm_Faq.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Faq.dds" />
+		<texture name="rm_HelpAndOptions.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/HelpAndOptions.dds" />
+		<texture name="rm_Multiplayer.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Multiplayer.dds" />
+		<texture name="rm_QuickRace.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/QuickRace.dds" />
+		<texture name="rm_Race.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Race.dds" />
+		<texture name="rm_RealTime.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/RealTime.dds" />
+		<texture name="rm_Settings.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Settings.dds" />
+		<texture name="rm_Shopping.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Shopping.dds" />
+		<texture name="rm_SinglePlayer.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/SinglePlayer.dds" />
+		<texture name="rm_Survey.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/radial_icons/Survey.dds" />
+		<texture name="Rockets_1.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Rockets_1.dds" />
+		<texture name="Rockets_2.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Rockets_2.dds" />
+		<texture name="S2_buzzsaw.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_buzzsaw.dds" />
+		<texture name="S2_circle.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_circle.dds" />
+		<texture name="S2_crane_arm.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_crane_arm.dds" />
+		<texture name="S2_crane_tripod.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_crane_tripod.dds" />
+		<texture name="S2_crane_wirey.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_crane_wirey.dds" />
+		<texture name="S2_cs_head_logo.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_cs_head_logo.dds" />
+		<texture name="S2_decibel_headphones_female.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_decibel_headphones_female.dds" />
+		<texture name="S2_decibel_headphones_male.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_decibel_headphones_male.dds" />
+		<texture name="S2_fan_curved.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_fan_curved.dds" />
+		<texture name="S2_firecracker_dx.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_firecracker_dx.dds" />
+		<texture name="S2_fuel_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_fuel_bg.dds" />
+		<texture name="S2_fuel_empty.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_fuel_empty.dds" />
+		<texture name="S2_fuel_frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_fuel_frame.dds" />
+		<texture name="S2_fuel_frame_colour.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_fuel_frame_colour.dds" />
+		<texture name="S2_generic_reward.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_generic_reward.dds" />
+		<texture name="S2_grafitti_blam.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_grafitti_blam.dds" />
+		<texture name="S2_grafitti_whizz.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_grafitti_whizz.dds" />
+		<texture name="S2_grafitti_whoosh.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_grafitti_whoosh.dds" />
+		<texture name="S2_grafitti_zoom.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_grafitti_zoom.dds" />
+		<texture name="S2_inner_ring.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_inner_ring_v2.dds" />
+		<texture name="S2_jato_bar.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_jato_bar.dds" />
+		<texture name="S2_jato_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_jato_bg.dds" />
+		<texture name="S2_jato_frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_jato_frame.dds" />
+		<texture name="S2_jatosmall_empty.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_jatosmall_empty.dds" />
+		<texture name="S2_jatosmall_frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/consumable_gui/S2_jatosmall_frame.dds" />
+		<texture name="S2_pillar_table_red.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_pillar_table_red.dds" />
+		<texture name="S2_pillar_table_yellow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_pillar_table_yellow.dds" />
+		<texture name="S2_poster_reward.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_poster_reward.dds" />
+		<texture name="S2_start_1.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_start_1.dds" />
+		<texture name="S2_start_2.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_start_2.dds" />
+		<texture name="S2_start_3.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_start_3.dds" />
+		<texture name="S2_start_4.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_start_4.dds" />
+		<texture name="S2_start_5.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_start_5.dds" />
+		<texture name="S2_start_go.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sweet_spot/S2_start_go.dds" />
+		<texture name="S2_teleport_chair_red.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_teleport_chair_red.dds" />
+		<texture name="S2_teleport_chair_yellow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_teleport_chair_yellow.dds" />
+		<texture name="S2_teleport_table_red.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_teleport_table_red.dds" />
+		<texture name="S2_teleport_table_yellow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_teleport_table_yellow.dds" />
+		<texture name="S2_terrapin_dx.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_terrapin_dx.dds" />
+		<texture name="s2_title_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/TitleIcons/s2_title_icon.dds" />
+		<texture name="S2_touchstone_dx.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_touchstone_dx.dds" />
+		<texture name="S2_trackside_lamp.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_trackside_lamp.dds" />
+		<texture name="S2_trackside_lamp_round.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_trackside_lamp_round.dds" />
+		<texture name="S2_trophy_10.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_trophy_10.dds" />
+		<texture name="S2_trophy_20.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_trophy_20.dds" />
+		<texture name="S2_trophy_30.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_trophy_30.dds" />
+		<texture name="S2_trophy_40.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_trophy_40.dds" />
+		<texture name="S2_turbulence_dx.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_turbulence_dx.dds" />
+		<texture name="S2_legendary_boots_male.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_boots_male.dds" />
+		<texture name="S2_legendary_torso_female.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_torso_female.dds" />
+		<texture name="S2_legendary_gloves_female.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_gloves_female.dds" />
+		<texture name="S2_legendary_visor_female.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_visor_female.dds" />
+		<texture name="S2_legendary_helmet_female.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_helmet_female.dds" />
+		<texture name="S2_legendary_boots_female.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_boots_female.dds" />
+		<texture name="S2_legendary_trouser_male.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_trouser_male.dds" />
+		<texture name="S2_legendary_gloves_male.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_gloves_male.dds" />
+		<texture name="S2_legendary_torso_male.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_torso_male.dds" />
+		<texture name="S2_legendary_visor_male.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_visor_male.dds" />
+		<texture name="S2_legendary_helmet_male.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_helmet_male.dds" />
+		<texture name="S2_legendary_trouser_female.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp_rewards/S2_legendary_trouser_female.dds" />
+		<texture name="Salamander_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Salamander_image.dds" />
+		<texture name="SaleStar_de.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/SaleStar/SaleStar_de-DE.dds" />
+		<texture name="SaleStar_en.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/SaleStar/SaleStar_en-GB.dds" />
+		<texture name="SaleStar_es.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/SaleStar/SaleStar_es-ES.dds" />
+		<texture name="SaleStar_fr.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/SaleStar/SaleStar_fr-FR.dds" />
+		<texture name="SaleStar_it.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/SaleStar/SaleStar_it-IT.dds" />
+		<texture name="Schonbein_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Schonbein_icon.dds" />
+		<texture name="Schonbein_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Schonbein_image.dds" />
+		<texture name="ScoreBar.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Scoring/ScoreBar.dds" />
+		<texture name="scores_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/scores_bg.dds" />
+		<texture name="scroll_bar2_bottom.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/scroll_bar/scroll_bar2_bottom.dds" />
+		<texture name="scroll_bar2_middle.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/scroll_bar/scroll_bar2_middle.dds" />
+		<texture name="scroll_bar2_top.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/scroll_bar/scroll_bar2_top.dds" />
+		<texture name="scroll_bar_bottom.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/scroll_bar/scroll_bar_bottom.dds" />
+		<texture name="scroll_bar_middle.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/scroll_bar/scroll_bar_middle.dds" />
+		<texture name="scroll_bar_top.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/scroll_bar/scroll_bar_top.dds" />
+		<texture name="Scroller_Arrow_Glow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Scroller/Scroller_Arrow_Glow.dds" />
+		<texture name="Scroller_Arrow_Main.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Scroller/Scroller_Arrow_Main.dds" />
+		<texture name="Scroller_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Scroller/Scroller_BG.dds" />
+		<texture name="Scroller_Frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Scroller/Scroller_Frame.dds" />
+		<texture name="Scroller_Shine.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Scroller/Scroller_Shine.dds" />
+		<texture name="settings_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/settings_bg.dds" />
+		<texture name="Ship_Plan.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Ship_Plan/Ship_Plan.dds" />
+		<texture name="shop_arrow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/shop/shop_arrow.dds" />
+		<texture name="shop_arrow_hl.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/shop/shop_arrow_hl.dds" />
+		<texture name="Silver_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Silver_image.dds" />
+		<texture name="skins.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/skins.dds" />
+		<texture name="Slider_1.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Slider_1.dds" />
+		<texture name="Slider_2.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Slider_2.dds" />
+		<texture name="Sodium_Font.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Sodium_Font.dds" />
+		<texture name="Sodium_Font_rev.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Sodium_Font_rev.dds" />
+		<texture name="SodiumOne_ChiliRedEdition_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/SodiumOne_ChiliRedEdition_image.dds" />
+		<texture name="Sonic_Camo_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Sonic_Camo_image.dds" />
+		<texture name="Speed.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/race_info/Speed.dds" />
+		<texture name="splitTimeBg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/splitTimeBg.dds" />
+		<texture name="stabilisers.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/stabilisers.dds" />
+		<texture name="star.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Scoring/star.dds" />
+		<texture name="Star_Spangled_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Star_Spangled_image.dds" />
+		<texture name="Stats_Acceleration.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Icons/Stats_Acceleration.dds" />
+		<texture name="Stats_Duration.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Icons/Stats_Duration.dds" />
+		<texture name="Stats_Parts_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Parts/Stats_Parts_BG.dds" />
+		<texture name="Stats_Parts_Glow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Parts/Stats_Parts_Glow.dds" />
+		<texture name="Stats_Parts_Increment.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Parts/Stats_Parts_Increment.dds" />
+		<texture name="Stats_Power.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Icons/Stats_Power.dds" />
+		<texture name="Stats_Ship_BG_L.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Ship/Stats_Ship_BG_L.dds" />
+		<texture name="Stats_Ship_BG_M.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Ship/Stats_Ship_BG_M.dds" />
+		<texture name="Stats_Ship_BG_R.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Ship/Stats_Ship_BG_R.dds" />
+		<texture name="Stats_Speed.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Icons/Stats_Speed.dds" />
+		<texture name="Stats_Stability.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Icons/Stats_Stability.dds" />
+		<texture name="Stats_Turning.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Stats_Icons/Stats_Turning.dds" />
+		<texture name="Steadfast_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Steadfast_DX_icon.dds" />
+		<texture name="Steadfast_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Steadfast_DX_image.dds" />
+		<texture name="Steadfast_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Steadfast_icon.dds" />
+		<texture name="Steadfast_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Steadfast_image.dds" />
+		<texture name="Sterling_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Sterling_icon.dds" />
+		<texture name="Sterling_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Sterling_image.dds" />
+		<texture name="subtitle_left.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/garage/subtitle_left.dds" />
+		<texture name="subtitle_middle.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/garage/subtitle_middle.dds" />
+		<texture name="subtitle_right.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/garage/subtitle_right.dds" />
+		<texture name="Synapse_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Synapse_DX_icon.dds" />
+		<texture name="Synapse_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Synapse_DX_image.dds" />
+		<texture name="Synapse_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Synapse_icon.dds" />
+		<texture name="Synapse_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Synapse_image.dds" />
+		<texture name="Terminal_Friction_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Terminal_Friction_icon.dds" />
+		<texture name="Terminal_Friction_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Terminal_Friction_image.dds" />
+		<texture name="Terminus_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Terminus_DX_icon.dds" />
+		<texture name="Terminus_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Terminus_DX_image.dds" />
+		<texture name="Terminus_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Terminus_icon.dds" />
+		<texture name="Terminus_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Terminus_image.dds" />
+		<texture name="Terrapin_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Terrapin_DX_icon.dds" />
+		<texture name="Terrapin_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Terrapin_DX_image.dds" />
+		<texture name="Terrapin_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Terrapin_icon.dds" />
+		<texture name="Terrapin_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Terrapin_image.dds" />
+		<texture name="Text_L_BG.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_L_BG.dds" />
+		<texture name="Text_L_Frame.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_L_Frame.dds" />
+		<texture name="Text_L_Highlight.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_L_Highlight.dds" />
+		<texture name="Text_L_Pressed.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_L_Pressed.dds" />
+		<texture name="Text_M_BG.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_M_BG.dds" />
+		<texture name="Text_M_Frame.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_M_Frame.dds" />
+		<texture name="Text_M_Highlight.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_M_Highlight.dds" />
+		<texture name="Text_M_Pressed.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_M_Pressed.dds" />
+		<texture name="Text_R_BG.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_R_BG.dds" />
+		<texture name="Text_R_Frame.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_R_Frame.dds" />
+		<texture name="Text_R_Highlight.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_R_Highlight.dds" />
+		<texture name="Text_R_Pressed.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Text_Buttons/Text_R_Pressed.dds" />
+		<texture name="texture_notify.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/shared/textures/loading.dds" />
+		<texture name="Thor_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Thor_DX_icon.dds" />
+		<texture name="Thor_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Thor_DX_image.dds" />
+		<texture name="Thor_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Thor_icon.dds" />
+		<texture name="Thor_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Thor_image.dds" />
+		<texture name="thumbnail_disabled.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Location_Buttons/thumbnail_disabled.dds" />
+		<texture name="Timer.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/race_info/Timer.dds" />
+		<texture name="Titan_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Titan_DX_icon.dds" />
+		<texture name="Titan_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Titan_DX_image.dds" />
+		<texture name="Titan_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Titan_icon.dds" />
+		<texture name="Titan_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Titan_image.dds" />
+		<texture name="title_left.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/garage/title_left.dds" />
+		<texture name="title_middle.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/garage/title_middle.dds" />
+		<texture name="title_right.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/garage/title_right.dds" />
+		<texture name="topLeft.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/topLeft.dds" />
+		<texture name="topMiddle.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/topMiddle.dds" />
+		<texture name="topRight.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/dialog_box/topRight.dds" />
+		<texture name="Touchstone_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Touchstone_DX_icon.dds" />
+		<texture name="Touchstone_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Touchstone_DX_image.dds" />
+		<texture name="Touchstone_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Touchstone_icon.dds" />
+		<texture name="Touchstone_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Touchstone_image.dds" />
+		<texture name="track_icon_reverse.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/Location_Buttons/track_icon_reverse.dds" />
+		<texture name="trackSelect_bg.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/backgrounds/trackSelect_bg.dds" />
+		<texture name="Turbulance_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Turbulance_DX_image.dds" />
+		<texture name="Turbulance_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Turbulance_image.dds" />
+		<texture name="Turbulence_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Turbulence_DX_icon.dds" />
+		<texture name="Turbulence_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Turbulence_DX_image.dds" />
+		<texture name="Turbulence_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Turbulence_icon.dds" />
+		<texture name="Turbulence_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Turbulence_image.dds" />
+		<texture name="Union_Jackson_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Union_Jackson_image.dds" />
+		<texture name="Vector_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Vector_DX_icon.dds" />
+		<texture name="Vector_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Vector_DX_image.dds" />
+		<texture name="Vector_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Vector_icon.dds" />
+		<texture name="Vector_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Vector_image.dds" />
+		<texture name="Velocity_Racer_Green_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Velocity_Racer_Green_image.dds" />
+		<texture name="Vertical_Slider_System.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Vertical_Slider_System.dds" />
+		<texture name="Vertical_Slider_System_Horizontal_Line.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Vertical_Slider_System_Horizontal_Line.dds" />
+		<texture name="Vertical_Slider_System_Line.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/Vertical_Slider_System_Line.dds" />
+		<texture name="Volta_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Volta_DX_icon.dds" />
+		<texture name="Volta_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Volta_DX_image.dds" />
+		<texture name="Volta_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Volta_icon.dds" />
+		<texture name="Volta_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Volta_image.dds" />
+		<texture name="Vortex_DX_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Vortex_DX_icon.dds" />
+		<texture name="Vortex_DX_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Vortex_DX_image.dds" />
+		<texture name="Vortex_icon.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_icons_latest/Vortex_icon.dds" />
+		<texture name="Vortex_image.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/item_images_latest/Vortex_image.dds" />
+		<texture name="XMB_Bar_BG_Full.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Bar_BG_Full.dds" />
+		<texture name="XMB_Bar_Greebles_Full.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Bar_Greebles_Full.dds" />
+		<texture name="XMB_BG.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_BG.dds" />
+		<texture name="XMB_Frame.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Frame.dds" />
+		<texture name="XMB_Glow.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Glow.dds" />
+		<texture name="XMB_Highlight.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Highlight.dds" />
+		<texture name="XMB_Panel_1.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/theme1/XMB_Panel_1.dds" />
+		<texture name="XMB_Pressed.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Pressed.dds" />
+		<texture name="XMB_Selector_Extend.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Selector_Extend.dds" />
+		<texture name="XMB_Selector_Extend_SD.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Selector_Extend_SD.dds" />
+		<texture name="XMB_Selector_Min.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Selector_Min.dds" />
+		<texture name="XMB_Selector_Min_End.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Selector_Min_End.dds" />
+		<texture name="XMB_Selector_Min_Mid.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Selector_Min_Mid.dds" />
+		<texture name="XMB_Vert_Grad.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/XMB_Buttons/XMB_Vert_Grad.dds" />
+		<texture name="xmbSheen.dds" deferred_loading="true" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/sheens/xmbSheen.dds" />
+		<texture name="xp_s2_icon.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp/xp_s2_icon.dds" />
+		<texture name="xp_s2_levels.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp/xp_s2_levels.dds" />
+		<texture name="xp_s2_levels_copy.dds" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/Assets/Gui/s2xp/xp_s2_levels_copy.dds" />
+		<xml name="Jetcraft_loadout.xml" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/defs/Jetcraft_loadout.xml" memory="main" />
+		<xml name="Jetcraft_parts.xml" deferred_loading="false" protected="false" file="MiniGames/Sodium/sodium2/defs/Jetcraft_parts.xml" memory="main" />
+		<xml name="resources.xml" deferred_loading="false" protected="false" file="objects/222450D1-FA5546A5-B247A559-8A368827/resources.map" memory="main" />
+	</local>
+	<external />
+</resources>

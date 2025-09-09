@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Vampire_Rig.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/models/Vampire_Rig.mdl" />
+		<model name="Crypt.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/models/Crypt.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/file/Network.xml" />
+		<anim name="Vampire_Appear.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/anim/Vampire_Appear.ani" />
+		<anim name="Vampire_Disappear.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/anim/Vampire_Disappear.ani" />
+		<anim name="Vampire_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/anim/Vampire_Idle.ani" />
+		<anim name="Crypt_Appearl.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/anim/Crypt_Appearl.ani" />
+		<anim name="Crypt_Disappear.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/anim/Crypt_Disappear.ani" />
+		<anim name="Crypt_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/anim/Crypt_Idle.ani" />
+		<skeleton name="Vampire_Rig.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/models/Vampire_Rig.skn" />
+		<skeleton name="Crypt.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ScaryMG/models/Crypt.skn" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Core.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/ScaryMG/lua/MiniGame.lua" />
+		<lua name="ScaryGame.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/ScaryMG/lua/ScaryGame.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Utility.lua" />
+		<lua name="constants.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Shared/constants.lua" />
+	</local>
+	<external />
+</resources>

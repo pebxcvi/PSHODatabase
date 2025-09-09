@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_djlight/CommAug_DJLight_Base.mdl" />
+		<model name="CommAug_DJLight_Anim.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/anims/CommAug_DJLight_Anim.mdl" />
+		<model name="CommAug_DJLight_Beams.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/CommAug_DJLight_Beams.mdl" />
+		<model name="CommAug_DJLight_Base.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/CommAug_DJLight_Base.mdl" />
+		<texture name="RedSpotMask.dds" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/textures/RedSpotMask.dds" />
+		<texture name="YellowSpotMask.dds" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/textures/YellowSpotMask.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_djlight/CommAug_DJLight_Base.hkx" />
+		<collision name="CommAug_DJLight_Base.hkx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/CommAug_DJLight_Base.hkx" />
+		<collision name="CommAug_DJLight_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/CommAug_DJLight_SafeVolume.hkx" />
+		<anim name="CommAug_DJLight_Anim.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/anims/CommAug_DJLight_Anim.ani" />
+		<skeleton name="CommAug_DJLight_Anim.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_djlight/anims/CommAug_DJLight_Anim.skn" />
+		<lua name="djLight.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_djlight/programming/djLight.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_djlight/programming/MyPad.lua" />
+		<lua name="lightGear.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_djlight/programming/lightGear.lua" />
+	</local>
+	<external />
+</resources>

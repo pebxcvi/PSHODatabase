@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Stanchion.mdl" deferred_loading="false" protected="false" file="MiniGames/SunsetLounge/Game/models/stanchion/Stanchion.mdl" />
+		<model name="padlock.mdl" deferred_loading="false" protected="false" file="MiniGames/SunsetLounge/Game/models/padlock/padlock.mdl" />
+		<texture name="commerce_bag_standalone.dds" deferred_loading="false" protected="false" file="MiniGames/SunsetLounge/Game/HUDTextures/commerce_bag_standalone.dds" />
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" />
+		</texture>
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/SunsetLounge/Game/HUDTextures/button_O.dds" />
+		</texture>
+		<collision name="Stanchion.hkx" deferred_loading="false" protected="false" file="MiniGames/SunsetLounge/Game/models/stanchion/Stanchion.hkx" />
+		<collision name="padlock.hkx" deferred_loading="false" protected="false" file="MiniGames/SunsetLounge/Game/models/padlock/padlock.hkx" />
+		<anim name="padlock.ani" deferred_loading="false" protected="false" file="MiniGames/SunsetLounge/Game/models/padlock/padlock.ani" />
+		<skeleton name="padlock.skn" deferred_loading="false" protected="false" file="MiniGames/SunsetLounge/Game/models/padlock/padlock.skn" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/Controller.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/Math.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/GameHud.lua" />
+		<lua name="Rewarder.lua" deferred_loading="false" protected="true" file="MiniGames/SunsetLounge/Game/Code/Rewarder.lua" />
+	</local>
+	<external />
+</resources>
