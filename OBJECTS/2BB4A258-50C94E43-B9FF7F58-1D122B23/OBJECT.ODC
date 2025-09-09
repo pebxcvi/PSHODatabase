@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>2BB4A258-50C94E43-B9FF7F58-1D122B23</uuid>
+  <name lang="en-GB" default="true">The London Pub</name>
+  <name lang="fr-FR" default="false">Le Pub londonien</name>
+  <name lang="de-DE" default="false">Das London-Pub</name>
+  <name lang="it-IT" default="false">Il London Pub</name>
+  <name lang="es-ES" default="false">El bar londinense</name>
+  <description lang="en-GB" default="true">Located in London, England, the pub comes with its own fantastic darts game and high score tables, working beer pumps and a bunch of hidden surprises and rewards. Cheers! [#Legal]</description>
+  <description lang="fr-FR" default="false">Situé à Londres en Angleterre, ce pub possède son propre jeu de fléchettes, ses tableaux des meilleurs scores, ses pompes à bière en parfait état de marche et de nombreuse surprises et récompenses cachées. Alors, à votre santé ! [#Legal]</description>
+  <description lang="de-DE" default="false">Dieses Pub befindet sich in London, England, und ist mit einem eigenen fantastischen Dartsspiel, Rekord-Tabellen und funktionierenden Bierzapfanlagen sowie einigen versteckten Überraschungen und Belohnungen ausgestattet. Prost! [#Legal]</description>
+  <description lang="it-IT" default="false">Sito in Inghilterra, a Londra, il pub é dotato di bersaglio e freccette, tabelle per i punteggi migliori, pompe per spillare la birra perfettamente funzionanti e un sacco di sorprese e premi tutti da scoprire. Salute! [#Legal]</description>
+  <description lang="es-ES" default="false">Situado en Londres, Inglaterra; el bar viene equipado con su propio juego de dardos y su tablón de mejores puntuaciones, surtidores de cerveza y un montón de  premios y sorpresas ocultas. ¡Salud! [#Legal]</description>
+  <maker lang="en-GB" default="true">VEEMEE</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T033.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T033.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T033.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">SCEE_Pub_Apartment_7433_C6E6</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">EP4065-NPER00003_00-000071</entitlement_id>
+    <entitlement_id territory="SCEA">UT5002-NPUR00030_00-000071</entitlement_id>
+    <category_id territory="SCEE">EP4065-NPER00003_00</category_id>
+    <category_id territory="SCEA">UT5002-NPUR00030_00</category_id>
+    <product_id territory="SCEE">EP4065-NPER00003_00-THELONDONP000071</product_id>
+    <product_id territory="SCEA">UT5002-NPUR00030_00-VMLONDONPUB00001</product_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="3" parental_control_level="2" />
+    <age_rating country="US" minimum_age="17" parental_control_level="9" />
+    <age_rating country="CA" minimum_age="17" parental_control_level="9" />
+  </legal>
+  <timestamp>53F75203</timestamp>
+</odc>

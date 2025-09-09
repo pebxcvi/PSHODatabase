@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="SoundPacks/kiss/file/configuration.xml" memory="main" />
+		<anim name="kiss_air_m.ani" deferred_loading="true" protected="false" file="animation/male/kiss_air_m/kiss_air_m.ani" memory="host" />
+		<anim name="kiss_blow_m.ani" deferred_loading="true" protected="false" file="animation/male/kiss_blow_m/kiss_blow_m.ani" memory="host" />
+		<anim name="kiss_air_f.ani" deferred_loading="true" protected="false" file="animation/female/kiss_air_f/kiss_air_f.ani" memory="host" />
+		<anim name="kiss_blow_f.ani" deferred_loading="true" protected="false" file="animation/female/kiss_blow_f/kiss_blow_f.ani" memory="host" />
+		<soundbank name="bnk.male" deferred_loading="true" protected="false" file="SoundPacks/kiss/soundbank/Kisses_M.bnk" memory="host" />
+		<soundbank name="bnk.female" deferred_loading="true" protected="false" file="SoundPacks/kiss/soundbank/Kisses_F.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="SoundPacks/kiss/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="SoundPacks/kiss/repertoire/female.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="SoundPacks/kiss/lua/boot.luac" memory="host" id="3699705613" />
+	</local>
+	<external />
+</resources>

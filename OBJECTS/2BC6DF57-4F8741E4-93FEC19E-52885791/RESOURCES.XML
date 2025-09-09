@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="static_projector_base.mdl" deferred_loading="false" protected="false" file="furniture/static_projector/static_projector_base.mdl" memory="host" />
+    <model name="static_projector_joint.mdl" deferred_loading="false" protected="false" file="furniture/static_projector/static_projector_joint.mdl" memory="host" />
+    <model name="static_projector_light.mdl" deferred_loading="false" protected="false" file="furniture/static_projector/static_projector_light.mdl" memory="host" />
+    <model name="static_projector_lightglow.mdl" deferred_loading="false" protected="false" file="furniture/static_projector/static_projector_lightglow.mdl" />
+    <texture name="pattern1.dds" deferred_loading="false" protected="false" file="furniture/static_projector/patterns/pattern1.dds" memory="host" />
+    <texture name="pattern2.dds" deferred_loading="false" protected="false" file="furniture/static_projector/patterns/pattern2.dds" memory="host" />
+    <texture name="pattern3.dds" deferred_loading="false" protected="false" file="furniture/static_projector/patterns/pattern3.dds" memory="host" />
+    <texture name="pattern4.dds" deferred_loading="false" protected="false" file="furniture/static_projector/patterns/pattern4.dds" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Gobo_Light/lua/Network.xml" />
+    <collision name="static_projector.hkx" deferred_loading="false" protected="false" file="furniture/static_projector/static_projector.hkx" memory="host" />
+    <collision name="projector_active.hkx" deferred_loading="false" protected="false" file="furniture/projector_active.hkx" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/gobo_light/lua/minigame.luac" />
+    <lua name="Functions.lua" deferred_loading="false" protected="true" file="minigames/gobo_light/lua/functions.luac" />
+  </local>
+  <external />
+</resources>

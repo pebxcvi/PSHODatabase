@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" />
+    <lua name="libAnnounceHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/announcehelper.luac" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" />
+    <lua name="libResDownloader.lua" deferred_loading="false" protected="true" file="lualibs/resource/resdownloader.luac" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="embeddedobjects/campaignsystem/lua/main.luac" />
+    <lua name="CampaignScheduler.lua" deferred_loading="false" protected="true" file="embeddedobjects/campaignsystem/lua/campaignscheduler.luac" />
+    <lua name="CampaignCondition.lua" deferred_loading="false" protected="true" file="embeddedobjects/campaignsystem/lua/campaigncondition.luac" />
+    <lua name="CampaignBonus.lua" deferred_loading="false" protected="true" file="embeddedobjects/campaignsystem/lua/campaignbonus.luac" />
+  </local>
+  <external />
+</resources>

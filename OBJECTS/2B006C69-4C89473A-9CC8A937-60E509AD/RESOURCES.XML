@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/TopSpin_UmpireChair.mdl" />
+		<model name="TopSpin_UmpireChair.mdl" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/TopSpin_UmpireChair.mdl" />
+		<model name="Umpire_Argue_Forward.mdl" deferred_loading="false" protected="false" file="environmentanimations/topspinumpire/Umpire_Argue_Forward.mdl" />
+		<model name="TopSpin_Umpire.mdl" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/TopSpin_Umpire.mdl" />
+		<file name="ActiveFurnitureNetworkDefs.xml" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/scripts/ActiveFurnitureNetworkDefs.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/TopSpin_UmpireChair.hkx" />
+		<collision name="TopSpin_UmpireChair.hkx" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/TopSpin_UmpireChair.hkx" />
+		<anim name="Umpire_Argue_Forward.ani" deferred_loading="false" protected="false" file="environmentanimations/topspinumpire/Umpire_Argue_Forward.ani" />
+		<anim name="Umpire_Argue_Left.ani" deferred_loading="false" protected="false" file="environmentanimations/topspinumpire/Umpire_Argue_Left.ani" />
+		<anim name="Umpire_Argue_Right.ani" deferred_loading="false" protected="false" file="environmentanimations/topspinumpire/Umpire_Argue_Right.ani" />
+		<anim name="Umpire_Idle.ani" deferred_loading="false" protected="false" file="environmentanimations/topspinumpire/Umpire_Idle.ani" />
+		<skeleton name="Umpire_Argue_Forward.skn" deferred_loading="false" protected="false" file="environmentanimations/topspinumpire/Umpire_Argue_Forward.skn" />
+		<skeleton name="TopSpin_Umpire.skn" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/TopSpin_Umpire.skn" />
+		<soundstream name="boo01.mp3" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/audio/boo01.mp3" />
+		<soundstream name="cheer01.mp3" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/audio/cheer01.mp3" />
+		<soundstream name="mumble01.mp3" deferred_loading="false" protected="false" file="furniture/topspin_umpirechair/audio/mumble01.mp3" />
+		<lua name="Umpire_Chair.lua" deferred_loading="false" protected="true" file="furniture/topspin_umpirechair/scripts/Umpire_Chair.lua" />
+		<lua name="dDebug.lua" deferred_loading="false" protected="true" file="furniture/topspin_umpirechair/scripts/dDebug.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="furniture/topspin_umpirechair/audio/Audio.lua" />
+		<lua name="xSync.lua" deferred_loading="false" protected="true" file="furniture/topspin_umpirechair/scripts/xSync.lua" />
+	</local>
+	<external />
+</resources>

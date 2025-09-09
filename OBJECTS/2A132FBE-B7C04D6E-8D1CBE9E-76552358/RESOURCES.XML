@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="gate_01.dds" deferred_loading="false" protected="false" file="MiniGames/Gate/texture/gate_01.dds" />
+		<texture name="gate_02.dds" deferred_loading="false" protected="false" file="MiniGames/Gate/texture/gate_02.dds" />
+		<texture name="gate_03.dds" deferred_loading="false" protected="false" file="MiniGames/Gate/texture/gate_03.dds" />
+		<texture name="gate_04.dds" deferred_loading="false" protected="false" file="MiniGames/Gate/texture/gate_04.dds" />
+		<texture name="gate_05.dds" deferred_loading="false" protected="false" file="MiniGames/Gate/texture/gate_05.dds" />
+		<texture name="ui_base06.dds" deferred_loading="false" protected="false" file="MiniGames/Gate/texture/ui_base06.dds" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Gate/lua/MiniGame.lua" />
+		<lua name="libcore.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libcore.lua" />
+		<lua name="libgame.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libgame.lua" />
+		<lua name="libpad.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libpad.lua" />
+		<lua name="liblistener.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/liblistener.lua" />
+		<lua name="global.lua" deferred_loading="false" protected="true" file="Scripts/global.lua" />
+		<lua name="Entry.lua" deferred_loading="false" protected="true" file="MiniGames/Gate/lua/Entry.lua" />
+		<lua name="Guest.lua" deferred_loading="false" protected="true" file="MiniGames/Gate/lua/Guest.lua" />
+		<lua name="Exit.lua" deferred_loading="false" protected="true" file="MiniGames/Gate/lua/Exit.lua" />
+		<lua name="MessageDialog.lua" deferred_loading="false" protected="true" file="Scripts/MessageDialog.lua" />
+		<lua name="SpeakDialog.lua" deferred_loading="false" protected="true" file="Scripts/SpeakDialog.lua" />
+		<lua name="SoundControl.lua" deferred_loading="false" protected="true" file="Scripts/SoundControl.lua" />
+		<lua name="Plate.lua" deferred_loading="false" protected="true" file="Scripts/Plate.lua" />
+		<lua name="GameControl.lua" deferred_loading="false" protected="true" file="Scripts/GameControl.lua" />
+		<lua name="libtime.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libtime.lua" />
+		<lua name="rewardTable.lua" deferred_loading="false" protected="true" file="Scripts/rewardTable.lua" />
+		<lua name="GateServer.lua" deferred_loading="false" protected="true" file="MiniGames/Gate/lua/GateServer.lua" />
+	</local>
+	<external />
+</resources>

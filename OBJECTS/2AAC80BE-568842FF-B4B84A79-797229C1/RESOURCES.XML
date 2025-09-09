@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="shotgun_highlight.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/game_highlight/aoe.mdl" />
+		<model name="baseballbat.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_test.mdl" />
+		<model name="baseballbat_nails.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_nails.mdl" />
+		<model name="baseballbat_brokenhandle.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_brokenhandle.mdl" />
+		<model name="baseballbat_brokenhead.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_brokenhead.mdl" />
+		<model name="baseballbat_brokenhead_nails.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_brokenhead_nails.mdl" />
+		<model name="pipe.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe.mdl" />
+		<model name="pipe_brokenhandle.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_brokenhandle.mdl" />
+		<model name="pipe_brokenhead.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_brokenhead.mdl" />
+		<model name="pipe_saw_broken_head.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_saw_broken_head.mdl" />
+		<model name="pipe_saw.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_saw.mdl" />
+		<model name="axe.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe.mdl" />
+		<model name="double_axe.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/double_axe/double_axe.mdl" />
+		<model name="double_axe_brokenhandle.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/double_axe/double_axe__brokenhandle.mdl" />
+		<model name="double_axe_brokentop.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/double_axe/double_axe__brokentop.mdl" />
+		<model name="axe_brokenhandle.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe_brokenhandle.mdl" />
+		<model name="axe_brokenhead.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe_brokenhead.mdl" />
+		<model name="machete.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete.mdl" />
+		<model name="emachete.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete_electric.mdl" />
+		<model name="machete_brokenblade.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete_brokenblade.mdl" />
+		<model name="machete_brokenhandle.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete_brokenhandle.mdl" />
+		<model name="shotgun.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shotgun/shotgun.mdl" />
+		<model name="new_torso.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/torso_1.mdl" />
+		<model name="new_torso2.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/torso_2.mdl" />
+		<model name="new_torso3.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/torso_3.mdl" />
+		<model name="new_rtleg.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/rtleg.mdl" />
+		<model name="new_ltleg.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/ltleg.mdl" />
+		<model name="new_rtarm.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/rtarm.mdl" />
+		<model name="new_ltarm.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/ltarm.mdl" />
+		<model name="new_head.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/head_1.mdl" />
+		<model name="new_head_2.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/head_2.mdl" />
+		<model name="new_head_3.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/head_3.mdl" />
+		<model name="torso_test.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/torso_test.mdl" />
+		<model name="pickup_bag.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pickup/pickup_bag.mdl" />
+		<model name="game_highlight_pointer.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/game_highlight/game_highlight_pointer.mdl" />
+		<model name="bloodstains.mdl" deferred_loading="false" protected="false" file="environments/deadisland_plaza/deadisland_props/models/objects/blood_stains/Blood_stains.mdl" />
+		<model name="first_aid.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/first_aid/first_aid.mdl" />
+		<texture name="mockup" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/mockups/Gameover.dds" />
+		<texture name="lobby_back" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/lobbyback.dds" />
+		<texture name="tooltip_background" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ButtonPromptBar.dds" />
+		<texture name="mainmenu_screen" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/MainMenuPanel.dds" />
+		<texture name="challenges_screen" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengesBG.dds" />
+		<texture name="InstructionsBGBlank" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/InstructionsBGBlank.dds" />
+		<texture name="InstructionsBGController" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/InstructionsBG1.dds" />
+		<texture name="InstructionsBGMasked" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/InstructionsBGMasked.dds" />
+		<texture name="blood_small_1" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/blood_1.dds" />
+		<texture name="blood_small_2" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/blood_2.dds" />
+		<texture name="blood_small_3" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/blood_3.dds" />
+		<texture name="blood_small_4" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/blood_4.dds" />
+		<texture name="playertab_background" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudPlayerHealthBG.dds" />
+		<texture name="playertab_dead" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudPlayerDead.dds" />
+		<texture name="health_back" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/HealthBarBack.dds" />
+		<texture name="health_fill" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/HealthBarFill.dds" />
+		<texture name="interaction_back" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/InteractionBarBack.dds" />
+		<texture name="interaction_fill" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/InteractionBarFill.dds" />
+		<texture name="HudWeaponSaw.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponSaw.dds" />
+		<texture name="HudWeaponPipe.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponPipe.dds" />
+		<texture name="HudWeaponNone.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponNone.dds" />
+		<texture name="HudWeaponElectricMachete.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponMachete.dds" />
+		<texture name="HudWeaponMachete.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponMacheteNormal.dds" />
+		<texture name="HudWeaponGun.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponGun.dds" />
+		<texture name="HudWeaponFirstAid.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponFirstAid.dds" />
+		<texture name="HudWeaponBatNails.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponBatNails.dds" />
+		<texture name="HudWeaponBat.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponBat.dds" />
+		<texture name="HudWeaponAxeDouble.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponAxeDouble.dds" />
+		<texture name="HudWeaponAxe.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWeaponAxe.dds" />
+		<texture name="machete_D_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete_D_blood.dds" />
+		<texture name="machete_N_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete_N_blood.dds" />
+		<texture name="bbat_D_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/bbat_D_blood.dds" />
+		<texture name="bbat_s_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/bbat_s_blood.dds" />
+		<texture name="bbat_n_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/bbat_n_blood.dds" />
+		<texture name="axe_S_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe_S_blood.dds" />
+		<texture name="axe_N_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe_N_blood.dds" />
+		<texture name="axe_D_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe_D_blood.dds" />
+		<texture name="pipe_S_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_S_blood.dds" />
+		<texture name="pipe_N_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_N_blood.dds" />
+		<texture name="pipe_D_blood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_D_blood.dds" />
+		<texture name="DamageBack.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/Frame1.dds" />
+		<texture name="ingredient_1.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftIconDuctTape.dds" />
+		<texture name="ingredient_2.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftIconBattery.dds" />
+		<texture name="ingredient_3.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftIconNails.dds" />
+		<texture name="ingredient_4.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftIconStick.dds" />
+		<texture name="ingredient_5.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftIconBandage.dds" />
+		<texture name="ingredient_6.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftIconSaw.dds" />
+		<texture name="HudScoreBG.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudScoreBG.dds" />
+		<texture name="GameOverPanel.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/GameOverPanel.dds" />
+		<texture name="HudWaveBG.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudWaveBG.dds" />
+		<texture name="HudRadialBg.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudRadialBG.dds" />
+		<texture name="HudRadialBgHighlight.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudRadialBgHighlight.dds" />
+		<texture name="HudRadialBlood.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudRadialBlood.dds" />
+		<texture name="challenge_1.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon1.dds" />
+		<texture name="challenge_2.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon2.dds" />
+		<texture name="challenge_3.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon3.dds" />
+		<texture name="challenge_4.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon4.dds" />
+		<texture name="challenge_5.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon5.dds" />
+		<texture name="challenge_6.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon6.dds" />
+		<texture name="challenge_7.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon7.dds" />
+		<texture name="challenge_8.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon8.dds" />
+		<texture name="challenge_9.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon9.dds" />
+		<texture name="challenge_10.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIcon10.dds" />
+		<texture name="challenge_locked.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeIconLocked.dds" />
+		<texture name="ChallengeProgression.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeProgBarFill.dds" />
+		<texture name="ChallengeProgressionBack.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ChallengeProgBarBG.dds" />
+		<texture name="instruction_stomp.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/instructions/instruction_stomp.dds" />
+		<texture name="instruction_workbench.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/instructions/instruction_workbench.dds" />
+		<texture name="instruction_ingredients.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/instructions/instruction_ingredients.dds" />
+		<texture name="instruction_push.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/instructions/instruction_push.dds" />
+		<texture name="instruction_pickups.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/instructions/instruction_pickups.dds" />
+		<texture name="instruction_zombies.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/instructions/instruction_zombies.dds" />
+		<texture name="instruction_downed.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/instructions/instruction_downed.dds" />
+		<texture name="revive_indicator.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudRevive.dds" />
+		<texture name="texture_lb_bg" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/LeaderboardBG.dds" />
+		<texture name="lb_highlight" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/LeadboardTextHilight.dds" />
+		<texture name="HudHealingBarBG.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudHealingBarBG.dds" />
+		<texture name="CraftingMenuPanel.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftingMenuPanel.dds" />
+		<texture name="CraftingMenuHighlight.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftingMenuHilight.dds" />
+		<texture name="PreOrderPanel.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/PreOrderPanel.dds" />
+		<texture name="playerhealth.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudPlayerHealthFill.dds" />
+		<texture name="playerhealth2.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/HudPlayer2HealthFill.dds" />
+		<texture name="CraftIconLock.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/CraftIconLock.dds" />
+		<texture name="ButtonTri.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Art/finalhud/ButtonTri.dds" />
+		<texture name="zombie_shorts_d2.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/textures/zombie_shorts_d2.dds" />
+		<particle name="blood_spatter.efx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/particle_effects/blood_zombie_splat.efx" />
+		<particle name="blood_explosion.efx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/particle_effects/blood_zombie_explosion.efx" />
+		<particle name="shotgun.efx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/particle_effects/shotgun_fire.efx" />
+		<particle name="electrify.efx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/particle_effects/electricity.efx" />
+		<particle name="electrify_machete.efx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/particle_effects/electricity_machete.efx" />
+		<collision name="baseballbat.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_test.hkx" />
+		<collision name="baseballbat_brokenhead.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_brokenhead.hkx" />
+		<collision name="baseballbat_brokenhandle.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/baseballbat/baseballbat_brokenhandle.hkx" />
+		<collision name="pipe.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe.hkx" />
+		<collision name="pipe_brokenhead.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_brokenhead.hkx" />
+		<collision name="pipe_saw_broken_head.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_saw_broken_head.hkx" />
+		<collision name="axe.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe.hkx" />
+		<collision name="double_axe_brokenhandle.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/double_axe/double_axe__brokenhandle.hkx" />
+		<collision name="double_axe_brokentop.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/double_axe/double_axe__brokentop.hkx" />
+		<collision name="axe_brokenhead.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/axe/axe_brokenhead.hkx" />
+		<collision name="machete.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete.hkx" />
+		<collision name="machete_brokenblade.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete_brokenblade.hkx" />
+		<collision name="machete_brokenhandle.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/machete/machete_brokenhandle.hkx" />
+		<collision name="crushing_foot.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/avatar_collision/stomp_foot.hkx" />
+		<collision name="shaun_head.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/head.hkx" />
+		<collision name="shaun_head_phys.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/head_phys.hkx" />
+		<collision name="shaun_arm.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/arm.hkx" />
+		<collision name="shaun_arm_left_phys.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/lt_arm_phys.hkx" />
+		<collision name="shaun_arm_right_phys.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/rt_arm_phys.hkx" />
+		<collision name="shaun_leg.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/leg.hkx" />
+		<collision name="shaun_leg_left_phys.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/lt_leg_phys.hkx" />
+		<collision name="shaun_leg_right_phys.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/rt_leg_phys.hkx" />
+		<collision name="shaun_chest.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/chest.hkx" />
+		<collision name="shaun_pelvis.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/pelvis.hkx" />
+		<collision name="shaun_collision.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/base_mesh_shaun.hkx" />
+		<collision name="shaun_collision_low.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/shaun/ground_mesh_shaun.hkx" />
+		<collision name="game_collision.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/collision/game_collision.hkx" />
+		<collision name="game_collision_2.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/collision/game_collision_2.hkx" />
+		<collision name="game_collision_3.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/collision/game_collision_3.hkx" />
+		<collision name="horizontal_swing.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/atk_collision/horizontal_swing.hkx" />
+		<collision name="vertical_swing.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/atk_collision/vertical_swing.hkx" />
+		<collision name="large_horizontal_swing.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/atk_collision/large_horizontal_swing.hkx" />
+		<collision name="small_horizontal_swing.hkx" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/atk_collision/small_horizontal_swing.hkx" />
+		<anim name="male_brokenweapon.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/weapon_brake.ani" memory="host" />
+		<anim name="male_punch_left.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/punch_left.ani" memory="host" />
+		<anim name="male_punch_right.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/punch_right.ani" memory="host" />
+		<anim name="male_baseballbat_swing.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/bat_swing.ani" memory="host" />
+		<anim name="male_baseballbat_swing_alt.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/bat_swing_alt.ani" memory="host" />
+		<anim name="male_baseballbat_smash.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/bat_smashdown.ani" memory="host" />
+		<anim name="male_shotgun_fire.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/shotgun_fire.ani" memory="host" />
+		<anim name="male_baseballbat_swing_low.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/bat_swing_low.ani" memory="host" />
+		<anim name="male_machete_swing1.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/machete_atk1.ani" />
+		<anim name="male_machete_swing2.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/machete_atk2.ani" />
+		<anim name="male_machete_low.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/machete_low.ani" />
+		<anim name="male_stomp.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/stomp.ani" memory="host" />
+		<anim name="male_kick.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_male/kick.ani" />
+		<anim name="male_death.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/die.ani" />
+		<anim name="male_stagger_backward.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/hit_frnt.ani" />
+		<anim name="male_stagger_left.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/hit_left.ani" />
+		<anim name="male_stagger_right.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/hit_right.ani" />
+		<anim name="male_stagger_front.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/hit_back.ani" />
+		<anim name="male_push.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/push.ani" />
+		<anim name="male_dead.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/dead.ani" />
+		<anim name="male_healing.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/healing_crouched.ani" />
+		<anim name="male_knockedout.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/Wait_4_heal.ani" />
+		<anim name="male_special_emachete.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/sp_atk_machete.ani" />
+		<anim name="male_special_sbat.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/sp_atk_bat.ani" />
+		<anim name="male_special_daxe.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/sp_atk_axe.ani" />
+		<anim name="male_special_saw.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_male/sp_atk_saw.ani" />
+		<anim name="male_special_kick.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/sp_atk_kick.ani" />
+		<anim name="female_brokenweapon.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/weapon_brake.ani" memory="host" />
+		<anim name="female_punch_left.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/punch_left.ani" memory="host" />
+		<anim name="female_punch_right.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/punch_right.ani" memory="host" />
+		<anim name="female_baseballbat_swing.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/bat_swing.ani" memory="host" />
+		<anim name="female_baseballbat_swing_alt.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/bat_swing_alt.ani" memory="host" />
+		<anim name="female_baseballbat_smash.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/bat_smashdown.ani" memory="host" />
+		<anim name="female_shotgun_fire.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/shotgun_fire.ani" memory="host" />
+		<anim name="female_baseballbat_swing_low.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/bat_swing_low.ani" memory="host" />
+		<anim name="female_machete_swing1.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/machete_atk1.ani" />
+		<anim name="female_machete_swing2.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/machete_atk2.ani" />
+		<anim name="female_machete_low.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/machete_low.ani" />
+		<anim name="female_stomp.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/stomp.ani" memory="host" />
+		<anim name="female_kick.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/kick.ani" />
+		<anim name="female_death.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/die.ani" />
+		<anim name="female_stagger_backward.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/hit_frnt.ani" />
+		<anim name="female_stagger_left.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/hit_left.ani" />
+		<anim name="female_stagger_right.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/hit_right.ani" />
+		<anim name="female_stagger_front.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/hit_back.ani" />
+		<anim name="female_push.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/push.ani" />
+		<anim name="female_dead.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/dead.ani" />
+		<anim name="female_healing.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/healing_crouched.ani" />
+		<anim name="female_knockedout.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/Wait_4_heal.ani" />
+		<anim name="female_special_emachete.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/sp_atk_machete.ani" />
+		<anim name="female_special_sbat.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/sp_atk_bat.ani" />
+		<anim name="female_special_daxe.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/sp_atk_axe.ani" />
+		<anim name="female_special_saw.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/sp_atk_saw.ani" />
+		<anim name="female_special_kick.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/final_female/sp_atk_kick.ani" />
+		<anim name="final_walk.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/walk.ani" memory="host" />
+		<anim name="final_crawl.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/crawl.ani" memory="host" />
+		<anim name="final_stagger_left.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/short_stag_left.ani" memory="host" />
+		<anim name="final_stagger_forward.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/short_stag_fwd.ani" memory="host" />
+		<anim name="final_stagger_right.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/short_stag_right.ani" memory="host" />
+		<anim name="final_stagger_back.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/short_stag_back.ani" memory="host" />
+		<anim name="final_death_crawl.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/crawl_death_stomped.ani" memory="host" />
+		<anim name="final_death_regular.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/death.ani" memory="host" />
+		<anim name="final_death_forward.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/death_forward.ani" memory="host" />
+		<anim name="final_dead_regular.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/dead.ani" memory="host" />
+		<anim name="final_dead_forward.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/dead_forward.ani" memory="host" />
+		<anim name="final_dead_crawl.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/crawl_dead.ani" memory="host" />
+		<anim name="final_fall.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/drop_2_crawl.ani" memory="host" />
+		<anim name="final_kneel.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/drop_to_knees.ani" memory="host" />
+		<anim name="final_attack_1.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/attack_1.ani" memory="host" />
+		<anim name="final_attack_2.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/attack_2.ani" memory="host" />
+		<anim name="final_attack_lunge.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/lunge_atk.ani" memory="host" />
+		<anim name="final_attack_crawl_1.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/crawl_attack.ani" memory="host" />
+		<anim name="final_idle.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/idle.ani" memory="host" />
+		<anim name="sp_atk_macheteZombie.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/sp_atk_macheteZombie.ani" memory="host" />
+		<anim name="sp_atk_batZombie.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/sp_atk_batZombie.ani" memory="host" />
+		<anim name="sp_atk_axeZombie.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/sp_atk_axeZombie.ani" memory="host" />
+		<anim name="sp_atk_sawZombie.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/sp_atk_sawZombie.ani" memory="host" />
+		<anim name="final_idle_crawl.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/crawl_idle.ani" memory="host" />
+		<anim name="final_run.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/enemy_anims/run.ani" memory="host" />
+		<anim name="final_jump.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/anims/jump_alt.ani" memory="host" />
+		<anim name="pipe_saw.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_saw.ani" memory="host" />
+		<anim name="camera_wobble.ani" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/camera_wobble/cam_1.ani" memory="host" />
+		<skeleton name="new_torso.skn" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/newzombie/torso_2.skn" />
+		<skeleton name="pipe_saw.skn" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/pipe/pipe_saw.skn" />
+		<skeleton name="camera_wobble.skn" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/test/camera_wobble/cam_1.skn" />
+		<soundbank name="deadisland.bnk" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Sound/deadisland.bnk" />
+		<soundstream name="menu.mp3" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Sound/Mp3_Sound_Streams/Menu_Music.mp3" />
+		<soundstream name="wave_1.mp3" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Sound/Mp3_Sound_Streams/Wave_1.mp3" />
+		<soundstream name="wave_2.mp3" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Sound/Mp3_Sound_Streams/Wave_2.mp3" />
+		<soundstream name="wave_3.mp3" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/Game/Sound/Mp3_Sound_Streams/Wave_3.mp3" />
+		<repertoire name="repertoire_male" deferred_loading="false" protected="false" file="objects/671A721D-A4F0470E-BC2D61DE-E6020D6E/repertoire_male.xml" />
+		<repertoire name="repertoire_female" deferred_loading="false" protected="false" file="objects/671A721D-A4F0470E-BC2D61DE-E6020D6E/repertoire_female.xml" />
+		<lua name="lua_main" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Main.lua" />
+		<lua name="lua_ohs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/OHS.lua" />
+		<lua name="lua_jamin" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/Jamin.lua" />
+		<lua name="lua_sounds" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/Sounds.lua" />
+		<lua name="lua_rewarder" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/Rewarder.lua" />
+		<lua name="lua_net_lib" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/NetLib.lua" />
+		<lua name="lua_dependencies" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Dependencies.lua" />
+		<lua name="lua_controller" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/Controller.lua" />
+		<lua name="lua_tween" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/Tween.lua" />
+		<lua name="lua_game_state" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/GameState.lua" />
+		<lua name="lua_camera_manager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/CameraManager.lua" />
+		<lua name="lua_effect_manager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/EffectMgr.lua" />
+		<lua name="lua_effect_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/effect_defs.lua" />
+		<lua name="lua_entity_mgr" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/entity_mgr.lua" />
+		<lua name="lua_weapon" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Weapon.lua" />
+		<lua name="lua_weapon_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/weapon_defs.lua" />
+		<lua name="lua_worldspace" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/WorldSpaceMessage.lua" />
+		<lua name="lua_sound_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/sound_defs.lua" />
+		<lua name="lua_musicmanager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/MusicManager.lua" />
+		<lua name="lua_nav" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Nav/Nav.lua" />
+		<lua name="lua_path" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Nav/Path.lua" />
+		<lua name="lua_heap" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Nav/Heap.lua" />
+		<lua name="lua_naveditor" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Nav/NavEditor.lua" />
+		<lua name="lua_navdefs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Nav/Navdefs.lua" />
+		<lua name="lua_cameraaction_3p" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/CameraAction_3P.lua" />
+		<lua name="lua_cameraaction_fixed" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/CameraAction_Fixed.lua" />
+		<lua name="lua_mesh" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/Mesh.lua" />
+		<lua name="lua_bot" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/EnemyBot.lua" />
+		<lua name="lua_pawn" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Pawn.lua" />
+		<lua name="lua_animation_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/animation_defs.lua" />
+		<lua name="lua_innergame" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/InnerGame.lua" />
+		<lua name="lua_zombie_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/zombie_defs.lua" />
+		<lua name="lua_playercontroller" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/PlayerController.lua" />
+		<lua name="lua_inventory" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Inventory.lua" />
+		<lua name="lua_fsm" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/FSM.lua" />
+		<lua name="lua_zombiebrain" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/brain_zombie.lua" />
+		<lua name="lua_playerpawn" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/PlayerPawn.lua" />
+		<lua name="lua_wavemanager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/WaveManager.lua" />
+		<lua name="lua_lobby" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Lobby.lua" />
+		<lua name="lua_sessions" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Util/Sessions.lua" />
+		<lua name="lua_networking" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/gamereplication.lua" />
+		<lua name="lua_decalmanager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/DecalManager.lua" />
+		<lua name="lua_hud" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Hud.lua" />
+		<lua name="lua_playertab" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/PlayerTab.lua" />
+		<lua name="lua_progressbar" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/ProgressBar.lua" />
+		<lua name="lua_playerinteraction" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/PlayerInteraction.lua" />
+		<lua name="lua_mainmenu" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/MainMenu.lua" />
+		<lua name="lua_logbox" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/LogBox.lua" />
+		<lua name="lua_screeneffect" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/ScreenEffect.lua" />
+		<lua name="lua_spectator" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Spectator.lua" />
+		<lua name="lua_gameoverscreen" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/GameOverScreen.lua" />
+		<lua name="lua_pickup" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Pickup.lua" />
+		<lua name="lua_pickupmanager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/PickupManager.lua" />
+		<lua name="lua_instructions" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Instructions.lua" />
+		<lua name="lua_listbox" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/ListBox.lua" />
+		<lua name="lua_hitindicator" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/HitIndicator.lua" />
+		<lua name="lua_communitygame" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/CommunityGame.lua" />
+		<lua name="lua_communitydrop" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/CommunityDrop.lua" />
+		<lua name="lua_communityhud" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/CommunityGameHud.lua" />
+		<lua name="lua_craftgame" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/CraftGame.lua" />
+		<lua name="lua_receipes" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Receipes.lua" />
+		<lua name="lua_persistentdata" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/PersistentData.lua" />
+		<lua name="lua_scenedecor" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/SceneDecor.lua" />
+		<lua name="lua_physdefs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/phys_defs.lua" />
+		<lua name="lua_challengesunlocked" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/ChallengeUnlocked.lua" />
+		<lua name="lua_challenges_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/challenges_defs.lua" />
+		<lua name="lua_challenges_manager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/ChallengesManager.lua" />
+		<lua name="lua_challenges_screen" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/ChallengesScreen.lua" />
+		<lua name="lua_menuoption" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/MenuOption.lua" />
+		<lua name="lua_pickup_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/pickup_defs.lua" />
+		<lua name="lua_specialattacks_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/specialattacks_defs.lua" />
+		<lua name="lua_leaderboards" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Leaderboards.lua" />
+		<lua name="lua_lbmain" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Leaderboards/LBMain.lua" />
+		<lua name="lua_lbsettings" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Leaderboards/LBSettings.lua" />
+		<lua name="lua_lbview" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/Leaderboards/LBView.lua" />
+		<lua name="lua_inventoryradial" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/InventoryRadial.lua" />
+		<lua name="lua_lessonmanager" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/LessonManager.lua" />
+		<lua name="lua_aimindicator" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/aim_indicator.lua" />
+		<lua name="lua_cutscene_defs" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/cutscene_defs.lua" />
+		<lua name="lua_statestats" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/StateStats.lua" />
+		<lua name="lua_gamestats" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/GameStats.lua" />
+		<lua name="lua_splashscreen" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/Game/splashscreen.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="0.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/0.dds" />
+		<texture name="1.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/1.dds" />
+		<texture name="2.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/2.dds" />
+		<model name="2D_Explosion.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/2D_Explosion.mdl" memory="host" />
+		<texture name="3.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/3.dds" />
+		<texture name="4.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/4.dds" />
+		<texture name="5.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/5.dds" />
+		<texture name="6.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/6.dds" />
+		<texture name="7.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/7.dds" />
+		<texture name="8.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/8.dds" />
+		<texture name="9.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/9.dds" />
+		<collision name="arcadegame.hkx" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Cabinet.hkx" memory="host" />
+		<model name="arcadegame.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Cabinet.mdl" memory="host" />
+		<lua name="audio.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/audio.lua" />
+		<model name="Background.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Background.mdl" memory="host" />
+		<model name="Bomb.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Bomb.mdl" memory="host" />
+		<texture name="comet_explosion_c.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/comet_explosion_c.dds" />
+		<anim name="CometHitComet.ani" deferred_loading="false" protected="false" file="MiniGames/muncha/models/CometHitComet.ani" memory="host" />
+		<skeleton name="CometHitComet.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/CometHitComet.skn" memory="host" />
+		<model name="cracker" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Pyramid.mdl" memory="host" />
+		<model name="Cube" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Cube.mdl" memory="host" />
+		<collision name="Cube.hkx" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Cube.hkx" memory="host" />
+		<lua name="dots.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/dots.lua" />
+		<emotes name="Emo_F_HR" deferred_loading="true" protected="false" file="MiniGames/muncha/animation/Emo_F_HR.xml" />
+		<emotes name="Emo_M_HR" deferred_loading="true" protected="false" file="MiniGames/muncha/Emo_M_HR.xml" />
+		<texture name="explode.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/explode.dds" />
+		<particle name="explosion" deferred_loading="false" protected="false" file="MiniGames/muncha/Efx/explosion.efx" />
+		<lua name="gamenumbers.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/gamenumbers.lua" />
+		<lua name="GamePlay.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/GamePlay.lua" />
+		<skeleton name="GoldenRing.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/GoldenRing.skn" memory="host" />
+		<anim name="HotRocks_idle_f" deferred_loading="false" protected="false" file="MiniGames/muncha/animation/female/HotRocks_idle_f.ani" memory="host" />
+		<anim name="HotRocks_idle_m" deferred_loading="false" protected="false" file="MiniGames/muncha/animation/male/HotRocks_idle_m.ani" memory="host" />
+		<anim name="HotRocks_play_f" deferred_loading="false" protected="false" file="MiniGames/muncha/animation/female/HotRocks_play_f.ani" memory="host" />
+		<anim name="HotRocks_play_m" deferred_loading="false" protected="false" file="MiniGames/muncha/animation/male/HotRocks_play_m.ani" memory="host" />
+		<lua name="hudscreen.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/hudscreen.lua" />
+		<texture name="implode.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/implode.dds" />
+		<model name="Joystick.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Joystick.mdl" memory="host" />
+		<texture name="LevelChange_0.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_0.dds" />
+		<texture name="LevelChange_1.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_1.dds" />
+		<texture name="LevelChange_2.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_2.dds" />
+		<texture name="LevelChange_3.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_3.dds" />
+		<texture name="LevelChange_4.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_4.dds" />
+		<texture name="LevelChange_5.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_5.dds" />
+		<texture name="LevelChange_6.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_6.dds" />
+		<texture name="LevelChange_7.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_7.dds" />
+		<texture name="LevelChange_8.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_8.dds" />
+		<texture name="LevelChange_9.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/LevelChange_9.dds" />
+		<texture name="magnetPowerUp.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/magnetPowerUp.dds" />
+		<file name="MainScreen.xml" deferred_loading="false" protected="false" file="MiniGames/muncha/lua/MainScreen.xml" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/Math.lua" />
+		<texture name="meteor.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/meteor.dds" />
+		<model name="Meteor_Fire.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Meteor_Fire.mdl" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/MiniGame.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/MinigameDialogs.lua" />
+		<soundbank name="muncha.bnk" deferred_loading="false" protected="false" file="MiniGames/muncha/sound/muncha.bnk" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/muncha/lua/Network.xml" />
+		<texture name="OSD_black.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/OSD_black.dds" />
+		<model name="OSD_Bomb.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Bomb.mdl" memory="host" />
+		<texture name="OSD_Level.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/OSD_Level.dds" />
+		<model name="OSD_Level.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Level.mdl" memory="host" />
+		<texture name="OSD_logo" deferred_loading="false" protected="false" file="thumbnails/MassMediaLogo.png" />
+		<texture name="OSD_Player.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/OSD_Player.dds" />
+		<model name="OSD_Player.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Player.mdl" memory="host" />
+		<texture name="OSD_Pyramid.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/OSD_Pyramid.dds" />
+		<model name="OSD_Pyramid.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Pyramid.mdl" memory="host" />
+		<texture name="OSD_Score.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/OSD_Score.dds" />
+		<model name="OSD_Score.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Score.mdl" memory="host" />
+		<model name="OSD_Sheild.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Sheild.mdl" memory="host" />
+		<model name="OSD_SizeBoost.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_SizeBoost.mdl" memory="host" />
+		<model name="OSD_Slow.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Slow.mdl" memory="host" />
+		<model name="OSD_SmartBomb.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_SmartBomb.mdl" memory="host" />
+		<model name="OSD_Speed.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/OSD_Speed.mdl" memory="host" />
+		<lua name="Pickups.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/Pickups.lua" />
+		<model name="Player" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Player.mdl" memory="host" />
+		<lua name="player.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/player.lua" />
+		<model name="Player_gravity.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Player_gravity.mdl" memory="host" />
+		<model name="Player_shield.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Player_sheild.mdl" memory="host" />
+		<model name="Player_Slow.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Player_Slow.mdl" memory="host" />
+		<model name="Player_SpeedBoost.mdl" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Player_SpeedBoost.mdl" memory="host" />
+		<texture name="pyramid.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/pyramid.dds" />
+		<model name="RadiusBomb" deferred_loading="false" protected="false" file="MiniGames/muncha/models/RadiusBomb.mdl" memory="host" />
+		<anim name="RadiusBomb.ani" deferred_loading="false" protected="false" file="MiniGames/muncha/models/RadiusBomb.ani" memory="host" />
+		<skeleton name="RadiusBomb.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/RadiusBomb.skn" memory="host" />
+		<texture name="radiusPowerUp.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/radiusPowerUp.dds" />
+		<texture name="red1x1.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/red1x1.dds" />
+		<texture name="RedBox.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/RedBox.dds" />
+		<repertoire name="Rep_F_HR" deferred_loading="false" protected="false" file="MiniGames/muncha/animation/Rep_F_HR.xml" />
+		<repertoire name="Rep_M_HR" deferred_loading="false" protected="false" file="MiniGames/muncha/animation/Rep_M_HR.xml" />
+		<texture name="ripple.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/models/textures/ripple.dds" />
+		<lua name="rollers.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/rollers.lua" />
+		<lua name="scoretable.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/scoretable.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/Settings.lua" />
+		<model name="Shield" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Sheild.mdl" memory="host" />
+		<anim name="Shield.ani" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Sheild.ani" memory="host" />
+		<skeleton name="Shield.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Sheild.skn" memory="host" />
+		<texture name="shieldPowerUp.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/shieldPowerUp.dds" />
+		<model name="SizeBoost" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SizeBoost.mdl" memory="host" />
+		<anim name="SizeBoost.ani" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SizeBoost.ani" memory="host" />
+		<skeleton name="SizeBoost.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SizeBoost.skn" memory="host" />
+		<model name="SlowDown" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SlowDown.mdl" memory="host" />
+		<anim name="SlowDown.ani" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SlowDown.ani" memory="host" />
+		<skeleton name="SlowDown.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SlowDown.skn" memory="host" />
+		<texture name="slowPowerUp.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/slowPowerUp.dds" />
+		<model name="SpeedBoost" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SpeedBoost.mdl" memory="host" />
+		<anim name="SpeedBoost.ani" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SpeedBoost.ani" memory="host" />
+		<skeleton name="SpeedBoost.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SpeedBoost.skn" memory="host" />
+		<texture name="speedPowerUp.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/speedPowerUp.dds" />
+		<model name="SuperBomb" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SuperBomb.mdl" memory="host" />
+		<anim name="SuperBomb.ani" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SuperBomb.ani" memory="host" />
+		<skeleton name="SuperBomb.skn" deferred_loading="false" protected="false" file="MiniGames/muncha/models/SuperBomb.skn" memory="host" />
+		<texture name="superPowerUp.dds" deferred_loading="false" protected="false" file="MiniGames/muncha/OSD/superPowerUp.dds" />
+		<lua name="System.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/System.lua" />
+		<lua name="topscreen.lua" deferred_loading="false" protected="true" file="MiniGames/muncha/lua/topscreen.lua" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/muncha/lua/types.xml" />
+		<model name="wheel" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Meteor.mdl" memory="host" />
+		<model name="whitecube" deferred_loading="false" protected="false" file="MiniGames/muncha/models/Cube_white.mdl" memory="host" />
+</local>
+<external />
+</resources>

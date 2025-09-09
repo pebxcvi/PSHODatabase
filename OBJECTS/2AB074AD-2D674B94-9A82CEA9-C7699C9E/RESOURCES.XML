@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="pint_new.mdl" deferred_loading="true" protected="false" file="locomotion/pint_new.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Drinking_Pint/file/config.xml" memory="host" />
+		<anim name="pint_run.ani" deferred_loading="true" protected="false" file="animation/female/drinking_pint/pint_run.ani" memory="host" />
+		<anim name="pint_idle.ani" deferred_loading="true" protected="false" file="animation/female/drinking_pint/pint_idle.ani" memory="host" />
+		<anim name="pint_emote.ani" deferred_loading="true" protected="false" file="animation/female/drinking_pint/pint_emote.ani" memory="host" />
+		<anim name="pint_emote.ani_1" deferred_loading="true" protected="false" file="animation/male/pint_emote/pint_emote.ani" memory="host" />
+		<anim name="pint_idle.ani_1" deferred_loading="true" protected="false" file="animation/male/pint_idle/pint_idle.ani" memory="host" />
+		<anim name="pint_run.ani_1" deferred_loading="true" protected="false" file="animation/male/drinking_pint/pint_run.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Drinking_Pint/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Drinking_Pint/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Drinking_Pint/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Drinking_Pint/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Drinking_Pint/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

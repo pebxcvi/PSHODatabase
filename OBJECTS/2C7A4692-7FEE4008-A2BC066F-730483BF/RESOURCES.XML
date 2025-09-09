@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="lipstick_new.mdl" deferred_loading="true" protected="false" file="locomotion/lipstick_new.mdl" />
+		<model name="compact_new.mdl" deferred_loading="true" protected="false" file="locomotion/compact_new.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Lipstick/file/config.xml" memory="host" />
+		<anim name="lipstick_idle.ani" deferred_loading="true" protected="false" file="animation/female/lipstick/lipstick_idle.ani" memory="host" />
+		<anim name="lipstick_run.ani" deferred_loading="true" protected="false" file="animation/female/lipstick/lipstick_run.ani" memory="host" />
+		<anim name="lipstick_emote.ani" deferred_loading="true" protected="false" file="animation/female/lipstick/lipstick_emote.ani" memory="host" />
+		<anim name="lipstick_idle.ani_1" deferred_loading="true" protected="false" file="animation/male/lipstick/lipstick_idle.ani" memory="host" />
+		<anim name="lipstick_run.ani_1" deferred_loading="true" protected="false" file="animation/male/lipstick/lipstick_run.ani" memory="host" />
+		<anim name="lipstick_emote.ani_1" deferred_loading="true" protected="false" file="animation/male/lipstick/lipstick_emote.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Lipstick/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Lipstick/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Lipstick/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Lipstick/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Lipstick/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

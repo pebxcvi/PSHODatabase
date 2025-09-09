@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/loot_searchlight_active/Loot_Searchlight_active.mdl" memory="host" />
+		<model name="Loot_Searchlight_Arm.mdl" deferred_loading="false" protected="false" file="furniture/loot_searchlight_active/Loot_Searchlight_Arm.mdl" memory="host" />
+		<model name="Loot_Searchlight_Lamp.mdl" deferred_loading="false" protected="false" file="furniture/loot_searchlight_active/Loot_Searchlight_Lamp.mdl" memory="host" />
+		<model name="Loot_Searchlight_LightOFF.mdl" deferred_loading="false" protected="false" file="furniture/loot_searchlight_active/Loot_Searchlight_LightOFF.mdl" memory="host" />
+		<model name="Loot_Searchlight_LightON.mdl" deferred_loading="false" protected="false" file="furniture/loot_searchlight_active/Loot_Searchlight_LightON.mdl" memory="host" />
+		<texture name="LightSpectrum.dds" deferred_loading="false" protected="false" file="Actives/SearchLight/Textures/LightSpectrum.dds" />
+		<texture name="LightSelector.dds" deferred_loading="false" protected="false" file="Actives/SearchLight/Textures/LightSelector.dds" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/loot_searchlight_active/Loot_Searchlight_active.hkx" memory="host" />
+		<soundbank name="searchlight_soundfx.bnk" deferred_loading="false" protected="false" file="Actives/SearchLight/Audio/searchlight_soundfx.bnk" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Actives/SearchLight/lua/main.luac" memory="host" />
+	</local>
+	<external />
+</resources>

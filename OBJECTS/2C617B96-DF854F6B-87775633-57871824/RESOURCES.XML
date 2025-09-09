@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_guitar.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/strummer_guitar/file/config.xml" memory="host" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="Locomotion/solo_guitar/anim/run.ani" memory="host" />
+		<anim name="strummer_guitar_IN.ani" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_guitar_IN.ani" />
+		<anim name="strummer_guitar_invisible.ani" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_guitar_invisible.ani" />
+		<anim name="strummer_IDLE_M.ani" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_IDLE_M.ani" memory="host" />
+		<anim name="strummer_IN_M.ani" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_IN_M.ani" memory="main" />
+		<anim name="run_f.ani" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/anim/run_f.ani" memory="host" />
+		<anim name="strummer_IN_F.ani" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_IN_F.ani" memory="main" />
+		<anim name="strummer_IDLE_F.ani" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_IDLE_F.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/strummer_guitar.skn" memory="host" />
+		<soundbank name="Strumming_Guitar" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/file/Strumming_Guitar.bnk" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/strummer_guitar/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/strummer_guitar/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
