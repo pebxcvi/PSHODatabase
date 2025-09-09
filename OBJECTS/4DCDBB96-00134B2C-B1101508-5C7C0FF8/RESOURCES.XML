@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="texture_red_backing" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/Leaderboard/texture_red_backing.dds" />
+		<texture name="texture_leaderboard_bg" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/Leaderboard/texture_leaderboard_bg.dds" />
+		<texture name="texture_header" deferred_loading="false" protected="false" file="MiniGames/Arcade_Hub/Leaderboard/header.dds" />
+		<lua name="lua_dependencies" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/Dependencies.lua" />
+		<lua name="lua_main" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/Main.lua" />
+		<lua name="lua_controller" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/Util/Controller.lua" />
+		<lua name="lua_font" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/Font.lua" />
+		<lua name="lua_fontRenderer" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/FontRenderer.lua" />
+		<lua name="lua_leaderboardComment" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/LeaderboardComment.lua" />
+		<lua name="lua_leaderboardData" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/LeaderboardData.lua" />
+		<lua name="lua_leaderboards" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/Leaderboards.lua" />
+		<lua name="lua_leaderboardView" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/LeaderboardView.lua" />
+		<lua name="lua_easyLocalise" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/Util/EasyLocalise.lua" />
+		<lua name="lua_OHS" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/OHS.lua" />
+		<lua name="lua_encrypt" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/encrypt.lua" />
+		<lua name="lua_jamin" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/Jamin.lua" />
+		<lua name="lua_instructionHud" deferred_loading="false" protected="true" file="MiniGames/Arcade_Hub/Leaderboard/InstructionHud.lua" />
+	</local>
+	<external />
+</resources>

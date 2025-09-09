@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="assets/shandor/ShandorLower.mdl" />
+		<model name="ShandorCoin.mdl" deferred_loading="false" protected="false" file="assets/shandor/ShandorCoin.mdl" />
+		<model name="ShandorCoinChute.mdl" deferred_loading="false" protected="false" file="assets/shandor/ShandorCoinChute.mdl" />
+		<model name="ShandorHead.mdl" deferred_loading="false" protected="false" file="assets/shandor/ShandorHead.mdl" />
+		<texture name="zoltareyeoff_c.dds" deferred_loading="false" protected="false" file="assets/shandor/textures/zoltareyeoff_c.dds" />
+		<texture name="zoltareyeon_c.dds" deferred_loading="false" protected="false" file="assets/shandor/textures/zoltareyeon_c.dds" />
+		<texture name="Card.dds" deferred_loading="false" protected="false" file="assets/shandor/textures/Card.dds" />
+		<texture name="InstructionSprite.dds" deferred_loading="false" protected="false" file="assets/shandor/textures/InstructionSprite.dds" />
+		<texture name="ScoreSprite.dds" deferred_loading="false" protected="false" file="assets/shandor/textures/ScoreSprite.dds" />
+		<texture name="CardFrench.dds" deferred_loading="false" protected="false" file="assets/Shandor/textures/CardFrench.dds" />
+		<file name="ShandorNetwork.xml" deferred_loading="false" protected="false" file="MiniGames/Shandor/ShandorNetwork.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="assets/shandor/ShandorLower.hkx" />
+		<anim name="ShandorCoinChute.ani" deferred_loading="false" protected="false" file="assets/shandor/ShandorCoinChute.ani" />
+		<skeleton name="ShandorCoinChute.skn" deferred_loading="false" protected="false" file="assets/shandor/ShandorCoinChute.skn" />
+		<soundbank name="zoltar.bnk" deferred_loading="false" protected="false" file="assets/shandor/sounds/zoltar.bnk" memory="main" />
+		<lua name="FortuneList.lua" deferred_loading="false" protected="true" file="MiniGames/Shandor/FortuneList.lua" />
+		<lua name="ShandorMinigame.lua" deferred_loading="false" protected="true" file="MiniGames/Shandor/ShandorMinigame.lua" />
+		<lua name="FortuneListFrench.lua" deferred_loading="false" protected="true" file="MiniGames/Shandor/FortuneListFrench.lua" />
+	</local>
+	<external />
+</resources>

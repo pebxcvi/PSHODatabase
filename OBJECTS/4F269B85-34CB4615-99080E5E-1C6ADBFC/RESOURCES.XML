@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ChessBoard.mdl" deferred_loading="false" protected="false" file="ActiveItems/chess/models/ChessBoard.mdl" />
+		<model name="YellowIndicator_MDL" deferred_loading="false" protected="false" file="ActiveItems/chess/models/CommJuly_Checkers_MoveGlow.mdl" />
+		<model name="Rook_Piece.mdl" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Rook_Piece.mdl" />
+		<model name="Knight_Piece.mdl" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Knight_Piece.mdl" />
+		<model name="Bishop_Piece.mdl" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Bishop_Piece.mdl" />
+		<model name="Queen_Piece.mdl" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Queen_Piece.mdl" />
+		<model name="King_Piece.mdl" deferred_loading="false" protected="false" file="ActiveItems/chess/models/King_Piece.mdl" />
+		<model name="Pawn_Piece.mdl" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Pawn_Piece.mdl" />
+		<model name="CommJuly_CheckersSet1.mdl" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/CommJuly_CheckersSet1.mdl" />
+		<texture name="red_checkerpieces_s.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/red_checkerpieces_s.dds" />
+		<texture name="red_checkerpieces_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/red_checkerpieces_c.dds" />
+		<texture name="red_checkerpieces_n.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/red_checkerpieces_n.dds" />
+		<texture name="white_checkerpieces_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/white_checkerpieces_c.dds" />
+		<texture name="white_checkerpieces_n.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/white_checkerpieces_n.dds" />
+		<texture name="white_checkerpieces_s.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/white_checkerpieces_s.dds" />
+		<texture name="test_checkerglowblue_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/test_checkerglowblue_c.dds" />
+		<texture name="test_checkerglowyellow_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/test_checkerglowyellow_c.dds" />
+		<texture name="test_checkerglowred_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/test_checkerglowred_c.dds" />
+		<texture name="blank_DDS" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/blank.dds" />
+		<texture name="chesspiece_rookwhite_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_rookwhite_c.dds" />
+		<texture name="chesspiece_bishopblack_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_bishopblack_c.dds" />
+		<texture name="chesspiece_bishopwhite_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_bishopwhite_c.dds" />
+		<texture name="chesspiece_kingblack_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_kingblack_c.dds" />
+		<texture name="chesspiece_kingwhite_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_kingwhite_c.dds" />
+		<texture name="chesspiece_knightblack_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_knightblack_c.dds" />
+		<texture name="chesspiece_knightwhite_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_knightwhite_c.dds" />
+		<texture name="chesspiece_pawnblack_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_pawnblack_c.dds" />
+		<texture name="chesspiece_pawnwhite_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_pawnwhite_c.dds" />
+		<texture name="chesspiece_queenblack_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_queenblack_c.dds" />
+		<texture name="chesspiece_queenwhite_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_queenwhite_c.dds" />
+		<texture name="chesspiece_rookblack_c.dds" deferred_loading="false" protected="false" file="ActiveItems/chess/textures/chesspiece_rookblack_c.dds" />
+		<particle name="burst-white.efx" deferred_loading="false" protected="false" file="ActiveItems/chess/ATGParticles/burst-white.efx" />
+		<particle name="burst-blue.efx" deferred_loading="false" protected="false" file="ActiveItems/chess/ATGParticles/burst-blue.efx" />
+		<particle name="burst-orange.efx" deferred_loading="false" protected="false" file="ActiveItems/chess/ATGParticles/burst-orange.efx" />
+		<particle name="burst-pink.efx" deferred_loading="false" protected="false" file="ActiveItems/chess/ATGParticles/burst-pink.efx" />
+		<particle name="burst-red.efx" deferred_loading="false" protected="false" file="ActiveItems/chess/ATGParticles/burst-red.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/chess/Network.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="ActiveItems/chess/OSD/types.xml" />
+		<file name="basictext.xml" deferred_loading="false" protected="false" file="ActiveItems/chess/OSD/basictext.xml" />
+		<file name="simplemenu.xml" deferred_loading="false" protected="false" file="ActiveItems/chess/OSD/simplemenu.xml" />
+		<file name="textbox.xml" deferred_loading="false" protected="false" file="ActiveItems/chess/OSD/textbox.xml" />
+		<file name="osd_textpanel" deferred_loading="false" protected="false" file="ActiveItems/chess/OSD/textpanel.xml" />
+		<collision name="CommJuly_CheckersSet1.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/CommJuly_CheckersSet1.hkx" />
+		<collision name="CommJuly_CheckersSet1_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/CommJuly_CheckersSet1_SafeVolume.hkx" />
+		<collision name="ChessBoard.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/ChessBoard.hkx" />
+		<collision name="CommJuly_Checkers_MoveGlow.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/CommJuly_Checkers_MoveGlow.hkx" />
+		<collision name="Rook_Piece.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Rook_Piece.hkx" />
+		<collision name="Knight_Piece.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Knight_Piece.hkx" />
+		<collision name="Bishop_Piece.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Bishop_Piece.hkx" />
+		<collision name="Queen_Piece.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Queen_Piece.hkx" />
+		<collision name="King_Piece.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/King_Piece.hkx" />
+		<collision name="Pawn_Piece.hkx" deferred_loading="false" protected="false" file="ActiveItems/chess/models/Pawn_Piece.hkx" />
+		<soundbank name="SoundBank01.bnk" deferred_loading="false" protected="false" file="ActiveItems/chess/sounds/SoundBank01.bnk" memory="host" />
+		<soundbank name="SoundBank02.bnk" deferred_loading="false" protected="false" file="ActiveItems/chess/sounds/SoundBank02.bnk" memory="host" />
+		<lua name="Chess.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/Chess.lua" memory="host" />
+		<lua name="Board.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/Board.lua" memory="host" />
+		<lua name="CheatCode.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/CheatCode.lua" />
+		<lua name="DebugLine.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/DebugLine.lua" memory="host" />
+		<lua name="Fireworks.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/Fireworks.lua" memory="host" />
+		<lua name="GameManager.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/GameManager.lua" memory="host" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/HUD.lua" memory="host" />
+		<lua name="Indicator.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/Indicator.lua" memory="host" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/List.lua" memory="host" />
+		<lua name="MoveList.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/MoveList.lua" memory="host" />
+		<lua name="MovingAverage.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/MovingAverage.lua" memory="host" />
+		<lua name="MyCamera.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/MyCamera.lua" memory="host" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/MyPad.lua" memory="host" />
+		<lua name="NetworkLayer.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/NetworkLayer.lua" memory="host" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/SoundMgr.lua" memory="host" />
+		<lua name="Piece.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/Piece.lua" memory="host" />
+		<lua name="HashBoard.lua" deferred_loading="false" protected="true" file="ActiveItems/chess/programming/HashBoard.lua" />
+	</local>
+	<external />
+</resources>

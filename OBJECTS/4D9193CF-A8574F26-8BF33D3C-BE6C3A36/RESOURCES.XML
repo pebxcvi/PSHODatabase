@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_shooting_turret/FP_Shooting_Turret.mdl" memory="host" />
+    <model name="FP_Shooting_Missles.mdl" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_shooting_turret/FP_Shooting_Missles.mdl" memory="host" />
+    <model name="FP_Shooting_Top.mdl" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_shooting_turret/FP_Shooting_Top.mdl" memory="host" />
+    <model name="FP_Shooting_Hit.mdl" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_shooting_turret/FP_Shooting_Hit.mdl" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="Actives/ForsakenPlanetTurret/file/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_shooting_turret/FP_Shooting_Turret.hkx" memory="host" />
+    <collision name="FP_Shooting_Missles.hkx" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_shooting_turret/FP_Shooting_Missles.hkx" memory="host" />
+    <collision name="FP_Shooting_Top.hkx" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_shooting_turret/FP_Shooting_Top.hkx" memory="host" />
+    <soundbank name="LaserMissilesounds.bnk" deferred_loading="false" protected="false" file="Actives/ForsakenPlanetTurret/audio/LaserMissilesounds.bnk" memory="host" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="Actives/ForsakenPlanetTurret/lua/main.lua" memory="host" />
+    <lua name="utility.lua" deferred_loading="false" protected="true" file="Actives/ForsakenPlanetTurret/lua/utility.lua" memory="host" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Cabinet.mdl" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/Cabinet.mdl" />
+		<model name="LittleLight.mdl" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/LittleLight.mdl" />
+		<texture name="button_circle_off_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/button_circle_off_c.dds" />
+		<texture name="Button_Circle_on_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Button_Circle_on_c.dds" />
+		<texture name="button_square_off_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/button_square_off_c.dds" />
+		<texture name="Button_Square_on_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Button_Square_on_c.dds" />
+		<texture name="button_triangle_off_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/button_triangle_off_c.dds" />
+		<texture name="Button_Triangle_on_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Button_Triangle_on_c.dds" />
+		<texture name="button_x_off_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/button_x_off_c.dds" />
+		<texture name="Button_X_on_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Button_X_on_c.dds" />
+		<texture name="LittleLight_off_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/LittleLight_off_c.dds" />
+		<texture name="LittleLight_on_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/LittleLight_on_c.dds" />
+		<texture name="Names_off.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Names_off.dds" />
+		<texture name="Names_on.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Names_on.dds" />
+		<texture name="number_0.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/number_0.dds" />
+		<texture name="Number_1.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_1.dds" />
+		<texture name="Number_2.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_2.dds" />
+		<texture name="Number_3.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_3.dds" />
+		<texture name="Number_4.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_4.dds" />
+		<texture name="Number_5.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_5.dds" />
+		<texture name="Number_6.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_6.dds" />
+		<texture name="Number_7.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_7.dds" />
+		<texture name="Number_8.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_8.dds" />
+		<texture name="Number_9.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/Number_9.dds" />
+		<texture name="RedLight_off_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/RedLight_off_c.dds" />
+		<texture name="redlight_on_c.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/redlight_on_c.dds" />
+		<texture name="OSD_Instructions.dds" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/textures/OSD_Instructions.dds" />
+		<file name="NetworkDefs.xml" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/lua/NetworkDefs.xml" />
+		<collision name="Cabinet.hkx" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/Cabinet.hkx" />
+		<collision name="Cabinet.safevolume.hkx" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/model/Cabinet.safevolume.hkx" />
+		<anim name="HB_F_Play" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/animation/female/HB_F_Play.ani" />
+		<anim name="HB_M_Play" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/animation/male/HB_M_Play.ani" />
+		<soundbank name="SFX.bnk" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/Sound/SFX.bnk" memory="host" />
+		<repertoire name="Repertoire_female_HB" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/animation/Repertoire_female_HB.xml" />
+		<repertoire name="Repertoire_male_HB" deferred_loading="false" protected="false" file="Actives/Hot_and_Bothered/animation/Repertoire_male_HB.xml" />
+		<emotes name="Emote_female_HB" deferred_loading="true" protected="false" file="Actives/Hot_and_Bothered/animation/Emote_female_HB.xml" />
+		<emotes name="Emote_male_HB" deferred_loading="true" protected="false" file="Actives/Hot_and_Bothered/animation/Emote_male_HB.xml" />
+		<lua name="Active.lua" deferred_loading="false" protected="true" file="Actives/Hot_and_Bothered/lua/Active.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="Actives/Hot_and_Bothered/lua/Network.lua" />
+		<lua name="OSD.lua" deferred_loading="false" protected="true" file="Actives/Hot_and_Bothered/lua/OSD.lua" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="Actives/Hot_and_Bothered/lua/Pad.lua" />
+		<lua name="SaveData.lua" deferred_loading="false" protected="true" file="Actives/Hot_and_Bothered/lua/SaveData.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="Actives/Hot_and_Bothered/lua/Settings.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="Actives/Hot_and_Bothered/lua/Audio.lua" />
+	</local>
+	<external />
+</resources>

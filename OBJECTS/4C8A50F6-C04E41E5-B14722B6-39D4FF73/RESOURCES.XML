@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ContestMinigame/lua/ContestRules/MiniGame.lua" />
+		<lua name="OSD.lua" deferred_loading="false" protected="true" file="MiniGames/ContestMinigame/lua/ContestRules/OSD.lua" />
+		<texture name="OSD_Rules_c.dds" deferred_loading="false" protected="false" file="MiniGames/ContestMinigame/Textures/OSD_Rules_c.dds" />
+		<lua name="Screen.lua" deferred_loading="false" protected="true" file="MiniGames/ContestMinigame/lua/ContestRules/Screen.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/ContestMinigame/lua/ContestRules/Settings.lua" />
+		<lua name="ContestCommon.lua" deferred_loading="false" protected="true" file="MiniGames/ContestMinigame/lua/ContestRules/ContestCommon.lua" />
+</local>
+<external />
+</resources>

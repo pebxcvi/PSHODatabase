@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="MiniGames/CAS_Minigun/model/ActiveModel.mdl" />
+		<model name="CAS_Minigun_Barrel.mdl" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Barrel.mdl" />
+		<model name="CAS_Minigun_Base.mdl" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Base.mdl" />
+		<model name="CAS_Minigun_Controls.mdl" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Controls.mdl" />
+		<model name="CAS_Minigun_MuzzleFlash.mdl" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_MuzzleFlash.mdl" />
+		<model name="CAS_Minigun_Pivot.mdl" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Pivot.mdl" />
+		<model name="CAS_Bullet.mdl" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Bullet.mdl" />
+		<model name="CAS_Minigun_Bulletshell.mdl" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Bulletshell.mdl" />
+		<texture name="cas_active_minigun_c.dds" deferred_loading="false" protected="false" file="furniture/cas_minigun/cas_active_minigun_c.dds" />
+		<texture name="cas_active_minigun_n.dds" deferred_loading="false" protected="false" file="furniture/cas_minigun/cas_active_minigun_n.dds" />
+		<texture name="cas_active_minigun_s.dds" deferred_loading="false" protected="false" file="furniture/cas_minigun/cas_active_minigun_s.dds" />
+		<texture name="muzzle_flash_01a.dds" deferred_loading="false" protected="false" file="furniture/cas_minigun/muzzle_flash_01a.dds" />
+		<particle name="Bullet_Impact.efx" deferred_loading="false" protected="false" file="MiniGames/CAS_Minigun/effects/Bullet_Impact.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/CAS_Minigun/file/Network.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Base.hkx" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Base.safevolume.hkx" />
+		<collision name="CAS_Minigun_Base.hkx" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Base.hkx" />
+		<collision name="CAS_Minigun_Bulletshell.hkx" deferred_loading="false" protected="false" file="furniture/cas_minigun/CAS_Minigun_Bulletshell.hkx" />
+		<soundbank name="gunfire.bnk" deferred_loading="false" protected="false" file="MiniGames/CAS_Minigun/audio/gunfire.bnk" />
+		<soundstream name="minigun_spinup.mp3" deferred_loading="false" protected="false" file="MiniGames/CAS_Minigun/audio/minigun_spinup.mp3" />
+		<soundstream name="minigun_spindown.mp3" deferred_loading="false" protected="false" file="MiniGames/CAS_Minigun/audio/minigun_spindown.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/MiniGame.lua" />
+		<lua name="Turret.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/Turret.lua" />
+		<lua name="MiniGame_Pad.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/MiniGame_Pad.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/Camera.lua" />
+		<lua name="Projectile.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/Projectile.lua" />
+		<lua name="Effects.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/Effects.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/Audio.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/CAS_Minigun/lua/Misc.lua" />
+	</local>
+	<external />
+</resources>

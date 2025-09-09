@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="bt_bg.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/bt_bg.dds" />
+		<texture name="bt_selected.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/bt_selected.dds" />
+		<texture name="bt_selected_stroke.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/bt_selected_stroke.dds" />
+		<texture name="bt_unselected.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/bt_unselected.dds" />
+		<texture name="commerce_ic.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/commerce_ic.dds" />
+		<texture name="commerce_ic_hl.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/commerce_ic_hl.dds" />
+		<texture name="scroller.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/scroller.dds" />
+		<texture name="scroller_bg.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/scroller_bg.dds" />
+		<texture name="space_ic.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/space_ic.dds" />
+		<texture name="space_ic_hl.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/space_ic_hl.dds" />
+		<texture name="text_divider.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/text_divider.dds" />
+		<texture name="trailer_ic.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/trailer_ic.dds" />
+		<texture name="trailer_ic_hl.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/trailer_ic_hl.dds" />
+		<texture name="video_bg.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/video_bg.dds" />
+		<texture name="images_ic.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/images_ic.dds" />
+		<texture name="images_ic_hl.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/images_ic_hl.dds" />
+		<texture name="weblink_ic.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/weblink_ic.dds" />
+		<texture name="weblink_ic_hl.dds" deferred_loading="false" protected="false" file="Apps/PromoApp/textures/weblink_ic_hl.dds" />
+		<texture name="bg_default.dds" deferred_loading="true" protected="false" file="Apps/PromoApp/textures/bg_default.dds" />
+		<texture name="spinning_graphic.dds" deferred_loading="true" protected="false" file="generic_shared_textures/spinning_graphic.dds" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Apps/PromoApp/lua/main.lua" />
+		<lua name="Stats.lua" deferred_loading="false" protected="true" file="libs/System/Stats.lua" />
+		<lua name="slideshow.lua" deferred_loading="false" protected="true" file="Apps/PromoApp/lua/slideshow.lua" />
+		<lua name="video.lua" deferred_loading="false" protected="true" file="Apps/PromoApp/lua/video.lua" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="libs/Utils/PostScore.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Ball" file="minigames/Golf/Models/golfball.mdl" />
+		<model name="Cup" file="minigames/Golf/Models/golfCup.mdl" />
+		<collision name="BallCollision" file="minigames/Golf/Models/BasketballModel.hkx" deferred_loading="false" />
+		<model name="Pin" file="minigames/Golf/Models/golfPin.mdl" />
+		<collision name="PinCollision" file="minigames/Golf/Models/golfPin.hkx" deferred_loading="false" />
+		<model name="Tee" file="minigames/Golf/Models/golfTee.mdl" />
+		<collision name="TeeCollision" file="minigames/Golf/Models/golfTee.hkx" deferred_loading="false" />
+		<model name="Mat" file="minigames/Golf/Models/golfPad.mdl" />
+		<model name="Driver" file="minigames/Golf/Models/Driver.mdl" />
+		<model name="Wedge" file="minigames/Golf/Models/Wedge.mdl" />
+		<model name="Putter" file="minigames/Golf/Models/Putter.mdl" />
+		<model name="SignModel"		file="minigames/framework/models/flatPanel.mdl" />
+		<model name="FightNightSign" file="minigames/framework/models/clubFNdoors.mdl" />
+		<model name="RetailSignage" file="minigames/framework/models/windowDisplays.mdl" />
+		
+		<file name="GameScript" file="minigames/framework/LUA/Obfuscated/Game.lua" deferred_loading="false" />
+		<file name="Network_xml" file="minigames/Golf/XML/Network.xml" deferred_loading="false" />
+		<file name="OSDRootType" file="MiniGames/Golf/OSD/GolfOSDRootTypes.xml" deferred_loading="false" />
+		<file name="OSDImage" file="minigames/framework/OSD/OSDImage.xml" />
+		<file name="OSDTextRight" file="minigames/framework/OSD/OSDTextRight.xml" />
+		<file name="OSDTextLeft" file="minigames/framework/OSD/OSDTextLeft.xml" />
+		<file name="OSDTextCenter" file="minigames/framework/OSD/OSDTextCenter.xml" />
+		<file name="OSDTextPanel" file="minigames/framework/OSD/OSDTextPanel.xml" />
+		<file name="Camera" file="minigames/framework/LUA/Obfuscated/Camera.lua" deferred_loading="false" />
+		<file name="SecurityManager" file="minigames/framework/LUA/Obfuscated/SecurityManager.lua" deferred_loading="false" />
+		<file name="Utilities" file="minigames/framework/LUA/Obfuscated/Utilities.lua" deferred_loading="false" />
+		<file name="EventManager" file="minigames/framework/LUA/Obfuscated/EventManager.lua" deferred_loading="false" />
+		<file name="MessageManager" file="minigames/framework/LUA/Obfuscated/MessageManager.lua" deferred_loading="false" />
+		<file name="LOL" file="minigames/framework/LUA/Obfuscated/LOL.lua" deferred_loading="false" />
+		<file name="TimerClass" file="minigames/framework/LUA/Obfuscated/TimerClass.lua" deferred_loading="false" />
+		<file name="CountdownTimerClass" file="minigames/framework/LUA/Obfuscated/CountdownTimerClass.lua" deferred_loading="false" />
+		<file name="ProcessManager" file="minigames/framework/LUA/Obfuscated/ProcessManager.lua" deferred_loading="false" />
+		<file name="InputManager" file="minigames/framework/LUA/Obfuscated/InputManager.lua" deferred_loading="false" />
+		<file name="Matrix" file="minigames/framework/LUA/Obfuscated/Matrix.lua" deferred_loading="false" />
+		<file name="OSD" file="minigames/framework/LUA/Obfuscated/OSD.lua" deferred_loading="false" />
+		<file name="ScreenManager" file="minigames/framework/LUA/Obfuscated/ScreenManager.lua" deferred_loading="false" />
+		<file name="FirstPersonCamera" file="minigames/framework/LUA/Obfuscated/FirstPersonCamera.lua" deferred_loading="false" />
+		<file name="StateJoin" file="minigames/Golf/GolfStates/Obfuscated/StateJoin.lua" deferred_loading="false" />
+		<file name="StateWelcome" file="minigames/Golf/GolfStates/Obfuscated/StateWelcome.lua" deferred_loading="false" />
+		<file name="StateDrive" file="minigames/Golf/GolfStates/Obfuscated/StateDrive.lua" deferred_loading="false" />
+		
+		<file name="MiniGame" file="minigames/Golf/LUA/Obfuscated/Golf.lua" deferred_loading="false" />
+		<file name="GolfCamera" file="minigames/Golf/LUA/Obfuscated/GolfCamera.lua" deferred_loading="false" />
+		<file name="GolfBall" file="minigames/Golf/LUA/Obfuscated/GolfBall.lua" deferred_loading="false" />
+		<file name="GolfStates" file="minigames/Golf/GolfStates/Obfuscated/GolfStates.lua" deferred_loading="false" />
+		
+		<soundbank name="GolfSounds" file="MiniGames/Golf/Sounds/GolfSounds.bnk" />
+		
+		<particle name="AimArrowEffect" file="minigames/Golf/Effects/aim_arrow_y2.efx" deferred_loading="false" />
+		<particle name="BallEffect" file="minigames/Golf/Effects/aim_arrow_y2.efx" deferred_loading="false" />
+		<particle name="RoughEffect" file="minigames/Golf/Effects/rough_swing.efx" deferred_loading="false" />
+		<particle name="SandEffect" file="minigames/Golf/Effects/sand_swing.efx" deferred_loading="false" />
+		<particle name="FairwayEffect" file="minigames/Golf/Effects/fairway_swing.efx" deferred_loading="false" />
+		<particle name="WaterEffect" file="minigames/Golf/Effects/golf_splash_ripple.efx" deferred_loading="false" />
+		<particle name="TargetEffect" file="minigames/Golf/Effects/target_C1.efx" deferred_loading="false" />
+		<texture name="Control" file="minigames/Golf/OSD/Textures/control.dds" deferred_loading="false" />
+		<texture name="SwingDial" file="minigames/Golf/OSD/Textures/Swing_Dial.dds" deferred_loading="false" />
+		<texture name="SwingPointer" file="minigames/Golf/OSD/Textures/Swing_Pointer.dds" deferred_loading="false" />
+		<texture name="SwingGlass" file="minigames/Golf/OSD/Textures/Swing_Glass.dds" deferred_loading="false" />
+		<texture name="Logo" file="minigames/Golf/OSD/Textures/EA_Golf_Logo.dds" deferred_loading="false" />
+		<texture name="LargeBlock" file="minigames/Golf/OSD/Textures/Large_Block.dds" deferred_loading="false" />
+		<texture name="MediumBlock" file="minigames/Golf/OSD/Textures/Medium_Block.dds" deferred_loading="false" />
+		<texture name="SmallBlock" file="minigames/Golf/OSD/Textures/Small_Block.dds" deferred_loading="false" />
+		
+		<texture name="Boat" file="minigames/Golf/OSD/Textures/boat_m.dds" deferred_loading="false" />
+		<texture name="Fairway" file="minigames/Golf/OSD/Textures/fairway_m.dds" deferred_loading="false" />
+		<texture name="Water" file="minigames/Golf/OSD/Textures/water_m.dds" deferred_loading="false" />
+		<texture name="Fringe" file="minigames/Golf/OSD/Textures/fringe_m.dds" deferred_loading="false" />
+		<texture name="Green" file="minigames/Golf/OSD/Textures/green_m.dds" deferred_loading="false" />
+		<texture name="Sand" file="minigames/Golf/OSD/Textures/sand_m.dds" deferred_loading="false" />
+		<texture name="Rough" file="minigames/Golf/OSD/Textures/rough_m.dds" deferred_loading="false" />
+		
+		<xml name="GameOSD" file="minigames/Golf/XML/gameOSD.xml" deferred_loading="false" />
+		<xml name="GameData" file="minigames/Golf/XML/gameData.xml" deferred_loading="false" />
+
+	</local>
+	<external />
+</resources>

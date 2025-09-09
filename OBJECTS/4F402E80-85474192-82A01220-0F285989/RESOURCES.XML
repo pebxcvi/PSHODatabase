@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="coin_thumbnail_00.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/item_thumbnails/coin_thumbnail_00.dds" memory="main" />
+		<texture name="coin_thumbnail_01.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/item_thumbnails/coin_thumbnail_01.dds" memory="main" />
+		<texture name="CommonUI_window_01.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_01.dds" memory="main" />
+		<texture name="CommonUI_window_02.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_02.dds" memory="main" />
+		<texture name="CommonUI_window_03.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_03.dds" memory="main" />
+		<texture name="CommonUI_window_04.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_04.dds" memory="main" />
+		<texture name="CommonUI_window_05.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_05.dds" memory="main" />
+		<texture name="CommonUI_window_06.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_06.dds" memory="main" />
+		<texture name="CommonUI_window_07.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_07.dds" memory="main" />
+		<texture name="CommonUI_window_08.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_08.dds" memory="main" />
+		<texture name="CommonUI_window_09.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_09.dds" memory="main" />
+		<lua name="UtilWindow.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilWindow.lua" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="home_gzcmn/NewyearReward/2014/MiniGame.lua" memory="host" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/AsyncCommandJobManager.lua" memory="host" />
+		<lua name="UtilInventory.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilInventory.lua" memory="host" />
+		<lua name="TimeUtil.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/TimeUtil.lua" memory="host" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" memory="host" />
+		<lua name="DataLagoon.lua" deferred_loading="false" protected="true" memory="host">
+			<override file="home_gzcmn/newyearreward/2014/datalagoon_ja-jp.lua" locale="ja-*" />
+			<override file="home_gzcmn/newyearreward/2014/datalagoon_de-de.lua" locale="de-*" />
+			<override file="home_gzcmn/newyearreward/2014/datalagoon_en-gb.lua" locale="en-GB" />
+			<override file="home_gzcmn/newyearreward/2014/datalagoon_es-es.lua" locale="es-*" />
+			<override file="home_gzcmn/newyearreward/2014/datalagoon_fr-fr.lua" locale="fr-*" />
+			<override file="home_gzcmn/newyearreward/2014/datalagoon_it-it.lua" locale="it-*" />
+			<override file="home_gzcmn/NewyearReward/2014/DataLagoon.lua" />
+		</lua>
+		<lua name="DataEdo.lua" deferred_loading="false" protected="true" memory="host">
+			<override file="home_gzcmn/newyearreward/2014/dataedo_de-de.lua" locale="de-*" />
+			<override file="home_gzcmn/newyearreward/2014/dataedo_en-gb.lua" locale="en-GB" />
+			<override file="home_gzcmn/newyearreward/2014/dataedo_es-es.lua" locale="es-*" />
+			<override file="home_gzcmn/newyearreward/2014/dataedo_fr-fr.lua" locale="fr-*" />
+			<override file="home_gzcmn/newyearreward/2014/dataedo_it-it.lua" locale="it-*" />
+			<override file="home_gzcmn/newyearreward/2014/dataedo_ja-jp.lua" locale="ja-*" />
+			<override file="home_gzcmn/newyearreward/2014/dataedo.lua" />
+		</lua>
+		<lua name="DataOsd.lua" deferred_loading="false" protected="true" file="home_gzcmn/NewyearReward/2014/DataOsd.lua" memory="host" />
+		<lua name="CommonMessageWindow.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/CommonMessageWindow.lua" memory="host" />
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="Lounge_Base/GetRegionUUID_2013xmas.lua" memory="host" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilGarbage.lua" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companion/stalkerbot_01.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companion/stalkerbot_01.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/aeroV2/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/snarf/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="companion/stalkerbot_idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="companion/stalkerbot_walk.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="companion/stalkerbot_run.ani" memory="host" />
+		<anim name="ani.idle1" deferred_loading="true" protected="false" file="companion/stalkerbot_idle1.ani" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="companion/stalkerbot_idle2.ani" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companion/stalkerbot_01.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/snarf/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

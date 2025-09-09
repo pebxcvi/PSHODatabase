@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+		<local>
+			<texture name="0_1" file="MiniGames/SEGA_VT_Invaders/Textures/0_1.dds" />
+		<texture name="1_1" file="MiniGames/SEGA_VT_Invaders/Textures/1_1.dds" />
+		<texture name="2_1" file="MiniGames/SEGA_VT_Invaders/Textures/2_1.dds" />
+		<texture name="3_1" file="MiniGames/SEGA_VT_Invaders/Textures/3_1.dds" />
+		<texture name="4_1" file="MiniGames/SEGA_VT_Invaders/Textures/4_1.dds" />
+		<texture name="5_1" file="MiniGames/SEGA_VT_Invaders/Textures/5_1.dds" />
+		<texture name="6_1" file="MiniGames/SEGA_VT_Invaders/Textures/6_1.dds" />
+		<texture name="7_1" file="MiniGames/SEGA_VT_Invaders/Textures/7_1.dds" />
+		<texture name="8_1" file="MiniGames/SEGA_VT_Invaders/Textures/8_1.dds" />
+		<texture name="9_1" file="MiniGames/SEGA_VT_Invaders/Textures/9_1.dds" />
+		<texture name="BlackLines_Vertical" file="MiniGames/SEGA_VT_Invaders/Textures/BlackLines_Vertical.dds" />
+		<texture name="CourtInvaders_Title" file="MiniGames/SEGA_VT_Invaders/Textures/CourtInvaders_Title.dds" />
+		<texture name="CourtInvaders_Title_Below" file="MiniGames/SEGA_VT_Invaders/Textures/CourtInvaders_Title_Below.dds" />
+		<texture name="GrayBar" file="MiniGames/SEGA_VT_Invaders/Textures/GrayBar.dds" />
+		<texture name="HUD_BoxScoreLives" file="MiniGames/SEGA_VT_Invaders/Textures/HUD_BoxScoreLives.dds" />
+		<texture name="HUD_BoxWave" file="MiniGames/SEGA_VT_Invaders/Textures/HUD_BoxWave.dds" />
+		<texture name="Pickup_Double" file="MiniGames/SEGA_VT_Invaders/Textures/Pickup_Double.dds" />
+		<texture name="Pickup_Missile" file="MiniGames/SEGA_VT_Invaders/Textures/Pickup_Missile.dds" />
+		<texture name="Pickup_Shield" file="MiniGames/SEGA_VT_Invaders/Textures/Pickup_Shield.dds" />
+		<texture name="Pickup_Triple" file="MiniGames/SEGA_VT_Invaders/Textures/Pickup_Triple.dds" />
+		<texture name="PlayerLife" file="MiniGames/SEGA_VT_Invaders/Textures/PlayerLife.dds" />
+		<texture name="Rounded_Square" file="MiniGames/SEGA_VT_Invaders/Textures/Rounded_Square.dds" />
+		<texture name="SEGAVT_DisplayTextBackground" file="MiniGames/SEGA_VT_Invaders/Textures/SEGAVT_DisplayTextBackground.dds" />
+		<texture name="SEGAVT_Empty" file="MiniGames/SEGA_VT_Invaders/Textures/SEGAVT_Empty.dds" />
+		<texture name="SEGAVT_Life" file="MiniGames/SEGA_VT_Invaders/Textures/SEGAVT_Life.dds" />
+		<texture name="SpaceCraftIcon" file="MiniGames/SEGA_VT_Invaders/Textures/SpaceCraftIcon.dds" />
+		<texture name="Transparent_Background" file="MiniGames/SEGA_VT_Invaders/Textures/Transparent_Background.dds" />
+		<texture name="alienType1Icon" file="MiniGames/SEGA_VT_Invaders/Textures/alienType1Icon.dds" />
+		<texture name="alienType2Icon" file="MiniGames/SEGA_VT_Invaders/Textures/alienType2Icon.dds" />
+		<texture name="alienType3Icon" file="MiniGames/SEGA_VT_Invaders/Textures/alienType3Icon.dds" />
+		<texture name="empty" file="MiniGames/SEGA_VT_Invaders/Textures/empty.dds" />
+		<texture name="unknown" file="MiniGames/SEGA_VT_Invaders/Textures/unknown.dds" />
+			<lua name="Alien" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Alien.lua" />
+		<lua name="Barrel" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Barrel.lua" />
+		<lua name="BarrelManager" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/BarrelManager.lua" />
+		<lua name="BehaviourWobble" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/BehaviourWobble.lua" />
+		<lua name="Boss" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Boss.lua" />
+		<lua name="Bullet" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Bullet.lua" />
+		<lua name="BulletManager" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/BulletManager.lua" />
+		<lua name="Camera" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Camera.lua" />
+		<lua name="Collision" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Collision.lua" />
+		<lua name="CollisionRect" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/CollisionRect.lua" />
+		<lua name="Constants" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Constants.lua" />
+		<lua name="DisplayableAnimation" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/DisplayableAnimation.lua" />
+		<lua name="DisplayableImage" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/DisplayableImage.lua" />
+		<lua name="DisplayableText" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/DisplayableText.lua" />
+		<lua name="DisplayableTextWithImage" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/DisplayableTextWithImage.lua" />
+		<lua name="Dupe3D" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Dupe3D.lua" />
+		<lua name="Easter" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Easter.lua" />
+		<lua name="Event" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Event.lua" />
+		<lua name="EventChooser" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/EventChooser.lua" />
+		<lua name="EventManager" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/EventManager.lua" />
+		<lua name="Explosion" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Explosion.lua" />
+		<lua name="Game" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Game.lua" />
+		<lua name="GameDemo" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/GameDemo.lua" />
+		<lua name="GameLevels" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/GameLevels.lua" />
+		<lua name="History" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/History.lua" />
+		<lua name="Hud" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Hud.lua" />
+		<lua name="Interpolate" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Interpolate.lua" />
+		<lua name="KDampedOscillator" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/KDampedOscillator.lua" />
+		<lua name="Ktimer" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Ktimer.lua" />
+		<lua name="LoadLibs" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/LoadLibs.lua" />
+		<lua name="Locale" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Locale.lua" />
+		<lua name="Logger" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Logger.lua" />
+		<lua name="MaxToHome" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/MaxToHome.lua" />
+		<lua name="Message" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Message.lua" />
+		<lua name="MessageManager" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/MessageManager.lua" />
+		<lua name="Particle" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Particle.lua" />
+		<lua name="ParticleManager" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/ParticleManager.lua" />
+		<lua name="Pickup" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Pickup.lua" />
+		<lua name="PickupManager" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/PickupManager.lua" />
+		<lua name="Player" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Player.lua" />
+		<lua name="PlayerAI" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/PlayerAI.lua" />
+		<lua name="Random" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Random.lua" />
+		<lua name="RenderHelper" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/RenderHelper.lua" />
+		<lua name="RenderHelperDummy" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/RenderHelperDummy.lua" />
+		<lua name="ResponseCurve" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/ResponseCurve.lua" />
+		<lua name="RewardHandler" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/RewardHandler.lua" />
+		<lua name="ScoreManager" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/ScoreManager.lua" />
+		<lua name="SegaVTMiniGame" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/SegaVTMiniGame.lua" />
+		<lua name="SegaVTSoundPlayer" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/SegaVTSoundPlayer.lua" />
+		<lua name="SingleShotEvent" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/SingleShotEvent.lua" />
+		<lua name="SoundFadeEvent" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/SoundFadeEvent.lua" />
+		<lua name="SoundPlayer" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/SoundPlayer.lua" />
+		<lua name="SpaceCraft" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/SpaceCraft.lua" />
+		<lua name="Spring" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Spring.lua" />
+		<lua name="SpringBox" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/SpringBox.lua" />
+		<lua name="StateMachine" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/StateMachine.lua" />
+		<lua name="Teacher" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Teacher.lua" />
+		<lua name="TeaserGame" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/TeaserGame.lua" />
+		<lua name="Temp" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Temp.lua" />
+		<lua name="TextureAnim" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/TextureAnim.lua" />
+		<lua name="TextureAnimDummy" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/TextureAnimDummy.lua" />
+		<lua name="Utils" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Utils.lua" />
+		<lua name="VMScoreRequest" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/VMScoreRequest.lua" />
+		<lua name="Vector2" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/Vector2.lua" />
+		<lua name="WorldClock" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/WorldClock.lua" />
+		<lua name="main" protected="true" file="MiniGames/SEGA_VT_Invaders/Scripts/main.lua" />
+			<soundbank name="SegaVTArcadeDemo" file="MiniGames/SEGA_VT_Invaders/Sounds/SegaVTArcadeDemo.bnk" />
+			<soundstream name="ingamemusicdemo" file="MiniGames/SEGA_VT_Invaders/Sounds/ingamemusicdemo.mp3" />
+		<soundstream name="menubackgrounddemo" file="MiniGames/SEGA_VT_Invaders/Sounds/menubackgrounddemo.mp3" />
+			<file name="Network" file="MiniGames/SEGA_VT_Invaders/XML/Network.xml" />
+    		<file name ="Network.xml" file="MiniGames/SEGA_VT_Invaders/XML/Network.xml" deferred_loading="false" protected="false"/>
+    
+    		<model name="SEGAVT_Alien01.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien01.mdl" />
+		<model name="SEGAVT_Alien02.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien02.mdl" />
+		<model name="SEGAVT_Alien03.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien03.mdl" />
+		<model name="SEGAVT_Ball.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Ball.mdl" />
+		<model name="SEGAVT_BallShooter.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_BallShooter.mdl" />
+		<model name="SEGAVT_Barrel.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Barrel.mdl" />
+		<model name="SEGAVT_Laser.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Laser.mdl" />
+		<model name="SEGAVT_MinigameTrigger.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_MinigameTrigger.mdl" />
+		<model name="SEGAVT_Pickup01.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup01.mdl" />
+		<model name="SEGAVT_Pickup02.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup02.mdl" />
+		<model name="SEGAVT_Pickup03.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup03.mdl" />
+		<model name="SEGAVT_Pickup04.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup04.mdl" />
+		<model name="SEGAVT_PlayerShield.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_PlayerShield.mdl" />
+		<model name="SEGAVT_Spaceship.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Spaceship.mdl" />
+		<model name="SEGAVT_SuperBall.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_SuperBall.mdl" />
+		<model name="SEGAVT_TennisCourt.mdl" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_TennisCourt.mdl" />
+    		<collision name="segavt_ball.hkx" file="MiniGames/SEGA_VT_Invaders/Models/segavt_ball.hkx" />
+		<collision name="segavt_barrel.hkx" file="MiniGames/SEGA_VT_Invaders/Models/segavt_barrel.hkx" />
+		<collision name="segavt_laser.hkx" file="MiniGames/SEGA_VT_Invaders/Models/segavt_laser.hkx" />
+		<collision name="segavt_spaceship.hkx" file="MiniGames/SEGA_VT_Invaders/Models/segavt_spaceship.hkx" />
+		<collision name="segavt_superball.hkx" file="MiniGames/SEGA_VT_Invaders/Models/segavt_superball.hkx" />
+		<collision name="segavt_tenniscourt.hkx" file="MiniGames/SEGA_VT_Invaders/Models/segavt_tenniscourt.hkx" />
+    		<anim name="SEGAVT_Alien01.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien01.ani" />
+		<anim name="SEGAVT_Alien02.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien02.ani" />
+		<anim name="SEGAVT_Alien03.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien03.ani" />
+		<anim name="SEGAVT_BallShooter.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_BallShooter.ani" />
+		<anim name="SEGAVT_MinigameTrigger.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_MinigameTrigger.ani" />
+		<anim name="SEGAVT_Pickup01.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup01.ani" />
+		<anim name="SEGAVT_Pickup02.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup02.ani" />
+		<anim name="SEGAVT_Pickup03.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup03.ani" />
+		<anim name="SEGAVT_Pickup04.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup04.ani" />
+		<anim name="SEGAVT_PlayerShield.ani" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_PlayerShield.ani" />
+    		<skeleton name="SEGAVT_Alien01.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien01.skn" />
+		<skeleton name="SEGAVT_Alien02.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien02.skn" />
+		<skeleton name="SEGAVT_Alien03.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Alien03.skn" />
+		<skeleton name="SEGAVT_BallShooter.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_BallShooter.skn" />
+		<skeleton name="SEGAVT_MinigameTrigger.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_MinigameTrigger.skn" />
+		<skeleton name="SEGAVT_Pickup01.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup01.skn" />
+		<skeleton name="SEGAVT_Pickup02.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup02.skn" />
+		<skeleton name="SEGAVT_Pickup03.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup03.skn" />
+		<skeleton name="SEGAVT_Pickup04.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_Pickup04.skn" />
+		<skeleton name="SEGAVT_PlayerShield.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_PlayerShield.skn" />
+		<skeleton name="SEGAVT_SuperBall.skn" file="MiniGames/SEGA_VT_Invaders/Models/SEGAVT_SuperBall.skn" />
+    		<particle name="BUTTERFLY.efx" deferred_loading="false" protected="false" file="MiniGames/SEGA_VT_Invaders/particles/efx/BUTTERFLY.efx" />
+		<particle name="alien.efx" deferred_loading="false" protected="false" file="MiniGames/SEGA_VT_Invaders/particles/efx/alien.efx" />
+		<particle name="ballboy.efx" deferred_loading="false" protected="false" file="MiniGames/SEGA_VT_Invaders/particles/efx/ballboy.efx" />
+		<particle name="barrel.efx" deferred_loading="false" protected="false" file="MiniGames/SEGA_VT_Invaders/particles/efx/barrel.efx" />
+		<particle name="player.efx" deferred_loading="false" protected="false" file="MiniGames/SEGA_VT_Invaders/particles/efx/player.efx" />
+		<particle name="playerbullet.efx" deferred_loading="false" protected="false" file="MiniGames/SEGA_VT_Invaders/particles/efx/playerbullet.efx" />
+		<particle name="supershot.efx" deferred_loading="false" protected="false" file="MiniGames/SEGA_VT_Invaders/particles/efx/supershot.efx" />
+		</local>
+	</resources>
+		

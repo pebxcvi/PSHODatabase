@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="balloon_model2.mdl" deferred_loading="true" protected="false" file="nonavataranim/lmo_balloon_model/lmo_balloon_model2.mdl" memory="host" />
+		<model name="balloon_model.mdl" deferred_loading="true" protected="false" file="nonavataranim/lmo_balloon_model/lmo_balloon_model.mdl" memory="host" />
+		<particle name="snowflake_idle.efx" deferred_loading="true" protected="false" file="Locomotion/LMO_balloon_F/particle/snowflake_idle.efx" />
+		<particle name="snowflake.efx" deferred_loading="true" protected="false" file="Locomotion/LMO_balloon_F/particle/snowflake.efx" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LMO_balloon_F/file/female_config.xml" memory="main" />
+		<anim name="balloon_00_scale0.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_00_scale0.ani" memory="host" />
+		<anim name="balloon_01_scale0.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_01_scale0.ani" memory="host" />
+		<anim name="balloon_male_01_idle_bln.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_01_idle_bln.ani" memory="host" />
+		<anim name="balloon_male_01_adv_bln.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_01_adv_bln.ani" memory="host" />
+		<anim name="balloon_male_00_adv_bln.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_00_adv_bln.ani" memory="host" />
+		<anim name="balloon_male_00_idle_bln.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_00_idle_bln.ani" memory="host" />
+		<anim name="balloon_female_01_idle.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_01_idle.ani" memory="host" />
+		<anim name="balloon_female_00_adv.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_00_adv.ani" memory="host" />
+		<anim name="balloon_female_01_adv.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_01_adv.ani" memory="host" />
+		<anim name="balloon_female_00_idle.ani" deferred_loading="true" protected="false" file="animation/male/balloon_male/balloon_female_00_idle.ani" memory="host" />
+		<skeleton name="balloon_model2.skn" deferred_loading="true" protected="false" file="nonavataranim/lmo_balloon_model/lmo_balloon_model2.skn" memory="host" />
+		<skeleton name="balloon_model.skn" deferred_loading="true" protected="false" file="nonavataranim/lmo_balloon_model/lmo_balloon_model.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/LMO_balloon_F/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/LMO_balloon_F/repertoire/male.xml" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_balloon_F/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_balloon_F/emotes/male_emotes.xml" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/JetPack/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
