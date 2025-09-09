@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/cutt_demonic_ottoman/CUTT_Demonic_Ottoman_01.mdl" memory="host" />
+		<model name="COOK_Toaster_RIG.mdl" deferred_loading="false" protected="false" file="furniture/cook_toaster/COOK_Toaster_Green_RIG.mdl" memory="host" />
+		<particle name="BBQ_Smoke.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/COOK/BBQ_Smoke.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/cook_toaster/Lua/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/cook_toaster/COOK_Toaster.hkx" memory="host" />
+		<anim name="COOK_Toaster_Empty.ani" deferred_loading="false" protected="false" file="furniture/cook_toaster/COOK_Toaster_Empty.ani" memory="host" />
+		<anim name="COOK_Toaster_LoadToast.ani" deferred_loading="false" protected="false" file="furniture/cook_toaster/COOK_Toaster_LoadToast.ani" memory="host" />
+		<anim name="COOK_Toaster_ToastFinish.ani" deferred_loading="false" protected="false" file="furniture/cook_toaster/COOK_Toaster_ToastFinish.ani" memory="host" />
+		<skeleton name="COOK_Toaster_RIG.skn" deferred_loading="false" protected="false" file="furniture/cook_toaster/COOK_Toaster_RIG.skn" memory="host" />
+		<soundstream name="click.mp3" deferred_loading="false" protected="false" file="furniture/cook_toaster/toast_start.mp3" memory="host" />
+		<soundstream name="ping.mp3" deferred_loading="false" protected="false" file="furniture/cook_toaster/toast_done.mp3" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/cook_toaster/Lua/Main.luac" memory="host" />
+		<lua name="NetworkManager.lua" deferred_loading="false" protected="true" file="furniture/cook_toaster/Lua/NetworkManager.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/cook_toaster/Lua/Pad.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/cook_toaster/Lua/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

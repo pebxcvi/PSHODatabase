@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="RookW" deferred_loading="false" file="MiniGames/LuaChess/Models/RookW.mdl" />
+    <model name="RookB" deferred_loading="false" file="MiniGames/LuaChess/Models/RookB.mdl" />
+    <model name="BishopB" deferred_loading="false" file="MiniGames/LuaChess/Models/BishopB.mdl" />
+    <model name="BishopW" deferred_loading="false" file="MiniGames/LuaChess/Models/BishopW.mdl" />
+    <model name="KingB" deferred_loading="false" file="MiniGames/LuaChess/Models/KingB.mdl" />
+    <model name="KingW" deferred_loading="false" file="MiniGames/LuaChess/Models/KingW.mdl" />
+    <model name="KnightB" deferred_loading="false" file="MiniGames/LuaChess/Models/KnightB.mdl" />
+    <model name="KnightW" deferred_loading="false" file="MiniGames/LuaChess/Models/KnightW.mdl" />
+    <model name="PawnB" deferred_loading="false" file="MiniGames/LuaChess/Models/PawnB.mdl" />
+    <model name="PawnW" deferred_loading="false" file="MiniGames/LuaChess/Models/PawnW.mdl" />
+    <model name="QueenB" deferred_loading="false" file="MiniGames/LuaChess/Models/QueenB.mdl" />
+    <model name="QueenW" deferred_loading="false" file="MiniGames/LuaChess/Models/QueenW.mdl" />
+    <model name="Black Piece Select" deferred_loading="false" file="MiniGames/LuaChess/Models/WhitePieceSelect.mdl" />
+    <model name="White Cursor" deferred_loading="false" file="MiniGames/LuaChess/Models/draughts_white_select.mdl" />
+    <model name="Black Move Cursor" deferred_loading="false" file="MiniGames/LuaChess/Models/BlackMoveCursor.mdl" />
+    <model name="White Move Cursor" deferred_loading="false" file="MiniGames/LuaChess/Models/WhiteMoveCursor.mdl" />
+    <model name="White Piece Select" deferred_loading="false" file="MiniGames/LuaChess/Models/BlackPieceSelect.mdl" />
+    <model name="Black Cursor" deferred_loading="false" file="MiniGames/LuaChess/Models/draughts_black_select.mdl" />
+    <model name="WhiteKingHighlight" deferred_loading="false" file="MiniGames/LuaChess/Models/king_select.mdl" />
+    <model name="BlackKingHighlight" deferred_loading="false" file="MiniGames/LuaChess/Models/king_select.mdl" />
+    <model name="board_new.mdl" deferred_loading="false" protected="false" file="MiniGames/LuaChess/Models/board_new.mdl" />
+    <texture name="PlayIcon" deferred_loading="false" file="MiniGames/LuaChess/OSD/PlayIcon.dds" />
+    <texture name="PlayIconb" deferred_loading="false" file="MiniGames/LuaChess/OSD/PlayIconb.dds" />
+    <texture name="PlayIconblank" deferred_loading="false" file="MiniGames/LuaChess/OSD/PlayIconblank.dds" />
+    <file name="wintext" deferred_loading="false" file="MiniGames/LuaChess/OSD/wintext.xml" />
+    <xml name="osd_textbox" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/textbox.xml" />
+    <xml name="osd_types" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/types.xml" />
+    <xml name="osd_gameinfo" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/gameinfo.xml" />
+    <xml name="osd_namebar" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/namebar.xml" />
+    <xml name="osd_playerinfo" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/playerinfo.xml" />
+    <xml name="osd_playernames" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/playernames.xml" />
+    <xml name="osd_promotionMain" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/promotionMain.xml" />
+    <xml name="osd_optionbox" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/optionbox.xml" />
+    <xml name="osd_drawbox" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/drawbox.xml" />
+    <xml name="osd_acceptdrawbox" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/acceptdrawbox.xml" />
+    <xml name="osd_legend" deferred_loading="false" protected="" file="MiniGames/LuaChess/OSD/legend.xml" />
+    <soundbank name="Chess sound" deferred_loading="false" file="MiniGames/LuaChess/Sound/luaChess.bnk" />
+    <lua name="animation" deferred_loading="false" protected="true" file="minigames/luachess/animation.luac" />
+    <lua name="ChessMain" deferred_loading="false" protected="true" file="minigames/luachess/chessmain.luac" />
+    <lua name="controller" deferred_loading="false" protected="true" file="minigames/luachess/controller.luac" />
+    <lua name="messages" deferred_loading="false" protected="true" file="minigames/luachess/messages.luac" />
+    <lua name="PlayerManager" deferred_loading="false" protected="true" file="minigames/luachess/playermanager.luac" />
+    <lua name="utility" deferred_loading="false" protected="true" file="minigames/luachess/utility.luac" />
+    <lua name="osdLua" deferred_loading="false" protected="true" file="minigames/luachess/osd.luac" />
+    <lua name="draw" deferred_loading="false" protected="true" file="minigames/luachess/draw.luac" />
+    <lua name="piece" deferred_loading="false" protected="true" file="minigames/luachess/piece.luac" />
+  </local>
+  <external />
+</resources>

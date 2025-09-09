@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Active_Model" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQStation.mdl" memory="host" />
+		<model name="Stage1" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQFood_01.mdl" memory="host" />
+		<model name="Stage2" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQFood_02.mdl" memory="host" />
+		<model name="Stage3" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQFood_03.mdl" memory="host" />
+		<model name="NPC_Rig.mdl" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQChef_Rig.mdl" memory="host" />
+		<model name="theFork" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQSteakBurger.mdl" memory="host" />
+		<model name="BBQTongs.mdl" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQTongs.mdl" />
+		<particle name="Smoke" deferred_loading="false" protected="false" file="ATGParticles/CateredDining/smoke.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Active_Item_Minigame_Template/file/Network.xml" memory="host" />
+		<collision name="Active_Collision" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQStation.hkx" memory="host" />
+		<collision name="Active_SafeVolume_Collision" deferred_loading="false" protected="false" file="MiniGames/MasterChef/collision/ActiveModel.safevolume.hkx" memory="host" />
+		<anim name="eat.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/m_BBQeat.ani" memory="host" />
+		<anim name="f_eat.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/f_BBQeat.ani" memory="host" />
+		<anim name="f_idle.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/f_BBQidle.ani" memory="host" />
+		<anim name="idle.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/m_BBQidle.ani" memory="host" />
+		<anim name="NPC_Move.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/BBQChef_Idle.ani" memory="host" />
+		<anim name="npc_rig.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/BBQChef_Idle.ani" memory="host" />
+		<anim name="f_standIdle.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/f_standIdle.ani" />
+		<anim name="standIdle.ani" deferred_loading="false" protected="false" file="MiniGames/MasterChef/anim/standIdle.ani" />
+		<skeleton name="NPC_Rig.skn" deferred_loading="false" protected="false" file="MiniGames/MasterChef/models/BBQChef_Rig.skn" memory="host" />
+		<soundbank name="sounds" deferred_loading="true" protected="false" file="MiniGames/Active_Item_Minigame_Template/sound/sounds.bnk" memory="host" />
+		<repertoire name="femaleRep.xml" deferred_loading="false" protected="false" file="MiniGames/MasterChef/repertoire/femaleRep.xml" />
+		<repertoire name="maleRep.xml" deferred_loading="false" protected="false" file="MiniGames/MasterChef/repertoire/maleRep.xml" />
+		<emotes name="maleRep_emote.xml" deferred_loading="true" protected="false" file="MiniGames/MasterChef/repertoire/maleRep_emote.xml" />
+		<emotes name="femaleRep_emote.xml" deferred_loading="true" protected="false" file="MiniGames/MasterChef/repertoire/femaleRep_emote.xml" />
+		<lua name="NPC.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/NPC.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Player.lua" memory="host" />
+		<lua name="Anim.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Anim.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Game.lua" memory="host" />
+		<lua name="JSONUtility.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/JSONUtility.lua" memory="host" />
+		<lua name="Menu.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Menu.lua" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/MasterChef/lua/MiniGame.lua" memory="host" />
+		<lua name="Pad.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Pad.lua" memory="host" />
+		<lua name="PlayerProfile.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/PlayerProfile.lua" memory="host" />
+		<lua name="Sound.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Sound.lua" memory="host" />
+		<lua name="Stats.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Stats.lua" memory="host" />
+		<lua name="StringUtility.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/StringUtility.lua" memory="host" />
+		<lua name="VHTTPRequest.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/VHTTPRequest.lua" memory="host" />
+		<lua name="VLog.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/VLog.lua" memory="host" />
+		<lua name="Interactive.lua" deferred_loading="true" protected="true" file="MiniGames/MasterChef/lua/Interactive.lua" memory="host" />
+	</local>
+	<external />
+</resources>

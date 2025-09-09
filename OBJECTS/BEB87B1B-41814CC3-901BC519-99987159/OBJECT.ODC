@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.1</version>
+  <uuid>BEB87B1B-41814CC3-901BC519-99987159</uuid>
+  <name lang="en-GB" default="true">Rainbow Boots</name>
+  <name lang="ja-JP" default="false">レインボーブーツ</name>
+  <name lang="ko-KR" default="false">무지개 부츠</name>
+  <name lang="zh-HK" default="false">彩虹長靴</name>
+  <name lang="zh-TW" default="false">彩虹長靴</name>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small.png</small_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating country="HK" minimum_age="0" parental_control_level="1" />
+    <age_rating country="JP" rating_system="SCEJ" rating="A" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="TW" minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>

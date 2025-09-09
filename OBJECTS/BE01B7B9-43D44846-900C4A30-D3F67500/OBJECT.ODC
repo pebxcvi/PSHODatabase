@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.80.0.53.PUB" version="1.0">
+  <version>1.2</version>
+  <uuid>BE01B7B9-43D44846-900C4A30-D3F67500</uuid>
+  <name lang="en-GB" default="true">Start/Finish Gate</name>
+  <name lang="fr-FR" default="false">Ligne de départ/arrivée</name>
+  <name lang="de-DE" default="false">Start-/Zieltor</name>
+  <name lang="it-IT" default="false"> Cancello di partenza/arrivo</name>
+  <name lang="es-ES" default="false">Puerta de Comienzo/Final</name>
+  <description lang="en-GB" default="true">Once you tell the gate you are going to race and your avatar goes through it, a timer starts and continues to count until your avatar goes through it again. This can be used to officiate user created races. This is an interactive active object item. [#Legal]</description>
+  <description lang="fr-FR" default="false">Lorsque vous prévenez la ligne que vous allez faire la course et que votre avatar la traverse, un chronomètre est lancé, et continue jusqu'à ce que vous la repassiez à nouveau. Elle peut servir à officialiser des courses créées par les utilisateurs. Il s'agit d'un objet actif interactif. [#Legal]</description>
+  <description lang="de-DE" default="false">Sobald du dem Tor gesagt hast, dass du an dem Rennen teilnimmst und dein Avatar durchgeht, startet ein Timer und zählt, bis dein Avatar wieder am Tor ankommt. Hiermit können selbst erstellte Rennen ausgeführt werden. Dies ist ein aktiver, interaktiver Gegenstand. [#Legal]</description>
+  <description lang="it-IT" default="false">Dopo aver detto al cancello che vuoi fare una gara appena il tuo avatar lo attraversa, parte un timer che continua a tenere il tempo fino a che non lo avrai riattraversato. Può essere usato per tenere gare create dagli utenti. Questo è un oggetto attivo interattivo. [#Legal]  [#Legal]</description>
+  <description lang="es-ES" default="false">Una vez que comuniques la puerta por la que vas a correr y tu avatar la cruce, el tiempo empieza y continúa hasta que tu avatar la cruza de nuevo. Esto puede ser usado para celebrar carreras creadas por el usuario. Es un artículo-objeto interactivo activo. [#Legal]</description>
+  <maker lang="en-GB" default="true">Game Mechanics</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T034.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T034.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T034.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEA">UT5018-NPUR00180_00-000099</entitlement_id>
+    <entitlement_id territory="SCEE">EP4420-NPER00073_00-000039</entitlement_id>
+    <category_id territory="SCEA">UT5018-NPUR00180_00</category_id>
+    <category_id territory="SCEE">EP4420-NPER00073_00</category_id>
+    <product_id territory="SCEA">UT5018-NPUR00180_00-GMITEMPACK3X0099</product_id>
+    <product_id territory="SCEE">EP4420-NPER00073_00-STARTFINIS000039</product_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat>
+    <main>3</main>
+    <host>1</host>
+    <vram>1</vram>
+    <ppu>3</ppu>
+    <net>1</net>
+  </heat>
+  <timestamp>D3CFBA8B</timestamp>
+</odc>

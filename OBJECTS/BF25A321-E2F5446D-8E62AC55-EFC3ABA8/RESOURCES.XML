@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="companions/giddygoon/animation/GiddyGoon_RigOPTIMIZED.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/Giddy_Goons/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="companions/giddygoon/animation/GG_Walk.ani" memory="main" />
+		<anim name="idle3" deferred_loading="false" protected="false" file="companions/giddygoon/animation/GG_Idle3.ani" memory="host" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="companions/giddygoon/animation/GG_Idle1.ani" memory="host" />
+		<anim name="idle2" deferred_loading="false" protected="false" file="companions/giddygoon/animation/GG_Idle2.ani" memory="host" />
+		<anim name="run" deferred_loading="false" protected="false" file="companions/giddygoon/animation/GG_Run.ani" memory="main" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="companion_follower/Giddy_Goons/skeleton/GG_Skeleton.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/Giddy_Goons/lua/scriptremote.luac" id="3206161215" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/Giddy_Goons/lua/script.luac" memory="main" id="852553006" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/Giddy_Goons/lua/xml.luac" memory="main" id="3739844700" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/Giddy_Goons/lua/scriptlocal.luac" id="3184557204" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="LeaderboardPoker.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardPoker.mdl" memory="main" />
+		<model name="LeaderboardBlackjack.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardBlackjack.mdl" memory="main" />
+		<model name="LeaderboardGlobal.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/Leaderboard.mdl" memory="main" />
+		<model name="LeaderboardBigSix.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardBig6.mdl" memory="main" />
+		<model name="LeaderboardSlots.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/Leaderboard.mdl" memory="main" />
+		<model name="LeaderboardKeno.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/Leaderboard.mdl" memory="main" />
+		<model name="LeaderboardWar.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardWar.mdl" memory="main" />
+		<model name="LeaderboardRoulette.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardRoulette.mdl" memory="main" />
+		<model name="LeaderboardBingo.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardBingo.mdl" />
+		<model name="LeaderboardCraps.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardCraps.mdl" />
+		<model name="LeaderboardPoker_HR.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardPoker_Highrollers.mdl" />
+		<model name="LeaderboardPoker_VIP.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardPoker_VIP.mdl" />
+		<model name="LeaderboardPoker_Main.mdl" deferred_loading="true" protected="false" file="furniture/leaderboard/LeaderboardPoker.mdl" />
+		<model name="PokerTournamentFinalsSign.mdl" deferred_loading="true" protected="false" file="environments/casino_poker_tournament/PokerTournamentFinalsSign.mdl" />
+		<model name="PokerTournamentSemiFinalsSign.mdl" deferred_loading="true" protected="false" file="environments/casino_poker_tournament/PokerTournamentSemiFinalsSign.mdl" />
+		<model name="Bunting.mdl" deferred_loading="true" protected="false" file="environments/casino/environmentmayafiles/july4bunting/Bunting.mdl" />
+		<texture name="holdingsPane" deferred_loading="false" protected="false" file="MiniGames/Libs/Textures/paneHoldings.dds" memory="main" />
+		<texture name="paneRewardLeft" deferred_loading="false" protected="false" file="MiniGames/Libs/Textures/rewards/paneRewardLeft.dds" memory="main" />
+		<texture name="paneRewardMid" deferred_loading="false" protected="false" file="MiniGames/Libs/Textures/rewards/paneRewardMid.dds" memory="main" />
+		<texture name="paneRewardRight" deferred_loading="false" protected="false" file="MiniGames/Libs/Textures/rewards/paneRewardRight.dds" memory="main" />
+		<texture name="EarringHeartLeft_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/EarringHeartLeft_Reward.DDS" memory="main" />
+		<texture name="2ToneMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/2ToneMale_Reward.DDS" memory="main" />
+		<texture name="BigBlindPantsMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BigBlindPantsMale_Reward.DDS" memory="main" />
+		<texture name="BlackGlovesMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BlackGlovesMale_Reward.DDS" memory="main" />
+		<texture name="BoardShortsMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BoardShortsMale_Reward.DDS" memory="main" />
+		<texture name="BoxingGloves_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BoxingGloves_Reward.DDS" memory="main" />
+		<texture name="ButtonDownMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ButtonDownMale_Reward.DDS" memory="main" />
+		<texture name="CardiganMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CardiganMale_Reward.DDS" memory="main" />
+		<texture name="ChickenSandwich_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ChickenSandwich_Reward.DDS" memory="main" />
+		<texture name="ChipStack_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ChipStack_Reward.DDS" memory="main" />
+		<texture name="CasinoClock_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoClock_Reward.DDS" memory="main" />
+		<texture name="CCTV_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CCTV_Reward.DDS" memory="main" />
+		<texture name="CrocsMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CrocsMale_Reward.DDS" memory="main" />
+		<texture name="Diamond_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Diamond_Reward.DDS" memory="main" />
+		<texture name="DoubleCollarMaleShirt_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DoubleCollarMaleShirt_Reward.DDS" memory="main" />
+		<texture name="DressPantsMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DressPantsMale_Reward.DDS" memory="main" />
+		<texture name="EarringClubLeft_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/EarringClubLeft_Reward.DDS" memory="main" />
+		<texture name="EarringSpadeLeft_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/EarringSpadeLeft_Reward.DDS" memory="main" />
+		<texture name="GoldenSpadeSmallReward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/GoldenSpadeSmallReward.DDS" memory="main" />
+		<texture name="HandsHeld_AceOfSpadesMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HandsHeld_AceOfSpadesMale_Reward.DDS" memory="main" />
+		<texture name="HandsHeld_BeerMugMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HandsHeld_BeerMugMale_Reward.DDS" memory="main" />
+		<texture name="MartiniGlassMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MartiniGlassMale_Reward.DDS" memory="main" />
+		<texture name="MaskCarnival_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MaskCarnival_Reward.DDS" memory="main" />
+		<texture name="MaskLuchador_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MaskLuchador_Reward.DDS" memory="main" />
+		<texture name="MaskPhantomMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MaskPhantomMale_Reward.DDS" memory="main" />
+		<texture name="MaskWhiteMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MaskWhiteMale_Reward.DDS" memory="main" />
+		<texture name="Monocle_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Monocle_Reward.DDS" memory="main" />
+		<texture name="NewCarPoster_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/NewCarPoster_Reward.DDS" memory="main" />
+		<texture name="Novelty_Cheque_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Novelty_Cheque_Reward.DDS" memory="main" />
+		<texture name="PottedPlant_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PottedPlant_Reward.DDS" memory="main" />
+		<texture name="RoyalFlushMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/RoyalFlushMale_Reward.DDS" memory="main" />
+		<texture name="SilverCoinMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/SilverCoinMale_Reward.DDS" memory="main" />
+		<texture name="TShirtMale777_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TShirtMale777_Reward.DDS" memory="main" />
+		<texture name="TshirtMaleBigSix_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleBigSix_Reward.DDS" memory="main" />
+		<texture name="TshirtMaleBlackJackReward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleBlackJackReward.DDS" memory="main" />
+		<texture name="TShirtMaleCasinoName_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TShirtMaleCasinoName_Reward.DDS" memory="main" />
+		<texture name="TshirtMaleGamblingProblem_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleGamblingProblem_Reward.DDS" memory="main" />
+		<texture name="TshirtMaleKeno_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleKeno_Reward.DDS" memory="main" />
+		<texture name="TshirtMaleOuttaMyWay_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleOuttaMyWay_Reward.DDS" memory="main" />
+		<texture name="TShirtMalePokerFace_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TShirtMalePokerFace_Reward.DDS" memory="main" />
+		<texture name="TshirtMaleSlots_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleSlots_Reward.DDS" memory="main" />
+		<texture name="TshirtMaleWar_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleWar_Reward.DDS" memory="main" />
+		<texture name="VIPHatMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/VIPHatSilverM_Reward.DDS" memory="main" />
+		<texture name="messageTopRight.dds" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/textures/messageTopRight.dds" memory="main" />
+		<texture name="messageLowerLeft.dds" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/textures/messageLowerLeft.dds" memory="main" />
+		<texture name="messageLowerMid.dds" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/textures/messageLowerMid.dds" memory="main" />
+		<texture name="messageLowerRight.dds" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/textures/messageLowerRight.dds" memory="main" />
+		<texture name="messageTopLeft.dds" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/textures/messageTopLeft.dds" memory="main" />
+		<texture name="messageTopMid.dds" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/textures/messageTopMid.dds" memory="main" />
+		<texture name="BootsM_SmallReward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BootsM_SmallReward.dds" memory="main" />
+		<texture name="TshirtMaleTacky_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TshirtMaleTacky_Reward.DDS" memory="main" />
+		<texture name="TShirts_HitMe_MaleReward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TShirts_HitMe_MaleReward.DDS" memory="main" />
+		<texture name="Poker_FemaleReward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Poker_FemaleReward.DDS" memory="main" />
+		<texture name="HawaiianShirtM_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HawaiianShirtM_Reward.DDS" memory="main" />
+		<texture name="FoamSword_MaleReward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/FoamSword_MaleReward.DDS" memory="main" />
+		<texture name="TShirts_KissMyAce_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TShirts_KissMyAce_Reward.DDS" memory="main" />
+		<texture name="CheapHotelSpace_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CheapHotelSpace_Reward.DDS" memory="main" />
+		<texture name="HotelThumbnail_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HotelThumbnail_Reward.DDS" memory="main" />
+		<texture name="VIPHatFemale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/VIPHatFemale_Reward.DDS" memory="main" />
+		<texture name="NewChipsBG" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/textures/NewChipsBG.dds" memory="main" />
+		<texture name="DecorativeClub_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DecorativeClub_Reward.DDS" memory="main" />
+		<texture name="VelvetRope_Reward" deferred_loading="true" protected="false" file="thumbnails/Casino_VelvetRope/VelvetRope_Reward.dds" memory="main" />
+		<texture name="Toiletpaper_Reward" deferred_loading="true" protected="false" file="thumbnails/Casino_Toiletpaper/Toiletpaper_Reward.dds" memory="main" />
+		<texture name="CheapHotelChair_Reward" deferred_loading="true" protected="false" file="thumbnails/Casino_CheapHotelChair/CheapHotelChair_Reward.dds" memory="main" />
+		<texture name="LobbyChair_Reward" deferred_loading="true" protected="false" file="thumbnails/Casino_LobbyChair/LobbyChair_Reward.dds" memory="main" />
+		<texture name="CasinoCardHouse_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoCardHouse_Reward.dds" memory="main" />
+		<texture name="CasinoCardRug_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoCardRug_Reward.dds" memory="main" />
+		<texture name="CasinoChipRug_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoChipRug_Reward.dds" memory="main" />
+		<texture name="CasinoSafe_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoSafe_Reward.DDS" memory="main" />
+		<texture name="CasinoWallSafe_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoWallSafe_Reward.dds" memory="main" />
+		<texture name="LobbyFountain_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/LobbyFountain_Reward.dds" memory="main" />
+		<texture name="HawaiianShirtFlame_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HawaiianShirtFlame_M_Reward.dds" memory="main" />
+		<texture name="Casino_ChipTable_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_ChipTable_Reward.dds" memory="main" />
+		<texture name="Casino_DiceStool_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_DiceStool_Reward.dds" memory="main" />
+		<texture name="Casino_Dollarsignlamp_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Dollarsignlamp_Reward.dds" memory="main" />
+		<texture name="FannyPack_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/FannyPack_M_Reward.dds" memory="main" />
+		<texture name="PokerVisor_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PokerVisor_M_Reward.dds" memory="main" />
+		<texture name="Slippers_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Slippers_M_Reward.dds" memory="main" />
+		<texture name="StarSunglasses_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/StarSunglasses_Reward.dds" memory="main" />
+		<texture name="Outfit_OrangeTux_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/OrangeTux_M.dds" memory="main" />
+		<texture name="CasinoEiffelTower_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoEiffelTower_Reward.dds" memory="main" />
+		<texture name="MaleVikingHelmet_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MaleVikingHelmet_Reward.dds" memory="main" />
+		<texture name="MaleDunceCap_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MaleDunceCap_Reward.dds" memory="main" />
+		<texture name="Casino_ChipCase_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_ChipCase_Reward.dds" memory="main" />
+		<texture name="Casino_IceBucket_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_IceBucket_Reward.dds" memory="main" />
+		<texture name="PokerChipGlasses_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PokerChipGlasses_Reward.dds" memory="main" />
+		<texture name="RouletteWheelOrnament_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/RouletteWheelOrnament_Reward.dds" memory="main" />
+		<texture name="Casino_Heartbed_reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Heartbed_reward.dds" memory="main" />
+		<texture name="HorseMask_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HorseMask_M_Reward.dds" memory="main" />
+		<texture name="MaleConeofShame_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MaleConeofShame_Reward.dds" memory="main" />
+		<texture name="DiceBra_F_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DiceBra_F_Reward.dds" memory="main" />
+		<texture name="BriefCase_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BriefCase_Reward.dds" memory="main" />
+		<texture name="CardboardRobotMale_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CardboardRobotMale_Reward.dds" memory="main" />
+		<texture name="AceTable_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/AceTable_Reward.dds" memory="main" />
+		<texture name="RollingChip" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/RollingChip.dds" memory="main" />
+		<texture name="Blinders_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Blinders_M_Reward.dds" memory="main" />
+		<texture name="DollarSignGlasses_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DollarSignGlasses_Reward.dds" memory="main" />
+		<texture name="HypnoGlasses_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HypnoGlasses_Reward.dds" memory="main" />
+		<texture name="3DGlasses_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/3DGlasses_Reward.dds" memory="main" />
+		<texture name="FutureSunglasses_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/FutureSunglasses_Reward.dds" memory="main" />
+		<texture name="Casino_ChipFrame_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PokerChipFrame_Reward.dds" memory="main" />
+		<texture name="ElvisTLF_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ElvisTLF_M_Reward.dds" memory="main" />
+		<texture name="MagiciansRabbit_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MagiciansRabbit_Reward.dds" memory="main" />
+		<texture name="WinnersJacket_F_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/WinnersJacket_F_Reward.dds" memory="main" />
+		<texture name="WinnersJacket_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/WinnersJacket_M_Reward.dds" memory="main" />
+		<texture name="LeaderboardJacket_F_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/LeaderboardJacket_F_Reward.dds" memory="main" />
+		<texture name="ChipsBra_F_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ChipsBra_F_Reward.dds" memory="main" />
+		<texture name="LeaderboardJacket_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/LeaderboardJacket_M_Reward.dds" memory="main" />
+		<texture name="Female_WinBigHandTattoo_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Female_WinBigHandTattoo_Reward.dds" memory="main" />
+		<texture name="Male_MagicianOutfit_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Male_MagicianOutfit_Reward.dds" memory="main" />
+		<texture name="Male_WinBigHandTattoo_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Male_WinBigHandTattoo_Reward.dds" memory="main" />
+		<texture name="Aviators_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Aviators_Reward.DDS" memory="main" />
+		<texture name="Sparkler_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Sparkler_M_Reward.dds" memory="main" />
+		<texture name="ZA_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ZA_M_Reward.dds" />
+		<texture name="AE_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/AE_M_Reward.dds" />
+		<texture name="AT_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/AT_M_Reward.dds" />
+		<texture name="AU_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/AU_M_Reward.dds" />
+		<texture name="BE_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BE_M_Reward.dds" />
+		<texture name="CA_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CA_M_Reward.dds" />
+		<texture name="CH_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CH_M_Reward.dds" />
+		<texture name="CZ_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CZ_M_Reward.dds" />
+		<texture name="DE_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DE_M_Reward.dds" />
+		<texture name="DK_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DK_M_Reward.dds" />
+		<texture name="ES_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ES_M_Reward.dds" />
+		<texture name="FI_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/FI_M_Reward.dds" />
+		<texture name="FR_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/FR_M_Reward.dds" />
+		<texture name="GB_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/GB_M_Reward.dds" />
+		<texture name="GR_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/GR_M_Reward.dds" />
+		<texture name="IE_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/IE_M_Reward.dds" />
+		<texture name="IT_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/IT_M_Reward.dds" />
+		<texture name="LU_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/LU_M_Reward.dds" />
+		<texture name="NL_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/NL_M_Reward.dds" />
+		<texture name="NO_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/NO_M_Reward.dds" />
+		<texture name="NZ_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/NZ_M_Reward.dds" />
+		<texture name="PL_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PL_M_Reward.dds" />
+		<texture name="PT_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PT_M_Reward.dds" />
+		<texture name="RU_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/RU_M_Reward.dds" />
+		<texture name="SA_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/SA_M_Reward.dds" />
+		<texture name="SE_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/SE_M_Reward.dds" />
+		<texture name="US_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/US_M_Reward.dds" />
+		<texture name="Casino_UncleSamHat_M_Reward.DDS" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_UncleSamHat_M_Reward.DDS" />
+		<texture name="Pyramid_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Pyramid_Reward.DDS" />
+		<texture name="RoyalFlushTshirt_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/RoyalFlushTshirt_M_Reward.dds" />
+		<texture name="Hottub_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Hottub_Reward.dds" />
+		<texture name="ArmoredCarCompanion_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ArmoredCarCompanion_Reward.dds" />
+		<texture name="RaceCarBed_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/RaceCarBed_Reward.dds" />
+		<texture name="TankCompanion_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/TankCompanion_Reward.dds" />
+		<texture name="PokerFace_M_Reward.dds" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PokerFace_M_Reward.dds" />
+		<texture name="Casino_VegasEntertainerFull_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_VegasEntertainerFull_M_Reward.dds" />
+		<texture name="Casino_BeaverHat_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_BeaverHat_M_Reward.dds" />
+		<texture name="Casino_Fez_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Fez_M_Reward.dds" />
+		<texture name="Casino_GiantBanana_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_GiantBanana_M_Reward.dds" />
+		<texture name="Casino_ShinyGlove_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_ShinyGlove_Reward.dds" />
+		<texture name="Casino_BearskinHat_RewardThumb" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_BearskinHat_RewardThumb.dds" />
+		<texture name="Casino_MillionDollarDuffleBag_RewardThumb" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_MillionDollarDuffleBag_RewardThumb.dds" />
+		<texture name="Casino_Penthouse_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Penthouse_Reward.dds" />
+		<texture name="CasinoDeadParrot_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoDeadParrot_Reward.dds" />
+		<texture name="Casino_DenturesInGlass_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_DenturesInGlass_Reward.dds" />
+		<texture name="Casino_OxygenTank_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_OxygenTank_Reward.dds" />
+		<texture name="Casino_IVStand_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_IVStand_Reward.dds" />
+		<texture name="Casino_SewingMachine" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_SewingMachine.dds" />
+		<texture name="Casino_RemoteBigButtons_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_RemoteBigButtons_M_Reward.dds" />
+		<texture name="Casino_WoodenCRTTV_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_WoodenCRTTV_Reward.dds" />
+		<texture name="Casino_PillContainer_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_PillContainer_Reward.dds" />
+		<texture name="Casino_WheelChair_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_WheelChair_Reward.dds" />
+		<texture name="Casino_BingoWings_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_BingoWings_M_Reward.dds" />
+		<texture name="GrandfatherClock_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/GrandfatherClock_Reward.dds" />
+		<texture name="Casino_BingoBallHead_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_BingoBallHead_M_Reward.dds" />
+		<texture name="Casino_HideousSweater_RewardThumb" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_HideousSweater_RewardThumb.dds" />
+		<texture name="Casino_PlasticCoveredSofa_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_PlasticCoveredSofa_Reward.dds" />
+		<texture name="Casino_HospitalGown_RewardThumb" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_HospitalGown_RewardThumb.dds" />
+		<texture name="BowlOfHardCandy" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/BowlOfHardCandy.DDS" />
+		<texture name="Aquarium_Fishbowl_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Aquarium_Fishbowl_Reward.dds" />
+		<texture name="Casino_RoastedTurkey_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_RoastedTurkey_Reward.dds" />
+		<texture name="Casino_VegasBride_Dressl_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_VegasBride_Dressl_Reward.dds" />
+		<texture name="AntCompanion_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/AntCompanion_Reward.dds" />
+		<texture name="Casino_MoneyFairy" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_MoneyFairy.dds" />
+		<texture name="Casino_LumberjackOutfit_RewardThumb" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_LumberjackOutfit_RewardThumb.dds" />
+		<texture name="MonkeyPigCompanion_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/MonkeyPigCompanion_Reward.dds" />
+		<texture name="Casino_CensorBarLegs_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_CensorBarLegs_M_Reward.dds" />
+		<texture name="EveningGownAndVestSuit_Small" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/EveningGownAndVestSuit_Small.dds" />
+		<texture name="Casino_Roulette_Sombrero_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Roulette_Sombrero_Reward.dds" />
+		<texture name="FullBody_PlayingCard_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/FullBody_PlayingCard_Reward.dds" />
+		<texture name="Casino_PimpOutfit_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_PimpOutfit_Reward.dds" />
+		<texture name="Casino_M_GangsterOutfit_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_M_GangsterOutfit_Reward.dds" />
+		<texture name="ElephantSuitAll_M_F_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/ElephantSuitAll_M_F_Reward.dds" />
+		<texture name="Penthouse_Furniture_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Penthouse_Furniture_Reward.dds" />
+		<texture name="HighrollerVest_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/HighrollerVest_Reward.dds" />
+		<texture name="Casino_BigBen_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_BigBen_Reward.dds" />
+		<texture name="AnniversaryCake_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/AnniversaryCake_Reward.dds" />
+		<texture name="Casino_HeartsBra_F_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_HeartsBra_F_Reward.dds" />
+		<texture name="Casino_ShamrockHat_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_ShamrockHat_M_Reward.dds" />
+		<texture name="Casino_CrackedWall_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_CrackedWall_Reward.dds" />
+		<texture name="Casino_PokerTournamentBanner_Small_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_PokerTournamentBanner_Small.dds" />
+		<texture name="PokerTournamentTrophy_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PokerTournamentTrophy_Reward.dds" />
+		<texture name="Casino_WelderGoggles_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_WelderGoggles_Reward.dds" />
+		<texture name="Casino_PersonalCloset_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_PersonalCloset_Reward.dds" />
+		<texture name="WinnersEventTshirt_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/WinnersEventTshirt_Reward.dds" />
+		<texture name="Casino_OpticalVisor_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_OpticalVisor_Reward.dds" />
+		<texture name="PalmTreeHat_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PalmTreeHat_Reward.dds" />
+		<texture name="PalmTree_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PalmTree_Reward.dds" />
+		<texture name="PalmTreeShirt_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PalmTreeShirt_Reward.dds" />
+		<texture name="Casino_TheColiseum_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_TheColiseum_Reward.dds" />
+		<texture name="DigitalLeisureLogoTShirt_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DigitalLeisureLogoTShirt_M_Reward.dds" />
+		<texture name="DigitalLeisureCoinCup_M_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/DigitalLeisureCoinCup_M_Reward.dds" />
+		<texture name="Casino_RotatingBed_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_RotatingBed_Reward.dds" />
+		<texture name="Casino_JokerCostume_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_JokerCostume_Reward.dds" />
+		<texture name="Companion_Dice_reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Companion_Dice_reward.dds" />
+		<texture name="RhinestoneCowboy_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/RhinestoneCowboy_Reward.dds" />
+		<texture name="Casino_Hover_PokerChip_reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Hover_PokerChip_reward.dds" />
+		<texture name="Casino_GoldenSphinxHead_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_GoldenSphinxHead_Reward.dds" />
+		<texture name="casino_slotmachinesuit_reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/casino_slotmachinesuit_reward.dds" />
+		<texture name="Casino_Diehead_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Diehead_Reward.dds" />
+		<texture name="Casino_Bodyguard_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/Casino_Bodyguard_Reward.dds" />
+		<texture name="PharaohOutfit_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/PharaohOutfit_Reward.dds" />
+		<texture name="CasinoCrusader_Reward" deferred_loading="true" protected="false" file="MiniGames/GateKeeper/reward/CasinoCrusader_Reward.dds" />
+		<particle name="WaterFountain.efx" deferred_loading="true" protected="false" file="ATGParticles/WaterFountain/WaterFountain.efx" />
+		<particle name="WaterFountain_StPats.efx" deferred_loading="true" protected="false" file="ATGParticles/WaterFountain/WaterFountain_StPats.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/file/Network.xml" memory="main" />
+		<file name="Config" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/file/config.xml" memory="main" />
+		<file name="reward" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/file/reward.xml" memory="main" />
+		<file name="passphrase" deferred_loading="false" protected="true" file="MiniGames/Libs/passphrase" memory="main" />
+		<file name="passphrase_EU" deferred_loading="false" protected="true" file="MiniGames/Libs/passphrase_EU" memory="main" />
+		<collision name="Leaderboard.hkx" deferred_loading="false" protected="false" file="furniture/leaderboard/LeaderboardBlackjack.hkx" memory="main" />
+		<collision name="Cake_Y1.hkx" deferred_loading="true" protected="false" file="environments/casino/environmentmayafiles/anniversarycake/Cake_Y1.hkx" />
+		<soundbank name="GateKeeperSound" deferred_loading="false" protected="false" file="MiniGames/GateKeeper/sound/gatekeeper_sound.bnk" />
+		<lua name="GuiElement" deferred_loading="false" protected="true" file="MiniGames/BlackJack/GuiElement_.lua" memory="main" />
+		<lua name="Gui" deferred_loading="false" protected="true" file="MiniGames/BlackJack/gui_.lua" memory="main" />
+		<lua name="Text3D" deferred_loading="false" protected="true" file="MiniGames/Libs/Text3D_.lua" memory="main" />
+		<lua name="Ranking" deferred_loading="false" protected="true" file="MiniGames/Libs/Ranking_.lua" memory="main" />
+		<lua name="AsyncCommandJobManager" deferred_loading="false" protected="true" file="frameworks/async/AsyncCommandJobManager_.lua" memory="main" />
+		<lua name="Server" deferred_loading="false" protected="true" file="MiniGames/Libs/Server_.lua" memory="main" />
+		<lua name="Consumable" deferred_loading="false" protected="true" file="MiniGames/Libs/Consumable_.lua" memory="main" />
+		<lua name="SoundPlayer" deferred_loading="false" protected="true" file="MiniGames/BlackJack/SoundPlayer_.lua" memory="main" />
+		<lua name="GateKeeper" deferred_loading="false" protected="true" file="MiniGames/GateKeeper/lua/GateKeeper_.lua" memory="main" />
+	</local>
+	<external />
+</resources>

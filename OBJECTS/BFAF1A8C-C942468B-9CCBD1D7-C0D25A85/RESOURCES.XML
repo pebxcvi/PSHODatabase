@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="highroller_j_curve.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_j_curve.mdl" />
+		<model name="highroller_triangle_red.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_red.mdl" />
+		<model name="sphere.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/spheretextured.mdl" />
+		<model name="highroller_triangle_lavender.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_lavender.mdl" />
+		<model name="highroller_triangle_white.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_white.mdl" />
+		<model name="highroller_triangle_yellow.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_yellow.mdl" />
+		<model name="highroller_triangle_blue.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_blue.mdl" />
+		<model name="highroller_triangle_green.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_green.mdl" />
+		<model name="highroller_triangle_5.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_5.mdl" />
+		<model name="highroller_triangle_0.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_0.mdl" />
+		<model name="highroller_triangle_1.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_1.mdl" />
+		<model name="highroller_triangle_2.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_2.mdl" />
+		<model name="highroller_triangle_3.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_3.mdl" />
+		<model name="highroller_triangle_4.mdl" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_triangle_4.mdl" />
+		<texture name="HighRoller_StencilLight_c.dds" deferred_loading="false" file="MiniGames/HighRoller/Models/Textures/HighRoller_StencilLight_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_maroon_c.dds" />
+		<texture name="goal5" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_orange_c.dds" />
+		<texture name="goal2" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_blue_c.dds" />
+		<texture name="goal3" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_green_dark.dds" />
+		<texture name="goal4" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_purple.dds" />
+		<texture name="goal6" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_cyan_c.dds" />
+		<texture name="goal7" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_green_c.dds" />
+		<texture name="goal8" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_purple_light.dds" />
+		<texture name="goal9" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_pink.dds" />
+		<texture name="goal10" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Goal_yellow_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/HighRoller/Images/HR_OSD_Bullet_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="generic_shared_textures/FranticFreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_HR_Logo_Shirt_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_HR_Shirt_2_THMB_128.png" />
+		<texture name="Prize2_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Hands_HR_Gold_Bracelet_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" file="thumbnails_in_game/male01_Hands_HR_Gold_Bracelet_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails_in_game/HR_Rug_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/HR_GoldTable_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Hands_HR_Ring_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" file="thumbnails_in_game/male01_Hands_HR_Ring_THMB_128.png" />
+		<texture name="Prize6" deferred_loading="false" file="thumbnails_in_game/HR_Discoball_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails_in_game/HR_Poster_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Glasses_HR_glasses_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" file="thumbnails_in_game/male01_Glasses_HR_glasses_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Legs_HR_Hotpants_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" file="thumbnails_in_game/male01_Legs_HR_Hotpants_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_HR_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_HR_THMB_128.png" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/HighRoller/OSD/types.xml" />
+		<file name="WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<collision name="highroller_j_curve.hkx" deferred_loading="false" file="MiniGames/HighRoller/Models/highroller_j_curve.hkx" />
+		<anim name="maleJitter" deferred_loading="false" file="animation/male/male_jitter.ani" />
+		<anim name="femaleJitter" deferred_loading="false" file="animation/female/female_jitter.ani" />
+		<repertoire name="male_high_roller" deferred_loading="false" file="MiniGames/HighRoller/male_high_roller.xml" />
+		<repertoire name="female_high_roller" deferred_loading="false" file="MiniGames/HighRoller/female_high_roller.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Game.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/HelperFunctions.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Math.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Player.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="Board.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Board.lua" />
+		<lua name="Launcher.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Launcher.lua" />
+		<lua name="Ball.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/Ball.lua" />
+		<lua name="HR_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/HighRoller/Source/HR_Settings.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/themidway/SceneScripts/GlobalDefines.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="animatedmodels/cyclops/Cyclops.mdl" memory="host" />
+		<particle name="pfx.smoke" deferred_loading="true" protected="false" file="CompanionFollowers/Cyclops/particle/smoke.efx" memory="host" />
+		<particle name="pfx.fly" deferred_loading="true" protected="false" file="CompanionFollowers/Cyclops/particle/fly.efx" memory="host" />
+		<particle name="pfx.trails" deferred_loading="true" protected="false" file="CompanionFollowers/Cyclops/particle/trails.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/FourEyes/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Cyclops/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="animatedmodels/threeeyes/ThreeEyesIdle.ani" memory="host" />
+		<anim name="ani.sat" deferred_loading="true" protected="false" file="animatedmodels/foureyes/FourEyesSat.ani" memory="host" />
+		<anim name="ani.fly" deferred_loading="true" protected="false" file="animatedmodels/threeeyes/ThreeEyesFly.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="animatedmodels/foureyes/FourEyes_run.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="animatedmodels/cyclops/Cyclops.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Cyclops/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

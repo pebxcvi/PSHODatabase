@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="weight_base.mdl" deferred_loading="false" protected="false" file="furniture/WeightLifting/model/weight_base.mdl" />
+		<model name="Male_weight_barbell_recline.mdl" deferred_loading="false" protected="false" file="furniture/WeightLifting/model/Male_weight_barbell_recline.mdl" />
+		<model name="Female_weight_barbell_idle.mdl" deferred_loading="false" protected="false" file="furniture/WeightLifting/model/Female_weight_barbell_idle.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/WeightLifting/file/Network.xml" />
+		<collision name="weight_base.hkx" deferred_loading="false" protected="false" file="furniture/WeightLifting/collision/weight_base.hkx" />
+		<collision name="weight_base.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/WeightLifting/collision/weight_base.safevolume.hkx" />
+		<anim name="Male_weight_lift_idle.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Male_weight_lift_idle.ani" />
+		<anim name="Male_weight_lift_recline.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Male_weight_lift_recline.ani" />
+		<anim name="Male_weight_lift_up.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Male_weight_lift_up.ani" />
+		<anim name="Female_weight_lift_idle.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Female_weight_lift_idle.ani" />
+		<anim name="Female_weight_lift_recline.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Female_weight_lift_recline.ani" />
+		<anim name="Female_weight_lift_up.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Female_weight_lift_up.ani" />
+		<anim name="Male_weight_barbell_idle.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Male_weight_barbell_idle.ani" />
+		<anim name="Male_weight_barbell_recline.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Male_weight_barbell_recline.ani" />
+		<anim name="Male_weight_barbell_up.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Male_weight_barbell_up.ani" />
+		<anim name="Female_weight_barbell_idle.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Female_weight_barbell_idle.ani" />
+		<anim name="Female_weight_barbell_recline.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Female_weight_barbell_recline.ani" />
+		<anim name="Female_weight_barbell_up.ani" deferred_loading="false" protected="false" file="furniture/WeightLifting/animation/Female_weight_barbell_up.ani" />
+		<skeleton name="Male_weight_barbell_recline.skn" deferred_loading="false" protected="false" file="furniture/WeightLifting/skeleton/Male_weight_barbell_recline.skn" />
+		<repertoire name="MaleRep" deferred_loading="false" protected="false" file="furniture/WeightLifting/rep/MaleRep.xml" />
+		<repertoire name="FemaleRep" deferred_loading="false" protected="false" file="furniture/WeightLifting/rep/FemaleRep.xml" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="furniture/WeightLifting/rep/MaleEmotes.xml" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="furniture/WeightLifting/rep/FemaleEmotes.xml" />
+		<lua name="weightLift.lua" deferred_loading="false" protected="true" file="furniture/WeightLifting/lua/weightLift.lua" />
+	</local>
+	<external />
+</resources>

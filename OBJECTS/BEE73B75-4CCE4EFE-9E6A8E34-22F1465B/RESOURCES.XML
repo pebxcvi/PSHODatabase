@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Kingyo_sukui_01.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_sukui_01.mdl" />
+		<model name="Kingyo_case.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_case.mdl" />
+		<model name="Kingyo_fish1.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish1.mdl" />
+		<model name="Kingyo_fish2.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish2.mdl" />
+		<model name="Kingyo_own_01.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_own_01.mdl" />
+		<model name="Kingyo_sukui_02.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_sukui_02.mdl" />
+		<model name="Kingyo_fish3.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish3.mdl" />
+		<model name="Kingyo_fish4.mdl" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish4.mdl" />
+		<texture name="tama_ari.dds" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/2D/tama_ari.dds" />
+		<texture name="tama_nasi.dds" deferred_loading="false" file="IremLounge/design/MiniGames_syateki/2D/tama_nasi.dds" />
+		<texture name="SpotlightMask.dds" deferred_loading="false" file="IremLounge/soft/MiniGames_kingyo/SpotlightMask.dds" />
+		<texture name="line_01.dds" deferred_loading="false" file="IremLounge/design/minigames_kingyo/2D/line_01.dds" />
+		<particle name="eff_fish_w01.efx" deferred_loading="false" file="IremLounge/design/ATGParticles/Efx/eff_fish_w01.efx" />
+		<particle name="eff_fish_w03.efx" deferred_loading="false" file="IremLounge/design/ATGParticles/Efx/eff_fish_w03.efx" />
+		<particle name="eff_fish_w02.efx" deferred_loading="false" file="IremLounge/design/ATGParticles/Efx/eff_fish_w02.efx" />
+		<file name="OSDtypes" deferred_loading="false" file="IremLounge/soft/MiniGames_kingyo/OSD/types.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremLounge/soft/OSD/SelectionButton.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTabSelectDialog.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremLounge/soft/OSD/WndTab.xml" />
+		<anim name="Kingyo_fish1_anm_cap.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish1_anm_cap.ani" />
+		<anim name="Kingyo_fish1_anm_ntl.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish1_anm_ntl.ani" />
+		<anim name="Kingyo_fish2_anm_cap.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish2_anm_cap.ani" />
+		<anim name="Kingyo_fish2_anm_ntl.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish2_anm_ntl.ani" />
+		<anim name="Kingyo_fish3_anm_cap.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish3_anm_cap.ani" />
+		<anim name="Kingyo_fish3_anm_ntl.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish3_anm_ntl.ani" />
+		<anim name="Kingyo_fish4_anm_cap.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish4_anm_cap.ani" />
+		<anim name="Kingyo_fish4_anm_ntl.ani" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish4_anm_ntl.ani" />
+		<skeleton name="Kingyo_fish4_anm_ntl.skn" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish4_anm_ntl.skn" />
+		<skeleton name="Kingyo_fish1_anm_ntl.skn" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish1_anm_ntl.skn" />
+		<skeleton name="Kingyo_fish2_anm_ntl.skn" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish2_anm_ntl.skn" />
+		<skeleton name="Kingyo_fish3_anm_ntl.skn" deferred_loading="false" file="IremLounge/design/minigames_kingyo/scenes/Kingyo_fish3_anm_ntl.skn" />
+		<soundbank name="SOUND_Kingyo.bnk" deferred_loading="false" file="IremLounge/sound/SOUND_Kingyo.bnk" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaUtil.lua" />
+		<lua name="LuaCamera" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaCamera.lua" />
+		<lua name="LuaMath" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaMath.lua" />
+		<lua name="LuaMatrix" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaMatrix.lua" />
+		<lua name="LuaMemblock" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaMemblock.lua" />
+		<lua name="LuaObj" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaObj.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaPadUtil.lua" />
+		<lua name="LuaTask" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaTask.lua" />
+		<lua name="game_flow" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/game_flow.lua" />
+		<lua name="main" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/main.lua" />
+		<lua name="DialogSelect" deferred_loading="false" protected="true" file="IremLounge/soft/Dialog/DialogSelect.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremLounge/soft/Dialog/DialogBasicS.lua" />
+		<lua name="system" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/system.lua" />
+		<lua name="data_kingyo" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/Data/data_kingyo.lua" />
+		<lua name="case" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/case.lua" />
+		<lua name="game_act" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/game_act.lua" />
+		<lua name="petkingyo" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/petkingyo.lua" />
+		<lua name="disp_result" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/disp_result.lua" />
+		<lua name="LuaSimpleEffect" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaSimpleEffect.lua" />
+		<lua name="LuaSensorCursor" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaSensorCursor.lua" />
+		<lua name="LuaPadSensor" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/LuaPadSensor.lua" />
+		<lua name="navi" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/navi.lua" />
+		<lua name="npc_present_item" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/npc_present_item_S.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="IremLounge/soft/LuaSingleEvent.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="IremLounge/soft/Dialog/DialogTab.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="IremLounge/soft/Dialog/DialogTabSelectS.lua" />
+		<lua name="kreward" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/kreward.lua" />
+		<lua name="poi" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/poi.lua" />
+		<lua name="kingyo" deferred_loading="false" protected="true" file="IremLounge/soft/MiniGames_kingyo/kingyo.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/mayo13_tumbleweedactive/MAYO13_TumbleweedActive.mdl" />
+    <model name="Tumbleweed.mdl" deferred_loading="false" protected="false" file="furniture/mayo13_tumbleweedactive/Tumbleweed.mdl" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/mayo13_tumbleweedactive/Network.xml" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/mayo13_tumbleweedactive/MAYO13_TumbleweedActive.hkx" />
+    <collision name="Tumbleweed.hkx" deferred_loading="false" protected="false" file="furniture/mayo13_tumbleweedactive/Tumbleweed.hkx" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/mayo13_tumbleweedactive/lua/messagemanager.luac" />
+    <lua name="TumbleweedMain.lua" deferred_loading="false" protected="true" file="furniture/mayo13_tumbleweedactive/lua/tumbleweedmain.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/mayo13_tumbleweedactive/lua/utility.luac" />
+    <lua name="Weed.lua" deferred_loading="false" protected="true" file="furniture/mayo13_tumbleweedactive/lua/weed.luac" />
+  </local>
+  <external />
+</resources>

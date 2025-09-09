@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="flagpole.mdl" deferred_loading="false" protected="false" file="furniture/flagpole.mdl" />
+		<texture name="LargeWindow.dds" deferred_loading="true" protected="false" file="MiniGames/Morpheus_Sign_Up/file/TextBox.dds" />
+		<texture name="LongButton.dds" deferred_loading="true" protected="false" file="game/UI_2_0/LongButton.dds" />
+		<texture name="LongButtonSelected.dds" deferred_loading="true" protected="false" file="game/UI_2_0/LongButtonSelected.dds" />
+		<texture name="PagePipEmpty.dds" deferred_loading="false" protected="false" file="game/UI_2_0/PagePipEmpty.dds" />
+		<texture name="PagePipFull.dds" deferred_loading="false" protected="false" file="game/UI_2_0/PagePipFull.dds" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Morpheus_Sign_Up/lua/MiniGame.lua" />
+		<lua name="ObjectComsShared.lua" deferred_loading="false" protected="true" file="Scripts/Object_Coms_Common/ObjectComsShared.lua" />
+		<lua name="GUIElements.lua" deferred_loading="false" protected="true" file="MiniGames/Morpheus_Sign_Up/lua/GUIElements.lua" />
+		<lua name="Legends.lua" deferred_loading="false" protected="true" file="MiniGames/Morpheus_Sign_Up/lua/Legends.lua" />
+	</local>
+	<external />
+</resources>

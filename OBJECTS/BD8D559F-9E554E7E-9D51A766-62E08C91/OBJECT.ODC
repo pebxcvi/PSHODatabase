@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.86.0.17.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>BD8D559F-9E554E7E-9D51A766-62E08C91</uuid>
+  <name lang="en-GB" default="true">Rainy Day Apartment</name>
+  <name lang="fr-FR" default="false">Appartement jour de pluie</name>
+  <name lang="de-DE" default="false">Regnerischer-Tag-Apartment</name>
+  <name lang="it-IT" default="false">Appartamento per i giorni difficili</name>
+  <name lang="es-ES" default="false">Apartamento Día lluvioso</name>
+  <description lang="en-GB" default="true">When the sun is setting and it's wet outside, there really is no place like home... [#Legal]</description>
+  <description lang="fr-FR" default="false">Quand le soleil se couche et qu'il pleut dehors, qu'il est bon d'être à la maison... [#Legal]</description>
+  <description lang="de-DE" default="false">Wenn die Sonne untergeht und es draußen regnet, gibt es keinen Ort, der so schön ist wie Zuhause ... [#Legal]</description>
+  <description lang="it-IT" default="false">Quando il sole tramonta e fuori piove, è bello starsene a casetta... [#Legal]</description>
+  <description lang="es-ES" default="false">Cuando el sol se pone y afuera llueve, no hay lugar como el hogar... [#Legal]</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T032.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T032.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T032.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">ApartmentEvening</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat />
+  <timestamp>F3899DBB</timestamp>
+</odc>

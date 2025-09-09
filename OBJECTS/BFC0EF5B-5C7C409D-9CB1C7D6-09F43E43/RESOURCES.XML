@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="black_king" deferred_loading="false" file="MiniGames/draughts/draughts_white_king.mdl" />
+		<model name="white_piece" deferred_loading="false" file="MiniGames/draughts/draughts_black.mdl" />
+		<model name="white_king" deferred_loading="false" file="MiniGames/draughts/draughts_black_king.mdl" />
+		<model name="black_piece" deferred_loading="false" file="MiniGames/draughts/draughts_white.mdl" />
+		<model name="white_select" deferred_loading="false" file="MiniGames/draughts/draughts_black_select.mdl" />
+		<model name="white_highlight" deferred_loading="false" file="MiniGames/draughts/draughts_black_highlight.mdl" />
+		<model name="black_select" deferred_loading="false" file="MiniGames/draughts/draughts_white_select.mdl" />
+		<model name="black_highlight" deferred_loading="false" file="MiniGames/draughts/draughts_white_highlight.mdl" />
+		<model name="white_moveposs" deferred_loading="false" file="MiniGames/draughts/draughts_black_moveposs.mdl" />
+		<model name="black_moveposs" deferred_loading="false" file="MiniGames/draughts/draughts_white_moveposs.mdl" />
+		<model name="chess_checker_mdl" deferred_loading="false" file="asialounge/chess_checker/chess_checker.mdl" />
+		<collision name="chess_checker_hkx" deferred_loading="false" file="asialounge/chess_checker/chess_checker.hkx" />
+		<texture name="PlayIcon" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/textures/PlayIcon.dds" />
+		<texture name="PlayIconb" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/textures/PlayIconb.dds" />
+		<texture name="PlayIconblank" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/textures/PlayIconblank.dds" />
+		<file name="osd_gameinfo" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/osd/gameinfo.xml" />
+		<file name="osd_playerinfo" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/osd/playerinfo.xml" />
+		<file name="osd_textbox" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/osd/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/osd/types.xml" />
+		<file name="osd_namebar" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/osd/namebar.xml" />
+		<file name="osd_playernames" deferred_loading="false" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/osd/playernames.xml" />
+		<file name="Draughts" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/main.lua" />
+		<soundbank name="Draughts_Sounds" file="objects/BFC0EF5B-5C7C409D-9CB1C7D6-09F43E43/scripts/sound/Draughts.bnk" />
+	</local>
+</resources>

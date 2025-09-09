@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/cutt_tentacle_chair/CUTT_Tentacle_Chair.mdl" />
+    <model name="CUTT_Tentacle_Chair_RIG.mdl" deferred_loading="false" protected="false" file="furniture/cutt_tentacle_chair/CUTT_Tentacle_Chair_RIG.mdl" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/cutt_tentacle_chair/CUTT_Tentacle_Chair.hkx" />
+    <anim name="CUTT_Tentacle_Chair_Idle01.ani" deferred_loading="false" protected="false" file="furniture/cutt_tentacle_chair/CUTT_Tentacle_Chair_Idle01.ani" />
+    <skeleton name="CUTT_Tentacle_Chair_RIG.skn" deferred_loading="false" protected="false" file="furniture/cutt_tentacle_chair/CUTT_Tentacle_Chair_RIG.skn" />
+    <lua name="TentacleChair.lua" deferred_loading="false" protected="true" file="furniture/cutt_tentacle_chair/tentaclechair.luac" />
+  </local>
+  <external />
+</resources>

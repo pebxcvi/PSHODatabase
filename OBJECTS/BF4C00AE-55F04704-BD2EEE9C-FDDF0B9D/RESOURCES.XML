@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="BG_Screen02.mdl" deferred_loading="false" protected="false" file="assets/video_vault_2/BG_Screen02.mdl" />
+    <model name="BG_Screen1.mdl" deferred_loading="false" protected="false" file="assets/video_vault_2/BG_Screen1.mdl" />
+    <texture name="selector.dds" deferred_loading="false" protected="false" file="MiniGames/Video_Vault_2/file/images/selector.dds" />
+    <texture name="psn_bag.dds" deferred_loading="false" protected="false" file="MiniGames/Video_Vault_2/file/images/psn_bag.dds" />
+    <texture name="arrow.dds" deferred_loading="false" protected="false" file="MiniGames/Video_Vault_2/file/images/arrow.dds" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Video_Vault_2/xml/Network.xml" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/video_vault_2/lua/minigame.lua" />
+    <lua name="Constants.lua" deferred_loading="false" protected="true" file="minigames/video_vault_2/lua/constants.lua" />
+    <lua name="OnlineContent.lua" deferred_loading="false" protected="true" file="minigames/video_vault_2/lua/onlinecontent.lua" />
+    <lua name="Util.lua" deferred_loading="false" protected="true" file="minigames/video_vault_2/lua/util.lua" />
+    <lua name="Menu.lua" deferred_loading="false" protected="true" file="minigames/video_vault_2/lua/menu.lua" />
+  </local>
+  <external />
+</resources>

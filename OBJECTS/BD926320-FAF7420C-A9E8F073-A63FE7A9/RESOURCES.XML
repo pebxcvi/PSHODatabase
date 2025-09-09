@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CommSept_ChihuahuaHouse.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/CommSept_ChihuahuaHouse.mdl" />
+		<model name="Chihuahua_Eyelid.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/Chihuahua_Eyelid.mdl" />
+		<model name="CommSept_Chihuahua.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/CommSept_Chihuahua.mdl" />
+		<collision name="CommSept_ChihuahuaHouse.hkx" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/CommSept_ChihuahuaHouse.hkx" />
+		<collision name="CommSept_ChihuahuaHouse_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/CommSept_ChihuahuaHouse_SafeVolume.hkx" />
+		<anim name="CommSept_Chihuahua_Standing_wagging_tail.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Standing_wagging_tail.ani" />
+		<anim name="CommSept_Chihuahua_Sit.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Sit.ani" />
+		<anim name="CommSept_Chihuahua_Sit_to_standing.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Sit_to_standing.ani" />
+		<anim name="CommSept_Chihuahua_Sitting_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Sitting_Idle.ani" />
+		<anim name="CommSept_Chihuahua_Sitting_looking_around.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Sitting_looking_around.ani" />
+		<anim name="CommSept_Chihuahua_Sitting_wagging_tail.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Sitting_wagging_tail.ani" />
+		<anim name="CommSept_Chihuahua_Standing_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Standing_Idle.ani" />
+		<anim name="CommSept_Chihuahua_Standing_looking_around.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/anims/CommSept_Chihuahua_Standing_looking_around.ani" />
+		<skeleton name="CommSept_Chihuahua.skn" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/models/CommSept_Chihuahua.skn" />
+		<soundbank name="dog.bnk" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_chihuahua/sounds/dog.bnk" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Main.lua" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Animations/Animations.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/StateMachine/StateMachine.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/StateMachine/State.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Sound/SfxMgr.lua" />
+		<lua name="EyeLid.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Pet/EyeLid.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Pet/Pet.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Utilities/Utility.lua" />
+		<lua name="RandPick.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Utilities/RandPick.lua" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Data.lua" />
+		<lua name="FIFO.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_chihuahua/programming/Utilities/FIFO.lua" />
+	</local>
+	<external />
+</resources>
