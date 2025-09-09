@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="NAUT_TidesModel.mdl" deferred_loading="false" protected="false" file="MiniGames/Naut_Swimming/NAUT_TidesModel.mdl" memory="host" />
+		<texture name="bubbleTexture.dds" deferred_loading="false" protected="false" file="Tools/AtgParticles/Generic/Textures/bubbleTexture.dds" memory="host" />
+		<texture name="whiteout.dds" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/whiteout.dds" memory="host" />
+		<particle name="BubbleStream.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Nautilus/BubbleStream.efx" memory="host" />
+		<particle name="Hand_Bubbles.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Nautilus/Hand_Bubbles.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Naut_Swimming/file/Network.xml" memory="host" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="MiniGames/Naut_Swimming/collision/ActiveModel.hkx" memory="host" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="MiniGames/Naut_Swimming/NAUT_TidesModel_SAFE.hkx" memory="host" />
+		<collision name="Player_Collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/Seven_Winds_Flying/Player_Collider.hkx" memory="host" />
+		<anim name="Male_Swim_Down.ani" deferred_loading="false" protected="false" file="animation/male/naut_swimminganimation/NAUT_Male_Swim_Down.ani" memory="host" />
+		<anim name="Male_Swim_Forward.ani" deferred_loading="false" protected="false" file="animation/male/naut_swimminganimation/NAUT_Male_Swim_Forward.ani" memory="host" />
+		<anim name="Male_Swim_HoverIdle.ani" deferred_loading="false" protected="false" file="animation/male/naut_swimminganimation/NAUT_Male_Swim_Idle.ani" memory="host" />
+		<anim name="Male_Swim_HoverSpin.ani" deferred_loading="false" protected="false" file="animation/male/naut_swimminganimation/NAUT_Male_Swim_IdleSpin.ani" memory="host" />
+		<anim name="Male_Swim_Soar.ani" deferred_loading="false" protected="false" file="animation/male/naut_swimminganimation/NAUT_Male_Swim_Forward_Soar.ani" memory="host" />
+		<anim name="Male_Swim_SoarBarrelRoll.ani" deferred_loading="false" protected="false" file="animation/male/naut_swimminganimation/NAUT_Male_Swim_SoarBarrelRoll.ani" memory="host" />
+		<anim name="Male_Swim_Up.ani" deferred_loading="false" protected="false" file="animation/male/naut_swimminganimation/NAUT_Male_Swim_Up.ani" />
+		<anim name="Female_Swim_Down.ani" deferred_loading="false" protected="false" file="animation/female/naut_swimanimation/NAUT_Female_Swim_Down.ani" memory="host" />
+		<anim name="Female_Swim_Forward.ani" deferred_loading="false" protected="false" file="animation/female/naut_swimanimation/NAUT_Female_Swim_Forward.ani" memory="host" />
+		<anim name="Female_Swim_HoverIdle.ani" deferred_loading="false" protected="false" file="animation/female/naut_swimanimation/NAUT_Female_Swim_Idle.ani" memory="host" />
+		<anim name="Female_Swim_HoverSpin.ani" deferred_loading="false" protected="false" file="animation/female/naut_swimanimation/NAUT_Female_Swim_IdleSpin.ani" memory="host" />
+		<anim name="Female_Swim_Soar.ani" deferred_loading="false" protected="false" file="animation/female/naut_swimanimation/NAUT_Female_Swim_Soar.ani" memory="host" />
+		<anim name="Female_Swim_SoarBarrelRoll.ani" deferred_loading="false" protected="false" file="animation/female/naut_swimanimation/NAUT_Female_Swim_SoarBarrelRoll.ani" memory="host" />
+		<anim name="Female_Swim_Up.ani" deferred_loading="false" protected="false" file="animation/female/naut_swimanimation/NAUT_Female_Swim_Up.ani" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/Naut_Swimming/repertoires/male/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/Naut_Swimming/repertoires/female/female.xml" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/MiniGame.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/Pad.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/State_Idle.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/StateMachine.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/Utility.luac" memory="host" />
+		<lua name="RemoteSwimPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/RemoteSwimPlayer.luac" memory="host" />
+		<lua name="SwimController.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/SwimController.luac" memory="host" />
+		<lua name="UnderwaterCameraEffects.lua" deferred_loading="false" protected="true" file="MiniGames/Naut_Swimming/lua/UnderwaterCameraEffects.luac" memory="host" />
+	</local>
+	<external />
+</resources>

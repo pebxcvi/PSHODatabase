@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Flusho_Away.mdl" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/model/Flusho_Away.mdl" memory="host" />
+		<model name="Flusho_Away_lo.mdl" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/model/Flusho_Away_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spunland_flusho_away/file/config_Flusho_Away.xml" memory="main" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Male_Flusho_Away_Idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Male_Flusho_Away_Walk.ani" memory="host" />
+		<anim name="fidle" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Female_Flusho_Away_Idle.ani" memory="host" />
+		<anim name="fmove" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Female_Flusho_Away_Walk.ani" memory="host" />
+		<anim name="Flusho_Away_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Flusho_Away_Chew.ani" memory="host" />
+		<anim name="Flusho_Away_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Flusho_Away_Walk.ani" memory="host" />
+		<anim name="Flusho_Away_Walk_lo.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Flusho_Away_Walk_lo.ani" memory="host" />
+		<anim name="Flusho_Away_Chew_lo.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/anim/Flusho_Away_Chew_lo.ani" memory="host" />
+		<skeleton name="Flusho_Away.skn" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/skeleton/Flusho_Away.skn" memory="host" />
+		<skeleton name="Flusho_Away_lo.skn" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/skeleton/Flusho_Away_lo.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_flusho_away/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_flusho_away/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

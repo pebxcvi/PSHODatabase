@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/Japanevent/ActiveF/ActiveF.mdl" />
+    <model name="model_01" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture.mdl" />
+    <model name="model_02" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture.mdl" />
+    <model name="model_03" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture.mdl" />
+    <texture name="win_active" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/textures/UI_cursor.dds" />
+    <texture name="win_deactive" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/textures/UI_choice_25.dds" />
+    <texture name="guide" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/textures/UI_guide.dds" />
+    <texture name="win_deactive_2" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/textures/UI_choice_1.dds" />
+    <file name="network_defs" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/network_defs.xml" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture.hkx" />
+    <collision name="collision1" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture.hkx" />
+    <collision name="collision2" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture.hkx" />
+    <anim name="anime_11" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_BtoF.ani" />
+    <anim name="anime_12" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_BtoG.ani" />
+    <anim name="anime_31" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_GtoB.ani" />
+    <anim name="anime_32" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_GtoF.ani" />
+    <anim name="anime_21" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_FtoG.ani" />
+    <anim name="anime_22" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_FtoB.ani" />
+    <skeleton name="skeleton_01" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_BtoG.skn" />
+    <skeleton name="skeleton_03" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_GtoB.skn" />
+    <skeleton name="skeleton_02" deferred_loading="false" protected="false" file="furniture/japan/macrossf/VF25/VF25_AFuniture_FtoB.skn" />
+    <soundstream name="se_transform" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/sound/se_transform.mp3" />
+    <soundstream name="se_ok" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/sound/se_ok.mp3" />
+    <soundstream name="se_move" deferred_loading="false" protected="false" file="objects/5AF726CA-1BD54E8C-BC7C3389-8A0B9BC4/sound/se_move.mp3" />
+    <lua name="main" deferred_loading="false" protected="true" file="objects/5af726ca-1bd54e8c-bc7c3389-8a0b9bc4/script/main.lua" />
+    <lua name="parameters" deferred_loading="false" protected="true" file="objects/5af726ca-1bd54e8c-bc7c3389-8a0b9bc4/script/parameters.lua" />
+    <lua name="eventmain" deferred_loading="false" protected="true" file="objects/5af726ca-1bd54e8c-bc7c3389-8a0b9bc4/script/eventmain.lua" />
+  </local>
+  <external />
+</resources>

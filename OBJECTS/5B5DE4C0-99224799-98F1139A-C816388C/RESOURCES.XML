@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ChineseLantern.mdl" deferred_loading="false" protected="false" file="closure/models/ChineseLantern.mdl" memory="host" />
+		<model name="CANDLES_CIRCLE_01.mdl" deferred_loading="false" protected="false" file="closure/models/CANDLES_CIRCLE_01.mdl" memory="host" />
+		<model name="CHINESELANTERN_HOVER_01.mdl" deferred_loading="false" protected="false" file="closure/models/CHINESELANTERN_HOVER_01.mdl" memory="host" />
+		<anim name="CHINESELANTERN_HOVER_01.ani" deferred_loading="false" protected="false" file="closure/models/CHINESELANTERN_HOVER_01.ani" memory="host" />
+		<anim name="DIG_F_01.ani" deferred_loading="false" protected="false" file="closure/Animations/CHINESELANTERN_F_NEW_01.ani" memory="host" />
+		<anim name="DIG_M_01.ani" deferred_loading="false" protected="false" file="closure/Animations/CHINESELANTERN_M_NEW_01.ani" memory="host" />
+		<skeleton name="CHINESELANTERN_HOVER_01.skn" deferred_loading="false" protected="false" file="closure/models/CHINESELANTERN_HOVER_01.skn" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/ChineseLantern/repertoires/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/ChineseLantern/repertoires/female.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ChineseLantern/lua/Lantern.lua" memory="host" />
+		<lua name="Particle.lua" deferred_loading="false" protected="true" file="MiniGames/ChineseLantern/lua/Particle.lua" memory="host" />
+		<lua name="ParticleManager.lua" deferred_loading="false" protected="true" file="MiniGames/ChineseLantern/lua/ParticleManager.lua" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/ChineseLantern/lua/Pad.lua" memory="host" />
+		<lua name="Canvas.lua" deferred_loading="false" protected="true" file="libs/gui/Canvas.lua" memory="host" />
+		<lua name="Colours.lua" deferred_loading="false" protected="true" file="libs/gui/Colours.lua" memory="host" />
+		<lua name="Locale.lua" deferred_loading="false" protected="true" file="MiniGames/ChineseLantern/lua/Locale.lua" memory="host" />
+		<lua name="Event.lua" deferred_loading="false" protected="true" file="MiniGames/RandomScene/lua/Event.lua" memory="host" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="MiniGames/RandomScene/lua/EventManager.lua" memory="host" />
+		<lua name="SingleShotEvent.lua" deferred_loading="false" protected="true" file="MiniGames/RandomScene/lua/SingleShotEvent.lua" memory="host" />
+	</local>
+	<external />
+</resources>

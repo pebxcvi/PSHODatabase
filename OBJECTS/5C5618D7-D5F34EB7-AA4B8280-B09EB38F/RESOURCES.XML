@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Cerberus/rig/bat_014_locomotion_013_Lod1_V03.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/Cerberus/rig/bat_014_locomotion_013_Lod2.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Cerberus/file/config.xml" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Cerberus/anim/move.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Cerberus/anim/fmove.ani" memory="host" />
+		<anim name="beast_idle.ani" deferred_loading="true" protected="false" file="Locomotion/Cerberus/anim/bat_014_locomotion_013_Breath_V01.ani" memory="host" />
+		<anim name="beast_run.ani" deferred_loading="true" protected="false" file="Locomotion/Cerberus/anim/bat_014_locomotion_013_Run_V05.ani" />
+		<anim name="beast_walk.ani" deferred_loading="true" protected="false" file="Locomotion/Cerberus/anim/bat_014_locomotion_013_Walk_V03.ani" memory="main" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Cerberus/rig/bat_014_locomotion_013_Lod1_V03.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Cerberus/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Cerberus/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Cerberus/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Cerberus/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Cerberus/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPetBase.mdl" />
+		<model name="TRON_BitPet_Neutral.mdl" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_Neutral.mdl" />
+		<model name="TRON_BitPet_No.mdl" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_No.mdl" />
+		<model name="TRON_BitPet_Yes.mdl" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_Yes.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPetBase.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPetBase.safevolume.hkx" />
+		<anim name="TRON_BitPet_Neutral.ani" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_Neutral.ani" />
+		<anim name="TRON_BitPet_No.ani" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_No.ani" />
+		<anim name="TRON_BitPet_Yes.ani" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_Yes.ani" />
+		<skeleton name="TRON_BitPet_Neutral.skn" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_Neutral.skn" />
+		<skeleton name="TRON_BitPet_No.skn" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_No.skn" />
+		<skeleton name="TRON_BitPet_Yes.skn" deferred_loading="false" protected="false" file="furniture/tron_bitpetbase/TRON_BitPet_Yes.skn" />
+		<lua name="FollowingPet_Bit.lua" deferred_loading="false" protected="true" file="MiniGames/tron/bitpet/scripts/FollowingPet_Bit.lua" />
+	</local>
+	<external />
+</resources>

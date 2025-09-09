@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="whiteout.dds" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/whiteout.dds" />
+		<particle name="Splash.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Winds/Splash.efx" />
+		<particle name="Water_Ripples.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Winds/Water_Ripples.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/seven_winds_swimming/file/Network.xml" />
+		<collision name="Player_Collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/Seven_Winds_Flying/Player_Collider.hkx" />
+		<anim name="WINDS_Male_Swim_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_swimming/models/animations/WINDS_Male_Swim_Idle.ani" />
+		<anim name="WINDS_Male_Swim_SlowForward.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_swimming/models/animations/WINDS_Male_Swim_SlowForward.ani" />
+		<anim name="WINDS_Female_Swim_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_swimming/models/animations/WINDS_Female_Swim_Idle.ani" />
+		<anim name="WINDS_Female_Swim_SlowForward.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_swimming/models/animations/WINDS_Female_Swim_SlowForward.ani" />
+		<anim name="WINDS_Male_Swim_Jump01.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_swimming/models/animations/WINDS_Male_Swim_Jump01.ani" />
+		<anim name="WINDS_Female_Swim_Jump01.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_swimming/models/animations/WINDS_Female_Swim_Jump01.ani" />
+		<anim name="FARM_swimming_vine_swing.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_swimming/models/FARM_swimming_vine_swing.ani" />
+		<anim name="FARM_swimming_vine_idle.ani" deferred_loading="false" protected="false" file="MiniGames/FARM_swimming/models/FARM_swimming_vine_idle.ani" />
+		<soundbank name="SevenWindsFountain.bnk" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Swimming/Audio/SevenWindsFountain.bnk" />
+		<soundbank name="SevenWindsSwimmingBank.bnk" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Swimming/Audio/SevenWindsSwimmingBank.bnk" />
+		<soundstream name="SplashFromJump.mp3" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Swimming/Audio/SplashFromJump.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/seven_winds_swimming/repertoires/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/seven_winds_swimming/repertoires/female.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/MiniGame_NEW.lua" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/Pad.lua" />
+		<lua name="RemoteSwimmingController.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/RemoteSwimmingController.lua" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/State_Idle.lua" />
+		<lua name="SwimmingController.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/SwimmingController.lua" />
+		<lua name="SwmmingCamera.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/SwmmingCamera.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/Utility.lua" />
+		<lua name="Jump.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_swimming/lua/Jump_NEW.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Model_zaurus.mdl" deferred_loading="false" protected="false" file="companion_follower/zaurus_ground/model/Model.mdl" memory="host" />
+    <model name="Model_mandragora.mdl" deferred_loading="false" protected="false" file="companion_follower/mandragora_ver03/model/Model.mdl" memory="host" />
+    <model name="Model_whale.mdl" deferred_loading="false" protected="false" file="companion_follower/whale_water/model/model.mdl" memory="host" />
+    <model name="zombie_fire.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_fire/model/zombie_fire.mdl" memory="host" />
+    <model name="zombie_ground.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_ground/model/zombie_ground.mdl" memory="host" />
+    <model name="zombie_plant.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_plant/model/zombie_plant.mdl" memory="host" />
+    <model name="zombie_thunder.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_thunder/model/zombie_thunder.mdl" memory="host" />
+    <model name="zombie_water.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_water/model/zombie_water.mdl" memory="host" />
+    <model name="Gravestone.mdl" deferred_loading="false" protected="false" file="environmentanimations/halloween/Gravestone.mdl" memory="host" />
+    <model name="Colosseum.mdl" deferred_loading="false" protected="false" file="environmentanimations/halloween/Colosseum.mdl" />
+    <model name="devil_model.mdl" deferred_loading="false" protected="false" file="companion_follower/devil_fire/model/model.mdl" />
+    <model name="bird_Model.mdl" deferred_loading="false" protected="false" file="companion_follower/Bird_plant/model/Model.mdl" />
+    <model name="element_model.mdl" deferred_loading="false" protected="false" file="companion_follower/Element_plant/model/Model.mdl" />
+    <model name="sheep_model.mdl" deferred_loading="false" protected="false" file="companion_follower/sheep_ver05/model/Model.mdl" />
+    <model name="wooperlooper_model.mdl" deferred_loading="false" protected="false" file="companion_follower/wooperlooper_water/model/Model.mdl" />
+    <model name="Item_FullMoon.mdl" deferred_loading="false" protected="false" file="environments/peakvoxlounge/Item_FullMoon.mdl" />
+    <model name="Item_CrescentMoon.mdl" deferred_loading="false" protected="false" file="environments/peakvoxlounge/Item_CrescentMoon.mdl" />
+    <model name="Halloween.mdl" deferred_loading="false" protected="false" file="environmentanimations/halloween/Halloween.mdl" />
+    <model name="Zombie_Bom.mdl" deferred_loading="false" protected="false" file="environmentanimations/halloween/Zombie_Bom.mdl" />
+    <model name="zombie_rare.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_rare/model/zombie_rare.mdl" />
+    <texture name="num00.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/num00.dds" memory="host" />
+    <texture name="ui_Halloween01.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_Halloween01.dds" memory="host" />
+    <texture name="maid_02.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/maid_02.dds" memory="host" />
+    <texture name="ui_GameClear.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_GameClear.dds" />
+    <texture name="ui_GameOver.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_GameOver.dds" />
+    <texture name="ui_GameOver_halloween.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_GameOver_halloween.dds" />
+    <texture name="ui_level.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_level.dds" />
+    <texture name="ui_Mortal.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_Mortal.dds" />
+    <texture name="ui_BossGauge_01.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_BossGauge_01.dds" />
+    <texture name="ui_BossGauge_02.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_BossGauge_02.dds" />
+    <texture name="ui_TimeOver.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/ui_TimeOver.dds" />
+    <texture name="maid_01.dds" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/texture/maid_01.dds" />
+    <particle name="effectExplosion_d.efx" deferred_loading="false" protected="false" file="ATGParticles/ExampleEffects/Efx/effectExplosion_d.efx" memory="host" />
+    <particle name="effectAttack_1.efx" deferred_loading="false" protected="false" file="ATGParticles/EffectRPG/effectAttack_1.efx" />
+    <particle name="effectAttack_Long.efx" deferred_loading="false" protected="false" file="ATGParticles/EffectRPG/effectAttack_Long.efx" />
+    <particle name="effectATBom_01.efx" deferred_loading="false" protected="false" file="ATGParticles/EffectRPG/effectATBom_01.efx" />
+    <particle name="effectAttack_Ene.efx" deferred_loading="false" protected="false" file="ATGParticles/EffectRPG/effectAttack_Ene.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/file/Network.xml" memory="host" />
+    <file name="textWindow.xml" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/OSD/textWindow.xml" memory="host" />
+    <file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/OSD/types.xml" memory="host" />
+    <collision name="Sphere.hkx" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/model/Sphere.hkx" memory="host" />
+    <collision name="Gravestone_collision.hkx" deferred_loading="false" protected="false" file="environmentanimations/halloween/Gravestone_collision.hkx" memory="host" />
+    <collision name="Colosseum.hkx" deferred_loading="false" protected="false" file="environmentanimations/halloween/Colosseum.hkx" />
+    <collision name="Halloween_collision.hkx" deferred_loading="false" protected="false" file="environmentanimations/halloween/Halloween_collision.hkx" memory="host" />
+    <collision name="Zombie_Bom.hkx" deferred_loading="false" protected="false" file="environmentanimations/halloween/Zombie_Bom.hkx" />
+    <anim name="RPG_zombie_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_attack1.ani" memory="host" />
+    <anim name="RPG_zombie_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_damage1.ani" memory="host" />
+    <anim name="RPG_zaurus_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_damage1.ani" memory="host" />
+    <anim name="RPG_whale_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_damage1.ani" memory="host" />
+    <anim name="RPG_mandragora_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_damage1.ani" memory="host" />
+    <anim name="RPG_zombie_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_damage2.ani" memory="host" />
+    <anim name="RPG_mandragora_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_damage2.ani" memory="host" />
+    <anim name="RPG_zaurus_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_damage2.ani" memory="host" />
+    <anim name="RPG_whale_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_damage2.ani" memory="host" />
+    <anim name="RPG_zaurus_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_rolling.ani" memory="host" />
+    <anim name="RPG_whale_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_rolling.ani" memory="host" />
+    <anim name="RPG_mandragora_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_rolling.ani" memory="host" />
+    <anim name="RPG_zombie_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_rolling.ani" memory="host" />
+    <anim name="Gravestone.ani" deferred_loading="false" protected="false" file="environmentanimations/halloween/Gravestone.ani" memory="host" />
+    <anim name="RPG_zaurus_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_idle.ani" />
+    <anim name="RPG_zaurus_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_run.ani" />
+    <anim name="RPG_zombie_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_run.ani" />
+    <anim name="RPG_zombie_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_idle.ani" />
+    <anim name="RPG_whale_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_run.ani" />
+    <anim name="RPG_mandragora_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_run.ani" />
+    <anim name="RPG_mandragora_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_idle.ani" />
+    <anim name="RPG_zaurus_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_attack1.ani" />
+    <anim name="RPG_mandragora_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_attack1.ani" />
+    <anim name="RPG_whale_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_attack1.ani" />
+    <anim name="RPG_whale_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_idle.ani" />
+    <anim name="RPG_Element_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_rolling.ani" />
+    <anim name="RPG_Element_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_run.ani" />
+    <anim name="RPG_Element_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_attack1.ani" />
+    <anim name="RPG_Element_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_damage1.ani" />
+    <anim name="RPG_Element_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_damage2.ani" />
+    <anim name="RPG_Element_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_idle.ani" />
+    <anim name="RPG_sheep_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_run.ani" />
+    <anim name="RPG_sheep_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_attack1.ani" />
+    <anim name="RPG_sheep_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_damage1.ani" />
+    <anim name="RPG_sheep_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_damage2.ani" />
+    <anim name="RPG_sheep_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_idle.ani" />
+    <anim name="RPG_sheep_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_rolling.ani" />
+    <anim name="RPG_wooper_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_rolling.ani" />
+    <anim name="RPG_wooper_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_run.ani" />
+    <anim name="RPG_wooper_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_attack1.ani" />
+    <anim name="RPG_wooper_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_damage1.ani" />
+    <anim name="RPG_wooper_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_damage2.ani" />
+    <anim name="RPG_wooper_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_idle.ani" />
+    <anim name="RPG_bird_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_rolling.ani" />
+    <anim name="RPG_bird_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_run.ani" />
+    <anim name="RPG_bird_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_attack1.ani" />
+    <anim name="RPG_bird_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_damage1.ani" />
+    <anim name="RPG_bird_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_damage2.ani" />
+    <anim name="RPG_bird_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_idle.ani" />
+    <anim name="RPG_devil_rolling.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_rolling.ani" />
+    <anim name="RPG_devil_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_run.ani" />
+    <anim name="RPG_devil_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_attack1.ani" />
+    <anim name="RPG_devil_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_damage1.ani" />
+    <anim name="RPG_devil_damage2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_damage2.ani" />
+    <anim name="RPG_devil_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_idle.ani" />
+    <anim name="RPG_zaurus_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_attack3.ani" />
+    <anim name="RPG_zaurus_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zaurus/RPG_zaurus_attack2.ani" />
+    <anim name="RPG_bird_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_attack3.ani" />
+    <anim name="RPG_bird_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_Bird/RPG_bird_attack2.ani" />
+    <anim name="RPG_devil_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_attack3.ani" />
+    <anim name="RPG_devil_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_devil/RPG_devil_attack2.ani" />
+    <anim name="RPG_Element_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_attack3.ani" />
+    <anim name="RPG_Element_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_element/RPG_Element_attack2.ani" />
+    <anim name="RPG_mandragora_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_attack3.ani" />
+    <anim name="RPG_mandragora_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_mandragora/RPG_mandragora_attack2.ani" />
+    <anim name="RPG_sheep_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_attack3.ani" />
+    <anim name="RPG_sheep_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_sheep/RPG_sheep_attack2.ani" />
+    <anim name="RPG_whale_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_attack2.ani" />
+    <anim name="RPG_whale_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_whale/RPG_whale_attack3.ani" />
+    <anim name="RPG_wooper_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_attack3.ani" />
+    <anim name="RPG_wooper_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_wooperlooper/RPG_wooper_attack2.ani" />
+    <anim name="RPG_zombie_attack3.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_attack3.ani" />
+    <anim name="RPG_zombie_attack2.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_zombie/RPG_zombie_attack2.ani" />
+    <anim name="RPG_fran_attackS.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_fran/RPG_fran_attackS.ani" />
+    <anim name="RPG_fran_damage1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_fran/RPG_fran_damage1.ani" />
+    <anim name="RPG_fran_idle.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_fran/RPG_fran_idle.ani" />
+    <anim name="RPG_fran_run.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_fran/RPG_fran_run.ani" />
+    <anim name="RPG_fran_attack1.ani" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/RPG_ani/RPG_ani_fran/RPG_fran_attack1.ani" />
+    <skeleton name="skeleton_zaurus.skn" deferred_loading="false" protected="false" file="companion_follower/zaurus_ground/skeleton/skeleton.skn" memory="host" />
+    <skeleton name="skeleton_whale.skn" deferred_loading="false" protected="false" file="companion_follower/whale_water/skeleton/skeleton.skn" memory="host" />
+    <skeleton name="skeleton_mandragora.skn" deferred_loading="false" protected="false" file="companion_follower/mandragora_ver03/skeleton/skeleton.skn" memory="host" />
+    <skeleton name="zombie.skn" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_water/skeleton/zombie_water.skn" memory="host" />
+    <skeleton name="Gravestone.skn" deferred_loading="false" protected="false" file="environmentanimations/halloween/Gravestone.skn" memory="host" />
+    <skeleton name="bird_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/Bird_ground/skeleton/skeleton.skn" />
+    <skeleton name="devil_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/devil_fire/skeleton/skeleton.skn" />
+    <skeleton name="element_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/Element_plant/skeleton/skeleton.skn" />
+    <skeleton name="sheep_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/sheep_ver01/skeleton/skeleton.skn" />
+    <skeleton name="wooperlooper_skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/wooperlooper_water/skeleton/skeleton.skn" />
+    <skeleton name="zombie_rare.skn" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_rare/skeleton/zombie_rare.skn" />
+    <soundbank name="zombieEve.bnk" deferred_loading="false" protected="false" file="MiniGames/ZombieEvent/sound/zombieEve.bnk" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/minigame.lua" />
+    <lua name="param.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/param.lua" />
+    <lua name="pad.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/pad.lua" />
+    <lua name="DemoSeq.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/demoseq.lua" />
+    <lua name="GameSeq.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/gameseq.lua" />
+    <lua name="seqMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/seqmgr.lua" />
+    <lua name="menuInstance.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/menuinstance.lua" />
+    <lua name="menuInstanceMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/menuinstancemgr.lua" />
+    <lua name="menuObject.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/menuobject.lua" />
+    <lua name="player.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/player.lua" />
+    <lua name="playerMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/playermgr.lua" />
+    <lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/cameramgr.lua" />
+    <lua name="ActionData.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/actiondata.lua" />
+    <lua name="character.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/character.lua" />
+    <lua name="characterData.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/characterdata.lua" />
+    <lua name="collisionMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/collisionmgr.lua" />
+    <lua name="collisionParam.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/collisionparam.lua" />
+    <lua name="AIData.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/aidata.lua" />
+    <lua name="enemy.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/enemy.lua" />
+    <lua name="enemyMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/enemymgr.lua" />
+    <lua name="enemyData.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/enemydata.lua" />
+    <lua name="OneShotCollisionMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/oneshotcollisionmgr.lua" />
+    <lua name="message3d_manager.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/message3d_manager.lua" />
+    <lua name="Actor2d.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/actor2d.lua" />
+    <lua name="AdvSeq.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/advseq.lua" />
+    <lua name="uvData.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/uvdata.lua" />
+    <lua name="fontMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/fontmgr.lua" />
+    <lua name="DebugMenuSeq.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/debugmenuseq.lua" />
+    <lua name="ParticleMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/particlemgr.lua" />
+    <lua name="GameHud.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/gamehud.lua" />
+    <lua name="all.lua" deferred_loading="false" protected="true" file="environments/scenescript/all.lua" />
+    <lua name="OsdMgr.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/osdmgr.lua" />
+    <lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/itemlistcheker.lua" />
+    <lua name="param_level.lua" deferred_loading="false" protected="true" file="minigames/zombieevent/lua/param_level.lua" />
+  </local>
+  <external />
+</resources>

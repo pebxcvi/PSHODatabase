@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="TableObject" file="MiniGames/Freezeball/models/Freezeball_table_03.mdl" memory="host" />
+		<model name="RedBall" file="MiniGames/Freezeball/models/Freezeball_redball_04.mdl" memory="host" />
+		<model name="GreenBall" file="MiniGames/Freezeball/models/Freezeball_Greenball_04.mdl" memory="host" />
+		<model name="Cue" file="MiniGames/Freezeball/models/Freezeball_cue.mdl" memory="host" />
+		<model name="SelectionMarker" file="MiniGames/Freezeball/models/Freezeball_selection_marker.mdl" memory="host" />
+		<model name="PowerMeter" file="MiniGames/Freezeball/models/Freezeball_powerMeter.mdl" memory="host" />
+		<model name="PowerMeterFrame" file="MiniGames/Freezeball/models/Freezeball_powerMeter_frame.mdl" memory="host" />
+		<model name="EffectBeam" file="MiniGames/Freezeball/models/Freezeball_Effects_beam.mdl" memory="host" />
+		<model name="EffectCast" file="MiniGames/Freezeball/models/Freezeball_Effects_Cast.mdl" memory="host" />
+		<model name="EffectFrozen" file="MiniGames/Freezeball/models/Freezeball_Effects_frozen.mdl" memory="host" />
+		<model name="EffectHit" file="MiniGames/Freezeball/models/Freezeball_Effects_hit.mdl" memory="host" />
+		<model name="CollideObject" file="MiniGames/Freezeball/models/Freezeball_Effects_Collide.mdl" memory="host" />
+		<texture name="TableTexture" file="MiniGames/Freezeball/textures/table_shade.dds" memory="host" />
+		<texture name="RedBallColour" file="MiniGames/Freezeball/textures/redball.dds" memory="host" />
+		<texture name="RedBallSpecular" file="MiniGames/Freezeball/textures/ball_specular.dds" memory="host" />
+		<texture name="GreenBallColour" file="MiniGames/Freezeball/textures/greenball.dds" memory="host" />
+		<texture name="BallShadow" file="MiniGames/Freezeball/textures/ballshadow.dds" memory="host" />
+		<texture name="PowerMeterColour" file="MiniGames/Freezeball/textures/powermeter.dds" memory="host" />
+		<texture name="PowerMeterSpec" file="MiniGames/Freezeball/textures/powermeterspec.dds" memory="host" />
+		<texture name="EffectColour" file="MiniGames/Freezeball/textures/freezeball_effects.dds" memory="host" />
+		<texture name="TableTexture_border_C" file="MiniGames/Freezeball/textures/tableborder_c.dds" memory="host" />
+		<texture name="TableTexture_border_S" file="MiniGames/Freezeball/textures/tableborder_s.dds" memory="host" />
+		<texture name="CollisionGlowTexture" file="MiniGames/Freezeball/textures/collide_glow.dds" memory="host" />
+		<texture name="tex_freezeball_players_osd" deferred_loading="false" file="MiniGames/Freezeball/Freezeball_players_osd.dds" memory="host" />
+		<texture name="tex_freezeball_winner_osd" deferred_loading="false" file="MiniGames/Freezeball/Freezeball_winner_osd.dds" memory="host" />
+		<texture name="tribal_info_green_osd" deferred_loading="false" file="MiniGames/Triball/Tribal_info_green_osd.dds" memory="host" />
+		<texture name="tribal_info_red_osd" deferred_loading="false" file="MiniGames/Triball/Tribal_info_red_osd.dds" memory="host" />
+		<texture name="Ps3_pad_L2" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_L2.dds" memory="host" />
+		<texture name="Ps3_pad_L_Stick" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_L_Stick.dds" memory="host" />
+		<texture name="Ps3_pad_R2" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_R2.dds" memory="host" />
+		<texture name="Ps3_pad_R_Stick" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_R_Stick.dds" memory="host" />
+		<texture name="Ps3_pad_Tri" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_Tri.dds" memory="host" />
+		<texture name="Ps3_pad_x" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_x.dds" memory="host" />
+		<texture name="Ps3_pad_Tri_Blue" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_Tri_Blue.dds" memory="host" />
+		<texture name="Ps3_pad_L1" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_L1.dds" memory="host" />
+		<texture name="Ps3_pad_R1" deferred_loading="false" file="MiniGames/Freezeball/OSD/Ps3_pad_R1.dds" memory="host" />
+		<texture name="tex_freezeball_winner_osd_cropped" deferred_loading="false" file="MiniGames/freezeball/freezeball_winner_osd_cropped.dds" memory="host" />
+		<file name="OSD_types" file="MiniGames/Freezeball/OSD/types.xml" memory="host" />
+		<file name="OSD_graphicstypes" deferred_loading="false" file="MiniGames/Freezeball/OSD/graphicstypes.xml" memory="host" />
+		<file name="OSD_text" deferred_loading="false" file="MiniGames/Freezeball/OSD/text.xml" memory="host" />
+		<file name="OSD_gameinfo" deferred_loading="" protected="" file="MiniGames/Freezeball/OSD/gameinfo.xml" />
+		<file name="OSD_playerinfo" deferred_loading="" protected="" file="MiniGames/Freezeball/OSD/playerinfo.xml" />
+		<file name="OSD_textbox" deferred_loading="" protected="" file="MiniGames/Freezeball/OSD/textbox.xml" />
+		<soundbank name="FreezeballSounds" file="MiniGames/Freezeball/sound/Freezeball.bnk" memory="host" />
+		<lua name="FreezeBallScript" deferred_loading="" protected="true" file="MiniGames/freezeball/freezeball.lua" memory="host" />
+		<lua name="FreezeBallData" deferred_loading="" protected="true" file="MiniGames/Freezeball/FreezeBallData.lua" memory="host" />
+		<lua name="Dampener" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/dampener.lua" memory="host" />
+		<lua name="Tweener" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/tweener.lua" memory="host" />
+		<lua name="physics2d" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/physics2d.lua" memory="host" />
+		<lua name="Matrix" deferred_loading="false" protected="true" file="MiniGames/Lua_fn_libs/matrix.lua" memory="host" />
+		<lua name="GeneralFnLib" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/General_Fn_Lib.Lua" memory="host" />
+	</local>
+	<external />
+</resources>

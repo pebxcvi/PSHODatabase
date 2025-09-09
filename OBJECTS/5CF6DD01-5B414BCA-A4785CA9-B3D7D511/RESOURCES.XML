@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="FootUI_Inrange.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_Inrange.mdl" />
+		<model name="FootUI_OFF.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_OFF.mdl" />
+		<model name="FootUI_OFF_close.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_OFF_close.mdl" />
+		<model name="FootUI_ON.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_ON.mdl" />
+		<model name="FootUI_ON_open.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_ON_open.mdl" />
+		<texture name="SpaceApartment_MenuBackground.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/SpaceApartment_MenuBackground.dds" memory="host" />
+		<texture name="loading_icon.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/loading_icon.dds" memory="host" />
+		<texture name="Menu_CheckMark.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/Menu_CheckMark.dds" memory="host" />
+		<texture name="LightSpectrum.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/LightSpectrum.dds" />
+		<texture name="LightSelector.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/LightSelector.dds" />
+		<texture name="SpaceApartment_Buttonwwhite.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/SpaceApartment_Buttonwwhite.dds" />
+		<texture name="SpaceApartment_ButtonHwhite.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/SpaceApartment_ButtonHwhite.dds" />
+		<file name="AGENCYB.TTF" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/AGENCYB.TTF" />
+		<collision name="FootUI_OFF.hkx" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_OFF.hkx" />
+		<collision name="FootUI_ON.hkx" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_ON.hkx" />
+		<anim name="FootUI_OFF_close.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_OFF_close.ani" />
+		<anim name="FootUI_ON_open.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_ON_open.ani" />
+		<skeleton name="FootUI_OFF_close.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_OFF_close.skn" />
+		<skeleton name="FootUI_ON_open.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/FootUI_ON_open.skn" />
+		<lua name="coroutine_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/coroutine_lib.luac" memory="host" />
+		<lua name="class_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/class_lib.luac" memory="host" />
+		<lua name="lgs_menu_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/lgs_menu_lib.luac" memory="host" />
+		<lua name="xml_parser.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/xml_parser.luac" memory="host" />
+		<lua name="texture_manager.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/texture_manager.luac" />
+		<lua name="floor_unit_animation.lua" deferred_loading="false" protected="true" file="MiniGames/SA_FootUnit/lua/floor_unit_animation.luac" memory="host" />
+		<lua name="floor_unit_main.lua" deferred_loading="false" protected="true" file="MiniGames/SA_FootUnit/lua/floor_unit_main.luac" memory="host" />
+		<lua name="floor_unit_motion.lua" deferred_loading="false" protected="true" file="MiniGames/SA_FootUnit/lua/floor_unit_motion.luac" memory="host" />
+		<lua name="manager_main.lua" deferred_loading="false" protected="true" file="MiniGames/SA_FootUnit/lua/manager_main.luac" memory="main" />
+		<lua name="floor_unit_menus.lua" deferred_loading="false" protected="true" file="MiniGames/SA_FootUnit/lua/floor_unit_menus.luac" memory="main" />
+	</local>
+	<external />
+</resources>

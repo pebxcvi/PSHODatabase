@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/Trex.mdl" memory="host" />
+		<model name="Trex_Lod.mdl" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/Trex_Lod.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Trex_LMO/file/config.xml" memory="host" />
+		<anim name="M_Trex_run.ani" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/M_Trex_run.ani" memory="host" />
+		<anim name="Trex_run.ani" deferred_loading="false" protected="false" file="Locomotion/Trex_LMO/Trex_run.ani" memory="host" />
+		<anim name="M_Trex_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/M_Trex_Idle.ani" memory="host" />
+		<anim name="Trex_Idle.ani" deferred_loading="false" protected="false" file="Locomotion/Trex_LMO/Trex_Idle.ani" memory="host" />
+		<anim name="M_Trex_sprint.ani" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/M_Trex_sprint.ani" memory="host" />
+		<anim name="Trex_sprint.ani" deferred_loading="false" protected="false" file="Locomotion/Trex_LMO/Trex_sprint.ani" memory="host" />
+		<anim name="F_Trex_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/F_Trex_Idle.ani" memory="host" />
+		<anim name="F_Trex_run.ani" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/F_Trex_run.ani" memory="host" />
+		<anim name="F_Trex_sprint.ani" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/F_Trex_sprint.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="false" protected="false" file="Locomotion/Trex_LMO/Trex.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/Trex_LMO/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/Trex_LMO/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Trex_LMO/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Trex_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

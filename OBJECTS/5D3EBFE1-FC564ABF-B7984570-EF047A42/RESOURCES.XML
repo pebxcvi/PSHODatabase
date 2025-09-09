@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Games/VIP_Seating_Game/file/Network.xml" />
+		<anim name="MaleLounge_Idle_Cycle_Left" deferred_loading="false" protected="false" file="animation/male/MaleLounge_Idle_Cycle_Left.ani" />
+		<anim name="MaleLounge_Idle_Cycle_Right" deferred_loading="false" protected="false" file="animation/male/MaleLounge_Idle_Cycle_Right.ani" />
+		<anim name="Social_Kiss_Male" deferred_loading="false" protected="false" file="animation/male/Social_Kiss_Male.ani" />
+		<anim name="Social_Kiss_Female" deferred_loading="false" protected="false" file="animation/female/Social_Kiss_Female.ani" />
+		<anim name="Female-lounge_Idle_Cycle_Right" deferred_loading="false" protected="false" file="animation/female/Female-lounge_Idle_Cycle_Right.ani" />
+		<anim name="FemaleLounge_Idle_Cycle_Left" deferred_loading="false" protected="false" file="animation/female/FemaleLounge_Idle_Cycle_Left.ani" />
+		<anim name="Kiss_01_Male" deferred_loading="false" protected="false" file="animation/male/kiss_01/Kiss_01.ani" />
+		<anim name="Kiss_01_Female" deferred_loading="false" protected="false" file="animation/female/kiss_01/Kiss_01.ani" />
+		<repertoire name="VIP_Seat_Male" deferred_loading="false" protected="false" file="animation/repertoires/VIP_Seat_Male.xml" />
+		<repertoire name="VIP_Seat_Female" deferred_loading="false" protected="false" file="animation/repertoires/VIP_Seat_Female.xml" />
+		<emotes name="Male_VIP_Emote" deferred_loading="true" protected="false" file="animation/emotes/Male_VIP_Emote.xml" />
+		<emotes name="Female_VIP_Emote" deferred_loading="true" protected="false" file="animation/emotes/Female_VIP_Emote.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/MiniGame.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="Games/Common/lua/EventManager.lua" />
+		<lua name="GamePad.lua" deferred_loading="false" protected="true" file="Games/Common/lua/GamePad.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="Games/Common/lua/Misc.lua" />
+		<lua name="Misc_OSD.lua" deferred_loading="false" protected="true" file="Games/Common/lua/Misc_OSD.lua" />
+		<lua name="SeatManager.lua" deferred_loading="false" protected="true" file="Games/Common/lua/SeatManager.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="Games/Common/lua/StateMachine.lua" />
+		<lua name="VIP_SeatResources.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/VIP_SeatResources.lua" />
+		<lua name="Misc_LockPlayer.lua" deferred_loading="false" protected="true" file="Games/Common/lua/Misc_LockPlayer.lua" />
+		<lua name="VIP_CameraManager.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/VIP_CameraManager.lua" />
+		<lua name="SeatState_CabanaLounge.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/States/SeatStates/SeatState_CabanaLounge.lua" />
+		<lua name="SeatState_HotTubSeat.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/States/SeatStates/SeatState_HotTubSeat.lua" />
+		<lua name="SeatState_Idle.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/States/SeatStates/SeatState_Idle.lua" />
+		<lua name="CameraState_CabanaCam.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/States/CameraStates/CameraState_CabanaCam.lua" />
+		<lua name="CameraState_HotTubCam.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/States/CameraStates/CameraState_HotTubCam.lua" />
+		<lua name="CameraState_Idle.lua" deferred_loading="false" protected="true" file="Games/VIP_Seating_Game/lua/States/CameraStates/CameraState_Idle.lua" />
+		<lua name="Component_GameTriggerMove.lua" deferred_loading="false" protected="true" file="Games/Common/lua/Component_GameTriggerMove.lua" />
+		<lua name="VIP_Telemetry.lua" deferred_loading="false" protected="true" file="Games/Common/lua/VIP_Specific/VIP_Telemetry.lua" />
+	</local>
+	<external />
+</resources>

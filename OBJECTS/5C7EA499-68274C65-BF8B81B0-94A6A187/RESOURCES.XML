@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="xmasresidence" deferred_loading="false" protected="false" file="japanevents/xmas/xmasresidence02/xmasresidence02.mdl" />
+		<model name="xmascinema" deferred_loading="false" protected="false" file="japanevents/xmas/xmascinema02/xmascinema02.mdl" />
+		<model name="xmasmarketplace" deferred_loading="false" protected="false" file="japanevents/xmas/xmasmarketplace01/xmasmarketplace01.mdl" />
+		<model name="xmasarcade" deferred_loading="false" protected="false" file="japanevents/xmas/xmasarcade01/xmasarcade01.mdl" />
+		<model name="relocate_model" deferred_loading="false" protected="false" file="christmas/santassack/santasSack.mdl" />
+		<model name="pole_model" deferred_loading="false" protected="false" file="christmas/treecolumn/TreeColumn.mdl" />
+		<model name="cane_model" deferred_loading="false" protected="false" file="christmas/candycane/candyCane.mdl" />
+		<model name="lamp_model" deferred_loading="false" protected="false" file="christmas/xmaslamp/xmasLamp.mdl" />
+		<model name="cane_drop_model" deferred_loading="false" protected="false" file="christmas/candycane/candyCaneDrop.mdl" />
+		<collision name="relocate_colision" deferred_loading="false" protected="false" file="christmas/santassack/santasSack.hkx" />
+		<collision name="pole_colision" deferred_loading="false" protected="false" file="christmas/treecolumn/TreeColumn.hkx" />
+		<collision name="cane_colision" deferred_loading="false" protected="false" file="christmas/candycane/candyCane.hkx" />
+		<collision name="lamp_colision" deferred_loading="false" protected="false" file="christmas/xmaslamp/xmasLamp.hkx" />
+		<collision name="cane_drop_colision" deferred_loading="false" protected="false" file="christmas/candycane/candyCaneDrop.hkx" />
+		<lua name="Relocate.lua" deferred_loading="false" protected="true" file="objects/5C7EA499-68274C65-BF8B81B0-94A6A187/scripts/Relocate.lua" />
+	</local>
+	<external />
+</resources>

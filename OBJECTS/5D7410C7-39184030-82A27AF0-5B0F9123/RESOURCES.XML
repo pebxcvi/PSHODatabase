@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mod_A" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_A.mdl" />
+		<model name="mod_B" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_B.mdl" />
+		<model name="mod_C" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_C.mdl" />
+		<model name="mod_D" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_D.mdl" />
+		<model name="mod_E" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_E.mdl" />
+		<model name="mod_F" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_F.mdl" />
+		<model name="mod_G" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_G.mdl" />
+		<model name="mod_H" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_H.mdl" />
+		<model name="mod_I" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_I.mdl" />
+		<model name="mod_J" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_J.mdl" />
+		<model name="mod_K" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_K.mdl" />
+		<model name="mod_L" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_L.mdl" />
+		<model name="mod_M" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_M.mdl" />
+		<model name="mod_N" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_N.mdl" />
+		<model name="mod_O" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_O.mdl" />
+		<model name="mod_P" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_P.mdl" />
+		<model name="mod_Q" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_Q.mdl" />
+		<model name="mod_R" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_R.mdl" />
+		<model name="mod_S" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_S.mdl" />
+		<model name="mod_T" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_T.mdl" />
+		<model name="mod_U" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_U.mdl" />
+		<model name="mod_V" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_V.mdl" />
+		<model name="mod_W" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_W.mdl" />
+		<model name="mod_X" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_X.mdl" />
+		<model name="mod_Y" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_Y.mdl" />
+		<model name="mod_Z" deferred_loading="false" protected="false" file="environments/alphabet/Alphabet_Z.mdl" />
+		<texture name="tex_quizId" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/tex/quiz_id.dds" />
+		<texture name="tex_quiz_title" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/tex/quiz_title.dds" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/osd/types.xml" />
+		<file name="osd_menulist" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/osd/MenuList.xml" />
+		<file name="osd_message" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/osd/Message.xml" />
+		<file name="osd_menuanswer" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/osd/MenuAnswer.xml" />
+		<file name="osd_question" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/osd/QuestionMessage.xml" />
+		<file name="osd_questionanswer" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/osd/QuestionAnswer.xml" />
+		<soundbank name="se_all" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/sound/se/alfbt_quiz_se.bnk" />
+		<soundstream name="bgm_inmind" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/sound/bgm/bgm02.mp3" />
+		<soundstream name="bgm_gameover" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/sound/bgm/bgm04.mp3" />
+		<soundstream name="bgm_gameclear" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/sound/bgm/bgm03.mp3" />
+		<soundstream name="bgm_title" deferred_loading="false" protected="false" file="MiniGames/EventHallQuiz/sound/bgm/bgm01.mp3" />
+		<lua name="lua_pad" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_pad.lua" />
+		<lua name="lua_define" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_define.lua" />
+		<lua name="lua_main" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/main.lua" />
+		<lua name="lua_func" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_func.lua" />
+		<lua name="lua_debug" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_debug.lua" />
+		<lua name="lua_unit_task" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_unit_task.lua" />
+		<lua name="lua_uIdQuiz" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_uIdQuiz.lua" />
+		<lua name="lua_uOmAlphabet" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_uOmAlphabet.lua" />
+		<lua name="lua_network" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_network.lua" />
+		<lua name="lua_uCamera" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_uCamera.lua" />
+		<lua name="lua_uSound" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_uSound.lua" />
+		<lua name="lua_uOsdObject" deferred_loading="false" protected="true" file="MiniGames/EventHallQuiz/lua/lua_uOsdObject.lua" />
+	</local>
+	<external />
+</resources>

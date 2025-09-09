@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<particle name="steam_fog1.efx" deferred_loading="false" protected="false" file="Games/common/efx/steam_fog1.efx" />
+		<particle name="fire_burst.efx" deferred_loading="false" protected="false" file="Games/common/efx/fire_burst.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Games/Public_CentralManager/file/Network.xml" />
+		<collision name="Center_Platform_01.hkx" deferred_loading="false" protected="false" file="assets/tech_structures/platforms/Center_Platform_01.hkx" />
+		<collision name="Base_Room.hkx" deferred_loading="false" protected="false" file="assets/tech_structures/base_room/Base_Room.hkx" />
+		<collision name="Ramp.hkx" deferred_loading="false" protected="false" file="assets/tech_structures/platforms/Ramp.hkx" />
+		<collision name="Kiosk_01.hkx" deferred_loading="false" protected="false" file="assets/Props/kisoks/Kiosk_01.hkx" />
+		<collision name="Screens_With_Edge_Base_01.hkx" deferred_loading="false" protected="false" file="assets/tech_structures/screening/Screens_With_Edge_Base_01.hkx" />
+		<collision name="Landing_Pad_01.hkx" deferred_loading="false" protected="false" file="assets/tech_structures/landing_pad/Landing_Pad_01.hkx" />
+		<collision name="Upper_Structure_01.hkx" deferred_loading="false" protected="false" file="assets/tech_structures/upper_structures/Upper_Structure_01.hkx" />
+		<collision name="Flying_Cab_01_collision.hkx" deferred_loading="false" protected="false" file="assets/vehicles/cab_01/Flying_Cab_01_collision.hkx" />
+		<collision name="ER_Soldier_Idle_Cycle.hkx" deferred_loading="false" protected="false" file="assets/Props/emo_shop/soldier/ER_Soldier_Idle_Cycle.hkx" />
+		<collision name="Porsche.hkx" deferred_loading="false" protected="false" file="assets/Props/emo_shop/porsche/Porsche.hkx" />
+		<collision name="GrizzlyBearChairDressed.hkx" deferred_loading="false" protected="false" file="assets/Props/emo_shop/grizzlybearchairdressed/GrizzlyBearChairDressed.hkx" />
+		<collision name="CuddlyBearChairDressed.hkx" deferred_loading="false" protected="false" file="assets/Props/emo_shop/cuddlybearchairdressed/CuddlyBearChairDressed.hkx" />
+		<collision name="Big_Screen_01.hkx" deferred_loading="false" protected="false" file="assets/Props/big_screen/Big_Screen_01.hkx" />
+		<collision name="Male_Body.hkx" deferred_loading="false" protected="false" file="assets/Props/Tattoo_Shop/Mannequin1/Male_Body.hkx" />
+		<collision name="Tech_Gadget_02.hkx" deferred_loading="false" protected="false" file="assets/tech_structures/tech_gadget_02/Tech_Gadget_02.hkx" />
+		<collision name="Pinup_Blackpink_Mannequin.hkx" deferred_loading="false" protected="false" file="assets/Props/Pipups_Shop/pinups2_0/fullbodysuit/Pinup_Blackpink_Mannequin.hkx" />
+		<collision name="Pinup_Camo_Mannequin.hkx" deferred_loading="false" protected="false" file="assets/Props/Pipups_Shop/pinups2_0/fullbodysuit/Pinup_Camo_Mannequin.hkx" />
+		<collision name="Pinup_Mannequin.hkx" deferred_loading="false" protected="false" file="assets/Props/Pipups_Shop/pinups2_0/fullbodysuit/Pinup_Mannequin.hkx" />
+		<collision name="CRITTER_Ghostling.hkx" deferred_loading="false" protected="false" file="assets/Props/pets_shop/heavy_critters/CRITTER_Ghostling.hkx" />
+		<collision name="CRITTER_Skull.hkx" deferred_loading="false" protected="false" file="assets/Props/pets_shop/heavy_critters/CRITTER_Skull.hkx" />
+		<collision name="CRITTER_Batling.hkx" deferred_loading="false" protected="false" file="assets/Props/pets_shop/heavy_critters/CRITTER_Batling.hkx" />
+		<collision name="CRITTER_Tombstone.hkx" deferred_loading="false" protected="false" file="assets/Props/pets_shop/heavy_critters/critter_tombstone/CRITTER_Tombstone.hkx" />
+		<collision name="CRITTER_Belfry.hkx" deferred_loading="false" protected="false" file="assets/Props/pets_shop/heavy_critters/critter_belfry/CRITTER_Belfry.hkx" />
+		<collision name="CRITTER_Skeleton_Hand.hkx" deferred_loading="false" protected="false" file="assets/Props/pets_shop/heavy_critters/critter_skeleton_hand/CRITTER_Skeleton_Hand.hkx" />
+		<collision name="Spooky_Stump.hkx" deferred_loading="false" protected="false" file="assets/Props/Seasonal_Shop/spooky_stump/Spooky_Stump.hkx" />
+		<collision name="Loader_01.hkx" deferred_loading="false" protected="false" file="assets/vehicles/loader_01/Loader_01.hkx" />
+		<collision name="disco_ball.hkx" deferred_loading="false" protected="false" file="assets/Props/dance_floor/disco_ball.hkx" />
+		<soundbank name="PublicSpace_Soundbank.bnk" deferred_loading="false" protected="false" file="Games/common/audio/PublicSpace_Soundbank.bnk" />
+		<soundstream name="Song_01_Loop.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Song_01_Loop.mp3" />
+		<soundstream name="Song_02_Loop.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Song_02_Loop.mp3" />
+		<soundstream name="Song_03_Loop.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Song_03_Loop.mp3" />
+		<soundstream name="Machine_Sounds_01.mp3" deferred_loading="false" protected="false" file="Games/common/audio/Source/Machine_Sounds_01.mp3" />
+		<soundstream name="AMB_City.mp3" deferred_loading="false" protected="false" file="Games/common/audio/Source/AMB_City.mp3" />
+		<soundstream name="Interface_Music.mp3" deferred_loading="false" protected="false" file="Games/common/audio/Source/Interface_Music.mp3" />
+		<soundstream name="AMB_Store_Interior.mp3" deferred_loading="false" protected="false" file="Games/common/audio/Source/AMB_Store_Interior.mp3" />
+		<soundstream name="AMB_Exterior_wind.mp3" deferred_loading="false" protected="false" file="Games/common/audio/Source/AMB_Exterior_wind.mp3" />
+		<soundstream name="Trance_A_Metal_Rush.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_A_Metal_Rush.mp3" />
+		<soundstream name="Trance_B_Clunk.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_B_Clunk.mp3" />
+		<soundstream name="Trance_C_Bright_Blip.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_C_Bright_Blip.mp3" />
+		<soundstream name="Trance_D_Base_Dance.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_D_Base_Dance.mp3" />
+		<soundstream name="Trance_E_Frantic_Bomb.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_E_Frantic_Bomb.mp3" />
+		<soundstream name="Trance_F_Trade_Pep.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_F_Trade_Pep.mp3" />
+		<soundstream name="Trance_G_Dampen.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_G_Dampen.mp3" />
+		<soundstream name="Trance_I_Pickitah_Motion.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_I_Pickitah_Motion.mp3" />
+		<soundstream name="Trance_J_Sweeper.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_J_Sweeper.mp3" />
+		<soundstream name="Trance_K_Space_Trance.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_K_Space_Trance.mp3" />
+		<soundstream name="Trance_H_Jumper.mp3" deferred_loading="true" protected="false" file="Games/common/audio/Source/Trance_H_Jumper.mp3" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Main.lua" memory="main" />
+		<lua name="Main_Init.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Main_Init.lua" />
+		<lua name="Main_LoadLua.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Main_LoadLua.lua" />
+		<lua name="Main_Resources.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Main_Resources.lua" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/Core.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/EventManager.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/Misc.lua" />
+		<lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/ResourceManager.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/StateMachine.lua" />
+		<lua name="Table_x.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/Table_x.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/Util.lua" />
+		<lua name="OscillationManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/OscillationManager.lua" />
+		<lua name="CollisionManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/CollisionManager.lua" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/MessageManager.lua" />
+		<lua name="Communicator.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Communicator/Communicator.lua" />
+		<lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Communicator/Communicator_ProjectDefined.lua" />
+		<lua name="ParticleObject.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/ScriptedObjects/ParticleObject.lua" />
+		<lua name="ScriptedObject.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/ScriptedObjects/ScriptedObject.lua" />
+		<lua name="ScriptedObjectManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/ScriptedObjects/ScriptedObjectManager.lua" />
+		<lua name="ScriptedObject_Resources.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/ScriptedObjects/ScriptedObject_Resources.lua" />
+		<lua name="Audio_Component.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/Audio_Component.lua" />
+		<lua name="Audio_Resources.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Audio_Resources.lua" />
+		<lua name="SoundManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/SoundManager.lua" />
+		<lua name="Utility_NodeManager.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/Utility_NodeManager.lua" />
+		<lua name="Utility_Oscillate.lua" deferred_loading="false" protected="true" file="Games/Public_CentralManager/lua/Library/Utility_Oscillate.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/model/DarkManticore_rig.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/model/DarkManticore_rig_lod2.mdl" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarChimera/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarChimera/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/fidle.ani" memory="host" />
+		<anim name="beast_run.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/manticore_fly.ani" />
+		<anim name="beast_walk.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/manticore_walk_ForExport.ani" />
+		<anim name="beast_idle.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/anim/manticore_Idle_ForExport.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/skeleton/manticore_rig.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/MythAvatarManticore/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/MythAvatarManticore/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

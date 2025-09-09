@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Baron.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/baron/Baron.mdl" />
+		<model name="Castle.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/castle/Castle.mdl" />
+		<model name="Hexagon.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/Hexagon.mdl" />
+		<model name="House.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/house/House.mdl" />
+		<model name="House_Closed.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/house/House_Closed.mdl" />
+		<model name="Knight.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/knight/Knight.mdl" />
+		<model name="Peasant.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/peasant/Peasant.mdl" />
+		<model name="Spearman.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/spearman/Spearman.mdl" />
+		<model name="Slay_hexagon.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/Slay_hexagon.mdl" />
+		<model name="GamePointer.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/gamepointer/GamePointer.mdl" />
+		<model name="HexagonBaron.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonBaron.mdl" />
+		<model name="HexagonCastle.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonCastle.mdl" />
+		<model name="HexagonKnight.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonKnight.mdl" />
+		<model name="HexagonPeasant.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonPeasant.mdl" />
+		<model name="HexagonSpearMan.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonSpearMan.mdl" />
+		<model name="HexagonHouse.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonHouse.mdl" />
+		<model name="Grave.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/rip/RIP.mdl" />
+		<model name="HexagonGrave.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonRIP.mdl" />
+		<model name="HexagonHouseHighlight.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonHouseHighlight.mdl" />
+		<model name="TileHighlight.mdl" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/TileHighlight.mdl" />
+		<model name="PalmTree" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/palmtree/PalmTree.mdl" />
+		<model name="PineTree" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/tree/Tree.mdl" />
+		<model name="HexagonPineTree" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonTree.mdl" />
+		<model name="HexagonPalmTree" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/hexagon/HexagonPalmTree.mdl" />
+		<texture name="Castle.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Units/Castle.dds" />
+		<texture name="Peasant.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Units/Peasant.dds" />
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" />
+		</texture>
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O.dds" />
+		</texture>
+		<texture name="button_L1" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_L1.dds" />
+		<texture name="button_L2" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_L2.dds" />
+		<texture name="button_R1" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_R1.dds" />
+		<texture name="button_R2" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_R2.dds" />
+		<texture name="button_S" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_S.dds" />
+		<texture name="button_T" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_T.dds" />
+		<texture name="PlayersInfoBox.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/PlayersInfoBox.dds" />
+		<texture name="Hex.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Hex.dds" />
+		<texture name="ActiveUserIcon.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/ActiveUserIcon.dds" />
+		<texture name="TilePercentageBar.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/TilePercentageBar.dds" />
+		<texture name="stick_L.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/stick_L.dds" />
+		<texture name="stick_R.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/stick_R.dds" />
+		<texture name="MenuSelector.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MenuSelector.dds" />
+		<texture name="MainMenuBG.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MainMenuBG.dds" />
+		<texture name="ToolTipBanner.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/ToolTipBanner.dds" />
+		<texture name="arrow_left.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/arrow_left.dds" />
+		<texture name="arrow_right.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/arrow_right.dds" />
+		<texture name="menu_bar_left.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/menu_bar_left.dds" />
+		<texture name="menu_bar_mid.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/menu_bar_mid.dds" />
+		<texture name="menu_bar_right.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/menu_bar_right.dds" />
+		<texture name="LeaderboardBar.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/LeaderboardBar.dds" />
+		<texture name="LeaderboardBarHilight.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/LeaderboardBarHilight.dds" />
+		<texture name="LeaderboardHeadBoxBig.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/LeaderboardHeadBoxBig.dds" />
+		<texture name="MenuSliderLine.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MenuSliderLine.dds" />
+		<texture name="MenuArrowUp.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MenuArrowUp.dds" />
+		<texture name="MenuSlider.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MenuSlider.dds" />
+		<texture name="HUDbackground.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/HUDbackground.dds" />
+		<texture name="MenuItemBG.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MenuItemBG.dds" />
+		<texture name="Icon_C.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/Icon_C.dds" />
+		<texture name="Icon_I.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/Icon_I.dds" />
+		<texture name="Icon_L.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/Icon_L.dds" />
+		<texture name="Icon_MP.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/Icon_MP.dds" />
+		<texture name="Icon_SP.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/Icon_SP.dds" />
+		<texture name="BigInfoBox.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/BigInfoBox.dds" />
+		<texture name="Challenge1off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge1off.dds" />
+		<texture name="Challenge1on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge1on.dds" />
+		<texture name="Challenge2off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge2off.dds" />
+		<texture name="Challenge2on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge2on.dds" />
+		<texture name="Challenge3off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge3off.dds" />
+		<texture name="Challenge3on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge3on.dds" />
+		<texture name="Challenge4off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge4off.dds" />
+		<texture name="Challenge4on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge4on.dds" />
+		<texture name="Challenge5off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge5off.dds" />
+		<texture name="Challenge5on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge5on.dds" />
+		<texture name="Challenge6off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge6off.dds" />
+		<texture name="Challenge6on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge6on.dds" />
+		<texture name="Challenge7off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge7off.dds" />
+		<texture name="Challenge7on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge7on.dds" />
+		<texture name="Challenge8off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge8off.dds" />
+		<texture name="Challenge8on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge8on.dds" />
+		<texture name="Challenge9off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge9off.dds" />
+		<texture name="Challenge9on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge9on.dds" />
+		<texture name="Challenge10off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge10off.dds" />
+		<texture name="Challenge10on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge10on.dds" />
+		<texture name="Challenge11off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge11off.dds" />
+		<texture name="Challenge11on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge11on.dds" />
+		<texture name="Challenge12off.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge12off.dds" />
+		<texture name="Challenge12on.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/Challenge12on.dds" />
+		<texture name="MapWonOn.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MapWonOn.dds" />
+		<texture name="MapLostOff.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MapLostOff.dds" />
+		<texture name="MapLostOn.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MapLostOn.dds" />
+		<texture name="MapUnplayedOff.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MapUnplayedOff.dds" />
+		<texture name="MapUnplayedOn.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MapUnplayedOn.dds" />
+		<texture name="MapWonOff.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/MapWonOff.dds" />
+		<texture name="PageTabOn.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/PageTabOn.dds" />
+		<texture name="PageTabOff.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/PageTabOff.dds" />
+		<texture name="BigInfoBoxTitleBar.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/BigInfoBoxTitleBar.dds" />
+		<texture name="button_Dpad" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_Dpad.dds" />
+		<texture name="bars.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/bars.dds" />
+		<texture name="Header_bars.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/Header_bars.dds" />
+		<texture name="button_Dpad_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_Dpad_small.dds" />
+		<texture name="button_L1_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_L1_small.dds" />
+		<texture name="button_L2_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_L2_small.dds" />
+		<texture name="button_X_small" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" locale="ja-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" locale="zh-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" locale="ko-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" locale="en-SG" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" locale="en-ID" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" locale="en-MY" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" locale="en-TH" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" />
+		</texture>
+		<texture name="button_O_small" deferred_loading="false" protected="false">
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" locale="ja-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" locale="zh-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" locale="ko-*" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" locale="en-SG" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" locale="en-ID" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" locale="en-MY" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_X_small.dds" locale="en-TH" />
+			<override file="MiniGames/Dust/Slay/HUDTextures/button_O_small.dds" />
+		</texture>
+		<texture name="button_R1_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_R1_small.dds" />
+		<texture name="button_R2_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_R2_small.dds" />
+		<texture name="button_S_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_S_small.dds" />
+		<texture name="button_T_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/button_T_small.dds" />
+		<texture name="stick_L_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/stick_L_small.dds" />
+		<texture name="stick_R_small" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/stick_R_small.dds" />
+		<texture name="BaronCost" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/baron.dds" />
+		<texture name="KnightCost" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/knight.dds" />
+		<texture name="SpearManCost" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/spearman.dds" />
+		<texture name="PeasentCost" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/peasent.dds" />
+		<texture name="moneybox.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/moneybox.dds" />
+		<texture name="PercentageBox.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/PercentageBox.dds" />
+		<texture name="FindSessionBar.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/FindSessionBar.dds" />
+		<texture name="FindSessionBarSelector.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/MainMenu/FindSessionBarSelector.dds" />
+		<texture name="padlock.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/padlock.dds" />
+		<texture name="ChallengeSelector.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Challenges/ChallengeSelector.dds" />
+		<texture name="Map_Background_box.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Map_Background_box.dds" />
+		<texture name="MapStart.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/MapStart.dds" />
+		<texture name="MapWon.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/MapWon.dds" />
+		<texture name="SpentMoney.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/SpentMoney.dds" />
+		<texture name="StartTurnTerritory.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/StartTurnTerritory.dds" />
+		<texture name="hex_house.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/hex_house.dds" />
+		<texture name="BuyingUnits.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/BuyingUnits.dds" />
+		<texture name="AttackPhase1.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/AttackPhase1.dds" />
+		<texture name="AttackPhase2.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/AttackPhase2.dds" />
+		<texture name="AttackPhase3.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/AttackPhase3.dds" />
+		<texture name="AttackPhase4.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/AttackPhase4.dds" />
+		<texture name="BlueDefence.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/BlueDefence.dds" />
+		<texture name="CombineSpearmen.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/CombineSpearmen.dds" />
+		<texture name="CombinePeasants.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/CombinePeasants.dds" />
+		<texture name="CombinePeasantSpearman.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/CombinePeasantSpearman.dds" />
+		<texture name="JoiningTerritory2.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/JoiningTerritory2.dds" />
+		<texture name="JoiningTerritory1.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/JoiningTerritory1.dds" />
+		<texture name="HouseInfoBox.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/HouseInfoBox.dds" />
+		<texture name="Wages1.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/Wages1.dds" />
+		<texture name="Wages2.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/Wages2.dds" />
+		<texture name="Wages3.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/Wages3.dds" />
+		<texture name="hex_tree.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/hex_tree.dds" />
+		<texture name="hex_palmtree.dds" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/HUDTextures/Instructions/hex_palmtree.dds" />
+		<file name="EveFont.ttf" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/EveFont.ttf" />
+		<collision name="Slay_Table.hkx" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Models/table/Slay_Table.hkx" />
+		<soundbank name="SlaySounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Dust/Slay/Sounds/SlaySounds.bnk" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Controller.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Game.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/GameHud.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Jamin.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Math.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/OHS.lua" />
+		<lua name="Sessions.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Sessions.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Tween.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="Maps.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Maps.lua" />
+		<lua name="SceneLeaderboard.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/SceneLeaderboard.lua" />
+		<lua name="Leaderboards.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Leaderboards.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Dust/Slay/Code/Playmetrix.lua" />
+	</local>
+	<external />
+</resources>

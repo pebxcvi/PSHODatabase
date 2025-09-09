@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.75.0.85.PUB" version="1.0">
+  <version>2013.02.12.100</version>
+  <uuid>5B4E35F1-C9104C70-85FDB9E4-AF05AE72</uuid>
+  <name lang="en-GB" default="true">Pottermore Beta Access</name>
+  <name lang="fr-FR" default="false">Accès à la bêta Pottermore</name>
+  <name lang="de-DE" default="false">Pottermore-Beta-Zugriff</name>
+  <name lang="it-IT" default="false">Accesso Pottermore Beta</name>
+  <name lang="es-ES" default="false">Acceso a la Beta de Pottermore</name>
+  <name lang="ja-JP" default="false">Pottermoreのベータ版アクセス</name>
+  <description lang="en-GB" default="true">Use this object to access the Pottermore Beta. [#Legal]</description>
+  <description lang="fr-FR" default="false">Utilise cet objet pour accéder à la bêta Pottermore. [#Legal]</description>
+  <description lang="de-DE" default="false">Verwende diesen Gegenstand, um Zugriff auf die Pottermore-Beta zu erhalten. [#Legal]</description>
+  <description lang="it-IT" default="false">Usa questo oggetto per accedere a Pottermore Beta. [#Legal]</description>
+  <description lang="es-ES" default="false">Usa este objeto para acceder a la Beta de Pottermore. [#Legal]</description>
+  <description lang="ja-JP" default="false">このオブジェクトでPottermoreのベータ版にアクセスしましょう。 [#Legal]</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T034.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T034.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T034.png</large_image>
+  <data component="header">
+    <element name="LPID">PM_LPID-Default</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">EP9000-NPEQ00021_00-000169</entitlement_id>
+    <category_id territory="SCEE">EP9000-NPEQ00021_00</category_id>
+    <product_id territory="SCEE">EP9000-NPEQ00021_00-POTTERMORE000169</product_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat>
+    <main>2</main>
+    <host>2</host>
+    <vram>2</vram>
+    <ppu>1</ppu>
+    <net>1</net>
+  </heat>
+  <timestamp>AA64BC4</timestamp>
+</odc>
