@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="characters_v2/female/female01/sexy_platform.mdl" memory="host" />
+    <model name="bubble.mdl" deferred_loading="false" protected="false" file="characters_v2/female/female01/sexyspeechbubble.mdl" memory="host" />
+    <model name="droid.mdl" deferred_loading="false" protected="false" file="characters_v2/female/female01/sexy_android.mdl" memory="host" />
+    <model name="effect.mdl" deferred_loading="false" protected="false" file="characters_v2/female/female01/sexy_platform_effect.mdl" memory="host" />
+    <file name="config.xml" deferred_loading="false" protected="true" file="Actives/ChatterBot/file/config_SexyDroid.xml" memory="host" />
+    <collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="characters_v2/female/female01/sexy_platform.hkx" memory="host" />
+    <collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="characters_v2/female/female01/sexy_platform.hkx" memory="host" />
+    <collision name="feet.hkx" deferred_loading="false" protected="false" file="Actives/Autom/file/sphere.hkx" memory="host" />
+    <anim name="walk.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/sexywalk_anim.ani" memory="host" />
+    <anim name="idle.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/coy_IDLE_anim.ani" memory="host" />
+    <anim name="laugh.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/laugh_anim.ani" memory="host" />
+    <anim name="dance.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/bellydance_anim.ani" memory="host" />
+    <anim name="dance2.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/vogue_anim.ani" memory="host" />
+    <anim name="idle2.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/sexy_IDLE_anim.ani" memory="host" />
+    <anim name="heart.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/loveheart_anim.ani" memory="host" />
+    <anim name="flick.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/hairflick_anim.ani" memory="host" />
+    <anim name="kiss.ani" deferred_loading="false" protected="false" file="characters_v2/female/female01/anim/flirtykiss_anim.ani" memory="host" />
+    <skeleton name="droid.skn" deferred_loading="false" protected="false" file="characters_v2/female/female01/sexy_android.skn" memory="host" />
+    <soundbank name="sfx" deferred_loading="false" protected="false" file="Actives/ChatterBot/file/Android.bnk" memory="host" />
+    <lua name="Active.lua" deferred_loading="false" protected="true" file="actives/chatterbot/lua/active.luac" />
+    <lua name="ConfigLoader.lua" deferred_loading="false" protected="true" file="actives/chatterbot/lua/configloader.luac" />
+    <lua name="ChatterBot.lua" deferred_loading="false" protected="true" file="actives/chatterbot/lua/chatterbot.luac" memory="main" />
+  </local>
+  <external />
+</resources>

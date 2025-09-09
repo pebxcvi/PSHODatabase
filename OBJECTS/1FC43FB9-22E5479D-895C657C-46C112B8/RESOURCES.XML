@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commseptember_2010/commsept_doberman/models/CommSept_DobermanHouse.mdl" />
+		<model name="CommSept_SleepingDoberman.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_doberman/models/CommSept_SleepingDoberman.mdl" />
+		<particle name="spitBubble.efx" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_doberman/ATGParticles/spitBubble.efx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commseptember_2010/commsept_doberman/models/CommSept_DobermanHouse.hkx" />
+		<anim name="CommSept_SleepingDoberman.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_doberman/models/CommSept_SleepingDoberman.ani" />
+		<skeleton name="CommSept_SleepingDoberman.skn" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_doberman/models/CommSept_SleepingDoberman.skn" />
+		<soundbank name="doberman.bnk" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_doberman/sounds/doberman.bnk" />
+		<lua name="doberman.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_doberman/programming/doberman.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="totostore.mdl" deferred_loading="false" protected="false" file="furniture/totoexchange/totoexchange.mdl" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/common/tex/edge.dds" />
+		<texture name="win_allow.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/common/tex/win_allow.dds" />
+		<texture name="win_edge.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/common/tex/win_edge.dds" />
+		<texture name="win_side.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/common/tex/win_side.dds" />
+		<texture name="graw1.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/ui/graw1.dds" />
+		<texture name="graw2.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/ui/graw2.dds" />
+		<texture name="graw3.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/ui/graw3.dds" />
+		<texture name="loading.dds" deferred_loading="false" protected="false" file="MiniGames/totoExchange/ui/loading.dds" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="MiniGames/totoExchange/osd/types.xml" />
+		<file name="osd_description_base" deferred_loading="false" protected="false" file="MiniGames/totoExchange/osd/description_base.xml" />
+		<xml name="toto_itemlist.xml" deferred_loading="false" protected="true" file="MiniGames/totoExchange/xml/toto_itemlist.xml" />
+		<xml name="toto_itemlocalise_de_DE.xml" deferred_loading="true" protected="false" file="MiniGames/totoExchange/xml/toto_itemlocalise_de_DE.xml" />
+		<xml name="toto_itemlocalise_en_GB.xml" deferred_loading="true" protected="false" file="MiniGames/totoExchange/xml/toto_itemlocalise_en_GB.xml" />
+		<xml name="toto_itemlocalise_en_US.xml" deferred_loading="true" protected="false" file="MiniGames/totoExchange/xml/toto_itemlocalise_en_US.xml" />
+		<xml name="toto_itemlocalise_es_ES.xml" deferred_loading="true" protected="false" file="MiniGames/totoExchange/xml/toto_itemlocalise_es_ES.xml" />
+		<xml name="toto_itemlocalise_fr_FR.xml" deferred_loading="true" protected="false" file="MiniGames/totoExchange/xml/toto_itemlocalise_fr_FR.xml" />
+		<xml name="toto_itemlocalise_it_IT.xml" deferred_loading="true" protected="false" file="MiniGames/totoExchange/xml/toto_itemlocalise_it_IT.xml" />
+		<xml name="toto_itemlocalise_ja_JP.xml" deferred_loading="true" protected="false" file="MiniGames/totoExchange/xml/toto_itemlocalise_ja_JP.xml" />
+		<collision name="totostore.hkx" deferred_loading="false" protected="false" file="furniture/totoexchange/totoexchange.hkx" />
+		<soundbank name="fifa_toto_se.bnk" deferred_loading="false" protected="false" file="MiniGames/totoExchange/se/fifa_toto_se.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/main.lua" />
+		<lua name="xp_data.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/xp_data.lua" />
+		<lua name="ev_popup_msg.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/ev_popup_msg.lua" />
+		<lua name="game_main.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/game_main.lua" />
+		<lua name="localise_data.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/localise_data.lua" />
+		<lua name="toto_common.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/toto_common.lua" />
+		<lua name="toto_data_manager.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/toto_data_manager.lua" />
+		<lua name="user_data.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/user_data.lua" />
+		<lua name="WipeWnd.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/WipeWnd.lua" />
+		<lua name="headlineMsg.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/common/headlineMsg.lua" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/common/mathx.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/common/misc.lua" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/common/MsgWnd.lua" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/common/padUtil.lua" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/common/task.lua" />
+		<lua name="time.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/common/time.lua" />
+		<lua name="paHomeCommon.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeCommon.lua" />
+		<lua name="paHomeCommonDebug.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeCommonDebug.lua" />
+		<lua name="paHomeServerAccount.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerAccount.lua" />
+		<lua name="paHomeServerBase.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerBase.lua" />
+		<lua name="paHomeServerCommon.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerCommon.lua" />
+		<lua name="paHomeServerCustom.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerCustom.lua" />
+		<lua name="paHomeServerGeneral.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerGeneral.lua" />
+		<lua name="paHomeServerItemRanking.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerItemRanking.lua" />
+		<lua name="paHomeServerReward.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerReward.lua" />
+		<lua name="paHomeServerTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerTrigger.lua" />
+		<lua name="paHomeServerXp.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/paHomeServerXp.lua" />
+		<lua name="parameters.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/pa/parameters.lua" />
+		<lua name="debug.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/ui/debug.lua" />
+		<lua name="scrollText.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/ui/scrollText.lua" />
+		<lua name="itemlist_data.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/itemlist_data.lua" />
+		<lua name="em_entry.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/em_entry.lua" />
+		<lua name="uiExchange.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/ui/uiExchange.lua" />
+		<lua name="ResDownload.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/ui/ResDownload.lua" />
+		<lua name="xp_display.lua" deferred_loading="false" protected="true" file="MiniGames/totoExchange/xp_display.lua" />
+	</local>
+	<external />
+</resources>

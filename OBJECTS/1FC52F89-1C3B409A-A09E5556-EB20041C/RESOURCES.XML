@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Unicorn/DarkUnicorn_rig.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/Unicorn/DarkUnicorn_lod02_rig.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Unicorn/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Unicorn/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Unicorn/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/move.ani" memory="main" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/move.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/move.ani" memory="main" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/move.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/fmove.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/fmove.ani" memory="main" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/fmove.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/fmove.ani" memory="main" />
+		<anim name="Unicorn_idle.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/Unicorn_idle.ani" memory="host" />
+		<anim name="Unicorn_Run.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/Unicorn_Run.ani" memory="main" />
+		<anim name="Unicorn_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/Unicorn/anim/Unicorn_Walk.ani" memory="main" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Unicorn/Unicorn_rig.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Unicorn/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Unicorn/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Unicorn/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Unicorn/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Unicorn/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

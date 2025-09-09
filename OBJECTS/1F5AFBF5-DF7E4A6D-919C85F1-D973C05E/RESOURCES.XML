@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="companion_follower/PigBomb_Silver/model/PigBomb_Silver.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/PigBomb_Silver/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="companion_follower/PigBomb_Silver/anim/walk.ani" memory="main" />
+		<anim name="idle3" deferred_loading="false" protected="false" file="companion_follower/PigBomb_Silver/anim/idle3.ani" memory="host" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="companion_follower/PigBomb_Silver/anim/idle1.ani" memory="host" />
+		<anim name="idle2" deferred_loading="false" protected="false" file="companion_follower/PigBomb_Silver/anim/idle2.ani" memory="host" />
+		<anim name="run" deferred_loading="false" protected="false" file="companion_follower/PigBomb_Silver/anim/run.ani" memory="main" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="companion_follower/PigBomb_Silver/skeleton/PigBomb_Silver.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/PigBomb_Silver/lua/scriptremote.luac" id="217002282" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/PigBomb_Silver/lua/script.luac" memory="main" id="2428944273" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/PigBomb_Silver/lua/xml.luac" memory="main" id="146193299" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/PigBomb_Silver/lua/scriptlocal.luac" id="3209855585" />
+	</local>
+	<external />
+</resources>

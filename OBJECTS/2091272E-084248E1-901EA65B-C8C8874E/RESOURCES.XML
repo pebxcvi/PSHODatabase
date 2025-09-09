@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/platformdummy/PlatformDummy.mdl" />
+		<model name="dancing001.mdl" deferred_loading="false" protected="false" file="MiniGames/dancers/gold_dancer/models/Gold_Dancer_MasterDance.mdl" />
+		<model name="platform.mdl" deferred_loading="false" protected="false" file="furniture/golddancer/GoldDancer.mdl" />
+		<texture name="Prompt_Window_c.dds" deferred_loading="false" protected="false" file="MiniGames/dancers/textures/Prompt_Window_c.dds" />
+		<file name="network.xml" deferred_loading="false" protected="false" file="MiniGames/dancers/lua/network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/demondancer/DemonDancer.hkx" />
+		<anim name="dancing001.ani" deferred_loading="false" protected="false" file="MiniGames/dancers/gold_dancer/models/Gold_Dancer_MasterDance.ani" />
+		<anim name="idle001.ani" deferred_loading="false" protected="false" file="MiniGames/dancers/gold_dancer/models/Gold_Dancer_MetaIdle1.ani" />
+		<skeleton name="dancing001.skn" deferred_loading="false" protected="false" file="MiniGames/dancers/gold_dancer/models/Gold_Dancer_MasterDance.skn" />
+		<soundbank name="Dancer.bnk" deferred_loading="false" protected="false" file="MiniGames/dancers/audio/Dancer.bnk" memory="host" />
+		<soundstream name="music" deferred_loading="false" protected="false" file="MiniGames/dancers/audio/GoldDancer_ElectroVision.mp3" memory="main" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/dancers/lua/Game.lua" />
+		<lua name="System.lua" deferred_loading="false" protected="true" file="MiniGames/dancers/lua/System.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/dancers/lua/Settings.lua" />
+		<lua name="OSD.lua" deferred_loading="false" protected="true" file="MiniGames/dancers/lua/OSD.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/dancers/lua/Network.lua" />
+		<lua name="Light.lua" deferred_loading="false" protected="true" file="MiniGames/dancers/lua/Light.lua" />
+		<lua name="LightDataExport.lua" deferred_loading="false" protected="true" file="MiniGames/dancers/lua/LightDataExport.lua" />
+	</local>
+	<external />
+</resources>

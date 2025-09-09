@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.41.0.37.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>1E99D78A-109444AD-95763330-D304BB9C</uuid>
+  <name lang="ja-JP" default="false">ダーラの部屋</name>
+  <name lang="ko-KR" default="false">달라의 보금자리</name>
+  <name lang="zh-HK" default="false">達拉之家</name>
+  <name lang="zh-TW" default="false">達拉之家</name>
+  <name lang="en-US" default="true">Darla's Den</name>
+  <description lang="fr-FR" default="false">C'est le cadeau que nous t'offrons pour te remercier de ta visite à The Midway. Admire tes prouesses sur la piste aux cadeaux, gagne un accès au jacuzzi, remporte une entrée pour le jeu du Big Bang, achète ton propre shoot'em up d'arcade et divertis Darla à la discothèque ! [#Legal]</description>
+  <description lang="de-DE" default="false">Und dafür, dass du „The Midway“ besucht hast, erhältst von uns diese Belohnung: Nimm an der Siegerparade teil, spring in den dampfenden Whirlpool, verdien dir die Teilnahme am „Big Bang“-Spiel, leg dir einen persönlichen Arcade-Shooter zu und vergnüg dich mit Darla in der Disco! [#Legal]</description>
+  <description lang="it-IT" default="false">Questo è il nostro regalo per ringraziarti di aver visitato "The Midway". Sfoggia le tue abilità nella corsa per la vittoria, entra nella bollente vasca idromassaggio, guadagnati la possibilità di giocare a "Big Bang", acquista il tuo sparatutto arcade personale e infine intrattieni Darla in discoteca! [#Legal]</description>
+  <description lang="es-ES" default="false">Este es nuestro regalo para usted por visitar The Midway. ¡Jáctese de sus destrezas en la lucha por el premio, gánese un lugar en el jacuzzi, obtenga acceso al juego del Big Bang, compre un juego personal de puntería Arcade, y entretenga a Darla en la discoteca! [#Legal]</description>
+  <description lang="ja-JP" default="false">アメリカン・カーニバルへの入場記念プレゼントです。ミニゲーム「Big Bang」をプレイできるようになったり、「Trigger Happy」アーケード版筐体を購入できたりと、お楽しみが盛り沢山!!ミニゲーム「Big Bang」でポイントを稼ぐことで、ホームリワードがもらえたり、湯気が立ちのぼるジャグジーバスに行けたり、最終的には、ダーラと遊べるディスコエリアに行けるようになります！  [#Legal]</description>
+  <description lang="ko-KR" default="false">The Midway를 방문해 주신 것에 대한 작은 선물입니다. 상품 진열대에서 솜씨를 자랑하고, 김이 자욱한 스파 욕조를 즐겨 보세요. 빅뱅 게임을 할 수 있는 자격에도 도전하시고 개인용 아케이드 슈터를 구입할 수도 있습니다. 물론 마지막으로 달라와 함께 디스코장에서 재미있는 시간을 보내세요! [#Legal]</description>
+  <description lang="zh-HK" default="false">這是您光臨Midway遊戲大廳的禮物。 在戰利品大道上展現您的高強技巧，到熱氣瀰漫的浴缸中泡個舒服的澡，也可以贏得參加「大爆炸」遊戲的權利。購買個人大型射擊機台，並在迪斯可區域中跟達拉一同娛樂吧！ [#Legal]</description>
+  <description lang="zh-TW" default="false">這是您光臨Midway遊戲大廳的禮物。 在戰利品大道上展現您的高強技巧，到熱氣瀰漫的浴缸中泡個舒服的澡，也可以贏得參加「大爆炸」遊戲的權利。購買個人大型射擊機台，並在迪斯可區域中跟達拉一同娛樂吧！ [#Legal]</description>
+  <description lang="en-US" default="true">This is our gift to you just for visiting The Midway. Admire your prowess on the prize runway, win access to the steamy hot tub, earn your entry into the Big Bang game, purchase a personal arcade shooter, and ultimately entertain Darla in the disco! [#Legal]</description>
+  <maker lang="en-US" default="true">Mass Media</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T034.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T034.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T034.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">Midway_Apartment_4D5E_F216</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating rating_system="PEGI" rating="7+" minimum_age="7" parental_control_level="3" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <timestamp>3940B607</timestamp>
+</odc>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="MDL_Egg.mdl" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/models/tint_egg/tint_egg.mdl" memory="host" />
+		<collision name="HKX_Egg.hkx" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/models/tint_egg/tint_egg.hkx" memory="host" />
+		
+		<texture name="DDS_blossom.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/blossom.dds" />
+		<texture name="DDS_cockatrice.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/cockatrice.dds" />
+		<texture name="DDS_dragon.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/dragon.dds" />
+		<texture name="DDS_sandcastle.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/sandcastle.dds" />
+		<texture name="DDS_sword.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/sword.dds" />
+		<texture name="DDS_spinner.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/spinner.dds" />
+		<texture name="DDS_Cover.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/Cover.dds" />
+		<texture name="DDS_TargetOverlay.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/TargetOverlay.dds" />
+		<texture name="DDS_Progress.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/Progress.dds" />
+		<texture name="DDS_egg_black.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_black.dds" />
+		<texture name="DDS_egg_blue.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_blue.dds" />
+		<texture name="DDS_egg_green.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_green.dds" />
+		<texture name="DDS_egg_pink.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_pink.dds" />
+		<texture name="DDS_egg_multi.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_multi.dds" />
+		<texture name="DDS_egg_red.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_red.dds" />
+		<texture name="DDS_egg_yellow.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_yellow.dds" />
+		<texture name="DDS_egg_greyscale.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Rewards/egg_greyscale.dds" />
+		<xml name="network" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/network_defs.xml" memory="host" />
+		<soundbank name="BNK_Easter.bnk" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/sounds/Easter.bnk" memory="host" />
+		<lua name="LUA_rayDetection.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/rayDetection.lua" />
+		<lua name="LUA_worm_definitions.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/worm_definitions.lua" />
+		<lua name="LUA_appliaction_functions.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/appliaction_functions.lua" />
+		<lua name="LUA_Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Misc.lua" />
+		<lua name="LUA_NetEvents.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/NetEvents.lua" />
+		<lua name="LUA_NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/NetLib.lua" />
+		<lua name="LUA_application_main.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/application_main.lua" />
+		<lua name="LUA_OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/OHS.lua" />
+		<lua name="LUA_Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Jamin.lua" />
+		<lua name="LUA_pad.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/pad.lua" />
+		<lua name="LUA_ScoreOhs.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/ScoreOhs.lua" />
+		<lua name="LUA_ScoreHud.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/ScoreHud.lua" />
+		<lua name="LUA_Spawner.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/Spawner.lua" />
+		<lua name="LUA_Egg.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/Egg.lua" />
+		<lua name="LUA_DragonEggs.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/DragonEggs.lua" />
+		<lua name="LUA_RewardHud.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/RewardHud.lua" />
+		<lua name="LUA_RewardMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/RewardMgr.lua" />
+		<lua name="LUA_SoundManager.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/SoundManager.lua" />
+		<lua name="LUA_SoundInstance.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/SoundInstance.lua" />
+		<lua name="LUA_StreamInstance.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/StreamInstance.lua" />	
+		<soundstream name="MP3_seating_area.mp3" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/sounds/DragonGame/seating_area.mp3" memory="host"/>
+		<soundstream name="MP3_dragon_cage.mp3" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/sounds/DragonGame/dragon_cage_amplified.mp3" memory="host"/>
+		<soundstream name="MP3_mini_game.mp3" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/sounds/DragonGame/mini_game.mp3" memory="host"/>
+		<soundstream name="MP3_silence.mp3" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/sounds/DragonGame/silence.mp3" memory="host"/>
+		<soundbank name="BNK_Sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/sounds/DragonGame/BasicSounds.bnk" memory="host" />
+		<texture name="DDS_uploading1.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/uploading1.dds" />
+		<texture name="DDS_welcome_screen.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/welcome_screen.dds" />
+		<texture name="DDS_score_frame_R.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/score_frame_R.dds" />
+		<texture name="DDS_score_frame_L.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/score_frame_L.dds" />
+		<texture name="DDS_Score_Background.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Score_Background.dds" />
+		<texture name="DDS_glow.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/glow.dds" />
+		<texture name="DDS_ControlPrompt.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/ControlPrompt.dds" />
+		<texture name="DDS_01.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/01.dds" />
+		<texture name="DDS_02.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/02.dds" />
+		<texture name="DDS_03.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/03.dds" />
+		<texture name="DDS_04.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/04.dds" />
+		<texture name="DDS_05.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/05.dds" />
+		<texture name="DDS_06.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/hud/Dragon_egghunt/Dragon/Rewards/06.dds" />
+		<lua name="DynCode.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/features/v3_0/libs/DynCode.lua"/>
+		<xml name="data.xml" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/code/data.xml" memory="host"/>
+		<particle name="showcase_InwardDarkness.efx" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/effects/efx/showcase/InwardDarkness.efx" />
+		<particle name="showcase_OutwardFlare1.efx" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/effects/efx/showcase/OutwardFlare1.efx" />
+		<particle name="low_lying_steam.efx" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/effects/efx/showcase/low_lying_steam.efx" />
+		<lua name="ParamDb.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/features/v3_0/libs/ParamDb.lua"/>
+		<lua name="qEntity.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/features/v3_0/libs/qEntity.lua" />
+		<lua name="XmlConvert.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/features/v3_0/libs/XmlConvert.lua" />
+		<lua name="DefStore.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/shared/DefStore.lua" />
+		<lua name="FxLib.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/FxLib.lua"/>
+        <lua name="FxSystem.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/FxSystem.lua"/>
+        <lua name="fx_pool.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_pool.lua"/>
+        <lua name="fx_particle.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_particle.lua"/>
+        <lua name="fx_anim_model.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_anim_model.lua"/>
+        <lua name="fx_beam.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_beam.lua"/>
+        <lua name="fx_blank.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_blank.lua"/>
+        <lua name="fx_flash.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_flash.lua"/>
+        <lua name="fx_light.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_light.lua"/>
+        <lua name="fx_mesh_decay.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_mesh_decay.lua"/>
+        <lua name="fx_mesh_tween.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_mesh_tween.lua"/>
+        <lua name="fx_ray_cast.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_ray_cast.lua"/>
+        <lua name="fx_sound.lua" deferred_loading="true" protected="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Showcase_collection/Features/fx_lab/v3_0/libs/fx_sound.lua"/>
+	</local>
+	<external />
+</resources>

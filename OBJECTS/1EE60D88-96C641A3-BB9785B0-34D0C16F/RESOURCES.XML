@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="point" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/Textures/point.dds" />
+		<texture name="instructions" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/Textures/Instructions.dds" />
+		<texture name="howtoplay" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/howtoplay.dds" />
+		<texture name="controller" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/controller.dds" />
+		<texture name="console_back" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/console_back.dds" />
+		<texture name="triangle" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/triangle.dds" />
+		<file name="rom" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/LunarLander.bin" />
+		<soundbank name="sounds" deferred_loading="false" protected="false" file="ArcadeGames/LunarLander/Sounds/LunarLander.bnk" />
+		<lua name="6502.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/6502.luac" />
+		<lua name="game.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/game.luac" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/main.luac" />
+		<lua name="mainloop.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/mainloop.luac" />
+		<lua name="optimised.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/optimised.luac" />
+		<lua name="controller.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/controller.luac" />
+		<lua name="save.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/save.luac" />
+		<lua name="fullscreen.lua" deferred_loading="false" protected="true" file="ArcadeGames/LunarLander/fullscreen.luac" />
+	</local>
+	<external />
+</resources>
