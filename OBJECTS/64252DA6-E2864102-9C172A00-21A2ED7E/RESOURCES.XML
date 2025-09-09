@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="reloc.mdl" deferred_loading="false" protected="false" file="reloc/reloc.mdl" />
+		<texture name="SpotlightMask.dds" deferred_loading="false" protected="false" file="MiniGames/Play_Bootlegger/file/SpotlightMask.dds" />
+		<collision name="reloc.hkx" deferred_loading="false" protected="false" file="reloc/reloc.hkx" />
+		<anim name="reloc.ani" deferred_loading="false" protected="false" file="reloc/reloc.ani" />
+		<skeleton name="reloc.skn" deferred_loading="false" protected="false" file="reloc/reloc.skn" />
+		<soundbank name="Bootlegger_Relocator_Audio" deferred_loading="false" protected="false" file="MiniGames/Play_Bootlegger/audio/Bootlegger_Relocator_Audio.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/play_bootlegger/lua/minigame.lua" />
+	</local>
+	<external />
+</resources>

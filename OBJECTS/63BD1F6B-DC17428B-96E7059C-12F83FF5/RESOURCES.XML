@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="screen_horse.mdl" deferred_loading="false" file="MiniGames/Derby/Models/screen_horse.mdl" />
+		<model name="screen_wall.mdl" deferred_loading="false" file="MiniGames/Derby/Models/screen_wall.mdl" />
+		<model name="bullet_yellow.mdl" deferred_loading="false" file="MiniGames/Derby/Models/bullets/bullet_yellow.mdl" />
+		<model name="bullet_blue.mdl" deferred_loading="false" file="MiniGames/Derby/Models/bullets/bullet_blue.mdl" />
+		<model name="bullet_green.mdl" deferred_loading="false" file="MiniGames/Derby/Models/bullets/bullet_green.mdl" />
+		<model name="bullet_purple.mdl" deferred_loading="false" file="MiniGames/Derby/Models/bullets/bullet_purple.mdl" />
+		<model name="bullet_red.mdl" deferred_loading="false" file="MiniGames/Derby/Models/bullets/bullet_red.mdl" />
+		<model name="trajectory.mdl" deferred_loading="false" file="MiniGames/Derby/Models/trajectory.mdl" />
+		<model name="target_wormhead_blue.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormhead_blue.mdl" />
+		<model name="target_wormhead_green.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormhead_green.mdl" />
+		<model name="target_wormhead_purple.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormhead_purple.mdl" />
+		<model name="target_wormhead_red.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormhead_red.mdl" />
+		<model name="target_wormhead_yellow.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormhead_yellow.mdl" />
+		<model name="target_wormtail_blue.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormtail_blue.mdl" />
+		<model name="target_wormtail_green.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormtail_green.mdl" />
+		<model name="target_wormtail_purple.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormtail_purple.mdl" />
+		<model name="target_wormtail_red.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormtail_red.mdl" />
+		<model name="target_wormtail_yellow.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormtail_yellow.mdl" />
+		<model name="target_wormbody_blue.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormbody_blue.mdl" />
+		<model name="target_wormbody_green.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormbody_green.mdl" />
+		<model name="target_wormbody_purple.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormbody_purple.mdl" />
+		<model name="target_wormbody_red.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormbody_red.mdl" />
+		<model name="target_wormbody_yellow.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_wormbody_yellow.mdl" />
+		<model name="target_ghost_front_yellow.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_ghost_front_yellow.mdl" />
+		<model name="target_bird_body_green.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_bird_body_green.mdl" />
+		<model name="target_bird_body_purple.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_bird_body_purple.mdl" />
+		<model name="target_bird_body_yellow.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_bird_body_yellow.mdl" />
+		<model name="target_bird_body_blue.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_bird_body_blue.mdl" />
+		<model name="target_bird_body_red.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_bird_body_red.mdl" />
+		<model name="target_sun.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_sun.mdl" />
+		<model name="target_meerkat.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_meerkat.mdl" />
+		<model name="paintinator.mdl" deferred_loading="false" file="MiniGames/Derby/Models/paintinator.mdl" />
+		<model name="target_birdbeak_red.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_birdbeak_red.mdl" />
+		<model name="target_birdbeak_green.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_birdbeak_green.mdl" />
+		<model name="target_birdbeak_blue.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_birdbeak_blue.mdl" />
+		<model name="target_ghost_white.mdl" deferred_loading="false" file="MiniGames/Derby/Models/targets/target_ghost_white.mdl" />
+		<model name="stick.mdl" deferred_loading="false" file="MiniGames/Derby/Models/stick.mdl" />
+		<texture name="Background.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Background.dds" />
+		<texture name="Gun_Crosshair.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Cross_Hair.dds" />
+		<texture name="LBPStickers.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/LBPStickers.dds" />
+		<texture name="ProgressBoardBG.dds" deferred_loading="false" file="MiniGames/Derby/Textures/ProgressBoardBG.dds" />
+		<texture name="screen_wall.dds" deferred_loading="false" file="MiniGames/Derby/Textures/screen_wall.dds" />
+		<texture name="screen_horse.dds" deferred_loading="false" file="MiniGames/Derby/Textures/screen_horse.dds" />
+		<texture name="LBPDerby_Score.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/LBPDerby_Score.dds" />
+		<texture name="splash_trails.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/splash_trails.dds" />
+		<texture name="splash02.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/splash02.dds" />
+		<texture name="splash01.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/splash01.dds" />
+		<texture name="Rider_1.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_1.dds" />
+		<texture name="Rider_2.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_2.dds" />
+		<texture name="Rider_3.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_3.dds" />
+		<texture name="Rider_4.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_4.dds" />
+		<texture name="Rider_5.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_5.dds" />
+		<texture name="Rider_6.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_6.dds" />
+		<texture name="Rider_7.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_7.dds" />
+		<texture name="Rider_8.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/Rider_8.dds" />
+		<texture name="derby_hud_WaveTimer.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_WaveTimer.dds" />
+		<texture name="derby_hud_WaveBar.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_WaveBar.dds" />
+		<texture name="derby_hud_TimeBackdrop.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_TimeBackdrop.dds" />
+		<texture name="derby_hud_ClipBackdrop.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_ClipBackdrop.dds" />
+		<texture name="derby_hud_ClipAmmo_Yellow.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_ClipAmmo_Yellow.dds" />
+		<texture name="derby_hud_ClipAmmo_Red.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_ClipAmmo_Red.dds" />
+		<texture name="derby_hud_ClipAmmo_Purple.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_ClipAmmo_Purple.dds" />
+		<texture name="derby_hud_ClipAmmo_Green.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_ClipAmmo_Green.dds" />
+		<texture name="derby_hud_ClipAmmo_Blue.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_ClipAmmo_Blue.dds" />
+		<texture name="Wave_AM_Main.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/Wave_AM_Main.dds" />
+		<texture name="Wave_AM_Frame02.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/Wave_AM_Frame02.dds" />
+		<texture name="Wave_AM_Frame01.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/Wave_AM_Frame01.dds" />
+		<texture name="Wave_AM_Line.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/Wave_AM_Line.dds" />
+		<texture name="LBPDerby_Winner.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/LBPDerby_Winner.dds" />
+		<texture name="Vignette.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Misc/Vignette.dds" />
+		<texture name="LBPDerby_Sun01.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/LBPDerby_Sun01.dds" />
+		<texture name="splash03.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/splash03.dds" />
+		<texture name="trail01.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/trail01.dds" />
+		<texture name="muzzle01.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/muzzle01.dds" />
+		<texture name="splash_radial.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/splash_radial.dds" />
+		<texture name="LBPHubAtmos.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/LBPHubAtmos.dds" />
+		<texture name="LBPdust01.dds" deferred_loading="false" file="ATGParticles/LBPEffects/Textures/LBPdust01.dds" />
+		<texture name="derby_hud_GameInfo.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_GameInfo.dds" />
+		<texture name="Rider1.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider1.dds" />
+		<texture name="Rider2.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider2.dds" />
+		<texture name="Rider3.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider3.dds" />
+		<texture name="Rider4.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider4.dds" />
+		<texture name="Rider5.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider5.dds" />
+		<texture name="Rider6.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider6.dds" />
+		<texture name="Rider7.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider7.dds" />
+		<texture name="Rider8.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Riders/HighResRiders/Rider8.dds" />
+		<texture name="Wave_AM_Star.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/Wave_AM_Star.dds" />
+		<texture name="derby_hud_hgBackground.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_hgBackground.dds" />
+		<texture name="derby_hud_hgBottom.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_hgBottom.dds" />
+		<texture name="derby_hud_hgCardboard.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_hgCardboard.dds" />
+		<texture name="derby_hud_hgForeground.dds" deferred_loading="false" file="MiniGames/Derby/Textures/Hud/derby_hud_hgForeground.dds" />
+		<texture name="derby_hud_hgBlink.dds" deferred_loading="false" protected="false" file="MiniGames/Derby/Textures/Hud/derby_hud_hgBlink.dds" />
+		<texture name="Wave_AM_Star02.dds" deferred_loading="false" protected="false" file="MiniGames/Derby/Textures/Hud/Wave_AM_Star02.dds" />
+		<particle name="LBPStardust.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPStardust.efx" />
+		<particle name="LBPStickersHub.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPStickersHub.efx" />
+		<particle name="LBPDerby_Score.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_Score.efx" />
+		<particle name="LBPDerby_HitSplash.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_HitSplash.efx" />
+		<particle name="LBPDerby_MussleFlash.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_MussleFlash.efx" />
+		<particle name="LBPDerby_BulletTrail.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_BulletTrail.efx" />
+		<particle name="LBPDerby_Winner.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_Winner.efx" />
+		<particle name="LBPDerby_Sun.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_Sun.efx" />
+		<particle name="LBPDerby_ColourBonus.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_ColourBonus.efx" />
+		<particle name="LBPDerby_TargetSplash.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPDerby_TargetSplash.efx" />
+		<file name="Types.xml" deferred_loading="false" file="MiniGames/Derby/OSD/Types.xml" />
+		<file name="GameInfoChip.xml" deferred_loading="false" file="MiniGames/Derby/OSD/GameInfoChip.xml" />
+		<file name="WelcomeChip.xml" deferred_loading="false" file="MiniGames/Derby/OSD/WelcomeChip.xml" />
+		<file name="PlayersList.xml" deferred_loading="false" file="MiniGames/Derby/OSD/PlayersList.xml" />
+		<file name="FinishedInfoChip.xml" deferred_loading="false" file="MiniGames/Derby/OSD/FinishedInfoChip.xml" />
+		<file name="LoadSaveText.xml" deferred_loading="false" file="MiniGames/Derby/OSD/LoadSaveText.xml" />
+		<file name="RewardReceived.xml" deferred_loading="false" file="MiniGames/Derby/OSD/RewardReceived.xml" />
+		<anim name="fakegameplay.ani" deferred_loading="false" file="environments/lbphomearabianderby/models/animatedobjects/fakegameplay.ani" />
+		<anim name="horserider_1.ani" deferred_loading="false" file="MiniGames/Derby/Models/horserider_1.ani" />
+		<anim name="horserider_1_staticanim.ani" deferred_loading="false" file="MiniGames/Derby/Models/horserider_1_staticanim.ani" />
+		<soundbank name="Soundbank.bnk" deferred_loading="false" file="MiniGames/Derby/Soundbank.bnk" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Main.lua" />
+		<lua name="Input.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Input.lua" />
+		<lua name="Gun.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Gun.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Camera.lua" />
+		<lua name="Screen.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Screen.lua" />
+		<lua name="Target.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Target.lua" />
+		<lua name="AmmoClip.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/AmmoClip.lua" />
+		<lua name="Bullet.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Bullet.lua" />
+		<lua name="ShootingRange.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/ShootingRange.lua" />
+		<lua name="Track.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Track.lua" />
+		<lua name="Vector2.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Vector2.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Class.lua" />
+		<lua name="GameMain.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/GameMain.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Network.lua" />
+		<lua name="Network.Messages.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Network.Messages.lua" />
+		<lua name="RemotePlayer.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/RemotePlayer.lua" />
+		<lua name="GameMain.Horse.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/GameMain.Horse.lua" />
+		<lua name="ProgressBoard.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/ProgressBoard.lua" />
+		<lua name="Helpers.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Helpers.lua" />
+		<lua name="Collides.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Collides.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/List.lua" />
+		<lua name="TargetBehavior_Sun.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/TargetBehavior_Sun.lua" />
+		<lua name="TargetBehavior_Worm.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/TargetBehavior_Worm.lua" />
+		<lua name="Vector3.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Vector3.lua" />
+		<lua name="DummyTarget.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/DummyTarget.lua" />
+		<lua name="TargetBehavior_Ghost.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/TargetBehavior_Ghost.lua" />
+		<lua name="ScoreEvaluator.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/ScoreEvaluator.lua" />
+		<lua name="Particle.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Particle.lua" />
+		<lua name="ParticleManager.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/ParticleManager.lua" />
+		<lua name="InfoScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/InfoScreen.lua" />
+		<lua name="Canvas.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Canvas.lua" />
+		<lua name="Text.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/Text.lua" />
+		<lua name="OnScreenDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/OnScreenDisplay.lua" />
+		<lua name="SoundPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/SoundPlayer.lua" />
+		<lua name="TargetBehavior_Avalanche.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/TargetBehavior_Avalanche.lua" />
+		<lua name="TargetBehavior_Basic.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/TargetBehavior_Basic.lua" />
+		<lua name="FakeGameplay.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/FakeGameplay.lua" />
+		<lua name="TargetBehavior_Charger.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/TargetBehavior_Charger.lua" />
+		<lua name="MainHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/MainHelpers.lua" />
+		<lua name="SaveDataClient.lua" deferred_loading="false" protected="true" file="MiniGames/Derby/Source/SaveDataClient.lua" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="libs/util/PostScore.lua" />
+	</local>
+	<external />
+</resources>

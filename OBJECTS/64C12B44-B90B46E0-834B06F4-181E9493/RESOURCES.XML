@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/model/wheelchair_-_flower.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/anim/idle.ani" memory="host" />
+		<anim name="m_move.ani" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/anim/m_move.ani" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/anim/move.ani" memory="host" />
+		<anim name="m_idle.ani" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/anim/m_idle.ani" memory="host" />
+		<anim name="f_idle.ani" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/anim/f_idle.ani" memory="host" />
+		<anim name="f_move.ani" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/anim/f_move.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/skeleton/move.skn" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/wheelchair_-_flower/repertoire/female.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/wheelchair_-_flower/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Wheelchair_-_flower/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

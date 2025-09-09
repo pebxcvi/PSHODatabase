@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="crystalball" deferred_loading="false" file="MiniGames/MizFortune/models/mf_crystalball.mdl" memory="host" />
+		<model name="crystalsmoke" deferred_loading="false" file="MiniGames/MizFortune/models/mf_crystalball_smoke.mdl" memory="host" />
+		<model name="mf_hands_animated.mdl" deferred_loading="false" file="MiniGames/MizFortune/Animations/Midway2_MFHandsAnimated.mdl" memory="host" />
+		<texture name="scorebar" deferred_loading="false" file="MiniGames/Common/Textures/Score_Bar_OSD_c.dds" />
+		<texture name="scorebox" deferred_loading="false" file="MiniGames/Common/Textures/Score_Box_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Bullet_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_maroon_c.dds" />
+		<texture name="goal2" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_blue_c.dds" />
+		<texture name="goal5" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_orange_c.dds" />
+		<texture name="goal3" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_green_dark_c.dds" />
+		<texture name="goal4" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_purple_c.dds" />
+		<texture name="goal6" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_cyan_c.dds" />
+		<texture name="goal7" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_green_c.dds" />
+		<texture name="goal8" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_tan_c.dds" />
+		<texture name="goal9" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_pink_c.dds" />
+		<texture name="goal10" deferred_loading="false" file="MiniGames/MizFortune/Textures/MF_OSD_Goal_yellow_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<texture name="sphere" deferred_loading="false" file="MiniGames/MizFortune/Textures/sphere.dds" />
+		<texture name="treasurechest" deferred_loading="false" file="MiniGames/MizFortune/models/textures/mf_treasure_chest_c.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails/prizeplacard_03_01_female_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails/prizeplacard_03_01_male_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails/prizeplacard_03_03_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails/prizeplacard_03_04_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails/prizeplacard_03_07_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails/prizeplacard_03_10_female_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails/prizeplacard_03_10_male_THMB_128.png" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="Prize2_Female" deferred_loading="false" file="thumbnails/prizeplacard_03_02_female_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" file="thumbnails/prizeplacard_03_05_female_THMB_128.png" />
+		<texture name="Prize6" deferred_loading="false" file="thumbnails/prizeplacard_03_06_THMB_128.png" />
+		<texture name="Prize8" deferred_loading="false" file="thumbnails/prizeplacard_03_08_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" file="thumbnails/prizeplacard_03_09_female_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_03_09_male_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_03_05_male_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_03_02_male_THMB_128.png" />
+		<texture name="Prize3_japan" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_03_03_thmb_128_japan.png" />
+		<texture name="Prize8_japan" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_03_08_THMB_128_japan.png" />
+		<particle name="stars.efx" deferred_loading="false" file="MiniGames/MizFortune/Particles/stars.efx" memory="host" />
+		<particle name="starswin.efx" deferred_loading="false" file="MiniGames/MizFortune/Particles/starswin.efx" memory="host" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/StartUpDialog.xml" memory="host" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/WinnerDialog.xml" memory="host" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" memory="host" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" memory="host" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHud.xml" memory="host" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/MizFortune/OSD/types.xml" memory="host" />
+		<anim name="mf_hands_animated.ani" deferred_loading="false" file="MiniGames/MizFortune/Animations/Midway2_MFHandsAnimated.ani" memory="host" />
+		<skeleton name="mf_hands_animated.skn" deferred_loading="false" file="MiniGames/MizFortune/Animations/Midway2_MFHandsAnimated.skn" memory="host" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/MizFortune/Animations/Male_Animations.xml" memory="host" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/MizFortune/Animations/Female_Animations.xml" memory="host" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/Audio.lua" memory="host" />
+		<lua name="MF_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/MF_Settings.lua" memory="host" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/Camera.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/Game.lua" memory="host" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/Network.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/Player.lua" memory="host" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" memory="host" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" memory="host" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" memory="host" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" memory="host" />
+		<lua name="MizFortune.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/MizFortune.lua" memory="host" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" memory="host" />
+		<lua name="LightSet.lua" deferred_loading="false" protected="true" file="MiniGames/MizFortune/Source/LightSet.lua" memory="host" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" memory="host" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" memory="host" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" memory="host" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="padlock.mdl" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.mdl" />
+		<collision name="padlock.hkx" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.hkx" />
+		<anim name="padlock.ani" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.ani" />
+		<skeleton name="padlock.skn" deferred_loading="false" protected="false" file="apartments/ranch/assets/padlock.skn" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/MainSceneRewarder.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Ranch/PrairieHorse/Code/Controller.lua" />
+	</local>
+	<external />
+</resources>

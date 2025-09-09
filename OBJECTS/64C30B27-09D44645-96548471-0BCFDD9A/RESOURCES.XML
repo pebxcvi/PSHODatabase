@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model.mdl" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/models/JazzRadio.mdl" memory="host" />
+		<texture name="checkbox-off.dds" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/hud/checkbox-off.dds" memory="host" />
+		<texture name="checkbox-on.dds" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/hud/checkbox-on.dds" memory="host" />
+		<texture name="radiobutton_off.dds" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/hud/radiobutton_off.dds" memory="host" />
+		<texture name="radiobutton_on.dds" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/hud/radiobutton_on.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/files/Network.xml" memory="host" />
+		<collision name="collision.hkx" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/models/JazzRadio.hkx" memory="host" />
+		<soundstream name="Elegant_Jazzy_Night.mp3" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/sound/Elegant_Jazzy_Night.mp3" memory="host" />
+		<soundstream name="funny-business-complete.mp3" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/sound/funny-business-complete.mp3" memory="host" />
+		<soundstream name="Gossip.mp3" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/sound/Gossip.mp3" memory="host" />
+		<soundstream name="Happy_Piano_Duo.mp3" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/sound/Happy_Piano_Duo.mp3" memory="host" />
+		<soundstream name="Jazz_from_the_City.mp3" deferred_loading="false" protected="false" file="Actives/2014/jazz_radio/sound/Jazz_from_the_City.mp3" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Actives/2014/jazz_radio/lua/Main.lua" memory="host" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="Actives/2014/jazz_radio/lua/HUD.lua" memory="host" />
+		<lua name="HUDItem.lua" deferred_loading="false" protected="true" file="Actives/2014/jazz_radio/lua/HUDItem.lua" memory="host" />
+	</local>
+	<external />
+</resources>

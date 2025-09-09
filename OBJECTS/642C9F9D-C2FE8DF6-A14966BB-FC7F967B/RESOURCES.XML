@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Rocket.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/models/Rocket.mdl" />
+		<model name="Flag.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/models/Flag.mdl" />
+		<model name="AmericaDayMain.mdl" deferred_loading="true" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/AmericaDayMain.mdl" />
+		<model name="CanadaDayMain.mdl" deferred_loading="true" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/CanadaDayMain.mdl" />
+		<model name="can_twirly_80.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/can_twirly_80.mdl" />
+		<model name="usa_twirly_80.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/usa_twirly_80.mdl" />
+		<model name="Balloons_Canada.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/models/Balloons_Canada.mdl" />
+		<model name="Balloons_Mixed.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/models/Balloons_Mixed.mdl" />
+		<model name="Balloons_USA.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/models/Balloons_USA.mdl" />
+		<model name="can_flag_anim.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/can_flag_anim.mdl" />
+		<model name="usa_flag_anim.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/usa_flag_anim.mdl" />
+		<model name="PickUp1.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/models/PickUp1.mdl" />
+		<model name="PickUp2.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/models/PickUp2.mdl" />
+		<model name="Fireworks_Machine.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/fireworks_machine/Fireworks_Machine.mdl" />
+		<model name="JointDayMain.mdl" deferred_loading="true" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/JointDayMain.mdl" />
+		<model name="belt_off.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/fireworks_machine/belt_off.mdl" />
+		<model name="belt_on.mdl" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/fireworks_machine/belt_on.mdl" />
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" />
+		</texture>
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/July4th2012/EventGame/HUDTextures/button_O.dds" />
+		</texture>
+		<texture name="American_one.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/American_one.dds" />
+		<texture name="American_three.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/American_three.dds" />
+		<texture name="American_two.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/American_two.dds" />
+		<texture name="Canadian_one.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/Canadian_one.dds" />
+		<texture name="Canadian_three.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/Canadian_three.dds" />
+		<texture name="Canadian_two.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/Canadian_two.dds" />
+		<texture name="texture_instruction_bg.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/texture_instruction_bg.dds" />
+		<texture name="texture_instruction_bg_CANADA.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/texture_instruction_bg_CANADA.dds" />
+		<texture name="texture_instruction_bg_USA.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/texture_instruction_bg_USA.dds" />
+		<texture name="texture_one.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/texture_one.dds" />
+		<texture name="texture_three.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/texture_three.dds" />
+		<texture name="texture_two.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/texture_two.dds" />
+		<texture name="CommandsBar.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/CommandsBar.dds" />
+		<texture name="button_S" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/button_S.dds" />
+		<texture name="button_T" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/button_T.dds" />
+		<texture name="LevelSelector.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/LevelSelector.dds" />
+		<texture name="DifficultyBox.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/DifficultyBox.dds" />
+		<texture name="Popup_Menu.dds" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/Popup_Menu.dds" />
+		<texture name="America1" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/America1.dds" />
+		<texture name="America2" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/America2.dds" />
+		<texture name="America3" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/America3.dds" />
+		<texture name="Canada1" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Canada1.dds" />
+		<texture name="Canada2" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Canada2.dds" />
+		<texture name="Canada3" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Canada3.dds" />
+		<texture name="Both1" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Both1.dds" />
+		<texture name="Both2" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Both2.dds" />
+		<texture name="Both3" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Both3.dds" />
+		<texture name="Canada3mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Canada3mini.dds" />
+		<texture name="Canada1mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Canada1mini.dds" />
+		<texture name="Canada2mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Canada2mini.dds" />
+		<texture name="Both1mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Both1mini.dds" />
+		<texture name="Both2mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Both2mini.dds" />
+		<texture name="Both3mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/Both3mini.dds" />
+		<texture name="America1mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/America1mini.dds" />
+		<texture name="America2mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/America2mini.dds" />
+		<texture name="America3mini" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/GameTextures/America3mini.dds" />
+		<texture name="RankA" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/RankA.dds" />
+		<texture name="RankAA" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/RankAA.dds" />
+		<texture name="RankAAA" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/RankAAA.dds" />
+		<texture name="RankB" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/RankB.dds" />
+		<texture name="RankC" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/RankC.dds" />
+		<texture name="RankD" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/HUDTextures/RankD.dds" />
+		<particle name="fireworks.efx" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Effects/fireworks.efx" />
+		<particle name="trail.efx" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Effects/trail.efx" />
+		<particle name="smoke.efx" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Effects/smoke.efx" />
+		<particle name="spurt_smoke.efx" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Effects/spurt_smoke.efx" />
+		<particle name="explosion.efx" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Effects/explosion.efx" />
+		<collision name="Fireworks_Machine.hkx" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/fireworks_machine/Fireworks_Machine.hkx" />
+		<anim name="can_twirly_80.ani" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/can_twirly_80.ani" />
+		<anim name="usa_twirly_80.ani" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/usa_twirly_80.ani" />
+		<anim name="can_flag_anim.ani" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/can_flag_anim.ani" />
+		<anim name="usa_flag_anim.ani" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/usa_flag_anim.ani" />
+		<anim name="Fireworks_Machine.ani" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/fireworks_machine/Fireworks_Machine.ani" />
+		<skeleton name="can_twirly_80.skn" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/can_twirly_80.skn" />
+		<skeleton name="usa_twirly_80.skn" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/usa_twirly_80.skn" />
+		<skeleton name="can_flag_anim.skn" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/can_flag_anim.skn" />
+		<skeleton name="usa_flag_anim.skn" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/usa_flag_anim.skn" />
+		<skeleton name="Fireworks_Machine.skn" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/scenemodels/animated/fireworks_machine/Fireworks_Machine.skn" />
+		<soundbank name="EventGameSounds.bnk" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Sounds/EventGameSounds.bnk" />
+		<soundstream name="AmericaDay.mp3" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Sounds/AmericaDay.mp3" />
+		<soundstream name="CanadaDay.mp3" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Sounds/CanadaDay.mp3" />
+		<soundstream name="ClapSounds.mp3" deferred_loading="false" protected="false" file="MiniGames/July4th2012/EventGame/Sounds/ClapSounds.mp3" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Controller.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Game.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/GameHud.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Jamin.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Math.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Playmetrix.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/Tween.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="VidCapture.lua" deferred_loading="false" protected="true" file="MiniGames/July4th2012/EventGame/Code/VidCapture.lua" />
+	</local>
+	<external />
+</resources>

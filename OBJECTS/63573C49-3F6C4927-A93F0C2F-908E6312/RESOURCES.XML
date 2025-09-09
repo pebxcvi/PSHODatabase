@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ef_clear_mdl" deferred_loading="false" file="environmentanimations/dr_ring/dr_ringef_clear.mdl" memory="main" />
+		<model name="ef_miss_mdl" deferred_loading="false" file="environmentanimations/dr_ring/dr_ringef_miss.mdl" memory="main" />
+		<model name="dr_ring_mdl" deferred_loading="false" file="environmentanimations/dr_ring/dr_ring.mdl" memory="main" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/dol_test/types.xml" />
+		<file name="osd_centermenu" deferred_loading="false" file="MiniGames/dol_test/centermenu.xml" />
+		<file name="osd_warning" deferred_loading="false" file="MiniGames/dol_test/warning.xml" />
+		<file name="osd_lapwindow" deferred_loading="false" file="MiniGames/dol_test/lapwindow.xml" />
+		<file name="osd_resultwindow" deferred_loading="false" file="MiniGames/dol_test/resultwindow.xml" />
+		<file name="osd_centermes" deferred_loading="false" protected="false" file="MiniGames/dol_center/OSD/centermes.xml" />
+		<anim name="ef_clear_ani" deferred_loading="false" file="environmentanimations/dr_ring/dr_ringef_clear.ani" memory="main" />
+		<anim name="dr_ring_ani" deferred_loading="false" file="environmentanimations/dr_ring/dr_ring.ani" memory="main" />
+		<skeleton name="ef_clear_skn" deferred_loading="false" file="environmentanimations/dr_ring/dr_ringef_clear.skn" />
+		<skeleton name="dr_ring_skn" deferred_loading="false" file="environmentanimations/dr_ring/dr_ring.skn" memory="main" />
+		<soundbank name="bgm_dolphie" deferred_loading="true" file="environments/dolphy_room/audio/bgm_dolphie.bnk" memory="host" />
+		<soundbank name="se_dolphie_2" deferred_loading="true" file="environments/dolphy_room/audio/se_dolphie_2.bnk" memory="host" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/dol_test/main.lua" />
+	</local>
+	<external />
+</resources>

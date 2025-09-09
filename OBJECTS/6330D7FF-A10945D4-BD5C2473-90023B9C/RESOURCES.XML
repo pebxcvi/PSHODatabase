@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/Kittens_White_rig.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/Kittens_White_Lod02_rig.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/anim/Kittens_White_Idle01.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/anim/Kittens_White_Walk.ani" memory="main" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/anim/Kittens_White_run.ani" memory="host" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/anim/Kittens_White_Idle02.ani" memory="host" />
+		<anim name="ani.idle3" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/anim/Kittens_White_Idle03.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/Kittens/Kittens_White_rig.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Kittens/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

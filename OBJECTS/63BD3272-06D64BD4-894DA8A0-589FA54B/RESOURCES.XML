@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <lua name="libs.sys.assert" deferred_loading="true" protected="true" file="Libs/sys/assert.luac" memory="host" />
+    <lua name="lua.boot" deferred_loading="false" protected="true" file="Portables/CompanionV2Res/lua/boot.luac" memory="host" />
+    <lua name="lua.pet" deferred_loading="true" protected="true" file="Portables/CompanionV2Res/lua/pet.luac" memory="host" />
+    <lua name="lua.base" deferred_loading="true" protected="true" file="Portables/CompanionV2Res/lua/base.luac" memory="host" />
+    <lua name="lua.statemachine" deferred_loading="true" protected="true" file="Portables/CompanionV2Res/lua/statemachine.luac" memory="host" />
+    <lua name="lua.collider" deferred_loading="true" protected="true" file="Portables/CompanionV2Res/lua/collider.luac" memory="host" />
+    <lua name="lua.parse" deferred_loading="true" protected="true" file="Portables/CompanionV2Res/lua/parse.luac" memory="host" />
+    <lua name="lua.remote" deferred_loading="true" protected="true" file="Portables/CompanionV2Res/lua/remote.luac" memory="host" />
+    <lua name="lua.prefs" deferred_loading="true" protected="true" file="libs/hdk.luac" memory="host" />
+    <lua name="lua.special" deferred_loading="true" protected="true" file="portables/CompanionV2Res/lua/special.luac" memory="host" />
+  </local>
+  <external />
+</resources>

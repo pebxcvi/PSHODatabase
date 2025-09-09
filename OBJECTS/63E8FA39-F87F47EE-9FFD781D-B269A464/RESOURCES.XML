@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="LuxApt_Lakehouse_KitchenMicrowave_MDL" deferred_loading="false" protected="false" file="environmentanimations/luxapt_lakehouse_kitchenmicrowave/LuxApt_Lakehouse_KitchenMicrowave.mdl" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="MiniGames/MWDoor/blank.dds" />
+		<file name="Network_XML" deferred_loading="false" file="MiniGames/MWDoor/Network.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="MiniGames/MWDoor/OSD/types.xml" />
+		<file name="osd_textpanel" deferred_loading="false" protected="false" file="MiniGames/MWDoor/OSD/textpanel.xml" />
+		<collision name="LuxApt_Lakehouse_KitchenMicrowave_HKX" deferred_loading="false" protected="false" file="environmentanimations/luxapt_lakehouse_kitchenmicrowave/LuxApt_Lakehouse_KitchenMicrowave.hkx" />
+		<soundbank name="mw_door.bnk" deferred_loading="false" protected="false" file="MiniGames/MWDoor/mw_door.bnk" />
+		<lua name="MWDoor_LUA" deferred_loading="false" protected="true" file="MiniGames/MWDoor/MWDoor.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="MiniGames/MWDoor/MyPad.lua" />
+	</local>
+	<external />
+</resources>

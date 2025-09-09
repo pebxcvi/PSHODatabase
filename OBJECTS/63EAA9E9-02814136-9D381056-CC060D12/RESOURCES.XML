@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="wand1.mdl" deferred_loading="true" protected="false" file="locomotion/wand1.mdl" memory="main" />
+		<particle name="spell3a.efx" deferred_loading="false" protected="false" file="locomotion/spell3a.efx" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="locomotion/LMO_MagicWand2/file/config.xml" memory="host" />
+		<anim name="wand_2_idle_f.ani" deferred_loading="true" protected="false" file="animation/female/wand_2_idle_f/wand_2_idle_f.ani" memory="host" />
+		<anim name="wand_2__walk_f.ani" deferred_loading="true" protected="false" file="animation/female/wand_2__walk_f/wand_2__walk_f.ani" memory="host" />
+		<anim name="wand_2_emote_f.ani" deferred_loading="true" protected="false" file="animation/female/wand_2_emote_f/wand_2_emote_f.ani" memory="host" />
+		<anim name="wand_2_idle_m.ani" deferred_loading="true" protected="false" file="animation/male/wand_2_idle_m/wand_2_idle_m.ani" memory="host" />
+		<anim name="wand_2_walk_m.ani" deferred_loading="true" protected="false" file="animation/male/wand_2_walk_m/wand_2_walk_m.ani" memory="host" />
+		<anim name="wand_2_emote_m.ani" deferred_loading="true" protected="false" file="animation/male/wand_2_emote_m/wand_2_emote_m.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand2/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand2/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand2/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/LMO_MagicWand2/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Dandelion_with_particles/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

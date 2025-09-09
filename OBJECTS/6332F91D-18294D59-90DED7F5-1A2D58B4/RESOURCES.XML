@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Jukebox.mdl" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Jukebox.mdl" memory="host" />
+    <texture name="Jukebox_Button.dds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Textures/Jukebox_Button.dds" />
+    <texture name="Jukebox_Panel.dds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Textures/Jukebox_Panel.dds" />
+    <texture name="Selecter.dds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Textures/Selecter.dds" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Network.xml" />
+    <collision name="Jukebox.hkx" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Jukebox.hkx" />
+    <soundbank name="sounds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/jukebox.bnk" />
+    <soundstream name="Theme.mp3" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Sounds/50s_Rockin_1.mp3" memory="host" />
+    <soundstream name="Theme1.mp3" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Sounds/Boogie_Time_full.mp3" memory="host" />
+    <soundstream name="Theme2.mp3" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Sounds/Coastal_Curves_full.mp3" memory="host" />
+    <soundstream name="Theme3.mp3" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Sounds/Seafoam_And_Sandals_alt.mp3" memory="host" />
+    <soundstream name="Theme5.mp3" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Sounds/Undertow_full.mp3" memory="host" />
+    <soundstream name="Theme4.mp3" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Sounds/Sunset_full.mp3" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/50sdinner/jukebox/scripts/minigame_embed.luac" />
+    <lua name="Game.lua" deferred_loading="true" protected="true" file="minigames/50sdinner/jukebox/scripts/game.luac" memory="host" />
+    <lua name="Menu.lua" deferred_loading="true" protected="true" file="minigames/50sdinner/jukebox/scripts/menu.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="true" protected="true" file="minigames/50sdinner/jukebox/scripts/pad.luac" memory="host" />
+    <lua name="Jukebox.lua" deferred_loading="true" protected="true" file="minigames/50sdinner/jukebox/scripts/jukebox_embed.luac" memory="host" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="placeholderModel.mdl" deferred_loading="false" protected="false" file="furniture/placeholdermodel/placeholderModel.mdl" />
+		<model name="Bloody_Wall.mdl" deferred_loading="false" protected="false" file="furniture/bloody_wall/Bloody_Wall.mdl" />
+		<collision name="Bloody_Wall.hkx" deferred_loading="false" protected="false" file="furniture/bloody_wall/Bloody_Wall.hkx" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Games/Animated_Bleeding_Wall/lua/Main.luac" />
+	</local>
+	<external />
+</resources>

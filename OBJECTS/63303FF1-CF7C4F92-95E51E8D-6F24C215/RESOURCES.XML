@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Truck_MXT.mdl" deferred_loading="false" protected="false" file="environments/red_bull_beach/props/truck_mxt/Truck_MXT.mdl" />
+		<model name="Truck_MXT_Screen1.mdl" deferred_loading="false" protected="false" file="environments/red_bull_beach/props/truck_mxt/Truck_MXT_Screen1.mdl" />
+		<model name="Truck_MXT_Screen2.mdl" deferred_loading="false" protected="false" file="environments/red_bull_beach/props/truck_mxt/Truck_MXT_Screen2.mdl" />
+		<texture name="ButtonPromptPanel.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_MXTTruck/Textures/ButtonPromptPanel.dds" />
+		<texture name="tex_loading.dds" deferred_loading="false" protected="false" file="MiniGames/UIElements/textures/tex_loading.dds" />
+		<texture name="rb_can.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_MXTTruck/Textures/rb_can.dds" />
+		<texture name="rb_truck.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_MXTTruck/Textures/rb_truck.dds" />
+		<texture name="rb_wng_dn.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_MXTTruck/Textures/rb_wng_dn.dds" />
+		<texture name="rb_wng_up.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_MXTTruck/Textures/rb_wng_up.dds" />
+		<texture name="PopUp2.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/PopUp2.dds" />
+		<texture name="rb_tracks.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_MXTTruck/Textures/rb_tracks.dds" />
+		<file name="ui.xml" deferred_loading="false" protected="false" file="MiniGames/RedBull_MXTTruck/XML/ui.xml" />
+		<collision name="Truck_MXT.hkx" deferred_loading="false" protected="false" file="environments/red_bull_beach/props/truck_mxt/Truck_MXT.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/main.lua" />
+		<lua name="UIRegister.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/UIRegister.lua" />
+		<lua name="rect.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/rect.lua" />
+		<lua name="UIContainer.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIContainer.lua" />
+		<lua name="UIController.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIController.lua" />
+		<lua name="UIElement_Sprite.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIElement_Sprite.lua" />
+		<lua name="UIElement_TextBox.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIElement_TextBox.lua" />
+		<lua name="UIInterface.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIInterface.lua" />
+		<lua name="UILoader.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UILoader.lua" />
+		<lua name="UIManager.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIManager.lua" />
+		<lua name="UIPanel.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIPanel.lua" />
+		<lua name="UIScreen.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIScreen.lua" />
+		<lua name="UIView.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIView.lua" />
+		<lua name="controls.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/controls.lua" />
+		<lua name="controlSchemes.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/controlSchemes.lua" />
+		<lua name="Truck.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/Truck.lua" />
+		<lua name="HelicopterCamera.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/HelicopterCamera.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/Misc/misc.lua" />
+		<lua name="UITransitions.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UITransitions.lua" />
+		<lua name="SoundLib.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/SoundLib.lua" />
+		<lua name="TruckView.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/TruckView.lua" />
+		<lua name="UIElement_Image.lua" deferred_loading="false" protected="true" file="MiniGames/UIElements/UIElement_Image.lua" />
+		<lua name="TruckMicroGame.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/TruckMicroGame.lua" />
+		<lua name="LerpCam.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Flugtag/LerpCam.lua" />
+		<lua name="CameraShake.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/CameraShake.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/OHS.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/Jamin.lua" />
+		<lua name="StateStats.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_MXTTruck/StateStats.lua" />
+		<soundbank name="RB_MX_Truck.bnk" deferred_loading="false" protected="false" file="MiniGames/RedBull_Sound/RB_MX_Truck.bnk" />
+	</local>
+	<external />
+</resources>
