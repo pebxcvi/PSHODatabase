@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="RewardMachine.mdl" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/models/RewardMachine.mdl" memory="main" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/blank.dds" />
+		<texture name="Poker_chips_render_n.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Poker_chips_render_n.dds" />
+		<texture name="Dices_large_render.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Dices_large_render.dds" />
+		<texture name="Dices_large_render_d.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Dices_large_render_d.dds" />
+		<texture name="Dices_large_render_h.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Dices_large_render_h.dds" />
+		<texture name="Dices_large_render_n.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Dices_large_render_n.dds" />
+		<texture name="Poker_chips_render.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Poker_chips_render.dds" />
+		<texture name="Poker_chips_render_d.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Poker_chips_render_d.dds" />
+		<texture name="Poker_chips_render_h.dds" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/textures/Poker_chips_render_h.dds" />
+		<file name="machine_rewardlist.xml" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Machine1/machine_rewardlist.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/Network.xml" />
+		<collision name="RewardMachine.hkx" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/models/RewardMachine.hkx" />
+		<soundbank name="RewardMachine.bnk" deferred_loading="false" protected="false" file="MiniGames/rewardmachine/sound/RewardMachine.bnk" />
+		<lua name="InventoryCheck.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/InventoryCheck.lua" />
+		<lua name="Machine.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/Machine.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/Main.lua" />
+		<lua name="MyCamera.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/MyCamera.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/MyPad.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/State.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/StateMachine.lua" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="MiniGames/rewardmachine/programming/Updater.lua" />
+	</local>
+	<external />
+</resources>

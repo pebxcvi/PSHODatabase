@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Rabbit_Hopper_White.mdl" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/model/Rabbit_Hopper_White.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spunland_rabbit_hopper/file/config_HopperWhite.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/anim/Male_Hopper_Idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/anim/Male_Hopper_Hop.ani" memory="host" />
+		<anim name="fidle" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/anim/Female_Hopper_Idle.ani" memory="host" />
+		<anim name="fmove" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/anim/Female_Hopper_Hop.ani" memory="host" />
+		<anim name="Hopper_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/anim/Hopper_Idle.ani" memory="host" />
+		<anim name="Hopper_Hop.ani" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/anim/Hopper_Hop.ani" memory="host" />
+		<skeleton name="Rabbit_Hopper.skn" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/skeleton/Rabbit_Hopper.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/spunland_rabbit_hopper/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_rabbit_hopper/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

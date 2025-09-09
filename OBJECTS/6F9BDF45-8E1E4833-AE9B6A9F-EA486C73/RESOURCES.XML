@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Parts_Signboard_A.mdl" deferred_loading="false" protected="false" file="environments/dungeon_lounge/Parts_Signboard_A.mdl" />
+		<model name="Model.mdl" deferred_loading="false" protected="false" file="companion_follower/whale_thunder/model/model.mdl" />
+		<texture name="ui_waku_01.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_waku_01.dds" />
+		<texture name="ui_win_01.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_01.dds" />
+		<texture name="ui_win_02.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_02.dds" />
+		<texture name="ui_win_04.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_04.dds" />
+		<texture name="ui_ctg_01.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_ctg_01.dds" />
+		<texture name="ui_win_06.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_06.dds" />
+		<texture name="ui_win_07.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_07.dds" />
+		<texture name="ui_win_10.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_10.dds" />
+		<texture name="ui_win_11.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_11.dds" />
+		<texture name="ui_item_r01.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_item_r01.dds" />
+		<texture name="ui_item_r02.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_item_r02.dds" />
+		<texture name="ui_item_wk01.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_item_wk01.dds" />
+		<texture name="ui_item_02.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_item_02.dds" />
+		<texture name="ui_item_f.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_item_f.dds" />
+		<texture name="ui_item_q.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_item_q.dds" />
+		<texture name="ui_win_17.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_17.dds" />
+		<texture name="ui_win_03.dds" deferred_loading="false" protected="false" file="MiniGames/common/ui/ui_win_03.dds" />
+		<collision name="Parts_Signboard_A.hkx" deferred_loading="false" protected="false" file="environments/dungeon_lounge/Parts_Signboard_A.hkx" />
+		<collision name="pet_collsion_60.hkx" deferred_loading="false" protected="false" file="MiniGames/common/collision/pet_collsion_60.hkx" />
+		<anim name="idle1.ani" deferred_loading="false" protected="false" file="companion_follower/whale_thunder/anim/idle1.ani" />
+		<skeleton name="skeleton.skn" deferred_loading="false" protected="false" file="companion_follower/whale_thunder/skeleton/skeleton.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/MiniGame.lua" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/param.lua" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/pad.lua" />
+		<lua name="DemoSeq.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/DemoSeq.lua" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/seqMgr.lua" />
+		<lua name="menuInstance.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/menuInstance.lua" />
+		<lua name="menuInstanceMgr.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/menuInstanceMgr.lua" />
+		<lua name="menuObject.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/menuObject.lua" />
+		<lua name="sceneLib.lua" deferred_loading="false" protected="true" file="environments/sceneScript/sceneLib.lua" />
+		<lua name="ConsumeItemData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/ConsumeItemData.lua" />
+		<lua name="MaterialData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/MaterialData.lua" />
+		<lua name="gameData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/gameData.lua" />
+		<lua name="uvData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/uvData.lua" />
+		<lua name="AdvSeq.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/AdvSeq.lua" />
+		<lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/itemListCheker.lua" />
+		<lua name="CommonMenu.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/CommonMenu.lua" />
+		<lua name="CommonInit.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/CommonInit.lua" />
+		<lua name="DevelopmentData.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/DevelopmentData.lua" />
+		<lua name="ItemTradeData.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/ItemTradeData.lua" />
+		<lua name="StageData.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/StageData.lua" />
+		<lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/cameraMgr.lua" />
+		<lua name="DebugMenuSeq.lua" deferred_loading="false" protected="true" file="MiniGames/Pet_Trade/lua/DebugMenuSeq.lua" />
+	</local>
+	<external />
+</resources>

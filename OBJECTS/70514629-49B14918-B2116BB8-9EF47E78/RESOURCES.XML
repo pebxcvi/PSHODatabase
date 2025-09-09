@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="wallmodel" file="MiniGames/XiAlpha3/Models/WallMainA.mdl" />
+		<model name="ghost" deferred_loading="false" file="MiniGames/XiAlpha3/Models/Ghost.mdl" />
+		<model name="wallmodel2" deferred_loading="false" file="MiniGames/XiAlpha3/Models/WallMainB.mdl" />
+		<model name="wallwindow" deferred_loading="false" file="MiniGames/XiAlpha3/Models/WallWindow.mdl" />
+		<model name="wallbarrierred" deferred_loading="false" file="MiniGames/XiAlpha3/Models/WallBarrierRED.mdl" />
+		<model name="Vortex" deferred_loading="false" file="MiniGames/XiAlpha3/Models/Vortex.mdl" />
+		<model name="MazeTrophymodel" deferred_loading="false" file="MiniGames/XiAlpha3/Models/MazeTrophy.mdl" />
+		<texture name="bigalphabox" deferred_loading="false" file="MiniGames/XiAlpha1/Area1/images/bigalphaboxblackopaque.dds" />
+		<texture name="xialphabox" deferred_loading="false" file="MiniGames/XiAlpha1/Area1/images/xialphaboxblackopaque.dds" />
+		<collision name="wallbarrierredcollision" deferred_loading="false" file="MiniGames/XiAlpha3/Models/WallBarrierRED.hkx" />
+		<collision name="MazeTrophycollision" deferred_loading="false" file="MiniGames/XiAlpha3/Models/MazeTrophy.hkx" />
+		<soundbank name="mazebank" deferred_loading="false" file="MiniGames/XiAlpha3/Sound/Maze2_Ghost_Dynamic.bnk" />
+		<soundstream name="Maze2_Souls_Atms" deferred_loading="false" file="MiniGames/XiAlpha3/Sound/Maze2_Souls_Atms.mp3" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/XiAlpha3/maze2_GHOST.lua" />
+		<lua name="mazeshared" deferred_loading="false" protected="true" file="MiniGames/XiAlpha3/sharedalpha3code/mazeshared.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/CommApril_Starprojector_base.mdl" />
+		<model name="CommApril_Starprojector_arm.mdl" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/CommApril_Starprojector_arm.mdl" />
+		<model name="CommApril_Starprojector_ballBottom.mdl" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/CommApril_Starprojector_ballBottom.mdl" />
+		<model name="CommApril_Starprojector_ballTop.mdl" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/CommApril_Starprojector_ballTop.mdl" />
+		<model name="CommApril_Starprojector_lights.mdl" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/CommApril_Starprojector_lights.mdl" />
+		<texture name="CommApr_StarProjector_pblue.dds" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/textures/CommApr_StarProjector_pblue.dds" />
+		<texture name="CommApr_StarProjector_pred.dds" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/textures/CommApr_StarProjector_pred.dds" />
+		<texture name="CommApr_StarProjector_pgreen.dds" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/textures/CommApr_StarProjector_pgreen.dds" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/commapril/commapril_starprojector/models/CommApril_Starprojector_base.hkx" />
+		<lua name="CommApril_Starprojector.lua" deferred_loading="false" protected="true" file="activeitems/2011/commapril/commapril_starprojector/programming/CommApril_Starprojector.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="animatedmodels/junkmobile/Junkmobile_Black_remote.mdl" memory="host" />
+    <texture name="headlight-bright.dds" deferred_loading="false" protected="false" file="animatedmodels/junkmobile/textures/headlight-bright.dds" memory="host" />
+    <texture name="headlight-dim.dds" deferred_loading="false" protected="false" file="animatedmodels/junkmobile/textures/headlight-dim.dds" memory="host" />
+    <texture name="taillight-bright.dds" deferred_loading="false" protected="false" file="animatedmodels/junkmobile/textures/taillight-bright.dds" memory="host" />
+    <texture name="taillight-dim.dds" deferred_loading="false" protected="false" file="animatedmodels/junkmobile/textures/taillight-dim.dds" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="Actives/rssradio/files/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/junkmobilesofa/JunkmobileSofa.hkx" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="actives/rssradio/lua/main.luac" memory="host" />
+    <lua name="Player.lua" deferred_loading="false" protected="true" file="actives/rssradio/lua/player.luac" memory="host" />
+    <lua name="Updater.lua" deferred_loading="false" protected="true" file="actives/rssradio/lua/updater.luac" memory="host" />
+  </local>
+  <external />
+</resources>

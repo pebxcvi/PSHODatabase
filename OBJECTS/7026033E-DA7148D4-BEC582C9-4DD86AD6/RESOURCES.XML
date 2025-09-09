@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<anim name="anm_M_iwashi_slow" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_M_iwashi_walk.ani" memory="host" />
+		<anim name="anm_M_iwashi_fast" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_M_iwashi_run.ani" memory="host" />
+		<anim name="anm_F_iwashi_slow" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_F_iwashi_walk.ani" memory="host" />
+		<anim name="anm_F_iwashi_fast" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_F_iwashi_run.ani" memory="host" />
+		<anim name="anm_F_iwashi_ntr" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_F_iwashi_ntr.ani" memory="host" />
+		<anim name="anm_M_iwashi_ntr" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_M_iwashi_ntr.ani" memory="host" />
+		<anim name="anm_M_kasa_slow" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_M_kasa_walk.ani" memory="host" />
+		<anim name="anm_M_kasa_fast" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_M_kasa_run.ani" memory="host" />
+		<anim name="anm_F_kasa_slow" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_F_kasa_walk.ani" memory="host" />
+		<anim name="anm_F_kasa_fast" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_F_kasa_run.ani" memory="host" />
+		<anim name="anm_F_kasa_ntr" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_F_kasa_ntr.ani" memory="host" />
+		<anim name="anm_M_kasa_ntr" deferred_loading="false" protected="false" file="Edo/cmn_design/motion_costume/anm_M_kasa_ntr.ani" memory="host" />
+		<repertoire name="RepertoireMale" deferred_loading="false" protected="false" file="Edo/soft_jp_00/iwashiVendorMotionArea/file_ver2/RepertoireMale.xml" memory="host" />
+		<repertoire name="RepertoireFemale" deferred_loading="false" protected="false" file="Edo/soft_jp_00/iwashiVendorMotionArea/file_ver2/RepertoireFemale.xml" memory="host" />
+		<repertoire name="RepertoireMale_Kasa" deferred_loading="false" protected="false" file="Edo/soft_jp_00/iwashiVendorMotionArea/file_ver2/RepertoireMale_Kasa.xml" memory="host" />
+		<repertoire name="RepertoireFemale_Kasa" deferred_loading="false" protected="false" file="Edo/soft_jp_00/iwashiVendorMotionArea/file_ver2/RepertoireFemale_Kasa.xml" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/iwashiVendorMotionArea/lua_ver2/MiniGame.lua" />
+		<lua name="ChangeRepertoire.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/iwashiVendorMotionArea/lua_ver2/ChangeRepertoire.lua" />
+		<lua name="ChangeCloth.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/iwashiVendorMotionArea/lua_ver2/ChangeCloth.lua" />
+		<lua name="data.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/iwashiVendorMotionArea/lua_ver2/data.lua" />
+		<lua name="utilDebug.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/iwashiVendorMotionArea/lua_ver2/utilDebug.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Flag_p1_1_mdl" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_l/kadomatu_l.mdl" />
+		<model name="Flag_p1_2_mdl" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_r/kadomatu_r.mdl" />
+		<model name="Flag_p1_3_mdl" deferred_loading="false" file="JapanEvents/NewYear/goldenfoldingscreen/goldenfoldingscreen.mdl" />
+		<model name="Flag_p2_1_mdl" deferred_loading="false" file="JapanEvents/NewYear/fujitakanasubi/fuji.mdl" />
+		<model name="Flag_p2_2_mdl" deferred_loading="false" file="JapanEvents/NewYear/fujitakanasubi/taka.mdl" />
+		<model name="Flag_p2_3_mdl" deferred_loading="false" file="JapanEvents/NewYear/fujitakanasubi/nasubi.mdl" />
+		<model name="Flag_p3_1_mdl" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo.mdl" />
+		<model name="Flag_p3_2_mdl" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_miyagi.mdl" />
+		<model name="Flag_p3_3_mdl" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_tokyo.mdl" />
+		<model name="Flag_p3_4_mdl" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_yamagata.mdl" />
+		<model name="screen_mdl" deferred_loading="false" file="JapanEvents/NewYear/newyearcalender/newyearcalender.mdl" />
+		<texture name="edge_dds" deferred_loading="false" protected="false" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/textures/edge.dds" />
+		<texture name="spotlightmask_default_tex" deferred_loading="false" file="Objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/textures/spotlightmask_default.dds" />
+		<collision name="screen_hkx" deferred_loading="false" file="JapanEvents/NewYear/newyearcalender/newyearcalender.hkx" />
+		<collision name="Flag_p1_1_hkx" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_l/kadomatu_l.hkx" />
+		<collision name="Flag_p1_2_hkx" deferred_loading="false" file="JapanEvents/NewYear/kadomatsu_r/kadomatu_r.hkx" />
+		<collision name="Flag_p1_3_hkx" deferred_loading="false" file="JapanEvents/NewYear/goldenfoldingscreen/goldenfoldingscreen.hkx" />
+		<collision name="circle_hkx" deferred_loading="false" file="JapanEvents/10Xmas/testcollision/TestCollision.hkx" />
+		<collision name="circle2_hkx" deferred_loading="false" file="JapanEvents/10Xmas/testcollision/TestCollision_B.hkx" />
+		<collision name="circle3_hkx" deferred_loading="false" file="JapanEvents/10Xmas/testcollision/TestCollision_C.hkx" />
+		<anim name="Flag_p3_1_ani" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo.ani" />
+		<anim name="Flag_p3_2_ani" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_miyagi.ani" />
+		<anim name="Flag_p3_3_ani" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_tokyo.ani" />
+		<anim name="Flag_p3_4_ani" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_yamagata.ani" />
+		<skeleton name="Flag_p3_1_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo.skn" />
+		<skeleton name="Flag_p3_2_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_miyagi.skn" />
+		<skeleton name="Flag_p3_3_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_tokyo.skn" />
+		<skeleton name="Flag_p3_4_skn" deferred_loading="false" file="JapanEvents/nippon/navi_with_ufo/navi_with_ufo_yamagata.skn" />
+		<soundbank name="CameraSE" deferred_loading="false" protected="false" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/sound/FIFA_Camera.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/main.luac" />
+		<lua name="eventLoadLibrary" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventLoadLibrary.luac" />
+		<lua name="paHomeCommonDebug" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomeCommonDebug.luac" />
+		<lua name="eventtrigger" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventtrigger.luac" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomeServerTrigger.luac" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomeServerBase.luac" />
+		<lua name="eventMain" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventMain.luac" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomeCommon.luac" />
+		<lua name="parameters" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/parameters.luac" />
+		<lua name="eventserver" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventserver.luac" />
+		<lua name="paHomeServerCommon" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomeServerCommon.luac" />
+		<lua name="paHomeServerCustom" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomeServerCustom.luac" />
+		<lua name="eventStateGlobal" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventStateGlobal.luac" />
+		<lua name="eventStateGame" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventStateGame.luac" />
+		<lua name="mathx" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/mathx.luac" />
+		<lua name="misc" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/misc.luac" />
+		<lua name="RndUI" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/RndUI.luac" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomePosCalc.luac" />
+		<lua name="paHomePad2" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomePad2.luac" />
+		<lua name="eventDebugDraw" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventDebugDraw.luac" />
+		<lua name="renderParameters" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/renderParameters.luac" />
+		<lua name="eventparticle" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/eventparticle.luac" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="objects/6FB404C0-B14141CA-A0BD704B-99466430/resource/paHomeTime.luac" />
+	</local>
+	<external />
+</resources>

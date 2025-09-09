@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="Companion_Follower/Dust_Companion/Drone.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="Companion_Follower/Dust_Companion/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="Companion_Follower/Dust_Companion/Drone_walk.ani" memory="main" />
+		<anim name="idle3" deferred_loading="false" protected="false" file="Companion_Follower/Dust_Companion/Drone_hover_Idle.ani" memory="main" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="Companion_Follower/Dust_Companion/Drone_hover_Idle.ani" memory="host" />
+		<anim name="idle2" deferred_loading="false" protected="false" file="Companion_Follower/Dust_Companion/Drone_Idle_002.ani" memory="main" />
+		<anim name="run" deferred_loading="false" protected="false" file="Companion_Follower/Dust_Companion/Drone_run.ani" memory="main" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="Companion_Follower/Dust_Companion/Drone.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="Companion_Follower/Dust_Companion/lua/scriptremote.luac" id="217002282" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="Companion_Follower/Dust_Companion/lua/script.luac" memory="main" id="2428944273" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="Companion_Follower/Dust_Companion/lua/xml.luac" memory="main" id="146193299" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="Companion_Follower/Dust_Companion/lua/scriptlocal.luac" id="3209855585" />
+	</local>
+	<external />
+</resources>

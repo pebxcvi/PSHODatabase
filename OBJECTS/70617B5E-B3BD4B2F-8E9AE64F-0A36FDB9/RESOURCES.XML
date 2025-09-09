@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="true" protected="false" file="AvatarInteractionPacks/Fireman_Lift_Lead/file/configuration.xml" memory="host" />
+		<anim name="FiremanLift_Follow_F.ani" deferred_loading="true" protected="false" file="animation/femaleint/firemanlift_follow_f/FiremanLift_Follow_F.ani" memory="host" />
+		<anim name="FiremanLift_Lead_F.ani" deferred_loading="true" protected="false" file="animation/femaleint/firemanlift_lead_f/FiremanLift_Lead_F.ani" memory="host" />
+		<anim name="FiremanLift_Follow_M.ani" deferred_loading="true" protected="false" file="animation/male/firemanlift_follow_m/FiremanLift_Follow_M.ani" memory="host" />
+		<anim name="FiremanLift_Lead_M.ani" deferred_loading="true" protected="false" file="animation/male/firemanlift_lead_m/FiremanLift_Lead_M.ani" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarInteractionPacks/Fireman_Lift_Lead/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarInteractionPacks/Fireman_Lift_Lead/repertoire/female.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarInteractionPacks/Fireman_Lift_Lead/lua/boot.luac" memory="host" id="2854038485" />
+	</local>
+	<external />
+</resources>

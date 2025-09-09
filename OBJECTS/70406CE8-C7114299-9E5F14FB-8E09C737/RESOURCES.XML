@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="camera_w_tripod.mdl" deferred_loading="false" protected="false" file="furniture/camera_w_tripod/camera_w_tripod.mdl" memory="host" />
+		<model name="ACTIVE_VirtualCamera_On.mdl" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_on/ACTIVE_VirtualCamera_On.mdl" memory="host" />
+		<model name="ACTIVE_VirtualCamera_Off.mdl" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_off/ACTIVE_VirtualCamera_off.mdl" memory="host" />
+		<texture name="Stage_Camera_Overlay2.dds" deferred_loading="false" protected="false" file="Actives/PortableCamera/Texture/Stage_Camera_Overlay2.dds" memory="host" />
+		<texture name="Stage_Camera_Overlay1.dds" deferred_loading="false" protected="false" file="Actives/PortableCamera/Texture/Stage_Camera_Overlay1.dds" memory="host" />
+		<texture name="Block_Base.dds" deferred_loading="false" protected="false" file="MiniGames/RichCamera/Textures/Block_Base.dds" memory="host" />
+		<texture name="L_C_Base.dds" deferred_loading="false" protected="false" file="MiniGames/RichCamera/Textures/L_C_Base.dds" memory="host" />
+		<file name="basiclegend.xml" deferred_loading="false" protected="false" file="MiniGames/RichCamera/OSD/basiclegend.xml" memory="host" />
+		<file name="basictext.xml" deferred_loading="false" protected="false" file="MiniGames/RichCamera/OSD/basictext.xml" memory="host" />
+		<file name="textpanel.xml" deferred_loading="false" protected="false" file="MiniGames/RichCamera/OSD/textpanel.xml" memory="host" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/RichCamera/OSD/types.xml" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Actives/PortableCamera/Network/Network.xml" memory="host" />
+		<collision name="camera_w_tripod.hkx" deferred_loading="false" protected="false" file="furniture/camera_w_tripod/camera_w_tripod.hkx" memory="host" />
+		<collision name="ACTIVE_VirtualCamera_On.hkx" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_on/ACTIVE_VirtualCamera_On.hkx" memory="host" />
+		<collision name="ACTIVE_VirtualCamera_Off.hkx" deferred_loading="false" protected="false" file="furniture/active_virtualcamera_off/ACTIVE_VirtualCamera_off.hkx" memory="host" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Debugger.luac" memory="host" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Class.luac" memory="host" />
+		<lua name="lgs_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/lgs_lib.luac" memory="host" />
+		<lua name="class_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/class_lib.luac" memory="host" />
+		<lua name="state_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/state_lib.luac" memory="host" />
+		<lua name="camcorder.lua" deferred_loading="false" protected="true" file="MiniGames/Modular_Objects/camcorder.luac" memory="host" />
+		<lua name="main-new.lua" deferred_loading="false" protected="true" file="Actives/PortableCamera/LUA/main-new.luac" memory="host" />
+	</local>
+	<external />
+</resources>

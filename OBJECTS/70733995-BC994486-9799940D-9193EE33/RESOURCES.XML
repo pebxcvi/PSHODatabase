@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Arrow_Left" deferred_loading="false" protected="false" file="MiniGames/TournamentRules/art/buttonPageLeft.dds" />
+		<texture name="Arrow_Right" deferred_loading="false" protected="false" file="MiniGames/TournamentRules/art/buttonPageRight.dds" />
+		<texture name="Circle_Button" deferred_loading="false" protected="false" file="MiniGames/TournamentRules/art/Circle_Button.dds" />
+		<texture name="X_Button" deferred_loading="false" protected="false" file="MiniGames/TournamentRules/art/X_Button.dds" />
+		<texture name="paneInstruct.dds" deferred_loading="false" protected="false" file="MiniGames/TournamentRules/art/paneInstruct.dds" />
+		<texture name="cPad_None.dds" deferred_loading="false" protected="false" file="MiniGames/TournamentRules/art/cPad_None.dds" />
+		<texture name="TwoPair.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/TwoPair.dds" />
+		<texture name="Flush.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/Flush.dds" />
+		<texture name="FourofaKind.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/FourofaKind.dds" />
+		<texture name="FullHouse.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/FullHouse.dds" />
+		<texture name="OnePair.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/OnePair.dds" />
+		<texture name="RoyalFlush.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/RoyalFlush.dds" />
+		<texture name="Straight.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/Straight.dds" />
+		<texture name="StraightFlush.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/StraightFlush.dds" />
+		<texture name="ThreeofaKind.dds" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/ThreeofaKind.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/TournamentRules/file/Network.xml" />
+		<lua name="TournamentRules.lua" deferred_loading="false" protected="true" file="MiniGames/TournamentRules/lua/TournamentRules.lua" />
+		<lua name="gui" deferred_loading="false" protected="true" file="MiniGames/BlackJack/gui.lua" />
+		<lua name="GuiElement" deferred_loading="false" protected="true" file="MiniGames/BlackJack/GuiElement.lua" />
+	</local>
+	<external />
+</resources>

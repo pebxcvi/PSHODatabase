@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="md_visible_collision.mdl" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_visible_collision.mdl" />
+		<model name="digit0" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_0.mdl" />
+		<model name="digit1" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_1.mdl" />
+		<model name="digit2" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_2.mdl" />
+		<model name="digit3" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_3.mdl" />
+		<model name="digit4" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_4.mdl" />
+		<model name="digit5" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_5.mdl" />
+		<model name="digit6" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_6.mdl" />
+		<model name="digit7" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_7.mdl" />
+		<model name="digit8" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_8.mdl" />
+		<model name="digit9" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_placard_9.mdl" />
+		<model name="timeBoard" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_clock_placard.mdl" />
+		<model name="md_hair_idle.mdl" deferred_loading="false" file="environmentanimations/md_darla/md_hair_idle.mdl" />
+		<model name="md_kiss.mdl" deferred_loading="false" file="environmentanimations/md_darla/md_kiss.mdl" />
+		<collision name="md_collision.hkx" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_collision.hkx" />
+		<collision name="timeBoardCollision" deferred_loading="false" file="MiniGames/MeetDarla/Models/md_clock_placard.hkx" />
+		<anim name="md_kiss.ani" deferred_loading="false" file="environmentanimations/md_darla/md_kiss.ani" />
+		<anim name="md_idle.ani" deferred_loading="false" file="environmentanimations/md_darla/md_idle.ani" />
+		<anim name="md_malekiss" deferred_loading="false" file="animation/male/md_kissoncheek.ani" />
+		<anim name="md_femalekiss" deferred_loading="false" file="animation/female/md_kissoncheek.ani" />
+		<anim name="md_hair_idle.ani" deferred_loading="false" file="environmentanimations/md_darla/md_hair_idle.ani" />
+		<anim name="md_hair_kiss.ani" deferred_loading="false" file="environmentanimations/md_darla/md_hair_kiss.ani" />
+		<skeleton name="md_hair_idle.skn" deferred_loading="false" file="environmentanimations/md_darla/md_hair_idle.skn" />
+		<skeleton name="md_kiss.skn" deferred_loading="false" file="environmentanimations/md_darla/md_kiss.skn" />
+		<repertoire name="male_meet_darla" deferred_loading="false" file="MiniGames/MeetDarla/male_meet_darla.xml" />
+		<repertoire name="female_meet_darla" deferred_loading="false" file="MiniGames/MeetDarla/female_meet_darla.xml" />
+		<lua name="System.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/System.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Game.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/HelperFunctions.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Math.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Network.lua" />
+		<lua name="OnScreenDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/OnScreenDisplay.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Player.lua" />
+		<lua name="Settings_MD.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Settings_MD.lua" />
+		<lua name="Light.lua" deferred_loading="false" protected="true" file="MiniGames/MeetDarla/Source/Light.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+	</local>
+	<external />
+</resources>

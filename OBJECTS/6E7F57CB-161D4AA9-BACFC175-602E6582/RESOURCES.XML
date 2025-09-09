@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <lua name="lua.prefs" deferred_loading="false" protected="true" file="libs/hdk.luac" memory="host" />
+    <lua name="lua.boot" deferred_loading="false" protected="true" file="portables/LocomotionResource/lua/boot.luac" memory="host" />
+    <lua name="lua.parse" deferred_loading="false" protected="true" file="portables/LocomotionResource/lua/parse.luac" memory="host" />
+    <lua name="lua.statemachine" deferred_loading="true" protected="true" file="portables/LocomotionResource/lua/statemachine.luac" memory="host" />
+    <lua name="libs.utils.printtable" deferred_loading="true" protected="true" file="Libs/utils/printtable.luac" memory="host" />
+    <lua name="lua.special" deferred_loading="true" protected="true" file="portables/locomotionresource/lua/special.luac" memory="host" />
+  </local>
+  <external />
+</resources>

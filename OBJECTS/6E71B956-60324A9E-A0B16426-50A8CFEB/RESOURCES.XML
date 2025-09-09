@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_Retroflyer" deferred_loading="true" protected="false" file="locomotionassets/RetroFlyer_Biplane_BlackSilver.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Retroflyer/file/config_biplane.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/Idle_Biplane.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/Left_Biplane.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/Move_Biplane.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/Right_Biplane.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/FLeft_Biplane.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/FMove_Biplane.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/FRight_Biplane.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/FIdle_Biplane.ani" memory="host" />
+		<anim name="ani_RetroFlyer_Idle" deferred_loading="true" protected="false" file="locomotionassets/RetroFlyer_Biplane_Idle.ani" memory="host" />
+		<anim name="ani_RetroFlyer_Move" deferred_loading="true" protected="false" file="locomotionassets/RetroFlyer_Biplane_Move.ani" memory="host" />
+		<anim name="ani_RetroFlyer_Boost" deferred_loading="true" protected="false" file="locomotionassets/RetroFlyer_Biplane_Boost.ani" memory="host" />
+		<anim name="Boost.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/Boost_Biplane.ani" memory="host" />
+		<anim name="FBoost.ani" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/anim/FBoost_Biplane.ani" memory="host" />
+		<skeleton name="skn_Retroflyer" deferred_loading="true" protected="false" file="locomotionassets/RetroFlyer_Biplane_Idle.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/Retroflyer/biplane_repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/Retroflyer/biplane_repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Retroflyer/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Retroflyer/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

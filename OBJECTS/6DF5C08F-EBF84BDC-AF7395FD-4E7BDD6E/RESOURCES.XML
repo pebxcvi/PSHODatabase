@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Screen.mdl" deferred_loading="false" protected="false" file="furniture/screen_new/screen_new.mdl" />
+		<collision name="Screen.hkx" deferred_loading="false" protected="false" file="furniture/screen_new/screen_new.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/main.lua" />
+		<lua name="time.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/common/time.lua" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/common/mathx.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/common/misc.lua" />
+		<lua name="ResDownload.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/common/ResDownload.lua" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/common/task.lua" />
+		<lua name="Screen.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/Screen.lua" />
+		<lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/common/xmlUtil.lua" />
+		<lua name="Poster.lua" deferred_loading="false" protected="true" file="MiniGames/ExtraPoster/Poster.lua" />
+	</local>
+	<external />
+</resources>

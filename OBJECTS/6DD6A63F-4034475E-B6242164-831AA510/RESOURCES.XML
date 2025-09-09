@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="domeSegment_mdl" deferred_loading="false" protected="false" file="environments/underspunheights/domeSegment.mdl" />
+		<model name="Neotopia_Flag_Upright_mdl" deferred_loading="false" protected="false" file="Locomotion/Neotopia_Flag/Neotopia_Flag_Upright.mdl" />
+		<model name="discoFloor_mdl" deferred_loading="false" protected="false" file="environments/underspunheights/discoFloor.mdl" />
+		<particle name="takeOff_efx" deferred_loading="false" protected="false" file="environments/underspunheights/ATGparticles/takeOff.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/neotopia_hub_game/file/Network.xml" />
+		<collision name="domeSegment_hkx" deferred_loading="false" protected="false" file="environments/underspunheights/domeSegment.hkx" />
+		<anim name="Neotopia_Flag_Upright_ani" deferred_loading="false" protected="false" file="Locomotion/Neotopia_Flag/Neotopia_Flag_Upright.ani" />
+		<skeleton name="Neotopia_Flag_Upright_skn" deferred_loading="false" protected="false" file="Locomotion/Neotopia_Flag/Neotopia_Flag_Upright.skn" />
+		<soundbank name="neoHubSnds_bnk" deferred_loading="false" protected="false" file="MiniGames/neotopia_hub_game/audio/neoHubSnds.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/neotopia_hub_game/lua/MiniGame.lua" />
+		<lua name="cDisco" deferred_loading="false" protected="true" file="MiniGames/neotopia_hub_game/lua/cDisco.lua" />
+		<lua name="cDome" deferred_loading="false" protected="true" file="MiniGames/neotopia_hub_game/lua/cDome.lua" />
+		<lua name="cFlags" deferred_loading="false" protected="true" file="MiniGames/neotopia_hub_game/lua/cFlags.lua" />
+		<lua name="cPlayerState" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cPlayerState.lua" />
+		<lua name="cPlayer" deferred_loading="false" protected="true" file="MiniGames/Underspun_Heights_Game/lua/cPlayer.lua" />
+		<lua name="cVectorBlend" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlend.lua" />
+	</local>
+	<external />
+</resources>

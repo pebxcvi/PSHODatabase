@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="parasol.mdl" deferred_loading="false" protected="false" file="Locomotion/parasol/Parasol.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Parasol/file/config.xml" memory="host" />
+		<anim name="F_Parasol_open_Idle" deferred_loading="true" protected="false" file="Locomotion/parasol/F_Parasol_open_Idle.ani" memory="host" />
+		<anim name="Parasol_open_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/parasol/Parasol_open_Idle.ani" memory="host" />
+		<anim name="F_Parasol_Run" deferred_loading="true" protected="false" file="Locomotion/parasol/F_Parasol_Run.ani" memory="host" />
+		<anim name="F_Parasol_Walk" deferred_loading="true" protected="false" file="Locomotion/parasol/F_Parasol_Walk.ani" memory="host" />
+		<anim name="M_Parasol_Run" deferred_loading="true" protected="false" file="Locomotion/parasol/M_Parasol_Run.ani" memory="host" />
+		<anim name="M_Parasol_Walk" deferred_loading="true" protected="false" file="Locomotion/parasol/M_Parasol_Walk.ani" memory="host" />
+		<anim name="M_Parasol_Open_Idle" deferred_loading="true" protected="false" file="Locomotion/parasol/M_Parasol_Open_Idle.ani" memory="host" />
+		<skeleton name="parasol.skn" deferred_loading="true" protected="false" file="Locomotion/parasol/Parasol.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Parasol/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Parasol/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Parasol/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Parasol/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Parasol/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="basketball_hoop.mdl" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball_hoop.mdl" />
+		<model name="basketball_scoreboard.mdl" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball_scoreboard.mdl" />
+		<model name="basketball4.mdl" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball4.mdl" />
+		<model name="basketball2.mdl" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball2.mdl" />
+		<model name="basketball3.mdl" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball3.mdl" />
+		<model name="basketball1.mdl" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball.mdl" />
+		<model name="net_animation.mdl" deferred_loading="false" file="environmentanimations/net_animation/net_animation.mdl" />
+		<texture name="indicator.dds" deferred_loading="false" file="MiniGames/ShootingHoops/Textures/indicator.dds" />
+		<texture name="buttonbar.dds" deferred_loading="false" file="MiniGames/ShootingHoops/Textures/buttonbar.dds" />
+		<texture name="sweetspot.dds" deferred_loading="false" file="MiniGames/ShootingHoops/Textures/sweetspot.dds" />
+		<texture name="basketball_scoreboard_texture_spec.dds" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball_scoreboard_texture_spec.dds" />
+		<texture name="basketball_scoreboard_texture.dds" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball_scoreboard_texture.dds" />
+		<texture name="basketball_scoreboard_texture_nrm.dds" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball_scoreboard_texture_nrm.dds" />
+		<texture name="spacer.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/spacer.dds" />
+		<texture name="background1.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/background1.dds" />
+		<texture name="background2.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/background2.dds" />
+		<texture name="ball_hit.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/ball_hit.dds" />
+		<texture name="ball_miss.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/ball_miss.dds" />
+		<texture name="shot_taking.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/shot_taking.dds" />
+		<texture name="050.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/050.dds" />
+		<texture name="001.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/001.dds" />
+		<texture name="002.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/002.dds" />
+		<texture name="003.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/003.dds" />
+		<texture name="004.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/004.dds" />
+		<texture name="005.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/005.dds" />
+		<texture name="006.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/006.dds" />
+		<texture name="007.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/007.dds" />
+		<texture name="008.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/008.dds" />
+		<texture name="009.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/009.dds" />
+		<texture name="010.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/010.dds" />
+		<texture name="011.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/011.dds" />
+		<texture name="012.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/012.dds" />
+		<texture name="013.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/013.dds" />
+		<texture name="014.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/014.dds" />
+		<texture name="015.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/015.dds" />
+		<texture name="016.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/016.dds" />
+		<texture name="017.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/017.dds" />
+		<texture name="018.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/018.dds" />
+		<texture name="019.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/019.dds" />
+		<texture name="020.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/020.dds" />
+		<texture name="021.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/021.dds" />
+		<texture name="022.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/022.dds" />
+		<texture name="023.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/023.dds" />
+		<texture name="024.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/024.dds" />
+		<texture name="025.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/025.dds" />
+		<texture name="026.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/026.dds" />
+		<texture name="027.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/027.dds" />
+		<texture name="028.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/028.dds" />
+		<texture name="029.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/029.dds" />
+		<texture name="030.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/030.dds" />
+		<texture name="031.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/031.dds" />
+		<texture name="032.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/032.dds" />
+		<texture name="033.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/033.dds" />
+		<texture name="034.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/034.dds" />
+		<texture name="035.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/035.dds" />
+		<texture name="036.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/036.dds" />
+		<texture name="037.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/037.dds" />
+		<texture name="038.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/038.dds" />
+		<texture name="039.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/039.dds" />
+		<texture name="040.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/040.dds" />
+		<texture name="041.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/041.dds" />
+		<texture name="042.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/042.dds" />
+		<texture name="043.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/043.dds" />
+		<texture name="044.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/044.dds" />
+		<texture name="045.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/045.dds" />
+		<texture name="046.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/046.dds" />
+		<texture name="047.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/047.dds" />
+		<texture name="048.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/048.dds" />
+		<texture name="049.dds" deferred_loading="false" file="MiniGames/ShootingHoops/GUI/PowerMeter/049.dds" />
+		<particle name="basketball.efx" deferred_loading="false" file="ATGParticles/basketball.efx" />
+		<particle name="ball_disappear.efx" deferred_loading="false" file="ATGParticles/ball_disappear.efx" />
+		<file name="basictext.xml" deferred_loading="false" file="MiniGames/ShootingHoops/OSD/basictext.xml" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/ShootingHoops/Network.xml" />
+		<collision name="basketball_hoop.hkx" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball_hoop.hkx" />
+		<collision name="basketball_scoreboard.hkx" deferred_loading="false" file="MiniGames/ShootingHoops/Models/basketball_scoreboard.hkx" />
+		<collision name="Basketball1.hkx" deferred_loading="false" file="MiniGames/ShootingHoops/Models/Basketball.hkx" />
+		<anim name="basketball_throw.ani" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/male/basketball_throw.ani" />
+		<anim name="basketball_idle.ani" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/male/basketball_idle.ani" />
+		<anim name="basketball_throw female.ani" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/female/basketball_throw.ani" />
+		<anim name="basketball_idle female.ani" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/female/basketball_idle.ani" />
+		<anim name="net_animation.ani" deferred_loading="false" protected="" file="environmentanimations/net_animation/net_animation.ani" />
+		<anim name="standframe.ani" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/male/standframe.ani" />
+		<anim name="standframe female.ani" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/female/standanimation.ani" />
+		<skeleton name="net_animation.skn" deferred_loading="false" file="environmentanimations/net_animation/net_animation.skn" />
+		<soundbank name="hoops.bnk" deferred_loading="false" file="MiniGames/ShootingHoops/Sounds/hoops.bank" memory="host" />
+		<repertoire name="ShootingHoopsMale" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/ShootingHoopsMale.xml" />
+		<repertoire name="ShootingHoopsFemme" deferred_loading="false" protected="" file="MiniGames/ShootingHoops/Animations/ShootingHoopsFemale.xml" />
+		<lua name="ShootingHoops.lua" deferred_loading="false" protected="true" file="MiniGames/ShootingHoops/ShootingHoops.lua" />
+		<lua name="HighScores.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/HighScores.lua" />
+		<lua name="PadManager.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/PadManager.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Class.lua" />
+		<lua name="OSDManager.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/OSDManager.lua" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Debugger.lua" />
+		<lua name="SyncedState.lua" deferred_loading="false" protected="true" file="MiniGames/ShootingHoops/SyncedState.lua" />
+		<lua name="Console.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Console.lua" />
+		<lua name="AnimatedSprite.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/AnimatedSprite.lua" />
+		<lua name="Sprites.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Sprites.lua" />
+		<lua name="leaderboard.lua" deferred_loading="false" protected="true" file="MiniGames/ShootingHoops/leaderboard/leaderboard.lua" />
+		<lua name="LeaderboardManager.lua" deferred_loading="false" protected="true" file="MiniGames/ShootingHoops/LeaderboardManager.lua" />
+		<lua name="Instructions.lua" deferred_loading="false" protected="true" file="MiniGames/ShootingHoops/Instructions.lua" />
+	</local>
+	<external />
+</resources>

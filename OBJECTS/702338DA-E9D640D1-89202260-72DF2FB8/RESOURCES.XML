@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="pulp_radio.mdl" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/models/pulp_radio.mdl" memory="host" />
+    <texture name="checkbox-off.dds" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/hud/checkbox-off.dds" memory="host" />
+    <texture name="checkbox-on.dds" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/hud/checkbox-on.dds" memory="host" />
+    <texture name="radiobutton_off.dds" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/hud/radiobutton_off.dds" memory="host" />
+    <texture name="radiobutton_on.dds" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/hud/radiobutton_on.dds" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/files/Network.xml" memory="host" />
+    <collision name="pulp_radio.hkx" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/models/pulp_radio.hkx" memory="host" />
+    <soundstream name="sun-and-sea.mp3" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/sound/Sun_And_Sea.mp3" memory="host" />
+    <soundstream name="quentin.mp3" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/sound/Quentin.mp3" memory="host" />
+    <soundstream name="bang-boom.mp3" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/sound/Bang_Boom.mp3" memory="host" />
+    <soundstream name="mexican-heartbreaker.mp3" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/sound/Mexican_Heartbreaker.mp3" memory="host" />
+    <soundstream name="mr-pink.mp3" deferred_loading="false" protected="false" file="Actives/2013/pulp_radio/sound/Mr_Pink.mp3" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="actives/2013/pulp_radio/lua/main.luac" memory="host" />
+    <lua name="HUD.lua" deferred_loading="false" protected="true" file="actives/2013/pulp_radio/lua/hud.luac" memory="host" />
+    <lua name="HUDItem.lua" deferred_loading="false" protected="true" file="actives/2013/pulp_radio/lua/huditem.luac" memory="host" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Information_Board_A_mdl" deferred_loading="false" file="japanevents/informationboarda/Information_Board_A.mdl" />
+		<model name="Information_Board_B_mdl" deferred_loading="false" file="japanevents/informationboardb/Information_Board_B.mdl" />
+		<collision name="Information_Board_A_hkx" deferred_loading="false" file="japanevents/informationboarda/Information_Board_A.hkx" />
+		<collision name="Information_Board_B_hkx" deferred_loading="false" file="japanevents/informationboardb/Information_Board_B.hkx" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="objects/702FE9A2-D4E14AFD-BF4E7925-AF9AB2B3/InformationBoard/paHomeCommon.lua" />
+		<lua name="InformationBoard" deferred_loading="false" protected="true" file="objects/702FE9A2-D4E14AFD-BF4E7925-AF9AB2B3/InformationBoard/InformationBoard.lua" />
+		<lua name="serverurl" deferred_loading="false" protected="true" file="objects/702FE9A2-D4E14AFD-BF4E7925-AF9AB2B3/InformationBoard/serverurl.lua" />
+		<lua name="serveraccess" deferred_loading="false" protected="true" file="objects/702FE9A2-D4E14AFD-BF4E7925-AF9AB2B3/InformationBoard/serveraccess.lua" />
+	</local>
+	<external />
+</resources>

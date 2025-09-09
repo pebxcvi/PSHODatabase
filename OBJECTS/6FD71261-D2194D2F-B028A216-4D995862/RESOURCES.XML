@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="GoalieModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/RobotGoalieRef.mdl" />
+		<model name="GoalieTubeModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionTubeSumo.mdl" />
+		<model name="FootballModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/ball.mdl" />
+		<model name="GoalModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/goal.mdl" />
+		<model name="NetModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net.mdl" />
+		<model name="Targeter" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/targeter.mdl" />
+		<model name="GoalieHandModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionHandSumo.mdl" />
+		<model name="GoalieHeadModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionHeadSumo.mdl" />
+		<model name="GoalieBodyModel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionCubeSumo.mdl" />
+		<model name="VFX_PowerupEffect_model" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/PowerupEffect.mdl" />
+		<model name="VFX_LightShafts_model" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/LightShafts.mdl" />
+		<model name="game_model" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/game_area.mdl" />
+		<texture name="HUD_timer" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_timer_c.dds" />
+		<texture name="HUD_goalie" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_goalie_icon_c.dds" />
+		<texture name="HUD_powerarrow" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_powerarrow_c.dds" />
+		<texture name="HUD_powerbar" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_powerbar_c.dds" />
+		<texture name="HUD_star" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/penalty_star_c.dds" />
+		<texture name="HUD_goalieEye" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_goalieEye.dds" />
+		<texture name="HUD_banner" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_banner_c.dds" />
+		<texture name="HUD_catAttract" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_cat_enticing_c.dds" />
+		<texture name="HUD_catHappy" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_cat_happy_c.dds" />
+		<texture name="HUD_catSad" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_cat_sad_c.dds" />
+		<texture name="OSD_background" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/OSD_background_c.dds" />
+		<texture name="HUD_scoreboard" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/textures/HUD_scoreboard_background_c.dds" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/BeatTheGoalie/Network.xml" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/BeatTheGoalie/OSD/types.xml" />
+		<file name="OSD_playNow" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/OSD/play_now_menu.xml" />
+		<file name="OSD_instructions" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/OSD/instructions.xml" />
+		<file name="OSD_welcome" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/OSD/welcome.xml" />
+		<collision name="GoalieTubeCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionTubeSumo.hkx" />
+		<collision name="FootballCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/ball.hkx" />
+		<collision name="GoalCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/Goal.hkx" />
+		<collision name="game_collision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/game_area.hkx" />
+		<collision name="GoalieHandCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionHandSumo.hkx" />
+		<collision name="GoalieBodyCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionCubeSumo.hkx" />
+		<collision name="GoalieHeadCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/CollisionHeadSumo.hkx" />
+		<collision name="SurroundCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/game_area_in_game.hkx" />
+		<collision name="GoalLineCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/goal_line.hkx" />
+		<collision name="NetTopCollision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net_collision_block_top.hkx" />
+		<collision name="NetBlock1Collision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net_collision_block_1.hkx" />
+		<collision name="NetBlock2Collision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net_collision_block_2.hkx" />
+		<collision name="NetBlock3Collision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net_collision_block_3.hkx" />
+		<collision name="NetBlock4Collision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net_collision_block_4.hkx" />
+		<collision name="NetBlock5Collision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net_collision_block_5.hkx" />
+		<collision name="NetBlock6Collision" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/net_collision_block_6.hkx" />
+		<anim name="CrouchWait_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_CrouchWait.ani" />
+		<anim name="ReactSave_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_Celebrate.ani" />
+		<anim name="ReactFail_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_PoweringUp.ani" />
+		<anim name="DiveTopLeft_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_DiveHighLeft.ani" />
+		<anim name="DiveMidLeft_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_DiveMidLeft.ani" />
+		<anim name="DiveLowLeft_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_DiveLowLeft.ani" />
+		<anim name="DiveTopRight_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_DiveHighRight.ani" />
+		<anim name="DiveMidRight_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_DiveMidRight.ani" />
+		<anim name="DiveLowRight_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_DiveLowRight.ani" />
+		<anim name="Taunt_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_Taunt.ani" />
+		<anim name="DiveForward_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_DiveForward.ani" />
+		<anim name="VFX_PowerupEffect_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/PowerupEffect.ani" />
+		<anim name="VFX_LightShafts_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/LightShafts.ani" />
+		<anim name="DiveStarJump_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_StarJump.ani" />
+		<anim name="DiveCentreSpread_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_CentreSpread.ani" />
+		<anim name="DiveScorpionKick_anim" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/Goalie_ScorpionKick.ani" />
+		<skeleton name="GoalieSkel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Models/RobotGoalieRef.skn" />
+		<skeleton name="VFX_PowerupEffect_skel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/PowerupEffect.skn" />
+		<skeleton name="VFX_LightShafts_skel" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/animations/LightShafts.skn" />
+		<soundbank name="BTGSounds" deferred_loading="false" protected="false" file="MiniGames/BeatTheGoalie/Sound/BTGSounds.bnk" memory="host" />
+		<lua name="VEEMEEDebug" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/VEEMEEDebug.lua" />
+		<lua name="VMTimers" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/Timers.lua" />
+		<lua name="VMPad" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/Pad.lua" />
+		<lua name="BeatTheGoalieGame" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/BeatTheGoalieGame.lua" />
+		<lua name="BeatTheGoalie" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/BeatTheGoalie.lua" />
+		<lua name="BeatTheGoalieFSM" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/BeatTheGoalieFSM.lua" />
+		<lua name="ObjectPool" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/ObjectPool.lua" />
+		<lua name="List" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/List.lua" />
+		<lua name="DynamicEntity" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/DynamicEntity.lua" />
+		<lua name="BeatTheGoalieMiniGame" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/BeatTheGoalieMiniGame.lua" />
+		<lua name="ScreenFader" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/ScreenFader.lua" />
+		<lua name="VMCamera" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/Camera.lua" />
+		<lua name="BTGScoreRequest" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/BTGScoreRequest.lua" />
+		<lua name="BTGScore" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/BTGScore.lua" />
+		<lua name="Goalie" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/Goalie.lua" />
+		<lua name="Collisions" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/Collisions.lua" />
+		<lua name="Hud" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/Hud.lua" />
+		<lua name="VMLights" deferred_loading="false" protected="true" file="MiniGames/BeatTheGoalie/Lights.lua" />
+	</local>
+	<external />
+</resources>
