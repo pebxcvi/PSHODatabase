@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="remoteModel" deferred_loading="true" protected="false" file="companion_follower/peeps_release_02/creepyorange/Peep_6A_C_idle.mdl" memory="host" />
+		<model name="localModel" deferred_loading="true" protected="false" file="companion_follower/peeps_release_02/creepyorange/HEAD_CreepyOrange.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="companion_follower/Peep_1A_C/file/configurationNew02.xml" memory="host" />
+		<file name="Idle.mp3" deferred_loading="false" protected="false" file="furniture/peeps_release_01/peep_6a/peep_6a_audio/Idle.mp3" />
+		<collision name="col.sphere" deferred_loading="false" protected="false" file="CompanionFollowers/New_Peeps/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="die" deferred_loading="true" protected="false" file="companion_follower/newanimations/dieAnimation.ani" />
+		<anim name="jump" deferred_loading="true" protected="false" file="companion_follower/newanimations/jumpAnimation.ani" />
+		<anim name="wave" deferred_loading="true" protected="false" file="companion_follower/newanimations/waveAnimation.ani" />
+		<anim name="run" deferred_loading="true" protected="false" file="furniture/peeps_release_01/peep_1a/Peep_1A_C_run.ani" memory="host" />
+		<anim name="walk" deferred_loading="true" protected="false" file="furniture/peeps_release_01/peep_1a/Peep_1A_C_walk.ani" memory="host" />
+		<anim name="idle" deferred_loading="true" protected="false" file="companion_follower/newanimations/idle.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="companion_follower/peeps_release_02/peep_6b/Peep_6A_C_idle.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/New_Peeps/soundbank/audio.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/New_Peeps/lua/boot.luac" memory="host" id="437254856" />
+	</local>
+	<external />
+</resources>

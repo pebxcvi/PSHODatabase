@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="SoundPacks/4th_July/file/Whistle_config.xml" memory="main" />
+		<anim name="F_Marching" deferred_loading="true" protected="false" file="animation/female/pennywhistle/PennyWhistle_Idle.ani" memory="host" />
+		<anim name="M_Marching" deferred_loading="true" protected="false" file="animation/male/pennywhistle/PennyWhistle_Idle.ani" />
+		<soundbank name="bnk.PennyWhistle" deferred_loading="true" protected="false" file="SoundPacks/4th_July/soundbank/Whistle_SoundPack.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="SoundPacks/4th_July/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="SoundPacks/4th_July/repertoire/female.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="SoundPacks/Sound_Pack_Test/lua/boot.luac" memory="host" id="3699705613" />
+	</local>
+	<external />
+</resources>

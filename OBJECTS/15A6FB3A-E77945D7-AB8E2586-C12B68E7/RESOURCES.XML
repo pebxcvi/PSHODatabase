@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="texture_title_fr" deferred_loading="false" protected="false" file="april2012/2d/title/title_area_00_fr.dds" memory="host" />
+		<texture name="texture_title" deferred_loading="false" protected="false" memory="host">
+			<override file="april2012/2d/title/title_area_00_fr.dds" locale="fr-*" />
+			<override file="april2012/2d/title/title_area_00_de.dds" locale="de-*" />
+			<override file="april2012/2d/title/title_Area_00_it.dds" locale="it-*" />
+			<override file="april2012/2d/title/title_Area_00_es.dds" locale="es-*" />
+			<override file="april2012/2d/title/title_Area_00_gb.dds" locale="en-GB" />
+			<override file="april2012/2d/title/title_Area_00.dds" locale="ja-*" />
+			<override file="April2012/2D/title/title_Area_00_us.dds" />
+		</texture>
+		<lua name="CameraMove.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/IntroCamera/lua/CameraMove.lua" memory="host" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/IntroCamera/lua/Data6.lua" memory="host" />
+		<lua name="LuaMath.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/IntroCamera/lua/LuaMath.lua" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/IntroCamera/lua/MiniGame.lua" memory="host" />
+		<lua name="Rail.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/IntroCamera/lua/Rail.lua" memory="host" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/DataStation/lua/dataInterface.lua" memory="host" />
+		<lua name="VersionStationIF.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/VersionStation/lua/VersionStationIF.lua" />
+		<!--<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/Lib/lua/UtilGarbage.lua" />-->
+		<lua name="IntroCameraIF.lua" deferred_loading="false" protected="true" file="April2012/Shinjyuku/soft_jp_00/IntroCamera/lua/IntroCameraIF.lua" />
+		
+		<lua name="GetRegionResource.lua" deferred_loading="false" protected="true" file="April2012/GetRegionResource.lua" />
+	</local>
+	<external />
+</resources>

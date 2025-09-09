@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CeilingFan" deferred_loading="false" protected="false" file="furniture/ceilingfan/CeilingFan.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Budget_Fan_toy/file/Network.xml" />
+		<anim name="CeilingFanAni" deferred_loading="false" protected="false" file="furniture/ceilingfan/CeilingFan.ani" />
+		<anim name="CeilingFanSlowDownAni" deferred_loading="false" protected="false" file="furniture/ceilingfan/CeilingFanSlowDown.ani" />
+		<anim name="CeilingFanSpeedUpAni" deferred_loading="false" protected="false" file="furniture/ceilingfan/CeilingFanSpeedUp.ani" />
+		<skeleton name="CeilingFanSkn" deferred_loading="false" protected="false" file="furniture/ceilingfan/CeilingFan.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Budget_Fan_toy/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

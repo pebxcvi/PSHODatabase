@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network.xml" deferred_loading="false" protected="false" file="games/Yacht_Bed/file/Network.xml" />
+		<anim name="FemaleLounge_Idle_Cycle_Left" deferred_loading="false" protected="false" file="animation/female/FemaleLounge_Idle_Cycle_Left.ani" />
+		<anim name="Female-lounge_Idle_Cycle_Right" deferred_loading="false" protected="false" file="animation/female/Female-lounge_Idle_Cycle_Right.ani" />
+		<anim name="MaleLounge_Idle_Cycle_Left" deferred_loading="false" protected="false" file="animation/male/MaleLounge_Idle_Cycle_Left.ani" />
+		<anim name="MaleLounge_Idle_Cycle_Right" deferred_loading="false" protected="false" file="animation/male/MaleLounge_Idle_Cycle_Right.ani" />
+		<repertoire name="VIP_Seat_Male" deferred_loading="false" protected="false" file="animation/Repertoires/VIP_Seat_Male.xml" />
+		<repertoire name="VIP_Seat_Female" deferred_loading="false" protected="false" file="animation/Repertoires/VIP_Seat_Female.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/MiniGame.lua" />
+		<lua name="CameraManager.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/CameraManager.lua" />
+		<lua name="SeatManager.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/SeatManager.lua" />
+		<lua name="SeatResources.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/SeatResources.lua" />
+		<lua name="Component_GameTriggerMove.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/Component_GameTriggerMove.lua" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/Core.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/EventManager.lua" />
+		<lua name="GamePad.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/GamePad.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/Misc.lua" />
+		<lua name="Misc_LockPlayer.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/Misc_LockPlayer.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/StateMachine.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/Library/Util.lua" />
+		<lua name="CameraState_Idle.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/States/CameraStates/CameraState_Idle.lua" />
+		<lua name="CameraState_LieDownCam.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/States/CameraStates/CameraState_LieDownCam.lua" />
+		<lua name="SeatState_Idle.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/States/SeatStates/SeatState_Idle.lua" />
+		<lua name="SeatState_LieDown.lua" deferred_loading="false" protected="true" file="games/Yacht_Bed/lua/States/SeatStates/SeatState_LieDown.lua" />
+		<lua name="Communicator.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator.lua" />
+		<lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator_ProjectDefined.lua" />
+	</local>
+	<external />
+</resources>

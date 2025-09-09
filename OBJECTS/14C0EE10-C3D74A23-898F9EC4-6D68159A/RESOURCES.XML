@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="stockcar_prop.mdl" deferred_loading="false" protected="false" file="Actives/2013/stockcar_prop/models/stockcar_prop_blue.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Actives/2013/stockcar_prop/file/Network.xml" />
+		<collision name="stockcar_prop.hkx" deferred_loading="false" protected="false" file="Actives/2013/stockcar_prop/models/stockcar_prop.hkx" />
+		<soundstream name="rev" deferred_loading="false" protected="false" file="Actives/2013/stockcar_prop/sound/rev.mp3" memory="host" />
+		<soundstream name="start" deferred_loading="false" protected="false" file="Actives/2013/stockcar_prop/sound/start.mp3" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Actives/2013/stockcar_prop/lua/Main.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="Actives/2013/stockcar_prop/lua/Player.lua" memory="host" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="Actives/2013/stockcar_prop/lua/Updater.lua" memory="host" />
+		<lua name="SoundStreamMgr.lua" deferred_loading="false" protected="true" file="Actives/2013/stockcar_prop/lua/SoundStreamMgr.lua" memory="host" />
+	</local>
+	<external />
+</resources>

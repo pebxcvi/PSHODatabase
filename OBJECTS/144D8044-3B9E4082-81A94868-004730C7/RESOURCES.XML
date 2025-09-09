@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="RD_Vending_Machine.mdl" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/props/RD_Vending_Machine.mdl" />
+		<texture name="simon_button_off.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/simon_button_off.dds" />
+		<texture name="simon_button_on.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/simon_button_on.dds" />
+		<texture name="Button1.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/Button1.dds" />
+		<texture name="Button2.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/Button2.dds" />
+		<texture name="Button3.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/Button3.dds" />
+		<texture name="ButtonBack.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ButtonBack.dds" />
+		<texture name="ButtonCircle1.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ButtonCircle1.dds" />
+		<texture name="ButtonCircle2.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ButtonCircle2.dds" />
+		<texture name="ButtonCircle3.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ButtonCircle3.dds" />
+		<texture name="Numbers.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/Numbers.dds" />
+		<texture name="ScorePanel.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ScorePanel.dds" />
+		<texture name="Button1Lit.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/Button1Lit.dds" />
+		<texture name="Button2Lit.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/Button2Lit.dds" />
+		<texture name="Button3Lit.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/Button3Lit.dds" />
+		<texture name="ButtonCircle1Lit.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ButtonCircle1Lit.dds" />
+		<texture name="ButtonCircle2Lit.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ButtonCircle2Lit.dds" />
+		<texture name="ButtonCircle3Lit.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/ButtonCircle3Lit.dds" />
+		<texture name="PopUp1.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/PopUp1.dds" />
+		<texture name="PopUp2.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/textures/PopUp2.dds" />
+		<texture name="tex_loading.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/UIElements/textures/tex_loading.dds" />
+		<texture name="msgbox_tex.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/UIMsgBox/textures/msgbox_tex.dds" />
+		<texture name="ps3_buttons_tex.dds" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/UIMsgBox/textures/ps3_buttons_tex.dds" />
+		<file name="simon_ui.xml" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/xml/simon_ui.xml" />
+		<collision name="RD_Vending_Machine.hkx" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/props/RD_Vending_Machine.hkx" />
+		<soundbank name="RB_Simon.bnk" deferred_loading="false" protected="false" file="MiniGames/RedBull_Simon/sound/RB_Simon.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/main.lua" />
+		<lua name="game.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/game.lua" />
+		<lua name="playerData.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/playerData.lua" />
+		<lua name="ohs.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/ohs.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/Jamin.lua" />
+		<lua name="encrypt.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/encrypt.lua" />
+		<lua name="simon_game.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/simon_game.lua" />
+		<lua name="FSM.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/FSM.lua" />
+		<lua name="controls.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/controls.lua" />
+		<lua name="controlSchemes.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/controlSchemes.lua" />
+		<lua name="UIRegister.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIRegister.lua" />
+		<lua name="SimonButton.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/SimonButton.lua" />
+		<lua name="RewardTracker.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/RewardTracker.lua" />
+		<lua name="StateStats.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/StateStats.lua" />
+		<lua name="msgBox_mgr.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIMsgBox/msgBox_mgr.lua" />
+		<lua name="msgBox_Renderer.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIMsgBox/msgBox_Renderer.lua" />
+		<lua name="HelicopterCamera.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/HelicopterCamera.lua" />
+		<lua name="LerpCam.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/LerpCam.lua" />
+		<lua name="StartCountdown.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/StartCountdown.lua" />
+		<lua name="SoundLib.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/SoundLib.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/misc.lua" />
+		<lua name="rect.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/rect.lua" />
+		<lua name="UIController.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIController.lua" />
+		<lua name="UIElement_Bar.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIElement_Bar.lua" />
+		<lua name="UIElement_Button.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIElement_Button.lua" />
+		<lua name="UIElement_Image.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIElement_Image.lua" />
+		<lua name="UIElement_List.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIElement_List.lua" />
+		<lua name="UIElement_NumberSprite.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIElement_NumberSprite.lua" />
+		<lua name="UIElement_Sprite.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIElement_Sprite.lua" />
+		<lua name="UIElement_TextBox.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIElement_TextBox.lua" />
+		<lua name="UIInterface.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIInterface.lua" />
+		<lua name="UILoader.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UILoader.lua" />
+		<lua name="UIManager.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIManager.lua" />
+		<lua name="UIPanel.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIPanel.lua" />
+		<lua name="UIScreen.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIScreen.lua" />
+		<lua name="UITransition_Fade.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UITransition_Fade.lua" />
+		<lua name="UITransitions.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UITransitions.lua" />
+		<lua name="UIView.lua" deferred_loading="false" protected="true" file="MiniGames/RedBull_Simon/UIElements/UIView.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commjuly_2010/commjuly_snake/models/SnakeTerrarium.mdl" />
+		<model name="Snake.mdl" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_snake/models/Snake.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commjuly_2010/commjuly_snake/models/SnakeTerrarium.hkx" />
+		<anim name="CommJuly_Snake_Slithering.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_snake/models/anims/CommJuly_Snake_Slithering.ani" />
+		<anim name="CommJuly_Snake_Looking.ani" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_snake/models/anims/CommJuly_Snake_Looking.ani" />
+		<skeleton name="Snake.skn" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_snake/models/Snake.skn" />
+		<soundbank name="snake.bnk" deferred_loading="false" protected="false" file="ActiveItems/commjuly_2010/commjuly_snake/audio/snake.bnk" />
+		<lua name="snake.lua" deferred_loading="false" protected="true" file="ActiveItems/commjuly_2010/commjuly_snake/programming/snake.lua" />
+	</local>
+	<external />
+</resources>

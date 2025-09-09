@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/2013/lights/tiki_torch/Tiki_Torches.mdl" memory="host" />
+    <model name="flame.mdl" deferred_loading="false" protected="false" file="furniture/2013/lights/tiki_torch/Tiki_Torch_Fire.mdl" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/2013/lights/tiki_torch/Tiki_Torches.hkx" memory="host" />
+    <anim name="flame.ani" deferred_loading="false" protected="false" file="furniture/2013/lights/tiki_torch/Tiki_Torch_Fire.ani" memory="host" />
+    <skeleton name="flame.skn" deferred_loading="false" protected="false" file="furniture/2013/lights/tiki_torch/Tiki_Torch_Fire.skn" memory="host" />
+    <soundbank name="audio.bnk" deferred_loading="false" protected="false" file="furniture/2013/lights/tiki_torch/audio/TikiTorch_Flame.bnk" memory="host" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="Actives/TikiTorch/lua/main.lua" memory="host" />
+    <lua name="strict.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/strict.lua" memory="host" />
+    <lua name="config.lua" deferred_loading="false" protected="true" file="Actives/TikiTorch/lua/double_config/config.lua" memory="host" />
+  </local>
+  <external />
+</resources>

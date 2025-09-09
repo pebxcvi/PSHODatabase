@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="pterodactyl.mdl" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/Pterodactyl.mdl" memory="host" />
+		<model name="Pterodactyl_lod.mdl" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/Pterodactyl_lod.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Pterodactyl_mount/file/config.xml" memory="host" />
+		<anim name="Pterodactyl_run.ani" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/Pterodactyl_run.ani" memory="host" />
+		<anim name="F_Pterodactyl_run.ani" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/F_Pterodactyl_run.ani" memory="host" />
+		<anim name="M_Pterodactyl_run" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/M_Pterodactyl_run.ani" memory="host" />
+		<anim name="F_Pterodactyl_Idle" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/F_Pterodactyl_Idle.ani" memory="host" />
+		<anim name="M_Pterodactyl_Idle" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/M_Pterodactyl_Idle.ani" memory="host" />
+		<anim name="Pterodactyl_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/Pterodactyl_Idle.ani" memory="host" />
+		<skeleton name="pterodactyl.skn" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/Pterodactyl.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Pterodactyl_mount/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Pterodactyl_mount/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

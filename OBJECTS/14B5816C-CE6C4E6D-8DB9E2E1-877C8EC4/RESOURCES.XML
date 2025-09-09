@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/model/zombie_water.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/model/zombie_water_lo.mdl" memory="host" />
+		<particle name="pfx.smoke" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/particle/smoke.efx" memory="host" />
+		<particle name="pfx.fly" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_water/particle/fly.efx" memory="host" />
+		<particle name="pfx.trails" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_water/particle/trails.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_water/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/walk.ani" memory="host" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/applaud.ani" memory="host" />
+		<anim name="ani.flap" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/an_flap.ani" memory="host" />
+		<anim name="ani.flap2" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/an_flap2.ani" memory="host" />
+		<anim name="ani.sat" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/an_sat.ani" memory="host" />
+		<anim name="ani.land" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/an_land.ani" memory="host" />
+		<anim name="ani.twist" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/an_twist.ani" memory="host" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/an_yawn.ani" memory="host" />
+		<anim name="ani.fly" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/an_fly.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/run.ani" memory="host" />
+		<anim name="ani.shakefists" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/anim/shakefists.ani" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="CompanionFollowers/zombie_water/skeleton/zombie_water.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/zombie_water/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/zombie_water/lua/boot.luac" memory="host" id="437254856" />
+	</local>
+	<external />
+</resources>

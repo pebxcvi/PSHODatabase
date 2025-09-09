@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Station_map.mdl" deferred_loading="false" protected="false" file="environments/loot_space_station/Station_map.mdl" />
+		<model name="leaderboard_screen.mdl" deferred_loading="false" protected="false" file="environments/loot_space_station/leaderboard_screen.mdl" />
+		<particle name="TransportBeam.efx" deferred_loading="false" protected="false" file="ATGParticles/SpaceStation/TransportBeam.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/file/Network.xml" />
+		<file name="basicchip.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/basicchip.xml" />
+		<file name="basiclegend.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/basiclegend.xml" />
+		<file name="basicpopup.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/basicpopup.xml" />
+		<file name="basicsinglegraphic.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/basicsinglegraphic.xml" />
+		<file name="basictext.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/basictext.xml" />
+		<file name="simplemenu.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/simplemenu.xml" />
+		<file name="textpanel.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/textpanel.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/osd/types.xml" />
+		<soundbank name="bank_rapid_transport.bnk" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/audio/bank_rapid_transport.bnk" />
+		<lua name="transport_main.lua" deferred_loading="false" protected="true" file="MiniGames/LOOT_Rapid_Transport/lua/transport_main.lua" />
+		<lua name="class_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/class_lib.lua" />
+	</local>
+	<external />
+</resources>

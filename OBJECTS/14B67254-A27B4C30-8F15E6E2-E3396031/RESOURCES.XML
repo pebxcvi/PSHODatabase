@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="balloon.mdl" deferred_loading="true" protected="false" file="locomotion/balloon.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Cutie_Balloon/file/config.xml" memory="host" />
+		<anim name="skip_balloon.ani" deferred_loading="true" protected="false" file="animation/female/cutie_skip/skip_balloon.ani" />
+		<anim name="balloon_emote.ani" deferred_loading="true" protected="false" file="animation/female/cutie_balloon/balloon_emote.ani" memory="host" />
+		<anim name="balloon_loop.ani" deferred_loading="true" protected="false" file="animation/female/cutie_balloon/balloon_loop.ani" memory="host" />
+		<anim name="balloon_model_idle.ani" deferred_loading="true" protected="false" file="locomotion/balloon_model_idle.ani" memory="host" />
+		<anim name="balloon_model_run.ani" deferred_loading="true" protected="false" file="locomotion/balloon_model_run.ani" memory="host" />
+		<anim name="balloon_emote.ani_1" deferred_loading="true" protected="false" file="animation/male/cutie_balloon/balloon_emote.ani" memory="host" />
+		<anim name="balloon_loop.ani_1" deferred_loading="true" protected="false" file="animation/male/cutie_balloon/balloon_loop.ani" memory="host" />
+		<anim name="skip_balloon.ani_1" deferred_loading="true" protected="false" file="animation/male/cutie_skip/skip_balloon.ani" memory="host" />
+		<skeleton name="balloon.skn" deferred_loading="true" protected="false" file="locomotion/balloon.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Cutie_Balloon/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Cutie_Balloon/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Cutie_Balloon/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Cutie_Balloon/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Cutie_Balloon/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

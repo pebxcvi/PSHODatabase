@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/cutt_demonic_ottoman/CUTT_Demonic_Ottoman_01.mdl" memory="host" />
+    <model name="COOK_StandMixer_Silver_RIG.mdl" deferred_loading="false" protected="false" file="furniture/cook_standmixer/COOK_StandMixer_Silver_RIG.mdl" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/cook_standmixer/Lua/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/cook_standmixer/COOK_StandMixer.hkx" memory="host" />
+    <collision name="COOK_StandMixer_Silver.hkx" deferred_loading="false" protected="false" file="furniture/cook_standmixer/COOK_StandMixer_Silver.hkx" memory="host" />
+    <anim name="COOK_StandMixer_Active.ani" deferred_loading="false" protected="false" file="furniture/cook_standmixer/COOK_StandMixer_Active.ani" memory="host" />
+    <anim name="COOK_StandMixer_Still.ani" deferred_loading="false" protected="false" file="furniture/cook_standmixer/COOK_StandMixer_Still.ani" memory="host" />
+    <skeleton name="COOK_StandMixer_Silver_RIG.skn" deferred_loading="false" protected="false" file="furniture/cook_standmixer/COOK_StandMixer_Silver_RIG.skn" memory="host" />
+    <soundstream name="blenderloop.mp3" deferred_loading="false" protected="false" file="furniture/cook_blender/blenderloop.mp3" memory="host" />
+    <soundstream name="blenderstart.mp3" deferred_loading="false" protected="false" file="furniture/cook_blender/blenderstart.mp3" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/cook_standmixer/lua/main.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/cook_standmixer/lua/utility.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/cook_standmixer/lua/pad.luac" memory="host" />
+  </local>
+  <external />
+</resources>

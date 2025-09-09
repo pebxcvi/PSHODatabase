@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="dr_ring_mdl" deferred_loading="false" file="environmentanimations/dr_ring/dr_ring.mdl" memory="main" />
+		<texture name="exppic" deferred_loading="false" protected="false" file="MiniGames/dol_rider/ringgame.dds" memory="main" />
+		<texture name="en_home_start" deferred_loading="true" protected="" file="MiniGames/dol_rider/spr/home_start.dds" />
+		<texture name="en_home_perfect" deferred_loading="true" protected="" file="MiniGames/dol_rider/spr/home_perfect.dds" />
+		<texture name="en_home_finish" deferred_loading="true" protected="" file="MiniGames/dol_rider/spr/home_finish.dds" />
+		<texture name="en_home_good" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/home_good.dds" />
+		<texture name="en_home_bad" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/home_bad.dds" />
+		<texture name="it_home_perfect" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/it_home_perfect.dds" />
+		<texture name="it_home_start" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/it_home_start.dds" />
+		<texture name="de_home_bad" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/de_home_bad.dds" />
+		<texture name="de_home_finish" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/de_home_finish.dds" />
+		<texture name="de_home_good" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/de_home_good.dds" />
+		<texture name="de_home_perfect" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/de_home_perfect.dds" />
+		<texture name="de_home_start" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/de_home_start.dds" />
+		<texture name="es_home_bad" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/es_home_bad.dds" />
+		<texture name="es_home_finish" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/es_home_finish.dds" />
+		<texture name="es_home_good" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/es_home_good.dds" />
+		<texture name="es_home_perfect" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/es_home_perfect.dds" />
+		<texture name="es_home_start" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/es_home_start.dds" />
+		<texture name="fr_home_bad" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/fr_home_bad.dds" />
+		<texture name="fr_home_finish" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/fr_home_finish.dds" />
+		<texture name="fr_home_good" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/fr_home_good.dds" />
+		<texture name="fr_home_perfect" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/fr_home_perfect.dds" />
+		<texture name="fr_home_start" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/fr_home_start.dds" />
+		<texture name="it_home_bad" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/it_home_bad.dds" />
+		<texture name="it_home_finish" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/it_home_finish.dds" />
+		<texture name="it_home_good" deferred_loading="true" protected="false" file="MiniGames/dol_rider/spr/it_home_good.dds" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/dol_rider/types.xml" />
+		<file name="osd_centermes" deferred_loading="false" file="MiniGames/dol_center/OSD/centermes.xml" />
+		<file name="osd_centermenu" deferred_loading="false" file="MiniGames/dol_rider/centermenu.xml" />
+		<file name="osd_warning" deferred_loading="false" file="MiniGames/dol_rider/warning.xml" />
+		<file name="osd_explain" deferred_loading="false" file="MiniGames/dol_rider/explain.xml" />
+		<file name="osd_gamescore" deferred_loading="false" file="MiniGames/dol_rider/gamescore.xml" />
+		<file name="osd_scoremes" deferred_loading="false" protected="false" file="MiniGames/dol_rider/scoremes.xml" />
+		<anim name="dr_ring_ani" deferred_loading="false" file="environmentanimations/dr_ring/dr_ring.ani" />
+		<skeleton name="dr_ring_skn" deferred_loading="false" file="environmentanimations/dr_ring/dr_ring.skn" />
+		<soundbank name="bgm_dolphie" deferred_loading="true" file="environments/dolphy_room/audio/bgm_dolphie.bnk" memory="host" />
+		<soundbank name="se_dolphie_2" deferred_loading="true" file="environments/dolphy_room/audio/se_dolphie_2.bnk" memory="host" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/dol_rider/main.lua" />
+		<lua name="modelpath" deferred_loading="false" protected="true" file="MiniGames/dol_rider/modelpath.lua" memory="main" />
+	</local>
+	<external />
+</resources>

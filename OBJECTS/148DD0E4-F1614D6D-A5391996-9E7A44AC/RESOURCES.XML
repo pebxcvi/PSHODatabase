@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="rb_hoop.mdl" deferred_loading="false" file="MiniGames/Rebound/Models/rb_hoop.mdl" />
+		<model name="rb_basketball.mdl" deferred_loading="false" file="MiniGames/Rebound/Models/rb_basketball.mdl" />
+		<model name="rb_cube_1x1x1.mdl" deferred_loading="false" file="MiniGames/Rebound/Models/rb_cube_1x1x1.mdl" />
+		<model name="rb_backboard.mdl" deferred_loading="false" file="MiniGames/Rebound/Models/rb_backboard.mdl" />
+		<model name="rb_emmissivecube.mdl" deferred_loading="false" file="MiniGames/Rebound/Models/rb_emissive_cube.mdl" />
+		<model name="rb_backboard_lights.mdl" deferred_loading="false" file="MiniGames/Rebound/Models/rb_backboard_lights.mdl" />
+		<model name="rb_avatar_basketball.mdl" deferred_loading="false" file="MiniGames/Rebound/Models/rb_avatar_basketball.mdl" />
+		<model name="rb_net.mdl" deferred_loading="false" file="environmentanimations/rb_net/rb_net.mdl" />
+		<texture name="scorebox" deferred_loading="false" file="generic_shared_textures/Score_Box_OSD_c.dds" />
+		<texture name="scorebar" deferred_loading="false" file="generic_shared_textures/Score_Bar_OSD_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/Rebound/Images/RB_basketball_64x64.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/Rebound/Images/RB_basketball_128x128.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="generic_shared_textures/FranticFreePlay.dds" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/male01_Torso_RB_Logo_THMB_128.png" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/female01_Torso_RB_Logo_THMB_128.png" />
+		<texture name="Prize2" deferred_loading="false" file="thumbnails_in_game/RB_Backboard_Wastebasket_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails_in_game/RB_Rug_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/RB_Stuffed_Basketball_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Feet_RB_Shoes_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Feet_RB_Shoes_THMB_128.png" />
+		<texture name="Prize6_Female" deferred_loading="false" file="thumbnails_in_game/Female01_LegsFeet_RB_ShortShorts_THMB_128.png" />
+		<texture name="Prize6_Male" deferred_loading="false" file="thumbnails_in_game/Male01_LegsFeet_RB_ShortShorts_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails_in_game/RB_Poster_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" file="thumbnails_in_game/Female01_LegsFeet_RB_LongShorts_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" file="thumbnails_in_game/male01_LegsFeet_RB_LongShorts_THMB_128.png" />
+		<texture name="Prize9" deferred_loading="false" file="thumbnails_in_game/RB_Backboard_Table_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_RB_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_RB_THMB_128.png" />
+		<file name="osd_types.xml" deferred_loading="false" file="generic_shared_osd/types.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<anim name="rb_male_throw.ani" deferred_loading="false" file="animation/male/rb_male_throw.ani" />
+		<anim name="rb_male_idle.ani" deferred_loading="false" file="animation/male/rb_male_idle.ani" />
+		<anim name="rb_female_idle.ani" deferred_loading="false" file="animation/female/rb_female_idle.ani" />
+		<anim name="rb_female_throw.ani" deferred_loading="false" file="animation/female/rb_female_throw.ani" />
+		<anim name="rb_net.ani" deferred_loading="false" file="environmentanimations/rb_net/rb_net.ani" />
+		<skeleton name="rb_net.skn" deferred_loading="false" file="environmentanimations/rb_net/rb_net.skn" />
+		<repertoire name="male_rebound" deferred_loading="false" file="MiniGames/Rebound/male_rebound.xml" />
+		<repertoire name="female_rebound" deferred_loading="false" file="MiniGames/Rebound/female_rebound.xml" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Player.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Game.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/HelperFunctions.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Network.lua" />
+		<lua name="Settings_RB.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Settings_RB.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Math.lua" />
+		<lua name="OnScreenDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/OnScreenDisplay.lua" />
+		<lua name="Lights.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Lights.lua" />
+		<lua name="Ball.lua" deferred_loading="false" protected="true" file="MiniGames/Rebound/Source/Ball.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/themidway/SceneScripts/GlobalDefines.lua" />
+	</local>
+	<external />
+</resources>

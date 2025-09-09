@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="RewardMachine.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/models/RewardMachine.mdl" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/blank.dds" />
+		<texture name="MiniFishTank_render.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/MiniFishTank_render.dds" />
+		<texture name="MiniFishTank_render_d.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/MiniFishTank_render_d.dds" />
+		<texture name="MiniFishTank_render_h.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/MiniFishTank_render_h.dds" />
+		<texture name="MiniFishTank_render_n.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/MiniFishTank_render_n.dds" />
+		<texture name="LargeTable_render.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/Large_Table.dds" />
+		<texture name="LargeTable_d.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/Large_Table_d.dds" />
+		<texture name="LargeTable_h.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/Large_Table_h.dds" />
+		<texture name="LargeTable_n.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/textures/Large_Table_n.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Network.xml" />
+		<file name="machine_rewardlist.xml" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/Machine1/machine_rewardlist.xml" />
+		<soundbank name="RewardMachine.bnk" deferred_loading="false" protected="false" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/sound/RewardMachine.bnk" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/MyPad.lua" />
+		<lua name="Machine.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/Machine.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/Main.lua" />
+		<lua name="MyCamera.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/MyCamera.lua" />
+		<lua name="InventoryCheck.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/InventoryCheck.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/StateMachine.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/State.lua" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_luxury_submarine/minigames/rewardmachine/programming/Updater.lua" />
+	</local>
+	<external />
+</resources>

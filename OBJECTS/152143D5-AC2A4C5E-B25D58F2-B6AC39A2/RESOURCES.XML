@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="HUD_Bar" deferred_loading="false" file="ArcadeGames/Renegade/Textures/HUD_Bar.dds" />
+		<texture name="artillery" deferred_loading="false" file="ArcadeGames/Renegade/Textures/artillery.dds" />
+		<texture name="artillerygun" deferred_loading="false" file="ArcadeGames/Renegade/Textures/artillerygun.dds" />
+		<texture name="backgroundBKG" deferred_loading="false" file="ArcadeGames/Renegade/Textures/backgroundBKG.dds" />
+		<texture name="barracks" deferred_loading="false" file="ArcadeGames/Renegade/Textures/barracks.dds" />
+		<texture name="barracksdead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/barracksdead.dds" />
+		<texture name="bullethits" deferred_loading="false" file="ArcadeGames/Renegade/Textures/bullethits.dds" />
+		<texture name="bullets" deferred_loading="false" file="ArcadeGames/Renegade/Textures/bullets.dds" />
+		<texture name="bullets_landsmall" deferred_loading="false" file="ArcadeGames/Renegade/Textures/bullets_landsmall.dds" />
+		<texture name="chaffflare" deferred_loading="false" file="ArcadeGames/Renegade/Textures/chaffflare.dds" />
+		<texture name="crosshair" deferred_loading="false" file="ArcadeGames/Renegade/Textures/crosshair.dds" />
+		<texture name="directionarrow" deferred_loading="false" file="ArcadeGames/Renegade/Textures/directionarrow.dds" />
+		<texture name="enemy_heliblades" deferred_loading="false" file="ArcadeGames/Renegade/Textures/enemy_heliblades.dds" />
+		<texture name="enemy_helibody" deferred_loading="false" file="ArcadeGames/Renegade/Textures/enemy_helibody.dds" />
+		<texture name="enemy_helishadow" deferred_loading="false" file="ArcadeGames/Renegade/Textures/enemy_helishadow.dds" />
+		<texture name="enemy_missile__1" deferred_loading="false" file="ArcadeGames/Renegade/Textures/enemy_missile__1.dds" />
+		<texture name="enemy_missile__2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/enemy_missile__2.dds" />
+		<texture name="enemy_missile__3" deferred_loading="false" file="ArcadeGames/Renegade/Textures/enemy_missile__3.dds" />
+		<texture name="explosionuv" deferred_loading="false" file="ArcadeGames/Renegade/Textures/explosionuv.dds" />
+		<texture name="factory" deferred_loading="false" file="ArcadeGames/Renegade/Textures/factory.dds" />
+		<texture name="factory2_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/factory2_dead.dds" />
+		<texture name="factory_small" deferred_loading="false" file="ArcadeGames/Renegade/Textures/factory_small.dds" />
+		<texture name="factory_small2_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/factory_small2_dead.dds" />
+		<texture name="heavy" deferred_loading="false" file="ArcadeGames/Renegade/Textures/heavy.dds" />
+		<texture name="heliblades" deferred_loading="false" file="ArcadeGames/Renegade/Textures/heliblades.dds" />
+		<texture name="helibody" deferred_loading="false" file="ArcadeGames/Renegade/Textures/helibody.dds" />
+		<texture name="helishadow" deferred_loading="false" file="ArcadeGames/Renegade/Textures/helishadow.dds" />
+		<texture name="house3" deferred_loading="false" file="ArcadeGames/Renegade/Textures/house3.dds" />
+		<texture name="house3_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/house3_dead.dds" />
+		<texture name="hut2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/hut2.dds" />
+		<texture name="hut2_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/hut2_dead.dds" />
+		<texture name="hut5" deferred_loading="false" file="ArcadeGames/Renegade/Textures/hut5.dds" />
+		<texture name="hut5_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/hut5_dead.dds" />
+		<texture name="icon_chaff" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_chaff.dds" />
+		<texture name="icon_lives" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_lives.dds" />
+		<texture name="icon_lock_off" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_lock_off.dds" />
+		<texture name="icon_lock_on1" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_lock_on1.dds" />
+		<texture name="icon_lock_on2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_lock_on2.dds" />
+		<texture name="icon_missile" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_missile.dds" />
+		<texture name="icon_missilefree" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_missilefree.dds" />
+		<texture name="icon_missions" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_missions.dds" />
+		<texture name="icon_rapidfire_off" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_rapidfire_off.dds" />
+		<texture name="icon_rapidfire_on1" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_rapidfire_on1.dds" />
+		<texture name="icon_rapidfire_on2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_rapidfire_on2.dds" />
+		<texture name="icon_shield_off" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_shield_off.dds" />
+		<texture name="icon_shield_on1" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_shield_on1.dds" />
+		<texture name="icon_shield_on2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/icon_shield_on2.dds" />
+		<texture name="largejeep2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/largejeep2.dds" />
+		<texture name="largejeeptop2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/largejeeptop2.dds" />
+		<texture name="light" deferred_loading="false" file="ArcadeGames/Renegade/Textures/light.dds" />
+		<texture name="loadingbar" deferred_loading="false" file="ArcadeGames/Renegade/Textures/loadingbar.dds" />
+		<texture name="market1" deferred_loading="false" file="ArcadeGames/Renegade/Textures/market1.dds" />
+		<texture name="market1_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/market1_dead.dds" />
+		<texture name="medium" deferred_loading="false" file="ArcadeGames/Renegade/Textures/medium.dds" />
+		<texture name="messagebackground" deferred_loading="false" file="ArcadeGames/Renegade/Textures/messagebackground.dds" />
+		<texture name="mission1Imageol" deferred_loading="false" file="ArcadeGames/Renegade/Textures/mission1Imageol.dds" />
+		<texture name="muzzleflashes" deferred_loading="false" file="ArcadeGames/Renegade/Textures/muzzleflashes.dds" />
+		<texture name="outhouse4" deferred_loading="false" file="ArcadeGames/Renegade/Textures/outhouse4.dds" />
+		<texture name="outhouse4_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/outhouse4_dead.dds" />
+		<texture name="pickup1" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickup1.dds" />
+		<texture name="pickup_chaff" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickup_chaff.dds" />
+		<texture name="pickup_extralife" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickup_extralife.dds" />
+		<texture name="pickup_indestruct" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickup_indestruct.dds" />
+		<texture name="pickup_powerup" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickup_powerup.dds" />
+		<texture name="pickup_rapid" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickup_rapid.dds" />
+		<texture name="pickup_speedup" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickup_speedup.dds" />
+		<texture name="pickuppic" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickuppic.dds" />
+		<texture name="pickuppic_chaff" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pickuppic_chaff.dds" />
+		<texture name="pjeep" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pjeep.dds" />
+		<texture name="player_missile__1" deferred_loading="false" file="ArcadeGames/Renegade/Textures/player_missile__1.dds" />
+		<texture name="player_missile__2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/player_missile__2.dds" />
+		<texture name="player_missile__3" deferred_loading="false" file="ArcadeGames/Renegade/Textures/player_missile__3.dds" />
+		<texture name="pmissilearmed" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pmissilearmed.dds" />
+		<texture name="pmissilefree" deferred_loading="false" file="ArcadeGames/Renegade/Textures/pmissilefree.dds" />
+		<texture name="radar6" deferred_loading="false" file="ArcadeGames/Renegade/Textures/radar6.dds" />
+		<texture name="radarbase2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/radarbase2.dds" />
+		<texture name="radarbase2_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/radarbase2_dead.dds" />
+		<texture name="reticle" deferred_loading="false" file="ArcadeGames/Renegade/Textures/reticle.dds" />
+		<texture name="ship" deferred_loading="false" file="ArcadeGames/Renegade/Textures/ship.dds" />
+		<texture name="smalljeep4" deferred_loading="false" file="ArcadeGames/Renegade/Textures/smalljeep4.dds" />
+		<texture name="smalljeep6" deferred_loading="false" file="ArcadeGames/Renegade/Textures/smalljeep6.dds" />
+		<texture name="smalljeep6shadow" deferred_loading="false" file="ArcadeGames/Renegade/Textures/smalljeep6shadow.dds" />
+		<texture name="smalljeepgun3" deferred_loading="false" file="ArcadeGames/Renegade/Textures/smalljeepgun3.dds" />
+		<texture name="smalljeepgun6" deferred_loading="false" file="ArcadeGames/Renegade/Textures/smalljeepgun6.dds" />
+		<texture name="smmissionmarker" deferred_loading="false" file="ArcadeGames/Renegade/Textures/smmissionmarker.dds" />
+		<texture name="smoke_loop" deferred_loading="false" file="ArcadeGames/Renegade/Textures/smoke_loop.dds" />
+		<texture name="solid_a" deferred_loading="false" file="ArcadeGames/Renegade/Textures/solid_a.dds" />
+		<texture name="solid_a_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/solid_a_dead.dds" />
+		<texture name="solid_b" deferred_loading="false" file="ArcadeGames/Renegade/Textures/solid_b.dds" />
+		<texture name="solid_b_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/solid_b_dead.dds" />
+		<texture name="solid_c" deferred_loading="false" file="ArcadeGames/Renegade/Textures/solid_c.dds" />
+		<texture name="solid_c_dead" deferred_loading="false" file="ArcadeGames/Renegade/Textures/solid_c_dead.dds" />
+		<texture name="strengthbar" deferred_loading="false" file="ArcadeGames/Renegade/Textures/strengthbar.dds" />
+		<texture name="tankbottom5" deferred_loading="false" file="ArcadeGames/Renegade/Textures/tankbottom5.dds" />
+		<texture name="tankbottom6" deferred_loading="false" file="ArcadeGames/Renegade/Textures/tankbottom6.dds" />
+		<texture name="tanktop5" deferred_loading="false" file="ArcadeGames/Renegade/Textures/tanktop5.dds" />
+		<texture name="tanktop6" deferred_loading="false" file="ArcadeGames/Renegade/Textures/tanktop6.dds" />
+		<texture name="titleBKG" deferred_loading="false" file="ArcadeGames/Renegade/Textures/titleBKG.dds" />
+		<texture name="train2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/train2.dds" />
+		<texture name="traingun2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/traingun2.dds" />
+		<texture name="vehicle1bottom" deferred_loading="false" file="ArcadeGames/Renegade/Textures/vehicle1bottom.dds" />
+		<texture name="vehicle1bottom2" deferred_loading="false" file="ArcadeGames/Renegade/Textures/vehicle1bottom2.dds" />
+		<texture name="vehicle1top" deferred_loading="false" file="ArcadeGames/Renegade/Textures/vehicle1top.dds" />
+		<texture name="vehicle2bottom" deferred_loading="false" file="ArcadeGames/Renegade/Textures/vehicle2bottom.dds" />
+		<texture name="vehicle2top" deferred_loading="false" file="ArcadeGames/Renegade/Textures/vehicle2top.dds" />
+		<texture name="tileset1" deferred_loading="true" file="ArcadeGames/Renegade/Textures/tileset1.dds" />
+		<texture name="tileset1_desert" deferred_loading="true" file="ArcadeGames/Renegade/Textures/tileset1_desert.dds" />
+		<texture name="tileset1_industrial" deferred_loading="true" file="ArcadeGames/Renegade/Textures/tileset1_industrial.dds" />
+		<texture name="MissionBriefScreenBKG" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/MissionBriefScreen.dds" />
+		<texture name="8_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/8_1.dds" />
+		<texture name="7_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/7_1.dds" />
+		<texture name="6_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/6_1.dds" />
+		<texture name="5_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/5_1.dds" />
+		<texture name="4_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/4_1.dds" />
+		<texture name="3_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/3_1.dds" />
+		<texture name="2_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/2_1.dds" />
+		<texture name="1_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/1_1.dds" />
+		<texture name="0_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/0_1.dds" />
+		<texture name="9_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/9_1.dds" />
+		<texture name="Button_Circle" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Button_Circle.dds" />
+		<texture name="Button_X" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Button_X.dds" />
+		<texture name="Button_Triangle" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Button_Triangle.dds" />
+		<texture name="Button_Square" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Button_Square.dds" />
+		<texture name="Button_Joystick" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Button_L_Stick.dds" />
+		<texture name="renopslogo" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/RenOpsLogo.dds" />
+		<texture name="Chaff_3" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Chaff_3.dds" />
+		<texture name="Chaff_2" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Chaff_2.dds" />
+		<texture name="Chaff_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Chaff_1.dds" />
+		<texture name="Chaff_4" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Chaff_4.dds" />
+		<texture name="Shield_heli_4" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/HeliShield_4.dds" />
+		<texture name="Shield_largejeep_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/ShieldBig_1.dds" />
+		<texture name="Shield_heli_3" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/HeliShield_3.dds" />
+		<texture name="Shield_heli_2" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/HeliShield_2.dds" />
+		<texture name="Shield_heli_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/HeliShield_1.dds" />
+		<texture name="Shield_smalljeep_4" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/shieldsmall_4.dds" />
+		<texture name="Shield_smalljeep_3" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/shieldsmall_3.dds" />
+		<texture name="Shield_smalljeep_2" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/ShieldSmall_2.dds" />
+		<texture name="Shield_smalljeep_1" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/ShieldSmall_1.dds" />
+		<texture name="Shield_largejeep_3" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/ShieldBig_3.dds" />
+		<texture name="Shield_largejeep_4" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/ShieldBig_4.dds" />
+		<texture name="Shield_largejeep_2" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/ShieldBig_2.dds" />
+		<texture name="MissionOverScreen" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/MissionOverScreen.dds" />
+		<texture name="Button_R_Stick" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Textures/Button_R_Stick.dds" />
+		<file name="font_arcade" file="ArcadeGames/Renegade/Fonts/font_arcade.ttf" />
+		<soundbank name="renegadeops" file="ArcadeGames/Renegade/Sounds/renegadeops.bnk" />
+		<soundstream name="ingamemusicdemo" file="ArcadeGames/Renegade/Sounds/ingamemusicdemo.mp3" />
+		<soundstream name="menubackgrounddemo" file="ArcadeGames/Renegade/Sounds/menubackgrounddemo.mp3" />
+		<soundstream name="Theme" deferred_loading="false" protected="false" file="ArcadeGames/Renegade/Sounds/Theme.mp3" />
+		<lua name="AssetLoader" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/AssetLoader.lua" />
+		<lua name="AssetLoaderTest" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/AssetLoaderTest.lua" />
+		<lua name="Bezier" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Bezier.lua" />
+		<lua name="BezierLU" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/BezierLU.lua" />
+		<lua name="Bullet" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Bullet.lua" />
+		<lua name="BulletManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/BulletManager.lua" />
+		<lua name="Camera" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Camera.lua" />
+		<lua name="CameraOrbitor" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/CameraOrbitor.lua" />
+		<lua name="CollideCircle" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/CollideCircle.lua" />
+		<lua name="CollidePolygon" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/CollidePolygon.lua" />
+		<lua name="Constants" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Constants.lua" />
+		<lua name="DisplayableAnimation" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/DisplayableAnimation.lua" />
+		<lua name="DisplayableImage" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/DisplayableImage.lua" />
+		<lua name="DisplayableText" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/DisplayableText.lua" />
+		<lua name="DisplayableTextWithImage" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/DisplayableTextWithImage.lua" />
+		<lua name="Easter" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Easter.lua" />
+		<lua name="Enemy" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Enemy.lua" />
+		<lua name="EnemyData" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/EnemyData.lua" />
+		<lua name="EnemyManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/EnemyManager.lua" />
+		<lua name="EnemyPart" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/EnemyPart.lua" />
+		<lua name="Event" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Event.lua" />
+		<lua name="EventChooser" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/EventChooser.lua" />
+		<lua name="EventManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/EventManager.lua" />
+		<lua name="Explosion" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Explosion.lua" />
+		<lua name="FontDefs" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/FontDefs.lua" />
+		<lua name="FormatText" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/FormatText.lua" />
+		<lua name="Game" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Game.lua" />
+		<lua name="Heart" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Heart.lua" />
+		<lua name="HomingMissile" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/HomingMissile.lua" />
+		<lua name="Hud" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Hud.lua" />
+		<lua name="Interpolate" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Interpolate.lua" />
+		<lua name="KDampedOscillator" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/KDampedOscillator.lua" />
+		<lua name="Ktimer" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Ktimer.lua" />
+		<lua name="LandDynamics" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/LandDynamics.lua" />
+		<lua name="LevelNames" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/LevelNames.lua" />
+		<lua name="Levels" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Levels.lua" />
+		<lua name="Line2D" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Line2D.lua" />
+		<lua name="LoadLibs" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/LoadLibs.lua" />
+		<lua name="LoadSource" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/LoadSource.lua" />
+		<lua name="Locale" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Locale.lua" />
+		<lua name="LocaleKeys" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/LocaleKeys.lua" />
+		<lua name="Logger" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Logger.lua" />
+		<lua name="MapReader" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/MapReader.lua" />
+		<lua name="MenuBoard" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/MenuBoard.lua" />
+		<lua name="Message" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Message.lua" />
+		<lua name="MessageManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/MessageManager.lua" />
+		<lua name="Missile" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Missile.lua" />
+		<lua name="MissileManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/MissileManager.lua" />
+		<lua name="Mission" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Mission.lua" />
+		<lua name="MissionManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/MissionManager.lua" />
+		<lua name="Particle" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Particle.lua" />
+		<lua name="ParticleManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/ParticleManager.lua" />
+		<lua name="Path" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Path.lua" />
+		<lua name="Pickup" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Pickup.lua" />
+		<lua name="PickupManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/PickupManager.lua" />
+		<lua name="PlayerHelicopter" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/PlayerHelicopter.lua" />
+		<lua name="PlayerLandVehicle" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/PlayerLandVehicle.lua" />
+		<lua name="Polygon" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Polygon.lua" />
+		<lua name="Radar" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Radar.lua" />
+		<lua name="RenderHelper" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/RenderHelper.lua" />
+		<lua name="RenegadeScoreRequest" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/RenegadeScoreRequest.lua" />
+		<lua name="ScoreManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/ScoreManager.lua" />
+		<lua name="Shape" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Shape.lua" />
+		<lua name="SimpleLandDynamics" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/SimpleLandDynamics.lua" />
+		<lua name="SingleShotEvent" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/SingleShotEvent.lua" />
+		<lua name="SingletonTileMap" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/SingletonTileMap.lua" />
+		<lua name="SoundFadeEvent" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/SoundFadeEvent.lua" />
+		<lua name="SoundManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/SoundManager.lua" />
+		<lua name="SoundPlayer" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/SoundPlayer.lua" />
+		<lua name="Spline" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Spline.lua" />
+		<lua name="Spring" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Spring.lua" />
+		<lua name="SpringBox" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/SpringBox.lua" />
+		<lua name="StateMachine" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/StateMachine.lua" />
+		<lua name="Temp" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Temp.lua" />
+		<lua name="TextureAnim" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/TextureAnim.lua" />
+		<lua name="TextureParticle" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/TextureParticle.lua" />
+		<lua name="Trigger" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Trigger.lua" />
+		<lua name="TriggerManager" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/TriggerManager.lua" />
+		<lua name="Util" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Util.lua" />
+		<lua name="Vector2" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Vector2.lua" />
+		<lua name="Vehicle" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/Vehicle.lua" />
+		<lua name="WorldClock" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/WorldClock.lua" />
+		<lua name="main" deferred_loading="false" protected="true" file="ArcadeGames/Renegade/Scripts/main.lua" />
+		<lua name="LEVEL_DESERT1" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_DESERT1.lua" />
+		<lua name="LEVEL_DESERT2" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_DESERT2.lua" />
+		<lua name="LEVEL_DESERT3" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_DESERT3.lua" />
+		<lua name="LEVEL_DESERT4" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_DESERT4.lua" />
+		<lua name="LEVEL_DESERT5" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_DESERT5.lua" />
+		<lua name="LEVEL_INDUSTRIAL1" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_INDUSTRIAL1.lua" />
+		<lua name="LEVEL_INDUSTRIAL2" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_INDUSTRIAL2.lua" />
+		<lua name="LEVEL_INDUSTRIAL3" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_INDUSTRIAL3.lua" />
+		<lua name="LEVEL_INDUSTRIAL4" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_INDUSTRIAL4.lua" />
+		<lua name="LEVEL_INDUSTRIAL5" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_INDUSTRIAL5.lua" />
+		<lua name="LEVEL_JUNGLE1" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_JUNGLE1.lua" />
+		<lua name="LEVEL_JUNGLE2" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_JUNGLE2.lua" />
+		<lua name="LEVEL_JUNGLE3" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_JUNGLE3.lua" />
+		<lua name="LEVEL_JUNGLE4" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_JUNGLE4.lua" />
+		<lua name="LEVEL_JUNGLE5" deferred_loading="true" protected="true" file="ArcadeGames/Renegade/Scripts/LEVEL_JUNGLE5.lua" />
+	</local>
+</resources>
