@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.slot" deferred_loading="true" protected="false" file="GroupAnimPacks/lkwd_logo_model/logo_texture_lod.mdl" memory="main" />
+		<file name="configuration.xml" deferred_loading="true" protected="false" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/file/configuration.xml" memory="host" />
+		<anim name="F_Shoulder_Roll_Loop" deferred_loading="true" protected="false" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/F_Shoulder_Roll_Loop.ani" memory="host" />
+		<anim name="F_Whiplash_Loop" deferred_loading="true" protected="false" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/F_Whiplash_Loop.ani" memory="host" />
+		<anim name="M_Shoulder_Roll_Loop" deferred_loading="true" protected="false" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/M_Shoulder_Roll_Loop.ani" memory="host" />
+		<anim name="M_Whiplash_Loop" deferred_loading="true" protected="false" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/M_Whiplash_Loop.ani" memory="host" />
+		<anim name="F_Waiting" deferred_loading="false" protected="false" file="GroupAnimPacks/gap_waiting_anim/F_Waiting.ani" memory="main" />
+		<anim name="M_Waiting" deferred_loading="false" protected="false" file="GroupAnimPacks/gap_waiting_anim/M_Waiting.ani" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/repertoire/male_new.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/repertoire/female_new.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="GroupAnimPacks/04_Apr-LKWD_General-Party-Party_Dance_2/lua/boot.luac" memory="host" id="599727570" />
+	</local>
+	<external />
+</resources>

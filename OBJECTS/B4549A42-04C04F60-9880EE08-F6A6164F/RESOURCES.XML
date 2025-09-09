@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model_host.mdl" deferred_loading="true" protected="false" file="Locomotion/koinobori_01/model/model_host.mdl" memory="host" />
+		<model name="model_remote.mdl" deferred_loading="true" protected="false" file="Locomotion/koinobori_01/model/model_remote.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/koinobori_00/file/config.xml" memory="host" />
+		
+		<anim name="male_move_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_move_00.ani" memory="host" />
+		<anim name="male_move_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_move_01.ani" memory="host" />
+		<anim name="male_move_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_move_02.ani" memory="host" />
+		<anim name="male_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_idle_00.ani" memory="host" />
+		<anim name="male_idle_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_idle_01.ani" memory="host" />
+		<anim name="male_idle_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_idle_02.ani" memory="host" />
+		
+		<anim name="female_move_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_move_00.ani" memory="host" />
+		<anim name="female_move_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_move_01.ani" memory="host" />
+		<anim name="female_move_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_move_02.ani" memory="host" />
+		<anim name="female_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_idle_00.ani" memory="host" />
+		<anim name="female_idle_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_idle_01.ani" memory="host" />
+		<anim name="female_idle_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_idle_02.ani" memory="host" />
+		
+		<anim name="male_left_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_left_00.ani" memory="host" />
+		<anim name="male_right_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_right_00.ani" memory="host" />
+		<anim name="male_left_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_left_01.ani" memory="host" />
+		<anim name="male_right_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_right_01.ani" memory="host" />
+		<anim name="male_left_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_left_02.ani" memory="host" />
+		<anim name="male_right_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/male_right_02.ani" memory="host" />
+
+		<anim name="female_right_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_right_00.ani" memory="host" />
+		<anim name="female_left_00.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_left_00.ani" memory="host" />		
+		<anim name="female_right_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_right_01.ani" memory="host" />
+		<anim name="female_left_01.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_left_01.ani" memory="host" />
+		<anim name="female_right_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_right_02.ani" memory="host" />
+		<anim name="female_left_02.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/female_left_02.ani" memory="host" />
+
+		<anim name="idle_koi.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/idle_koi.ani" memory="host" />
+		<anim name="move_koi.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/move_koi.ani" memory="host" />
+		<anim name="left_koi.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/left_koi.ani" memory="host" />
+		<anim name="right_koi.ani" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/anim/right_koi.ani" memory="host" />
+
+
+		<skeleton name="model_host.skn" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/skeleton/model_host.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/koinobori_00/emotes/male_emotes.xml" memory="host" />
+
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/koinobori_00/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

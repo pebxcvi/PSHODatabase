@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="PSN_ball.mdl" deferred_loading="false" protected="false" file="assets/comsbag/comsBag.mdl" memory="host" />
+		<texture name="Info_Panel.dds" deferred_loading="false" protected="false" file="Scripts/3D_Commerce_Point/images/Info_Panel.dds" memory="host" />
+		<texture name="mask_dds" deferred_loading="false" protected="false" file="Scripts/3D_Commerce_Point/images/mask.dds" />
+		<particle name="particle" deferred_loading="false" protected="false" file="ATGParticles/PSN_Bag/PSN_Bag.efx" />
+		<lua name="PSN_ball.lua" deferred_loading="false" protected="true" file="Scripts/3D_Commerce_Point/3D_Commerce_Point.lua" memory="host" />
+		<lua name="Constants.lua" deferred_loading="false" protected="true" file="Scripts/3D_Commerce_Point/Constants.lua" memory="host" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="Scripts/3D_Commerce_Point/Util.lua" memory="host" />
+		<lua name="SimpleTextPanel.lua" deferred_loading="false" protected="true" file="Scripts/3D_Commerce_Point/SimpleTextPanel.lua" memory="host" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="Scripts/3D_Commerce_Point/Class.lua" memory="host" />
+	</local>
+	<external />
+</resources>

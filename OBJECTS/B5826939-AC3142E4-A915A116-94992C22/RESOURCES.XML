@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Game_Model" deferred_loading="false" protected="false" file="MiniGames/nml_museumrelocator/models/NML_MuseumRelocator.mdl" />
+		<texture name="SpotlightMask.dds" deferred_loading="false" protected="false" file="MiniGames/NMLRelocator/textures/SpotlightMask.dds" />
+		<collision name="Game_Collision" deferred_loading="false" protected="false" file="MiniGames/nml_museumrelocator/models/NML_MuseumRelocator.hkx" />
+		<anim name="Game_Anim" deferred_loading="false" protected="false" file="MiniGames/nml_museumrelocator/models/NML_MuseumRelocator.ani" />
+		<skeleton name="Game_Skel" deferred_loading="false" protected="false" file="MiniGames/nml_museumrelocator/models/NML_MuseumRelocator.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/NMLRelocator/lua/MiniGame_SCEE_Scale.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<anim name="Whimsy_found.ani" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/assets/whimsy_anim/Whimsy_found.ani" memory="main" />
+		<anim name="Whimsy_Idle.ani" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/assets/whimsy_anim/Whimsy_Idle.ani" memory="main" />
+		<anim name="Whimsy_jump.ani" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/assets/whimsy_anim/Whimsy_jump.ani" memory="main" />
+		<anim name="Whimsy_lost.ani" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/assets/whimsy_anim/Whimsy_lost.ani" memory="main" />
+		<anim name="Whimsy_quiet.ani" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/assets/whimsy_anim/Whimsy_quiet.ani" memory="main" />
+		<anim name="Whimsy_sleepy.ani" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/assets/whimsy_anim/Whimsy_sleepy.ani" memory="main" />
+		<anim name="WillOWisp_start.ani" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/fx/WillOWisp_start.ani" memory="main" />
+		<collision name="collision.hkx" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/collision.hkx" />
+		<file name="network_defs.xml" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/src/network_defs.xml" />
+		<file name="Whimsy.gui-setup" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Whimsy.gui-setup" />
+		<lua name="CamDefs.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/CamDefs.lua" />
+		<lua name="CamMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/CamMgr.lua" />
+		<lua name="Colour_HSV.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Colour_HSV.lua" />
+		<lua name="DbgMemHud.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/DbgMemHud.lua" />
+		<lua name="DbgMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/DbgMgr.lua" />
+		<lua name="Delayer.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Delayer.lua" />
+		<lua name="FSM.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/FSM.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Game.lua" />
+		<lua name="GfxMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/GfxMgr.lua" />
+		<lua name="Gui.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Gui.lua" />
+		<lua name="Gui_Rect.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Gui_Rect.lua" />
+		<lua name="Gui_Sprite.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Gui_Sprite.lua" />
+		<lua name="Gui_Text.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Gui_Text.lua" />
+		<lua name="Gui_WhimsyBox.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Gui_WhimsyBox.lua" />
+		<lua name="HudDefs.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/HudDefs.lua" />
+		<lua name="HudMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/HudMgr.lua" />
+		<lua name="InputMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/InputMgr.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Jamin.lua" />
+		<lua name="LightMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/LightMgr.lua" />
+		<lua name="Lua2Xml.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Lua2Xml.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Main.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Playmetrix.lua" />
+		<lua name="PoiMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/PoiMgr.lua" />
+		<lua name="Pool.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Pool.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Queue.lua" />
+		<lua name="RayCaster.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/RayCaster.lua" />
+		<lua name="Relay.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Relay.lua" />
+		<lua name="ResMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/ResMgr.lua" />
+		<lua name="RewardManager.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/RewardManager.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/SoundMgr.lua" />
+		<lua name="Stack.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Stack.lua" />
+		<lua name="TriggerMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/TriggerMgr.lua" />
+		<lua name="TriggerZoneMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/TriggerZoneMgr.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/Tween.lua" />
+		<lua name="WhimsyMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/WhimsyMgr.lua" />
+		<lua name="WispMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/WispMgr.lua" />
+		<lua name="XmlMgr.lua" deferred_loading="false" protected="true" file="MiniGames/WhimsyHollow/Game/src/XmlMgr.lua" />
+		<model name="poi.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/fx/PointOfInterest.mdl" memory="main" />
+		<model name="whimsy_base.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_base.mdl" memory="main" />
+		<model name="whimsy_base_blue.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_base_blue.mdl" memory="main" />
+		<model name="whimsy_base_girl.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_base_girl.mdl" memory="main" />
+		<model name="whimsy_base_green.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_base_green.mdl" memory="main" />
+		<model name="whimsy_base_king.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_base_king.mdl" memory="main" />
+		<model name="whimsy_base_orange.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_base_orange.mdl" memory="main" />
+		<model name="whimsy_beard.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_beard.mdl" memory="main" />
+		<model name="whimsy_bib.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_bib.mdl" memory="main" />
+		<model name="whimsy_boots.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_boots.mdl" memory="main" />
+		<model name="whimsy_bow.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_bow.mdl" memory="main" />
+		<model name="whimsy_bowlerHat.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_bowlerHat.mdl" memory="main" />
+		<model name="whimsy_clothCap.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_clothCap.mdl" memory="main" />
+		<model name="whimsy_crown.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_crown.mdl" memory="main" />
+		<model name="whimsy_earRings.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_earRings.mdl" memory="main" />
+		<model name="whimsy_fez.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_fez.mdl" memory="main" />
+		<model name="whimsy_gloves.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_gloves.mdl" memory="main" />
+		<model name="whimsy_jacket.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_jacket.mdl" memory="main" />
+		<model name="whimsy_monocle.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_monocle.mdl" memory="main" />
+		<model name="whimsy_robinHoodCap.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_robinHoodCap.mdl" memory="main" />
+		<model name="whimsy_satchel.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_satchel.mdl" memory="main" />
+		<model name="whimsy_shoulderStrap.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_shoulderStrap.mdl" memory="main" />
+		<model name="whimsy_sideBurns.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_sideBurns.mdl" memory="main" />
+		<model name="whimsy_sleepingCap.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_sleepingCap.mdl" memory="main" />
+		<model name="whimsy_tie.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_tie.mdl" memory="main" />
+		<model name="whimsy_topHat.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_topHat.mdl" memory="main" />
+		<model name="wisp.mdl" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/fx/WillOWisp.mdl" memory="main" />
+		<particle name="pwhimsyappear.efx" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/fx/pwhimsyappear.efx" />
+		<particle name="pwillowisp.efx" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/fx/pWillOTheWisp.efx" />
+		<skeleton name="whimsy_base.skn" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/whimsies/whimsy_base.skn" />
+		<skeleton name="WillOWisp.skn" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/assets/fx/WillOWisp.skn" />
+		<soundbank name="Whimsy_game.bnk" deferred_loading="false" protected="false" file="apartments/simple_apartments/hobbit_house/hobbit_house/sound/Whimsy_game.bnk" memory="main" />
+		<texture name="HUD_B.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_B.dds" />
+		<texture name="HUD_BL.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_BL.dds" />
+		<texture name="HUD_BR.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_BR.dds" />
+		<texture name="HUD_C.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_C.dds" />
+		<texture name="HUD_L.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_L.dds" />
+		<texture name="HUD_R.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_R.dds" />
+		<texture name="HUD_T.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_T.dds" />
+		<texture name="HUD_TL.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_TL.dds" />
+		<texture name="HUD_TR.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/HUD_TR.dds" />
+		<texture name="PAD_cross.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/pad/PAD_cross.dds" />
+		<texture name="PAD_circle.dds" deferred_loading="false" protected="false" file="MiniGames/WhimsyHollow/Game/texture/hud/pad/PAD_circle.dds" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/stapler/Stapler.mdl" />
+		<model name="partyhat.mdl" deferred_loading="false" protected="false" file="furniture/Stapler/partyhat.mdl" />
+		<texture name="thoughtful" deferred_loading="false" protected="false" file="furniture/Stapler/Images/thoughtful.dds" />
+		<texture name="bigalphabox" deferred_loading="false" protected="false" file="furniture/Stapler/Images/bigalphabox.dds" />
+		<texture name="blink" deferred_loading="false" protected="false" file="furniture/Stapler/Images/blink.dds" />
+		<texture name="happy" deferred_loading="false" protected="false" file="furniture/Stapler/Images/happy.dds" />
+		<texture name="neutral" deferred_loading="false" protected="false" file="furniture/Stapler/Images/neutral.dds" />
+		<texture name="sad" deferred_loading="false" protected="false" file="furniture/Stapler/Images/sad.dds" />
+		<file name="network.xml" deferred_loading="false" protected="false" file="furniture/Stapler/network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/stapler/Stapler.hkx" />
+		<soundbank name="OrsonBank" deferred_loading="false" protected="false" file="furniture/Stapler/Stapler.bnk" />
+		<lua name="orson.lua" deferred_loading="false" protected="true" file="furniture/Stapler/orson.lua" />
+	</local>
+	<external />
+</resources>

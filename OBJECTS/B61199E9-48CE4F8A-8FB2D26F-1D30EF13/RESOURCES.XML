@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="jacket_LMO.mdl" deferred_loading="true" protected="false" file="Locomotion/jacket_LMO.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LMO_Jacket_Walk/file/config.xml" memory="host" />
+		<anim name="blazer_idle.ani" deferred_loading="true" protected="false" file="animation/male/blazer_idle/blazer_idle.ani" />
+		<anim name="blazer_walk.ani" deferred_loading="true" protected="false" file="animation/male/blazer_walk/blazer_walk.ani" />
+		<anim name="jacket_emote1.ani" deferred_loading="true" protected="false" file="animation/male/jacket_emote/jacket_emote1.ani" />
+		<anim name="jacket_idle_f.ani" deferred_loading="true" protected="false" file="animation/female/jacket_idle_f/jacket_idle_f.ani" memory="host" />
+		<anim name="jacket_walk_f.ani" deferred_loading="true" protected="false" file="animation/female/jacket_walk_f/jacket_walk_f.ani" memory="host" />
+		<anim name="jacket_emote_f.ani" deferred_loading="true" protected="false" file="animation/female/jacket_emote_f/jacket_emote_f.ani" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/LMO_Jacket_Walk/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/LMO_Jacket_Walk/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Jacket_Walk/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Jacket_Walk/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/LMO_Jacket_Walk/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

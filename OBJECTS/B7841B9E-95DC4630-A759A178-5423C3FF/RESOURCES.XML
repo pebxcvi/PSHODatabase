@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="test_mdl" deferred_loading="true" file="JapanEvents/BASARA/basara_honda/BASARA_Honda.mdl" />
+		<collision name="test_hkx" deferred_loading="true" protected="false" file="JapanEvents/BASARA/basara_honda/BASARA_Honda.hkx" />
+		<model name="screen_mdl" deferred_loading="false" file="JapanEvents/Xmas/xmasscreen/xmasscreen.mdl" />
+		<texture name="spotlightmask_default_tex" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/textures/spotlightmask_default.dds" />
+		<texture name="Icon_download" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/textures/XmasIcon_tree.dds" />
+		<texture name="Icon_excuse" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/textures/XmasIcon_Green.dds" />
+		<texture name="Icon_error" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/textures/XmasIcon_Red.dds" />
+		<particle name="explosion_efx" deferred_loading="true" file="ATGParticles/japanevents/Explosion/efx/BASIC_EXPLOSION_1.efx" />
+		<file name="Network_xml" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/Network.xml" />
+		<file name="always_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/always.xml" />
+		<file name="selectbar_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/selectbar.xml" />
+		<file name="server_error_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/server_error.xml" />
+		<file name="human_error_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/human_error.xml" />
+		<file name="snd_info_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/snd_info.xml" />
+		<file name="snd_title_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/snd_title.xml" />
+		<file name="msk_info_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/msk_info.xml" />
+		<file name="msk_title_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/msk_title.xml" />
+		<file name="excuse_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/excuse.xml" />
+		<file name="icon_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/icon.xml" />
+		<file name="complete_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/complete.xml" />
+		<file name="connecting_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/connecting.xml" />
+		<file name="reward_icon_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/reward_icon.xml" />
+		<file name="types_osd" deferred_loading="false" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/osd/types.xml" />
+		<lua name="main" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/main.lua" />
+		<lua name="version_label" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/version_label.lua" />
+		<lua name="dbg_propaty" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/dbg_propaty.lua" />
+		<lua name="server_propaty" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/server_propaty.lua" />
+		<lua name="ajust_propaty" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/ajust_propaty.lua" />
+		<lua name="eventOsd" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/eventOsd.lua" />
+		<lua name="eventTrigger" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/eventTrigger.lua" />
+		<lua name="eventSound" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/eventSound.lua" />
+		<lua name="eventResLoad" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/eventResLoad.lua" />
+		<lua name="eventRegion" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/eventRegion.lua" />
+		<lua name="gamemain" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/gamemain.lua" />
+		<lua name="paHomeScreen" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeScreen.lua" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeCommon.lua" />
+		<lua name="paHomeDbgCommon" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeDbgCommon.lua" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeServerBase.lua" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeServerTrigger.lua" />
+		<lua name="paHomeServerGeneral" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeServerGeneral.lua" />
+		<lua name="paHomeServerCommon" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeServerCommon.lua" />
+		<lua name="paHomeServerCustom" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeServerCustom.lua" />
+		<lua name="paHomeSoundMgr" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeSoundMgr.lua" />
+		<lua name="paHomeSoundBank" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeSoundBank.lua" />
+		<lua name="paHomeSoundStream" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeSoundStream.lua" />
+		<lua name="paHomeUI2" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomeUI2.lua" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/paHomePosCalc.lua" />
+		<lua name="globalmain" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/globalmain.lua" />
+		<lua name="registUpdate" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/registUpdate.lua" />
+		<lua name="xmlExpand" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/xmlExpand.lua" />
+		<lua name="reward_set" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/reward_set.lua" />
+		<lua name="eventCommon" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/eventCommon.lua" />
+		<lua name="showtimeAction" deferred_loading="false" protected="true" file="Objects/B7841B9E-95DC4630-A759A178-5423C3FF/resource/showtimeAction.lua" />
+	</local>
+	<external />
+</resources>

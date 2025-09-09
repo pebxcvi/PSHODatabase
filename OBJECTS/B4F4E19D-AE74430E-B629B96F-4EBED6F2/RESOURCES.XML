@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/gd_boxing_furnt/Gd_boxing_furnt.mdl" />
+		<model name="placement_model" deferred_loading="false" protected="false" file="Furniture/reference_obj/reference_obj.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/gd_boxing_furnt/Gd_boxing_furnt.hkx" />
+		<anim name="attack" deferred_loading="false" protected="false" file="Furniture/gd_boxing_furnt/Gd_boxing_furnt.ani" />
+		<anim name="OUCH_F" deferred_loading="false" protected="false" file="animation/female/f_punched_in_the_cest/F_Punched_In_The_Cest.ani" />
+		<anim name="OUCH_M" deferred_loading="false" protected="false" file="animation/male/gd_attack_x1_hit_by_glove/AN_ATK_M_5_2.ani" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="Furniture/gd_boxing_furnt/Gd_boxing_furnt.skn" />
+		<soundbank name="soundbank" deferred_loading="false" protected="false" file="Furniture_Sound_Banks2/Punch.bnk" />
+		<repertoire name="rep_female" deferred_loading="false" protected="false" file="Furniture/gd_boxing_furnt/rep_female.xml" />
+		<repertoire name="rep_male" deferred_loading="false" protected="false" file="Furniture/gd_boxing_furnt/rep_male.xml" />
+		<lua name="script" deferred_loading="false" protected="true" file="Scripts/Puncher.lua" />
+	</local>
+	<external />
+</resources>

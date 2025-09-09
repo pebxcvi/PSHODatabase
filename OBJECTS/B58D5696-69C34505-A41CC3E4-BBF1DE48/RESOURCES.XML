@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="screen_obj.mdl" deferred_loading="false" protected="false" file="furniture/screen_obj/screen_obj.mdl" />
+		<texture name="view.dds" deferred_loading="false" protected="false" file="MiniGames/VideoScreen/texture/view.dds" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="SCEJ_Lib/ui/tex/edge.dds" />
+		<soundstream name="updown.mp3" deferred_loading="false" protected="false" file="MiniGames/VideoScreen/sound/updown.mp3" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/main.luac" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/mathx.luac" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/misc.luac" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/task.luac" />
+		<lua name="ajust_propaty.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/ajust_propaty.lua" />
+		<lua name="paHomeCommon.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/paHomeCommon.luac" />
+		<lua name="paHomeDbgCommon.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/paHomeDbgCommon.luac" />
+		<lua name="paHomeServerBase.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/paHomeServerBase.luac" />
+		<lua name="paHomeServerCommon.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/paHomeServerCommon.luac" />
+		<lua name="paHomeServerCustom.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/paHomeServerCustom.luac" />
+		<lua name="paHomeServerGeneral.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/paHomeServerGeneral.luac" />
+		<lua name="paHomeServerTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/server/paHomeServerTrigger.luac" />
+		<lua name="time.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/time.luac" />
+		<lua name="VideoScreen.lua" deferred_loading="false" protected="true" file="MiniGames/VideoScreen/lua/VideoScreen.luac" />
+		<lua name="ResDownload.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/ResDownload.luac" />
+		<lua name="information.lua" deferred_loading="false" protected="true" file="objects/5D04DD62-77D94D11-8CA33566-F647597F/information.luac" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/ui/MsgWnd.luac" />
+		<lua name="EventServer.lua" deferred_loading="false" protected="true" file="objects/106099D5-8E4440F9-A0188DC6-6487D399/EventServer.luac" />
+		<lua name="listerner_minigame.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/listerner_minigame.luac" />
+	</local>
+	<external />
+</resources>

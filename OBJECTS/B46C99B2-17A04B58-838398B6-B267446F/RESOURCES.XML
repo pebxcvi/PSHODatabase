@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/cutt_demonic_ottoman/CUTT_Demonic_Ottoman_01.mdl" memory="host" />
+		<model name="NAUT_lanternfish_01_Rig.mdl" deferred_loading="false" protected="false" file="furniture/naut_lanternfish_01/NAUT_lanternfish_01_Rig.mdl" memory="host" />
+		<model name="Bat_RIG.mdl" deferred_loading="false" protected="false" file="furniture/hall13_batbelfry/Bat_RIG.mdl" />
+		<model name="HALL13_Crypt.mdl" deferred_loading="false" protected="false" file="furniture/hall13_crypt/HALL13_Crypt.mdl" />
+		<texture name="generic_colorswatch_grey.dds" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/generic_colorswatch_grey.dds" memory="host" />
+		<texture name="random_colorswatch.dds" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/random_colorswatch.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/naut_lanternfish_01/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/naut_lanternfish_01/NAUT_lanternfish_01.hkx" memory="host" />
+		<collision name="NAUT_lanternfish_01.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/naut_lanternfish_01/NAUT_lanternfish_01.safevolume.hkx" />
+		<anim name="NAUT_lanternfish_01_Rig.ani" deferred_loading="false" protected="false" file="furniture/naut_lanternfish_01/NAUT_lanternfish_01_Rig.ani" memory="host" />
+		<anim name="Bat_MoveForward.ani" deferred_loading="false" protected="false" file="furniture/hall13_batbelfry/Bat_MoveForward.ani" />
+		<skeleton name="NAUT_lanternfish_01_Rig.skn" deferred_loading="false" protected="false" file="furniture/naut_lanternfish_01/NAUT_lanternfish_01_Rig.skn" memory="host" />
+		<skeleton name="Bat_RIG.skn" deferred_loading="false" protected="false" file="furniture/hall13_batbelfry/Bat_RIG.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/HALL13_vamp_spawner/Lua/MiniGame.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/naut_lanternfish_01/Pad.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/naut_lanternfish_01/Utility.luac" memory="host" />
+		<lua name="Batling.lua" deferred_loading="false" protected="true" file="furniture/HALL13_vamp_spawner/Lua/Batling.luac" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Ryu.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/Ryu_FBS.mdl" />
+		<model name="Kazuya.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/Kaz_FBS.mdl" />
+		<model name="HandTrack.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/HandTrack.mdl" />
+		<model name="ArmBand.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/ArmBand.mdl" />
+		<model name="X_Balloon.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/X_Balloon.mdl" />
+		<model name="Home_Enemy_FBS.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/Home_Enemy_FBS.mdl" />
+		<model name="x_chip.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/x_chip.mdl" />
+		<model name="fx_Hadoken.mdl" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/fx_Hadoken.mdl" />
+		<model name="fx_Block.mdl" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/fx_Block.mdl" />
+		<model name="fx_Floor_Impact.mdl" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/fx_Floor_Impact.mdl" />
+		<model name="fx_Floor_Impact_02.mdl" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/fx_Floor_Impact_02.mdl" />
+		<model name="fx_Hadoken_SonicBoom.mdl" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/fx_Hadoken_SonicBoom.mdl" />
+		<model name="fx_Tornado_Kick.mdl" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/fx_Tornado_Kick.mdl" />
+		<model name="VikingHat.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/hats/viking/VikingHat.mdl" />
+		<model name="PaintballHat.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/hats/paintball/PaintballHat.mdl" />
+		<model name="FootballHat.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/hats/football/FootballHat.mdl" />
+		<model name="FlakHat.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/hats/flak/FlakHat.mdl" />
+		<model name="BoxHat.mdl" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/hats/box/BoxHat.mdl" />
+		<texture name="ComboGaugeEmpty.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ComboGaugeEmpty.dds" />
+		<texture name="ComboGaugeFull.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ComboGaugeFull.dds" />
+		<texture name="healthGaugeEmpty.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/healthGaugeEmpty.dds" />
+		<texture name="healthGaugeFull.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/healthGaugeFull.dds" />
+		<texture name="ButtonPromptBar.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ButtonPromptBar.dds" />
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" />
+		</texture>
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/button_O.dds" />
+		</texture>
+		<texture name="menu_bar_left.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/menu_bar_left.dds" />
+		<texture name="menu_bar_mid.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/menu_bar_mid.dds" />
+		<texture name="menu_bar_right.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/menu_bar_right.dds" />
+		<texture name="arrow_left.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/arrow_left.dds" />
+		<texture name="arrow_right.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/arrow_right.dds" />
+		<texture name="moveBG.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/moveBG.dds" />
+		<texture name="VS.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/VS.dds" />
+		<texture name="BoutWinCounterEmpty.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/BoutWinCounterEmpty.dds" />
+		<texture name="BoutWinCounterFull.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/BoutWinCounterFull.dds" />
+		<texture name="Ryu.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Ryu.dds" />
+		<texture name="ChrSelectKazuya.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/ChrSelectKazuya.dds" />
+		<texture name="ChrSelectRyu.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/ChrSelectRyu.dds" />
+		<texture name="MovePowerBar.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovePowerBar.dds" />
+		<texture name="MovePowerBarPointer.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovePowerBarPointer.dds" />
+		<texture name="moveBGspecial.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/moveBGspecial.dds" />
+		<texture name="Kazuya.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Kazuya.dds" />
+		<texture name="ComboSeg1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ComboSeg1.dds" />
+		<texture name="ComboSeg2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ComboSeg2.dds" />
+		<texture name="KazuyaSpecial1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/KazuyaSpecial1.dds" />
+		<texture name="KazuyaSpecial2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/KazuyaSpecial2.dds" />
+		<texture name="RyuSpecial1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/RyuSpecial1.dds" />
+		<texture name="RyuSpecial2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/RyuSpecial2.dds" />
+		<texture name="RyuSpecial3.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/RyuSpecial3.dds" />
+		<texture name="KazuyaSpecial3.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/KazuyaSpecial3.dds" />
+		<texture name="moveBGmask.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/moveBGmask.dds" />
+		<texture name="Punch.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Punch.dds" />
+		<texture name="Kick.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Kick.dds" />
+		<texture name="MenuSelector.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MenuSelector.dds" />
+		<texture name="TitleSplat.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/TitleSplat.dds" />
+		<texture name="ToolTipBanner.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ToolTipBanner.dds" />
+		<texture name="button_T" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/button_T.dds" />
+		<texture name="ChrSelectAvatarfemale" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/ChrSelectAvatarFemale.dds" />
+		<texture name="ChrSelectAvatarmale" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/ChrSelectAvatarMale.dds" />
+		<texture name="VS_TextFrame1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/VS_TextFrame1.dds" />
+		<texture name="VS_TextFrame2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/VS_TextFrame2.dds" />
+		<texture name="VS_TextFrame3.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/VS_TextFrame3.dds" />
+		<texture name="VS_BG.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/VS_BG.dds" />
+		<texture name="TeamSelectTekken.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/TeamSelectTekken.dds" />
+		<texture name="TeamSelectBG.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/TeamSelectBG.dds" />
+		<texture name="TeamSelectStreetFighter.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/TeamSelectStreetFighter.dds" />
+		<texture name="VS_NamePanel.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/CharacterSelect/VS_NamePanel.dds" />
+		<texture name="LeaderboardBG.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/LeaderboardBG.dds" />
+		<texture name="LeaderboardBar.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/LeaderboardBar.dds" />
+		<texture name="LeaderboardHeadBoxBig.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/LeaderboardHeadBoxBig.dds" />
+		<texture name="LeaderboardHeadBoxSml.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/LeaderboardHeadBoxSml.dds" />
+		<texture name="LeaderboardBarHilight.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/LeaderboardBarHilight.dds" />
+		<texture name="Hud_NameKaz.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Hud_NameKaz.dds" />
+		<texture name="Hud_NameRyu.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Hud_NameRyu.dds" />
+		<texture name="healthGaugeEmpty3.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/healthGaugeEmpty3.dds" />
+		<texture name="HudFight1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/HudFight1.dds" />
+		<texture name="HudFight2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/HudFight2.dds" />
+		<texture name="HudFight3.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/HudFight3.dds" />
+		<texture name="HudFight4.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/HudFight4.dds" />
+		<texture name="AlternativeBG2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/AlternativeBG2.dds" />
+		<texture name="AlternativeBG.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/AlternativeBG.dds" />
+		<texture name="ChallengeBG.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ChallengeBG.dds" />
+		<texture name="ChallengeHilight.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ChallengeHilight.dds" />
+		<texture name="ChallengeLocked.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ChallengeLocked.dds" />
+		<texture name="ChallengeUnlocked.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ChallengeUnlocked.dds" />
+		<texture name="Guard.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Guard.dds" />
+		<texture name="MovesCircle.dds" deferred_loading="false" protected="false">
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" locale="ja-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" locale="zh-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" locale="ko-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" locale="en-SG" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" locale="en-ID" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" locale="en-MY" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" locale="en-TH" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" />
+		</texture>
+		<texture name="MovesCross.dds" deferred_loading="false" protected="false">
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" locale="ja-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" locale="zh-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" locale="ko-*" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" locale="en-SG" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" locale="en-ID" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" locale="en-MY" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCircle.dds" locale="en-TH" />
+			<override file="MiniGames/StreetfighterXTekken/HUDTextures/MovesCross.dds" />
+		</texture>
+		<texture name="MovesL1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovesL1.dds" />
+		<texture name="MovesR1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovesR1.dds" />
+		<texture name="MovesL2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovesL2.dds" />
+		<texture name="MovesR2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovesR2.dds" />
+		<texture name="MovesSquare.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovesSquare.dds" />
+		<texture name="MovesTriangle.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovesTriangle.dds" />
+		<texture name="ComboSeg3.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/ComboSeg3.dds" />
+		<texture name="MovePowerBarSurround.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovePowerBarSurround.dds" />
+		<texture name="KO_O.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/KO_O.dds" />
+		<texture name="KO_K.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/KO_K.dds" />
+		<texture name="KO_Lightning1.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/KO_Lightning1.dds" />
+		<texture name="KO_Lightning2.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/KO_Lightning2.dds" />
+		<texture name="InfoBoxI.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/InfoBoxI.dds" />
+		<texture name="InfoBoxBG.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/InfoBoxBG.dds" />
+		<texture name="GameplayShot.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/GameplayShot.dds" />
+		<texture name="MovePowerBarInstruction.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/MovePowerBarInstruction.dds" />
+		<texture name="Commerce.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Commerce.dds" />
+		<texture name="WhatsNewA.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/WhatsNewA.dds" />
+		<texture name="Blog_PreOrder.dds" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/HUDTextures/Blog_PreOrder.dds" />
+		<particle name="impact_cloud.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/impact_cloud.efx" />
+		<particle name="kazuya.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/kazuya.efx" />
+		<particle name="block_swirl.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/block_swirl.efx" />
+		<particle name="block_pop.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/block_pop.efx" />
+		<particle name="hadoken_fire.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/hadoken_fire.efx" />
+		<particle name="hadoken_orb.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/hadoken_orb.efx" />
+		<particle name="hadoken_death.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/hadoken_death.efx" />
+		<particle name="hit.efx" deferred_loading="false" protected="false" file="common/effects/efx/SFxT/hit.efx" />
+		<xml name="effects_SFXT.xml" deferred_loading="false" protected="true" file="common/effects/defs/effects_SFXT.xml" />
+		<anim name="Male_Stand_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Stand_Right.ani" />
+		<anim name="Male_Stand_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Stand_Left.ani" />
+		<anim name="Male_High_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Kick_Left.ani" />
+		<anim name="Male_Low_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Kick_Left.ani" />
+		<anim name="Male_Mid_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Kick_Left.ani" />
+		<anim name="Male_High_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Kick_Right.ani" />
+		<anim name="Male_Low_Guard_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Guard_Left.ani" />
+		<anim name="Male_Low_Guard_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Guard_Right.ani" />
+		<anim name="Male_Low_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Kick_Right.ani" />
+		<anim name="Male_Mid_Guard_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Guard_Left.ani" />
+		<anim name="Male_Mid_Guard_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Guard_Right.ani" />
+		<anim name="Male_Mid_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Kick_Right.ani" />
+		<anim name="Male_High_Guard_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Guard_Left.ani" />
+		<anim name="Male_High_Guard_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Guard_Right.ani" />
+		<anim name="Male_Mid_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Hit_Right.ani" />
+		<anim name="Male_High_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Hit_Left.ani" />
+		<anim name="Male_High_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Hit_Right.ani" />
+		<anim name="Male_Low_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Hit_Left.ani" />
+		<anim name="Male_Low_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Hit_Right.ani" />
+		<anim name="Male_Mid_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Hit_Left.ani" />
+		<anim name="Male_Taunt1_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Taunt1_Left.ani" />
+		<anim name="Male_Taunt1_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Taunt1_Right.ani" />
+		<anim name="Male_Mid_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Punch_Right.ani" />
+		<anim name="Male_High_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Punch_Left.ani" />
+		<anim name="Male_High_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Punch_Right.ani" />
+		<anim name="Male_Low_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Punch_Left.ani" />
+		<anim name="Male_Low_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Low_Punch_Right.ani" />
+		<anim name="Male_Mid_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Mid_Punch_Left.ani" />
+		<anim name="Male_Knockdown_Idle_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Knockdown_Idle_Left.ani" />
+		<anim name="Male_Knockdown_Idle_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Knockdown_Idle_Right.ani" />
+		<anim name="Male_Knockdown_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Knockdown_Left.ani" />
+		<anim name="Male_Knockdown_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Knockdown_Right.ani" />
+		<anim name="Male_Step_Forward_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Step_Forward_Left.ani" />
+		<anim name="Male_Step_Forward_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Step_Forward_Right.ani" />
+		<anim name="Kazuya_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_Kick_Left.ani" />
+		<anim name="Kazuya_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_Kick_Right.ani" />
+		<anim name="Kazuya_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_Punch_Left.ani" />
+		<anim name="Kazuya_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_Punch_Right.ani" />
+		<anim name="Kazuya_Special_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_Special_Left.ani" />
+		<anim name="Kazuya_Special_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_Special_Right.ani" />
+		<anim name="Ryu_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_Kick_Left.ani" />
+		<anim name="Ryu_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_Kick_Right.ani" />
+		<anim name="Ryu_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_Punch_Left.ani" />
+		<anim name="Ryu_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_Punch_Right.ani" />
+		<anim name="Ryu_Special_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_Special_Left.ani" />
+		<anim name="Ryu_Special_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_Special_Right.ani" />
+		<anim name="Kazuya_High_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_High_Hit_Left.ani" />
+		<anim name="Kazuya_High_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_High_Hit_Right.ani" />
+		<anim name="Ryu_High_Hurricane_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_High_Hurricane_Hit_Left.ani" />
+		<anim name="Ryu_High_Hurricane_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_High_Hurricane_Hit_Right.ani" />
+		<anim name="Male_High_Special1_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Special1_Hit_Left.ani" />
+		<anim name="Male_High_Special1_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Special1_Hit_Right.ani" />
+		<anim name="Female_Getup_left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Getup_left.ani" />
+		<anim name="Female_Getup_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Getup_Right.ani" />
+		<anim name="Female_High_Guard_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Guard_Left.ani" />
+		<anim name="Female_High_Guard_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Guard_Right.ani" />
+		<anim name="Female_High_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Hit_Left.ani" />
+		<anim name="Female_High_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Hit_Right.ani" />
+		<anim name="Female_High_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Kick_Left.ani" />
+		<anim name="Female_High_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Kick_Right.ani" />
+		<anim name="Female_High_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Punch_Left.ani" />
+		<anim name="Female_High_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Punch_Right.ani" />
+		<anim name="Female_High_Special1_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Special1_Hit_Left.ani" />
+		<anim name="Female_High_Special1_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Special1_Hit_Right.ani" />
+		<anim name="Female_Knockdown_Idle_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Knockdown_Idle_Left.ani" />
+		<anim name="Female_Knockdown_Idle_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Knockdown_Idle_Right.ani" />
+		<anim name="Female_Knockdown_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Knockdown_Left.ani" />
+		<anim name="Female_Knockdown_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Knockdown_Right.ani" />
+		<anim name="Female_Low_Guard_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Guard_Left.ani" />
+		<anim name="Female_Low_Guard_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Guard_Right.ani" />
+		<anim name="Female_Low_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Hit_Left.ani" />
+		<anim name="Female_Low_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Hit_Right.ani" />
+		<anim name="Female_Low_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Kick_Left.ani" />
+		<anim name="Female_Low_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Kick_Right.ani" />
+		<anim name="Female_Low_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Punch_Left.ani" />
+		<anim name="Female_Low_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Low_Punch_Right.ani" />
+		<anim name="Female_Mid_Guard_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Guard_Left.ani" />
+		<anim name="Female_Mid_Guard_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Guard_Right.ani" />
+		<anim name="Female_Mid_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Hit_Left.ani" />
+		<anim name="Female_Mid_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Hit_Right.ani" />
+		<anim name="Female_Mid_Kick_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Kick_Left.ani" />
+		<anim name="Female_Mid_Kick_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Kick_Right.ani" />
+		<anim name="Female_Mid_Punch_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Punch_Left.ani" />
+		<anim name="Female_Mid_Punch_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Mid_Punch_Right.ani" />
+		<anim name="Female_Stand_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Stand_Left.ani" />
+		<anim name="Female_Stand_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Stand_Right.ani" />
+		<anim name="Female_Step_Forward_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Step_Forward_Left.ani" />
+		<anim name="Female_Step_Forward_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Step_Forward_Right.ani" />
+		<anim name="Female_Taunt1_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Taunt1_Left.ani" />
+		<anim name="Female_Taunt1_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Taunt1_Right.ani" />
+		<anim name="Male_Getup_left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Getup_left.ani" />
+		<anim name="Male_Getup_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Getup_Right.ani" />
+		<anim name="Kazuya_High_Hit_Right_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_High_Hit_Right_Idle.ani" />
+		<anim name="Female_High_Hurricane_Hit_Left_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_High_Hurricane_Hit_Left_Idle.ani" />
+		<anim name="Ryu_High_Hurricane_Hit_Left_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_High_Hurricane_Hit_Left_Idle.ani" />
+		<anim name="Ryu_High_Hurricane_Hit_Right_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Ryu_High_Hurricane_Hit_Right_Idle.ani" />
+		<anim name="Female_High_Hurricane_Hit_Right_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_High_Hurricane_Hit_Right_Idle.ani" />
+		<anim name="Kazuya_High_Hit_Left_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Kazuya_High_Hit_Left_Idle.ani" />
+		<anim name="Female_High_Hurricane_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_High_Hurricane_Hit_Left.ani" />
+		<anim name="Female_High_Hurricane_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_High_Hurricane_Hit_Right.ani" />
+		<anim name="Female_Kazuya_High_Hit_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_Kazuya_High_Hit_Left.ani" />
+		<anim name="Female_Kazuya_High_Hit_Left_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_Kazuya_High_Hit_Left_Idle.ani" />
+		<anim name="Female_Kazuya_High_Hit_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_Kazuya_High_Hit_Right.ani" />
+		<anim name="Female_Kazuya_High_Hit_Right_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/special/Female_Kazuya_High_Hit_Right_Idle.ani" />
+		<anim name="Male_High_Special1_Hit_Left_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Special1_Hit_Left_Idle.ani" />
+		<anim name="Male_High_Special1_Hit_Right_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_High_Special1_Hit_Right_Idle.ani" />
+		<anim name="Female_High_Special1_Hit_Left_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Special1_Hit_Left_Idle.ani" />
+		<anim name="Female_High_Special1_Hit_Right_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_High_Special1_Hit_Right_Idle.ani" />
+		<anim name="Male_Taunt2_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Taunt2_Left.ani" />
+		<anim name="Male_Taunt2_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Taunt2_Right.ani" />
+		<anim name="Female_Taunt2_Left.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Taunt2_Left.ani" />
+		<anim name="Female_Taunt2_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Taunt2_Right.ani" />
+		<anim name="Female_Run.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Run.ani" />
+		<anim name="Male_Run.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Run.ani" />
+		<anim name="Male_Run_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Run_Right.ani" />
+		<anim name="Female_Run_Right.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Run_Right.ani" />
+		<anim name="Female_Win_Left02Still.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Win_Left02Still.ani" />
+		<anim name="Female_Win_LeftStill.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Win_LeftStill.ani" />
+		<anim name="Female_Win_Right02Still.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Win_Right02Still.ani" />
+		<anim name="Female_Win_RightStill.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/female/Female_Win_RightStill.ani" />
+		<anim name="Male_Win_Left02Still.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Win_Left02Still.ani" />
+		<anim name="Male_Win_LeftStill.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Win_LeftStill.ani" />
+		<anim name="Male_Win_Right02Still.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Win_Right02Still.ani" />
+		<anim name="Male_Win_RightStill.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/anims/male/Male_Win_RightStill.ani" />
+		<anim name="X_Balloon.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/X_Balloon.ani" />
+		<anim name="x_chip.ani" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/x_chip.ani" />
+		<skeleton name="Ryu.skn" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/Ryu_FBS.skn" />
+		<skeleton name="Kazuya.skn" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/Kaz_FBS.skn" />
+		<skeleton name="Home_Enemy_FBS.skn" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/Home_Enemy_FBS.skn" />
+		<skeleton name="x_chip.skn" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/x_chip.skn" />
+		<skeleton name="X_Balloon.skn" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Models/X_Balloon.skn" />
+		<soundbank name="Streetfighter.bnk" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Sounds/Streetfighter.bnk" />
+		<soundstream name="STX_Stage_UWZ.mp3" deferred_loading="false" protected="false" file="MiniGames/StreetfighterXTekken/Sounds/STX_Stage_UWZ.mp3" />
+		<repertoire name="MaleAnims.xml" deferred_loading="false" protected="false" file="objects/F2128916-0E904407-8369E168-9EFBA43B/MaleAnims.xml" />
+		<repertoire name="FemaleAnims.xml" deferred_loading="false" protected="false" file="objects/F2128916-0E904407-8369E168-9EFBA43B/FemaleAnims.xml" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Controller.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Game.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Math.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/GameHud.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/OHS.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Jamin.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Tween.lua" />
+		<lua name="Sessions.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Sessions.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Misc.lua" />
+		<lua name="Moves.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Moves.lua" />
+		<lua name="SpecialEffects.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/SpecialEffects.lua" />
+		<lua name="AIcharacters.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/AIcharacters.lua" />
+		<lua name="Leaderboards.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Leaderboards.lua" />
+		<lua name="Effects.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/Effects.lua" />
+		<lua name="SceneLeaderboard.lua" deferred_loading="false" protected="true" file="MiniGames/StreetfighterXTekken/Code/SceneLeaderboard.lua" />
+		<lua name="DefStore.lua" deferred_loading="false" protected="true" file="common/shared/DefStore.lua" />
+		<lua name="qEntity.lua" deferred_loading="false" protected="true" file="common/features/v2_0/libs/qEntity.lua" />
+		<lua name="XmlConvert.lua" deferred_loading="false" protected="true" file="common/features/v2_0/libs/XmlConvert.lua" />
+		<lua name="FxLib.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/FxLib.lua" />
+		<lua name="FxSystem.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/FxSystem.lua" />
+		<lua name="fx_anim_model.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/fx_anim_model.lua" />
+		<lua name="fx_beam.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/fx_beam.lua" />
+		<lua name="fx_flash.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/fx_flash.lua" />
+		<lua name="fx_mesh_tween.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/fx_mesh_tween.lua" />
+		<lua name="fx_particle.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/fx_particle.lua" />
+		<lua name="fx_pool.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/fx_pool.lua" />
+		<lua name="fx_ray_cast.lua" deferred_loading="false" protected="true" file="common/fx_lab/v2_0/libs/fx_ray_cast.lua" />
+	</local>
+	<external />
+</resources>

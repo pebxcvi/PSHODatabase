@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="osd_types" deferred_loading="false" file="IremA8/soft_jp_01/SLOTDAI/OSD/osd_types.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremA8/soft_jp_01/SLOTDAI/OSD/WndTabSelectDialog.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremA8/soft_jp_01/SLOTDAI/OSD/WndTab.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremA8/soft_jp_01/SLOTDAI/OSD/WndTabMessageDialog.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremA8/soft_jp_01/SLOTDAI/OSD/SelectionButton.xml" />
+		<file name="WndMessageDialog.xml" deferred_loading="false" file="IremA8/soft_jp_01/SLOTDAI/OSD/WndMessageDialog.xml" />
+		<file name="WndSimpleMenuDialog.xml" deferred_loading="false" file="IremA8/soft_jp_01/SLOTDAI/OSD/WndSimpleMenuDialog.xml" />
+		<anim name="A8_Male_suwari_slot_block.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Male_suwari_slot_block.ani" memory="host" />
+		<anim name="A8_Male_suwari_slot_dorubox.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Male_suwari_slot_dorubox.ani" memory="host" />
+		<anim name="A8_Male_suwari_slot_mode.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Male_suwari_slot_mode.ani" memory="host" />
+		<anim name="A8_Male_suwari_slot_nozoki.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Male_suwari_slot_nozoki.ani" memory="host" />
+		<anim name="A8_Male_suwari_slot.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Male_suwari_slot.ani" memory="host" />
+		<anim name="A8_Female_suwari_slot_nozoki.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Female_suwari_slot_nozoki.ani" memory="host" />
+		<anim name="A8_Female_suwari_slot.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Female_suwari_slot.ani" memory="host" />
+		<anim name="A8_Female_suwari_slot_dorubox.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Female_suwari_slot_dorubox.ani" memory="host" />
+		<anim name="A8_Female_suwari_slot_mode.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Female_suwari_slot_mode.ani" memory="host" />
+		<anim name="A8_Female_suwari_slot_block.ani" deferred_loading="false" protected="false" file="IremA8/design/scenes/motion/A8_Female_suwari_slot_block.ani" memory="host" />
+		<soundbank name="SLODDAT_SE.bnk" deferred_loading="false" protected="false" file="IremA8/sound/SLOTDAI/SLODDAT_SE.bnk" memory="host" />
+		<repertoire name="repertoire_m_pachidai" deferred_loading="true" file="objects/B697BA7E-0E794767-8B6F1A52-845B2C77/repertoire_m_pachidai.xml" />
+		<repertoire name="repertoire_f_pachidai" deferred_loading="true" file="objects/B697BA7E-0E794767-8B6F1A52-845B2C77/repertoire_f_pachidai.xml" />
+		<lua name="main" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/main.lua" />
+		<lua name="LuaTask" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/LuaTask.lua" />
+		<lua name="LuaMemblock" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/LuaMemblock.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/LuaPadUtil.lua" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/LuaUtil.lua" />
+		<lua name="gameflow" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/gameflow.lua" />
+		<lua name="gameact" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/gameact.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/DialogTabSelectS.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/DialogTab.lua" />
+		<lua name="ui" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/ui.lua" />
+		<lua name="LuaSingleEvent.lua" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/LuaSingleEvent.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/DialogBasicS.lua" />
+		<lua name="se_data.lua" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/Data/se_data.lua" />
+		<lua name="se.lua" deferred_loading="false" protected="true" file="IremA8/soft_jp_01/SLOTDAI/se/se.lua" />
+	</local>
+	<external />
+</resources>

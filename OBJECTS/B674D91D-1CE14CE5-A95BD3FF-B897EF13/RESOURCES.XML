@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="card.mdl" deferred_loading="true" protected="false" file="Locomotion/52_card_pick_up/52_card_pick_up_slow.mdl" memory="main" />
+		<model name="remotecard.mdl" deferred_loading="true" protected="false" file="Locomotion/52_card_pick_up/52_card_pick_up_slow.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/52_card_pick-_up/file/config.xml" memory="main" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/52_card_pick_up/52_card_pick_up_idle.ani" memory="main" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/52_card_pick_up/52_card_pick_up_slow.ani" memory="main" />
+		<anim name="PokerCards_Slow" deferred_loading="true" protected="false" file="animation/male/locamotions/PokerCards_Slow.ani" memory="host" />
+		<anim name="PokerCards_Idle" deferred_loading="true" protected="false" file="animation/male/locamotions/PokerCards_Idle.ani" memory="host" />
+		<anim name="PokerCards_Run" deferred_loading="true" protected="false" file="animation/female/locomotions/PokerCards_Run.ani" memory="host" />
+		<anim name="PokerCards_F_Idle" deferred_loading="true" protected="false" file="animation/female/locomotions/PokerCards_F_Idle.ani" memory="host" />
+		<anim name="fidle" deferred_loading="true" protected="false" file="Locomotion/52_card_pick_up/anim/fidle.ani" />
+		<anim name="PokerCards_M_Walk.ani" deferred_loading="false" protected="false" file="animation/male/locamotions/PokerCards_M_Walk.ani" />
+		<anim name="card_Walk.ani" deferred_loading="false" protected="false" file="Locomotion/52_card_pick_up/52_card_pick_up_Walk.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/52_card_pick_up/52_card_pick_up_slow.skn" memory="main" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/52_card_pick-_up/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/52_card_pick-_up/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/52_card_pick-_up/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/52_card_pick-_up/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/52_card_pick-_up/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

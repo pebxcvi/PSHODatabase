@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="crane_mdl.mdl" deferred_loading="false" protected="false" file="environmentanimations/crane/crane_mdl.mdl" />
+		<model name="stone_mdl.mdl" deferred_loading="false" protected="false" file="environmentanimations/crane/stone_mdl.mdl" />
+		<anim name="crane_ani_grasp.ani" deferred_loading="false" protected="false" file="environmentanimations/crane/crane_ani_grasp.ani" />
+		<anim name="crane_ani_loop.ani" deferred_loading="false" protected="false" file="environmentanimations/crane/crane_ani_loop.ani" />
+		<anim name="stone_ani_grasp_silver.ani" deferred_loading="false" protected="false" file="environmentanimations/crane/stone_ani_grasp_silver.ani" />
+		<anim name="stone_ani_grasp_black.ani" deferred_loading="false" protected="false" file="environmentanimations/crane/stone_ani_grasp_black.ani" />
+		<anim name="stone_ani_grasp_gold.ani" deferred_loading="false" protected="false" file="environmentanimations/crane/stone_ani_grasp_gold.ani" />
+		<skeleton name="crane_mdl.skn" deferred_loading="false" protected="false" file="environmentanimations/crane/crane_mdl.skn" />
+		<skeleton name="stone_mdl.skn" deferred_loading="false" protected="false" file="environmentanimations/crane/stone_mdl.skn" />
+		<soundbank name="CraneCatcher.bnk" deferred_loading="false" protected="false" file="MiniGames/CraneCatcher/sound/CraneCatcher.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/MiniGame.luac" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/pad.luac" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/param.luac" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/seqMgr.luac" />
+		<lua name="DemoSeq.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/DemoSeq.luac" />
+		<lua name="GameSeq.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/GameSeq.luac" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript/all.luac" />
+		<lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/cameraMgr.luac" />
+		<lua name="OsdMgr.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/OsdMgr.luac" />
+		<lua name="GetItemData.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/GetItemData.luac" />
+		<lua name="consumeItemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/consumeItemListCheker.luac" />
+		<lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/CraneCatcher/lua/itemListCheker.luac" />
+	</local>
+	<external />
+</resources>

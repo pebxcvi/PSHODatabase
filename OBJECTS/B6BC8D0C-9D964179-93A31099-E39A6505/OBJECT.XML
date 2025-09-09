@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.80.0.53.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">John C. Ardussi</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Game Mechanics</company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">Main.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">*OnListenerReceivedData</on_listener_received_data>
+		<on_destroy type="string">*OnDestroy</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list">
+			<object type="bag">
+				<id type="string">E4D17A71-5C154862-9D854B5C-68C987AA</id>
+			</object>
+			<object type="bag">
+				<id type="string">BBA9A44D-C4DA4A6A-9CFDF3A2-71E45892</id>
+			</object>
+			<object type="bag">
+				<id type="string">CC885A70-2F6B4CC8-AABB1D02-D165E9E7</id>
+			</object>
+			<object type="bag">
+				<id type="string">4B0260AC-C5AE47F9-AD38B447-0E2957F8</id>
+			</object>
+			<object type="bag">
+				<id type="string">1C61664F-7AE1472E-BA9AD963-CBD65411</id>
+			</object>
+			<object type="bag">
+				<id type="string">3FE3D633-0EFD4E5C-850D40D8-3F769B0D</id>
+			</object>
+			<object type="bag">
+				<id type="string">7B3E924A-8E4C48B6-A3BD51B1-4653B37D</id>
+			</object>
+			<object type="bag">
+				<id type="string">CE132493-98434A47-A6033186-70441C0D</id>
+			</object>
+			<object type="bag">
+				<id type="string">4225428F-63864B8A-92DC223D-D4C1D0F8</id>
+			</object>
+			<object type="bag">
+				<id type="string">CE51A795-53F34A44-B187D704-130A874C</id>
+			</object>
+		</senders>
+	</lua_environment>
+	<entity />
+	<network>
+		<definition type="string">Network.xml</definition>
+		<on_bag_created type="string"></on_bag_created>
+		<on_bag_deleted type="string"></on_bag_deleted>
+		<on_message_received type="string">*OnMessageReceived</on_message_received>
+		<auto_replicate type="bool">false</auto_replicate>
+	</network>
+	<mini_game>
+		<on_update type="string">*OnUpdate</on_update>
+		<on_send_welcome_message type="string">*OnSendWelcomeMessage</on_send_welcome_message>
+		<on_render type="string">*OnRender</on_render>
+		<on_can_local_player_join type="string">*OnCanLocalPlayerJoin</on_can_local_player_join>
+		<on_add_player type="string">*OnAddPlayer</on_add_player>
+		<on_remove_player type="string">*OnRemovePlayer</on_remove_player>
+		<on_local_player_join type="string">*OnLocalPlayerJoin</on_local_player_join>
+		<on_local_player_leave type="string">*OnLocalPlayerLeave</on_local_player_leave>
+		<on_local_player_update_gameplay type="string">*OnLocalPlayerUpdateGameplay</on_local_player_update_gameplay>
+		<join_type type="string">minimal</join_type>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<session_size type="int">1</session_size>
+		<network_session type="bool">true</network_session>
+		<on_custom_exit_menu_option_selected type="string"></on_custom_exit_menu_option_selected>
+		<is_allowed_presence_broadcast type="bool">false</is_allowed_presence_broadcast>
+	</mini_game>
+	<screen />
+	<pad />
+	<renderer />
+	<camera />
+	<system />
+</objectdef>

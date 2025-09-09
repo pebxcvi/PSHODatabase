@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Snowball.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/models/SingleSnowball.mdl" memory="host" />
+		<model name="Box" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/model/ActiveModel.mdl" />
+		<model name="SnowballPileModel.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/models/SnowballPileModel.mdl" />
+		<texture name="Jukebox_Button.dds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Textures/Jukebox_Button.dds" />
+		<texture name="Jukebox_Panel.dds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Textures/Jukebox_Panel.dds" />
+		<texture name="Selecter.dds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Textures/Selecter.dds" />
+		<texture name="ShopBackground" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/textures/Noticeboard_Background.dds" />
+		<texture name="ShopSelection" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ShopSelection.dds" />
+		<texture name="ShopArrowDown" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowDown.dds" />
+		<texture name="ShopArrowUp" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowUp.dds" />
+		<texture name="ShopBoughtIcon" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/BoughtIcon.dds" />
+		<texture name="ShopFrame" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/textures/Frame.dds" />
+		<texture name="SnowballHUD.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/textures/SnowballHUD.dds" />
+		<particle name="Particles" deferred_loading="false" protected="false" file="ATGParticles/Park/SnowImpact.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Network.xml" />
+		<file name="VEEMEE_font" deferred_loading="false" protected="false" file="MiniGames/FitnessMachine/files/tenbyfive.ttf" />
+		<collision name="Snowball.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/models/SingleSnowball.hkx" />
+		<collision name="Box_Col" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/collision/ActiveModel.hkx" />
+		<collision name="SnowballPileModel.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/models/SnowballPileModel.hkx" />
+		<anim name="m_throw_lob" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/m_throw_lob.ani" />
+		<anim name="m_throw_side" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/m_throw_side.ani" />
+		<anim name="f_crouch" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/f_crouch.ani" />
+		<anim name="f_flinch" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/f_flinch.ani" />
+		<anim name="f_throw_lob" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/f_throw_lob.ani" />
+		<anim name="f_throw_side" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/f_throw_side.ani" />
+		<anim name="m_crouch" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/m_crouch.ani" />
+		<anim name="m_flinch" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/m_flinch.ani" />
+		<soundbank name="sounds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/jukebox.bnk" />
+		<repertoire name="male_rep" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/male_rep.xml" />
+		<repertoire name="female_rep" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/female_rep.xml" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/male_emotes.xml" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/anim/female_emotes.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/MiniGame_XP.lua" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/Game_XP.lua" memory="host" />
+		<lua name="Menu.lua" deferred_loading="true" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/Menu.lua" memory="host" />
+		<lua name="Pad.lua" deferred_loading="true" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/Pad.lua" memory="host" />
+		<lua name="Snowball.lua" deferred_loading="true" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/Snowball.lua" memory="host" />
+		<lua name="SnowballShop.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/SnowballShop.lua" />
+		<lua name="Shop.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/Shop.lua" />
+		<lua name="class.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/class.lua" />
+		<lua name="CommerceManager.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/CommerceManager.lua" />
+		<lua name="ConfigurationManager.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/ConfigurationManager.lua" />
+		<lua name="Consumable.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Consumable.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Inventory.lua" />
+		<lua name="JSONUtility.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/JSONUtility.lua" />
+		<lua name="SelectableTextBox.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/SelectableTextBox.lua" />
+		<lua name="StatsManager.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/StatsManager.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Utility.lua" />
+		<lua name="VHTTPRequest.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/VHTTPRequest.lua" />
+		<lua name="VLog.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/VLog.lua" />
+		<lua name="ObjectMetadata.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/ObjectMetadata.lua" />
+		<lua name="StringUtility.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/framework/StringUtility.lua" />
+		<lua name="TextBox.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/TextBox.lua" />
+		<lua name="Stats.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/Stats.lua" />
+		<lua name="SnowballManager.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/SnowballingMG/lua/SnowballManager.lua" />
+	</local>
+	<external />
+</resources>

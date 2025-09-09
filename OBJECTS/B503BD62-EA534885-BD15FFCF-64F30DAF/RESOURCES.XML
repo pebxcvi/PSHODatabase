@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Mastif_Eyelid.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/Mastif_Eyelid.mdl" />
+		<model name="CommSept_Mastif.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/CommSept_Mastif.mdl" />
+		<model name="CommSept_MastifHouse.mdl" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/CommSept_MastifHouse.mdl" />
+		<collision name="CommSept_MastifHouse.hkx" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/CommSept_MastifHouse.hkx" />
+		<collision name="CommSept_MastifHouse_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/CommSept_MastifHouse_SafeVolume.hkx" />
+		<anim name="CommSept_Mastif_Standing_wagging_tail.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Standing_wagging_tail.ani" />
+		<anim name="CommSept_Mastif_Sit.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Sit.ani" />
+		<anim name="CommSept_Mastif_Sit_to_standing.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Sit_to_standing.ani" />
+		<anim name="CommSept_Mastif_Sitting_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Sitting_Idle.ani" />
+		<anim name="CommSept_Mastif_Sitting_looking_around.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Sitting_looking_around.ani" />
+		<anim name="CommSept_Mastif_Sitting_wagging_tail.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Sitting_wagging_tail.ani" />
+		<anim name="CommSept_Mastif_Standing_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Standing_Idle.ani" />
+		<anim name="CommSept_Mastif_Standing_looking_around.ani" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/anims/CommSept_Mastif_Standing_looking_around.ani" />
+		<skeleton name="CommSept_Mastif.skn" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/models/CommSept_Mastif.skn" />
+		<soundbank name="dog.bnk" deferred_loading="false" protected="false" file="ActiveItems/commseptember_2010/commsept_mastif/sounds/dog.bnk" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Main.lua" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Data.lua" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Animations/Animations.lua" />
+		<lua name="EyeLid.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Pet/EyeLid.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Pet/Pet.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Sound/SfxMgr.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/StateMachine/StateMachine.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/StateMachine/State.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Utilities/Utility.lua" />
+		<lua name="FIFO.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Utilities/FIFO.lua" />
+		<lua name="RandPick.lua" deferred_loading="false" protected="true" file="ActiveItems/commseptember_2010/commsept_mastif/programming/Utilities/RandPick.lua" />
+	</local>
+	<external />
+</resources>
