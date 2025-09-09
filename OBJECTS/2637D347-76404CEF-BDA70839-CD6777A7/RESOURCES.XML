@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="locomotion/arms_50cal/model/Arms_50Cal.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="locomotion/arms_50cal/model/Arms_50CalRemote.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/arms_50cal/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="locomotion/arms_50cal/anim/armsrace_50cal_ide.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="locomotion/arms_50cal/anim/FArms_50CaLIdle.ani" memory="host" />
+		<anim name="FArms_50CaLRun_01.ani" deferred_loading="true" protected="false" file="locomotion/arms_50cal/anim/FArms_50CaLRun_01.ani" />
+		<anim name="Arms_50CaLRun_01.ani" deferred_loading="true" protected="false" file="locomotion/arms_50cal/anim/Arms_50CaLRun_01.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="locomotion/arms_50cal/skeleton/Arms_50CalRemote.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/arms_50cal/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/arms_50cal/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/arms_50cal/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/arms_50cal/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/arms_50cal/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

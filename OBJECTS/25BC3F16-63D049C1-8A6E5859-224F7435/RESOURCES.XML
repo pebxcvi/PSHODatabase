@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/Four_Legged_Cycle/file/configuration.xml" memory="host" />
+		<anim name="fourlegged_Idle" deferred_loading="true" protected="false" file="animation/male/fourlegged_cycles/fourlegged_Idle.ani" />
+		<anim name="Run_Cycle" deferred_loading="true" protected="false" file="animation/male/fourlegged_cycles/Run_Cycle.ani" />
+		<anim name="Walk_Cycle" deferred_loading="true" protected="false" file="animation/male/fourlegged_cycles/Walk_Cycle.ani" />
+		<anim name="1ActionPose" deferred_loading="true" protected="false" file="animation/male/fourlegged_cycles/1ActionPose.ani" />
+		<anim name="2ActionPose" deferred_loading="true" protected="false" file="animation/male/fourlegged_cycles/2ActionPose.ani" />
+		<anim name="four_legged_fem_1feralpose" deferred_loading="true" protected="false" file="animation/female/four_legged_female/four_legged_fem_1feralpose.ani" />
+		<anim name="four_legged_fem_2feralpose" deferred_loading="true" protected="false" file="animation/female/four_legged_female/four_legged_fem_2feralpose.ani" />
+		<anim name="four_legged_fem_idle" deferred_loading="true" protected="false" file="animation/female/four_legged_female/four_legged_fem_idle.ani" />
+		<anim name="four_legged_fem_run" deferred_loading="true" protected="false" file="animation/female/four_legged_female/four_legged_fem_run.ani" />
+		<anim name="four_legged_fem_walk" deferred_loading="true" protected="false" file="animation/female/four_legged_female/four_legged_fem_walk.ani" />
+		<anim name="Jog_Cycle" deferred_loading="true" protected="false" file="animation/male/fourlegged_cycles/Jog_Cycle.ani" />
+		<anim name="four_legged_fem_jog" deferred_loading="true" protected="false" file="animation/female/four_legged_female/four_legged_fem_jog.ani" />
+		<soundbank name="bnk.audio" deferred_loading="true" protected="false" file="AvatarAnimPacks/Four_Legged_Cycle/soundbank/audio.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/Four_Legged_Cycle/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/Four_Legged_Cycle/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Four_Legged_Cycle/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Four_Legged_Cycle/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/Four_Legged_Cycle/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

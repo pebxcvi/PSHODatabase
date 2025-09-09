@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="companion_follower/lovemachine/LoveMachine_Rig.mdl" memory="host" />
+		<model name="LoveMachine_Rig.mdl" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Rig.mdl" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/LoveMachine/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_walk.ani" memory="host" />
+		<anim name="idle3" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Idle03.ani" memory="host" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Idle01.ani" memory="host" />
+		<anim name="idle2" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Idle02.ani" memory="host" />
+		<anim name="run" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_run.ani" memory="host" />
+		<anim name="idle4" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Idle04.ani" memory="host" />
+		<anim name="idle5" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Idle05.ani" />
+		<anim name="idle6" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Idle06.ani" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Rig.skn" memory="main" />
+		<skeleton name="LoveMachine_Rig.skn" deferred_loading="false" protected="false" file="companion_follower/lovemachine/LoveMachine_Rig.skn" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/LoveMachine/lua/scriptremote.luac" id="217002282" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/LoveMachine/lua/script.luac" memory="main" id="2428944273" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/LoveMachine/lua/xml.luac" memory="main" id="146193299" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/LoveMachine/lua/scriptlocal.luac" id="3209855585" />
+	</local>
+	<external />
+</resources>

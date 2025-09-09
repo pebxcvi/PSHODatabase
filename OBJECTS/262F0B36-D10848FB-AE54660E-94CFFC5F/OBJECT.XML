@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.41.0.37.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">ルシフェル 「一番いい装備」セット</name>
+		<description type="string">エルシャダイ　ルシフェルの一番いい装備\n
+\n
+本セットには、アバターカスタマイズ用の下記アイテムが含まれています。\n
+\n
+・ルシフェル 一番いいヘアースタイル(頭)\n
+・ルシフェル 一番いいシャツ（トップス）\n
+・ルシフェル 一番いい紀元前のヴィンテージ・ジーンズ（ボトムズ）\n
+・ルシフェル 一番いいシューズ（靴）\n
+\n
+ ※購入すると、「アバターのカスタマイズ」内の該当カテゴリに各アイテムが追加されます。\n
+[#Legal]</description>
+		<author type="string">nakajima</author>
+		<object_version type="string">0.4</object_version>
+		<company type="string">Ignition Entertainment Ltd.</company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+</objectdef>

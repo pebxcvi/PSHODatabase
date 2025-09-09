@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_velvetropes_gold" deferred_loading="false" protected="false" file="velvetropes/velvetropes_gold.mdl" />
+		<collision name="hkx_velvetropes_gold" deferred_loading="false" protected="false" file="velvetropes/velvetropes_gold.hkx" />
+		<anim name="anim_spotlights" deferred_loading="false" protected="false" file="velvetropes/velvetropes_gold.ani" />
+		<skeleton name="skn_spotlights" deferred_loading="false" protected="false" file="velvetropes/velvetropes_gold.skn" />
+		<lua name="Theater_Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Theater_Controller/lua/Theater_Controller.lua" />
+		<lua name="TheaterDoors.lua" deferred_loading="false" protected="true" file="MiniGames/Theater_Controller/lua/TheaterDoors.lua" />
+		<lua name="TheaterServer.lua" deferred_loading="false" protected="true" file="MiniGames/Theater_Controller/lua/TheaterServer.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="MiniGames/Theater_Controller/lua/List.lua" />
+	</local>
+	<external />
+</resources>

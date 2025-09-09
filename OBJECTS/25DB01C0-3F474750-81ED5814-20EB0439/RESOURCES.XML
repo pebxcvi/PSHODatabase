@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="buybag.mdl" deferred_loading="false" protected="false" file="apartments/iron_fusion/mechjet_pod/CommerceModel.mdl" />
+		<collision name="buybag.hkx" deferred_loading="false" protected="false" file="apartments/iron_fusion/mechjet_pod/CommerceModel.hkx" />
+		<anim name="buybag.ani" deferred_loading="false" protected="false" file="apartments/iron_fusion/mechjet_pod/CommerceModel.ani" />
+		<skeleton name="buybag.skn" deferred_loading="false" protected="false" file="apartments/iron_fusion/mechjet_pod/CommerceModel.skn" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="apartments/iron_fusion/mechjet_pod/scripts/CommercePoint.lua" />
+	</local>
+	<external />
+</resources>

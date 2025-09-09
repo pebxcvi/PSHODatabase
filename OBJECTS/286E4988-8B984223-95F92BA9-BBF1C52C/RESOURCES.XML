@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="lillypad.mdl" deferred_loading="false" file="MiniGames/FrogFlinger/Models/lillypad.mdl" />
+		<model name="cross_hairs.mdl" deferred_loading="false" file="MiniGames/FrogFlinger/Models/ff_arrowhead.mdl" />
+		<model name="frog.mdl" deferred_loading="false" file="MiniGames/FrogFlinger/Models/frog_2x.mdl" />
+		<model name="arms.mdl" deferred_loading="false" file="MiniGames/FrogFlinger/Models/arms.mdl" />
+		<model name="ff_arc.mdl" deferred_loading="false" file="MiniGames/FrogFlinger/Models/ff_arrowbase.mdl" />
+		<model name="ff_launcher_idle.mdl" deferred_loading="false" file="environmentanimations/ff_launcher/ff_launcher_idle.mdl" />
+		<model name="ff_malet.mdl" deferred_loading="false" file="MiniGames/FrogFlinger/Models/ff_malet.mdl" />
+		<model name="ff_avatar_mallet.mdl" deferred_loading="false" file="MiniGames/FrogFlinger/Models/ff_avatar_mallet.mdl" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/FrogFlinger/Images/FF_OSD_Goal_Frog_White_c.dds" />
+		<texture name="goalcheck" deferred_loading="false" file="generic_shared_textures/Green_Check_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/FrogFlinger/Images/FF_OSD_Bullet_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="generic_shared_textures/FranticFreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_FF_Logo_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/male01_Torso_FF_Logo_THMB_128.png" />
+		<texture name="Prize2_Female" deferred_loading="false" file="thumbnails_in_game/Female01_JewelLeftEar_FF_EarRing_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" file="thumbnails_in_game/male01_JewelLeftEar_FF_EarRing_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails_in_game/FF_Terrarium_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/FF_Stuffed_Frog_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_FF_Robe_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" file="thumbnails_in_game/male01_Torso_FF_Robe_THMB_128.png" />
+		<texture name="Prize6_Female" deferred_loading="false" file="thumbnails_in_game/Male01_Glasses_FrogEyes2_THMB_128.png" />
+		<texture name="Prize6_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Glasses_FrogEyes_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails_in_game/FF_Poster_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" file="thumbnails_in_game/Female01_HeadDress_FrogHead_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" file="thumbnails_in_game/Male01_HeadDress_FrogHead_THMB_128.png" />
+		<texture name="Prize9" deferred_loading="false" file="thumbnails_in_game/FF_LillypadTable_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_FF_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_FF_THMB_128.png" />
+		<particle name="FF_Splash.efx" deferred_loading="false" file="MiniGames/FrogFlinger/Effects/FF_Splash.efx" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/FrogFlinger/OSD/types.xml" />
+		<file name="WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<collision name="lillypad.hkx" deferred_loading="false" file="MiniGames/FrogFlinger/Models/lillypad.hkx" />
+		<collision name="cross_hairs.hkx" deferred_loading="false" file="MiniGames/FrogFlinger/Models/cross_hairs.hkx" />
+		<collision name="arms.hkx" deferred_loading="false" file="MiniGames/FrogFlinger/Models/arms.hkx" />
+		<collision name="frog.hkx" deferred_loading="false" file="MiniGames/FrogFlinger/Models/frog_2x_collision.hkx" />
+		<anim name="frog_flail.ani" deferred_loading="false" file="MiniGames/FrogFlinger/Models/frog_flail.ani" />
+		<anim name="frog_splat.ani" deferred_loading="false" file="MiniGames/FrogFlinger/Models/frog_splat.ani" />
+		<anim name="frog_idle.ani" deferred_loading="false" file="MiniGames/FrogFlinger/Models/frog_idle.ani" />
+		<anim name="male_jitter" deferred_loading="false" file="animation/male/male_jitter.ani" />
+		<anim name="female_jitter" deferred_loading="false" file="animation/female/female_jitter.ani" />
+		<anim name="ff_launcher_fling.ani" deferred_loading="false" file="environmentanimations/ff_launcher/ff_launcher_fling.ani" />
+		<anim name="ff_launcher_idle.ani" deferred_loading="false" file="environmentanimations/ff_launcher/ff_launcher_idle.ani" />
+		<anim name="ff_launcher_reset.ani" deferred_loading="false" file="environmentanimations/ff_launcher/ff_launcher_reset.ani" />
+		<anim name="ff_male_hit.ani" deferred_loading="false" file="animation/male/ff_male_hit.ani" />
+		<anim name="ff_male_idle.ani" deferred_loading="false" file="animation/male/ff_male_idle.ani" />
+		<anim name="ff_female_idle.ani" deferred_loading="false" file="animation/female/ff_female_idle.ani" />
+		<anim name="ff_female_hit.ani" deferred_loading="false" file="animation/female/ff_female_hit.ani" />
+		<skeleton name="frog.skn" deferred_loading="false" file="MiniGames/FrogFlinger/Models/frog_2x.skn" />
+		<skeleton name="ff_launcher_idle.skn" deferred_loading="false" file="environmentanimations/ff_launcher/ff_launcher_idle.skn" />
+		<repertoire name="male_frog_flinger" deferred_loading="false" file="MiniGames/FrogFlinger/male_frog_flinger.xml" />
+		<repertoire name="female_frog_flinger" deferred_loading="false" file="MiniGames/FrogFlinger/female_frog_flinger.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Game.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/HelperFunctions.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Math.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Player.lua" />
+		<lua name="LilyPad.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/LilyPad.lua" />
+		<lua name="Frog.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Frog.lua" />
+		<lua name="Cursor.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Cursor.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="FF_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/FF_Settings.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="Mallet.lua" deferred_loading="false" protected="true" file="MiniGames/FrogFlinger/Source/Mallet.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/themidway/SceneScripts/GlobalDefines.lua" />
+	</local>
+	<external />
+</resources>

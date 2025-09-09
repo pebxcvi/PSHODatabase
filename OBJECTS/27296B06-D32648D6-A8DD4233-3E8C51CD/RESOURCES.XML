@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/sprg13_vase/SPRG13_Vase.mdl" memory="host" />
+		<model name="Vase01.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase01.mdl" memory="host" />
+		<model name="Vase02.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase02.mdl" memory="host" />
+		<model name="Vase03.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase03.mdl" memory="host" />
+		<model name="Vase04.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase04.mdl" memory="host" />
+		<model name="Vase05.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase05.mdl" memory="host" />
+		<model name="Vase06.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase06.mdl" memory="host" />
+		<model name="Vase07.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase07.mdl" memory="host" />
+		<model name="Vase08.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase08.mdl" memory="host" />
+		<texture name="constructor_cangrab.dds" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/constructor_cangrab.dds" memory="host" />
+		<texture name="Constructor_ItemLocked.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/Constructor_ItemLocked.png" memory="host" />
+		<texture name="constructor_movingitem.dds" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/constructor_movingitem.dds" memory="host" />
+		<texture name="constructor_nothingselected.dds" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/constructor_nothingselected.dds" memory="host" />
+		<texture name="SPRG13_Vase_1.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_1.png" memory="host" />
+		<texture name="SPRG13_Vase_2.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_2.png" memory="host" />
+		<texture name="SPRG13_Vase_3.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_3.png" memory="host" />
+		<texture name="SPRG13_Vase_4.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_4.png" memory="host" />
+		<texture name="SPRG13_Vase_5.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_5.png" memory="host" />
+		<texture name="SPRG13_Vase_6.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_6.png" memory="host" />
+		<texture name="SPRG13_Vase_7.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_7.png" memory="host" />
+		<texture name="SPRG13_Vase_8.png" deferred_loading="false" protected="false" file="furniture/sprg13_vase/graphics/vase_thumbnails/SPRG13_Vase_8.png" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/sprg13_vase/SPRG13_Vase.hkx" memory="host" />
+		<collision name="Vase01.hkx" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase01.hkx" memory="host" />
+		<collision name="Vase02.hkx" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase02.hkx" memory="host" />
+		<collision name="Vase03.hkx" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase03.hkx" memory="host" />
+		<collision name="Vase04.hkx" deferred_loading="false" protected="false" file="furniture/sprg13_vase/Vase04.hkx" memory="host" />
+		<collision name="Sprg13_Egghunt_Collider.hkx" deferred_loading="false" protected="false" file="furniture/sprg13_egghunt/Sprg13_Egghunt_Collider.hkx" />
+		<soundbank name="Bramblenook_UI.bnk" deferred_loading="false" protected="false" file="furniture/sprg13_vase/audio/Bramblenook_UI.bnk" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/states/State_Idle.luac" memory="host" />
+		<lua name="State_PlaceItems.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/states/State_PlaceItems.luac" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/network/MessageManager.luac" memory="host" />
+		<lua name="Constructor.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/constructor/Constructor.luac" memory="host" />
+		<lua name="Level.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/constructor/Level.luac" memory="host" />
+		<lua name="LevelComponents.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/constructor/LevelComponents.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/utilities/Pad.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/utilities/StateMachine.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/utilities/Utility.luac" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/sprg13_vase/lua/MiniGame.luac" />
+	</local>
+	<external />
+</resources>

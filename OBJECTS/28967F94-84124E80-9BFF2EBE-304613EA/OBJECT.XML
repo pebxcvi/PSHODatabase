@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.82.0.17.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">Administrator</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string"></company>
+		<template type="string">scene_minigame</template>
+		<template_version type="string">1.1.0</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">MiniGame.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">OnListenerReceivedData()</on_listener_received_data>
+		<on_destroy type="string">OnDestroy()</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<targetable>
+		<interactive type="bool">false</interactive>
+		<on_activated type="string"></on_activated>
+		<on_targeted type="string"></on_targeted>
+		<is_targetable_by_remote_people type="bool">false</is_targetable_by_remote_people>
+		<trigger_radius type="float">-1</trigger_radius>
+		<can_be_targeted_while_seated type="bool">false</can_be_targeted_while_seated>
+	</targetable>
+	<entity />
+	<osd>
+		<types type="string"></types>
+	</osd>
+	<mini_game>
+		<on_update type="string">OnUpdate()</on_update>
+		<on_send_welcome_message type="string">OnSendWelcomeMessage()</on_send_welcome_message>
+		<on_render type="string">OnRender()</on_render>
+		<on_can_local_player_join type="string">OnCanLocalPlayerJoin()</on_can_local_player_join>
+		<on_add_player type="string">OnAddPlayer()</on_add_player>
+		<on_remove_player type="string">OnRemovePlayer()</on_remove_player>
+		<on_local_player_join type="string">OnLocalPlayerJoin()</on_local_player_join>
+		<on_local_player_leave type="string">OnLocalPlayerLeave()</on_local_player_leave>
+		<on_local_player_update_gameplay type="string">OnLocalPlayerUpdateGameplay()</on_local_player_update_gameplay>
+		<join_type type="string">normal</join_type>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<session_size type="int">1</session_size>
+		<network_session type="bool">false</network_session>
+		<on_custom_exit_menu_option_selected type="string"></on_custom_exit_menu_option_selected>
+		<is_allowed_presence_broadcast type="bool">false</is_allowed_presence_broadcast>
+	</mini_game>
+	<renderer />
+	<camera />
+</objectdef>

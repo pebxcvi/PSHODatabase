@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="audihub_piano.mdl" deferred_loading="false" protected="false" file="environments/AudiHub/audihub_piano.mdl" />
+		<model name="RalphTails.mdl" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/Models/RalphTails_Rig.mdl" memory="host" />
+		<texture name="NoteCircle.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/NoteCircle.dds" />
+		<texture name="NoteCross.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/NoteCross.dds" />
+		<texture name="NoteSquare.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/NoteSquare.dds" />
+		<texture name="NoteTriangle.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/NoteTriangle.dds" />
+		<texture name="Music_Score_1" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/textures/screen_manuscript1.dds" />
+		<texture name="Music_Score_2" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/textures/screen_manuscript2.dds" />
+		<texture name="InGameBG.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/screen_in_game.dds" />
+		<texture name="NoteTriangleChord.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/ShoulderNoteTriangle.dds" />
+		<texture name="NoteCircleChord.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/ShoulderNoteCircle.dds" />
+		<texture name="NoteCrossChord.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/ShoulderNoteCross.dds" />
+		<texture name="NoteSquareChord.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/ShoulderNotePink.dds" />
+		<texture name="SpotlightMask.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/SpotlightMask.dds" />
+		<texture name="score_DE.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/textures/score_DE.dds" />
+		<texture name="score_EN.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/textures/score_EN.dds" />
+		<texture name="score_ES.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/textures/score_ES.dds" />
+		<texture name="score_IT.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/textures/score_IT.dds" />
+		<texture name="InGameBlankBG.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/screen_blank.dds" />
+		<texture name="HitZoneParallelogram.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/HitZoneParallelogram.dds" />
+		<texture name="LeaderboardNumbers6to10.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/LeaderboardNumbers6to10.dds" />
+		<texture name="LeaderboardNumbers1to5.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/LeaderboardNumbers1to5.dds" />
+		<texture name="FrontSplash.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/FrontSplash.dds" />
+		<texture name="NoteSuccess2.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/NoteSuccess2.dds" />
+		<texture name="NoteSuccess1.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/NoteSuccess1.dds" />
+		<texture name="Title_WilliamTellOverture.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/Title_WilliamTellOverture.dds" />
+		<texture name="Title_1812Overture.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/Title_1812Overture.dds" />
+		<texture name="Title_EineKleineNachtMusic.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/Title_EineKleineNachtMusic.dds" />
+		<texture name="Title_HallelujahChorus.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/Title_HallelujahChorus.dds" />
+		<texture name="Title_HungarianDanceNo5.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/Title_HungarianDanceNo5.dds" />
+		<texture name="Title_RideOfTheValkyries.dds" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/textures/Title_RideOfTheValkyries.dds" />
+		<texture name="TrophyIcon_9.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_9.dds" />
+		<texture name="TrophyIcon_1.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_1.dds" />
+		<texture name="TrophyIcon_2.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_2.dds" />
+		<texture name="TrophyIcon_3.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_3.dds" />
+		<texture name="TrophyIcon_4.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_4.dds" />
+		<texture name="TrophyIcon_5.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_5.dds" />
+		<texture name="TrophyIcon_6.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_6.dds" />
+		<texture name="TrophyIcon_7.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_7.dds" />
+		<texture name="TrophyIcon_8.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TrophyIcon_8.dds" />
+		<texture name="Button_Up.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Up.dds" />
+		<texture name="Button_Circle.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Circle.dds" />
+		<texture name="Button_Cross.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Cross.dds" />
+		<texture name="Button_Down.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Down.dds" />
+		<texture name="Button_L1.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_L1.dds" />
+		<texture name="Button_L2.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_L2.dds" />
+		<texture name="Button_Left.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Left.dds" />
+		<texture name="Button_R1.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_R1.dds" />
+		<texture name="Button_R2.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_R2.dds" />
+		<texture name="Button_Right.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Right.dds" />
+		<texture name="Button_Square.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Square.dds" />
+		<texture name="Button_Triangle.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/Button_Triangle.dds" />
+		<texture name="MarriageOfFigaro.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/MarriageOfFigaro.dds" />
+		<texture name="QueenOfShiba.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/QueenOfShiba.dds" />
+		<texture name="TheNutcracker.dds" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/TheNutcracker.dds" />
+		<file name="XML Network" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/Network.xml" />
+		<file name="XML_OSD_play_now_menu" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/OSD/play_now_menu.xml" />
+		<file name="XML_OSD_instructions" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/OSD/instructions.xml" />
+		<file name="XML_OSD_welcome" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/OSD/welcome.xml" />
+		<file name="XML_OSD_types" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/OSD/types.xml" />
+		<file name="scripty" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Textures/James_Fajardo.ttf" memory="main" />
+		<collision name="audihub_piano.hkx" deferred_loading="false" protected="false" file="environments/AudiHub/audihub_piano.hkx" />
+		<anim name="Ralph_StandUp.ani" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/animations/Ralph_StandUp.ani" memory="host" />
+		<anim name="Ralph_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/animations/Ralph_Idle.ani" memory="host" />
+		<anim name="Ralph_SitDown.ani" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/animations/Ralph_SitDown.ani" memory="host" />
+		<anim name="Ralph_Plays.ani" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/animations/Ralph_Plays.ani" />
+		<skeleton name="RalphTails.skn" deferred_loading="false" protected="false" file="MiniGames/AudiBosendorfer/Models/RalphTails_Rig.skn" memory="host" />
+		<soundbank name="SoundBank Piano" deferred_loading="false" protected="false" file="MiniGames/AudiPiano2/Sound/Piano.bnk" memory="host" />
+		<lua name="VEEMEEDebug.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/VEEMEEDebug.lua" memory="host" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/Camera.lua" memory="host" />
+		<lua name="Hud.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/Hud.lua" memory="host" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/List.lua" memory="host" />
+		<lua name="ObjectPool.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/ObjectPool.lua" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/Pad.lua" memory="host" />
+		<lua name="Piano.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/Piano.lua" memory="host" />
+		<lua name="PianoActive.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoActive.lua" memory="host" />
+		<lua name="PianoFSM.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoFSM.lua" memory="host" />
+		<lua name="PianoGame.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoGame.lua" memory="host" />
+		<lua name="PianoHiScore.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoHiScore.lua" memory="host" />
+		<lua name="PianoHiScoreRequest.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoHiScoreRequest.lua" memory="host" />
+		<lua name="PianoMiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoMiniGame.lua" memory="host" />
+		<lua name="Timers.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/Timers.lua" memory="host" />
+		<lua name="VMOsd.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/VMOsd.lua" memory="host" />
+		<lua name="VMScreen.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/VMScreen.lua" memory="host" />
+		<lua name="PianoSong.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoSong.lua" memory="host" />
+		<lua name="VMSounds.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/VMSounds.lua" memory="host" />
+		<lua name="PianoNote.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/PianoNote.lua" memory="host" />
+		<lua name="Pianist.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/Pianist.lua" memory="host" />
+		<lua name="DynamicEntity.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/DynamicEntity.lua" memory="host" />
+		<lua name="VMLights.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/Lights.lua" />
+		<lua name="MusicData3.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/MusicData3.lua" />
+		<lua name="MusicData1.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/MusicData1.lua" />
+		<lua name="MusicData2.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/MusicData2.lua" />
+		<lua name="VMTrophyRequest.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/VMTrophyRequest.lua" />
+		<lua name="VMTrophy.lua" deferred_loading="false" protected="true" file="MiniGames/AudiPiano2/VMTrophy.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="testcube.mdl" deferred_loading="false" protected="false" file="games/MetalDetector/models/testcube.mdl" />
+		<model name="Metal_Detector.mdl" deferred_loading="false" protected="false" file="games/common/props/metal_detector/Metal_Detector.mdl" />
+		<texture name="black.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/black.dds" />
+		<texture name="cyan_box.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/cyan_box.dds" />
+		<texture name="white_box.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/white_box.dds" />
+		<texture name="Meter_BG.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/Meter_BG.dds" />
+		<texture name="Meter_Needle.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/Meter_Needle.dds" />
+		<texture name="coin.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/coin.dds" />
+		<texture name="mapAlone.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/mapAlone.dds" />
+		<texture name="medallion.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/medallion.dds" />
+		<texture name="necklace.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/necklace.dds" />
+		<texture name="ring.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/ring.dds" />
+		<texture name="BottleCap.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/BottleCap.dds" />
+		<texture name="dime.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/dime.dds" />
+		<texture name="halfdollar.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/halfdollar.dds" />
+		<texture name="nickel.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/nickel.dds" />
+		<texture name="quarter.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/quarter.dds" />
+		<texture name="rustynail.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/rustynail.dds" />
+		<texture name="spoon.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/spoon.dds" />
+		<texture name="tentspike.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/tentspike.dds" />
+		<texture name="glasses.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/glasses.dds" />
+		<texture name="metallunchbox.dds" deferred_loading="false" protected="false" file="games/MetalDetector/textures/metallunchbox.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="games/MetalDetector/file/Network.xml" />
+		<anim name="Male_MD_Idle.ani" deferred_loading="false" protected="false" file="animation/male/metal_detector_pose/Male_MD_Idle.ani" />
+		<anim name="Male_MD_run.ani" deferred_loading="false" protected="false" file="animation/male/metal_detector_pose/Male_MD_run.ani" />
+		<anim name="Male_MD_walk.ani" deferred_loading="false" protected="false" file="animation/male/metal_detector_pose/Male_MD_walk.ani" />
+		<anim name="Female_MD_Idle.ani" deferred_loading="false" protected="false" file="animation/female/metal_detector_pose/Female_MD_Idle.ani" />
+		<anim name="Female_MD_run.ani" deferred_loading="false" protected="false" file="animation/female/metal_detector_pose/Female_MD_run.ani" />
+		<anim name="Female_MD_walk.ani" deferred_loading="false" protected="false" file="animation/female/metal_detector_pose/Female_MD_walk.ani" />
+		<soundbank name="MetalDetector.bnk" deferred_loading="false" protected="false" file="games/MetalDetector/sounds/MetalDetector.bnk" />
+		<repertoire name="Female_MetalDetector_repertoire.xml" deferred_loading="false" protected="false" file="animation/Repertoires/Female_MetalDetector_repertoire.xml" />
+		<repertoire name="Male_MetalDetector_repertoire.xml" deferred_loading="false" protected="false" file="animation/Repertoires/Male_MetalDetector_repertoire.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/MiniGame.lua" />
+		<lua name="Helpers.lua" deferred_loading="false" protected="true" file="Lua_Library/Helpers.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="Lua_Library/Misc.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="Lua_Library/StateMachine.lua" />
+		<lua name="GameState_Intro.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/GameState_Intro.lua" />
+		<lua name="GameState_PlayGame.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/GameState_PlayGame.lua" />
+		<lua name="Misc_OSD.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/Misc_OSD.lua" />
+		<lua name="ControllerModule.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/ControllerModule.lua" />
+		<lua name="Utility_TriggerMover.lua" deferred_loading="false" protected="true" file="Lua_Library/Utility_TriggerMover.lua" />
+		<lua name="GameState_Idle.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/GameState_Idle.lua" />
+		<lua name="TreasureLocations.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/TreasureLocations.lua" />
+		<lua name="TreasureNode.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/TreasureNode.lua" />
+		<lua name="GameState_BeatGame.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/GameState_BeatGame.lua" />
+		<lua name="GameState_Failure.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/GameState_Failure.lua" />
+		<lua name="MD_RewardCheck.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/MD_RewardCheck.lua" />
+		<lua name="Misc_LockPlayer.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/Misc_LockPlayer.lua" />
+		<lua name="MatrixUtilities.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/MatrixUtilities.lua" />
+		<lua name="GameState_NotEligible.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/GameState_NotEligible.lua" />
+		<lua name="GameState_PlayAgain.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/GameState_PlayAgain.lua" />
+		<lua name="Communicator.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator.lua" />
+		<lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/Library/Communicator_ProjectDefined.lua" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/Library/Core.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="games/MetalDetector/lua/Library/Util.lua" />
+	</local>
+	<external />
+</resources>

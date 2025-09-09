@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">マカロンチェアセット</name>
+		<description type="string">マカロンチェアセット\n
+本セットには、下記アイテムが含まれています。\n
+・マカロンチェア（ストロベリー）（チェア）\n
+・マカロンチェア（バニラ）（チェア）\n
+・マカロンチェア（チョコレート）（チェア）\n
+・マカロンチェア（ピスタチオ）（チェア）\n
+・マカロンチェア（ブルーベリー）（チェア）\n
+・マカロンチェア（シトロン）（チェア）\n
+※購入すると、該当カテゴリに各アイテムが追加されます。</description>
+		<author type="string">nakajima</author>
+		<object_version type="string">0.4</object_version>
+		<company type="string">Q Entertainment Inc.</company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+</objectdef>

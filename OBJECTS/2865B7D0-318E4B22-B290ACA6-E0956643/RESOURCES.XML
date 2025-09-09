@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="mdl_Test" deferred_loading="false" protected="false" file="hellfiretest/turrets/Turret_01.mdl" />
+    <model name="mdl_limpetbot" deferred_loading="false" protected="false" file="hellfiretest/limpetbot/limpetbot.mdl" />
+    <model name="mdl_raygun" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/raygun_glove.mdl" />
+    <model name="mdl_reticule" deferred_loading="false" protected="false" file="hellfiretest/miscmodels/tgtCube.mdl" />
+    <model name="mdl_InfoArrow" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/InfoArrow.mdl" />
+    <model name="mdl_ArrowSpacewalk" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/spacewalkArrow.mdl" memory="host" />
+    <model name="mdl_ArrowSpacewalkCircle" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/spacewalkArrowCircle.mdl" />
+    <texture name="tex_MenuBackground" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuBackground.dds" />
+    <texture name="tex_MenuLeftBar" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuLeftBar.dds" />
+    <texture name="tex_MenuLegend" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuLegend.dds" />
+    <texture name="tex_MenuRightBar" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuRightBar.dds" />
+    <texture name="tex_MenuTitle" deferred_loading="false" protected="false" file="OSD/textures/Menus/MenuTitle.dds" />
+    <texture name="tex_PSStoreBagIcon" deferred_loading="false" protected="false" file="OSD/textures/Menus/store_icon_sm.dds" />
+    <particle name="efx_limpetdeath" deferred_loading="false" protected="false" file="ATGParticles/Explosions/explode_limpetbot.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="SpacewalkNetwork.xml" />
+    <file name="types_spacewalk.xml" deferred_loading="false" protected="false" file="OSD/types_spacewalk.xml" />
+    <file name="osd_spacewalkhud_full" deferred_loading="false" protected="false" file="OSD/spacewalkhud_full.xml" />
+    <file name="osd_spacewalkhud_wide" deferred_loading="false" protected="false" file="OSD/spacewalkhud_wide.xml" />
+    <file name="osd_usedialog" deferred_loading="false" protected="false" file="OSD/usedialog.xml" />
+    <collision name="hkx_Spacewalker" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/Asteroid_One.hkx" />
+    <collision name="hkx_float" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/float.hkx" />
+    <collision name="hkx_limpetbot" deferred_loading="false" protected="false" file="hellfiretest/limpetbot/limpetbot.hkx" />
+    <anim name="anim_float_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/float.ani" />
+    <anim name="anim_move_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/move.ani" />
+    <anim name="anim_shoot_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/shoot.ani" />
+    <anim name="anim_somersault_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/sumersault.ani" />
+    <anim name="anim_float_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/float.ani" />
+    <anim name="anim_move_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/move.ani" />
+    <anim name="anim_shoot_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/shoot.ani" />
+    <anim name="anim_somersault_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/sumersault.ani" />
+    <anim name="anim_SpacewalkElevator" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/elevatoranimation.ani" />
+    <anim name="anim_limpetbot" deferred_loading="false" protected="false" file="hellfiretest/limpetbot/limpetbot.ani" />
+    <anim name="anim_SpacewalkElevatorCam" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/elevatorcamera.ani" />
+    <anim name="anim_move_jetpack_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/jet.ani" />
+    <anim name="anim_frontflip_male" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/frontflip.ani" />
+    <anim name="anim_move_jetpack_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/jet.ani" />
+    <anim name="anim_frontflip_female" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/frontflip.ani" />
+    <skeleton name="skn_SpacewalkElevator" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/elevatoranimation.skn" />
+    <skeleton name="skn_limpetbot" deferred_loading="false" protected="false" file="hellfiretest/limpetbot/limpetbot.skn" />
+    <skeleton name="skn_SpacewalkElevatorCam" deferred_loading="false" protected="false" file="hellfiretest/Atmosphere/elevatorcamera.skn" />
+    <soundbank name="GameSFX" deferred_loading="false" protected="false" file="hellfiretest/audio/gamesound_spacewalk.bnk" />
+    <repertoire name="SpacewalkMale" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/male/spacewalk/SpacewalkMale.xml" />
+    <repertoire name="SpacewalkFemale" deferred_loading="false" protected="false" file="objects/2865B7D0-318E4B22-B290ACA6-E0956643/female/spacewalk/SpacewalkFemale.xml" />
+    <lua name="Debug.lua" deferred_loading="false" protected="true" file="scripts/misc/debug.luac" />
+    <lua name="class.lua" deferred_loading="false" protected="true" file="scripts/misc/class.luac" />
+    <lua name="Callback.lua" deferred_loading="false" protected="true" file="scripts/misc/callback.luac" />
+    <lua name="AnimHelper.lua" deferred_loading="false" protected="true" file="scripts/misc/animhelper.luac" />
+    <lua name="List.lua" deferred_loading="false" protected="true" file="scripts/misc/list.luac" />
+    <lua name="MusicHelper.lua" deferred_loading="false" protected="true" file="scripts/misc/musichelper.luac" />
+    <lua name="Serialization.lua" deferred_loading="false" protected="true" file="scripts/misc/serialization.luac" />
+    <lua name="Sound.lua" deferred_loading="false" protected="true" file="scripts/misc/sound.luac" />
+    <lua name="Game_Spacewalk.lua" deferred_loading="false" protected="true" file="scripts/games/game_spacewalk.luac" />
+    <lua name="SpacewalkOsd.lua" deferred_loading="false" protected="true" file="scripts/osd/spacewalkosd.luac" />
+    <lua name="GameObject.lua" deferred_loading="false" protected="true" file="scripts/objects/gameobject.luac" />
+    <lua name="World.lua" deferred_loading="false" protected="true" file="scripts/objects/world.luac" />
+    <lua name="Spacewalker.lua" deferred_loading="false" protected="true" file="scripts/objects/spacewalker.luac" />
+    <lua name="Level.lua" deferred_loading="false" protected="true" file="scripts/objects/level.luac" />
+    <lua name="SpacewalkNetworking.lua" deferred_loading="false" protected="true" file="scripts/objects/spacewalknetworking.luac" />
+    <lua name="SpacewalkLimpet.lua" deferred_loading="false" protected="true" file="scripts/objects/spacewalklimpet.luac" />
+    <lua name="ParticleEffect.lua" deferred_loading="false" protected="true" file="scripts/objects/particleeffect.luac" />
+    <lua name="Window.lua" deferred_loading="false" protected="true" file="scripts/gui/window.luac" />
+    <lua name="SpacewalkMenu.lua" deferred_loading="false" protected="true" file="scripts/gui/spacewalkmenu.luac" />
+    <lua name="Menu.lua" deferred_loading="false" protected="true" file="scripts/gui/menu.luac" />
+    <lua name="Slider.lua" deferred_loading="false" protected="true" file="scripts/gui/slider.luac" />
+    <lua name="Inventory.lua" deferred_loading="false" protected="true" file="scripts/misc/inventory.luac" />
+  </local>
+  <external />
+</resources>

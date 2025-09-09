@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="k_countdown_001.mdl" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/countdown_001.mdl" memory="main" />
+		<model name="a_countdown_001.mdl" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/countdown_001.mdl" memory="main" />
+		<texture name="k_newyaer_count_0.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_0.dds" memory="main" />
+		<texture name="k_newyaer_count_1.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_1.dds" memory="main" />
+		<texture name="k_newyaer_count_10.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_10.dds" memory="main" />
+		<texture name="k_newyaer_count_2.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_2.dds" memory="main" />
+		<texture name="k_newyaer_count_2013_fr.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2d/newyaer_count/newyaer_count_2014_fr.dds" memory="main" />
+		<texture name="k_newyaer_count_2013_en.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2d/newyaer_count/newyaer_count_2014_us.dds" memory="main" />
+		<texture name="k_newyaer_count_2013.dds" deferred_loading="true" protected="false" memory="main">
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014_hk.dds" locale="zh-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_2014.dds" locale="ja-*" />
+			<override file="Edo/cmn_design/2D/newyaer_count/newyaer_count_2014_us.dds" />
+		</texture>
+		<texture name="k_newyaer_count_3.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_3.dds" memory="main" />
+		<texture name="k_newyaer_count_4.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_4.dds" memory="main" />
+		<texture name="k_newyaer_count_5.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_5.dds" memory="main" />
+		<texture name="k_newyaer_count_6.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_6.dds" memory="main" />
+		<texture name="k_newyaer_count_7.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_7.dds" memory="main" />
+		<texture name="k_newyaer_count_8.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_8.dds" memory="main" />
+		<texture name="k_newyaer_count_9.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_9.dds" memory="main" />
+		<texture name="k_newyaer_count_byou.dds" deferred_loading="true" protected="false" memory="main">
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_byou.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_n.dds" />
+		</texture>
+		<texture name="k_newyaer_count_fun.dds" deferred_loading="true" protected="false" memory="main">
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_fun.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2d/newyaer_count/newyaer_count_c.dds" />
+		</texture>
+		<texture name="k_newyaer_count_happy.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_happy.dds" memory="main" />
+		<texture name="k_newyaer_count_happy_eu.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_happy_eu_2014.dds" memory="main" />
+		<texture name="k_newyaer_count_waku.dds" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/newyaer_count_waku.dds" memory="main" />
+		<texture name="a_newyaer_count_0.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_0.dds" memory="main" />
+		<texture name="a_newyaer_count_1.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_1.dds" memory="main" />
+		<texture name="a_newyaer_count_2.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_2.dds" memory="main" />
+		<texture name="a_newyaer_count_2013_fr.dds" deferred_loading="true" protected="false" file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_fr.dds" memory="main" />
+		<texture name="a_newyaer_count_2013_en.dds" deferred_loading="true" protected="false" file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_us.dds" memory="main" />
+		<texture name="a_newyaer_count_2013.dds" deferred_loading="true" protected="false" memory="main">
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_de.dds" locale="de-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_es.dds" locale="es-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_fr.dds" locale="fr-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_hk.dds" locale="zh-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_it.dds" locale="it-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_kr.dds" locale="ko-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014_us.dds" locale="en-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_2014.dds" locale="ja-*" />
+			<override file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_2014_us.dds" />
+		</texture>
+		<texture name="a_newyaer_count_3.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_3.dds" memory="main" />
+		<texture name="a_newyaer_count_4.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_4.dds" memory="main" />
+		<texture name="a_newyaer_count_5.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_5.dds" memory="main" />
+		<texture name="a_newyaer_count_6.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_6.dds" memory="main" />
+		<texture name="a_newyaer_count_7.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_7.dds" memory="main" />
+		<texture name="a_newyaer_count_8.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_8.dds" memory="main" />
+		<texture name="a_newyaer_count_9.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_9.dds" memory="main" />
+		<texture name="a_newyaer_count_byou.dds" deferred_loading="true" protected="false" memory="main">
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_byou.dds" locale="ja-*" />
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_n.dds" />
+		</texture>
+		<texture name="a_newyaer_count_fun.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_c.dds" memory="main">
+			<override file="lounge_base/cmn_design/2d/newyaer_count/newyaer_count_fun.dds" locale="ja-*" />
+			<override file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_fun.dds" />
+		</texture>
+		<texture name="a_newyaer_count_happy.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_happy_2014.dds" memory="main" />
+		<texture name="a_newyaer_count_waku.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/newyaer_count_waku.dds" memory="main" />
+		<anim name="k_countdown_001.ani" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/countdown_001.ani" memory="main" />
+		<anim name="a_countdown_001.ani" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/countdown_001.ani" memory="main" />
+		<skeleton name="k_countdown_001.skn" deferred_loading="true" protected="false" file="Edo/cmn_design/2D/newyaer_count/countdown_001.skn" memory="main" />
+		<skeleton name="a_countdown_001.skn" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/newyaer_count/countdown_001.skn" memory="main" />
+		<soundbank name="k_countdown.bnk" deferred_loading="true" protected="false" file="Edo/sound/countdown2.bnk" memory="main" />
+		<soundbank name="a_countdown.bnk" deferred_loading="true" protected="false" file="Lounge_Base/sound/countdown2.bnk" memory="main" />
+		<soundstream name="k_countdown.mp3" deferred_loading="false" protected="false" file="edo/sound/newyearStream.mp3" memory="host" />
+		<soundstream name="a_countdown.mp3" deferred_loading="false" protected="false" file="Lounge_Base/sound/newyearStream.mp3" memory="host" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="home_gzcmn/2013xmas/countdown/lua/Data.lua" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="home_gzcmn/2012xmas/countdown/lua/MiniGame.lua" memory="host" />
+		<lua name="TelopData.lua" deferred_loading="false" protected="true" file="home_gzcmn/2012xmas/countdown/lua/TelopData.lua" memory="host" />
+		<lua name="Window.lua" deferred_loading="false" protected="true" file="home_gzcmn/2012xmas/countdown/lua/Window.lua" memory="host" />
+		<lua name="WindowData.lua" deferred_loading="false" protected="true" file="home_gzcmn/2012xmas/countdown/lua/WindowData.lua" memory="host" />
+		<lua name="GameMain.lua" deferred_loading="false" protected="true" file="home_gzcmn/2012xmas/countdown_eu/lua/GameMainWithOSDRenderer.lua" memory="host" />
+		<lua name="TelopWindowRenderer.lua" deferred_loading="false" protected="true" file="home_gzcmn/2012xmas/countdown/lua/TelopWindowRenderer.lua" memory="host" />
+		<lua name="TelopWindow.lua" deferred_loading="false" protected="true" file="home_gzcmn/2012xmas/countdown/lua/TelopWindow.lua" memory="host" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilGarbage.lua" memory="host" />
+		<lua name="Version.lua" deferred_loading="false" protected="true" file="Lounge_Base/soft_jp_00/Version_2012xmas.lua" memory="host" />
+		<lua name="TimeUtil.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/TimeUtil.lua" memory="host" />
+	</local>
+	<external />
+</resources>

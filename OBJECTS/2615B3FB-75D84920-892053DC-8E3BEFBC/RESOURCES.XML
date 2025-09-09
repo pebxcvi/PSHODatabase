@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/critter_belfry/CRITTER_Belfry.mdl" />
+		<model name="CRITTER_Batling.mdl" deferred_loading="false" protected="false" file="MiniGames/heavy_critters/CRITTER_Batling.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/critter_belfry/CRITTER_Belfry.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/critter_belfry/CRITTER_Belfry.safevolume.hkx" />
+		<anim name="CRITTER_Batling.ani" deferred_loading="false" protected="false" file="MiniGames/heavy_critters/CRITTER_Batling.ani" />
+		<skeleton name="CRITTER_Batling.skn" deferred_loading="false" protected="false" file="MiniGames/heavy_critters/CRITTER_Batling.skn" />
+		<lua name="RoamingPet_Batling.lua" deferred_loading="false" protected="true" file="MiniGames/heavy_critters/RoamingPet_Batling.lua" />
+	</local>
+	<external />
+</resources>

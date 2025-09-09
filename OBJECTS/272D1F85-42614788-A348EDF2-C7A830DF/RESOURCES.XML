@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CUTT_Boss_Tumor_01.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_01.mdl" />
+		<model name="CUTT_Tentacle_RIG.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_RIG.mdl" memory="host" />
+		<model name="CUTT_BossEye_RIG.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_BossEye_RIG.mdl" memory="host" />
+		<model name="CUTT_Brazier.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Brazier.mdl" memory="host" />
+		<model name="CUTT_Lantern.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Lantern.mdl" memory="host" />
+		<model name="CUTT_ROOM_boss.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_ROOM_boss.mdl" memory="host" />
+		<model name="CUTT_Boss_Portal.mdl" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Boss_Portal.mdl" />
+		<model name="CUTT_Boss_Tumor_02.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_02.mdl" />
+		<model name="CUTT_Boss_Crystal.mdl" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Boss_Crystal.mdl" />
+		<model name="CUTT_Boss_Tumor_03.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_03.mdl" />
+		<model name="CUTT_BossEye_Busted.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_BossEye_Busted.mdl" />
+		<texture name="DamageSprite.dds" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/graphics/DamageSprite.dds" />
+		<texture name="whiteout.dds" deferred_loading="true" protected="false" file="furniture/winds_decorative_lounger/whiteout.dds" />
+		<texture name="CUTT_logomark.dds" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_2012_Generic/CUTT_logomark.dds" />
+		<particle name="Portal_02.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Cutterridge/Portal_02.efx" />
+		<particle name="Boss_Flame_Effect.efx" deferred_loading="true" protected="false" file="Tools/AtgParticles/Cutterridge/Boss_Flame_Effect.efx" memory="host" />
+		<particle name="Lightbeam_02.efx" deferred_loading="true" protected="false" file="Tools/AtgParticles/Cutterridge/Lightbeam_02.efx" />
+		<particle name="Boss_Explode02.efx" deferred_loading="true" protected="false" file="Tools/AtgParticles/Cutterridge/Boss_Explode02.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/file/Network.xml" />
+		<collision name="CUTT_Boss_Tumor_01.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_01.hkx" />
+		<collision name="CUTT_Corn3X1.hkx" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Corn3X1.hkx" />
+		<collision name="CUTT_Brazier.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Brazier.hkx" />
+		<collision name="CUTT_Boss_Tumor_02.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_02.hkx" />
+		<collision name="CUTT_Boss_Crystal.hkx" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Boss_Crystal.hkx" />
+		<collision name="CUTT_Boss_Tumor_03.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_03.hkx" />
+		<collision name="CUTT_Boss_Portal.hkx" deferred_loading="false" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Boss_Portal.hkx" />
+		<anim name="CUTT_Tentacle_Attack01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_Attack01.ani" />
+		<anim name="CUTT_Tentacle_Idle01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_Idle01.ani" />
+		<anim name="CUTT_Tentacle_MoveForward.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_MoveForward.ani" />
+		<anim name="CUTT_Tentacle_Retreat.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_Retreat.ani" />
+		<anim name="CUTT_Boss_Tumor_01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_01.ani" />
+		<anim name="CUTT_BossEye_AngryIdle01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_BossEye_AngryIdle01.ani" />
+		<anim name="CUTT_BossEye_DamageLoop.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_BossEye_DamageLoop.ani" />
+		<anim name="CUTT_BossEye_Idle01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_BossEye_Idle01.ani" />
+		<anim name="CUTT_Tentacle_Death01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_Death01.ani" />
+		<anim name="CUTT_Tentacle_Idle02.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_Idle02.ani" />
+		<anim name="CUTT_Tentacle_Idle03.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_Idle03.ani" />
+		<anim name="CUTT_Tentacle_Death02.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_Death02.ani" />
+		<anim name="Female_Lantern_Idle01.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/anims/Female_Lantern_Idle01.ani" />
+		<anim name="Female_Lantern_Run.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/anims/Female_Lantern_Run.ani" />
+		<anim name="Female_Lantern_Walk.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/anims/Female_Lantern_Walk.ani" />
+		<anim name="Male_Lantern_Idle01.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/anims/Male_Lantern_Idle01.ani" />
+		<anim name="Male_Lantern_Run.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/anims/Male_Lantern_Run.ani" />
+		<anim name="Male_Lantern_Walk.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/anims/Male_Lantern_Walk.ani" />
+		<skeleton name="CUTT_Tentacle_RIG.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Tentacle_RIG.skn" />
+		<skeleton name="CUTT_Boss_Tumor_01.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/rooms/CUTT_Boss_Tumor_01.skn" />
+		<skeleton name="CUTT_BossEye_RIG.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_BossEye_RIG.skn" />
+		<soundbank name="Cutteridge_2012_Thulu.bnk" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/Cutteridge_2012_Thulu.bnk" />
+		<soundstream name="TentacleStartAttack.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/TentacleStartAttack.mp3" />
+		<soundstream name="Envo3.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/Envo3.mp3" />
+		<soundstream name="Envo1.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/Envo1.mp3" />
+		<soundstream name="Hiss1.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/Hiss1.mp3" />
+		<soundstream name="Hiss2.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/Hiss2.mp3" />
+		<soundstream name="Hiss3.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/Hiss3.mp3" />
+		<soundstream name="Hiss4.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/Hiss4.mp3" />
+		<soundstream name="BeamOn.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/BeamOn.mp3" />
+		<soundstream name="MatchFlare.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/MatchFlare.mp3" />
+		<soundstream name="BossHit.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/BossHit.mp3" />
+		<soundstream name="BossDeath.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/BossDeath.mp3" />
+		<soundstream name="EyeExplode.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/Audio/EyeExplode.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/reps/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Thulu_Minigame/reps/female.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/MiniGame.luac" />
+		<lua name="Brazier.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/LevelElements/Brazier.luac" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/Player/Player.luac" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/States/State_Idle.luac" />
+		<lua name="State_InGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/States/State_InGame.luac" />
+		<lua name="State_Lost.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/States/State_Lost.luac" />
+		<lua name="State_Won.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/States/State_Won.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/States/StateMachine.luac" />
+		<lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/Utility/BatchResourceLoader.luac" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/Utility/CoroutineManager.luac" />
+		<lua name="HideRemotePeople.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/Utility/HideRemotePeople.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/Utility/Pad.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/Utility/Utility.luac" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/States/State_MainMenu.luac" />
+		<lua name="Tentacle.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/AI/Tentacle.luac" />
+		<lua name="Tumor.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/LevelElements/Tumor.luac" memory="main" />
+		<lua name="BossEye.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/LevelElements/BossEye.luac" memory="main" />
+		<lua name="State_Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/States/State_Intro.luac" memory="main" />
+		<lua name="State_LanternNotOwned.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_2012_Generic/State_LanternNotOwned.luac" memory="main" />
+		<lua name="InventoryChecker.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Thulu_Minigame/lua/Utility/InventoryChecker.luac" memory="main" />
+	</local>
+	<external />
+</resources>

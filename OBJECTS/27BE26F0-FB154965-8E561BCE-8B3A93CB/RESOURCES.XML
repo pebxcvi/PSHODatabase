@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="MiniGames/Billiards/Models/americanPoolTable_blue.mdl" />
+		<model name="CueModel" deferred_loading="false" file="MiniGames/Billiards/models/billiardscue.mdl" />
+		<model name="Ball8Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball8.mdl" />
+		<model name="Ball1Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball1.mdl" />
+		<model name="Ball2Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball2.mdl" />
+		<model name="Ball3Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball3.mdl" />
+		<model name="Ball4Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball4.mdl" />
+		<model name="Ball5Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball5.mdl" />
+		<model name="Ball6Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball6.mdl" />
+		<model name="Ball7Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball7.mdl" />
+		<model name="Ball9Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball9.mdl" />
+		<model name="Ball10Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball10.mdl" />
+		<model name="Ball11Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball11.mdl" />
+		<model name="Ball12Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball12.mdl" />
+		<model name="Ball13Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball13.mdl" />
+		<model name="Ball14Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball14.mdl" />
+		<model name="Ball15Model" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ball15.mdl" />
+		<model name="CueBallModel" deferred_loading="false" file="MiniGames/Billiards/Models/billiards_ballcue.mdl" />
+		<texture name="SpotlightMask" deferred_loading="false" file="MiniGames/Billiards/textures/SpotlightMask.dds" />
+		<texture name="HUD_9ballrack_bar" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/9ballrack_bar_c.dds" />
+		<texture name="HUD_ball_stripe" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_stripe_c.dds" />
+		<texture name="HUD_ball_9" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_9_c.dds" />
+		<texture name="HUD_ball_8" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_8_c.dds" />
+		<texture name="HUD_ball_7" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_7_c.dds" />
+		<texture name="HUD_ball_6" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_6_c.dds" />
+		<texture name="HUD_ball_5" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_5_c.dds" />
+		<texture name="HUD_ball_4" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_4_c.dds" />
+		<texture name="HUD_ball_3" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_3_c.dds" />
+		<texture name="HUD_ball_2" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_2_c.dds" />
+		<texture name="HUD_ball_1" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_1_c.dds" />
+		<texture name="HUD_information_bar" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/information_bar_c.dds" />
+		<texture name="HUD_ball_spot" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_spot_c.dds" />
+		<texture name="HUD_ball_yellow" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_yellow_c.dds" />
+		<texture name="HUD_ball_black" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_black_c.dds" />
+		<texture name="HUD_ball_red" deferred_loading="false" protected="false" file="MiniGames/Billiards/Textures/ball_red_c.dds" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/Billiards/OSD/types.xml" />
+		<file name="osd_prompt" deferred_loading="false" file="MiniGames/Billiards/OSD/prompt.xml" />
+		<file name="Network" deferred_loading="false" file="MiniGames/Billiards/Network.xml" />
+		<file name="osd_game_type_menu" deferred_loading="false" file="MiniGames/Billiards/OSD/game_type_menu.xml" />
+		<file name="osd_play_now_menu" deferred_loading="false" file="MiniGames/Billiards/OSD/play_now_menu.xml" />
+		<file name="instructions" deferred_loading="false" protected="false" file="MiniGames/Billiards/OSD/instructions.xml" />
+		<file name="osd_game_menu" deferred_loading="false" protected="false" file="MiniGames/Billiards/OSD/game_menu.xml" />
+		<collision name="collision" deferred_loading="false" file="MiniGames/Billiards/Models/americanpooltable.hkx" />
+		<soundbank name="BilliardsSounds" deferred_loading="false" protected="false" file="MiniGames/Billiards/Sound/BilliardsSounds.bnk" memory="host" />
+		<lua name="VEEMEEDebug" deferred_loading="false" protected="true" file="MiniGames/Billiards/VEEMEEDebug.lua" />
+		<lua name="BilliardsDebug" deferred_loading="false" protected="true" file="MiniGames/Billiards/BilliardsDebug.lua" />
+		<lua name="BilliardsScores" deferred_loading="false" protected="true" file="MiniGames/Billiards/BilliardsScores.lua" />
+		<lua name="VMTimers" deferred_loading="false" protected="true" file="MiniGames/Billiards/Timers.lua" />
+		<lua name="VMObjectPool" deferred_loading="false" protected="true" file="MiniGames/Billiards/ObjectPool.lua" />
+		<lua name="VMCollisions" deferred_loading="false" protected="true" file="MiniGames/Billiards/Collisions.lua" />
+		<lua name="VMCamera" deferred_loading="false" protected="true" file="MiniGames/Billiards/Camera.lua" />
+		<lua name="VMPad" deferred_loading="false" protected="true" file="MiniGames/Billiards/Pad.lua" />
+		<lua name="BilliardsGame" deferred_loading="false" protected="true" file="MiniGames/Billiards/BilliardsGame.lua" />
+		<lua name="BilliardsScript" deferred_loading="false" protected="true" file="MiniGames/Billiards/Billiards.lua" />
+		<lua name="VMLights" deferred_loading="false" protected="true" file="MiniGames/Billiards/Lights.lua" />
+	</local>
+	<external />
+</resources>

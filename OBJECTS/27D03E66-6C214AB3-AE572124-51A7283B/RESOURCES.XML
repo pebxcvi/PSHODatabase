@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Table4" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/Pool_Table_Home.mdl" memory="host" />
+		<model name="American_CueBall" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/cueball_lod1.mdl" memory="host" />
+		<model name="defaultcue" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/cue.mdl" memory="host" />
+		<model name="cue_spot" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/cue_spot.mdl" memory="host" />
+		<model name="Ball_US_15" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball15_lod1.mdl" memory="host" />
+		<model name="Ball_US_1" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball1_lod1.mdl" memory="host" />
+		<model name="Ball_US_2" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball2_lod1.mdl" memory="host" />
+		<model name="Ball_US_3" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball3_lod1.mdl" memory="host" />
+		<model name="Ball_US_4" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball4_lod1.mdl" memory="host" />
+		<model name="Ball_US_5" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball5_lod1.mdl" memory="host" />
+		<model name="Ball_US_6" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball6_lod1.mdl" memory="host" />
+		<model name="Ball_US_7" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball7_lod1.mdl" memory="host" />
+		<model name="Ball_US_8" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball8_lod1.mdl" memory="host" />
+		<model name="Ball_US_9" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball9_lod1.mdl" memory="host" />
+		<model name="Ball_US_10" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball10_lod1.mdl" memory="host" />
+		<model name="Ball_US_11" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball11_lod1.mdl" memory="host" />
+		<model name="Ball_US_12" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball12_lod1.mdl" memory="host" />
+		<model name="Ball_US_13" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball13_lod1.mdl" memory="host" />
+		<model name="Ball_US_14" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/ball14_lod1.mdl" memory="host" />
+		<texture name="player3" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerYellow.dds" />
+		<texture name="player2" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerRed.dds" />
+		<texture name="player4" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerPurple.dds" />
+		<texture name="player1" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerBlue.dds" />
+		<texture name="large_circle" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/large_circle.dds" />
+		<texture name="large_cross" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/large_cross.dds" />
+		<texture name="large_square" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/large_square.dds" />
+		<texture name="large_triangle" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/large_triangle.dds" />
+		<texture name="question_mark" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/question_mark.dds" />
+		<texture name="IconStripes" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/SmallIconStripes.dds" />
+		<texture name="IconSpots" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/SmallIconSpots.dds" />
+		<texture name="IconBall" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/SmallIconBall.dds" />
+		<texture name="Icon2Shots" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/SmallIcon2Shots.dds" />
+		<texture name="IconBlackBall" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/SmallIconBlackBall.dds" />
+		<texture name="h_line" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/h_line.dds" />
+		<texture name="v_line" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/v_line.dds" />
+		<texture name="4_players" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/4_players.dds" />
+		<texture name="2_players" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/2_players.dds" />
+		<texture name="3_players" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/3_players.dds" />
+		<texture name="4_gametype" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/homerules_graphic.dds" />
+		<texture name="rightArrow" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/rightArrow.dds" />
+		<texture name="leftArrow" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/leftArrow.dds" />
+		<texture name="osd_left.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_left.dds" />
+		<texture name="osd_top.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_top.dds" />
+		<texture name="osd_topleft.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_topleft.dds" />
+		<texture name="osd_topright.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_topright.dds" />
+		<texture name="osd_centre.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_centre.dds" />
+		<texture name="osd_right.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_right.dds" />
+		<texture name="osd_bottomleft.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_bottomleft.dds" />
+		<texture name="osd_bottom.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_bottom.dds" />
+		<texture name="osd_bottomright.dds" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/Textures/osd_bottomright.dds" />
+		<texture name="playerEmpty" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerEmpty.dds" />
+		<texture name="player1_large" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerBlue_96x96.dds" />
+		<texture name="player2_large" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerYellow_96x96.dds" />
+		<texture name="player3_large" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerRed_96x96.dds" />
+		<texture name="player4_large" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerPurple_96x96.dds" />
+		<texture name="playerEmpty_large" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/playerEmpty_96x96.dds" />
+		<texture name="power_bar_shell" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/power_bar_shell.dds" />
+		<texture name="PowerBarColour1" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/power_bar_gauge.dds" />
+		<texture name="PowerBarColour2" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/power_bar_gauge_yellow.dds" />
+		<texture name="PowerBarColour3" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/power_bar_gauge_red.dds" />
+		<texture name="PowerBarColour4" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/power_bar_gauge_purple.dds" />
+		<texture name="L_IconBall" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/IconBall.dds" />
+		<texture name="SpotlightMask" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/SpotlightMask.dds" />
+		<texture name="LargeIconStripes" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/LargeIconStripes.dds" />
+		<texture name="LargeIconSpots" deferred_loading="false" protected="false" file="MiniGames/LuaPool/Textures/LargeIconSpots.dds" />
+		<file name="types" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/types.xml" memory="host" />
+		<file name="osd_main_menu" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/main_menu.xml" memory="host" />
+		<file name="osd_main_menu_player_details" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/main_menu_player_details.xml" memory="host" />
+		<file name="osd_main_menu_start_game" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/main_menu_start_game.xml" memory="host" />
+		<file name="osd_main_menu_game_setup" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/main_menu_game_setup.xml" memory="host" />
+		<file name="osd_versus_screen" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/versus_screen.xml" memory="host" />
+		<file name="osd_versus_playersB" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/versus_playersB.xml" memory="host" />
+		<file name="osd_versus_playersA" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/versus_playersA.xml" memory="host" />
+		<file name="osd_choose_player" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/choose_player_screen.xml" memory="host" />
+		<file name="osd_game_hud" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/game_hud.xml" memory="host" />
+		<file name="osd_game_hud_team" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/game_hud_team.xml" memory="host" />
+		<file name="osd_win_screen" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/win_screen.xml" memory="host" />
+		<file name="osd_score_card" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/scorecard.xml" memory="host" />
+		<file name="osd_score_card_stats" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/scorecard_stats.xml" memory="host" />
+		<file name="osd_nineball_hud" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/nineball_hud.xml" memory="host" />
+		<file name="osd_powerbar" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/pool_osd_power.xml" memory="host" />
+		<file name="osd_foulbox" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/foul_box.xml" memory="host" />
+		<file name="osd_infobox" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/info_box.xml" memory="host" />
+		<file name="osd_timeout_box" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/timeout_box.xml" memory="host" />
+		<file name="osd_chooseside_box" deferred_loading="false" protected="false" file="MiniGames/LuaPool/osd/chooseside_box.xml" memory="host" />
+		<collision name="game_col" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/game_col.hkx" />
+		<collision name="Table1Col" deferred_loading="false" protected="false" file="MiniGames/LuaPool/models/Pool_Table_8ball.hkx" />
+		<anim name="MaleHoldCueIdle" deferred_loading="false" protected="false" file="Animation_V4/male/I_POOL_M_01.ani" memory="host" />
+		<anim name="FemaleHoldCueIdle" deferred_loading="false" protected="false" file="Animation_V4/female/I_POOL_F_01.ani" memory="host" />
+		<soundbank name="pool_soundbank" deferred_loading="false" protected="false" file="MiniGames/LuaPool/sounds/POOL.bnk" memory="host" />
+		<repertoire name="MaleHoldingCue" deferred_loading="false" protected="false" file="Objects/27D03E66-6C214AB3-AE572124-51A7283B/male.xml" memory="host" />
+		<repertoire name="FemaleHoldingCue" deferred_loading="false" protected="false" file="Objects/27D03E66-6C214AB3-AE572124-51A7283B/female.xml" memory="host" />
+		<lua name="setup" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/setup.lua" memory="host" />
+		<lua name="join" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/join.lua" memory="host" />
+		<lua name="main_menu" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/main_menu.lua" memory="host" />
+		<lua name="pad" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/pad.lua" memory="host" />
+		<lua name="header" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/header.lua" memory="host" />
+		<lua name="gamescript" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/gamescript.lua" memory="host" />
+		<lua name="outbound_msg" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/outbound_msg.lua" memory="host" />
+		<lua name="inbound_msg" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/inbound_msg.lua" memory="host" />
+		<lua name="leave" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/leave.lua" memory="host" />
+		<lua name="versus_screen" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/versus_screen.lua" memory="host" />
+		<lua name="game_hud" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/game_hud.lua" memory="host" />
+		<lua name="pool" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/pool.lua" memory="host" />
+		<lua name="win_screen" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/win_screen.lua" memory="host" />
+		<lua name="homerules" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/homerules.lua" memory="host" />
+		<lua name="physics" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/physics.lua" memory="host" />
+		<lua name="shot" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/shot.lua" memory="host" />
+		<lua name="sound" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/sound.lua" memory="host" />
+		<lua name="avatars" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/avatars.lua" memory="host" />
+		<lua name="config" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/config.lua" memory="host" />
+		<lua name="dev" deferred_loading="false" protected="true" file="MiniGames/LuaPool/lua/dev.lua" memory="host" />
+		<lua name="Log" deferred_loading="false" protected="true" file="libs/system/log.lua" memory="host" />
+		<lua name="PrintData" deferred_loading="false" protected="true" file="libs/util/PrintData.lua" memory="host" />
+		<lua name="ThreadManager" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" memory="host" />
+		<lua name="Reporter" deferred_loading="false" protected="true" file="libs/util/Reporter.lua" memory="host" />
+		<lua name="quest" deferred_loading="false" protected="true" file="minigames/LuaPool/lua/quest.lua" memory="host" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="libs/util/PostScore.lua" memory="host" />
+	</local>
+	<external />
+</resources>
