@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Cannon_Turret_mdl" deferred_loading="false" file="environments/pw_dock/Cannon.mdl" />
+		<model name="Cannon_Base_mdl" deferred_loading="false" file="environments/pw_dock/CannonBase.mdl" />
+		<model name="Cannon_Ball_mdl" deferred_loading="false" file="environments/pw_dock/CanonBall.mdl" />
+		<model name="BarrelSixPack_mdl" deferred_loading="false" file="environments/pw_dock/SixPack_O_Death.mdl" />
+		<model name="Bonus_Ghost_Ship_mdl" deferred_loading="false" file="environments/pw_dock/GhostShip.mdl" />
+		<model name="Enemy_Ship_1_mdl" deferred_loading="false" file="environments/pw_dock/TinCanPirate001.mdl" />
+		<model name="Enemy_Ship_2_mdl" deferred_loading="false" file="environments/pw_dock/TinCanPirate002.mdl" />
+		<model name="Enemy_Ship_3_mdl" deferred_loading="false" file="environments/pw_dock/TinCanPirate003.mdl" />
+		<model name="scoreboard_mdl" deferred_loading="false" file="Environments/pw_dock/scoreboard.mdl" />
+		<texture name="Skull_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/skull.dds" />
+		<texture name="LargePanel_plain_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/background.dds" />
+		<texture name="Skull_Cross_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/strike.dds" />
+		<texture name="Fuse_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/fuse.dds" />
+		<texture name="flames1.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames01.dds" />
+		<texture name="flames10.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames10.dds" />
+		<texture name="flames2.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames02.dds" />
+		<texture name="flames3.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames03.dds" />
+		<texture name="flames4.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames04.dds" />
+		<texture name="flames5.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames05.dds" />
+		<texture name="flames6.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames06.dds" />
+		<texture name="flames7.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames07.dds" />
+		<texture name="flames8.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames08.dds" />
+		<texture name="flames9.dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/flame_frames/flames09.dds" />
+		<texture name="Icon_Cross_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/x.dds" />
+		<texture name="Icon_Stick_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/STICK_ICON.dds" />
+		<texture name="Icon_Barrel_Boat_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/barrel_boat.dds" />
+		<texture name="Icon_Skull_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/skull.dds" />
+		<texture name="GameOverPanel_EN_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/GAME_OVER_english.dds" />
+		<texture name="GameOverPanel_es-ES_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/GAME_OVER_spanish.dds" />
+		<texture name="GameOverPanel_fr-FR_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/GAME_OVER_french.dds" />
+		<texture name="Da_bomb_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/da_bomb.dds" />
+		<texture name="TITLES_ENG_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/TITLES_ENG.dds" />
+		<texture name="TITLES_FRE_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/TITLES_FRE.dds" />
+		<texture name="TITLES_GER_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/TITLES_GER.dds" />
+		<texture name="TITLES_ITA_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/TITLES_ITA.dds" />
+		<texture name="TITLES_SPA_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/TITLES_SPA.dds" />
+		<texture name="Score_Scroll_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/panels/score.dds" />
+		<texture name="Fuse_Arrow_dds" deferred_loading="false" file="Scripts/pw_dock_appartment/images/HUD/arrow.dds" />
+		<texture name="Icon_Circle_dds" deferred_loading="false" protected="false" file="Scripts/pw_dock_appartment/images/panels/o.dds" />
+		<particle name="Cannon_Ball_Smoke_efx" deferred_loading="false" file="ATGParticles/CanonParts/CanonSmoke.efx" />
+		<particle name="Barrel_Explosion_efx" deferred_loading="false" file="ATGParticles/pirateApartment/Explosion.efx" />
+		<particle name="Water_Splash_efx" deferred_loading="false" file="ATGParticles/pirateApartment/CanonWaterSplash.efx" />
+		<particle name="Fire_efx" deferred_loading="false" file="ATGParticles/pirateApartment/CannonFire.efx" />
+		<particle name="CannonEnd_Smoke_efx" deferred_loading="false" file="ATGParticles/pirateApartment/CannonEnd.efx" />
+		<soundstream name="Tiki_Music_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/Music_Tikki_Bar_Master.mp3" />
+		<soundstream name="Minigame_bg_music_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/Music_Game_Master.mp3" />
+		<soundstream name="Barrel_Boat_Explosion_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Barrel_Boat_Explosion.mp3" />
+		<soundstream name="Barrell_Boat_Fire_Loop_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Barrell_Boat_Fire_Loop.mp3" />
+		<soundstream name="Cannon_Fire_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Cannon_Fire.mp3" />
+		<soundstream name="Cannon_Fire_Base_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Cannon_Fire_Base.mp3" />
+		<soundstream name="Cannon_Reload_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Cannon_Reload.mp3" />
+		<soundstream name="Cannon_Splash_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Cannon_Splash.mp3" />
+		<soundstream name="Fuse_Loop_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Fuse_Loop.mp3" />
+		<soundstream name="Galleon_Explode_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Galleon_Explode.mp3" />
+		<soundstream name="Galleon_Sink_01_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Galleon_Sink_01.mp3" />
+		<soundstream name="Galleon_Sink_02_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Galleon_Sink_02.mp3" />
+		<soundstream name="Galleon_Splash_01_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Galleon_Splash_01.mp3" />
+		<soundstream name="Galleon_Splash_02_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Galleon_Splash_02.mp3" />
+		<soundstream name="Galleon_Splash_03_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Galleon_Splash_03.mp3" />
+		<soundstream name="Ghost_Ship_Explosion_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Ghost_Ship_Explosion.mp3" />
+		<soundstream name="Ghost_Ship_Sink_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Ghost_Ship_Sink.mp3" />
+		<soundstream name="Ghost_Ship_Souls_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Ghost_Ship_Souls.mp3" />
+		<soundstream name="Start_End_Button_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Start_End_Button.mp3" />
+		<soundstream name="Fuse_Light_mp3" deferred_loading="false" file="Scripts/pw_dock_appartment/audio/sfx/Fuze_Light.mp3" />
+		<lua name="Highscores_lua" deferred_loading="false" protected="true" file="Scripts/pw_dock_appartment/Highscores.lua" />
+		<lua name="Constants_lua" deferred_loading="false" protected="true" file="Scripts/pw_dock_appartment/Constants.lua" />
+		<lua name="Util_lua" deferred_loading="false" protected="true" file="Scripts/pw_dock_appartment/Util.lua" />
+		<lua name="Pirate_dock_cannon_minigame_lua" deferred_loading="false" protected="true" file="Scripts/pw_dock_appartment/Pirate_dock_cannon_minigame.lua" />
+	</local>
+	<external />
+</resources>

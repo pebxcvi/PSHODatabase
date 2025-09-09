@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Emperor_Dalek_Fly_Companion/model/Loot_Emperor_Dalek_LOD.mdl" memory="main" />
+		<model name="dummyModel" deferred_loading="false" protected="false" file="furniture/2012/applicances/fp_free_reward_zombie/FP_Free_Reward_zombie.mdl" memory="main" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/2013/applicances/active_Dalek_Emperor_Ornament/Collision/Loot_Dalek_Emperor.hkx" memory="main" />
+		<anim name="idle.ani" deferred_loading="false" protected="false" file="furniture/2013/applicances/active_Dalek_Emperor_Ornament/Ani/Dalek_Emperor_walk.ani" memory="host" />
+		<anim name="open_close.ani" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Emperor_Dalek_Fly_Companion/anim/Dalek_Emperor_open_close_master.ani" memory="host" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="furniture/2013/applicances/active_Dalek_Emperor_Ornament/Skn/Loot_Emperor_Dalek.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="false" protected="false" file="CompanionFollowers/Loot_Emperor_Dalek_Fly_Companion/soundbank/audio.bnk" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="Actives/BBCAnimatedOrnament/lua/brains/follow_while_animating_then_pause/main.luac" memory="host" />
+		<lua name="settings.lua" deferred_loading="false" protected="true" file="Actives/BBCAnimatedOrnament/lua/emperor/settings.luac" memory="host" />
+	</local>
+	<external />
+</resources>

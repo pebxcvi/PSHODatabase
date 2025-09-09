@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="PAPER_01.mdl" deferred_loading="false" protected="false" file="MiniGames/reading_game/models/PAPER_01.mdl" />
+		<particle name="Fragment_Pickup_Position.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/Fragment_Pickup_Position.efx" />
+		<file name="Config.json" deferred_loading="false" protected="false" file="MiniGames/ReadingCollection/file/Config.json" />
+		<anim name="READ_CLOSE_PAPER_01.ani" deferred_loading="false" protected="false" file="MiniGames/reading_game/animations/READ_CLOSE_PAPER_01.ani" />
+		<anim name="READ_OPEN_PAPER_01.ani" deferred_loading="false" protected="false" file="MiniGames/reading_game/animations/READ_OPEN_PAPER_01.ani" />
+		<skeleton name="READ_OPEN_PAPER_01.skn" deferred_loading="false" protected="false" file="MiniGames/reading_game/animations/READ_OPEN_PAPER_01.skn" />
+		<soundbank name="PM_SFX_ReadingFragments.bnk" deferred_loading="false" protected="false" file="Audio/Games/PM_SFX_ReadingFragments.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ReadingCollection/lua/MiniGame.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/ReadingCollection/lua/Controller.lua" />
+		<lua name="DataUtility.lua" deferred_loading="false" protected="true" file="MiniGames/ReadingCollection/lua/DataUtility.lua" />
+		<lua name="Initialize.lua" deferred_loading="false" protected="true" file="MiniGames/ReadingCollection/lua/Initialize.lua" />
+		<lua name="JsonUtility.lua" deferred_loading="false" protected="true" file="MiniGames/ReadingCollection/lua/JsonUtility.lua" />
+		<lua name="GameUtility.lua" deferred_loading="false" protected="true" file="MiniGames/ReadingCollection/lua/GameUtility.lua" />
+		<lua name="RenderUtility.lua" deferred_loading="false" protected="true" file="MiniGames/ReadingCollection/lua/RenderUtility.lua" />
+	</local>
+	<external />
+</resources>

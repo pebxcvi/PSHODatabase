@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/gd_electricchamber_frnt/Gd_electricchamber_frnt.mdl" />
+		<model name="placement_model" deferred_loading="false" protected="false" file="Furniture/reference_obj/reference_obj.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/gd_electricchamber_frnt/Gd_electricchamber_frnt.hkx" />
+		<anim name="OUCH_F" deferred_loading="false" protected="false" file="Furniture/gd_electricchamber_frnt/AN_RFL_F_2.ani" />
+		<anim name="OUCH_M" deferred_loading="false" protected="false" file="Furniture/gd_electricchamber_frnt/AN_RFL_M_2a.ani" />
+		<anim name="attack" deferred_loading="false" protected="false" file="Furniture/gd_electricchamber_frnt/Gd_electricchamber_frnt.ani" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="Furniture/gd_electricchamber_frnt/Gd_electricchamber_frnt.skn" />
+		<soundbank name="soundbank" deferred_loading="false" protected="false" file="Furniture_Sound_Banks2/Electric.bnk" />
+		<repertoire name="rep_male" deferred_loading="false" protected="false" file="Furniture/gd_electricchamber_frnt/rep_male.xml" />
+		<repertoire name="rep_female" deferred_loading="false" protected="false" file="Furniture/gd_electricchamber_frnt/rep_female.xml" />
+		<lua name="script" deferred_loading="false" protected="true" file="Scripts/Electricer.lua" />
+	</local>
+	<external />
+</resources>

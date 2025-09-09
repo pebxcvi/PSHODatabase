@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companionfollowers/cuddly_bear/model/cuddly_bear_002.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companionfollowers/cuddly_bear/model/cuddly_bear_remote.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Cuddly_Bear/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Cuddly_Bear/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="companionfollowers/cuddly_bear/anim/cuddly_bear_idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="companionfollowers/cuddly_bear/anim/cuddly_bear_walk.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="companionfollowers/cuddly_bear/anim/cuddly_bear_run.ani" memory="host" />
+		<anim name="ani.roar" deferred_loading="true" protected="false" file="companionfollowers/cuddly_bear/anim/cuddly_bear_roar.ani" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="companionfollowers/cuddly_bear/model/cuddly_bear_002.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Cuddly_Bear/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

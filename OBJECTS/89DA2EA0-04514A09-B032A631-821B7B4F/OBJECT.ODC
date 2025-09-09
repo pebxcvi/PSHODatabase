@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.41.0.37.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>89DA2EA0-04514A09-B032A631-821B7B4F</uuid>
+  <name lang="fr-FR" default="false">Espace personnel UFC</name>
+  <name lang="de-DE" default="false">Persönliches UFC-Apartment</name>
+  <name lang="it-IT" default="false">Spazio Personale UFC</name>
+  <name lang="es-ES" default="false">Espacio Personal del UFC</name>
+  <name lang="en-US" default="true">UFC Personal Space</name>
+  <description lang="fr-FR" default="false">Dans votre Espace personnel UFC, vous avez votre propre gymnase. Obtenez des points à utiliser dans l'Octagon UFC pour gagner des prix. [#Legal]</description>
+  <description lang="de-DE" default="false">Dein persönliches UFC-Apartment ist mit einem eigenen Fitnessstudio ausgestattet. Sammle Punkte, um im UFC-Octagon Preise zu gewinnen. [#Legal]</description>
+  <description lang="it-IT" default="false">Nello Spazio Personale UFC avrai accesso alla tua palestra. Ottieni punti da utilizzare nello UFC Octagon per vincere premi. [#Legal]</description>
+  <description lang="es-ES" default="false">En el espacio personal del UFC tendrás acceso a tu propio gimnasio. Gana puntos para utilizar en el Octagon del UFC y ganar premios. [#Legal]</description>
+  <description lang="en-US" default="true">In the UFC Personal Space you get your own home gym.  Earn points to spend in the UFC Octagon to win prizes. [#Legal]</description>
+  <maker lang="en-US" default="true">THQ</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T033.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T033.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T033.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">UFC_Apartment_A376_DDFF</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEA">UP1005-NPUR30110_00-000367</entitlement_id>
+    <entitlement_id territory="SCEE">EP1005-NPER00021_00-000114</entitlement_id>
+    <category_id territory="SCEA">UP1005-NPUR30110_00</category_id>
+    <category_id territory="SCEE">EP1005-NPER00021_00</category_id>
+    <product_id territory="SCEA">UP1005-NPUR30110_00-THQUFCAPARTMENT1</product_id>
+    <product_id territory="SCEE">EP1005-NPER00021_00-UFCPERSONA000114</product_id>
+  </entitlements>
+  <legal>
+    <age_rating rating_system="PEGI" rating="16+" minimum_age="16" parental_control_level="7" />
+    <age_rating rating_system="ESRB" rating="T" minimum_age="13" parental_control_level="5" />
+  </legal>
+  <timestamp>612F91FA</timestamp>
+</odc>

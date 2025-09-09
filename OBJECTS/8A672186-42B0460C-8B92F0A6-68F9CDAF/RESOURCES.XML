@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="companion_follower/commdec_2010_tiger/model/Tiger.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_tiger/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_tiger/anim/CommDec_Tiger_Walk.ani" memory="main" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_tiger/anim/CommDec_Tiger_StandingIdle.ani" memory="host" />
+		<anim name="run" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_tiger/anim/CommDec_Tiger_Run.ani" memory="main" />
+		<anim name="look" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_tiger/anim/CommDec_Tiger_LookAround.ani" memory="host" />
+		<anim name="layDown" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_tiger/anim/CommDec_Tiger_layingDown.ani" memory="host" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_tiger/skeleton/Tiger.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/commdec_2010_tiger/lua/scriptremote.luac" id="3206161215" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/commdec_2010_tiger/lua/script.luac" memory="main" id="852553006" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/commdec_2010_tiger/lua/xml.luac" memory="main" id="3739844700" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/commdec_2010_tiger/lua/scriptlocal.luac" id="3184557204" />
+	</local>
+	<external />
+</resources>

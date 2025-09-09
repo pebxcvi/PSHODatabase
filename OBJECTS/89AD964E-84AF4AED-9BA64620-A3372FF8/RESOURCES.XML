@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model.mdl" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/model/rollaerskate_01.mdl" memory="host" />
+		<model name="remote_model.mdl" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/model/rollaerskate_01.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/rollerskates_00/file/config.xml" memory="host" />
+		<!--<skeleton name="model.skn" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/skeleton/rollaerskate_00.skn" memory="host" />-->
+
+		<anim name="anm_F_run.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/female_rollarskate_run.ani" memory="host" />
+		<anim name="anm_F_right.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/female_rollarskate_run_TwistRight.ani" memory="host" />
+		<anim name="anm_F_left.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/female_rollarskate_run_TwistLeft.ani" memory="host" />
+		<anim name="anm_F_wlk.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/female_rollarskate_walk.ani" memory="host" />
+		<anim name="anm_F_ntr.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/female_rollarskate_ntr.ani" memory="host" />
+		<!--<anim name="anm_F_brk.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/female_rollarskate_ntr.ani" memory="main" />-->
+		<anim name="anm_M_run.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/male_rollarskate_run.ani" memory="host" />
+		<anim name="anm_M_right.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/male_rollarskate_run_TwistRight.ani" memory="host" />
+		<anim name="anm_M_left.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/male_rollarskate_run_TwistLeft.ani" memory="host" />
+		<anim name="anm_M_wlk.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/male_rollarskate_walk.ani" memory="host" />
+		<anim name="anm_M_ntr.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/male_rollarskate_ntr.ani" memory="host" />
+		<!--<anim name="anm_M_brk.ani" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/anim/male_rollarskate_ntr.ani" memory="main" />-->
+
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/particle/smoke.efx" memory="main" />
+		<soundbank name="sound.bnk" deferred_loading="true" protected="false" file="Locomotion/soundbank/rollerskates.bnk" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/rollerskates_00/emotes/male_emotes.xml" memory="host" />
+		
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/rollerskates_00/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>
