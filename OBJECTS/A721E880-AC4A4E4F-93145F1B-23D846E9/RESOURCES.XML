@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BOARD" deferred_loading="false" protected="false" file="Hankagai/cmn_design/purikura_test/backimage_poly01.mdl" />
+		<model name="lightCircle_00.mdl" deferred_loading="false" protected="false" file="Hankagai/cmn_design/minigames_photo/scenes/lightCircle_00.mdl" />
+		<model name="lightCircle_01.mdl" deferred_loading="false" protected="false" file="Hankagai/cmn_design/minigames_photo/scenes/lightCircle_01.mdl" />
+		<model name="lightCircle_02.mdl" deferred_loading="false" protected="false" file="Hankagai/cmn_design/minigames_photo/scenes/lightCircle_02.mdl" />
+		<model name="beamsword_Lv1_01.mdl" deferred_loading="false" protected="false" file="ap12/eff/scenes/beamsword_Lv1_01.mdl" />
+		<model name="beamsword_Lv1_02.mdl" deferred_loading="false" protected="false" file="ap12/eff/scenes/beamsword_Lv1_02.mdl" />
+		<model name="beamsword_Lv1_03.mdl" deferred_loading="false" protected="false" file="ap12/eff/scenes/beamsword_Lv1_03.mdl" />
+		<model name="beamsword_Lv1_04.mdl" deferred_loading="false" protected="false" file="ap12/eff/scenes/beamsword_Lv1_04.mdl" />
+		<model name="beamsword_Lv1_05.mdl" deferred_loading="false" protected="false" file="ap12/eff/scenes/beamsword_Lv1_05.mdl" />
+		<!--<texture name="photo_icon_00.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_00.dds" />-->
+		<texture name="photo_icon_00_enSG.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_00_enSG.dds" />
+		<texture name="photo_icon_00_fr.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_00_fr.dds" />
+		<texture name="photo_icon_00.dds" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_gb.dds" locale="en-GB" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_tw.dds" locale="zh-TW" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_00_us.dds" />
+		</texture>
+		<texture name="photo_icon_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_01.dds" />
+		<texture name="photo_icon_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_02.dds" />
+		<texture name="photo_icon_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_03.dds" />
+		<texture name="photo_icon_04.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_04.dds" />
+		<texture name="photo_icon_05.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_05.dds" />
+		<texture name="photo_icon_06.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_06.dds" />
+		<texture name="photo_icon_07.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_07.dds" />
+		<texture name="photo_icon_08.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_08.dds" />
+		<texture name="photo_icon_09.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_09.dds" />
+		<texture name="photo_icon_10.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_10.dds" />
+		<texture name="photo_icon_11.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_11.dds" />
+		<texture name="photo_icon_11_m.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_11_m.dds" />
+		<!--<texture name="photo_rules_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_rules_01.dds" />-->
+		<texture name="photo_rules_01_enSG.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_rules_01_enSG.dds" />
+		<texture name="photo_rules_01_fr.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_rules_01_fr.dds" />
+		<texture name="photo_rules_01.dds" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_gb.dds" locale="en-GB" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_tw.dds" locale="zh-TW" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_rules_01_us.dds" />
+		</texture>
+		<texture name="photo_window_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_01.dds" />
+		<texture name="photo_window_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_02.dds" />
+		<texture name="photo_window_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_03.dds" />
+		<texture name="photo_window_04.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_04.dds" />
+		<texture name="photo_window_05.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_05.dds" />
+		<texture name="photo_window_06.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_06.dds" />
+		<texture name="photo_window_07.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_07.dds" />
+		<texture name="photo_window_08.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_08.dds" />
+		<texture name="photo_window_09.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_window_09.dds" />
+		<texture name="Photo_thumbnails_window_bar_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/Photo_thumbnails_window_bar_01.dds" />
+		<texture name="Photo_thumbnails_window_bar_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/Photo_thumbnails_window_bar_02.dds" />
+		<texture name="Frame_thumbnails_00.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_00.dds" />
+		<texture name="Frame_thumbnails_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_01.dds" />
+		<texture name="Frame_thumbnails_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_02.dds" />
+		<texture name="Frame_thumbnails_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_03.dds" />
+		<texture name="Frame_thumbnails_04.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_04.dds" />
+		<texture name="Frame_thumbnails_05.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_05.dds" />
+		<texture name="Frame_thumbnails_06.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_06.dds" />
+		<texture name="Frame_thumbnails_07.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_07.dds" />
+		<texture name="Frame_thumbnails_08.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_08.dds" />
+		<texture name="Frame_thumbnails_09.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_09.dds" />
+		<texture name="Frame_thumbnails_10.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_10.dds" />
+		<texture name="Frame_thumbnails_11.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_11.dds" />
+
+
+
+		<texture name="Frame_thumbnails_bon2013_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_bon2013_01.dds" />
+		<texture name="Frame_thumbnails_bon2013_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_bon2013_02.dds" />
+		<texture name="Frame_thumbnails_bon2013_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Frame/Frame_thumbnails_bon2013_03.dds" />
+		
+		<texture name="Background_thumbnails_00.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_00.dds" />
+		<texture name="Background_thumbnails_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_01.dds" />
+		<texture name="Background_thumbnails_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_02.dds" />
+		<texture name="Background_thumbnails_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_03.dds" />
+		<texture name="Background_thumbnails_04.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_04.dds" />
+		<texture name="Background_thumbnails_05.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_05.dds" />
+		<texture name="Background_thumbnails_06.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_06.dds" />
+		<texture name="Background_thumbnails_07.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_07.dds" />
+		<texture name="Background_thumbnails_08.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_08.dds" />
+		<texture name="Background_thumbnails_09.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_09.dds" />
+		<texture name="Background_thumbnails_10.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_10.dds" />
+		<texture name="Background_thumbnails_11.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_11.dds" />
+		<texture name="Background_thumbnails_12.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_12.dds" />
+		<texture name="Background_thumbnails_13.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_13.dds" />
+		<texture name="Background_thumbnails_14.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_14.dds" />
+		<texture name="Background_thumbnails_15.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_15.dds" />
+		<texture name="Background_thumbnails_16.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_16.dds" />
+		<texture name="Background_thumbnails_17.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_17.dds" />
+		<texture name="Background_thumbnails_18.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_18.dds" />
+		<texture name="Background_thumbnails_19.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_19.dds" />
+		
+		<!--盆祭り-->
+		<texture name="Background_thumbnails_20.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_20.dds" />
+		<texture name="Background_thumbnails_21.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_21.dds" />
+		<texture name="Background_thumbnails_22.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_22.dds" />
+		<texture name="Background_thumbnails_23.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_23.dds" />
+		<texture name="Background_thumbnails_24.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_24.dds" />
+		<texture name="Background_thumbnails_25.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_25.dds" />
+		<texture name="Background_thumbnails_26.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/Background/Background_thumbnails_26.dds" />
+
+
+		<texture name="pose_thumbnails_00.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_00.dds" />
+		<texture name="pose_thumbnails_01.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_01.dds" />
+		<texture name="pose_thumbnails_02.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_02.dds" />
+		<texture name="pose_thumbnails_03.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_03.dds" />
+		<texture name="pose_thumbnails_04.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_04.dds" />
+		<texture name="pose_thumbnails_05.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_05.dds" />
+		<texture name="pose_thumbnails_06.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_06.dds" />
+		<texture name="pose_thumbnails_07.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_07.dds" />
+		<texture name="pose_thumbnails_08.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_08.dds" />
+		<texture name="pose_thumbnails_09.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_09.dds" />
+		<texture name="pose_thumbnails_10.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_10.dds" />
+		<texture name="pose_thumbnails_11.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_11.dds" />
+		<texture name="pose_thumbnails_12.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_12.dds" />
+		<texture name="pose_thumbnails_13.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_13.dds" />
+		<texture name="pose_thumbnails_14.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_14.dds" />
+		<texture name="pose_thumbnails_15.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_15.dds" />
+		<texture name="pose_thumbnails_16.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_16.dds" />
+		<texture name="pose_thumbnails_17.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_17.dds" />
+		<texture name="pose_thumbnails_18.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_18.dds" />
+		<texture name="pose_thumbnails_19.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_19.dds" />
+		<texture name="pose_thumbnails_20.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_20.dds" />
+		<texture name="pose_thumbnails_21.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_21.dds" />
+		<texture name="pose_thumbnails_22.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_22.dds" />
+		<texture name="pose_thumbnails_23.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_23.dds" />
+		<texture name="pose_thumbnails_24.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_24.dds" />
+		<texture name="pose_thumbnails_25.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_25.dds" />
+		<texture name="pose_thumbnails_26.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_26.dds" />
+		<texture name="pose_thumbnails_27.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/pose_thumbnails_27.dds" />
+		<texture name="pose_thumbnails_edo_00.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_00.dds" />
+		<texture name="pose_thumbnails_edo_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_01.dds" />
+		<texture name="pose_thumbnails_edo_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_02.dds" />
+		<texture name="pose_thumbnails_edo_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_03.dds" />
+		<texture name="pose_thumbnails_edo_04.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_04.dds" />
+		<texture name="pose_thumbnails_edo_05.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_05.dds" />
+		<texture name="pose_thumbnails_edo_06.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_06.dds" />
+		<texture name="pose_thumbnails_edo_07.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_07.dds" />
+		<texture name="pose_thumbnails_edo_08.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_08.dds" />
+		<texture name="pose_thumbnails_edo_09.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_09.dds" />
+		<texture name="pose_thumbnails_edo_10.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_10.dds" />
+		<texture name="pose_thumbnails_edo_11.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_11.dds" />
+		<texture name="pose_thumbnails_edo_12.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_12.dds" />
+		<texture name="pose_thumbnails_edo_13.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_13.dds" />
+		<texture name="pose_thumbnails_edo_14.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_14.dds" />
+		<texture name="pose_thumbnails_edo_15.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_15.dds" />
+		<texture name="pose_thumbnails_edo_16.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_16.dds" />
+		<texture name="pose_thumbnails_edo_17.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_17.dds" />
+		<texture name="pose_thumbnails_edo_18.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_18.dds" />
+		<texture name="pose_thumbnails_edo_19.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_19.dds" />
+		<texture name="pose_thumbnails_edo_20.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_20.dds" />
+		<texture name="pose_thumbnails_edo_21.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_21.dds" />
+		<texture name="pose_thumbnails_edo_22.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_22.dds" />
+		<texture name="pose_thumbnails_edo_23.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_23.dds" />
+		<texture name="pose_thumbnails_edo_24.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_24.dds" />
+		<texture name="pose_thumbnails_edo_25.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_25.dds" />
+		<texture name="pose_thumbnails_edo_26.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_26.dds" />
+		<texture name="pose_thumbnails_edo_27.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_27.dds" />
+		<texture name="pose_thumbnails_edo_28.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_28.dds" />
+		<texture name="pose_thumbnails_edo_29.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_29.dds" />
+		<texture name="pose_thumbnails_edo_30.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_30.dds" />
+		<texture name="pose_thumbnails_edo_31.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_31.dds" />
+		<texture name="pose_thumbnails_edo_32.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_32.dds" />
+		<texture name="pose_thumbnails_edo_33.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_33.dds" />
+		<texture name="pose_thumbnails_edo_34.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_34.dds" />
+		<texture name="pose_thumbnails_edo_35.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_35.dds" />
+		<texture name="pose_thumbnails_edo_36.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_36.dds" />
+		<texture name="pose_thumbnails_edo_37.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_37.dds" />
+		<texture name="pose_thumbnails_edo_38.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_38.dds" />
+		<texture name="pose_thumbnails_edo_39.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_39.dds" />
+		<texture name="pose_thumbnails_edo_40.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_40.dds" />
+		<texture name="pose_thumbnails_edo_41.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_41.dds" />
+		<texture name="pose_thumbnails_edo_42.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_42.dds" />
+		<texture name="pose_thumbnails_edo_43.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_43.dds" />
+		<texture name="pose_thumbnails_edo_44.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_44.dds" />
+		<texture name="pose_thumbnails_edo_45.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_45.dds" />
+		<texture name="pose_thumbnails_edo_46.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_46.dds" />
+		<texture name="pose_thumbnails_edo_47.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_47.dds" />
+		<texture name="pose_thumbnails_edo_48.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_48.dds" />
+		<texture name="pose_thumbnails_edo_49.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_49.dds" />
+		<texture name="pose_thumbnails_edo_50.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_50.dds" />
+		<texture name="pose_thumbnails_edo_51.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_51.dds" />
+		<texture name="pose_thumbnails_edo_52.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_52.dds" />
+		<texture name="pose_thumbnails_edo_53.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_53.dds" />
+		<texture name="pose_thumbnails_edo_54.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_54.dds" />
+		<texture name="pose_thumbnails_edo_55.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_55.dds" />
+		<texture name="pose_thumbnails_edo_56.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_56.dds" />
+		<texture name="pose_thumbnails_edo_57.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_57.dds" />
+		<texture name="pose_thumbnails_edo_58.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_58.dds" />
+		<texture name="pose_thumbnails_edo_59.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_59.dds" />
+
+		<texture name="pose_thumbnails_edo_60.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_60.dds" />
+		<texture name="pose_thumbnails_edo_61.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_61.dds" />
+		<texture name="pose_thumbnails_edo_62.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_62.dds" />
+		<texture name="pose_thumbnails_edo_63.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_63.dds" />
+		<texture name="pose_thumbnails_edo_64.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_64.dds" />
+		<texture name="pose_thumbnails_edo_65.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_65.dds" />
+		<texture name="pose_thumbnails_edo_66.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumbnails_66.dds" />
+		
+		<texture name="pose_thumb_yoyo_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_yoyo_01.dds" />
+		<texture name="pose_thumb_yoyo_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_yoyo_02.dds" />
+		<texture name="pose_thumb_yoyo_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_yoyo_03.dds" />
+
+		<texture name="pose_thumb_gasho_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_gasho_01.dds" />
+		<texture name="pose_thumb_gasho_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_gasho_02.dds" />
+		<texture name="pose_thumb_gasho_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_gasho_03.dds" />
+		<texture name="pose_thumb_gasho_04.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_gasho_04.dds" />
+		<texture name="pose_thumb_gasho_05.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_gasho_05.dds" />
+		<texture name="pose_thumb_gasho_06.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_gasho_06.dds" />
+		<texture name="pose_thumb_gasho_07.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_gasho_07.dds" />
+		
+		<texture name="pose_thumb_oni_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_oni_01.dds" />
+		<texture name="pose_thumb_oni_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_oni_02.dds" />
+		<texture name="pose_thumb_oni_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/pose_thumb_oni_03.dds" />
+		
+		<texture name="Photo_thumbnails_window.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/Photo_thumbnails_window.dds" />
+		<texture name="photo_icon_window.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_window.dds" />
+	<!--<texture name="photo_icon_100.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_100.dds" />-->
+	<!--<texture name="photo_icon_101.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_101.dds" />-->
+	<!--<texture name="photo_icon_102.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_102.dds" />-->
+	<!--<texture name="photo_icon_103.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_103.dds" />-->
+	
+		<texture name="photo_icon_100_enSG.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_100_enSG.dds" />
+		<texture name="photo_icon_100_fr.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_100_fr.dds" />
+		<texture name="photo_icon_100.dds" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_gb.dds" locale="en-GB" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_tw.dds" locale="zh-TW" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_100_us.dds" />
+		</texture>
+		
+		
+		<texture name="photo_icon_101_enSG.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_101_enSG.dds" />
+		<texture name="photo_icon_101_fr.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_101_fr.dds" />
+		<texture name="photo_icon_101.dds" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_gb.dds" locale="en-GB" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_tw.dds" locale="zh-TW" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_101_us.dds" />
+		</texture>
+		
+		<texture name="photo_icon_102_enSG.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_102_enSG.dds" />
+		<texture name="photo_icon_102_fr.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_102_fr.dds" />
+		<texture name="photo_icon_102.dds" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_gb.dds" locale="en-GB" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_tw.dds" locale="zh-TW" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_102_us.dds" />
+		</texture>
+		
+		<texture name="photo_icon_103_enSG.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_103_enSG.dds" />
+		<texture name="photo_icon_103_fr.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/photo_icon_103_fr.dds" />
+		<texture name="photo_icon_103.dds" deferred_loading="false" protected="false">
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_gb.dds" locale="en-GB" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_tw.dds" locale="zh-TW" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2D/Photo/UI/photo_icon_103_us.dds" />
+		</texture>
+		
+		<texture name="Photo_thumbnails_sankaku_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/Photo_thumbnails_sankaku_01.dds" />
+		<texture name="granzella_logo.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/granzella_logo.dds" />
+		
+		<texture name="npc_thumbnails_00.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_00.dds" />
+		<texture name="npc_thumbnails_01.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_01.dds" />
+		<texture name="npc_thumbnails_02.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_02.dds" />
+		<texture name="npc_thumbnails_03.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_03.dds" />
+		<texture name="npc_thumbnails_04.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_04.dds" />
+		<texture name="npc_thumbnails_05.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_05.dds" />
+		<texture name="npc_thumbnails_06.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_06.dds" />
+		<texture name="npc_thumbnails_07.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_07.dds" />
+		<texture name="npc_thumbnails_08.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_08.dds" />
+		<texture name="npc_thumbnails_09.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_09.dds" />
+		<texture name="npc_thumbnails_10.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_10.dds" />
+		<texture name="npc_thumbnails_11.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_11.dds" />
+		<texture name="npc_thumbnails_12.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_12.dds" />
+		<texture name="npc_thumbnails_13.dds" deferred_loading="false" protected="false" file="edo/cmn_design/2D/Photo/UI/npc_thumbnails_13.dds" />
+		
+		<anim name="beamsword_Lv1_01.ani" deferred_loading="false" protected="false" file="ap12/eff/scenes/beamsword_Lv1_01.ani"  memory="host" />
+		<anim name="npc_pose_0.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_0.ani"  memory="host" />
+		<anim name="npc_pose_1.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_1.ani"  memory="host" />
+		<anim name="npc_pose_2.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_2.ani"  memory="host" />
+		<anim name="npc_pose_3.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_3.ani"  memory="host" />
+		<anim name="npc_pose_4.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_4.ani"  memory="host" />
+		<anim name="npc_pose_5.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_5.ani"  memory="host" />
+		<anim name="npc_pose_6.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_6.ani"  memory="host" />
+		<anim name="npc_pose_7.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_7.ani"  memory="host" />
+		<anim name="npc_pose_8.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_8.ani"  memory="host" />
+		<anim name="npc_pose_9.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_9.ani"  memory="host" />
+		<anim name="npc_pose_10.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_10.ani"  memory="host" />
+		<anim name="npc_pose_11.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_11.ani"  memory="host" />
+		<anim name="npc_pose_12.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_12.ani" memory="host" />
+		<anim name="npc_pose_13.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_13.ani" memory="host" />
+		<skeleton name="beamsword_Lv1_01.skn" deferred_loading="false" protected="false" file="ap12/eff/scenes/beamsword_Lv1_01.skn"  memory="host" />
+		<skeleton name="npc_pose_0.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_0.skn"  memory="host" />
+		<skeleton name="npc_pose_1.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_1.skn"  memory="host" />
+		<skeleton name="npc_pose_2.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_2.skn"  memory="host" />
+		<skeleton name="npc_pose_3.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_3.skn"  memory="host" />
+		<skeleton name="npc_pose_4.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/M_npc_samurai_01.skn"  memory="host" />
+		<skeleton name="npc_pose_5.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/M_npc_young_01.skn"  memory="host" />
+		<skeleton name="npc_pose_6.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/F_npc_young_02.skn"  memory="host" />
+		<skeleton name="npc_pose_7.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/M_npc_merchant_01.skn" memory="host"  />
+		<skeleton name="npc_pose_8.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/M_npc_exmessenger_01.skn" memory="host"  />
+		<skeleton name="npc_pose_9.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/F_npc_young_01.skn" memory="host"  />
+		<skeleton name="npc_pose_10.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/M_npc_samurai_02.skn" memory="host"  />
+		<skeleton name="npc_pose_11.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/F_npc_grannies_01.skn"  memory="host" />
+		<skeleton name="npc_pose_12.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/M_npc_oldman.skn" memory="host"  />
+		<skeleton name="npc_pose_13.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/photo/npc/npc_pose_13.skn"  memory="host" />
+		<soundbank name="photo.bnk" deferred_loading="false" protected="false" file="Hankagai/sound/photo.bnk" memory="host"  />
+		<soundstream name="photo.mp3" deferred_loading="false" protected="false" file="edo/soft_jp_00/PhotoGame/file/photo.mp3" />
+	</local>
+	<external />
+</resources>

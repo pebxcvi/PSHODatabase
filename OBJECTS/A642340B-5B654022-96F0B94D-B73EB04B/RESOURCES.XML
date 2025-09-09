@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="pop_up_chair.mdl" deferred_loading="true" protected="false" file="Locomotion/pop_up_chair.mdl" />
+		<model name="LeatherChair.mdl" deferred_loading="false" protected="false" file="Locomotion/pop-upchair/LeatherChair.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LMO_Pop-Up_Chair_Set_1_NEW/file/config.xml" memory="host" />
+		<anim name="chairpose_01_entry.ani" deferred_loading="true" protected="false" file="animation/female/chairpose_01/chairpose_01_entry.ani" memory="host" />
+		<anim name="chairpose_01_loop.ani" deferred_loading="true" protected="false" file="animation/female/chairpose_01/chairpose_01_loop.ani" memory="host" />
+		<anim name="chairpose_01a_entry.ani" deferred_loading="true" protected="false" file="animation/female/chairpose_01a/chairpose_01a_entry.ani" memory="host" />
+		<anim name="chairpose_01a_loop.ani" deferred_loading="true" protected="false" file="animation/female/chairpose_01a/chairpose_01a_loop.ani" memory="host" />
+		<anim name="chairpose_01b_entry.ani" deferred_loading="true" protected="false" file="animation/female/chairpose_01b/chairpose_01b_entry.ani" memory="host" />
+		<anim name="chairpose_01b_loop.ani" deferred_loading="true" protected="false" file="animation/female/chairpose_01b/chairpose_01b_loop.ani" />
+		<anim name="run_f.ani" deferred_loading="true" protected="false" file="animation/female/run_f/run_f.ani" />
+		<anim name="pop_up_chair_anim.ani" deferred_loading="true" protected="false" file="Locomotion/pop_up_chair_anim.ani" />
+		<anim name="pop_up_chair_noanim.ani" deferred_loading="true" protected="false" file="Locomotion/pop_up_chair_noanim.ani" />
+		<anim name="chairpose_1_entry.ani" deferred_loading="true" protected="false" file="animation/male/chairpose_1/chairpose_1_entry.ani" memory="host" />
+		<anim name="chairpose_1_loop.ani" deferred_loading="true" protected="false" file="animation/male/chairpose_1/chairpose_1_loop.ani" memory="host" />
+		<anim name="run_m.ani" deferred_loading="true" protected="false" file="animation/male/run/run_m.ani" />
+		<anim name="chairpose_1a_entry.ani" deferred_loading="true" protected="false" file="animation/male/chairpose_1a/chairpose_1a_entry.ani" memory="host" />
+		<anim name="chairpose_1a_loop.ani" deferred_loading="true" protected="false" file="animation/male/chairpose_1a/chairpose_1a_loop.ani" memory="host" />
+		<anim name="chairpose_1b_entry.ani" deferred_loading="true" protected="false" file="animation/male/chairpose_1b/chairpose_1b_entry.ani" memory="host" />
+		<anim name="chairpose_1b_loop.ani" deferred_loading="true" protected="false" file="animation/male/chairpose_1b/chairpose_1b_loop.ani" />
+		<anim name="LeatherChair_ani.ani" deferred_loading="true" protected="false" file="Locomotion/pop-upchair/LeatherChair_ani.ani" />
+		<anim name="LeatherChair_noani.ani" deferred_loading="true" protected="false" file="Locomotion/pop-upchair/LeatherChair_noani.ani" />
+		<skeleton name="pop_up_chair.skn" deferred_loading="true" protected="false" file="Locomotion/pop_up_chair.skn" />
+		<skeleton name="LeatherChair.skn" deferred_loading="false" protected="false" file="Locomotion/pop-upchair/LeatherChair.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/LMO_Pop-Up_Chair_Set_1_NEW/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/LMO_Pop-Up_Chair_Set_1_NEW/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Pop-Up_Chair_Set_1_NEW/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Pop-Up_Chair_Set_1_NEW/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/LMO_Pop-Up_Chair_Set_1_NEW/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

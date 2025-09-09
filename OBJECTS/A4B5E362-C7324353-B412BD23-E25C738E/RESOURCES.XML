@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/spd13_shamrocktable/SPD13_ShamrockTable.mdl" />
+		<model name="SPD13_Table_Model.mdl" deferred_loading="false" protected="false" file="furniture/spd13_shamrocktable/SPD13_Table_Model.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/spd13_shamrocktable/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/spd13_shamrocktable/SPD13_ShamrockTable.hkx" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/spd13_shamrocktable/Pad.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/spd13_shamrocktable/Utility.lua" />
+		<lua name="ShamrockTableMain.lua" deferred_loading="false" protected="true" file="furniture/spd13_shamrocktable/ShamrockTableMain.lua" />
+	</local>
+	<external />
+</resources>

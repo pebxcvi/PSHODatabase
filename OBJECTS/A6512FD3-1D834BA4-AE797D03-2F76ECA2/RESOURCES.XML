@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <texture name="CropNew.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/CropNew.dds" />
+    <texture name="cbim.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/cbim.dds" />
+    <texture name="cbio.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/cbio.dds" />
+    <texture name="cbgb.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/cbgb.dds" />
+    <texture name="Cursor.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/Cursor.dds" />
+    <texture name="c0_fl00.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fl00.dds" />
+    <texture name="c0_fl01.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fl01.dds" />
+    <texture name="c0_fr00.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fr00.dds" />
+    <texture name="c0_fr01.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fr01.dds" />
+    <texture name="c0_fr02.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fr02.dds" />
+    <texture name="c0_fr03.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fr03.dds" />
+    <texture name="c0_se00.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_se00.dds" />
+    <texture name="c0_se01.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_se01.dds" />
+    <texture name="nextselect01.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/nextselect01.dds" />
+    <texture name="star01.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/star01.dds" />
+    <texture name="Rank_Icon.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/Rank_Icon.dds" />
+    <texture name="c0_fl02.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fl02.dds" />
+    <texture name="c0_fl02.dds_1" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_fl02.dds" />
+    <texture name="c0_se02.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/c0_se02.dds" />
+    <file name="clcts.json" deferred_loading="false" protected="false" file="data/Collect/clcts.json" />
+    <file name="dlvs.json" deferred_loading="false" protected="false" file="data/Deliver/dlvs.json" />
+    <file name="cropm.json" deferred_loading="false" protected="false" file="CmnMenu/CropMenu/cropm.json" />
+    <file name="crops.json" deferred_loading="false" protected="false" file="data/Crop/crops.json" />
+    <file name="items.json" deferred_loading="false" protected="false" file="data/Item/items.json" />
+    <file name="exrwfs.json" deferred_loading="false" protected="false" file="data/Deliver/exrwfs.json" />
+    <file name="exclc.json" deferred_loading="false" protected="false" file="data/Deliver/exclc.json" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/exchangereceivebonus/lua/minigame.luac" />
+    <lua name="ExchangeMenu.lua" deferred_loading="false" protected="true" file="minigames/exchangereceivebonus/lua/exchangemenu.luac" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" />
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" />
+    <lua name="CropMenu.lua" deferred_loading="false" protected="true" file="cmnmenu/cropmenu/cropmenu.luac" />
+    <lua name="libUserDataTypes.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatatypes.luac" />
+    <lua name="libUserDataHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatahelper.luac" />
+    <lua name="libCrop.lua" deferred_loading="false" protected="true" file="lualibs/game/crop.luac" />
+    <lua name="libFarm.lua" deferred_loading="false" protected="true" file="lualibs/game/farm.luac" />
+    <lua name="libSoundHelper.lua" deferred_loading="false" protected="true" file="lualibs/sound/soundhelper.luac" />
+    <lua name="libPad.lua" deferred_loading="false" protected="true" file="lualibs/util/pad.luac" />
+    <lua name="libItem.lua" deferred_loading="false" protected="true" file="lualibs/game/item.luac" />
+    <lua name="libMath.lua" deferred_loading="false" protected="true" file="lualibs/util/math.luac" />
+    <lua name="libCampaignHelper.lua" deferred_loading="false" protected="true" file="lualibs/game/campaignhelper.luac" />
+    <lua name="libGlobalSettingHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/globalsettinghelper.luac" />
+    <lua name="ArrangeCropBag.lua" deferred_loading="false" protected="true" file="cmnmenu/arrangecropbag/arrangecropbag.luac" />
+    <lua name="libNPCRotControl.lua" deferred_loading="false" protected="true" file="lualibs/game/npcrotcontrol.luac" />
+    <lua name="libCmnMenuHelper.lua" deferred_loading="false" protected="true" file="lualibs/ui/cmnmenuhelper.luac" />
+    <lua name="libTutorialMenuHelper.lua" deferred_loading="false" protected="true" file="lualibs/ui/tutorialmenuhelper.luac" />
+    <lua name="libRenderMenu.lua" deferred_loading="false" protected="true" file="lualibs/ui/classrenderermenu.luac" />
+    <lua name="libUiHelper.lua" deferred_loading="false" protected="true" file="lualibs/ui/uihelper.luac" />
+    <lua name="libAnnounceHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/announcehelper.luac" />
+    <lua name="libSceneCamHelper.lua" deferred_loading="false" protected="true" file="lualibs/camera/scenecamhelper.luac" />
+    <lua name="ReceiveBonus.lua" deferred_loading="false" protected="true" file="minigames/exchangereceivebonus/lua/receivebonus.luac" />
+    <lua name="libRewardsExecutor.lua" deferred_loading="false" protected="true" file="lualibs/resource/rewardsexecutor.luac" />
+    <lua name="libAsyncExecutor.lua" deferred_loading="false" protected="true" file="lualibs/resource/asyncexecutor.luac" />
+    <lua name="EventMenu.lua" deferred_loading="false" protected="true" file="minigames/exchangereceivebonus/lua/eventmenu.luac" />
+  </local>
+  <external />
+</resources>

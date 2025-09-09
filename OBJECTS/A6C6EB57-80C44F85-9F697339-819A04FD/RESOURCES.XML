@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Remote_Fire.mdl" deferred_loading="false" protected="false" file="Locomotion/minib_rocketbootslocomotion/Remote_Fire.mdl" />
+		<model name="Local_Fire.mdl" deferred_loading="false" protected="false" file="Locomotion/minib_rocketbootslocomotion/Local_Fire.mdl" />
+		<particle name="pfx01" deferred_loading="true" protected="false" file="Tools/AtgParticles/MiniBots/LOCO_RocketBoots.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/MINIB_RocketBootsLocomotion/file/config.xml" memory="host" />
+		<anim name="Female_RocketBoots_HoverIdle.ani" deferred_loading="true" protected="false" file="Locomotion/minib_rocketbootslocomotion/anims/Female_RocketBoots_HoverIdle.ani" memory="host" />
+		<anim name="Female_RocketBoots_Run.ani" deferred_loading="true" protected="false" file="Locomotion/minib_rocketbootslocomotion/anims/Female_RocketBoots_Run.ani" memory="host" />
+		<anim name="Female_RocketBoots_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/minib_rocketbootslocomotion/anims/Female_RocketBoots_Walk.ani" memory="host" />
+		<anim name="Male_RocketBoots_HoverIdle.ani" deferred_loading="true" protected="false" file="Locomotion/minib_rocketbootslocomotion/anims/Male_RocketBoots_HoverIdle.ani" memory="host" />
+		<anim name="Male_RocketBoots_Run.ani" deferred_loading="true" protected="false" file="Locomotion/minib_rocketbootslocomotion/anims/Male_RocketBoots_Run.ani" memory="host" />
+		<anim name="Male_RocketBoots_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/minib_rocketbootslocomotion/anims/Male_RocketBoots_Walk.ani" memory="host" />
+		<skeleton name="Local_Fire.skn" deferred_loading="false" protected="false" file="Locomotion/minib_rocketbootslocomotion/Local_Fire.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/MINIB_RocketBootsLocomotion/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/MINIB_RocketBootsLocomotion/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/MINIB_RocketBootsLocomotion/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/MINIB_RocketBootsLocomotion/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/MINIB_RocketBootsLocomotion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

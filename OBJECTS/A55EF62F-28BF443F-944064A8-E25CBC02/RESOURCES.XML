@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="elevatorDoor_anim.mdl" deferred_loading="false" protected="false" file="environments/vip_club/animated_models/elevatordoors/elevatorDoor_anim.mdl" />
+    <texture name="Pure_Black_c.dds" deferred_loading="false" protected="false" file="Games/VIP_EntryCheck_Game/textures/Pure_Black_c.dds" />
+    <collision name="collide_elevator_bouncer.hkx" deferred_loading="false" protected="false" file="environments/vip_club/models/collide_elevator_bouncer.hkx" />
+    <anim name="elevatorDoor_animClose.ani" deferred_loading="false" protected="false" file="environments/vip_club/animated_models/elevatordoors/elevatorDoor_animClose.ani" />
+    <anim name="elevatorDoor_animOpen.ani" deferred_loading="false" protected="false" file="environments/vip_club/animated_models/elevatordoors/elevatorDoor_animOpen.ani" />
+    <skeleton name="elevatorDoor_anim.skn" deferred_loading="false" protected="false" file="environments/vip_club/animated_models/elevatordoors/elevatorDoor_anim.skn" />
+    <soundbank name="LobbySounds.bnk" deferred_loading="false" protected="false" file="Games/VIP_EntryCheck_Game/sound/LobbySounds.bnk" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/vip_entrycheck_game/lua/minigame.luac" />
+    <lua name="Component_GameTriggerMove.lua" deferred_loading="false" protected="true" file="games/common/lua/component_gametriggermove.luac" />
+    <lua name="EventManager.lua" deferred_loading="false" protected="true" file="games/common/lua/eventmanager.luac" />
+    <lua name="GamePad.lua" deferred_loading="false" protected="true" file="games/common/lua/gamepad.luac" />
+    <lua name="Misc.lua" deferred_loading="false" protected="true" file="games/common/lua/misc.luac" />
+    <lua name="Misc_LockPlayer.lua" deferred_loading="false" protected="true" file="games/common/lua/misc_lockplayer.luac" />
+    <lua name="VIP_Telemetry.lua" deferred_loading="false" protected="true" file="games/common/lua/vip_specific/vip_telemetry.luac" />
+    <lua name="Audio_Component.lua" deferred_loading="false" protected="true" file="games/common/lua/audio_component.luac" />
+    <lua name="VIP_AudioResources.lua" deferred_loading="false" protected="true" file="games/vip_entrycheck_game/lua/vip_audioresources.luac" />
+    <lua name="VIP_Entry_RewardCheck.lua" deferred_loading="false" protected="true" file="games/vip_entrycheck_game/lua/vip_entry_rewardcheck.luac" />
+    <lua name="VIP_EntryCheck.lua" deferred_loading="false" protected="true" file="games/vip_entrycheck_game/lua/vip_entrycheck.luac" />
+    <lua name="VIP_Lobby_Elevator.lua" deferred_loading="false" protected="true" file="games/vip_entrycheck_game/lua/vip_lobby_elevator.luac" />
+    <lua name="Misc_OSD.lua" deferred_loading="false" protected="true" file="games/common/lua/misc_osd.luac" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="games/common/lua/statemachine.luac" />
+    <lua name="GDO_Communicator.lua" deferred_loading="false" protected="true" file="games/common/lua/gdo_communicator.luac" />
+  </local>
+  <external />
+</resources>

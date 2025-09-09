@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/minibar/minibar_red.mdl" />
+		<model name="BottleInteractive.mdl" deferred_loading="false" protected="false" file="furniture/minibar/BottleInteractive.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Luxury_Minibar/file/Network.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/minibar/minibar_black.hkx" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/minibar/minibar_black.hkx" />
+		<anim name="idle_leftside" deferred_loading="false" protected="false" file="animation/male/drink/idle_leftside.ani" />
+		<anim name="idle_rightside" deferred_loading="false" protected="false" file="animation/male/drink/idle_rightside.ani" />
+		<anim name="drink_leftside" deferred_loading="false" protected="false" file="animation/male/drink/drink_leftside.ani" />
+		<anim name="drink_rightside" deferred_loading="false" protected="false" file="animation/male/drink/drink_rightside.ani" />
+		<anim name="drink_rightside_F" deferred_loading="false" protected="false" file="animation/female/drink/drink_rightside_F.ani" />
+		<anim name="idle_leftside_F" deferred_loading="false" protected="false" file="animation/female/drink/idle_leftside_F.ani" />
+		<anim name="idle_rightside_F" deferred_loading="false" protected="false" file="animation/female/drink/idle_rightside_F.ani" />
+		<anim name="drink_leftside_F" deferred_loading="false" protected="false" file="animation/female/drink/drink_leftside_F.ani" />
+		<repertoire name="male_drink" deferred_loading="false" protected="false" file="MiniGames/Luxury_Minibar/repertoires/male_drink.xml" />
+		<repertoire name="female_drink" deferred_loading="false" protected="false" file="MiniGames/Luxury_Minibar/repertoires/female_drink.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Luxury_Minibar/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

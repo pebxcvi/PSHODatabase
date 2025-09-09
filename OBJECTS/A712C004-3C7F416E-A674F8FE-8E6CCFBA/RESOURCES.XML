@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/horse.mdl" memory="host" />
+		<model name="horse_lod1.mdl" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/horse_lod1.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Demon_Horse_Purple/file/config.xml" memory="host" />
+		<anim name="Trot.ani" deferred_loading="false" protected="false" file="Locomotion/Demon_Horse_Purple/horse_Trot_Final.ani" memory="host" />
+		<anim name="Canter.ani" deferred_loading="false" protected="false" file="Locomotion/Demon_Horse_Purple/horse_Canter_Final.ani" memory="host" />
+		<anim name="Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/horse_Idle_Final.ani" memory="host" />
+		<anim name="Male_Trot_Final" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/Male_Trot_Final.ani" memory="host" />
+		<anim name="Male_Canter_Final" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/Male_Canter_Final.ani" memory="host" />
+		<anim name="Male_Idle_Final" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/Male_Idle_Final.ani" memory="host" />
+		<anim name="Female_Trot_Final" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/Female_Trot_Final.ani" memory="host" />
+		<anim name="Female_Canter_Final" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/Female_Canter_Final.ani" memory="host" />
+		<anim name="Female_Idle_Final" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/Female_Idle_Final.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/horse.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Demon_Horse_Purple/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Demon_Horse_Purple/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

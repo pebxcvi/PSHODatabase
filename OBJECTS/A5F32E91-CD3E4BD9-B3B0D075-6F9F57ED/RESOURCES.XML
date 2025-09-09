@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ammo_model" file="minigames/weapons/fusiongrenade/AP_BASE_FushionGrenade.mdl" deferred_loading="false" />
+		<texture name="HUD_ammoInstructFrameFull_dds" file="environments/nsirchome_skunkworks_143c_baef/Textures/ammoInstructFrameFull.dds" deferred_loading="false" />
+		<texture name="HUD_icon" file="environments/nsirchome_skunkworks_143c_baef/Textures/iconT_fusiongrenade.dds" deferred_loading="false" />
+		<file name="types.xml" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_AmmoHint/OSD/types.xml" deferred_loading="false" />
+		<file name="AmmoHint.lua" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_AmmoHint/AmmoHint.lua" deferred_loading="false" />
+		<file name="options" file="environments/nsirchome_hub_2bc9_87fd/MiniGame_AmmoHint/OSD/options.xml" deferred_loading="false" />
+		<file name="Platform_lua" file="Scripts/Platform.lua" deferred_loading="false" />
+		<anim name="ammo_animation" file="minigames/weapons/blitzgun/GunDisplay_Idle.ani" deferred_loading="false" />
+		<skeleton name="ammo_skeleton" file="minigames/weapons/fusiongrenade/AP_BASE_FushionGrenade.skn" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

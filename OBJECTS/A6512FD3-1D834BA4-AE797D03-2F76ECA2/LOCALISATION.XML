@@ -1,0 +1,5135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="ja-JP" xmlns="http://home.scedev.net/schema/object">
+	<PHRASE>
+		<LANG ID="REF">kName</LANG>
+		<LANG ID="ja-JP">わかばの窓口</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">kDesc</LANG>
+		<LANG ID="ja-JP">納品、交換、ボーナス受け譲渡処理 [#Legal]</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Deliver</LANG>
+		<LANG ID="ja-JP">プランタを納品</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Exchange</LANG>
+		<LANG ID="ja-JP">ファームコインで交換</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q_Deliver</LANG>
+		<LANG ID="ja-JP">「%s」を納品しますか？\n納品額：%dFC</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q_Exchange</LANG>
+		<LANG ID="ja-JP">「%s」に交換しますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_GetObject</LANG>
+		<LANG ID="ja-JP">「%s」\nを入手しました！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_GetFCPoints</LANG>
+		<LANG ID="ja-JP">%dFC入手しました！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_GetBonus</LANG>
+		<LANG ID="ja-JP">%sごほうび賞品を獲得しました。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_PreviousBonus</LANG>
+		<LANG ID="ja-JP">あと%dFCで、ごほうび賞品\n「%s」\nを獲得できます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExchangeResult</LANG>
+		<LANG ID="ja-JP">報酬として%dFCを入手しました。\nトータル納品額：%dFC\n\n</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ExchangeUp</LANG>
+		<LANG ID="ja-JP">「わかばの窓口」のラインナップ増加</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExchangeUp</LANG>
+		<LANG ID="ja-JP">「わかばの窓口」に新しい品物を入荷しました</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q_DelBag</LANG>
+		<LANG ID="ja-JP">収穫バッグを整理しますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q_DelBonus</LANG>
+		<LANG ID="ja-JP">ごほうび賞品の受け取りをスキップしますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_LostBonus</LANG>
+		<LANG ID="ja-JP">個が失われます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_NecesFP</LANG>
+		<LANG ID="ja-JP">必要ファームコイン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExSe_D</LANG>
+		<LANG ID="ja-JP">等級：D</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExSe_C</LANG>
+		<LANG ID="ja-JP">等級：C</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExSe_B</LANG>
+		<LANG ID="ja-JP">等級：B</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExSe_A</LANG>
+		<LANG ID="ja-JP">等級：A</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExSe_S</LANG>
+		<LANG ID="ja-JP">等級：S</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExSe_SS</LANG>
+		<LANG ID="ja-JP">等級：SS</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_ExSe_Ga</LANG>
+		<LANG ID="ja-JP">パーソナル庭園に置く事ができます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_SkipCrop</LANG>
+		<LANG ID="ja-JP">受け取りをスキップしますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CropCondition</LANG>
+		<LANG ID="ja-JP">条件</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">BearCount</LANG>
+		<LANG ID="ja-JP">みのり：</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CropRank</LANG>
+		<LANG ID="ja-JP">等級：</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CropBag</LANG>
+		<LANG ID="ja-JP">収穫バッグ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CropDelTitle</LANG>
+		<LANG ID="ja-JP">収穫バッグ整理</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CropDelConfMess</LANG>
+		<LANG ID="ja-JP">を捨てます。\nよろしいですか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CropDelFixMess</LANG>
+		<LANG ID="ja-JP">を削除しました。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ConfirmItem</LANG>
+		<LANG ID="ja-JP">アイテムの確認</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_HaveSpaceCrop</LANG>
+		<LANG ID="ja-JP">個分の空き容量が必要です\n</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q_OK</LANG>
+		<LANG ID="ja-JP">よろしいですか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Wo</LANG>
+		<LANG ID="ja-JP">を</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MenuArrayCropBagTitle</LANG>
+		<LANG ID="ja-JP">収穫バッグ整理</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Fraction</LANG>
+		<LANG ID="ja-JP">個中</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_CanGet</LANG>
+		<LANG ID="ja-JP">個入手できます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q_UsedItem</LANG>
+		<LANG ID="ja-JP">「%s」を使用します。\nよろしいですか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_00</LANG>
+		<LANG ID="ja-JP">アサガオミカンのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_01</LANG>
+		<LANG ID="ja-JP">シクラメンオリーブのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_02</LANG>
+		<LANG ID="ja-JP">パンジーブロッコリーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_03</LANG>
+		<LANG ID="ja-JP">ボタンウメのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_00</LANG>
+		<LANG ID="ja-JP">ツバキキュウリのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_01</LANG>
+		<LANG ID="ja-JP">ダリアカボチャのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_02</LANG>
+		<LANG ID="ja-JP">スイセンナスのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_03</LANG>
+		<LANG ID="ja-JP">スズランブルーベリーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_00</LANG>
+		<LANG ID="ja-JP">パンジーオクラのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_01</LANG>
+		<LANG ID="ja-JP">スズランライチのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_02</LANG>
+		<LANG ID="ja-JP">アサガオミカンのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_03</LANG>
+		<LANG ID="ja-JP">シクラメンオリーブのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_00</LANG>
+		<LANG ID="ja-JP">パンジーブロッコリーのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_01</LANG>
+		<LANG ID="ja-JP">ボタンウメのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_02</LANG>
+		<LANG ID="ja-JP">ver.3.0たね001</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_03</LANG>
+		<LANG ID="ja-JP">ver.3.0たね002</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_00</LANG>
+		<LANG ID="ja-JP">アジサイピーマンのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_01</LANG>
+		<LANG ID="ja-JP">ユリグレープフルーツのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_02</LANG>
+		<LANG ID="ja-JP">チューリップレモンのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_03</LANG>
+		<LANG ID="ja-JP">クロッカスアセロラのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_00</LANG>
+		<LANG ID="ja-JP">ダリアナシのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_01</LANG>
+		<LANG ID="ja-JP">ツバキカキのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_02</LANG>
+		<LANG ID="ja-JP">ユリ洋ナシのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_03</LANG>
+		<LANG ID="ja-JP">ハイビスカスマンゴーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_00</LANG>
+		<LANG ID="ja-JP">マリーゴールドパプリカのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_01</LANG>
+		<LANG ID="ja-JP">ボタンブドウのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_02</LANG>
+		<LANG ID="ja-JP">アジサイピーマンのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_03</LANG>
+		<LANG ID="ja-JP">ユリグレープフルーツのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_00</LANG>
+		<LANG ID="ja-JP">チューリップレモンのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_01</LANG>
+		<LANG ID="ja-JP">クロッカスアセロラのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_02</LANG>
+		<LANG ID="ja-JP">ダリアナシのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_03</LANG>
+		<LANG ID="ja-JP">ツバキカキのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_00</LANG>
+		<LANG ID="ja-JP">マリーゴールドパプリカのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_01</LANG>
+		<LANG ID="ja-JP">サクラチェリーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_02</LANG>
+		<LANG ID="ja-JP">和風紅白のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_03</LANG>
+		<LANG ID="ja-JP">洋風紅白のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_00</LANG>
+		<LANG ID="ja-JP">バラリンゴのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_01</LANG>
+		<LANG ID="ja-JP">クロッカストマトのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_02</LANG>
+		<LANG ID="ja-JP">ヒマワリスイカのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_03</LANG>
+		<LANG ID="ja-JP">コスモスモモのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_00</LANG>
+		<LANG ID="ja-JP">マーガレットバナナのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_01</LANG>
+		<LANG ID="ja-JP">ワスレナグサイチゴのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_02</LANG>
+		<LANG ID="ja-JP">マリーゴールドメロンのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_03</LANG>
+		<LANG ID="ja-JP">ツバキトウモロコシのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_00</LANG>
+		<LANG ID="ja-JP">アジサイパイナップルのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_01</LANG>
+		<LANG ID="ja-JP">ヒエヒエのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_02</LANG>
+		<LANG ID="ja-JP">バラリンゴのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_03</LANG>
+		<LANG ID="ja-JP">クロッカストマトのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_00</LANG>
+		<LANG ID="ja-JP">ヒマワリスイカのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_01</LANG>
+		<LANG ID="ja-JP">コスモスモモのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_02</LANG>
+		<LANG ID="ja-JP">マーガレットバナナのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_03</LANG>
+		<LANG ID="ja-JP">カチカチのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_00</LANG>
+		<LANG ID="ja-JP">クールのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_01</LANG>
+		<LANG ID="ja-JP">ホットのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_02</LANG>
+		<LANG ID="ja-JP">ワスレナグサイチゴのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_03</LANG>
+		<LANG ID="ja-JP">マリーゴールドメロンのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_00</LANG>
+		<LANG ID="ja-JP">ゴールドサワーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_01</LANG>
+		<LANG ID="ja-JP">ゴールドデリシャスのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_02</LANG>
+		<LANG ID="ja-JP">ゴールデンサマーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_03</LANG>
+		<LANG ID="ja-JP">黄金春夏のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_00</LANG>
+		<LANG ID="ja-JP">サマーアドベンチャーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_01</LANG>
+		<LANG ID="ja-JP">ゴールドフレッシュのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_02</LANG>
+		<LANG ID="ja-JP">黄金ベジタブルのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_03</LANG>
+		<LANG ID="ja-JP">ゴールドオーナメントのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_00</LANG>
+		<LANG ID="ja-JP">金ピカフレッシュのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_01</LANG>
+		<LANG ID="ja-JP">ツヤツヤゴールドのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_02</LANG>
+		<LANG ID="ja-JP">金脈青果のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_03</LANG>
+		<LANG ID="ja-JP">ゴージャストランプのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_00</LANG>
+		<LANG ID="ja-JP">ゴールドリッチトランプのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_01</LANG>
+		<LANG ID="ja-JP">ゴールドオーナメントのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_02</LANG>
+		<LANG ID="ja-JP">金ピカフレッシュのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_03</LANG>
+		<LANG ID="ja-JP">ツヤツヤゴールドのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_00</LANG>
+		<LANG ID="ja-JP">さえずりバードのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_01</LANG>
+		<LANG ID="ja-JP">ファンシーアニマルのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_02</LANG>
+		<LANG ID="ja-JP">パイレーツのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_03</LANG>
+		<LANG ID="ja-JP">かがやき誕生石のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_00</LANG>
+		<LANG ID="ja-JP">ランタンフィッシュのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_01</LANG>
+		<LANG ID="ja-JP">パンクパイレーツのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_02</LANG>
+		<LANG ID="ja-JP">はなやか誕生石のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_03</LANG>
+		<LANG ID="ja-JP">ベルクォーツのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_00</LANG>
+		<LANG ID="ja-JP">フラワーランプボムのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_01</LANG>
+		<LANG ID="ja-JP">ポップストライプのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_02</LANG>
+		<LANG ID="ja-JP">キュートドットのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_03</LANG>
+		<LANG ID="ja-JP">天使の音色のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_00</LANG>
+		<LANG ID="ja-JP">ハッピードットのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_01</LANG>
+		<LANG ID="ja-JP">ラッキーストライプのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_02</LANG>
+		<LANG ID="ja-JP">ポップアニマルのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_03</LANG>
+		<LANG ID="ja-JP">ラッパエンジェルのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_00</LANG>
+		<LANG ID="ja-JP">エスニックそよ風のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_01</LANG>
+		<LANG ID="ja-JP">フラワーランプボムのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_02</LANG>
+		<LANG ID="ja-JP">ポップストライプのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_03</LANG>
+		<LANG ID="ja-JP">キュートドットのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_00</LANG>
+		<LANG ID="ja-JP">ステンドグラスのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_01</LANG>
+		<LANG ID="ja-JP">バレンタインのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_02</LANG>
+		<LANG ID="ja-JP">クリスマスのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_03</LANG>
+		<LANG ID="ja-JP">クリスタルオーナメントのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_00</LANG>
+		<LANG ID="ja-JP">レインボーアワーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_01</LANG>
+		<LANG ID="ja-JP">レインボーシャインのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_02</LANG>
+		<LANG ID="ja-JP">レインボーオーナメントのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_03</LANG>
+		<LANG ID="ja-JP">ver.3.0たね003</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_00</LANG>
+		<LANG ID="ja-JP">はじめてのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_01</LANG>
+		<LANG ID="ja-JP">はじめてのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_02</LANG>
+		<LANG ID="ja-JP">ver.3.0たね004</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_03</LANG>
+		<LANG ID="ja-JP">ver.3.0たね005</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_00</LANG>
+		<LANG ID="ja-JP">エスニックのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_01</LANG>
+		<LANG ID="ja-JP">英国紳士のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_02</LANG>
+		<LANG ID="ja-JP">そよ風のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_03</LANG>
+		<LANG ID="ja-JP">ポップアニマルのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_00</LANG>
+		<LANG ID="ja-JP">ラッパエンジェルのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_01</LANG>
+		<LANG ID="ja-JP">エスニックそよ風のたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_02</LANG>
+		<LANG ID="ja-JP">ステンドグラスのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_03</LANG>
+		<LANG ID="ja-JP">ウィングクローバーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_00</LANG>
+		<LANG ID="ja-JP">ツバキトウモロコシのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_01</LANG>
+		<LANG ID="ja-JP">アジサイパイナップルのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_02</LANG>
+		<LANG ID="ja-JP">ヒエヒエのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_03</LANG>
+		<LANG ID="ja-JP">カチカチのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_00</LANG>
+		<LANG ID="ja-JP">金脈青果のたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_01</LANG>
+		<LANG ID="ja-JP">ゴージャストランプのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_02</LANG>
+		<LANG ID="ja-JP">ゴールドリッチトランプのたねα</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_03</LANG>
+		<LANG ID="ja-JP">ver.3.0たね007</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_00</LANG>
+		<LANG ID="ja-JP">春告げのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_01</LANG>
+		<LANG ID="ja-JP">サクライチゴのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_02</LANG>
+		<LANG ID="ja-JP">濃密フレーバーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_03</LANG>
+		<LANG ID="ja-JP">ユリメロンのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_00</LANG>
+		<LANG ID="ja-JP">パンジーレモンのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_01</LANG>
+		<LANG ID="ja-JP">チューリップトマトのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_02</LANG>
+		<LANG ID="ja-JP">ヒマワリアセロラのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_03</LANG>
+		<LANG ID="ja-JP">アジサイキュウリのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se032_00</LANG>
+		<LANG ID="ja-JP">雨の贈り物のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se032_01</LANG>
+		<LANG ID="ja-JP">きらめき誕生石のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se032_02</LANG>
+		<LANG ID="ja-JP">あでやか誕生石のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_00</LANG>
+		<LANG ID="ja-JP">ダリアチェリーのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_01</LANG>
+		<LANG ID="ja-JP">アジサイオリーブのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_02</LANG>
+		<LANG ID="ja-JP">ツバキナスのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_03</LANG>
+		<LANG ID="ja-JP">あざやかフレッシュのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_00</LANG>
+		<LANG ID="ja-JP">ハイビスカスレモンのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_01</LANG>
+		<LANG ID="ja-JP">ユリモモのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_02</LANG>
+		<LANG ID="ja-JP">トリコロールのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_03</LANG>
+		<LANG ID="ja-JP">あかね色のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se035_00</LANG>
+		<LANG ID="ja-JP">ヒマワリハートのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se035_01</LANG>
+		<LANG ID="ja-JP">ビードロのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se035_02</LANG>
+		<LANG ID="ja-JP">乙女のたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se036_00</LANG>
+		<LANG ID="ja-JP">ランプカボチャのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se036_01</LANG>
+		<LANG ID="ja-JP">クロッカスバナナのたね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St000_00</LANG>
+		<LANG ID="ja-JP">小さな苗</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St000_01</LANG>
+		<LANG ID="ja-JP">紅葉した小さな苗</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St000_02</LANG>
+		<LANG ID="ja-JP">桃色の小さな苗</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St001_00</LANG>
+		<LANG ID="ja-JP">網に絡まるツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St001_01</LANG>
+		<LANG ID="ja-JP">網に絡まる桃色ツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St001_02</LANG>
+		<LANG ID="ja-JP">網に絡まる紅葉ツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St001_03</LANG>
+		<LANG ID="ja-JP">網に絡まる雪のツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St002_00</LANG>
+		<LANG ID="ja-JP">小さな樹</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St002_01</LANG>
+		<LANG ID="ja-JP">紅葉した小さな樹</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St002_02</LANG>
+		<LANG ID="ja-JP">雪国の小さな樹</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St003_00</LANG>
+		<LANG ID="ja-JP">カゲツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St003_01</LANG>
+		<LANG ID="ja-JP">紅葉したカゲツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St003_02</LANG>
+		<LANG ID="ja-JP">桃色のカゲツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St004_00</LANG>
+		<LANG ID="ja-JP">ベンジャミン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St004_01</LANG>
+		<LANG ID="ja-JP">桃色ベンジャミン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St004_02</LANG>
+		<LANG ID="ja-JP">ブルーベンジャミン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St004_03</LANG>
+		<LANG ID="ja-JP">雪ベンジャミン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St005_00</LANG>
+		<LANG ID="ja-JP">支柱に絡まるツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St005_01</LANG>
+		<LANG ID="ja-JP">支柱に絡まる桃色ツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St005_02</LANG>
+		<LANG ID="ja-JP">支柱に絡まる紅葉ツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St006_00</LANG>
+		<LANG ID="ja-JP">タコノキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St006_01</LANG>
+		<LANG ID="ja-JP">紅葉タコノキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St006_02</LANG>
+		<LANG ID="ja-JP">白いタコノキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St007_00</LANG>
+		<LANG ID="ja-JP">ジャマイカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St007_01</LANG>
+		<LANG ID="ja-JP">紅葉ジャマイカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St007_02</LANG>
+		<LANG ID="ja-JP">桃色ジャマイカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St008_00</LANG>
+		<LANG ID="ja-JP">ガジュマルの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St008_01</LANG>
+		<LANG ID="ja-JP">桃色ガジュマルの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St008_02</LANG>
+		<LANG ID="ja-JP">ホワイトガジュマルの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St009_00</LANG>
+		<LANG ID="ja-JP">ツル木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St009_01</LANG>
+		<LANG ID="ja-JP">白いツル木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St009_02</LANG>
+		<LANG ID="ja-JP">紅葉したツル木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St010_00</LANG>
+		<LANG ID="ja-JP">ヤシの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St010_01</LANG>
+		<LANG ID="ja-JP">紅葉ヤシの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St010_02</LANG>
+		<LANG ID="ja-JP">桃色ヤシの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St011_00</LANG>
+		<LANG ID="ja-JP">タロイモ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St011_01</LANG>
+		<LANG ID="ja-JP">青いタロイモ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St011_02</LANG>
+		<LANG ID="ja-JP">紅葉タロイモ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St012_00</LANG>
+		<LANG ID="ja-JP">地面を這うツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St012_01</LANG>
+		<LANG ID="ja-JP">地面を這う紫ツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St012_02</LANG>
+		<LANG ID="ja-JP">地面を這う雪のツル草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St013_00</LANG>
+		<LANG ID="ja-JP">こんもりした草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St013_01</LANG>
+		<LANG ID="ja-JP">こんもりした白い草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St013_02</LANG>
+		<LANG ID="ja-JP">こんもりした青い草</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St014_00</LANG>
+		<LANG ID="ja-JP">サボテン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St014_01</LANG>
+		<LANG ID="ja-JP">イエローサボテン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St014_02</LANG>
+		<LANG ID="ja-JP">桃色サボテン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St015_00</LANG>
+		<LANG ID="ja-JP">南国の木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St015_01</LANG>
+		<LANG ID="ja-JP">赤い南国の木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St015_02</LANG>
+		<LANG ID="ja-JP">白い南国の木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St016_00</LANG>
+		<LANG ID="ja-JP">イチョウの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St016_01</LANG>
+		<LANG ID="ja-JP">紅葉したイチョウの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St016_02</LANG>
+		<LANG ID="ja-JP">虹色のイチョウの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St017_00</LANG>
+		<LANG ID="ja-JP">モンキーポッド</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St017_01</LANG>
+		<LANG ID="ja-JP">レッドモンキーポッド</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St017_02</LANG>
+		<LANG ID="ja-JP">虹色モンキーポッド</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St018_00</LANG>
+		<LANG ID="ja-JP">モミの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St018_01</LANG>
+		<LANG ID="ja-JP">桃色モミの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St018_02</LANG>
+		<LANG ID="ja-JP">雪のモミの木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St019_00</LANG>
+		<LANG ID="ja-JP">大きな樹</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St019_01</LANG>
+		<LANG ID="ja-JP">白い大きな樹</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">St019_02</LANG>
+		<LANG ID="ja-JP">紅葉した大きな樹</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_00</LANG>
+		<LANG ID="ja-JP">ピンク桜</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_01</LANG>
+		<LANG ID="ja-JP">黄金サクラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_02</LANG>
+		<LANG ID="ja-JP">紅桜</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_03</LANG>
+		<LANG ID="ja-JP">黄桜</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_00</LANG>
+		<LANG ID="ja-JP">ブルーミラクルローズ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_01</LANG>
+		<LANG ID="ja-JP">プリズムローズ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_02</LANG>
+		<LANG ID="ja-JP">深紅のバラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_03</LANG>
+		<LANG ID="ja-JP">スノーローズ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_00</LANG>
+		<LANG ID="ja-JP">赤いチューリップ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_01</LANG>
+		<LANG ID="ja-JP">虹色のチューリップ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_02</LANG>
+		<LANG ID="ja-JP">レモンチューリップ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_03</LANG>
+		<LANG ID="ja-JP">白いチューリップ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_00</LANG>
+		<LANG ID="ja-JP">紫のパンジー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_01</LANG>
+		<LANG ID="ja-JP">黄色のパンジー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_02</LANG>
+		<LANG ID="ja-JP">金色のパンジー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_03</LANG>
+		<LANG ID="ja-JP">黄緑色のパンジー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_00</LANG>
+		<LANG ID="ja-JP">白いマーガレット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_01</LANG>
+		<LANG ID="ja-JP">黄金マーガレット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_02</LANG>
+		<LANG ID="ja-JP">ピンク色のマーガレット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_03</LANG>
+		<LANG ID="ja-JP">黄色のマーガレット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_00</LANG>
+		<LANG ID="ja-JP">白いスイセン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_01</LANG>
+		<LANG ID="ja-JP">黄色のスイセン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_02</LANG>
+		<LANG ID="ja-JP">ゴールドスイセン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_03</LANG>
+		<LANG ID="ja-JP">黄緑色のスイセン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_00</LANG>
+		<LANG ID="ja-JP">パープルクロッカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_01</LANG>
+		<LANG ID="ja-JP">イエロークロッカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_02</LANG>
+		<LANG ID="ja-JP">金色のクロッカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_03</LANG>
+		<LANG ID="ja-JP">ホワイトクロッカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_00</LANG>
+		<LANG ID="ja-JP">オレンジ色のマリーゴールド</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_01</LANG>
+		<LANG ID="ja-JP">レモンマリーゴールド</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_02</LANG>
+		<LANG ID="ja-JP">金色のマリーゴールド</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_03</LANG>
+		<LANG ID="ja-JP">ダークレッドのマリーゴールド</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_00</LANG>
+		<LANG ID="ja-JP">太陽のヒマワリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_01</LANG>
+		<LANG ID="ja-JP">虹色のヒマワリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_02</LANG>
+		<LANG ID="ja-JP">ダークレッドヒマワリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_03</LANG>
+		<LANG ID="ja-JP">スノーヒマワリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_00</LANG>
+		<LANG ID="ja-JP">白いユリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_01</LANG>
+		<LANG ID="ja-JP">金色のユリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_02</LANG>
+		<LANG ID="ja-JP">ピンク色のユリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_03</LANG>
+		<LANG ID="ja-JP">黄色のユリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_00</LANG>
+		<LANG ID="ja-JP">青空アサガオ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_01</LANG>
+		<LANG ID="ja-JP">虹アサガオ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_02</LANG>
+		<LANG ID="ja-JP">水アサガオ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_03</LANG>
+		<LANG ID="ja-JP">桃アサガオ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_00</LANG>
+		<LANG ID="ja-JP">青いワスレナグサ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_01</LANG>
+		<LANG ID="ja-JP">金粉ワスレナグサ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_02</LANG>
+		<LANG ID="ja-JP">白いワスレナグサ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_03</LANG>
+		<LANG ID="ja-JP">ピンク色のワスレナグサ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_00</LANG>
+		<LANG ID="ja-JP">空色アジサイ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_01</LANG>
+		<LANG ID="ja-JP">桃色アジサイ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_02</LANG>
+		<LANG ID="ja-JP">煌めきアジサイ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_03</LANG>
+		<LANG ID="ja-JP">白色アジサイ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_00</LANG>
+		<LANG ID="ja-JP">ピンクダリア</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_01</LANG>
+		<LANG ID="ja-JP">ゴールドダリア</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_02</LANG>
+		<LANG ID="ja-JP">オレンジダリア</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_03</LANG>
+		<LANG ID="ja-JP">レッドダリア</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_00</LANG>
+		<LANG ID="ja-JP">ピンク色のコスモス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_01</LANG>
+		<LANG ID="ja-JP">白いコスモス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_02</LANG>
+		<LANG ID="ja-JP">金色のコスモス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_03</LANG>
+		<LANG ID="ja-JP">黄緑色のコスモス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_00</LANG>
+		<LANG ID="ja-JP">プリマドンナシクラメン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_01</LANG>
+		<LANG ID="ja-JP">金色のシクラメン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_02</LANG>
+		<LANG ID="ja-JP">白色のシクラメン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_03</LANG>
+		<LANG ID="ja-JP">ピンク色のシクラメン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_00</LANG>
+		<LANG ID="ja-JP">ピンク色のボタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_01</LANG>
+		<LANG ID="ja-JP">赤いボタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_02</LANG>
+		<LANG ID="ja-JP">光のボタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_03</LANG>
+		<LANG ID="ja-JP">白いボタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_00</LANG>
+		<LANG ID="ja-JP">白いスズラン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_01</LANG>
+		<LANG ID="ja-JP">虹色のスズラン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_02</LANG>
+		<LANG ID="ja-JP">黄緑色のスズラン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_03</LANG>
+		<LANG ID="ja-JP">黄色のスズラン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_00</LANG>
+		<LANG ID="ja-JP">赤いツバキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_01</LANG>
+		<LANG ID="ja-JP">金色のツバキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_02</LANG>
+		<LANG ID="ja-JP">白いツバキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_03</LANG>
+		<LANG ID="ja-JP">黄緑色のツバキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_00</LANG>
+		<LANG ID="ja-JP">赤いハイビスカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_01</LANG>
+		<LANG ID="ja-JP">金色のハイビスカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_02</LANG>
+		<LANG ID="ja-JP">フレッシュイエローハイビスカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_03</LANG>
+		<LANG ID="ja-JP">水色のハイビスカス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_00</LANG>
+		<LANG ID="ja-JP">ピンク色のスマイルフラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_01</LANG>
+		<LANG ID="ja-JP">レインボースマイルフラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_02</LANG>
+		<LANG ID="ja-JP">ストライプ柄のスマイルフラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_03</LANG>
+		<LANG ID="ja-JP">水玉のスマイルフラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_00</LANG>
+		<LANG ID="ja-JP">白いヒカリバナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_01</LANG>
+		<LANG ID="ja-JP">赤いヒカリバナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_02</LANG>
+		<LANG ID="ja-JP">青いヒカリバナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_03</LANG>
+		<LANG ID="ja-JP">緑のヒカリバナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_00</LANG>
+		<LANG ID="ja-JP">サファイヤ・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_01</LANG>
+		<LANG ID="ja-JP">ダイヤモンド・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_02</LANG>
+		<LANG ID="ja-JP">アメジスト・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_03</LANG>
+		<LANG ID="ja-JP">ガーネット・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl025_00</LANG>
+		<LANG ID="ja-JP">茶色い羽根の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl025_01</LANG>
+		<LANG ID="ja-JP">黄色い羽根の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl025_02</LANG>
+		<LANG ID="ja-JP">エメラルドグリーンの羽根の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl026_00</LANG>
+		<LANG ID="ja-JP">青いうろこの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl026_01</LANG>
+		<LANG ID="ja-JP">金色のうろこの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl026_02</LANG>
+		<LANG ID="ja-JP">虹色のうろこの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl027_00</LANG>
+		<LANG ID="ja-JP">ブラウンシルクハット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl027_01</LANG>
+		<LANG ID="ja-JP">ブラックシルクハット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl027_02</LANG>
+		<LANG ID="ja-JP">ホワイトシルクハット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl028_00</LANG>
+		<LANG ID="ja-JP">赤いドットのアサガオ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl028_01</LANG>
+		<LANG ID="ja-JP">赤いドットのボタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl028_02</LANG>
+		<LANG ID="ja-JP">赤いドットのヒマワリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl029_00</LANG>
+		<LANG ID="ja-JP">ストライプのアサガオ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl029_01</LANG>
+		<LANG ID="ja-JP">ストライプのボタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl029_02</LANG>
+		<LANG ID="ja-JP">ストライプのヒマワリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_00</LANG>
+		<LANG ID="ja-JP">キンキラダイヤ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_01</LANG>
+		<LANG ID="ja-JP">キンキラクローバー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_02</LANG>
+		<LANG ID="ja-JP">キンキラハート</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_03</LANG>
+		<LANG ID="ja-JP">キンキラスペード</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl031_00</LANG>
+		<LANG ID="ja-JP">白いラッパ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl031_01</LANG>
+		<LANG ID="ja-JP">銀のラッパ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl031_02</LANG>
+		<LANG ID="ja-JP">金のラッパ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_00</LANG>
+		<LANG ID="ja-JP">オパール・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_01</LANG>
+		<LANG ID="ja-JP">エメラルド・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_02</LANG>
+		<LANG ID="ja-JP">ルビー・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_03</LANG>
+		<LANG ID="ja-JP">ペリドット・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl033_00</LANG>
+		<LANG ID="ja-JP">クリスタルヒマワリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl033_01</LANG>
+		<LANG ID="ja-JP">クリスタルバラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_00</LANG>
+		<LANG ID="ja-JP">青の目玉花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_01</LANG>
+		<LANG ID="ja-JP">赤の目玉花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_02</LANG>
+		<LANG ID="ja-JP">茶色の瞳の目玉の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_03</LANG>
+		<LANG ID="ja-JP">黒の目玉花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_00</LANG>
+		<LANG ID="ja-JP">ゴールデンメロディ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_01</LANG>
+		<LANG ID="ja-JP">レインボーメロディ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_02</LANG>
+		<LANG ID="ja-JP">黒い音符の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_03</LANG>
+		<LANG ID="ja-JP">白い音符の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_00</LANG>
+		<LANG ID="ja-JP">金色のベル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_01</LANG>
+		<LANG ID="ja-JP">クリスタル・ベル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_02</LANG>
+		<LANG ID="ja-JP">銀色のベル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_03</LANG>
+		<LANG ID="ja-JP">銅色のベル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_00</LANG>
+		<LANG ID="ja-JP">鉄の宝箱</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_01</LANG>
+		<LANG ID="ja-JP">黄金の宝箱</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_02</LANG>
+		<LANG ID="ja-JP">皮の宝箱</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_03</LANG>
+		<LANG ID="ja-JP">木の宝箱</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl038_00</LANG>
+		<LANG ID="ja-JP">雪空花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl038_01</LANG>
+		<LANG ID="ja-JP">雪晶花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl038_02</LANG>
+		<LANG ID="ja-JP">雪雷花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl039_00</LANG>
+		<LANG ID="ja-JP">緑の羽根の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl039_01</LANG>
+		<LANG ID="ja-JP">白い羽根の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl039_02</LANG>
+		<LANG ID="ja-JP">赤い羽根の花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl040_00</LANG>
+		<LANG ID="ja-JP">紅色うちわの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl040_01</LANG>
+		<LANG ID="ja-JP">草色うちわの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl040_02</LANG>
+		<LANG ID="ja-JP">黄色うちわの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl041_00</LANG>
+		<LANG ID="ja-JP">ピンキーリボンの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl041_01</LANG>
+		<LANG ID="ja-JP">ストロベリーリボンの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl041_02</LANG>
+		<LANG ID="ja-JP">ストライプリボンの花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl042_00</LANG>
+		<LANG ID="ja-JP">ミルクチョコレートローズ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl042_01</LANG>
+		<LANG ID="ja-JP">チョコレートローズ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl042_02</LANG>
+		<LANG ID="ja-JP">イチゴチョコレートローズ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl043_00</LANG>
+		<LANG ID="ja-JP">桃枠の刺繍花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl043_01</LANG>
+		<LANG ID="ja-JP">紫枠の刺繍花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl043_02</LANG>
+		<LANG ID="ja-JP">赤枠の刺繍花</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl044_00</LANG>
+		<LANG ID="ja-JP">アクア・ステンドグラス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl044_01</LANG>
+		<LANG ID="ja-JP">サンライト・ステンドグラス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl044_02</LANG>
+		<LANG ID="ja-JP">ホーリー・ステンドグラス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl045_00</LANG>
+		<LANG ID="ja-JP">虹のラッパ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl046_00</LANG>
+		<LANG ID="ja-JP">シンプル・アンブレラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl046_01</LANG>
+		<LANG ID="ja-JP">ポップ・アンブレラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl046_02</LANG>
+		<LANG ID="ja-JP">ゴシック・アンブレラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_00</LANG>
+		<LANG ID="ja-JP">パール・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_01</LANG>
+		<LANG ID="ja-JP">トパーズ・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_02</LANG>
+		<LANG ID="ja-JP">アクアマリン・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_03</LANG>
+		<LANG ID="ja-JP">ラピスラズリ・フラワー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_00</LANG>
+		<LANG ID="ja-JP">赤いトマト</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_01</LANG>
+		<LANG ID="ja-JP">黄色いトマト</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_02</LANG>
+		<LANG ID="ja-JP">金色のトマト</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_03</LANG>
+		<LANG ID="ja-JP">青いトマト</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_00</LANG>
+		<LANG ID="ja-JP">紫色のナス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_01</LANG>
+		<LANG ID="ja-JP">金色のナス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_02</LANG>
+		<LANG ID="ja-JP">白いナス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_03</LANG>
+		<LANG ID="ja-JP">緑色のナス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_00</LANG>
+		<LANG ID="ja-JP">緑のカボチャ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_01</LANG>
+		<LANG ID="ja-JP">オレンジ色のカボチャ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_02</LANG>
+		<LANG ID="ja-JP">金色のカボチャ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_03</LANG>
+		<LANG ID="ja-JP">紫のカボチャ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_00</LANG>
+		<LANG ID="ja-JP">太陽のトウモロコシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_01</LANG>
+		<LANG ID="ja-JP">黄金トウモロコシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_02</LANG>
+		<LANG ID="ja-JP">真っ白トウモロコシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_03</LANG>
+		<LANG ID="ja-JP">紅トウモロコシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_00</LANG>
+		<LANG ID="ja-JP">緑のピーマン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_01</LANG>
+		<LANG ID="ja-JP">紫のピーマン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_02</LANG>
+		<LANG ID="ja-JP">金のピーマン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_03</LANG>
+		<LANG ID="ja-JP">群青ピーマン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_00</LANG>
+		<LANG ID="ja-JP">夏スイカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_01</LANG>
+		<LANG ID="ja-JP">金のスイカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_02</LANG>
+		<LANG ID="ja-JP">白虎スイカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_03</LANG>
+		<LANG ID="ja-JP">虎スイカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_00</LANG>
+		<LANG ID="ja-JP">黄緑色のメロン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_01</LANG>
+		<LANG ID="ja-JP">金のメロン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_02</LANG>
+		<LANG ID="ja-JP">白いメロン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_03</LANG>
+		<LANG ID="ja-JP">黄色いメロン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_00</LANG>
+		<LANG ID="ja-JP">完熟パイナップル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_01</LANG>
+		<LANG ID="ja-JP">金ぴかパイナップル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_02</LANG>
+		<LANG ID="ja-JP">グリーンパイナップル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_03</LANG>
+		<LANG ID="ja-JP">バイオパイナップル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_00</LANG>
+		<LANG ID="ja-JP">完熟紅リンゴ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_01</LANG>
+		<LANG ID="ja-JP">グリーンアップル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_02</LANG>
+		<LANG ID="ja-JP">ゴールデンアップル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_03</LANG>
+		<LANG ID="ja-JP">青空アップル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_00</LANG>
+		<LANG ID="ja-JP">イエローレモン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_01</LANG>
+		<LANG ID="ja-JP">シャイニングレモン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_02</LANG>
+		<LANG ID="ja-JP">グリーンレモン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_03</LANG>
+		<LANG ID="ja-JP">スカイレモン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_00</LANG>
+		<LANG ID="ja-JP">オレンジ色のミカン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_01</LANG>
+		<LANG ID="ja-JP">金色のみかん</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_02</LANG>
+		<LANG ID="ja-JP">緑色のミカン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_03</LANG>
+		<LANG ID="ja-JP">赤いミカン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_00</LANG>
+		<LANG ID="ja-JP">黄色いグレープフルーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_01</LANG>
+		<LANG ID="ja-JP">金色のグレープフルーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_02</LANG>
+		<LANG ID="ja-JP">黄緑色のグレープフルーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_03</LANG>
+		<LANG ID="ja-JP">水色のグレープフルーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_00</LANG>
+		<LANG ID="ja-JP">赤いイチゴ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_01</LANG>
+		<LANG ID="ja-JP">冷凍イチゴ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_02</LANG>
+		<LANG ID="ja-JP">黄色いイチゴ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_03</LANG>
+		<LANG ID="ja-JP">黄緑色のイチゴ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_00</LANG>
+		<LANG ID="ja-JP">イエローバナナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_01</LANG>
+		<LANG ID="ja-JP">ゴージャスバナナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_02</LANG>
+		<LANG ID="ja-JP">早熟バナナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_03</LANG>
+		<LANG ID="ja-JP">ホワイトバナナ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_00</LANG>
+		<LANG ID="ja-JP">紫色のブドウ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_01</LANG>
+		<LANG ID="ja-JP">黄緑色のブドウ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_02</LANG>
+		<LANG ID="ja-JP">冷凍ブドウ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_03</LANG>
+		<LANG ID="ja-JP">赤いブドウ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_00</LANG>
+		<LANG ID="ja-JP">黄色い洋ナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_01</LANG>
+		<LANG ID="ja-JP">黄緑色の洋ナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_02</LANG>
+		<LANG ID="ja-JP">ゴールデン洋ナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_03</LANG>
+		<LANG ID="ja-JP">赤い洋ナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_00</LANG>
+		<LANG ID="ja-JP">オレンジ色の柿</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_01</LANG>
+		<LANG ID="ja-JP">黄金のカキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_02</LANG>
+		<LANG ID="ja-JP">黄緑色のカキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_03</LANG>
+		<LANG ID="ja-JP">赤いカキ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_00</LANG>
+		<LANG ID="ja-JP">レッドチェリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_01</LANG>
+		<LANG ID="ja-JP">冷凍チェリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_02</LANG>
+		<LANG ID="ja-JP">黄緑色チェリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_03</LANG>
+		<LANG ID="ja-JP">イエローチェリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_00</LANG>
+		<LANG ID="ja-JP">紫色のブルーベリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_01</LANG>
+		<LANG ID="ja-JP">冷凍ブルーベリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_02</LANG>
+		<LANG ID="ja-JP">赤いブルーベリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_03</LANG>
+		<LANG ID="ja-JP">緑色のブルーベリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_00</LANG>
+		<LANG ID="ja-JP">ピンク色のモモ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_01</LANG>
+		<LANG ID="ja-JP">金色のモモ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_02</LANG>
+		<LANG ID="ja-JP">白いモモ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_03</LANG>
+		<LANG ID="ja-JP">黄色いモモ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_00</LANG>
+		<LANG ID="ja-JP">レッドパプリカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_01</LANG>
+		<LANG ID="ja-JP">イエローパプリカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_02</LANG>
+		<LANG ID="ja-JP">キングパプリカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_03</LANG>
+		<LANG ID="ja-JP">生白いパプリカ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_00</LANG>
+		<LANG ID="ja-JP">緑色のキュウリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_01</LANG>
+		<LANG ID="ja-JP">金色のキュウリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_02</LANG>
+		<LANG ID="ja-JP">白いキュウリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_03</LANG>
+		<LANG ID="ja-JP">水色のキュウリ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_00</LANG>
+		<LANG ID="ja-JP">緑色のオクラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_01</LANG>
+		<LANG ID="ja-JP">金色のオクラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_02</LANG>
+		<LANG ID="ja-JP">赤いオクラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_03</LANG>
+		<LANG ID="ja-JP">黄色いオクラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_00</LANG>
+		<LANG ID="ja-JP">緑色のオリーブ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_01</LANG>
+		<LANG ID="ja-JP">クイーンオリーブ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_02</LANG>
+		<LANG ID="ja-JP">赤いオリーブ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_03</LANG>
+		<LANG ID="ja-JP">黒いオリーブ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_00</LANG>
+		<LANG ID="ja-JP">緑色のブロッコリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_01</LANG>
+		<LANG ID="ja-JP">金色のブロッコリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_02</LANG>
+		<LANG ID="ja-JP">白いブロッコリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_03</LANG>
+		<LANG ID="ja-JP">黄色いブロッコリー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_00</LANG>
+		<LANG ID="ja-JP">黄色いナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_01</LANG>
+		<LANG ID="ja-JP">黄緑色のナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_02</LANG>
+		<LANG ID="ja-JP">金色のナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_03</LANG>
+		<LANG ID="ja-JP">赤いナシ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_00</LANG>
+		<LANG ID="ja-JP">黄緑色のウメ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_01</LANG>
+		<LANG ID="ja-JP">ピンク色のウメ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_02</LANG>
+		<LANG ID="ja-JP">金色のウメ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_03</LANG>
+		<LANG ID="ja-JP">水色のウメ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_00</LANG>
+		<LANG ID="ja-JP">緋色アセロラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_01</LANG>
+		<LANG ID="ja-JP">冷凍アセロラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_02</LANG>
+		<LANG ID="ja-JP">新緑アセロラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_03</LANG>
+		<LANG ID="ja-JP">ウォーターアセロラ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_00</LANG>
+		<LANG ID="ja-JP">赤いマンゴー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_01</LANG>
+		<LANG ID="ja-JP">オレンジ色のマンゴー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_02</LANG>
+		<LANG ID="ja-JP">ロイヤルマンゴー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_03</LANG>
+		<LANG ID="ja-JP">緑色のマンゴー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_00</LANG>
+		<LANG ID="ja-JP">赤いライチ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_01</LANG>
+		<LANG ID="ja-JP">黄金のライチ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_02</LANG>
+		<LANG ID="ja-JP">茶色いライチ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_03</LANG>
+		<LANG ID="ja-JP">黄緑色のライチ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_00</LANG>
+		<LANG ID="ja-JP">ローズ・クォーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_01</LANG>
+		<LANG ID="ja-JP">レインボー・クォーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_02</LANG>
+		<LANG ID="ja-JP">ホワイト・クォーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_03</LANG>
+		<LANG ID="ja-JP">スモーキー・クォーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_00</LANG>
+		<LANG ID="ja-JP">ホワイトクロノス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_01</LANG>
+		<LANG ID="ja-JP">ゴールドクロノス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_02</LANG>
+		<LANG ID="ja-JP">ネイチャークロノス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_03</LANG>
+		<LANG ID="ja-JP">アイアンクロノス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_00</LANG>
+		<LANG ID="ja-JP">金色のミラーボール</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_01</LANG>
+		<LANG ID="ja-JP">虹色のミラーボール</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_02</LANG>
+		<LANG ID="ja-JP">銀色のミラーボール</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_03</LANG>
+		<LANG ID="ja-JP">ブルーミラーボール</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_00</LANG>
+		<LANG ID="ja-JP">金色のメダル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_01</LANG>
+		<LANG ID="ja-JP">クリスタルのメダル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_02</LANG>
+		<LANG ID="ja-JP">銀色のメダル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_03</LANG>
+		<LANG ID="ja-JP">銅色のメダル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_00</LANG>
+		<LANG ID="ja-JP">サファイヤの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_01</LANG>
+		<LANG ID="ja-JP">ダイヤモンドの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_02</LANG>
+		<LANG ID="ja-JP">アメジストの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_03</LANG>
+		<LANG ID="ja-JP">ガーネットの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_00</LANG>
+		<LANG ID="ja-JP">ピュアエンジェルウィング</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_01</LANG>
+		<LANG ID="ja-JP">ゴールドエンジェルウィング</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_02</LANG>
+		<LANG ID="ja-JP">グレーエンジェルウィング</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_03</LANG>
+		<LANG ID="ja-JP">ダークエンジェルウィング</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_00</LANG>
+		<LANG ID="ja-JP">金のドクロ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_01</LANG>
+		<LANG ID="ja-JP">クリスタルのドクロ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_02</LANG>
+		<LANG ID="ja-JP">鉄のドクロ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_03</LANG>
+		<LANG ID="ja-JP">木ドクロ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_00</LANG>
+		<LANG ID="ja-JP">トップスター</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_01</LANG>
+		<LANG ID="ja-JP">七色スター</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_02</LANG>
+		<LANG ID="ja-JP">ドットスター</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_03</LANG>
+		<LANG ID="ja-JP">ストライプスター</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_00</LANG>
+		<LANG ID="ja-JP">ゴールデンスペード</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_01</LANG>
+		<LANG ID="ja-JP">レインボースペード</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_02</LANG>
+		<LANG ID="ja-JP">ドットスペード</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_03</LANG>
+		<LANG ID="ja-JP">ストライプスペード</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_00</LANG>
+		<LANG ID="ja-JP">ゴールデンダイヤ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_01</LANG>
+		<LANG ID="ja-JP">レインボーダイヤ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_02</LANG>
+		<LANG ID="ja-JP">ドットダイヤ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_03</LANG>
+		<LANG ID="ja-JP">ストライプダイヤ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_00</LANG>
+		<LANG ID="ja-JP">ゴールデンハート</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_01</LANG>
+		<LANG ID="ja-JP">レインボーハート</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_02</LANG>
+		<LANG ID="ja-JP">ドットハート</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_03</LANG>
+		<LANG ID="ja-JP">ストライプハート</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_00</LANG>
+		<LANG ID="ja-JP">ゴールデンクローバー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_01</LANG>
+		<LANG ID="ja-JP">レインボークローバー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_02</LANG>
+		<LANG ID="ja-JP">ドットクローバー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_03</LANG>
+		<LANG ID="ja-JP">ストライプクローバー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_00</LANG>
+		<LANG ID="ja-JP">黒い爆弾の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_01</LANG>
+		<LANG ID="ja-JP">迷彩爆弾の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_02</LANG>
+		<LANG ID="ja-JP">赤い爆弾の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_03</LANG>
+		<LANG ID="ja-JP">青い爆弾の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_00</LANG>
+		<LANG ID="ja-JP">黄金魚</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_01</LANG>
+		<LANG ID="ja-JP">虹色魚</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_02</LANG>
+		<LANG ID="ja-JP">紅魚</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_03</LANG>
+		<LANG ID="ja-JP">青魚</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_00</LANG>
+		<LANG ID="ja-JP">シロクマの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_01</LANG>
+		<LANG ID="ja-JP">百獣王の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_02</LANG>
+		<LANG ID="ja-JP">猫の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_03</LANG>
+		<LANG ID="ja-JP">犬の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_00</LANG>
+		<LANG ID="ja-JP">春告鳥の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_01</LANG>
+		<LANG ID="ja-JP">インコの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_02</LANG>
+		<LANG ID="ja-JP">ひよこの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_03</LANG>
+		<LANG ID="ja-JP">スズメの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_00</LANG>
+		<LANG ID="ja-JP">オパールの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_01</LANG>
+		<LANG ID="ja-JP">エメラルドの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_02</LANG>
+		<LANG ID="ja-JP">ルビーの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_03</LANG>
+		<LANG ID="ja-JP">ペリドットの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_00</LANG>
+		<LANG ID="ja-JP">シルバーファン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_01</LANG>
+		<LANG ID="ja-JP">ゴールドファン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_02</LANG>
+		<LANG ID="ja-JP">クリムゾンファン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_03</LANG>
+		<LANG ID="ja-JP">アイスブルーファン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_00</LANG>
+		<LANG ID="ja-JP">伝統模様の風鈴</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_01</LANG>
+		<LANG ID="ja-JP">虹色の風鈴</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_02</LANG>
+		<LANG ID="ja-JP">三角模様の風鈴</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_03</LANG>
+		<LANG ID="ja-JP">鉄の風鈴</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr053_00</LANG>
+		<LANG ID="ja-JP">ペンギンの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr054_00</LANG>
+		<LANG ID="ja-JP">赤靴下の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr054_01</LANG>
+		<LANG ID="ja-JP">茶靴下の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr054_02</LANG>
+		<LANG ID="ja-JP">青靴下の実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr055_00</LANG>
+		<LANG ID="ja-JP">バーニングハート＆リボン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr055_01</LANG>
+		<LANG ID="ja-JP">ラベンダーハート＆リボン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr055_02</LANG>
+		<LANG ID="ja-JP">クーリッシュハート＆リボン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr056_00</LANG>
+		<LANG ID="ja-JP">クリスタルスター</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr057_00</LANG>
+		<LANG ID="ja-JP">空色のとんぼ玉</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr057_01</LANG>
+		<LANG ID="ja-JP">翠玉のとんぼ玉</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr057_02</LANG>
+		<LANG ID="ja-JP">すみれ色のとんぼ玉</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr058_00</LANG>
+		<LANG ID="ja-JP">アカランタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr058_01</LANG>
+		<LANG ID="ja-JP">キランタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr058_02</LANG>
+		<LANG ID="ja-JP">アオランタン</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr059_00</LANG>
+		<LANG ID="ja-JP">カフェオレマイマイ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr059_01</LANG>
+		<LANG ID="ja-JP">桜キャンディーマイマイ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr059_02</LANG>
+		<LANG ID="ja-JP">ジェムマイマイ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_00</LANG>
+		<LANG ID="ja-JP">パールの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_01</LANG>
+		<LANG ID="ja-JP">トパーズの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_02</LANG>
+		<LANG ID="ja-JP">アクアマリンの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_03</LANG>
+		<LANG ID="ja-JP">ラピスラズリの実</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">WtrCn_A</LANG>
+		<LANG ID="ja-JP">めぐみの水 100%回復</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">WtrCn_B</LANG>
+		<LANG ID="ja-JP">めぐみの水 50%回復</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft01_A</LANG>
+		<LANG ID="ja-JP">もりもりエッセンス・大</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft01_B</LANG>
+		<LANG ID="ja-JP">もりもりエッセンス・小</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SnSin_A</LANG>
+		<LANG ID="ja-JP">みんなの太陽</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft03_A</LANG>
+		<LANG ID="ja-JP">すこやかアンプル・大</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft03_B</LANG>
+		<LANG ID="ja-JP">すこやかアンプル・小</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">PickT_A</LANG>
+		<LANG ID="ja-JP">いでんしコピー</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">WtrCnMsg</LANG>
+		<LANG ID="ja-JP">「めぐみの水」を100%回復します</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">WtrCn_BMsg</LANG>
+		<LANG ID="ja-JP">「めぐみの水」を50%回復します</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft01_AMsg</LANG>
+		<LANG ID="ja-JP">プランタの「みのり」を大きく増やします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft01_BMsg</LANG>
+		<LANG ID="ja-JP">プランタの「みのり」を増やします</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SnSin_AMsg</LANG>
+		<LANG ID="ja-JP">近づいたプランタの「しんか」(EP)を進めます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft03_AMsg</LANG>
+		<LANG ID="ja-JP">プランタの「そだち」(GP)が大きく進みます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ft03_BMsg</LANG>
+		<LANG ID="ja-JP">プランタの「そだち」(GP)が進みます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">PickT_Amsg</LANG>
+		<LANG ID="ja-JP">他人のプランタをコピー収穫することができます</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">L1</LANG>
+		<LANG ID="ja-JP">[L1]</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">R1</LANG>
+		<LANG ID="ja-JP">[R1]</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MaskSize</LANG>
+		<LANG ID="ja-JP">農地のサイズに合いません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MaskPublic</LANG>
+		<LANG ID="ja-JP">たね以外は植えれません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MaskPersonal</LANG>
+		<LANG ID="ja-JP">たねは植えれません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MaskFarm</LANG>
+		<LANG ID="ja-JP">パーソナル庭園で植えています</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MaskCollect</LANG>
+		<LANG ID="ja-JP">庭つくりクエストの条件に合いません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MaskEvent</LANG>
+		<LANG ID="ja-JP">イベントの条件に合いません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuideDpad</LANG>
+		<LANG ID="ja-JP">[UP][DOWN][LEFT][RIGHT]選択</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuideDec</LANG>
+		<LANG ID="ja-JP">[DECLINE]戻る</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuidePage</LANG>
+		<LANG ID="ja-JP">[L1][R1]ページ切替</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuideAccept1</LANG>
+		<LANG ID="ja-JP">[ACCEPT]植える</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuideAccept2</LANG>
+		<LANG ID="ja-JP">[ACCEPT]捨てる</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuideAccept3</LANG>
+		<LANG ID="ja-JP">[ACCEPT]ページ切替</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuideAccept4</LANG>
+		<LANG ID="ja-JP">[ACCEPT]納品する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">GuideAccept5</LANG>
+		<LANG ID="ja-JP">[ACCEPT]出荷する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SortMode1</LANG>
+		<LANG ID="ja-JP">[SQUARE]入手が新しい順</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SortMode2</LANG>
+		<LANG ID="ja-JP">[SQUARE]入手が古い順</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SortMode3</LANG>
+		<LANG ID="ja-JP">[SQUARE]種類優先</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SortMode4</LANG>
+		<LANG ID="ja-JP">[SQUARE]たね優先</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SortMode5</LANG>
+		<LANG ID="ja-JP">[SQUARE]納品額が低い順</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SortMode6</LANG>
+		<LANG ID="ja-JP">[SQUARE]納品額が高い順</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_00_info</LANG>
+		<LANG ID="ja-JP">アサガオの花が咲き、ミカンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_01_info</LANG>
+		<LANG ID="ja-JP">シクラメンの花が咲き、オリーブの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_02_info</LANG>
+		<LANG ID="ja-JP">パンジーの花が咲き、ブロッコリーの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se000_03_info</LANG>
+		<LANG ID="ja-JP">ボタンの花が咲き、ウメの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_00_info</LANG>
+		<LANG ID="ja-JP">ツバキの花が咲き、キュウリの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_01_info</LANG>
+		<LANG ID="ja-JP">ダリアの花が咲き、カボチャの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_02_info</LANG>
+		<LANG ID="ja-JP">スイセンの花が咲き、ナスの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se001_03_info</LANG>
+		<LANG ID="ja-JP">スズランの花が咲き、ブルーベリーの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_00_info</LANG>
+		<LANG ID="ja-JP">パンジーの花が咲き、オクラの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_01_info</LANG>
+		<LANG ID="ja-JP">スズランの花が咲き、ライチの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_02_info</LANG>
+		<LANG ID="ja-JP">アサガオの花が咲き、ミカンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se002_03_info</LANG>
+		<LANG ID="ja-JP">シクラメンの花が咲き、オリーブの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_00_info</LANG>
+		<LANG ID="ja-JP">パンジーの花が咲き、ブロッコリーの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_01_info</LANG>
+		<LANG ID="ja-JP">ボタンの花が咲き、ウメの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_02_info</LANG>
+		<LANG ID="ja-JP">たねの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se003_03_info</LANG>
+		<LANG ID="ja-JP">たねの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_00_info</LANG>
+		<LANG ID="ja-JP">アジサイの花が咲き、ピーマンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_01_info</LANG>
+		<LANG ID="ja-JP">ユリの花が咲き、グレープフルーツの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_02_info</LANG>
+		<LANG ID="ja-JP">チューリップの花が咲き、レモンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se004_03_info</LANG>
+		<LANG ID="ja-JP">クロッカスの花が咲き、アセロラの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_00_info</LANG>
+		<LANG ID="ja-JP">ダリアの花が咲き、ナシの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_01_info</LANG>
+		<LANG ID="ja-JP">ツバキの花が咲き、カキの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_02_info</LANG>
+		<LANG ID="ja-JP">ユリの花が咲き、洋ナシの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se005_03_info</LANG>
+		<LANG ID="ja-JP">ハオビスカスの花が咲き、マンゴーの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_00_info</LANG>
+		<LANG ID="ja-JP">マリーゴールドの花が咲き、パプリカの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_01_info</LANG>
+		<LANG ID="ja-JP">ボタンの花が咲き、ブドウの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_02_info</LANG>
+		<LANG ID="ja-JP">アジサイの花が咲き、ピーマンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se006_03_info</LANG>
+		<LANG ID="ja-JP">ユリの花が咲き、グレープフルーツの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_00_info</LANG>
+		<LANG ID="ja-JP">チューリップの花が咲き、レモンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_01_info</LANG>
+		<LANG ID="ja-JP">クロッカスの花が咲き、アセロラの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_02_info</LANG>
+		<LANG ID="ja-JP">ダリアの花が咲き、ナシの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se007_03_info</LANG>
+		<LANG ID="ja-JP">ツバキの花が咲き、カキの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_00_info</LANG>
+		<LANG ID="ja-JP">マリーゴールドの花が咲き、パプリカの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_01_info</LANG>
+		<LANG ID="ja-JP">サクラの花が咲き、チェリーの実がなるたねです。\n暖かい所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_02_info</LANG>
+		<LANG ID="ja-JP">赤い花が咲き、白い実がなる縁起のいいたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se008_03_info</LANG>
+		<LANG ID="ja-JP">赤い花が咲き、白い実がなる縁起のいいたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_00_info</LANG>
+		<LANG ID="ja-JP">バラの花が咲き、リンゴの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_01_info</LANG>
+		<LANG ID="ja-JP">クロッカスの花が咲き、トマトの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_02_info</LANG>
+		<LANG ID="ja-JP">ヒマワリの花が咲き、スイカの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se009_03_info</LANG>
+		<LANG ID="ja-JP">コスモスの花が咲き、モモの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_00_info</LANG>
+		<LANG ID="ja-JP">マーガレットの花が咲き、バナナの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_01_info</LANG>
+		<LANG ID="ja-JP">ワスレナグサの花が咲き、イチゴの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_02_info</LANG>
+		<LANG ID="ja-JP">マリーゴールドの花が咲き、メロンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se010_03_info</LANG>
+		<LANG ID="ja-JP">ツバキの実がなり、トウモロコシの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_00_info</LANG>
+		<LANG ID="ja-JP">アジサイの花が咲き、パイナップルの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_01_info</LANG>
+		<LANG ID="ja-JP">雪の結晶の花が咲き、冷凍された実がなる不思議なたねです。\n寒い所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_02_info</LANG>
+		<LANG ID="ja-JP">バラの花が咲き、リンゴの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se011_03_info</LANG>
+		<LANG ID="ja-JP">クロッカスの花が咲き、トマトの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_00_info</LANG>
+		<LANG ID="ja-JP">ヒマワリの花が咲き、スイカの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_01_info</LANG>
+		<LANG ID="ja-JP">コスモスの花が咲き、モモの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_02_info</LANG>
+		<LANG ID="ja-JP">マーガレットの花が咲き、バナナの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se012_03_info</LANG>
+		<LANG ID="ja-JP">雪の結晶の花が咲き、冷凍された実がなる不思議なたねです。\n寒い所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_00_info</LANG>
+		<LANG ID="ja-JP">真っ青な花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_01_info</LANG>
+		<LANG ID="ja-JP">真っ赤な花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_02_info</LANG>
+		<LANG ID="ja-JP">ワスレナグサの花が咲き、イチゴの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se013_03_info</LANG>
+		<LANG ID="ja-JP">マリーゴールドの花が咲き、メロンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_00_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_01_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_02_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se014_03_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_00_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_01_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_02_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se015_03_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_00_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_01_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_02_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se016_03_info</LANG>
+		<LANG ID="ja-JP">トランプにまつわる、黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_00_info</LANG>
+		<LANG ID="ja-JP">トランプにまつわる、黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_01_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_02_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se017_03_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_00_info</LANG>
+		<LANG ID="ja-JP">鳥にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_01_info</LANG>
+		<LANG ID="ja-JP">動物にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_02_info</LANG>
+		<LANG ID="ja-JP">お宝にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se018_03_info</LANG>
+		<LANG ID="ja-JP">1月と2月と9月の誕生石にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_00_info</LANG>
+		<LANG ID="ja-JP">魚にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_01_info</LANG>
+		<LANG ID="ja-JP">パンクな海賊風の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_02_info</LANG>
+		<LANG ID="ja-JP">4月と5月と10月の誕生石にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se019_03_info</LANG>
+		<LANG ID="ja-JP">ベルの花が咲き、水晶の実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_00_info</LANG>
+		<LANG ID="ja-JP">フラワーランプの花が咲き、爆弾の実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_01_info</LANG>
+		<LANG ID="ja-JP">ポップなストライプ柄の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_02_info</LANG>
+		<LANG ID="ja-JP">キュートな水玉模様の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se020_03_info</LANG>
+		<LANG ID="ja-JP">天使の音色を思わせる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_00_info</LANG>
+		<LANG ID="ja-JP">ハッピーな水玉模様の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_01_info</LANG>
+		<LANG ID="ja-JP">ラッキーなストライプ柄の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_02_info</LANG>
+		<LANG ID="ja-JP">ポップなアニマル柄の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se021_03_info</LANG>
+		<LANG ID="ja-JP">ラッパの花が咲き、天使の羽根の実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_00_info</LANG>
+		<LANG ID="ja-JP">エスニックなそよ風を感じさせる花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_01_info</LANG>
+		<LANG ID="ja-JP">フラワーランプの花が咲き、爆弾の実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_02_info</LANG>
+		<LANG ID="ja-JP">ポップなストライプ柄の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se022_03_info</LANG>
+		<LANG ID="ja-JP">キュートな水玉模様の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_00_info</LANG>
+		<LANG ID="ja-JP">ステンドグラス風の花や実がなる不思議なたねです。\n寒い所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_01_info</LANG>
+		<LANG ID="ja-JP">バレンタインにまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_02_info</LANG>
+		<LANG ID="ja-JP">クリスマスにまつわる花や実がなる不思議なたねです。\n寒い所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se023_03_info</LANG>
+		<LANG ID="ja-JP">水晶の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_00_info</LANG>
+		<LANG ID="ja-JP">不思議な虹色の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_01_info</LANG>
+		<LANG ID="ja-JP">不思議な虹色の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_02_info</LANG>
+		<LANG ID="ja-JP">不思議な虹色の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se024_03_info</LANG>
+		<LANG ID="ja-JP">たねの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_00_info</LANG>
+		<LANG ID="ja-JP">あなたがここで育てる記念すべき最初の「たね」です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_01_info</LANG>
+		<LANG ID="ja-JP">あなたがここで育てる記念すべき最初の「たね」です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_02_info</LANG>
+		<LANG ID="ja-JP">たねの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se025_03_info</LANG>
+		<LANG ID="ja-JP">たねの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_00_info</LANG>
+		<LANG ID="ja-JP">エスニック風の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_01_info</LANG>
+		<LANG ID="ja-JP">紳士的な花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_02_info</LANG>
+		<LANG ID="ja-JP">そよ風を感じさせる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se026_03_info</LANG>
+		<LANG ID="ja-JP">ポップなアニマル柄の花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_00_info</LANG>
+		<LANG ID="ja-JP">ラッパの花が咲き、天使の羽根の実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_01_info</LANG>
+		<LANG ID="ja-JP">エスニックなそよ風を感じさせる花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_02_info</LANG>
+		<LANG ID="ja-JP">ステンドグラス風の花や実がなる不思議なたねです。\n寒い所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se027_03_info</LANG>
+		<LANG ID="ja-JP">美しい羽の花が咲き、クローバーの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_00_info</LANG>
+		<LANG ID="ja-JP">ツバキの花が咲き、トウモロコシの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_01_info</LANG>
+		<LANG ID="ja-JP">アジサイの花が咲き、パイナップルの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_02_info</LANG>
+		<LANG ID="ja-JP">雪の結晶の花が咲き、冷凍された実がなる不思議なたねです。\n寒い所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se028_03_info</LANG>
+		<LANG ID="ja-JP">雪の結晶の花が咲き、冷凍された実がなる不思議なたねです。\n寒い所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_00_info</LANG>
+		<LANG ID="ja-JP">黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_01_info</LANG>
+		<LANG ID="ja-JP">トランプにまつわる、黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_02_info</LANG>
+		<LANG ID="ja-JP">トランプにまつわる、黄金の花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se029_03_info</LANG>
+		<LANG ID="ja-JP">たねの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_00_info</LANG>
+		<LANG ID="ja-JP">春を告げるような花や実がなるたねです。\n暖かい所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_01_info</LANG>
+		<LANG ID="ja-JP">サクラの花が咲き、イチゴの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_02_info</LANG>
+		<LANG ID="ja-JP">濃密な香り・味を持つ花や実がなるたねです。\n暖かい所で良く育ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se030_03_info</LANG>
+		<LANG ID="ja-JP">ユリの花が咲き、メロンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_00_info</LANG>
+		<LANG ID="ja-JP">パンジーの花が咲き、レモンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_01_info</LANG>
+		<LANG ID="ja-JP">チューリップの花が咲き、トマトの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_02_info</LANG>
+		<LANG ID="ja-JP">ヒマワリの花が咲き、アセロラの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se031_03_info</LANG>
+		<LANG ID="ja-JP">アジサイの花が咲き、キュウリの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se032_00_info</LANG>
+		<LANG ID="ja-JP">雨にまつわる花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se032_01_info</LANG>
+		<LANG ID="ja-JP">3月と11月と12月の誕生石にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se032_02_info</LANG>
+		<LANG ID="ja-JP">6月と7月と8月の誕生石にまつわる花や実がなる不思議なたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_00_info</LANG>
+		<LANG ID="ja-JP">ダリアの花が咲き、チェリーの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_01_info</LANG>
+		<LANG ID="ja-JP">アジサイの花が咲き、オリーブの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_02_info</LANG>
+		<LANG ID="ja-JP">ツバキの花が咲き、ナスの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se033_03_info</LANG>
+		<LANG ID="ja-JP">フレッシュで鮮やかな色合いの花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_00_info</LANG>
+		<LANG ID="ja-JP">ハイビスカスが咲き、レモンの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_01_info</LANG>
+		<LANG ID="ja-JP">ユリが咲き、モモの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_02_info</LANG>
+		<LANG ID="ja-JP">赤と白と青の花と実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se034_03_info</LANG>
+		<LANG ID="ja-JP">赤い花と実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se035_00_info</LANG>
+		<LANG ID="ja-JP">ヒマワリの花が咲き、ハートの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se035_01_info</LANG>
+		<LANG ID="ja-JP">雪の結晶の花が咲き、とんぼ玉の実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se035_02_info</LANG>
+		<LANG ID="ja-JP">ポップでキュートな花や実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se036_00_info</LANG>
+		<LANG ID="ja-JP">フラワーランプの花が咲き、カボチャの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Se036_01_info</LANG>
+		<LANG ID="ja-JP">クロッカスの花が咲き、バナナの実がなるたねです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_00_info</LANG>
+		<LANG ID="ja-JP">主張しすぎない色合いが美しいサクラ。仄かな赤みがさした花弁は\n見る者に安らぎを与えます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_01_info</LANG>
+		<LANG ID="ja-JP">古代のある王国が繁栄を極めた折に、王の庭を彩ったという\n黄金色のサクラ。散り際さえも美しい…。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_02_info</LANG>
+		<LANG ID="ja-JP">鮮烈な赤が刺激的なサクラ。さりげない桜色こそ美しいとしていた\nサクラ業界の常識を打ち破った、エポックメイキング。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl000_03_info</LANG>
+		<LANG ID="ja-JP">褪せた黄色が見る者に郷愁を抱かせるサクラ。\nサクラは春に愛でるもの、という固定観念を破壊した秋桜。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_00_info</LANG>
+		<LANG ID="ja-JP">古代の秘法により、自然界にはない鮮やかな青さで咲き誇るバラ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_01_info</LANG>
+		<LANG ID="ja-JP">『天国に咲く花』として名高い虹色のバラ。\n七色に輝く花弁に誘われ、蝶や蜂が舞い踊ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_02_info</LANG>
+		<LANG ID="ja-JP">真っ赤なバラは情熱のあかし。\n寂しかった庭も、明るくなるような華やかさがあります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl001_03_info</LANG>
+		<LANG ID="ja-JP">純白のバラ。清純で華やかな花弁は、\nまるでウェディングドレスをまとった新婦のよう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_00_info</LANG>
+		<LANG ID="ja-JP">鮮やかな赤色に染まるチューリップ。\n大ぶりの花弁がどっしりとしていて、見応えがありますね</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_01_info</LANG>
+		<LANG ID="ja-JP">虹の根本に咲くと伝えられる、虹色のチューリップ。\nその芳香も、何種類もの変化を見せるのだそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_02_info</LANG>
+		<LANG ID="ja-JP">レモンのような色合いを見せる黄色のチューリップ。\nカップのような花弁は、ミツバチの隠れんぼにもってこいですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl002_03_info</LANG>
+		<LANG ID="ja-JP">純白のチューリップ。\n色鮮やかな花々の中にあって、引けをとらない存在感を放ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_00_info</LANG>
+		<LANG ID="ja-JP">異性の愛情を得られるというロマンチックな言い伝えの、\n紫色のパンジー。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_01_info</LANG>
+		<LANG ID="ja-JP">『物思い』や『自由な思想』を花言葉に持つ、黄色のパンジー。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_02_info</LANG>
+		<LANG ID="ja-JP">黄金色に輝くパンジー。遠く離れた場所からでも、\nその濃厚で華やかな香りを味わうことができます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl003_03_info</LANG>
+		<LANG ID="ja-JP">『思想』を意味する言葉を名前の由来に持つ、黄緑色のパンジー。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_00_info</LANG>
+		<LANG ID="ja-JP">『真珠』を意味する言葉を名前の由来とする、白いマーガレット。\nこの花の香りを感じながら、読書するのも良いですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_01_info</LANG>
+		<LANG ID="ja-JP">誇らしく金色の輝きを放つマーガレット。古代の王国では、\n恋の成就をかけた花占いで、最高位の花だったのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_02_info</LANG>
+		<LANG ID="ja-JP">鮮やかな桃色のマーガレット。髪飾りとしてアレンジすれば、\nきっとアナタも乙女になれます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl004_03_info</LANG>
+		<LANG ID="ja-JP">野に咲く花々の中でも、ひときわに暖かく花弁を揺らす\n黄色のマーガレット。優しい香りにうっとりします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_00_info</LANG>
+		<LANG ID="ja-JP">六つの花びらとラッパ状の花弁が特徴的な、白いスイセン。\n名前の由来は、水辺に咲く姿が仙人のようだから…とか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_01_info</LANG>
+		<LANG ID="ja-JP">大輪の花を咲かせる黄色のスイセン。\n多くの国で『希望』の象徴として愛されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_02_info</LANG>
+		<LANG ID="ja-JP">黄泉の国の彼岸に咲くと言われる黄金色のスイセン。\n香りに誘われて冥界へと渡る者さえいると伝えられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl005_03_info</LANG>
+		<LANG ID="ja-JP">シャープなフォルムが特徴的な黄緑色のスイセン。\n高級感溢れる香りも、多くの人々に親しまれています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_00_info</LANG>
+		<LANG ID="ja-JP">春の訪れに先駆けて花開く、紫のクロッカス。\nウキウキ気分に浸りましょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_01_info</LANG>
+		<LANG ID="ja-JP">冬の終わりを告げるように花弁を広げる、黄色のクロッカス。\n恋、したくなりませんか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_02_info</LANG>
+		<LANG ID="ja-JP">『生命の泉』のほとりに咲くと伝えられる、黄金のクロッカス。\n心に潤いをもたらしてくれます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl006_03_info</LANG>
+		<LANG ID="ja-JP">雪解けも早々に花を咲かせる、白色のクロッカス。\n暖かい風を感じるようですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_00_info</LANG>
+		<LANG ID="ja-JP">沢山の花弁がボリューム感のある、オレンジ色のマリーゴールド。\nその香りには除虫効果も期待できるのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_01_info</LANG>
+		<LANG ID="ja-JP">ボリュームたっぷりの花弁をもつ、レモン色のマリーゴールド。\n少し香りが独特なので、部屋に飾る時はお気をつけて。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_02_info</LANG>
+		<LANG ID="ja-JP">その名に違わぬ輝きを放つ、ゴールデンなマリーゴールド。\nこの花には一切の害虫が寄ってこないと伝えられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl007_03_info</LANG>
+		<LANG ID="ja-JP">怪しい色香を放つ、ダークレッドのマリーゴールド。\n妖気さえ感じるたたずまいに痺れます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_00_info</LANG>
+		<LANG ID="ja-JP">太陽の日差しを受けて丸く大きく花開いたヒマワリ。\nその種はげっ歯類の大好物です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_01_info</LANG>
+		<LANG ID="ja-JP">遙か雲の上にあるという『虹の王国』に咲くと言い伝えられる\n七色のヒマワリ。雨上がりの空に映えます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_02_info</LANG>
+		<LANG ID="ja-JP">ダークレッドに染まった花弁は堕天の証…。伊達ワルに\n人気のヒマワリがアナタに『もっと輝け』と囁いています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl008_03_info</LANG>
+		<LANG ID="ja-JP">この世の果てにあるという『モノクロの世界』に咲くヒマワリ。\nアナタ色に染めて下さい。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_00_info</LANG>
+		<LANG ID="ja-JP">たおやかなフォルムが美しい、白いユリ。\n清純かつ女性的な魅力を持った花として親しまれています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_01_info</LANG>
+		<LANG ID="ja-JP">遙かなる昔、禁断の愛に生きた女性が恋人と添い遂げるために\n生まれ変わったという逸話の残る、黄金のユリ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_02_info</LANG>
+		<LANG ID="ja-JP">怪しくも艶かしい色香を放つ、桃色のユリ。\nその香りも、どこか蠱惑的です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl009_03_info</LANG>
+		<LANG ID="ja-JP">鮮やかな黄色のユリ。\n大ぶりの花弁が放つ存在感に、目も釘付けです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_00_info</LANG>
+		<LANG ID="ja-JP">高い高い青空のような色合いのアサガオ。\n夏の思い出を鮮やかに蘇らせてくれるでしょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_01_info</LANG>
+		<LANG ID="ja-JP">遠くの空にかかる虹を写したようなアサガオ。\n七色の花弁が夢のつづきを彩ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_02_info</LANG>
+		<LANG ID="ja-JP">夏の空を写した湖面のような色合いのアサガオ。\n吹き渡る涼風を予感させます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl010_03_info</LANG>
+		<LANG ID="ja-JP">鮮やかなピンク色のアサガオ。\n朝日をタップリと浴びて、太陽に負けじと花開いています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_00_info</LANG>
+		<LANG ID="ja-JP">『真実の愛』という花言葉を持つ、小ぶりの青い花弁が\n可愛らしいワスレナグサ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_01_info</LANG>
+		<LANG ID="ja-JP">悠久の大河のほとりに咲くという、光り輝く黄金色のワスレナグサ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_02_info</LANG>
+		<LANG ID="ja-JP">恋人たちの哀しい物語がその名前の由来となる、白いワスレナグサ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl011_03_info</LANG>
+		<LANG ID="ja-JP">ピンク色の花弁が愛らしいワスレナグサ。\n小さな花びらがじつにキューティ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_00_info</LANG>
+		<LANG ID="ja-JP">小さな花が丸く集まった、空色のアジサイ。\n雨上がりのしっとりした空気を感じますね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_01_info</LANG>
+		<LANG ID="ja-JP">沢山の小さな花が丸く身を寄せる、ピンク色のアジサイ。\nカタツムリさんお気に入りの、小さなお花畑です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_02_info</LANG>
+		<LANG ID="ja-JP">高貴なるオーラを立ち上らせ煌めく、黄金のアジサイ。\n雨露をまとった輝きはまるで宝石箱。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl012_03_info</LANG>
+		<LANG ID="ja-JP">小さな花の玉が愛らしい、白いアジサイ。\n雨の日にも美しく咲き誇る花です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_00_info</LANG>
+		<LANG ID="ja-JP">愛のパッションを感じさせるピンクのダリア。\n大地を渡る熱風に揺れる花弁が、求愛のダンスのよう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_01_info</LANG>
+		<LANG ID="ja-JP">『太陽の国』で華麗に咲き誇る金色のダリア。香りをかげば、\n思わず踊りだしてしまう程、活気を与えてくれるのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_02_info</LANG>
+		<LANG ID="ja-JP">太陽のように情熱的な色合いのダリア。\n熱いパッションが魂を燃やします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl013_03_info</LANG>
+		<LANG ID="ja-JP">燃えるように赤いダリア。\nその華麗で情熱的な容貌に、ため息さえ熱くなりますね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_00_info</LANG>
+		<LANG ID="ja-JP">『真心』の花言葉をもつ、ピンク色のコスモス。\nその香りは秋の訪れを予感させます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_01_info</LANG>
+		<LANG ID="ja-JP">秋の花として親しまれる、白いコスモス。\n小さく愛らしい花弁は純真な少女を思わせます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_02_info</LANG>
+		<LANG ID="ja-JP">淡く金色に花弁を光らせるコスモス。小さな妖精が\n姿を変えたのだと言われても、納得してしまいそうですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl014_03_info</LANG>
+		<LANG ID="ja-JP">可憐に咲き誇る黄緑のコスモス。\nその姿はまるで小さな乙女のようです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_00_info</LANG>
+		<LANG ID="ja-JP">淡く桃色に色づくシクラメン。その可憐なフォルムと色合いから、\n『プリマドンナ』と称せられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_01_info</LANG>
+		<LANG ID="ja-JP">神々しいまでに輝く黄金色のシクラメン。\n天上界に咲く花として、その存在が古文書に記されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_02_info</LANG>
+		<LANG ID="ja-JP">大きな花弁が美しい白色のシクラメン。\n『冬の花』としての人気を誇ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl015_03_info</LANG>
+		<LANG ID="ja-JP">艶やかな濃いピンク色のシクラメン。\n見た目に似合わず、香りは薄いようです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_00_info</LANG>
+		<LANG ID="ja-JP">ピンク色の可愛らしいボタン。\n昔から多くの画家に描かれてきた、可憐で縁起の良い花と言われています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_01_info</LANG>
+		<LANG ID="ja-JP">真っ赤な赤いボタン。\n「座ればボタン」という言葉があるように、美人を表す花としてもよく使われます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_02_info</LANG>
+		<LANG ID="ja-JP">放つ輝きが黄金色のボタン。\nその高貴すぎるたたずまいは、王侯貴族の風格を感じさせます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl016_03_info</LANG>
+		<LANG ID="ja-JP">気品のある真っ白なボタン。\n白い花びらが重なると、ほのかに紅が差しているように見えます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_00_info</LANG>
+		<LANG ID="ja-JP">鈴のように愛らしい花弁の白いスズラン。\nリンと鳴る鈴の音まで聞こえてきそう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_01_info</LANG>
+		<LANG ID="ja-JP">不思議な虹色の輝きに揺れるスズラン。\n妖精の音楽隊が、風に溶けるベルを鳴らします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_02_info</LANG>
+		<LANG ID="ja-JP">鈴のように丸く可愛い黄緑色のスズラン。\n眺めれば心のカドも丸くなるでしょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl017_03_info</LANG>
+		<LANG ID="ja-JP">玉鈴のようなフォルムが可愛い黄色のスズラン。\nその姿はまるで、お花畑の小さな楽団。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_00_info</LANG>
+		<LANG ID="ja-JP">寒風に負けず鮮やかに咲く赤いツバキ。\n多くの歌に詠まれてきた、古式ゆかしい花です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_01_info</LANG>
+		<LANG ID="ja-JP">幻の歌集に詠まれた、黄金色のツバキ。\n古の歌人たちに愛され、後世に伝えられるに相応しい風格です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_02_info</LANG>
+		<LANG ID="ja-JP">春に先駆けて咲く白いツバキ。\n散る時に花弁がまるごと落ちる様子は『落椿』と呼ばれています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl018_03_info</LANG>
+		<LANG ID="ja-JP">散り際に春の兆しを予感させる、黄緑色のツバキ。\n美しい花ですが、お見舞いの花として持参するのは控えましょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_00_info</LANG>
+		<LANG ID="ja-JP">青い海、白い雲がよく似合う、南の島に咲く赤いハイビスカス。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_01_info</LANG>
+		<LANG ID="ja-JP">古代貴族が所有するヒミツの無人島に咲くという\n黄金のハイビスカス。リッチなリゾート地にぴったり。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_02_info</LANG>
+		<LANG ID="ja-JP">鮮やかな黄色のハイビスカス。\nエキスを抽出し『ハイビスカスティー』として飲むことも出来ます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl019_03_info</LANG>
+		<LANG ID="ja-JP">涼やかな水色をしたハイビスカス。\n南の海を渡る涼風を思い起こさせます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_00_info</LANG>
+		<LANG ID="ja-JP">まるで顔のように見える不思議な花。\nせっかくなら一曲、歌ってくれれば良いのですが。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_01_info</LANG>
+		<LANG ID="ja-JP">極彩色の人面花。\n観賞する角度によって、様々な表情を見せると言われています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_02_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄がクールな人面花。なんだか気分が良さそうですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl020_03_info</LANG>
+		<LANG ID="ja-JP">水玉模様でさらにポップさを増した、顔のように見える花。\n今にも歌い出しそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_00_info</LANG>
+		<LANG ID="ja-JP">しっとりと落ち着いた輝きを放つ花。夜の読書のお供にいかが。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_01_info</LANG>
+		<LANG ID="ja-JP">赤くムーディーな灯火を宿す花。\n恋人と過ごす一時を暖かく彩りますよ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_02_info</LANG>
+		<LANG ID="ja-JP">穏やかな心落ち着く青色の光を灯す花。\nリラックスしたい時にオススメします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl021_03_info</LANG>
+		<LANG ID="ja-JP">淡くグリーンに輝く花。穏やかな時間を満喫できますよ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_00_info</LANG>
+		<LANG ID="ja-JP">青く輝くサファイヤの花。\n心を和らげる効果があり、この花を見つめているだけで気が安らぐ花です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_01_info</LANG>
+		<LANG ID="ja-JP">透明な輝きを宿すダイヤモンドの花。\nその花弁は非常に硬く、工業的にも幅広く利用されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_02_info</LANG>
+		<LANG ID="ja-JP">紫に輝くアメジストの花。\n魔力を秘めているとされ、この花で作られたお守りは効果絶大です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl022_03_info</LANG>
+		<LANG ID="ja-JP">赤く輝くガーネットの花。\n煌びやかなこの花は女性の髪飾りに使われ、とても高価な一品です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl025_00_info</LANG>
+		<LANG ID="ja-JP">鳥の羽根のような不思議な花。大空を舞う渡り鳥が\n運んだタネから咲くという伝説が伝えられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl025_01_info</LANG>
+		<LANG ID="ja-JP">鳥の羽根のような不思議な花。高くさえずる歌鳥が\nつついたタネから咲くという伝説が伝えられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl025_02_info</LANG>
+		<LANG ID="ja-JP">鳥の羽根のような不思議な花。宝石鳥が卵代わりに\n抱いたタネから咲くという伝説が伝えられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl026_00_info</LANG>
+		<LANG ID="ja-JP">母なる海を感じさせる、深い蒼をたたえる花。花びらを目の下に\n貼り、「目からウロコ」とギャグを飛ばす方が絶えません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl026_01_info</LANG>
+		<LANG ID="ja-JP">ちょっとリッチな雰囲気の花。\nさわるとうろこ状の花弁がポロポロはがれて、ちょっぴり楽しい？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl026_02_info</LANG>
+		<LANG ID="ja-JP">様々な色の花びらが寄り集まった、虹色の花。\n花びらは色ごとに異なった香りがするそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl027_00_info</LANG>
+		<LANG ID="ja-JP">渋い、大人の魅力が漂う帽子花。\n中高年男性を中心に密かな人気です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl027_01_info</LANG>
+		<LANG ID="ja-JP">手品師や紳士に好まれる帽子花。\n時たま、花びらの中で鳩が巣を作っています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl027_02_info</LANG>
+		<LANG ID="ja-JP">汚れなき純白の帽子花。\n白のタキシードを着て育てるのが一部でブームです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl028_00_info</LANG>
+		<LANG ID="ja-JP">水玉模様のアサガオ。\nおしゃまなデザインで花壇をちょっぴりポップに彩ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl028_01_info</LANG>
+		<LANG ID="ja-JP">水玉模様をしたボタン。\nシャレオツに決めるなら、こんな柄も悪くはないですねっ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl028_02_info</LANG>
+		<LANG ID="ja-JP">ポップな水玉模様のヒマワリ。\nフツーのヒマワリに飽きたアナタにオススメの一輪です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl029_00_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄のアサガオ。\n自然界には存在しない、クールなデザインで庭を飾りましょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl029_01_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄のボタン。シャープな印象で装いも新たに、\nアナタの庭をコーディネートしましょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl029_02_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄をしたヒマワリ。凡庸なデザインじゃ\n物足りないよ、というアナタにこそ薦めたい一輪です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_00_info</LANG>
+		<LANG ID="ja-JP">光沢をたたえるダイヤの形の花。\n先がとがっていて痛そうですが、やわらかいので安心です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_01_info</LANG>
+		<LANG ID="ja-JP">光沢をたたえるクローバーの形の花。\n四つ葉ですが、葉っぱじゃなくて花びらです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_02_info</LANG>
+		<LANG ID="ja-JP">光沢をたたえるハートの形の花。\n愛を意味する形で、色は金。なんだか深い意味を感じさせます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl030_03_info</LANG>
+		<LANG ID="ja-JP">光沢をたたえるスペード形の花。スペード柄が剣を象徴するように、\nどことなく鋭さを秘めています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl031_00_info</LANG>
+		<LANG ID="ja-JP">ラッパによく似た妙な花。\n中にたっぷり蜜が詰まった、吸ってよし吹いてよしの一品です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl031_01_info</LANG>
+		<LANG ID="ja-JP">ラッパによく似た妙な花。\n銀色の光沢に似合った、清廉かつ瀟洒な音色が特徴です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl031_02_info</LANG>
+		<LANG ID="ja-JP">ラッパによく似た妙な花。\n金の光沢に似合った、重々しくロイヤルな音色が特徴です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_00_info</LANG>
+		<LANG ID="ja-JP">多色に輝くオパールの花。\n幾層にも重なりあった色彩は、さながら極彩色の舞踏会。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_01_info</LANG>
+		<LANG ID="ja-JP">緑に輝くエメラルドの花。\n非常にもろく、僅かな衝撃で砕けてしまいます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_02_info</LANG>
+		<LANG ID="ja-JP">赤く輝くルビーの花。花びら一枚一枚に宿る深紅の輝きは情熱の証とされ、\n恋のお守りとして様々なアクセサリーに使われています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl032_03_info</LANG>
+		<LANG ID="ja-JP">オリーブ色のきらめきをたたえたペリドットの花。\nストレスを和らげる効果があるのでデスクや寝室に一輪飾ってみてはいかがでしょうか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl033_00_info</LANG>
+		<LANG ID="ja-JP">水晶のように涼しげな空気をまとったヒマワリ。\nやわらかい陽光を受けて輝く姿は、この世のものとは思えません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl033_01_info</LANG>
+		<LANG ID="ja-JP">水晶のように涼しげな空気をまとったバラ。誰が呼んだかその名前。\nローズじゃないんだ、と口ぐちに囁かれます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_00_info</LANG>
+		<LANG ID="ja-JP">ギョロリとした目力に圧倒される目玉花。\n青い瞳は西方原産だからとも、関係ないとも言われます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_01_info</LANG>
+		<LANG ID="ja-JP">ギロッとした眼光に思わずいすくむ目玉花。\n赤い瞳は寝不足だからだとも、関係ないとも言われます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_02_info</LANG>
+		<LANG ID="ja-JP">はなの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl034_03_info</LANG>
+		<LANG ID="ja-JP">ギョロッとした瞳に思わず吸い込まれてしまいそうな目玉花。\n黒い瞳は、多色が混ざったためだと言われています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_00_info</LANG>
+		<LANG ID="ja-JP">黄金色に輝く音符型の不思議な花。\n耳をすませば、涼やかな花の音が聞こえてくるかも…。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_01_info</LANG>
+		<LANG ID="ja-JP">虹色に染まった音符のような不思議な花。\n花びら同士がこすれあい、色とりどりの合奏が流れるような……。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_02_info</LANG>
+		<LANG ID="ja-JP">楽譜に踊る音符のような形をした不思議な花。\n風に揺れる度、軽やかな音が聞こえてくるような…。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl035_03_info</LANG>
+		<LANG ID="ja-JP">白い音符の形をした不思議な花。\n陽の光を浴びて、ささやくような音が響いてくるような…。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_00_info</LANG>
+		<LANG ID="ja-JP">指で弾くと荘厳な音が響く花。\n年末には、街のいたるところでこの花の音色が鳴り響きます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_01_info</LANG>
+		<LANG ID="ja-JP">指で弾くと透き通った音が響く花。\n音を転がしながら、風に揺られている光景をよく見ます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_02_info</LANG>
+		<LANG ID="ja-JP">指で弾くと甲高い音が響く花。\nその音色は魔を祓うという伝承があります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl036_03_info</LANG>
+		<LANG ID="ja-JP">指で弾くと重々しい音が響く花。\n108回弾くと煩悩が打ち払われるという言い伝えがあります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_00_info</LANG>
+		<LANG ID="ja-JP">中に何が詰まっているかは分からない、鉄の宝箱の形をした花。\n貯金箱の代わりにもなりそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_01_info</LANG>
+		<LANG ID="ja-JP">黄金色の輝きを放つ、期待度抜群の金の宝箱の花。\n素敵なものが詰まっていそうですね！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_02_info</LANG>
+		<LANG ID="ja-JP">革張りの宝箱の形をした花。\n残念ながら…中身はちょっと、期待できないかも。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl037_03_info</LANG>
+		<LANG ID="ja-JP">木製の宝箱の形をした花。\nダンジョンの奥で見つけたらと思うと…ワクワクしますよね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl038_00_info</LANG>
+		<LANG ID="ja-JP">せっくうか、と読む雪の結晶のような花。空を凍らせて\n凝縮したような色合いは、胸の内に清々しい風を呼び込みます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl038_01_info</LANG>
+		<LANG ID="ja-JP">せっしょうか、と読む雪の結晶のような花。\n一部地方では、スノークリスタルという名で愛されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl038_02_info</LANG>
+		<LANG ID="ja-JP">せつらいか、と読む雪の結晶のような花。電飾じみた輝きと\n雪という自然美が相まって、ハイブリッドな魅力を有します。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl039_00_info</LANG>
+		<LANG ID="ja-JP">孔雀の羽にも似たゴージャスフラワー。花言葉は「求愛」。\nうっかり異性にプレゼントすると勘違いされます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl039_01_info</LANG>
+		<LANG ID="ja-JP">白鳥の羽にも似たエレガントフラワー。花言葉は「優雅」。\n優美に咲いた花は、たゆまぬ努力と協力の証。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl039_02_info</LANG>
+		<LANG ID="ja-JP">火のように赤い、別名・不死鳥羽の花。花言葉は「熱血」。\n手を近づけると、ほのかに熱を感じます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl040_00_info</LANG>
+		<LANG ID="ja-JP">うちわによく似た雅な花。暑い夏の日の農作業でも、\nこの花を育てておけばいつでも涼を取れますね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl040_01_info</LANG>
+		<LANG ID="ja-JP">うちわによく似た雅な花。\n仰ぐと、そよ風に乗って草の香りがします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl040_02_info</LANG>
+		<LANG ID="ja-JP">うちわによく似た雅な花。黄うちわの花を左手で摘むと、\nお金持ちになれるという言い伝えがあるのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl041_00_info</LANG>
+		<LANG ID="ja-JP">ピンクがプリティなリボン花。咲いたときから花びらがリボン状に\n結ばれているという、不思議な生態をしています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl041_01_info</LANG>
+		<LANG ID="ja-JP">イチゴ模様がキュートなリボン花。結び目をほどいても、\n次の朝には元通りになっています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl041_02_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄がクールなリボン花。縦縞の変種があるという\nもっぱらのウワサですが、今のところ目撃例は全くありません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl042_00_info</LANG>
+		<LANG ID="ja-JP">優しい香りが漂う、チョコレートに似た性質を持つバラ。\n花びらを舐めるとほのかに甘いのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl042_01_info</LANG>
+		<LANG ID="ja-JP">濃厚な甘い香りが漂う、チョコレートに似た性質を持つバラ。\n日なただと元気に育ちますが、暖かすぎると溶けるジレンマ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl042_02_info</LANG>
+		<LANG ID="ja-JP">甘酸っぱい香りが漂う、チョコレートに似た性質を持つバラ。\n風に乗って運ばれる芳香はとてもフルーティー。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl043_00_info</LANG>
+		<LANG ID="ja-JP">ちくちくと縫った刺繍のような柄の花。\n熟練の職人の手によるものかと思わせる、実に精巧な作りです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl043_01_info</LANG>
+		<LANG ID="ja-JP">ちくちくと縫った刺繍のような柄の花。\nバイオレットを基調としたデザインは、どこかムーディー。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl043_02_info</LANG>
+		<LANG ID="ja-JP">ちくちくと縫った刺繍のような柄の花。別名「血染めの花」。\n……縫うときに指を刺しちゃったんでしょうか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl044_00_info</LANG>
+		<LANG ID="ja-JP">深い海の色をした、ステンドグラスみたいな花。\n侵しがたい神聖さを漂わせています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl044_01_info</LANG>
+		<LANG ID="ja-JP">太陽のような赤光を宿す、ステンドグラスみたいな花。\n神々しく力強い輝きを放ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl044_02_info</LANG>
+		<LANG ID="ja-JP">柔らかい朝日のような光を秘めた、ステンドグラスみたいな花。\n衝撃に弱いので、繊細な扱いを要します。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl045_00_info</LANG>
+		<LANG ID="ja-JP">ラッパによく似た妙な花。名状しがたいその外見から名づけられた\n異名が「終末のラッパ」。確かにラスボスの風格です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl046_00_info</LANG>
+		<LANG ID="ja-JP">傘にそっくりな花弁をもつ花。\n雨が降ると花弁が開き、雨が止むと花弁が折りたたまれる不思議な性質があるのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl046_01_info</LANG>
+		<LANG ID="ja-JP">フローラルな香りが漂う、傘にそっくりな花弁をもつ花。\n雨が降ると元気に咲き誇ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl046_02_info</LANG>
+		<LANG ID="ja-JP">日に当たると花弁が開き濃厚な甘い香りが漂う、傘にそっくりな花弁をもつ花。\nダークに染まった花弁には毒があるので要注意。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_00_info</LANG>
+		<LANG ID="ja-JP">純白のパールの花。とある花嫁がウエディングブーケに使った事から、\n結婚式の定番の花として有名です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_01_info</LANG>
+		<LANG ID="ja-JP">黄褐色のきらめきをたたえたトパーズの花。\n太陽を浴びた花弁はほんのり暖かく、花を摘んだ後もその暖かさは失われないのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_02_info</LANG>
+		<LANG ID="ja-JP">美しい海の輝きを持つアクアマリンの花。\n幾重にも折り重なった花弁が、深い海のグラデーションを彩っています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fl047_03_info</LANG>
+		<LANG ID="ja-JP">星がきらめく夜空を閉じ込めたような、ラピスラズリの花。\n天を表す色合いをしている事から別名「夜空の花」とも呼ばれています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_00_info</LANG>
+		<LANG ID="ja-JP">リコピンたっぷりの完熟トマト。\nその甘さは野菜というより、もはや果物と言ってよいほど。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_01_info</LANG>
+		<LANG ID="ja-JP">鮮やかな黄色で、レモンやグレープフルーツに\n見間違えてしまいそうですが、これも立派なトマトです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_02_info</LANG>
+		<LANG ID="ja-JP">輝くコガネ色のトマト。このトマトで作った\nゴールデンケチャップは最高級の調味料となります。ゴクリ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr000_03_info</LANG>
+		<LANG ID="ja-JP">まだまだ育ち盛りの青色トマト。\nこのまま食べると、ちょっと固いかも？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_00_info</LANG>
+		<LANG ID="ja-JP">黒光りするナス。生で食べるのには向いてませんが、\n調理すれば様々な味わいを楽しめます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_01_info</LANG>
+		<LANG ID="ja-JP">まばゆい輝きに包まれた黄金ナス。\n年始の夢に現れたら、その年の成功は確約されたも同然だとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_02_info</LANG>
+		<LANG ID="ja-JP">あらゆるものに色が無い、未踏の辺境に自生する白色のナス。\n天ぷらにすると絶品なのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr001_03_info</LANG>
+		<LANG ID="ja-JP">緑色したナス。\n食感、味わいと共に、普通のナスとあまり変わりません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_00_info</LANG>
+		<LANG ID="ja-JP">熟れきる前の緑のカボチャ。\n中はしっかりオレンジ色で、甘みもタップリ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_01_info</LANG>
+		<LANG ID="ja-JP">よく熟したオレンジ色のカボチャ。ハロウィンでは、\nジャックオーランタンとして、デコレーションに大活躍。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_02_info</LANG>
+		<LANG ID="ja-JP">輝く金色のカボチャ。スープにすれば、王様でさえ皿を\n舐めまわす美味しさであると、伝えられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr002_03_info</LANG>
+		<LANG ID="ja-JP">ちょっとホラーな色合いの紫カボチャ。\n見た目でちょっと損している、可哀想な作物です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_00_info</LANG>
+		<LANG ID="ja-JP">健康的な黄色が魅力のトウモロコシ。\nワイルドにかぶりつくのがテーブルマナー！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_01_info</LANG>
+		<LANG ID="ja-JP">滅多に見られない黄金のトウモロコシ。一粒一粒にすさまじい甘みが\n凝縮しています。毎日一粒ずつ、拝んで食すべし。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_02_info</LANG>
+		<LANG ID="ja-JP">いかにも味気なさそうな、別名「モノクロモロコシ」。\n焼くと鮮やかな色に変わります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr003_03_info</LANG>
+		<LANG ID="ja-JP">赤い。とにかく赤いトウモロコシ。その衝撃的な外見からついた\n異名が「ブラッディーモロコシ」。でも味はぼちぼちだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_00_info</LANG>
+		<LANG ID="ja-JP">青々しく緑に輝くピーマン。苦味の奥に秘められた甘みが、\nオトナの舌を満足させます。実はトウガラシの一種です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_01_info</LANG>
+		<LANG ID="ja-JP">紫色をしたピーマン。味わいは普通のピーマンなので、\n彩りとして調理に活用されることも。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_02_info</LANG>
+		<LANG ID="ja-JP">秘めたエネルギーを発散しているかのように、黄金色に輝く\nピーマン。中はスカスカですけど、味はギュッと詰まってます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr004_03_info</LANG>
+		<LANG ID="ja-JP">濃い群青色をしたピーマン。若干食欲を無くす色合いですが、\n味の方はソコソコですのでご安心ください。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_00_info</LANG>
+		<LANG ID="ja-JP">太陽の恵みを詰め込んだ、夏の象徴。実は紀元前5000年頃から\n栽培され、ずっと愛されている息の長い果物なのです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_01_info</LANG>
+		<LANG ID="ja-JP">輝くような黄金の色合いに美しい縞模様の果物。非常に高価な為、\nこれでスイカ割りをするのはよっぽどのお金持ちなのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_02_info</LANG>
+		<LANG ID="ja-JP">別名『白虎の実』と呼ばれているスイカ。\n古来から神獣を崇める国で供物として捧げられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr005_03_info</LANG>
+		<LANG ID="ja-JP">鮮やかな黄色と縞模様から『虎スイカ』と呼ばれ、\n親しまれています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_00_info</LANG>
+		<LANG ID="ja-JP">フルーツの王様、堂々たる風格のメロン。柔らかな果肉と\nとろみのある果汁は、数多の人々の舌を満足させてきました。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_01_info</LANG>
+		<LANG ID="ja-JP">黄金色のメロン。見た目はもちろん、味もゴールデン！\n一切食べれば元気も百倍。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_02_info</LANG>
+		<LANG ID="ja-JP">『モノクロの世界』で採れる、希少な白メロン。\n見た目は素っ気ないのですが、味はとっても濃厚です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr006_03_info</LANG>
+		<LANG ID="ja-JP">黄色のメロン。甘露な味わいは他のメロンにも負けていません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_00_info</LANG>
+		<LANG ID="ja-JP">太陽の恵みを果実いっぱいに染み込ませたパイナップル。\n全ての子供が憧れる果物。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_01_info</LANG>
+		<LANG ID="ja-JP">全ての果物はかかってこい！これが、これこそが！パイナップルだ！　\nモヒカンも果物上等と言わんばかりに輝いています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_02_info</LANG>
+		<LANG ID="ja-JP">何だか顔色悪いですよ？　と心配したくなるようなパイナップル。\n割れば中身はいつものパイナポーです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr007_03_info</LANG>
+		<LANG ID="ja-JP">すさまじい色合いをしたパイナップル。\n毒か。毒入りなのか。一応、図鑑では食用可となっています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_00_info</LANG>
+		<LANG ID="ja-JP">真っ赤に熟した完熟リンゴ。不動の地位を誇る果物のスター。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_01_info</LANG>
+		<LANG ID="ja-JP">瑞々しい青さを誇るグリーンアップル。\n透き通るような味わいをお楽しみ下さい。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_02_info</LANG>
+		<LANG ID="ja-JP">まばゆく光るゴールデンアップル。『禁断の果実』と\n称せられる程の味わいは、楽園を追われてでも食べる価値あり。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr008_03_info</LANG>
+		<LANG ID="ja-JP">浮遊島特産の空色のリンゴ。\n滴る果汁は、鼻に抜けるような爽やかな酸味を持ちます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_00_info</LANG>
+		<LANG ID="ja-JP">フレッシュな黄色のレモン。酸っぱいと言えばコレ、というほど\n定番の果物です。果汁をからあげにかける前には皆に確認を。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_01_info</LANG>
+		<LANG ID="ja-JP">甘みと酸味の最強タッグ、ゴールデンな輝きを放つレモン。\nこれぞレモンの王様です！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_02_info</LANG>
+		<LANG ID="ja-JP">若さの残る緑色のレモン。甘みは期待できませんが、\n酸っぱさは問題なし。うう、すっぱぁ～い！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr009_03_info</LANG>
+		<LANG ID="ja-JP">浮遊島原産の水色のレモン。甘酸っぱさは普通のレモンにも\n負けません。果汁をからあげにかけても…いいんですよ？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_00_info</LANG>
+		<LANG ID="ja-JP">熟したミカン。冬であれば、コタツにもぐってミカンをモグモグ。\nこれぞ最高の味わい方！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_01_info</LANG>
+		<LANG ID="ja-JP">黄金色のミカン。瑞々しく、プチプチと弾ける食感と、\n舌を蕩けさせる甘みが、アナタを桃源郷へ誘います。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_02_info</LANG>
+		<LANG ID="ja-JP">熟す前の緑色ミカン。スウィーツとして楽しむには、\nちょっと気が早いかもしれません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr010_03_info</LANG>
+		<LANG ID="ja-JP">とある地方の特産物、赤いミカン。\nちょっと辛味が混じった、不思議な味わいの果物です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_00_info</LANG>
+		<LANG ID="ja-JP">太陽の恵みをたっぷり受けたグレープフルーツの実。\n酸っぱさと甘さの絶妙なハーモニーを楽しみましょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_01_info</LANG>
+		<LANG ID="ja-JP">ゴールデンなグレープフルーツの実。\n酸っぱァァい！　でも美味しイィ～ッ！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_02_info</LANG>
+		<LANG ID="ja-JP">若々しい黄緑のグレープフルーツの実。\n口が『＊』みたいになる酸っぱさを味わいたければ、どうぞ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr011_03_info</LANG>
+		<LANG ID="ja-JP">浮遊島特産の水色グレープフルーツの実。\n酸味が薄く、喉越し爽やかな果汁がジュース向きの果物です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_00_info</LANG>
+		<LANG ID="ja-JP">真っ赤なイチゴの実。甘酸っぱい果肉は青春の味。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_01_info</LANG>
+		<LANG ID="ja-JP">ぴきーんと凍った冷たいイチゴ。\nシャーベットのような食感がステキ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_02_info</LANG>
+		<LANG ID="ja-JP">ちょっぴり不思議な黄色のイチゴの実。\n酸味が増して、すこしレモンっぽい味わいが楽しめます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr012_03_info</LANG>
+		<LANG ID="ja-JP">熟す前のイチゴの実。\n実はまだまだ固く、食べるのには時期尚早ですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_00_info</LANG>
+		<LANG ID="ja-JP">熟しきった黄色のバナナは、南国育ちの人気者フルーツ。\nおやつに入るかどうかは、先生次第。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_01_info</LANG>
+		<LANG ID="ja-JP">黄金色に輝くバナナ。\nそのゴージャスさはまるで金の延べ棒のよう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_02_info</LANG>
+		<LANG ID="ja-JP">青々とした新鮮なバナナ。出荷前は大体、こんな色をしています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr013_03_info</LANG>
+		<LANG ID="ja-JP">色素の抜け落ちた真っ白なバナナ。逆に中身は黄色いのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_00_info</LANG>
+		<LANG ID="ja-JP">絶妙な酸味が後を引くブドウ。つい一粒、更にまた一粒……。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_01_info</LANG>
+		<LANG ID="ja-JP">俗に言うマスカット。\n「まだ熟れてない」と勘違いして食べごろを逃す被害者続出。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_02_info</LANG>
+		<LANG ID="ja-JP">極低温で凍りついたブドウ。水にさらして皮だけ取り去ると、\nまるで房についた宝石のよう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr014_03_info</LANG>
+		<LANG ID="ja-JP">大粒のサクランボとも見まがう、赤いブドウ。\n酸味が強く、ちょっと好みが分かれます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_00_info</LANG>
+		<LANG ID="ja-JP">愛らしい形をした、よく熟した黄色の洋ナシ。\n摘み取ってから少し時間を置くと、より味わいが増します。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_01_info</LANG>
+		<LANG ID="ja-JP">若々しい黄緑色の洋ナシ。\nユーモラスな実の形を食べる前に堪能しましょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_02_info</LANG>
+		<LANG ID="ja-JP">リッチに輝くゴールデンな洋ナシ。\n絞った黄金の果汁はとってもデリシャス。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr015_03_info</LANG>
+		<LANG ID="ja-JP">『黄昏の国』でも珍しい赤色の洋ナシ。果肉は薄いピンク色で、\n通常の洋梨よりも濃厚な甘みを楽しめます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_00_info</LANG>
+		<LANG ID="ja-JP">よく熟したカキ。純和風スウィーツとして根強い人気を誇ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_01_info</LANG>
+		<LANG ID="ja-JP">豊穣の女神が祝福した金に輝くカキ。\n渋みのまったくない甘さが、頬をトロリと溶かします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_02_info</LANG>
+		<LANG ID="ja-JP">まだすこし熟しきれてない黄緑のカキ。\n手を付けるのはもうちょっと待ちましょうね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr016_03_info</LANG>
+		<LANG ID="ja-JP">真っ赤に熟したカキ。秋の実りを口の中一杯に味わえます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_00_info</LANG>
+		<LANG ID="ja-JP">小さな粒に味が凝縮されたサクランボ。\n口の中に含んだ瞬間、フレーバーの暴風雨が口内を襲います。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_01_info</LANG>
+		<LANG ID="ja-JP">冷たく凍ったサクランボ。口の中に冷気と甘みが広がります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_02_info</LANG>
+		<LANG ID="ja-JP">もうちょっとで熟れるサクランボ。まだ食べるには早いです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr017_03_info</LANG>
+		<LANG ID="ja-JP">酸味の強い黄色いサクランボ。甘みは少ないですが、\nそのすっぱさが「頭に刺激をくれる」と一部で人気。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_00_info</LANG>
+		<LANG ID="ja-JP">粒ぞろいの甘酸っぱいブルーベリー。\nジャムやジュースにして味わうのもまた良しですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_01_info</LANG>
+		<LANG ID="ja-JP">凍ってひえひえのブルーベリー。\n口の中でジュワッと溶ける感覚がたまりません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_02_info</LANG>
+		<LANG ID="ja-JP">なんだか名前が矛盾していますが、赤いブルーベリー。\n『黄昏の国』ではスタンダードな果物です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr018_03_info</LANG>
+		<LANG ID="ja-JP">まだ熟れていない、緑色のブルーベリー。\n手を出すにはちょーっと早いかも。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_00_info</LANG>
+		<LANG ID="ja-JP">熟したピンクのモモの実。柔らかくまろやかな甘味で、\n果物の中でもトップレベルの人気者です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_01_info</LANG>
+		<LANG ID="ja-JP">伝説の黄金のモモの実。その実から滴る一滴を巡って、\n激しい戦いが繰り広げられてきた曰くつきのスウィーツです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_02_info</LANG>
+		<LANG ID="ja-JP">みっちりと産毛に覆われて、真っ白に見えるモモの実。\nとろりとした果汁が喉を潤します。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr019_03_info</LANG>
+		<LANG ID="ja-JP">熟した黄色のモモの実。\n風邪を引いた時に食べたい果物として、不動の人気を誇ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_00_info</LANG>
+		<LANG ID="ja-JP">朱色が綺麗な赤パプリカ。優しい甘みが味わい深い。\nピーマンと似ているせいで子供から避けられる不遇の存在です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_01_info</LANG>
+		<LANG ID="ja-JP">日光をよく吸った黄色いパプリカ。\n鼻孔を吹き抜けるような爽やか味の他、着色料としても人気です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_02_info</LANG>
+		<LANG ID="ja-JP">糖度充分、肉厚たっぷり、これぞキング・オブ・パプリカ！\nキングパプリカのステーキは万人の胃を満たしてくれるでしょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr020_03_info</LANG>
+		<LANG ID="ja-JP">運動不足じゃないですか？　と心配したくなるくらい白いパプリカ。\n薄味ですが、それだけに色んな料理とよく合います。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_00_info</LANG>
+		<LANG ID="ja-JP">日差しをたっぷりと浴びた、瑞々しいキュウリ。\n味噌やマヨネーズをつけて、かぶりつきたいっ！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_01_info</LANG>
+		<LANG ID="ja-JP">あるまじき栄養価を秘めた、黄金色のキュウリ。\nシャキっとした歯応えも抜群です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_02_info</LANG>
+		<LANG ID="ja-JP">『モノクロの世界』に自生するという白色のキュウリ。\n見た目に反して、味は普通のキュウリより濃厚なのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr021_03_info</LANG>
+		<LANG ID="ja-JP">浮遊島が原産の、水色のキュウリ。ちょっぴり酸味があるので、\n甘い果物と合わせてサラダにしてみては。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_00_info</LANG>
+		<LANG ID="ja-JP">清々しい緑が新鮮さを証明する、緑のオクラ。\n納豆と並んでネバネバ業界の巨頭です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_01_info</LANG>
+		<LANG ID="ja-JP">黄金色の高貴さを纏った、やんごとなきオクラ。\n刻んで納豆とあえると、ネバネバが金糸のごとく輝きます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_02_info</LANG>
+		<LANG ID="ja-JP">鮮烈な赤が目に焼きつくトウガラ……いや、オクラ。\n猛烈な辛さがネバネバにまとわりつき、口内を捉えて離しません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr022_03_info</LANG>
+		<LANG ID="ja-JP">ひなびた黄色が落ち着くオクラ。\n異様にねばりが強い品種で、食べた後はしばらく口が開きません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_00_info</LANG>
+		<LANG ID="ja-JP">瑞々しい青さのオリーブの実。\nオリーブの実を絞ったオイルは、様々な料理で活躍する人気者です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_01_info</LANG>
+		<LANG ID="ja-JP">表皮がやまぶき色に輝く、まさにオリーブの女王。\n抽出されるオイルは、宝石を溶かしこんだような美しい七色です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_02_info</LANG>
+		<LANG ID="ja-JP">沈まぬ夕日の大地『黄昏の国』原産の、赤色のオリーブの実。\n絞ったオイルも、夕焼け空のような赤色なのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr023_03_info</LANG>
+		<LANG ID="ja-JP">完全に熟しきった黒色のオリーブの実。\n搾りたてのオイルは濃厚で芳醇な味わい。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_00_info</LANG>
+		<LANG ID="ja-JP">まさかのブロッコリーの実。…ホントにこれって実なんですか？\nあ、はい。…実なんだそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_01_info</LANG>
+		<LANG ID="ja-JP">黄金色のブロッコリーの実。ええ、これでも実なんです。\n輝いちゃってますけど。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_02_info</LANG>
+		<LANG ID="ja-JP">真っ白なブロッコリーの実。\nよく似ていますが、カリフラワーではありません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr024_03_info</LANG>
+		<LANG ID="ja-JP">果物扱いが驚きの、黄色のブロッコリーの実。\n味はというと…うん、確かにブロッコリーですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_00_info</LANG>
+		<LANG ID="ja-JP">健康的な黄色のナシの実。シャリシャリと水気たっぷりで\n歯ざわりの良い果肉はデザートに最適です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_01_info</LANG>
+		<LANG ID="ja-JP">新鮮な香りの漂う黄緑色のナシの実。\n縁起を担いだ『アリの実』という別名も。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_02_info</LANG>
+		<LANG ID="ja-JP">まばゆい輝きを放つ黄金色のナシの実。\nそのジューシィさ、シャッキリとした歯応えは値千金！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr025_03_info</LANG>
+		<LANG ID="ja-JP">『黄昏の国』にのみなる赤色のナシの実。\n沈むことのない夕焼けに染め上げられ、見事な赤さを誇ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_00_info</LANG>
+		<LANG ID="ja-JP">若さの残る黄緑色のウメの実。すっぱい果肉を想像しただけで、\nこう、口の中にヨダレが溜りますよね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_01_info</LANG>
+		<LANG ID="ja-JP">熟したピンク色のウメの実。\n甘酸っぱい果汁は、ドリンクとしても、もてはやされています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_02_info</LANG>
+		<LANG ID="ja-JP">金の輝きを放つウメの実。これを漬け込んだ梅干しは、\n一粒で千杯の白飯をペロリと平らげられるのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr026_03_info</LANG>
+		<LANG ID="ja-JP">空を漂う島にのみ自生するという水色のウメの実。\n青春のほのかな甘酸っぱさが味わえます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_00_info</LANG>
+		<LANG ID="ja-JP">酸味の効いたアセロラの実。\nビタミンCがタップリな所も魅力のひとつですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_01_info</LANG>
+		<LANG ID="ja-JP">つめた～いアセロラの実。ひんやりとした冷たさと酸味が相まって\n三年寝太郎も目が覚める刺激！　受験勉強のお伴に最適です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_02_info</LANG>
+		<LANG ID="ja-JP">青々しさの残る新緑色のアセロラ。\nデザートとして食べるにはちょっと早いかも？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr027_03_info</LANG>
+		<LANG ID="ja-JP">水色のアセロラ。『最も高く飛ぶ浮遊島』にだけに自生し、\n空の色に染まった果物と言われています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_00_info</LANG>
+		<LANG ID="ja-JP">熟しきったマンゴー。頬の落ちるような甘さと\n豊富なビタミンAで人気を集める果物です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_01_info</LANG>
+		<LANG ID="ja-JP">熟れはじめのマンゴー。\n定番の花切りカットで、舌だけでなく目も満足。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_02_info</LANG>
+		<LANG ID="ja-JP">もはや暴力的なまでの甘みを誇る、超絶完熟黄金マンゴー。\n気合を入れてから食べないと、あまりの甘美さに昏倒します。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr028_03_info</LANG>
+		<LANG ID="ja-JP">まだ熟れていないように見えるマンゴー。\nこれでもしっかり甘みがあって、美味しいんですよ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_00_info</LANG>
+		<LANG ID="ja-JP">熟れる直前の真っ赤なライチ。\nさっぱりとした、しつこくない甘みが魅力です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_01_info</LANG>
+		<LANG ID="ja-JP">果肉がつややかに光る、最高級のライチ。\n計算し尽くされた絶妙な酸味が、食欲を執拗に刺激します。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_02_info</LANG>
+		<LANG ID="ja-JP">熟れきった茶色い表皮の中に、真っ白な果肉を隠したライチ。\nつるんとした食感が舌の上を滑ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr029_03_info</LANG>
+		<LANG ID="ja-JP">熟す前の黄緑色のライチ。酸味が強くておやつには向きませんが、\n塩をつけると案外おいしいんだそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_00_info</LANG>
+		<LANG ID="ja-JP">バラ色に染まった水晶の実。\n妖艶かつミステリアスな雰囲気をかもしだす小物として人気。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_01_info</LANG>
+		<LANG ID="ja-JP">あらゆる色の光を閉じ込めた水晶の実。\nたゆたう水面のように揺らぐ色合いは、見る者を飽きさせません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_02_info</LANG>
+		<LANG ID="ja-JP">処女雪のごとく真っ白な水晶の実。\n夏の日の部屋に置くと、気温が下がったような気がします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr030_03_info</LANG>
+		<LANG ID="ja-JP">すすけた茶色が渋い水晶の実。神秘的かつハードボイルドという、\n他ではかもしだせない雰囲気を演出します。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_00_info</LANG>
+		<LANG ID="ja-JP">シンプルなデザインが通に人気な時計の実。たまに元気がよすぎて、\n針がすごい勢いで進む実があるそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_01_info</LANG>
+		<LANG ID="ja-JP">永遠の時を刻む黄金時計の実。まさしく「時は金なり」！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_02_info</LANG>
+		<LANG ID="ja-JP">木のように見えますが、これでも立派な時計の実。\n大地の呼吸を感じて刻まれる時は、決して狂わないと言われます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr031_03_info</LANG>
+		<LANG ID="ja-JP">鉄に限りなく似た性質を持つ、時計の実。時計の実の中でも\n最も衝撃に強く、何をしようが秒針一つ揺らぎません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_00_info</LANG>
+		<LANG ID="ja-JP">ゴールデンな輝きを放つミラーボールの実。これさえあれば、\nそこはディスコホール。ナウなヤングがゴーゴーダンス！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_01_info</LANG>
+		<LANG ID="ja-JP">あらゆる色を蓄えたミラーボールの実。この実がなった木の\n周りでは、人々がプランタからの声に構わず踊り狂うそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_02_info</LANG>
+		<LANG ID="ja-JP">シルバーに輝くミラーボールの実。\nサタデーのナイトにフィーバーしちゃったり！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr032_03_info</LANG>
+		<LANG ID="ja-JP">落ち着いた青の色合いを見せるミラーボールの実。\nムーディな気分でダンスしたければこちらが便利。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_00_info</LANG>
+		<LANG ID="ja-JP">栄光の金メダルの実。古代の競技において、頂点に立つ\n優勝者にのみ授けられたと、歴史書に記されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_01_info</LANG>
+		<LANG ID="ja-JP">祝福の水晶メダルの実。未来への可能性を秘めた\n才気あふれる若者に授けられたと、歴史書に記されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_02_info</LANG>
+		<LANG ID="ja-JP">栄誉の銀メダルの実。最後まで覇を競い雄々しく戦った\n勇者に授けられたと、歴史書に記されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr034_03_info</LANG>
+		<LANG ID="ja-JP">賞賛の銅メダルの実。努力を惜しまず力の限り戦った者を\n称える為に授けられたと、歴史書に記されています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_00_info</LANG>
+		<LANG ID="ja-JP">青く輝くサファイヤの実。\nセレブな奥様たちに、インテリアとしても大人気なのです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_01_info</LANG>
+		<LANG ID="ja-JP">永遠の輝きを放つダイヤモンドの実。由緒正しい貴族の、\n結婚の儀に用いられたとされる高貴な果実です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_02_info</LANG>
+		<LANG ID="ja-JP">妖艶な紫の光を放つアメジストの実。魔力を秘めているとされ、\n様々な魔術儀式に使われているのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr035_03_info</LANG>
+		<LANG ID="ja-JP">真紅に輝くガーネットの実。情熱的な輝きで、\n意中の乙女へ捧げるプレゼントとして活躍しています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_00_info</LANG>
+		<LANG ID="ja-JP">清浄なる純白が眩しい、羽のような実。\nその白はどんな汚れも寄せ付けず、決して染まることはありません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_01_info</LANG>
+		<LANG ID="ja-JP">金色に輝く天使の羽のような実。その味わいはまさに天上の調べ。\n「一口食べれば昇天確実！」…だそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_02_info</LANG>
+		<LANG ID="ja-JP">灰色にくすんだ羽のような実。贈り物には向きませんが、\nクリーミーかつほのかに苦い味は密かな支持を受けています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr036_03_info</LANG>
+		<LANG ID="ja-JP">夜の闇を吸ったように黒い、羽のような実。堕天使めいた外見が\n思春期の心をくすぐるのか、10代を中心に絶大な人気です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_00_info</LANG>
+		<LANG ID="ja-JP">高らかに笑い声をあげるとウワサされる黄金のドクロの実。\n金運もあがりそうですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_01_info</LANG>
+		<LANG ID="ja-JP">占い師の間で大人気の、水晶で出来たドクロの実。\n恋占いに効果てきめんなのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_02_info</LANG>
+		<LANG ID="ja-JP">パンクでロックな鉄ドクロの実。\n甘い果肉が詰まっていますが、色んな意味で食べにくいかも。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr038_03_info</LANG>
+		<LANG ID="ja-JP">木で出来た、おどろおどろしい人間の頭骨を模した実。\n肝試しで大活躍したそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_00_info</LANG>
+		<LANG ID="ja-JP">眩しく輝く夜空の一番星…といった風情の星型の実。いつか\nスターと呼ばれる日を目指す人たちの、熱い心が宿っています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_01_info</LANG>
+		<LANG ID="ja-JP">人の色々な可能性を象徴すると言われる、虹色の星型の実。\n食べると様々な才能が伸びると言われています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_02_info</LANG>
+		<LANG ID="ja-JP">水玉模様の星型の実。\nまたたく星のように弾ける果汁が、爽やかに喉を潤す果物です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr040_03_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄の星型の実。\n実は星じゃなくてヒトデだったり…するのかも？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_00_info</LANG>
+		<LANG ID="ja-JP">黄金のスペード型の実。その形は騎士を象徴し、\n古代には武勲を立てたナイトに勲章として贈られました。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_01_info</LANG>
+		<LANG ID="ja-JP">虹色の輝きを放つスペード型の実。\n勝負運を授けてくれるというご利益がある…ような気がします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_02_info</LANG>
+		<LANG ID="ja-JP">水玉模様のスペード型の実。\nほんのりビターな苦味がクセになる味わい。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr041_03_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄のスペード型の実。\nスートの中で一番強い、スペードの誇りが伝わってきます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_00_info</LANG>
+		<LANG ID="ja-JP">黄金のダイヤの形の実。その形は商人を象徴し、\nお店に飾れば商売繁盛間違いなし。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_01_info</LANG>
+		<LANG ID="ja-JP">虹色に輝くダイヤの形の実。インテリアにはちょっとハデかも？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_02_info</LANG>
+		<LANG ID="ja-JP">水玉模様のダイヤの形の実。シャッキリポンとシャープな味わい。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr042_03_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄のダイヤの形の実。\n横縞じゃなく縦縞です。あしからず。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_00_info</LANG>
+		<LANG ID="ja-JP">黄金のハート型の実。その形は愛を象徴しますが、\nそれが黄金色というのは一種のダブルミーニングを感じます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_01_info</LANG>
+		<LANG ID="ja-JP">虹色の輝きをもつハート型の実。\n恋する乙女のハートは、案外こんな感じかもしれません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_02_info</LANG>
+		<LANG ID="ja-JP">水玉模様のハート型の実。\nウキウキする心を形にすると、この実のような姿をしているのかも。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr043_03_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄をしたハート型の実。まるで割り切れない想いが\n形になったみたいですね。いや、なんでもありません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_00_info</LANG>
+		<LANG ID="ja-JP">黄金のクローバー……のような実。その形は農民を象徴します。\nプランタを日夜育てるあなたにぴったりですねっ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_01_info</LANG>
+		<LANG ID="ja-JP">虹色に輝くクローバー…っぽい実。切り札に１枚いかが？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_02_info</LANG>
+		<LANG ID="ja-JP">水玉模様のクローバー…によく似た実。\n意外にも豊かな甘みをもつ果肉です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr044_03_info</LANG>
+		<LANG ID="ja-JP">ストライプ柄のクローバー…に見える実。\n他のスートも揃えたいところですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_00_info</LANG>
+		<LANG ID="ja-JP">かじつの\n説明文</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_01_info</LANG>
+		<LANG ID="ja-JP">不安になりそうな迷彩柄の爆弾の実。\nもしかして…爆発しちゃったり…しませんのでご安心を。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_02_info</LANG>
+		<LANG ID="ja-JP">今にもドカンと爆発しそうな緊張感がたまらない、\n赤く熟れた爆弾の実。でもいつか…いやそんなまさか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr045_03_info</LANG>
+		<LANG ID="ja-JP">どこかで見たことのあるような無いような、青い爆弾の実。\n爆発はしませんが、パンチの効いた味がします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_00_info</LANG>
+		<LANG ID="ja-JP">北の大地の清流に住むという、伝説の黄金魚を思わせる姿を持つ実。\nその味もまるで脂の乗った極上の魚…だとか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_01_info</LANG>
+		<LANG ID="ja-JP">台風の後に雲間を泳ぐと言い伝えられる、幻の魚を想起させる実。\n赤身の食べごたえと、白身の淡泊な味を併せ持つ木の実です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_02_info</LANG>
+		<LANG ID="ja-JP">どことなくちょうちんのような、金魚のような姿の実。\n金魚みたいだけど、色は赤。うーむ、ややこしいですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr047_03_info</LANG>
+		<LANG ID="ja-JP">どことなくちょうちんのような、青い魚のような実。\n肉付きがいいように見えて、中身はほとんど空気です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_00_info</LANG>
+		<LANG ID="ja-JP">北極のヌシ、シロクマをかたどる不思議な実。\n零下でも元気に育つ生命力を誇ります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_01_info</LANG>
+		<LANG ID="ja-JP">百獣の王ライオンの勇ましい勇姿をかたどる不思議な実。\nしかしどことなく愛らしさも漂います。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_02_info</LANG>
+		<LANG ID="ja-JP">ニャーニャーと鳴き声が聞こえてきそうな、可愛い子猫の実。\nペット不可のお部屋にお住まいの方にオススメです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr048_03_info</LANG>
+		<LANG ID="ja-JP">元気なワンちゃんの顔を模した不思議な犬の実。\n吠えたりはしないのでご安心ください。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_00_info</LANG>
+		<LANG ID="ja-JP">春の訪れを告げる春告鳥という別名もある、ウグイスを\nかたどった不思議な実。ホーホケキョっ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_01_info</LANG>
+		<LANG ID="ja-JP">手乗りのインコの姿を模した不思議な実。\n一見すると、小鳥が枝で羽を休めているようにも見えますね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_02_info</LANG>
+		<LANG ID="ja-JP">ぴよぴよと今にも愛らしく鳴きそうな、ひよこ型の不思議な実。\n更に育てるとニワトリの実に……なりません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr049_03_info</LANG>
+		<LANG ID="ja-JP">チュンチュンと可愛らしいさえずりが聞こえてくるような、\nスズメの姿をした不思議な実。爽やかな朝を迎えられそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_00_info</LANG>
+		<LANG ID="ja-JP">玉虫色のきらめきを放つ、オパール型の実。その絢爛な輝きは、\n最高級シャンデリアの材料として活かされています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_01_info</LANG>
+		<LANG ID="ja-JP">深緑のきらめきをたたえた、エメラルド型の実。\n観賞用の他に、様々な薬効を持つ万能薬として珍重されます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_02_info</LANG>
+		<LANG ID="ja-JP">赤く輝くルビーの実。古くから勝利を呼ぶ実という言い伝えがあり\n必勝祈願のお守りとして人々に親しまれています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr050_03_info</LANG>
+		<LANG ID="ja-JP">オリーブ色のきらめきをたたえた、ペリドットの実。\n心臓の上にあてるように身に付けると希望と勇気をもたらすと言われています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_00_info</LANG>
+		<LANG ID="ja-JP">葉が回って風を生みだす、銀色の不思議な実。\n回転する葉を見切れなければ、その実を味わうことはできません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_01_info</LANG>
+		<LANG ID="ja-JP">回転する葉が爽やかな涼風を生み出す、黄金色の不思議な実。\n湯上りに火照った肌を涼めるにもってこいですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_02_info</LANG>
+		<LANG ID="ja-JP">真っ赤な葉が回って温風を生みだす、不思議な実。\n冬にはヒーター代わりに大活躍です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr051_03_info</LANG>
+		<LANG ID="ja-JP">真っ青な葉が回って冷風を生みだす、不思議な実。\nひんやりした風は真夏の暑さを和らげてくれます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_00_info</LANG>
+		<LANG ID="ja-JP">透明感のある音が暑さを一瞬忘れさせてくれる、風鈴型の実。\nその模様は、植物の活力の源である太陽を示しているのだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_01_info</LANG>
+		<LANG ID="ja-JP">鳴るたびに音色が変わる、虹色の風鈴型の実。食べると甘味、\n辛味、苦味……色んな味が一挙に口の中に広がるそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_02_info</LANG>
+		<LANG ID="ja-JP">三角模様が整然と並んだ風鈴型の実。模様の緑色と土色は、\nそれぞれ青草と豊かな土壌を意味していると伝えられています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr052_03_info</LANG>
+		<LANG ID="ja-JP">細く長い余韻が耳に心地いい、鉄によく似た風鈴型の実。\n歯ごたえがあって、食用としても人気です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr053_00_info</LANG>
+		<LANG ID="ja-JP">鳥界のアイドル、ペンギンをかたどった不思議な実。なってる木に\n水をあげると、ごく稀に「キュー」と鳴くというウワサです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr054_00_info</LANG>
+		<LANG ID="ja-JP">ふかふかとした、赤い靴下の形をした実。育ててくれた人への\nプレゼントなのか、靴下の中には甘い果肉が詰まっています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr054_01_info</LANG>
+		<LANG ID="ja-JP">もふもふとした、茶色い靴下の形をした実。\n中の果肉をスプーンですくうのがとっても楽しみですね。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr054_02_info</LANG>
+		<LANG ID="ja-JP">ふわふわとした、青い靴下の形をした実。\nクリスマスの時期になると各地に大量出荷されます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr055_00_info</LANG>
+		<LANG ID="ja-JP">真っ赤な色が情熱的な、リボンの付いたハート型の実。\n大好きなあの人に、真正面から告白したいときのお伴にどうぞ。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr055_01_info</LANG>
+		<LANG ID="ja-JP">ラベンダー色がミステリアスな、リボンの付いたハート型の実。\n愛といっしょに、大人の魅力を伝えましょう。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr055_02_info</LANG>
+		<LANG ID="ja-JP">水色がクールな、リボンの付いたハート型の実。そっけなさを\n装いつつも告白したいという、ニッチな需要に応えます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr056_00_info</LANG>
+		<LANG ID="ja-JP">透明無垢な星型の実。見た目に反してもちもちしていて、\nあんみつをかけて食べるととっても美味です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr057_00_info</LANG>
+		<LANG ID="ja-JP">白の花柄が可愛らしい、とんぼ玉のような実。和風な意匠は、\n西方でイッツソーミヤビと大ブームになりました。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr057_01_info</LANG>
+		<LANG ID="ja-JP">どこか神聖さが漂う、翠緑色のとんぼ玉。\nやんごとなき身分の者のみが育成を許された作物だったそうです。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr057_02_info</LANG>
+		<LANG ID="ja-JP">平伏したくなるほどの典雅さを有する、すみれ色のとんぼ玉。\n魔力が宿っているという文献が残っていますが、詳細は不明です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr058_00_info</LANG>
+		<LANG ID="ja-JP">クラシカルな意匠がオシャレな、赤いランタン型の実。\n落としても燃えたりしない、新世代の照明です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr058_01_info</LANG>
+		<LANG ID="ja-JP">ドングリみたいなシルエットがかわいい、黄色いランタン型の実。\nやわらかい光が目に優しい一品です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr058_02_info</LANG>
+		<LANG ID="ja-JP">緑と黄の二色に発光する、青いランタン型の実。ランタンの実の光で\n夜の農場を埋め尽くす、幻想的なイベントがあったとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr059_00_info</LANG>
+		<LANG ID="ja-JP">カタツムリそっくりな不思議な実。\n見た目に反してカフェオレ風味の甘い味がします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr059_01_info</LANG>
+		<LANG ID="ja-JP">甘い香りの漂う、カタツムリそっくりな不思議な実。\nまるでキャンディーのようなおいしさで、子供たちに大人気！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr059_02_info</LANG>
+		<LANG ID="ja-JP">キラキラと輝く、カタツムリそっくりな不思議な実。\n硬く美しい殻は宝石にも匹敵する高級品です。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_00_info</LANG>
+		<LANG ID="ja-JP">自然に生み出された純白のパールの実。\nもぎ取ってしまっても夜空に浮かぶ月のようにその輝きを失いません。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_01_info</LANG>
+		<LANG ID="ja-JP">黄褐色のきらめきをたたえたトパーズの実。\n太陽の光に照らされて色付いていくため、ほんのりお日様の香りがするんだとか。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_02_info</LANG>
+		<LANG ID="ja-JP">美しい海をギュッと閉じ込めたような、アクアマリンの実。\n穏やかな海に身をゆだねているような癒しのパワーに満ちています。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Fr060_03_info</LANG>
+		<LANG ID="ja-JP">星がきらめく夜空を閉じ込めたような、ラピスラズリの実。\n流れ星が落ちた場所に実ったと言い伝えがある事から宇宙からの贈り物と呼ばれることも。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">BonusTitle</LANG>
+		<LANG ID="ja-JP">ボーナス配給</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EventItem</LANG>
+		<LANG ID="ja-JP">イベントを確認する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EventTitle</LANG>
+		<LANG ID="ja-JP">イベント</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MenuActHarvestTitle</LANG>
+		<LANG ID="ja-JP">プランタ収穫</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ExChangeCrop</LANG>
+		<LANG ID="ja-JP">わかばの窓口</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ReceiveBonus</LANG>
+		<LANG ID="ja-JP">わかばの中央窓口</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_SkipReceiveBonus</LANG>
+		<LANG ID="ja-JP">「%s」\nの受け取りをスキップしました。\nイベント期間中はいつでも受け取る事ができます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CropMenuTotalFormat</LANG>
+		<LANG ID="ja-JP">納品額：%dFC</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga005</LANG>
+		<LANG ID="ja-JP">アイアンのテーブル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga006</LANG>
+		<LANG ID="ja-JP">モザイクタイルのテーブル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga007</LANG>
+		<LANG ID="ja-JP">茶色いアンティーク物置小屋</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga008</LANG>
+		<LANG ID="ja-JP">緑色のアンティーク物置小屋</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga011</LANG>
+		<LANG ID="ja-JP">かぼちゃの手押し車</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga012</LANG>
+		<LANG ID="ja-JP">リンゴの手押し車</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga013</LANG>
+		<LANG ID="ja-JP">ミルクポット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga014</LANG>
+		<LANG ID="ja-JP">アンティークミルクポット</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga015</LANG>
+		<LANG ID="ja-JP">赤帽子のノーム人形</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga016</LANG>
+		<LANG ID="ja-JP">緑帽子のノーム人形</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga017</LANG>
+		<LANG ID="ja-JP">緑の手押しポンプ井戸</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga018</LANG>
+		<LANG ID="ja-JP">赤い手押しポンプ井戸</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga019</LANG>
+		<LANG ID="ja-JP">木製のベンチ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga020</LANG>
+		<LANG ID="ja-JP">アイアンのベンチ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga024</LANG>
+		<LANG ID="ja-JP">風見鶏の小型風車</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga026</LANG>
+		<LANG ID="ja-JP">牧草の山</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga030</LANG>
+		<LANG ID="ja-JP">苔むした倒木</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga032</LANG>
+		<LANG ID="ja-JP">石碑</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga033</LANG>
+		<LANG ID="ja-JP">ロボットのパーツ</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga035</LANG>
+		<LANG ID="ja-JP">ストーンサークル</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga036</LANG>
+		<LANG ID="ja-JP">アイアンのイス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga037</LANG>
+		<LANG ID="ja-JP">モザイクタイルのイス</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga067</LANG>
+		<LANG ID="ja-JP">ブラックストーンタイル・角丸型</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga068</LANG>
+		<LANG ID="ja-JP">ブラックストーンタイル・丸型</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga070</LANG>
+		<LANG ID="ja-JP">グレーストーンタイル・角丸型</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga071</LANG>
+		<LANG ID="ja-JP">グレーストーンタイル・丸型</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga074</LANG>
+		<LANG ID="ja-JP">深紅のバラの鉢植え</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga075</LANG>
+		<LANG ID="ja-JP">バーニングハート＆リボンの鉢植え</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Ga076</LANG>
+		<LANG ID="ja-JP">オレンジ色のカキの鉢植え</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_A01</LANG>
+		<LANG ID="ja-JP">空色ビーズフラワーピアス・左耳(女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_A01</LANG>
+		<LANG ID="ja-JP">空色ビーズフラワーピアス・右耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_B01</LANG>
+		<LANG ID="ja-JP">シェルピンクの小花ピアス・左耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_B01</LANG>
+		<LANG ID="ja-JP">シェルピンクの小花ピアス・右耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_B02</LANG>
+		<LANG ID="ja-JP">ウィスタリアの小花ピアス・左耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_B02</LANG>
+		<LANG ID="ja-JP">ウィスタリアの小花ピアス・右耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_C01</LANG>
+		<LANG ID="ja-JP">クリスマスフラワーピアス・左耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_C01</LANG>
+		<LANG ID="ja-JP">クリスマスフラワーピアス・右耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_C02</LANG>
+		<LANG ID="ja-JP">ブルーフラワーピアス・左耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_C02</LANG>
+		<LANG ID="ja-JP">ブルーフラワーピアス・右耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_D01</LANG>
+		<LANG ID="ja-JP">ピンクフラワー3連ピアス・左耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_D01</LANG>
+		<LANG ID="ja-JP">ピンクフラワー3連ピアス・右耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_D02</LANG>
+		<LANG ID="ja-JP">パンジーカラー3連ピアス・左耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_D02</LANG>
+		<LANG ID="ja-JP">パンジーカラー3連ピアス・右耳（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_Hand_2A_A01</LANG>
+		<LANG ID="ja-JP">空色ビーズフラワーの指輪（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_Hand_2A_A02</LANG>
+		<LANG ID="ja-JP">エスニックビーズフラワー指輪（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_Hand_2A_B01</LANG>
+		<LANG ID="ja-JP">シェルピンクの小花指輪（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_Hand_2A_B02</LANG>
+		<LANG ID="ja-JP">ウィスタリアの小花指輪（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_Hand_2A_C02</LANG>
+		<LANG ID="ja-JP">ブルーフラワーの指輪（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_HeadDress_2A_B01</LANG>
+		<LANG ID="ja-JP">ナスマン（男性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_Hat_2A_B03</LANG>
+		<LANG ID="ja-JP">コールドブルー花冠（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_HeadPhones_2A_A01</LANG>
+		<LANG ID="ja-JP">ローズの髪飾り（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_HeadPhones_2A_A02</LANG>
+		<LANG ID="ja-JP">オールドローズの髪飾り（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Hand_2A_A02</LANG>
+		<LANG ID="ja-JP">ツタの絡まるスコップ・紅葉（男性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Hand_2A_B01</LANG>
+		<LANG ID="ja-JP">ツタの絡まるクワ・緑葉（男性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Hand_2A_B02</LANG>
+		<LANG ID="ja-JP">ツタの絡まるクワ・紅葉（男性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Hand_2A_C02</LANG>
+		<LANG ID="ja-JP">ツタの絡まるフォーク・紅葉（男性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">MaskCollectBear</LANG>
+		<LANG ID="ja-JP">みのりが足りないため条件に合いません</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvQuality</LANG>
+		<LANG ID="ja-JP">みのり</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvBtnSubmit</LANG>
+		<LANG ID="ja-JP">出荷する</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvBtnReceive</LANG>
+		<LANG ID="ja-JP">報酬を受け取る</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvCndAlways</LANG>
+		<LANG ID="ja-JP">条件なし</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvResReceive</LANG>
+		<LANG ID="ja-JP">【報酬】\n%sをお贈りします。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvResConfirm1</LANG>
+		<LANG ID="ja-JP">収穫バッグの空きが%d個足りないため、報酬を受け取れません。\n一部を破棄して報酬を受け取りますか？\n\n※「いいえ」を選んで後から受け取ることもできます。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvResConfirm2</LANG>
+		<LANG ID="ja-JP">報酬の一部を破棄します。\nよろしいですか？\n\n※破棄された報酬は受け取る事ができなくなります。</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvRewardTitle</LANG>
+		<LANG ID="ja-JP">【報酬】</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvRewardUnit</LANG>
+		<LANG ID="ja-JP">条件　　　　　　　　　　　現在 / 目標</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvUnitNum</LANG>
+		<LANG ID="ja-JP">個</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvUnitFC</LANG>
+		<LANG ID="ja-JP">FC</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvSubmitNum</LANG>
+		<LANG ID="ja-JP">「%s」を出荷しますか？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvSubmitFC</LANG>
+		<LANG ID="ja-JP">%dFC分のプランタを出荷しますか？\n(%s)</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">EvArchiving</LANG>
+		<LANG ID="ja-JP">「%s」\nの条件をすべて達成しました。\n達成おめでとうございます！</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_D02_main</LANG>
+		<LANG ID="ja-JP">パンジーカラー3連ピアス・右耳</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_D02_sub</LANG>
+		<LANG ID="ja-JP">（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_C01_main</LANG>
+		<LANG ID="ja-JP">クリスマスフラワーピアス・右耳</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_C01_sub</LANG>
+		<LANG ID="ja-JP">（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_B01_main</LANG>
+		<LANG ID="ja-JP">シェルピンクの小花ピアス・右耳</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_B01_sub</LANG>
+		<LANG ID="ja-JP">（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_D01_main</LANG>
+		<LANG ID="ja-JP">ピンクフラワー3連ピアス・左耳</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelLeftEar_2A_D01_sub</LANG>
+		<LANG ID="ja-JP">（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_D01_main</LANG>
+		<LANG ID="ja-JP">ピンクフラワー3連ピアス・右耳</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">F_JewelRightEar_2A_D01_sub</LANG>
+		<LANG ID="ja-JP">（女性用）</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Hand_2A_B01_main</LANG>
+		<LANG ID="ja-JP">ツタの絡まるクワ・緑葉</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">M_Hand_2A_B01_sub</LANG>
+		<LANG ID="ja-JP">（男性用）</LANG>
+	</PHRASE>
+</LOCALISATION>

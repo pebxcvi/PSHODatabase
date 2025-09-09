@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="turkeybg.mdl" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeybg.mdl" />
+		<model name="turkeyfancya.mdl" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancya.mdl" />
+		<model name="turkeyfancyb.mdl" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyb.mdl" />
+		<model name="turkeyfancyc.mdl" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyc.mdl" />
+		<model name="turkeyfancyd.mdl" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyd.mdl" />
+		<model name="turkeystatue.mdl" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeystatue.mdl" />
+		<texture name="turkeystatue_c.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeystatue_c.dds" />
+		<texture name="turkeybg_c.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeybg_c.dds" />
+		<texture name="turkeyfancya_c.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancya_c.dds" />
+		<texture name="turkeyfancyb_c.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyb_c.dds" />
+		<texture name="turkeyfancyc_c.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyc_c.dds" />
+		<texture name="turkeyfancyd_c.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyd_c.dds" />
+		<texture name="Clock.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/Clock.dds" />
+		<texture name="Arrow.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/Arrow.dds" />
+		<texture name="TurkeyFeather_Alphas.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/TurkeyFeather_Alphas.dds" />
+		<texture name="UI_leaf_10.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_10.dds" />
+		<texture name="UI_leaf_01.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_01.dds" />
+		<texture name="UI_leaf_02.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_02.dds" />
+		<texture name="UI_leaf_03.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_03.dds" />
+		<texture name="UI_leaf_04.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_04.dds" />
+		<texture name="UI_leaf_05.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_05.dds" />
+		<texture name="UI_leaf_06.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_06.dds" />
+		<texture name="UI_leaf_07.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_07.dds" />
+		<texture name="UI_leaf_08.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_08.dds" />
+		<texture name="UI_leaf_09.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_leaf_09.dds" />
+		<texture name="UI_Success.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_Success.dds" />
+		<texture name="UI_Fail.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_Fail.dds" />
+		<texture name="UI_TurkeyWithArrow.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_TurkeyWithArrow.dds" />
+		<texture name="UI_ChaseTurkey.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_ChaseTurkey.dds" />
+		<texture name="UI_ClockArrow.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_ClockArrow.dds" />
+		<texture name="UI_Hurry.dds" deferred_loading="false" file="MiniGames/Thanksgiving2009/Textures/UI/UI_Hurry.dds" />
+		<particle name="FeatherFX" deferred_loading="false" file="MiniGames/Thanksgiving2009/efx/FeatherFX.efx" />
+		<particle name="ArrowFX" deferred_loading="false" file="MiniGames/Thanksgiving2009/efx/ArrowFX.efx" />
+		<file name="TurkeyChase.lua" deferred_loading="false" file="MiniGames/Thanksgiving2009/TurkeyChase.lua" />
+		<file name="CEntityStateMachine.lua" deferred_loading="false" file="MiniGames/Thanksgiving2009/CEntityStateMachine.lua" />
+		<file name="CTurkey.lua" deferred_loading="false" file="MiniGames/Thanksgiving2009/CTurkey.lua" />
+		<file name="CPath.lua" deferred_loading="false" file="MiniGames/Thanksgiving2009/CPath.lua" />
+		<file name="pathpoints.xml" deferred_loading="false" file="MiniGames/Thanksgiving2009/xml/pathpoints_test.xml" />
+		<file name="TurkeySM.lua" deferred_loading="false" file="MiniGames/Thanksgiving2009/TurkeySM.lua" />
+		<file name="CStage.lua" deferred_loading="false" file="MiniGames/Thanksgiving2009/CStage.lua" />
+		<file name="stages.xml" deferred_loading="false" file="MiniGames/Thanksgiving2009/xml/stages.xml" />
+		<file name="CGame.lua" deferred_loading="false" file="MiniGames/Thanksgiving2009/CGame.lua" />
+		<file name="UI2D_Element.lua" deferred_loading="false" file="MiniGames/SCEA_fn_lib/UI2D/UI2D_Element.lua" />
+		<file name="UI2D.lua" deferred_loading="false" file="MiniGames/SCEA_fn_lib/UI2D/UI2D.lua" />
+		<file name="UI2D_definitions.lua" deferred_loading="false" file="MiniGames/SCEA_fn_lib/UI2D/UI2D_definitions.lua" />
+		<anim name="fancy_walk.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/fancy_walk.ani" />
+		<anim name="bg_idle.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/bg_idle.ani" />
+		<anim name="fancy_idle.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/fancy_idle.ani" />
+		<anim name="fancy_run.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/fancy_run.ani" />
+		<anim name="fancy_idlea.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/fancy_idlea.ani" />
+		<anim name="bg_idleb.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/bg_idleb.ani" />
+		<anim name="bg_idlea.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/bg_idlea.ani" />
+		<anim name="bg_walk.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/bg_walk.ani" />
+		<anim name="fancy_idleb.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/fancy_idleb.ani" />
+		<anim name="fancy_runb.ani" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/ani/fancy_runb.ani" />
+		<skeleton name="turkeyfancyd.skn" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyd.skn" />
+		<skeleton name="turkeybg.skn" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeybg.skn" />
+		<skeleton name="turkeyfancya.skn" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancya.skn" />
+		<skeleton name="turkeyfancyb.skn" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyb.skn" />
+		<skeleton name="turkeyfancyc.skn" deferred_loading="false" file="MiniGames/Thanksgiving2009/Models/turkeyfancyc.skn" />
+		<soundbank name="Turkey1.bnk" deferred_loading="false" file="MiniGames/Thanksgiving2009/audio/Turkey1.bnk" />
+	</local>
+	<external />
+</resources>

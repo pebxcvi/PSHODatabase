@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="teleporter.mdl" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/models/teleporter.mdl" />
+    <model name="screen.mdl" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/models/screen.mdl" />
+    <texture name="intro_bg" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/intro_bg.dds" />
+    <texture name="arrow" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/arrow.dds" />
+    <texture name="new" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/new.dds" />
+    <texture name="pic_bg" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/pic_bg.dds" />
+    <texture name="top_bg" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/top_bg.dds" />
+    <texture name="busy" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/busy.dds" />
+    <texture name="broken" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/broken.dds" />
+    <texture name="commerce" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/textures/commerce.dds" />
+    <file name="telepod.xml" deferred_loading="false" protected="true" file="MiniGames/TelepodMG/file/telepod.xml" />
+    <collision name="teleporter.hkx" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/models/teleporter.hkx" />
+    <soundbank name="telepod_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/TelepodMG/sounds/telepod_sounds.bnk" />
+    <lua name="_3DCamera.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/_3dcamera.luac" />
+    <lua name="Carousel.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/carousel.luac" />
+    <lua name="Category.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/category.luac" />
+    <lua name="Constants.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/constants.luac" />
+    <lua name="DelayedResource.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/delayedresource.luac" />
+    <lua name="ResponseCurve.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/responsecurve.luac" />
+    <lua name="TelePod.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/telepod.luac" />
+    <lua name="TelepodApp.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/telepodapp.luac" />
+    <lua name="TelepodMiniGame.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/telepodminigame.luac" />
+    <lua name="TelePodWebHelper.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/telepodwebhelper.luac" />
+    <lua name="Util.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/util.luac" />
+    <lua name="WebHelper.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/webhelper.luac" />
+    <lua name="WebResourceHandler.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/webresourcehandler.luac" />
+    <lua name="XMLItem.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/xmlitem.luac" />
+    <lua name="ObjectComsShared.lua" deferred_loading="false" protected="true" file="scripts/object_coms_common/objectcomsshared.luac" />
+    <lua name="SoundPlayer.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/soundplayer.luac" />
+    <lua name="TelepodTracking.lua" deferred_loading="false" protected="true" file="minigames/telepodmg/lua/telepodtracking.luac" />
+    <lua name="Server.lua" deferred_loading="false" protected="true" file="scripts/lualibs/server.luac" />
+  </local>
+  <external />
+</resources>

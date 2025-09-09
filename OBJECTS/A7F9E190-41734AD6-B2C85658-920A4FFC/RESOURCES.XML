@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/pixiewings/model/InsectWings.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/pixiewings/model/InsectWings_Remote.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/PixieWings/particle/flame.efx" memory="host" />
+		<particle name="magic.efx" deferred_loading="true" protected="false" file="Locomotion/pixiewings/particle/magic_pink.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/PixieWings/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/PixieWings/anim/fidle.ani" memory="host" />
+		<anim name="wings_idle.ani" deferred_loading="true" protected="false" file="Locomotion/pixiewings/anim/insect_wings_idle.ani" />
+		<anim name="wings_move.ani" deferred_loading="true" protected="false" file="Locomotion/pixiewings/anim/insect_wings_move.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/pixiewings/model/InsectWings.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/PixieWings/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/PixieWings/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/PixieWings/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/PixieWings/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/PixieWings/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
