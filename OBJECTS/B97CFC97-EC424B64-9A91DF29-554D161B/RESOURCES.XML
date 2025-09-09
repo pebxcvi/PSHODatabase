@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <file name="Scenes.json" deferred_loading="false" protected="false" file="MiniGames/SceneRelocator/file/Scenes.json" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/scenerelocator/lua/minigame.luac" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" />
+    <lua name="libPad.lua" deferred_loading="false" protected="true" file="lualibs/util/pad.luac" />
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" />
+    <lua name="libAnnounceHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/announcehelper.luac" />
+    <lua name="libSoundHelper.lua" deferred_loading="false" protected="true" file="lualibs/sound/soundhelper.luac" />
+    <lua name="libGlobalSettingHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/globalsettinghelper.luac" />
+    <lua name="libUserDataHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatahelper.luac" />
+    <lua name="libUserDataTypes.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatatypes.luac" />
+    <lua name="libCmnMenuHelper.lua" deferred_loading="false" protected="true" file="lualibs/ui/cmnmenuhelper.luac" />
+    <lua name="libTutorialMenuHelper.lua" deferred_loading="false" protected="true" file="lualibs/ui/tutorialmenuhelper.luac" />
+    <lua name="libAsyncExecutor.lua" deferred_loading="false" protected="true" file="lualibs/resource/asyncexecutor.luac" />
+  </local>
+  <external />
+</resources>

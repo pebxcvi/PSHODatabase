@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="dirt_bike.mdl" deferred_loading="true" protected="false" file="animatedmodels/dirt_bikes/dirt_bike_pink.mdl" memory="host" />
+		<model name="dirt_bike_remote.mdl" deferred_loading="true" protected="false" file="animatedmodels/dirt_bikes/dirt_bike_remote_pink.mdl" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/dirt_bike/particle/smoke.efx" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/dirt_bike/file/config.xml" memory="host" />
+		<anim name="motorcycle_nospin.ani" deferred_loading="true" protected="false" file="animatedmodels/dirt_bikes/dirt_bike_Idle.ani" />
+		<anim name="motorcycle_wheelspinslow.ani" deferred_loading="true" protected="false" file="animatedmodels/dirt_bikes/motorcycle_wheelspinslow.ani" />
+		<anim name="Bike_ForwardFemaleRun.ani" deferred_loading="true" protected="false" file="animation/female/mounts/motorcycle/Bike_ForwardFemaleRun.ani" />
+		<anim name="Bike_ForwardFemaleRunLeft.ani" deferred_loading="true" protected="false" file="animation/female/mounts/motorcycle/Bike_ForwardFemaleRunLeft.ani" />
+		<anim name="Bike_ForwardFemaleRunRight.ani" deferred_loading="true" protected="false" file="animation/female/mounts/motorcycle/Bike_ForwardFemaleRunRight.ani" />
+		<anim name="Bike_ForwardRun.ani" deferred_loading="true" protected="false" file="animation/male/mounts/motorcycle/Bike_ForwardRun.ani" />
+		<anim name="Bike_ForwardRunLeft.ani" deferred_loading="true" protected="false" file="animation/male/mounts/motorcycle/Bike_ForwardRunLeft.ani" />
+		<anim name="Bike_ForwardRunRight.ani" deferred_loading="true" protected="false" file="animation/male/mounts/motorcycle/Bike_ForwardRunRight.ani" />
+		<anim name="Bike_Idle.ani" deferred_loading="true" protected="false" file="animation/male/mounts/motorcycle/Bike_Idle.ani" />
+		<anim name="motorcycle_wheelspinfast.ani" deferred_loading="true" protected="false" file="animatedmodels/dirt_bikes/motorcycle_wheelspinfast.ani" />
+		<anim name="motorcycle_wheelspinmid.ani" deferred_loading="true" protected="false" file="animatedmodels/dirt_bikes/motorcycle_wheelspinmid.ani" />
+		<anim name="wheelie.ani" deferred_loading="true" protected="false" file="animation/male/mounts/motorcycle/wheelie.ani" />
+		<anim name="Lean_pose.ani" deferred_loading="true" protected="false" file="animation/male/mounts/motorcycle/Lean_pose.ani" />
+		<anim name="female_bike_idle.ani" deferred_loading="true" protected="false" file="animation/female/mounts/motorcycle/female_bike_idle.ani" />
+		<anim name="female_lean_pose.ani" deferred_loading="false" protected="false" file="animation/female/mounts/motorcycle/female_lean_pose.ani" />
+		<anim name="female_wheelie.ani" deferred_loading="false" protected="false" file="animation/female/mounts/motorcycle/female_wheelie.ani" />
+		<skeleton name="dirt_bike.skn" deferred_loading="true" protected="false" file="animatedmodels/dirt_bikes/dirt_bike.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/dirt_bike/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/dirt_bike/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/dirt_bike/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/dirt_bike/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/dirt_bike/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

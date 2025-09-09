@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/bmx/Park_BMX.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/bmx/Park_BMX_LOD1.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/bmx/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/BMX/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/move.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/BMX/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/move.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/fmove.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/BMX/anim/fmove.ani" memory="main" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/fmove.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/BMX/anim/fidle.ani" memory="host" />
+		<anim name="bike_move.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/bike_move.ani" />
+		<anim name="bike_idle.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/bike_idle.ani" />
+		<anim name="bike_right.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/bike_right.ani" />
+		<anim name="bike_left.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/bike_left.ani" />
+		<anim name="special.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/special.ani" />
+		<anim name="bike_special.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/bike_special.ani" />
+		<anim name="fspecial.ani" deferred_loading="true" protected="false" file="Locomotion/bmx/anim/fspecial.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/bmx/BMX.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/BMX/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/BMX/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/BMX/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/BMX/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/BMX/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

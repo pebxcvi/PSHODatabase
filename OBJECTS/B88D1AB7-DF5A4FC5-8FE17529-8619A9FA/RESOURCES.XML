@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/hamster/models/hamster_base.mdl" />
+		<model name="Hamster.mdl" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/Hamster.mdl" />
+		<model name="hamster_wheel.mdl" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/hamster_wheel.mdl" />
+		<model name="hamster_base.mdl" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/hamster_base.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/hamster/models/hamster_base.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="activeitems/hamster/models/hamster_base.safevolume.hkx" />
+		<anim name="CommJuly_Hamster_Run.ani" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/anims/CommJuly_Hamster_Run.ani" />
+		<anim name="CommJuly_Hamster_CleaningSelf.ani" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/anims/CommJuly_Hamster_CleaningSelf.ani" />
+		<anim name="CommJuly_Hamster_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/anims/CommJuly_Hamster_Idle.ani" />
+		<anim name="CommJuly_Hamster_Start.ani" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/anims/CommJuly_Hamster_Start.ani" />
+		<anim name="CommJuly_Hamster_Stop.ani" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/anims/CommJuly_Hamster_Stop.ani" />
+		<anim name="CommJuly_Hamster_StumbleToStop.ani" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/anims/CommJuly_Hamster_StumbleToStop.ani" />
+		<anim name="CommJuly_Hamster_Stumble.ani" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/anims/CommJuly_Hamster_Stumble.ani" />
+		<skeleton name="Hamster.skn" deferred_loading="false" protected="false" file="ActiveItems/hamster/models/Hamster.skn" />
+		<soundbank name="Hamster.bnk" deferred_loading="false" protected="false" file="ActiveItems/hamster/audio/Hamster.bnk" />
+		<lua name="hamster.lua" deferred_loading="false" protected="true" file="ActiveItems/hamster/programming/hamster.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="types.xml" deferred_loading="false" protected="false" file="Edo/soft_eu_00/people/system/types.xml" />
+		<file name="NPCMessage.xml" deferred_loading="false" protected="false" file="Edo/soft_eu_00/people/system/NPCMessage.xml" />
+		<collision name="HKX.hkx" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/NPC_Collision_exmessenger.hkx" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/people/NPC005/Data.lua" />
+		<lua name="MiniGameWalk.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/people/system/MiniGameWalk.lua" />
+		<lua name="Rail.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/people/system/Rail.lua" />
+		<lua name="LuaMath.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/people/system/LuaMath.lua" />
+		<lua name="RailData.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/people/NPC005/RailData.lua" />
+		<lua name="Version.lua" deferred_loading="false" protected="true" file="Edo/soft_eu_00/Version.lua" />
+		<lua name="OSDSizeData.lua" deferred_loading="false" protected="true">
+			<override file="edo/soft_eu_00/people/system/osdsizedata_en.lua" locale="en-*" />
+			<override file="edo/soft_eu_00/people/system/osdsizedata_zh.lua" locale="zh-*" />
+			<override file="edo/soft_eu_00/people/system/osdsizedata_ko.lua" locale="ko-*" />
+			<override file="edo/soft_eu_00/people/system/osdsizedata_fr.lua" locale="fr-*" />
+			<override file="edo/soft_eu_00/people/system/osdsizedata_it.lua" locale="it-*" />
+			<override file="edo/soft_eu_00/people/system/osdsizedata_es.lua" locale="es-*" />
+			<override file="edo/soft_eu_00/people/system/osdsizedata_de.lua" locale="de-*" />
+			<override file="Edo/soft_eu_00/people/system/OSDSizeData.lua" />
+		</lua>
+	</local>
+	<external />
+</resources>

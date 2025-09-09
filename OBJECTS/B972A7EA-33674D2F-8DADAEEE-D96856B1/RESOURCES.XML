@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="MyModel" deferred_loading="false" protected="false" file="furniture/reeltoreeltapedeck/ReelToReelTapeDeck.mdl" />
+		<model name="model" deferred_loading="false" protected="false" file="furniture/reeltoreeltapedeck/PlaceholderCube.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/reeltoreeltapedeck/ReelToReelTapeDeck.hkx" />
+		<collision name="SafeCollision" deferred_loading="false" protected="false" file="furniture/reeltoreeltapedeck/ReelToReelTapeDeck.safevolume.hkx" />
+		<anim name="MyAnim" deferred_loading="false" protected="false" file="furniture/reeltoreeltapedeck/ReelToReelTapeDeck.ani" />
+		<skeleton name="MySkel" deferred_loading="false" protected="false" file="furniture/reeltoreeltapedeck/ReelToReelTapeDeck.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ReelToReelTapeDeck/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

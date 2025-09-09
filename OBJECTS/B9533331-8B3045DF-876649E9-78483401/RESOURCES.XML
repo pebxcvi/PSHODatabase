@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="SCEJ_Lib/ui/tex/edge.dds" />
+		<particle name="fw_botan.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/fw_botan.efx" />
+		<particle name="fw_kiku.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/fw_kiku.efx" />
+		<particle name="fw_shoot_head.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/fw_shoot_head.efx" />
+		<particle name="fw_shoot_tail.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/fw_shoot_tail.efx" />
+		<particle name="fw_smoke_large.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/fw_smoke_large.efx" />
+		<particle name="fw_tigertail.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/fw_tigertail.efx" />
+		<particle name="hanabi_big_particle.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/hanabi_big_particle.efx" />
+		<particle name="hanabi_foot_splash.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/hanabi_foot_splash.efx" />
+		<particle name="hanabi_sudare_tail.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/hanabi_sudare_tail.efx" />
+		<particle name="hanabi_sudare_tail_2.efx" deferred_loading="false" protected="false" file="ATGParticles/FireWorksAsset/Efx/hanabi_sudare_tail_2.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/DemoAsset/file/Network.xml" />
+		<soundbank name="fireworks_mono.bnk" deferred_loading="false" protected="false" file="SCEJ_Lib/FireWorksAsset/sound/fireworks_mono.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/MiniGame.luac" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/mathx.luac" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/misc.luac" />
+		<lua name="ResDownload.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/ResDownload.luac" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/task.luac" />
+		<lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/xmlUtil.luac" />
+		<lua name="Demo.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/Demo.luac" />
+		<lua name="DemoCam.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoCam.luac" />
+		<lua name="DemoColor.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoColor.luac" />
+		<lua name="DemoEntity.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoEntity.luac" />
+		<lua name="DemoFireWork.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoFireWork.luac" />
+		<lua name="DemoJudge.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoJudge.luac" />
+		<lua name="DemoLight.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoLight.luac" />
+		<lua name="DemoParticles.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoParticles.luac" />
+		<lua name="DemoPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoPlayer.luac" />
+		<lua name="DemoScreen.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoScreen.luac" />
+		<lua name="DemoScreenFilter.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoScreenFilter.luac" />
+		<lua name="DemoSnd.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoSnd.luac" />
+		<lua name="DemoSpr.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoSpr.luac" />
+		<lua name="DemoState.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoState.luac" />
+		<lua name="DemoText.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoText.luac" />
+		<lua name="EfxPlayer.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/EfxPlayer.luac" />
+		<lua name="fw_Botan.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/fw_Botan.luac" />
+		<lua name="fw_Kiku.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/fw_Kiku.luac" />
+		<lua name="fw_Shoot.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/fw_Shoot.luac" />
+		<lua name="fw_Smoke_Large.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/fw_Smoke_Large.luac" />
+		<lua name="fw_StarMine.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/fw_StarMine.luac" />
+		<lua name="fw_Sudare.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/fw_Sudare.luac" />
+		<lua name="fw_TigerTail.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/fw_TigerTail.luac" />
+		<lua name="MiscEx.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/FireWorksAsset/lua/MiscEx.luac" />
+		<lua name="EventSystem.lua" deferred_loading="false" protected="true" file="EmbeddedObject/EventSystem/EventSystem.luac" />
+		<lua name="information.lua" deferred_loading="false" protected="true" file="objects/99EE60AF-48BF4F7F-BD0268B4-2EB03304/lua/doc/information.luac" />
+		<lua name="DemoAsset.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoAsset.luac" />
+		<lua name="DemoReward.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoReward.luac" />
+		<lua name="CustomFieldUp.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/CustomFieldUp.luac" />
+		<lua name="DemoSceneFilter.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoSceneFilter.luac" />
+		<lua name="DemoSceneFilterTypes.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoSceneFilterTypes.luac" />
+		<lua name="DemoAnimations.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoAnimations.luac" />
+		<lua name="DemoFx.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoFx.luac" />
+		<lua name="ListenerFxApi.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/ListenerFxApi.luac" />
+		<lua name="DemoAvatarFx.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoAvatarFx.luac" />
+		<lua name="ResoucePack.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/ResoucePack.luac" />
+		<lua name="DemoAtmos.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoAtmos.luac" />
+		<lua name="ListenerAvatarEffectsApi.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/ListenerAvatarEffectsApi.luac" />
+		<lua name="SaveData.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/SaveData.luac" />
+		<lua name="DemoServerCounter.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/DemoServerCounter.luac" />
+		<lua name="CommunicationEventApi.lua" deferred_loading="false" protected="true" file="MiniGames/CommunicationEvent/CommunicationEventApi.luac" />
+		<lua name="StoreFrontGeneratorApi.lua" deferred_loading="false" protected="true" file="MiniGames/StoreFrontGenerator/StoreFrontGeneratorApi.luac" />
+		<lua name="Listerner.lua" deferred_loading="false" protected="true" file="MiniGames/DemoAsset/lua/Listerner.luac" />
+	</local>
+	<external />
+</resources>

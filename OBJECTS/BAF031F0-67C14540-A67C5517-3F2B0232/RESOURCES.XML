@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/Janken/file/configuration.xml" memory="host" />
+		<anim name="Janken_Paper" deferred_loading="true" protected="false" file="animation/male/janken/Janken_Paper.ani" />
+		<anim name="Janken_PaperPose" deferred_loading="true" protected="false" file="animation/male/janken/Janken_PaperPose.ani" />
+		<anim name="Janken_Rock" deferred_loading="true" protected="false" file="animation/male/janken/Janken_Rock.ani" />
+		<anim name="Janken_RockPose" deferred_loading="true" protected="false" file="animation/male/janken/Janken_RockPose.ani" />
+		<anim name="Janken_Scissors" deferred_loading="true" protected="false" file="animation/male/janken/Janken_Scissors.ani" />
+		<anim name="Janken_ScissorsPose" deferred_loading="true" protected="false" file="animation/male/janken/Janken_ScissorsPose.ani" />
+		<anim name="Female_JankenPaper" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenPaper.ani" />
+		<anim name="Female_JankenPaperPose" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenPaperPose.ani" />
+		<anim name="Female_JankenRock" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenRock.ani" />
+		<anim name="Female_JankenRockPose" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenRockPose.ani" />
+		<anim name="Female_JankenScissors" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenScissors.ani" />
+		<anim name="Female_JankenScissorsPose" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenScissorsPose.ani" />
+		<anim name="Janken_ThumbsUp" deferred_loading="true" protected="false" file="animation/male/janken/Janken_ThumbsUp.ani" />
+		<anim name="Janken_ThumbsUpPose" deferred_loading="true" protected="false" file="animation/male/janken/Janken_ThumbsUpPose.ani" />
+		<anim name="Janken_SetUp" deferred_loading="true" protected="false" file="animation/male/janken/Janken_SetUp.ani" />
+		<anim name="Female_JankenSetup" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenSetup.ani" />
+		<anim name="Female_JankenThumbsUp" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenThumbsUp.ani" />
+		<anim name="Female_JankenThumbsUpPose" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenThumbsUpPose.ani" />
+		<anim name="Janken_ThumbsDown" deferred_loading="true" protected="false" file="animation/male/janken/Janken_ThumbsDown.ani" memory="host" />
+		<anim name="Janken_ThumbsDownPose" deferred_loading="true" protected="false" file="animation/male/janken/Janken_ThumbsDownPose.ani" memory="host" />
+		<anim name="Female_JankenThumbsDown" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenThumbsDown.ani" memory="host" />
+		<anim name="Female_JankenThumbsDownPose" deferred_loading="true" protected="false" file="animation/female/female_janken/Female_JankenThumbsDownPose.ani" memory="host" />
+		<soundbank name="bnk.audio" deferred_loading="true" protected="false" file="AvatarAnimPacks/Janken/soundbank/audio.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/Janken/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/Janken/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Janken/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Janken/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/Janken/lua/boot.luac" memory="host" id="2976678763" />
+	</local>
+	<external />
+</resources>

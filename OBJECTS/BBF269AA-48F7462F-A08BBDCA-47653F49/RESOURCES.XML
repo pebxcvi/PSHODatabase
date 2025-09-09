@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Advent.mdl" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/model/AdventCalendar_NoDoors.mdl" memory="host" />
+    <model name="Square" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/model/ActiveModel.mdl" memory="host" />
+    <model name="Doors" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/Door_Opening.mdl" memory="host" />
+    <model name="Doors_24" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/Door24_Opening.mdl" memory="host" />
+    <model name="24_Opened" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/Door24_Opened.mdl" memory="host" />
+    <model name="Opened.mdl" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/StandardDoor_Opened.mdl" memory="host" />
+    <model name="AdventCalendar_Moving.mdl" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/model/AdventCalendar_Static.mdl" memory="host" />
+    <texture name="Calendar_Hud.dds" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/Calendar_Hud.dds" memory="host" />
+    <texture name="legend_box" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/blackroundedrectangle.dds" memory="host" />
+    <texture name="Number1" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_01_c.dds" memory="host" />
+    <texture name="Number2" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_02_c.dds" memory="host" />
+    <texture name="Number3" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_03_c.dds" memory="host" />
+    <texture name="Number4" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_04_c.dds" memory="host" />
+    <texture name="Number5" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_05_c.dds" memory="host" />
+    <texture name="Number6" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_06_c.dds" memory="host" />
+    <texture name="Number7" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_07_c.dds" memory="host" />
+    <texture name="Number8" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_08_c.dds" memory="host" />
+    <texture name="Number9" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_09_c.dds" memory="host" />
+    <texture name="Number10" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_10_c.dds" memory="host" />
+    <texture name="Number11" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_11_c.dds" memory="host" />
+    <texture name="Number13" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_13_c.dds" memory="host" />
+    <texture name="Number12" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_12_c.dds" memory="host" />
+    <texture name="Number14" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_14_c.dds" memory="host" />
+    <texture name="Number15" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_15_c.dds" memory="host" />
+    <texture name="Number16" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_16_c.dds" memory="host" />
+    <texture name="Number17" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_17_c.dds" memory="host" />
+    <texture name="Number18" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_18_c.dds" memory="host" />
+    <texture name="Number19" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_19_c.dds" memory="host" />
+    <texture name="Number20" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_20_c.dds" memory="host" />
+    <texture name="Number21" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_21_c.dds" memory="host" />
+    <texture name="Number22" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_22_c.dds" memory="host" />
+    <texture name="Number23" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/textures/AdventCalendarDoorNumbers_23_c.dds" memory="host" />
+    <particle name="Particles" deferred_loading="false" protected="false" file="ATGParticles/Park/AdventCalender_Stars.efx" memory="host" />
+    <collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/collision/ActiveModel.hkx" memory="host" />
+    <anim name="eat" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/eat.ani" />
+    <anim name="f_eat" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/f_eat.ani" />
+    <anim name="24_Opening_ani" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/Door24_Opening.ani" />
+    <anim name="Opening_ani" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/Door_Opening.ani" />
+    <skeleton name="24_Opening_skn" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/Door24_Opening.skn" />
+    <skeleton name="Opening_skn" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/Door_Opening.skn" />
+    <soundbank name="sounds" deferred_loading="false" protected="false" file="MiniGames/Clock/clockSounds.bnk" />
+    <repertoire name="male_rep" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/male_rep.xml" />
+    <repertoire name="female_rep" deferred_loading="false" protected="false" file="MiniGames/AdventCalendar/anim/female_rep.xml" />
+    <emotes name="male_emotes" deferred_loading="true" protected="false" file="MiniGames/AdventCalendar/anim/male_emotes.xml" />
+    <emotes name="female_emotes" deferred_loading="true" protected="false" file="MiniGames/AdventCalendar/anim/female_emotes.xml" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/minigame.luac" memory="host" />
+    <lua name="Game.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/game.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/pad.luac" memory="host" />
+    <lua name="Sound.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/sound.luac" memory="host" />
+    <lua name="Calendar.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/calendar.luac" memory="host" />
+    <lua name="Doors.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/doors.luac" memory="host" />
+    <lua name="PlayerProfile.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/playerprofile.luac" memory="host" />
+    <lua name="JSONUtility.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/framework/jsonutility.luac" memory="host" />
+    <lua name="StringUtility.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/framework/stringutility.luac" memory="host" />
+    <lua name="VHTTPRequest.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/framework/vhttprequest.luac" memory="host" />
+    <lua name="HUD.lua" deferred_loading="false" protected="true" file="minigames/adventcalendar/lua/hud.luac" memory="host" />
+  </local>
+  <external />
+</resources>

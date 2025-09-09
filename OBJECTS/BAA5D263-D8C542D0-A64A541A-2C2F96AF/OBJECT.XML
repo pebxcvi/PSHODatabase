@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.3.5.113.BETA" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">GAME Spacesuit</name>
+		<description type="string">kDesc</description>
+		<author type="string">Patrick</author>
+		<object_version type="string">RC3</object_version>
+		<company type="string">GAME Ltd</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">male01_fullbodysuit_spaceman</name>
+		<type type="string">FullBodySuit</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">male01_fullbodysuit_spaceman</name>
+				<lods type="bag">
+					<lod1 type="string">male01_fullbodysuit_spaceman_lod1.mdl</lod1>
+					<lod2 type="string">male01_fullbodysuit_spaceman_lod2.mdl</lod2>
+					<lod3 type="string">male01_fullbodysuit_spaceman_lod3.mdl</lod3>
+				</lods>
+				<skeleton type="string"></skeleton>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">emissive</type>
+						<shadingGroup type="string">pasted__ATGMaterial6SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">emissiveMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__ATGMaterial6SG.emissiveMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">pasted__blinn11SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__blinn11SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__blinn11SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__blinn11SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Male01_Hands_Gloves:HandsSG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Hands_Gloves:HandsSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Hands_Gloves:HandsSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Hands_Gloves:HandsSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">pasted__pasted__FeetSG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__pasted__FeetSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__pasted__FeetSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__pasted__FeetSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Male01_Head_Helmet_090923:HeadSG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Head_Helmet_090923:HeadSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Head_Helmet_090923:HeadSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Head_Helmet_090923:HeadSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">emissive</type>
+						<shadingGroup type="string">pasted__ATGMaterial7SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">emissiveMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__ATGMaterial7SG.emissiveMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">emissive</type>
+						<shadingGroup type="string">pasted__ATGMaterial8SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">emissiveMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.pasted__ATGMaterial8SG.emissiveMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Male01_Torso_SpaceSuit_090922:Male01_Torso_SpaceSuit_090918_FeetSG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Torso_SpaceSuit_090922:Male01_Torso_SpaceSuit_090918_FeetSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Torso_SpaceSuit_090922:Male01_Torso_SpaceSuit_090918_FeetSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">male01_fullbodysuit_spaceman.Male01_Torso_SpaceSuit_090922:Male01_Torso_SpaceSuit_090918_FeetSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

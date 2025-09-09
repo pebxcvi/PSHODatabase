@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_clock_modern/models/CommAug_ClockModern.mdl" />
+		<model name="MinuteHand.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_clock_modern/models/CommAug_ClockModern_Minute.mdl" />
+		<model name="HourHand.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_clock_modern/models/CommAug_ClockModern_Hour.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaugust_clock_modern/models/CommAug_ClockModern.hkx" />
+		<soundbank name="Clock.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaugust_clock_modern/sound/Clock.bnk" />
+		<lua name="DebugTime.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_clock_modern/programming/DebugTime.lua" />
+		<lua name="Clock.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaugust_clock_modern/programming/Clock.lua" />
+	</local>
+	<external />
+</resources>

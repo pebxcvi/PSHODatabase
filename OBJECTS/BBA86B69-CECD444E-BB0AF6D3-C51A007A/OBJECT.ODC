@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.80.0.53.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>BBA86B69-CECD444E-BB0AF6D3-C51A007A</uuid>
+  <name lang="en-GB" default="true">Park Pretzel Cart Reward</name>
+  <name lang="fr-FR" default="false">Trophée chariot à bretzel du parc</name>
+  <name lang="de-DE" default="false">Park-Brezelwagen zur Belohnung</name>
+  <name lang="it-IT" default="false">Premio Carretto dei pretzel del Parco</name>
+  <name lang="es-ES" default="false">Premio Carrito de pretzels del parque</name>
+  <description lang="en-GB" default="true">A Pretzel Cart furniture item.\nRewarded in Acorn Meadows Park for completing the challenge 'Pretzel Connoisseur'. [#Legal]</description>
+  <description lang="fr-FR" default="false">Un chariot à bretzel.\nÀ gagner dans le parc Acorn Meadows en remportant le défi « Connaisseur de bretzel ». [#Legal]</description>
+  <description lang="de-DE" default="false">Ein Park-Brezelwagen-Ausstattungsstück.\nBelohnung in Acorn Meadows Park für die gemeisterte Herausforderung 'Zuckerwatten-Kenner'. [#Legal]</description>
+  <description lang="it-IT" default="false">Articolo accessorio con Carretto dei pretzel.\nPremiato su Acorn Meadows Park per aver completato la sfida "Esperto di pretzel". [#Legal]</description>
+  <description lang="es-ES" default="false">Artículo de mobiliario, un carrito de pretzels.\nRecompensa en el Parque de Campo Bellotas por completar el reto "Aficionado a los pretzels". [#Legal]</description>
+  <maker lang="en-GB" default="true">VEEMEE</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T033.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T033.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T033.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>4E056D92</timestamp>
+</odc>

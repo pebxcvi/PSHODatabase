@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="stand_mdl" deferred_loading="false" file="environments/pr_area_51/stand.mdl" />
+		<model name="stage_stand_mdl" deferred_loading="false" file="environments/pr_area_51/stage_stand.mdl" />
+		<model name="camera_mdl" deferred_loading="false" file="environments/pr_area_51/camera.mdl" />
+		<model name="flyer_mdl" deferred_loading="false" file="environments/pr_area_51/flyer.mdl" />
+		<model name="hotel_receipt_mdl" deferred_loading="false" file="environments/pr_area_51/hotel_receipt.mdl" />
+		<model name="photo_mdl" deferred_loading="false" file="environments/pr_area_51/photo.mdl" />
+		<model name="coffee_cup_mdl" deferred_loading="false" file="environments/pr_area_51/coffee_cup.mdl" />
+		<model name="grey_hair_mdl" deferred_loading="false" file="environments/pr_area_51/grey_hair.mdl" />
+		<model name="inhaler_mdl" deferred_loading="false" file="environments/pr_area_51/inhaler.mdl" />
+		<model name="leather_material_mdl" deferred_loading="false" file="environments/pr_area_51/leather_material.mdl" />
+		<model name="newspaper_mdl" deferred_loading="false" file="environments/pr_area_51/newspaper.mdl" />
+		<model name="pill_container_mdl" deferred_loading="false" file="environments/pr_area_51/pill_container.mdl" />
+		<model name="raincoat_material_mdl" deferred_loading="false" file="environments/pr_area_51/raincoat_material.mdl" />
+		<model name="red_cotton_mdl" deferred_loading="false" file="environments/pr_area_51/red_cotton.mdl" />
+		<texture name="HeavyRain_info_panel_dds" deferred_loading="false" file="Scripts/HeavyRain/images/panels/PanelSmall01.dds" />
+		<texture name="HeavyRain_question_panel_dds" deferred_loading="false" file="Scripts/HeavyRain/images/panels/PanelLarge.dds" />
+		<texture name="CameraOverlay_dds" deferred_loading="false" file="Scripts/HeavyRain/images/CameraOverlay.dds" />
+		<texture name="Film_dds" deferred_loading="false" file="Scripts/HeavyRain/images/Film.dds" />
+		<file name="Constants_lua" deferred_loading="false" file="Scripts/HeavyRain/Constants.lua" />
+		<file name="HeavyRain_lua" deferred_loading="false" file="Scripts/HeavyRain/HeavyRain.lua" />
+		<file name="Physics_lua" deferred_loading="false" file="Scripts/HeavyRain/Physics.lua" />
+		<file name="Util_lua" deferred_loading="false" file="Scripts/HeavyRain/Util.lua" />
+		<file name="Soundbank_Manager_lua" deferred_loading="false" file="Scripts/HeavyRain/Soundbank_Manager.lua" />
+		<collision name="stand_hkx" deferred_loading="false" file="environments/pr_area_51/stand.hkx" />
+		<collision name="stage_stand_hkx" deferred_loading="false" file="environments/pr_area_51/stage_stand.hkx" />
+		<collision name="camera_hkx" deferred_loading="false" file="environments/pr_area_51/camera.hkx" />
+		<soundbank name="Heavy_Rain_Audio_bnk" deferred_loading="false" file="Scripts/HeavyRain/audio/Heavy_Rain_Camera.bnk" />
+	</local>
+	<external />
+</resources>

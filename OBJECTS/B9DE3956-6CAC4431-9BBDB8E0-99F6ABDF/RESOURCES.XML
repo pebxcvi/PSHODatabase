@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="AudiVRun_ChevronBlue" deferred_loading="false" file="MiniGames/AudiVRun/Models/AudiVRun_ChevronBlue.mdl" />
+		<model name="AudiVRun_ChevronOrange" deferred_loading="false" file="MiniGames/AudiVRun/Models/AudiVRun_ChevronOrange.mdl" />
+		<model name="AudiVRun_PowerUp" deferred_loading="false" file="MiniGames/AudiVRun/Models/AudiVRun_PowerUp.mdl" />
+		<model name="audivrun_etron" deferred_loading="false" file="MiniGames/AudiVRun/Models/AudiVRun_DetroitEtron.mdl" />
+		<model name="audivrun_etronshadow" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_etronshadow.mdl" />
+		<model name="AudiVRun_Bubble" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_bubble.mdl" />
+		<model name="audivrun_slotred" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_slotred.mdl" />
+		<model name="audivrun_slotgreen" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_slotgreen.mdl" />
+		<model name="audivrun_slotamber" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_slotamber.mdl" />
+		<model name="audivrun_etronelectrify_model" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_etronelectrify.mdl" />
+		<texture name="audivrun_hud_timer_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_timer_c.dds" />
+		<texture name="audivrun_hud_boost_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_boost_c.dds" />
+		<texture name="audivrun_hud_boost_icon_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_boost_icon_c.dds" />
+		<texture name="audivrun_hud_height_mark_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_height_mark_c.dds" />
+		<texture name="audivrun_hud_car_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_car_c.dds" />
+		<texture name="audivrun_hud_cup_icon_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_cup_icon_c.dds" />
+		<texture name="audivrun_hud_launch_main_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_launch_main_c.dds" />
+		<texture name="audivrun_hud_launch_sec_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_launch_sec_c.dds" />
+		<texture name="audivrun_hud_player_mark_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_player_mark_c.dds" />
+		<texture name="audivrun_hud_speed_dial_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_speed_dial_c.dds" />
+		<texture name="audivrun_hud_speed_main_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_speed_main_c.dds" />
+		<texture name="audivrun_hud_speed_sec_c" deferred_loading="true" file="MiniGames/AudiVRun/Textures/audivrun_hud_speed_sec_c.dds" />
+		<texture name="number3" deferred_loading="true" file="MiniGames/AudiVRun/Textures/3.dds" />
+		<texture name="number2" deferred_loading="true" file="MiniGames/AudiVRun/Textures/2.dds" />
+		<texture name="number1" deferred_loading="true" file="MiniGames/AudiVRun/Textures/1.dds" />
+		<particle name="HAZARD" deferred_loading="false" file="ATGParticles/Generic/Efx/HAZARD.efx" />
+		<particle name="STREAKS" deferred_loading="false" file="ATGParticles/Generic/Efx/STREAKS.efx" />
+		<particle name="CONTRAILS" deferred_loading="false" file="ATGParticles/Generic/Efx/CONTRAILS.efx" />
+		<particle name="SPARKS" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/SPARKS.efx" />
+		<file name="Network_xml" deferred_loading="false" file="MiniGames/AudiVRun/Network.xml" />
+		<file name="OSDwaiting" deferred_loading="false" file="MiniGames/AudiVRun/OSD/waiting.xml" />
+		<file name="OSDtypes" deferred_loading="false" file="MiniGames/AudiVRun/OSD/types.xml" />
+		<anim name="audivrun_etronelectrify_anim" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_etronelectrify.ani" />
+		<skeleton name="audivrun_etronelectrify_skel" deferred_loading="false" file="MiniGames/AudiVRun/Models/audivrun_etronelectrify.skn" />
+		<soundbank name="AudiVRunSoundBank" deferred_loading="false" file="MiniGames/AudiVRun/sounds/AudiVRun.bnk" memory="host" />
+		<lua name="VerticalRun Script" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/VerticalRun.lua" />
+		<lua name="ScreenFader" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/ScreenFader.lua" />
+		<lua name="List" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/List.lua" />
+		<lua name="VerticalRunFSM" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/VerticalRunFSM.lua" />
+		<lua name="Racer" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/Racer.lua" />
+		<lua name="CRSpline" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/CRSpline.lua" />
+		<lua name="SplineData" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/SplineData.lua" />
+		<lua name="Audi_ScoreUtils" deferred_loading="false" protected="true" file="Scripts/Audi_ScoreUtils.lua" />
+		<lua name="VRHiScore" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/VRHiScore.lua" />
+		<lua name="HUD" deferred_loading="false" protected="true" file="MiniGames/AudiVRun/HUD.lua" />
+	</local>
+	<external />
+</resources>

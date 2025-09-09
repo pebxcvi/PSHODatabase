@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Tele_Port_a_Potty.mdl" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_a_Potty.mdl" />
+		<model name="Tele_Port_A_Potty_Door_Close.mdl" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_A_Potty_Door_Close.mdl" />
+		<collision name="Tele_Port_a_Potty.hkx" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_a_Potty.hkx" />
+		<anim name="Tele_Port_A_Potty_Door_open.ani" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_A_Potty_Door_open.ani" />
+		<anim name="Tele_Port_A_Potty_Door_Close.ani" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_A_Potty_Door_Close.ani" />
+		<anim name="Tele_Port_A_Potty_Door_Close_idle.ani" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_A_Potty_Door_Close_idle.ani" />
+		<skeleton name="Tele_Port_A_Potty_Door_open.skn" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_A_Potty_Door_open.skn" />
+		<skeleton name="Tele_Port_A_Potty_Door_Close.skn" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Models/Tele_Port_A_Potty_Door_Close.skn" />
+		<soundbank name="PortAPotty.bnk" deferred_loading="false" protected="false" file="MiniGames/TeleportAPotty/Sound/PortAPotty.bnk" />
+		<lua name="System.lua" deferred_loading="false" protected="true" file="MiniGames/TeleportAPotty/Source/System.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/TeleportAPotty/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/TeleportAPotty/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/TeleportAPotty/Source/Game.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/TeleportAPotty/Source/Main.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/TeleportAPotty/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/TeleportAPotty/Source/Player.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Halloween Fancy Dress Costume</name>
+		<description type="string">description</description>
+		<author type="string">Lockwood</author>
+		<object_version type="string" />
+		<company type="string">Sodium - Lockwood</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+		</legal>
+	</header>
+</objectdef>
