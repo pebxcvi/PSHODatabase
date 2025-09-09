@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.70.0.93.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>68A04141-B6B0495B-BD0D5FC4-18A77E6A</uuid>
+  <name lang="ja-JP" default="false">宝の地図</name>
+  <name lang="ko-KR" default="false">보물 지도</name>
+  <name lang="en-SG" default="false">Treasure Map</name>
+  <name lang="zh-HK" default="false">寶藏圖</name>
+  <name lang="zh-TW" default="false">寶藏圖</name>
+  <description lang="ja-JP" default="false">古ぼけた宝の地図。[#Legal]</description>
+  <description lang="ko-KR" default="false">낡아서 바랜 보물 지도. [#Legal]</description>
+  <description lang="en-SG" default="false">An old, weathered treasure map. [#Legal]</description>
+  <description lang="zh-HK" default="false">古舊寶藏圖。[#Legal]</description>
+  <description lang="zh-TW" default="false">古舊寶藏圖。[#Legal]</description>
+  <maker lang="en-GB" default="true">Granzella Inc.</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>C9F81FB7</timestamp>
+</odc>

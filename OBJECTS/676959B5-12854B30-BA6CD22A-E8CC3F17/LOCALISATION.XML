@@ -1,0 +1,806 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="en-GB">会話</LANG>
+    <LANG ID="fr-FR">会話</LANG>
+    <LANG ID="de-DE">会話</LANG>
+    <LANG ID="it-IT">会話</LANG>
+    <LANG ID="es-ES">会話</LANG>
+    <LANG ID="ja-JP">会話</LANG>
+    <LANG ID="ko-KR">会話</LANG>
+    <LANG ID="en-SG">会話</LANG>
+    <LANG ID="zh-HK">会話</LANG>
+    <LANG ID="zh-TW">会話</LANG>
+    <LANG ID="en-US">会話</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="en-GB">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="fr-FR">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="de-DE">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="it-IT">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="es-ES">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="ja-JP">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="ko-KR">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="en-SG">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="zh-HK">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="zh-TW">繁華街NPCコントローラー [#Legal]</LANG>
+    <LANG ID="en-US">繁華街NPCコントローラー [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LoadFailed</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">あれ？おまえさんのデータが読み込めないぞ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">MenuLegend</LANG>
+    <LANG ID="en-GB">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="fr-FR">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="de-DE">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="it-IT">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="es-ES">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="ja-JP">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="ko-KR">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="en-SG">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="zh-HK">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="zh-TW">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+    <LANG ID="en-US">[UP][DOWN] 選択 [ACCEPT] 決定 [DECLINE] キャンセル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Legend</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">[ACCEPT]次へ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+<!--　コメント　-->
+<!--　各エンティティに対して各国で表示される文字列を定義する　-->
+
+<!--　黒服1　ディスコ１Ｆ　-->
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_kurofuku_01_Name</LANG>
+    <LANG ID="en-GB">黒服の男</LANG>
+    <LANG ID="fr-FR">黒服の男</LANG>
+    <LANG ID="de-DE">黒服の男</LANG>
+    <LANG ID="it-IT">黒服の男</LANG>
+    <LANG ID="es-ES">黒服の男</LANG>
+    <LANG ID="ja-JP">黒服の男</LANG>
+    <LANG ID="ko-KR">黒服の男</LANG>
+    <LANG ID="en-SG">黒服の男</LANG>
+    <LANG ID="zh-HK">黒服の男</LANG>
+    <LANG ID="zh-TW">黒服の男</LANG>
+    <LANG ID="en-US">黒服の男</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_kurofuku_01_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">もうしわけありませんが　こちらは準備中となっております\n今日のところは　２階にてお遊びください</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+
+<!--　黒服２　ディスコ２Ｆ　-->
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_kurofuku_02_Name</LANG>
+    <LANG ID="en-GB">黒服の男</LANG>
+    <LANG ID="fr-FR">黒服の男</LANG>
+    <LANG ID="de-DE">黒服の男</LANG>
+    <LANG ID="it-IT">黒服の男</LANG>
+    <LANG ID="es-ES">黒服の男</LANG>
+    <LANG ID="ja-JP">黒服の男</LANG>
+    <LANG ID="ko-KR">黒服の男</LANG>
+    <LANG ID="en-SG">黒服の男</LANG>
+    <LANG ID="zh-HK">黒服の男</LANG>
+    <LANG ID="zh-TW">黒服の男</LANG>
+    <LANG ID="en-US">黒服の男</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_kurofuku_02_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">こちらへの立ち入りは　ご遠慮いただいております</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+ 
+ 
+ <!--　黒服３サロン入口右側　-->
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_kurofuku_03_Name</LANG>
+    <LANG ID="en-GB">黒服の男</LANG>
+    <LANG ID="fr-FR">黒服の男</LANG>
+    <LANG ID="de-DE">黒服の男</LANG>
+    <LANG ID="it-IT">黒服の男</LANG>
+    <LANG ID="es-ES">黒服の男</LANG>
+    <LANG ID="ja-JP">黒服の男</LANG>
+    <LANG ID="ko-KR">黒服の男</LANG>
+    <LANG ID="en-SG">黒服の男</LANG>
+    <LANG ID="zh-HK">黒服の男</LANG>
+    <LANG ID="zh-TW">黒服の男</LANG>
+    <LANG ID="en-US">黒服の男</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_kurofuku_03_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">こちらの階段は　従業員専用となっております\nそちらの入口から　店内へお入りください</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+<!--　リーマン　立ち飲み～ディスコの間　-->  
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_saraly_01_Name</LANG>
+    <LANG ID="en-GB">仕事帰りのサラリーマン</LANG>
+    <LANG ID="fr-FR">仕事帰りのサラリーマン</LANG>
+    <LANG ID="de-DE">仕事帰りのサラリーマン</LANG>
+    <LANG ID="it-IT">仕事帰りのサラリーマン</LANG>
+    <LANG ID="es-ES">仕事帰りのサラリーマン</LANG>
+    <LANG ID="ja-JP">仕事帰りのサラリーマン</LANG>
+    <LANG ID="ko-KR">仕事帰りのサラリーマン</LANG>
+    <LANG ID="en-SG">仕事帰りのサラリーマン</LANG>
+    <LANG ID="zh-HK">仕事帰りのサラリーマン</LANG>
+    <LANG ID="zh-TW">仕事帰りのサラリーマン</LANG>
+    <LANG ID="en-US">仕事帰りのサラリーマン</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_saraly_01_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">最近　バーテンダーの人たちも　ユニフォームを\nビシッと決めはじめてさ\nやっぱ　気分も出るし　カッコいいよね！</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_saraly_01_Message02</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">こりゃ　これまで以上に\nいろんなお店で　盛り上がっていかなきゃな！</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_saraly_01_Message03</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">…でも　こづかいの　やりくり問題は\nますます　深刻度を増すばかりさ…</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>  
+ 
+  
+  
+<!--　ヤングレディ　スマボ～ゲーセンの間　--> 
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_f_younglady_01_Name</LANG>
+    <LANG ID="en-GB">ヤングレディ</LANG>
+    <LANG ID="fr-FR">ヤングレディ</LANG>
+    <LANG ID="de-DE">ヤングレディ</LANG>
+    <LANG ID="it-IT">ヤングレディ</LANG>
+    <LANG ID="es-ES">ヤングレディ</LANG>
+    <LANG ID="ja-JP">ヤングレディ</LANG>
+    <LANG ID="ko-KR">ヤングレディ</LANG>
+    <LANG ID="en-SG">ヤングレディ</LANG>
+    <LANG ID="zh-HK">ヤングレディ</LANG>
+    <LANG ID="zh-TW">ヤングレディ</LANG>
+    <LANG ID="en-US">ヤングレディ</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_f_younglady_01_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">あ～ん　クレーンゲームのぬいぐるみに\n新しいシリーズが入っちゃってるよぉ～\n今度のもカワイイから　全部集めなきゃなんない…\nまた　いそがしくなっちゃうよ～</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_f_younglady_01_Message02</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">写真も　まだまだいっぱい撮りたいし\nアーケードゲームが上手な人も募集中だし…</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_f_younglady_01_Message03</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">あ～　ホントもう　大いそがし！\nこのまんまじゃ　私　倒れちゃうよ～（泣）</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  
+  
+  
+  
+  
+  
+<!--　巡回員　ピンク街入口　--> 
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_patrol_01_Name</LANG>
+    <LANG ID="en-GB">巡回員</LANG>
+    <LANG ID="fr-FR">巡回員</LANG>
+    <LANG ID="de-DE">巡回員</LANG>
+    <LANG ID="it-IT">巡回員</LANG>
+    <LANG ID="es-ES">巡回員</LANG>
+    <LANG ID="ja-JP">巡回員</LANG>
+    <LANG ID="ko-KR">巡回員</LANG>
+    <LANG ID="en-SG">巡回員</LANG>
+    <LANG ID="zh-HK">巡回員</LANG>
+    <LANG ID="zh-TW">巡回員</LANG>
+    <LANG ID="en-US">巡回員</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_patrol_01_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">あなたには　こちら側はまだ早いようです…</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  
+
+<!--　スマボ場店員　--> 
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_staff_01_Name</LANG>
+    <LANG ID="en-GB">スマートボール好きの若者</LANG>
+    <LANG ID="fr-FR">スマートボール好きの若者</LANG>
+    <LANG ID="de-DE">スマートボール好きの若者</LANG>
+    <LANG ID="it-IT">スマートボール好きの若者</LANG>
+    <LANG ID="es-ES">スマートボール好きの若者</LANG>
+    <LANG ID="ja-JP">スマートボール好きの若者</LANG>
+    <LANG ID="ko-KR">スマートボール好きの若者</LANG>
+    <LANG ID="en-SG">スマートボール好きの若者</LANG>
+    <LANG ID="zh-HK">スマートボール好きの若者</LANG>
+    <LANG ID="zh-TW">スマートボール好きの若者</LANG>
+    <LANG ID="en-US">スマートボール好きの若者</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_staff_01_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">どうっスか！　今回の新台は「キカイマシーン帝国襲来」！\n気軽に遊べて　サクッと打ち止め！　チョーおすすめっスよ！\n１プレイ　ＧＺチケット１枚で　あそべるっス！</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_staff_01_Message02</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">玉がなくなったら　△ボタンで玉の追加ができるっス！\nＧＺチケット１枚で　25玉追加されるっス！</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_staff_01_Message03</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">たくさん出たら　×ボタンで玉をハッピーポイントに交換できるっス！</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_staff_01_Message04</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">あと　今回から「自動打ち出し機能」もついたんで！\nよかったら　ためしてみてほしいっス！</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  
+<!--　料理の鬼　--> 
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Name</LANG>
+    <LANG ID="en-GB">料理の鬼</LANG>
+    <LANG ID="fr-FR">料理の鬼</LANG>
+    <LANG ID="de-DE">料理の鬼</LANG>
+    <LANG ID="it-IT">料理の鬼</LANG>
+    <LANG ID="es-ES">料理の鬼</LANG>
+    <LANG ID="ja-JP">料理の鬼</LANG>
+    <LANG ID="ko-KR">料理の鬼</LANG>
+    <LANG ID="en-SG">料理の鬼</LANG>
+    <LANG ID="zh-HK">料理の鬼</LANG>
+    <LANG ID="zh-TW">料理の鬼</LANG>
+    <LANG ID="en-US">料理の鬼</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">見ない顔だな　なにか聞きたいのか？</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message02</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">この街へきたら　オカーネがないと話がはじまらん\nハッピーになるには　まずオカーネがないとな…</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message03</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">オカーネをかせぐには　いろんな店で「店主」をやればいい\nまぁ　働かざる者なんとやら…ってやつだな</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message04</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">いきなり店主といわれても　勝手がわからんだろう\nそこで練習できるから　とりあえずやってみるといい</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message05</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">オカーネをかせいだら　今度は自分がお客さんになって\nいろんな店で　オカーネを使うんだ\nしみったれてちゃダメだ　景気よくいけよ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message06</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">どんどんオカーネを使っていけば\nお前さん自身　どんどん幸せになって\n「ハッピーポイント」が　どんどんたまっていくぞ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message07</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">ハッピーポイントがたくさんたまったら\n「よろず屋　奇天烈堂」をのぞいてみろ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message09</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">いいものが 見つかるといいがな</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message10</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">店主をやる時には　料理人としてのウデをしめす\n「熟練度」ってのがキモになるぞ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message11</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">熟練度が上がれば　お客さんにいい物を出せて\nよりハッピーになってもらえる</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message13</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">喜んだお客さんは\nきっと　お前さんのことを高く評価してくれるはずだ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  
+  
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message12</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">熟練度を上げるには\nとにかくたくさん料理を出して　たくさん評価してもらう！\nこれしかねぇ　精進あるのみだ</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+ 
+
+
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message14</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">「調理スキル」や「バーテンダースキル」が高いと\nお客さんが　少し評価をオマケしてくれる事もある</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message15</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">いろんな料理のウデをふるうにあたって\nそれなりの服装をしていれば\nお客さんに　いい印象を与えるってわけだな</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message16</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">調理スキル・バーテンダースキルは　身につける衣装で変化する\nまぁ　気にしすぎることもないが\n余裕ができたら　いろんな服をためしてみるといい</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message17</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">調理スキルは「おでん屋」「のみ処 りゅうた」\nバーテンダースキルは「ダンスゴーゴーファイヤ」\n「サロン・ド・グランゼーラ」で効果がある　使い分けてみるといい</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Message08</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">ふぅむ　俺が見たところ　お前さんの熟練度は…\nおでん屋：レベル %d　立ち飲み屋：レベル %d\nゴーゴーファイヤのバーテンダー：レベル %d　\nサロンのバーテンダー：レベル %d　\n調理スキルは %d　バーテンダースキルは %d　…ってとこだな</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+
+
+
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Select01</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">オカーネがないんだけど？</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Select02</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">オカーネをかせいだら？</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Select03</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">熟練度ってなに？</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Select04</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">調理・バーテンダースキルってなに？</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+  
+  <PHRASE>
+    <LANG ID="REF">NPC_m_oni_01_Select05</LANG>
+    <LANG ID="en-GB">*Not Localised*</LANG>
+    <LANG ID="fr-FR">*Not Localised*</LANG>
+    <LANG ID="de-DE">*Not Localised*</LANG>
+    <LANG ID="it-IT">*Not Localised*</LANG>
+    <LANG ID="es-ES">*Not Localised*</LANG>
+    <LANG ID="ja-JP">今の私の状態は？</LANG>
+    <LANG ID="ko-KR">*Not Localised*</LANG>
+    <LANG ID="en-SG">*Not Localised*</LANG>
+    <LANG ID="zh-HK">*Not Localised*</LANG>
+    <LANG ID="zh-TW">*Not Localised*</LANG>
+    <LANG ID="en-US">*Not Localised*</LANG>
+  </PHRASE>
+
+
+  
+</LOCALISATION>

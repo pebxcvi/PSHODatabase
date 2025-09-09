@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/FP_Cow_Locomotion/model/Cow_companion_Walk.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/FP_Cow_Locomotion/file/config.xml" memory="host" />
+		<anim name="Cow_companion_Idle_5" deferred_loading="false" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/Cow_companion_Idle_5.ani" />
+		<anim name="Default_Start" deferred_loading="false" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/Default_Start.ani" />
+		<anim name="Cow_companion_Walk.ani" deferred_loading="false" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/Cow_companion_Walk.ani" />
+		<anim name="Default_Start_Idle" deferred_loading="false" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/Default_Start_Idle.ani" />
+		<anim name="FP_Cow_Locomotion_left" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_left.ani" />
+		<anim name="FP_Cow_Locomotion_move" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_move.ani" />
+		<anim name="FP_Cow_Locomotion_right" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_right.ani" />
+		<anim name="FP_Cow_Locomotion_Idle" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_Idle.ani" />
+		<anim name="FP_Cow_Locomotion_Female_Right" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_Female_Right.ani" memory="host" />
+		<anim name="FP_Cow_Locomotion_Female_Left" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_Female_Left.ani" memory="host" />
+		<anim name="FP_Cow_Locomotion_Female_walk" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_Female_walk.ani" memory="host" />
+		<anim name="FP_Cow_Locomotion_Female_Idle" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/anim/FP_Cow_Locomotion_Female_Idle.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/skeleton/Cow_companion_Walk.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Cow_Locomotion/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/FP_Cow_Locomotion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/musicgroup_tikibar/MusicGroup_TikiBar.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/musicgroup_tikibar/Network.xml" />
+		<file name="tikibar_songlist.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/musicgroup_tikibar/tikibar_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/musicgroup_tikibar/MusicGroup_TikiBar.hkx" />
+		<soundstream name="01_Drinks_with_Umbrellas_Extended_Mix.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/musicgroup_tikibar/sound/01_Drinks_with_Umbrellas_Extended_Mix.mp3" />
+		<soundstream name="02_Drinks_with_Umbrellas.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/musicgroup_tikibar/sound/02_Drinks_with_Umbrellas.mp3" />
+		<lua name="MusicPlayer.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/musicgroup_tikibar/programming/MusicPlayer.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/musicgroup_tikibar/programming/MyPad.lua" />
+		<lua name="Tikibar_Main.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/musicgroup_tikibar/programming/Tikibar_Main.lua" />
+	</local>
+	<external />
+</resources>

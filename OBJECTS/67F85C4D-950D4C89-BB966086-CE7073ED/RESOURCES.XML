@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/cutt_demonic_ottoman/CUTT_Demonic_Ottoman_01.mdl" memory="host" />
+    <model name="Werewolf_RIG.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/hall13_werewolf_companion/Werewolf_RIG.mdl" memory="host" />
+    <model name="MINIBOTS_spookyTree.mdl" deferred_loading="false" protected="false" file="furniture/minibots_spookytree/MINIBOTS_spookyTree.mdl" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/minib_minibot_builder/MINIB_MiniBot_Builder.hkx" memory="host" />
+    <collision name="safevolume.hkx" deferred_loading="false" protected="false" file="furniture/hall13_tombstones/MiniMonster_SAFEVOLUME.safevolume.hkx" memory="host" />
+    <collision name="Monster_Companion_Collider.hkx" deferred_loading="false" protected="false" file="CompanionFollowers/hall13_zombie_companion/Monster_Companion_Collider.hkx" memory="host" />
+    <anim name="Werewolf_Howl.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hall13_werewolf_companion/Werewolf_Howl.ani" memory="host" />
+    <anim name="Werewolf_Idle01.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hall13_werewolf_companion/Werewolf_Idle01.ani" memory="host" />
+    <anim name="Werewolf_scratch.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hall13_werewolf_companion/Werewolf_scratch.ani" memory="host" />
+    <anim name="Werewolf_Walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hall13_werewolf_companion/Werewolf_Walk.ani" memory="host" />
+    <skeleton name="Werewolf_RIG.skn" deferred_loading="false" protected="false" file="CompanionFollowers/hall13_werewolf_companion/Werewolf_RIG.skn" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/minib_bots_active/utility.luac" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/hall13_wolf_spawner/lua/main.luac" memory="host" />
+    <lua name="Wolf.lua" deferred_loading="false" protected="true" file="furniture/hall13_wolf_spawner/lua/wolf.luac" memory="host" />
+  </local>
+  <external />
+</resources>

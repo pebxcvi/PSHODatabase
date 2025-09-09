@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="minigames/activeobjects/Telepads/models/base.mdl" />
+		<model name="telePad.mdl" deferred_loading="false" protected="false" file="minigames/activeobjects/assets/models/telePad.mdl" />
+		<model name="telePad_a.mdl" deferred_loading="false" protected="false" file="minigames/activeobjects/assets/models/telePad_a.mdl" />
+		<model name="telePad_b.mdl" deferred_loading="false" protected="false" file="minigames/activeobjects/assets/models/telePad_b.mdl" />
+		<model name="telePad_glow.mdl" deferred_loading="false" protected="false" file="minigames/activeobjects/assets/models/telePad_glow.mdl" />
+		<texture name="guiBarEnd.dds" deferred_loading="false" protected="false" file="MiniGames/ActiveObjects/assets/textures/guiBarEnd.dds" />
+		<texture name="guiMiddleBar.dds" deferred_loading="false" protected="false" file="MiniGames/ActiveObjects/assets/textures/guiMiddleBar.dds" />
+		<particle name="telepad_send.efx" deferred_loading="false" protected="false" file="MiniGames/ActiveObjects/assets/effects/telepad_send.efx" />
+		<xml name="network_defs.xml" deferred_loading="false" protected="false" file="MiniGames/ActiveObjects/Telepads/network_defs.xml" />
+		<collision name="telepad_sphere.hkx" deferred_loading="false" protected="false" file="minigames/activeobjects/assets/models/telepad_sphere.hkx" />
+		<collision name="telepadc.hkx" deferred_loading="false" protected="false" file="minigames/activeobjects/assets/models/telepadc.hkx" />
+		<collision name="cylinderc.hkx" deferred_loading="false" protected="false" file="MiniGames/ActiveObjects/Telepads/models/cylinderc.hkx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="minigames/activeobjects/Telepads/models/base.hkx" />
+		<soundbank name="telepad_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/ActiveObjects/Telepads/soundbank/telepad_sounds.bnk" />
+		<lua name="Applet_StandAloneContainer.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/AppletSys/Applet_StandAloneContainer.lua" />
+		<lua name="PadControl.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/PadControl.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/NetLib.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/Misc.lua" />
+		<lua name="startup.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Telepads/startup.lua" />
+		<lua name="ap_telepads_main.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Telepads/ap_telepads_main.lua" />
+		<lua name="ap_telepads_register.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Telepads/ap_telepads_register.lua" />
+		<lua name="telepad.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Telepads/telepad.lua" />
+		<lua name="telepadFx.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Telepads/telepadFx.lua" />
+		<lua name="modelMover.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Telepads/modelMover.lua" />
+		<lua name="Misc_table.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/Misc_table.lua" />
+		<lua name="Misc_maths.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/Misc_maths.lua" />
+		<lua name="Misc_extra.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/Misc_extra.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/Jamin.lua" />
+		<lua name="OHS_Stat.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/OHS_Stat.lua" />
+		<lua name="vDampener.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/vDampener.lua" />
+		<lua name="qEntity.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/qEntity.lua" />
+		<lua name="FSM.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/FSM.lua" />
+		<lua name="FxSys.lua" deferred_loading="false" protected="true" file="MiniGames/ActiveObjects/Shared/FxSys.lua" />
+	</local>
+	<external />
+</resources>

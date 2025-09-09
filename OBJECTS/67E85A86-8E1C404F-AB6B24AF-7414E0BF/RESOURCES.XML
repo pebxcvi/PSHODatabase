@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="KEV_hammer.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/KEV_hammer.mdl" memory="main" />
+		<model name="Virus_01.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_01.mdl" memory="main" />
+		<model name="Virus_02.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_02.mdl" memory="main" />
+		<model name="Virus_03.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_03.mdl" memory="main" />
+		<model name="DNA_01a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_01a.mdl" memory="main" />
+		<model name="DNA_02a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_02a.mdl" memory="main" />
+		<model name="DNA_03a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_03a.mdl" memory="main" />
+		<model name="KEV_net.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/KEV_net.mdl" memory="main" />
+		<model name="item_02.mdl" deferred_loading="false" protected="false" file="furniture/board/item_02.mdl" memory="main" />
+		<model name="KEV_shadow.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/KEV_shadow.mdl" memory="main" />
+		<model name="E_fever.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/E_fever.mdl" memory="main" />
+		<model name="F_fever.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/F_fever.mdl" memory="main" />
+		<model name="R_fever.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/R_fever.mdl" memory="main" />
+		<model name="V_fever.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/V_fever.mdl" memory="main" />
+		<model name="khv_line.mdl" deferred_loading="false" protected="false" file="furniture/kev_hammer/khv_line.mdl" memory="main" />
+		<texture name="tex_man_0h" deferred_loading="false" protected="false" file="MiniGames/US_hammer_virus/texture/tex_man_0h.dds" memory="main" />
+		<texture name="tex_score" deferred_loading="false" protected="false" file="MiniGames/US_hammer_virus/texture/tex_score.dds" memory="main" />
+		<texture name="levelup" deferred_loading="false" protected="false" file="MiniGames/US_hammer_virus/texture/levelup.dds" memory="main" />
+		<texture name="num00" deferred_loading="false" protected="false" file="MiniGames/US_hammer_virus/texture/num00.dds" memory="main" />
+		<texture name="hud_00" deferred_loading="false" protected="false" file="MiniGames/US_hammer_virus/texture/hud_00.dds" memory="main" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/US_hammer_virus/file/Network.xml" memory="main" />
+		<soundbank name="khvSound" deferred_loading="false" protected="false" file="MiniGames/US_hammer_virus/sound/khvSound.bnk" memory="main" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/main.luac" memory="main" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript_US/all.luac" memory="main" />
+		<lua name="params.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/params.luac" memory="main" />
+		<lua name="libUnion.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/libUnion.luac" memory="main" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/pad.luac" memory="main" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/seqMgr.luac" memory="main" />
+		<lua name="gameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/gameMgr.luac" memory="main" />
+		<lua name="entity.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/entity/entity.luac" memory="main" />
+		<lua name="camera.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/camera.luac" memory="main" />
+		<lua name="player.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/entity/player.luac" memory="main" />
+		<lua name="stageHammer.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/stage/stageHammer.luac" memory="main" />
+		<lua name="hud.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/hud.luac" memory="main" />
+		<lua name="uvData.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/uvData.luac" memory="main" />
+		<lua name="osdLayer.lua" deferred_loading="false" protected="true" file="MiniGames/US_hammer_virus/lua/osdLayer.luac" memory="main" />
+	</local>
+	<external />
+</resources>

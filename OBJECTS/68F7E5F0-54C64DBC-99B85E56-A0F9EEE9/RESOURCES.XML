@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_CreepyCoffer.mdl" memory="host" />
+    <model name="HALL13_BrainJar.mdl" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_BrainJar.mdl" memory="host" />
+    <model name="HALL13_EyeJar.mdl" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_EyeJar.mdl" memory="host" />
+    <model name="HALL13_OwlPumpkin.mdl" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_OwlPumpkin.mdl" memory="host" />
+    <model name="HALL13_RubberSpider.mdl" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_RubberSpider.mdl" memory="host" />
+    <model name="HALL13_ScaryFacePumpkin.mdl" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_ScaryFacePumpkin.mdl" memory="host" />
+    <model name="HALL13_ZombieHand.mdl" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_ZombieHand.mdl" memory="host" />
+    <texture name="constructor_cangrab.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_cangrab.dds" memory="host" />
+    <texture name="Constructor_ItemLocked.png" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/Constructor_ItemLocked.png" memory="host" />
+    <texture name="constructor_movingitem.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_movingitem.dds" memory="host" />
+    <texture name="constructor_nothingselected.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_nothingselected.dds" memory="host" />
+    <texture name="HALL13_CreepyCoffer_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/HALL13_CreepyCoffer_128.png" memory="host" />
+    <texture name="CC_BrainJar_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/CC_BrainJar_128.png" memory="host" />
+    <texture name="CC_EyeJar_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/CC_EyeJar_128.png" memory="host" />
+    <texture name="CC_OwlPumpkin_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/CC_OwlPumpkin_128.png" memory="host" />
+    <texture name="CC_RubberSpider_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/CC_RubberSpider_128.png" memory="host" />
+    <texture name="CC_ScaryPumpkin_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/CC_ScaryPumpkin_128.png" memory="host" />
+    <texture name="CC_ZombieHand_128.png" deferred_loading="false" protected="false" file="thumbnails/HALL13/CC_ZombieHand_128.png" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_CreepyCoffer.hkx" memory="host" />
+    <collision name="Sprg13_Egghunt_Collider.hkx" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/models/Constructor_Collider.hkx" memory="host" />
+    <collision name="HALL13_BrainJar.hkx" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_BrainJar.hkx" memory="host" />
+    <collision name="HALL13_EyeJar.hkx" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_EyeJar.hkx" memory="host" />
+    <collision name="HALL13_OwlPumpkin.hkx" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_OwlPumpkin.hkx" memory="host" />
+    <collision name="HALL13_RubberSpider.hkx" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_RubberSpider.hkx" memory="host" />
+    <collision name="HALL13_ScaryFacePumpkin.hkx" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_ScaryFacePumpkin.hkx" memory="host" />
+    <collision name="HALL13_ZombieHand.hkx" deferred_loading="false" protected="false" file="furniture/hall13_creepycoffer/HALL13_ZombieHand.hkx" memory="host" />
+    <soundbank name="Bramblenook_UI.bnk" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/audio/Bramblenook_UI.bnk" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/minigame.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/utilities/pad.luac" memory="host" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/utilities/statemachine.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/utilities/utility.luac" memory="host" />
+    <lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/states/state_idle.luac" memory="host" />
+    <lua name="State_PlaceItems.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/states/state_placeitems.luac" memory="host" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/network/messagemanager.luac" memory="host" />
+    <lua name="Constructor.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/constructor/constructor.luac" memory="host" />
+    <lua name="Level.lua" deferred_loading="false" protected="true" file="furniture/farm_w_magicchest/lua/constructor/level.luac" memory="host" />
+    <lua name="LevelComponents.lua" deferred_loading="false" protected="true" file="furniture/hall13_creepycoffer/lua/constructor/levelcomponents.luac" memory="host" />
+  </local>
+  <external />
+</resources>

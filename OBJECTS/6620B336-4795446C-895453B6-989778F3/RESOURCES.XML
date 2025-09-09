@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/cutt_demonic_ottoman/CUTT_Demonic_Ottoman_01.mdl" />
+    <model name="Trumpet_for_Anim.mdl" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/Trumpet_for_Anim.mdl" />
+    <model name="XMAS13_Trumpet.mdl" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/XMAS13_Trumpet.mdl" />
+    <model name="XMAS13_Trumpet_JustTheStand.mdl" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/XMAS13_Trumpet_JustTheStand.mdl" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/file/Network.xml" />
+    <collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/XMAS13_Trumpet.hkx" />
+    <anim name="Female_TrumpetAnim.ani" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/anims/Female_TrumpetAnim.ani" memory="host" />
+    <anim name="Female_TrumpetAnim_Idle.ani" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/anims/Female_TrumpetAnim_Idle.ani" memory="main" />
+    <anim name="Male_TrumpetAnim.ani" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/anims/Male_TrumpetAnim.ani" memory="host" />
+    <anim name="Male_TrumpetAnim_Idle.ani" deferred_loading="false" protected="false" file="furniture/xmas13_trumpet/anims/Male_TrumpetAnim_Idle.ani" memory="main" />
+    <soundstream name="Guitar" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Lute.mp3" />
+    <soundstream name="Piano" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Piano.mp3" />
+    <soundstream name="Bass" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Bass.mp3" />
+    <soundstream name="Drums" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Drums.mp3" />
+    <soundstream name="Flute" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Flute.mp3" />
+    <soundstream name="Trumpet" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Trumpet.mp3" />
+    <soundstream name="JingleBells" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/JingleBells.mp3" />
+    <soundstream name="MaleCaroler" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/MaleCaroler.mp3" />
+    <soundstream name="FemaleCaroler" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/FemaleCaroler.mp3" />
+    <repertoire name="male" deferred_loading="true" protected="false" file="MiniGames/XMAS13_Active_Caroler/repertoire_Trumpet/male.xml" />
+    <repertoire name="female" deferred_loading="true" protected="false" file="MiniGames/XMAS13_Active_Caroler/repertoire_Trumpet/female.xml" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/xmas13_active_caroler/lua/minigame_trumpet.luac" />
+  </local>
+  <external />
+</resources>

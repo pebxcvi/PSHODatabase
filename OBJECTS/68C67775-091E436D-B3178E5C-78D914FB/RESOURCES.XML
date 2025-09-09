@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Fart_cloud.mdl" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/model/Fart_cloud.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Fartinator_8000/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fidle.ani" memory="host" />
+		<anim name="fCoughing_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fCoughing_Anim.ani" memory="host" />
+		<anim name="fLoudandProud_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fLoudandProud_Anim.ani" memory="host" />
+		<anim name="fSecretAgent_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fSecretAgent_Anim.ani" memory="host" />
+		<anim name="fSilentButDeadly_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/fSilentButDeadly_Anim.ani" memory="host" />
+		<anim name="mCoughing_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/mCoughing_Anim.ani" memory="host" />
+		<anim name="mLoudandProud_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/mLoudandProud_Anim.ani" memory="host" />
+		<anim name="mSecretAgent_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/mSecretAgent_Anim.ani" memory="host" />
+		<anim name="mSilentButDeadly_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/mSilentButDeadly_Anim.ani" memory="host" />
+		<anim name="mLegLift_Anim.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/anim/mLegLift_Anim.ani" memory="host" />
+		<anim name="Fart_cloud.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/model/Fart_cloud.ani" memory="host" />
+		<anim name="Fart_cloud_LegLift.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/model/Fart_cloud_LegLift.ani" memory="host" />
+		<anim name="Fart_cloud_loud.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/model/Fart_cloud_loud.ani" memory="host" />
+		<anim name="Fart_cloud_cough.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/model/Fart_cloud_cough.ani" memory="host" />
+		<anim name="Fart_cloud_Agent.ani" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/model/Fart_cloud_Agent.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/skeleton/board.skn" memory="host" />
+		<skeleton name="Fart_cloud.skn" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/model/Fart_cloud.skn" memory="host" />
+		<soundbank name="Fartinator.bnk" deferred_loading="true" protected="false" file="Audio/sfx/Fartinator.bnk" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Fartinator_8000/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Fartinator_8000/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
