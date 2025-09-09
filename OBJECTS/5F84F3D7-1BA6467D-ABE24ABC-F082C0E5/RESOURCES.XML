@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="minute_hand" file="MiniGames/farcry2_clock/models/FarCry2_Clock_MinuteHand.mdl" deferred_loading="false" />
+		<model name="clock_model" file="MiniGames/farcry2_clock/models/FarCry2_Clock_Base.mdl" deferred_loading="false" />
+		<file name="clock_script" file="MiniGames/farcry2_clock/clock.lua" deferred_loading="false" />
+		<file name="constants" file="MiniGames/farcry2_clock/constants.lua" deferred_loading="false" />
+		<collision name="FarCry2_Clock_Base.hkx" file="MiniGames/farcry2_clock/models/FarCry2_Clock_Base.hkx" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

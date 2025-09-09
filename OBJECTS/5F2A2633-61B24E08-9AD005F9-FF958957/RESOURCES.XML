@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="podium.mdl" deferred_loading="true" protected="false" file="Locomotion/podium/podium.mdl" />
+		<xml name="config.xml" deferred_loading="false" protected="false" file="Locomotion/podium/file/config.xml" memory="host" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="Locomotion/podium/run.ani" memory="host" />
+		<anim name="run_f.ani" deferred_loading="true" protected="false" file="Locomotion/podium/run_f.ani" memory="host" />
+		<anim name="idle_in_f.ani" deferred_loading="true" protected="false" file="Locomotion/podium/idle_in_f.ani" memory="main" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/podium/idle.ani" memory="main" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/podium/idle_f.ani" memory="main" />
+		<anim name="podium.ani" deferred_loading="true" protected="false" file="Locomotion/podium/podium.ani" />
+		<anim name="pose2.ani" deferred_loading="true" protected="false" file="Locomotion/podium/pose2.ani" memory="main" />
+		<anim name="idle_in.ani" deferred_loading="true" protected="false" file="Locomotion/podium/idle_in.ani" memory="host" />
+		<anim name="no_podium.ani" deferred_loading="true" protected="false" file="Locomotion/podium/no_podium.ani" />
+		<anim name="pose1" deferred_loading="true" protected="false" file="Locomotion/podium/pose1.ani" memory="host" />
+		<anim name="pose1_f" deferred_loading="true" protected="false" file="Locomotion/podium/pose1_f.ani" memory="host" />
+		<anim name="pose2_f" deferred_loading="true" protected="false" file="Locomotion/podium/pose2_f.ani" memory="host" />
+		<skeleton name="podium.skn" deferred_loading="true" protected="false" file="Locomotion/podium/podium.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/podium/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/podium/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/podium/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/podium/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Harajuku/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

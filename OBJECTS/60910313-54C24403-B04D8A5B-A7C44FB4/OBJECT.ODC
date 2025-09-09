@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.75.0.85.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>60910313-54C24403-B04D8A5B-A7C44FB4</uuid>
+  <name lang="en-GB" default="true">Park Bench Reward</name>
+  <name lang="fr-FR" default="false">Trophée Plage du parc</name>
+  <name lang="de-DE" default="false">Belohnung: Parkbank</name>
+  <name lang="it-IT" default="false">Premio Panchina del Parco</name>
+  <name lang="es-ES" default="false">Premio Banco del parque</name>
+  <description lang="en-GB" default="true">A park bench furniture item.\nRewarded in Acorn Meadows Park for completing the challenge 'Back Seat Biker'. [#Legal]</description>
+  <description lang="fr-FR" default="false">Un article plage du parc.\nÀ gagner dans le parc Acorn Meadows en remportant le défi « Passager vélo ». [#Legal]</description>
+  <description lang="de-DE" default="false">Parkobjekt Parkbank.\nBelohnung für den erfolgreichen Abschluss der Herausforderung "Fahrradmitfahrer". [#Legal]</description>
+  <description lang="it-IT" default="false">Articolo accessorio della panchina del parco.\nPremiato su Acorn Meadows Park per aver completato la sfida "Ciclista Passeggero". [#Legal]</description>
+  <description lang="es-ES" default="false">Artículo de mobiliario del parque, un banco.\nRecompensa en el Parque de Campo Bellotas por completar el reto "Ciclista en asiento trasero". [#Legal]</description>
+  <maker lang="en-GB" default="true">VEEMEE</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T034.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T034.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T034.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>7379392</timestamp>
+</odc>

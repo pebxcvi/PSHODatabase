@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/LED_Ticker.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/LEDTicker/Network.xml" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="MiniGames/LEDTicker/config_standard.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/LED_Ticker.hkx" />
+		<lua name="LEDTicker.lua" deferred_loading="false" protected="true" file="MiniGames/LEDTicker/LEDTicker.lua" />
+	</local>
+	<external />
+</resources>

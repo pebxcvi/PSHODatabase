@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.3.6.22.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>5FEAB5E3-966B4965-B31FA789-B2433BC7</uuid>
+  <name lang="en-GB" default="true">Audi A1 Reward</name>
+  <name lang="fr-FR" default="false">Récompense Audi A1</name>
+  <name lang="de-DE" default="false">Audi A1 Preis</name>
+  <name lang="it-IT" default="false">La ricompensa Audi A1</name>
+  <name lang="es-ES" default="false">Premio Audi A1</name>
+  <description lang="en-GB" default="true">The Audi A1 Trophy given as a reward for completing the Audi Windows game.</description>
+  <description lang="fr-FR" default="false">Le Trophée Audi A1 est attribué comme récompense pour avoir terminé le jeu Audi Windows.</description>
+  <description lang="de-DE" default="false">Die Audi A1 Trophäe als Preis für den Abschluss des Audi Windows Spiels.</description>
+  <description lang="it-IT" default="false">Il trofeo Audi A1 dato come ricompensa per aver completato il gioco Audi Windows.</description>
+  <description lang="es-ES" default="false">El Trofeo Audi A1 concedido como premio por completar el juego de Audi Windows</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T032.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T032.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T032.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="3" parental_control_level="2" />
+  </legal>
+  <timestamp>1324780F</timestamp>
+</odc>

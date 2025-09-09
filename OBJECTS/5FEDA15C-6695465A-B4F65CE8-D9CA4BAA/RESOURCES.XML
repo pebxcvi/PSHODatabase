@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_GEORGIA_man" file="environmentanimations/georgia_man/GEORGIA_man.mdl" deferred_loading="false" />
+		<file name="lua_mathx" file="Scripts/common/mathx.lua" deferred_loading="false" />
+		<file name="lua_misc" file="Scripts/common/misc.lua" deferred_loading="false" />
+		<file name="lua_time" file="Scripts/common/time.lua" deferred_loading="false" />
+		<file name="lua_padUtil" file="Scripts/common/padUtil.lua" deferred_loading="false" />
+		<file name="lua_setting" file="MiniGames/GeorgiaNpcMaster/scripts/setting.lua" deferred_loading="false" />
+		<file name="lua_paHomeCommon" file="MiniGames/GeorgiaNpcMaster/scripts/pa/paHomeCommon.lua" deferred_loading="false" />
+		<file name="lua_paHomeServerAccess" file="MiniGames/GeorgiaNpcMaster/scripts/pa/paHomeServerAccess.lua" deferred_loading="false" />
+		<file name="lua_serverurl" file="MiniGames/GeorgiaNpcMaster/scripts/pa/serverurl.lua" deferred_loading="false" />
+		<file name="lua_task" file="Scripts/common/task.lua" deferred_loading="false" />
+		<file name="lua_npcMessagePanel" file="MiniGames/GeorgiaNpcMaster/scripts/NpcMessagePanel.lua" deferred_loading="false" />
+		<file name="lua_animationModel" file="Scripts/common/animationModel.lua" deferred_loading="false" />
+		<file name="lua_emController" file="Scripts/common/emController.lua" deferred_loading="false" />
+		<file name="lua_fluctMacine" file="Scripts/common/fluctMacine.lua" deferred_loading="false" />
+		<file name="osd_types" file="MiniGames/GeorgiaNpcMaster/osd/types.xml" deferred_loading="false" />
+		<file name="osd_name" file="MiniGames/GeorgiaNpcMaster/osd/name.xml" deferred_loading="false" />
+		<file name="osd_chip" file="MiniGames/GeorgiaNpcMaster/osd/chip.xml" deferred_loading="false" />
+		<file name="osd_em_error" file="MiniGames/GeorgiaNpcMaster/osd/error.xml" deferred_loading="false" />
+		<file name="osd_em_commingsoon" file="MiniGames/GeorgiaNpcMaster/osd/commingsoon.xml" deferred_loading="false" />
+		<file name="osd_navi" file="MiniGames/GeorgiaNpcMaster/osd/Navi.xml" deferred_loading="false" />
+		<file name="osd_message" file="MiniGames/GeorgiaNpcMaster/osd/Message.xml" deferred_loading="false" />
+		<file name="osd_menuList" file="MiniGames/GeorgiaNpcMaster/osd/MenuList.xml" deferred_loading="false" />
+		<file name="lua_main" file="MiniGames/GeorgiaNpcMaster/scripts/main.lua" deferred_loading="false" />
+		<file name="lua_create_light" file="Scripts/common/create_light.lua" deferred_loading="false" />
+		<file name="lua_share_setting" file="environments/home_internal_scej/breakstation/share_setting.lua" deferred_loading="false" />
+		<collision name="hkx_GEORGIA_man" file="environmentanimations/georgia_man/GEORGIA_man.hkx" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_bow" file="environmentanimations/georgia_man/GA_man_ani_bow.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_stay" file="environmentanimations/georgia_man/GA_man_ani_stay.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_talk_A" file="environmentanimations/georgia_man/GA_man_ani_talk_A.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_in_A" file="environmentanimations/georgia_man/GA_man_ani_in_A.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_out_A" file="environmentanimations/georgia_man/GA_man_ani_out_A.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_talk_B" file="environmentanimations/georgia_man/GA_man_ani_talk_B.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_in_B" file="environmentanimations/georgia_man/GA_man_ani_in_B.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_out_B" file="environmentanimations/georgia_man/GA_man_ani_out_B.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_talk_C" file="environmentanimations/georgia_man/GA_man_ani_talk_C.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_in_C" file="environmentanimations/georgia_man/GA_man_ani_in_C.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_out_C" file="environmentanimations/georgia_man/GA_man_ani_out_C.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_stay_L" file="environmentanimations/georgia_man/GA_man_ani_stay_L.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_eye_cl_stay" file="environmentanimations/georgia_man/GA_man_ani_eye_cl_stay.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_talk_set_A" file="environmentanimations/georgia_man/GA_man_ani_talk_set_A.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_talk_set_B" file="environmentanimations/georgia_man/GA_man_ani_talk_set_B.ani" deferred_loading="false" />
+		<anim name="ani_GA_man_ani_talk_set_C" file="environmentanimations/georgia_man/GA_man_ani_talk_set_C.ani" deferred_loading="false" />
+		<skeleton name="skn_GEORGIA_man" file="environmentanimations/georgia_man/GEORGIA_man.skn" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

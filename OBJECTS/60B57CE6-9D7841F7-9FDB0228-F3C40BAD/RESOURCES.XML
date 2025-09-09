@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="DNA_01a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_01a.mdl" memory="main" />
+		<model name="r_iAE_holoobj.mdl" deferred_loading="false" protected="false" file="furniture/iae_holoobj/r_iAE_holoobj.mdl" memory="main" />
+		<model name="g_iAE_holoobj.mdl" deferred_loading="false" protected="false" file="furniture/iae_holoobj/g_iAE_holoobj.mdl" memory="main" />
+		<model name="DNA_02a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_02a.mdl" memory="main" />
+		<model name="DNA_03a.mdl" deferred_loading="false" protected="false" file="furniture/board/DNA_03a.mdl" memory="main" />
+		<model name="Virus_01.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_01.mdl" memory="main" />
+		<model name="Virus_02.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_02.mdl" memory="main" />
+		<model name="Virus_03.mdl" deferred_loading="false" protected="false" file="furniture/board/Virus_03.mdl" memory="main" />
+		<model name="ufo_cattle.mdl" deferred_loading="false" protected="false" file="furniture/ufo_chair/ufo_cattle.mdl" memory="main" />
+		<model name="Antenna.mdl" deferred_loading="false" protected="false" file="furniture/antenna/Antenna.mdl" memory="main" />
+		<model name="abduct_beam.mdl" deferred_loading="false" protected="false" file="furniture/iae_holoobj/abduct_beam.mdl" memory="main" />
+		<model name="ufo_cattle_gold.mdl" deferred_loading="false" protected="false" file="furniture/ufo_chair/ufo_cattle_gold.mdl" memory="main" />
+		<model name="DNA_04a.mdl" deferred_loading="false" protected="false" file="furniture/board/3dmodel/DNA_04a.mdl" memory="main" />
+		<model name="DNA_05a.mdl" deferred_loading="false" protected="false" file="furniture/board/3dmodel/DNA_05a.mdl" memory="main" />
+		<texture name="font.dds" deferred_loading="false" protected="false" file="MiniGames/US_Cattle/texture/font.dds" memory="main" />
+		<texture name="chara1.dds" deferred_loading="false" protected="false" file="MiniGames/US_Cattle/texture/chara1.dds" memory="main" />
+		<texture name="efect1.dds" deferred_loading="false" protected="false" file="MiniGames/US_Cattle/texture/efect1.dds" memory="main" />
+		<texture name="iae3d_help.dds" deferred_loading="false" protected="false" file="MiniGames/US_Cattle/texture/iae3d_help.dds" memory="main" />
+		<texture name="gaw_icon.dds" deferred_loading="false" protected="false" file="MiniGames/US_Cattle/texture/gaw_icon.dds" memory="main" />
+		<particle name="smoke_02.efx" deferred_loading="false" protected="false" file="ATGParticles/ExampleEffects/Efx/smoke_02.efx" memory="main" />
+		<particle name="warp_02.efx" deferred_loading="false" protected="false" file="ATGParticles/ExampleEffects/Efx/warp_02.efx" memory="main" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/US_Cattle/file/Network.xml" memory="main" />
+		<collision name="ufo_cattle.hkx" deferred_loading="false" protected="false" file="furniture/ufo_chair/ufo_cattle.hkx" memory="main" />
+		<collision name="ufo_cattle_box_collision.hkx" deferred_loading="false" protected="false" file="furniture/ufo_chair/ufo_cattle_box_collision.hkx" memory="main" />
+		<soundbank name="iAE3d.bnk" deferred_loading="false" protected="false" file="MiniGames/US_Cattle/sound/iAE3d.bnk" memory="main" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/MiniGame.luac" memory="main" />
+		<lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/cameraMgr.luac" memory="main" />
+		<lua name="demo.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/demo.luac" memory="main" />
+		<lua name="gameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/gameMgr.luac" memory="main" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/pad.luac" memory="main" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/seqMgr.luac" memory="main" />
+		<lua name="shellMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/shellMgr.luac" memory="main" />
+		<lua name="titleMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/titleMgr.luac" memory="main" />
+		<lua name="player.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/player.luac" memory="main" />
+		<lua name="moveObject3d.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/moveObject3d.luac" memory="main" />
+		<lua name="oneShotParticleMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/oneShotParticleMgr.luac" memory="main" />
+		<lua name="enemy.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/enemy.luac" memory="main" />
+		<lua name="enemyMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/enemyMgr.luac" memory="main" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/param.luac" memory="main" />
+		<lua name="collisionParam.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/collisionParam.luac" memory="main" />
+		<lua name="collisionSystem.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/collisionSystem.luac" memory="main" />
+		<lua name="priority.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/priority.luac" memory="main" />
+		<lua name="fontMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/fontMgr.luac" memory="main" />
+		<lua name="gameUI.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/gameUI.luac" memory="main" />
+		<lua name="uvData.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/uvData.luac" memory="main" />
+		<lua name="bigUfo.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/bigUfo.luac" memory="main" />
+		<lua name="network.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/network.luac" memory="main" />
+		<lua name="remoteGameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/remoteGameMgr.luac" memory="main" />
+		<lua name="remotePlayer.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/remotePlayer.luac" memory="main" />
+		<lua name="levelData.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/levelData.luac" memory="main" />
+		<lua name="oneShotFontMgr.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/oneShotFontMgr.luac" memory="main" />
+		<lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/itemListCheker.luac" memory="main" />
+		<lua name="componentListChecker.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/componentListChecker.luac" memory="main" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript_US/all.luac" memory="main" />
+		<lua name="osdLayer.lua" deferred_loading="false" protected="true" file="MiniGames/US_Cattle/lua/osdLayer.luac" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/model/Jack_o_Lantern_01.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/model/Jack_o_Lantern_01_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="laugh_00.ani" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/anim/laugh_00.ani" memory="host" />
+		<anim name="move_00.ani" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/anim/move_00.ani" memory="host" />
+		<anim name="ntr_00.ani" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/anim/ntr_00.ani" memory="host" />
+		<anim name="ntr_01.ani" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/anim/ntr_01.ani" memory="host" />
+		<anim name="ntr_02.ani" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/anim/ntr_02.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="companion_follower/pet_jack_o_lantern_01/skeleton/Jack_o_Lantern_01.skn" memory="host" />
+		<soundbank name="pet_jack.bnk" deferred_loading="true" protected="false" file="companion_follower/pet_jack_o_lantern_01/soundbank/pet_jack.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="companion_follower/pet_jack_o_lantern_01/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

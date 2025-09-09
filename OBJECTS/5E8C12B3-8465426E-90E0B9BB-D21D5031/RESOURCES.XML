@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/wildbeast/model/WildBeast_Rig.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/wildbeast/model/WildBeast_Rig_Low.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/WildBeast/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/WildBeast/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/wildbeast/anim/WildBeast_Idle03.ani" memory="main" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/wildbeast/anim/WildBeast_walk.ani" memory="host" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="CompanionFollowers/wildbeast/anim/WildBeast_Idle02.ani" memory="host" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/wildbeast/anim/WildBeast_Idle01.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/WildBeast/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/wildbeast/anim/WildBeast_run.ani" memory="main" />
+		<anim name="ani.shakefists" deferred_loading="true" protected="false" file="CompanionFollowers/WildBeast/anim/shakefists.ani" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="CompanionFollowers/wildbeast/skeleton/WildBeast_Rig.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/WildBeast/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

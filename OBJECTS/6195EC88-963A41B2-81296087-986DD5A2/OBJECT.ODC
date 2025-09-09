@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.65.0.139.BETA" version="1.0">
+  <version>1.0</version>
+  <uuid>6195EC88-963A41B2-81296087-986DD5A2</uuid>
+  <name lang="en-GB" default="true">Clara's Saucepan</name>
+  <name lang="fr-FR" default="false">Casserole de Clara</name>
+  <name lang="de-DE" default="false">Topf de Cara</name>
+  <name lang="it-IT" default="false">Casseruola di Clara</name>
+  <name lang="es-ES" default="false">Cacerola de Clara</name>
+  <description lang="en-GB" default="true">This active item will release Clara. [#Legal]</description>
+  <description lang="fr-FR" default="false">Cet élément actif libérera Clara. [#Legal]</description>
+  <description lang="de-DE" default="false">Dieses aktive Objekt setzt Clara. [#Legal]</description>
+  <description lang="it-IT" default="false">Questo elemento attivo libererà Clara. [#Legal]</description>
+  <description lang="es-ES" default="false">Este artículo activo liberará Clara. [#Legal]</description>
+  <maker lang="en-GB" default="true">Juggernaut Games</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat>
+    <main>4</main>
+    <host>2</host>
+    <vram>1</vram>
+    <ppu>4</ppu>
+    <net>1</net>
+  </heat>
+  <timestamp>9F273C8</timestamp>
+</odc>
