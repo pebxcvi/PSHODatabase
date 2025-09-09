@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="animatedmodels/valentine_girlfriend/Valentine_girlfriend.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="animatedmodels/valentine_girlfriend/Valentine_girlfriend.mdl" memory="host" />
+		<particle name="pfx.smoke" deferred_loading="true" protected="false" file="CompanionFollowers/Valentine_boyfriend/particle/smoke.efx" memory="host" />
+		<particle name="pfx.fly" deferred_loading="true" protected="false" file="TOOLS/ATGParticles/Generic/Efx/LoveHearts.efx" memory="host" />
+		<particle name="pfx.trails" deferred_loading="true" protected="false" file="CompanionFollowers/Valentine_boyfriend/particle/trails.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Valentine_Girlfriend/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Valentine_boyfriend/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="animatedmodels/valentine_girlfriend/idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="animatedmodels/valentine_girlfriend/walk.ani" memory="host" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="CompanionFollowers/Valentine_boyfriend/anim/applaud.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/Valentine_boyfriend/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="animatedmodels/valentine_girlfriend/run.ani" memory="host" />
+		<anim name="stare" deferred_loading="false" protected="false" file="animatedmodels/valentine_girlfriend/stare.ani" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="animatedmodels/valentine_boyfriend/Valentine_boyfriend.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/Valentine_boyfriend/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Valentine_boyfriend/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="npc_Shop_mal.mdl" deferred_loading="false" protected="false" file="IremSougen/a_jp_00/Chr/scenes/npc_Shop_mal.mdl" memory="host" />
+		<file name="osd_types.xml" deferred_loading="false" file="IremSougen/soft_jp_00/StoreUI/OSD/osd_types.xml" memory="host" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremSougen/soft_jp_00/StoreUI/OSD/WndTabMessageDialog.xml" memory="host" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremSougen/soft_jp_00/StoreUI/OSD/WndTabSelectDialog.xml" memory="host" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremSougen/soft_jp_00/StoreUI/OSD/SelectionButton.xml" memory="host" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremSougen/soft_jp_00/StoreUI/OSD/WndTab.xml" memory="host" />
+		<anim name="npc_Shop_mal.ani" deferred_loading="false" protected="false" file="IremSougen/a_jp_00/Chr/scenes/npc_Shop_mal.ani" memory="host" />
+		<skeleton name="npc_Shop_mal.skn" deferred_loading="false" protected="false" file="IremSougen/a_jp_00/Chr/scenes/npc_Shop_mal.skn" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/StoreUI/main.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/StoreUI/Dialog/DialogBasicS.lua" />
+		<lua name="NPC_STORE.lua" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/StoreUI/NPC_STORE.lua" />
+		<lua name="LuaUtil.lua" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/StoreUI/LuaUtil.lua" />
+		<lua name="StoreUIData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_jp_00/StoreUI/StoreUIData.lua" />
+	</local>
+	<external />
+</resources>

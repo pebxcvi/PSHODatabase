@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/casino_hottub/Casino_Hottub.mdl" />
+		<particle name="Hottub_Steam" deferred_loading="false" protected="false" file="ATGParticles/HotTub/Hottub_Steam.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Hot_Tub_Time_Machine/file/Network.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/casino_hottub/Casino_Hottub.hkx" />
+		<soundbank name="HotTubAudio" deferred_loading="false" protected="false" file="MiniGames/Hot_Tub_Time_Machine/Audio/HotTubAudio.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Hot_Tub_Time_Machine/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

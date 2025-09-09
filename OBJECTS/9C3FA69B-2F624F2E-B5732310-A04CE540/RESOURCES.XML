@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Suit_BF.mdl" deferred_loading="true" protected="false" file="animatedmodels/gesturesoflove/Rose.mdl" memory="host" />
+		<particle name="LoveHearts.efx" deferred_loading="true" protected="false" file="TOOLS/ATGParticles/Generic/Efx/LoveHearts.efx" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/file/config.xml" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="animation/female/f_presentsurprise/F_presentRun.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="animation/female/f_presentsurprise/F_presentRun.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="animation/female/gesturesoflove/HandOnHeart.ani" memory="host" />
+		<anim name="standIdle.ani" deferred_loading="true" protected="false" file="animation/male/gesturesoflove/kneelingDown.ani" memory="host" />
+		<anim name="presentShut.ani" deferred_loading="true" protected="false" file="animation/male/holdinghands/holdingHandsIdle.ani" />
+		<anim name="presentSurprise.ani" deferred_loading="true" protected="false" file="animation/male/gesturesoflove/ILoveYou.ani" />
+		<anim name="presentopened.ani" deferred_loading="true" protected="false" file="animation/male/carryinggf/carryingGF.ani" />
+		<anim name="F_presentSurprise.ani" deferred_loading="true" protected="false" file="animation/female/gesturesoflove/blowingAKiss.ani" />
+		<anim name="LMORun.ani" deferred_loading="true" protected="false" file="animation/male/holdinghands/holdingHandsRun.ani" />
+		<anim name="HeldByBF.ani" deferred_loading="true" protected="false" file="animation/female/gesturesoflove/gazingLovingly.ani" />
+		<anim name="HoldingGF.ani" deferred_loading="true" protected="false" file="animation/male/holdinggf/HoldingGF.ani" />
+		<anim name="aRMSoPEN.ani" deferred_loading="true" protected="false" file="animation/male/gesturesoflove/aRMSoPEN.ani" />
+		<anim name="HeartShape.ani" deferred_loading="true" protected="false" file="animation/male/gesturesoflove/HeartShape.ani" />
+		<anim name="F_HeartShape.ani" deferred_loading="true" protected="false" file="animation/female/gesturesoflove/HeartShape.ani" />
+		<anim name="M_F_02_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_F_02_P2.ani" memory="host" />
+		<anim name="M_F_03_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_F_03_P2.ani" memory="host" />
+		<anim name="M_F_04_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_F_04_P2.ani" memory="host" />
+		<anim name="M_F_05_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_F_05_P2.ani" memory="host" />
+		<anim name="M_M_02_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_M_02_P2.ani" memory="host" />
+		<anim name="M_M_03_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_M_03_P2.ani" memory="host" />
+		<anim name="M_M_04_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_M_04_P2.ani" memory="host" />
+		<anim name="M_M_05_P2.ani" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/anim/M_M_05_P2.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/ValentineGestures/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Red_Snowmobile/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

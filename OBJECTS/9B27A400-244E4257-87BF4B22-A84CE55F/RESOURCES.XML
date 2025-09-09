@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/toro_companion/model/toro_walk.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/toro_companion/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/toro_companion/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/toro_companion/anim/toro_dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/toro_companion/anim/toro_run.ani" memory="main" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/toro_companion/skeleton/toro_walk.skn" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/toro_companion/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

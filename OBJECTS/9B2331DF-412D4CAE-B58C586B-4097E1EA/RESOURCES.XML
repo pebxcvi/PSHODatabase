@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Fireplace.mdl" deferred_loading="false" protected="false" file="Actives/2014/fireplace/models/Fireplace.mdl" memory="host" />
+		<particle name="grill_fire_hi.efx" deferred_loading="false" protected="false" file="Actives/2014/fireplace/particles/grill_fire_hi.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Actives/2014/fireplace/files/Network.xml" memory="host" />
+		<collision name="Fireplace.hkx" deferred_loading="false" protected="false" file="Actives/2014/fireplace/models/Fireplace.hkx" memory="host" />
+		<soundbank name="fire.bnk" deferred_loading="false" protected="false" file="Actives/2014/fireplace/sound/fire.bnk" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Actives/2014/fireplace/lua/Main.lua" memory="host" />
+	</local>
+	<external />
+</resources>

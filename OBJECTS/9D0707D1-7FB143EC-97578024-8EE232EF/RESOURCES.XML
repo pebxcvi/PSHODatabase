@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="desk.mdl" deferred_loading="false" protected="false" file="game/promo/desk.mdl" />
+		<model name="logo.mdl" deferred_loading="false" protected="false" file="game/promo/logo.mdl" />
+		<texture name="commerce.dds" deferred_loading="false" protected="false" file="MiniGames/Blueprint_Promo/file/commerce.dds" />
+		<texture name="apoc" deferred_loading="true" protected="false" file="game/promo/NewImages/apoc.jpg" memory="main" />
+		<texture name="wall" deferred_loading="true" protected="false" file="game/promo/NewImages/wall.jpg" memory="main" />
+		<texture name="sci" deferred_loading="true" protected="false" file="game/promo/NewImages/sci.jpg" memory="main" />
+		<texture name="out3" deferred_loading="true" protected="false" file="game/promo/NewImages/out3.jpg" memory="main" />
+		<texture name="asy" deferred_loading="true" protected="false" file="game/promo/NewImages/asy.jpg" memory="main" />
+		<texture name="bling" deferred_loading="true" protected="false" file="game/promo/NewImages/bling.jpg" memory="main" />
+		<texture name="class" deferred_loading="true" protected="false" file="game/promo/NewImages/class.jpg" memory="main" />
+		<texture name="out1" deferred_loading="true" protected="false" file="game/promo/NewImages/out1.jpg" memory="main" />
+		<texture name="out2" deferred_loading="true" protected="false" file="game/promo/NewImages/out2.jpg" memory="main" />
+		<collision name="desk.hkx" deferred_loading="false" protected="false" file="game/promo/desk.hkx" />
+		<anim name="logo.ani" deferred_loading="false" protected="false" file="game/promo/logo.ani" />
+		<skeleton name="logo.skn" deferred_loading="false" protected="false" file="game/promo/logo.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Blueprint_Promo/lua/MiniGame_Aurora.luac" />
+		<lua name="AsyncInventoryChecker.lua" deferred_loading="false" protected="true" file="MiniGames/Blueprint_Promo/lua/AsyncInventoryChecker.luac" />
+		<lua name="GUIElements.lua" deferred_loading="false" protected="true" file="MiniGames/Blueprint_Promo/lua/GUIElements.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Blueprint_Promo/lua/Utility.luac" />
+		<lua name="ObjectComsShared.lua" deferred_loading="false" protected="true" file="Scripts/Object_Coms_Common/ObjectComsShared.luac" />
+	</local>
+	<external />
+</resources>

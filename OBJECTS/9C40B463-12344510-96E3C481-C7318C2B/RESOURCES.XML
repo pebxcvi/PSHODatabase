@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="kOverallRank" deferred_loading="true" protected="false" file="MiniGames/nmlscreenmanager/Textures/TR/ScoreboardShot_Overall.dds" />
+		<texture name="kTDMRank" deferred_loading="true" protected="false" file="MiniGames/nmlscreenmanager/Textures/TR/ScoreboardShot_DeathMatchr.dds" />
+		<texture name="kSCVRank" deferred_loading="true" protected="false" file="MiniGames/nmlscreenmanager/Textures/TR/ScoreboardShot_Scavenger.dds" />
+		<texture name="BackgroundSimple" deferred_loading="true" protected="false" file="MiniGames/nmlscreenmanager/Textures/TR/NMLHubScoreboard1Section.dds" />
+		<texture name="BackgroundComplex" deferred_loading="true" protected="false" file="MiniGames/nmlscreenmanager/Textures/TR/NMLHubScoreboard3Sections.dds" />
+		<file name="tenbyfive.ttf" deferred_loading="false" protected="false" file="RealTimeGames/No_Mans_Land/fonts/tenbyfive.ttf" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/nmlscreenmanager/lua/MiniGame.lua" />
+		<lua name="uiString.lua" deferred_loading="false" protected="true" file="RealTimeGames/No_Mans_Land/lua/uiString.lua" />
+		<lua name="version.lua" deferred_loading="false" protected="true" file="Core/version.lua" />
+	</local>
+	<external />
+</resources>

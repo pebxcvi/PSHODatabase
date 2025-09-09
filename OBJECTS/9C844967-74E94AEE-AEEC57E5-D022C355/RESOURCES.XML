@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="uproar_complete.mdl" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/Game/models/misc/uproar_complete.mdl" />
+		<texture name="panel_corner.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/panel_corner.dds" />
+		<texture name="panel_edge.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/panel_edge.dds" />
+		<texture name="panel_main.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/panel_main.dds" />
+		<texture name="uproar_logo.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/uproar_logo.dds" />
+		<texture name="buttons.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/buttons.dds" />
+		<texture name="uproar_arena.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/uproar_arena.dds" />
+		<texture name="list_bg.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/list_bg.dds" />
+		<texture name="list_hl.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/list_hl.dds" />
+		<texture name="button_main_edge.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/button_main_edge.dds" />
+		<texture name="button_main_mid.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/button_main_mid.dds" />
+		<texture name="button_select_edge.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/button_select_edge.dds" />
+		<texture name="button_select_mid.dds" deferred_loading="false" protected="false" file="MiniGames/EmergencyState/AttractPoint_SCEE/textures/button_select_mid.dds" />
+		<lua name="attractPoint_SCEE.lua" deferred_loading="false" protected="true" file="MiniGames/EmergencyState/AttractPoint_SCEE/src/attractPoint_SCEE.lua" />
+		<lua name="controls.lua" deferred_loading="false" protected="true" file="MiniGames/EmergencyState/AttractPoint_SCEE/src/controls.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/EmergencyState/AttractPoint_SCEE/src/main.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/EmergencyState/AttractPoint_SCEE/src/misc.lua" />
+		<lua name="UIDefs.lua" deferred_loading="false" protected="true" file="MiniGames/EmergencyState/AttractPoint_SCEE/src/UIDefs.lua" />
+		<lua name="UIElements.lua" deferred_loading="false" protected="true" file="MiniGames/EmergencyState/AttractPoint_SCEE/src/UIElements.lua" />
+		<lua name="UISystem.lua" deferred_loading="false" protected="true" file="MiniGames/EmergencyState/AttractPoint_SCEE/src/UISystem.lua" />
+	</local>
+	<external />
+</resources>

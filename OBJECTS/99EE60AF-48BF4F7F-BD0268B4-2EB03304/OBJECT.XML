@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.40.0.265.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">s803935</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string"></company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<lua_environment>
+		<script type="string">main.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">OnListenerReceivedData()</on_listener_received_data>
+		<on_destroy type="string"></on_destroy>
+	</lua_environment>
+	<renderer />
+	<embedded_object>
+		<on_update type="string">OnUpdate()</on_update>
+		<string_parameters type="list">
+			<parameter type="bag">
+				<name type="string">xml_url</name>
+				<default_value type="string">xml url</default_value>
+			</parameter>
+			<parameter type="bag">
+				<name type="string">res_name</name>
+				<default_value type="string">event server resource name</default_value>
+			</parameter>
+		</string_parameters>
+		<boolean_parameters type="list" />
+		<numeric_parameters type="list">
+			<parameter type="bag">
+				<name type="string">res_seq</name>
+				<default_value type="float">1</default_value>
+			</parameter>
+		</numeric_parameters>
+		<enum_parameters type="list" />
+	</embedded_object>
+</objectdef>

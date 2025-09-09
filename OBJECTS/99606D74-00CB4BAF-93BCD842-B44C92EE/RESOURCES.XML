@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<soundbank name="teleport.bnk" deferred_loading="false" protected="false" file="LG_sentai/sound/teleport.bnk" />
+		<lua name="MgData.lua" deferred_loading="false" protected="true" file="LG_sentai/soft_jp_00/Gate/lua/MgData.lua" />
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="LG_sentai/soft_jp_00/Gate/lua/MgMain.lua" />
+		<lua name="GameMain.lua" deferred_loading="true" protected="true" file="LG_sentai/soft_jp_00/Gate/lua/GameMain.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="LG_sentai/soft_jp_00/Gate/lua/MiniGame.lua" />
+		<lua name="PhaseCmn.lua" deferred_loading="false" protected="true" file="LG_sentai/soft_jp_00/Gate/lua/PhaseCmn.lua" />
+		<lua name="PhaseList.lua" deferred_loading="false" protected="true" file="LG_sentai/soft_jp_00/Gate/lua/PhaseList.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Log.lua" />
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PhaseCtrl.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilGarbage.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" />
+		<lua name="UtilFade.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFade.lua" />
+		<lua name="UtilMultiFocus.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilMultiFocus.lua" />
+	</local>
+	<external />
+</resources>
