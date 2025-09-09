@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/spunmascountdown/SpunmasCountdown.mdl" />
+		<texture name="tex_digit_0" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_0.dds" />
+		<texture name="tex_digit_1" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_1.dds" />
+		<texture name="tex_digit_2" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_2.dds" />
+		<texture name="tex_digit_3" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_3.dds" />
+		<texture name="tex_digit_4" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_4.dds" />
+		<texture name="tex_digit_5" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_5.dds" />
+		<texture name="tex_digit_6" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_6.dds" />
+		<texture name="tex_digit_7" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_7.dds" />
+		<texture name="tex_digit_8" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_8.dds" />
+		<texture name="tex_digit_9" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_9.dds" />
+		<texture name="tex_digit_blank" deferred_loading="false" protected="false" file="furniture/spunmascountdown/textures/digit_blank.dds" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/spunmascountdown/SpunmasCountdown.hkx" />
+		<lua name="spunmasCountdown" deferred_loading="false" protected="true" file="furniture/spunmascountdown/lua/spunmasCountdown.lua" />
+		<lua name="cVectorBlend" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlend.lua" />
+	</local>
+	<external />
+</resources>

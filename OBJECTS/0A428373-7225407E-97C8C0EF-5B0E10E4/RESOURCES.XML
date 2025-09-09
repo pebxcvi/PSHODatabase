@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/MovieDanceMoves/file/configuration.xml" memory="host" />
+		<anim name="NerdArmsOut.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/bird.ani" memory="host" />
+		<anim name="NerdGroundGrab.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/elephant.ani" memory="host" />
+		<anim name="NerdJazzHands.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/RABBIT.ani" memory="host" />
+		<anim name="NerdSidePunch.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/nodding.ani" />
+		<anim name="NerdSideSteps.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/fox.ani" />
+		<anim name="F_NerdArmsOut.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/f_bird.ani" memory="host" />
+		<anim name="F_NerdGroundGrab.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/f_elephant.ani" memory="host" />
+		<anim name="F_NerdJazzHands.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/F_rabbit.ani" memory="host" />
+		<anim name="F_NerdSidePunch.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/F_NODDING.ani" memory="host" />
+		<anim name="F_NerdSlap.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/f_raccoon.ani" memory="host" />
+		<anim name="NerdSlap.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/raccoon.ani" />
+		<anim name="F_SideSteps.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/f_fox.ani" memory="host" />
+		<anim name="swaying.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/swaying.ani" memory="host" />
+		<anim name="tiger.ani" deferred_loading="true" protected="false" file="animation/male/animaldances/tiger.ani" memory="main" />
+		<anim name="f_swaying.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/f_swaying.ani" memory="host" />
+		<anim name="f_tiger.ani" deferred_loading="true" protected="false" file="animation/female/animaldances/f_tiger.ani" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/Animals/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/Animals/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Animals/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Animals/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/MovieDanceMoves/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

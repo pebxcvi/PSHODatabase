@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.75.0.85.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>0A9B4B3A-7E8C4450-9D7F4F9C-1C57B5BE</uuid>
+  <name lang="fr-FR" default="false">Feu de signalisation - La fête est finie</name>
+  <name lang="de-DE" default="false">Ampel - Rave Off</name>
+  <name lang="it-IT" default="false">Semaforo - Rave Off</name>
+  <name lang="es-ES" default="false">Semáforo; Se acabó lo que se daba</name>
+  <name lang="ja-JP" default="false">トラフィックライト – Rave Off</name>
+  <name lang="en-US" default="true">Traffic Light - Rave Off</name>
+  <description lang="fr-FR" default="false">Jouez-la old school avec ce super équipement Métro. Que la fête commence ! [#Legal]</description>
+  <description lang="de-DE" default="false">Sei richtig old-school mit dieser coolen Subway-Möbel-Belohnung. Die Party kann losgehen! [#Legal]</description>
+  <description lang="it-IT" default="false">Porta un pezzo di vecchia scuola a casa tua con questo fantastico complemento d'arredo regalo Subway. Che la festa abbia inizio! [#Legal]</description>
+  <description lang="es-ES" default="false">Pásate a lo retro con esta genial recompensa de mobiliario del Metro. ¡Que empiece la fiesta! [#Legal]</description>
+  <description lang="ja-JP" default="false">アングラ家具はいかがですか？パーティーに最適！ [#Legal]</description>
+  <description lang="en-US" default="true">Kick it old school with this cool Subway furniture reward. Get the party started! [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <heat />
+  <timestamp>9A94BFF8</timestamp>
+</odc>

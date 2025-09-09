@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="headphones.mdl" deferred_loading="true" protected="false" file="Locomotion/headphones.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Headphones_1/file/config.xml" memory="host" />
+		<anim name="headphone_1_idle.ani" deferred_loading="true" protected="false" file="animation/male/headphone_1_idle/headphone_1_idle.ani" memory="host" />
+		<anim name="headphones_walk_1.ani" deferred_loading="true" protected="false" file="animation/male/headphones_walk_1/headphones_walk_1.ani" memory="host" />
+		<anim name="headphones_1_emote.ani" deferred_loading="true" protected="false" file="animation/male/headphones_1_emote/headphones_1_emote.ani" memory="host" />
+		<anim name="headphones_idle_1_f.ani" deferred_loading="true" protected="false" file="animation/female/headphones_idle_1_f/headphones_idle_1_f.ani" memory="host" />
+		<anim name="headphones_walk_1_f.ani" deferred_loading="true" protected="false" file="animation/female/headphones_walk_1_f/headphones_walk_1_f.ani" memory="main" />
+		<anim name="headphones_emote_1_f.ani" deferred_loading="true" protected="false" file="animation/female/headphones_emote_1_f/headphones_emote_1_f.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Headphones_1/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Headphones_1/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Headphones_1/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Headphones_1/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Headphones_1/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

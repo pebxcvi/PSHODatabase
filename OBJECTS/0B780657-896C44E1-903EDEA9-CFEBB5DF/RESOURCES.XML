@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="PalmTree_Hammock_Model2.mdl" deferred_loading="true" protected="false" file="Locomotion/hammock/PalmTree_Hammock_Model4.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Hammock/file/config.xml" memory="host" />
+		<anim name="run" deferred_loading="true" protected="false" file="Locomotion/hammock/run.ani" memory="host" />
+		<anim name="run_f" deferred_loading="true" protected="false" file="Locomotion/hammock/run_f.ani" memory="host" />
+		<anim name="hammock_idle3.ani" deferred_loading="true" protected="false" file="Locomotion/hammock/hammock_idle4.ani" />
+		<anim name="hammock_idle_in" deferred_loading="true" protected="false" file="Locomotion/hammock/hammock_idle_in.ani" />
+		<anim name="PalmTree_Hammock_In.ani" deferred_loading="true" protected="false" file="Locomotion/hammock/PalmTree_Hammock_In.ani" />
+		<anim name="PalmTree_Hammock_Out.ani" deferred_loading="true" protected="false" file="Locomotion/hammock/PalmTree_Hammock_Out.ani" />
+		<anim name="f_hammock_idle.ani" deferred_loading="true" protected="false" file="Locomotion/hammock/f_hammock_idle.ani" />
+		<anim name="f_hammock_in.ani" deferred_loading="true" protected="false" file="Locomotion/hammock/hammock_idle_in3.ani" />
+		<skeleton name="PalmTree_Hammock_Model2.skn" deferred_loading="true" protected="false" file="Locomotion/hammock/PalmTree_Hammock_Model4.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Hammock/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Hammock/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Hammock/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Hammock/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Hammock/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

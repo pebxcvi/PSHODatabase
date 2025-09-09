@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.70.0.93.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>0AA250D3-05B24899-B256646A-D78D9E8E</uuid>
+  <name lang="en-GB" default="true">Audi Technology Apartment</name>
+  <name lang="fr-FR" default="false">Appartement Audi Technology</name>
+  <name lang="it-IT" default="false">Appartamento Audi Technology</name>
+  <name lang="es-ES" default="false">Apartamento Audi Technology</name>
+  <description lang="en-GB" default="true">The Audi Technology Apartment is your reward for configuring and racing your perfect car in the Audi Technology Experience. Inside the apartment you can relax, entertain your friends, or simply admire the view of the city below. [#Legal]</description>
+  <description lang="fr-FR" default="false">L'appartement Audi Technology est votre trophée pour avoir configuré la voiture idéale et concouru dans l'Audi Technology Experience. À l'intérieur de l'appartement, vous pouvez vous relaxer, inviter vos amis ou simplement admirer la vue sur la ville en contrebas. [#Legal]</description>
+  <description lang="de-DE" default="false">Das Audi Technology Apartment erhalten Sie als Belohnung dafür, dass Sie Ihr Fahrzeug so perfekt konfiguriert und damit an der Audi Technology Experience teilgenommen haben. In dieser Wohnung können Sie sich entspannen, Ihre Freunde unterhalten oder einfach nur den Blick auf die Stadt genießen [#Legal]</description>
+  <description lang="it-IT" default="false">L'Appartamento Audi Technology è il tuo premio per aver configurato e guidato la tua auto perfetta nell'Audi Technology Experience. Nell'appartamento potrai rilassarti, invitare amici o semplicemente ammirare la vista della città dall'alto.[#Legal]</description>
+  <description lang="es-ES" default="false">El Apartamento Audi Technology es el premio por configurar tu coche perfecto y pilotarlo en la Audi Technology Experience. En el piso podrás relajarte, invitar a tus amigos o simplemente admirar la vista de la ciudad a tus pies.[#Legal]</description>
+  <description lang="ja-JP" default="false">The Audi Technology Apartment is your reward for configuring and racing your perfect car in the Audi Technology Experience. Inside the apartment you can relax, entertain your friends, or simply admire the view of the city below.[#Legal]</description>
+  <description lang="ko-KR" default="false">The Audi Technology Apartment is your reward for configuring and racing your perfect car in the Audi Technology Experience. Inside the apartment you can relax, entertain your friends, or simply admire the view of the city below.[#Legal]</description>
+  <description lang="en-SG" default="false">The Audi Technology Apartment is your reward for configuring and racing your perfect car in the Audi Technology Experience. Inside the apartment you can relax, entertain your friends, or simply admire the view of the city below.[#Legal]</description>
+  <description lang="zh-HK" default="false">The Audi Technology Apartment is your reward for configuring and racing your perfect car in the Audi Technology Experience. Inside the apartment you can relax, entertain your friends, or simply admire the view of the city below.[#Legal]</description>
+  <description lang="zh-TW" default="false">The Audi Technology Apartment is your reward for configuring and racing your perfect car in the Audi Technology Experience. Inside the apartment you can relax, entertain your friends, or simply admire the view of the city below.[#Legal]</description>
+  <description lang="en-US" default="false">The Audi Technology Apartment is your reward for configuring and racing your perfect car in the Audi Technology Experience. Inside the apartment you can relax, entertain your friends, or simply admire the view of the city below.[#Legal]</description>
+  <maker lang="en-GB" default="true">AUDI AG</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">Audi_Connect_Apt_C2D4_2F8B</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating rating_system="PEGI" rating="3+" minimum_age="0" parental_control_level="0" />
+  </legal>
+  <heat />
+  <timestamp>60EA84F0</timestamp>
+</odc>

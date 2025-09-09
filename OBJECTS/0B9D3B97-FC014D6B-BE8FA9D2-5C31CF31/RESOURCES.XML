@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <texture name="black.dds" deferred_loading="false" protected="false" file="MiniGames/Tickers/res/black.dds" />
+    <texture name="ticker_alpha_overlay.dds" deferred_loading="false" protected="false" file="MiniGames/Tickers/res/ticker_alpha_overlay.dds" />
+    <file name="DestGameTicker_SCEJ.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestGameTicker_SCEJ.xml" />
+    <file name="DestAdventureTicker_SCEA.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestAdventureTicker_SCEA.xml" />
+    <file name="DestAdventureTicker_SCEJ.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestAdventureTicker_SCEJ.xml" />
+    <file name="DestGameTicker_SCEA.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestGameTicker_SCEA.xml" />
+    <file name="DestGameTicker_SCEE.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestGameTicker.xml" />
+    <file name="DestAdventureTicker_SCEE.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestAdventureTicker.xml" />
+    <file name="DestGameTicker_SCEAsia.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestGameTicker_Asia.xml" />
+    <file name="DestAdventureTicker_SCEAsia.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/DestAdventureTicker_Asia.xml" />
+    <file name="HS4_MainVideoTicker.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_MainVideoTicker.xml" />
+    <file name="HS4_ChallengeScreenTicker.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_ChallengeScreenTicker.xml" />
+    <file name="HS4_MainVideoTicker_HALLO.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_MainVideoTicker_HALLO.xml" />
+    <file name="HS4_ChallengeScreenTicker_HALLO.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_ChallengeScreenTicker_HALLO.xml" />
+    <file name="HS4_MainVideoTicker_XMAS.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_MainVideoTicker_XMAS.xml" />
+    <file name="HS4_ChallengeScreenTicker_XMAS.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_ChallengeScreenTicker_XMAS.xml" />
+    <file name="HS4_MainVideoTicker_CLOSE.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_MainVideoTicker_CLOSE.xml" />
+    <file name="HS4_ChallengeScreenTicker_CLOSE.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_ChallengeScreenTicker_CLOSE.xml" />
+    <file name="HS4_MainVideoTicker_OTH.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_MainVideoTicker_OTH.xml" />
+    <file name="HS4_ChallengeScreenTicker_OTH.xml" deferred_loading="false" protected="false" file="MiniGames/Tickers/data/HS4_ChallengeScreenTicker_OTH.xml" />
+    <lua name="Ticker.lua" deferred_loading="false" protected="true" file="minigames/tickers/src/ticker.luac" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="minigames/tickers/src/main.lua" />
+    <lua name="class.lua" deferred_loading="false" protected="true" file="libs/util/class.luac" />
+    <lua name="XMLSerializer.lua" deferred_loading="false" protected="true" file="libs/util/xmlserializer.luac" />
+    <lua name="Viewport.lua" deferred_loading="false" protected="true" file="libs/util/viewport.luac" />
+    <lua name="rss.lua" deferred_loading="false" protected="true" file="minigames/tickers/src/rss.luac" />
+    <lua name="ViewportManager.lua" deferred_loading="false" protected="true" file="libs/util/viewportmanager.luac" />
+    <lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="libs/util/resourcemanager.luac" />
+    <lua name="GameSprite.lua" deferred_loading="false" protected="true" file="libs/util/gamesprite.luac" />
+    <lua name="TickerSection.lua" deferred_loading="false" protected="true" file="minigames/tickers/src/tickersection.luac" />
+  </local>
+  <external />
+</resources>

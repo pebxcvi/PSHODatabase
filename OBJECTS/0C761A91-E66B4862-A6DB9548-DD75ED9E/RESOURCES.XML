@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="tache.mdl" deferred_loading="true" protected="false" file="Locomotion/spuntache_curly/model/Spuntache_Curly.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spuntache_curly/file/config_curly_purple.xml" memory="host" />
+		<anim name="tache_loco.ani" deferred_loading="false" protected="false" file="Locomotion/spuntache_curly/anim/Spuntache_Curly_Locomotion.ani" memory="host" />
+		<anim name="tache_confused.ani" deferred_loading="false" protected="false" file="Locomotion/spuntache_curly/anim/Spuntache_Curly_Confused.ani" memory="host" />
+		<anim name="tache_happy.ani" deferred_loading="false" protected="false" file="Locomotion/spuntache_curly/anim/Spuntache_Curly_Happy.ani" memory="host" />
+		<anim name="tache_idle.ani" deferred_loading="false" protected="false" file="Locomotion/spuntache_curly/anim/Spuntache_Curly_Idle.ani" memory="host" />
+		<skeleton name="tache.skn" deferred_loading="false" protected="false" file="Locomotion/spuntache_curly/model/Spuntache_Curly.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spuntache_curly/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

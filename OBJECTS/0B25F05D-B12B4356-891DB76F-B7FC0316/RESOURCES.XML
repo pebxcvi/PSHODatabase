@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cube" deferred_loading="false" file="MiniGames/PubDarts/Models/Cube.mdl" />
+		<model name="pubdartt90" deferred_loading="false" file="MiniGames/PubDarts/Models/pubdartt90.mdl" />
+		<model name="pubdartstriker" deferred_loading="false" file="MiniGames/PubDarts/Models/pubdartstriker.mdl" />
+		<model name="model" deferred_loading="false" protected="false" file="MiniGames/PubDarts/Models/FreeStandingDartboard.mdl" />
+		<texture name="cursorTex" deferred_loading="false" file="MiniGames/PubDarts/Textures/cursor.dds" />
+		<texture name="directionGauge" deferred_loading="false" file="MiniGames/PubDarts/Textures/cursor.dds" />
+		<texture name="SpotlightMask" deferred_loading="false" file="MiniGames/PubDarts/Textures/SpotlightMask.dds" />
+		<texture name="ChalkboardTex" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_Chalkboard_c.dds" />
+		<texture name="HUDPowerMarker" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUDPowerMarker_c.dds" />
+		<texture name="HUDPowerBar" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUDPowerBar_c.dds" />
+		<texture name="HUDLine" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUDLine_c.dds" />
+		<texture name="HUDDart" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUDDart_c.dds" />
+		<texture name="HUDClock" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUDClock_c.dds" />
+		<texture name="HUDKiller" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUDKiller_c.dds" />
+		<texture name="HUD501" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUD501_c.dds" />
+		<texture name="HUD301" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_HUD301_c.dds" />
+		<texture name="KillerIcon" deferred_loading="false" file="MiniGames/PubDarts/Textures/PubApt_KIcon_c.dds" />
+		<file name="osd_playerinfo" deferred_loading="false" file="MiniGames/PubDarts/OSD/playerinfo.xml" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/PubDarts/OSD/types.xml" />
+		<file name="NetworkXML" deferred_loading="false" file="MiniGames/PubDarts/Network.xml" />
+		<file name="Game End" deferred_loading="false" file="MiniGames/PubDarts/OSD/game_end.xml" />
+		<file name="osd_play_now_menu" deferred_loading="false" file="MiniGames/PubDarts/OSD/play_now_menu.xml" />
+		<file name="osd_game_type_menu" deferred_loading="false" file="MiniGames/PubDarts/OSD/game_type_menu.xml" />
+		<file name="osd_game_rules" deferred_loading="false" file="MiniGames/PubDarts/OSD/game_rules.xml" />
+		<file name="osd_next_player_menu" deferred_loading="false" file="MiniGames/PubDarts/OSD/next_player_menu.xml" />
+		<file name="osd_game_help" deferred_loading="false" file="MiniGames/PubDarts/OSD/game_help.xml" />
+		<file name="osd_game_end" deferred_loading="false" file="MiniGames/PubDarts/OSD/game_end.xml" />
+		<file name="osd_replay_text" deferred_loading="false" file="MiniGames/PubDarts/OSD/replay_text.xml" />
+		<file name="osd_help_prompt" deferred_loading="false" file="MiniGames/PubDarts/OSD/help_prompt.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="MiniGames/PubDarts/Models/FreeStandingDartboard.hkx" />
+		<soundbank name="DartsSoundsBank" deferred_loading="false" file="MiniGames/PubDarts/Sound/DartsSounds.bnk" memory="host" />
+		<lua name="PubDartsLua" deferred_loading="false" protected="true" file="MiniGames/PubDarts/PubDarts.lua" />
+		<lua name="CRSpline" deferred_loading="false" protected="true" file="MiniGames/PubDarts/CRSpline.lua" />
+		<lua name="DartsGame" deferred_loading="false" protected="true" file="MiniGames/PubDarts/DartsGame.lua" />
+		<lua name="List" deferred_loading="false" protected="true" file="MiniGames/PubDarts/List.lua" />
+		<lua name="DartsFSM" deferred_loading="false" protected="true" file="MiniGames/PubDarts/DartsFSM.lua" />
+		<lua name="SplineData" deferred_loading="false" protected="true" file="MiniGames/PubDarts/SplineData.lua" />
+		<lua name="ActiveDarts" deferred_loading="false" protected="true" file="MiniGames/PubDarts/ActiveDarts.lua" />
+	</local>
+	<external />
+</resources>

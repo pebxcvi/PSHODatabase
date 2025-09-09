@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="audiironman_suit" deferred_loading="false" file="MiniGames/IronManRun/Models/audiironman_suit.mdl" memory="host" />
+		<model name="MineHazard_model" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/MineHazard.mdl" memory="host" />
+		<model name="PowerBoostSimple_model" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/PowerBoost_Simple.mdl" memory="host" />
+		<model name="audiironman_slotblue" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/audiironman_slotblue.mdl" memory="host" />
+		<model name="audiironman_slotgray" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/audiironman_slotgray.mdl" memory="host" />
+		<texture name="audivrun_hud_timer_c" deferred_loading="true" file="MiniGames/IronManRun/Textures/audivrun_hud_timer_c.dds" memory="host" />
+		<texture name="audivrun_hud_car_c" deferred_loading="true" file="MiniGames/IronManRun/Textures/audivrun_hud_car_c.dds" memory="host" />
+		<texture name="audivrun_hud_launch_sec_c" deferred_loading="true" file="MiniGames/IronManRun/Textures/audivrun_hud_launch_sec_c.dds" memory="host" />
+		<texture name="audivrun_hud_speed_main_c" deferred_loading="true" file="MiniGames/IronManRun/Textures/audivrun_hud_speed_main_c.dds" memory="host" />
+		<texture name="ironmanrun_hud_leaderboard_reactor_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/ironmanrun_hud_leaderboard_reactor_c.dds" memory="host" />
+		<texture name="ironmanrun_hud_fullscreen_overlay_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/ironmanrun_hud_fullscreen_overlay_c.dds" memory="host" />
+		<texture name="ironmanrun_hud_leaderboard_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/ironmanrun_hud_leaderboard_c.dds" memory="host" />
+		<texture name="summary_HUD_time_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/summary_HUD_time_c.dds" />
+		<texture name="summary_HUD_pickups_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/summary_HUD_pickups_c.dds" />
+		<texture name="summary_HUD_rank_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/summary_HUD_rank_c.dds" />
+		<texture name="summary_HUD_score_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/summary_HUD_score_c.dds" />
+		<texture name="summary_HUD_score_target_c" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Textures/summary_HUD_score_target_c.dds" />
+		<texture name="ready_HUD_c" deferred_loading="true" protected="false" file="MiniGames/IronManRun/Textures/ready_HUD_c.dds" />
+		<particle name="IMTHRUSTERS" deferred_loading="false" file="ATGParticles/Generic/Efx/IMTHRUSTERS.efx" memory="host" />
+		<particle name="IMEXPLOSION2" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/EXPLOSION2.efx" memory="host" />
+		<particle name="IMPICKUP" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/IMPICKUP.efx" memory="host" />
+		<file name="Network_xml" deferred_loading="false" file="MiniGames/IronManRun/Network.xml" />
+		<file name="OSDwaiting" deferred_loading="false" file="MiniGames/IronManRun/OSD/waiting.xml" />
+		<file name="OSDtypes" deferred_loading="false" file="MiniGames/IronManRun/OSD/types.xml" />
+		<anim name="im_flyforward_anim" deferred_loading="false" file="MiniGames/IronManRun/Models/im_flyforward.ani" memory="host" />
+		<anim name="im_collision_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/im_collision.ani" memory="host" />
+		<anim name="im_bankleft_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/im_bankleft.ani" memory="host" />
+		<anim name="im_bankright_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/im_bankright.ani" memory="host" />
+		<anim name="MineHazard_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/MineHazard.ani" memory="host" />
+		<anim name="PowerBoostSimple_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/PowerBoost_Simple.ani" memory="host" />
+		<anim name="im_stand_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_Stand.ani" memory="host" />
+		<anim name="im_intro_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_Intro.ani" memory="host" />
+		<anim name="im_intro2_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_Intro2.ani" memory="host" />
+		<anim name="im_outro_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_Outro.ani" memory="host" />
+		<anim name="im_outro2_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_Outro2.ani" memory="host" />
+		<anim name="im_bankleft_in_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_CenterToLeft.ani" memory="host" />
+		<anim name="im_bankleft_out_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_LeftToCenter.ani" memory="host" />
+		<anim name="im_bankright_in_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_CenterToRight.ani" memory="host" />
+		<anim name="im_bankright_out_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_RightToCenter.ani" memory="host" />
+		<anim name="im_landing_pose_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_LandingPose.ani" />
+		<anim name="im_midpoint_anim" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/IM_MidPoint.ani" memory="host" />
+		<skeleton name="audiironman_suit_skeleton" deferred_loading="false" file="MiniGames/IronManRun/Models/audiironman_suit.skn" memory="host" />
+		<skeleton name="MineHazard_skel" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/MineHazard.skn" memory="host" />
+		<skeleton name="PowerBoostSimple_skel" deferred_loading="false" protected="false" file="MiniGames/IronManRun/Models/PowerBoost_Simple.skn" memory="host" />
+		<soundbank name="AudiIronManSoundBank" deferred_loading="false" file="MiniGames/IronManRun/Sounds/AudiIronMan.bnk" memory="host" />
+		<lua name="ScreenFader" deferred_loading="false" protected="true" file="MiniGames/IronManRun/ScreenFader.lua" memory="host" />
+		<lua name="List" deferred_loading="false" protected="true" file="MiniGames/IronManRun/List.lua" memory="host" />
+		<lua name="Racer" deferred_loading="false" protected="true" file="MiniGames/IronManRun/Racer.lua" memory="host" />
+		<lua name="CRSpline" deferred_loading="false" protected="true" file="MiniGames/IronManRun/CRSpline.lua" memory="host" />
+		<lua name="HUD" deferred_loading="false" protected="true" file="MiniGames/IronManRun/HUD.lua" memory="host" />
+		<lua name="IronManFlightFSM" deferred_loading="false" protected="true" file="MiniGames/IronManRun/IronManFlightFSM.lua" memory="host" />
+		<lua name="IMHiScore" deferred_loading="false" protected="true" file="MiniGames/IronManRun/IMHiScore.lua" memory="host" />
+		<lua name="Iron Man Flight Script" deferred_loading="false" protected="true" file="MiniGames/IronManRun/IronManFlight.lua" memory="host" />
+		<lua name="VEEMEEDebug" deferred_loading="false" protected="true" file="MiniGames/IronManRun/VEEMEEDebug.lua" memory="host" />
+		<lua name="Path" deferred_loading="false" protected="true" file="MiniGames/IronManRun/Path.lua" memory="host" />
+		<lua name="PathData" deferred_loading="false" protected="true" file="MiniGames/IronManRun/PathData.lua" memory="host" />
+		<lua name="ObjectPool" deferred_loading="false" protected="true" file="MiniGames/IronManRun/ObjectPool.lua" memory="host" />
+		<lua name="Pad" deferred_loading="false" protected="true" file="MiniGames/IronManRun/Pad.lua" memory="host" />
+		<lua name="DynamicEntity" deferred_loading="false" protected="true" file="MiniGames/IronManRun/DynamicEntity.lua" memory="host" />
+		<lua name="Timers" deferred_loading="false" protected="true" file="MiniGames/IronManRun/Timers.lua" memory="host" />
+		<lua name="IronManScoreUtils" deferred_loading="false" protected="true" file="MiniGames/IronManScoreBoard/IronManScoreUtils.lua" memory="host" />
+		<lua name="FlightHazardData" deferred_loading="false" protected="true" file="MiniGames/IronManRun/FlightHazardData.lua" memory="host" />
+		<lua name="FlightHazard" deferred_loading="false" protected="true" file="MiniGames/IronManRun/FlightHazard.lua" memory="host" />
+		<lua name="DollyCamera" deferred_loading="false" protected="true" file="MiniGames/IronManRun/DollyCamera.lua" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Car.mdl" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/Car.mdl" memory="host" />
+		<model name="Start.mdl" deferred_loading="false" protected="false" file="furniture/objects/FinishLines.mdl" memory="host" />
+		<model name="Antenna.mdl" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/Antenna.mdl" memory="host" />
+		<model name="LoserCar.mdl" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/LoserCar.mdl" memory="host" />
+		<texture name="texture_background_bestlap.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_bestlap.dds" memory="host" />
+		<texture name="texture_background_lapcomplete.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_lapcomplete.dds" memory="host" />
+		<texture name="texture_background_laps1.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_laps1.dds" memory="host" />
+		<texture name="texture_background_laps2.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_laps2.dds" memory="host" />
+		<texture name="texture_background_laptimes.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_laptimes.dds" memory="host" />
+		<texture name="texture_background_trick1.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_trick1.dds" memory="host" />
+		<texture name="texture_background_trick2.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_trick2.dds" memory="host" />
+		<texture name="texture_background_trick3.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_trick3.dds" memory="host" />
+		<texture name="texture_button_mainmenu.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_button_mainmenu.dds" memory="host" />
+		<texture name="texture_icon_home.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_icon_home.dds" memory="host" />
+		<texture name="texture_icon_home_no_tm.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_icon_home_no_tm.dds" memory="host" />
+		<texture name="texture_icon_lock.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_icon_lock.dds" memory="host" />
+		<texture name="texture_background_controls.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/texture_background_controls.dds" memory="host" />
+		<texture name="car_gold.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/car_gold.dds" memory="host" />
+		<texture name="car_pink.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/car_pink.dds" memory="host" />
+		<texture name="car_silver.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/car_silver.dds" memory="host" />
+		<texture name="diy_logo.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/diy_logo.dds" memory="host" />
+		<texture name="car_black.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/car_black.dds" memory="host" />
+		<texture name="car_blue.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/car_blue.dds" memory="host" />
+		<texture name="car_cardboardcartel.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/car_cardboardcartel.dds" memory="host" />
+		<texture name="car_black_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_black_c.dds" memory="host" />
+		<texture name="car_black_s.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_black_s.dds" memory="host" />
+		<texture name="car_blue_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_blue_c.dds" memory="host" />
+		<texture name="car_blue_s.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_blue_s.dds" memory="host" />
+		<texture name="car_cardboardcartel_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_cardboardcartel_c.dds" memory="host" />
+		<texture name="car_cardboardcartel_s.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_cardboardcartel_s.dds" memory="host" />
+		<texture name="car_gold_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_gold_c.dds" memory="host" />
+		<texture name="car_gold_s.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_gold_s.dds" memory="host" />
+		<texture name="car_pink_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_pink_c.dds" memory="host" />
+		<texture name="car_pink_s.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_pink_s.dds" memory="host" />
+		<texture name="car_silver_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_silver_c.dds" memory="host" />
+		<texture name="car_silver_s.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_silver_s.dds" memory="host" />
+		<texture name="car_loser_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_loser_c.dds" memory="host" />
+		<texture name="car_loser_s.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/textures/car_loser_s.dds" memory="host" />
+		<texture name="boost_fill.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/boost_fill.dds" memory="host" />
+		<texture name="boost_bar.dds" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/interface/boost_bar.dds" memory="host" />
+		<particle name="Dust_particle.efx" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/particles/Dust_particle.efx" memory="host" />
+		<particle name="boost_particles.efx" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/particles/boost_particles.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/file/Network.xml" />
+		<collision name="Start.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/objects/FinishLines.safevolume.hkx" />
+		<collision name="Car.hkx" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/Car.hkx" memory="host" />
+		<collision name="Camera.hkx" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/Camera.hkx" memory="host" />
+		<collision name="Start.hkx" deferred_loading="false" protected="false" file="furniture/objects/FinishLines.hkx" memory="host" />
+		<collision name="LoserCar.hkx" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/model/LoserCar.hkx" memory="host" />
+		<soundbank name="Car.bnk" deferred_loading="false" protected="false" file="RealTimeGames/RC_Racer_RT/file/Car.bnk" memory="host" />
+		<lua name="Car.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/Car.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/Player.lua" memory="host" />
+		<lua name="RC_Racer_RT.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/RC_Racer_RT.lua" memory="host" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/utility/Globals.lua" memory="host" />
+		<lua name="Includes.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/utility/Includes.lua" memory="host" />
+		<lua name="Initialize.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/utility/Initialize.lua" memory="host" />
+		<lua name="LoadLibraries.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/utility/LoadLibraries.lua" memory="host" />
+		<lua name="GameSetupState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/GameSetupState.lua" memory="host" />
+		<lua name="IdleState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/IdleState.lua" memory="host" />
+		<lua name="MultiplayerState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/MultiplayerState.lua" memory="host" />
+		<lua name="SingleplayerState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/SingleplayerState.lua" memory="host" />
+		<lua name="SpectatorState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/SpectatorState.lua" memory="host" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/State.lua" memory="host" />
+		<lua name="WaitingState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/WaitingState.lua" memory="host" />
+		<lua name="PadManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/shared_code/PadManager.lua" memory="host" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/shared_code/Class.lua" memory="host" />
+		<lua name="Explicit.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/shared_code/Explicit.lua" memory="host" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/shared_code/HelperFunctions.lua" memory="host" />
+		<lua name="OSDManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/shared_code/OSDManager.lua" memory="host" />
+		<lua name="GuiTimer.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/gui/GuiTimer.lua" memory="host" />
+		<lua name="GuiManager.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/gui/GuiManager.lua" memory="host" />
+		<lua name="GuiPairFound.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/gui/GuiPairFound.lua" memory="host" />
+		<lua name="GuiSprite.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/gui/GuiSprite.lua" memory="host" />
+		<lua name="GuiText.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/gui/GuiText.lua" memory="host" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/shared_code/Debugger.lua" memory="host" />
+		<lua name="ResultState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/ResultState.lua" memory="host" />
+		<lua name="ReplicatedPlayer.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/ReplicatedPlayer.lua" memory="host" />
+		<lua name="ReplicatedCar.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/ReplicatedCar.lua" memory="host" />
+		<lua name="ChaseCamera.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/ChaseCamera.lua" memory="host" />
+		<lua name="SkinSelectState.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/states/SkinSelectState.lua" memory="host" />
+		<lua name="GUI.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/GUI.lua" memory="host" />
+		<lua name="GUIPopUp.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/GUIPopUp.lua" memory="host" />
+		<lua name="Antenna.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/Antenna.lua" memory="host" />
+		<lua name="GuiHCappedSprite.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/gui/GuiHCappedSprite.lua" memory="host" />
+		<lua name="GUIHUD.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/GUIHUD.lua" memory="host" />
+		<lua name="MenuCamera.lua" deferred_loading="false" protected="true" file="RealTimeGames/RC_Racer_RT/lua/MenuCamera.lua" memory="host" />
+	</local>
+	<external />
+</resources>

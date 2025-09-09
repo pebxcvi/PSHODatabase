@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Casino_IceBucket.mdl" deferred_loading="false" protected="false" file="furniture/casino_icebucket/Casino_IceBucket.mdl" />
+		<model name="Casino_PillContainer.mdl" deferred_loading="false" protected="false" file="furniture/casino_pillcontainer/Casino_PillContainer.mdl" />
+		<model name="CarpetBurn1.mdl" deferred_loading="false" protected="false" file="environments/cheaphotelspace/burnmodels/CarpetBurn1.mdl" />
+		<model name="CarpetBurn2.mdl" deferred_loading="false" protected="false" file="environments/cheaphotelspace/burnmodels/CarpetBurn2.mdl" />
+		<model name="SmokeDamage.mdl" deferred_loading="false" protected="false" file="environments/cheaphotelspace/burnmodels/SmokeDamage.mdl" />
+		<model name="Extinguisher.mdl" deferred_loading="false" protected="false" file="environments/cheaphotelspace/burnmodels/Extinguisher.mdl" />
+		<model name="BedBurn1.mdl" deferred_loading="false" protected="false" file="environments/cheaphotelspace/burnmodels/BedBurn1.mdl" />
+		<texture name="paneMessage.dds" deferred_loading="false" protected="false" file="MiniGames/FireExtinguisher/paneMessage.dds" />
+		<particle name="Bubble.efx" deferred_loading="false" protected="false" file="ATGParticles/Bubble/Bubble.efx" />
+		<particle name="Fire.efx" deferred_loading="false" protected="false" file="ATGParticles/Fire/Fire.efx" />
+		<particle name="Fire_Scale.efx" deferred_loading="false" protected="false" file="ATGParticles/Fire/Fire_Scale.efx" />
+		<particle name="Extinguisher.efx" deferred_loading="false" protected="false" file="ATGParticles/Fire/Extinguisher.efx" />
+		<particle name="Spark.efx" deferred_loading="false" protected="false" file="ATGParticles/CheapHotelRoom/Spark.efx" />
+		<particle name="Scale_Test.efx" deferred_loading="false" protected="false" file="ATGParticles/Fire/Scale_Test.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/FireExtinguisher/file/Network.xml" />
+		<collision name="Extinguisher.hkx" deferred_loading="false" protected="false" file="environments/cheaphotelspace/burnmodels/Extinguisher.hkx" />
+		<anim name="MaleFireExthinguisherIdle" deferred_loading="false" protected="false" file="animation/male/m_fireextinguisher/MaleFireExthinguisherIdle.ani" />
+		<anim name="FemaleFireExtinguisherIdle" deferred_loading="false" protected="false" file="animation/female/femalefireextinguisher/FemaleFireExtinguisherIdle.ani" />
+		<soundbank name="FireExtinguisher.bnk" deferred_loading="false" protected="false" file="MiniGames/FireExtinguisher/sound/FireExtinguisher.bnk" />
+		<repertoire name="fireextinguisher_rep_male" deferred_loading="false" protected="false" file="objects/0A32F358-A5E44A33-9D6E5CD4-F53FD007/fireextinguisher_rep_male.xml" />
+		<repertoire name="fireextinguisher_rep_female" deferred_loading="false" protected="false" file="objects/0A32F358-A5E44A33-9D6E5CD4-F53FD007/fireextinguisher_rep_female.xml" />
+		<emotes name="fireextinguisher_emote_male" deferred_loading="true" protected="false" file="objects/0A32F358-A5E44A33-9D6E5CD4-F53FD007/fireextinguisher_emote_male.xml" />
+		<emotes name="fireextinguisher_emote_female" deferred_loading="true" protected="false" file="objects/0A32F358-A5E44A33-9D6E5CD4-F53FD007/fireextinguisher_emote_female.xml" />
+		<lua name="FireExtinguisher.lua" deferred_loading="false" protected="true" file="MiniGames/FireExtinguisher/lua/FireExtinguisher.lua" />
+		<lua name="SoundPlayer" deferred_loading="false" protected="true" file="MiniGames/BlackJack/SoundPlayer.lua" />
+	</local>
+	<external />
+</resources>

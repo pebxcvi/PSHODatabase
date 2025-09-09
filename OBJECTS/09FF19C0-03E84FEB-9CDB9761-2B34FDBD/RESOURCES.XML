@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/model/Tree.mdl" />
+		<model name="Fruit_Eggplant_mdl" deferred_loading="false" protected="false" file="Spunland/SharedModels/fruit_eggplant/model/Fruit_Eggplant.mdl" />
+		<model name="Tree_Trumpet_mdl" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/model/Tree_Trumpet.mdl" />
+		<particle name="danceIcon_efx" deferred_loading="false" protected="false" file="furniture/spunlandFruitTree/ATGParticles/danceIcon.efx" />
+		<particle name="pickupFruit_efx" deferred_loading="false" protected="false" file="environments/Spunland/ATGParticles/pickupFruit.efx" memory="host" />
+		<particle name="trumpetPetals_scripted_efx" deferred_loading="false" protected="false" file="environments/Spunland/ATGParticles/trumpetPetals_scripted.efx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/treesafevolume/TreeSafeVolume.hkx" />
+		<collision name="TreeSafeVolume" deferred_loading="false" protected="false" file="furniture/treesafevolume/TreeSafeVolume.safevolume.hkx" />
+		<anim name="Tree_Bopping" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/anim/Tree_Bopping.ani" />
+		<anim name="Tree_Fruit_Grow" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/anim/Tree_Fruit_Grow.ani" />
+		<anim name="Tree_Wobble" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/anim/Tree_Wobble.ani" />
+		<anim name="Fruit_Bounce" deferred_loading="false" protected="false" file="Spunland/SharedModels/fruit_eggplant/anim/Fruit_Bounce.ani" />
+		<anim name="Fruit_Fall" deferred_loading="false" protected="false" file="Spunland/SharedModels/fruit_eggplant/anim/Fruit_Fall.ani" />
+		<anim name="Fruit_Grow" deferred_loading="false" protected="false" file="Spunland/SharedModels/fruit_eggplant/anim/Fruit_Grow.ani" />
+		<anim name="Fruit_Grow_Idle" deferred_loading="false" protected="false" file="Spunland/SharedModels/fruit_eggplant/anim/Fruit_Grow_Idle.ani" />
+		<anim name="Fruit_Seedling" deferred_loading="false" protected="false" file="Spunland/SharedModels/fruit_eggplant/anim/Fruit_Seedling.ani" />
+		<anim name="Trumpet_CodeScale" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_CodeScale.ani" />
+		<anim name="Trumpet_Drop_and_Shrivel01" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Drop_and_Shrivel01.ani" />
+		<anim name="Trumpet_Fanfair" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Fanfair.ani" />
+		<anim name="Trumpet_Fruit_Grow" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Fruit_Grow.ani" />
+		<anim name="Trumpet_Grow_Idle" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Grow_Idle.ani" />
+		<anim name="Trumpet_Grow" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Grow.ani" />
+		<skeleton name="Tree_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/skeleton/Tree.skn" />
+		<skeleton name="Fruit_Eggplant_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/fruit_eggplant/skeleton/Fruit_Eggplant.skn" />
+		<skeleton name="Tree_Trumpet_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/skeleton/Tree_Trumpet.skn" />
+		<soundbank name="FruitTree" deferred_loading="false" protected="false" file="furniture/spunlandFruitTree/audio/FruitTree.bnk" />
+		<lua name="spunlandFruitTree_furniture" deferred_loading="false" protected="true" file="furniture/spunlandFruitTree/lua/spunlandFruitTree_furniture.lua" />
+		<lua name="cFruitTree" deferred_loading="false" protected="true" file="furniture/spunlandFruitTree/lua/cFruitTree.lua" />
+		<lua name="cVectorBlend" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlend.lua" />
+		<lua name="cPlayerState" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cPlayerState.lua" />
+		<lua name="supportFunctions" deferred_loading="false" protected="true" file="Spunland/SharedScripts/supportFunctions-523.lua" />
+		<lua name="cTreeFruit" deferred_loading="false" protected="true" file="furniture/spunlandFruitTree/lua/cTreeFruit.lua" />
+	</local>
+	<external />
+</resources>
