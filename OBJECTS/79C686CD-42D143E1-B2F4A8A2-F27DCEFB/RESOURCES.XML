@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/face_pounching/punch_model.mdl" />
+		<model name="face_pounching_bag.mdl" deferred_loading="false" protected="false" file="furniture/face_pounching/face_pounching_bag.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/face_pounching/face_pounching.hkx" />
+		<collision name="active_object.hkx" deferred_loading="false" protected="false" file="furniture/face_pounching/active_object.hkx" />
+		<anim name="punchingMale.ani" deferred_loading="false" protected="false" file="animation/male/punching/punching.ani" />
+		<anim name="punchingFemale.ani" deferred_loading="false" protected="false" file="animation/female/punching/punching.ani" />
+		<anim name="face_pounching_bag.ani" deferred_loading="false" protected="false" file="furniture/face_pounching/face_pounching_bag.ani" />
+		<skeleton name="face_pounching_bag.skn" deferred_loading="false" protected="false" file="furniture/face_pounching/face_pounching_bag.skn" />
+		<repertoire name="punchingMale" deferred_loading="false" protected="false" file="repertoire/punchingMale.xml" />
+		<repertoire name="punchingFemale" deferred_loading="false" protected="false" file="repertoire/punchingFemale.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/PunchingBag/lua/MiniGameBag.lua" />
+	</local>
+	<external />
+</resources>

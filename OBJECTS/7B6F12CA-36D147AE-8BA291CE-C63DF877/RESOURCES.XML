@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/models/BoomBoxFearless.mdl" />
+		<model name="BoomBoxPowerLight.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/models/BoomBoxPowerLight.mdl" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/models/BoomBoxFearless.hkx" />
+		<soundstream name="05_Swear_It_Like_You_Mean_It_2.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/sound/05_Swear_It_Like_You_Mean_It_2.mp3" />
+		<soundstream name="02_Any_Other_Heart_2.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/sound/02_Any_Other_Heart_2.mp3" />
+		<soundstream name="03_Singing_With_The_King_2.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/sound/03_Singing_With_The_King_2.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/programming/Boombox.lua" />
+		<lua name="MusicPlayer.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_boomboxfearless/programming/MusicPlayer.lua" />
+	</local>
+	<external />
+</resources>

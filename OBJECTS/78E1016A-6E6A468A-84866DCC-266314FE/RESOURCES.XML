@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/model/Griffin_rig.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/model/Griffin_Rig_LOD2.mdl" memory="host" />
+		<particle name="pfx.smoke" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/particle/smoke.efx" memory="host" />
+		<particle name="pfx.fly" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/particle/fly.efx" memory="host" />
+		<particle name="pfx.trails" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/particle/trails.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_idle01.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_walk.ani" memory="host" />
+		<anim name="ani.flap" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_Flying.ani" memory="host" />
+		<anim name="ani.land" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_Flying.ani" memory="host" />
+		<anim name="ani.twist" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/an_twist.ani" memory="host" />
+		<anim name="ani.fly" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_Flying.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_Run.ani" memory="host" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_idle02.ani" />
+		<anim name="ani.idle3" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/anim/Griffin_idle03.ani" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/skeleton/Griffin_rig.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/Griffin_Companion/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Griffin_Companion/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.3.6.22.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">rbenoist</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">© 2010 Loot™</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">Female01_FullBodySuit_alienswarm</name>
+		<type type="string">FullBodySuit</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_FullBodySuit_alienswarm</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_FullBodySuit_alienswarm_lod1.mdl</lod1>
+					<lod2 type="string">Female01_FullBodySuit_alienswarm_lod2.mdl</lod2>
+					<lod3 type="string">Female01_FullBodySuit_alienswarm_lod3.mdl</lod3>
+				</lods>
+				<skeleton type="string"></skeleton>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial11SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial11SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial11SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial11SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:alien_swarm_03:ATGMaterial8SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial8SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial8SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial8SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">glass</type>
+						<shadingGroup type="string">swarm:alienglass:temp:Alien_invasion1:Male01_FullBodySuit_AlienInvasion_WORK_04:Alien_invasion:glassSG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alienglass:temp:Alien_invasion1:Male01_FullBodySuit_AlienInvasion_WORK_04:Alien_invasion:glassSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alienglass:temp:Alien_invasion1:Male01_FullBodySuit_AlienInvasion_WORK_04:Alien_invasion:glassSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alienglass:temp:Alien_invasion1:Male01_FullBodySuit_AlienInvasion_WORK_04:Alien_invasion:glassSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:alien_swarm_03:ATGMaterial4SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial4SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial4SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial4SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">emissive</type>
+						<shadingGroup type="string">swarm:alien_swarm_03:ATGMaterial9SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">emissiveMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial9SG.emissiveMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:alien_swarm_03:ATGMaterial3SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial3SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial3SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial3SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:sample_animated:Alien_invasion:eyeASG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:sample_animated:Alien_invasion:eyeASG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:sample_animated:Alien_invasion:eyeASG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:sample_animated:Alien_invasion:eyeASG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:alien_swarm_03:ATGMaterial5SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial5SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial5SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial5SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:alien_swarm_03:ATGMaterial6SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial6SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial6SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial6SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:alien_swarm_03:ATGMaterial7SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial7SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial7SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:alien_swarm_03:ATGMaterial7SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial4SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial4SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial4SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial4SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial5SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial5SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial5SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial5SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial6SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial6SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial6SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial6SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial8SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial8SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial8SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial8SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:eyeASG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeASG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeASG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeASG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:eyeA1SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA1SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA1SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA1SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:eyeA2SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA2SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA2SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA2SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:eyeA3SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA3SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA3SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:eyeA3SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial7SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial7SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial7SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial7SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">emissive</type>
+						<shadingGroup type="string">swarm:ATGMaterial9SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">emissiveMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial9SG.emissiveMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial10SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial10SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial10SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial10SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial12SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial12SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial12SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial12SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial14SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial14SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial14SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial14SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial13SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial13SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial13SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial13SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial17SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial17SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial17SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial17SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial15SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial15SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial15SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial15SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">swarm:ATGMaterial16SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial16SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial16SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_FullBodySuit_alienswarm.swarm:ATGMaterial16SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

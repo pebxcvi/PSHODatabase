@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/model/mameshiba_00.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/model/mameshiba_lo_00.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/mameshiba_00_idle_00.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/walk.ani" memory="host" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/mameshiba_00_idle_02.ani" memory="main" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/mameshiba_00_idle_01.ani" memory="main" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/mameshiba_00_idle_02.ani" memory="main" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/run.ani" memory="host" />
+		<anim name="ani.run_left" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/mameshiba_00_run_left.ani" memory="main" />
+		<anim name="ani.run_right" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/mameshiba_00_run_right.ani" memory="main" />
+		<anim name="ani.howl_00" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/anim/mameshiba_00_howl_00.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/skeleton/mameshiba_00.skn" memory="host" />
+		<soundbank name="pet_mameshiba.bnk" deferred_loading="true" protected="false" file="companion_follower/Pet_mameshiba/soundbank/pet_mameshiba.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="companion_follower/Pet_mameshiba/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

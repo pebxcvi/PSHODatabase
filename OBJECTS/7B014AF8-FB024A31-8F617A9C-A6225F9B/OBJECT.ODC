@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.83.0.11.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>7B014AF8-FB024A31-8F617A9C-A6225F9B</uuid>
+  <name lang="en-GB" default="true">Gift Coins (Pack of 10)</name>
+  <name lang="fr-FR" default="false">Pièces cadeau (pack de 10)</name>
+  <name lang="de-DE" default="false">Geschenkmünze (enthält 10)</name>
+  <name lang="it-IT" default="false">Gettoni regalo (pacchetto da 10)</name>
+  <name lang="es-ES" default="false">Moneda de regalo (paquete de 10)</name>
+  <name lang="ja-JP" default="false">ギフトコイン・20枚</name>
+  <description lang="en-GB" default="true">Coins that can be used with GZ Gift in place of GZ Tickets\nGift Coins can be used in place of GZ Tickets to send items with GZ Gift.\n\n*This item was sent from GZ Gift.[#Legal]</description>
+  <description lang="fr-FR" default="false">Des pièces pouvant être utilisées avec GZ Cadeaux à la place des tickets GZ\nLes pièces cadeau peuvent être utilisées à la place des tickets GZ pour envoyer des objets via GZ Cadeaux.\n\n*Cet objet a été envoyé via GZ Cadeaux.[#Legal]</description>
+  <description lang="de-DE" default="false">Münzen, die anstelle von GZ Tickets für GZ Geschenk verwendet werden können.\nGeschenkmünzen können anstelle von GZ Tickets verwendet werden, um Geschenke via GZ Geschenk zu verschicken.\n\n*Eine Aufmerksamkeit von GZ Geschenk.[#Legal]</description>
+  <description lang="it-IT" default="false">Gettoni utilizzabili al posto dei Biglietti GZ per l'acquisto di GZ regali\nGettoni utilizzabili al posto dei Biglietti GZ per l'acquisto di GZ regali\n\n*Quest'oggetto è disponibile grazie alla gentile concessione di GZ regali.[#Legal]</description>
+  <description lang="es-ES" default="false">Las monedas se pueden usar con regalo GZ en lugar de pases GZ\nLas monedas regalo se pueden usar en lugar de pases GZ para enviar artículos con regalo GZ.\n\n*Enviado desde regalo GZ.[#Legal]</description>
+  <description lang="ja-JP" default="false">GZチケットのかわりに使える、GZギフト専用コイン。\nこのコインを受け取った人は、GZチケットのかわりにこれを使って誰かに贈り物をすることができます。\n\n※GZギフトの贈り物[#Legal]</description>
+  <maker lang="en-GB" default="true">Granzella Inc.</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>85BAF066</timestamp>
+</odc>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="edge_int_mp3_hi.mdl" deferred_loading="false" protected="false" file="environments/ford_showroom/models/edge_int_mp3_hi.mdl" />
+		<model name="edge_int_nav_hi.mdl" deferred_loading="false" protected="false" file="environments/ford_showroom/models/edge_int_nav_hi.mdl" />
+		<model name="edge_int_phone_hi.mdl" deferred_loading="false" protected="false" file="environments/ford_showroom/models/edge_int_phone_hi.mdl" />
+		<model name="fiesta_int_mp3_hi.mdl" deferred_loading="false" protected="false" file="environments/ford_showroom/models/fiesta_int_mp3_hi.mdl" />
+		<model name="fiesta_int_nav_hi.mdl" deferred_loading="false" protected="false" file="environments/ford_showroom/models/fiesta_int_nav_hi.mdl" />
+		<model name="fiesta_int_phone_hi.mdl" deferred_loading="false" protected="false" file="environments/ford_showroom/models/fiesta_int_phone_hi.mdl" />
+		<texture name="ford_screen_01.dds" deferred_loading="false" protected="false" file="furniture/ford_mp3_player/ford_screen_01.dds" />
+		<texture name="mp3_blank.dds" deferred_loading="false" protected="false" file="environments/ford_showroom/textures/fiesta/mp3_blank.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/View_Interior/file/Network.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/View_Interior/lua/MiniGame.lua" />
+		<lua name="aHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/aHelpers.lua" />
+		<lua name="Edge.lua" deferred_loading="false" protected="true" file="MiniGames/View_Interior/lua/Edge.lua" />
+		<lua name="Fiesta.lua" deferred_loading="false" protected="true" file="MiniGames/View_Interior/lua/Fiesta.lua" />
+		<lua name="MiniGame_Pad.lua" deferred_loading="false" protected="true" file="MiniGames/View_Interior/lua/MiniGame_Pad.lua" />
+		<lua name="OSD_Board.lua" deferred_loading="false" protected="true" file="MiniGames/View_Interior/lua/OSD_Board.lua" />
+	</local>
+	<external />
+</resources>

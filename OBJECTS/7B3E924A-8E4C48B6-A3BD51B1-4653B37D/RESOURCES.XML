@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="fan.mdl" deferred_loading="false" protected="false" file="environments/racing_apt/models/appliances/fan.mdl" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="environments/racing_apt/games/fans/files/Network.xml" />
+    <collision name="fan.hkx" deferred_loading="false" protected="false" file="environments/racing_apt/models/appliances/fan.hkx" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/fans/lua/main.luac" />
+  </local>
+  <external />
+</resources>

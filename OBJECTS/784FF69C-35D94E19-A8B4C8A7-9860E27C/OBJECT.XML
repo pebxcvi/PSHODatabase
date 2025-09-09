@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Visari Throne Room</name>
+		<description type="string">Personal apartment using the interior design of the throne room in Visari’s palace.</description>
+		<author type="string">Guerrilla Games</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Sony Computer Entertainment</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string">PEGI</rating_system>
+				<rating type="string">18+</rating>
+				<minimum_age type="int">18</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string">PEGI_0,PEGI_5</content_type>
+				<additional_data type="string">Violence, Swearing &amp; PEGI Online</additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string">BBFC</rating_system>
+				<rating type="string">18</rating>
+				<minimum_age type="int">18</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string">Contains Strong Bloody Violence</additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string">ESRB</rating_system>
+				<rating type="string">M</rating>
+				<minimum_age type="int">18</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string">ESRB_11,ESRB_29</content_type>
+				<additional_data type="string">Blood and Gore, Intense Violence, Strong Language</additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string">OFLCAU</rating_system>
+				<rating type="string">MA15+</rating>
+				<minimum_age type="int">15</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string">OFLCAU_1,OFLCAU_34,OFLCAU_35</content_type>
+				<additional_data type="string">Strong battle violence , Coarse language , Gaming experience may change online</additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string">OFLCNZ</rating_system>
+				<rating type="string">R15</rating>
+				<minimum_age type="int">15</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string">OFLCNZ_2,OFLCNZ_33</content_type>
+				<additional_data type="string">Strong battle violence , Coarse language , Gaming experience may change online</additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string">USK</rating_system>
+				<rating type="string">Restricted</rating>
+				<minimum_age type="int">18</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string">Strong battle violence , Coarse language , Gaming experience may change online</additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<reward />
+</objectdef>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="TexWindow" file="MiniGames/Roulette/data/texture/imas_roulette_window1.dds" deferred_loading="false" />
+		<texture name="TexRouletteCursor" file="MiniGames/Roulette/data/texture/imas_roulette1.dds" deferred_loading="false" />
+		<texture name="IconJackpot" file="MiniGames/Roulette/data/texture/bng128_fm_leg_haruka1.dds" deferred_loading="false" />
+		<texture name="TexRouletteBoardUS" file="MiniGames/Roulette/data/texture/us_imas_mm_boad1.dds" deferred_loading="false" />
+		<texture name="TexRouletteBoardJP" file="MiniGames/Roulette/data/texture/imas_mm_boad1.dds" deferred_loading="false" />
+		<texture name="IconBigWinUS" file="MiniGames/Roulette/data/texture/us_bng128_f_orn_c_moon1.dds" deferred_loading="false" />
+		<texture name="IconWinUS" file="MiniGames/Roulette/data/texture/us_bng128_f_orn_c_mm350.dds" deferred_loading="false" />
+		<texture name="IconBigWinJP" file="MiniGames/Roulette/data/texture/bng128_f_orn_c_moon1.dds" deferred_loading="false" />
+		<texture name="IconWinJP" file="MiniGames/Roulette/data/texture/bng128_f_orn_c_chihaya1.dds" deferred_loading="false" />
+		<file name="Game" file="MiniGames/Roulette/Game.lua" deferred_loading="false" />
+		<file name="Main" file="MiniGames/Roulette/Main.lua" deferred_loading="false" />
+		<file name="Timer" file="MiniGames/Roulette/Timer.lua" deferred_loading="false" />
+		<file name="OsdTypes" file="MiniGames/Roulette/OSD/types.xml" deferred_loading="false" />
+		<file name="OsdMessageChip" file="MiniGames/Roulette/OSD/messagechip.xml" deferred_loading="false" />
+		<file name="OsdRouletteChip" file="MiniGames/Roulette/OSD/roulettechip.xml" deferred_loading="false" />
+		<file name="Settings" file="MiniGames/Roulette/Settings765.lua" deferred_loading="false" />
+		<file name="OsdIconChip" file="MiniGames/Roulette/OSD/iconchip.xml" deferred_loading="false" />
+		<file name="GameSound" file="MiniGames/Roulette/GameSound.lua" deferred_loading="false" />
+		<file name="OsdControlChip" file="MiniGames/Roulette/OSD/controlchip.xml" deferred_loading="false" />
+		<file name="Window" file="MiniGames/Roulette/Window.lua" deferred_loading="false" />
+		<soundbank name="SE" file="MiniGames/Roulette/data/sound/se/se.bnk" deferred_loading="false" />
+		<soundstream name="BgmAttract" file="MiniGames/Roulette/data/sound/bgm/bgm_town_192kbps.mp3" deferred_loading="false" />
+		<soundstream name="BgmRoulette" file="MiniGames/Roulette/data/sound/bgm/bgm_thinking_192kbps.mp3" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

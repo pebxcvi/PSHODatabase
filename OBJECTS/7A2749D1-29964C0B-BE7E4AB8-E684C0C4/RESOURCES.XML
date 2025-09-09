@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <texture name="chara1.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/chara1.dds" />
+    <texture name="e_Fire00.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/e_Fire00.dds" />
+    <texture name="efect1.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/efect1.dds" />
+    <texture name="efect2.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/efect2.dds" />
+    <texture name="font.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/font.dds" />
+    <texture name="iae_score.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/iae_score.dds" />
+    <texture name="maptest1.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/maptest1.dds" />
+    <texture name="chara2.dds" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/Textures/chara2.dds" />
+    <texture name="iae_help.dds" deferred_loading="false" protected="false" file="ArcadeGames/Shooting_Earth_ArcadeFurniture/texture/iae_help.dds" />
+    <soundbank name="iAE2.bnk" deferred_loading="false" protected="false" file="MiniGames/Shooting_Earth/sound/iAE2.bnk" />
+    <lua name="stageData.lua" deferred_loading="false" protected="true" file="arcadegames/shooting_earth_arcadefurniture/lua/stagedata.lua" />
+    <lua name="typeInit.lua" deferred_loading="false" protected="true" file="arcadegames/shooting_earth_arcadefurniture/lua/typeinit.lua" />
+    <lua name="animation2d.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/animation2d.lua" />
+    <lua name="animationData.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/animationdata.lua" />
+    <lua name="bulletMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/bulletmgr.lua" />
+    <lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/cameramgr.lua" />
+    <lua name="collisionParam.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/collisionparam.lua" />
+    <lua name="collisionSystem.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/collisionsystem.lua" />
+    <lua name="debugSelect.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/debugselect.lua" />
+    <lua name="drawTask.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/drawtask.lua" />
+    <lua name="enemy.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/enemy.lua" />
+    <lua name="enemyMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/enemymgr.lua" />
+    <lua name="fade.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/fade.lua" />
+    <lua name="filterDraw.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/filterdraw.lua" />
+    <lua name="fontMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/fontmgr.lua" />
+    <lua name="fontObject.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/fontobject.lua" />
+    <lua name="frameDraw.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/framedraw.lua" />
+    <lua name="gameMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/gamemgr.lua" />
+    <lua name="gameUI.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/gameui.lua" />
+    <lua name="iaeFontObject.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/iaefontobject.lua" />
+    <lua name="initialize.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/initialize.lua" />
+    <lua name="item.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/item.lua" />
+    <lua name="itemMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/itemmgr.lua" />
+    <lua name="localPlayer.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/localplayer.lua" />
+    <lua name="map.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/map.lua" />
+    <lua name="mapMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/mapmgr.lua" />
+    <lua name="moveObject.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/moveobject.lua" />
+    <lua name="network.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/network.lua" />
+    <lua name="nonGame.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/nongame.lua" />
+    <lua name="pad.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/pad.lua" />
+    <lua name="param.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/param.lua" />
+    <lua name="particleEmitter2d.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/particleemitter2d.lua" />
+    <lua name="player.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/player.lua" />
+    <lua name="postEffectMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/posteffectmgr.lua" />
+    <lua name="remoteEnemy.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/remoteenemy.lua" />
+    <lua name="remoteGame.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/remotegame.lua" />
+    <lua name="remotePlayer.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/remoteplayer.lua" />
+    <lua name="remoteTitle.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/remotetitle.lua" />
+    <lua name="seqMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/seqmgr.lua" />
+    <lua name="stageMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/stagemgr.lua" />
+    <lua name="stringObj.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/stringobj.lua" />
+    <lua name="taskPrio.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/taskprio.lua" />
+    <lua name="taskSystem.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/tasksystem.lua" />
+    <lua name="title.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/title.lua" />
+    <lua name="ufo.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/ufo.lua" />
+    <lua name="ufoMgr.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/ufomgr.lua" />
+    <lua name="all.lua" deferred_loading="false" protected="true" file="environments/scenescript/all.lua" />
+    <lua name="ArcadeGame.lua" deferred_loading="false" protected="true" file="arcadegames/shooting_earth_arcadefurniture/lua/arcadegame.lua" />
+    <lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="arcadegames/shooting_earth_arcadefurniture/lua/itemlistcheker.lua" />
+    <lua name="osdLayer.lua" deferred_loading="false" protected="true" file="minigames/shooting_earth/lua/common/osdlayer.lua" />
+  </local>
+  <external />
+</resources>

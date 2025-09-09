@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="SoundPacks/laugh/file/configuration.xml" memory="main" />
+		<anim name="laugh_f.ani" deferred_loading="true" protected="false" file="animation/female/laugh_f/laugh_f.ani" memory="host" />
+		<anim name="giggle_f.ani" deferred_loading="true" protected="false" file="animation/female/giggle_f/giggle_f.ani" memory="host" />
+		<anim name="laugh_m.ani" deferred_loading="true" protected="false" file="animation/male/laugh_m/laugh_m.ani" memory="host" />
+		<anim name="giggle_m.ani" deferred_loading="true" protected="false" file="animation/male/giggle_m/giggle_m.ani" memory="host" />
+		<soundbank name="LaughF.bnk" deferred_loading="true" protected="false" file="SoundPacks/laugh/soundbank/LaughF.bnk" memory="host" />
+		<soundbank name="LaughM.bnk" deferred_loading="true" protected="false" file="SoundPacks/laugh/soundbank/LaughM.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="SoundPacks/laugh/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="SoundPacks/laugh/repertoire/female.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="SoundPacks/laugh/lua/boot.luac" memory="host" id="3699705613" />
+	</local>
+	<external />
+</resources>

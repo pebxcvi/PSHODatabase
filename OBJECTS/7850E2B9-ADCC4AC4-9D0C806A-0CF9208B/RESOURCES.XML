@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="flame_thrower2.mdl" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_thrower_green.mdl" memory="host" />
+		<model name="flame_geo.mdl" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_geo.mdl" memory="host" />
+		<model name="flame_geo_local.mdl" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_geo_local.mdl" memory="host" />
+		<model name="flame_thrower2_remote.mdl" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_thrower2_remote_green.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/particle/smoke.efx" memory="host" />
+		<particle name="Flames.efx" deferred_loading="true" protected="false" file="ATGParticles/plasma_blast/Flames.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/flame_thrower/file/config.xml" memory="host" />
+		<anim name="flame_thrower2_fire_out.ani" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_thrower2_fire_out.ani" />
+		<anim name="flame_thrower2_fire_in.ani" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_thrower2_fire_in.ani" />
+		<anim name="Gun_FemaleFlamethrowerPoint" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FemaleFlamethrowerPoint.ani" />
+		<anim name="Gun_FemaleFlamethrowerRun" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FemaleFlamethrowerRun.ani" />
+		<anim name="Gun_FemaleFlamethrowerWalk" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FemaleFlamethrowerWalk.ani" />
+		<anim name="Gun_FlamethrowerFiringDown" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FlamethrowerFiringDown.ani" />
+		<anim name="Gun_FlamethrowerIdle" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FlamethrowerIdle.ani" />
+		<anim name="Gun_FlamethrowerPoint" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FlamethrowerPoint.ani" />
+		<anim name="Gun_FlamethrowerRun" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FlamethrowerRun.ani" />
+		<anim name="Gun_FlamethrowerTurning" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FlamethrowerTurning.ani" />
+		<anim name="Gun_FlamethrowerWalk" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FlamethrowerWalk.ani" />
+		<anim name="Gun_FemaleFlamethrowerFireAround" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FemaleFlamethrowerFireAround.ani" />
+		<anim name="Gun_FemaleFlamethrowerFireDown" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FemaleFlamethrowerFireDown.ani" />
+		<anim name="Gun_FemaleFlamethrowerIdle" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/anim/Gun_FemaleFlamethrowerIdle.ani" />
+		<anim name="flame_thrower_idle.ani" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_thrower_idle.ani" />
+		<skeleton name="flame_thrower2.skn" deferred_loading="true" protected="false" file="animatedmodels/flame_thrower/flame_thrower2.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/flame_thrower/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/flame_thrower/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

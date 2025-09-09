@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/naut_coralsofa_01/NAUT_coralsofa_01.mdl" memory="host" />
+    <model name="active.model" deferred_loading="false" protected="false" file="furniture/naut_coralsofa_01/NAUT_coralsofa_01_RIG.mdl" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/naut_coralsofa_01/NAUT_coralsofa_01.hkx" memory="host" />
+    <anim name="active.ani.idle" deferred_loading="false" protected="false" file="furniture/naut_coralsofa_01/NAUT_coralsofa_01_Anim01.ani" />
+    <skeleton name="active.skeleton" deferred_loading="false" protected="false" file="furniture/naut_coralsofa_01/NAUT_coralsofa_01_RIG.skn" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="furniture/naut_coralsofa_01/main.luac" />
+  </local>
+  <external />
+</resources>

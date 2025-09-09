@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.75.0.85.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>7AF4B808-F9814464-A60930DC-8CC5DB19</uuid>
+  <name lang="en-GB" default="true">Kikai Machine Empire Binding Yoke</name>
+  <name lang="fr-FR" default="false">Joug d'attache de l'Empire des Machines Kikai</name>
+  <name lang="de-DE" default="false">Kikai-Maschinen-Imperium Gefangenengestell</name>
+  <name lang="it-IT" default="false">Giogo dell'Impero delle macchine Kikai</name>
+  <name lang="es-ES" default="false">Yugo del Imperio de las Máquinas Kikai</name>
+  <name lang="ja-JP" default="false">キカイマシーン帝国の磔台</name>
+  <description lang="en-GB" default="true">A yoke to string up prisoners of war.\n\n*Only available for event.[#Legal]</description>
+  <description lang="fr-FR" default="false">Un joug pour attacher les prisonniers de guerre.\n\n*Disponible seulement pour événement.[#Legal]</description>
+  <description lang="de-DE" default="false">Ein Gestell, an das Kriegsgefangene gebunden werden.\n\n*Nur für event verfügbar.[#Legal]</description>
+  <description lang="it-IT" default="false">Un giogo per incatenare un prigioniero di guerra.\n\n* Disponibile soltanto per evento.[#Legal]</description>
+  <description lang="es-ES" default="false">Un yugo para colgar a los prisioneros de guerra.\n\n*Disponible durante evento.[#Legal]</description>
+  <description lang="ja-JP" default="false">捕虜を拘束しておく磔台。\n\n※イベント限定[#Legal]</description>
+  <maker lang="en-GB" default="true">Granzella Inc.</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>B4275E7A</timestamp>
+</odc>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_teslacoil/models/CommAug_TeslaCoil_Base.mdl" />
+		<model name="CommAug_TeslaCoil_Med.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_teslacoil/models/CommAug_TeslaCoil_Med.mdl" />
+		<model name="CommAug_TeslaCoil_High.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_teslacoil/models/CommAug_TeslaCoil_High.mdl" />
+		<model name="CommAug_TeslaCoil_Low.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_teslacoil/models/CommAug_TeslaCoil_Low.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_teslacoil/programming/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_teslacoil/models/CommAug_TeslaCoil_Base.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="activeitems/commaugust_2010/commaug_teslacoil/models/CommAug_TeslaCoil_Base.safevolume.hkx" />
+		<soundbank name="TeslaCoil.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_teslacoil/sound/TeslaCoil.bnk" />
+		<lua name="teslaCoil.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_teslacoil/programming/teslaCoil.lua" />
+		<lua name="electricity.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_teslacoil/programming/electricity.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_teslacoil/programming/MyPad.lua" />
+	</local>
+	<external />
+</resources>

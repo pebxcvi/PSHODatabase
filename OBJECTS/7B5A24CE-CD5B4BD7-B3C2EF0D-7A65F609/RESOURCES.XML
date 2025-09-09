@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BMWtiiConceptCar.mdl" deferred_loading="false" protected="false" file="MiniGames/BMW/models/BMWtiiConceptCar2.mdl" />
+		<model name="BMWtiiStand.mdl" deferred_loading="false" protected="false" file="MiniGames/BMW/models/BMWtiiStand.mdl" />
+		<collision name="BMWtiiConceptCar.hkx" deferred_loading="false" protected="false" file="MiniGames/BMW/models/BMWtiiConceptCar2.hkx" />
+		<collision name="BMWtiiStand.hkx" deferred_loading="false" protected="false" file="MiniGames/BMW/models/BMWtiiStand.hkx" />
+		<lua name="BMW_Script.lua" deferred_loading="false" protected="true" file="MiniGames/BMW/BMW_Script.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Class.lua" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/Debugger.lua" />
+		<lua name="OSDManager.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/OSDManager.lua" />
+		<lua name="PadManager.lua" deferred_loading="false" protected="true" file="MiniGames/shared_code/PadManager.lua" />
+	</local>
+	<external />
+</resources>
