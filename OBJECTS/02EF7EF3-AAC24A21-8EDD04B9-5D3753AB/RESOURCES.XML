@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/farm_w_telescope/FARM_W_Telescope.mdl" memory="host" />
+    <texture name="background.dds" deferred_loading="true" protected="false" file="furniture/farm_w_telescope/Graphics/background.dds" memory="host" />
+    <texture name="overlay_1.dds" deferred_loading="true" protected="false" file="furniture/farm_w_telescope/Graphics/Stained_Glass.dds" memory="host" />
+    <texture name="overlay_2.dds" deferred_loading="true" protected="false" file="furniture/farm_w_telescope/Graphics/RedGel.dds" memory="host" />
+    <texture name="overlay_3.dds" deferred_loading="true" protected="false" file="furniture/farm_w_telescope/Graphics/UnderWater_Overlay.dds" memory="host" />
+    <texture name="overlay_4.dds" deferred_loading="true" protected="false" file="furniture/farm_w_telescope/Graphics/Parchment.dds" memory="host" />
+    <texture name="Dusk_Overlay.dds" deferred_loading="true" protected="false" file="furniture/jug_observer/Graphics/Dusk_Overlay.dds" memory="host" />
+    <texture name="HipsterOverlay.dds" deferred_loading="true" protected="false" file="furniture/farm_w_telescope/Graphics/HipsterOverlay.dds" memory="host" />
+    <texture name="NightVision_Overlay.dds" deferred_loading="true" protected="false" file="furniture/farm_w_telescope/Graphics/BrokenGlass.dds" memory="host" />
+    <texture name="Vignette_Overlay.dds" deferred_loading="true" protected="false" file="furniture/jug_observer/Graphics/Vignette_Overlay.dds" memory="host" />
+    <texture name="xray_overlay.dds" deferred_loading="true" protected="false" file="furniture/jug_observer/Graphics/xray_overlay.dds" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/jug_observer/lua/Network.xml" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_w_telescope/FARM_W_Telescope.hkx" memory="host" />
+    <collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/jug_observer/JUG_Observer.safevolume.hkx" memory="host" />
+    <collision name="Observer_Collider.hkx" deferred_loading="false" protected="false" file="furniture/jug_observer/Observer_Collider.hkx" memory="host" />
+    <anim name="Observer.ani" deferred_loading="false" protected="false" file="furniture/jug_observer/Observer.ani" memory="host" />
+    <skeleton name="Observer.skn" deferred_loading="false" protected="false" file="furniture/jug_observer/Observer.skn" memory="host" />
+    <soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/camera.mp3" memory="host" />
+    <soundstream name="observer_music.mp3" deferred_loading="false" protected="false" file="furniture/farm_w_telescope/Audio/telescope_music.mp3" memory="host" />
+    <soundstream name="beep_robot_03.mp3" deferred_loading="false" protected="false" file="furniture/farm_w_telescope/Audio/chime_a.mp3" memory="host" />
+    <soundstream name="beep_robot_04.mp3" deferred_loading="false" protected="false" file="furniture/farm_w_telescope/Audio/chime_b.mp3" memory="host" />
+    <soundstream name="welcome_robot.mp3" deferred_loading="false" protected="false" file="furniture/farm_w_telescope/Audio/chimes.mp3" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/main.luac" memory="host" />
+    <lua name="Observer.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/observer.luac" memory="host" />
+    <lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/batchresourceloader.luac" memory="host" />
+    <lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="furniture/jug_observer/lua/coroutinemanager.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/jug_observer/lua/pad.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/utility.luac" memory="host" />
+    <lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/state_idle.luac" memory="host" />
+    <lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/state_mainmenu.luac" memory="host" />
+    <lua name="State_Observing.lua" deferred_loading="false" protected="true" file="furniture/jug_observer/lua/state_observing.luac" memory="host" />
+    <lua name="State_Settings.lua" deferred_loading="false" protected="true" file="furniture/jug_observer/lua/state_settings.luac" memory="host" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/jug_observer/lua/statemachine.luac" memory="host" />
+    <lua name="Overlays.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/overlays.luac" memory="host" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/farm_w_telescope/lua/messagemanager.luac" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Basketball_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/Basketball.mdl" />
+		<model name="Arrow_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/arrow.mdl" />
+		<model name="Scoreboard_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/scoreboard.mdl" />
+		<model name="Coin_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/coin.mdl" />
+		<model name="Cones_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/cones.mdl" />
+		<model name="H_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/letter-h.mdl" />
+		<model name="O_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/letter-o.mdl" />
+		<model name="R_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/letter-r.mdl" />
+		<model name="S_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/letter-s.mdl" />
+		<model name="E_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/letter-e.mdl" />
+		<model name="0_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-0.mdl" />
+		<model name="1_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-1.mdl" />
+		<model name="2_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-2.mdl" />
+		<model name="3_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-3.mdl" />
+		<model name="4_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-4.mdl" />
+		<model name="5_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-5.mdl" />
+		<model name="6_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-6.mdl" />
+		<model name="7_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-7.mdl" />
+		<model name="8_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-8.mdl" />
+		<model name="9_MDL" deferred_loading="false" file="MiniGames/HORSEGame/models/number-9.mdl" />
+		<texture name="Aim_Reticle_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/aim-reticle.dds" />
+		<texture name="Aim_Needle_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/arrow.dds" />
+		<texture name="NUM_0_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-0.dds" />
+		<texture name="NUM_1_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-1.dds" />
+		<texture name="NUM_2_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-2.dds" />
+		<texture name="NUM_3_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-3.dds" />
+		<texture name="NUM_4_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-4.dds" />
+		<texture name="NUM_5_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-5.dds" />
+		<texture name="NUM_6_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-6.dds" />
+		<texture name="NUM_7_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-7.dds" />
+		<texture name="NUM_8_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-8.dds" />
+		<texture name="NUM_9_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/num-9.dds" />
+		<texture name="LTR_H_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/letter-h.dds" />
+		<texture name="LTR_O_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/letter-o.dds" />
+		<texture name="LTR_R_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/letter-r.dds" />
+		<texture name="LTR_S_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/letter-s.dds" />
+		<texture name="LTR_E_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/letter-e.dds" />
+		<texture name="SCORE_Back_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/scoreboard.dds" />
+		<texture name="Overhead_Basket_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/basket.dds" />
+		<texture name="Overhead_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/overhead.dds" />
+		<texture name="Overhead_Spot_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/spot2.dds" />
+		<texture name="Blank_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/blank.dds" />
+		<texture name="PowerBar_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/power_bar.dds" />
+		<texture name="PowerBar_Overlay_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/power_bar_overlay.dds" />
+		<texture name="PowerBar_Ball_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/ball.dds" />
+		<texture name="PowerBar_Prompt_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/HUD/power_bar_prompt.dds" />
+		<texture name="Win_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/trophy_winner.dds" />
+		<texture name="Lose_DDS" deferred_loading="false" file="MiniGames/HORSEGame/textures/trophy_loser.dds" />
+		<file name="network_xml" deferred_loading="false" file="MiniGames/HORSEGame/Network.xml" />
+		<file name="osd_basictext" deferred_loading="false" file="MiniGames/HORSEGame/OSD/basictext.xml" />
+		<file name="osd_textbox" deferred_loading="false" file="MiniGames/HORSEGame/Osd/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/HORSEGame/Osd/types.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" file="MiniGames/HORSEGame/OSD/simplemenu.xml" />
+		<xml name="Court_XML" deferred_loading="false" file="MiniGames/HORSEGame/court.xml" />
+		<collision name="Basketball_HKX" deferred_loading="false" file="MiniGames/HORSEGame/models/Basketball.hkx" />
+		<collision name="Cones_HKX" deferred_loading="false" file="MiniGames/HORSEGame/models/cones.hkx" />
+		<anim name="female_idle_NoBall_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_idle_NoBall.ani" />
+		<anim name="female_idle_WBall_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_idle_WBall.ani" />
+		<anim name="female_miss_1_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_shot_miss_t001.ani" />
+		<anim name="female_miss_2_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_shot_miss2_t001_solve_000.ani" />
+		<anim name="female_make_1_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_shot_celebration_t001.ani" />
+		<anim name="female_make_2_ANI" deferred_loading="false" protected="" file="Animations/minigames/horsegame/female/female_shot_celebration_t003.fbx.ani" />
+		<anim name="female_make_3_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_shot_celebration2_t001_solve_000.ani" />
+		<anim name="female_jumpshot_med_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_jumpshot_aimmed_medium_t001.ani" />
+		<anim name="female_jumpshot_med_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_jumpshot_aimmed_hard_t002.ani" />
+		<anim name="female_jumpshot_hi_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_jumpshot_aimhi_medium_t002.ani" />
+		<anim name="female_jumpshot_hi_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_jumpshot_aimhi_hard2_t002.ani" />
+		<anim name="female_hookshot_med_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_hookshot_aimmed_medium2_t001.ani" />
+		<anim name="female_hookshot_med_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_hookshot_aimmed_hard2_t001.ani" />
+		<anim name="female_hookshot_hi_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_hookshot_aimhi_medium2_t001.ani" />
+		<anim name="female_hookshot_hi_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_hookshot_aimhi_hard2_t001.ani" />
+		<anim name="female_setshot_low_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/female/female_bounceshot2_t002_solve_000.ani" />
+		<anim name="male_idle_NoBall_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_idle_NoBall.ani" />
+		<anim name="male_idle_WBall_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_idle_WBall.ani" />
+		<anim name="male_miss_1_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_shot_miss_t001.ani" />
+		<anim name="male_miss_2_ANI" deferred_loading="false" protected="" file="Animations/minigames/horsegame/male/male_shot_miss_t002.ani" />
+		<anim name="male_make_1_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_shot_celebration2_t002_solve_000.ani" />
+		<anim name="male_make_2_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_shot_celebration2_t001_solve_000.ani" />
+		<anim name="male_make_3_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_shot_celebration_t003.ani" />
+		<anim name="male_jumpshot_med_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_jumpshot_aimmed_medium_t001.ani" />
+		<anim name="male_jumpshot_med_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_jumpshot_aimmed_hard2_t002.ani" />
+		<anim name="male_jumpshot_hi_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_jumpshot_aimhi_medium__t002.ani" />
+		<anim name="male_jumpshot_hi_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_jumpshot_aimhigh_hard2_t002.ani" />
+		<anim name="male_hookshot_med_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_hookshot_aimmed_medium2_t001.ani" />
+		<anim name="male_hookshot_med_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_hookshot_aimmed_hard2_t002.ani" />
+		<anim name="male_hookshot_hi_medium_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_hookshot_aimhi_medium2_t001.ani" />
+		<anim name="male_hookshot_hi_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_hookshot_aimhi_hard2_t001_v05.ani" />
+		<anim name="male_setshot_low_hard_ANI" deferred_loading="false" protected="" file="Animations/MiniGames/HORSEGame/male/male_bounceshot2_t001_v03.ani" />
+		<soundbank name="Horse_BNK" deferred_loading="false" file="MiniGames/HORSEGame/HORSE.bnk" />
+		<repertoire name="Men_Shots" deferred_loading="false" protected="" file="objects/04A57D2F-54CB45F4-9C660C2B-8B592591/men.xml" />
+		<repertoire name="Women_Shots" deferred_loading="false" protected="" file="objects/04A57D2F-54CB45F4-9C660C2B-8B592591/women.xml" />
+		<lua name="Ball_LUA" protected="true" file="MiniGames/HORSEGame/Ball.lua" />
+		<lua name="Cones_LUA" protected="true" file="MiniGames/HORSEGame/Cones.lua" />
+		<lua name="GameMgr_LUA" protected="true" file="MiniGames/HORSEGame/GameMgr.lua" />
+		<lua name="HORSE_LUA" protected="true" file="MiniGames/HORSEGame/HORSE.lua" />
+		<lua name="HUD_LUA" protected="true" file="MiniGames/HORSEGame/HUD.lua" />
+		<lua name="MyCamera_LUA" protected="true" file="MiniGames/HORSEGame/MyCamera.lua" />
+		<lua name="MyCameraMgr_LUA" protected="true" file="MiniGames/HORSEGame/MyCameraMgr.lua" />
+		<lua name="MyPad_LUA" protected="true" file="MiniGames/HORSEGame/MyPad.lua" />
+		<lua name="Physics_LUA" protected="true" file="MiniGames/HORSEGame/Physics.lua" />
+		<lua name="Player_LUA" protected="true" file="MiniGames/HORSEGame/Player.lua" />
+		<lua name="Scoreboard_LUA" protected="true" file="MiniGames/HORSEGame/Scoreboard.lua" />
+		<lua name="SoundMgr_LUA" protected="true" file="MiniGames/HORSEGame/SoundMgr.lua" />
+		<lua name="Bounds_LUA" protected="true" file="MiniGames/HORSEGame/Physics/Bounds.lua" />
+		<lua name="Collection_LUA" protected="true" file="MiniGames/HORSEGame/Physics/Collection.lua" />
+		<lua name="Frustum_LUA" protected="true" file="MiniGames/HORSEGame/Physics/Frustum.lua" />
+		<lua name="Object_LUA" protected="true" file="MiniGames/HORSEGame/Physics/Object.lua" />
+		<lua name="Plane_LUA" protected="true" file="MiniGames/HORSEGame/Physics/Plane.lua" />
+		<lua name="Sphere_LUA" protected="true" file="MiniGames/HORSEGame/Physics/Sphere.lua" />
+		<lua name="Triangle_LUA" protected="true" file="MiniGames/HORSEGame/Physics/Triangle.lua" />
+		<lua name="World_LUA" protected="true" file="MiniGames/HORSEGame/Physics/World.lua" />
+	</local>
+	<external />
+</resources>

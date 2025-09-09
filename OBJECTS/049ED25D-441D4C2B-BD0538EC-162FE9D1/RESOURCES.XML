@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Loot_blimp.mdl" deferred_loading="false" file="furniture/loot_blimp/Loot_blimp_night.mdl" />
+		<model name="blimp_screen.mdl" deferred_loading="false" file="furniture/blimp_screen/blimp_screen.mdl" />
+		<model name="blimp_screenb.mdl" deferred_loading="false" file="furniture/blimp_screen/blimp_screenb.mdl" />
+		<model name="blimp_screena.mdl" deferred_loading="false" file="furniture/blimp_screen/blimp_screena.mdl" />
+		<model name="sideslidedoor.mdl" deferred_loading="false" file="environments/home_theater_pad/Assets/sideslidedoor.mdl" />
+		<model name="doorfacadeleft.mdl" deferred_loading="false" file="environments/home_theater_pad/Assets/doorfacadeleft.mdl" />
+		<model name="doorfacaderight.mdl" deferred_loading="false" file="environments/home_theater_pad/Assets/doorfacaderight.mdl" />
+		<model name="loot_atm.mdl" deferred_loading="false" file="furniture/loot_atm/loot_atm.mdl" />
+		<model name="district9.mdl" deferred_loading="false" file="environments/home_theater_pad/Assets/district9.mdl" />
+		<texture name="Menu_Instructions.dds" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/Textures/Menu_Instructions.dds" />
+		<texture name="mystery_pak.dds" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/Textures/mystery_pak.dds" />
+		<texture name="Menu_TitlesBG.dds" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/Textures/Menu_TitlesBG.dds" />
+		<texture name="sidebar.dds" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/Textures/sidebar.dds" />
+		<texture name="16x9.png" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/Textures/16x9.png" />
+		<texture name="LaView_02_172x256.png" deferred_loading="false" protected="false" file="MiniGames/MediaAptMediaCenter/Textures/LaView_02_172x256.png" />
+		<texture name="LaView_01_172x256.png" deferred_loading="false" protected="false" file="MiniGames/MediaAptMediaCenter/Textures/LaView_01_172x256.png" />
+		<texture name="LaView_03_172x256.png" deferred_loading="false" protected="false" file="MiniGames/MediaAptMediaCenter/Textures/LaView_03_172x256.png" />
+		<texture name="LaView_04_172x256.png" deferred_loading="false" protected="false" file="MiniGames/MediaAptMediaCenter/Textures/LaView_04_172x256.png" />
+		<texture name="Blimp_01_684x384.png" deferred_loading="false" protected="false" file="MiniGames/MediaAptMediaCenter/Textures/Blimp_01_684x384.png" />
+		<texture name="WhatsNEW_01_684x384.png" deferred_loading="false" protected="false" file="MiniGames/MediaAptMediaCenter/Textures/WhatsNEW_01_684x384.png" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/types.xml" />
+		<file name="basicchip.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/basicchip.xml" />
+		<file name="basicpopup.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/basicpopup.xml" />
+		<file name="basicsinglegraphic.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/basicsinglegraphic.xml" />
+		<file name="basictext.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/basictext.xml" />
+		<file name="simplemenu.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/simplemenu.xml" />
+		<file name="textpanel.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/textpanel.xml" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/Network.xml" />
+		<file name="media_example.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/media_example.xml" />
+		<file name="basiclegend.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/basiclegend.xml" />
+		<file name="textpanel_tos.xml" deferred_loading="false" file="MiniGames/MediaAptMediaCenter/OSD/textpanel_tos.xml" />
+		<collision name="Loot_blimp.hkx" deferred_loading="false" file="furniture/loot_blimp/Loot_blimp.hkx" />
+		<collision name="doorfacadeleft.hkx" deferred_loading="false" file="environments/home_theater_pad/Assets/doorfacadeleft.hkx" />
+		<collision name="doorfacaderight.hkx" deferred_loading="false" file="environments/home_theater_pad/Assets/doorfacaderight.hkx" />
+		<collision name="sideslidedoor.hkx" deferred_loading="false" file="environments/home_theater_pad/Assets/sideslidedoor.hkx" />
+		<collision name="loot_atm.hkx" deferred_loading="false" file="furniture/loot_atm/loot_atm.hkx" />
+		<anim name="Loot_blimp.ani" deferred_loading="false" file="furniture/loot_blimp/Loot_blimp_night.ani" />
+		<skeleton name="Loot_blimp.skn" deferred_loading="false" file="furniture/loot_blimp/Loot_blimp_night.skn" />
+		<soundbank name="HHA_all.bnk" deferred_loading="false" file="environments/home_theater_pad/audio/HHA_all.bnk" />
+		<lua name="MediaMenu.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/MediaMenu.lua" />
+		<lua name="AutoMotion_pad.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/AutoMotion_pad.lua" />
+		<lua name="main_pad.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/main_pad.lua" />
+		<lua name="ScreenTheater_pad.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/ScreenTheater_pad.lua" />
+		<lua name="math_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/math_lib.lua" />
+		<lua name="commerce_menu.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/commerce_menu.lua" />
+		<lua name="blimp.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/blimp.lua" />
+		<lua name="media_network.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/media_network.lua" />
+		<lua name="welcome_screen.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/welcome_screen.lua" />
+		<lua name="building_screens.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/building_screens.lua" />
+		<lua name="instructions.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/instructions.lua" />
+		<lua name="ent_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/ent_lib.lua" />
+		<lua name="np_ticketing.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/np_ticketing.lua" />
+		<lua name="xml_parsing.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/xml_parsing.lua" />
+		<lua name="sounds.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/sounds_nighttimedummy.lua" />
+		<lua name="xml_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/xml_lib.lua" />
+		<lua name="db_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/db_lib.lua" />
+		<lua name="UI_lib_hhh.lua" deferred_loading="false" protected="true" file="MiniGames/MediaAptMediaCenter/UI_lib_hhh.lua" />
+		<lua name="coroutine_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/coroutine_lib.lua" />
+		<lua name="class_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/class_lib.lua" />
+	</local>
+</resources>

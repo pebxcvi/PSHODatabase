@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/HUNT_GhostAttractor.mdl" memory="host" />
+		<model name="HUNT_EMF.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/HUNT_EMF.mdl" memory="host" />
+		<model name="HUNT_EVPRecorder.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/HUNT_EVPRecorder.mdl" memory="host" />
+		<model name="HUNT_WhiteNoiseTranslator.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/HUNT_WhiteNoiseTranslator.mdl" memory="host" />
+		<model name="Boy.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Boy.mdl" memory="host" />
+		<model name="Girl.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Girl.mdl" memory="host" />
+		<model name="Reaper.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Reaper.mdl" memory="host" />
+		<model name="Slender.mdl" deferred_loading="false" protected="false" file="furniture/hunt_ghostovision/ghosts/Slender.mdl" memory="host" />
+		<texture name="constructor_cangrab.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_cangrab.dds" memory="host" />
+		<texture name="Constructor_ItemLocked.png" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/Constructor_ItemLocked.png" memory="host" />
+		<texture name="constructor_movingitem.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_movingitem.dds" memory="host" />
+		<texture name="constructor_nothingselected.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_nothingselected.dds" memory="host" />
+		<texture name="GirlGhost_03.dds" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/graphics/GirlGhost_03.dds" memory="host" />
+		<particle name="GhostSmoke_01.efx" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/particles/GhostSmoke_01.efx" memory="host" />
+		<particle name="Frame_Effect.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Cutterridge/Frame_Effect.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_w_magicchest/FARM_W_MagicChest.hkx" memory="host" />
+		<collision name="Sprg13_Egghunt_Collider.hkx" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/models/Constructor_Collider.hkx" memory="host" />
+		<collision name="HUNT_EMF.hkx" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/HUNT_EMF.hkx" memory="host" />
+		<collision name="HUNT_EVPRecorder.hkx" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/HUNT_EVPRecorder.hkx" memory="host" />
+		<collision name="HUNT_WhiteNoiseTranslator.hkx" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/HUNT_WhiteNoiseTranslator.hkx" memory="host" />
+		<soundbank name="Bramblenook_UI.bnk" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/audio/Bramblenook_UI.bnk" memory="host" />
+		<soundstream name="EVP_sound_2.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/EVP_sound_2.mp3" memory="host" />
+		<soundstream name="shout6.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/shout6.mp3" memory="host" />
+		<soundstream name="shout4.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/shout4.mp3" memory="host" />
+		<soundstream name="shout5.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/shout5.mp3" memory="host" />
+		<soundstream name="shout3.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/shout3.mp3" memory="host" />
+		<soundstream name="shout2.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/shout2.mp3" memory="host" />
+		<soundstream name="shout1.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/shout1.mp3" memory="host" />
+		<soundstream name="EVP_sound_1.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/EVP_sound_1.mp3" memory="host" />
+		<soundstream name="EVP_sound_4.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/EVP_sound_4.mp3" memory="host" />
+		<soundstream name="EVP_sound_3.mp3" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/audio/EVP_sound_3.mp3" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/hunt_weaponcabinet/Lua/MiniGame.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/utilities/Pad.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/utilities/StateMachine.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/utilities/Utility.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/states/State_Idle.luac" memory="host" />
+		<lua name="State_PlaceItems.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/states/State_PlaceItems.luac" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/network/MessageManager.luac" memory="host" />
+		<lua name="Constructor.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/constructor/Constructor.luac" memory="host" />
+		<lua name="Level.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/constructor/Level.luac" memory="host" />
+		<lua name="LevelComponents.lua" deferred_loading="false" protected="true" file="furniture/hunt_ghostattractor/Lua/constructor/LevelComponents.luac" memory="host" />
+		<image name="EMF_128.png" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/graphics/EMF_128.png" />
+		<image name="EVPRecorder_128.png" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/graphics/EVPRecorder_128.png" />
+		<image name="WhiteNoise_128.png" deferred_loading="false" protected="false" file="furniture/hunt_ghostattractor/graphics/WhiteNoise_128.png" />
+	</local>
+	<external />
+</resources>

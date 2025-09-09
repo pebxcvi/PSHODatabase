@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/model/BoxCarMDL.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/model/BoxCarRemote.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/FunRides_BumperCar_Box/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/BumperBoxIdel.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/BumperBoxLeft.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/BumperBoxIdel.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/BumperBoxRight.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/FBumperBoxLeft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/FBumperBoxIdel.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/FBumperBoxRight.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/anim/FBumperBoxIdel.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="locomotion/FunRides_BumperCar_Box/skeleton/BoxCarMDL.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/FunRides_BumperCar_Box/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/FunRides_BumperCar_Box/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/FunRides_BumperCar_Box/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/FunRides_BumperCar_Box/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/FunRides_BumperCar_Box/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

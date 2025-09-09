@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cylinder.mdl" deferred_loading="false" protected="false" file="MiniGames/MG00/Models/cylinder.mdl" />
+		<model name="Star.mdl" deferred_loading="false" protected="false" file="MiniGames/MG00/Models/Star.mdl" />
+		<texture name="ToyStory_Star.dds" deferred_loading="false" protected="false" file="MiniGames/MG00/Textures/ToyStory_Star.dds" />
+		<particle name="starplosion.efx" deferred_loading="false" protected="false" file="MiniGames/MG00/Models/Particles/starplosion.efx" />
+		<file name="osd_MiniGameHud.xml" deferred_loading="false" protected="false" file="MiniGames/MG00/OSD/MiniGameHud.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/StartUpDialog.xml" />
+		<file name="osd_types.xml" deferred_loading="false" protected="false" file="MiniGames/MG00/OSD/types.xml" />
+		<collision name="cylinder.hkx" deferred_loading="false" protected="false" file="MiniGames/MG00/Models/cylinder.hkx" />
+		<collision name="Star.hkx" deferred_loading="false" protected="false" file="MiniGames/MG00/Models/Star.hkx" />
+		<collision name="collision_wall.hkx" deferred_loading="false" protected="false" file="MiniGames/MG00/Models/collision_wall.hkx" />
+		<anim name="male_jump_01.ani" deferred_loading="false" protected="false" file="animation/male/jump_01/jump_01.ani" />
+		<anim name="male_jump_02.ani" deferred_loading="false" protected="false" file="animation/male/jump_02/jump_02.ani" />
+		<anim name="male_jump_03.ani" deferred_loading="false" protected="false" file="animation/male/jump_03/jump_03.ani" />
+		<anim name="female_jump_01.ani" deferred_loading="false" protected="false" file="animation/female/jump_01/jump_01.ani" />
+		<anim name="female_jump_02.ani" deferred_loading="false" protected="false" file="animation/female/jump_02/jump_02.ani" />
+		<anim name="female_jump_03.ani" deferred_loading="false" protected="false" file="animation/female/jump_03/jump_03.ani" />
+		<repertoire name="male_animations" deferred_loading="false" protected="false" file="MiniGames/MG00/male_animations.xml" />
+		<repertoire name="female_animations" deferred_loading="false" protected="false" file="MiniGames/MG00/female_animations.xml" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG00/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG00/Source/Network.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG00/Source/Settings.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG00/Source/Player.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG00/Source/Audio.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Star.lua" deferred_loading="false" protected="true" file="MiniGames/MG00/Source/Star.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG00/Source/Camera.lua" />
+	</local>
+	<external />
+</resources>

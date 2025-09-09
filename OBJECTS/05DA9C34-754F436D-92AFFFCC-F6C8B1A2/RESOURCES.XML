@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="screen_mdl" deferred_loading="false" file="JapanEvents/Xmas/xmasscreen/xmasscreen.mdl" />
+		<texture name="err1_tex" deferred_loading="false" file="objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/textures/error640_360.dds" />
+		<texture name="err2_tex" deferred_loading="false" file="objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/textures/error512_512.dds" />
+		<texture name="err3_tex" deferred_loading="false" file="objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/textures/error356_512.dds" />
+		<file name="always_osd" deferred_loading="false" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/osd/always.xml" />
+		<file name="selectbar_osd" deferred_loading="false" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/osd/selectbar.xml" />
+		<file name="types_osd" deferred_loading="false" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/osd/types.xml" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/paHomeCommon.luac" />
+		<lua name="paHomeCommonDebug" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/paHomeCommonDebug.luac" />
+		<lua name="paHomePad2" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/paHomePad2.luac" />
+		<lua name="paHomeScreen" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/paHomeScreen.luac" />
+		<lua name="paHomeUI2" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/paHomeUI2.luac" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/paHomePosCalc.luac" />
+		<lua name="main" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/main.luac" />
+		<lua name="gamemain" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/gamemain.luac" />
+		<lua name="globalmain" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/globalmain.luac" />
+		<lua name="version_label" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/version_label.luac" />
+		<lua name="dbg_propaty" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/dbg_propaty.luac" />
+		<lua name="permitted_region" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/permitted_region.luac" />
+		<lua name="server_propaty" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/server_propaty.luac" />
+		<lua name="adjust_propaty" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/adjust_propaty.luac" />
+		<lua name="eventOsd" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/eventOsd.luac" />
+		<lua name="eventTrigger" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/eventTrigger.luac" />
+		<lua name="eventCommon" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/eventCommon.luac" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/paHomeTime.luac" />
+		<lua name="registUpdate" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/registUpdate.luac" />
+		<lua name="xmlExpand" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/xmlExpand.luac" />
+		<lua name="ResMan" deferred_loading="false" protected="true" file="Objects/05DA9C34-754F436D-92AFFFCC-F6C8B1A2/resource/ResMan.luac" />
+	</local>
+	<external />
+</resources>

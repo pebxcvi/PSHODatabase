@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="timer.mdl" deferred_loading="false" file="MiniGames/SOCOM_goldAK/models/timer.mdl" />
+		<model name="AK47_stand.mdl" deferred_loading="false" file="MiniGames/SOCOM_goldAK/models/AK47_stand.mdl" />
+		<model name="tube" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_gastube.mdl" />
+		<model name="bolt" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_bolt.mdl" />
+		<model name="clip" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_clip.mdl" />
+		<model name="cover" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_cover.mdl" />
+		<model name="gun" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_gun.mdl" />
+		<model name="rod" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_rod.mdl" />
+		<model name="safety" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_safety.mdl" />
+		<model name="spring" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/pass2_gold_spring.mdl" />
+		<model name="blocker_cy.mdl" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/blocker_cy.mdl" />
+		<model name="OPFOR_corkboard.mdl" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/OPFOR_corkboard.mdl" />
+		<texture name="progress_back.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/progress_back.dds" />
+		<texture name="spring.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/spring.dds" />
+		<texture name="bolt.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/bolt.dds" />
+		<texture name="clip.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/clip.dds" />
+		<texture name="cover.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/cover.dds" />
+		<texture name="gastube.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/gastube.dds" />
+		<texture name="gunbody.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/gunbody.dds" />
+		<texture name="rod.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/rod.dds" />
+		<texture name="outlines.dds" deferred_loading="false" file="MiniGames/SOCOM_goldAK/images/outlines.dds" />
+		<texture name="digit.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/digit.dds" />
+		<texture name="stick.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/stick.dds" />
+		<texture name="controller.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/controller.dds" />
+		<texture name="ScoreCard.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/ScoreCard.dds" />
+		<texture name="SocomText_1.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/SocomText_1.dds" />
+		<texture name="SocomText_2.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/SocomText_2.dds" />
+		<texture name="SocomText_3.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/SocomText_3.dds" />
+		<texture name="SocomText_Arrow.dds" deferred_loading="false" file="MiniGames/SOCOM_gungame/Images/SocomText_Arrow.dds" />
+		<particle name="OPFORsparkle.efx" deferred_loading="false" file="ATGParticles/OPFOR/Effects/OPFORsparkle.efx" />
+		<collision name="blocker_cy.hkx" deferred_loading="false" file="MiniGames/SOCOM_gungame/models/blocker_cy.hkx" />
+		<soundbank name="gunstrip.bnk" deferred_loading="false" file="MiniGames/SOCOM_gungame/Sounds/gunstrip.bnk" />
+		<lua name="gold_reward.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/gold_reward.lua" />
+		<lua name="goldgun_part.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/goldgun_part.lua" />
+		<lua name="parts.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/parts.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA-OHS/OHS.lua" />
+		<lua name="encrypt.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA-OHS/encrypt.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA-OHS/Jamin.lua" />
+		<lua name="LB_fetchparts.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/LB_fetchparts.lua" />
+		<lua name="assembly.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/assembly.lua" />
+		<lua name="timer.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/timer.lua" />
+		<lua name="draw_items.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/draw_items.lua" />
+		<lua name="wordwrap.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_fn_lib/wordwrap.lua" />
+		<lua name="process.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_gungame/Scripts/process.lua" />
+		<lua name="grant_gun.lua" deferred_loading="false" protected="true" file="MiniGames/SOCOM_goldAK/scripts/grant_gun.lua" />
+	</local>
+	<external />
+</resources>

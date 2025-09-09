@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/naut_seaweedscreen_01/NAUT_seaweedscreen_01.mdl" />
+		<model name="frond_model.mdl" deferred_loading="false" protected="false" file="furniture/naut_seaweedscreen_01/Frond.mdl" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/naut_seaweedscreen_01/NAUT_seaweedscreen_01.hkx" memory="host" />
+		<anim name="Frond.ani" deferred_loading="false" protected="false" file="furniture/naut_seaweedscreen_01/Frond.ani" memory="host" />
+		<skeleton name="Frond.skn" deferred_loading="false" protected="false" file="furniture/naut_seaweedscreen_01/Frond.skn" memory="host" />
+		<lua name="seaweedscreen.lua" deferred_loading="false" protected="true" file="furniture/naut_seaweedscreen_01/seaweedscreen.lua" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Loco.mdl" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/model/SpunRocket_Firework.mdl" memory="host" />
+		<particle name="firework_trail.efx" deferred_loading="true" protected="false" file="ATGParticles/Spunland/LMO_Firework_Idle.efx" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spunrocket_firework/file/config_rocket.xml" memory="main" />
+		<anim name="Loco_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/anim/Spun_Rocket_Idle.ani" memory="host" />
+		<anim name="Loco_Move.ani" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/anim/Spun_Rocket_Move.ani" memory="host" />
+		<anim name="Fem_Idle" deferred_loading="true" protected="false" file="animation/female/rocket_rider/Rocket_Rider_Idle.ani" memory="host" />
+		<anim name="Fem_Move" deferred_loading="true" protected="false" file="animation/female/rocket_rider/Rocket_Rider_Move.ani" memory="host" />
+		<anim name="Male_Move.ani" deferred_loading="true" protected="false" file="animation/male/rocket_rider/Rocket_Rider_Move.ani" memory="host" />
+		<anim name="Male_Idle.ani" deferred_loading="true" protected="false" file="animation/male/rocket_rider/Rocket_Rider_Idle.ani" memory="host" />
+		<anim name="Fem_Into_Move.ani" deferred_loading="true" protected="false" file="animation/female/rocket_rider/Rocket_Rider_Into_Move.ani" memory="host" />
+		<anim name="Fem_Into_Idle.ani" deferred_loading="true" protected="false" file="animation/female/rocket_rider/Rocket_Rider_Into_Idle.ani" memory="host" />
+		<anim name="Male_Into_Idle.ani" deferred_loading="true" protected="false" file="animation/male/rocket_rider/Rocket_Rider_Into_Idle.ani" memory="host" />
+		<anim name="Male_Into_Move.ani" deferred_loading="true" protected="false" file="animation/male/rocket_rider/Rocket_Rider_Into_Move.ani" memory="host" />
+		<skeleton name="Loco.skn" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/skn/SpunRocket_Firework.skn" memory="main" />
+		<soundbank name="rocket.bnk" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/sound/rocket.bnk" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/spunrocket_firework/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_flusho_away/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

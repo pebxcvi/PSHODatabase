@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Wings.mdl" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/Wings.mdl" memory="host" />
+		<model name="Wings_lod2.mdl" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/Wings_lod2.mdl" memory="host" />
+		<model name="Angelic_Aura.mdl" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/Angelic_Aura.mdl" memory="host" />
+		<model name="Angelic_Aura_lod2.mdl" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/Angelic_Aura_lod2.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Wings_Demon_WEffect/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/Idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="false" protected="false" file="Locomotion/Wings_Demon_WEffect/Move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="false" protected="false" file="Locomotion/Wings_Demon_WEffect/anim/right.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/F_Idle.ani" memory="host" />
+		<anim name="sprint.ani" deferred_loading="false" protected="false" file="Locomotion/Wings_Demon_WEffect/Sprint.ani" memory="host" />
+		<anim name="f_sprint.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/F_Sprint.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/F_Move.ani" memory="host" />
+		<anim name="M_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/M_Idle.ani" memory="host" />
+		<anim name="M_Move.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/M_Move.ani" memory="host" />
+		<anim name="M_Sprint.ani" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/M_Sprint.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/Wings.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/Wings_Demon_WEffect/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/Wings_Demon_WEffect/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Wings_Demon_WEffect/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Wings_Demon_WEffect/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

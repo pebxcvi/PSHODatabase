@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="angel_wing_joints.mdl" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/angel_wing_joints_parrot.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Angel_wings/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/hover.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/avatar_walk.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/avatar_walkf.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/hover_f.ani" memory="host" />
+		<anim name="angel_wing_joints.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/angel_wing_joints.ani" memory="host" />
+		<anim name="avatar_boost.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/avatar_boost.ani" memory="host" />
+		<anim name="avatar_boostf.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/avatar_boostf.ani" memory="host" />
+		<anim name="walk.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/walk.ani" memory="host" />
+		<anim name="boost.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/boost.ani" memory="host" />
+		<anim name="walk_left.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/walk_left.ani" memory="host" />
+		<anim name="walk_leftf.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/walk_leftf.ani" memory="host" />
+		<anim name="walk_right.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/walk_right.ani" memory="host" />
+		<anim name="walk_rightf.ani" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/walk_rightf.ani" memory="host" />
+		<skeleton name="angel_wing_joints.skn" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/model/angel_wing_joints_parrot.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Angel_wings/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Angel_wings/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="dancefloor_glow.mdl" deferred_loading="false" protected="false" file="environments/vip_club/models/dancefloor_glow.mdl" />
+		<model name="invisi_cube.mdl" deferred_loading="false" protected="false" file="Games/Common/models/invisi_cube.mdl" />
+		<texture name="repeat.dds" deferred_loading="false" protected="false" file="Games/VIP_Dance_Floor/textures/repeat.dds" />
+		<particle name="bubbles.efx" deferred_loading="false" protected="false" file="ATGParticles/bubbles.efx" />
+		<particle name="fog_machine.efx" deferred_loading="false" protected="false" file="ATGParticles/fog_machine.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Games/VIP_Dance_Floor/file/Network.xml" />
+		<anim name="MaleLounge_Idle_Cycle_Left" deferred_loading="false" protected="false" file="animation/male/MaleLounge_Idle_Cycle_Left.ani" />
+		<anim name="MaleLounge_Idle_Cycle_Right" deferred_loading="false" protected="false" file="animation/male/MaleLounge_Idle_Cycle_Right.ani" />
+		<anim name="FemaleLounge_Idle_Cycle_Left" deferred_loading="false" protected="false" file="animation/female/FemaleLounge_Idle_Cycle_Left.ani" />
+		<anim name="Female-lounge_Idle_Cycle_Right" deferred_loading="false" protected="false" file="animation/female/Female-lounge_Idle_Cycle_Right.ani" />
+		<anim name="Kiss_01_Female" deferred_loading="false" protected="false" file="animation/female/kiss_01/Kiss_01.ani" />
+		<anim name="Kiss_01_Male" deferred_loading="false" protected="false" file="animation/male/kiss_01/Kiss_01.ani" />
+		<anim name="Social_Kiss_Male" deferred_loading="false" protected="false" file="animation/male/Social_Kiss_Male.ani" />
+		<anim name="Social_Kiss_Female" deferred_loading="false" protected="false" file="animation/female/Social_Kiss_Female.ani" />
+		<repertoire name="VIP_Male" deferred_loading="false" protected="false" file="animation/repertoires/VIP_Male.xml" />
+		<repertoire name="VIP_Female" deferred_loading="false" protected="false" file="animation/repertoires/VIP_Female.xml" />
+		<emotes name="Male_VIP_Emote" deferred_loading="true" protected="false" file="animation/emotes/Male_VIP_Emote.xml" />
+		<emotes name="Female_VIP_Emote" deferred_loading="true" protected="false" file="animation/emotes/Female_VIP_Emote.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Games/VIP_Dance_Floor/lua/MiniGame.lua" />
+		<lua name="VIP_DanceScreen.lua" deferred_loading="false" protected="true" file="Games/VIP_Dance_Floor/lua/VIP_DanceScreen.lua" />
+		<lua name="EffectsManager.lua" deferred_loading="false" protected="true" file="Games/Common/lua/EffectsManager.lua" />
+		<lua name="EffectsObjects.lua" deferred_loading="false" protected="true" file="Games/Common/lua/EffectsObjects.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="Games/Common/lua/EventManager.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="Games/Common/lua/Misc.lua" />
+		<lua name="Misc_Lerp.lua" deferred_loading="false" protected="true" file="Games/Common/lua/Misc_Lerp.lua" />
+		<lua name="UtilityComponents.lua" deferred_loading="false" protected="true" file="Games/Common/lua/UtilityComponents.lua" />
+		<lua name="GamePad.lua" deferred_loading="false" protected="true" file="Games/Common/lua/GamePad.lua" />
+		<lua name="Misc_OSD.lua" deferred_loading="false" protected="true" file="Games/Common/lua/Misc_OSD.lua" />
+		<lua name="VIP_DanceFloor.lua" deferred_loading="false" protected="true" file="Games/VIP_Dance_Floor/lua/VIP_DanceFloor.lua" />
+		<lua name="VIP_Dance_EffectsResources.lua" deferred_loading="false" protected="true" file="Games/VIP_Dance_Floor/lua/VIP_Dance_EffectsResources.lua" />
+		<lua name="VIP_Telemetry.lua" deferred_loading="false" protected="true" file="Games/Common/lua/VIP_Specific/VIP_Telemetry.lua" />
+	</local>
+	<external />
+</resources>

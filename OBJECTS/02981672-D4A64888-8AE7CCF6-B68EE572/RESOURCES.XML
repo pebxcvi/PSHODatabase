@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Goat.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/Goat.mdl" />
+		<model name="Cow.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/Cow.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/programming/Network.xml" />
+		<anim name="Gt_Baaaing.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Baaaing.ani" />
+		<anim name="Gt_Chew.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Chew.ani" />
+		<anim name="Gt_Idle.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Idle.ani" />
+		<anim name="Gt_GetUp.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/GetUp.ani" />
+		<anim name="Gt_Idle_withearflickering.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Idle_withearflickering.ani" />
+		<anim name="Gt_Lay_Down.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Lay_Down.ani" />
+		<anim name="Gt_Lay_Down_Idle.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Lay_Down_Idle.ani" />
+		<anim name="Gt_Lay_Down_LookAround.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Lay_Down_LookAround.ani" />
+		<anim name="Gt_Look_Around.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/animation/Look_Around.ani" />
+		<anim name="Cow_Chew.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_Chew.ani" />
+		<anim name="Cow_GetUp.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_GetUp.ani" />
+		<anim name="Cow_Idle.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_Idle.ani" />
+		<anim name="Cow_Idle_withearflickering.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_Idle_withearflickering.ani" />
+		<anim name="Cow_LayDown.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_LayDown.ani" />
+		<anim name="Cow_LayDown_Idle.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_LayDown_Idle.ani" />
+		<anim name="Cow_LayDown_LookAround.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_LayDown_LookAround.ani" />
+		<anim name="Cow_Look_Around.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_Look_Around.ani" />
+		<anim name="Cow_mooing.ani" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/anims/CommAug_Cow_mooing.ani" />
+		<skeleton name="Goat.skn" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/goat/Goat.skn" />
+		<skeleton name="Cow.skn" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/cow/Cow.skn" />
+		<soundbank name="goat.bnk" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/sound/goat.bnk" />
+		<soundbank name="cow.bnk" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/sound/cow.bnk" />
+		<soundbank name="chicken.bnk" deferred_loading="false" protected="false" file="environments/2011/per/per_modernranch/minigames/animals/sound/chicken.bnk" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/Animations.lua" />
+		<lua name="AnimationSequencer.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/AnimationSequencer.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/SoundMgr.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/StateMachine.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/Utility.lua" />
+		<lua name="Animal_Main.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/Animal_Main.lua" />
+		<lua name="GoatPet.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/GoatPet.lua" />
+		<lua name="CowPet.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/CowPet.lua" />
+		<lua name="GoatMain.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/GoatMain.lua" />
+		<lua name="Constants.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/Constants.lua" />
+		<lua name="CowMain.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_modernranch/minigames/animals/programming/CowMain.lua" />
+	</local>
+	<external />
+</resources>

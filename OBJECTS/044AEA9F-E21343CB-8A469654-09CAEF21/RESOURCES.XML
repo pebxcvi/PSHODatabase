@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="RangeRover.mdl" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/RangeRover.mdl" />
+		<model name="Door.mdl" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/Door.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/vehiclehub/programming/Network.xml" />
+		<file name="000.xml" deferred_loading="false" protected="false" file="MiniGames/vehiclehub/programming/000.xml" />
+		<collision name="RangeRover.hkx" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/RangeRover.hkx" />
+		<collision name="Door.hkx" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/Door.hkx" />
+		<collision name="RemotePlayerBlocker.hkx" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/RemotePlayerBlocker.hkx" />
+		<anim name="Open_Door.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Open_Door.ani" />
+		<anim name="Close_Door.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Close_Door.ani" />
+		<anim name="Female_GetIn_RangeRover.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Female_GetIn_RangeRover.ani" />
+		<anim name="Female_GetOut_RangeRover.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Female_GetOut_RangeRover.ani" />
+		<anim name="Female_SittingIn_RangeRover_Pose.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Female_SittingIn_RangeRover_Pose.ani" />
+		<anim name="Male_GetIn_RangeRover.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Male_GetIn_RangeRover.ani" />
+		<anim name="Male_GetOut_RangeRover.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Male_GetOut_RangeRover.ani" />
+		<anim name="Male_SittingIn_RangeRover_Pose.ani" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/anims/Male_SittingIn_RangeRover_Pose.ani" />
+		<skeleton name="Door.skn" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/models/Door.skn" />
+		<soundbank name="suv.bnk" deferred_loading="false" protected="false" file="environments/luxapt/skichalet/minigames/rangerover/sounds/suv.bnk" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="objects/044AEA9F-E21343CB-8A469654-09CAEF21/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="objects/044AEA9F-E21343CB-8A469654-09CAEF21/FemaleRepertoire.xml" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/SuvData.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/SuvMain.lua" />
+		<lua name="SfxMgr.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Sound/SfxMgr.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/MyPad.lua" />
+		<lua name="Car.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Car.lua" />
+		<lua name="VehicleHub.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/VehicleHub.lua" />
+		<lua name="Vehicle.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Vehicle.lua" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/Animations/Animations.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/StateMachine/StateMachine.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="MiniGames/vehiclehub/programming/StateMachine/State.lua" />
+	</local>
+	<external />
+</resources>

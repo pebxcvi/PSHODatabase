@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.82.0.17.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>042C21BB-8D984792-BAB19D4B-7183EFF2</uuid>
+  <name lang="en-GB" default="true">Register Counter</name>
+  <name lang="fr-FR" default="false">Comptoir avec caisses</name>
+  <name lang="de-DE" default="false">Kassentresen</name>
+  <name lang="it-IT" default="false">Banco cassa</name>
+  <name lang="es-ES" default="false">Mostrador para caja registradora</name>
+  <name lang="ja-JP" default="false">レジカウンター</name>
+  <description lang="en-GB" default="true">Wooden counter with two registers on it.[#Legal]</description>
+  <description lang="fr-FR" default="false">Un comptoir en bois avec deux caisses enregistreuses dessus.[#Legal]</description>
+  <description lang="de-DE" default="false">Hölzerner Tresen, auf dem zwei Kassen stehen.[#Legal]</description>
+  <description lang="it-IT" default="false">Un bancone con due registratori di cassa.[#Legal]</description>
+  <description lang="es-ES" default="false">Mostrador de madera con dos cajas registradoras.[#Legal]</description>
+  <description lang="ja-JP" default="false">２台のレジが並べられた木製のカウンター。
+[#Legal]</description>
+  <maker lang="en-GB" default="true">Granzella Inc.</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>2620A288</timestamp>
+</odc>
