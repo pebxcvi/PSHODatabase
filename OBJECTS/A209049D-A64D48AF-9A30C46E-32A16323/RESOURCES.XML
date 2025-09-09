@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="gun.mdl" deferred_loading="false" protected="false" file="Locomotion/Combat_LMO/Shotgun.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Combat_LMO/file/config.xml" memory="host" />
+		<anim name="F_Combat_Action" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/F_Combat_Action.ani" memory="host" />
+		<anim name="F_Combat_Idle" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/F_Combat_Idle.ani" memory="host" />
+		<anim name="F_Combat_Run" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/F_Combat_Run.ani" memory="host" />
+		<anim name="F_Combat_Walk" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/F_Combat_Walk.ani" memory="host" />
+		<anim name="M_Combat_Action" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/M_Combat_Action.ani" memory="host" />
+		<anim name="M_Combat_Idle" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/M_Combat_Idle.ani" memory="host" />
+		<anim name="M_Combat_Run" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/M_Combat_Run.ani" memory="host" />
+		<anim name="M_Combat_Walk" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/M_Combat_Walk.ani" memory="host" />
+		<skeleton name="gun.skn" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/Shotgun.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Combat_LMO/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Combat_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

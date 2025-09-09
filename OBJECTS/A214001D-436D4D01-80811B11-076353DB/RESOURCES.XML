@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cake_piece_mdl" file="environments/fatprincess_objects/cake.mdl" deferred_loading="false" />
+		<model name="gun_rifle_mdl" file="environments/fatprincess_objects/Gun.mdl" deferred_loading="false" />
+		<model name="princess_thin_mdl" file="environments/fatprincess_objects/PrincessS_static.mdl" deferred_loading="false" />
+		<model name="princess_fat_mdl" file="environments/fatprincess_objects/PrincessB_static.mdl" deferred_loading="false" />
+		<model name="priest_staff_mdl" file="environments/fatprincess_objects/PrstStaff.mdl" deferred_loading="false" />
+		<model name="spear_mdl" file="environments/fatprincess_objects/Spear.mdl" deferred_loading="false" />
+		<model name="staff_mdl" file="environments/fatprincess_objects/Staff.mdl" deferred_loading="false" />
+		<model name="bomb_mdl" file="environments/fatprincess_objects/Bomb.mdl" deferred_loading="false" />
+		<texture name="info_panel" file="Scripts/pr_gallery_fatprincess/images/info_panel.dds" deferred_loading="false" />
+		<texture name="prompt_msg_panel" file="Scripts/pr_gallery_fatprincess/images/prompt_msg_panel.dds" deferred_loading="false" />
+		<texture name="question_panel" file="Scripts/pr_gallery_fatprincess/images/question_panel.dds" deferred_loading="false" />
+		<texture name="fp_angry_ico" file="Scripts/pr_gallery_fatprincess/images/icons/FP_angry.dds" deferred_loading="false" />
+		<texture name="fp_peace_ico" file="Scripts/pr_gallery_fatprincess/images/icons/FP_peace.dds" deferred_loading="false" />
+		<texture name="fp_cake_ico" file="Scripts/pr_gallery_fatprincess/images/icons/FP_cake.dds" deferred_loading="false" />
+		<texture name="fp_happy_ico" file="Scripts/pr_gallery_fatprincess/images/icons/FP_happy.dds" deferred_loading="false" />
+		<texture name="selected_item_bar" file="Scripts/pr_gallery_fatprincess/images/answer_items/fp_selected.dds" deferred_loading="false" />
+		<texture name="unselected_item_bar" file="Scripts/pr_gallery_fatprincess/images/answer_items/fp_unselected.dds" deferred_loading="false" />
+		<texture name="menu_arrow" file="Scripts/pr_gallery_fatprincess/images/answer_items/fp_menu_arrow.dds" deferred_loading="false" />
+		<texture name="fp_cheer_ico" file="Scripts/pr_gallery_fatprincess/images/icons/FP_cheer.dds" deferred_loading="false" />
+		<texture name="fp_cry_ico" file="Scripts/pr_gallery_fatprincess/images/icons/FP_cry.dds" deferred_loading="false" />
+		<texture name="fp_pointing_ico" file="Scripts/pr_gallery_fatprincess/images/icons/FP_pointing.dds" deferred_loading="false" />
+		<file name="Cake_MiniGame_lua" file="Scripts/pr_gallery_fatprincess/gallery_fp_cake_minigame.lua" deferred_loading="false" />
+		<file name="Util_lua" file="Scripts/pr_gallery_fatprincess/Util.lua" deferred_loading="false" />
+		<anim name="princess_fat_ani" file="environments/fatprincess_objects/PrincessB_static.ani" deferred_loading="false" />
+		<anim name="princess_thin_ani" file="environments/fatprincess_objects/PrincessS_static.ani" deferred_loading="false" />
+		<skeleton name="princess_fat_skn" file="environments/fatprincess_objects/PrincessB_static.skn" deferred_loading="false" />
+		<skeleton name="princess_thin_skn" file="environments/fatprincess_objects/PrincessS_static.skn" deferred_loading="false" />
+		<soundbank name="Fat_Princess_Dynamic_Audio_bnk" file="Scripts/pr_gallery_fatprincess/audio/Fat_Princess_Dynamic_Audio.bnk" deferred_loading="false" />
+		<soundstream name="gallery_bg_music_mp3" file="Scripts/pr_gallery_fatprincess/audio/FP_Music_02.mp3" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

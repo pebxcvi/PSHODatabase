@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="radio.mdl" deferred_loading="false" protected="false" file="halloween/models/radio.mdl" />
+		<file name="network.xml" deferred_loading="false" protected="false" file="halloween/models/network.xml" />
+		<collision name="radio.hkx" deferred_loading="false" protected="false" file="halloween/models/radio.hkx" />
+		<soundbank name="SpookyRadio.bnk" deferred_loading="false" protected="false" file="halloween/radio/SpookyRadio.bnk" memory="host" />
+		<lua name="radio.lua" deferred_loading="false" protected="true" file="halloween/radio/radio.lua" />
+	</local>
+	<external />
+</resources>

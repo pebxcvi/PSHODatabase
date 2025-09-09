@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="LOOT_TV_Open_base.mdl" deferred_loading="false" protected="false" file="environmentanimations/loot_space_station/LOOT_TV_Open_base.mdl" />
+    <model name="LOOT_TV_Close_base.mdl" deferred_loading="false" protected="false" file="environmentanimations/loot_space_station/LOOT_TV_Close_base.mdl" />
+    <model name="black_screen.mdl" deferred_loading="false" protected="false" file="environmentanimations/loot_space_station/black_screen.mdl" />
+    <anim name="LOOT_TV_Open_base.ani" deferred_loading="false" protected="false" file="environmentanimations/loot_space_station/LOOT_TV_Open_base.ani" />
+    <anim name="LOOT_TV_Close_base.ani" deferred_loading="false" protected="false" file="environmentanimations/loot_space_station/LOOT_TV_Close_base.ani" />
+    <skeleton name="LOOT_TV_Open_base.skn" deferred_loading="false" protected="false" file="environmentanimations/loot_space_station/LOOT_TV_Open_base.skn" />
+    <skeleton name="LOOT_TV_Close_base.skn" deferred_loading="false" protected="false" file="environmentanimations/loot_space_station/LOOT_TV_Close_base.skn" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/sceneanimations/basecode/main.lua" />
+    <lua name="utility.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/sceneanimations/basecode/utility.lua" />
+    <lua name="settings.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/sceneanimations/settings/spacestation/settings.lua" />
+  </local>
+  <external />
+</resources>

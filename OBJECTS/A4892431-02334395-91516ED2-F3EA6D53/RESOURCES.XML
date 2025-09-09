@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.bear" deferred_loading="false" protected="false" file="christmas/model/PolarBear.mdl" />
+		<model name="mdl.orson" deferred_loading="false" protected="false" file="christmas/model/KingPolarBear_Facial.mdl" />
+		<texture name="tex.icebox_black" deferred_loading="false" protected="false" file="christmas/HUD/icebox_shadow.dds" />
+		<texture name="tex.icebox_white" deferred_loading="false" protected="false" file="christmas/HUD/icebox.dds" />
+		<anim name="ani.idle1" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_IDLE_POLAR_01.ani" />
+		<anim name="ani.idle2" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_IDLE_POLAR_02.ani" />
+		<anim name="ani.talk1" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_01.ani" />
+		<anim name="ani.talk2" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_02.ani" />
+		<anim name="ani.talk3" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_03.ani" />
+		<anim name="ani.talk4" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_04.ani" />
+		<anim name="ani.slow_walk" deferred_loading="false" protected="false" file="christmas/animation/bear/SLOW_WALK_POLAR_01.ani" />
+		<anim name="ani.bear_idle1" deferred_loading="false" protected="false" file="christmas/animation/bear/STAND_IDLE_POLAR_01.ani" />
+		<anim name="ani.bear_idle2" deferred_loading="false" protected="false" file="christmas/animation/bear/STAND_TALK_POLAR_01.ani" />
+		<skeleton name="skn.orson" deferred_loading="false" protected="false" file="christmas/model/KingPolarBear_Facial.skn" />
+		<skeleton name="skn.bear" deferred_loading="false" protected="false" file="christmas/model/PolarBear.skn" />
+		<soundbank name="bnk.orson" deferred_loading="false" protected="false" file="MiniGames/hs4_ruins_scene_minigame/file/CS_OHS_4.bnk" />
+		<soundstream name="mp3.ocean" deferred_loading="false" protected="false" file="MiniGames/hs4_ruins_scene_minigame/file/SFX_AMB_Lost_Land_With_Water_Ocean_Loop_V2.mp3" />
+		<soundstream name="mp3.frozen_ocean" deferred_loading="false" protected="false" file="MiniGames/hs4_ruins_scene_minigame/file/SFX_AMB_Lost_Land_With_Frozen_Ocean_Loop_V2.mp3" />
+		<soundstream name="mp3.wind_clifftop" deferred_loading="false" protected="false" file="MiniGames/hs4_ruins_scene_minigame/file/SFX_AMB_Lost_Land_Wind_Cliff_Top_Loop.mp3" />
+		<soundstream name="mp3.waves_close" deferred_loading="false" protected="false" file="MiniGames/hs4_ruins_scene_minigame/file/SFX_AMB_Lost_Land_Waves_Close_Loop.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/HS4_Ruins_Scene_Minigame/lua/MiniGame.lua" />
+		<lua name="Ruins.lua" deferred_loading="false" protected="true" file="MiniGames/HS4_Ruins_Scene_Minigame/lua/Ruins.lua" />
+		<lua name="libs.system.assert" deferred_loading="false" protected="true" file="libs/system/Assert.lua" />
+		<lua name="libs.system.threadmanager" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" />
+		<lua name="libs.system.log" deferred_loading="false" protected="true" file="libs/system/Log.lua" />
+		<lua name="libs.gui.canvas" deferred_loading="false" protected="true" file="libs/gui/Canvas.lua" />
+		<lua name="libs.gui.colours" deferred_loading="false" protected="true" file="libs/gui/Colours.lua" />
+		<lua name="libs.util.animregisters" deferred_loading="false" protected="true" file="libs/util/animregisters.lua" />
+		<lua name="libs.util.easing" deferred_loading="false" protected="true" file="libs/util/Easing.lua" />
+		<lua name="libs.util.printdata" deferred_loading="false" protected="true" file="libs/util/PrintData.lua" />
+		<lua name="boot.lua" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/boot.lua" />
+		<lua name="lua.constants" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/constants.lua" />
+		<lua name="lua.actor.avatar" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/actor/avatar.lua" />
+		<lua name="lua.actor.base" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/actor/base.lua" />
+		<lua name="lua.actor.motion" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/actor/motion.lua" />
+		<lua name="lua.hud.gui" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/hud/gui.lua" />
+		<lua name="lua.hud.tip" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/hud/tip.lua" />
+		<lua name="lua.film" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/film.lua" />
+		<lua name="lua.game" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/game.lua" />
+		<lua name="lua.shot1" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/shot1.lua" />
+		<lua name="lua.data" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/data.lua" />
+		<lua name="lua.shot2" deferred_loading="false" protected="true" file="MiniGames/hs4_ruins_scene_minigame/lua/shot2.lua" />
+		<lua name="lua.remotehider" deferred_loading="false" protected="true" file="libs/system/remotehider.lua" />
+	</local>
+	<external />
+</resources>

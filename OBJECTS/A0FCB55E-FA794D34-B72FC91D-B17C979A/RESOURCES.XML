@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="PNS_personal02_winterBG.mdl" deferred_loading="false" protected="false" file="environments/pns_lounge/PNS_personal02_winterBG.mdl" />
+		<model name="PNS_personal02_summerBG.mdl" deferred_loading="false" protected="false" file="environments/pns_lounge/PNS_personal02_summerBG.mdl" />
+		<model name="PNS_personal02_springBG.mdl" deferred_loading="false" protected="false" file="environments/pns_lounge/PNS_personal02_springBG.mdl" />
+		<model name="PNS_personal02_fallBG.mdl" deferred_loading="false" protected="false" file="environments/pns_lounge/PNS_personal02_fallBG.mdl" />
+		<model name="car01.mdl" deferred_loading="false" protected="false" file="animatedmodels/car/car01.mdl" />
+		<model name="airplane.mdl" deferred_loading="false" protected="false" file="animatedmodels/airplane/airplane.mdl" />
+		<model name="birds.mdl" deferred_loading="false" protected="false" file="animatedmodels/birds/birds.mdl" />
+		<particle name="pars02_winter_snow.efx" deferred_loading="false" protected="false" file="ATGParticles/pars02_winter_snow.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Personal2_SceneManager/file/Network.xml" />
+		<collision name="PNS_personal02_springBG.hkx" deferred_loading="false" protected="false" file="environments/pns_lounge/PNS_personal02_springBG.hkx" />
+		<collision name="PNS_personal02_winterBG.hkx" deferred_loading="false" protected="false" file="environments/pns_lounge/PNS_personal02_winterBG.hkx" />
+		<collision name="PNS_personal02_fallBG.hkx" deferred_loading="false" protected="false" file="environments/pns_lounge/PNS_personal02_fallBG.hkx" />
+		<anim name="car01.ani" deferred_loading="false" protected="false" file="animatedmodels/car/car01.ani" />
+		<anim name="airplane.ani" deferred_loading="false" protected="false" file="animatedmodels/airplane/airplane.ani" />
+		<anim name="birds.ani" deferred_loading="false" protected="false" file="animatedmodels/birds/birds.ani" />
+		<skeleton name="car01.skn" deferred_loading="false" protected="false" file="animatedmodels/car/car01.skn" />
+		<skeleton name="airplane.skn" deferred_loading="false" protected="false" file="animatedmodels/airplane/airplane.skn" />
+		<skeleton name="birds.skn" deferred_loading="false" protected="false" file="animatedmodels/birds/birds.skn" />
+		<soundbank name="personal2.bnk" deferred_loading="false" protected="false" file="MiniGames/Personal2_SceneManager/sound/personal2.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/MiniGame.lua" />
+		<lua name="sceneLib.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/sceneLib.lua" />
+		<lua name="DayNightCycle.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/DayNightCycle.lua" />
+		<lua name="DebugMenu.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/DebugMenu.lua" />
+		<lua name="listener.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/listener.lua" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/param.lua" />
+		<lua name="saveLoad.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/saveLoad.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Personal2_SceneManager/lua/Network.lua" />
+	</local>
+	<external />
+</resources>

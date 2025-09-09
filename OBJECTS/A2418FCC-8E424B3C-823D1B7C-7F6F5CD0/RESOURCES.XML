@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Food.mdl" deferred_loading="false" protected="false" file="environments/Christmas_2012/props/placesetting/Food.mdl" />
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" />
+		</texture>
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/Christmas2012/FoodGame/HUDTextures/button_O.dds" />
+		</texture>
+		<texture name="EatMethod1.dds" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/HUDTextures/EatMethod1.dds" />
+		<texture name="EatMethod2.dds" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/HUDTextures/EatMethod2.dds" />
+		<texture name="EatMethod3.dds" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/HUDTextures/EatMethod3.dds" />
+		<texture name="EatSelector.dds" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/HUDTextures/EatSelector.dds" />
+		<texture name="left_stick.dds" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/MainGame/HUDTextures/left_stick.dds" />
+		<anim name="Male_Eat1.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Eat1.ani" />
+		<anim name="Male_Eat2.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Eat2.ani" />
+		<anim name="Male_Sit_Idle1.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Sit_Idle1.ani" />
+		<anim name="Male_Eat3.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Eat3.ani" />
+		<anim name="Female_Eat1.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Eat1.ani" />
+		<anim name="Female_Eat2.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Eat2.ani" />
+		<anim name="Female_Eat3.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Eat3.ani" />
+		<anim name="Female_Eat4.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Eat4.ani" />
+		<anim name="Female_Eat5.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Eat5.ani" />
+		<anim name="Female_Eat6.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Eat6.ani" />
+		<anim name="Female_Sit_Idle1.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Sit_Idle1.ani" />
+		<anim name="Male_Feast01.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Feast01.ani" />
+		<anim name="Male_Feast02.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Feast02.ani" />
+		<anim name="Male_Feast03.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Feast03.ani" />
+		<anim name="Male_Eat6.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Eat6.ani" />
+		<anim name="Male_Eat5.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Eat5.ani" />
+		<anim name="Male_Eat4.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Eat4.ani" />
+		<anim name="Female_Sit_Idle2.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Sit_Idle2.ani" />
+		<anim name="Female_Sit_Idle3.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Sit_Idle3.ani" />
+		<anim name="Female_Sit_Idle4.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Sit_Idle4.ani" />
+		<anim name="Female_Feast01.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Feast01.ani" />
+		<anim name="Female_Feast02.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Feast02.ani" />
+		<anim name="Female_Feast03.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Female/Female_Feast03.ani" />
+		<anim name="Male_Sit_Idle2.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Sit_Idle2.ani" />
+		<anim name="Male_Sit_Idle3.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Sit_Idle3.ani" />
+		<anim name="Male_Sit_Idle4.ani" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Anims/Male/Male_Sit_Idle4.ani" />
+		<soundbank name="GameSounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Christmas2012/FoodGame/Sounds/GameSounds.bnk" />
+		<repertoire name="MaleAnims.xml" deferred_loading="false" protected="false" file="objects/A2418FCC-8E424B3C-823D1B7C-7F6F5CD0/MaleAnims.xml" />
+		<repertoire name="FemaleAnims.xml" deferred_loading="false" protected="false" file="objects/A2418FCC-8E424B3C-823D1B7C-7F6F5CD0/FemaleAnims.xml" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Controller.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Game.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/GameHud.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Jamin.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Math.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Playmetrix.lua" />
+		<lua name="Sessions.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Sessions.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/Tween.lua" />
+		<lua name="VidCapture.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/VidCapture.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Christmas2012/FoodGame/Code/HUDLib/HUDTextPanel.lua" />
+	</local>
+	<external />
+</resources>

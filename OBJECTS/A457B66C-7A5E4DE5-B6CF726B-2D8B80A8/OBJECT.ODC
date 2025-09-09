@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.80.0.53.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>A457B66C-7A5E4DE5-B6CF726B-2D8B80A8</uuid>
+  <name lang="en-GB" default="true">King Prawns</name>
+  <name lang="fr-FR" default="false">Crevettes géantes</name>
+  <name lang="de-DE" default="false">Riesengarnelen</name>
+  <name lang="it-IT" default="false">Gamberoni</name>
+  <name lang="es-ES" default="false">Langostinos</name>
+  <description lang="en-GB" default="true">King prawns in a saffron sauce. Exclusive reward from the VEEMEE Personal Dining Experience. [#Legal]</description>
+  <description lang="fr-FR" default="false">Des crevettes géantes dans une sauce au safran. Une récompense proposée en exclusivité grâce à l'Expérience gastronomique personnalisée VEEMEE. [#Legal]</description>
+  <description lang="de-DE" default="false">Riesengarnelen in Safransoße. Exklusive Prämie von "VEEMEE Privates Dinner-Erlebnis". [#Legal]</description>
+  <description lang="it-IT" default="false">Gamberoni in salsa allo zafferano. Premio esclusivo dall'Esperienza di Cucina Personale VEEMEE. [#Legal]</description>
+  <description lang="es-ES" default="false">Langostinos en salsa de azafrán. Premio exclusivo de la Experiencia gastronómica personal de VEEMEE. [#Legal]</description>
+  <maker lang="en-GB" default="true">VEEMEE</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>8731CD9D</timestamp>
+</odc>

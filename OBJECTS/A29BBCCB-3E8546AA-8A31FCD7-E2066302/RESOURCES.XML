@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Chair.mdl" deferred_loading="false" protected="false" file="environments/totalrecall/animatedmodels/Chair.mdl" />
+		<model name="Chair_NoTextures" deferred_loading="false" protected="false" file="MiniGames/Total_Recall_Chair/model/Total_Recall_Chair_Cube.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Total_Recall_Chair/lua/Network.xml" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="environments/totalrecall/animatedmodels/Chair_SafeVolume.hkx" />
+		<collision name="Chair.hkx" deferred_loading="false" protected="false" file="environments/totalrecall/animatedmodels/Chair.hkx" />
+		<anim name="Chair_Idle.ani" deferred_loading="false" protected="false" file="environments/totalrecall/animatedmodels/Chair_Idle.ani" />
+		<anim name="Chair.ani" deferred_loading="false" protected="false" file="environments/totalrecall/animatedmodels/Chair.ani" />
+		<anim name="m_ChairSit" deferred_loading="false" protected="false" file="RealTimeGames/No_Mans_Land/anim/male/m_ChairSit.ani" />
+		<anim name="ChairSit" deferred_loading="false" protected="false" file="RealTimeGames/No_Mans_Land/anim/female/ChairSit.ani" />
+		<skeleton name="Chair.skn" deferred_loading="false" protected="false" file="environments/totalrecall/animatedmodels/Chair.skn" />
+		<soundbank name="ChairAudio.bnk" deferred_loading="false" protected="false" file="MiniGames/Total_Recall_Chair/sound/ChairAudio.bnk" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/Total_Recall_Chair/repertoire/female.xml" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/Total_Recall_Chair/repertoire/male.xml" />
+		<emotes name="femaleemotes" deferred_loading="true" protected="false" file="MiniGames/Total_Recall_Chair/repertoire/femaleemotes.xml" />
+		<emotes name="maleemotes" deferred_loading="true" protected="false" file="MiniGames/Total_Recall_Chair/repertoire/maleemotes.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Total_Recall_Chair/lua/MiniGame.lua" />
+		<lua name="VMInventory.lua" deferred_loading="false" protected="true" file="MiniGames/Total_Recall_Chair/lua/VMInventory.lua" />
+	</local>
+	<external />
+</resources>

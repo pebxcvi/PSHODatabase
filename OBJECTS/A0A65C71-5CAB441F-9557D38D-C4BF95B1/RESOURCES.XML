@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/2013/applicances/loot_diamond_superslim240_ornaments/Loot_Diamond_SuperSlim240_Ornaments.mdl" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/file/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/2013/applicances/loot_diamond_superslim240_ornaments/Loot_Diamond_SuperSlim240_Ornaments.hkx" />
+    <lua name="network_lib_enhanced.lua" deferred_loading="false" protected="true" file="minigames/libraries/network_lib_enhanced.luac" memory="host" />
+    <lua name="entry_point.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/entry_point.luac" memory="host" />
+    <lua name="utility_lib_stripped.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/utility_lib_stripped.luac" memory="host" />
+    <lua name="common_lua_screen.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/common_lua_screen.luac" memory="host" />
+    <lua name="controller.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/controller.luac" memory="host" />
+    <lua name="db_comm.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/db_comm.luac" memory="host" />
+    <lua name="driver.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/driver.luac" memory="host" />
+    <lua name="error_handler.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/error_handler.luac" memory="host" />
+    <lua name="status_monitor.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/status_monitor.luac" memory="host" />
+    <lua name="sync_indicator.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/sync_indicator.luac" memory="host" />
+    <lua name="utility.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/utility.luac" memory="host" />
+    <lua name="animation.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/animation.luac" memory="host" />
+    <lua name="permissions.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/support/permissions.luac" memory="host" />
+    <lua name="instance_module.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/instance_module.luac" memory="host" />
+    <lua name="media_module.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/media_module.luac" memory="host" />
+    <lua name="menu_module.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/menu_module.luac" memory="host" />
+    <lua name="playback_modules.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/playback_modules.luac" memory="host" />
+    <lua name="player_module.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/player_module.luac" memory="host" />
+    <lua name="ad_server.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/ad_server.luac" memory="host" />
+    <lua name="ad_service.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/ad_service.luac" memory="host" />
+    <lua name="content.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/content.luac" memory="host" />
+    <lua name="crackle_content.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/crackle_content.luac" memory="host" />
+    <lua name="content_screen.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/content_screen.luac" memory="host" />
+    <lua name="media_control_bar.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/media_control_bar.luac" memory="host" />
+    <lua name="menu_components.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/menu_components.luac" memory="host" />
+    <lua name="network.lua" deferred_loading="false" protected="true" file="minigames/eod_3.0/lua/build/3.52/release/core/common/network.luac" memory="host" />
+    <image name="timeLineBackCenter.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/timeLineBackCenter.png" memory="host" />
+    <image name="timebox.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/timebox.png" memory="host" />
+    <image name="time.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/time.png" memory="host" />
+    <image name="icon_seek_reverse.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/icon_seek_reverse.png" memory="host" />
+    <image name="icon_seek_forward.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/icon_seek_forward.png" memory="host" />
+    <image name="icon_resync.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/icon_resync.png" memory="host" />
+    <image name="icon_resume.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/icon_resume.png" memory="host" />
+    <image name="icon_pause.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/icon_pause.png" memory="host" />
+    <image name="icon_highlight.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/icon_highlight.png" memory="host" />
+    <image name="controlBackCenter.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/controlBackCenter.png" memory="host" />
+    <image name="chapter_dot.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/chapter_dot.png" memory="host" />
+    <image name="sync_indicator.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/sync_indicator.png" memory="host" />
+    <image name="store_logo.png" deferred_loading="false" protected="false" file="MiniGames/EOD_3.0/Textures/store_logo.png" memory="host" />
+  </local>
+  <external />
+</resources>

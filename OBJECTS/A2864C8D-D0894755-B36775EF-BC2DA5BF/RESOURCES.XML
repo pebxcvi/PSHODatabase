@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="FLOOR_default.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_default.mdl" />
+		<model name="FLOOR_grass.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_grass.mdl" />
+		<model name="FLOOR_sand.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_sand.mdl" />
+		<model name="FLOOR_snow.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_snow.mdl" />
+		<model name="FLOOR_urban.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_urban.mdl" />
+		<model name="FLOOR_alien.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_alien.mdl" />
+		<model name="FLOOR_lava.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_lava.mdl" />
+		<model name="FLOOR_swamp.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_swamp.mdl" />
+		<model name="StarFieldModel.mdl" deferred_loading="false" protected="false" file="MiniGames/TrainingFacilityEnvoController/StarFieldModel.mdl" />
+		<model name="FLOOR_measure.mdl" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/FLOOR_measure.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/TrainingFacilityEnvoController/file/Network.xml" />
+		<soundbank name="TrainingFacililtyEnvoController.bnk" deferred_loading="false" protected="false" file="MiniGames/TrainingFacilityEnvoController/Sounds/TrainingFacililtyEnvoController.bnk" />
+		<soundstream name="FacilityBackgroundHum.mp3" deferred_loading="false" protected="false" file="MiniGames/TrainingFacilityEnvoController/Sounds/FacilityBackgroundHum.mp3" />
+		<soundstream name="ArmoryLoop.mp3" deferred_loading="false" protected="false" file="MiniGames/TrainingFacilityEnvoController/Sounds/ArmoryLoop.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityEnvoController/lua/MiniGame.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityEnvoController/lua/Pad.luac" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityEnvoController/lua/State_Idle.luac" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityEnvoController/lua/State_MainMenu.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityEnvoController/lua/StateMachine.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityEnvoController/lua/Utility.luac" />
+		<lua name="SkyDatas.lua" deferred_loading="false" protected="true" file="MiniGames/TrainingFacilityEnvoController/lua/SkyDatas.luac" />
+	</local>
+	<external />
+</resources>

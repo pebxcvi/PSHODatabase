@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="screechowl_model" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Screech_Owl_Companion01.mdl" />
+		<model name="barnowl_model" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Barn_Owl_Companion01.mdl" />
+		<model name="brownowl_model" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Brown_Owl_Companion01.mdl" />
+		<model name="tawnyowl_model" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Tawny_Owl_Companion01.mdl" />
+		<file name="Network_XML" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/files/Network.xml" />
+		<anim name="owl_anim_1" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/animations/Circle_Long_1.ani" />
+		<anim name="owl_anim_2" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/animations/Circle_Single_1.ani" />
+		<anim name="owl_anim_3" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/animations/Swoop_1.ani" />
+		<anim name="owl_anim_4" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/animations/Swoop_2.ani" />
+		<anim name="owl_anim_idle_1" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/animations/Idle1.ani" />
+		<anim name="owl_anim_idle_2" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/animations/Idle2.ani" />
+		<skeleton name="screechowl_skel" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Screech_Owl_Companion01.skn" />
+		<skeleton name="barnowl_skel" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Barn_Owl_Companion01.skn" />
+		<skeleton name="brownowl_skel" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Brown_Owl_Companion01.skn" />
+		<skeleton name="tawnyowl_skel" deferred_loading="false" protected="false" file="MiniGames/PottermoreOwls/models/Tawny_Owl_Companion01.skn" />
+		<lua name="VMGame_lua" deferred_loading="false" protected="true" file="MiniGames/PottermoreOwls/lua/VMGame.lua" />
+		<lua name="VMMiniGame_lua" deferred_loading="false" protected="true" file="MiniGames/PottermoreOwls/lua/VMMiniGame.lua" />
+		<lua name="VMAnimation_lua" deferred_loading="false" protected="true" file="MiniGames/PottermoreOwls/lua/VMAnimation.lua" />
+	</local>
+	<external />
+</resources>

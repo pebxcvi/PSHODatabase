@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="stalkerBot.mdl" deferred_loading="false" protected="false" file="game/stalkerbot/stalkerBot.mdl" />
+    <texture name="loadingSpin_mid.dds" deferred_loading="false" protected="false" file="game/HUD/loadingSpin_mid.dds" />
+    <texture name="loadingSpin_outer.dds" deferred_loading="false" protected="false" file="game/HUD/loadingSpin_outer.dds" />
+    <texture name="menuOverlay.dds" deferred_loading="false" protected="false" file="game/HUD/menuOverlay.dds" />
+    <texture name="loadingSpin_inner.dds" deferred_loading="false" protected="false" file="game/HUD/loadingSpin_inner.dds" />
+    <texture name="buttonAtl.dds" deferred_loading="false" protected="false" file="game/HUD/buttonAtl.dds" />
+    <texture name="map.dds" deferred_loading="false" protected="false" file="MiniGames/AeroPal/file/map.dds" />
+    <texture name="commerce.dds" deferred_loading="false" protected="false" file="game/cardgame/misc/commerce.dds" />
+    <texture name="apartment.dds" deferred_loading="false" protected="false" file="game/HUD/mapIcons/apartment.dds" />
+    <texture name="axiom.dds" deferred_loading="false" protected="false" file="game/HUD/mapIcons/axiom.dds" />
+    <texture name="bar.dds" deferred_loading="false" protected="false" file="game/HUD/mapIcons/bar.dds" />
+    <texture name="objective.dds" deferred_loading="false" protected="false" file="game/HUD/mapIcons/objective.dds" />
+    <texture name="player.dds" deferred_loading="false" protected="false" file="game/HUD/mapIcons/player.dds" />
+    <texture name="transport.dds" deferred_loading="false" protected="false" file="game/HUD/mapIcons/transport.dds" />
+    <texture name="direction.dds" deferred_loading="false" protected="false" file="game/HUD/mapIcons/direction.dds" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/AeroPal/file/Network.xml" />
+    <file name="GOTHIC.TTF" deferred_loading="false" protected="false" file="game/font/GOTHIC.TTF" />
+    <file name="Aero_Tasklist.xml" deferred_loading="true" protected="false" file="XMLS/Story/Aero_Tasklist.xml" />
+    <anim name="use.ani" deferred_loading="false" protected="false" file="game/stalkerbot/use.ani" />
+    <anim name="use_in.ani" deferred_loading="false" protected="false" file="game/stalkerbot/use_in.ani" />
+    <anim name="use_out.ani" deferred_loading="false" protected="false" file="game/stalkerbot/use_out.ani" />
+    <anim name="walk.ani" deferred_loading="false" protected="false" file="game/stalkerbot/walk.ani" />
+    <anim name="walk_in.ani" deferred_loading="false" protected="false" file="game/stalkerbot/walk_in.ani" />
+    <anim name="walk_out.ani" deferred_loading="false" protected="false" file="game/stalkerbot/walk_out.ani" />
+    <anim name="idle_01.ani" deferred_loading="false" protected="false" file="game/stalkerbot/idle_01.ani" />
+    <skeleton name="stalkerBot.skn" deferred_loading="false" protected="false" file="game/stalkerbot/stalkerBot.skn" />
+    <soundbank name="Aeropal_noises.bnk" deferred_loading="false" protected="false" file="Scripts/SceneScript/Sound/Aeropal_noises.bnk" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/minigame.lua" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/utility.lua" />
+    <lua name="XiMgr_Comms.lua" deferred_loading="false" protected="true" file="scripts/common/object_comms/ximgr_comms.lua" />
+    <lua name="GUIElements.lua" deferred_loading="false" protected="true" file="scripts/common/gui/guielements.lua" />
+    <lua name="Menu.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/menu.lua" />
+    <lua name="Nav.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/nav.lua" />
+    <lua name="Constants.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/constants.lua" />
+    <lua name="ScrollText.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/scrolltext.lua" />
+    <lua name="Map.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/map.lua" />
+    <lua name="Legends.lua" deferred_loading="false" protected="true" file="scripts/common/gui/legends.lua" />
+    <lua name="TaskList.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/tasklist.lua" />
+    <lua name="Transport.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/transport.lua" />
+    <lua name="ServerData.lua" deferred_loading="false" protected="true" file="minigames/aeropal/lua/serverdata.lua" />
+  </local>
+  <external />
+</resources>

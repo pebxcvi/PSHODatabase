@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="tarminal.dds" deferred_loading="false" protected="false" file="MiniGames/SecurityCodeSystem/texture/tarminal.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/SecurityCodeSystem/file/Network.xml" memory="host" />
+		<soundbank name="SCS.bnk" deferred_loading="false" protected="false" file="MiniGames/SecurityCodeSystem/sound/SCS.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/MiniGame.luac" memory="host" />
+		<lua name="animationData.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/animationData.luac" memory="host" />
+		<lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/cameraMgr.luac" memory="host" />
+		<lua name="drawTask.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/drawTask.luac" memory="host" />
+		<lua name="fade.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/fade.luac" memory="host" />
+		<lua name="initialize.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/initialize.luac" memory="host" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/pad.luac" memory="host" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/param.luac" memory="host" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/seqMgr.luac" memory="host" />
+		<lua name="taskPrio.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/taskPrio.luac" memory="host" />
+		<lua name="taskSystem.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/taskSystem.luac" memory="host" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript/all.luac" memory="host" />
+		<lua name="animation2d.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/animation2d.luac" memory="host" />
+		<lua name="nonGame.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/nonGame.luac" memory="host" />
+		<lua name="gameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/gameMgr.luac" memory="host" />
+		<lua name="alarmMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/alarmMgr.luac" memory="host" />
+		<lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="MiniGames/SecurityCodeSystem/lua/itemListCheker.luac" memory="host" />
+	</local>
+	<external />
+</resources>

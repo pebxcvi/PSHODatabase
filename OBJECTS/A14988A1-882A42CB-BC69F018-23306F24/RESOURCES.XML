@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Camera.mdl" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/Camera.mdl" />
+    <texture name="UI_PhotosLeft.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/images/UI_PhotosLeft.dds" />
+    <texture name="Legal_Middle.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/images/Legal_Middle.dds" />
+    <texture name="Legal_EndCap.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/images/Legal_EndCap.dds" />
+    <texture name="tripod_s.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/tripod_s.dds" />
+    <texture name="camera_c.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/camera_c.dds" />
+    <texture name="camera_n.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/camera_n.dds" />
+    <texture name="camera_s.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/camera_s.dds" />
+    <texture name="lensb_c.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/lensb_c.dds" />
+    <texture name="lensb_n.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/lensb_n.dds" />
+    <texture name="lensb_s.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/lensb_s.dds" />
+    <texture name="tripod_c.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/tripod_c.dds" />
+    <texture name="tripod_n.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/tripod_n.dds" />
+    <texture name="overlay_blank.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/images/overlay_blank.dds" />
+    <texture name="overlay_holiday2011.dds" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/images/overlay_holiday2011.dds" />
+    <collision name="Camera.hkx" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/Camera/Camera.hkx" />
+    <lua name="camera_main.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/camera_main.luac" />
+    <lua name="camera.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/camera.luac" />
+    <lua name="HDImage.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/hdimage.luac" />
+    <lua name="Particles2d.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/particles2d.luac" />
+    <lua name="PlayerManager.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/playermanager.luac" />
+    <lua name="RenderItems.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/renderitems.luac" />
+    <lua name="RewardGrant.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/rewardgrant.luac" />
+    <lua name="WebImage.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/camera/lua/webimage.luac" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="weapon_level_mark.dds" deferred_loading="false" protected="false" file="April2010/design/2D/Cockpit/weapon_level_mark.dds" memory="host" />
+		<texture name="reward_bar_yajirusi.dds" deferred_loading="false" protected="false" file="April2010/design/2D/Cockpit/reward_bar_yajirusi.dds" memory="host" />
+		<texture name="result_window_00.dds" deferred_loading="false" protected="false" file="April2010/design/2D/Cockpit/result_window_00_e.dds" memory="host" />
+		<texture name="navi_bar_04.dds" deferred_loading="false" protected="false" file="April2010/design/2D/Cockpit/navi_bar_04_e.dds" memory="host" />
+		<soundbank name="IremSougenClearSE.bnk" deferred_loading="false" protected="false" file="IremSougen/soft_asia_00/sound/IremSougenClearSE.bnk" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Goal/main.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Goal/LuaPadUtil.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Goal/LuaSingleEvent.lua" />
+		<lua name="GOAL.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Goal/GOAL.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/datastation/dataInterface.lua" />
+		<lua name="Race.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/chest/Race.lua" />
+		<lua name="ResultWindow.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Goal/ResultWindow.lua" />
+		<lua name="WeaponDataIF.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/WeaponDataIF.lua" />
+		<lua name="reward_data.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Goal/reward_data.lua" />
+		<lua name="Fade.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Goal/Fade.lua" />
+		<lua name="ItemControIF.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/ItemControIF.lua" />
+	</local>
+	<external />
+</resources>

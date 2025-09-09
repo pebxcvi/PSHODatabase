@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="anmModel_star_01.mdl" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_01.mdl" />
+		<model name="anmModel_star_02.mdl" deferred_loading="false" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_03.mdl" />
+		
+		
+		<model name="sled_reindeer_00.mdl" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\scenes\sled_reindeer_00.mdl" />
+		
+<!--		<model name="jetski_00.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/jetski_00.mdl" />-->
+<!--		<model name="jetski_01.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/jetski_01.mdl" />-->
+<!--		<model name="umbrella_00.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_00.mdl" />-->
+<!--		<model name="umbrella_01.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_01.mdl" />-->
+<!--		<model name="umbrella_02.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_02.mdl" />-->
+<!--		<model name="umbrella_03.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_03.mdl" />-->
+<!--		<model name="umbrella_04.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_04.mdl" />-->
+<!--		<model name="umbrella_05.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_05.mdl" />-->
+<!--		<model name="umbrella_06.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_06.mdl" />-->
+<!--		<model name="broom_00.mdl" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/broom_00.mdl" />-->
+		
+		<texture name="CommonUI_window_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_01.dds" />
+		<texture name="CommonUI_window_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_02.dds" />
+		<texture name="CommonUI_window_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_03.dds" />
+		<texture name="CommonUI_window_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_04.dds" />
+		<texture name="CommonUI_window_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_05.dds" />
+		<texture name="CommonUI_window_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_06.dds" />
+		<texture name="CommonUI_window_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_07.dds" />
+		<texture name="CommonUI_window_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_08.dds" />
+		<texture name="CommonUI_window_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_09.dds" />
+		<texture name="CommonUI_namewindow_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_01.dds" />
+		<texture name="CommonUI_namewindow_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_02.dds" />
+		<texture name="CommonUI_namewindow_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_03.dds" />
+		<texture name="CommonUI_namewindow_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_04.dds" />
+		<texture name="CommonUI_namewindow_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_05.dds" />
+		<texture name="CommonUI_namewindow_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_06.dds" />
+		<texture name="CommonUI_namewindow_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_07.dds" />
+		<texture name="CommonUI_namewindow_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_08.dds" />
+		<texture name="CommonUI_namewindow_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_09.dds" />
+		<texture name="CommonUI_notselect_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_01.dds" />
+		<texture name="CommonUI_notselect_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_02.dds" />
+		<texture name="CommonUI_notselect_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_03.dds" />
+		<texture name="CommonUI_notselect_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_04.dds" />
+		<texture name="CommonUI_notselect_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_05.dds" />
+		<texture name="CommonUI_notselect_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_06.dds" />
+		<texture name="CommonUI_notselect_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_07.dds" />
+		<texture name="CommonUI_notselect_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_08.dds" />
+		<texture name="CommonUI_notselect_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_09.dds" />
+		<texture name="CommonUI_select_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_01.dds" />
+		<texture name="CommonUI_select_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_02.dds" />
+		<texture name="CommonUI_select_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_03.dds" />
+		<texture name="CommonUI_select_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_04.dds" />
+		<texture name="CommonUI_select_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_05.dds" />
+		<texture name="CommonUI_select_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_06.dds" />
+		<texture name="CommonUI_select_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_07.dds" />
+		<texture name="CommonUI_select_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_08.dds" />
+		<texture name="CommonUI_select_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_09.dds" />
+		
+		<texture name="UI_operation_01.dds" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/2D/UI_operation_01.dds" />
+<!--		<texture name="Hw2012_chair.dds" deferred_loading="true" protected="false" file="LG_Seaside/cmn_design/2D/thumbnails/Halloween/Hw2012_chair.dds" />-->
+<!--		<texture name="UI_Hall_01.dds" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/2D/cmn/UI_Hall_01.dds" />-->
+		
+<!--		<texture name="Jetski_01_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_01_c.dds" />-->
+<!--		<texture name="Jetski_01b_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_01b_c.dds" />-->
+<!--		<texture name="Jetski_01c_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_01c_c.dds" />-->
+<!--		<texture name="Jetski_01d_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_01d_c.dds" />-->
+<!--		<texture name="Jetski_02_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_02_c.dds" />-->
+<!--		<texture name="Jetski_02b_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_02b_c.dds" />-->
+<!--		<texture name="Jetski_02c_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_02c_c.dds" />-->
+<!--		<texture name="Jetski_02d_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_02d_c.dds" />-->
+<!--		<texture name="Jetski_09c_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Jetski_09c_c.dds" />-->
+<!--		<texture name="umbrella_02_black_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/umbrella_02_black_c.dds" />-->
+<!--		<texture name="umbrella_02_white_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/umbrella_02_white_c.dds" />-->
+<!--		<texture name="Umbrella_03_black_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Umbrella_03_black_c.dds" />-->
+<!--		<texture name="Umbrella_03_white_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Umbrella_03_white_c.dds" />-->
+<!--		<texture name="2013_aisyou_01.dds" deferred_loading="true" protected="false">-->
+<!--			<override file="lb/2d/Wedding/2013_aisyou_01_gb.dds" locale="en-GB" />-->
+<!--			<override file="lb/2d/Wedding/2013_aisyou_01_us.dds" locale="en-*" />-->
+<!--			<override file="lb/2d/Wedding/2013_aisyou_01_fr.dds" locale="fr-*" />-->
+<!--			<override file="lb/2d/Wedding/2013_aisyou_01_it.dds" locale="it-*" />-->
+<!--			<override file="lb/2d/Wedding/2013_aisyou_01_es.dds" locale="es-*" />-->
+<!--			<override file="lb/2d/Wedding/2013_aisyou_01_de.dds" locale="de-*" />-->
+<!--			<override file="lb/2d/Wedding/2013_aisyou_01.dds" locale="ja-*" />-->
+<!--		</texture>-->
+		
+		
+		
+<!--		<texture name="2013_kinen_frame_01.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/Wedding/2013_kinen_frame_01.dds" />-->
+<!--		<texture name="2013_kinen_frame_02.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/Wedding/2013_kinen_frame_02.dds" />-->
+<!--		<texture name="2013_kinen_frame_03.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/2D/Wedding/2013_kinen_frame_03.dds" />-->
+<!--		<texture name="Thumbnail1.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/Valent_thumbnails/valent_item_01.dds" />-->
+<!--		<texture name="Thumbnail2.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/Valent_thumbnails/valent_item_03.dds" />-->
+<!--		<texture name="Thumbnail3.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/Valent_thumbnails/valent_item_05.dds" />-->
+<!--		<texture name="Thumbnail4.dds" deferred_loading="true" protected="false" file="Lounge_Base/cmn_design/Valent_thumbnails/valent_item_20.dds" />-->
+<!--		<texture name="granzella_logo.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/granzella_logo.dds" />-->
+<!--		<texture name="2013_kinen_43frame_01.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/2D/Wedding/2013_kinen_43frame_01.dds" />-->
+<!--		<texture name="2013_kinen_43frame_02.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/2D/Wedding/2013_kinen_43frame_02.dds" />-->
+<!--		<texture name="2013_kinen_43frame_03.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/2D/Wedding/2013_kinen_43frame_03.dds" />-->
+<!--		<texture name="2013_flight_rule_01.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/2D/Valentine/2013_flight_rule_01.dds" />-->
+		
+		
+<!--		<texture name="Male01_Hands_umbrella_01_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_01_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_02_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_02_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_03_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_03_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_04_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_04_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_05_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_05_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_10_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_10_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_11_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_11_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_12_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_12_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_13_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_13_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_14_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_14_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_20_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_20_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_21_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_21_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_22_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_22_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_23_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_23_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_24_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_24_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_30_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_30_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_31_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_31_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_32_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_32_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_33_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_33_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_umbrella_34_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_umbrella_34_1_c.dds" />-->
+<!--		-->
+<!--		<texture name="Male01_Hands_jyanomekasa_01_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_jyanomekasa_01_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_jyanomekasa_02_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_jyanomekasa_02_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_jyanomekasa_03_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_jyanomekasa_03_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_jyanomekasa_04_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_jyanomekasa_04_1_c.dds" />-->
+<!--		<texture name="Male01_Hands_jyanomekasa_05_1_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/sourceimages/Male01_Hands_jyanomekasa_05_1_c.dds" />-->
+
+
+		<texture name="Xmas_rule_01.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\Xmas_rule_01.dds" />
+		<texture name="frame_green_00.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame_green_00.dds" />
+		<texture name="frame_green_01.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame_green_01.dds" />
+		<texture name="frame_green_02.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame_green_02.dds" />
+		<texture name="frame_red_00.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame_red_00.dds" />
+		<texture name="frame_red_01.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame_red_01.dds" />
+		<texture name="frame_red_02.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame_red_02.dds" />
+		<texture name="frame43_green_00.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame43_green_00.dds" />
+		<texture name="frame43_green_01.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame43_green_01.dds" />
+		<texture name="frame43_green_02.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame43_green_02.dds" />
+		<texture name="frame43_red_00.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame43_red_00.dds" />
+		<texture name="frame43_red_01.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame43_red_01.dds" />
+		<texture name="frame43_red_02.dds" deferred_loading="true" protected="false" file="LG_GZspace\cmn_design\2D\xmas2013\frame43_red_02.dds" />
+		
+		<texture name="granzella_logo.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/Photo/UI/granzella_logo.dds" />
+		<texture name="reward.dds" deferred_loading="true" protected="false" file="lg_gzspace\cmn_design\2D\thumbnail_item\xmas_flight_reward.dds" />
+		
+		<particle name="eff_xmas_costume_01.efx" deferred_loading="false" protected="false" file="lg_gzspace\cmn_design\ATGParticles\Efx\eff_xmas_costume_01.efx" memory="host" />
+		<particle name="eff_xmas_costume_02.efx" deferred_loading="false" protected="false" file="lg_gzspace\cmn_design\ATGParticles\Efx\eff_xmas_costume_02.efx" memory="host" />
+		
+		<particle name="Eff_sled_00.efx" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\ATGParticles\Efx\Eff_sled_00.efx" memory="host" />
+
+
+		<particle name="Eff_Halloween_fly_turn_01.efx" deferred_loading="false" protected="false" file="LG_Seaside/cmn_design/ATGParticles/Efx/Eff_Halloween_fly_turn_01.efx" memory="host" />
+		<particle name="Eff_Halloween_fly_turn_02.efx" deferred_loading="false" protected="false" file="LG_Seaside/cmn_design/ATGParticles/Efx/Eff_Halloween_fly_turn_02.efx" memory="host" />
+		
+		
+<!--		<particle name="Eff_Halloween_fly_01.efx" deferred_loading="false" protected="false" file="LG_Seaside/cmn_design/ATGParticles/Efx/Eff_Halloween_fly_01.efx" memory="host" />-->
+<!--		<particle name="Eff_Halloween_mazyo_01.efx" deferred_loading="false" protected="false" file="LG_Seaside/cmn_design/ATGParticles/Efx/Eff_Halloween_mazyo_01.efx" memory="host" />-->
+<!--		<particle name="Eff_Halloween_succubus_01.efx" deferred_loading="false" protected="false" file="LG_Seaside/cmn_design/ATGParticles/Efx/Eff_Halloween_succubus_01.efx" memory="host" />-->
+<!--		<particle name="Eff_Halloween_vampire_01.efx" deferred_loading="false" protected="false" file="LG_Seaside/cmn_design/ATGParticles/Efx/Eff_Halloween_vampire_01.efx" memory="host" />-->
+		<particle name="Eff_Halloween_fly_s_01.efx" deferred_loading="false" protected="false" file="LG_Seaside/cmn_design/ATGParticles/Efx/Eff_Halloween_fly_s_01.efx" memory="host" />
+<!--		<particle name="Eff_tyakusui_00.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_tyakusui_00.efx" memory="host" />-->
+<!--		<particle name="Eff_kiss_00.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_kiss_00.efx" memory="host" />-->
+<!--		<particle name="Eff_bubble_00.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_bubble_00.efx" memory="host" />-->
+<!--		<particle name="Eff_hand_light.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_hand_light.efx" memory="host" />-->
+<!--		<particle name="Eff_heartmark_00.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_heartmark_00.efx" memory="host" />-->
+<!--		<particle name="Eff_heartmark_01.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_heartmark_01.efx" memory="host" />-->
+<!--		<particle name="Eff_star_00.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_star_00.efx" memory="host" />-->
+<!--		<particle name="Eff_star_01.efx" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/ATGParticles/Efx/Eff_star_01.efx" memory="host" />-->
+		<file name="Network.xml" deferred_loading="false" protected="false" file="LG_GZspace\soft_jp_00\XmasFlight/file/Network.xml" memory="host" />
+		
+		
+		<anim name="anmModel_star_01.ani" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_01.ani" memory="host" />
+		<anim name="anmModel_star_02.ani" deferred_loading="false" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_02.ani" memory="host" />
+		
+<!--		<anim name="umbrella_00.ani" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_00.ani" memory="host" />-->
+
+
+		<anim name="anm_C_sled_reindeer_ntr.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_C_sled_reindeer_ntr.ani" memory="host" />
+
+		<anim name="anm_M_sled_front_ntr.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_front_ntr.ani" memory="host" />
+		<anim name="anm_M_sled_front_accele.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_front_accele.ani" memory="host" />
+		<anim name="anm_M_sled_front_left.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_front_left.ani" memory="host" />
+		<anim name="anm_M_sled_front_right.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_front_right.ani" memory="host" />
+		<anim name="anm_M_sled_front_shout.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_front_shout.ani" memory="host" />
+		
+		<anim name="anm_M_sled_back_ntr.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_back_ntr.ani" memory="host" />
+		<anim name="anm_M_sled_back_accele.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_back_accele.ani" memory="host" />
+		<anim name="anm_M_sled_back_left.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_back_left.ani" memory="host" />
+		<anim name="anm_M_sled_back_right.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_back_right.ani" memory="host" />
+		<anim name="anm_M_sled_back_shout.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_M_sled_back_shout.ani" memory="host" />
+		
+		<anim name="anm_F_sled_front_ntr.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_front_ntr.ani" memory="host" />
+		<anim name="anm_F_sled_front_accele.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_front_accele.ani" memory="host" />
+		<anim name="anm_F_sled_front_left.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_front_left.ani" memory="host" />
+		<anim name="anm_F_sled_front_right.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_front_right.ani" memory="host" />
+		<anim name="anm_F_sled_front_shout.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_front_shout.ani" memory="host" />
+		
+		<anim name="anm_F_sled_back_ntr.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_back_ntr.ani" memory="host" />
+		<anim name="anm_F_sled_back_accele.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_back_accele.ani" memory="host" />
+		<anim name="anm_F_sled_back_left.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_back_left.ani" memory="host" />
+		<anim name="anm_F_sled_back_right.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_back_right.ani" memory="host" />
+		<anim name="anm_F_sled_back_shout.ani" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\motion\anm_F_sled_back_shout.ani" memory="host" />
+<!--		<anim name="anm_M_ntr_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_normal_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_normal_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_normal_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_normal_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_normal_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_witch_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_witch_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_witch_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_witch_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_witch_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_umbrella_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_umbrella_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_umbrella_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_umbrella_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_umbrella_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike2_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike2_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike2_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike2_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_bike2_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_R_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_R_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_R_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_R_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_R_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_L_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_L_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_L_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_L_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hand_L_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_A_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_A_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_A_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_A_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_A_accele.ani" memory="host" />-->
+<!--		<anim name="anm_M_ntr_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_B_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_M_left_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_B_left.ani" memory="host" />-->
+<!--		<anim name="anm_M_right_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_B_right.ani" memory="host" />-->
+<!--		<anim name="anm_M_shout_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_B_shout.ani" memory="host" />-->
+<!--		<anim name="anm_M_accele_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_M_hug_B_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_normal_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_normal_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_normal_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_normal_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_01" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_normal_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_witch_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_witch_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_witch_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_witch_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_02" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_witch_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_umbrella_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_umbrella_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_umbrella_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_umbrella_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_03" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_umbrella_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_04" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike2_flight_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike2_flight_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike2_flight_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike2_flight_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_05" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_bike2_flight_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_R_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_R_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_R_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_R_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_06" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_R_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_L_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_L_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_L_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_L_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_07" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hand_L_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_A_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_A_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_A_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_A_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_08" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_A_accele.ani" memory="host" />-->
+<!--		<anim name="anm_F_ntr_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_B_ntr.ani" memory="host" />-->
+<!--		<anim name="anm_F_left_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_B_left.ani" memory="host" />-->
+<!--		<anim name="anm_F_right_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_B_right.ani" memory="host" />-->
+<!--		<anim name="anm_F_shout_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_B_shout.ani" memory="host" />-->
+<!--		<anim name="anm_F_accele_09" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/motion_valentine/anm_F_hug_B_accele.ani" memory="host" />-->
+
+<!--		<skeleton name="umbrella_00.skn" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/model_valentine/umbrella_00.skn" memory="host" />-->
+		<skeleton name="anmModel_star_01.skn" deferred_loading="true" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_01.skn" memory="host" />
+		<skeleton name="anmModel_star_02.skn" deferred_loading="false" protected="false" file="lg_seaside/cmn_design/halloween/anmModel_star_03.skn" memory="host" />
+		
+		<skeleton name="sled_reindeer_00.skn" deferred_loading="false" protected="false" file="LG_GZspace\cmn_design\flight\scenes\sled_reindeer_00.skn" memory="host" />
+		
+		
+		<soundbank name="photo.bnk" deferred_loading="false" protected="false" file="home_gzcmn\sound\photo.bnk" memory="host" />
+		<soundbank name="message.bnk" deferred_loading="true" protected="false" file="home_gzcmn/sound/message.bnk" memory="host" />
+		<soundbank name="flight.bnk" deferred_loading="false" protected="false" file="LG_GZspace/sound/flight.bnk" memory="host" />
+		<soundstream name="bgm01" deferred_loading="false" protected="false" file="LG_GZspace/sound/MP3/flight_01.mp3" />
+		<soundstream name="bgm02" deferred_loading="false" protected="false" file="LG_GZspace/sound/MP3/flight_02.mp3" />
+		<soundstream name="bgm03" deferred_loading="false" protected="false" file="LG_GZspace/sound/MP3/flight_03.mp3" />
+		
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="LG_GZspace\soft_jp_00\XmasFlight/file/MaleRepertoire.xml" memory="host" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="LG_GZspace\soft_jp_00\XmasFlight/file/FemaleRepertoire.xml" memory="host" />
+		<lua name="CommonMessageWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonMessageWindow.lua" memory="host" />
+		<lua name="CommonSelectWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonSelectWindow.lua" memory="host" />
+		<lua name="MessageSound.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/MessageSound.lua" memory="host" />
+		<lua name="PadIo.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/PadIo.lua" memory="host" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Log.lua" />
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PhaseCtrl.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilGarbage.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" />
+		<lua name="UtilWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/UtilWindow.lua" memory="host" />
+		<lua name="UtilFade.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFade.lua" />
+		<lua name="UtilMultiFocus.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilMultiFocus.lua" />
+		<lua name="TimeUtil.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/TimeUtil.lua" />
+		<lua name="UtilFunc.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFunc.lua" />
+		<lua name="Snd.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Snd.lua" />
+		
+		<lua name="MgData.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/MgData.lua" />
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/MgMain.lua" />
+		<lua name="WindowData.lua" deferred_loading="true" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/WindowData.lua" memory="host" />
+		<lua name="EventData.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/EventData.lua" />
+		<lua name="GameData.lua" deferred_loading="true" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/GameData_eu.lua" memory="host" />
+		<lua name="GameMain.lua" deferred_loading="true" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/GameMain.lua" memory="host" />
+		<lua name="GameCamera.lua" deferred_loading="true" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/GameCamera.lua" memory="host" />
+		<lua name="GameLobby.lua" deferred_loading="true" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/GameLobby.lua" memory="host" />
+		<lua name="Airplane.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/Airplane.lua" />
+		<lua name="LuaSimpleEffect.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/LuaSimpleEffect.lua" />
+		<lua name="GameFlight.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/GameFlight.lua" />
+		<lua name="GameAfter.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/GameAfter.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/MiniGame.lua" />
+		<lua name="CostumeEffect.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/CostumeEffect.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/Network.lua" />
+		<lua name="PhaseList.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/PhaseList.lua" />
+		<lua name="PhaseCmn.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/PhaseCmn.lua" />
+		<lua name="PhaseLobby.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/PhaseLobby.lua" />
+		<lua name="PhaseFlight.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/PhaseFlight.lua" />
+		<lua name="UtilDebug.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/UtilDebug.lua" />
+		<lua name="Rail.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/Rail.lua" />
+		<lua name="RailData.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/RailData.lua" />
+		<lua name="CaptureCameraIF.lua" deferred_loading="true" protected="true" file="LG_Seaside/soft_jp_00/CaptureCamera/lua/CaptureCameraIFForHalloween.lua" memory="host" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/AsyncCommandJobManager.lua" />
+		<lua name="chemistry.lua" deferred_loading="true" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/chemistry.lua" />
+		<lua name="ItemInfo.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/ItemInfo.lua" />
+		<lua name="UtilInventory.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilInventory.lua" />
+		<lua name="RecorderAct.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/RecorderAct.lua" />
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="LG_GZspace/GetRegionUUIDXmas.lua" />
+		<lua name="Capture.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/Capture.lua" />
+		<lua name="CaptureAct.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/CaptureAct.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="Lounge_Base/soft_jp_00/DataStation/lua/dataInterfaceLight.lua" />
+		<lua name="PointDisp.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/PointDisp.lua" />
+		<lua name="TelopObjText.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\XmasFlight/lua/TelopObjText.lua" />
+		
+		<lua name="SceneIF.lua" deferred_loading="false" protected="true" file="LG_GZspace\soft_jp_00\Scene/SceneIF.lua" />
+		<lua name="UtilParam.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilParam.lua" />
+		
+	</local>
+	<external />
+</resources>
