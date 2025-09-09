@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/spunland_plant/spunland_plant.mdl" />
+		<model name="flower_mdl" deferred_loading="false" protected="false" file="furniture/spunland_plant/flower.mdl" />
+		<model name="flower_open_mdl" deferred_loading="false" protected="false" file="furniture/spunland_plant/flower_open.mdl" />
+		<model name="head_1_mdl" deferred_loading="false" protected="false" file="furniture/spunland_plant/head_1.mdl" />
+		<model name="head_rabbit_mdl" deferred_loading="false" protected="false" file="Spunland/SharedModels/treehead_rabbit/model/TreeHead_Rabbit.mdl" />
+		<particle name="waveIcon_efx" deferred_loading="false" protected="false" file="furniture/spunlandFlower/ATGParticles/Efx/waveIcon.efx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/spunland_plant/spunland_plant.hkx" />
+		<anim name="spunland_plant_Wave_ani" deferred_loading="false" protected="false" file="furniture/spunland_plant/anim/spunland_plant_Wave.ani" />
+		<anim name="spunland_plant_Straight_ani" deferred_loading="false" protected="false" file="furniture/spunland_plant/anim/spunland_plant_Straight.ani" />
+		<anim name="head_rabbit_ani" deferred_loading="false" protected="false" file="Spunland/SharedModels/treehead_rabbit/anim/TreeHead_Rabbit_EarFlop.ani" />
+		<anim name="spunland_plant_Dance_ani" deferred_loading="false" protected="false" file="furniture/spunland_plant/anim/spunland_plant_Dance.ani" />
+		<anim name="spunland_plant_Lookat_ani" deferred_loading="false" protected="false" file="furniture/spunland_plant/anim/spunland_plant_Lookat.ani" />
+		<anim name="spunland_plant_Shiver_ani" deferred_loading="false" protected="false" file="furniture/spunland_plant/anim/spunland_plant_Shiver.ani" />
+		<skeleton name="spunland_plant_skn" deferred_loading="false" protected="false" file="furniture/spunland_plant/skeleton/spunland_plant.skn" />
+		<skeleton name="head_rabbit_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/treehead_rabbit/skeleton/TreeHead_Rabbit.skn" />
+		<soundbank name="plantSounds" deferred_loading="false" protected="false" file="furniture/spunland_plant/audio/plantSounds.bnk" />
+		<lua name="spunlandPlant_furniture" deferred_loading="false" protected="true" file="furniture/spunland_plant/lua/spunlandPlant_furniture.lua" />
+		<lua name="cPlantElement" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cPlantElement.lua" />
+		<lua name="cPlantManager" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cPlantManager.lua" />
+		<lua name="cVectorBlend" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlend.lua" />
+		<lua name="cPlayerState" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cPlayerState.lua" />
+		<lua name="supportFunctions" deferred_loading="false" protected="true" file="Spunland/SharedScripts/supportFunctions-523.lua" />
+	</local>
+	<external />
+</resources>

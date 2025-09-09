@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="OPENHOUSE_transporter.mdl" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_transporter.mdl" />
+		<particle name="TransportBeamSA.efx" deferred_loading="false" protected="false" file="ATGParticles/SpaceApartmentFx/TransportBeamSA.efx" />
+		<particle name="TransPorter.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/TransPorter.efx" />
+		<file name="simplemenu.xml" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/Teleporter/osd/simplemenu.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/Teleporter/osd/types.xml" />
+		<collision name="OPENHOUSE_transporter.hkx" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_transporter.hkx" />
+		<anim name="OPENHOUSE_transporter.ani" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_transporter.ani" />
+		<skeleton name="OPENHOUSE_transporter.skn" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_transporter.skn" />
+		<soundbank name="bank_rapid_transport.bnk" deferred_loading="false" protected="false" file="MiniGames/LOOT_Rapid_Transport/audio/bank_rapid_transport.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/Teleporter/GenericBaseCode/main.lua" memory="host" />
+		<lua name="common_settings.lua" deferred_loading="false" protected="true" file="MiniGames/PromotionalSpaceMiniGames/Tardis/Teleporter/common_settings.lua" memory="host" />
+	</local>
+	<external />
+</resources>

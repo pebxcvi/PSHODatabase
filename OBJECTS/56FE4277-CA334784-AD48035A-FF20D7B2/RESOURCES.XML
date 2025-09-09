@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/homerewardpeep/RewardPeep_Active.mdl" />
+		<model name="Reward_Peep_idle.mdl" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_idle.mdl" />
+		<file name="Lil_Peeps_NetworkDefs.xml" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Lil_Peeps_NetworkDefs.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/homerewardpeep/RewardPeep_Active.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/homerewardpeep/RewardPeep_Active.safevolume.hkx" />
+		<anim name="Reward_Peep_die.ani" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_die.ani" />
+		<anim name="Reward_Peep_idle.ani" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_idle.ani" />
+		<anim name="Reward_Peep_jump.ani" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_jump.ani" />
+		<anim name="Reward_Peep_walk.ani" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_walk.ani" />
+		<anim name="Reward_Peep_wave.ani" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_wave.ani" />
+		<anim name="Reward_Peep_run.ani" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_run.ani" />
+		<skeleton name="Reward_Peep_idle.skn" deferred_loading="false" protected="false" file="furniture/homerewardpeep/Reward_Peep_idle.skn" />
+		<soundstream name="Jump.mp3" deferred_loading="false" protected="false" file="furniture/homerewardpeep/homerewardpeep_audio/Jump.mp3" />
+		<lua name="homerewardpeep_audio.lua" deferred_loading="false" protected="true" file="furniture/homerewardpeep/homerewardpeep_audio.lua" />
+		<lua name="homerewardpeep_base.lua" deferred_loading="false" protected="true" file="furniture/homerewardpeep/homerewardpeep_base.lua" />
+		<lua name="homerewardpeep_class.lua" deferred_loading="false" protected="true" file="furniture/homerewardpeep/homerewardpeep_class.lua" />
+		<lua name="aHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/aHelpers.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Blue_Dalek_Companion/model/Blue_Dalek_companion_LOD.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Blue_Dalek_Companion/model/Blue_Dalek_companion_LOD.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/walk.ani" memory="host" />
+		<anim name="ani.applaud" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/dance.ani" memory="host" />
+		<anim name="ani.flap" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/walk.ani" memory="host" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/run.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/run.ani" memory="host" />
+		<anim name="ani.shakefists" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/run.ani" />
+		<anim name="ani.fly" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/walk.ani" />
+		<anim name="ani.twist" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/an_twist.ani" />
+		<anim name="ani.land" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/an_land.ani" />
+		<anim name="ani.sat" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/anim/an_sat.ani" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Blue_Dalek_Companion/skeleton/Blue_Dalek_companion.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/Loot_Dalek_companion/soundbank/Daleks_Exterminate.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Loot_Dalek_companion/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

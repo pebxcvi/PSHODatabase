@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/model/BorderCollie_PartyDog_rig.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/model/BorderColliePartyDog_LOD02_rig.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/anim/BorderCollie_idle01.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/anim/BorderCollie_run.ani" memory="host" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/anim/BorderCollie_idle02.ani" memory="host" />
+		<anim name="ani.idle3" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/anim/BorderCollie_idle03.ani" memory="main" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/anim/BorderCollie_walk.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/BorderCollie/skeleton/BorderCollie_rig.skn" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/BorderCollie/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

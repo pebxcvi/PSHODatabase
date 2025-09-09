@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="TRRelocator" deferred_loading="false" protected="false" file="MiniGames/trrelocator/models/TRRelocator.mdl" />
+		<collision name="TRRelocator_coll" deferred_loading="false" protected="false" file="MiniGames/trrelocator/models/TRRelocator.hkx" />
+		<anim name="TRRelocator_Anim" deferred_loading="false" protected="false" file="MiniGames/trrelocator/models/TRRelocator.ani" />
+		<skeleton name="TRRelocator_Skel" deferred_loading="false" protected="false" file="MiniGames/trrelocator/models/TRRelocator.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/TRJump/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

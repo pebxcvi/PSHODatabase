@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="scea_props/ps4/PS4_Kiosk.mdl" />
+		<texture name="pic1" deferred_loading="false" protected="false" file="MiniGames/PS4_Kiosk/texture/corruption1.dds" />
+		<texture name="pic2" deferred_loading="false" protected="false" file="MiniGames/PS4_Kiosk/texture/corruption2.dds" />
+		<texture name="pic3" deferred_loading="false" protected="false" file="MiniGames/PS4_Kiosk/texture/corruption3.dds" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="scea_props/ps4/PS4_Kiosk.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/PS4_Kiosk/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

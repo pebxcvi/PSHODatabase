@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="eagle_lod.mdl" deferred_loading="true" protected="false" file="Locomotion/05_may-ajagara-phoenix-phoenix_orange/Phoenix_lod.mdl" memory="host" />
+		<model name="eagle.mdl" deferred_loading="true" protected="false" file="Locomotion/05_may-ajagara-phoenix-phoenix_orange/Phoenix_rig.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/05_may-ajagara-phoenix-phoenix_orange/file/config.xml" memory="host" />
+		<anim name="Eagle_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Eagle/Eagle_Idle.ani" memory="host" />
+		<anim name="M_Eagle_Idle" deferred_loading="true" protected="false" file="Locomotion/Eagle/M_Eagle_Idle.ani" memory="main" />
+		<anim name="M_eagle_Run" deferred_loading="true" protected="false" file="Locomotion/Eagle/M_eagle_Run.ani" memory="main" />
+		<anim name="Eagle_Run.ani" deferred_loading="true" protected="false" file="Locomotion/Eagle/Eagle_Run.ani" memory="host" />
+		<anim name="F_eagle_Idle" deferred_loading="true" protected="false" file="Locomotion/Eagle/F_eagle_Idle.ani" memory="main" />
+		<anim name="F_eagle_Run" deferred_loading="true" protected="false" file="Locomotion/Eagle/F_eagle_Run.ani" memory="main" />
+		<skeleton name="Eagle.skn" deferred_loading="true" protected="false" file="Locomotion/05_may-ajagara-phoenix-phoenix_orange/Phoenix_rig.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Eagle/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Eagle/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Eagle/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Eagle/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Eagle/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

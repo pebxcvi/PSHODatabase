@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/bedroomassets/Burgundy_Bed.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/SleepingBed/file/Network.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/bedroomassets/Wood_Bed.hkx" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="MiniGames/SleepingBed/collision/ActiveModel.safevolume.hkx" />
+		<collision name="Bed_SafeVolume.hkx" deferred_loading="false" protected="false" file="furniture/bedroomassets/Bed_SafeVolume.hkx" />
+		<anim name="Bed_Climb_Left_F" deferred_loading="false" protected="false" file="animation/female/bed/Bed_Climb_Left.ani" memory="host" />
+		<anim name="Bed_Climb_Right_F" deferred_loading="false" protected="false" file="animation/female/bed/Bed_Climb_Right.ani" memory="host" />
+		<anim name="Bed_Idle_Left_F" deferred_loading="false" protected="false" file="animation/female/bed/Bed_Idle_Left.ani" memory="host" />
+		<anim name="Bed_Idle_Right_F" deferred_loading="false" protected="false" file="animation/female/bed/Bed_Idle_Right.ani" memory="host" />
+		<anim name="Bed_Idle_Right" deferred_loading="false" protected="false" file="animation/male/bed/Bed_Idle_Right.ani" memory="host" />
+		<anim name="Bed_Idle_Left" deferred_loading="false" protected="false" file="animation/male/bed/Bed_Idle_Left.ani" memory="host" />
+		<anim name="Bed_Climb_Right" deferred_loading="false" protected="false" file="animation/male/bed/Bed_Climb_Right.ani" memory="host" />
+		<anim name="Bed_Climb_Left" deferred_loading="false" protected="false" file="animation/male/bed/Bed_Climb_Left.ani" memory="host" />
+		<repertoire name="sleeping_female" deferred_loading="false" protected="false" file="MiniGames/SleepingBed/sleeping_female.xml" />
+		<repertoire name="sleeping_male" deferred_loading="false" protected="false" file="MiniGames/SleepingBed/sleeping_male.xml" />
+		<emotes name="sleeping_female_emote" deferred_loading="true" protected="false" file="MiniGames/SleepingBed/sleeping_female_emote.xml" />
+		<emotes name="sleeping_male_emote" deferred_loading="true" protected="false" file="MiniGames/SleepingBed/sleeping_male_emote.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SleepingBed/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

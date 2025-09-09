@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/model/board.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Ofarm_WingBoadB/file/config.xml" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/fidle.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/fright.ani" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/right.ani" memory="host" />
+		<anim name="test_jump.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/test_jump.ani" memory="host" />
+		<anim name="test_jump_FM.ani" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/anim/test_jump_FM.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/skeleton/board.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/Ofarm_WingBoadB/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/Ofarm_WingBoadB/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Ofarm_WingBoadB/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Ofarm_WingBoadB/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

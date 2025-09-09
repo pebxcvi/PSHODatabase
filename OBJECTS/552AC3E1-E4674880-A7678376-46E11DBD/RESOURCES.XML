@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="IR_anm_eff_hdo_01.mdl" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_eff_hdo_01.mdl" />
+		<model name="IR_anm_hdo_chrg.mdl" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_hdo_chrg.mdl" />
+		<model name="IR_anm_mis_01.mdl" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_mis_01.mdl" />
+		<model name="IR_anm_mis_hati_01.mdl" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_mis_hati_01.mdl" />
+		<particle name="IR_Eff_basicexplosion2.efx" deferred_loading="false" file="IremRtype/design/ATGParticles/Efx/IR_Eff_basicexplosion2.efx" />
+		<particle name="IR_Eff_mis_basicexplosion.efx" deferred_loading="false" file="IremRtype/design/ATGParticles/Efx/IR_Eff_mis_basicexplosion.efx" />
+		<particle name="IR_Eff_temp.efx" deferred_loading="false" file="IremRtype/design/ATGParticles/Efx/IR_Eff_temp.efx" />
+		<file name="main.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/main.lua" />
+		<file name="game_flow.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/game_flow.lua" />
+		<file name="game_act.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/game_act.lua" />
+		<file name="LuaTask.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/LuaTask.lua" />
+		<file name="LuaMemblock.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/LuaMemblock.lua" />
+		<file name="DialogTabSelectS.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/DialogD2/DialogTabSelectS.lua" />
+		<file name="LuaUtil.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/LuaUtil.lua" />
+		<file name="LuaSingleEvent.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/LuaSingleEvent.lua" />
+		<file name="LuaPadUtil.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/LuaPadUtil.lua" />
+		<file name="bspline.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/bspline.lua" />
+		<file name="LuaMath.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/LuaMath.lua" />
+		<file name="RailPass.lua" deferred_loading="false" file="IremRtype/design/minigames_hdo/RailPass/RailPass.lua" />
+		<file name="LuaCamera.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/LuaCamera.lua" />
+		<file name="MissileCameraData.lua" deferred_loading="false" file="IremRtype/design/minigames_hdo/RailPass/MissileCameraData.lua" />
+		<file name="HadouCameraData.lua" deferred_loading="false" file="IremRtype/design/minigames_hdo/RailPass/HadouCameraData.lua" />
+		<file name="SwithInOut.lua" deferred_loading="false" file="IremRtype/soft_jp_00/SceneScript_InOut/SwithInOut.lua" />
+		<file name="fade.lua" deferred_loading="false" file="IremRtype/soft_jp_00/ShipShoot/fade.lua" />
+		<anim name="IR_anm_eff_hdo_01.ani" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_eff_hdo_01.ani" />
+		<anim name="IR_anm_hdo_chrg.ani" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_hdo_chrg.ani" />
+		<anim name="IR_anm_mis_01.ani" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_mis_01.ani" />
+		<anim name="IR_anm_mis_hati_01.ani" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_mis_hati_01.ani" />
+		<skeleton name="IR_anm_eff_hdo_01.skn" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_eff_hdo_01.skn" />
+		<skeleton name="IR_anm_hdo_chrg.skn" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_hdo_chrg.skn" />
+		<skeleton name="IR_anm_mis_01.skn" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_mis_01.skn" />
+		<skeleton name="IR_anm_mis_hati_01.skn" deferred_loading="false" file="IremRtype/design/minigames_hdo/scenes/IR_anm_mis_hati_01.skn" />
+		<soundbank name="ShipShoot.bnk" deferred_loading="false" file="IremRtype/sound/ShipShoot.bnk" />
+	</local>
+	<external />
+</resources>

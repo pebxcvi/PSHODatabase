@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="swing_sofa_base.mdl" deferred_loading="false" protected="false" file="Actives/2013/swing_sofa/models/swing_sofa_base.mdl" memory="host" />
+		<model name="swing_sofa_swing.mdl" deferred_loading="false" protected="false" file="Actives/2013/swing_sofa/models/swing_sofa_swing.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Actives/2013/swing_sofa/file/Network.xml" memory="host" />
+		<collision name="swing_sofa_base.hkx" deferred_loading="false" protected="false" file="Actives/2013/swing_sofa/models/swing_sofa_base.hkx" memory="host" />
+		<collision name="swing_sofa_swing.hkx" deferred_loading="false" protected="false" file="Actives/2013/swing_sofa/models/swing_sofa_swing.hkx" memory="host" />
+		<collision name="SafeVolume.hkx" deferred_loading="false" protected="false" file="Actives/2013/swing_sofa/models/SafeVolume.hkx" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="Actives/2013/swing_sofa/lua/SmallMain.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="Actives/2013/swing_sofa/lua/Player.lua" memory="host" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="Actives/2013/swing_sofa/lua/Updater.lua" memory="host" />
+	</local>
+	<external />
+</resources>
