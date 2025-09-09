@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/PenthouseBed/file/Network.xml" />
+		<anim name="layDown_Left" deferred_loading="false" protected="false" file="animation/female/laydown/layDown_Left.ani" />
+		<anim name="layDown_Right" deferred_loading="false" protected="false" file="animation/female/laydown/layDown_Right.ani" />
+		<anim name="layDownLeft" deferred_loading="false" protected="false" file="animation/male/laydown/layDownLeft.ani" />
+		<anim name="layDownRight" deferred_loading="false" protected="false" file="animation/male/laydown/layDownRight.ani" />
+		<anim name="Pent_layDownLeft" deferred_loading="false" protected="false" file="animation/male/laydown/Pent_layDownLeft.ani" />
+		<anim name="Pent_layDownRight" deferred_loading="false" protected="false" file="animation/male/laydown/Pent_layDownRight.ani" />
+		<anim name="pent_layDown_Left" deferred_loading="false" protected="false" file="animation/female/laydown/pent_layDown_Left.ani" />
+		<anim name="pent_layDown_Right" deferred_loading="false" protected="false" file="animation/female/laydown/pent_layDown_Right.ani" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="objects/0E491924-7D6844B4-B4D09651-30E44D29/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="objects/0E491924-7D6844B4-B4D09651-30E44D29/FemaleRepertoire.xml" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="objects/0E491924-7D6844B4-B4D09651-30E44D29/MaleEmotes.xml" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="objects/0E491924-7D6844B4-B4D09651-30E44D29/FemaleEmotes.xml" />
+		<lua name="PenthouseBed.lua" deferred_loading="false" protected="true" file="MiniGames/PenthouseBed/lua/PenthouseBed.lua" />
+	</local>
+	<external />
+</resources>

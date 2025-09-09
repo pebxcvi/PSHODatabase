@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/SlotMachineSuit/model/SlotMachine.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/SlotMachineSuit/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/fidle.ani" memory="host" />
+		<anim name="Slotmachine_m_idle.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_m_idle.ani" />
+		<anim name="Slotmachine_m_move.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_m_move.ani" />
+		<anim name="Slotmachine_m_move_fast.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_m_move_fast.ani" />
+		<anim name="Slotmachine_move_fast.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_move_fast.ani" />
+		<anim name="Slotmachine_f_idle.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_f_idle.ani" />
+		<anim name="Slotmachine_f_move.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_f_move.ani" />
+		<anim name="Slotmachine_f_move_fast.ani" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/anim/Slotmachine_f_move_fast.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/model/SlotMachine.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/SlotMachineSuit/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/SlotMachineSuit/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

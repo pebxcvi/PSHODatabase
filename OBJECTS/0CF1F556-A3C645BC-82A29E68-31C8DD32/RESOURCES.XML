@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/models/CommOCT_8BitBoombox.mdl" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/commoctober_2010/8bitweapon/models/CommOCT_8BitBoombox.hkx" />
+		<soundstream name="01_Closer.mp3" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/8bitweapon/sound/01_Closer.mp3" />
+		<soundstream name="02_Micro_Boogie.mp3" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/8bitweapon/sound/02_Micro_Boogie.mp3" />
+		<soundstream name="03_Fallout_in_the_Wasteland.mp3" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/8bitweapon/sound/03_Fallout_in_the_Wasteland.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="activeitems/commoctober_2010/8bitweapon/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="activeitems/commoctober_2010/8bitweapon/programming/Boombox.lua" />
+	</local>
+	<external />
+</resources>

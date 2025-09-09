@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="OverheadLights_OFF.mdl" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/OverheadLights_OFF.mdl" />
+    <model name="OverheadLights_ON.mdl" deferred_loading="false" protected="false" file="environments/mib_headquater/assets/OverheadLights_ON.mdl" />
+    <soundbank name="MIBmusic.bnk" deferred_loading="false" protected="false" file="MiniGames/MiB_Personal_Space/MiB_Environment/audio/MIBmusic.bnk" />
+    <lua name="environment_main.lua" deferred_loading="false" protected="true" file="minigames/mib_personal_space/mib_environment/lua/environment_main.luac" />
+    <lua name="utility_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/utility_lib.luac" />
+    <lua name="posters.lua" deferred_loading="false" protected="true" file="minigames/mib_personal_space/mib_environment/lua/posters.luac" />
+    <lua name="lights.lua" deferred_loading="false" protected="true" file="minigames/mib_personal_space/mib_environment/lua/lights.luac" />
+    <lua name="sound.lua" deferred_loading="false" protected="true" file="minigames/mib_personal_space/mib_environment/lua/sound.luac" />
+  </local>
+  <external />
+</resources>

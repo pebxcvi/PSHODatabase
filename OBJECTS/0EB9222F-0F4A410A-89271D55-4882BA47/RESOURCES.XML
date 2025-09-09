@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/sprg13_birdperch/SPRG13_BirdPerch.mdl" />
+		<model name="SPRG13_Bird_RIG.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_birdperch/SPRG13_Bird_RIG.mdl" />
+		<texture name="generic_colorswatch_grey.dds" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/generic_colorswatch_grey.dds" />
+		<texture name="random_colorswatch.dds" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/random_colorswatch.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/sprg13_birdperch/lua/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/sprg13_birdperch/SPRG13_BirdPerch.hkx" />
+		<anim name="SPRG13_Bird_FlyLoop.ani" deferred_loading="false" protected="false" file="furniture/sprg13_birdperch/SPRG13_Bird_FlyLoop.ani" />
+		<anim name="SPRG13_Bird_PerchIdle.ani" deferred_loading="false" protected="false" file="furniture/sprg13_birdperch/SPRG13_Bird_PerchIdle.ani" />
+		<skeleton name="SPRG13_Bird_RIG.skn" deferred_loading="false" protected="false" file="furniture/sprg13_birdperch/SPRG13_Bird_RIG.skn" />
+		<lua name="Fish.lua" deferred_loading="false" protected="true" file="furniture/sprg13_birdperch/lua/Fish.luac" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/sprg13_birdperch/lua/MiniGame.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/sprg13_birdperch/lua/Pad.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/sprg13_birdperch/lua/Utility.luac" />
+	</local>
+	<external />
+</resources>

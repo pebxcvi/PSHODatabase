@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Ball_MDL" deferred_loading="false" file="environmentanimations/luxuryapt_island_volleyball/luxuryapt_island_volleyball.mdl" />
+		<file name="network_xml" deferred_loading="false" file="MiniGames/KickBall/Network.xml" />
+		<file name="KickBall_LUA" deferred_loading="" file="MiniGames/KickBall/KickBall.lua" />
+		<collision name="Ball_HKX" deferred_loading="false" file="environmentanimations/luxuryapt_island_volleyball/luxuryapt_island_volleyball.hkx" />
+		<file name="osd_textpanel" file="MiniGames/KickBall/textpanel.xml" deferred_loading="false" />
+		<file name="osd_types" file="MiniGames/KickBall/types.xml" deferred_loading="false" />
+		<soundbank name="KickBall_BNK" deferred_loading="false" file="MiniGames/KickBall/KickBall.bnk" />
+	</local>
+	<external />
+</resources>

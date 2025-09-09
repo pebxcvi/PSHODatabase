@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="pumpkin.mdl" deferred_loading="false" protected="false" file="animation/rantan/Animate_mini_Pumpkin.mdl" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="MiniGames/TrickOrTreatV2/common/tex/edge.dds" />
+		<particle name="jetsmoke_efx" deferred_loading="false" file="ATGParticles/JapanEvents/jetsmoke/efx/jetsmoke.efx" />
+		<particle name="Live_confetti_efx" deferred_loading="false" file="ATGParticles/Halloween2010/Efx/live_confetti.efx" />
+		<particle name="hc_star_rain_efx" deferred_loading="false" file="ATGParticles/Halloween2010/Efx/hc_star_rain.efx" />
+		<particle name="hc_phton_glowup_efx" deferred_loading="false" file="ATGParticles/JapanEvents/hc_phton_glowup/efx/hc_phton_glowup.efx" />
+		<particle name="jack_eye.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/jack_eye.efx" />
+		<particle name="jack_candy.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/jack_candy.efx" />
+		<particle name="hanabi_splash_c.efx" deferred_loading="false" protected="false" file="ATGParticles/Halloween2010/Efx/hanabi_splash_c.efx" />
+		<file name="Network_xml" deferred_loading="false" file="MiniGames/TrickOrTreatV2/Network.xml" memory="host" />
+		<anim name="Animate_Symbol_Pumpkin_TALK.ani" deferred_loading="false" protected="false" file="animation/rantan/Animate_Symbol_Pumpkin_TALK.ani" />
+		<anim name="Animate_Symbol_Pumpkin_CL_STAY.ani" deferred_loading="false" protected="false" file="animation/rantan/Animate_Symbol_Pumpkin_CL_STAY.ani" />
+		<anim name="Animate_Symbol_Pumpkin_CLOSE.ani" deferred_loading="false" protected="false" file="animation/rantan/Animate_Symbol_Pumpkin_CLOSE.ani" />
+		<anim name="Animate_Symbol_Pumpkin_DANCE.ani" deferred_loading="false" protected="false" file="animation/rantan/Animate_Symbol_Pumpkin_DANCE.ani" />
+		<anim name="Animate_Symbol_Pumpkin_OP_STAY.ani" deferred_loading="false" protected="false" file="animation/rantan/Animate_Symbol_Pumpkin_OP_STAY.ani" />
+		<anim name="Animate_Symbol_Pumpkin_OPEN.ani" deferred_loading="false" protected="false" file="animation/rantan/Animate_Symbol_Pumpkin_OPEN.ani" />
+		<anim name="Animate_Symbol_Pumpkin_OUT.ani" deferred_loading="false" protected="false" file="animation/rantan/Animate_Symbol_Pumpkin_OUT.ani" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeServerBase.lua" memory="host" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeServerTrigger.lua" memory="host" />
+		<lua name="paHomeServerGeneral" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeServerGeneral.lua" memory="host" />
+		<lua name="paHomeServerCustom" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeServerCustom.lua" memory="host" />
+		<lua name="paHomeServerCommon" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeServerCommon.lua" memory="host" />
+		<lua name="paHomeSoundMgr" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeSoundMgr.lua" memory="host" />
+		<lua name="paHomeSoundStream" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeSoundStream.lua" memory="host" />
+		<lua name="paHomeSoundBank" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeSoundBank.lua" memory="host" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomePosCalc.lua" memory="host" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/main.lua" memory="host" />
+		<lua name="gamemain" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/gamemain.lua" memory="host" />
+		<lua name="globalmain" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/globalmain.lua" memory="host" />
+		<lua name="version_label" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/version_label.lua" memory="host" />
+		<lua name="dbg_propaty" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/dbg_propaty.lua" memory="host" />
+		<lua name="permitted_region" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/permitted_region.lua" memory="host" />
+		<lua name="server_propaty" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/server_propaty.lua" memory="host" />
+		<lua name="adjust_propaty" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/adjust_propaty.lua" memory="host" />
+		<lua name="eventTrigger" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/eventTrigger.lua" memory="host" />
+		<lua name="eventCommon" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/eventCommon.lua" memory="host" />
+		<lua name="eventlight" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/eventlight.lua" memory="host" />
+		<lua name="xmlExpand" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/xmlExpand.lua" memory="host" />
+		<lua name="xmlAction" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/xmlAction.lua" memory="host" />
+		<lua name="backread" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/backread.lua" memory="host" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeTime.lua" memory="host" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeCommon.lua" memory="host" />
+		<lua name="paHomeCommonDebug" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/paHomeCommonDebug.lua" memory="host" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/common/misc.lua" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/common/mathx.lua" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/common/MsgWnd.lua" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/common/task.lua" />
+		<lua name="Sprite.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/common/Sprite.lua" />
+		<lua name="BigPumpkin.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/BigPumpkin.lua" />
+		<lua name="FeverFail.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/FeverFail.lua" />
+		<lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/common/xmlUtil.lua" />
+		<lua name="pctMsg" deferred_loading="false" protected="true" file="MiniGames/TrickOrTreatV2/pctMsg.lua" />
+	</local>
+	<external />
+</resources>

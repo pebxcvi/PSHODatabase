@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="chara1.dds" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/Textures/chara1.dds" memory="main" />
+		<texture name="efect1.dds" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/Textures/efect1.dds" memory="main" />
+		<texture name="efect2.dds" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/Textures/efect2.dds" memory="main" />
+		<texture name="font.dds" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/Textures/font.dds" memory="main" />
+		<texture name="maptest1.dds" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/Textures/maptest1.dds" memory="main" />
+		<texture name="iae_score.dds" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/Textures/iae_score.dds" memory="main" />
+		<texture name="iae_help.dds" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/Textures/iae_help.dds" memory="main" />
+		<soundbank name="iAE.bnk" deferred_loading="false" protected="false" file="MiniGames/Abduct_Earth/sound/iAE.bnk" memory="main" />
+		<lua name="animation2d.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/animation2d.luac" memory="main" />
+		<lua name="animationData.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/animationData.luac" memory="main" />
+		<lua name="collisionParam.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/collisionParam.luac" memory="main" />
+		<lua name="collisionSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/collisionSystem.luac" memory="main" />
+		<lua name="debugSelect.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/debugSelect.luac" memory="main" />
+		<lua name="drawTask.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/drawTask.luac" memory="main" />
+		<lua name="enemy.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/enemy.luac" memory="main" />
+		<lua name="enemyMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/enemyMgr.luac" memory="main" />
+		<lua name="fade.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/fade.luac" memory="main" />
+		<lua name="filterDraw.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/filterDraw.luac" memory="main" />
+		<lua name="fontMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/fontMgr.luac" memory="main" />
+		<lua name="fontObject.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/fontObject.luac" memory="main" />
+		<lua name="frameDraw.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/frameDraw.luac" memory="main" />
+		<lua name="gameMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/gameMgr.luac" memory="main" />
+		<lua name="gameUI.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/gameUI.luac" memory="main" />
+		<lua name="iaeFontObject.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/iaeFontObject.luac" memory="main" />
+		<lua name="initialize.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/initialize.luac" memory="main" />
+		<lua name="item.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/item.luac" memory="main" />
+		<lua name="itemMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/itemMgr.luac" memory="main" />
+		<lua name="localPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/localPlayer.luac" memory="main" />
+		<lua name="map.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/map.luac" memory="main" />
+		<lua name="mapMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/mapMgr.luac" memory="main" />
+		<lua name="network.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/network.luac" memory="main" />
+		<lua name="nonGame.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/nonGame.luac" memory="main" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/pad.luac" memory="main" />
+		<lua name="param.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/param.luac" memory="main" />
+		<lua name="player.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/player.luac" memory="main" />
+		<lua name="remoteEnemy.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/remoteEnemy.luac" memory="main" />
+		<lua name="remoteGame.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/remoteGame.luac" memory="main" />
+		<lua name="seqMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/seqMgr.luac" memory="main" />
+		<lua name="stageMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/stageMgr.luac" memory="main" />
+		<lua name="stringObj.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/stringObj.luac" memory="main" />
+		<lua name="taskPrio.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/taskPrio.luac" memory="main" />
+		<lua name="taskSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/taskSystem.luac" memory="main" />
+		<lua name="title.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/title.luac" memory="main" />
+		<lua name="ufo.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/ufo.luac" memory="main" />
+		<lua name="ufoMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/ufoMgr.luac" memory="main" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/MiniGame.luac" memory="main" />
+		<lua name="typeInit.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/typeInit.luac" memory="main" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="environments/sceneScript/all.luac" memory="main" />
+		<lua name="remotePlayer.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/remotePlayer.luac" memory="main" />
+		<lua name="remoteTitle.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/remoteTitle.luac" memory="main" />
+		<lua name="stageData.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/stageData.luac" memory="main" />
+		<lua name="cameraMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/cameraMgr.luac" memory="main" />
+		<lua name="osdLayer.lua" deferred_loading="false" protected="true" file="MiniGames/Abduct_Earth/lua/common/osdLayer.luac" memory="main" />
+	</local>
+	<external />
+</resources>

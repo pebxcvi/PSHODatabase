@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="TwitterLogo.dds" deferred_loading="false" file="MiniGames/AC2/Twitter/Graphics/TwitterLogo.dds" />
+		<texture name="Loading_back.dds" deferred_loading="false" file="MiniGames/AC2/Twitter/Graphics/Loading_back.dds" />
+		<texture name="Loading_front.dds" deferred_loading="false" file="MiniGames/AC2/Twitter/Graphics/Loading_front.dds" />
+		<texture name="MB_Club_TweetBkgrnd.dds" deferred_loading="false" file="MiniGames/AC2/Twitter/Graphics/MB_Club_TweetBkgrnd.dds" />
+		<texture name="TweetBkgrnd.dds" deferred_loading="false" file="MiniGames/AC2/Twitter/Graphics/TweetBkgrnd.dds" />
+		<texture name="animus_ico_00002.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00002.dds" />
+		<texture name="animus_ico_00003.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00003.dds" />
+		<texture name="animus_ico_00004.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00004.dds" />
+		<texture name="animus_ico_00005.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00005.dds" />
+		<texture name="animus_ico_00006.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00006.dds" />
+		<texture name="animus_ico_00007.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00007.dds" />
+		<texture name="animus_ico_00008.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00008.dds" />
+		<texture name="animus_ico_00009.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00009.dds" />
+		<texture name="animus_ico_00010.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00010.dds" />
+		<texture name="animus_ico_00011.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00011.dds" />
+		<texture name="animus_ico_00012.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00012.dds" />
+		<texture name="animus_ico_00013.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00013.dds" />
+		<texture name="animus_ico_00014.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00014.dds" />
+		<texture name="animus_ico_00015.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00015.dds" />
+		<texture name="animus_ico_00016.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00016.dds" />
+		<texture name="animus_ico_00017.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00017.dds" />
+		<texture name="animus_ico_00018.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00018.dds" />
+		<texture name="animus_ico_00019.dds" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/animus_ico_00019.dds" />
+		<texture name="texture_ss_background" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/background.dds" />
+		<texture name="texture_ss_overlay" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/screenfields.dds" />
+		<texture name="texture_ss_txtscroll" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Art/animated/text_scrolls.dds" />
+		<file name="Twitter.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Twitter/Twitter.lua" />
+		<file name="TwitterScrollingScreen.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Twitter/TwitterScrollingScreen.lua" />
+		<file name="TwitterTextParser.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Twitter/TwitterTextParser.lua" />
+		<file name="TwitterTimelineCache.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Twitter/TwitterTimelineCache.lua" />
+		<file name="TwitterUserTimelineScreen.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Twitter/TwitterUserTimelineScreen.lua" />
+		<file name="Dampener2.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Shared/Dampener2.lua" />
+		<file name="General_Fn_Lib.Lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Shared/General_Fn_Lib.Lua" />
+		<file name="PadState.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Shared/PadState.lua" />
+		<file name="ripairs.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Shared/ripairs.lua" />
+		<file name="ScreenCamera.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Shared/ScreenCamera.lua" />
+		<file name="Hud.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Main/Hud.lua" />
+		<file name="Main.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Main/Main.lua" />
+		<file name="OsdTypes.xml" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Main/OsdTypes.xml" />
+		<file name="HsmlWriter.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/HsmlWriter.lua" />
+		<file name="luabit.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/luabit.lua" />
+		<file name="OsdMessageBox.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/OsdMessageBox.lua" />
+		<file name="OsdSimpleMenuX.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/OsdSimpleMenuX.lua" />
+		<file name="ResourceRequest.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/ResourceRequest.lua" />
+		<file name="TextSegmentList.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/TextSegmentList.lua" />
+		<file name="utf8.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/utf8.lua" />
+		<file name="XmlNavigator.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/XmlNavigator.lua" />
+		<file name="Delegate.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/Delegate.lua" />
+		<file name="FlowLayoutBox.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/FlowLayout/FlowLayoutBox.lua" />
+		<file name="FlowLayoutDocument.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/FlowLayout/FlowLayoutDocument.lua" />
+		<file name="FlowLayoutObject.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/FlowLayout/FlowLayoutObject.lua" />
+		<file name="FlowLayoutStyle.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/FlowLayout/FlowLayoutStyle.lua" />
+		<file name="FlowLayoutText.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Core/FlowLayout/FlowLayoutText.lua" />
+		<file name="Screensaver.lua" deferred_loading="false" file="MiniGames/AC2/DoorCodeLaptop/Screensaver.lua" />
+		<file name="Tween.lua" deferred_loading="false" file="MiniGames/AC2/Twitter/Source/Shared/Tween.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="H3_Giraffe_lo.mdl" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/model/H3_Giraffe_ES_lo.mdl" memory="host" />
+		<model name="H3_Giraffe.mdl" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/model/H3_Giraffe_ES.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/file/config_H3_Girraffe.xml" memory="main" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/Male_H3_Giraffe_Idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/Male_H3_Giraffe_Walk.ani" memory="host" />
+		<anim name="fidle" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/Female_H3_Giraffe_Idle.ani" memory="host" />
+		<anim name="fmove" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/Female_H3_Giraffe_Walk.ani" memory="host" />
+		<anim name="H3_Giraffe_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/H3_Giraffe_Idle.ani" memory="host" />
+		<anim name="H3_Giraffe_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/H3_Giraffe_Walk.ani" memory="host" />
+		<anim name="H3_Giraffe_Idle_lo.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/H3_Giraffe_Idle.ani" memory="host" />
+		<anim name="H3_Giraffe_Walk_lo.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/anim/H3_Giraffe_Walk.ani" memory="host" />
+		<skeleton name="H3_Giraffe.skn" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/skeleton/H3_Giraffe.skn" memory="host" />
+		<skeleton name="H3_Giraffe_lo.skn" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/skeleton/H3_Giraffe.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_-_Hangover_Girraffe/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_flusho_away/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

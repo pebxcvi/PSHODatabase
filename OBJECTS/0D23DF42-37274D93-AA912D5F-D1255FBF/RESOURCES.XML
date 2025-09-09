@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/FP_Raccoon_Companion/model/raccoon_Walk.mdl" memory="host" />
+		<model name="raccoon_RunSled.mdl" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/model/raccoon_RunSled.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/file/config.xml" memory="host" />
+		<anim name="raccoon_Idle1.ani" deferred_loading="false" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/raccoon_Idle1.ani" memory="host" />
+		<anim name="raccoon_Run.ani" deferred_loading="false" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/raccoon_Run.ani" memory="host" />
+		<anim name="FP_Raccoon_Locomotion_idle" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_idle.ani" memory="host" />
+		<anim name="FP_Raccoon_Locomotion_left" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_left.ani" memory="host" />
+		<anim name="FP_Raccoon_Locomotion_move" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_move.ani" memory="host" />
+		<anim name="FP_Raccoon_Locomotion_right" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_right.ani" memory="host" />
+		<anim name="FP_Raccoon_Locomotion_Female_move" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_Female_move.ani" memory="host" />
+		<anim name="FP_Raccoon_Locomotion_Female_right" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_Female_right.ani" memory="host" />
+		<anim name="FP_Raccoon_Locomotion_Female_left" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_Female_left.ani" memory="main" />
+		<anim name="FP_Raccoon_Locomotion_Female_idle" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/anim/FP_Raccoon_Locomotion_Female_idle.ani" memory="main" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/skeleton/raccoon_Walk.skn" memory="host" />
+		<skeleton name="raccoon_RunSled.skn" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/model/raccoon_RunSled.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/FP_Raccoon_Companion/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/FP_Raccoon_Companion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

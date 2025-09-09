@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Sphere.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/chair.mdl" memory="host" />
+		<model name="ef_damage_star.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_damage_star.mdl" memory="host" />
+		<model name="ef_target_circle01.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_target_circle01.mdl" memory="host" />
+		<model name="ef_target_circle02.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_target_circle02.mdl" memory="host" />
+		<model name="ef_target_circle03.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_target_circle03.mdl" memory="host" />
+		<model name="fishing_pole01.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole01.mdl" memory="host" />
+		<model name="fishing_pole02.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole02.mdl" memory="host" />
+		<model name="fishing_pole03.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole03.mdl" memory="host" />
+		<model name="fishing_pole04.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole04.mdl" memory="host" />
+		<model name="fishing_pole05.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole05.mdl" memory="host" />
+		<model name="fishing_pole06.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole06.mdl" memory="host" />
+		<model name="fishing_pole_GRZ01.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole_GRZ01.mdl" memory="host" />
+		<model name="fishing_pole_PKV01.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole_PKV01.mdl" />
+		<model name="fishing_food01.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food01.mdl" memory="host" />
+		<model name="fishing_food03.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food03.mdl" memory="host" />
+		<model name="fishing_food02.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food02.mdl" memory="host" />
+		<model name="fishing_food04.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food04.mdl" memory="host" />
+		<model name="fishing_food05.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food05.mdl" memory="host" />
+		<model name="fishing_food06.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food06.mdl" memory="host" />
+		<model name="fishing_food08.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food08.mdl" memory="host" />
+		<model name="fishing_food10.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food10.mdl" memory="host" />
+		<model name="fishing_food14.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food14.mdl" memory="host" />
+		<model name="fishing_food12.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food12.mdl" memory="host" />
+		<model name="fishing_food15.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food15.mdl" memory="host" />
+		<model name="fishing_food09.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food09.mdl" memory="host" />
+		<model name="fishing_food11.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_food11.mdl" />
+		<model name="fishing_needle01.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_needle01.mdl" memory="host" />
+		<model name="fishing_needle02.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_needle02.mdl" memory="host" />
+		<model name="fishing_uki01.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki01.mdl" memory="host" />
+		<model name="fishing_uki02.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki02.mdl" memory="host" />
+		<texture name="HP_bar.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/HP_bar.dds" memory="host" />
+		<texture name="timer_frameB.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/timer_frameB.dds" memory="host" />
+		<texture name="timer_bar.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/timer_bar.dds" memory="host" />
+		<texture name="timer_bar_mask.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/timer_bar_mask.dds" memory="host" />
+		<texture name="timer_frameA.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/timer_frameA.dds" memory="host" />
+		<texture name="bom_plateC.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bom_plateC.dds" memory="host" />
+		<texture name="bom_icon.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bom_icon.dds" memory="host" />
+		<texture name="bom_icon02.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bom_icon02.dds" memory="host" />
+		<texture name="bom_icon03.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bom_icon03.dds" memory="host" />
+		<texture name="bom_icon04.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bom_icon04.dds" memory="host" />
+		<texture name="bom_plateA.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bom_plateA.dds" memory="host" />
+		<texture name="bom_plateB.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bom_plateB.dds" memory="host" />
+		<texture name="result_arrow.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/result_arrow.dds" memory="host" />
+		<texture name="hit_iconB.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/hit_iconB.dds" memory="host" />
+		<texture name="battle_plate.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/battle_plate.dds" memory="host" />
+		<texture name="hit_iconA01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/hit_iconA01.dds" memory="host" />
+		<texture name="hit_iconA02.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/hit_iconA02.dds" memory="host" />
+		<texture name="select_bar_top.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/select_bar_top.dds" memory="host" />
+		<texture name="select_bar.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/select_bar.dds" memory="host" />
+		<texture name="thumbnail.png_1" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kappa01_S.png" memory="host" />
+		<texture name="thumbnail.png_2" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kappa02_S.png" memory="host" />
+		<texture name="thumbnail.png_3" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kappa03_S.png" memory="host" />
+		<texture name="thumbnail.png_4" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Greys01_S.png" memory="host" />
+		<texture name="thumbnail.png_5" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Lion01_S.png" memory="host" />
+		<texture name="thumbnail.png_6" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Dragon01_S.png" memory="host" />
+		<texture name="thumbnail.png_7" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni01_S.png" memory="host" />
+		<texture name="thumbnail.png_8" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni02_S.png" memory="host" />
+		<texture name="thumbnail.png_9" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni03_S.png" memory="host" />
+		<texture name="thumbnail.png_10" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni04_S.png" memory="host" />
+		<texture name="thumbnail.png_12" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Koinobori01_S.png" memory="host" />
+		<texture name="thumbnail.png_13" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Koinobori02_S.png" memory="host" />
+		<texture name="thumbnail.png_14" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kama01_S.png" memory="host" />
+		<texture name="thumbnail.png_15" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kama02_S.png" memory="host" />
+		<texture name="thumbnail.png_16" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Rainboy01_S.png" memory="host" />
+		<texture name="thumbnail.png_17" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Rainboy02_S.png" memory="host" />
+		<texture name="thumbnail.png_18" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni01_nusi01_S.png" memory="host" />
+		<texture name="thumbnail.png_19" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hinezumi01_S.png" memory="host" />
+		<texture name="thumbnail.png_20" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hinezumi02_S.png" memory="host" />
+		<texture name="thumbnail.png_21" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hina01_S.png" memory="host" />
+		<texture name="thumbnail.png_22" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hina02_S.png" memory="host" />
+		<texture name="thumbnail.png_23" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Karasu01_S.png" />
+		<texture name="thumbnail.png_24" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Karasu02_S.png" />
+		<texture name="thumbnail.png_25" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Tuti01_S.png" />
+		<texture name="icon_uki02.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_uki02.dds" memory="host" />
+		<texture name="icon_food01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food01.dds" memory="host" />
+		<texture name="icon_food02.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food02.dds" memory="host" />
+		<texture name="icon_food03.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food03.dds" memory="host" />
+		<texture name="icon_food04.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food04.dds" memory="host" />
+		<texture name="icon_food05.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food05.dds" memory="host" />
+		<texture name="icon_food06.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food06.dds" memory="host" />
+		<texture name="icon_food08.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food08.dds" memory="host" />
+		<texture name="icon_food10.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food10.dds" memory="host" />
+		<texture name="icon_food14.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food14.dds" memory="host" />
+		<texture name="icon_food12.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food12.dds" memory="host" />
+		<texture name="icon_food15.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food15.dds" memory="host" />
+		<texture name="icon_food09.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food09.dds" memory="host" />
+		<texture name="icon_food11.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_food11.dds" />
+		<texture name="icon_pole01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole01.dds" memory="host" />
+		<texture name="icon_pole02.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole02.dds" memory="host" />
+		<texture name="icon_pole03.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole03.dds" memory="host" />
+		<texture name="icon_pole04.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole04.dds" memory="host" />
+		<texture name="icon_pole05.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole05.dds" memory="host" />
+		<texture name="icon_pole06.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole06.dds" memory="host" />
+		<texture name="icon_pole_GRZ01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole_GRZ01.dds" memory="host" />
+		<texture name="icon_pole_PKV01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_pole_PKV01.dds" />
+		<texture name="timer_bar_R1.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/timer_bar_R1.dds" memory="host" />
+		<texture name="timer_bar_R2.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/timer_bar_R2.dds" memory="host" />
+		<texture name="timer_bar_Y.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/timer_bar_Y.dds" memory="host" />
+		<texture name="thumbnail.png_11" deferred_loading="false" protected="false" file="thumbnails/companion_follower/KappaNushi01_S.png" memory="host" />
+		<texture name="nusi_gauge01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/nusi_gauge01.dds" memory="host" />
+		<texture name="icon_jewel01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_jewel01.dds" memory="host" />
+		<texture name="nusi_gauge01_point01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/nusi_gauge01_point01.dds" memory="host" />
+		<texture name="nusi_gauge01_point02.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/nusi_gauge01_point02.dds" memory="host" />
+		<texture name="nusi_gauge_lock01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/nusi_gauge_lock01.dds" memory="host" />
+		<texture name="battle_plate_nushi.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/battle_plate_nushi.dds" memory="host" />
+		<texture name="bonus_icon01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/bonus_icon01.dds" memory="host" />
+		<texture name="ef_ice01_timer_lock01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/ef_ice01_timer_lock01.dds" memory="host" />
+		<texture name="icon_toranomaki01.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/icon_toranomaki01.dds" memory="host" />
+		<texture name="thumbnail.png_26" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Dragon01_nusi01_S.png" />
+		<texture name="thumbnail.png_27" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Koinobori01_Nusi01_S.png" />
+		<particle name="ef_ripple_idle1.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_ripple_idle1.efx" memory="host" />
+		<particle name="ef_splash_throw.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_throw.efx" memory="host" />
+		<particle name="ef_splash_battle.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_battle.efx" memory="host" />
+		<particle name="ef_splash_battle_L.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_battle_L.efx" memory="host" />
+		<particle name="ef_splash_battle_R.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_battle_R.efx" memory="host" />
+		<particle name="ef_splash_catch.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_catch.efx" memory="host" />
+		<particle name="ef_thunder.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_thunder.efx" memory="host" />
+		<particle name="ef_fire01.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_fire01.efx" memory="host" />
+		<particle name="ef_splash_battle_s_R.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_battle_s_R.efx" memory="host" />
+		<particle name="ef_splash_battle_s.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_battle_s.efx" memory="host" />
+		<particle name="ef_splash_battle_s_L.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_splash_battle_s_L.efx" memory="host" />
+		<particle name="ef_rock01.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_rock01.efx" memory="host" />
+		<particle name="ef_ice01.efx" deferred_loading="false" protected="false" file="MiniGames/ATGParticles/Efx/ef_ice01.efx" memory="host" />
+		<file name="osd_type" deferred_loading="false" protected="false" file="MiniGames/FishingServer/file/type.xml" memory="host" />
+		<file name="osd_SelectWindow.xml" deferred_loading="false" protected="false" file="EmbeddedObjects/receptionist/OSD/osd_SelectWindow.xml" memory="host" />
+		<file name="result_weight.xml" deferred_loading="false" protected="false" file="MiniGames/FishingServer/file/result_weight.xml" memory="host" />
+		<file name="result_name.xml" deferred_loading="false" protected="false" file="MiniGames/FishingServer/file/result_name.xml" memory="host" />
+		<file name="result_point.xml" deferred_loading="false" protected="false" file="MiniGames/FishingServer/file/result_point.xml" memory="host" />
+		<file name="result_size.xml" deferred_loading="false" protected="false" file="MiniGames/FishingServer/file/result_size.xml" memory="host" />
+		<file name="result_total.xml" deferred_loading="false" protected="false" file="MiniGames/FishingServer/file/result_total.xml" memory="host" />
+		<file name="osd_SelectWindowEx.xml" deferred_loading="false" protected="false" file="EmbeddedObjects/receptionist/OSD/osd_SelectWindowEx.xml" memory="host" />
+		<file name="osd_SelectItem.xml" deferred_loading="false" protected="false" file="MiniGames/FishingServer/file/osd_SelectItem.xml" memory="host" />
+		<file name="osd_PopupWindow.xml" deferred_loading="false" protected="false" file="EmbeddedObjects/receptionist/OSD/osd_PopupWindow.xml" memory="host" />
+		<xml name="def_adj.xml" deferred_loading="false" protected="true" file="MiniGames/FishingServer/file/def_adj.xml" />
+		<xml name="def_date.xml" deferred_loading="false" protected="true" file="MiniGames/FishingServer/file/def_date.xml" />
+		<collision name="Sphere.hkx" deferred_loading="false" protected="false" file="MiniGames/fishing_item/chair.hkx" memory="host" />
+		<anim name="Male_fishing_throw.ani" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_throw.ani" memory="host" />
+		<anim name="Male_fishing_idle01.ani" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_idle01.ani" memory="host" />
+		<anim name="Male_fishing_hit.ani" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_hit.ani" memory="host" />
+		<anim name="Male_fishing_catch.ani" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_catch.ani" memory="host" />
+		<anim name="Male_fishing_catch_idle.ani" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_catch_idle.ani" memory="host" />
+		<anim name="Male_fishing_battle.ani" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_battle.ani" memory="host" />
+		<anim name="Male_fishing_battle_idle" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_battle_idle.ani" memory="host" />
+		<anim name="Female_fishing_throw.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Female_fishing_throw.ani" memory="host" />
+		<anim name="Female_fishing_idle01.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Female_fishing_idle01.ani" memory="host" />
+		<anim name="Female_fishing_hit.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Female_fishing_hit.ani" memory="host" />
+		<anim name="Female_fishing_catch.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Female_fishing_catch.ani" memory="host" />
+		<anim name="Female_fishing_catch_idle.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Female_fishing_catch_idle.ani" memory="host" />
+		<anim name="Female_fishing_battle.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Female_fishing_battle.ani" memory="host" />
+		<anim name="Female_fishing_battle_idle.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Female_fishing_battle_idle.ani" memory="host" />
+		<anim name="ef_target_circle.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_ef/ef_target_circle.ani" memory="host" />
+		<anim name="ef_target_circle_idle.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_ef/ef_target_circle_idle.ani" memory="host" />
+		<anim name="ef_damage_star.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_ef/ef_damage_star.ani" memory="host" />
+		<anim name="fishing_pole01_battle.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_item/fishing_pole01_battle.ani" memory="host" />
+		<anim name="fishing_pole01_battle_idle.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole01_battle_idle.ani" memory="host" />
+		<anim name="fishing_pole01_catch.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_item/fishing_pole01_catch.ani" memory="host" />
+		<anim name="fishing_pole01_catch_idle.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_item/fishing_pole01_catch_idle.ani" memory="host" />
+		<anim name="fishing_pole01_hit.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_item/fishing_pole01_hit.ani" memory="host" />
+		<anim name="fishing_pole01_hit_idle.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_item/fishing_pole01_hit_idle.ani" memory="host" />
+		<anim name="fishing_pole01_idle01.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_item/fishing_pole01_idle01.ani" memory="host" />
+		<anim name="fishing_pole01_idle02.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole01_idle02.ani" memory="host" />
+		<anim name="fishing_pole01_idle03.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole01_idle03.ani" memory="host" />
+		<anim name="fishing_pole01_idle04.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole01_idle04.ani" memory="host" />
+		<anim name="fishing_pole01_throw01.ani" deferred_loading="false" protected="false" file="MiniGames\fishing_item/fishing_pole01_throw01.ani" memory="host" />
+		<anim name="fishing_uki_throw.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_throw.ani" memory="host" />
+		<anim name="fishing_uki_catch.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_catch.ani" memory="host" />
+		<anim name="fishing_uki_catch_idle.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_catch_idle.ani" memory="host" />
+		<anim name="fishing_uki_hit.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_hit.ani" memory="host" />
+		<anim name="fishing_uki_idle01.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_idle01.ani" memory="host" />
+		<anim name="fishing_uki_idle02.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_idle02.ani" memory="host" />
+		<anim name="fishing_uki_idle03.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_idle03.ani" memory="host" />
+		<anim name="fishing_uki_idle04.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_idle04.ani" memory="host" />
+		<anim name="fishing_uki_hit_idle.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_hit_idle.ani" memory="host" />
+		<anim name="fishing_uki_battle_idle.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_battle_idle.ani" memory="host" />
+		<anim name="fishing_uki_battle_jump.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki_battle_jump.ani" memory="host" />
+		<anim name="Famale_fishing_battle_idle02.ani" deferred_loading="false" protected="false" file="animation/female/female_fishing_m01/Famale_fishing_battle_idle02.ani" memory="host" />
+		<anim name="Male_fishing_battle_idle02.ani" deferred_loading="false" protected="false" file="animation/male/male_fishing_m01/Male_fishing_battle_idle02.ani" memory="host" />
+		<anim name="fishing_pole01_battle_idle02.ani" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole01_battle_idle02.ani" memory="host" />
+		<skeleton name="ef_target_circle01.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_target_circle01.skn" memory="host" />
+		<skeleton name="ef_target_circle02.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_target_circle02.skn" memory="host" />
+		<skeleton name="ef_target_circle03.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_target_circle03.skn" memory="host" />
+		<skeleton name="ef_damage_star.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_ef/ef_damage_star.skn" memory="host" />
+		<skeleton name="fishing_pole01.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole01.skn" memory="host" />
+		<skeleton name="fishing_pole02.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole02.skn" memory="host" />
+		<skeleton name="fishing_pole03.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole03.skn" memory="host" />
+		<skeleton name="fishing_pole04.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole04.skn" memory="host" />
+		<skeleton name="fishing_needle02.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_needle02.skn" memory="host" />
+		<skeleton name="fishing_uki01.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki01.skn" memory="host" />
+		<skeleton name="fishing_uki02.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_uki02.skn" memory="host" />
+		<skeleton name="fishing_pole05.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole05.skn" memory="host" />
+		<skeleton name="fishing_pole06.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole06.skn" memory="host" />
+		<skeleton name="fishing_pole_GRZ01.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole_GRZ01.skn" memory="host" />
+		<skeleton name="fishing_pole_PKV01.skn" deferred_loading="false" protected="false" file="MiniGames/fishing_item/fishing_pole_PKV01.skn" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="MiniGames/FishingServer/repertoire/MaleRepertoire.xml" memory="host" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="MiniGames/FishingServer/repertoire/FemaleRepertoire.xml" memory="host" />
+		<lua name="draw2d.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/draw2d.lua" memory="host" />
+		<lua name="linear.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/linear.lua" memory="host" />
+		<lua name="draw3d.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/draw3d.lua" memory="host" />
+		<lua name="utility.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/utility.lua" memory="host" />
+		<lua name="catch.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/catch.lua" memory="host" />
+		<lua name="update.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/update.lua" memory="host" />
+		<lua name="camera.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/camera.lua" memory="host" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/BlendMaskTest/lua/Timer.lua" memory="host" />
+		<lua name="NPCSelectWindow.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/NPCSelectWindow.lua" memory="host" />
+		<lua name="menu.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/menu.lua" memory="host" />
+		<lua name="bomb.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/bomb.lua" memory="host" />
+		<lua name="result.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/result.lua" memory="host" />
+		<lua name="NPCSelectWindowBase.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/NPCSelectWindowBase.lua" memory="host" />
+		<lua name="Ripple.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/Ripple.lua" memory="host" />
+		<lua name="needle.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/needle.lua" memory="host" />
+		<lua name="rod.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/rod.lua" memory="host" />
+		<lua name="guide.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/guide.lua" memory="host" />
+		<lua name="define.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/define.lua" memory="host" />
+		<lua name="DataAccessDef.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccessDef.lua" memory="host" />
+		<lua name="DataAccessCore.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccessCore.lua" memory="host" />
+		<lua name="DataAccess.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccess.lua" memory="host" />
+		<lua name="NPCSelectWindowEx.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/NPCSelectWindowEx.lua" memory="host" />
+		<lua name="item.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/item.lua" memory="host" />
+		<lua name="SoundAccess.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/SoundAccess.lua" memory="host" />
+		<lua name="MiniGameServer.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/MiniGameServer.lua" memory="host" />
+		<lua name="bossgauge.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/bossgauge.lua" memory="host" />
+		<lua name="def_adj.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/def_adj.lua" />
+		<lua name="def_cmn.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_cmn.lua" memory="host" />
+		<lua name="func_cmn.lua" deferred_loading="false" protected="true" file="luacommon/lua/func_cmn.lua" memory="host" />
+		<lua name="FadeEffect.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/FadeEffect.lua" memory="host" />
+		<lua name="def_object.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_object.lua" />
+		<lua name="PetCommon.lua" deferred_loading="false" protected="true" file="MiniGames/PetCommon/lua/PetCommon.lua" />
+		<lua name="def_objsnd.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_objsnd.lua" />
+		<lua name="derby_para.lua" deferred_loading="false" protected="true" file="luacommon/lua/derby_para.lua" />
+		<lua name="def_catch.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_catch.lua" memory="host" />
+		<lua name="def_rod.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/def_rod.lua" memory="host" />
+		<lua name="def_ticket.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_ticket.lua" memory="host" />
+		<lua name="def_bait.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_bait.lua" memory="host" />
+		<lua name="DataAccessBait.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccessBait.lua" memory="host" />
+		<lua name="DataAccessRod.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/DataAccessRod.lua" memory="host" />
+		<lua name="def_pet.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_pet.lua" />
+	</local>
+	<external />
+</resources>

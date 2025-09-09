@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/VDAY13_HeartShapedJacuzzi.mdl" memory="host" />
+    <model name="VDAY13_HeartShapedJacuzzi_Water_RIG.mdl" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/VDAY13_HeartShapedJacuzzi_Water_RIG.mdl" memory="host" />
+    <particle name="Hottub01.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/VDAY13/Hottub01.efx" memory="host" />
+    <particle name="Hottub02.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/VDAY13/Hottub02.efx" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/code/Network.xml" memory="host" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/VDAY13_HeartShapedJacuzzi.hkx" memory="host" />
+    <anim name="Female_JacuzziPose.ani" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/anims/Female_JacuzziPose.ani" memory="host" />
+    <anim name="Male_JacuzziPose.ani" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/anims/Male_JacuzziPose.ani" memory="host" />
+    <anim name="VDAY13_HeartShapedJacuzzi_Water_Bubbly.ani" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/VDAY13_HeartShapedJacuzzi_Water_Bubbly.ani" memory="host" />
+    <anim name="VDAY13_HeartShapedJacuzzi_Water_Calm.ani" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/VDAY13_HeartShapedJacuzzi_Water_Calm.ani" memory="host" />
+    <anim name="VDAY13_HeartShapedJacuzzi_Water_Still.ani" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/VDAY13_HeartShapedJacuzzi_Water_Still.ani" memory="host" />
+    <skeleton name="VDAY13_HeartShapedJacuzzi_Water_RIG.skn" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/VDAY13_HeartShapedJacuzzi_Water_RIG.skn" memory="host" />
+    <soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/camera.mp3" memory="host" />
+    <repertoire name="male" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/reps/male.xml" memory="host" />
+    <repertoire name="female" deferred_loading="false" protected="false" file="furniture/vday13_heartshapedjacuzzi/reps/female.xml" memory="host" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="furniture/vday13_heartshapedjacuzzi/code/main.luac" memory="host" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/vday13_heartshapedjacuzzi/code/pad.luac" memory="host" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/vday13_heartshapedjacuzzi/code/utility.luac" memory="host" />
+    <lua name="JacuzziCamera.lua" deferred_loading="false" protected="true" file="furniture/vday13_heartshapedjacuzzi/code/jacuzzicamera.luac" memory="host" />
+  </local>
+  <external />
+</resources>

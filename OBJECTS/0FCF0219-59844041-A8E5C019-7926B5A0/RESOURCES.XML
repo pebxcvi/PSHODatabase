@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="jet_pack.mdl" deferred_loading="true" protected="false" file="animatedmodels/jet_pack/jet_pack_black.mdl" memory="host" />
+		<model name="jet_pack_remote.mdl" deferred_loading="true" protected="false" file="animatedmodels/jet_pack/jet_pack_black_remote.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/particle/flame.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Jet_Pack/file/config.xml" memory="host" />
+		<anim name="WingsFlyMaleForward.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/WingsFlyMaleForward.ani" />
+		<anim name="WingsFlyMaleIdle.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/WingsFlyMaleIdle.ani" />
+		<anim name="WingsFlyMaleLeft.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/WingsFlyMaleLeft.ani" />
+		<anim name="WingsFlyMaleRight.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/WingsFlyMaleRight.ani" />
+		<anim name="WingsMaleIdle.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/WingsMaleIdle.ani" />
+		<anim name="flyForward.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/flyForward.ani" />
+		<anim name="flyIdle.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/flyIdle.ani" />
+		<anim name="flyLeft.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/flyLeft.ani" />
+		<anim name="flyRight.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/flyRight.ani" />
+		<anim name="JetpackIDLE.ani" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/JetpackIDLE.ani" />
+		<anim name="WingsFlyMaleLand" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/WingsFlyMaleLand.ani" />
+		<anim name="JetpackLAND" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/anim/JetpackLAND.ani" />
+		<skeleton name="jet_pack.skn" deferred_loading="true" protected="false" file="animatedmodels/jet_pack/jet_pack.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Jet_Pack/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Jet_Pack/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

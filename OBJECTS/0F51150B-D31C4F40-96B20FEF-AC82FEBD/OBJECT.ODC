@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.86.0.17.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>0F51150B-D31C4F40-96B20FEF-AC82FEBD</uuid>
+  <name lang="en-GB" default="true">Acorn Meadows Park Apartment - 1st Birthday!</name>
+  <name lang="fr-FR" default="false">Appartement parc Acorn Meadows - 1er anniversaire !</name>
+  <name lang="de-DE" default="false">Acorn Meadows Park Apartment - 1. Geburtstag!</name>
+  <name lang="it-IT" default="false">Appartamento Acorn Meadows Park - 1° Compleanno!</name>
+  <name lang="es-ES" default="false">Apartamento del Parque de Campo Bellotas - ¡1er cumpleaños!</name>
+  <description lang="en-GB" default="true">Join us in in celebrating Acorn Meadows Park's 1st Birthday!\n
+\n
+Your own little private slice of Acorn Meadows Park, this lakeside garden apartment provides the perfect place to relax and take time away from the main Park without leaving the Acorn Meadows environment.\n
+\n
+Awarded in the 1st Birthday Acorn Meadows Park after completing all 22 Birthday Challanges. [#Legal]</description>
+  <description lang="fr-FR" default="false">Rejoignez-nous pour fêter le 1er anniversaire du parc Acorn Meadows !\n
+\n
+Votre propre petite part du parc Acorn Meadows, cet appartement et jardin au bord du lac est le lieu idéal pour se détendre et prendre du temps pour soi à l'écart du parc principal, sans quitter l'environnement Acorn Meadows.\n
+\n
+À gagner dans le parc Arocn Meadows 1er anniversaire après avoir relevé les 22 défis d'anniversaire. [#Legal]</description>
+  <description lang="de-DE" default="false">Feiern Sie den ersten Geburtstag des Acorn Meadows Parks mit uns!\n
+\n
+Ihr ganz eigenes kleines Stück Acorn Meadows Park! Dieses Garten-Appartement direkt am See ist der ideale Ort zum Entspannen und Ausruhen, ohne dass Sie dafür jemals den Acorn Meadows Park verlassen müssen.\n
+\n
+Auszeichnung im Acorn Meadows Park nach Ausführung aller 22 Aufgaben zum ersten Geburtstag! [#Legal]</description>
+  <description lang="it-IT" default="false">Festeggia con noi il 1° Compleanno di Acorn Meadows Park!\n
+\n
+Un tuo piccolo spazio privato in Acorn Meadows Park. Questo appartamento con giardino in riva al lago è il posto perfetto per rilassarsi e allontanarsi un po' dal Parco principale, senza però abbandonare l'ambiente Acorn Meadows.\n
+\n
+Come premio per il  1° Compleanno di Acorn Meadows Park per aver completato tutte e 22 le Sfide di Compleanno. [#Legal]</description>
+  <description lang="es-ES" default="false">¡Celebra con nosotros el 1er Cumpleaños del Parque de Campo Bellotas!\n
+\n
+Tu propio rincón privado del Parque de Campo Bellotas, este apartamento con jardín al lado del lago te ofrece el lugar perfecto para relajarte y pasar un rato alejado del centro del parque sin abandonar el entorno de Campo Bellotas.\n
+\n
+Conseguido en el 1er cumpleaños del Parque de Campo Bellotas tras completar los 22 Retos de cumpleaños. [#Legal]</description>
+  <maker lang="en-GB" default="true">VEEMEE</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T032.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T032.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T032.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scene_type">apartment</element>
+    <element name="scenename">AM_Birthday_Apt_830A_D57F</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+  </legal>
+  <heat />
+  <timestamp>5712E66E</timestamp>
+</odc>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="Assert.lua" deferred_loading="true" protected="true" file="Items/Bubble_Machine/Assert.luac" />
+		<lua name="ConfigValidation.lua" deferred_loading="true" protected="true" file="Items/Bubble_Machine/ConfigValidationNew.luac" />
+		<lua name="Log.lua" deferred_loading="true" protected="true" file="Items/Bubble_Machine/Log.luac" />
+		<lua name="PrintData.lua" deferred_loading="true" protected="true" file="Items/Bubble_Machine/PrintData.luac" />
+		<lua name="validate.lua" deferred_loading="true" protected="true" file="Items/Bubble_Machine/validate.luac" />
+		<lua name="xml.lua" deferred_loading="true" protected="true" file="Items/Bubble_Machine/xml.luac" />
+		<lua name="main.lua" deferred_loading="true" protected="true" file="Items/Bubble_Machine/main_new.luac" />
+		<lua name="hdk.lua" deferred_loading="true" protected="true" file="libs/hdk.luac" />
+	</local>
+	<external />
+</resources>

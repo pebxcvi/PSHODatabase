@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+   <local>
+      <file name="Network.xml" deferred_loading="false" protected="false" file="common/features/v2_0/Network.xml" />
+
+      <lua name="Toolbox.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Toolbox.lua" />
+      <lua name="ToolboxSettings.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/settings_build_001.lua" />
+	  <texture name="loadScreen.dds" deferred_loading="true" protected="false" file="environments/LockDraw/studio/Toolbox/LoadingScreen.dds" />
+
+      <lua name="DynCode.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/DynamicLoading/DynCode.lua" />
+
+      <lua name="AppletRegister_fxNode.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/applets/fxNode/AppletRegister_fxNode.lua" />
+
+		<lua name="AppletMain_fxNode.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/applets/fxNode/AppletMain_fxNode.lua"/>
+		<lua name="AppletSystem_Register.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/v3_0/ToolboxRegister.lua" />
+		<lua name="fxNode.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/applets/fxNode/fxNode.lua"/>
+	    <lua name="AppletAssetMan.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/v3_0/AppletAssetMan.lua" />
+	    <lua name="AppletContainer.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/v3_0/AppletContainer.lua" />
+	    <lua name="AppletCore.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/v3_0/AppletCore.lua" />
+	    <lua name="AppletCoreExporter.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/AppletSys/v3_0/AppletCoreExporter.lua" />
+        <lua name="AsyncInvMonitor.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/AsyncInvMonitor.lua" />
+        <lua name="AsyncWrapper.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/HomeLibraryWrappers/AsyncWrapper.lua" />
+        <lua name="CamPath.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Cameras/CamPath.lua" />
+        <lua name="Coroutine.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Coroutine.lua" />
+        <lua name="DefDB.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Definitions/DefDB.lua" />
+        <lua name="DefStore.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/DefStore.lua" />
+        <lua name="DynEntity.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/DynamicLoading/DynEntity.lua" />
+        <lua name="EventRelay.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/EventRelay.lua" />
+        <lua name="EventSys.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Triggers/EventSys.lua" />
+        <lua name="FEA_applet.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_applet.lua" />
+        <lua name="FEA_commerce_point.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_commerce_point.lua" />
+        <lua name="FEA_DynFx.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_DynFx.lua" />
+        <lua name="FEA_fx_bone.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_fx_bone.lua" />
+        <lua name="FEA_magic_poster.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_magic_poster.lua" />
+        <lua name="FEA_manaquin.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_manaquin.lua" />
+        <lua name="FEA_NodeEvents.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_NodeEvents.lua" />
+        <lua name="FEA_relocate.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_relocate.lua" />
+        <lua name="Feature_Com.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Feature_Com.lua" />
+        <lua name="Feature_IO.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Feature_IO.lua" />
+        <lua name="Feature_misc.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Feature_misc.lua" />
+        <lua name="Feature_root_node.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Feature_root_node.lua" />
+        <lua name="Feature_SetDressing.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Feature_SetDressing.lua" />
+        <lua name="Feature_sub_nodes.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Feature_sub_nodes.lua" />
+        <lua name="Feature_system.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Feature_system.lua" />
+        <lua name="FeatureSystem_Register.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/ToolboxRegister.lua" />
+        <lua name="Fsm_Mealey.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/Fsm_Mealey.lua" />
+        <lua name="Fsm_Moore.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/Fsm_Moore.lua" />
+        <lua name="fx_anim_model.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_anim_model.lua" />
+        <lua name="fx_atmos.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_atmos.lua" />
+        <lua name="fx_beam.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_beam.lua" />
+        <lua name="fx_blank.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_blank.lua" />
+        <lua name="fx_flash.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_flash.lua" />
+        <lua name="fx_light.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_light.lua" />
+        <lua name="fx_mesh_decay.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_mesh_decay.lua" />
+        <lua name="fx_mesh_tween.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_mesh_tween.lua" />
+        <lua name="fx_particle.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_particle.lua" />
+        <lua name="fx_pool.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_pool.lua" />
+        <lua name="fx_pulse.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_pulse.lua" />
+        <lua name="fx_ray_cast.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_ray_cast.lua" />
+        <lua name="fx_screen_particles.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_screen_particles.lua" />
+        <lua name="fx_sound.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/fx_sound.lua" />
+        <lua name="FxLib.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/FxLib.lua" />
+        <lua name="FxSystem.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/libs/FxSystem.lua" />
+        <lua name="FxSystem_Register.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/fx_lab/v3_0/ToolboxRegister.lua" />
+        <lua name="Gui.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Gui.lua" />
+        <lua name="HDK_Common_Register.lua" deferred_loading="false" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/ToolboxRegister.lua" />
+        <lua name="HomeTarget.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/HomeTarget.lua" />
+        <lua name="HomeTargetAdvanced.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Triggers/HomeTargetAdvanced.lua" />
+        <lua name="Jamin.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Jamin.lua" />
+        <lua name="mini_FSM.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/mini_FSM.lua" />
+        <lua name="Misc_extra.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/editor/Misc_extra.lua" />
+        <lua name="Misc_maths.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/editor/Misc_maths.lua" />
+        <lua name="Misc_table.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/editor/Misc_table.lua" />
+        <lua name="NetLib.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/NetLib.lua" />
+        <lua name="NetState.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Networking/NetState.lua" />
+        <lua name="NetState_NetworkedVariable.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Networking/NetState_NetworkedVariable.lua" />
+        <lua name="NetState_Occupancy.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Networking/NetState_Occupancy.lua" />
+        <lua name="NetState_Queue.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Networking/NetState_Queue.lua" />
+        <lua name="NetState_UserRegister.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Networking/NetState_UserRegister.lua" />
+        <lua name="OBB.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/OBB.lua" />
+        <lua name="Ohs.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/OHS.lua" />
+        <lua name="Online_localisation.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Online_localisation.lua" />
+        <lua name="PadControl.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Controllers/PadControl.lua" />
+        <lua name="ParamDb.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/OnlineResources/ParamDb.lua" />
+        <lua name="ParamDb_Groups.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/OnlineResources/ParamDb_Groups.lua" />
+        <lua name="Playmetrix.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Playmetrix.lua" />
+        <lua name="Plugin_Activation.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Activation.lua" />
+        <lua name="Plugin_Applet.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Applet.lua" />
+        <lua name="Plugin_Detectors.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Detectors.lua" />
+        <lua name="Plugin_EntityGroup.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_EntityGroup.lua" />
+        <lua name="Plugin_Features.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Features.lua" />
+        <lua name="Plugin_Physics.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Physics.lua" />
+        <lua name="Plugin_RemoteActivation.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_RemoteActivation.lua" />
+        <lua name="Plugin_Rewards.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Rewards.lua" />
+        <lua name="Plugin_SoundStream.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/libs/Plugins/Plugin_SoundStream.lua" />
+        <lua name="Process.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/features/v3_0/editor/Process.lua" />
+        <lua name="ProtoDef.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Definitions/ProtoDef.lua" />
+        <lua name="qEntity.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/qEntity.lua" />
+        <lua name="ResSys.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/OnlineResources/ResSys.lua" />
+        <lua name="RewardMgr.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/HomeLibraryWrappers/RewardMgr.lua" />
+        <lua name="SoundInstance.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Sound/SoundInstance.lua" />
+        <lua name="SoundManager.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Sound/SoundManager.lua" />
+        <lua name="SoundStreamChannel.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Sound/SoundStreamChannel.lua" />
+        <lua name="T_Ent.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/DynamicLoading/T_Ent.lua" />
+        <lua name="TiMath.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Math/TiMath.lua" />
+        <lua name="Trigger.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Triggers/Trigger.lua" />
+        <lua name="Trigger_Setup.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/Triggers/Trigger_Setup.lua" />
+        <lua name="vDampener.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/vDampener.lua" />
+        <lua name="XmlConvert.lua" deferred_loading="true" protected="true" file="environments/LockDraw/studio/Toolbox/code/shared/Toolbox/OnlineResources/XmlConvertV2.lua" />
+   </local>
+   <external />
+</resources>

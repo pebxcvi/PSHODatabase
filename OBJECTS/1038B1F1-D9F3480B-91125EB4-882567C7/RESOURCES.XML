@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/sneakattackremote/SneakAttackRemote.mdl" memory="host" />
+		<model name="TNT_Time.mdl" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/models/TNT_Time.mdl" memory="host" />
+		<model name="Elephant.mdl" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/models/Elephant.mdl" memory="host" />
+		<model name="Gas_Attack.mdl" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/models/Gas_Attack.mdl" memory="host" />
+		<model name="The_Scream_Machine.mdl" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/models/The_Scream_Machine.mdl" memory="host" />
+		<texture name="masmedia_logo.dds" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Textures/masmedia_logo.dds" memory="host" />
+		<texture name="remote_back.dds" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Textures/remote_back.dds" memory="host" />
+		<texture name="button_arrow_left.dds" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Textures/button_arrow_left.dds" memory="host" />
+		<texture name="button_arrow_right.dds" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Textures/button_arrow_right.dds" memory="host" />
+		<texture name="button_selected.dds" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Textures/button_selected.dds" memory="host" />
+		<texture name="button_unselected.dds" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Textures/button_unselected.dds" memory="host" />
+		<particle name="Gas_Attack_Green_Puff.efx" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Efx/Gas_Attack_Green_Puff.efx" memory="host" />
+		<particle name="Gas_Attack_Ring_Blast.efx" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Efx/Gas_Attack_Ring_Blast.efx" memory="host" />
+		<particle name="TNT_explosion.efx" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Efx/TNT_explosion.efx" memory="host" />
+		<particle name="ScreamMachine.efx" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Efx/ScreamMachine.efx" memory="host" />
+		<file name="network_definitions.xml" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Scripts/network_definitions.xml" />
+		<file name="SneakAttackOsdMenuButton.xml" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/OSD/SneakAttackOsdMenuButton.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/OSD/types.xml" />
+		<file name="SneakAttackOsdInfoBar.xml" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/OSD/SneakAttackOsdInfoBar.xml" />
+		<file name="SneakAttackOsdMenu.xml" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/OSD/SneakAttackOsdMenu.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/sneakattackremote/SneakAttackRemote.hkx" memory="host" />
+		<collision name="Active_Collision.hkx" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/models/Active_Collision.hkx" />
+		<soundbank name="Mega.bnk" deferred_loading="false" protected="false" file="MiniGames/SneakAttack/Audio/Mega.bnk" memory="main" />
+		<lua name="SneakAttack.lua" deferred_loading="false" protected="true" file="MiniGames/SneakAttack/Scripts/SneakAttack.lua" />
+		<lua name="Attack.lua" deferred_loading="false" protected="true" file="MiniGames/SneakAttack/Scripts/Attack.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/SneakAttack/Scripts/Camera.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/SneakAttack/Scripts/Network.lua" />
+		<lua name="OnScreenDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/SneakAttack/Scripts/OnScreenDisplay.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/SneakAttack/Scripts/Settings.lua" />
+	</local>
+	<external />
+</resources>

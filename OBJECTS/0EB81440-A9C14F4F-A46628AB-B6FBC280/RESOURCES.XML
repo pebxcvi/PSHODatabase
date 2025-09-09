@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Camera.lua" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/Female_Animations.xml" />
+		<anim name="Female_Idle" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/female/Female_Idle.ani" memory="host" />
+		<anim name="Female_Shocked" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/female/Female_Shocked.ani" memory="host" />
+		<anim name="Female_SlapButton" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/female/Female_SlapButton.ani" memory="host" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="FreePlay" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Game.lua" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Globals.lua" />
+		<lua name="Light.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Light.lua" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/Male_Animations.xml" />
+		<anim name="Male_Idle" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/male/Male_Idle.ani" memory="host" />
+		<anim name="Male_Shocked.ani" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/male/Male_Shocked.ani" memory="host" />
+		<anim name="Male_SlapButton" deferred_loading="false" protected="false" file="MiniGames/Pain/Animations/male/Male_SlapButton.ani" memory="host" />
+		<lua name="Marla.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Marla.lua" />
+		<file name="MinigameHud.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/MinigameHud.xml" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Network.lua" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/StartUpDialog.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/WinnerDialog.xml" />
+		<anim name="P_Marla_OutsideTent.ani" deferred_loading="false" protected="false" file="MiniGames/Pain/Models/P_Marla_OutsideTent.ani" memory="host" />
+		<model name="P_Marla_OutsideTent.mdl" deferred_loading="false" protected="false" file="MiniGames/Pain/Models/P_Marla_OutsideTent.mdl" memory="host" />
+		<skeleton name="P_Marla_OutsideTent.skn" deferred_loading="false" protected="false" file="MiniGames/Pain/Models/P_Marla_OutsideTent.skn" memory="host" />
+		<anim name="P_Marla_Spank.ani" deferred_loading="false" protected="false" file="MiniGames/Pain/Models/P_Marla_Spank.ani" memory="host" />
+		<model name="P_Marla_Spank.mdl" deferred_loading="false" protected="false" file="MiniGames/Pain/Models/P_Marla_Spank.mdl" memory="host" />
+		<skeleton name="P_Marla_Spank.skn" deferred_loading="false" protected="false" file="MiniGames/Pain/Models/P_Marla_Spank.skn" memory="host" />
+		<texture name="scorebar" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Bar_OSD_c.dds" />
+		<texture name="scorebox" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Box_OSD_c.dds" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Settings.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/StateMachine.lua" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/WhackOff/OSD/types.xml" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="MiniGames/Pain/Source/Inventory.lua" />
+</local>
+<external />
+</resources>
