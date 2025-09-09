@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Throne.mdl" deferred_loading="true" protected="false" file="Locomotion/throne/model/Throne.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/throne/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/throne_idle.ani" memory="host" />
+		<anim name="Throne_invisible.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/Throne_invisible.ani" memory="host" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/M_M_04_P2.ani" />
+		<anim name="throne_idle_in.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/throne_idle_in.ani" memory="main" />
+		<anim name="run_f.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/M_F_04_P2.ani" />
+		<anim name="throne_f_idle.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/throne_f_idle.ani" memory="host" />
+		<anim name="throne_f_idle_in.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/throne_f_idle_in.ani" memory="host" />
+		<anim name="Throne_transform_f.ani" deferred_loading="true" protected="false" file="Locomotion/throne/anim/Throne_transform_f.ani" memory="host" />
+		<skeleton name="Throne.skn" deferred_loading="true" protected="false" file="Locomotion/throne/skeleton/Throne.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/throne/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/throne/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/throne/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/throne/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/throne/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="plinthGround_mdl" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/plinthGround_spnMs.mdl" />
+		<model name="Tree_mdl" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/model/Tree.mdl" />
+		<model name="Tree_Trumpet_mdl" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/model/Tree_Trumpet.mdl" />
+		<model name="Spunland_logo_mdl" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/Spunland_logo_illum_spnMs.mdl" />
+		<model name="Spunland_logo_spiral_mdl" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/Spunland_logo_spiral_illum_spnMs.mdl" />
+		<model name="SpunDeer_mdl" deferred_loading="false" protected="false" file="animatedmodels/spundeer/model/SpunDeer.mdl" />
+		<texture name="spunland_tree_spunmas" deferred_loading="false" protected="false" file="Spunland/SharedTextures/spunland_tree_spunmas.dds" />
+		<particle name="snowSphere_efx" deferred_loading="false" protected="false" file="environments/Spunland/ATGParticles/snowSphere.efx" />
+		<particle name="relocSnowImpact_efx" deferred_loading="false" protected="false" file="environments/Spunland/ATGParticles/relocSnowImpact.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/file/Network.xml" />
+		<file name="plinthGround_spnMs_probe" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/plinthGround_spnMs.probe" />
+		<collision name="plinthCollision_hkx" deferred_loading="false" protected="false" file="MiniGames/SpunlandRelocator/models/plinthCollision.hkx" />
+		<anim name="Tree_Bopping" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/anim/Tree_Bopping.ani" />
+		<anim name="Trumpet_Fanfair" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/anim/Trumpet_Fanfair.ani" />
+		<anim name="Spundeer_Floating_Idle_ani" deferred_loading="false" protected="false" file="animatedmodels/spundeer/anim/Spundeer_Floating_Idle.ani" />
+		<anim name="Spundeer_Floating_Run_ani" deferred_loading="false" protected="false" file="animatedmodels/spundeer/anim/Spundeer_Floating_Run.ani" />
+		<anim name="Spundeer_Stood_Grazing_ani" deferred_loading="false" protected="false" file="animatedmodels/spundeer/anim/Spundeer_Stood_Grazing.ani" />
+		<anim name="Spundeer_Stood_Idle_ani" deferred_loading="false" protected="false" file="animatedmodels/spundeer/anim/Spundeer_Stood_Idle.ani" />
+		<anim name="Spundeer_Stood_Idle_Lookabout_ani" deferred_loading="false" protected="false" file="animatedmodels/spundeer/anim/Spundeer_Stood_Idle_Lookabout.ani" />
+		<anim name="Spundeer_Stood_Jingle_ani" deferred_loading="false" protected="false" file="animatedmodels/spundeer/anim/Spundeer_Stood_Jingle.ani" />
+		<skeleton name="Tree_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree/skeleton/Tree.skn" />
+		<skeleton name="Tree_Trumpet_skn" deferred_loading="false" protected="false" file="Spunland/SharedModels/tree_trumpet/skeleton/Tree_Trumpet.skn" />
+		<skeleton name="SpunDeer_skn" deferred_loading="false" protected="false" file="animatedmodels/spundeer/skeleton/SpunDeer.skn" />
+		<soundbank name="relocSoundz" deferred_loading="false" protected="false" file="MiniGames/SpunmasRelocator/audio/spunMasReloc.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SpunmasRelocator/lua/MiniGame.lua" />
+		<lua name="cSpunTree" deferred_loading="false" protected="true" file="MiniGames/SpunmasRelocator/lua/cSpunTree.lua" />
+		<lua name="cWorldManager" deferred_loading="false" protected="true" file="MiniGames/SpunmasRelocator/lua/cWorldManager.lua" />
+		<lua name="SpunPlinthData" deferred_loading="false" protected="true" file="MiniGames/SpunmasRelocator/lua/SpunPlinthData.lua" />
+		<lua name="supportFunctions" deferred_loading="false" protected="true" file="Spunland/SharedScripts/supportFunctions.lua" />
+		<lua name="cFlusho" deferred_loading="false" protected="true" file="MiniGames/SpunmasRelocator/lua/cFlusho.lua" />
+		<lua name="cSpunLogo" deferred_loading="false" protected="true" file="MiniGames/SpunmasRelocator/lua/cSpunLogo.lua" />
+		<lua name="cVectorBlend" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlend.lua" />
+		<lua name="cGround" deferred_loading="false" protected="true" file="MiniGames/SpunmasRelocator/lua/cGround.lua" />
+	</local>
+	<external />
+</resources>

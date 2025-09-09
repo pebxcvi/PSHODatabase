@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/hollywood_board/photographers.mdl" />
+		<model name="flashing.mdl" deferred_loading="false" protected="false" file="furniture/hollywood_board/flashing.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/hollywood_board/photographers.hkx" />
+		<anim name="flashing.ani" deferred_loading="false" protected="false" file="furniture/hollywood_board/flashing.ani" />
+		<skeleton name="flashing.skn" deferred_loading="false" protected="false" file="furniture/hollywood_board/flashing.skn" />
+		<soundbank name="Hollywood_Pack_Audio.bnk" deferred_loading="false" protected="false" file="objects/6A33F726-F7264F16-AA8B804F-37D00EDD/Hollywood_Pack_Audio.bnk" />
+		<lua name="flasher_lua" deferred_loading="false" protected="true" file="objects/6A33F726-F7264F16-AA8B804F-37D00EDD/flasher.lua" />
+	</local>
+	<external />
+</resources>

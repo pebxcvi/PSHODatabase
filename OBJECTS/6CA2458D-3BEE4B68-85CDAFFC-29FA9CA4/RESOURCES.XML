@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Tree.mdl" deferred_loading="false" protected="false" file="JapanEvents/cbv/HJPS_sakura_tree.mdl" />
+		<model name="Leaf1.mdl" deferred_loading="false" protected="false" file="JapanEvents/cbv/HJPS_sakura_hana_low.mdl" />
+		<model name="Leaf2.mdl" deferred_loading="false" protected="false" file="JapanEvents/cbv/HJPS_sakura_hana_med.mdl" />
+		<model name="Leaf3.mdl" deferred_loading="false" protected="false" file="JapanEvents/cbv/HJPS_sakura_hana_hi.mdl" />
+		<model name="Ground.mdl" deferred_loading="false" protected="false" file="JapanEvents/cbv/HJPS_sakura_hana_fall.mdl" />
+		<texture name="sakura.dds" deferred_loading="false" protected="false" file="MiniGames/Spring2011/tex/sakura.dds" />
+		<particle name="sakura_fall_00.efx" deferred_loading="false" protected="false" file="ATGParticles/sakura/Efx/sakura_fall_00.efx" />
+		<particle name="sakura_fantasy_00.efx" deferred_loading="false" protected="false" file="ATGParticles/sakura/Efx/sakura_fantasy_00.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Spring2011/file/Network.xml" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/common/mathx.luac" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/common/misc.luac" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/common/task.luac" />
+		<lua name="GameMain.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/GameMain.luac" />
+		<lua name="Demo.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/Demo.luac" />
+		<lua name="ResDownload.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/common/ResDownload.luac" />
+		<lua name="DemoCam.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/DemoCam.luac" />
+		<lua name="DemoSpr.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/DemoSpr.luac" />
+		<lua name="DemoText.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/DemoText.luac" />
+		<lua name="time.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/common/time.luac" />
+		<lua name="Tree.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/Tree.luac" />
+		<lua name="paHomeServerTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/paHomeServerTrigger.luac" />
+		<lua name="server_propaty.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/server_propaty.luac" />
+		<lua name="paHomeCommon.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/paHomeCommon.luac" />
+		<lua name="paHomeCommonDebug.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/paHomeCommonDebug.luac" />
+		<lua name="paHomeServerBase.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/paHomeServerBase.luac" />
+		<lua name="paHomeServerCommon.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/paHomeServerCommon.luac" />
+		<lua name="paHomeServerCustom.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/paHomeServerCustom.luac" />
+		<lua name="paHomeServerGeneral.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/pa/paHomeServerGeneral.luac" />
+		<lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/common/xmlUtil.luac" />
+		<lua name="information.lua" deferred_loading="false" protected="true" file="objects/99EE60AF-48BF4F7F-BD0268B4-2EB03304/lua/doc/information.luac" />
+		<lua name="DemoSnd.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/DemoSnd.luac" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/Spring2011/lua/main.luac" />
+	</local>
+	<external />
+</resources>

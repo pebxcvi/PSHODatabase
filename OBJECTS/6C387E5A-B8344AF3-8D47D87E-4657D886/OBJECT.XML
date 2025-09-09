@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<author type="string">Dave</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string"></company>
+		<template type="string">realtime_game</template>
+		<template_version type="string">1.0.0</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<lua_environment>
+		<script type="string">RealTimeGame.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">OnReceivedData()</on_listener_received_data>
+		<on_destroy type="string">OnDestroy()</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+	</lua_environment>
+	<entity />
+	<particles />
+	<osd>
+		<types type="string"></types>
+	</osd>
+	<screen />
+	<pad />
+	<renderer />
+	<camera />
+	<system />
+	<light />
+	<embedded_object>
+		<on_update type="string">OnUpdate()</on_update>
+		<string_parameters type="list" />
+		<boolean_parameters type="list" />
+		<numeric_parameters type="list" />
+		<enum_parameters type="list" />
+	</embedded_object>
+	<realtime_game>
+		<num_tokens type="uint">255</num_tokens>
+		<max_players type="uint">16</max_players>
+		<network_definition_file type="string">Network.xml</network_definition_file>
+		<on_local_player_join_request type="string">*OnLocalPlayerJoinRequest</on_local_player_join_request>
+		<on_local_player_join type="string">*OnLocalPlayerJoin</on_local_player_join>
+		<on_local_player_leave type="string">*OnLocalPlayerLeave</on_local_player_leave>
+		<on_local_player_failed_to_join type="string"></on_local_player_failed_to_join>
+		<on_remote_player_join type="string">*OnRemotePlayerJoin</on_remote_player_join>
+		<on_remote_player_leave type="string">*OnRemotePlayerLeave</on_remote_player_leave>
+		<on_session_update type="string">*OnSessionUpdate</on_session_update>
+		<on_message type="string">*OnMessage</on_message>
+		<on_session_owner_change type="string">*OnSessionOwnerChange</on_session_owner_change>
+		<on_session_access_change type="string">*OnSessionAccessChange</on_session_access_change>
+		<on_object_replicated type="string">*OnObjectReplicated</on_object_replicated>
+		<on_object_updated type="string">*OnObjectUpdated</on_object_updated>
+		<on_object_ownership_change type="string">*OnObjectOwnershipChange</on_object_ownership_change>
+		<on_object_deleted type="string">*OnObjectDeleted</on_object_deleted>
+		<on_token_ownership_change type="string">*OnTokenOwnershipChange</on_token_ownership_change>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<create_manual_session type="bool">false</create_manual_session>
+		<on_custom_exit_menu_option_selected type="string"></on_custom_exit_menu_option_selected>
+		<warning_popups_disabled type="bool">false</warning_popups_disabled>
+	</realtime_game>
+</objectdef>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Mistletoe.mdl" deferred_loading="true" protected="false" file="locomotion/Mistletoe.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Mistletoe/file/config.xml" memory="host" />
+		<anim name="M_F_04_P2.ani" deferred_loading="true" protected="false" file="locomotion/Mistletoe/anim/M_F_04_P2.ani" />
+		<anim name="M_M_04_P2.ani" deferred_loading="true" protected="false" file="locomotion/Mistletoe/anim/M_M_04_P2.ani" />
+		<anim name="mistletoe_idle_F.ani" deferred_loading="true" protected="false" file="locomotion/mistletoe_idle_F.ani" memory="host" />
+		<anim name="mistletoe_kiss_F.ani" deferred_loading="true" protected="false" file="locomotion/mistletoe_kiss_F.ani" memory="host" />
+		<anim name="mistletoe_kiss_in_F.ani" deferred_loading="true" protected="false" file="locomotion/mistletoe_kiss_in_F.ani" memory="main" />
+		<anim name="mistletoe_kiss_M.ani" deferred_loading="true" protected="false" file="locomotion/mistletoe_kiss_M.ani" memory="host" />
+		<anim name="mistletoe_kiss_idle_M.ani" deferred_loading="true" protected="false" file="locomotion/mistletoe_kiss_idle_M.ani" memory="host" />
+		<anim name="mistletoe_kiss_in_M.ani" deferred_loading="true" protected="false" file="locomotion/mistletoe_kiss_in_M.ani" memory="main" />
+		<skeleton name="Mistletoe.skn" deferred_loading="true" protected="false" file="locomotion/Mistletoe.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Mistletoe/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Mistletoe/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Mistletoe/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Mistletoe/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Mistletoe/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

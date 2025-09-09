@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/model/Boris_bike_reference.mdl" memory="host" />
+		<model name="Boris_bike_Wheels.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_Wheels.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/file/config.xml" memory="host" />
+		<anim name="Boris_bike_Wheels.ani" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_Wheels.ani" />
+		<anim name="Boris_bike_Wheels_Spin.ani" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_Wheels_Spin.ani" />
+		<anim name="Boris_bike_idle" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_idle.ani" />
+		<anim name="Boris_bike_move" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_move.ani" />
+		<anim name="Boris_bike_female_move" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_female_move.ani" />
+		<anim name="Boris_bike_female_idle" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_female_idle.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/skeleton/Boris_bike_reference.skn" memory="main" />
+		<skeleton name="Boris_bike_Wheels.skn" deferred_loading="false" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/anim/Boris_bike_Wheels.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Loot_MIB_Boris_Bike_Locomotion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

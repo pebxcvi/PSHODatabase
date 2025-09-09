@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="NPC_dolphin_01.mdl" deferred_loading="true" protected="false" file="edo/cmn_design/scenes/obj_niguruma_01.mdl" />
+		
+		<texture name="titleTexture_us_asia.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/2D/title/EDO_title_00_us_asia.dds" />
+		<texture name="titleTexture_fr.dds" deferred_loading="false" protected="false" file="Edo/cmn_design/2D/title/EDO_title_00_fr.dds" />
+		<texture name="titleTexture.dds" deferred_loading="false" protected="false" >
+			<override file="edo/cmn_design/2d/title/edo_title_00_us.dds" locale="en-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_fr.dds" locale="fr-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_de.dds" locale="de-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_it.dds" locale="it-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_es.dds" locale="es-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_jp.dds" locale="ja-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_kr.dds" locale="ko-*" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_hk.dds" locale="zh-HK" />
+			<override file="edo/cmn_design/2d/title/edo_title_00_tw.dds" locale="zh-TW" />
+			<override file="Edo/cmn_design/2D/title/EDO_title_00_us.dds" />
+		</texture>
+		<texture name="female01_skin_body_white_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/female01_skin_body_white_c.dds" />
+		<texture name="female01_skin_body_white_s.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/female01_skin_body_white_s.dds" />
+		<texture name="male01_skin_body_white_c.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/male01_skin_body_white_c.dds" />
+		<texture name="male01_skin_body_white_s.dds" deferred_loading="false" protected="false" file="Lounge_Base/cmn_design/sourceimages/male01_skin_body_white_s.dds" />
+		<texture name="female01_skin_body_s.dds" deferred_loading="false" protected="false" file="tools/Generic_Shared_Textures/Characters/female01_skin_body_s.dds" />
+		<texture name="female01_skin_body_white_c.dds_1" deferred_loading="false" protected="false" file="tools/Generic_Shared_Textures/Characters/female01_skin_body_white_c.dds" />
+		<texture name="male01_skin_body_white_c.dds_1" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/characters/male01_skin_body_white_c.dds" />
+		<texture name="male01_skin_body_white_s.dds_1" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/characters/male01_skin_body_white_s.dds" />
+		<texture name="male01_skin_head_white_s.dds" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/characters/male01_skin_head_white_s.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="Lounge_Base/soft_jp_00/BusStation/file/Network.xml" />
+		<anim name="NPC_dolphin_01.ani" deferred_loading="true" protected="false" file="edo/cmn_design/scenes/obj_niguruma_01.ani" />
+		<anim name="anm_Female" deferred_loading="false" protected="false" file="edo/cmn_design/motion/anm_F_niguruma_01.ani" />
+		<anim name="anm_Male" deferred_loading="false" protected="false" file="edo/cmn_design/motion/anm_M_niguruma_01.ani" />
+		<skeleton name="NPC_dolphin_01.skn" deferred_loading="true" protected="false" file="edo/cmn_design/scenes/obj_niguruma_01.skn" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="Lounge_Base/soft_jp_00/BusStation/file/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="Lounge_Base/soft_jp_00/BusStation/file/FemaleRepertoire.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/BusStation/lua_ver2/MiniGame.lua" />
+		<lua name="LuaMath.lua" deferred_loading="true" protected="true" file="Lounge_Base/soft_jp_00/BusStation/lua/LuaMath.lua" />
+		<lua name="Rail.lua" deferred_loading="true" protected="true" file="Lounge_Base/soft_jp_00/BusStation/lua/Rail.lua" />
+		<lua name="CameraMove.lua" deferred_loading="true" protected="true" file="Lounge_Base/soft_jp_00/BusStation/lua/CameraMove.lua" />
+		<lua name="BusStationInterface.lua" deferred_loading="false" protected="true" file="Lounge_Base/soft_jp_00/BusStation/lua/BusStationInterface.lua" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="edo/soft_jp_00/BusStation/lua_ver2/Data_ForBonMatsuri.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/DataStation/lua/dataInterfaceLight.lua" />
+		<lua name="GetRegionResource.lua" deferred_loading="false" protected="true" file="Edo/GetRegionResource.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+	</local>
+	<external />
+</resources>

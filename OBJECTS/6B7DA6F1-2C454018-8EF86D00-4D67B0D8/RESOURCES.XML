@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network_XML" deferred_loading="false" file="MiniGames/AudiScoreBoard/Network.xml" />
+		<lua name="AudiSledScoreBoard.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSledScoreBoard/AudiSledScoreBoard.lua" />
+		<lua name="AudiSledScoreBoardUtils.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSledScoreBoard/AudiSledScoreBoardUtils.lua" />
+		<lua name="AudiSledScoreUtils.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSledScoreBoard/AudiSledScoreUtils.lua" />
+		<lua name="AudiSledScreen.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSledScoreBoard/AudiSledScreen.lua" />
+		<lua name="VMDebug.lua" deferred_loading="false" protected="true" file="MiniGames/AudiSledScoreBoard/VMDebug.lua" />
+	</local>
+	<external />
+</resources>

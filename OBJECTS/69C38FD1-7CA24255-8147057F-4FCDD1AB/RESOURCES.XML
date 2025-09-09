@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="TRON_LightTank_Active.mdl" deferred_loading="false" protected="false" file="furniture/tron_lighttank_active/TRON_LightTank_Active.mdl" />
+		<model name="TRON_LightTank_Active_Base.mdl" deferred_loading="false" protected="false" file="furniture/tron_lighttank_active/TRON_LightTank_Active_Base.mdl" />
+		<model name="TRON_LightTank_Active_Turrent_Barrell.mdl" deferred_loading="false" protected="false" file="furniture/tron_lighttank_active/TRON_LightTank_Active_Turrent_Barrell.mdl" />
+		<model name="TRON_LightTank_Active_Turret.mdl" deferred_loading="false" protected="false" file="furniture/tron_lighttank_active/TRON_LightTank_Active_Turret.mdl" />
+		<model name="cannon_disc.mdl" deferred_loading="false" protected="false" file="MiniGames/tron/Tron_Minigame/models/cannon_disc.mdl" />
+		<model name="LightTank_Shot_01.mdl" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/LightTank_Shot_01.mdl" />
+		<texture name="lt_popup.dds" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/Graphics/lt_popup.dds" />
+		<texture name="lt_popup_de.dds" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/Graphics/lt_popup_de.dds" />
+		<texture name="lt_popup_es.dds" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/Graphics/lt_popup_es.dds" />
+		<texture name="lt_popup_fr.dds" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/Graphics/lt_popup_fr.dds" />
+		<texture name="lt_popup_it.dds" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/Graphics/lt_popup_it.dds" />
+		<particle name="deRez1.efx" deferred_loading="false" protected="false" file="environments/tron_apartment/efx/deRez1.efx" />
+		<particle name="disc_trail.efx" deferred_loading="false" protected="false" file="environments/tron_apartment/efx/disc_trail.efx" />
+		<particle name="deRez_tank.efx" deferred_loading="false" protected="false" file="environments/tron_apartment/efx/deRez_tank.efx" />
+		<file name="ActiveFurnitureNetworkDefs.xml" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/ActiveFurnitureNetworkDefs.xml" />
+		<collision name="TRON_LightTank_Active.hkx" deferred_loading="false" protected="false" file="furniture/tron_lighttank_active/TRON_LightTank_Active.hkx" />
+		<collision name="TRON_LightTank_Active_Base.hkx" deferred_loading="false" protected="false" file="furniture/tron_lighttank_active/TRON_LightTank_Active_Base.hkx" />
+		<collision name="TRON_LightTank_Active_Turret.hkx" deferred_loading="false" protected="false" file="furniture/tron_lighttank_active/TRON_LightTank_Active_Turret.hkx" />
+		<soundbank name="RC_LightTank_Audio.bnk" deferred_loading="false" protected="false" file="MiniGames/tron/lightTankMinigame/audio/RC_LightTank_Audio.bnk" />
+		<lua name="LightTankShell.lua" deferred_loading="false" protected="true" file="MiniGames/tron/lightTankMinigame/LightTankShell.lua" />
+		<lua name="RemoteControlTank.lua" deferred_loading="false" protected="true" file="MiniGames/tron/lightTankMinigame/RemoteControlTank.lua" />
+		<lua name="LightTankSound.lua" deferred_loading="false" protected="true" file="MiniGames/tron/lightTankMinigame/LightTankSound.lua" />
+		<lua name="derezEfx.lua" deferred_loading="false" protected="true" file="MiniGames/tron/lightTankMinigame/derezEfx.lua" />
+	</local>
+	<external />
+</resources>

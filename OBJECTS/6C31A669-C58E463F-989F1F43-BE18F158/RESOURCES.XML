@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/model/Bootleggers_Radio.mdl" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/bootleggers_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/model/Bootleggers_Radio.hkx" />
+		<soundstream name="Central_Park_Breakdown.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/sound/Central_Park_Breakdown.mp3" memory="main" />
+		<soundstream name="South_Side_Shuffle.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/sound/South_Side_Shuffle.mp3" memory="main" />
+		<soundstream name="Percy_Street_Stomp.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_bootleggers/sound/Percy_Street_Stomp.mp3" memory="main" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_bootleggers/programming/MyPad.lua" />
+		<lua name="MusicPlayer.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_bootleggers/programming/MusicPlayer.lua" />
+		<lua name="Bootleggers.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_bootleggers/programming/Bootleggers.lua" />
+	</local>
+	<external />
+</resources>
