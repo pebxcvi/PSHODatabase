@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Whiteroom.mdl" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsWhiteRoom.mdl" />
+		<model name="Hologram.mdl" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsHologram.mdl" />
+		<model name="WardrobeWarsSpotlights.mdl" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsSpotlights.mdl" />
+		<model name="WardrobeWarsStage.mdl" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsStage.mdl" />
+		<texture name="HUD_BackgroundEmpty" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/BackgroundEmpty.dds" />
+		<texture name="HUD_PhotoStrip" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/PhotoStrip.dds" />
+		<texture name="HUD_Line" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Line.dds" />
+		<texture name="HUD_Crest" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Crest.dds" />
+		<texture name="spot.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/spot.dds" />
+		<texture name="HUD_Slider" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/ScoreSlider.dds" />
+		<texture name="OptionsBackground.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/OptionsBackground.dds" />
+		<texture name="Options_MyPhotos.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Options_MyPhotos.dds" />
+		<texture name="Options_MyPhotosHighlight.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Options_MyPhotosHighlight.dds" />
+		<texture name="Options_TakePhoto.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Options_TakePhoto.dds" />
+		<texture name="Options_TakePhotoHighlight.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Options_TakePhotoHighlight.dds" />
+		<texture name="Options_TextBox.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Options_TextBox.dds" />
+		<texture name="Options_Vote.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Options_Vote.dds" />
+		<texture name="Options_VoteHighlight.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Options_VoteHighlight.dds" />
+		<texture name="HUD_VertSlider" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/VertScoreSlider.dds" />
+		<texture name="HUD_VertSliderPointer" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/VertScorePointer.dds" />
+		<texture name="HUD_Voted" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/HUD/Voted.dds" />
+		<texture name="floorspot.dds" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Textures/spot3.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/file/Network.xml" />
+		<file name="impact" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Fonts/impact.ttf" />
+		<collision name="WardrobeWarsStage.hkx" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsStage.hkx" />
+		<collision name="Whiteroom.hkx" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsWhiteRoom.hkx" />
+		<anim name="WardrobeWarsSpotlights.ani" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsSpotlights.ani" />
+		<skeleton name="WardrobeWarsSpotlights.skn" deferred_loading="false" protected="false" file="MiniGames/WardrobeWars/Models/WardrobeWarsSpotlights.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/MiniGame.lua" />
+		<lua name="WWGame.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/WWGame.lua" />
+		<lua name="VMDebug.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/Components/VMDebug.lua" />
+		<lua name="WWPodium.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/WWPodium.lua" />
+		<lua name="WWUtil.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/WWUtil.lua" />
+		<lua name="WWReward.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/WWReward.lua" />
+		<lua name="WWKiosk.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/WWKiosk.lua" />
+		<lua name="WWScreen.lua" deferred_loading="false" protected="true" file="MiniGames/WardrobeWars/lua/WWScreen.lua" />
+	</local>
+	<external />
+</resources>

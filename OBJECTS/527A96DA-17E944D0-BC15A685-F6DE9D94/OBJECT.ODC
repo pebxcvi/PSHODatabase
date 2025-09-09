@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.80.0.53.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>527A96DA-17E944D0-BC15A685-F6DE9D94</uuid>
+  <name lang="en-US" default="true">Iris Whimsy</name>
+  <description lang="fr-FR" default="false">Ce petit compagnon vous suivra où que vous alliez. [#Legal]</description>
+  <description lang="de-DE" default="false">Dieser kleine Kerl wird an deiner Seite sein, egal wohin du gehst. [#Legal]</description>
+  <description lang="it-IT" default="false">Questo piccolino sarà al tuo fianco ovunque andrai. [#Legal]</description>
+  <description lang="es-ES" default="false">Este pequeño amiguito te acompañará a todas partes. [#Legal]</description>
+  <description lang="en-US" default="true">This little fella will be by your side wherever you go. [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <heat />
+  <timestamp>930B89C</timestamp>
+</odc>

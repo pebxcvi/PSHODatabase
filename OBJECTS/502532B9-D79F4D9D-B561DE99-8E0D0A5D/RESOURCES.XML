@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+    <local>
+        <particle name="firework_ring_burst.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_ring_burst.efx" memory="host"/>
+        <particle name="firework_flash.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_flash.efx" memory="host"/>
+        <particle name="firework_sprinkle_burst.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_sprinkle_burst.efx" memory="host"/>
+        <particle name="firework_trail.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_trail.efx" memory="host"/>
+        <particle name="firework_p_trail.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_p_trail.efx" memory="host"/>
+        <particle name="firework_line_burst.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_line_burst.efx" memory="host"/>
+        <particle name="firework_sphere_pop.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_sphere_pop.efx" memory="host"/>
+        <particle name="firework_ring_pop.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_ring_pop.efx" memory="host"/>
+        <particle name="firework_ring_pop_streak.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_ring_pop_streak.efx" memory="host"/>
+        <particle name="firework_sphere_pop_streak.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_sphere_pop_streak.efx" memory="host"/>
+        <particle name="firework_fountain.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_fountain.efx" memory="host"/>
+        <particle name="firework_sphere_burst.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_sphere_burst.efx"/>
+        <particle name="firework_sphere_crackle.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_sphere_crackle.efx"/>
+        <particle name="firework_p_trail_point.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_p_trail_point.efx"/>
+        <particle name="firework_hemisphere_burst.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_hemisphere_burst.efx"/>
+        <particle name="firework_fireball.efx" deferred_loading="true" protected="false" file="common/effects/efx/fireworks/firework_fireball.efx"/>
+        <model name="default_black_screen.mdl" deferred_loading="true" protected="false" file="common/generic_models/screen_panels/default_black_screen.mdl" memory="host"/>
+        <model name="machine_base.mdl" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_base.mdl" memory="host"/>
+        <model name="machine_pod.mdl" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_pod.mdl" memory="host"/>
+        <model name="machine_head.mdl" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head.mdl" memory="host"/>
+        <model name="pulse2.mdl" deferred_loading="true" protected="false" file="MiniGames/firework_machine/models/effects/pulse2.mdl"/>
+        <model name="pulse1.mdl" deferred_loading="true" protected="false" file="MiniGames/firework_machine/models/effects/pulse1.mdl"/>
+        <model name="pulse3.mdl" deferred_loading="true" protected="false" file="MiniGames/firework_machine/models/effects/pulse3.mdl"/>
+        <model name="pulse4.mdl" deferred_loading="true" protected="false" file="MiniGames/firework_machine/models/effects/pulse4.mdl"/>
+        <model name="phys_sphere.mdl" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/effects/phys_sphere.mdl"/>
+        <model name="pumpkin.mdl" deferred_loading="true" protected="false" file="MiniGames/firework_machine/models/effects/pumpkin.mdl"/>
+        <skeleton name="machine_pod.skn" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_pod.skn" memory="host"/>
+        <skeleton name="machine_head.skn" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head.skn" memory="host"/>
+        <anim name="machine_pod_rev.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_pod_rev.ani" memory="host"/>
+        <anim name="machine_pod.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_pod.ani" memory="host"/>
+        <anim name="machine_head.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head.ani" memory="host"/>
+        <anim name="machine_head_cmd_deny.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head_cmd_deny.ani" memory="host"/>
+        <anim name="machine_head_cmd_accept.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head_cmd_accept.ani" memory="host"/>
+        <anim name="machine_head_funny1.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head_funny1.ani" memory="host"/>
+        <anim name="machine_head_smile.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head_smile.ani" memory="host"/>
+        <anim name="machine_head_happy.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head_happy.ani" memory="host"/>
+        <anim name="machine_head_sad.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head_sad.ani" memory="host"/>
+        <anim name="machine_head_sigh.ani" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_head_sigh.ani" memory="host"/>
+        <file name="Network.xml" deferred_loading="false" protected="false" file="common/features/v2_0/activeObject/Network.xml" memory="host"/>
+        <texture name="loading.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/loading.dds"/>
+        <texture name="mood_unhappy.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/mood_unhappy.dds"/>
+        <texture name="mood_happy.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/mood_happy.dds"/>
+        <texture name="Progress_icon.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/Progress_icon.dds"/>
+        <texture name="Progress_circle.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/Progress_circle.dds"/>
+        <texture name="buybag.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/buybag.dds"/>
+        <texture name="buybag_scej.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/buybag_scej.dds"/>
+        <texture name="pod_eye.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/pod_eye.dds"/>
+        <texture name="iris.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/iris.dds"/>
+        <texture name="mini_seq.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/mini_seq.dds"/>
+        <texture name="ring_link.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/ring_link.dds"/>
+        <texture name="menu_ring.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/menu_ring.dds"/>
+        <texture name="firework_box_01.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_box_01.dds"/>
+        <texture name="firework_box_02.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_box_02.dds"/>
+        <texture name="firework_box_04.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_box_04.dds"/>
+        <texture name="firework_box_05.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_box_05.dds"/>
+        <texture name="firework_box_06.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_box_06.dds"/>
+        <texture name="firework_box_07.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_box_07.dds"/>
+        <texture name="fuse_5sec.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/fuse_5sec.dds"/>
+        <texture name="fuse_2sec.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/fuse_2sec.dds"/>
+        <texture name="fuse_1sec.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/fuse_1sec.dds"/>
+        <texture name="fuse_0_5sec.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/fuse_0_5sec.dds"/>
+        <texture name="firework_01.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_01.dds"/>
+        <texture name="firework_02.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_02.dds"/>
+        <texture name="firework_03.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_03.dds"/>
+        <texture name="firework_04.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_04.dds"/>
+        <texture name="firework_05.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_05.dds"/>
+        <texture name="firework_06.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_06.dds"/>
+        <texture name="firework_07.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_07.dds"/>
+        <texture name="firework_08.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_08.dds"/>
+        <texture name="firework_09.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_09.dds"/>
+        <texture name="firework_10.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_10.dds"/>
+        <texture name="firework_11.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_11.dds"/>
+        <texture name="firework_12.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_12.dds"/>
+        <texture name="firework_13.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_13.dds"/>
+        <texture name="firework_14.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_14.dds"/>
+        <texture name="firework_15.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_15.dds"/>
+        <texture name="firework_16.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_16.dds"/>
+        <texture name="firework_17.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_17.dds"/>
+        <texture name="firework_18.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_18.dds"/>
+        <texture name="firework_19.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_19.dds"/>
+        <texture name="firework_20.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_20.dds"/>
+        <texture name="firework_21.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_21.dds"/>
+        <texture name="firework_22.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_22.dds"/>
+        <texture name="firework_23.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_23.dds"/>
+        <texture name="firework_24.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_24.dds"/>
+        <texture name="firework_small_01.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_small_01.dds"/>
+        <texture name="firework_small_02.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_small_02.dds"/>
+        <texture name="firework_small_03.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_small_03.dds"/>
+        <texture name="firework_small_04.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_small_04.dds"/>
+        <texture name="firework_default.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_default.dds"/>
+        <texture name="firework_box_default.dds" deferred_loading="true" protected="false" file="MiniGames/firework_machine/data/firework_box_default.dds"/>
+        <texture name="icon_border.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/icon_border.dds"/>
+        <texture name="scroll_bar_base.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/scroll_bar_base.dds"/>
+        <texture name="scroll_bar_left.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/scroll_bar_left.dds"/>
+        <texture name="scroll_bar_right.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/scroll_bar_right.dds"/>
+        <texture name="text_bar.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/text_bar.dds"/>
+        <texture name="small_bar.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/small_bar.dds"/>
+        <texture name="small_bar_border.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/small_bar_border.dds"/>
+        <texture name="firework_icons_fountain.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/firework_icons_fountain.dds"/>
+        <texture name="firework_icons_glass_overlay.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/firework_icons_glass_overlay.dds"/>
+        <texture name="firework_icons_lg_rocket.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/firework_icons_lg_rocket.dds"/>
+        <texture name="firework_icons_med_rocket.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/firework_icons_med_rocket.dds"/>
+        <texture name="firework_icons_roman_colour.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/firework_icons_roman_colour.dds"/>
+        <texture name="firework_icons_sml_rocket.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/firework_icons_sml_rocket.dds"/>
+        <texture name="firework_icons_background.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/firework_icons_background.dds"/>
+        <texture name="fuse_bar.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/fuse_bar.dds"/>
+        <texture name="time_bar.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/time_bar.dds"/>
+        <texture name="slanted_bar.dds" deferred_loading="false" protected="false" file="MiniGames/firework_machine/ui/slanted_bar.dds"/>
+        <collision name="machine_base.hkx" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_base.hkx" memory="host"/>
+        <collision name="machine_base_safevol.hkx" deferred_loading="false" protected="false" file="MiniGames/firework_machine/models/machine_basel_safevol.hkx" memory="host"/>
+        <collision name="phys_sphere.hkx" deferred_loading="true" protected="false" file="MiniGames/firework_machine/models/effects/phys_sphere.hkx"/>
+        <soundbank name="firework_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/firework_machine/sounds/firework_sounds.bnk" memory="host"/>
+        <lua name="Coroutine.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Coroutine.lua" memory="host"/>
+        <lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Playmetrix.lua" memory="host"/>
+        <lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/NetLib.lua" memory="host"/>
+        <lua name="PadControl.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/PadControl.lua" memory="host"/>
+        <lua name="AsyncInvMonitor.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/AsyncInvMonitor.lua" memory="host"/>
+        <lua name="FxLib.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/FxLib.lua" memory="host"/>
+        <lua name="ProgressUI.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/ProgressUI.lua" memory="host"/>
+        <lua name="FxSystem.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/FxSystem_lite.lua" memory="host"/>
+        <lua name="fx_flash.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/fx_flash.lua" memory="host"/>
+        <lua name="fx_particle.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/fx_particle.lua" memory="host"/>
+        <lua name="fx_pool.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/fx_dynamic_pool.lua" memory="host"/>
+        <lua name="fx_sound.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/fx_sound.lua" memory="host"/>
+        <lua name="fx_projectile.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/fx_projectile.lua" memory="host"/>
+        <lua name="fx_popper.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/fx_popper.lua" memory="host"/>
+        <lua name="qEntity.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/qEntity.lua" memory="host"/>
+        <lua name="mini_FSM.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/mini_FSM.lua" memory="host"/>
+        <lua name="DefStore.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/DefStore.lua" memory="host"/>
+        <lua name="startup.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/startup.lua" memory="host"/>
+        <lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/main.lua" memory="host"/>
+        <lua name="Unlocks.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Unlocks.lua" memory="host"/>
+        <lua name="Loader.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Loader.lua" memory="host"/>
+        <lua name="settings.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/settings.lua" memory="host"/>
+        <lua name="firework_machine.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/firework_machine.lua" memory="host"/>
+        <lua name="MachineAi.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/MachineAi.lua" memory="host"/>
+        <lua name="lib.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/lib.lua" memory="host"/>
+        <lua name="Clip.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Clip.lua" memory="host"/>
+        <lua name="MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/MainMenu.lua" memory="host"/>
+        <lua name="SequenceMenu.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/SequenceMenu.lua" memory="host"/>
+        <lua name="Launcher.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Launcher.lua" memory="host"/>
+        <lua name="Gui_Sequencer.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Gui_Sequencer.lua" memory="host"/>
+        <lua name="Menu_Controller.lua" deferred_loading="false" protected="true" file="MiniGames/firework_machine/Menu_Controller.lua" memory="host"/>
+        <lua name="fireworks_data.lua" deferred_loading="false" protected="true" file="minigames/firework_machine/fireworks_data.lua"/>
+        <lua name="firework_01.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_01.lua"/>
+        <lua name="fuse_1sec.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/fuse_1sec.lua"/>
+        <lua name="firework_03.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_03.lua"/>
+        <lua name="fuse_2sec.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/fuse_2sec.lua"/>
+        <lua name="firework_02.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_02.lua"/>
+        <lua name="firework_04.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_04.lua"/>
+        <lua name="firework_05.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_05.lua"/>
+        <lua name="firework_06.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_06.lua"/>
+        <lua name="firework_07.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_07.lua"/>
+        <lua name="firework_small_01.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_small_01.lua"/>
+        <lua name="firework_small_02.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_small_02.lua"/>
+        <lua name="firework_08.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_08.lua"/>
+        <lua name="firework_small_03.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_small_03.lua"/>
+        <lua name="firework_small_04.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_small_04.lua"/>
+        <lua name="firework_09.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_09.lua"/>
+        <lua name="firework_10.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_10.lua"/>
+        <lua name="firework_11.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_11.lua"/>
+        <lua name="fuse_0_5sec.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/fuse_0_5sec.lua"/>
+        <lua name="fuse_5sec.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/fuse_5sec.lua"/>
+        <lua name="firework_12.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_12.lua"/>
+        <lua name="firework_13.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_13.lua"/>
+        <lua name="firework_14.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_14.lua"/>
+        <lua name="firework_15.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_15.lua"/>
+        <lua name="firework_16.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_16.lua"/>
+        <lua name="firework_17.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_17.lua"/>
+        <lua name="firework_19.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_19.lua"/>
+        <lua name="firework_18.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_18.lua"/>
+        <lua name="firework_20.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_20.lua"/>
+        <lua name="firework_21.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_21.lua"/>
+        <lua name="firework_22.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_22.lua"/>
+        <lua name="firework_23.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_23.lua"/>
+        <lua name="firework_24.lua" deferred_loading="true" protected="true" file="minigames/firework_machine/data/firework_24.lua"/>
+    </local>
+    <external/>
+</resources>

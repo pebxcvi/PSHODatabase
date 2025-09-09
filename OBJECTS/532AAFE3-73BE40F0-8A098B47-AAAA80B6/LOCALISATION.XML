@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+	<PHRASE>
+		<LANG ID="REF">kName</LANG>
+		<LANG ID="ja-JP">着替え</LANG>
+		<LANG ID="de-DE">Kleidung ändern</LANG>
+		<LANG ID="en-GB">Change clothes</LANG>
+		<LANG ID="fr-FR">Changer de vêtements</LANG>
+		<LANG ID="it-IT">Cambia abbigliamento</LANG>
+		<LANG ID="es-ES">Cambiar de vestimenta</LANG>
+		<LANG ID="en-US">Change clothes</LANG>
+		<LANG ID="en-SG">Change clothes</LANG>
+		<LANG ID="ko-KR">옷 갈아입기</LANG>
+		<LANG ID="zh-HK">更衣</LANG>
+		<LANG ID="zh-TW">更衣</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">kDesc</LANG>
+		<LANG ID="ja-JP">着替え（パリ） [#Legal]</LANG>
+		<LANG ID="de-DE">着替え [#Legal]</LANG>
+		<LANG ID="en-GB">着替え [#Legal]</LANG>
+		<LANG ID="fr-FR">着替え [#Legal]</LANG>
+		<LANG ID="it-IT">着替え [#Legal]</LANG>
+		<LANG ID="es-ES">着替え [#Legal]</LANG>
+		<LANG ID="en-US">着替え [#Legal]</LANG>
+		<LANG ID="en-SG">着替え [#Legal]</LANG>
+		<LANG ID="ko-KR">옷 갈아입기(파리) [#Legal]</LANG>
+		<LANG ID="zh-HK">着替え [#Legal]</LANG>
+		<LANG ID="zh-TW">着替え [#Legal]</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LEG_SELECT</LANG>
+		<LANG ID="ja-JP">[UP][DOWN] 選択</LANG>
+		<LANG ID="de-DE">[UP][DOWN] Auswahl</LANG>
+		<LANG ID="en-GB">[UP][DOWN] Select</LANG>
+		<LANG ID="fr-FR">[UP][DOWN] Sélection</LANG>
+		<LANG ID="it-IT">[UP][DOWN] Seleziona</LANG>
+		<LANG ID="es-ES">[UP][DOWN] Seleccionar</LANG>
+		<LANG ID="en-US">[UP][DOWN] Select</LANG>
+		<LANG ID="en-SG">[UP][DOWN] Select</LANG>
+		<LANG ID="ko-KR">[UP] [DOWN] 선택</LANG>
+		<LANG ID="zh-HK">[UP] [DOWN]  選擇</LANG>
+		<LANG ID="zh-TW">[UP] [DOWN]  選擇</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LEG_DECIDE</LANG>
+		<LANG ID="ja-JP">[ACCEPT] 決定</LANG>
+		<LANG ID="de-DE">[ACCEPT] Bestätigen</LANG>
+		<LANG ID="en-GB">[ACCEPT] Confirm</LANG>
+		<LANG ID="fr-FR">[ACCEPT] Valider</LANG>
+		<LANG ID="it-IT">[ACCEPT] Conferma</LANG>
+		<LANG ID="es-ES">[ACCEPT] Decidir</LANG>
+		<LANG ID="en-US">[ACCEPT] Confirm</LANG>
+		<LANG ID="en-SG">[ACCEPT] Confirm</LANG>
+		<LANG ID="ko-KR">[ACCEPT] 결정</LANG>
+		<LANG ID="zh-HK">[ACCEPT]  確定</LANG>
+		<LANG ID="zh-TW">[ACCEPT]  確定</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LEG_CANCEL</LANG>
+		<LANG ID="ja-JP">[DECLINE] キャンセル</LANG>
+		<LANG ID="de-DE">[DECLINE] Abbrechen</LANG>
+		<LANG ID="en-GB">[DECLINE] Cancel</LANG>
+		<LANG ID="fr-FR">[DECLINE] Annuler</LANG>
+		<LANG ID="it-IT">[DECLINE] Cancella</LANG>
+		<LANG ID="es-ES">[DECLINE] Cancelar</LANG>
+		<LANG ID="en-US">[DECLINE] Cancel</LANG>
+		<LANG ID="en-SG">[DECLINE] Cancel</LANG>
+		<LANG ID="ko-KR">[DECLINE] 취소</LANG>
+		<LANG ID="zh-HK">[DECLINE]  取消</LANG>
+		<LANG ID="zh-TW">[DECLINE]  取消</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">LEG_NEXT</LANG>
+		<LANG ID="ja-JP">[ACCEPT] 次へ</LANG>
+		<LANG ID="de-DE">[ACCEPT] Weiter</LANG>
+		<LANG ID="en-GB">[ACCEPT] Next</LANG>
+		<LANG ID="fr-FR">[ACCEPT] Suivant</LANG>
+		<LANG ID="it-IT">[ACCEPT] Prossimo</LANG>
+		<LANG ID="es-ES">[ACCEPT] Siguiente</LANG>
+		<LANG ID="en-US">[ACCEPT] Next</LANG>
+		<LANG ID="en-SG">[ACCEPT] Next</LANG>
+		<LANG ID="ko-KR">[ACCEPT] 다음으로</LANG>
+		<LANG ID="zh-HK">[ACCEPT]  下一步</LANG>
+		<LANG ID="zh-TW">[ACCEPT]  下一步</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">NO_OWNER</LANG>
+		<LANG ID="ja-JP">あなたのパーソナルスペースではないので　使用できません</LANG>
+		<LANG ID="de-DE">Dies ist nicht dein Persönlicher Bereich, deswegen kannst du es nicht benutzen.</LANG>
+		<LANG ID="en-GB">This isn't your Personal Space, so you can't use it.</LANG>
+		<LANG ID="fr-FR">Ce n'est pas votre espace personnel, vous ne pouvez donc pas l'utiliser.</LANG>
+		<LANG ID="it-IT">Questo non è il tuo Spazio personale, pertanto non puoi utilizzarlo.</LANG>
+		<LANG ID="es-ES">No es tu espacio personal, así que no puedes usarlo</LANG>
+		<LANG ID="en-US">This isn't your Personal Space, so you can't use it.</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">당신의 퍼스널 스페이스가 아니므로, 설정을 변경할 수 없습니다</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">NO_ITEM</LANG>
+		<LANG ID="ja-JP">着替えるタオルがありません</LANG>
+		<LANG ID="de-DE">n/a</LANG>
+		<LANG ID="en-GB">n/a</LANG>
+		<LANG ID="fr-FR">n/a</LANG>
+		<LANG ID="it-IT">n/a</LANG>
+		<LANG ID="es-ES">n/a</LANG>
+		<LANG ID="en-US">n/a</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">갈아입을 수건이 없습니다</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q1_MES</LANG>
+		<LANG ID="ja-JP">元の服装に戻りますか？</LANG>
+		<LANG ID="de-DE">Zurück zur ursprünglichen Kleidung?</LANG>
+		<LANG ID="en-GB">Revert to original clothes?</LANG>
+		<LANG ID="fr-FR">Remettre les vêtements d’origine?</LANG>
+		<LANG ID="it-IT">Vuoi rimettere i vestiti che indossavi in precedenza?</LANG>
+		<LANG ID="es-ES">¿Volver a la vestimenta original?</LANG>
+		<LANG ID="en-US">Revert to original clothes?</LANG>
+		<LANG ID="en-SG">Exit?</LANG>
+		<LANG ID="ko-KR">원래의 복장으로 돌아갑니까?</LANG>
+		<LANG ID="zh-HK">要結束嗎？</LANG>
+		<LANG ID="zh-TW">要結束嗎？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q1_YES</LANG>
+		<LANG ID="ja-JP">はい</LANG>
+		<LANG ID="de-DE">Ja</LANG>
+		<LANG ID="en-GB">Yes</LANG>
+		<LANG ID="fr-FR">Oui</LANG>
+		<LANG ID="it-IT">Sì</LANG>
+		<LANG ID="es-ES">Sí</LANG>
+		<LANG ID="en-US">Yes</LANG>
+		<LANG ID="en-SG">Yes</LANG>
+		<LANG ID="ko-KR">네</LANG>
+		<LANG ID="zh-HK">是</LANG>
+		<LANG ID="zh-TW">是</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q1_NO</LANG>
+		<LANG ID="ja-JP">いいえ</LANG>
+		<LANG ID="de-DE">Nein</LANG>
+		<LANG ID="en-GB">No</LANG>
+		<LANG ID="fr-FR">Non</LANG>
+		<LANG ID="it-IT">No</LANG>
+		<LANG ID="es-ES">No</LANG>
+		<LANG ID="en-US">No</LANG>
+		<LANG ID="en-SG">No</LANG>
+		<LANG ID="ko-KR">아니오</LANG>
+		<LANG ID="zh-HK">不是</LANG>
+		<LANG ID="zh-TW">不是</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q2_MES</LANG>
+		<LANG ID="ja-JP">どのタオルを巻きますか？</LANG>
+		<LANG ID="de-DE">Welches Handtuch wirst du dir umbinden?</LANG>
+		<LANG ID="en-GB">Which towel will you wrap around you?</LANG>
+		<LANG ID="fr-FR">Dans quelle serviette allez-vous vous enrouler?</LANG>
+		<LANG ID="it-IT">Quale telo da spiaggia vuoi utilizzare?</LANG>
+		<LANG ID="es-ES">¿Con qué toalla te envolverás?</LANG>
+		<LANG ID="en-US">Which towel will you wrap around you?</LANG>
+		<LANG ID="en-SG">Which towel will you wrap around you?</LANG>
+		<LANG ID="ko-KR">어떤 수건을 두르겠습니까?</LANG>
+		<LANG ID="zh-HK">你要選擇哪一條毛巾圍著自己？</LANG>
+		<LANG ID="zh-TW">你要選擇哪一條毛巾圍著自己？</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Q2_END</LANG>
+		<LANG ID="ja-JP">やめる</LANG>
+		<LANG ID="de-DE">Abbrechen</LANG>
+		<LANG ID="en-GB">Cancel</LANG>
+		<LANG ID="fr-FR">Annuler</LANG>
+		<LANG ID="it-IT">Annulla</LANG>
+		<LANG ID="es-ES">Cancelar</LANG>
+		<LANG ID="en-US">Cancel</LANG>
+		<LANG ID="en-SG">Cancel</LANG>
+		<LANG ID="ko-KR">그만둔다</LANG>
+		<LANG ID="zh-HK">取消</LANG>
+		<LANG ID="zh-TW">取消</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ITEM_NAME_001</LANG>
+		<LANG ID="ja-JP">タオル（ホワイト）</LANG>
+		<LANG ID="de-DE">Handtuch (weiß)</LANG>
+		<LANG ID="en-GB">Towel (White)</LANG>
+		<LANG ID="fr-FR">Serviette (blanche)</LANG>
+		<LANG ID="it-IT">Telo da spiaggia (bianco)</LANG>
+		<LANG ID="es-ES">Toalla (blanca)</LANG>
+		<LANG ID="en-US">Towel (White)</LANG>
+		<LANG ID="en-SG">Towel (White)</LANG>
+		<LANG ID="ko-KR">수건(화이트)</LANG>
+		<LANG ID="zh-HK">毛巾(白色)</LANG>
+		<LANG ID="zh-TW">毛巾(白色)</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ITEM_NAME_002</LANG>
+		<LANG ID="ja-JP">タオル（レッド）</LANG>
+		<LANG ID="de-DE">Handtuch (rot)</LANG>
+		<LANG ID="en-GB">Towel (Red)</LANG>
+		<LANG ID="fr-FR">Serviette (rouge)</LANG>
+		<LANG ID="it-IT">Telo da spiaggia (rosso)</LANG>
+		<LANG ID="es-ES">Toalla (roja)</LANG>
+		<LANG ID="en-US">Towel (Red)</LANG>
+		<LANG ID="en-SG">Towel (Red)</LANG>
+		<LANG ID="ko-KR">수건(레드)</LANG>
+		<LANG ID="zh-HK">毛巾(紅色)</LANG>
+		<LANG ID="zh-TW">毛巾(紅色)</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ITEM_NAME_003</LANG>
+		<LANG ID="ja-JP">タオル（ブルー）</LANG>
+		<LANG ID="de-DE">Handtuch (blau)</LANG>
+		<LANG ID="en-GB">Towel (Blue)</LANG>
+		<LANG ID="fr-FR">Serviette (bleue)</LANG>
+		<LANG ID="it-IT">Telo da spiaggia (blu)</LANG>
+		<LANG ID="es-ES">Toalla (azul)</LANG>
+		<LANG ID="en-US">Towel (Blue)</LANG>
+		<LANG ID="en-SG">Towel (Blue)</LANG>
+		<LANG ID="ko-KR">수건(블루)</LANG>
+		<LANG ID="zh-HK">毛巾(藍色)</LANG>
+		<LANG ID="zh-TW">毛巾(藍色)</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ITEM_NAME_004</LANG>
+		<LANG ID="ja-JP">タオル（ピンク）</LANG>
+		<LANG ID="de-DE">Handtuch (rosa)</LANG>
+		<LANG ID="en-GB">Towel (Pink)</LANG>
+		<LANG ID="fr-FR">Serviette (rose)</LANG>
+		<LANG ID="it-IT">Telo da spiaggia (rosa)</LANG>
+		<LANG ID="es-ES">Toalla (rosa)</LANG>
+		<LANG ID="en-US">Towel (Pink)</LANG>
+		<LANG ID="en-SG">Towel (Pink)</LANG>
+		<LANG ID="ko-KR">수건(핑크)</LANG>
+		<LANG ID="zh-HK">毛巾(粉紅色)</LANG>
+		<LANG ID="zh-TW">毛巾(粉紅色)</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ITEM_NAME_005</LANG>
+		<LANG ID="ja-JP">タオル（グリーン）</LANG>
+		<LANG ID="de-DE">Handtuch (grün)</LANG>
+		<LANG ID="en-GB">Towel (Green)</LANG>
+		<LANG ID="fr-FR">Serviette (verte)</LANG>
+		<LANG ID="it-IT">Telo da spiaggia (verde)</LANG>
+		<LANG ID="es-ES">Toalla (verde)</LANG>
+		<LANG ID="en-US">Towel (Green)</LANG>
+		<LANG ID="en-SG">Towel (Green)</LANG>
+		<LANG ID="ko-KR">수건(그린)</LANG>
+		<LANG ID="zh-HK">毛巾(綠色)</LANG>
+		<LANG ID="zh-TW">毛巾(綠色)</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CaptureLegend</LANG>
+		<LANG ID="ja-JP">[SQUARE]撮影（長押しでフラッシュ） [DECLINE]元の服装に戻る</LANG>
+		<LANG ID="de-DE">[SQUARE] Foto schießen(Hold : Flash) [DECLINE] Ende</LANG>
+		<LANG ID="en-GB">[SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="fr-FR">[SQUARE] Prendre une photo(Tenez : Flash) [DECLINE] Fin</LANG>
+		<LANG ID="it-IT">[SQUARE] Scattare una foto(Hold: Flash) [DECLINE] Fine</LANG>
+		<LANG ID="es-ES">[SQUARE] Sacar foto(Retención: Flash) [DECLINE] Terminar</LANG>
+		<LANG ID="en-US">[SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="en-SG">[SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="ko-KR">[SQUARE] 촬영(홀드 : 플래시) [DECLINE] 종료</LANG>
+		<LANG ID="zh-HK">[SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+		<LANG ID="zh-TW">[SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CaptureModeText</LANG>
+		<LANG ID="ja-JP">－タオルに着替え中－</LANG>
+		<LANG ID="de-DE">- Zum Handtuch wechseln -</LANG>
+		<LANG ID="en-GB">- Changing into towel -</LANG>
+		<LANG ID="fr-FR">- Se mettre en serviette -</LANG>
+		<LANG ID="it-IT">- Indossando il telo da spiaggia -</LANG>
+		<LANG ID="es-ES">- Cambiándote en la toalla -</LANG>
+		<LANG ID="en-US">- Changing into towel -</LANG>
+		<LANG ID="en-SG">- Changing into towel -</LANG>
+		<LANG ID="ko-KR">-수건을 입고있는 중-</LANG>
+		<LANG ID="zh-HK">- 正在穿毛巾 -</LANG>
+		<LANG ID="zh-TW">- 正在穿毛巾 -</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ConfirmText</LANG>
+		<LANG ID="ja-JP">タオルに着替えますか？\n\n
+
+※タオル姿の状態では以下のような制限があります\n\n
+
+■タオル姿の時にできること\n
+　・写真撮影\n
+　・ストアでの買い物\n
+　・座席に座る\n
+　・元の服装に戻る\n\n
+
+■タオル姿の時に　一時的にできなくなること\n
+　・「設定メニュー」の起動\n
+　・ナビゲーターの使用\n
+　・アバターのカスタマイズ</LANG>
+		<LANG ID="de-DE">Möchtest du ein Handtuch umbinden?\n\n
+
+*Die folgenden Einschränkungen entstehen, wenn du ein Handtuch trägst\n\n
+
+■Was du tun kannst, während du ein Handtuch trägst\n
+- Fotos schießen\n
+- Im Geschäft einkaufen\n
+- Auf einem Stuhl sitzen\n
+- Zur ursprünglichen Kleidung zurückkehren\n\n
+
+■Was du nicht tun kannst, während du ein Handtuch trägst\n
+- Das "Einstellunsgmenü" aufrufen\n
+- Den Navigator benutzen\n
+- Den Avatar bearbeiten</LANG>
+		<LANG ID="en-GB">Will you change into a towel?\n\n
+
+*The following restrictions apply when wearing a towel\n\n
+
+■ What you can do while wearing a towel\n
+- Take photos\n
+- Shop in store\n
+- Sit in seat\n
+- Revert to original clothes\n\n
+
+■ What you cannot do while wearing a towel\n
+- Launch the "Settings menu"\n
+- Use navigator\n
+- Customize avatar</LANG>
+		<LANG ID="fr-FR">Allez-vous vous changer avec une serviette ?\n\n
+
+*Les restrictions suivantes s'appliquent en portant une serviette\n\n
+
+■ Ce que vous pouvez faire en portant une serviette\n
+- Prendre des photos\n
+- Acheter au magasin\n
+- Vous asseoir sur un siège\n
+- Revenir aux vêtements originaux\n\n
+
+■ Ce que vous ne pouvez pas faire en portant une serviette\n
+- Lancer le "Menu réglages"\n
+- Utiliser le navigateur\n
+- Customiser l'avatar</LANG>
+		<LANG ID="it-IT">Indossare l'asciugamano?\n\n
+
+* Quando si indossa un asciugamano si applicano le seguenti limitazioni\n\n
+
+■ Cosa puoi fare mentre indossi un asciugamano\n
+- Scattare delle foto\n
+- Fare spese in un negozio\n
+- Sedersi\n
+- Rimettere i vestiti originali\n\n
+
+■ Che cosa non puoi fare mentre indossi un asciugamano\n
+- Modificare le impostazioni\n
+- Usare il navigatore\n-
+Personalizzare il tuo avatar</LANG>
+		<LANG ID="es-ES">¿Quieres cubrirte con una toalla?\n\n
+
+*Al llevar una toalla se aplicarán las siguientes restricciones\n\n
+
+■ Lo que puedes hacer llevando una toalla\n
+- Sacar fotos\n
+- Comprar en una tienda\n
+- Sentarte en un asiento\n
+- Volver a la vestimenta original\n\n
+
+■ Lo que no puedes hacer llevando una toalla\n
+- Acceder al "menú de ajustes"\n
+- Usar el navegador\n
+- Personalizar el avatar</LANG>
+		<LANG ID="en-US">Will you change into a towel?\n\n
+
+*The following restrictions apply when wearing a towel\n\n
+
+■ What you can do while wearing a towel\n
+- Take photos\n
+- Shop in store\n
+- Sit in seat\n
+- Revert to original clothes\n\n
+
+■ What you cannot do while wearing a towel\n
+- Launch the "Settings menu"\n
+- Use navigator\n
+- Customize avatar</LANG>
+		<LANG ID="en-SG">Change into towel?\n\n
+
+*The following restrictions apply when wearing a towel\n\n
+
+■What you can do while wearing a towel\n
+- Take photos\n
+- Shop in store\n
+- Sit down\n
+- Revert to original clothes\n\n
+
+■What you cannot do while wearing a towel\n
+- Open the "Setting Menu"\n
+- Use navigator\n
+- Customize avatar</LANG>
+		<LANG ID="ko-KR">수건으로 갈아입겠습니까?\n\n
+
+※수건을 두른 상태로는 다음과 같은 제한이 있습니다\n\n
+
+■수건차림일 때 가능한 것\n
+　・사진 촬영\n
+　・스토어에서 쇼핑\n
+　・ 좌석에 앉기\n
+　・원래의 복장으로 돌아가기 \n\n
+
+■수건차림일 때 일시적으로 할 수 없는 것\n
+　・ 「설정 메뉴」의 기동\n
+　・네비게이션사용\n
+　・옷장 사용</LANG>
+		<LANG ID="zh-HK">要圍上毛巾嗎？\n\n
+
+※圍上毛巾的狀態有以下的限制：\n\n
+
+■圍上毛巾的狀態可以做的事：\n
+- 拍攝\n
+- 在商店買東西\n
+- 坐下來\n
+- 回復到本來的服裝\n\n
+
+■圍上毛巾的狀態不能做的事：\n
+- 開啟「設定選單」\n
+- 使用移動導航器\n
+- 改變個人造型</LANG>
+		<LANG ID="zh-TW">要圍上毛巾嗎？\n\n
+
+※圍上毛巾的狀態有以下的限制：\n\n
+
+■圍上毛巾的狀態可以做的事：\n
+- 拍攝\n
+- 在商店買東西\n
+- 坐下來\n
+- 回復到本來的服裝\n\n
+
+■圍上毛巾的狀態不能做的事：\n
+- 開啟「設定選單」\n
+- 使用移動導航器\n
+- 改變個人造型</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">ConfirmText_SCEA</LANG>
+		<LANG ID="ja-JP">タオルに着替えますか？\n\n
+
+※タオル姿の状態では以下のような制限があります\n\n
+
+■タオル姿の時にできること\n
+　・写真撮影\n
+　・座席に座る\n
+　・元の服装に戻る\n\n
+
+■タオル姿の時に　一時的にできなくなること\n
+　・「設定メニュー」の起動\n
+　・ナビゲーターの使用\n
+　・アバターのカスタマイズ</LANG>
+		<LANG ID="de-DE">Möchtest du ein Handtuch umbinden?\n\n
+
+*Die folgenden Einschränkungen entstehen, wenn du ein Handtuch trägst\n\n
+
+■Was du tun kannst, während du ein Handtuch trägst\n
+- Fotos schießen\n
+- Auf einem Stuhl sitzen\n
+- Zur ursprünglichen Kleidung zurückkehren\n\n
+
+■Was du nicht tun kannst, während du ein Handtuch trägst\n
+- Das "Einstellunsgmenü" aufrufen\n
+- Den Navigator benutzen\n
+- Den Avatar bearbeiten</LANG>
+		<LANG ID="en-GB">Will you change into a towel?\n\n
+
+*The following restrictions apply when wearing a towel\n\n
+
+■ What you can do while wearing a towel\n
+- Take photos\n
+- Sit in seat\n
+- Revert to original clothes\n\n
+
+■ What you cannot do while wearing a towel\n
+- Launch the "Settings menu"\n
+- Use navigator\n
+- Customize avatar</LANG>
+		<LANG ID="fr-FR">Allez-vous vous changer avec une serviette ?\n\n
+
+*Les restrictions suivantes s'appliquent en portant une serviette\n\n
+
+■ Ce que vous pouvez faire en portant une serviette\n
+- Prendre des photos\n
+- Vous asseoir sur un siège\n
+- Revenir aux vêtements originaux\n\n
+
+■ Ce que vous ne pouvez pas faire en portant une serviette\n
+- Lancer le "Menu réglages"\n
+- Utiliser le navigateur\n
+- Customiser l'avatar</LANG>
+		<LANG ID="it-IT">Indossare l'asciugamano?\n\n
+
+* Quando si indossa un asciugamano si applicano le seguenti limitazioni\n\n
+
+■ Cosa puoi fare mentre indossi un asciugamano\n
+- Scattare delle foto\n
+- Sedersi\n
+- Rimettere i vestiti originali\n\n
+
+■ Che cosa non puoi fare mentre indossi un asciugamano\n
+- Modificare le impostazioni\n
+- Usare il navigatore\n-
+Personalizzare il tuo avatar</LANG>
+		<LANG ID="es-ES">¿Quieres cubrirte con una toalla?\n\n
+
+*Al llevar una toalla se aplicarán las siguientes restricciones\n\n
+
+■ Lo que puedes hacer llevando una toalla\n
+- Sacar fotos\n
+- Sentarte en un asiento\n
+- Volver a la vestimenta original\n\n
+
+■ Lo que no puedes hacer llevando una toalla\n
+- Acceder al "menú de ajustes"\n
+- Usar el navegador\n
+- Personalizar el avatar</LANG>
+		<LANG ID="en-US">Will you change into a towel?\n\n
+
+*The following restrictions apply when wearing a towel\n\n
+
+■ What you can do while wearing a towel\n
+- Take photos\n
+- Sit in seat\n
+- Revert to original clothes\n\n
+
+■ What you cannot do while wearing a towel\n
+- Launch the "Settings menu"\n
+- Use navigator\n
+- Customize avatar</LANG>
+		<LANG ID="en-SG">Change into towel?\n\n
+
+*The following restrictions apply when wearing a towel\n\n
+
+■What you can do while wearing a towel\n
+- Take photos\n
+- Sit down\n
+- Revert to original clothes\n\n
+
+■What you cannot do while wearing a towel\n
+- Open the "Setting Menu"\n
+- Use navigator\n
+- Customize avatar</LANG>
+		<LANG ID="ko-KR">수건으로 갈아입겠습니까?\n\n
+
+※수건을 두른 상태로는 다음과 같은 제한이 있습니다\n\n
+
+■수건차림일 때 가능한 것\n
+　・사진 촬영\n
+　・ 좌석에 앉기\n
+　・원래의 복장으로 돌아가기 \n\n
+
+■수건차림일 때 일시적으로 할 수 없는 것\n
+　・ 「설정 메뉴」의 기동\n
+　・네비게이션사용\n
+　・옷장 사용</LANG>
+		<LANG ID="zh-HK">要圍上毛巾嗎？\n\n
+
+※圍上毛巾的狀態有以下的限制：\n\n
+
+■圍上毛巾的狀態可以做的事：\n
+- 拍攝\n
+- 坐下來\n
+- 回復到本來的服裝\n\n
+
+■圍上毛巾的狀態不能做的事：\n
+- 開啟「設定選單」\n
+- 使用移動導航器\n
+- 改變個人造型</LANG>
+		<LANG ID="zh-TW">要圍上毛巾嗎？\n\n
+
+※圍上毛巾的狀態有以下的限制：\n\n
+
+■圍上毛巾的狀態可以做的事：\n
+- 拍攝\n
+- 坐下來\n
+- 回復到本來的服裝\n\n
+
+■圍上毛巾的狀態不能做的事：\n
+- 開啟「設定選單」\n
+- 使用移動導航器\n
+- 改變個人造型</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">None</LANG>
+		<LANG ID="ja-JP">
+		</LANG>
+		<LANG ID="de-DE">
+		</LANG>
+		<LANG ID="en-GB">
+		</LANG>
+		<LANG ID="fr-FR">
+		</LANG>
+		<LANG ID="it-IT">
+		</LANG>
+		<LANG ID="es-ES">
+		</LANG>
+		<LANG ID="en-US">
+		</LANG>
+		<LANG ID="en-SG">
+		</LANG>
+		<LANG ID="ko-KR">
+		</LANG>
+		<LANG ID="zh-HK">
+		</LANG>
+		<LANG ID="zh-TW">
+		</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">SeatModeText</LANG>
+		<LANG ID="ja-JP">－着座中－</LANG>
+		<LANG ID="de-DE">- Hinsetzen -</LANG>
+		<LANG ID="en-GB">- Sitting down -</LANG>
+		<LANG ID="fr-FR">- Assis -</LANG>
+		<LANG ID="it-IT">- Sedersi -</LANG>
+		<LANG ID="es-ES">- Sentándote -</LANG>
+		<LANG ID="en-US">- Sitting down -</LANG>
+		<LANG ID="en-SG">- Sitting down -</LANG>
+		<LANG ID="ko-KR">-앉아있는 중-</LANG>
+		<LANG ID="zh-HK">- 正在坐下 -</LANG>
+		<LANG ID="zh-TW">- 正在坐下 -</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CanSeatLegend</LANG>
+		<LANG ID="ja-JP">[ACCEPT]座席 [SQUARE]撮影（長押しでフラッシュ） [DECLINE]元の服装に戻る</LANG>
+		<LANG ID="de-DE">[ACCEPT] Sitzen [SQUARE] Foto schießen(Hold : Flash) [DECLINE] Ende</LANG>
+		<LANG ID="en-GB">[ACCEPT] Sit [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="fr-FR">[ACCEPT] S'asseoir [SQUARE] Prendre une photo(Tenez : Flash) [DECLINE] Fin</LANG>
+		<LANG ID="it-IT">[ACCEPT] Sedersi [SQUARE] Scattare una foto(Hold: Flash) [DECLINE] Fine</LANG>
+		<LANG ID="es-ES">[ACCEPT] Sentarse [SQUARE] Sacar foto(Retención: Flash) [DECLINE] Terminar</LANG>
+		<LANG ID="en-US">[ACCEPT] Sit [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="en-SG">[ACCEPT] Sit [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="ko-KR">[ACCEPT] 좌석 [SQUARE] 촬영(홀드 : 플래시) [DECLINE] 종료</LANG>
+		<LANG ID="zh-HK">[ACCEPT] 坐下 [SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+		<LANG ID="zh-TW">[ACCEPT] 坐下 [SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">OnSeatLegend</LANG>
+		<LANG ID="ja-JP">[SQUARE]撮影（長押しでフラッシュ） [DECLINE]立つ</LANG>
+		<LANG ID="de-DE">[SQUARE] Foto schießen(Hold : Flash) [DECLINE] Aufstehen</LANG>
+		<LANG ID="en-GB">[SQUARE] Take photo(Hold: Flash) [DECLINE] Stand up</LANG>
+		<LANG ID="fr-FR">[SQUARE] Prendre une photo(Tenez : Flash) [DECLINE] Se lever</LANG>
+		<LANG ID="it-IT">[SQUARE] Scattare una foto(Hold: Flash) [DECLINE] Alzarsi</LANG>
+		<LANG ID="es-ES">[SQUARE] Sacar foto(Retención: Flash) [DECLINE] Levantarse</LANG>
+		<LANG ID="en-US">[SQUARE] Take photo(Hold: Flash) [DECLINE] Stand up</LANG>
+		<LANG ID="en-SG">[SQUARE] Take photo(Hold: Flash) [DECLINE] Stand up</LANG>
+		<LANG ID="ko-KR">[SQUARE] 촬영(홀드 : 플래시) [DECLINE] 서기</LANG>
+		<LANG ID="zh-HK">[SQUARE] 拍攝（保持閃光燈） [DECLINE] 站立</LANG>
+		<LANG ID="zh-TW">[SQUARE] 拍攝（保持閃光燈） [DECLINE] 站立</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CanRopeLegend</LANG>
+		<LANG ID="ja-JP">[ACCEPT]ロープ [SQUARE]撮影（長押しでフラッシュ） [DECLINE]元の服装に戻る</LANG>
+		<LANG ID="de-DE">[ACCEPT] Seil [SQUARE] Foto schießen(Hold : Flash) [DECLINE] Ende</LANG>
+		<LANG ID="en-GB">[ACCEPT] Rope [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="fr-FR">[ACCEPT] Corde [SQUARE] Prendre une photo(Tenez : Flash) [DECLINE] Fin</LANG>
+		<LANG ID="it-IT">[ACCEPT] Legare [SQUARE] Scattare una foto(Hold: Flash) [DECLINE] Fine</LANG>
+		<LANG ID="es-ES">[ACCEPT] Cuerda [SQUARE] Sacar foto(Retención: Flash) [DECLINE] Terminar</LANG>
+		<LANG ID="en-US">[ACCEPT] Rope [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="en-SG">[ACCEPT] Rope [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="ko-KR">[ACCEPT] 로프 [SQUARE] 촬영(홀드 : 플래시) [DECLINE] 종료</LANG>
+		<LANG ID="zh-HK">[ACCEPT] 繩索 [SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+		<LANG ID="zh-TW">[ACCEPT] 繩索 [SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">CanShowerLegend</LANG>
+		<LANG ID="ja-JP">[ACCEPT]シャワー [SQUARE]撮影（長押しでフラッシュ） [DECLINE]元の服装に戻る</LANG>
+		<LANG ID="de-DE">[ACCEPT] Duschen [SQUARE] Foto schießen(Hold : Flash) [DECLINE] Ende</LANG>
+		<LANG ID="en-GB">[ACCEPT] Shower [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="fr-FR">[ACCEPT] Douche [SQUARE] Prendre une photo(Tenez : Flash) [DECLINE] Fin</LANG>
+		<LANG ID="it-IT">[ACCEPT] Sedersi [SQUARE] Scattare una foto(Hold: Flash) [DECLINE] Fine</LANG>
+		<LANG ID="es-ES">[ACCEPT] Ducha [SQUARE] Sacar foto(Retención: Flash) [DECLINE] Terminar</LANG>
+		<LANG ID="en-US">[ACCEPT] Shower [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="en-SG">[ACCEPT] Shower [SQUARE] Take photo(Hold: Flash) [DECLINE] Exit</LANG>
+		<LANG ID="ko-KR">[ACCEPT]샤워 [SQUARE]촬영 [DECLINE]종료</LANG>
+		<LANG ID="zh-HK">[ACCEPT] 淋浴 [SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+		<LANG ID="zh-TW">[ACCEPT] 淋浴 [SQUARE] 拍攝（保持閃光燈） [DECLINE] 結束</LANG>
+	</PHRASE>
+</LOCALISATION>

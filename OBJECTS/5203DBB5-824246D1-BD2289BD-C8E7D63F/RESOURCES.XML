@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Tawny_Owl_Companion01.mdl" deferred_loading="true" protected="false" file="companions/owl/Tawny_Owl_Companion01.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Tawny_Owl/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Tawny_Owl/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="owl_barn_fly_01.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_fly_01.ani" memory="host" />
+		<anim name="owl_barn_fly_L_01.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_fly_L_01.ani" memory="host" />
+		<anim name="owl_barn_fly_R_01.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_fly_R_01.ani" memory="host" />
+		<anim name="owl_barn_fly_twist_01.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_fly_twist_01.ani" memory="host" />
+		<anim name="owl_barn_glide_01.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_glide_01.ani" memory="host" />
+		<anim name="owl_barn_glide_02.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_glide_02.ani" memory="host" />
+		<anim name="owl_barn_glide_03.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_glide_03.ani" memory="host" />
+		<anim name="owl_barn_glide_04.ani" deferred_loading="true" protected="false" file="companions/owl/owl_barn_glide_04.ani" memory="host" />
+		<anim name="whiteOwl_idle_01.ani" deferred_loading="true" protected="false" file="companions/owl/whiteOwl_idle_01.ani" memory="host" />
+		<anim name="whiteOwl_land_01.ani" deferred_loading="true" protected="false" file="companions/owl/whiteOwl_land_01.ani" memory="host" />
+		<anim name="owl_landing_01.ani" deferred_loading="true" protected="false" file="companions/owl/owl_landing_01.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="companions/owl/Tawny_Owl_Companion01.skn" memory="host" />
+		<soundbank name="PM_SFX_Pet_Owl.bnk" deferred_loading="true" protected="false" file="Audio/Companions/PM_SFX_Pet_Owl.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Tawny_Owl/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

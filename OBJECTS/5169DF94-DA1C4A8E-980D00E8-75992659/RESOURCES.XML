@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+	
+		<model name="maglite.mdl" deferred_loading="false" protected="false" file="lg_gzschool/cmn_design/model/maglite.mdl" />
+	
+	
+		<texture name="CommonUI_window_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_01.dds" />
+		<texture name="CommonUI_window_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_02.dds" />
+		<texture name="CommonUI_window_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_03.dds" />
+		<texture name="CommonUI_window_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_04.dds" />
+		<texture name="CommonUI_window_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_05.dds" />
+		<texture name="CommonUI_window_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_06.dds" />
+		<texture name="CommonUI_window_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_07.dds" />
+		<texture name="CommonUI_window_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_08.dds" />
+		<texture name="CommonUI_window_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_09.dds" />
+		<texture name="CommonUI_namewindow_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_01.dds" />
+		<texture name="CommonUI_namewindow_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_02.dds" />
+		<texture name="CommonUI_namewindow_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_03.dds" />
+		<texture name="CommonUI_namewindow_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_04.dds" />
+		<texture name="CommonUI_namewindow_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_05.dds" />
+		<texture name="CommonUI_namewindow_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_06.dds" />
+		<texture name="CommonUI_namewindow_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_07.dds" />
+		<texture name="CommonUI_namewindow_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_08.dds" />
+		<texture name="CommonUI_namewindow_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_09.dds" />
+		<texture name="reward_01.dds" deferred_loading="true" protected="false" file="LG_GZschool/cmn_design/2D/thumbnails/reward_01.dds" />
+		<texture name="reward_02.dds" deferred_loading="true" protected="false" file="LG_GZschool/cmn_design/2D/thumbnails/reward_02.dds" />
+		<texture name="reward_03.dds" deferred_loading="true" protected="false" file="LG_GZschool/cmn_design/2D/thumbnails/reward_03.dds" />
+		<texture name="reward_04.dds" deferred_loading="true" protected="false" file="LG_GZschool/cmn_design/2D/thumbnails/reward_04.dds" />
+		<texture name="reward_05.dds" deferred_loading="true" protected="false" file="LG_GZschool/cmn_design/2D/thumbnails/reward_05.dds" />
+		<texture name="reward_06.dds" deferred_loading="true" protected="false" file="LG_GZschool/cmn_design/2D/thumbnails/reward_06.dds" />
+		
+		<texture name="maglite.dds" deferred_loading="false" protected="false" file="lg_gzschool/cmn_design/model/maglite.dds" />
+		
+		
+		
+		<particle name="eff_treasure_01.efx" deferred_loading="false" protected="false" file="lg_gzschool\cmn_design\ATGParticles\Efx\eff_ghost_01.efx" />
+		<soundbank name="message.bnk" deferred_loading="true" protected="false" file="home_gzcmn/sound/message.bnk" />
+		<soundbank name="horror.bnk" deferred_loading="false" protected="false" file="LG_GZschool/sound/horror.bnk" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="LG_GZschool/soft_jp_00/Kimodameshi/file/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="LG_GZschool/soft_jp_00/Kimodameshi/file/female.xml" />
+		
+		<anim name="anm_F_horror_ntr.ani" deferred_loading="false" protected="false" file="LG_GZschool/cmn_design/motion/horror/anm_F_horror_ntr.ani" memory="host" />
+		<anim name="anm_F_horror_walk.ani" deferred_loading="false" protected="false" file="LG_GZschool/cmn_design/motion/horror/anm_F_horror_walk.ani" memory="host" />
+		<anim name="anm_F_horror_run.ani" deferred_loading="false" protected="false" file="LG_GZschool/cmn_design/motion/horror/anm_F_horror_run.ani" memory="host" />
+		
+		<anim name="anm_M_horror_ntr.ani" deferred_loading="false" protected="false" file="LG_GZschool/cmn_design/motion/horror/anm_M_horror_ntr.ani" memory="host" />
+		<anim name="anm_M_horror_walk.ani" deferred_loading="false" protected="false" file="LG_GZschool/cmn_design/motion/horror/anm_M_horror_walk.ani" memory="host" />
+		<anim name="anm_M_horror_run.ani" deferred_loading="false" protected="false" file="LG_GZschool/cmn_design/motion/horror/anm_M_horror_run.ani" memory="host" />
+		
+		
+		
+		<!--Grobal Lib-->
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" />
+		<lua name="UtilFunc.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFunc.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="UtilMultiFocus.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilMultiFocus.lua" />
+		<lua name="UtilParam.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilParam.lua" />
+		<lua name="UtilEntity.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilEntity.lua" />
+		<lua name="UtilEffect.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilEffect.lua" />
+		<lua name="UtilCamera.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilCamera.lua" />
+		<lua name="UtilDebug.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilDebug.lua" />
+		<lua name="Box.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Box.lua" />
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PhaseCtrl.lua" />
+		
+		<!--Grobal Lib( Differed Load)-->
+		<lua name="PadIo.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/PadIo.lua" />
+		<lua name="CommonMessageWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonMessageWindow.lua" />
+		<lua name="MessageSound.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/MessageSound.lua" />
+		<lua name="UtilWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/tempUtil/UtilWindow.lua" />
+
+
+		<!--Local Script-->
+		<lua name="MgData.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/MgData.lua" />
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/MgMain.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/MiniGame.lua" />
+		<lua name="PhaseList.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/PhaseList.lua" />
+		<lua name="PhaseCmn.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/PhaseCmn.lua" />
+		<lua name="Kimodameshi.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/Kimodameshi.lua" />
+		<lua name="MagLight.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/MagLight.lua" />
+		<lua name="Treasure.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/Treasure.lua" />
+		<lua name="DataInterface.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/PSDataStation/lua/dataInterface.lua" />
+		<lua name="SceneIF.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/Scene/SceneIF.lua" />
+		<lua name="SettingMachineIF.lua" deferred_loading="false" protected="true" file="LG_GZschool/soft_jp_00/SettingMachine/lua/SettingMachineIF.lua" />
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="LG_GZschool/GetRegionUUID.lua" />
+		
+		<!--Local Script( Differed Load)-->
+		<lua name="GameData.lua" deferred_loading="true" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/GameData.lua" />
+		<lua name="GameMain.lua" deferred_loading="true" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/GameMain.lua" />
+		<lua name="WindowData.lua" deferred_loading="true" protected="true" file="LG_GZschool/soft_jp_00/Kimodameshi/lua/WindowData.lua" />
+	</local>
+	<external />
+</resources>

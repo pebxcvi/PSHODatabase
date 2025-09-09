@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/models/SoundGroup_ElectricGuitar.mdl" />
+		<texture name="fire.dds" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/atgparticles/fire.dds" />
+		<particle name="guitar_fire.efx" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/atgparticles/guitar_fire.efx" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/models/SoundGroup_ElectricGuitar.hkx" />
+		<soundstream name="FlamingGuitarSolo.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_electricguitar/sound/FlamingGuitarSolo.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_electricguitar/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_electricguitar/programming/Boombox.lua" />
+		<lua name="MusicPlayer.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_electricguitar/programming/MusicPlayer.lua" />
+	</local>
+	<external />
+</resources>

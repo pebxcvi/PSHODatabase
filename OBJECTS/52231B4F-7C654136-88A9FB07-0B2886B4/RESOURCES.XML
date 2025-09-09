@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/model/Constructo.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/model/Constructo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/file/Constructo_config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/anim/Constructo_Idle_Breathe.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/anim/Constructo_Walk.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/anim/Constructo_Run.ani" memory="host" />
+		<anim name="Hammer_Into.ani" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/anim/Constructo_Hammer_Into.ani" memory="host" />
+		<anim name="Hammer_Loop.ani" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/anim/Constructo_Hammer_Loop.ani" memory="host" />
+		<anim name="Hammer_Outof.ani" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/anim/Constructo_Hammer_Outof.ani" memory="host" />
+		<anim name="NoseRub.ani" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/anim/Constructo_Idle_NoseRub.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/skeleton/Constructo.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/soundbank/audio.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/SPUNLAND_Spunner_Constructo/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

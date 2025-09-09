@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+	<!--
+		<model name="umanLMO_04.mdl" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/model/umanLMO_04.mdl" memory="host" />
+		<model name="umanLMO_04_remote.mdl" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/model/umanLMO_04_reomte.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/umanLMO_04/file/config.xml" memory="host" />
+		
+		<anim name="female_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_idle_00.ani" memory="host" />
+		<anim name="female_fightingPose_loop_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_fightingPose_loop_00.ani" memory="host" />
+		<anim name="female_fightingPose_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_fightingPose_00.ani" memory="host" />
+		<anim name="female_attack_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_attack_00.ani" memory="host" />
+		<anim name="female_moonsarto_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_moonsarto_00.ani" memory="host" />
+		
+		<anim name="male_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_idle_00.ani" memory="host" />
+		<anim name="male_fightingPose_loop_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_fightingPose_loop_00.ani" memory="host" />
+		<anim name="male_fightingPose_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_fightingPose_00.ani" memory="host" />
+		<anim name="male_attack_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_attack_00.ani" memory="host" />
+		<anim name="male_moonsarto_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_moonsarto_00.ani" memory="host" />
+		
+		<anim name="model_idle_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/model_idle_00.ani" memory="host" />
+		<anim name="model_hide_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/model_hide_00.ani" memory="host" />
+		<anim name="model_attack_00.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/model_attack_00.ani" memory="host" />
+		
+		<skeleton name="umanLMO_04.skn" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/skeleton/umanLMO_04.skn" memory="host" />
+		
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/repertoire/male.xml" memory="host" />
+		
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/umanLMO_04/lua/boot.luac" memory="host" id="3604697652" />
+		-->
+		
+		
+		<model name="model.mdl" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/model/umanLMO_04.mdl" memory="host" />
+		<model name="model_remote.mdl" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/model/umanLMO_04_remote.mdl" memory="host" />
+		
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/umanLMO_04/file/config.xml" memory="host" />
+		
+		<!--<particle name="effect.efx" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/particle/effect_00.efx" memory="host" />-->
+		
+		<anim name="anm_F_idle.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_idle_00.ani" memory="host" />
+		<anim name="anm_F_fightingPose_loop.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_fightingPose_loop_00.ani" memory="host" />
+		<anim name="anm_F_fightingPose.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_fightingPose_00.ani" memory="host" />
+		<anim name="anm_F_attack.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/anm_F_AppealPose_00.ani" memory="host" />
+		<anim name="anm_F_moonsarto.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/female_moonsarto_00.ani" memory="host" />
+		
+		<anim name="anm_M_idle.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_idle_00.ani" memory="host" />
+		<anim name="anm_M_fightingPose.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_fightingPose_00.ani" memory="host" />
+		<anim name="anm_M_fightingPose_loop.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_fightingPose_loop_00.ani" memory="host" />
+		<anim name="anm_M_attack.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/anm_M_AppealPose_00.ani" memory="host" />
+		<anim name="anm_M_moonsarto.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/male_moonsarto_00.ani" memory="host" />
+		
+		<anim name="model_attack.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/model_hide_00.ani" memory="main" />
+		<anim name="model_idle.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/model_hide_00.ani" memory="main" />
+		<anim name="model_hide.ani" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/anim/model_hide_00.ani" memory="main" />
+		
+		
+		<skeleton name="model.skn" deferred_loading="true" protected="false" file="Locomotion/umanLMO_04/skeleton/umanLMO_04.skn" memory="main" />
+		
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/umanLMO_00/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/umanLMO_00/repertoire/male.xml" memory="main" />
+		
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/umanLMO_00/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/umanLMO_00/emotes/male_emotes.xml" memory="main" />
+		
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/umanLMO_00/lua/boot.luac" memory="host" id="3604697652" />
+		<soundbank name="sound.bnk" deferred_loading="true" protected="false" file="Locomotion/soundbank/uman_hero_4.bnk" memory="host" />
+		
+	</local>
+	<external />
+</resources>

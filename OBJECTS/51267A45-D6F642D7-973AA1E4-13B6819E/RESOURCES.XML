@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/Cowboy_moves/file/configuration.xml" memory="host" />
+		<anim name="mMexicanWave" deferred_loading="true" protected="false" file="animation/male/starmoves/airSwimming.ani" memory="main" />
+		<anim name="mSkipping" deferred_loading="true" protected="false" file="animation/male/starmoves/scissorFingers.ani" memory="host" />
+		<anim name="fRiding" deferred_loading="true" protected="false" file="animation/female/star_moves/fTwist.ani" memory="host" />
+		<anim name="fMexicanWave" deferred_loading="true" protected="false" file="animation/female/star_moves/fAirSwimming.ani" memory="host" />
+		<anim name="fSkipping" deferred_loading="true" protected="false" file="animation/female/star_moves/fScissorFingers.ani" memory="host" />
+		<anim name="fLasso" deferred_loading="true" protected="false" file="animation/female/star_moves/fDive.ani" memory="host" />
+		<anim name="mLasso" deferred_loading="true" protected="false" file="animation/male/starmoves/dive.ani" memory="host" />
+		<anim name="mRiding" deferred_loading="true" protected="false" file="animation/male/starmoves/twist.ani" memory="host" />
+		<anim name="mFistSwing" deferred_loading="true" protected="false" file="animation/male/starmoves/FistSwing.ani" />
+		<anim name="fFistSwing" deferred_loading="true" protected="false" file="animation/female/star_moves/fFistSwing.ani" />
+		<soundbank name="bnk.audio" deferred_loading="true" protected="false" file="AvatarAnimPacks/Star_moves/soundbank/audio.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/Star_moves/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/Star_moves/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Star_moves/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/Star_moves/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/Star_moves/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>
