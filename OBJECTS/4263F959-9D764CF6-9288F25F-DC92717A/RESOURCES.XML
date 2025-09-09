@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Goat.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/Goat.mdl" />
+		<model name="CommAug_GoatStall.mdl" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/CommAug_GoatStall.mdl" memory="main" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/Network.xml" />
+		<collision name="CommAug_GoatStall.hkx" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/CommAug_GoatStall.hkx" />
+		<anim name="Look_Around.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Look_Around.ani" />
+		<anim name="Baaaing.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Baaaing.ani" />
+		<anim name="Chew.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Chew.ani" />
+		<anim name="Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Idle.ani" />
+		<anim name="Idle_withearflickering.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Idle_withearflickering.ani" />
+		<anim name="Lay_Down_LookAround.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Lay_Down_LookAround.ani" />
+		<anim name="GetUp.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/GetUp.ani" />
+		<anim name="Lay_Down.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Lay_Down.ani" />
+		<anim name="Lay_Down_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/animation/Lay_Down_Idle.ani" />
+		<skeleton name="Goat.skn" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/models/Goat.skn" />
+		<soundbank name="goat.bnk" deferred_loading="false" protected="false" file="ActiveItems/commaugust_2010/commaug_goat/sounds/goat.bnk" memory="main" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_goat/programming/Main.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_goat/programming/Utility.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_goat/programming/StateMachine.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_goat/programming/Pet.lua" />
+		<lua name="Animations.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_goat/programming/Animations.lua" />
+		<lua name="AnimationSequencer.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_goat/programming/AnimationSequencer.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commaugust_2010/commaug_goat/programming/SoundMgr.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="pickup_glow.mdl" deferred_loading="false" protected="false" file="MiniGames/Ford_Cinema_Hunt/models/pickup_glow.mdl" />
+		<model name="card1.mdl" deferred_loading="false" protected="false" file="MiniGames/SYNC_Memory_Game/models/card1.mdl" />
+		<model name="card1_select.mdl" deferred_loading="false" protected="false" file="MiniGames/SYNC_Memory_Game/models/card1_select.mdl" />
+		<model name="Male01_FullBodySuit_Ford_Salesman.mdl" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_Ford_Salesman.mdl" />
+		<texture name="glow_white.dds" deferred_loading="false" protected="false" file="MiniGames/Ford_Cinema_Hunt/textures/glow_white.dds" />
+		<texture name="card_back.dds" deferred_loading="false" protected="false" file="MiniGames/SYNC_Memory_Game/textures/card_back.dds" />
+		<texture name="card_front.dds" deferred_loading="false" protected="false" file="MiniGames/SYNC_Memory_Game/textures/card_front.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Ford_Cinema_Hunt/file/Network.xml" />
+		<collision name="Male01_FullBodySuit_Ford_Salesman.hkx" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_Ford_Salesman.hkx" />
+		<anim name="FordSalesman_Idle.ani" deferred_loading="false" protected="false" file="animation/male/fordsalesman_idle/FordSalesman_Idle.ani" />
+		<skeleton name="Male01_FullBodySuit_Ford_Salesman.skn" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_Ford_Salesman.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Ford_Cinema_Hunt/lua/MiniGame.lua" />
+		<lua name="MiniGame_Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Ford_Cinema_Hunt/lua/MiniGame_Pad.lua" />
+		<lua name="aHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/aHelpers.lua" />
+		<lua name="OSD_Board.lua" deferred_loading="false" protected="true" file="MiniGames/Ford_Cinema_Hunt/lua/OSD_Board.lua" />
+		<lua name="Board.lua" deferred_loading="false" protected="true" file="MiniGames/Ford_Cinema_Hunt/lua/Board.lua" />
+		<lua name="Card.lua" deferred_loading="false" protected="true" file="MiniGames/Ford_Cinema_Hunt/lua/Card.lua" />
+		<lua name="Selector.lua" deferred_loading="false" protected="true" file="MiniGames/Ford_Cinema_Hunt/lua/Selector.lua" />
+	</local>
+	<external />
+</resources>

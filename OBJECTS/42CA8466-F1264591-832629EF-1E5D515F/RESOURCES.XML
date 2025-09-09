@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="chip" deferred_loading="false" protected="false" file="furniture/playchips/maya/SingleChip.mdl" />
+		<texture name="paneMessage" deferred_loading="false" protected="false" file="MiniGames/Keno/textures/paneMessage.dds" />
+		<texture name="X_Button" deferred_loading="false" protected="false" file="MiniGames/Keno/textures/X_Button.dds" />
+		<texture name="O_Button" deferred_loading="false" protected="false" file="MiniGames/Keno/textures/Circle_Button.dds" />
+		<particle name="WaterFountain.efx" deferred_loading="true" protected="false" file="ATGParticles/WaterFountain/WaterFountain.efx" />
+		<particle name="Hottub_Steam.efx" deferred_loading="true" protected="false" file="ATGParticles/HotTub/Hottub_Steam.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Chip_Fountian_Minigame/file/Network.xml" />
+		<collision name="chipCol" deferred_loading="false" protected="false" file="furniture/playchips/maya/SingleChip.hkx" />
+		<anim name="MaleCoinToss" deferred_loading="false" protected="false" file="animation/male/malecointoss/MaleCoinToss.ani" />
+		<anim name="FemaleCoinToss" deferred_loading="false" protected="false" file="animation/female/femalecointoss/FemaleCoinToss.ani" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="MiniGames/Chip_Fountian_Minigame/file/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="MiniGames/Chip_Fountian_Minigame/file/FemaleRepertoire.xml" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="MiniGames/Chip_Fountian_Minigame/file/MaleEmotes.xml" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="MiniGames/Chip_Fountian_Minigame/file/FemaleEmotes.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Chip_Fountian_Minigame/lua/MiniGame.lua" />
+		<lua name="RewardManager" deferred_loading="false" protected="true" file="MiniGames/Libs/RewardManager.lua" />
+		<lua name="KeyMaster" deferred_loading="false" protected="true" file="MiniGames/Libs/KeyMaster.lua" />
+	</local>
+	<external />
+</resources>

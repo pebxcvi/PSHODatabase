@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="true" protected="false" file="AvatarInteractionPacks/handshake/file/configuration.xml" memory="host" />
+		<anim name="tango_a_f.ani" deferred_loading="true" protected="false" file="animation/femaleint/tango_a_f/tango_a_f.ani" memory="host" />
+		<anim name="tango_b_f.ani" deferred_loading="true" protected="false" file="animation/femaleint/tango_b_f/tango_b_f.ani" memory="host" />
+		<anim name="tango_a_m.ani" deferred_loading="true" protected="false" file="animation/male/tango_a_m/tango_a_m.ani" memory="host" />
+		<anim name="tango_b_m.ani" deferred_loading="true" protected="false" file="animation/male/tango_b_m/tango_b_m.ani" memory="host" />
+		<anim name="handshake_a_f.ani" deferred_loading="true" protected="false" file="animation/femaleint/handshake_a_f/handshake_a_f.ani" memory="host" />
+		<anim name="handshake_b_f.ani" deferred_loading="true" protected="false" file="animation/femaleint/handshake_b_f/handshake_b_f.ani" memory="host" />
+		<anim name="handshake_a_m.ani" deferred_loading="true" protected="false" file="animation/male/handshake_a_m/handshake_a_m.ani" memory="host" />
+		<anim name="handshake_b_m.ani" deferred_loading="true" protected="false" file="animation/male/handshake_b_m/handshake_b_m.ani" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarInteractionPacks/handshake/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarInteractionPacks/handshake/repertoire/female.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarInteractionPacks/dirty/lua/boot.luac" memory="host" id="2854038485" />
+	</local>
+	<external />
+</resources>

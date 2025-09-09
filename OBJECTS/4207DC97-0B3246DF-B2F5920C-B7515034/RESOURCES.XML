@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/model/cat_00.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/model/cat_00_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/walk.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/run.ani" memory="host" />
+		<anim name="ani.idle_00" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/idle_00.ani" memory="host" />
+		<anim name="ani.idle_01" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/idle_01.ani" memory="host" />
+		<anim name="ani.idle_02" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/idle_02.ani" memory="host" />
+		<anim name="ani.mew_00" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/mew_00.ani" memory="host" />
+		<anim name="ani.run_left" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/run_left.ani" memory="host" />
+		<anim name="ani.run_right" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/anim/run_right.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/skeleton/cat_00.skn" memory="host" />
+		<soundbank name="sound.bnk" deferred_loading="true" protected="false" file="companion_follower/Pet_cat_20/soundbank/pet_cat.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="companion_follower/Pet_cat_20/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

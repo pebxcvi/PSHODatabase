@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="MiniGames/NewYearFireworks/model/NewYear_Fireworks.mdl" />
+		<particle name="fireworks.efx" deferred_loading="false" protected="false" file="ATGParticles/FireworksBox/fireworks_small.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/NewYearFireworks/file/Network.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="MiniGames/NewYearFireworks/collision/NewYear_Fireworks.hkx" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="MiniGames/NewYearFireworks/collision/NewYear_Fireworks.hkx" />
+		<soundbank name="Fireworks.bnk" deferred_loading="false" protected="false" file="MiniGames/NewYearFireworks/sound/HedkandiFireworksLow.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/NewYearFireworks/lua/MiniGame.lua" />
+		<lua name="VMParticleEffect.lua" deferred_loading="false" protected="true" file="MiniGames/NewYearFireworks/lua/VMParticleEffect.lua" />
+		<lua name="VMTimers.lua" deferred_loading="false" protected="true" file="MiniGames/NewYearFireworks/lua/VMTimers.lua" />
+	</local>
+	<external />
+</resources>

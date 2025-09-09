@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Spaceman_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/spaceman/spaceman4.mdl" />
+		<model name="craterdomestrobe_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/craterdomestrobe.mdl" />
+		<model name="craterdome_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/craterdome.mdl" />
+		<model name="pad_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/pad.mdl" />
+		<model name="padtarget_red_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/padtarget_red.mdl" />
+		<model name="padtarget_green_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/padtarget_green.mdl" />
+		<model name="padtarget_blue_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/padtarget_blue.mdl" />
+		<model name="pipes_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/pipes.mdl" />
+		<model name="Arrow_mdl" deferred_loading="false" file="environments/game_moonbase_244e_aa34/objects/arrow.mdl" />
+		<texture name="power_middle.dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/HUD/power_middle.dds" />
+		<texture name="large_panel_dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/panels/large_panel.dds" />
+		<texture name="bleftIcon_dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/HUD/bleftIcon.dds" />
+		<texture name="bRightIcon_dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/HUD/bRightIcon.dds" />
+		<texture name="gridOverlay_dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/HUD/gridOverlay.dds" />
+		<texture name="rightIcon_dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/HUD/rightIcon.dds" />
+		<texture name="topIcon_dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/HUD/topIcon.dds" />
+		<texture name="rightIconbars_dds" deferred_loading="false" file="Scripts/Game_Moonbase_Lunar_Leap/images/HUD/rightIconbars.dds" />
+		<anim name="Spaceman_ani" deferred_loading="false" file="environments/game_moonbase_244e_aa34/spaceman/spaceman4.ani" />
+		<skeleton name="Spaceman_skn" deferred_loading="false" file="environments/game_moonbase_244e_aa34/spaceman/spaceman4.skn" />
+		<soundbank name="Lunar_Leap_Audio_bnk" deferred_loading="true" file="Scripts/Game_Moonbase_Lunar_Leap/audio/Game_Space_Mini_Game.bnk" memory="host" />
+		<lua name="Soundbank_Manager_lua" deferred_loading="false" protected="true" file="Scripts/Game_Moonbase_Lunar_Leap/Soundbank_Manager.lua" />
+		<lua name="Highscores_lua" deferred_loading="false" protected="true" file="Scripts/Game_Moonbase_Lunar_Leap/Highscores.lua" />
+		<lua name="Util_lua" deferred_loading="false" protected="true" file="Scripts/Game_Moonbase_Lunar_Leap/Util.lua" />
+		<lua name="Constants_lua" deferred_loading="false" protected="true" file="Scripts/Game_Moonbase_Lunar_Leap/Constants.lua" />
+		<lua name="Lunar_Leap_Minigame_lua" deferred_loading="false" protected="true" file="Scripts/Game_Moonbase_Lunar_Leap/Lunar_Leap_Minigame.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="sabertooth_Model.mdl" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/sabertooth_Model.mdl" memory="host" />
+		<model name="sabertooth_Model_LOD.mdl" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/sabertooth_Model_LOD.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/sabertooth_mount/file/config.xml" memory="host" />
+		<anim name="Sabertooth_sprint_male" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_sprint_male.ani" memory="main" />
+		<anim name="Sabertooth_Sprint_001" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_Sprint_001.ani" memory="main" />
+		<anim name="sabertooth_run_male" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/sabertooth_run_male.ani" memory="host" />
+		<anim name="Sabertooth_Run_001" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_Run_001.ani" memory="host" />
+		<anim name="Sabertooth_Idle_male" deferred_loading="false" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_Idle_male.ani" memory="host" />
+		<anim name="Sabertooth_Idle_001" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_Idle_001.ani" memory="host" />
+		<anim name="Sabertooth_Sprint_female" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_Sprint_female.ani" memory="main" />
+		<anim name="Sabertooth_Idle_female" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_Idle_female.ani" memory="host" />
+		<anim name="Sabertooth_run_female" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/Sabertooth_run_female.ani" memory="host" />
+		<skeleton name="sabertooth_Model.skn" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/sabertooth_Model.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/sabertooth_mount/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/sabertooth_mount/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/sabertooth_mount/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/sabertooth_mount/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companions/severedhand/SeveredHand_GREEN.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="companions/severedhand/SeveredHand_GREEN_R.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Severed_Hand/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Severed_Hand/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="IDLE_HAND_01.ani" deferred_loading="false" protected="false" file="companions/severedhand/IDLE_HAND_01.ani" memory="host" />
+		<anim name="IDLE_HAND_02.ani" deferred_loading="false" protected="false" file="companions/severedhand/IDLE_HAND_02.ani" memory="host" />
+		<anim name="RUN_HAND_01.ani" deferred_loading="false" protected="false" file="companions/severedhand/RUN_HAND_01.ani" memory="host" />
+		<anim name="WALK_HAND_01.ani" deferred_loading="false" protected="false" file="companions/severedhand/WALK_HAND_01.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companions/severedhand/SeveredHand_GREEN.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Severed_Hand/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SpunFart.mdl" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/model/Spunny_Farthing.mdl" memory="host" />
+		<model name="SpunFart_low.mdl" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/model/Spunny_Farthing_low.mdl" memory="host" />
+		<particle name="BikeBlossom.efx" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/particle/BikeBlossom.efx" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spunny_farthing/file/config_SpunnyFarthing.xml" memory="main" />
+		<anim name="fidle" deferred_loading="true" protected="false" file="animation/female/spunny_farthing/Spun_Farthing_idle.ani" memory="main" />
+		<anim name="fmove" deferred_loading="true" protected="false" file="animation/female/spunny_farthing/Spun_Farthing_move.ani" memory="main" />
+		<anim name="SpunFart_idle.ani" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/anim/Spunny_Farthing_idle.ani" memory="host" />
+		<anim name="SpunFart_move.ani" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/anim/Spunny_Farthing_move.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="animation/male/spunny_farthing/Spunfar_thing_move.ani" memory="main" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="animation/male/spunny_farthing/Spunfar_thing_idle.ani" memory="host" />
+		<anim name="SpunFart_idle_low.ani" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/anim/Spunny_Farthing_idle_low.ani" memory="host" />
+		<anim name="SpunFart_move_low.ani" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/anim/Spunny_Farthing_move_low.ani" />
+		<skeleton name="SpunFart.skn" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/skeleton/Spunny_Farthing.skn" memory="host" />
+		<skeleton name="SpunFart_low.skn" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/skeleton/Spunny_Farthing_low.skn" />
+		<soundbank name="SpunnyHorn" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/sound/SpunnyFarthing.bnk" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/spunny_farthing/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunny_farthing/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>
