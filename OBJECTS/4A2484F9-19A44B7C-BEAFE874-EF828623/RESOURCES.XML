@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="game_highlight_pointer.mdl" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/game_highlight/game_highlight_pointer.mdl" />
+		<model name="Commerce_Point.mdl" deferred_loading="false" protected="false" file="environments/deadisland_plaza/deadisland_props/models/objects/commerce_point/Preorder_Point.mdl" />
+		<texture name="emptyTexture.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/emptyTexture.dds" />
+		<texture name="TShirtRank1" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/TShirtRank1.dds" />
+		<texture name="TShirtRank2" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/TShirtRank2.dds" />
+		<texture name="TShirtRank3" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/TShirtRank3.dds" />
+		<texture name="TShirtRank4" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/TShirtRank4.dds" />
+		<texture name="SurveyPanel.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurveyPanel.dds" />
+		<texture name="SurveyStartHilight.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurveyStartHilight.dds" />
+		<texture name="SurveyRedLine.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurveyRedLine.dds" />
+		<texture name="SurveyAnswerHilight.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurveyAnswerHilight.dds" />
+		<texture name="SurverySliderBarBG.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurverySliderBarBG.dds" />
+		<texture name="SurverySliderBarFill.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurverySliderBarFill.dds" />
+		<texture name="SurverySliderBarMarker.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurverySliderBarMarker.dds" />
+		<texture name="SurveyTShirtHilight.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/SurveyTShirtHilight.dds" />
+		<texture name="cover.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/cover.dds" />
+		<texture name="ButtonPromptBar.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/ButtonPromptBar.dds" />
+		<texture name="Commerce.dds" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/HUDtextures/Commerce.dds" />
+		<collision name="Commerce_Point.hkx" deferred_loading="false" protected="false" file="environments/deadisland_plaza/deadisland_props/models/objects/commerce_point/Preorder_Point.hkx" />
+		<soundbank name="DeadIsland_Survey_Bank.bnk" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/Sound/DeadIsland_Survey_Bank.bnk" />
+		<soundstream name="Menu_Music.mp3" deferred_loading="false" protected="false" file="MiniGames/DeadIsland/DeadIslandSurvey/Sound/Menu_Music.mp3" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/Controller.lua" />
+		<lua name="DeadIslandSurveyHud.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/DeadIslandSurveyHud.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/Math.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/Jamin.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/OHS.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/NetLib.lua" />
+		<lua name="Remote.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/Util/Remote.lua" />
+		<lua name="Serialize.lua" deferred_loading="false" protected="true" file="MiniGames/DeadIsland/DeadIslandSurvey/Code/Util/Serialize.lua" />
+	</local>
+	<external />
+</resources>

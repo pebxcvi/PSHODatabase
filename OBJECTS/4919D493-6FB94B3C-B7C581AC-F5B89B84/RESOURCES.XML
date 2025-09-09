@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="chicken_leg.mdl" deferred_loading="true" protected="false" file="Locomotion/chicken_leg.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LMO_Chicken_Leg/file/config.xml" memory="host" />
+		<anim name="LMO_Chicken_Leg_Idle_M.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/anim/LMO_Chicken_Leg_Idle_M.ani" memory="host" />
+		<anim name="LMO_Chicken_Leg_Emote_M.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/anim/LMO_Chicken_Leg_Emote_M.ani" />
+		<anim name="LMO_Chicken_Leg_Walk_M.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/anim/LMO_Chicken_Leg_Walk_M.ani" memory="host" />
+		<anim name="LMO_Chicken_Leg_Idle_F.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/anim/LMO_Chicken_Leg_Idle_F.ani" memory="host" />
+		<anim name="LMO_Chicken_Leg_Emote_F.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/anim/LMO_Chicken_Leg_Emote_F.ani" />
+		<anim name="LMO_Chicken_Leg_Walk_F.ani" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/anim/LMO_Chicken_Leg_Walk_F.ani" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LMO_Chicken_Leg/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/LMO_Sword/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

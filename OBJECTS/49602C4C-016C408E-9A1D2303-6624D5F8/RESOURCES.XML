@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="FreeRing" deferred_loading="false" protected="false" file="environments/homesquare4/furniture/CafeTable_Selection.mdl" />
+		<model name="Selecter" deferred_loading="false" protected="false" file="environments/homesquare4/furniture/CafeTable_Green.mdl" />
+		<model name="ChairHighlight" deferred_loading="false" protected="false" file="environments/homesquare4/furniture/CafeChair_Selection.mdl" />
+		<model name="ChairSelecter" deferred_loading="false" protected="false" file="environments/homesquare4/furniture/CafeChair_Green.mdl" />
+		<model name="Cup" deferred_loading="false" protected="false" file="environments/homesquare4/furniture/CoffeeCup.mdl" />
+		<texture name="seat" deferred_loading="false" protected="false" file="MiniGames/Cafe/file/Seat.dds" />
+		<texture name="scrollbar_bottom.dds" deferred_loading="false" protected="false" file="portables/Twitter-feed/Images/scrollbar_bottom.dds" />
+		<texture name="scrollbar_middle.dds" deferred_loading="false" protected="false" file="portables/Twitter-feed/Images/scrollbar_middle.dds" />
+		<texture name="scrollbar_top.dds" deferred_loading="false" protected="false" file="portables/Twitter-feed/Images/scrollbar_top.dds" />
+		<texture name="bounce_blur_b.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/bounce_blur_b.dds" />
+		<texture name="bounce_blur_t.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/bounce_blur_t.dds" />
+		<texture name="Retweet-default.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/Retweet-default.dds" />
+		<texture name="Retweet-hover.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/Retweet-hover.dds" />
+		<texture name="Retweet-on.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/Retweet-on.dds" />
+		<texture name="round8-bl.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/round8-bl.dds" />
+		<texture name="round8-br.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/round8-br.dds" />
+		<texture name="round8-tl.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/round8-tl.dds" />
+		<texture name="round8-tr.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/round8-tr.dds" />
+		<texture name="thumbnail_overlay.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/thumbnail_overlay.dds" />
+		<texture name="Twitter_logo_blue.dds" deferred_loading="false" protected="false" file="Platform/Libs/Images/Twitter_logo_blue.dds" />
+		<texture name="updatingIcon.dds" deferred_loading="false" protected="false" file="MiniGames/Cafe/file/updatingIcon.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Cafe/file/Network.xml" />
+		<file name="LT_54685.ttf" deferred_loading="false" protected="false" file="Platform/Libs/Twitter-fonts/LT_54685.ttf" />
+		<file name="TwitAppCred.dat" deferred_loading="false" protected="false" file="MiniGames/Single_player_twitter_enabled_mini-game_template/file/TwitAppCred.dat" />
+		<anim name="CAFE_DRINK_SIT_F_02.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_DRINK_SIT_F_02.ani" />
+		<anim name="CAFE_DRINK_SIT_F_03.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_DRINK_SIT_F_03.ani" />
+		<anim name="CAFE_IDLE_SIT_F_01.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_IDLE_SIT_F_01.ani" />
+		<anim name="CAFE_IDLE_SIT_F_02.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_IDLE_SIT_F_02.ani" />
+		<anim name="CAFE_IDLE_SIT_M_02.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_IDLE_SIT_M_02.ani" />
+		<anim name="CAFE_IDLE_SIT_M_01.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_IDLE_SIT_M_01.ani" />
+		<anim name="CAFE_DRINK_SIT_M_03.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_DRINK_SIT_M_03.ani" />
+		<anim name="CAFE_DRINK_SIT_M_02.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_DRINK_SIT_M_02.ani" />
+		<anim name="CAFE_DRINK_SIT_M_01.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_DRINK_SIT_M_01.ani" />
+		<anim name="CAFE_IDLE_SIT_F_04.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_IDLE_SIT_F_04.ani" />
+		<anim name="CAFE_IDLE_SIT_F_05.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_IDLE_SIT_F_05.ani" />
+		<anim name="CAFE_IDLE_SIT_F_06.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_IDLE_SIT_F_06.ani" />
+		<anim name="CAFE_IDLE_SIT_F_07.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_IDLE_SIT_F_07.ani" />
+		<anim name="CAFE_IDLE_SIT_M_04.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_IDLE_SIT_M_04.ani" />
+		<anim name="CAFE_IDLE_SIT_M_05.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_IDLE_SIT_M_05.ani" />
+		<anim name="CAFE_IDLE_SIT_M_06.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_IDLE_SIT_M_06.ani" />
+		<anim name="CAFE_IDLE_SIT_M_07.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_IDLE_SIT_M_07.ani" />
+		<anim name="CAFE_IDLE_SIT_M_03.ani" deferred_loading="false" protected="false" file="homesquare4/animations/male/CAFE_IDLE_SIT_M_03.ani" />
+		<anim name="CAFE_IDLE_SIT_F_03.ani" deferred_loading="false" protected="false" file="homesquare4/animations/female/CAFE_IDLE_SIT_F_03.ani" />
+		<repertoire name="male_repertoire" deferred_loading="false" protected="false" file="MiniGames/Cafe/animations/male_repertoire.xml" />
+		<repertoire name="female_repertoire" deferred_loading="false" protected="false" file="MiniGames/Cafe/animations/female_repertoire.xml" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="MiniGames/Cafe/animations/male_emotes.xml" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="MiniGames/Cafe/animations/female_emotes.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/MiniGame.lua" />
+		<lua name="cafe.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/cafe.lua" />
+		<lua name="Canvas.lua" deferred_loading="false" protected="true" file="libs/gui/Canvas.lua" />
+		<lua name="Colours.lua" deferred_loading="false" protected="true" file="libs/gui/Colours.lua" />
+		<lua name="ThreadManager.lua" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" />
+		<lua name="animregisters.lua" deferred_loading="false" protected="true" file="libs/util/animregisters.lua" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/Pad.lua" />
+		<lua name="film.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/film.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="libs/system/Log.lua" />
+		<lua name="Easing.lua" deferred_loading="false" protected="true" file="libs/util/Easing.lua" />
+		<lua name="Seat.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/Seat.lua" />
+		<lua name="Table.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/Table.lua" />
+		<lua name="Messages.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/Messages.lua" />
+		<lua name="Render.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/Render.lua" />
+		<lua name="Basics.lua" deferred_loading="false" protected="true" file="Platform/Libs/Basics.lua" />
+		<lua name="OAuthUtils.lua" deferred_loading="false" protected="true" file="Platform/Libs/OAuthUtils.lua" />
+		<lua name="SmoothUtils.lua" deferred_loading="false" protected="true" file="Platform/Libs/SmoothUtils.lua" />
+		<lua name="Twitter.lua" deferred_loading="false" protected="true" file="Platform/Libs/Twitter.lua" />
+		<lua name="TwitterGui.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/TwitterGui.lua" />
+		<lua name="TwitterInit.lua" deferred_loading="false" protected="true" file="MiniGames/Cafe/lua/TwitterInit.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="ps4/Active/PS4_console_cabinet.mdl" />
+		<file name="DefaultConfig.xml" deferred_loading="false" protected="true" file="ps4/Active/DefaultConfig.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="ps4/Active/PS4_console_cabinet.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="ps4/Active/PS4ActiveMain.lua" />
+	</local>
+	<external />
+</resources>

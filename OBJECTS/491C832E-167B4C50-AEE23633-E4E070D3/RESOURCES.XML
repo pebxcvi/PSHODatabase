@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model_right.mdl" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_03/model/model_right.mdl" memory="host" />
+		<model name="model_left.mdl" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_03/model/model_left.mdl" memory="host" />
+		<model name="model_right_lo.mdl" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_03/model/model_right_lo.mdl" memory="host" />
+		<model name="model_left_lo.mdl" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_03/model/model_left_lo.mdl" memory="host" />
+		<particle name="jet_00.efx" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/particle/jet_00.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/fidle.ani" memory="host" />
+		<anim name="jump.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/jump.ani" memory="host" />
+		<anim name="fjump.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/fjump.ani" memory="host" />
+		
+		<anim name="boots_effect.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/boots_effect.ani" memory="host" />
+		<anim name="boots_idle.ani" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/anim/boots_idle.ani" memory="host" />
+		
+		<soundbank name="sound.bnk" deferred_loading="true" protected="false" file="Locomotion/soundbank/boostershoes.bnk" memory="main" />
+		
+		<skeleton name="model_right.skn" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/skeleton/model_right.skn" memory="host" />
+		<skeleton name="model_left.skn" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/skeleton/model_left.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Apl2013_jetBoots_00/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Apl2013_jetBoots_00/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

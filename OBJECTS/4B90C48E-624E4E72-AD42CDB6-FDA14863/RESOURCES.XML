@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Sleep_1_mdl" deferred_loading="false" file="JapanEvents/09YearEnd/ShilverFence/shiverfence.mdl" />
+		<model name="Flag1_1_mdl" deferred_loading="true" file="JapanEvents/09YearEnd/CentralXmasTree/illuminatedxmastree.mdl" />
+		<model name="Flag2_1_mdl" deferred_loading="true" file="JapanEvents/09YearEnd/CentralXmasTree/illuminatedxmastreesp.mdl" />
+		<model name="Flag3_1_mdl" deferred_loading="true" file="JapanEvents/09YearEnd/ShilverFence/shiverfence.mdl" />
+		<model name="Flag4_1_mdl" deferred_loading="true" file="JapanEvents/locoroco/locoroconewyear/locoroconewyear.mdl" />
+		<model name="Flag4_2_mdl" deferred_loading="true" file="JapanEvents/locoroco/locoroco_newyear_2d_a/locoroco_newyear_2d_a.mdl" />
+		<model name="Flag4_3_mdl" deferred_loading="true" file="JapanEvents/locoroco/locoroco_newyear_2d_b/locoroco_newyear_2d_b.mdl" />
+		<texture name="spotlightmask_default_tex" deferred_loading="false" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/textures/spotlightmask_default.dds" />
+		<file name="Network_xml" deferred_loading="false" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/Network.xml" />
+		<file name="always_osd" deferred_loading="false" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/osd/always.xml" />
+		<file name="selectbar_osd" deferred_loading="false" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/osd/selectbar.xml" />
+		<file name="types_osd" deferred_loading="false" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/osd/types.xml" />
+		<collision name="Sleep_1_hkx" deferred_loading="false" file="JapanEvents/09YearEnd/ShilverFence/shiverfence.hkx" />
+		<collision name="Flag1_1_hkx" deferred_loading="true" file="JapanEvents/09YearEnd/CentralXmasTree/central_xmas_tree.hkx" />
+		<collision name="Flag2_1_hkx" deferred_loading="true" file="JapanEvents/09YearEnd/CentralXmasTree/central_xmas_tree.hkx" />
+		<collision name="Flag3_1_hkx" deferred_loading="true" file="JapanEvents/09YearEnd/ShilverFence/shiverfence.hkx" />
+		<collision name="Flag4_1_hkx" deferred_loading="true" file="JapanEvents/locoroco/locoroconewyear/locoroconewyear.hkx" />
+		<lua name="main" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/main.lua" />
+		<lua name="ajust_propaty" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/ajust_propaty.lua" />
+		<lua name="eventOsd" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/eventOsd.lua" />
+		<lua name="eventTrigger" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/eventTrigger.lua" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/paHomeCommon.lua" />
+		<lua name="paHomeDbgCommon" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/paHomeDbgCommon.lua" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/paHomeServerBase.lua" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/paHomeServerTrigger.lua" />
+		<lua name="paHomeUI" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/paHomeUI.lua" />
+		<lua name="globalmain" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/globalmain.lua" />
+		<lua name="registUpdate" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/registUpdate.lua" />
+		<lua name="eventCommon" deferred_loading="false" protected="true" file="Objects/4B90C48E-624E4E72-AD42CDB6-FDA14863/resource/eventCommon.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="MG09_workout_bench.mdl" deferred_loading="false" protected="false" file="MiniGames/MG09/Models/MG09_workout_bench.mdl" />
+		<model name="MG09_weightbar_level09.mdl" deferred_loading="false" protected="false" file="MiniGames/MG09/Models/MG09_weightbar_level09.mdl" />
+		<model name="MG09_white_rectangle.mdl" deferred_loading="false" protected="false" file="MiniGames/MG09/Models/MG09_white_rectangle.mdl" memory="host" />
+		<model name="MG09_black_rectangle.mdl" deferred_loading="false" protected="false" file="MiniGames/MG09/Models/MG09_black_rectangle.mdl" memory="host" />
+		<model name="MG09_green_rectangle.mdl" deferred_loading="false" protected="false" file="MiniGames/MG09/Models/MG09_green_rectangle.mdl" memory="host" />
+		<model name="MG09_red_rectangle.mdl" deferred_loading="false" protected="false" file="MiniGames/MG09/Models/MG09_red_rectangle.mdl" memory="host" />
+		<model name="led_red_9.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_9.mdl" />
+		<model name="led_red_0.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_0.mdl" />
+		<model name="led_red_1.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_1.mdl" />
+		<model name="led_red_2.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_2.mdl" />
+		<model name="led_red_3.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_3.mdl" />
+		<model name="led_red_4.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_4.mdl" />
+		<model name="led_red_5.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_5.mdl" />
+		<model name="led_red_6.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_6.mdl" />
+		<model name="led_red_7.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_7.mdl" />
+		<model name="led_red_8.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/led_red_8.mdl" />
+		<texture name="CountDown3" deferred_loading="false" file="generic_shared_textures/Number_3.dds" />
+		<texture name="CountDown1" deferred_loading="false" file="generic_shared_textures/Number_1.dds" />
+		<texture name="CountDown2" deferred_loading="false" file="generic_shared_textures/Number_2.dds" />
+		<texture name="CountDown0" deferred_loading="false" file="generic_shared_textures/Go.dds" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG09/OSD/types.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<anim name="lift_cycle_male.ani" deferred_loading="false" protected="false" file="MiniGames/MG09/Animations/male/lift_cycle.ani" />
+		<anim name="Idle_SetOnRack_male.ani" deferred_loading="false" protected="false" file="MiniGames/MG09/Animations/male/Idle_SetOnRack.ani" />
+		<anim name="idle_SetOnRack_female.ani" deferred_loading="false" protected="false" file="MiniGames/MG09/Animations/female/idle_SetOnRack.ani" />
+		<anim name="lift_cycle_female.ani" deferred_loading="false" protected="false" file="MiniGames/MG09/Animations/female/lift_cycle.ani" />
+		<repertoire name="mg09_animations_male" deferred_loading="false" protected="false" file="MiniGames/MG09/mg09_animations_male.xml" />
+		<repertoire name="mg09_animations_female" deferred_loading="false" protected="false" file="MiniGames/MG09/mg09_animations_female.xml" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG09/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG09/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG09/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG09/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG09/Source/Player.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG09/Source/Settings.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+	</local>
+	<external />
+</resources>

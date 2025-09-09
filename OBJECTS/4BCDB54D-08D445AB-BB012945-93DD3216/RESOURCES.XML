@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Reindeer.mdl" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/Reindeer.mdl" memory="host" />
+		<model name="Reindeer_LOD.mdl" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/Reindeer_LOD.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Reindeer_LMO/file/config.xml" memory="host" />
+		<anim name="Reindeer_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/Reindeer_Idle.ani" memory="host" />
+		<anim name="Reindeer_Run.ani" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/Reindeer_Run.ani" memory="host" />
+		<anim name="Reindeer_Sprint.ani" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/Reindeer_Sprint.ani" memory="host" />
+		<anim name="F_Reindeer_Run" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/F_Reindeer_Run.ani" memory="host" />
+		<anim name="F_Reindeer_Sprint" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/F_Reindeer_Sprint.ani" memory="host" />
+		<anim name="M_Reindeer_Run" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/M_Reindeer_Run.ani" memory="host" />
+		<anim name="M_Reindeer_Sprint" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/M_Reindeer_Sprint.ani" memory="host" />
+		<anim name="F_Reindeer_Idle" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/F_Reindeer_Idle.ani" memory="host" />
+		<anim name="M_Reindeer_Idle" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/M_Reindeer_Idle.ani" memory="host" />
+		<skeleton name="Reindeer.skn" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/Reindeer.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Reindeer_LMO/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Reindeer_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

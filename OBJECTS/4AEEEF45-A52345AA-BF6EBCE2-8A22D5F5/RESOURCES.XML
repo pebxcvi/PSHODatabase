@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mg_bom_mdl" deferred_loading="false" protected="false" file="environmentanimations/bomberman/mg_bom.mdl" />
+		<model name="position_cube_mdl" deferred_loading="false" protected="false" file="environmentanimations/bomberman/position_cube.mdl" />
+		<model name="bman_key_01" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_key_01.mdl" />
+		<model name="bman_key_03" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_key_03.mdl" />
+		<model name="bman_key_02" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_key_02.mdl" />
+		<texture name="b_mini008_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini008.dds" />
+		<texture name="b_mini002_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini002.dds" />
+		<texture name="b_mini003_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini003.dds" />
+		<texture name="b_mini004_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini004.dds" />
+		<texture name="b_mini001b_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini001b.dds" />
+		<texture name="b_mini001a_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini001a.dds" />
+		<texture name="b_time_dds_3" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini005.dds" />
+		<texture name="b_time_dds_2" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini006.dds" />
+		<texture name="b_time_dds_1" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini007.dds" />
+		<texture name="b_mini010_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini010.dds" />
+		<texture name="b_mini001c_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini001c.dds" />
+		<texture name="b_mini001d_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini001d.dds" />
+		<texture name="keyo_icon_1" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/bsA.dds" />
+		<texture name="keyo_icon_2" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/bsB.dds" />
+		<texture name="keyo_icon_3" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/bsC.dds" />
+		<texture name="keyx_icon_1" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/bsAx.dds" />
+		<texture name="keyx_icon_2" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/bsBx.dds" />
+		<texture name="keyx_icon_3" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/bsCx.dds" />
+		<texture name="shoujyou" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/b_mini009.dds" />
+		<texture name="de_b_mini010_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/de_b_mini010.dds" />
+		<texture name="es_b_mini010_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/es_b_mini010.dds" />
+		<texture name="fr_b_mini010_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/fr_b_mini010.dds" />
+		<texture name="it_b_mini010_dds" deferred_loading="false" protected="false" file="MiniGames/bombgame/spr/it_b_mini010.dds" />
+		<particle name="bd_mg_exp_efx" deferred_loading="false" protected="false" file="ATGParticles/bomberdome_effect/Efx/bd_mg_exp_01.efx" memory="host" />
+		<file name="osd_guidechip" deferred_loading="false" protected="false" file="MiniGames/bombgame/guidechip.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="MiniGames/bombgame/types.xml" />
+		<file name="Network" deferred_loading="false" protected="false" file="MiniGames/bombgame/Network.xml" />
+		<file name="osd_scorewindow" deferred_loading="false" protected="false" file="MiniGames/bombgame/score.xml" />
+		<file name="osd_roundmes" deferred_loading="false" protected="false" file="MiniGames/bombgame/round.xml" />
+		<file name="osd_levelmes" deferred_loading="false" protected="false" file="MiniGames/bombgame/level.xml" />
+		<file name="osd_result" deferred_loading="false" protected="false" file="MiniGames/bombgame/result.xml" />
+		<collision name="mg_bom_hkx" deferred_loading="false" protected="false" file="environmentanimations/bomberman/mg_bom.hkx" />
+		<anim name="mg_bom_ani" deferred_loading="false" protected="false" file="environmentanimations/bomberman/mg_bom.ani" />
+		<anim name="position_cube_ani" deferred_loading="false" protected="false" file="environmentanimations/bomberman/position_cube.ani" />
+		<anim name="bman_key_ani" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_key_01.ani" />
+		<skeleton name="mg_bom_skn" deferred_loading="false" protected="false" file="environmentanimations/bomberman/mg_bom.skn" />
+		<skeleton name="position_cube_skn" deferred_loading="false" protected="false" file="environmentanimations/bomberman/position_cube.skn" />
+		<skeleton name="bman_key_skn" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_key_01.skn" />
+		<soundbank name="bgm_svb_bnk" deferred_loading="true" protected="false" file="environments/bomber_dome/audio/bgm_svb.bnk" memory="host" />
+		<lua name="bombgame" deferred_loading="false" protected="true" file="MiniGames/bombgame/main.lua" />
+		<lua name="random" deferred_loading="false" protected="true" file="MiniGames/bombgame/random.lua" />
+		<lua name="const" deferred_loading="false" protected="true" file="MiniGames/bombgame/const_white.lua" />
+		<lua name="netmessage" deferred_loading="false" protected="true" file="MiniGames/bombgame/netmessage.lua" />
+		<lua name="resultwin" deferred_loading="false" protected="true" file="MiniGames/bombgame/resultwin.lua" />
+	</local>
+	<external />
+</resources>

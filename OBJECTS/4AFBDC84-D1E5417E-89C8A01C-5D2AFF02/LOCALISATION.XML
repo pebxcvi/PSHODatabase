@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="en-GB">Redemption Center</LANG>
+    <LANG ID="fr-FR">Boutique</LANG>
+    <LANG ID="de-DE">Einlösestelle</LANG>
+    <LANG ID="it-IT">Centro riscatto punti</LANG>
+    <LANG ID="es-ES">Centro de canje</LANG>
+    <LANG ID="ja-JP">ホットゾーンポイント交換所</LANG>
+    <LANG ID="ko-KR">교환 센터</LANG>
+    <LANG ID="en-SG">Redemption Center</LANG>
+    <LANG ID="zh-HK">兌換中心</LANG>
+    <LANG ID="zh-TW">兌換中心</LANG>
+    <LANG ID="en-US">Redemption Center</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="en-GB">Redemption Center[#Legal]</LANG>
+    <LANG ID="fr-FR">Boutique[#Legal]</LANG>
+    <LANG ID="de-DE">Einlösestelle[#Legal]</LANG>
+    <LANG ID="it-IT">Centro riscatto punti[#Legal]</LANG>
+    <LANG ID="es-ES">Centro de canje[#Legal]</LANG>
+    <LANG ID="ja-JP">ホットゾーンポイント交換所[#Legal]</LANG>
+    <LANG ID="ko-KR">교환 센터[#Legal]</LANG>
+    <LANG ID="en-SG">Redemption Center[#Legal]</LANG>
+    <LANG ID="zh-HK">兌換中心[#Legal]</LANG>
+    <LANG ID="zh-TW">兌換中心[#Legal]</LANG>
+    <LANG ID="en-US">Redemption Center[#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendSearch</LANG>
+    <LANG ID="en-GB">[CIRCLE] Exit    [LEFT][RIGHT] Scroll    [CROSS] Select</LANG>
+    <LANG ID="fr-FR">[CIRCLE] Sortie   [LEFT][RIGHT] Faites défiler    [CROSS] Sélectionner</LANG>
+    <LANG ID="de-DE">[CIRCLE] Ausgang    [LEFT][RIGHT] Blättern Sie    [CROSS] Wählen</LANG>
+    <LANG ID="it-IT">[CIRCLE] Uscita   [LEFT][RIGHT] Scorrere   [CROSS] Selezionare</LANG>
+    <LANG ID="es-ES">[CIRCLE] Salida    [LEFT][RIGHT] Desplácese    [CROSS] Seleccionar</LANG>
+    <LANG ID="ja-JP">[DECLINE] 終了    [LEFT][RIGHT] スクロール    [ACCEPT]選択</LANG>
+    <LANG ID="ko-KR">[CIRCLE] 나가기    [LEFT][RIGHT] 스크롤   [CROSS] 선택</LANG>
+    <LANG ID="en-SG">[CIRCLE] Exit    [LEFT][RIGHT] Scroll    [CROSS] Select</LANG>
+    <LANG ID="zh-HK">[CIRCLE] 離開   [LEFT][RIGHT] 捲動    [CROSS] 選擇</LANG>
+    <LANG ID="zh-TW">[CIRCLE] 離開   [LEFT][RIGHT] 捲動    [CROSS] 選擇</LANG>
+    <LANG ID="en-US">[CIRCLE] Exit    [LEFT][RIGHT] Scroll    [CROSS] Select</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendBuy</LANG>
+    <LANG ID="en-GB">[CIRCLE] Cancel    [CROSS] Redeem Points</LANG>
+    <LANG ID="fr-FR">[CIRCLE] Annuler    [CROSS] Échangez vos points</LANG>
+    <LANG ID="de-DE">[CIRCLE] Stornieren    [CROSS] Punkte einlösen</LANG>
+    <LANG ID="it-IT">[CIRCLE] Annullare   [CROSS] Riscatta i punti</LANG>
+    <LANG ID="es-ES">[CIRCLE] Cancelar    [CROSS] Canjear puntos</LANG>
+    <LANG ID="ja-JP">[DECLINE] キャンセル    [ACCEPT] ポイント交換</LANG>
+    <LANG ID="ko-KR">[CIRCLE] 취소    [CROSS] 포인트 교환하기</LANG>
+    <LANG ID="en-SG">[CIRCLE] Cancel    [CROSS] Redeem Points</LANG>
+    <LANG ID="zh-HK">[CIRCLE] 取消   [CROSS] 積分兌換</LANG>
+    <LANG ID="zh-TW">[CIRCLE] 取消   [CROSS] 積分兌換</LANG>
+    <LANG ID="en-US">[CIRCLE] Cancel    [CROSS] Redeem Points</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendExit</LANG>
+    <LANG ID="en-GB">[DECLINE] Exit</LANG>
+    <LANG ID="fr-FR">[DECLINE] Sortie</LANG>
+    <LANG ID="de-DE">[DECLINE] Ausgang</LANG>
+    <LANG ID="it-IT">[DECLINE] Uscita</LANG>
+    <LANG ID="es-ES">[DECLINE] Salida</LANG>
+    <LANG ID="ja-JP">[DECLINE] 終了する</LANG>
+    <LANG ID="ko-KR">[DECLINE] 나가기</LANG>
+    <LANG ID="en-SG">[DECLINE] Exit</LANG>
+    <LANG ID="zh-HK">[DECLINE] 離開</LANG>
+    <LANG ID="zh-TW">[DECLINE] 離開</LANG>
+    <LANG ID="en-US">[DECLINE] Exit</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendScroll</LANG>
+    <LANG ID="en-GB">[LEFT][RIGHT] Scroll</LANG>
+    <LANG ID="fr-FR">[LEFT][RIGHT] Faites défiler</LANG>
+    <LANG ID="de-DE">[LEFT][RIGHT] Blättern Sie</LANG>
+    <LANG ID="it-IT">[LEFT][RIGHT] Scorrere</LANG>
+    <LANG ID="es-ES">[LEFT][RIGHT] Desplácese</LANG>
+    <LANG ID="ja-JP">[LEFT][RIGHT] スクロール</LANG>
+    <LANG ID="ko-KR">[LEFT][RIGHT] 스크롤</LANG>
+    <LANG ID="en-SG">[LEFT][RIGHT] Scroll</LANG>
+    <LANG ID="zh-HK">[LEFT][RIGHT] 捲動</LANG>
+    <LANG ID="zh-TW">[LEFT][RIGHT] 捲動</LANG>
+    <LANG ID="en-US">[LEFT][RIGHT] Scroll</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendSelect</LANG>
+    <LANG ID="en-GB">[ACCEPT] Select</LANG>
+    <LANG ID="fr-FR">[ACCEPT] Sélectionner</LANG>
+    <LANG ID="de-DE">[ACCEPT] Wählen</LANG>
+    <LANG ID="it-IT">[ACCEPT] Selezionare</LANG>
+    <LANG ID="es-ES">[ACCEPT] Seleccionar</LANG>
+    <LANG ID="ja-JP">[ACCEPT] 選択する</LANG>
+    <LANG ID="ko-KR">[ACCEPT] 선택</LANG>
+    <LANG ID="en-SG">[ACCEPT] Select</LANG>
+    <LANG ID="zh-HK">[ACCEPT] 選擇</LANG>
+    <LANG ID="zh-TW">[ACCEPT] 選擇</LANG>
+    <LANG ID="en-US">[ACCEPT] Select</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendCancel</LANG>
+    <LANG ID="en-GB">[DECLINE] Cancel</LANG>
+    <LANG ID="fr-FR">[DECLINE] Annuler</LANG>
+    <LANG ID="de-DE">[DECLINE] Stornieren</LANG>
+    <LANG ID="it-IT">[DECLINE] Annullare</LANG>
+    <LANG ID="es-ES">[DECLINE] Cancelar</LANG>
+    <LANG ID="ja-JP">[DECLINE] キャンセル</LANG>
+    <LANG ID="ko-KR">[DECLINE] 취소</LANG>
+    <LANG ID="en-SG">[DECLINE] Cancel</LANG>
+    <LANG ID="zh-HK">[DECLINE] 取消</LANG>
+    <LANG ID="zh-TW">[DECLINE] 取消</LANG>
+    <LANG ID="en-US">[DECLINE] Cancel</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendRedeem</LANG>
+    <LANG ID="en-GB">[ACCEPT] Redeem Points</LANG>
+    <LANG ID="fr-FR">[ACCEPT] Utilisation des points</LANG>
+    <LANG ID="de-DE">[ACCEPT] Punkte einlösen</LANG>
+    <LANG ID="it-IT">[ACCEPT] Riscatta punti</LANG>
+    <LANG ID="es-ES">[ACCEPT] Canjear puntos</LANG>
+    <LANG ID="ja-JP">[ACCEPT] ポイント交換</LANG>
+    <LANG ID="ko-KR">[ACCEPT] 포인트를 보너스</LANG>
+    <LANG ID="en-SG">[ACCEPT] Redeem Points</LANG>
+    <LANG ID="zh-HK">[ACCEPT] 積分兌換</LANG>
+    <LANG ID="zh-TW">[ACCEPT] 積分兌換</LANG>
+    <LANG ID="en-US">[ACCEPT] Redeem Points</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Confirm</LANG>
+    <LANG ID="en-GB">Redeem your Hot Zone Points for this wonderful reward!</LANG>
+    <LANG ID="fr-FR">Utilise tes points Hot Zone pour obtenir ce fantastique objet  !</LANG>
+    <LANG ID="de-DE">Lös deine Hot Zone-Punkte gegen diese fantastische Prämie ein!</LANG>
+    <LANG ID="it-IT">Riscatta i tuoi punti Hot Zone per ottenere questo fantastico premio!</LANG>
+    <LANG ID="es-ES">¡Canjea tus puntos Hot Zone por esta magnífica recompensa!</LANG>
+    <LANG ID="ja-JP">この素晴らしい報酬のためにホットゾーンポイントを交換！</LANG>
+    <LANG ID="ko-KR">여러분의 핫존 포인트를 이 멋진 리워드로 교환하세요!</LANG>
+    <LANG ID="en-SG">Redeem your Hot Zone Points for this wonderful reward!</LANG>
+    <LANG ID="zh-HK">以你的Hot Zone積分兌換這個美妙的獎品道具！</LANG>
+    <LANG ID="zh-TW">以你的Hot Zone積分兌換這個美妙的獎品道具！</LANG>
+    <LANG ID="en-US">Redeem your Hot Zone Points for this wonderful reward!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Bought</LANG>
+    <LANG ID="en-GB">Congratulations. Redemption successful!</LANG>
+    <LANG ID="fr-FR">Félicitations. Récompense obtenue !</LANG>
+    <LANG ID="de-DE">Herzlichen Glückwunsch! Die Punkte wurden eingelöst.</LANG>
+    <LANG ID="it-IT">Congratulazioni. Il riscatto dei punti è stato completato con successo!</LANG>
+    <LANG ID="es-ES">Enhorabuena. ¡El canje se ha realizado con éxito!</LANG>
+    <LANG ID="ja-JP">おめでとうございます。交換成功です！</LANG>
+    <LANG ID="ko-KR">축하드립니다. 교환 성공!</LANG>
+    <LANG ID="en-SG">Congratulations. Redemption successful!</LANG>
+    <LANG ID="zh-HK">恭喜。兌換成功！</LANG>
+    <LANG ID="zh-TW">恭喜。兌換成功！</LANG>
+    <LANG ID="en-US">Congratulations. Redemption successful!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegendSearchNobuy</LANG>
+    <LANG ID="en-GB">[CIRCLE] Exit    [LEFT][RIGHT] Scroll</LANG>
+    <LANG ID="fr-FR">[CIRCLE] Sortie    [LEFT][RIGHT] Faites défiler</LANG>
+    <LANG ID="de-DE">[CIRCLE] Ausgang    [LEFT][RIGHT] Blättern Sie</LANG>
+    <LANG ID="it-IT">[CIRCLE] Uscita   [LEFT][RIGHT] Scorrere</LANG>
+    <LANG ID="es-ES">[CIRCLE] Salida    [LEFT][RIGHT] Desplácese</LANG>
+    <LANG ID="ja-JP">[DECLINE] 終了    [LEFT][RIGHT] スクロール</LANG>
+    <LANG ID="ko-KR">[CIRCLE] 나가기   [LEFT][RIGHT] 스크롤</LANG>
+    <LANG ID="en-SG">[CIRCLE] Exit    [LEFT][RIGHT] Scroll</LANG>
+    <LANG ID="zh-HK">[CIRCLE] 離開   [LEFT][RIGHT] 捲動</LANG>
+    <LANG ID="zh-TW">[CIRCLE] 離開   [LEFT][RIGHT] 捲動</LANG>
+    <LANG ID="en-US">[CIRCLE] Exit    [LEFT][RIGHT] Scroll</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">MassMediaInc</LANG>
+    <LANG ID="en-GB">Mass Media Games, Inc.</LANG>
+    <LANG ID="fr-FR">Mass Media Games, Inc.</LANG>
+    <LANG ID="de-DE">Mass Media Games, Inc.</LANG>
+    <LANG ID="it-IT">Mass Media Games, Inc.</LANG>
+    <LANG ID="es-ES">Mass Media Games, Inc.</LANG>
+    <LANG ID="ja-JP">Mass Media Games, Inc.</LANG>
+    <LANG ID="ko-KR">Mass Media Games, Inc.</LANG>
+    <LANG ID="en-SG">Mass Media Games, Inc.</LANG>
+    <LANG ID="zh-HK">Mass Media Games, Inc.</LANG>
+    <LANG ID="zh-TW">Mass Media Games, Inc.</LANG>
+    <LANG ID="en-US">Mass Media Games, Inc.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Title</LANG>
+    <LANG ID="en-GB">REDEMPTION CENTER</LANG>
+    <LANG ID="fr-FR">BOUTIQUE</LANG>
+    <LANG ID="de-DE">EINLÖSESTELLE</LANG>
+    <LANG ID="it-IT">CENTRO RISCATTO PUNTI</LANG>
+    <LANG ID="es-ES">CENTRO DE CANJE</LANG>
+    <LANG ID="ja-JP">ホットゾーンポイント交換所</LANG>
+    <LANG ID="ko-KR">교환 센터</LANG>
+    <LANG ID="en-SG">REDEMPTION CENTER</LANG>
+    <LANG ID="zh-HK">兌換中心</LANG>
+    <LANG ID="zh-TW">兌換中心</LANG>
+    <LANG ID="en-US">REDEMPTION CENTER</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TitleSubtext</LANG>
+    <LANG ID="en-GB">Redeem your Hot Zone Points right here!</LANG>
+    <LANG ID="fr-FR">Utilise tes points Hot Zone ici même !</LANG>
+    <LANG ID="de-DE">Hier kannst du deine Hot Zone-Punkte einlösen!</LANG>
+    <LANG ID="it-IT">Riscatta i tuoi punti Hot Zone qui!</LANG>
+    <LANG ID="es-ES">¡Canjea tus puntos Hot Zone aquí mismo!</LANG>
+    <LANG ID="ja-JP">ここであなたのホットゾーンポイントを交換！</LANG>
+    <LANG ID="ko-KR">여기서 여러분의 핫존 포인트를 교환하세요!</LANG>
+    <LANG ID="en-SG">Redeem your Hot Zone Points right here!</LANG>
+    <LANG ID="zh-HK">在此兌換你的Hot Zone積分！</LANG>
+    <LANG ID="zh-TW">在此兌換你的Hot Zone積分！</LANG>
+    <LANG ID="en-US">Redeem your Hot Zone Points right here!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item1</LANG>
+    <LANG ID="en-GB">Elephant Flinger Vinyl Jacket (Male)</LANG>
+    <LANG ID="fr-FR">Veste vinyle Elephant Flinger (homme)</LANG>
+    <LANG ID="de-DE">Elephant Flinger-Vinyl-Jacke (Männer)</LANG>
+    <LANG ID="it-IT">Giacca in vinile Elephant Flinger (uomo)</LANG>
+    <LANG ID="es-ES">Chaqueta de vinilo Elephant Flinger (Hombre)</LANG>
+    <LANG ID="ja-JP">Elephant Flinger ジャケット（男性用）</LANG>
+    <LANG ID="ko-KR">코끼리 사살자 비닐 자켓 (남성)</LANG>
+    <LANG ID="en-SG">Elephant Flinger Vinyl Jacket (Men)</LANG>
+    <LANG ID="zh-HK">獵象者塑膠夾克(男用)</LANG>
+    <LANG ID="zh-TW">獵象者塑膠夾克(男用)</LANG>
+    <LANG ID="en-US">Elephant Flinger Vinyl Jacket (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item1Desc</LANG>
+    <LANG ID="en-GB">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="fr-FR">Parfaite pour si tu as soif de fortune et gloire, mais que tu n'as encore terminé les 10 niveaux de l'un de ces jeux.</LANG>
+    <LANG ID="de-DE">Für alle, die sich einen Namen als Superspieler machen wollen, aber einfach in keinem Spiel alle zehn Level schaffen.</LANG>
+    <LANG ID="it-IT">Per coloro che ambiscono alla grandezza e alla notorietà, ma non riescono ancora a completare tutti e dieci i livelli di uno di questi giochi.</LANG>
+    <LANG ID="es-ES">Para todos aquellos que buscan la fama y la popularidad, pero que todavía no han conseguido superar los diez niveles en ninguno de estos juegos.</LANG>
+    <LANG ID="ja-JP">誰もクリアできなかったレベル１０をクリアしたあなたに憧れのジャケットです。</LANG>
+    <LANG ID="ko-KR">위대함과 악명을 소원하지만 이 게임들의 10개 레벨을 도저히 완료 할 수 없는 분들께.[#Legal]</LANG>
+    <LANG ID="en-SG">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="zh-HK">給渴望偉大和知名度，但仍不能完成遊戲的任何全部十個級別的人。[#Legal]</LANG>
+    <LANG ID="zh-TW">給渴望偉大和知名度，但仍不能完成遊戲的任何全部十個級別的人。[#Legal]</LANG>
+    <LANG ID="en-US">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item2</LANG>
+    <LANG ID="en-GB">Elephant Flinger Vinyl Jacket (Female)</LANG>
+    <LANG ID="fr-FR">Veste vinyle Elephant Flinger (femme)</LANG>
+    <LANG ID="de-DE">Elephant Flinger-Vinyl-Jacke (Frauen)</LANG>
+    <LANG ID="it-IT">Giacca in vinile Elephant Flinger (donna)</LANG>
+    <LANG ID="es-ES">Chaqueta de vinilo Elephant Flinger (Mujer)</LANG>
+    <LANG ID="ja-JP">Elephant Flinger ジャケット（女性用）</LANG>
+    <LANG ID="ko-KR">코끼리 사살자 비닐 자켓 (여성)</LANG>
+    <LANG ID="en-SG">Elephant Flinger Vinyl Jacket (Women)</LANG>
+    <LANG ID="zh-HK">獵象者塑膠夾克(女用)</LANG>
+    <LANG ID="zh-TW">獵象者塑膠夾克(女用)</LANG>
+    <LANG ID="en-US">Elephant Flinger Vinyl Jacket (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item2Desc</LANG>
+    <LANG ID="en-GB">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="fr-FR">Parfaite pour si tu as soif de fortune et gloire, mais que tu n'as encore terminé les 10 niveaux de l'un de ces jeux.</LANG>
+    <LANG ID="de-DE">Für alle, die sich einen Namen als Superspieler machen wollen, aber einfach in keinem Spiel alle zehn Level schaffen.</LANG>
+    <LANG ID="it-IT">Per coloro che ambiscono alla grandezza e alla notorietà, ma non riescono ancora a completare tutti e dieci i livelli di uno di questi giochi.</LANG>
+    <LANG ID="es-ES">Para todas aquellas que buscan la fama y la popularidad, pero que todavía no han conseguido superar los diez niveles en ninguno de estos juegos.</LANG>
+    <LANG ID="ja-JP">誰もクリアできなかったレベル１０をクリアしたあなたに憧れのジャケットです。</LANG>
+    <LANG ID="ko-KR">위대함과 악명을 소원하지만 이 게임들의 10개 레벨을 도저히 완료 할 수 없는 분들께.[#Legal]</LANG>
+    <LANG ID="en-SG">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="zh-HK">記住，大象永遠不會忘記。這個奇妙的紫色大象頭，你的記憶容量增加約四十磅。[#Legal]</LANG>
+    <LANG ID="zh-TW">記住，大象永遠不會忘記。這個奇妙的紫色大象頭，你的記憶容量增加約四十磅。[#Legal]</LANG>
+    <LANG ID="en-US">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item3</LANG>
+    <LANG ID="en-GB">Mass Media Shirt (Male)</LANG>
+    <LANG ID="fr-FR">T-shirt Mass Media (homme)</LANG>
+    <LANG ID="de-DE">Mass Media-T-Shirt (Männer)</LANG>
+    <LANG ID="it-IT">Maglietta Mass Media (uomo)</LANG>
+    <LANG ID="es-ES">Camiseta Mass Media (Hombre)</LANG>
+    <LANG ID="ja-JP">Mass Media Tシャツ（男性用）</LANG>
+    <LANG ID="ko-KR">매스미디어 셔츠 (남성)</LANG>
+    <LANG ID="en-SG">Mass Media Shirt (Men)</LANG>
+    <LANG ID="zh-HK">Mass Media襯衫(男用)</LANG>
+    <LANG ID="zh-TW">Mass Media襯衫(男用)</LANG>
+    <LANG ID="en-US">Mass Media T-Shirt (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item3Desc</LANG>
+    <LANG ID="en-GB">Show your pride, show your spirit, show our blatant advertisement to the world at large!</LANG>
+    <LANG ID="fr-FR">Affiche ta fierté et ton énergie et fais découvrir notre pub éclatante au monde entier !</LANG>
+    <LANG ID="de-DE">Zeig Stolz, zeig Elan, zeig der Welt unsere Werbung!</LANG>
+    <LANG ID="it-IT">Mostra il tuo orgoglio, mostra il tuo spirito, mostra la nostra pubblicità sfacciata al mondo intero!</LANG>
+    <LANG ID="es-ES">Presume de orgullo y espíritu mientras nos haces publicidad de forma descarada ante todo el mundo.</LANG>
+    <LANG ID="ja-JP">これを着て私たちを宣伝してください！</LANG>
+    <LANG ID="ko-KR">자부심을 보여주세요, 열정을 보여주세요, 세상의 모든 사람에게 저희의 뻔한 광고를 보여주세요![#Legal]</LANG>
+    <LANG ID="en-SG">Show your pride, show your spirit, show our blatant advertisement to the world at large!</LANG>
+    <LANG ID="zh-HK">顯示你的驕傲，表明你的精神，也大方的向世界展現我們超級明顯的廣告吧！[#Legal]</LANG>
+    <LANG ID="zh-TW">顯示你的驕傲，表明你的精神，也大方的向世界展現我們超級明顯的廣告吧！[#Legal]</LANG>
+    <LANG ID="en-US">Show your pride, show your spirit, show our blatant advertisement to the world at large!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item4</LANG>
+    <LANG ID="en-GB">Mass Media Shirt (Female)</LANG>
+    <LANG ID="fr-FR">T-shirt Mass Media (femme)</LANG>
+    <LANG ID="de-DE">Mass Media-T-Shirt (Frauen)</LANG>
+    <LANG ID="it-IT">Maglietta Mass Media (donna)</LANG>
+    <LANG ID="es-ES">Camiseta Mass Media (Mujer)</LANG>
+    <LANG ID="ja-JP">Mass Media Tシャツ（女性用）</LANG>
+    <LANG ID="ko-KR">매스미디어 셔츠 (여성)</LANG>
+    <LANG ID="en-SG">Mass Media Shirt (Women)</LANG>
+    <LANG ID="zh-HK">Mass Media襯衫(女用)</LANG>
+    <LANG ID="zh-TW">Mass Media襯衫(女用)</LANG>
+    <LANG ID="en-US">Mass Media T-Shirt (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item4Desc</LANG>
+    <LANG ID="en-GB">Show your pride, show your spirit, show our blatant advertisement to the world at large!</LANG>
+    <LANG ID="fr-FR">Affiche ta fierté et ton énergie et fais découvrir notre pub éclatante au monde entier !</LANG>
+    <LANG ID="de-DE">Zeig Stolz, zeig Elan, zeig der Welt unsere Werbung!</LANG>
+    <LANG ID="it-IT">Mostra il tuo orgoglio, mostra il tuo spirito, mostra la nostra pubblicità sfacciata al mondo intero!</LANG>
+    <LANG ID="es-ES">Presume de orgullo y espíritu mientras nos haces publicidad de forma descarada ante todo el mundo.</LANG>
+    <LANG ID="ja-JP">これを着て私たちを宣伝してください！</LANG>
+    <LANG ID="ko-KR">자부심을 보여주세요, 열정을 보여주세요, 세상의 모든 사람에게 저희의 뻔한 광고를 보여주세요![#Legal]</LANG>
+    <LANG ID="en-SG">Show your pride, show your spirit, show our blatant advertisement to the world at large!</LANG>
+    <LANG ID="zh-HK">顯示你的驕傲，表明你的精神，也大方的向世界展現我們超級明顯的廣告吧！[#Legal]</LANG>
+    <LANG ID="zh-TW">顯示你的驕傲，表明你的精神，也大方的向世界展現我們超級明顯的廣告吧！[#Legal]</LANG>
+    <LANG ID="en-US">Show your pride, show your spirit, show our blatant advertisement to the world at large!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item5</LANG>
+    <LANG ID="en-GB">Hot Streak Shirt (Male)</LANG>
+    <LANG ID="fr-FR">Chemise Hot Streak (homme)</LANG>
+    <LANG ID="de-DE">Hot Streak-Shirt (Männer)</LANG>
+    <LANG ID="it-IT">Maglia Hot Streak (uomo)</LANG>
+    <LANG ID="es-ES">Camiseta Hot Streak (Hombre)</LANG>
+    <LANG ID="ja-JP">Hot Streak シャツ（男性用）</LANG>
+    <LANG ID="ko-KR">핫 스트리크 셔츠 (남성)</LANG>
+    <LANG ID="en-SG">Hot Streak Shirt (Men)</LANG>
+    <LANG ID="zh-HK">Hot Streak 上衣(男用)</LANG>
+    <LANG ID="zh-TW">Hot Streak 上衣(男用)</LANG>
+    <LANG ID="en-US">Hot Streak Shirt (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item5Desc</LANG>
+    <LANG ID="en-GB">For all of you who feign mastery of the big table, who yearn to Streak, who are Hot to score, who are not afraid of the puck.</LANG>
+    <LANG ID="fr-FR">Pour tous ceux qui pensent être les meilleurs, qui ont la compèt' dans le sang et qui veulent aller droit au but.</LANG>
+    <LANG ID="de-DE">Für alle, die den großen Tisch dominieren, Streaks herbeisehnen, Hot punkten wollen und keine Angst vor dem Puck haben.</LANG>
+    <LANG ID="it-IT">Per tutti coloro che si credono i migliori, che bramano vincite consecutive, che trepidano per segnare e che non temono il disco.</LANG>
+    <LANG ID="es-ES">Para todos aquellos que quieren ser los reyes de la mesa, que buscan las rachas, que son lo suficientemente buenos para puntuar y que no tienen miedo al disco.</LANG>
+    <LANG ID="ja-JP">Hot Streakの勇猛な選手にお似合いのシャツです。</LANG>
+    <LANG ID="ko-KR">커다란 테이블의 왕, 스트리크를 달성을 원하는 자, 점수를 넣고 싶은 분, 퍽을 두려워 하지 않는 분들을 위한 물건입니다. [#Legal]</LANG>
+    <LANG ID="en-SG">For all of you who feign mastery of the big table, who yearn to Streak, who are Hot to score, who are not afraid of the puck.</LANG>
+    <LANG ID="zh-HK">你假裝掌握大局，誰嚮往，誰得分，誰不害怕冰球熱。[#Legal]</LANG>
+    <LANG ID="zh-TW">你假裝掌握大局，誰嚮往，誰得分，誰不害怕冰球熱。[#Legal]</LANG>
+    <LANG ID="en-US">For all of you who feign mastery of the big table, who yearn to Streak, who are Hot to score, who are not afraid of the puck.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item6</LANG>
+    <LANG ID="en-GB">Hot Streak Shirt (Female)</LANG>
+    <LANG ID="fr-FR">Chemise Hot Streak (femme)</LANG>
+    <LANG ID="de-DE">Hot Streak-Shirt (Frauen)</LANG>
+    <LANG ID="it-IT">Maglia Hot Streak (donna)</LANG>
+    <LANG ID="es-ES">Camiseta Hot Streak (Mujer)</LANG>
+    <LANG ID="ja-JP">Hot Streak シャツ（女性用）</LANG>
+    <LANG ID="ko-KR">핫 스트리크 셔츠 (여성)</LANG>
+    <LANG ID="en-SG">Hot Streak Shirt (Women)</LANG>
+    <LANG ID="zh-HK">Hot Streak 上衣(女用)</LANG>
+    <LANG ID="zh-TW">Hot Streak 上衣(女用)</LANG>
+    <LANG ID="en-US">Hot Streak Shirt (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item6Desc</LANG>
+    <LANG ID="en-GB">For all of you who feign mastery of the big table, who yearn to Streak, who are Hot to score, who are not afraid of the puck.</LANG>
+    <LANG ID="fr-FR">Pour tous ceux qui pensent être les meilleurs, qui ont la compèt' dans le sang et qui veulent aller droit au but.</LANG>
+    <LANG ID="de-DE">Für alle, die den großen Tisch dominieren, Streaks herbeisehnen, Hot punkten wollen und keine Angst vor dem Puck haben.</LANG>
+    <LANG ID="it-IT">Per tutti coloro che si credono i migliori, che bramano vincite consecutive, che trepidano per segnare e che non temono il disco.</LANG>
+    <LANG ID="es-ES">Para todas aquellas que quieren ser las reinas de la mesa, que buscan las rachas, que son lo suficientemente buenas para puntuar y que no tienen miedo al disco.</LANG>
+    <LANG ID="ja-JP">Hot Streakの勇猛な選手にお似合いのシャツです。</LANG>
+    <LANG ID="ko-KR">커다란 테이블의 왕, 스트리크를 달성을 원하는 자, 점수를 넣고 싶은 분, 퍽을 두려워 하지 않는 분들을 위한 물건입니다. [#Legal]</LANG>
+    <LANG ID="en-SG">For all of you who feign mastery of the big table, who yearn to Streak, who are Hot to score, who are not afraid of the puck.</LANG>
+    <LANG ID="zh-HK">你假裝掌握大局，誰嚮往，誰得分，誰不害怕冰球熱。[#Legal]</LANG>
+    <LANG ID="zh-TW">你假裝掌握大局，誰嚮往，誰得分，誰不害怕冰球熱。[#Legal]</LANG>
+    <LANG ID="en-US">For all of you who feign mastery of the big table, who yearn to Streak, who are Hot to score, who are not afraid of the puck.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item7</LANG>
+    <LANG ID="en-GB">Elephant Head (Male)</LANG>
+    <LANG ID="fr-FR">Tête d'éléphant (homme)</LANG>
+    <LANG ID="de-DE">Elefantenkopf (Männer)</LANG>
+    <LANG ID="it-IT">Testa di elefante (uomo)</LANG>
+    <LANG ID="es-ES">Cabeza de elefante (Hombre)</LANG>
+    <LANG ID="ja-JP">エレファントヘッド（男性用）</LANG>
+    <LANG ID="ko-KR">코끼리 머리 (남성)</LANG>
+    <LANG ID="en-SG">Elephant Head (Men)</LANG>
+    <LANG ID="zh-HK">大象頭套(男用)</LANG>
+    <LANG ID="zh-TW">大象頭套(男用)</LANG>
+    <LANG ID="en-US">Elephant Head (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item7Desc</LANG>
+    <LANG ID="en-GB">Remember, an elephant never forgets. Increase your memory capacity by about forty pounds with this marvelous purple elephant head.</LANG>
+    <LANG ID="fr-FR">La mémoire d'éléphant, ça te dit quelque chose ? Dope ta mémoire grâce à cette jolie tête d'éléphant mauve.</LANG>
+    <LANG ID="de-DE">Denk dran: Ein Elefant vergisst nie. Dieser großartige lila Elefantenkopf erhöht dein Erinnerungsvermögen um ungefähr 20 Kilo.</LANG>
+    <LANG ID="it-IT">Ricorda: un elefante non dimentica mai. Aumenta la tua capacità mnemonica di circa 18 kg con questa meravigliosa testa di elefante viola.</LANG>
+    <LANG ID="es-ES">Recuerda, un elefante nunca olvida. Aumenta la capacidad de tu memoria en unos 18 kilos con esta maravillosa cabeza de elefante de color morado.</LANG>
+    <LANG ID="ja-JP">覚えておいて、象は決して忘れない。この素晴らしい紫色の象の頭であなたの記憶容量を増やそう。</LANG>
+    <LANG ID="ko-KR">기억하세요, 코끼리는 절대 잊지 않습니다. 이 멋진 보라색 코끼리 머리로 여러분의 기억력을 40 Pound 정도 늘려보세요. [#Legal]</LANG>
+    <LANG ID="en-SG">Remember, an elephant never forgets. Increase your memory capacity by about forty pounds with this marvelous purple elephant head.</LANG>
+    <LANG ID="zh-HK">記住，大象永遠不會忘記。這個奇妙的紫色大象頭，你的記憶容量增加約四十磅。[#Legal]</LANG>
+    <LANG ID="zh-TW">記住，大象永遠不會忘記。這個奇妙的紫色大象頭，你的記憶容量增加約四十磅。[#Legal]</LANG>
+    <LANG ID="en-US">Remember, an elephant never forgets. Increase your memory capacity by about forty pounds with this marvelous purple elephant head.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item8</LANG>
+    <LANG ID="en-GB">Elephant Head (Female)</LANG>
+    <LANG ID="fr-FR">Tête d'éléphant (femme)</LANG>
+    <LANG ID="de-DE">Elefantenkopf (Frauen)</LANG>
+    <LANG ID="it-IT">Testa di elefante (donna)</LANG>
+    <LANG ID="es-ES">Cabeza de elefante (Mujer)</LANG>
+    <LANG ID="ja-JP">エレファントヘッド（女性用）</LANG>
+    <LANG ID="ko-KR">코끼리 머리 (여성)</LANG>
+    <LANG ID="en-SG">Elephant Head (Women)</LANG>
+    <LANG ID="zh-HK">大象頭套(女用)</LANG>
+    <LANG ID="zh-TW">大象頭套(女用)</LANG>
+    <LANG ID="en-US">Elephant Head (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item8Desc</LANG>
+    <LANG ID="en-GB">Remember, an elephant never forgets. Increase your memory capacity by about forty pounds with this marvelous purple elephant head.</LANG>
+    <LANG ID="fr-FR">La mémoire d'éléphant, ça te dit quelque chose ? Dope ta mémoire grâce à cette jolie tête d'éléphant mauve.</LANG>
+    <LANG ID="de-DE">Denk dran: Ein Elefant vergisst nie. Dieser großartige lila Elefantenkopf erhöht dein Erinnerungsvermögen um ungefähr 20 Kilo.</LANG>
+    <LANG ID="it-IT">Ricorda: un elefante non dimentica mai. Aumenta la tua capacità mnemonica di circa 18 kg con questa meravigliosa testa di elefante viola.</LANG>
+    <LANG ID="es-ES">Recuerda, un elefante nunca olvida. Aumenta la capacidad de tu memoria en unos 18 kilos con esta maravillosa cabeza de elefante de color morado.</LANG>
+    <LANG ID="ja-JP">覚えておいて、象は決して忘れない。この素晴らしい紫色の象の頭であなたの記憶容量を増やそう。</LANG>
+    <LANG ID="ko-KR">기억하세요, 코끼리는 절대 잊지 않습니다. 이 멋진 보라색 코끼리 머리로 여러분의 기억력을 40 Pound 정도 늘려보세요. [#Legal]</LANG>
+    <LANG ID="en-SG">Remember, an elephant never forgets. Increase your memory capacity by about forty pounds with this marvelous purple elephant head.</LANG>
+    <LANG ID="zh-HK">記住，大象永遠不會忘記。這個奇妙的紫色大象頭，你的記憶容量增加約四十磅。[#Legal]</LANG>
+    <LANG ID="zh-TW">記住，大象永遠不會忘記。這個奇妙的紫色大象頭，你的記憶容量增加約四十磅。[#Legal]</LANG>
+    <LANG ID="en-US">Remember, an elephant never forgets. Increase your memory capacity by about forty pounds with this marvelous purple elephant head.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item9</LANG>
+    <LANG ID="en-GB">Bunch O' Trash</LANG>
+    <LANG ID="fr-FR">Bunch O' Trash</LANG>
+    <LANG ID="de-DE">Bunch O' Trash</LANG>
+    <LANG ID="it-IT">Spazzatura</LANG>
+    <LANG ID="es-ES">Bunch O' Trash</LANG>
+    <LANG ID="ja-JP">たくさんのゴミ</LANG>
+    <LANG ID="ko-KR">쓰레기 뭉치</LANG>
+    <LANG ID="en-SG">Bunch O' Trash</LANG>
+    <LANG ID="zh-HK">O'垃圾包</LANG>
+    <LANG ID="zh-TW">O'垃圾包</LANG>
+    <LANG ID="en-US">Bunch O' Trash</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item9Desc</LANG>
+    <LANG ID="en-GB">What would Lots O' Junk Redemption Center be without a Bunch O' Trash? Perfect for those rowdy parties that go all night long.</LANG>
+    <LANG ID="fr-FR">Que serait la boutique Lots O' Junk sans son Bunch O' Trash ? Parfait pour les super soirées qui durent jusqu'au bout de la nuit.</LANG>
+    <LANG ID="de-DE">Was wäre die Lots O' Junk Einlösestelle ohne Bunch O' Trash? Perfekt für wilde Partys, die erst in den frühen Morgenstunden enden.</LANG>
+    <LANG ID="it-IT">Cosa sarebbe il Centro riscatto punti Lots O' Junk senza un po' di spazzatura? Perfetta per quelle feste scatenate che durano fino a notte fonda.</LANG>
+    <LANG ID="es-ES">El centro de canjes Lots O' Junk no sería lo mismo sin Bunch O' Trash. Ideal para esas megafiestas que duran hasta el amanecer.</LANG>
+    <LANG ID="ja-JP">騒がしいパーティーの後によくある光景。</LANG>
+    <LANG ID="ko-KR">쓰레기 뭉치를 뺀 고철 덩어리 교환 센터는 상상도 할 수 없죠? 밤새도록 진행 되는 정신 없는 파티에 적합합니다. [#Legal]</LANG>
+    <LANG ID="en-SG">What would Lots O' Junk Redemption Center be without a Bunch O' Trash? Perfect for those rowdy parties that go all night long.</LANG>
+    <LANG ID="zh-HK">大量廢物回收中心怎麼可以沒有垃圾？最適合整夜喧鬧的派對了。[#Legal]</LANG>
+    <LANG ID="zh-TW">大量廢物回收中心怎麼可以沒有垃圾？最適合整夜喧鬧的派對了。[#Legal]</LANG>
+    <LANG ID="en-US">What would Lots O' Junk Redemption Center be without a Bunch O' Trash? Perfect for those rowdy parties that go all night long.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item10</LANG>
+    <LANG ID="en-GB">Pile O' Junk</LANG>
+    <LANG ID="fr-FR">Pile O' Junk</LANG>
+    <LANG ID="de-DE">Pile O' Junk</LANG>
+    <LANG ID="it-IT">Pila di rifiuti</LANG>
+    <LANG ID="es-ES">Pile O' Junk</LANG>
+    <LANG ID="ja-JP">たくさんのガラクタ</LANG>
+    <LANG ID="ko-KR">쓰레기 더미</LANG>
+    <LANG ID="en-SG">Pile O' Junk</LANG>
+    <LANG ID="zh-HK">O'垃圾柱</LANG>
+    <LANG ID="zh-TW">O'垃圾柱</LANG>
+    <LANG ID="en-US">Pile O' Junk</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item10Desc</LANG>
+    <LANG ID="en-GB">This is not just any pile, but an exquisite amalgamation of the finest junk we could find to enhance your life and living space.</LANG>
+    <LANG ID="fr-FR">Dans ce formidable bric-à-brac, tu trouveras de quoi t'amuser et embellir ton appartement.</LANG>
+    <LANG ID="de-DE">Es geht hier nicht um irgendeinen Haufen, sondern eine erlesene Anhäufung des besten Krempels, den wir zur Dekoration deines persönlichen Bereichs auftreiben konnten.</LANG>
+    <LANG ID="it-IT">Non si tratta di rifiuti qualunque, ma di una raffinata cernita dei migliori rifiuti possibili per migliorare la tua vita e il tuo spazio.</LANG>
+    <LANG ID="es-ES">No es una pila cualquiera, sino una exquisita mezcla de los objetos más solicitados para renovar tu vida y decorar tu espacio.</LANG>
+    <LANG ID="ja-JP">こんなガラクタでもあなたの生活空間のアクセントになるでしょう。</LANG>
+    <LANG ID="ko-KR">이건 그냥 아무 것이나 쌓아 둔 더미가 아닌, 여러분의 생활과 스페이스의 질을 높일 수 있는 최고 쓰레기들의 집합체입니다.[#Legal]</LANG>
+    <LANG ID="en-SG">This is not just any pile, but an exquisite amalgamation of the finest junk we could find to enhance your life and living space.</LANG>
+    <LANG ID="zh-HK">這不僅是一般的柱子，精緻的融合，讓我們可以找到一個可提高您的生活空間的最好垃圾物件。[#Legal]</LANG>
+    <LANG ID="zh-TW">這不僅是一般的柱子，精緻的融合，讓我們可以找到一個可提高您的生活空間的最好垃圾物件。[#Legal]</LANG>
+    <LANG ID="en-US">This is not just any pile, but an exquisite amalgamation of the finest junk we could find to enhance your life and living space.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item11</LANG>
+    <LANG ID="en-GB">Foaming at the Mouth (Male)</LANG>
+    <LANG ID="fr-FR">Rage (homme)</LANG>
+    <LANG ID="de-DE">Schaum vorm Mund (Männer)</LANG>
+    <LANG ID="it-IT">Schiuma alla bocca (uomo)</LANG>
+    <LANG ID="es-ES">Espuma en la boca (Hombre)</LANG>
+    <LANG ID="ja-JP">シェービングフォーム（男性用）</LANG>
+    <LANG ID="ko-KR">입에 문 거품 (남성)</LANG>
+    <LANG ID="en-SG">Foaming at the Mouth (Men)</LANG>
+    <LANG ID="zh-HK">嘴巴上的白沫(男用)</LANG>
+    <LANG ID="zh-TW">嘴巴上的白沫(男用)</LANG>
+    <LANG ID="en-US">Foaming at the Mouth (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item12Desc</LANG>
+    <LANG ID="en-GB">Uh Oh. When the hair of the dog bites, beware of the consequences. Watch out for mobs carrying implements of destruction, they might just be after you.</LANG>
+    <LANG ID="fr-FR">Aïe aïe aïe. Si tu te sens "enragé", gare aux conséquences ! Fais attention aux foules en colère, elles sont peut-être à tes trousses.</LANG>
+    <LANG ID="de-DE">Oh oh. Wen die Tollwut erwischt, sollte sich über die Konsequenzen im Klaren sein. Halte Ausschau nach mit allem Möglichen bewaffneten Mobs, die hinter dir her sein könnten.</LANG>
+    <LANG ID="it-IT">Oh Oh. Quando la "rabbia" ti assale, preparati alle conseguenze. Occhio alle folle inferocite, potrebbero avercela con te.</LANG>
+    <LANG ID="es-ES">Ten cuidado. Si la rabia se ha apoderado de ti, no pierdas de vista a esos matones armados. ¡Podrían ir detrás de ti!</LANG>
+    <LANG ID="ja-JP">シェービングフォームであわあわ！</LANG>
+    <LANG ID="ko-KR">이런, 개한테 잘못 물렸다면 조심해야 합니다. 손에 무기를 들고 있는 폭도 역시 조심하세요. 당신을 쫓고 있을지도 모릅니다.[#Legal]</LANG>
+    <LANG ID="en-SG">Uh Oh. When the hair of the dog bites, beware of the consequences. Watch out for mobs carrying implements of destruction, they might just be after you.</LANG>
+    <LANG ID="zh-HK">喔，喝解宿醉的酒時可千萬要注意後果。也留意帶有破壞器具的暴徒們，他們可能正在找你。[#Legal]</LANG>
+    <LANG ID="zh-TW">喔，喝解宿醉的酒時可千萬要注意後果。也留意帶有破壞器具的暴徒們，他們可能正在找你。[#Legal]</LANG>
+    <LANG ID="en-US">Uh Oh. When the hair of the dog bites, beware of the consequences. Watch out for mobs carrying implements of destruction, they might just be after you.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item12</LANG>
+    <LANG ID="en-GB">Foaming at the Mouth (Female)</LANG>
+    <LANG ID="fr-FR">Rage (femme)</LANG>
+    <LANG ID="de-DE">Schaum vorm Mund (Frauen)</LANG>
+    <LANG ID="it-IT">Schiuma alla bocca (donna)</LANG>
+    <LANG ID="es-ES">Espuma en la boca (Mujer)</LANG>
+    <LANG ID="ja-JP">シェービングフォーム（女性用）</LANG>
+    <LANG ID="ko-KR">입에 문 거품 (여성)</LANG>
+    <LANG ID="en-SG">Foaming at the Mouth (Women)</LANG>
+    <LANG ID="zh-HK">嘴巴上的白沫(女用)</LANG>
+    <LANG ID="zh-TW">嘴巴上的白沫(女用)</LANG>
+    <LANG ID="en-US">Foaming at the Mouth (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item12Desc_1</LANG>
+    <LANG ID="en-GB">Uh Oh. When the hair of the dog bites, beware of the consequences. Watch out for mobs carrying implements of destruction, they might just be after you.</LANG>
+    <LANG ID="fr-FR">Aïe aïe aïe. Si tu te sens "enragé", gare aux conséquences ! Fais attention aux foules en colère, elles sont peut-être à tes trousses.</LANG>
+    <LANG ID="de-DE">Oh oh. Wen die Tollwut erwischt, sollte sich über die Konsequenzen im Klaren sein. Halte Ausschau nach mit allem Möglichen bewaffneten Mobs, die hinter dir her sein könnten.</LANG>
+    <LANG ID="it-IT">Oh Oh. Quando la "rabbia" ti assale, preparati alle conseguenze. Occhio alle folle inferocite, potrebbero avercela con te.</LANG>
+    <LANG ID="es-ES">Ten cuidado. Si la rabia se ha apoderado de ti, no pierdas de vista a los matones armados. ¡Podrían ir detrás de ti!</LANG>
+    <LANG ID="ja-JP">シェービングフォームであわあわ！</LANG>
+    <LANG ID="ko-KR">이런, 개한테 잘못 물렸다면 조심해야 합니다. 손에 무기를 들고 있는 폭도 역시 조심하세요. 당신을 쫓고 있을지도 모릅니다.[#Legal]</LANG>
+    <LANG ID="en-SG">Uh Oh. When the hair of the dog bites, beware of the consequences. Watch out for mobs carrying implements of destruction, they might just be after you.</LANG>
+    <LANG ID="zh-HK">喔，喝解宿醉的酒時可千萬要注意後果。也留意帶有破壞器具的暴徒們，他們可能正在找你。[#Legal]</LANG>
+    <LANG ID="zh-TW">喔，喝解宿醉的酒時可千萬要注意後果。也留意帶有破壞器具的暴徒們，他們可能正在找你。[#Legal]</LANG>
+    <LANG ID="en-US">Uh Oh. When the hair of the dog bites, beware of the consequences. Watch out for mobs carrying implements of destruction, they might just be after you.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item13</LANG>
+    <LANG ID="en-GB">Hot Zone T-Shirt (Male)</LANG>
+    <LANG ID="fr-FR">T-shirt Hot Zone (homme)</LANG>
+    <LANG ID="de-DE">Hot Zone-T-Shirt (Männer)</LANG>
+    <LANG ID="it-IT">Maglietta Hot Zone (uomo)</LANG>
+    <LANG ID="es-ES">Camiseta Hot Zone (Hombre)</LANG>
+    <LANG ID="ja-JP">Hot Zone Tシャツ（男性用）</LANG>
+    <LANG ID="ko-KR">핫존 티셔츠 (남성)</LANG>
+    <LANG ID="en-SG">Hot Zone T-Shirt (Men)</LANG>
+    <LANG ID="zh-HK">Hot Zone T恤(男用)</LANG>
+    <LANG ID="zh-TW">Hot Zone T恤(男用)</LANG>
+    <LANG ID="en-US">Hot Zone T-Shirt (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item13Desc</LANG>
+    <LANG ID="en-GB">Hot, Hot, Hot. It doesn't get any hotter than this. Shine on you flaming sunspot.</LANG>
+    <LANG ID="fr-FR">Sexy. Vraiment trop sexy. Tu vas briller de mille feux !</LANG>
+    <LANG ID="de-DE">Heiß, heiß, heiß! Noch heißer geht es nicht. Du strahlst ja richtig.</LANG>
+    <LANG ID="it-IT">Davvero fiammeggiante. Non potrebbe ardere di più. Un sole infuocato ti illumina.</LANG>
+    <LANG ID="es-ES">Impresionante. ¡Mejor imposible! Brilla como nadie con esta prenda.</LANG>
+    <LANG ID="ja-JP">ホット、ホット、ホット。これ以上暑くなれません。</LANG>
+    <LANG ID="ko-KR">더워, 더워, 더워. 이 물건보다 뜨거운 것은 없습니다. 여러분의 달아오른 흑점에 비추세요.[#Legal]</LANG>
+    <LANG ID="en-SG">Hot, Hot, Hot. It doesn't get any hotter than this. Shine on you flaming sunspot.</LANG>
+    <LANG ID="zh-HK">熱，熱，熱。沒有任何比這更熱。照耀你的熾盛太陽黑子。[#Legal]</LANG>
+    <LANG ID="zh-TW">熱，熱，熱。沒有任何比這更熱。照耀你的熾盛太陽黑子。[#Legal]</LANG>
+    <LANG ID="en-US">Hot, Hot, Hot. It doesn't get any hotter than this. Shine on you flaming sunspot.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item14</LANG>
+    <LANG ID="en-GB">Hot Zone T-Shirt (Female)</LANG>
+    <LANG ID="fr-FR">T-shirt Hot Zone (femme)</LANG>
+    <LANG ID="de-DE">Hot Zone-T-Shirt (Frauen)</LANG>
+    <LANG ID="it-IT">Maglietta Hot Zone (donna)</LANG>
+    <LANG ID="es-ES">Camiseta Hot Zone (Mujer)</LANG>
+    <LANG ID="ja-JP">Hot Zone Tシャツ（女性用）</LANG>
+    <LANG ID="ko-KR">핫존 티셔츠 (여성)</LANG>
+    <LANG ID="en-SG">Hot Zone T-Shirt (Women)</LANG>
+    <LANG ID="zh-HK">Hot Zone T恤(女用)</LANG>
+    <LANG ID="zh-TW">Hot Zone T恤(女用)</LANG>
+    <LANG ID="en-US">Hot Zone T-Shirt (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item14Desc</LANG>
+    <LANG ID="en-GB">Hot, Hot, Hot. It doesn't get any hotter than this. Shine on you flaming sunspot.</LANG>
+    <LANG ID="fr-FR">Sexy. Vraiment trop sexy. Tu vas briller de mille feux !</LANG>
+    <LANG ID="de-DE">Heiß, heiß, heiß! Noch heißer geht es nicht. Du strahlst ja richtig.</LANG>
+    <LANG ID="it-IT">Davvero fiammeggiante. Non potrebbe ardere di più. Un sole infuocato ti illumina.</LANG>
+    <LANG ID="es-ES">Impresionante. ¡Mejor imposible! Brilla como nadie con esta prenda.</LANG>
+    <LANG ID="ja-JP">ホット、ホット、ホット。これ以上暑くなれません。</LANG>
+    <LANG ID="ko-KR">더워, 더워, 더워. 이 물건보다 뜨거운 것은 없습니다. 여러분의 달아오른 흑점에 비추세요.[#Legal]</LANG>
+    <LANG ID="en-SG">Hot, Hot, Hot. It doesn't get any hotter than this. Shine on you flaming sunspot.</LANG>
+    <LANG ID="zh-HK">熱，熱，熱。沒有任何比這更熱。照耀你的熾盛太陽黑子。[#Legal]</LANG>
+    <LANG ID="zh-TW">熱，熱，熱。沒有任何比這更熱。照耀你的熾盛太陽黑子。[#Legal]</LANG>
+    <LANG ID="en-US">Hot, Hot, Hot. It doesn't get any hotter than this. Shine on you flaming sunspot.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item15</LANG>
+    <LANG ID="en-GB">Darla Companion</LANG>
+    <LANG ID="fr-FR">Compagne Darla</LANG>
+    <LANG ID="de-DE">Darla</LANG>
+    <LANG ID="it-IT">Compagna Darla</LANG>
+    <LANG ID="es-ES">Acompañante Darla</LANG>
+    <LANG ID="ja-JP">動くダーラ人形</LANG>
+    <LANG ID="ko-KR">달라 컴패니언</LANG>
+    <LANG ID="en-SG">Darla Companion</LANG>
+    <LANG ID="zh-HK">達拉隨身夥伴</LANG>
+    <LANG ID="zh-TW">達拉隨身夥伴</LANG>
+    <LANG ID="en-US">Darla Companion</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item15Desc</LANG>
+    <LANG ID="en-GB">Be the envy of the whole community when you show off our diminuitive companion with all the right curves in all the right places.</LANG>
+    <LANG ID="fr-FR">Avec cette toute petite petite amie super sexy, tu vas rendre la communauté verte de jalousie !</LANG>
+    <LANG ID="de-DE">Die ganze Community wird auf deine kleine Begleiterin mit ihren wohlplatzierten Kurven neidisch sein.</LANG>
+    <LANG ID="it-IT">Suscita l'invidia dell'intera comunità sfoggiando la tua compagna in miniatura con tutte le curve al posto giusto.</LANG>
+    <LANG ID="es-ES">Ponle los dientes largos a toda la comunidad con una diminuta acompañante que, hay que reconocerlo, tiene las curvas bien puestas.</LANG>
+    <LANG ID="ja-JP">お供のダーラはどこへでもいっしょ。</LANG>
+    <LANG ID="ko-KR">적절한 곳에 적절한 라인을 가진 여러분의 깜찍한 애완동물을 보여주고 온 커뮤니티의 부러움을 한 몸에 받으세요.[#Legal]</LANG>
+    <LANG ID="en-SG">Be the envy of the whole community when you show off our diminuitive companion with all the right curves in all the right places.</LANG>
+    <LANG ID="zh-HK">當你炫耀在所有正確的地方有正確曲線的嬌小夥伴時，你是整個社群的羨慕焦點。[#Legal]</LANG>
+    <LANG ID="zh-TW">當你炫耀在所有正確的地方有正確曲線的嬌小夥伴時，你是整個社群的羨慕焦點。[#Legal]</LANG>
+    <LANG ID="en-US">Be the envy of the whole community when you show off our diminuitive companion with all the right curves in all the right places.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item16</LANG>
+    <LANG ID="en-GB">Karla Companion</LANG>
+    <LANG ID="fr-FR">Compagne Karla</LANG>
+    <LANG ID="de-DE">Karla</LANG>
+    <LANG ID="it-IT">Compagna Karla</LANG>
+    <LANG ID="es-ES">Acompañante Karla</LANG>
+    <LANG ID="ja-JP">動くカーラ人形</LANG>
+    <LANG ID="ko-KR">칼라 컴패니언</LANG>
+    <LANG ID="en-SG">Karla Companion</LANG>
+    <LANG ID="zh-HK">卡拉隨身夥伴</LANG>
+    <LANG ID="zh-TW">卡拉隨身夥伴</LANG>
+    <LANG ID="en-US">Karla Companion</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item16Desc</LANG>
+    <LANG ID="en-GB">Sometimes ladies prefer blondes too. When you are feeling lonely, don't be alone. Let Karla keep you company.</LANG>
+    <LANG ID="fr-FR">Parfois, les femmes aussi préfèrent les blondes. Fini la solitude ! Laisse Karla te tenir compagnie.</LANG>
+    <LANG ID="de-DE">Auch Frauen mögen's manchmal blond. Du bist nicht allein, auch wenn du dich mal einsam fühlst. Du hast ja Karla.</LANG>
+    <LANG ID="it-IT">A volte anche le donne preferiscono le bionde. Quando la solitudine ti assale, lascia che Karla ti tenga compagnia.</LANG>
+    <LANG ID="es-ES">¿Quién dijo que a las chicas no les van los rubios? No te sientas solo. Deja que Karla te haga compañía.</LANG>
+    <LANG ID="ja-JP">お供のカーラはどこへでもいっしょ。</LANG>
+    <LANG ID="ko-KR">때로는 여자도 금발을 선호합니다. 외롭다고 혼자만 있지 마세요. 칼라와 함께 하실 수 있습니다.[#Legal]</LANG>
+    <LANG ID="en-SG">Sometimes ladies prefer blondes too. When you are feeling lonely, don't be alone. Let Karla keep you company.</LANG>
+    <LANG ID="zh-HK">有時女士們喜歡金髮。當你感到寂寞，您並不孤單。讓卡拉做你的夥伴。[#Legal]</LANG>
+    <LANG ID="zh-TW">有時女士們喜歡金髮。當你感到寂寞，您並不孤單。讓卡拉做你的夥伴。[#Legal]</LANG>
+    <LANG ID="en-US">Sometimes ladies prefer blondes too. When you are feeling lonely, don't be alone. Let Karla keep you company.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item17</LANG>
+    <LANG ID="en-GB">Hot Streak Comet (Male)</LANG>
+    <LANG ID="fr-FR">Comète Hot Streak (homme)</LANG>
+    <LANG ID="de-DE">Hot Streak-Komet (Männer)</LANG>
+    <LANG ID="it-IT">Cometa Hot Streak (uomo)</LANG>
+    <LANG ID="es-ES">Cometa Hot Streak (Hombre)</LANG>
+    <LANG ID="ja-JP">Hot Streakコメット（男性用）</LANG>
+    <LANG ID="ko-KR">핫 스트리크 유성 (남성)</LANG>
+    <LANG ID="en-SG">Hot Streak Comet (Men)</LANG>
+    <LANG ID="zh-HK">Hot Streak 星環頭飾(男用)</LANG>
+    <LANG ID="zh-TW">Hot Streak 星環頭飾(男用)</LANG>
+    <LANG ID="en-US">Hot Streak Comet (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item17Desc</LANG>
+    <LANG ID="en-GB">Just a little something to bring some attention to yourself, which can be a good thing. A great conversation starter.</LANG>
+    <LANG ID="fr-FR">Quelque chose de brillant pour attirer l'attention, ça ne peut pas faire de mal. Idéal pour briser la glace !</LANG>
+    <LANG ID="de-DE">Damit du ein bisschen auffällst – manchmal ist das gar nicht schlecht. Außerdem ein guter Eisbrecher.</LANG>
+    <LANG ID="it-IT">Un piccolo accessorio per attirare un po' l'attenzione, che non fa mai male. Un modo ottimale per iniziare una conversazione.</LANG>
+    <LANG ID="es-ES">Un pequeño detalle para llamar un poco la atención, que no tiene por qué ser siempre malo. Es una buena forma de romper el hielo.</LANG>
+    <LANG ID="ja-JP">これですぐ注目の的に！みんなに話しかけてもらいましょう。</LANG>
+    <LANG ID="ko-KR">여러분께 관심을 집중시킬 물건입니다. 좋은 물건이죠. 다른 사람과 대화를 시작할 때 도움이 됩니다. [#Legal]</LANG>
+    <LANG ID="en-SG">Just a little something to bring some attention to yourself, which can be a good thing. A great conversation starter.</LANG>
+    <LANG ID="zh-HK">只是一個小東西給自己帶來一定的關注，這可以是一件好事。一個很棒的話題。[#Legal]</LANG>
+    <LANG ID="zh-TW">只是一個小東西給自己帶來一定的關注，這可以是一件好事。一個很棒的話題。[#Legal]</LANG>
+    <LANG ID="en-US">Just a little something to bring some attention to yourself, which can be a good thing. A great conversation starter.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item18</LANG>
+    <LANG ID="en-GB">Hot Streak Comet (Female)</LANG>
+    <LANG ID="fr-FR">Comète Hot Streak (femme)</LANG>
+    <LANG ID="de-DE">Hot Streak-Komet (Frauen)</LANG>
+    <LANG ID="it-IT">Cometa Hot Streak (donna)</LANG>
+    <LANG ID="es-ES">Cometa Hot Streak (Mujer)</LANG>
+    <LANG ID="ja-JP">Hot Streakコメット（女性用）</LANG>
+    <LANG ID="ko-KR">핫 스트리크 유성 (여성)</LANG>
+    <LANG ID="en-SG">Hot Streak Comet (Women)</LANG>
+    <LANG ID="zh-HK">Hot Streak 星環頭飾(女用)</LANG>
+    <LANG ID="zh-TW">Hot Streak 星環頭飾(女用)</LANG>
+    <LANG ID="en-US">Hot Streak Comet (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item18Desc</LANG>
+    <LANG ID="en-GB">Just a little something to bring some attention to yourself, which can be a good thing. A great conversation starter.</LANG>
+    <LANG ID="fr-FR">Quelque chose de brillant pour attirer l'attention, ça ne peut pas faire de mal. Idéal pour briser la glace !</LANG>
+    <LANG ID="de-DE">Damit du ein bisschen auffällst – manchmal ist das gar nicht schlecht. Außerdem ein guter Eisbrecher.</LANG>
+    <LANG ID="it-IT">Un piccolo accessorio per attirare un po' l'attenzione, che non fa mai male. Un modo ottimale per iniziare una conversazione.</LANG>
+    <LANG ID="es-ES">Un pequeño detalle para llamar un poco la atención, que no tiene por qué ser siempre malo. Es una buena forma de romper el hielo.</LANG>
+    <LANG ID="ja-JP">これですぐ注目の的に！みんなに話しかけてもらいましょう。</LANG>
+    <LANG ID="ko-KR">여러분께 관심을 집중시킬 물건입니다. 좋은 물건이죠. 다른 사람과 대화를 시작할 때 도움이 됩니다. [#Legal]</LANG>
+    <LANG ID="en-SG">Just a little something to bring some attention to yourself, which can be a good thing. A great conversation starter.</LANG>
+    <LANG ID="zh-HK">只是一個小東西給自己帶來一定的關注，這可以是一件好事。一個很棒的話題。[#Legal]</LANG>
+    <LANG ID="zh-TW">只是一個小東西給自己帶來一定的關注，這可以是一件好事。一個很棒的話題。[#Legal]</LANG>
+    <LANG ID="en-US">Just a little something to bring some attention to yourself, which can be a good thing. A great conversation starter.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item19</LANG>
+    <LANG ID="en-GB">Darla's Parts Vinyl Jacket (Male)</LANG>
+    <LANG ID="fr-FR">Veste vinyle Darla's Parts (homme)</LANG>
+    <LANG ID="de-DE">Darla's Parts-Vinyl-Jacke (Männer)</LANG>
+    <LANG ID="it-IT">Giacca in vinile Darla's Parts (uomo)</LANG>
+    <LANG ID="es-ES">Chaqueta de vinilo Darla's Parts (Hombre)</LANG>
+    <LANG ID="ja-JP">Darla's Parts ジャケット（男性用）</LANG>
+    <LANG ID="ko-KR">달라의 비닐 자켓 (남성)</LANG>
+    <LANG ID="en-SG">Darla's Parts Vinyl Jacket (Men)</LANG>
+    <LANG ID="zh-HK">達拉塑膠夾克(男用)</LANG>
+    <LANG ID="zh-TW">達拉塑膠夾克(男用)</LANG>
+    <LANG ID="en-US">Darla's Parts Vinyl Jacket (Male)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item19Desc</LANG>
+    <LANG ID="en-GB">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="fr-FR">Parfaite pour si tu as soif de fortune et gloire, mais que tu n'as encore terminé les 10 niveaux de l'un de ces jeux.</LANG>
+    <LANG ID="de-DE">Für alle, die sich einen Namen als Superspieler machen wollen, aber einfach in keinem Spiel alle zehn Level schaffen.</LANG>
+    <LANG ID="it-IT">Per coloro che ambiscono alla grandezza e alla notorietà, ma non riescono ancora a completare tutti e dieci i livelli di uno di questi giochi.</LANG>
+    <LANG ID="es-ES">Para todos aquellos que buscan la fama y la popularidad, pero que todavía no han conseguido superar los diez niveles en ninguno de estos juegos.</LANG>
+    <LANG ID="ja-JP">誰もクリアできなかったレベル１０をクリアしたあなたに憧れのジャケットです。</LANG>
+    <LANG ID="ko-KR">위대함과 악명을 소원하지만 이 게임들의 10개 레벨을 도저히 완료 할 수 없는 분들께.[#Legal]</LANG>
+    <LANG ID="en-SG">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="zh-HK">給渴望偉大和知名度，但仍不能完成遊戲的任何全部十個級別的人。[#Legal]</LANG>
+    <LANG ID="zh-TW">給渴望偉大和知名度，但仍不能完成遊戲的任何全部十個級別的人。[#Legal]</LANG>
+    <LANG ID="en-US">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item20</LANG>
+    <LANG ID="en-GB">Darla's Parts Vinyl Jacket (Female)</LANG>
+    <LANG ID="fr-FR">Veste vinyle Darla's Parts (femme)</LANG>
+    <LANG ID="de-DE">Darla's Parts-Vinyl-Jacke (Frauen)</LANG>
+    <LANG ID="it-IT">Giacca in vinile Darla's Parts (donna)</LANG>
+    <LANG ID="es-ES">Chaqueta de vinilo Darla's Parts (Mujer)</LANG>
+    <LANG ID="ja-JP">Darla's Parts ジャケット（女性用）</LANG>
+    <LANG ID="ko-KR">달라의 비닐 자켓 (여성)</LANG>
+    <LANG ID="en-SG">Darla's Parts Vinyl Jacket (Women)</LANG>
+    <LANG ID="zh-HK">達拉塑膠夾克(女用)</LANG>
+    <LANG ID="zh-TW">達拉塑膠夾克(女用)</LANG>
+    <LANG ID="en-US">Darla's Parts Vinyl Jacket (Female)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item20Desc</LANG>
+    <LANG ID="en-GB">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="fr-FR">Parfaite pour si tu as soif de fortune et gloire, mais que tu n'as encore terminé les 10 niveaux de l'un de ces jeux.</LANG>
+    <LANG ID="de-DE">Für alle, die sich einen Namen als Superspieler machen wollen, aber einfach in keinem Spiel alle zehn Level schaffen.</LANG>
+    <LANG ID="it-IT">Per coloro che ambiscono alla grandezza e alla notorietà, ma non riescono ancora a completare tutti e dieci i livelli di uno di questi giochi.</LANG>
+    <LANG ID="es-ES">Para todas aquellas que buscan la fama y la popularidad, pero que todavía no han conseguido superar los diez niveles en ninguno de estos juegos.</LANG>
+    <LANG ID="ja-JP">誰もクリアできなかったレベル１０をクリアしたあなたに憧れのジャケットです。</LANG>
+    <LANG ID="ko-KR">위대함과 악명을 소원하지만 이 게임들의 10개 레벨을 도저히 완료 할 수 없는 분들께.[#Legal]</LANG>
+    <LANG ID="en-SG">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+    <LANG ID="zh-HK">給渴望偉大和知名度，但仍不能完成遊戲的任何全部十個級別的人。[#Legal]</LANG>
+    <LANG ID="zh-TW">給渴望偉大和知名度，但仍不能完成遊戲的任何全部十個級別的人。[#Legal]</LANG>
+    <LANG ID="en-US">For those who yearn for greatness and notoriety but still cannot manage to complete all ten levels of any of these games.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item21</LANG>
+    <LANG ID="en-GB">Marla Cardboard Standup Cutout</LANG>
+    <LANG ID="fr-FR">Silhouette en carton Marla</LANG>
+    <LANG ID="de-DE">Marla-Pappaufsteller</LANG>
+    <LANG ID="it-IT">Sagoma di cartone Marla</LANG>
+    <LANG ID="es-ES">Marla de cartón a tamaño real</LANG>
+    <LANG ID="ja-JP">マーラのポップ</LANG>
+    <LANG ID="ko-KR">말라 등신대</LANG>
+    <LANG ID="en-SG">Marla Cardboard Standup Cutout</LANG>
+    <LANG ID="zh-HK">瑪拉紙板立牌</LANG>
+    <LANG ID="zh-TW">瑪拉紙板立牌</LANG>
+    <LANG ID="en-US">Marla Cardboard Standup Cutout</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item21Desc</LANG>
+    <LANG ID="en-GB">An excellent addition to any apartment. A real standup prize.</LANG>
+    <LANG ID="fr-FR">Un excellent complément pour tout appartement. Un prix à ta hauteur !</LANG>
+    <LANG ID="de-DE">Eine erstklassige Bereicherung für jedes Apartment und ein echter Hingucker.</LANG>
+    <LANG ID="it-IT">Un ottimo complemento di arredamento. Un premio davvero alla tua altezza.</LANG>
+    <LANG ID="es-ES">El  mejor complemento para cualquier apartamento. ¡Un premio a tu altura!</LANG>
+    <LANG ID="ja-JP">どのパーソナルスペースにも合う優れた置物です。</LANG>
+    <LANG ID="ko-KR">어떤 아파트라도 다 어울리죠. 정말 튀는 물건입니다.[#Legal]</LANG>
+    <LANG ID="en-SG">An excellent addition to any apartment. A real stand up prize.</LANG>
+    <LANG ID="zh-HK">一個極好的公寓追加裝飾品。一個真正讓人站立的最高獎品。[#Legal]</LANG>
+    <LANG ID="zh-TW">一個極好的公寓追加裝飾品。一個真正讓人站立的最高獎品。[#Legal]</LANG>
+    <LANG ID="en-US">An excellent addition to any apartment. A real standup prize.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item22</LANG>
+    <LANG ID="en-GB">Darla Cardboard Standup Cutout</LANG>
+    <LANG ID="fr-FR">Silhouette en carton Darla</LANG>
+    <LANG ID="de-DE">Darla-Pappaufsteller</LANG>
+    <LANG ID="it-IT">Sagoma di cartone Darla</LANG>
+    <LANG ID="es-ES">Darla de cartón a tamaño real</LANG>
+    <LANG ID="ja-JP">ダーラのポップ</LANG>
+    <LANG ID="ko-KR">달라 등신대</LANG>
+    <LANG ID="en-SG">Darla Cardboard Standup Cutout</LANG>
+    <LANG ID="zh-HK">達拉紙板立牌</LANG>
+    <LANG ID="zh-TW">達拉紙板立牌</LANG>
+    <LANG ID="en-US">Darla Cardboard Standup Cutout</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item22Desc</LANG>
+    <LANG ID="en-GB">Who wouldn't want to have Darla hanging around your apartment? She'll be the life of the party.</LANG>
+    <LANG ID="fr-FR">Qui ne rêve pas d'avoir Darla dans son appart' ? Elle mettra l'ambiance dans toutes tes soirées.</LANG>
+    <LANG ID="de-DE">Wer würde nicht gern mit Darla im eigenen Apartment abhängen? Sie bringt jede Party in Schwung.</LANG>
+    <LANG ID="it-IT">Chi non vorrebbe Darla in giro per casa? Sarà l'anima della festa.</LANG>
+    <LANG ID="es-ES">¿Quién no querría tener a Darla en su apartamento? ¡Es el alma de la fiesta!</LANG>
+    <LANG ID="ja-JP">どのパーソナルスペースにも合う優れた置物です。</LANG>
+    <LANG ID="ko-KR">달라가 아파트에 있다면 누군들 싫어하겠어요? 그녀는 파티에 생기를 불어넣을 거에요.[#Legal]</LANG>
+    <LANG ID="en-SG">Who wouldn't want to have Darla hanging around your apartment? She'll be the life of the party.</LANG>
+    <LANG ID="zh-HK">誰不希望有達拉掛在你的公寓？她將是派對的生命。[#Legal]</LANG>
+    <LANG ID="zh-TW">誰不希望有達拉掛在你的公寓？她將是派對的生命。[#Legal]</LANG>
+    <LANG ID="en-US">Who wouldn't want to have Darla hanging around your apartment? She'll be the life of the party.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item23</LANG>
+    <LANG ID="en-GB">Karla Cardboard Standup Cutout</LANG>
+    <LANG ID="fr-FR">Silhouette en carton Karla</LANG>
+    <LANG ID="de-DE">Karla-Pappaufsteller</LANG>
+    <LANG ID="it-IT">Sagoma di cartone Karla</LANG>
+    <LANG ID="es-ES">Karla de cartón a tamaño real</LANG>
+    <LANG ID="ja-JP">カーラのポップ</LANG>
+    <LANG ID="ko-KR">칼라 등신대</LANG>
+    <LANG ID="en-SG">Karla Cardboard Standup Cutout</LANG>
+    <LANG ID="zh-HK">卡拉紙板立牌</LANG>
+    <LANG ID="zh-TW">卡拉紙板立牌</LANG>
+    <LANG ID="en-US">Karla Cardboard Standup Cutout</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item23Desc</LANG>
+    <LANG ID="en-GB">Just in from her recent dunking, this perfectly dry Karla is sure to stand out in your apartment.</LANG>
+    <LANG ID="fr-FR">Tout juste rentrée de sa petite baignade et complètement sèche, Karla va faire sensation dans ton appartement.</LANG>
+    <LANG ID="de-DE">Gerade noch beim Schwimmen und jetzt, völlig trocken, in deinem Apartment: Karla.</LANG>
+    <LANG ID="it-IT">Reduce da un recente tuffo in vasca, questa Karla perfettamente asciutta risalterà senza dubbio nel tuo salotto.</LANG>
+    <LANG ID="es-ES">Recién salida de la piscina, esta figura de Karla, completamente seca, atraerá las miradas de todos los que se pasen por tu apartamento.</LANG>
+    <LANG ID="ja-JP">どのパーソナルスペースにも合う優れた置物です。</LANG>
+    <LANG ID="ko-KR">방금 물속에서 나온, 이 완벽히 건조된 칼라는 분명 아파트에서 눈에 띌거에요.[#Legal]</LANG>
+    <LANG ID="en-SG">Just in from her recent dunking, this perfectly dry Karla is sure to stand out in your apartment.</LANG>
+    <LANG ID="zh-HK">剛剛從她最近的扣籃出現，這完全乾燥的卡拉是你的公寓內一定需要的擺飾。[#Legal]</LANG>
+    <LANG ID="zh-TW">剛剛從她最近的扣籃出現，這完全乾燥的卡拉是你的公寓內一定需要的擺飾。[#Legal]</LANG>
+    <LANG ID="en-US">Just in from her recent dunking, this perfectly dry Karla is sure to stand out in your apartment.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item24</LANG>
+    <LANG ID="en-GB">Hot Pepper Neon Sign</LANG>
+    <LANG ID="fr-FR">Enseigne lumineuse Piment</LANG>
+    <LANG ID="de-DE">Chilischoten-Neonlampe</LANG>
+    <LANG ID="it-IT">Insegna al neon peperoncino piccante</LANG>
+    <LANG ID="es-ES">Guindilla de neón</LANG>
+    <LANG ID="ja-JP">唐辛子ネオンサイン</LANG>
+    <LANG ID="ko-KR">매운 고추 네온 사인</LANG>
+    <LANG ID="en-SG">Hot Pepper Neon Sign</LANG>
+    <LANG ID="zh-HK">熱辣椒霓虹標誌</LANG>
+    <LANG ID="zh-TW">熱辣椒霓虹標誌</LANG>
+    <LANG ID="en-US">Hot Pepper Neon Sign</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Item24Desc</LANG>
+    <LANG ID="en-GB">Get yer Hot Pepper right here! Cozy up to the heat of the sign on the wall in all it's shining glory. Hallelujah!</LANG>
+    <LANG ID="fr-FR">C'est chaud, chaud, chaud ! Accroche-la au mur et relaxe-toi dans une ambiance chaleureuse. Alléluia !</LANG>
+    <LANG ID="de-DE">Hier bekommst du deine Chilischote! Mit dieser scharfen Neonlampe an der Wand wird es dir im Nu ganz warm. Halleluja!</LANG>
+    <LANG ID="it-IT">Ottieni il tuo peperoncino piccante qui! Senti il calore dell'insegna appesa al muro in tutta la sua sfolgorante gloria. Alleluia!</LANG>
+    <LANG ID="es-ES">¡Hazte con una de ellas! Ponte cómodo y disfruta del calor que desprende al colocarla en la pared. ¡Aleluya!</LANG>
+    <LANG ID="ja-JP">唐辛子！熱々の看板だよ！</LANG>
+    <LANG ID="ko-KR">매운 고추를 여기서 받아가세요! 벽에 걸린 사인에서 은은하게 퍼지는 열기를 느끼세요. 만세![#Legal]</LANG>
+    <LANG ID="en-SG">Get your Hot Pepper right here! Cozy up to the heat of the sign on the wall in all it's shining glory. Hallelujah!</LANG>
+    <LANG ID="zh-HK">在這裡得到你的熱辣椒吧！在所有它的光輝榮耀的牆壁上留下熱的跡象。哈利路亞！[#Legal]</LANG>
+    <LANG ID="zh-TW">在這裡得到你的熱辣椒吧！在所有它的光輝榮耀的牆壁上留下熱的跡象。哈利路亞！[#Legal]</LANG>
+    <LANG ID="en-US">Get yer Hot Pepper right here! Cozy up to the heat of the sign on the wall in all it's shining glory. Hallelujah!</LANG>
+  </PHRASE>
+</LOCALISATION>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="anmModel_Heart_01.mdl" deferred_loading="false" protected="false" file="lb/wed/scenes/anmModel_Heart_01.mdl" />
+		<texture name="screen_01_c.dds" deferred_loading="false" protected="false" file="lb/2d/Wedding/screen_01_c.dds" />
+		<texture name="Heart_02_c.dds" deferred_loading="false" protected="false">
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_us.dds" locale="en-*" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_hk.dds" locale="zh-HK" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_kr.dds" locale="ko-*" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_fr.dds" locale="fr-*" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_it.dds" locale="it-*" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_es.dds" locale="es-*" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_de.dds" locale="de-*" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_tw.dds" locale="zh-TW" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_jp.dds" locale="ja-*" />
+			<override file="lb/2d/works/Wedding_UI/Heart_02_c_us.dds" />
+		</texture>
+		<particle name="Eff_wedding_01.efx" deferred_loading="false" protected="false" file="lb/pt/Efx/Eff_Bridal_01.efx"  memory="host"/>
+		<particle name="Eff_Bridal_area_01.efx" deferred_loading="false" protected="false" file="lb/pt/Efx/Eff_Bridal_area_01.efx"  memory="host"/>
+		<particle name="Eff_Bridal_area_01_01.efx" deferred_loading="false" protected="false" file="lb/pt/Efx/Eff_Bridal_area_01_01.efx"  memory="host"/>
+		<particle name="Eff_Bridal_area_01_02.efx" deferred_loading="false" protected="false" file="lb/pt/Efx/Eff_Bridal_area_01_02.efx"  memory="host"/>
+		<particle name="Eff_Bridal_area_01_03.efx" deferred_loading="false" protected="false" file="lb/pt/Efx/Eff_Bridal_area_01_03.efx"  memory="host"/>
+		<particle name="Eff_Bridal_area_01_04.efx" deferred_loading="false" protected="false" file="lb/pt/Efx/Eff_Bridal_area_01_04.efx"  memory="host"/>
+		<file name="osd_types.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/osd_types.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/SelectionButton.xml" />
+		<file name="TimerWindow.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/TimerWindow.xml"/>
+		<file name="WndMessageDialog.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/WndMessageDialog.xml"/>
+		<file name="WndSelectDialog.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/WndSelectDialog.xml"/>
+		<file name="WndSimpleMenuDialog.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/WndSimpleMenuDialog.xml"/>
+		<file name="WndTab.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/WndTab.xml"/>
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/WndTabMessageDialog.xml"/>
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" protected="false" file="lb/se00/Marry/file/WndTabSelectDialog.xml"/>
+		<anim name="anmModel_Heart_01.ani" deferred_loading="false" protected="false" file="lb/wed/scenes/anmModel_Heart_01.ani" memory="host"/>
+		<anim name="Motion_kiss_female" deferred_loading="false" protected="false" file="lb/wed/scenes/Motion_kiss_female.ani" memory="host"/>
+		<anim name="Motion_ntr_female" deferred_loading="false" protected="false" file="lb/wed/scenes/Motion_ntr_female.ani" memory="host"/>
+		<anim name="Motion_kiss_male" deferred_loading="false" protected="false" file="lb/wed/scenes/Motion_kiss_male.ani" memory="host"/>
+		<anim name="Motion_ntr_male" deferred_loading="false" protected="false" file="lb/wed/scenes/Motion_ntr_male.ani" memory="host"/>
+		<skeleton name="anmModel_Heart_01.skn" deferred_loading="false" protected="false" file="lb/wed/scenes/anmModel_Heart_01.skn" memory="host"/>
+		<soundstream name="bridal.mp3" deferred_loading="false" protected="false" file="Lounge_Base/sound/WAV/bridal.mp3" />
+		<repertoire name="repertoire_male" deferred_loading="false" protected="false" file="lb/se00/Marry/file/repertoire_male.xml"/>
+		<repertoire name="repertoire_female" deferred_loading="false" protected="false" file="lb/se00/Marry/file/repertoire_female.xml"/>
+		<lua name="ceremony.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/ceremony.lua" />
+		<lua name="data.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/data.lua" />
+		<lua name="Fade.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/Fade.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/main.lua" />
+		<lua name="props.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/props.lua" />
+		<lua name="timerWindow.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/timerWindow.lua" />
+		<lua name="work.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/work.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/DialogBasic.lua" />
+		<lua name="DialogSelect" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/DialogSelect.lua" />
+		<lua name="DialogTab" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/DialogTab.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/DialogTabSelect.lua" />
+		<lua name="LuaTask" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/LuaTask.lua" />
+		<lua name="LuaEvent" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/LuaEvent.lua" />
+		<lua name="LuaMemblock" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/LuaMemblock.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/LuaPadUtil.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/LuaSingleEvent.lua" />
+		<lua name="LuaUtil" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/LuaUtil.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/Inventory.lua" />
+		<lua name="Box.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/Box.lua" />
+		<lua name="Listener.lua" deferred_loading="false" protected="true" file="lb/se00/WaterBike_Race/lua/Listener.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="lb/sj00/Lib/lua/UtilGarbage.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="lb/se00/DataStation/lua/dataInterfaceLight.lua" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="lb/se00/Marry/lua_ver2/AsyncCommandJobManager.lua" />
+	</local>
+	<external />
+</resources>

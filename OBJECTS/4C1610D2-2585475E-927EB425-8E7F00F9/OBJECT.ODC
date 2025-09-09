@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>4C1610D2-2585475E-927EB425-8E7F00F9</uuid>
+  <name lang="en-GB" default="true">Ice Breaker Statue</name>
+  <name lang="fr-FR" default="false">Statue Ice Breaker</name>
+  <name lang="de-DE" default="false">"Ice Breaker"-Statue</name>
+  <name lang="it-IT" default="false">Statua Ice Breaker</name>
+  <name lang="es-ES" default="false">Estatua Ice Breaker</name>
+  <name lang="ja-JP" default="false">Ice Breaker 置物</name>
+  <name lang="ko-KR" default="false">Ice Breaker 동상</name>
+  <name lang="zh-HK" default="false">Ice Breaker雕像</name>
+  <name lang="zh-TW" default="false">Ice Breaker雕像</name>
+  <description lang="en-GB" default="true">An Ice Breaker statue, received as a reward for beating the Ice Breaker arcade game</description>
+  <description lang="fr-FR" default="false">Statue Ice Breaker attribuée pour vous récompenser d'avoir gagné le jeu d'arcade Ice Breaker.</description>
+  <description lang="de-DE" default="false">Die "Ice Breaker"-Statue erhalten Sie als Belohnung für das erfolgreiche Abschneiden in "Ice Breaker".</description>
+  <description lang="it-IT" default="false">Statua Ice Breaker, ricevuta in premio per aver completato il gioco arcade Ice Breaker</description>
+  <description lang="es-ES" default="false">Una estatua Ice Breaker, entregada como premio por terminar el juego arcade Ice Breaker</description>
+  <description lang="ja-JP" default="false">Ice Breaker 全レベルクリアのリワードアイテムです。</description>
+  <description lang="ko-KR" default="false">Ice Breaker 게임을클리어해서얻은보상</description>
+  <description lang="zh-HK" default="false">Ice Breaker雕像是在完成Ice Breaker街機遊戲之後所獲得的獎品。</description>
+  <description lang="zh-TW" default="false">Ice Breaker雕像是在通過Ice Breaker街機遊戲之後所獲得的獎品。</description>
+  <maker lang="en-GB" default="true">Sony Computer Entertainment</maker>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small.png</small_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="7" parental_control_level="3" />
+    <age_rating country="US" minimum_age="0" parental_control_level="1" />
+    <age_rating country="JP" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="1" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="CA" minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>

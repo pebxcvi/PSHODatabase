@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/model/pet_minister.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/model/pet_minister_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle1" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle1.ani" memory="host" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle2.ani" memory="host" />
+		<anim name="ani.idle3" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle3.ani" memory="host" />
+		<anim name="ani.idle4" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle4.ani" memory="host" />
+		<anim name="ani.idle5" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle5.ani" memory="host" />
+		<anim name="ani.idle6" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle6.ani" memory="host" />
+		<anim name="ani.idle7" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle7.ani" memory="host" />
+		<anim name="ani.idle8" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/idle8.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/run.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/anim/walk.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/pet_minister/skeleton/pet_minister.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/pet_minister/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

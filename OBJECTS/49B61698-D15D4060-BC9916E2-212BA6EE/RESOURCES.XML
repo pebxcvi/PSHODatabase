@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="helpBOX.mdl" deferred_loading="false" file="furniture/helpbox/helpBOX.mdl" />
+		<model name="Stage_Camera.mdl" deferred_loading="false" file="furniture/stage_camera/Stage_Camera.mdl" />
+		<model name="Stage_CameraDolly.mdl" deferred_loading="false" file="furniture/stage_cameradolly/Stage_CameraDolly.mdl" />
+		<model name="Stage_VirtualCamera_Off.mdl" deferred_loading="false" file="furniture/Stage_VirtualCamera_Off/Stage_VirtualCamera_Off.mdl" />
+		<model name="Stage_VirtualCamera_On.mdl" deferred_loading="false" file="furniture/stage_virtualcamera_on/Stage_VirtualCamera_On.mdl" />
+		<texture name="helpbox.dds" deferred_loading="false" file="furniture/helpbox/textures/helpbox.dds" />
+		<texture name="Camera_english_800x400.dds" deferred_loading="false" file="MiniGames/RichCamera/Textures/Camera_english_800x400.dds" />
+		<texture name="Stage_Camera_Overlay1.dds" deferred_loading="false" file="MiniGames/RichCamera/Textures/Stage_Camera_Overlay1.dds" />
+		<texture name="Stage_Camera_Overlay2.dds" deferred_loading="false" file="MiniGames/RichCamera/Textures/Stage_Camera_Overlay2.dds" />
+		<texture name="Camera_frenchFR_800x400.dds" deferred_loading="false" file="MiniGames/RichCamera/Textures/Camera_frenchFR_800x400.dds" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/RichCamera/Network.xml" />
+		<file name="basiclegend.xml" deferred_loading="false" file="MiniGames/RichCamera/OSD/basiclegend.xml" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/RichCamera/OSD/types.xml" />
+		<file name="basictext.xml" deferred_loading="false" file="MiniGames/RichCamera/OSD/basictext.xml" />
+		<file name="textpanel.xml" deferred_loading="false" file="MiniGames/RichCamera/OSD/textpanel.xml" />
+		<collision name="helpBOX.hkx" deferred_loading="false" file="furniture/helpbox/helpBOX.hkx" />
+		<collision name="Stage_Camera.hkx" deferred_loading="false" file="furniture/stage_camera/Stage_Camera.hkx" />
+		<collision name="Stage_CameraDolly.hkx" deferred_loading="false" file="furniture/stage_cameradolly/Stage_CameraDolly.hkx" />
+		<collision name="Stage_VirtualCamera_Off.hkx" deferred_loading="false" file="furniture/Stage_VirtualCamera_Off/Stage_VirtualCamera_Off.hkx" />
+		<collision name="Stage_VirtualCamera_On.hkx" deferred_loading="false" file="furniture/stage_virtualcamera_on/Stage_VirtualCamera_On.hkx" />
+		<lua name="main" deferred_loading="false" protected="true" file="MiniGames/RichCamera/main.lua" />
+		<lua name="RichardCodeSerializer.lua" deferred_loading="false" protected="true" file="MiniGames/RichCamera/Property/RichardCodeSerializer.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Class.lua" />
+		<lua name="Debugger.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Debugger.lua" />
+		<lua name="ExString.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/ExtendedAPI/ExString.lua" />
+		<lua name="ExHomeObject.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/ExtendedAPI/ExHomeObject.lua" />
+		<lua name="Vector.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Vector.lua" />
+		<lua name="UserOSDInstruction.lua" deferred_loading="false" protected="true" file="MiniGames/RichCamera/LUA/OSD/UserOSDInstruction.lua" />
+		<lua name="OSDCameraProperties.lua" deferred_loading="false" protected="true" file="MiniGames/RichCamera/LUA/OSD/OSDCameraProperties.lua" />
+		<lua name="UserOSD.lua" deferred_loading="false" protected="true" file="MiniGames/RichCamera/LUA/OSD/UserOSD.lua" />
+		<lua name="Hashtable.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Development/Common/Hashtable.lua" />
+		<lua name="HttpConnection.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/Network/MiniGame/Connection/HttpConnection.lua" />
+		<lua name="ServerResponseParser.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/DataProcessing/ServerResponseParser.lua" />
+		<lua name="db_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/db_lib.lua" />
+		<lua name="class_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/class_lib.lua" />
+		<lua name="coroutine_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/coroutine_lib.lua" />
+	</local>
+	<external />
+</resources>

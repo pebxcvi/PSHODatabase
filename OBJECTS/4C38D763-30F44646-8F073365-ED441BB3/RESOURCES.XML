@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Ofarm_LadybugY.mdl" deferred_loading="true" protected="false" file="Locomotion/LadybugY/model/Ofarm_LadybugY.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/LadybugY/file/config.xml" memory="main" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/LadybugY/anim/fidle.ani" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/LadybugY/anim/idle.ani" memory="host" />
+		<anim name="bmove.ani" deferred_loading="true" protected="false" file="Locomotion/LadybugY/anim/bmove.ani" memory="host" />
+		<anim name="bidle.ani" deferred_loading="true" protected="false" file="Locomotion/LadybugY/anim/bidle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/LadybugY/anim/move.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/LadybugY/anim/fmove.ani" memory="host" />
+		<skeleton name="Ofarm_LadybugY.skn" deferred_loading="true" protected="false" file="Locomotion/LadybugY/model/Ofarm_LadybugY.skn" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/LadybugY/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/LadybugY/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/LadybugY/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/LadybugY/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/LadybugY/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

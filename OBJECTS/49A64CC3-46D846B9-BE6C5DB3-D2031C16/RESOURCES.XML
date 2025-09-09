@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ScoreDisplayBox.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayBox.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_0.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_0.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_1.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_1.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_2.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_2.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_3.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_3.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_4.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_4.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_5.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_5.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_6.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_6.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_7.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_7.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_8.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_8.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_9.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_9.mdl" memory="host" />
+		<model name="PI_Head_Green.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_Head_Green.mdl" memory="host" />
+		<model name="PI_Head_Purple.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_Head_Purple.mdl" memory="host" />
+		<model name="PI_Head_Red.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_Head_Red.mdl" memory="host" />
+		<model name="PI_paddle.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_paddle.mdl" memory="host" />
+		<model name="PI_puck.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_puck.mdl" memory="host" />
+		<model name="PI_gums.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_gums.mdl" memory="host" />
+		<model name="PI_Lane.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_Lane.mdl" memory="host" />
+		<model name="PI_tooth_bumper.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth_bumper.mdl" memory="host" />
+		<model name="PI_tooth1.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth1.mdl" memory="host" />
+		<model name="PI_tooth2.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth2.mdl" memory="host" />
+		<model name="PI_tooth3.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth3.mdl" memory="host" />
+		<model name="PI_tooth4.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth4.mdl" memory="host" />
+		<model name="PI_tooth5.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth5.mdl" memory="host" />
+		<model name="PI_tooth6.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth6.mdl" memory="host" />
+		<model name="PI_tooth7.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth7.mdl" memory="host" />
+		<model name="PI_tooth8.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth8.mdl" memory="host" />
+		<model name="PI_tooth9.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth9.mdl" memory="host" />
+		<model name="PI_Hockey_Stick.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_Hockey_Stick.mdl" memory="host" />
+		<model name="PI_paddle_flash.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_paddle_flash.mdl" memory="host" />
+		<model name="PI_tooth_bumper_flash.mdl" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Models/PI_tooth_bumper_flash.mdl" memory="host" />
+		<texture name="scorebar" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Bar_OSD_c.dds" />
+		<texture name="scorebox" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Box_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Textures/PI_OSD_Bullet_c.dds" />
+		<texture name="goal1" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Textures/PI_OSD_Goal_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="0.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/0.dds" />
+		<texture name="1.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/1.dds" />
+		<texture name="2.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/2.dds" />
+		<texture name="3.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/3.dds" />
+		<texture name="4.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/4.dds" />
+		<texture name="5.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/5.dds" />
+		<texture name="6.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/6.dds" />
+		<texture name="7.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/7.dds" />
+		<texture name="8.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/8.dds" />
+		<texture name="9.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Models/Textures/9.dds" />
+		<texture name="goalcheck" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Green_Check_OSD_c.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_01_female_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_01_male_THMB_128.png" />
+		<texture name="Prize2_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_02_female_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_02_male_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_03_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_04_THMB_128.png" />
+		<texture name="Prize5" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_05_THMB_128.png" />
+		<texture name="Prize6" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_06_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_07_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_08_female_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_08_male_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_09_female_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_09_male_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_10_female_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_07_10_male_THMB_128.png" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/PennyPincher/OSD/types.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/MinigameHud.xml" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/StartUpDialog.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/WinnerDialog.xml" />
+		<anim name="Male_Idle" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Animations/male/Male_Idle.ani" />
+		<anim name="Female_Idle" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Animations/female/Female_Idle.ani" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Animations/Male_Animations.xml" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/Puck_It/Animations/Female_Animations.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Game.lua" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Globals.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Network.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Settings.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="FloatingNumber.lua" deferred_loading="false" protected="true" file="MiniGames/Common/FloatingNumber.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" />
+		<lua name="ScoreBox.lua" deferred_loading="false" protected="true" file="MiniGames/Common/ScoreBox.lua" />
+		<lua name="Head.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Head.lua" />
+		<lua name="PlayField.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/PlayField.lua" />
+		<lua name="Puck.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Puck.lua" />
+		<lua name="Paddle.lua" deferred_loading="false" protected="true" file="MiniGames/Puck_It/Source/Paddle.lua" />
+	</local>
+	<external />
+</resources>

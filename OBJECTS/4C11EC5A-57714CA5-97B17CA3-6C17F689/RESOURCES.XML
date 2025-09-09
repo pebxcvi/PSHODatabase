@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/model/UFO_model.mdl" memory="host" />
+		<model name="raccoon_Walk.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Raccoon/model/raccoon_Walk.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Raccoon/file/config.xml" memory="host" />
+		<anim name="UFO_Locomotion_Walk" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/anim/UFO_Locomotion_Walk.ani" />
+		<anim name="F_UFO_Locomotion_Walk" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/anim/F_UFO_Locomotion_Walk.ani" />
+		<anim name="raccoon_Idle4.ani" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Raccoon/anim/raccoon_Idle4.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/skeleton/UFO_model.skn" memory="host" />
+		<skeleton name="raccoon_Walk.skn" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Raccoon/skeleton/raccoon_Walk.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Loot_FP_UFO_Locomotion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

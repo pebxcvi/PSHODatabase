@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Parts_Starfield.mdl" deferred_loading="false" protected="false" file="environments/showstage/Parts_Starfield.mdl" />
+		<model name="end_stage.mdl" deferred_loading="false" protected="false" file="environmentanimation/end_stage/end_stage.mdl" />
+		<model name="Energy_ball_B.mdl" deferred_loading="false" protected="false" file="environmentanimation/energy_obj/Energy_ball_B.mdl" />
+		<collision name="wall_roof_start.hkx" deferred_loading="false" protected="false" file="environmentanimation/wall_roof/wall_roof_start.hkx" />
+		<soundstream name="lounge.mp3" deferred_loading="false" protected="false" file="MiniGames/SceneManager/sound/lounge2.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SceneManager/lua/MiniGame2.lua" />
+		<lua name="DayNightCycle.lua" deferred_loading="false" protected="true" file="MiniGames/SceneManager/lua/DayNightCycle.lua" />
+		<lua name="sceneLib.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/sceneLib.lua" />
+		<lua name="listener.lua" deferred_loading="false" protected="true" file="MiniGames/SceneManager/lua/listener.lua" />
+		<lua name="DebugMenu.lua" deferred_loading="false" protected="true" file="MiniGames/SceneManager/lua/DebugMenu.lua" />
+		<lua name="bgmMgr.lua" deferred_loading="false" protected="true" file="MiniGames/SceneManager/lua/bgmMgr.lua" />
+	</local>
+	<external />
+</resources>

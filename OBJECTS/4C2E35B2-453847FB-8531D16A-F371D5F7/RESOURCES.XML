@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="BackBlue.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/newBackv2.dds" memory="host" />
+		<texture name="tempCursor_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/selectSwirl.dds" memory="host" />
+		<texture name="table_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/table.dds" memory="host" />
+		<texture name="SpotlightMask_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/SpotlightMask.dds" memory="host" />
+		<texture name="up_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/up.dds" memory="host" />
+		<texture name="ExtraLargePanel_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/panels/Panel720.dds" memory="host" />
+		<texture name="SmallPanel_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/panels/Panel500.dds" memory="host" />
+		<texture name="nameborder_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/nameborder.dds" memory="host" />
+		<texture name="PanelMulti_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/panels/PanelMulti.dds" memory="host" />
+		<texture name="arrow_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/scrollArrow.dds" />
+		<texture name="cardSelect_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/selectSwirl.dds" />
+		<texture name="textPanel_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/textPanel.dds" />
+		<texture name="cloud_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cloud.dds" memory="host" />
+		<texture name="1.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/1.dds" memory="host" />
+		<texture name="2.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/2.dds" memory="host" />
+		<texture name="3.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/3.dds" memory="host" />
+		<texture name="4.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/4.dds" memory="host" />
+		<texture name="5.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/5.dds" memory="host" />
+		<texture name="6.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/6.dds" memory="host" />
+		<texture name="7.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/7.dds" memory="host" />
+		<texture name="8.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/8.dds" memory="host" />
+		<texture name="9.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/9.dds" memory="host" />
+		<texture name="10.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/10.dds" memory="host" />
+		<texture name="11.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/11.dds" memory="host" />
+		<texture name="12.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/12.dds" memory="host" />
+		<texture name="13.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/cards/13.dds" memory="host" />
+		<texture name="nameHighlight_dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/nameHighlight.dds" />
+		<texture name="circle.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/particles/circle.dds" />
+		<texture name="square.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/particles/square.dds" />
+		<texture name="triangle.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/particles/triangle.dds" />
+		<texture name="x.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/particles/x.dds" />
+		<texture name="cardHolder.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/cardHolder.dds" />
+		<texture name="PlayercardHolder.dds" deferred_loading="false" protected="false" file="Scripts/CardGame/images/table/PlayercardHolder.dds" />
+		<soundstream name="card.mp3" deferred_loading="false" protected="false" file="Scripts/CardGame/sounds/card.mp3" />
+		<soundstream name="lose.mp3" deferred_loading="false" protected="false" file="Scripts/CardGame/sounds/lose.mp3" />
+		<soundstream name="power.mp3" deferred_loading="false" protected="false" file="Scripts/CardGame/sounds/power.mp3" />
+		<soundstream name="win.mp3" deferred_loading="false" protected="false" file="Scripts/CardGame/sounds/win.mp3" />
+		<lua name="CardGame_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/CardGame.lua" />
+		<lua name="Constants_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Constants.lua" />
+		<lua name="Engine_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Engine.lua" />
+		<lua name="Network_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Network.lua" />
+		<lua name="Util_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Util.lua" />
+		<lua name="Deck_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Deck.lua" />
+		<lua name="Card_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Card.lua" />
+		<lua name="PlayerManager_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/PlayerManager.lua" />
+		<lua name="AI_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/AI.lua" />
+		<lua name="GameRender_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/GameRender.lua" />
+		<lua name="_Debug.lua" deferred_loading="false" protected="true" file="Scripts/CardGame/_Debug.lua" />
+		<lua name="Document_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Document.lua" />
+		<lua name="Soundstream_Manager_lua" deferred_loading="false" protected="true" file="Scripts/CardGame/Soundstream_Manager.lua" />
+	</local>
+	<external />
+</resources>

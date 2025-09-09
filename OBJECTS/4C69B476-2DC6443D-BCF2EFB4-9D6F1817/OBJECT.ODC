@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.80.0.53.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>4C69B476-2DC6443D-BCF2EFB4-9D6F1817</uuid>
+  <name lang="fr-FR" default="false">LMO - Démarche de zombie</name>
+  <name lang="de-DE" default="false">LMO - Zombie-Gang</name>
+  <name lang="it-IT" default="false">LMO - Camminata zombie</name>
+  <name lang="es-ES" default="false">LMO; Andares de zombie</name>
+  <name lang="ja-JP" default="false">LMO - ゾンビウォーク</name>
+  <name lang="en-US" default="true">LMO - Zombie Walk</name>
+  <description lang="fr-FR" default="false">Vous avez été mordu et désormais vous titubez dans les environs en quête de votre prochaine victime. Ceeerveaauuu !\n 
+※LMO (Locomotion) désigne un article portable. [#Legal]</description>
+  <description lang="de-DE" default="false">Du wurdest gebissen und kannst jetzt wankend nach deinem nächsten Opfer suchen. Gehiiiiiiiiiirne!\n
+※LMO (Fortbewegung) ist ein tragbarer Gegenstand. Drücke die Quadrat-Taste für einen Geschwindigkeitsschub. [#Legal]</description>
+  <description lang="it-IT" default="false">Ti ha morso uno zombie? Perfetto! Adesso nessuno potrà criticarti mentre arranchi verso la tua prossima vittima!\n
+※LMO (Locomotion) è un oggetto portatile. Premi il tasto quadrato per accelerare. [#Legal]</description>
+  <description lang="es-ES" default="false">Te han mordido, así que ya puedes dar tumbos por ahí en busca de tu siguiente víctima. ¡Cerebrooooosss!\n
+※LMO (locomoción) es un objeto portátil. Presiona Cuadro para aumentar la velocidad. [#Legal]</description>
+  <description lang="ja-JP" default="false">あなたは噛まれて、次の犠牲者を求めてヨロヨロと歩き回ります。脳みそ！\n
+※LMO (ロコモーション)とは携帯型アイテムです。速度増強にはスクエアを押してください。 [#Legal]</description>
+  <description lang="en-US" default="true">You were bitten and now you can stagger around searching for your next victim. Braaaaaaiins!\n
+※LMO (Locomotion) is a Portable Item. Press Square for a speed boost. [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <heat />
+  <timestamp>665F61B2</timestamp>
+</odc>
