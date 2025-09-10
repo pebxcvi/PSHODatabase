@@ -4,7 +4,7 @@
 
 This repository contains metadata files and thumbnails for PlayStation®Home Objects currently included in the Home Laboratory Object Catalogue, known as "psho". The catalogue was made specifically for the PSHomeology Lab PlayStation®Home Online Server.
 
-Home Laboratory Catlaogue -> http://psho.me
+Home Laboratory Catalogue -> http://psho.me
 
 Home Laboratory Discord -> https://dsc.gg/homelaboratory
 
