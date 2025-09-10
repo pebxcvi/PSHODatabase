@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="mdl_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/mechrecharger/MechRecharger.mdl" />
+    <texture name="tex_psStoreBagIcon" deferred_loading="false" protected="false" file="OSD/textures/Menus/psStoreBagIcon.dds" />
+    <particle name="efx_recharger" deferred_loading="false" protected="false" file="ATGParticles/MechRechargingStation/tall_streaks.efx" />
+    <particle name="efx_recharging" deferred_loading="false" protected="false" file="ATGParticles/MechRechargingStation/recharging.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/MechRechargingStation/Network.xml" />
+    <collision name="hkx_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/mechrecharger/MechRecharger.hkx" />
+    <anim name="ani_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/teleporter/novus_portal.ani" />
+    <skeleton name="skn_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/teleporter/novus_portal.skn" />
+    <soundbank name="bnk_gamesound_teleporter" deferred_loading="false" protected="false" file="hellfiretest/audio/gamesound_teleporter.bnk" />
+    <lua name="MechRechargingStation.lua" deferred_loading="false" protected="true" file="minigames/mechrechargingstation/mechrechargingstation.luac" />
+    <lua name="Callback.lua" deferred_loading="false" protected="true" file="scripts/misc/callback.luac" />
+    <lua name="Debug.lua" deferred_loading="false" protected="true" file="scripts/misc/debug.luac" />
+    <lua name="RechargingStationMenu.lua" deferred_loading="false" protected="true" file="minigames/mechrechargingstation_homesquare/rechargingstationmenu.luac" />
+    <lua name="Menu.lua" deferred_loading="false" protected="true" file="scripts/gui/menu.luac" />
+    <lua name="class.lua" deferred_loading="false" protected="true" file="scripts/misc/class.luac" memory="main" />
+    <lua name="Window.lua" deferred_loading="false" protected="true" file="scripts/gui/window.luac" />
+    <lua name="Slider.lua" deferred_loading="false" protected="true" file="scripts/gui/slider.luac" />
+    <lua name="Inventory.lua" deferred_loading="false" protected="true" file="scripts/misc/inventory.luac" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ContainmentDoorMDL" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/containmentdoor/ContainmentDoor.mdl" />
+		<model name="RedTarget" deferred_loading="false" protected="false" file="furniture/darts/RedTarget.mdl" />
+		<model name="Laser" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/decontaminationunit/Laser.mdl" />
+		<particle name="smoke" deferred_loading="false" protected="false" file="ATGParticles/DecontaminationSmoke/DecontaminationSmoke.efx" />
+		<file name="decontam.bank" deferred_loading="false" protected="false" file="MiniGames/StationToy2/Sound/decontam.bank" />
+		<collision name="ContainmentDoorCol" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/containmentdoor/ContainmentDoor.hkx" />
+		<anim name="ContainmentDoorANI" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/containmentdoor/ContainmentDoor.ani" />
+		<anim name="ContainmentDoorANI2" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/containmentdoor/ContainmentDoorClose.ani" />
+		<skeleton name="ContainmentDoorSKN" deferred_loading="false" protected="false" file="environments/space_station/environmentmodels/containmentdoor/ContainmentDoor.skn" />
+		<soundbank name="stationSound" deferred_loading="false" protected="false" file="MiniGames/StationToy2/Sound/decontam.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/StationToy2/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

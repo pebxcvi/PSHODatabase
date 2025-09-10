@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <texture name="ic_back" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_back.dds" />
+    <texture name="ic_clubs" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_clubs.dds" />
+    <texture name="ic_commerce" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_commerce.dds" />
+    <texture name="ic_events" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_events.dds" />
+    <texture name="ic_game" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_game.dds" />
+    <texture name="ic_new" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_new.dds" />
+    <texture name="ic_social" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_social.dds" />
+    <texture name="ic_spaces" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_spaces.dds" />
+    <texture name="ic_challenges" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/ic_challenges.dds" />
+    <texture name="icframe_downstate" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/icframe_downstate.dds" />
+    <texture name="icframe_selected" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/icframe_selected.dds" />
+    <texture name="icframe_upstate" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/icframe_upstate.dds" />
+    <texture name="up_arrow" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/up_arrow.dds" />
+    <texture name="down_arrow" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/down_arrow.dds" />
+    <texture name="left_arrow" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/left_arrow.dds" />
+    <texture name="right_arrow" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/right_arrow.dds" />
+    <texture name="shoppingBag" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/shoppingBag.dds" />
+    <texture name="frame_TL" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_TL.dds" />
+    <texture name="frame_T" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_T.dds" />
+    <texture name="frame_TR" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_TR.dds" />
+    <texture name="frame_L" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_L.dds" />
+    <texture name="frame_M" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_M.dds" />
+    <texture name="frame_R" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_R.dds" />
+    <texture name="frame_BL" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_BL.dds" />
+    <texture name="frame_B" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_B.dds" />
+    <texture name="frame_BR" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/frame_BR.dds" />
+    <texture name="framewhite_TL" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_TL.dds" />
+    <texture name="framewhite_T" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_T.dds" />
+    <texture name="framewhite_TR" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_TR.dds" />
+    <texture name="framewhite_L" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_L.dds" />
+    <texture name="framewhite_M" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_M.dds" />
+    <texture name="framewhite_R" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_R.dds" />
+    <texture name="framewhite_BL" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_BL.dds" />
+    <texture name="framewhite_B" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_B.dds" />
+    <texture name="framewhite_BR" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/framewhite_BR.dds" />
+    <texture name="tabshadow_T" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/tabshadow_T.dds" />
+    <texture name="tabshadow_M" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/tabshadow_M.dds" />
+    <texture name="tabshadow_B" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/tabshadow_B.dds" />
+    <texture name="tabshadow_Back" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/tabshadow_Back.dds" />
+    <texture name="L1_bt" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/L1_bt.dds" />
+    <texture name="R1_bt" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/R1_bt.dds" />
+    <texture name="relocation_spinner" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/relocation_spinner.dds" />
+    <texture name="waiting_spinner" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/spinning_graphic.dds" />
+    <texture name="no_video" deferred_loading="false" protected="false" file="Frontend/Textures/GUI/novideo.dds" />
+    <soundbank name="sounds" deferred_loading="false" protected="false" file="Frontend/Sounds/sounds.bnk" memory="host" />
+    <lua name="Class.lua" deferred_loading="true" protected="true" file="libs/system/class.luac" memory="host" />
+    <lua name="Helpers.lua" deferred_loading="true" protected="true" file="libs/system/helpers.luac" memory="host" />
+    <lua name="SmoothVar.lua" deferred_loading="true" protected="true" file="libs/system/smoothvar.luac" memory="host" />
+    <lua name="InputHandler.lua" deferred_loading="true" protected="true" file="libs/system/inputhandler.luac" memory="host" />
+    <lua name="GuiItem.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitem.luac" memory="host" />
+    <lua name="GuiItemImage.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemimage.luac" memory="host" />
+    <lua name="GuiItemVideo.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemvideo.luac" memory="host" />
+    <lua name="GuiItemStretch9.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemstretch9.luac" memory="host" />
+    <lua name="GuiItemScrollWindow.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemscrollwindow.luac" memory="host" />
+    <lua name="GuiItemScrollBar.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemscrollbar.luac" memory="host" />
+    <lua name="GuiItemTickerTape.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemtickertape.luac" memory="host" />
+    <lua name="GuiItemRSSFeedWindow.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemrssfeedwindow.luac" memory="host" />
+    <lua name="GuiItemFormatWindow.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemformatwindow.luac" memory="host" />
+    <lua name="GuiItemText.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemtext.luac" memory="host" />
+    <lua name="GuiItemMenu.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemmenu.luac" memory="host" />
+    <lua name="GuiItemMenuOption.lua" deferred_loading="true" protected="true" file="libs/system/gui/guiitemmenuoption.luac" memory="host" />
+    <lua name="Frontend.lua" deferred_loading="true" protected="true" file="frontend/lua/frontend.luac" memory="host" />
+    <lua name="FrontendHelpers.lua" deferred_loading="true" protected="true" file="frontend/lua/frontendhelpers.luac" memory="host" />
+    <lua name="Actions.lua" deferred_loading="true" protected="true" file="frontend/lua/actions.luac" memory="host" />
+    <lua name="SaveData.lua" deferred_loading="true" protected="true" file="frontend/lua/savedata.luac" memory="host" />
+    <lua name="GuiItemMain.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemmain.luac" memory="host" />
+    <lua name="GuiItemContainer.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemcontainer.luac" memory="host" />
+    <lua name="GuiItemCategory.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemcategory.luac" memory="host" />
+    <lua name="GuiItemArticle.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemarticle.luac" memory="host" />
+    <lua name="GuiItemInArticle.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiiteminarticle.luac" memory="host" />
+    <lua name="GuiItemInArticleTxt.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiiteminarticletxt.luac" memory="host" />
+    <lua name="GuiItemInArticleRssFeed.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiiteminarticlerssfeed.luac" memory="host" />
+    <lua name="GuiItemInArticleSlideshow.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiiteminarticleslideshow.luac" memory="host" />
+    <lua name="GuiItemInArticleWidget.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiiteminarticlewidget.luac" memory="host" />
+    <lua name="GuiItemFullScreenImage.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemfullscreenimage.luac" memory="host" />
+    <lua name="GuiItemFullScreenVideo.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemfullscreenvideo.luac" memory="host" />
+    <lua name="GuiItemBackground.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitembackground.luac" memory="host" />
+    <lua name="GuiItemCategoryTab.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemcategorytab.luac" memory="host" />
+    <lua name="GuiItemCategoryTabBar.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitemcategorytabbar.luac" memory="host" />
+    <lua name="GuiItemPopup.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/guiitempopup.luac" memory="host" />
+    <lua name="GuiItemWidgetPersonalisedScenes.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/widgets/guiitemwidgetpersonalisedscenes.luac" memory="host" />
+    <lua name="GuiItemWidgetVoting.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/widgets/guiitemwidgetvoting.luac" memory="host" />
+    <lua name="GuiItemWidgetChallenges.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/widgets/guiitemwidgetchallenges.luac" memory="host" />
+    <lua name="GuiItemWidgetTwitter.lua" deferred_loading="true" protected="true" file="frontend/lua/gui/widgets/guiitemwidgettwitter.luac" memory="host" />
+    <lua name="Assert.lua" deferred_loading="false" protected="true" file="libs/system/assert.luac" memory="host" />
+    <lua name="Coroutine.lua" deferred_loading="false" protected="true" file="libs/system/coroutine.luac" memory="host" />
+    <lua name="Initialise.lua" deferred_loading="false" protected="true" file="libs/system/initialise.luac" memory="host" />
+    <lua name="Log.lua" deferred_loading="false" protected="true" file="libs/system/log.luac" memory="host" />
+    <lua name="ThreadManager.lua" deferred_loading="false" protected="true" file="libs/system/threadmanager.luac" memory="host" />
+    <lua name="frontend_boot.lua" deferred_loading="false" protected="true" file="apps/frontendapp/lua/frontend_boot.luac" memory="host" />
+  </local>
+  <external />
+</resources>

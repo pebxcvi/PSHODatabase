@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="TrainAnimation_left.mdl" deferred_loading="false" protected="false" file="environmentanimations/homeplazatrain/TrainAnimation_left.mdl" />
+		<model name="TrainAnimation_Right.mdl" deferred_loading="false" protected="false" file="environmentanimations/homeplazatrain/TrainAnimation_Right.mdl" />
+		<file name="train_times.xml" deferred_loading="false" protected="false" file="MiniGames/SCEA_Trains/lua/train_times.xml" />
+		<anim name="TrainAnimation_left.ani" deferred_loading="false" protected="false" file="environmentanimations/homeplazatrain/TrainAnimation_left.ani" />
+		<anim name="TrainAnimation_Right.ani" deferred_loading="false" protected="false" file="environmentanimations/homeplazatrain/TrainAnimation_Right.ani" />
+		<skeleton name="TrainAnimation_left.skn" deferred_loading="false" protected="false" file="environmentanimations/homeplazatrain/TrainAnimation_left.skn" />
+		<skeleton name="TrainAnimation_Right.skn" deferred_loading="false" protected="false" file="environmentanimations/homeplazatrain/TrainAnimation_Right.skn" />
+		<soundbank name="SCEA_Plaza_Station.bnk" deferred_loading="false" protected="false" file="MiniGames/SCEA_Trains/audio/SCEA_Plaza_Station.bnk" />
+		<lua name="Train_Station.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_Trains/lua/Train_Station.lua" />
+		<lua name="Trains.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_Trains/lua/Trains.lua" />
+		<lua name="Train_Audio.lua" deferred_loading="false" protected="true" file="MiniGames/SCEA_Trains/lua/Train_Audio.lua" />
+		<lua name="aHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/aHelpers.lua" />
+	</local>
+	<external />
+</resources>

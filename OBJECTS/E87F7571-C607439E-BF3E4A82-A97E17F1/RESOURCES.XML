@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="christmas/rewardcommerceitems/present_station_01.mdl" />
+		<particle name="efx" deferred_loading="false" protected="false" file="atgparticles/generic/efx/elf_present_magic.efx" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="christmas/rewardcommerceitems/present_station_01.hkx" />
+		<lua name="boot" deferred_loading="false" protected="true" file="christmas/lua/workbench/boot.lua" />
+	</local>
+	<external />
+</resources>

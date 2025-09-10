@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="KingPolarBear_Facial.mdl" deferred_loading="false" protected="false" file="christmas/model/KingPolarBear_Facial.mdl" />
+		<texture name="icebox_01.dds" deferred_loading="false" protected="false" file="christmas/HUD/icebox_01.dds" />
+		<texture name="icebox_02.dds" deferred_loading="false" protected="false" file="christmas/HUD/icebox_02.dds" />
+		<texture name="icebox_shadow.dds" deferred_loading="false" protected="false" file="christmas/HUD/icebox_shadow.dds" />
+		<texture name="menu_bg.dds" deferred_loading="false" protected="false" file="christmas/HUD/menu_bg.dds" />
+		<texture name="menu_button.dds" deferred_loading="false" protected="false" file="christmas/HUD/menu_button.dds" />
+		<texture name="menu_button_bg.dds" deferred_loading="false" protected="false" file="christmas/HUD/menu_button_bg.dds" />
+		<particle name="portal_02.efx" deferred_loading="false" protected="false" file="atgparticles/generic/efx/portal_02.efx" />
+		<file name="Christmas.xml" deferred_loading="false" protected="false" file="MiniGames/Orson_Cave_Scene_Minigame/file/Christmas.xml" />
+		<anim name="SAT_IDLE_POLAR_01.ani" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_IDLE_POLAR_01.ani" />
+		<anim name="SAT_IDLE_POLAR_02.ani" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_IDLE_POLAR_02.ani" />
+		<anim name="SAT_TALK_POLAR_01.ani" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_01.ani" />
+		<anim name="SAT_TALK_POLAR_02.ani" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_02.ani" />
+		<anim name="M_F_02_P2.ani" deferred_loading="false" protected="false" file="christmas/animations/M_F_02_P2.ani" />
+		<anim name="M_M_02_P2.ani" deferred_loading="false" protected="false" file="christmas/animations/M_M_02_P2.ani" />
+		<anim name="SAT_TALK_POLAR_03.ani" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_03.ani" />
+		<anim name="SAT_TALK_POLAR_04.ani" deferred_loading="false" protected="false" file="christmas/animation/bear/SAT_TALK_POLAR_04.ani" />
+		<anim name="ATTENTION_IDLE_F_01.ani" deferred_loading="false" protected="false" file="christmas/animation/male/fromrichv/ATTENTION_IDLE_F_01.ani" />
+		<anim name="ATTENTION_IDLE_F_02.ani" deferred_loading="false" protected="false" file="christmas/animation/male/fromrichv/ATTENTION_IDLE_F_02.ani" />
+		<anim name="ATTENTION_IDLE_M_01.ani" deferred_loading="false" protected="false" file="christmas/animation/male/fromrichv/ATTENTION_IDLE_M_01.ani" />
+		<anim name="ATTENTION_IDLE_M_02.ani" deferred_loading="false" protected="false" file="christmas/animation/male/fromrichv/ATTENTION_IDLE_M_02.ani" />
+		<skeleton name="KingPolarBear_Facial.skn" deferred_loading="false" protected="false" file="christmas/model/KingPolarBear_Facial.skn" />
+		<soundbank name="Prologue.bnk" deferred_loading="false" protected="false" file="MiniGames/Orson_Cave_Scene_Minigame/audio/Prologue_CS.bnk" />
+		<soundbank name="bnk.common" deferred_loading="false" protected="false" file="MiniGames/Snow_Patrol/file/Common_XMAS.bnk" />
+		<soundbank name="L3.bnk" deferred_loading="false" protected="false" file="MiniGames/orson_cave_scene_minigame/audio/l3_orson_grotto.bnk" />
+		<soundbank name="L1.bnk" deferred_loading="false" protected="false" file="MiniGames/orson_cave_scene_minigame/audio/Level1_Orson_Grotto.bnk" />
+		<soundbank name="L2.bnk" deferred_loading="false" protected="false" file="MiniGames/orson_cave_scene_minigame/audio/level2_orson_grotto.bnk" />
+		<soundstream name="ThroneRoom.mp3" deferred_loading="false" protected="false" file="MiniGames/Orson_Cave_Scene_Minigame/audio/SFX_AMB_Orson_Throne_Room_loop.mp3" />
+		<soundstream name="WinterMaze_1_with_fade.mp3" deferred_loading="false" protected="false" file="christmas/audio/WinterMaze_1_with_fade.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/MiniGame.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/Utility.lua" />
+		<lua name="ThreadManager.lua" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="libs/system/Log.lua" />
+		<lua name="TimeManager.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/TimeManager.lua" />
+		<lua name="XmlParser.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/XmlParser.lua" />
+		<lua name="OrsonDebug.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/OrsonDebug.lua" />
+		<lua name="Grotto.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/Grotto.lua" />
+		<lua name="StatusCheck.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/StatusCheck.lua" />
+		<lua name="CutScene.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/CutScene.lua" />
+		<lua name="CutSceneManager.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/CutSceneManager.lua" />
+		<lua name="SceneChoiceUi.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/SceneChoiceUi.lua" />
+		<lua name="Portal.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/Portal.lua" />
+		<lua name="remotehider.lua" deferred_loading="false" protected="true" file="libs/system/remotehider.lua" />
+		<lua name="Common.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/Common.lua" />
+		<lua name="scenedownloader.lua" deferred_loading="false" protected="true" file="libs/system/scenedownloader.lua" />
+		<lua name="CutSceneMainIntro.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneMainIntro.lua" />
+		<lua name="CutSceneStage1Failed.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage1Failed.lua" />
+		<lua name="CutSceneStage1Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage1Intro.lua" />
+		<lua name="CutSceneStage1Won.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage1Won.lua" />
+		<lua name="CutSceneStage2Failed.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage2Failed.lua" />
+		<lua name="CutSceneStage2Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage2Intro.lua" />
+		<lua name="CutSceneStage2Won.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage2Won.lua" />
+		<lua name="CutSceneStage3Failed.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage3Failed.lua" />
+		<lua name="CutSceneStage3Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage3Intro.lua" />
+		<lua name="CutSceneStage3Won.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage3Won.lua" />
+		<lua name="CutSceneStage4Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/cutscenes/CutSceneStage4Intro.lua" />
+		<lua name="SData.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/SData.lua" />
+		<lua name="SubtitleBox.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/SubtitleBox.lua" />
+		<lua name="GrottoIntro.lua" deferred_loading="false" protected="true" file="MiniGames/Orson_Cave_Scene_Minigame/lua/GrottoIntro.lua" />
+		<lua name="Actor.lua" deferred_loading="false" protected="true" file="libs/system/Actor.lua" />
+		<lua name="AnimatedCamera.lua" deferred_loading="false" protected="true" file="libs/system/AnimatedCamera.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="libs/system/EventManager.lua" />
+		<lua name="Cutscene_Definition.lua" deferred_loading="false" protected="true" file="MiniGames/orson_cave_scene_minigame/lua/Cutscene_Definition.lua" />
+		<lua name="Cutscene2.lua" deferred_loading="false" protected="true" file="MiniGames/orson_cave_scene_minigame/lua/Cutscene2.lua" />
+		<lua name="Easing.lua" deferred_loading="false" protected="true" file="libs/util/Easing.lua" />
+		<lua name="Colours.lua" deferred_loading="false" protected="true" file="libs/gui/Colours.lua" />
+		<lua name="animregisters.lua" deferred_loading="false" protected="true" file="libs/util/animregisters.lua" />
+		<lua name="menu.lua" deferred_loading="false" protected="true" file="MiniGames/orson_cave_scene_minigame/lua/menu.lua" />
+	</local>
+	<external />
+</resources>

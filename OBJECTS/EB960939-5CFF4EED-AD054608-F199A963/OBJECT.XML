@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">name</name>
+		<description type="string">desc</description>
+		<author type="string">Sony Computer Entertainment</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Sony Computer Entertainment</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">name</name>
+		<type type="string">Hat</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_Hat_shiba_head</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_Hat_shiba_head.lod1</lod1>
+					<lod2 type="string">Female01_Hat_shiba_head.lod2</lod2>
+					<lod3 type="string">Female01_Hat_shiba_head.lod3</lod3>
+				</lods>
+				<skeleton type="string">head</skeleton>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">head2SG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Hat_shiba_head.head2SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Hat_shiba_head.head2SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Hat_shiba_head.head2SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">shiba_head9:ATGMaterial1SG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Hat_shiba_head.shiba_head9:ATGMaterial1SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Hat_shiba_head.shiba_head9:ATGMaterial1SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Hat_shiba_head.shiba_head9:ATGMaterial1SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

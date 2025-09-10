@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Eff_jump_sword_Lv1.mdl" deferred_loading="false" protected="false" file="Edo/cmn_design/eff/Eff_jump_sword_Lv1.mdl" />
+		<particle name="Eff_e_karakasa_atk_01.efx" deferred_loading="false" protected="false" file="Edo/cmn_design/ATGParticles/Efx/Eff_e_karakasa_atk_01.efx" />
+		<particle name="Eff_dmg_01.efx" deferred_loading="false" protected="false" file="Edo/cmn_design/ATGParticles/Efx/Eff_dmg_01.efx" />
+		<anim name="anm_karakasa_atk.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/enemy/scenes/anm_karakasa_atk.ani" />
+		<anim name="anm_karakasa_walk.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/enemy/scenes/anm_karakasa_walk.ani" />
+		<anim name="anm_karakasa_sign.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/enemy/scenes/anm_karakasa_sign.ani" />
+		<anim name="anm_M_npc_samurai_btl_atk.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/npc_motion/anm_M_npc_samurai_btl_atk.ani" />
+		<anim name="anm_M_npc_samurai_btl_ntr01.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/npc_motion/anm_M_npc_samurai_btl_ntr01.ani" />
+		<anim name="anm_M_npc_samurai_btl_walk.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/npc_motion/anm_M_npc_samurai_btl_walk.ani" />
+		<anim name="Eff_jump_sword_Lv1.ani" deferred_loading="false" protected="false" file="Edo/cmn_design/eff/Eff_jump_sword_Lv1.ani" />
+		<skeleton name="Eff_jump_sword_Lv1.skn" deferred_loading="false" protected="false" file="Edo/cmn_design/eff/Eff_jump_sword_Lv1.skn" />
+		<lua name="LuaMath.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCController_UraEdo/lua/LuaMath.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCController_UraEdo/lua/MiniGame.lua" />
+		<lua name="NPCController.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCController_UraEdo/lua/NPCController.lua" />
+		<lua name="NPCControllerInterface.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCController_UraEdo/lua/NPCControllerInterface.lua" />
+		<lua name="NPCData.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCController_UraEdo/lua/NPCData.lua" />
+		<lua name="Rail.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCController_UraEdo/lua/Rail.lua" />
+		<lua name="RailData01.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCController_UraEdo/lua/RailData01.lua" />
+	</local>
+	<external />
+</resources>

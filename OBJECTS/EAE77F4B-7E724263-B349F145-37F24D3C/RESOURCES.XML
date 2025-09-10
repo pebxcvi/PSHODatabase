@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="ufo.mdl" deferred_loading="false" protected="false" file="environments/items/ufo.mdl" memory="host" />
+    <model name="beam.mdl" deferred_loading="false" protected="false" file="environments/landsharkisland/beam.mdl" memory="host" />
+    <model name="tingInABox.mdl" deferred_loading="false" protected="false" file="environments/items/tingInABox.mdl" memory="host" />
+    <model name="LittleReaper.mdl" deferred_loading="false" protected="false" file="environments/items/LittleReaper.mdl" memory="host" />
+    <lua name="DisplayCabinetEmbedObj.lua" deferred_loading="false" protected="true" file="scripts/display_cabinet/displaycabinetembedobj.lua" memory="host" />
+  </local>
+  <external />
+</resources>

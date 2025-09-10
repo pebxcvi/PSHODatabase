@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="log_half.mdl" deferred_loading="true" file="MiniGames/SantasQuests/Models/log_split.mdl" />
+		<model name="log_left.mdl" deferred_loading="true" file="MiniGames/SantasQuests/Models/log_leftside.mdl" />
+		<model name="log_right.mdl" deferred_loading="true" file="MiniGames/SantasQuests/Models/log_rightside.mdl" />
+		<model name="log_full.mdl" deferred_loading="true" file="MiniGames/SantasQuests/Models/log_whole.mdl" />
+		<model name="whiteroom.mdl" deferred_loading="true" file="MiniGames/SantasQuests/xmasfirewood/whiteroom.mdl" />
+		<model name="axechop.mdl" deferred_loading="true" file="Animation_V4/models/axechop01.mdl" />
+		<texture name="button.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_cross.dds" />
+		<texture name="countdown_anim9.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim9.dds" />
+		<texture name="countdown_anim1.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim1.dds" />
+		<texture name="countdown_anim2.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim2.dds" />
+		<texture name="countdown_anim3.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim3.dds" />
+		<texture name="countdown_anim4.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim4.dds" />
+		<texture name="countdown_anim5.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim5.dds" />
+		<texture name="countdown_anim6.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim6.dds" />
+		<texture name="countdown_anim7.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim7.dds" />
+		<texture name="countdown_anim8.dds" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim8.dds" />
+		<texture name="button_asia.dds" deferred_loading="false" protected="false" file="MiniGames/SantasQuests/Textures/large_circle.dds" />
+		<particle name="particle.efx" deferred_loading="true" file="ATGParticles/generic/efx/xmas_wood_chopping_chips.efx" />
+		<particle name="trail.efx" deferred_loading="true" file="ATGParticles/generic/efx/christmas_present_trail.efx" />
+		<collision name="log_stack.hkx" deferred_loading="false" file="MiniGames/SantasQuests/Models/logs_stack.hkx" />
+		<collision name="log_left.hkx" deferred_loading="false" file="MiniGames/SantasQuests/Models/log_leftside.hkx" />
+		<collision name="log_right.hkx" deferred_loading="false" file="MiniGames/SantasQuests/Models/log_rightside.hkx" />
+		<collision name="trunk.hkx" deferred_loading="false" file="MiniGames/SantasQuests/xmasfirewood/trunk.hkx" />
+		<anim name="axestuck.ani" deferred_loading="false" file="Animation_V4/models/axestuck01.ani" />
+		<anim name="axechop.ani" deferred_loading="false" file="Animation_V4/models/axechop01.ani" />
+		<anim name="axefree.ani" deferred_loading="false" file="Animation_V4/models/axefree01.ani" />
+		<anim name="axeidle.ani" deferred_loading="false" file="Animation_V4/models/axeidle02.ani" />
+		<skeleton name="axechop.skn" deferred_loading="false" file="Animation_V4/models/axechop01.skn" />
+		<soundbank name="log_chopping.bnk" deferred_loading="true" file="MiniGames/SantasQuests/sounds/log_chopping.bnk" />
+		<lua name="framework.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasfirewood/framework.lua" />
+		<lua name="firewood.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasfirewood/firewood.lua" />
+		<lua name="cutscene.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/cutscene.lua" />
+		<lua name="xmasshared.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasshared.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+		<lua name="cameras.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasfirewood/new_cameras.lua" />
+	</local>
+	<external />
+</resources>

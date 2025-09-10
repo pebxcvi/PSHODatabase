@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/musicbox/models/CommJune_MusicBox.mdl" />
+		<model name="MusicBox_Ballerina.mdl" deferred_loading="false" protected="false" file="ActiveItems/musicbox/models/MusicBox_Ballerina.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/MusicBox/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/musicbox/models/CommJune_MusicBox.hkx" />
+		<anim name="MusicBox_Ballerina.ani" deferred_loading="false" protected="false" file="ActiveItems/musicbox/models/MusicBox_Ballerina.ani" />
+		<skeleton name="MusicBox_Ballerina.skn" deferred_loading="false" protected="false" file="ActiveItems/musicbox/models/MusicBox_Ballerina.skn" />
+		<soundbank name="MusicBox_BNK" deferred_loading="false" protected="false" file="ActiveItems/MusicBox/sound/MusicBox.bnk" />
+		<soundstream name="Music_Box.mp3" deferred_loading="false" protected="false" file="ActiveItems/MusicBox/sound/Music_Box.mp3" memory="host" />
+		<lua name="musicBox.lua" deferred_loading="false" protected="true" file="ActiveItems/musicbox/musicBox.lua" />
+	</local>
+	<external />
+</resources>

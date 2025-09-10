@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Dodgem.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/Dodgem.mdl" />
+		<texture name="DODGEM_2_C.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_2_C.dds" />
+		<texture name="DODGEM_2_S.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_2_S.dds" />
+		<texture name="DODGEM_3_C.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_3_C.dds" />
+		<texture name="DODGEM_3_S.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_3_S.dds" />
+		<texture name="DODGEM_4_C.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_4_C.dds" />
+		<texture name="DODGEM_4_S.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_4_S.dds" />
+		<texture name="DODGEM_5_S.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_5_S.dds" />
+		<texture name="DODGEM_6_S.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_6_S.dds" />
+		<texture name="DODGEM_5_C.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_5_c.dds" />
+		<texture name="DODGEM_5_N.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_5_n.dds" />
+		<texture name="DODGEM_1_C.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/dodgem_c.dds" />
+		<texture name="DODGEM_6_C.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/DODGEM_C6.dds" />
+		<texture name="DODGEM_1_N.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/dodgem_n.dds" />
+		<texture name="DODGEM_1_S.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/textures/dodgem_s.dds" />
+		<particle name="DodgemSparks.efx" deferred_loading="false" protected="false" file="ATGParticles/Park/DodgemSparks.efx" />
+		<collision name="Dodgem.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/Dodgem.hkx" />
+		<anim name="f_driver_flinch.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/f_driver_flinch.ani" />
+		<anim name="f_driver_idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/f_driver_idle.ani" />
+		<anim name="f_driver_move.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/f_driver_move.ani" />
+		<anim name="f_passenger_flinch.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/f_passenger_flinch.ani" />
+		<anim name="f_passenger_idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/f_passenger_idle.ani" />
+		<anim name="f_passenger_move.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/f_passenger_move.ani" />
+		<anim name="m_driver_flinch.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/m_driver_flinch.ani" />
+		<anim name="m_driver_idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/m_driver_idle.ani" />
+		<anim name="m_driver_move.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/m_driver_move.ani" />
+		<anim name="m_passenger_flinch.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/m_passenger_flinch.ani" />
+		<anim name="m_passenger_idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/m_passenger_idle.ani" />
+		<anim name="m_passenger_move.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/anim/m_passenger_move.ani" />
+		<repertoire name="femaleRep" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/Repertoire/femaleDodgemRep.xml" />
+		<repertoire name="maleRep" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/Social/Dodgems/Repertoire/maleDodgemRep.xml" />
+		<lua name="DodgemsMG.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Social/Dodgems/DodgemsMG.lua" />
+	</local>
+	<external />
+</resources>

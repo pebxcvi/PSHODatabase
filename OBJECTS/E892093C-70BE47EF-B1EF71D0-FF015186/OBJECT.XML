@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.80.0.53.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">ohashi01</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Will Co.,Ltd.</company>
+		<template type="string">scene_minigame</template>
+		<template_version type="string">1.1.0</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">MiniGameClient.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">OnListenerReceivedData()</on_listener_received_data>
+		<on_destroy type="string">OnDestroy()</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<targetable>
+		<interactive type="bool">false</interactive>
+		<on_activated type="string"></on_activated>
+		<on_targeted type="string"></on_targeted>
+		<is_targetable_by_remote_people type="bool">false</is_targetable_by_remote_people>
+		<trigger_radius type="float">-1</trigger_radius>
+		<can_be_targeted_while_seated type="bool">false</can_be_targeted_while_seated>
+	</targetable>
+	<entity />
+	<particles />
+	<network>
+		<definition type="string">Network.xml</definition>
+		<on_bag_created type="string">OnBagCreated()</on_bag_created>
+		<on_bag_deleted type="string">OnBagDeleted()</on_bag_deleted>
+		<on_message_received type="string">OnMessageReceived()</on_message_received>
+		<auto_replicate type="bool">false</auto_replicate>
+	</network>
+	<mini_game>
+		<on_update type="string">OnUpdate()</on_update>
+		<on_send_welcome_message type="string">OnSendWelcomeMessage()</on_send_welcome_message>
+		<on_render type="string">OnRender()</on_render>
+		<on_can_local_player_join type="string">OnCanLocalPlayerJoin()</on_can_local_player_join>
+		<on_add_player type="string">OnAddPlayer()</on_add_player>
+		<on_remove_player type="string">OnRemovePlayer()</on_remove_player>
+		<on_local_player_join type="string">OnLocalPlayerJoin()</on_local_player_join>
+		<on_local_player_leave type="string">OnLocalPlayerLeave()</on_local_player_leave>
+		<on_local_player_update_gameplay type="string">OnLocalPlayerUpdateGameplay()</on_local_player_update_gameplay>
+		<join_type type="string">minimal</join_type>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<session_size type="int">1</session_size>
+		<network_session type="bool">true</network_session>
+		<on_custom_exit_menu_option_selected type="string"></on_custom_exit_menu_option_selected>
+		<is_allowed_presence_broadcast type="bool">false</is_allowed_presence_broadcast>
+	</mini_game>
+	<pad />
+	<embedded_object>
+		<on_update type="string"></on_update>
+		<string_parameters type="list" />
+		<boolean_parameters type="list" />
+		<numeric_parameters type="list">
+			<parameter type="bag">
+				<name type="string">id</name>
+				<default_value type="float">1</default_value>
+				<min_value type="string">1</min_value>
+				<max_value type="string">5</max_value>
+			</parameter>
+		</numeric_parameters>
+		<enum_parameters type="list" />
+	</embedded_object>
+	<resource_pack>
+		<is_resource_pack type="bool">false</is_resource_pack>
+		<objects type="list">
+			<object type="bag">
+				<id type="string">CD7C1517-D51C47C7-AFB20325-0D10691E</id>
+			</object>
+			<object type="bag">
+				<id type="string">738E76AA-9BA24816-80ED8B06-97F01BC6</id>
+			</object>
+			<object type="bag">
+				<id type="string">32F8C221-26C343CE-815388BC-FE0D0C8B</id>
+			</object>
+			<object type="bag">
+				<id type="string">A2FC67EC-69544CDD-9BFBCC62-53DDC72B</id>
+			</object>
+			<object type="bag">
+				<id type="string">24528C52-D30344D8-A170222E-E4922BCE</id>
+			</object>
+			<object type="bag">
+				<id type="string">DEE24A46-CCDD47A2-9BCB4655-37782D57</id>
+			</object>
+			<object type="bag">
+				<id type="string">4A324E4F-0C3845F7-8DB9C5A5-ABA1086D</id>
+			</object>
+			<object type="bag">
+				<id type="string">AF86F433-E22C40B8-9A8D2991-2C32FDBD</id>
+			</object>
+			<object type="bag">
+				<id type="string">1F62174F-A4824476-8AC115A8-A772F365</id>
+			</object>
+			<object type="bag">
+				<id type="string">99A4ADD0-747D4A30-983252F3-BA6058C0</id>
+			</object>
+			<object type="bag">
+				<id type="string">9FF9424D-7E854D45-8F2B472B-0052B777</id>
+			</object>
+			<object type="bag">
+				<id type="string">2C439377-3EA748E1-B59DF4C1-B32BFADF</id>
+			</object>
+			<object type="bag">
+				<id type="string">A8C6D686-E9BD445E-94EF03D1-FA121EC7</id>
+			</object>
+			<object type="bag">
+				<id type="string">BBAB40F0-2F12461C-B535FC1D-0D8BE73E</id>
+			</object>
+			<object type="bag">
+				<id type="string">99A88E86-C12E4EE3-89F72A5A-1BA7317C</id>
+			</object>
+			<object type="bag">
+				<id type="string">2F3C42FA-6C644CEB-ADCB8193-EA34A62A</id>
+			</object>
+			<object type="bag">
+				<id type="string">333808AD-D1554D69-B2B2F271-0D494945</id>
+			</object>
+			<object type="bag">
+				<id type="string">4F0FB41E-290C41A4-9C4EF0F6-3FC4DF2B</id>
+			</object>
+			<object type="bag">
+				<id type="string">BCFDB1B5-A6B74374-9A8810F8-1441D362</id>
+			</object>
+			<object type="bag">
+				<id type="string">8DD03D3E-E0C147D6-B98419D8-0CAADD0E</id>
+			</object>
+			<object type="bag">
+				<id type="string">4348A89E-F17D41A1-AFC456F5-B4B0CD8B</id>
+			</object>
+			<object type="bag">
+				<id type="string">700B4096-DAD244D8-ADA7F11B-DBA2D168</id>
+			</object>
+			<object type="bag">
+				<id type="string">4AEC93D4-2C8E4AD0-9045E011-B568E24B</id>
+			</object>
+			<object type="bag">
+				<id type="string">62F7D191-81B34412-9BCADE3D-AF14C999</id>
+			</object>
+			<object type="bag">
+				<id type="string">DFE0DC05-650A4E32-B7A6B7C4-D0AFAADA</id>
+			</object>
+			<object type="bag">
+				<id type="string">39A1772E-B0004549-817F5FA7-AEC203B9</id>
+			</object>
+			<object type="bag">
+				<id type="string">F987ED91-461B4CC4-97792D52-B38801B9</id>
+			</object>
+			<object type="bag">
+				<id type="string">C7F2E0F2-60C441E8-8E359D92-CB51E534</id>
+			</object>
+		</objects>
+	</resource_pack>
+</objectdef>

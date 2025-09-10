@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Aircraft1_pig.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/Aircraft1_pig.mdl" />
+		<model name="runway.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/runway.mdl" />
+		<model name="Aircraft3_Guitar.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/Aircraft3_Guitar.mdl" />
+		<model name="Aircraft5_Duck.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/Aircraft5_Duck.mdl" />
+		<model name="Aircraft6_Rocket.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/Aircraft6_Rocket.mdl" />
+		<model name="Aircraft7_Bird.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/Aircraft7_Bird.mdl" />
+		<model name="distance_marker_10.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_10.mdl" />
+		<model name="distance_marker_20.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_20.mdl" />
+		<model name="distance_marker_30.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_30.mdl" />
+		<model name="distance_marker_40.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_40.mdl" />
+		<model name="distance_marker_50.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_50.mdl" />
+		<model name="distance_marker_60.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_60.mdl" />
+		<model name="distance_marker_70.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_70.mdl" />
+		<model name="distance_marker_80.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_80.mdl" />
+		<model name="distance_marker_90.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_90.mdl" />
+		<model name="distance_marker_tetra.mdl" deferred_loading="false" file="MiniGames/red_bull_flugtag/models/distance_marker_tetra.mdl" />
+		<model name="Red_Bull_Scoreboard.mdl" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/models/Red_Bull_Scoreboard.mdl" />
+		<texture name="Charge_bar.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_bar.dds" />
+		<texture name="Charge_base.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_base.dds" />
+		<texture name="Charge_base_overlay.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_base_overlay.dds" />
+		<texture name="Charge_dot.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_dot.dds" />
+		<texture name="Charge_top_overlay.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_top_overlay.dds" />
+		<texture name="Ps3_pad_L1.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_L1.dds" />
+		<texture name="Ps3_pad_L2.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_L2.dds" />
+		<texture name="Ps3_pad_L_Stick.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_L_Stick.dds" />
+		<texture name="Ps3_pad_L_Stick_Btn.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_L_Stick_Btn.dds" />
+		<texture name="Ps3_pad_R1.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_R1.dds" />
+		<texture name="Ps3_pad_R2.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_R2.dds" />
+		<texture name="Ps3_pad_R_Stick.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_R_Stick.dds" />
+		<texture name="Ps3_pad_R_Stick_Btn.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_R_Stick_Btn.dds" />
+		<texture name="Ps3_pad_Square.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_Square.dds" />
+		<texture name="Ps3_pad_Tri.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_Tri.dds" />
+		<texture name="Ps3_pad_Tri_Blue.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Generic_OSD/buttons/Ps3_pad_Tri_Blue.dds" />
+		<texture name="Ps3_pad_Square_Blue.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/OSD/Ps3_pad_Square_Blue.dds" />
+		<texture name="triball_winner_osd.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/OSD/triball_winner_osd.dds" />
+		<texture name="Initialising-Graphic.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/Initialising-Graphic.dds" />
+		<texture name="panel-shard-left.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/panel-shard-left.dds" />
+		<texture name="panel-shard-right.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/panel-shard-right.dds" />
+		<texture name="large_billboard_02_c.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/large_billboard_02_c.dds" />
+		<texture name="large_billboard_02_n.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/large_billboard_02_n.dds" />
+		<texture name="large_billboard_02_s.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/large_billboard_02_s.dds" />
+		<texture name="rb_burnt_sign_c.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/rb_burnt_sign_c.dds" />
+		<texture name="rb_burnt_sign_s.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/rb_burnt_sign_s.dds" />
+		<texture name="rb_burnt_signnew_n.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/rb_burnt_signnew_n.dds" />
+		<texture name="rb_cloth_c.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/rb_cloth_c.dds" />
+		<texture name="rb_cloth_n.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/rb_cloth_n.dds" />
+		<texture name="rb_cloth_s.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/textures/rb_cloth_s.dds" />
+		<texture name="Charge_dot_green.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_dot_green.dds" />
+		<texture name="pig.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/pig.dds" />
+		<texture name="rocket.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/rocket.dds" />
+		<texture name="duck.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/duck.dds" />
+		<texture name="bird.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/bird.dds" />
+		<texture name="panel-shard-top-right.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/panel-shard-top-right.dds" />
+		<texture name="panel-shard-top-left.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/panel-shard-top-left.dds" />
+		<texture name="guitar.dds" deferred_loading="false" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OSD/guitar.dds" />
+		<texture name="Charge_X_lit.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_X_lit.dds" />
+		<texture name="Charge_X_base.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/HUD/Charge_X_base.dds" />
+		<texture name="Ps3_pad_Dpad_LeftRight.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/OSD/Generic_OSD/buttons/Ps3_pad_Dpad_LeftRight.dds" />
+		<texture name="Ps3_pad_Dpad_UpDown.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/OSD/Generic_OSD/buttons/Ps3_pad_Dpad_UpDown.dds" />
+		<texture name="Ps3_pad_Start.dds" deferred_loading="false" file="MiniGames/red_bull_flugtag/OSD/Generic_OSD/buttons/Ps3_pad_Start.dds" />
+		<texture name="Smoke2.dds" deferred_loading="false" file="MiniGames/Lua_fn_libs/Particle_Lib/texture/Smoke2.dds" />
+		<texture name="FuzzySplash2.dds" deferred_loading="false" file="MiniGames/Lua_fn_libs/Particle_Lib/texture/FuzzySplash2.dds" />
+		<texture name="Smoke1.dds" deferred_loading="false" file="MiniGames/Lua_fn_libs/Particle_Lib/texture/Smoke1.dds" />
+		<texture name="Ps3_pad_Circle.dds" deferred_loading="false" protected="false" file="MiniGames/red_bull_flugtag/OSD/Generic_OSD/buttons/Ps3_pad_Circle.dds" />
+		<texture name="Ps3_pad_x.dds" deferred_loading="false" protected="false" file="MiniGames/red_bull_flugtag/OSD/Generic_OSD/buttons/Ps3_pad_x.dds" />
+		<particle name="Splash_Drips.efx" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Particle_Lib/Efx/Splash_Drips.efx" />
+		<particle name="Splash_Ripple.efx" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Particle_Lib/Efx/Splash_Ripple.efx" />
+		<particle name="Splash_Spray.efx" deferred_loading="false" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Particle_Lib/Efx/Splash_Spray.efx" />
+		<file name="UI.xml" deferred_loading="false" file="MiniGames/red_bull_flugtag/OSD/UI.xml" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/red_bull_flugtag/OSD/types.xml" />
+		<soundbank name="flugtag_soundbank.bnk" deferred_loading="false" file="MiniGames/red_bull_flugtag/sounds/flugtag_soundbank.bnk" />
+		<soundstream name="Outso_Caribbean_Music_mix.mp3" deferred_loading="false" file="MiniGames/red_bull_flugtag/Music/Outso_Caribbean_Music_mix.mp3" />
+		<lua name="red_bull_flugtag.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/red_bull_flugtag.lua" />
+		<lua name="tweener.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/tweener.lua" />
+		<lua name="dampener.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/dampener.lua" />
+		<lua name="caller.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/caller.lua" />
+		<lua name="General_Fn_Lib.Lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/General_Fn_Lib.Lua" />
+		<lua name="RedBull_flugtag_Ui.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/RedBull_flugtag_Ui.lua" />
+		<lua name="RedBull_flugtag_fx.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/RedBull_flugtag_fx.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/HUDLib/HUDText.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/HUDLib/HUDLib.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/HUDLib/HUDObject.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/HUDLib/HUDSprite.lua" />
+		<lua name="DelayedDampener.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/DelayedDampener.lua" />
+		<lua name="Dampener2.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Dampener2.lua" />
+		<lua name="RedBull_flugtag_Sound.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/RedBull_flugtag_Sound.lua" />
+		<lua name="MiniUI_HelpPanel.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/MiniUI_HelpPanel.lua" />
+		<lua name="RedBull-flugtag-scoreboard-skin.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/RedBull-flugtag-scoreboard-skin.lua" />
+		<lua name="ScoreboardNetwork.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/ScoreboardNetwork.lua" />
+		<lua name="Flugtag_Scoreboard.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/Flugtag_Scoreboard.lua" />
+		<lua name="HUDScoreList.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/HUDScoreList.lua" />
+		<lua name="HUDScoreListItem.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/HUDScoreListItem.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/Jamin.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/OHS.lua" />
+		<lua name="Bit.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Bit.lua" />
+		<lua name="Colour.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/Colour.lua" />
+		<lua name="ScreenCamera.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/ScreenCamera.lua" />
+		<lua name="PlayerTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/PlayerTrigger.lua" />
+		<lua name="encrypt.lua" deferred_loading="false" protected="true" file="MiniGames/Red_Bull_Flugtag_Scoreboard/encrypt.lua" />
+		<lua name="PadInterface.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/PadInterface.lua" />
+		<lua name="PadButton.lua" deferred_loading="false" protected="true" file="MiniGames/red_bull_flugtag/Lua_fn_libs/PadButton.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="companion_follower/commdec_2010_faintinggoat/model/FaintingGoat.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/anim/CommDec_FaintingGoat_Walk.ani" memory="main" />
+		<anim name="run" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/anim/CommDec_FaintingGoat_Run.ani" memory="main" />
+		<anim name="Fainting.ani" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/anim/CommDec_FaintingGoat_Fainting.ani" memory="host" />
+		<anim name="Idle.ani" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/anim/CommDec_FaintingGoat_Idle.ani" memory="host" />
+		<anim name="Look_Around.ani" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/anim/CommDec_FaintingGoat_Look_Around.ani" />
+		<anim name="Chew.ani" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/anim/CommDec_FaintingGoat_Chew.ani" memory="host" />
+		<anim name="Idle_withearflickering.ani" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/anim/CommDec_FaintingGoat_Idle_withearflickering.ani" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="companion_follower/commdec_2010_faintinggoat/skeleton/FaintingGoat.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/CommDec_2010_FaintingGoat/lua/scriptremote.luac" id="3206161215" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/CommDec_2010_FaintingGoat/lua/script.luac" memory="main" id="852553006" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/CommDec_2010_FaintingGoat/lua/xml.luac" memory="main" id="3739844700" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/CommDec_2010_FaintingGoat/lua/scriptlocal.luac" id="3184557204" />
+	</local>
+	<external />
+</resources>

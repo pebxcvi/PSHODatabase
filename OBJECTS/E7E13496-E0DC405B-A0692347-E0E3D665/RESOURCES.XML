@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<soundstream name="stream_Nightclub" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Dj_love_all_Full_Track.mp3" />
+		<soundstream name="stream_Nightclub_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Dj_love_all_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_IronFusion" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Guitars_Galore_Full_Track.mp3" />
+		<soundstream name="stream_IronFusion_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Guitars_Galore_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_LKWD" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_We_Hope_Full_Track.mp3" />
+		<soundstream name="stream_LKWD_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_We_Hope_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_Medusa" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Sky_Full_Track.mp3" />
+		<soundstream name="stream_Medusa_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Sky_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_Corporate" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Im_a_Fool_No_vocals_Variant_A.mp3" />
+		<soundstream name="stream_Corporate_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Im_a_Fool_No_vocals_Variant_A_MUFFLED.mp3" />
+		<soundstream name="stream_Drey" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_We_Just_Dont_Belong_Full_Track.mp3" />
+		<soundstream name="stream_Drey_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_We_Just_Dont_Belong_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_Wings" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Orch_10_Full_Track.mp3" />
+		<soundstream name="stream_Wings_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Orch_10_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_Fool_Throttle" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Base_Jumper_Full_Track.mp3" />
+		<soundstream name="stream_Fool_Throttle_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Base_Jumper_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_Delirious_Squid" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Revolution_Full_Track.mp3" />
+		<soundstream name="stream_Delirious_Squid_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Revolution_Full_Track_MUFFLED.mp3" />
+		<soundstream name="stream_Stitchkins" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Born_To_Be_Big_Full_Track.mp3" />
+		<soundstream name="stream_Stitchkins_MUFFLED1" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/RFH_Born_To_Be_Big_Full_Track_MUFFLED.mp3" />
+		<soundbank name="catwalkSoundBank.bnk" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/Minigame_sounds.bnk" />
+		<soundbank name="CustomiserAppletSoundBank.bnk" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/sound/CustomiserAppletSoundBank.bnk" />
+
+		<model name="bar_bottle.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/bar_game/bottle_1.mdl" memory="host" />
+		<model name="bar_glass.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/bar_game/glass_1.mdl" memory="host" />
+		<model name="buybag_j.mdl" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag_j.mdl" memory="host" />
+		<model name="buybag.mdl" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.mdl" memory="host" />
+		<model name="buybagExclusive.mdl" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybagExclusive.mdl" memory="host" />
+		<model name="giftlogo.mdl" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/giftlogo.mdl" memory="host" />
+		<model name="glass_door.mdl" deferred_loading="true" protected="false" file="common/effects/models/feature_props/example/glass_door.mdl" memory="host" />
+		<model name="glass_door_frame.mdl" deferred_loading="true" protected="false" file="common/effects/models/feature_props/example/glass_door_frame.mdl" memory="host" />
+		<model name="catwalk.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/catwalk_stage/catwalk.mdl" memory="host" />
+		<model name="stage.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/catwalk_stage/stage.mdl" memory="host" />
+		<model name="judges.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/catwalk_stage/judge_area.mdl" memory="host" />
+		<model name="rope.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/rope_barrier.mdl" memory="host" />
+		<model name="bench.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/bench.mdl" memory="host" />
+		<model name="customize_logo.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/customize_logo.mdl" memory="host" />
+		<model name="iron_fusion.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/iron_fusion.mdl" memory="host" />
+		<model name="drey.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/dray.mdl" memory="host" />
+		<model name="figment.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/figment.mdl" memory="host" />
+		<model name="delirious_squid.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/delirious_squid.mdl" memory="host" />
+		<model name="fool_throttle.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/fool_throttle.mdl" memory="host" />
+		<model name="medusa.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/medusa.mdl" memory="host" />
+		<model name="stitchkin.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/stitchkin.mdl" memory="host" />
+		<model name="halloween.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/halloween.mdl" memory="host" />
+		<model name="lkwd.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/lkwd.mdl" memory="host" />
+		<model name="lkwd_venue.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/lkwd_venue.mdl" memory="host" />
+		<model name="cloverleaf.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/cloverleaf.mdl" memory="host" />
+		<model name="heart.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/heart.mdl" memory="host" />
+		<model name="logos.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/logos.mdl" memory="host" />
+		<model name="spiral.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/spiral.mdl" memory="host" />
+		<model name="star.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/star.mdl" memory="host" />
+		<model name="unicorn.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/logos/unicorn.mdl" memory="host" />
+		<model name="Animated_Light.mdl" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/disco_spotlight.mdl" memory="host" />
+		<model name="collision_sphere_0-5r.mdl" deferred_loading="true" protected="false" file="common/generic_models/collision_primitives/collision_sphere_0-5r.mdl" memory="host" />
+		<texture name="bar_rearpanel_pattern_alpha.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/bar_rearpanel_pattern_alpha.dds" />
+		<texture name="decayMap.dds" deferred_loading="true" protected="false" file="common/effects/textures/misc/decayMap.dds" />
+		<texture name="fabric_white_128x128_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/fabric_white_128x128_c.dds" />
+		<texture name="female01_skin_body_s.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/female01_skin_body_s.dds" />
+		<texture name="female01_skin_body_white_c.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/female01_skin_body_white_c.dds" />
+		<texture name="female01_skin_head_white_c.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/female01_skin_head_white_c.dds" />
+		<texture name="female01_skin_head_white_s.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/female01_skin_head_white_s.dds" />
+		<texture name="floor_tile_256x256_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/floor_tile_256x256_c.dds" />
+		<texture name="glass_white_alpha_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/glass_white_alpha_c.dds" />
+		<texture name="IronFusion_Background.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/IronFusion_Background.dds" />
+		<texture name="IronFusion_Logo.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/IronFusion_Logo.dds" />
+		<texture name="led_scorebackground_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/led_scorebackground_c.dds" />
+		<texture name="light_pattern_white_checks_distorted.dds" deferred_loading="false" protected="false" file="environments/lockwood_catwalk/textures/spot_lights/light_pattern_white_checks_distorted.dds" />
+		<texture name="LKWD_Lion_Grey.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/LKWD_Lion_Grey.dds" />
+		<texture name="LKWD_Lion_Red.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/LKWD_Lion_Red.dds" />
+		<texture name="LKWD_Long_Logo_Grey.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/LKWD_Long_Logo_Grey.dds" />
+		<texture name="LKWD_Long_Logo_Red.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/LKWD_Long_Logo_Red.dds" />
+		<texture name="lockwood_publishing_logo_noalpha_512x512_c.dds" deferred_loading="true" protected="false" file="environments/lockwood_catwalk/textures/spot_lights/lockwood_publishing_logo_noalpha_512x512_c.dds" />
+		<texture name="male01_skin_body_white_c.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/male01_skin_body_white_c.dds" />
+		<texture name="male01_skin_body_white_s.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/male01_skin_body_white_s.dds" />
+		<texture name="male01_skin_head_white_c.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/male01_skin_head_white_c.dds" />
+		<texture name="male01_skin_head_white_s.dds" deferred_loading="true" protected="false" file="Tools/Generic_Shared_Textures/Characters/male01_skin_head_white_s.dds" />
+		<texture name="metal_panel_white_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/metal_panel_white_c.dds" />
+		<texture name="Option_Selector.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/BackstagePass/Option_Selector.dds" />
+		<texture name="Option_Wheel.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/BackstagePass/Option_Wheel.dds" />
+		<texture name="placeholder_grey_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/placeholder_grey_c.dds" />
+		<texture name="plaster_white_256x256_c.DDS" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/plaster_white_256x256_c.DDS" />
+		<texture name="sofa2_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/sofa2_c.dds" />
+		<texture name="sofa_vip_c.DDS" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/sofa_vip_c.DDS" />
+		<texture name="spotlight.dds" deferred_loading="false" protected="false" file="environments/lockwood_catwalk/textures/spot_lights/spotlight.dds" />
+		<texture name="wall_red_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/wall_red_c.dds" />
+		<texture name="wallpaper_barside_emissive_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/wallpaper_barside_emissive_c.dds" />
+		<texture name="loadScreen.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/private/CW_Loading_screen1.dds" />
+		<texture name="CatwalkGame.dds" deferred_loading="true" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Info/CatwalkGame.dds" />
+		<texture name="GiftMachine.dds" deferred_loading="true" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Info/GiftMachine.dds" />
+		<texture name="JudgingBooth.dds" deferred_loading="true" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Info/JudgingBooth.dds" />
+		<texture name="placeholder_d.dds" deferred_loading="true" protected="false" file="Tools/generic_shared_textures/placeholder_c.dds" />
+		<texture name="placeholder_n.dds" deferred_loading="true" protected="false" file="Tools/generic_shared_textures/placeholder_n.dds" />
+		<texture name="placeholder_s.dds" deferred_loading="true" protected="false" file="Tools/generic_shared_textures/placeholder_s.dds" />
+		<texture name="circuit1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/circuit_d.dds" />
+		<texture name="circuit2_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/circuit2_d.dds" />
+		<texture name="circuit1_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/circuit_s.dds" />
+		<texture name="circuit2_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/circuit2_s.dds" />
+		<texture name="glow_01.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/glow_01.dds" />
+		<texture name="glow_02.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/glow_02.dds" />
+		<texture name="glow_03.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/glow_03.dds" />
+		<texture name="Marble_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Marble_01_d.dds" />
+		<texture name="Marble_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Marble_01_n.dds" />
+		<texture name="Marble_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Marble_01_s.dds" />
+		<texture name="Marble_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/marble_02_d.dds" />
+		<texture name="Marble_02_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/marble_02_n.dds" />
+		<texture name="Marble_02_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/marble_02_s.dds" />
+		<texture name="Metal_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Metal_01_d.dds" />
+		<texture name="Metal_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Metal_01_n.dds" />
+		<texture name="Metal_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Metal_01_s.dds" />
+		<texture name="metal_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/metal_02_d.dds" />
+		<texture name="metal_02_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/metal_02_n.dds" />
+		<texture name="metal_02_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/metal_02_s.dds" />
+		<texture name="metal_04_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Metal_04_d.dds" />
+		<texture name="metal_04_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Metal_04_n.dds" />
+		<texture name="metal_04_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Metal_04_s.dds" />
+		<texture name="Panel_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_01_d.dds" />
+		<texture name="Panel_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_01_n.dds" />
+		<texture name="Panel_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_01_s.dds" />
+		<texture name="Panel_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_02_d.dds" />
+		<texture name="Panel_02_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_02_n.dds" />
+		<texture name="Panel_02_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_02_s.dds" />
+		<texture name="Panel_03_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_03_d.dds" />
+		<texture name="Panel_03_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_03_n.dds" />
+		<texture name="Panel_03_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_03_s.dds" />
+		<texture name="Panel_04_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_04_d.dds" />
+		<texture name="Panel_04_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_04_n.dds" />
+		<texture name="Panel_04_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Panel_04_s.dds" />
+		<texture name="panel_05_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/panel_05_d.dds" />
+		<texture name="panel_05_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/panel_05_n.dds" />
+		<texture name="panel_05_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/panel_05_s.dds" />
+		<texture name="panel_06_dark_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/panel_06_dark_d.dds" />
+		<texture name="panel_06_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/panel_06_d.dds" />
+		<texture name="panel_06_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/panel_06_n.dds" />
+		<texture name="panel_06_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/panel_06_s.dds" />
+		<texture name="steps_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/steps_01_d.dds" />
+		<texture name="steps_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/steps_01_n.dds" />
+		<texture name="steps_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/steps_01_s.dds" />
+		<texture name="spiral_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/spiral_logo_d.dds" />
+		<texture name="star_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/star_logo_d.dds" />
+		<texture name="dancefloor.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/dancefloor.dds" />
+		<texture name="tile_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/tile_01_d.dds" />
+		<texture name="tile_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/tile_01_n.dds" />
+		<texture name="tile_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/tile_01_s.dds" />
+		<texture name="tile_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/tile_02_d.dds" />
+		<texture name="tile_02_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/tile_02_n.dds" />
+		<texture name="tile_02_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/tile_02_s.dds" />
+		<texture name="Wallpaper_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_01_d.dds" />
+		<texture name="wallpaper_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_01_n.dds" />
+		<texture name="wallpaper_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_01_s.dds" />
+		<texture name="Wallpaper_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_02_d.dds" />
+		<texture name="Wallpaper_02_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_02_n.dds" />
+		<texture name="Wallpaper_02_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_02_s.dds" />
+		<texture name="Wallpaper_03_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_03_d.dds" />
+		<texture name="Wallpaper_03_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_03_n.dds" />
+		<texture name="Wallpaper_03_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_03_s.dds" />
+		<texture name="Wallpaper_04_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_04_d.dds" />
+		<texture name="Wallpaper_04_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_04_n.dds" />
+		<texture name="Wallpaper_04_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_04_s.dds" />
+		<texture name="Wallpaper_05_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_05_d.dds" />
+		<texture name="Wallpaper_05_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_05_n.dds" />
+		<texture name="Wallpaper_05_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wallpaper_05_s.dds" />
+		<texture name="wallpaper_06_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_06_d.dds" />
+		<texture name="wallpaper_06_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_06_n.dds" />
+		<texture name="wallpaper_06_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_06_s.dds" />
+		<texture name="wallpaper_07_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_07_d.dds" />
+		<texture name="wallpaper_07_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_07_n.dds" />
+		<texture name="wallpaper_07_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/wallpaper_07_s.dds" />
+		<texture name="Plaster_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Plaster_01_d.dds" />
+		<texture name="Plaster_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Plaster_01_n.dds" />
+		<texture name="Plaster_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Plaster_01_s.dds" />
+		<texture name="Wood_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wood_01_s.dds" />
+		<texture name="Wood_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wood_01_d.dds" />
+		<texture name="Wood_01_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wood_01_n.dds" />
+		<texture name="Wood_02_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wood_02_s.dds" />
+		<texture name="Wood_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wood_02_d.dds" />
+		<texture name="Wood_02_n.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/Wood_02_n.dds" />
+		<texture name="futuristicpanels_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/futuristicpanels_d.dds" />
+		<texture name="medusa_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/medusa_logo_d.dds" memory="main" />
+		<texture name="medusa_logo_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/medusa_logo_s.dds" />
+		<texture name="snakeskin_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/snakeskin_d.dds" />
+		<texture name="snakeskin_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/snakeskin_s.dds" />
+		<texture name="nightclub_strips_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/nightclub_strips_d.dds" />
+		<texture name="nightclub_strips_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/nightclub_strips_s.dds" />
+		<texture name="nightclub_stripsinv_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/nightclub_stripsinv_d.dds" />
+		<texture name="mosiac_1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/mosiac_1_d.dds" />
+		<texture name="mosiac_1_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/mosiac_1_s.dds" />
+		<texture name="mosiacinv_1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/mosiacinv_1_d.dds" />
+		<texture name="circles_1_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/circles_1_s.dds" />
+		<texture name="circles_1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/circles_1_d.dds" />
+		<texture name="drey_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/drey_logo_d.dds" />
+		<texture name="floral_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/floral_01_d.dds" />
+		<texture name="floral_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/floral_01_s.dds" />
+		<texture name="floralinv_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/floralinv_01_d.dds" />
+		<texture name="figment_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/figment_01_d.dds" />
+		<texture name="floralinv_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/floralinv_01_s.dds" />
+		<texture name="dots_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/dots_01_d.dds" />
+		<texture name="dots_01_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/dots_01_s.dds" />
+		<texture name="foolthrottle_logo.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/foolthrottle_logo.dds" />
+		<texture name="zebra_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/zebra_d.dds" />
+		<texture name="zebra_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/zebra_s.dds" />
+		<texture name="squid5_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/squid5_d.dds" />
+		<texture name="squid1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/squid1_d.dds" />
+		<texture name="squid4_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/squid4_d.dds" />
+		<texture name="squid3_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/squid3_d.dds" />
+		<texture name="squid1_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/squid1_s.dds" />
+		<texture name="stitchkin1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/stitchkin1_d.dds" />
+		<texture name="stitchkin1_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/stitchkin1_s.dds" />
+		<texture name="stitchkin4_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/stitchkin4_d.dds" />
+		<texture name="stitchkin4_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/stitchkin4_s.dds" />
+		<texture name="stitchkinlogotile_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/stitchkinlogotile_d.dds" />
+		<texture name="stitchkinlogotile_s.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/stitchkinlogotile_s.dds" />
+		<texture name="stitchkins_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/stitchkins_logo_d.dds" />
+
+
+		<texture name="ICON_IronFusion_Background.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_IronFusion_Background.dds" />
+		<texture name="ICON_IronFusion_Logo.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_IronFusion_Logo.dds" />
+		<texture name="ICON_LKWD_Lion_Grey.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_LKWD_Lion_Grey.dds" />
+		<texture name="ICON_LKWD_Lion_Red.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_LKWD_Lion_Red.dds" />
+		<texture name="ICON_LKWD_Long_Logo_Grey.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_LKWD_Long_Logo_Grey.dds" />
+		<texture name="ICON_LKWD_Long_Logo_Red.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_LKWD_Long_Logo_Red.dds" />
+		<texture name="ICON_circuit1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_circuit_d.dds" />
+		<texture name="ICON_circuit2_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_circuit2_d.dds" />
+		<texture name="ICON_glow_01.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_glow_01.dds" />
+		<texture name="ICON_glow_02.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_glow_02.dds" />
+		<texture name="ICON_glow_03.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_glow_03.dds" />
+		<texture name="ICON_Marble_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Marble_01_d.dds" />
+		<texture name="ICON_Marble_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_marble_02_d.dds" />
+		<texture name="ICON_Metal_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Metal_01_d.dds" />
+		<texture name="ICON_metal_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_metal_02_d.dds" />
+		<texture name="ICON_metal_04_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Metal_04_d.dds" />
+		<texture name="ICON_Panel_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Panel_01_d.dds" />
+		<texture name="ICON_Panel_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Panel_02_d.dds" />
+		<texture name="ICON_Panel_03_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Panel_03_d.dds" />
+		<texture name="ICON_Panel_04_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Panel_04_d.dds" />
+		<texture name="ICON_panel_05_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_panel_05_d.dds" />
+		<texture name="ICON_panel_06_dark_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_panel_06_dark_d.dds" />
+		<texture name="ICON_panel_06_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_panel_06_d.dds" />
+		<texture name="ICON_steps_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_steps_01_d.dds" />
+		<texture name="ICON_spiral_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_spiral_logo_d.dds" />
+		<texture name="ICON_star_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_star_logo_d.dds" />
+		<texture name="ICON_tile_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_tile_01_d.dds" />
+		<texture name="ICON_tile_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_tile_02_d.dds" />
+		<texture name="ICON_Wallpaper_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Wallpaper_01_d.dds" />
+		<texture name="ICON_Wallpaper_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Wallpaper_02_d.dds" />
+		<texture name="ICON_Wallpaper_03_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Wallpaper_03_d.dds" />
+		<texture name="ICON_Wallpaper_04_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Wallpaper_04_d.dds" />
+		<texture name="ICON_Wallpaper_05_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Wallpaper_05_d.dds" />
+		<texture name="ICON_wallpaper_06_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_wallpaper_06_d.dds" />
+		<texture name="ICON_wallpaper_07_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_wallpaper_07_d.dds" />
+		<texture name="ICON_Plaster_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Plaster_01_d.dds" />
+		<texture name="ICON_Wood_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Wood_01_d.dds" />
+		<texture name="ICON_Wood_02_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_Wood_02_d.dds" />
+		<texture name="ICON_futuristicpanels_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_futuristicpanels_d.dds" />
+		<texture name="ICON_fabric_white_128x128_c.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_fabric_white_128x128_c.dds" />
+		<texture name="ICON_medusa_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_medusa_logo_d.dds" />
+		<texture name="ICON_snakeskin_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_snakeskin_d.dds" />
+		<texture name="ICON_nightclub_strips_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_nightclub_strips_d.dds" />
+		<texture name="ICON_nightclub_stripsinv_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_nightclub_stripsinv_d.dds" />
+		<texture name="ICON_mosiac_1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_mosiac_1_d.dds" />
+		<texture name="ICON_mosiacinv_1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_mosiacinv_1_d.dds" />
+		<texture name="ICON_circles_1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_circles_1_d.dds" />
+		<texture name="ICON_drey_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_drey_logo_d.dds" />
+		<texture name="ICON_floral_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_floral_01_d.dds" />
+		<texture name="ICON_floralinv_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_floralinv_01_d.dds" />
+		<texture name="ICON_figment_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_figment_01_d.dds" />
+		<texture name="ICON_dots_01_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_dots_01_d.dds" />
+		<texture name="ICON_foolthrottle_logo.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_foolthrottle_logo.dds" />
+		<texture name="ICON_zebra_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_zebra_d.dds" />
+		<texture name="ICON_squid5_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_squid5_d.dds" />
+		<texture name="ICON_squid1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_squid1_d.dds" />
+		<texture name="ICON_squid4_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_squid4_d.dds" />
+		<texture name="ICON_squid3_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_squid3_d.dds" />
+		<texture name="ICON_stitchkin1_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_stitchkin1_d.dds" />
+		<texture name="ICON_stitchkin4_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_stitchkin4_d.dds" />
+		<texture name="ICON_stitchkinlogotile_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_stitchkinlogotile_d.dds" />
+		<texture name="ICON_stitchkins_logo_d.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/_ICON_stitchkins_logo_d.dds" />
+		<texture name="custom_option.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/icon_custom.dds" />
+
+		<texture name="clover.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/clover.dds" />
+		<texture name="drey.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/drey.dds" />
+		<texture name="dsquid.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/dsquid.dds" />
+		<texture name="figment.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/figment.dds" />
+		<texture name="foolthrottle.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/foolthrottle.dds" />
+		<texture name="heart.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/heart.dds" />
+		<texture name="ironfusion.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/ironfusion.dds" />
+		<texture name="lkwd.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/lkwd.dds" />
+		<texture name="logos.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/logos.dds" />
+		<texture name="medusa.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/medusa.dds" />
+		<texture name="spiral.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/spiral.dds" />
+		<texture name="star.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/star.dds" />
+		<texture name="stitchkin.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/stitchkin.dds" />
+		<texture name="unicorn.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/unicorn.dds" />
+		<texture name="catwalk.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/catwalk.dds" />
+		<texture name="stage.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/stage.dds" />
+		<texture name="venue.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/venue.dds" />
+		<texture name="song_00.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_00.dds" />
+		<texture name="song_01.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_01.dds" />
+		<texture name="song_02.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_02.dds" />
+		<texture name="song_03.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_03.dds" />
+		<texture name="song_04.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_04.dds" />
+		<texture name="song_05.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_05.dds" />
+		<texture name="song_06.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_06.dds" />
+		<texture name="song_07.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_07.dds" />
+		<texture name="song_08.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_08.dds" />
+		<texture name="song_09.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_09.dds" />
+		<texture name="song_no.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/song_no.dds" />
+		<texture name="catwalk_nogame.dds" deferred_loading="false" protected="false" file="environments/Lockwood_Catwalk/textures/customisations/thumbs/catwalk_nogame.dds" />
+
+
+		<particle name="flies.efx" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/particles/flies.efx" memory="host" />
+		<particle name="glowser.efx" deferred_loading="true" protected="false" file="common/generic_models/buybag/particles/glowser.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="common/features/v2_0/Network.xml" />
+		<collision name="catwalk.hkx" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/catwalk_stage/catwalk.hkx" memory="host" />
+		<collision name="stage.hkx" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/catwalk_stage/stage.hkx" memory="host" />
+		<collision name="judges.hkx" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/catwalk_stage/judge_area.hkx" memory="host" />
+		<collision name="rope.hkx" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/rope_barrier.hkx" memory="host" />
+		<collision name="bench.hkx" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/models/bench.hkx" memory="host" />
+		<collision name="buybag.hkx" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.hkx" memory="host" />
+		<collision name="glass_door.hkx" deferred_loading="true" protected="false" file="common/effects/models/feature_props/example/glass_door.hkx" memory="host" />
+		<collision name="glass_door_frame.hkx" deferred_loading="true" protected="false" file="common/effects/models/feature_props/example/glass_door_frame.hkx" memory="host" />
+		<collision name="stone_step.hkx" deferred_loading="true" protected="false" file="common/effects/models/feature_props/example/stone_step.hkx" memory="host" />
+		<collision name="collision_flat_4x4x0-4.hkx" deferred_loading="true" protected="false" file="common/generic_models/collision_primitives/collision_flat_4x4x0-4.hkx" memory="host" />
+		<anim name="buybag.ani" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.ani" memory="host" />
+		<anim name="buybagExclusive.ani" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybagExclusive.ani" memory="host" />
+		<anim name="giftlogo.ani" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/giftlogo.ani" memory="host" />
+		<anim name="set_dressing.ani" deferred_loading="true" protected="false" file="common/features/v1_0/scene/models/Set_dressing.ani" memory="host" />
+		<anim name="railings_lean" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Railings/animations/Lean_on_railings.ani" memory="host" />
+		<anim name="railings_lean_female" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Railings/animations/Lean_on_railings_female.ani" memory="host" />
+		<anim name="Bar_drink_anim" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Bar/animations/Bar_drink_anim.ani" memory="host" />
+		<anim name="Bar_drink_anim_female" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Bar/animations/Bar_drink_anim_female.ani" memory="host" />
+		<anim name="Bar_serve_anim" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Bar/animations/Bar_serve_anim.ani" memory="host" />
+		<anim name="Bar_serve_anim_female" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Bar/animations/Bar_serve_anim_female.ani" memory="host" />
+		<anim name="check_mirror_male" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/mirror/animations/check_mirror_male.ani" memory="host" />
+		<anim name="check_mirror_female" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/mirror/animations/check_mirror_female.ani" memory="host" />
+		<anim name="Lean_on_railings_female_Idle" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Railings/animations/Lean_on_railings_female_Idle.ani" memory="host" />
+		<anim name="Lean_on_railings_Idle" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Railings/animations/Lean_on_railings_Idle.ani" memory="host" />
+		<anim name="catwalk_female_pose" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/PosertronAssets/catwalk_female_pose.ani" memory="host" />
+		<anim name="catwalk_female" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/PosertronAssets/catwalk_female.ani" memory="host" />
+		<anim name="catwalk_female_back" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/PosertronAssets/catwalk_female_back.ani" memory="host" />
+		<anim name="catwalk_male" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/PosertronAssets/catwalk_male.ani" memory="host" />
+		<anim name="catwalk_male_back" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/PosertronAssets/catwalk_male_back.ani" memory="host" />
+		<anim name="catwalk_male_pose" deferred_loading="true" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/PosertronAssets/catwalk_male_pose.ani" memory="host" />
+		<anim name="Animated_Light.ani" deferred_loading="true" protected="false" file="common/generic_models/animated_light/Animated_Light_FigureOf8.ani" memory="host" />
+		<skeleton name="buybag_j.skn" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag_j.skn" memory="host" />
+		<skeleton name="buybag.skn" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybag.skn" memory="host" />
+		<skeleton name="buybagExclusive.skn" deferred_loading="true" protected="false" file="common/generic_models/buybag/buybagExclusive.skn" memory="host" />
+		<skeleton name="giftlogo.skn" deferred_loading="true" protected="false" file="common/generic_models/giftmachine/giftlogo.skn" memory="host" />
+		<skeleton name="set_dressing.skn" deferred_loading="true" protected="false" file="common/features/v1_0/scene/models/Set_dressing.skn" memory="host" />
+		<skeleton name="Animated_Light.skn" deferred_loading="true" protected="false" file="common/generic_models/animated_light/Animated_Light.skn" memory="host" />
+		<soundbank name="showcase.bnk" deferred_loading="true" protected="false" file="environments/lockwood_catwalk/Toolbox/private/sound/build_001.bnk" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Votertron/repertoires/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Votertron/repertoires/male.xml" memory="host" />
+		<repertoire name="votertron_male" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Votertron/repertoires/male.xml" memory="host" />
+		<repertoire name="votertron_female" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Votertron/repertoires/female.xml" memory="host" />
+		<repertoire name="railings_male" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Railings/repertoires/male.xml" memory="host" />
+		<repertoire name="railings_female" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Railings/repertoires/female.xml" memory="host" />
+		<repertoire name="bar_male" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Bar/repertoires/male.xml" memory="host" />
+		<repertoire name="bar_female" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/Bar/repertoires/female.xml" memory="host" />
+		<repertoire name="mirror_male" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/mirror/repertoires/male.xml" memory="host" />
+		<repertoire name="mirror_female" deferred_loading="false" protected="false" file="MiniGames/Lockwood/MiniGames_2012/Lockwood_Catwalk/mirror/repertoires/female.xml" memory="host" />
+		<lua name="Toolbox.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Toolbox.lua" />
+		<lua name="ToolboxSettings.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/private/settings_build_001.lua" />
+		<lua name="AppletRegister_Posertron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Posertron_v2/AppletRegister_posertron.lua" />
+		<!--<lua name="AppletRegister_Mannequin.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/mannequins/AppletRegister_Mannequin.lua" />-->
+		<lua name="AppletRegister_Votertron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Votertron/AppletRegister_Votertron.lua" />
+		<lua name="AppletRegister_Viewertron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Viewertron/AppletRegister_Viewertron.lua" />
+		<lua name="AppletRegister_stagertron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Stagertron/AppletRegister_stagertron.lua" />
+		<lua name="AppletRegister_StageAccess.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_StageAccess/AppletRegister_StageAccess.lua" />
+		<!--<lua name="AppletRegister_BackstagePass.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/BackstagePass/AppletRegister_BackstagePass.lua" />-->
+		<lua name="AppletRegister_ProfileCustomisation.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/AppletRegister_ProfileCustomisation.lua" />
+		<!--<lua name="AppletRegister_informationPoint.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/informationPoint/AppletRegister_informationPoint.lua" />-->
+		<lua name="AppletRegister_commercePoint.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/CommercePoint/AppletRegister_commercePoint.lua" />
+		<lua name="AppletRegister_strutertron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Strutertron/AppletRegister_strutertron.lua" />
+		<lua name="AppletRegister_cameratron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Cameratron/AppletRegister_cameratron.lua" />
+		<lua name="AppletRegister_screenatron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Screenatron/AppletRegister_screenatron.lua" />
+		<lua name="AppletRegister_Spotlight.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Spotlight/AppletRegister_Spotlight.lua" />
+		<lua name="AppletMain_commercePoint.lua" deferred_loading="false" protected="true" file="common/AppletSys/applets/CommercePoint/AppletMain_commercePoint.lua"/>
+		
+		<lua name="AppletMain_Cameratron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Cameratron/AppletMain_Cameratron.lua"/>
+		<lua name="AppletMain_Screenatron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Screenatron/AppletMain_screenatron.lua"/>
+		<lua name="AppletMain_StageAccess.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_StageAccess/AppletMain_StageAccess.lua"/>
+		<lua name="AppletMain_stagertron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Stagertron/AppletMain_stagertron.lua"/>
+		<lua name="AppletMain_Strutertron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Strutertron/AppletMain_Strutertron.lua"/>
+		<lua name="AppletMain_Viewertron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Viewertron/AppletMain_Viewertron.lua"/>
+		<lua name="AppletMain_Votertron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Votertron/AppletMain_Votertron.lua"/>
+		<lua name="cameratron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Cameratron/cameratron.lua"/>
+		<lua name="photoFlash.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Cameratron/photoFlash.lua"/>
+		<lua name="photoTaker.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Cameratron/photoTaker.lua"/>
+		<lua name="RadialSelector.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Votertron/RadialSelector.lua"/>
+		<lua name="screenatron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Screenatron/screenatron.lua"/>
+		<lua name="stagertron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Stagertron/stagertron.lua"/>
+		<lua name="strutertron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Strutertron/strutertron.lua"/>
+		<lua name="votertron.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Votertron/votertron.lua"/>
+		<texture name="button_square.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Stagertron/button_square.dds"/>
+		<texture name="button_triangle.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Votertron/button_triangle.dds"/>
+		<texture name="Colour_Selector.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Votertron/Colour_Selector.dds"/>
+		<texture name="Colour_Wheel.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Votertron/Colour_Wheel.dds"/>
+		<texture name="test.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Catwalk_Cameratron/test.dds"/>
+        <texture name="Posertron_hud.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Posertron_v2/textures/cannot_join.dds"/>
+
+		<lua name="AppletMain_ProfileCustomisation.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/AppletMain_ProfileCustomisation.lua"/>
+		<lua name="Customiser.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/Customiser.lua"/>
+		<lua name="CameraTransitions.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CameraTransitions.lua"/>
+		<lua name="CustomiserGroup.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomiserGroup.lua"/>
+		<lua name="CustomisableEntity.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomisableEntity.lua"/>
+		<lua name="CustomisableProfile.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomisableProfile.lua"/>
+		<lua name="SchullerSpline.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/SchullerSpline.lua"/>
+
+		<texture name="arrow_down.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/arrow_down.dds"/>
+		<texture name="arrow_left.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/arrow_left.dds"/>
+		<texture name="arrow_right.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/arrow_right.dds"/>
+		<texture name="arrow_up.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/arrow_up.dds"/>
+		<texture name="bottom_left.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/bottom_left.dds"/>
+		<texture name="bottom_right.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/bottom_right.dds"/>
+		<texture name="L1.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/L1.dds"/>
+		<texture name="locked.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/locked.dds"/>
+		<texture name="R1.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/R1.dds"/>
+		<texture name="splash_screen.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/splash_screen.dds"/>
+		<texture name="swatch_overlay.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/swatch_overlay.dds"/>
+		<texture name="top_bar.dds" deferred_loading="true" protected="false" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/top_bar.dds"/>
+
+		<lua name="AppletMain_Spotlight.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Spotlight/AppletMain_Spotlight.lua"/>
+
+        <!-- System -->
+		<lua name="Spotlight.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Spotlight/Spotlight.lua"/>
+
+        <!-- Toolbox -->
+	     <lua name="AppletMain_posertron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Posertron_v2/AppletMain_posertron.lua"/>
+	     <lua name="ThirdPersonCamera.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Posertron_v2/ThirdPersonCamera.lua"/>
+	     <lua name="PosertronProp.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Posertron_v2/PosertronProp.lua"/>
+	     <lua name="PosertronRole.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Posertron_v2/PosertronRole.lua"/>
+	     <lua name="Posertron.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/applets/Posertron_v2/Posertron.lua"/>
+		<lua name="AppletSystem_Register.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/v3_0/ToolboxRegister.lua" />
+	    <lua name="AppletAssetMan.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/v3_0/AppletAssetMan.lua" />
+	    <lua name="AppletContainer.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/v3_0/AppletContainer.lua" />
+	    <lua name="AppletCore.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/v3_0/AppletCore.lua" />
+	    <lua name="AppletCoreExporter.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/AppletSys/v3_0/AppletCoreExporter.lua" />
+        <lua name="AsyncInvMonitor.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/AsyncInvMonitor.lua" />
+        <lua name="AsyncWrapper.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/HomeLibraryWrappers/AsyncWrapper.lua" />
+        <lua name="CamPath.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Cameras/CamPath.lua" />
+        <lua name="Coroutine.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Coroutine.lua" />
+        <lua name="DefDB.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Definitions/DefDB.lua" />
+        <lua name="DefStore.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/DefStore.lua" />
+        <lua name="DynCode.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/DynamicLoading/DynCode.lua" />
+        <lua name="DynEntity.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/DynamicLoading/DynEntity.lua" />
+        <lua name="EventRelay.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/EventRelay.lua" />
+        <lua name="EventSys.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Triggers/EventSys.lua" />
+        <lua name="FEA_applet.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_applet.lua" />
+        <lua name="FEA_commerce_point.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_commerce_point.lua" />
+        <lua name="FEA_DynFx.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_DynFx.lua" />
+        <lua name="FEA_fx_bone.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_fx_bone.lua" />
+        <lua name="FEA_magic_poster.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_magic_poster.lua" />
+        <lua name="FEA_manaquin.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_manaquin.lua" />
+        <lua name="FEA_NodeEvents.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_NodeEvents.lua" />
+        <lua name="FEA_relocate.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Features/FEA_relocate.lua" />
+        <lua name="Feature_Com.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Feature_Com.lua" />
+        <lua name="Feature_IO.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Feature_IO.lua" />
+        <lua name="Feature_misc.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Feature_misc.lua" />
+        <lua name="Feature_root_node.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Feature_root_node.lua" />
+        <lua name="Feature_SetDressing.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Feature_SetDressing.lua" />
+        <lua name="Feature_sub_nodes.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Feature_sub_nodes.lua" />
+        <lua name="Feature_system.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Feature_system.lua" />
+        <lua name="FeatureSystem_Register.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/ToolboxRegister.lua" />
+        <lua name="Fsm_Mealey.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/Fsm_Mealey.lua" />
+        <lua name="Fsm_Moore.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/Fsm_Moore.lua" />
+        <lua name="FireAndForget.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/FireAndForget.lua" />
+        <lua name="CoroutineMgr.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/CoroutineMgr.lua" />
+        <lua name="AsyncMgr.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/HomeLibraryWrappers/AsyncMgr.lua" />
+        <lua name="Gui.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Gui.lua" />
+        <lua name="HDK_Common_Register.lua" deferred_loading="false" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/ToolboxRegister.lua" />
+        <lua name="HomeTarget.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/HomeTarget.lua" />
+        <lua name="HomeTargetAdvanced.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Triggers/HomeTargetAdvanced.lua" />
+        <lua name="Jamin.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Jamin.lua" />
+        <lua name="mini_FSM.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/ProgramExecutionConstructs/mini_FSM.lua" />
+        <lua name="Misc_extra.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/editor/Misc_extra.lua" />
+        <lua name="Misc_maths.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/editor/Misc_maths.lua" />
+        <lua name="Misc_table.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/editor/Misc_table.lua" />
+        <lua name="NetLib.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/NetLib.lua" />
+        <lua name="NetState.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Networking/NetState.lua" />
+        <lua name="NetState_NetworkedVariable.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Networking/NetState_NetworkedVariable.lua" />
+        <lua name="NetState_Occupancy.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Networking/NetState_Occupancy.lua" />
+        <lua name="NetState_Queue.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Networking/NetState_Queue.lua" />
+        <lua name="NetState_UserRegister.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Networking/NetState_UserRegister.lua" />
+        <lua name="OBB.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/OBB.lua" />
+        <lua name="Ohs.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/OHS.lua" />
+        <lua name="Online_localisation.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Online_localisation.lua" />
+        <lua name="PadControl.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Controllers/PadControl.lua" />
+        <lua name="ParamDb.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/OnlineResources/ParamDb.lua" />
+        <lua name="ParamDb_Groups.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/OnlineResources/ParamDb_Groups.lua" />
+        <lua name="Playmetrix.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Playmetrix.lua" />
+        <lua name="PlayerMgr.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/HomeLibraryWrappers/PlayerMgr.lua" />
+        <lua name="Plugin_Activation.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Activation.lua" />
+        <lua name="Plugin_Applet.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Applet.lua" />
+        <lua name="Plugin_Detectors.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Detectors.lua" />
+        <lua name="Plugin_EntityGroup.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_EntityGroup.lua" />
+        <lua name="Plugin_Features.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Features.lua" />
+        <lua name="Plugin_Physics.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Physics.lua" />
+        <lua name="Plugin_RemoteActivation.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_RemoteActivation.lua" />
+        <lua name="Plugin_Rewards.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_Rewards.lua" />
+        <lua name="Plugin_SoundStream.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/libs/Plugins/Plugin_SoundStream.lua" />
+        <lua name="Process.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/features/v3_0/editor/Process.lua" />
+        <lua name="ProtoDef.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Definitions/ProtoDef.lua" />
+        <lua name="qEntity.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/qEntity.lua" />
+        <lua name="ResSys.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/OnlineResources/ResSys.lua" />
+        <lua name="RewardMgr.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/HomeLibraryWrappers/RewardMgr.lua" />
+        <lua name="SoundInstance.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Sound/SoundInstance.lua" />
+        <lua name="SoundManager.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Sound/SoundManager.lua" />
+        <lua name="SoundStreamChannel.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Sound/SoundStreamChannel.lua" />
+        <lua name="T_Ent.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/DynamicLoading/T_Ent.lua" />
+        <lua name="TiMath.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Math/TiMath.lua" />
+        <lua name="Trigger.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Triggers/Trigger.lua" />
+        <lua name="Trigger_Setup.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/Triggers/Trigger_Setup.lua" />
+        <lua name="vDampener.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/vDampener.lua" />
+        <lua name="XmlConvert.lua" deferred_loading="true" protected="true" file="environments/Lockwood_Catwalk/Toolbox/code/shared/Toolbox/OnlineResources/XmlConvertV2.lua" />
+        
+		<texture name="buybag.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/buybag.dds" />
+		<texture name="buybag_j.dds" deferred_loading="true" protected="false" file="common/AppletSys/applets/Profile_Customisation/CustomizationHUD/DDS/buybag_j.dds" />
+	</local>
+	<external />
+</resources>

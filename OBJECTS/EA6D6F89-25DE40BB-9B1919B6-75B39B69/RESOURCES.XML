@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/model/Heavy_Black_HI.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/model/Heavy_Black_LO.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/file/config_Heavy.xml" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/anim/move.ani" memory="main" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/anim/fmove.ani" memory="main" />
+		<anim name="robot_idle.ani" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/anim/Heavy_Idle.ani" />
+		<anim name="robot_walk.ani" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/anim/Heavy_Walk.ani" />
+		<anim name="robot_run.ani" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/anim/Heavy_Run.ani" memory="main" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/skeleton/Heavy_HI.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/RobotAvatars/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/RobotAvatars/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

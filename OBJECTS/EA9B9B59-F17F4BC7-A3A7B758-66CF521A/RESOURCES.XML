@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/model/paradine_plant.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/model/paradine_plant_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/anim/walk.ani" memory="main" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/anim/run.ani" memory="main" />
+		<anim name="ani.idle1" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/anim/idle1.ani" memory="main" />
+		<anim name="ani.idle2" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/anim/idle2.ani" memory="host" />
+		<anim name="ani.idle3" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/anim/idle3.ani" memory="host" />
+		<anim name="ani.idle4" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/anim/idle4.ani" memory="host" />
+		<anim name="ani.idle5" deferred_loading="true" protected="false" file="CompanionFollowers/paradine_plant/anim/idle5.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="CompanionFollowers/paradine_plant/skeleton/paradine_plant.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/paradine_plant/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

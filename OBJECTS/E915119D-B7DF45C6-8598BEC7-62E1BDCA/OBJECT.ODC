@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.86.0.17.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>E915119D-B7DF45C6-8598BEC7-62E1BDCA</uuid>
+  <name lang="fr-FR" default="false">Fort Bellamy - Planche de surf</name>
+  <name lang="de-DE" default="false">Fort Bellamy - Surfbrett</name>
+  <name lang="it-IT" default="false">Forte Bellamy - Tavola da surf</name>
+  <name lang="es-ES" default="false">Fuerte Bellamy; Tabla de surf</name>
+  <name lang="en-US" default="true">Fort Bellamy - Surfboard</name>
+  <description lang="fr-FR" default="false">Une récompense pour avoir montré vos talents de motomarines au Fort Bellamy. [#Legal]</description>
+  <description lang="de-DE" default="false">Eine Belohnung für deine Leistungen auf den Fort-Bellamy-wasserfahrzeugs. [#Legal]</description>
+  <description lang="it-IT" default="false">Una ricompensa per aver mostrato le tue abilità sulle moto d'acqua di Forte Bellamy. [#Legal]</description>
+  <description lang="es-ES" default="false">Recompensa por demostrar tus habilidades en las aguas del Fuerte Bellamy. [#Legal]</description>
+  <description lang="en-US" default="true">A reward for showing your skills on the Fort Bellamy water crafts. [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <heat />
+  <timestamp>A0A78D28</timestamp>
+</odc>

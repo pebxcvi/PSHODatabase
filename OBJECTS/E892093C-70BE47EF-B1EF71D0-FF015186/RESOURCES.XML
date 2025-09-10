@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Sphere.mdl" deferred_loading="false" protected="false" file="MiniGames/fishing_item/chair.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/FishingClient/file/Network.xml" memory="host" />
+		<collision name="Sphere.hkx" deferred_loading="false" protected="false" file="MiniGames/fishing_item/chair.hkx" memory="host" />
+		<lua name="draw3d.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/draw3d.lua" memory="host" />
+		<lua name="utility.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/utility.lua" memory="host" />
+		<lua name="MiniGameClient.lua" deferred_loading="false" protected="true" file="MiniGames/FishingClient/lua/MiniGameClient.lua" memory="host" />
+		<lua name="def_cmn.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_cmn.lua" memory="host" />
+		<lua name="func_cmn.lua" deferred_loading="false" protected="true" file="luacommon/lua/func_cmn.lua" memory="host" />
+		<lua name="Ripple.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/Ripple.lua" memory="host" />
+		<lua name="CatchClient.lua" deferred_loading="false" protected="true" file="MiniGames/FishingClient/lua/CatchClient.lua" memory="host" />
+		<lua name="NeedleClient.lua" deferred_loading="false" protected="true" file="MiniGames/FishingClient/lua/NeedleClient.lua" memory="host" />
+		<lua name="rod.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/rod.lua" memory="host" />
+		<lua name="def_catch.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_catch.lua" memory="host" />
+	</local>
+	<external />
+</resources>
