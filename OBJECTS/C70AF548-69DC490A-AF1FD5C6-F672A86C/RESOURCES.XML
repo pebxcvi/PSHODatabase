@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BigFoot_FootBall.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_FootBall_Green.mdl" memory="host" />
+		<model name="BigFoot_GoalPost.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_GoalPost.mdl" memory="host" />
+		<model name="BigFoot_Football_tee.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_Football_tee.mdl" memory="host" />
+		<model name="BigFoot_Arrow.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_Arrow.mdl" memory="host" />
+		<model name="BigFoot_meter_Aiming.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_meter_Aiming.mdl" memory="host" />
+		<model name="BigFoot_meter_Height.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_meter_Height.mdl" memory="host" />
+		<model name="BigFoot_GoalPost_Glow.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_GoalPost_Glow.mdl" memory="host" />
+		<model name="BigFoot_FootBall_Shadow.mdl" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_FootBall_Shadow.mdl" memory="host" />
+		<texture name="scorebar" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Bar_OSD_c.dds" />
+		<texture name="scorebox" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Box_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Textures/BF_Bullet.dds" />
+		<texture name="goal1" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Textures/BF_Goal.dds" />
+		<texture name="FreePlay" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="goalcheck" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Green_Check_OSD_c.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_01_female_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_01_male_THMB_128.png" />
+		<texture name="Prize2" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_02_THMB_128.png" />
+		<texture name="Prize3_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_03_female_THMB_128.png" />
+		<texture name="Prize3_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_03_male_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_04_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_05_female_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_05_male_THMB_128.png" />
+		<texture name="Prize6" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_06_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_07_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_08_male_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_08_female_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_09_female_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_09_male_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_10_female_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_06_10_male_THMB_128.png" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/OSD/types.xml" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/StartUpDialog.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/WinnerDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/MinigameHud.xml" />
+		<collision name="BigFoot_Collision.hkx" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_Collision.hkx" memory="host" />
+		<collision name="BigFoot_FootBall.hkx" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_FootBall_Green.hkx" memory="host" />
+		<collision name="BigFoot_GoalPost.hkx" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Models/BigFoot_GoalPost.hkx" memory="host" />
+		<anim name="BF_Male_Kick" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/male/BF_Male_Kick.ani" memory="host" />
+		<anim name="BF_Male_Idle" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/male/BF_Male_Idle.ani" memory="host" />
+		<anim name="BF_Male_Kick_reverse" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/male/BF_Male_Kick_reverse.ani" memory="host" />
+		<anim name="BF_Female_idle" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/female/BF_Female_idle.ani" memory="host" />
+		<anim name="BF_Female_Kick_reverse" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/female/BF_Female_Kick_reverse.ani" memory="host" />
+		<anim name="BF_Female_Kick" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/female/BF_Female_Kick.ani" memory="host" />
+		<anim name="Male_Toss" deferred_loading="false" protected="false" file="MiniGames/DeadRinger/Animations/male/Male_Toss.ani" memory="host" />
+		<anim name="Female_Toss" deferred_loading="false" protected="false" file="MiniGames/DeadRinger/Animations/female/Female_Toss.ani" memory="host" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/Male_Animations.xml" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/Female_Animations.xml" />
+		<repertoire name="Male_Repertoire" deferred_loading="false" protected="false" file="MiniGames/Bigfoot/Animations/Male_Animations.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Network.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Settings.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="FloatingNumber.lua" deferred_loading="false" protected="true" file="MiniGames/Common/FloatingNumber.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" />
+		<lua name="Arrow.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Arrow.lua" />
+		<lua name="Ball.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Ball.lua" />
+		<lua name="GoalPost.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/GoalPost.lua" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Globals.lua" />
+		<lua name="Tee.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Tee.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/StateMachine.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/Bigfoot/Source/Player.lua" />
+	</local>
+	<external />
+</resources>

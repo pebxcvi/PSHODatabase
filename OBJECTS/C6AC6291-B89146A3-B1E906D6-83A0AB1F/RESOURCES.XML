@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="locomotion/flyCarpet_04/model/flyCarpet_00_hi.mdl" memory="host" />
+		<model name="board_remote.mdl" deferred_loading="true" protected="false" file="locomotion/flyCarpet_04/model/flyCarpet_00_lo.mdl" memory="host" />
+		<!--
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/particle/smoke.efx" memory="host" />
+		-->
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/flyCarpet_00/file/config.xml" memory="host" />
+		<anim name="idle_carpet.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/idle_carpet.ani" memory="host" />
+		<anim name="anm_M_idle_01.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose01/idle.ani" memory="host" />
+		<anim name="anm_M_move_01.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose01/move.ani" memory="host" />
+		<anim name="anm_F_idle_01.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose01/fidle.ani" memory="host" />
+		<anim name="anm_F_move_01.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose01/fmove.ani" memory="host" />
+		
+		<anim name="anm_M_idle_02.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose02/idle.ani" memory="host" />
+		<anim name="anm_M_move_02.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose02/move.ani" memory="host" />
+		<anim name="anm_F_idle_02.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose02/fidle.ani" memory="host" />
+		<anim name="anm_F_move_02.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose02/fmove.ani" memory="host" />
+		
+		<anim name="anm_M_idle_03.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose03/idle.ani" memory="host" />
+		<anim name="anm_M_move_03.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose03/move.ani" memory="host" />
+		<anim name="anm_F_idle_03.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose03/fidle.ani" memory="host" />
+		<anim name="anm_F_move_03.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/pose03/fmove.ani" memory="host" />
+		<!--
+		<anim name="anm_M_idle_hi.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/idle_hi.ani" memory="host" />
+		<anim name="anm_M_move_hi.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/move_hi.ani" memory="host" />
+		<anim name="anm_F_idle_hi.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/fidle_hi.ani" memory="host" />
+		<anim name="anm_F_move_hi.ani" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/anim/fmove_hi.ani" memory="host" />
+		-->
+		
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="locomotion/flyCarpet_00/skeleton/flyCarpet_00_hi.skn" memory="host" />
+		<soundbank name="sound.bnk" deferred_loading="true" protected="false" file="Locomotion/soundbank/carpet.bnk" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/flyCarpet_00/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/flyCarpet_00/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="screen.mdl" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/models/screen.mdl" />
+    <model name="teleporter.mdl" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/models/teleporter.mdl" />
+    <texture name="arrow.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/arrow.dds" />
+    <texture name="broken.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/broken.dds" />
+    <texture name="busy.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/busy.dds" />
+    <texture name="commerce.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/commerce.dds" />
+    <texture name="intro_bg.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/intro_bg.dds" />
+    <texture name="new.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/new.dds" />
+    <texture name="pic_bg.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/pic_bg.dds" />
+    <texture name="top_bg.dds" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/textures/top_bg.dds" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/file/Network.xml" />
+    <file name="telepod.xml" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/file/telepod.xml" />
+    <collision name="teleporter.hkx" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/models/teleporter.hkx" />
+    <soundbank name="telepod_sounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Telepod_V2/sounds/telepod_sounds.bnk" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Telepod_V2/lua/MiniGame.lua" />
+    <lua name="Util.lua" deferred_loading="false" protected="true" file="MiniGames/Telepod_V2/lua/Util.lua" />
+    <lua name="AsyncInventoryChecker.lua" deferred_loading="false" protected="true" file="MiniGames/Telepod_V2/lua/AsyncInventoryChecker.lua" />
+    <lua name="XMLReader.lua" deferred_loading="false" protected="true" file="MiniGames/Telepod_V2/lua/XMLReader.lua" />
+    <lua name="SecureXML.lua" deferred_loading="false" protected="true" file="MiniGames/Telepod_V2/lua/SecureXML.lua" />
+    <lua name="ObjectComsShared.lua" deferred_loading="false" protected="true" file="scripts/object_coms_common/objectcomsshared.lua" />
+  </local>
+  <external />
+</resources>

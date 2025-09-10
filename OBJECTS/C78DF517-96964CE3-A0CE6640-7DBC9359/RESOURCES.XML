@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/model/ThompsonMDL.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/model/ThompsonMDLRemote.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/arms_Thompson/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/anim/ArmsIdel.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/anim/FThompson_Idel_01.ani" memory="host" />
+		<anim name="fwalk.ani" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/anim/FThompson_Walk.ani" memory="host" />
+		<anim name="frun.ani" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/anim/FThompson_Run_01.ani" memory="host" />
+		<anim name="run.ani" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/anim/ArmsRun.ani" memory="host" />
+		<anim name="walk.ani" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/anim/ArmsWalk.ani" memory="host" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="locomotion/arms_Thompson/skeleton/ThompsonMDL.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/arms_Thompson/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/arms_Thompson/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/arms_Thompson/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/arms_Thompson/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/arms_Thompson/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

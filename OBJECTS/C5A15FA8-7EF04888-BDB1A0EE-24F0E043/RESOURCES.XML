@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SpunDeer.mdl" deferred_loading="true" protected="false" file="Locomotion/spundeer/model/SpunDeer.mdl" />
+		<model name="SpunDeer_lo.mdl" deferred_loading="true" protected="false" file="Locomotion/spundeer/model/SpunDeer_lo.mdl" />
+		<model name="Spundeer_saddle.mdl" deferred_loading="true" protected="false" file="Locomotion/spundeer/model/Spundeer_saddle.mdl" />
+		<model name="Spundeer_saddle_lo.mdl" deferred_loading="true" protected="false" file="Locomotion/spundeer/model/Spundeer_saddle_lo.mdl" />
+		<particle name="fairydust.efx" deferred_loading="false" protected="false" file="Locomotion/spundeer/particle/fairydust.efx" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spundeer/file/config_Spundeer.xml" memory="main" />
+		<anim name="male_spundeer_run" deferred_loading="true" protected="false" file="animation/male/spundeer/male_SpunDeer_Hover_Run.ani" memory="host" />
+		<anim name="male_spundeer_idle" deferred_loading="true" protected="false" file="animation/male/spundeer/male_SpunDeer_Hover_Idle.ani" memory="host" />
+		<anim name="female_spundeer_idle" deferred_loading="true" protected="false" file="animation/female/spundeer/female_Spundeer_Hover_Idle.ani" memory="host" />
+		<anim name="female_spundeer_run" deferred_loading="true" protected="false" file="animation/female/spundeer/female_Spundeer_Hover_Run.ani" memory="host" />
+		<anim name="SpunDeer_Hover_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/spundeer/animation/SpunDeer_Hover_Idle.ani" memory="main" />
+		<anim name="Spundeer_Hover_Run.ani" deferred_loading="true" protected="false" file="Locomotion/spundeer/animation/Spundeer_Hover_Run.ani" memory="main" />
+		<skeleton name="SpunDeer.skn" deferred_loading="true" protected="false" file="Locomotion/spundeer/skeleton/SpunDeer.skn" />
+		<soundbank name="Spundeer.bnk" deferred_loading="true" protected="false" file="Locomotion/spundeer/sound/Spundeer.bnk" />
+		<repertoire name="spundeer_female" deferred_loading="true" protected="false" file="Locomotion/spundeer/repertoire/spundeer_female.xml" memory="host" />
+		<repertoire name="spundeer_male" deferred_loading="true" protected="false" file="Locomotion/spundeer/repertoire/spundeer_male.xml" memory="host" />
+		<emotes name="spundeer_female_emotes" deferred_loading="true" protected="false" file="Locomotion/spundeer/emotes/female_emotes.xml" memory="host" />
+		<emotes name="spundeer_male_emotes" deferred_loading="true" protected="false" file="Locomotion/spundeer/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spundeer/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

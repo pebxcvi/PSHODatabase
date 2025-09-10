@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/SPRG13_Cascarones.mdl" />
+		<model name="SPRG13_EasterFlag_Model.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/SPRG13_EasterFlag_Model.mdl" memory="host" />
+		<model name="SPRG13_Egg_Model.mdl" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/SPRG13_Egg_Model.mdl" memory="host" />
+		<texture name="controls_DE.dds" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/graphics/controls_DE.dds" />
+		<texture name="controls_ES.dds" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/graphics/controls_ES.dds" />
+		<texture name="controls_FR.dds" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/graphics/controls_FR.dds" />
+		<texture name="controls_GB.dds" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/graphics/controls_GB.dds" />
+		<texture name="controls_IT.dds" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/graphics/controls_IT.dds" />
+		<texture name="controls_US.dds" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/graphics/controls_US.dds" />
+		<texture name="controls_SG.dds" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/graphics/controls_SG.dds" />
+		<particle name="Confetti_Burst.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/SPRG13/Confetti_Burst.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/SPRG13_Cascarones.hkx" />
+		<collision name="SPRG13_Egg_Model.hkx" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/SPRG13_Egg_Model.hkx" />
+		<anim name="WINT12_Female_SnowballFight_Throw.ani" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/anim/WINT12_Female_SnowballFight_Throw.ani" />
+		<anim name="WINT12_Male_SnowballFight_Throw.ani" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/anim/WINT12_Male_SnowballFight_Throw.ani" memory="host" />
+		<soundstream name="Snowball_Impact.mp3" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/audio/Snowball_Impact.mp3" memory="host" />
+		<soundstream name="Snowball_Throw.mp3" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/audio/Snowball_Throw.mp3" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/reps/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="furniture/sprg13_cascarones/reps/female.xml" />
+		<lua name="LocalPlayerController.lua" deferred_loading="false" protected="true" file="furniture/sprg13_cascarones/LocalPlayerController.luac" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="furniture/sprg13_cascarones/main.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/sprg13_cascarones/Pad.luac" memory="host" />
+		<lua name="Snowball.lua" deferred_loading="false" protected="true" file="furniture/sprg13_cascarones/Snowball.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/sprg13_cascarones/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

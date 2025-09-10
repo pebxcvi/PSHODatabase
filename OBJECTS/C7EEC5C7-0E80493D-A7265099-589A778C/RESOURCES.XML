@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/Cowboy_moves/file/configuration.xml" memory="host" />
+		<anim name="HammeredJump" deferred_loading="true" protected="false" file="animation/male/90s/HammeredJump.ani" memory="main" />
+		<anim name="AlfonsoShake" deferred_loading="true" protected="false" file="animation/male/90s/AlphonsoShake.ani" memory="main" />
+		<anim name="LasVegas" deferred_loading="true" protected="false" file="animation/male/90s/LasVegas.ani" memory="host" />
+		<anim name="MC_Shuffle" deferred_loading="true" protected="false" file="animation/male/90s/MC_Shuffle.ani" memory="host" />
+		<anim name="Nerd" deferred_loading="true" protected="false" file="animation/male/90s/Nerd.ani" memory="host" />
+		<anim name="Vogue" deferred_loading="true" protected="false" file="animation/male/90s/Vogue.ani" />
+		<anim name="fAlphonsoShake" deferred_loading="true" protected="false" file="animation/female/90s/fAlphonsoShake.ani" memory="main" />
+		<anim name="fHammeredJump" deferred_loading="true" protected="false" file="animation/female/90s/fHammeredJump.ani" memory="main" />
+		<anim name="fLasVegas" deferred_loading="true" protected="false" file="animation/female/90s/fLasVegas.ani" memory="host" />
+		<anim name="fNerd" deferred_loading="true" protected="false" file="animation/female/90s/fNerd.ani" memory="host" />
+		<anim name="fMC_Shuffle" deferred_loading="true" protected="false" file="animation/female/90s/fMC_Shuffle.ani" memory="host" />
+		<anim name="fVogue" deferred_loading="true" protected="false" file="animation/female/90s/fVogue.ani" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="avataranimpacks/nineties_moves/repertoire/male.xml" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="avataranimpacks/nineties_moves/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="avataranimpacks/nineties_moves/emotes/male_emotes.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="avataranimpacks/nineties_moves/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/Cowboy_moves/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

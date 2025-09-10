@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Candle.mdl" deferred_loading="false" protected="false" file="environments/home_internal_scee/home_lobbies/singstar/singstar_main_XMAS_CANDLES.mdl" />
+		<particle name="Candleflame.efx" deferred_loading="false" protected="false" file="MiniGames/SingStar_Candle/Candleflame.efx" />
+		<lua name="SingStar_Candle.lua" deferred_loading="false" protected="true" file="MiniGames/SingStar_Candle/SingStar_Candle.lua" />
+		<lua name="LibPointLight.lua" deferred_loading="false" protected="true" file="MiniGames/LuaLibrary/LibPointLight.lua" />
+		<lua name="LibActiveValue.lua" deferred_loading="false" protected="true" file="MiniGames/LuaLibrary/LibActiveValue.lua" />
+		<lua name="LibParticleManager.lua" deferred_loading="false" protected="true" file="MiniGames/LuaLibrary/ParticleManager/LibParticleManager.lua" />
+		<lua name="LibParticleEffect.lua" deferred_loading="false" protected="true" file="MiniGames/LuaLibrary/ParticleManager/LibParticleEffect.lua" />
+		<lua name="LibObjectModel.lua" deferred_loading="false" protected="true" file="MiniGames/LuaLibrary/LibObjectModel.lua" />
+		<lua name="Candle.lua" deferred_loading="false" protected="true" file="MiniGames/SingStar_Candle/Candle.lua" />
+	</local>
+	<external />
+</resources>

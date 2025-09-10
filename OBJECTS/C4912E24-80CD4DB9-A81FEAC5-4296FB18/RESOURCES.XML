@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ChipFlip" deferred_loading="false" protected="false" file="furniture/casinosetdressing/ChipFlip.mdl" />
+		<model name="Hustler" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_Hustler.mdl" />
+		<particle name="CasinoLogo" deferred_loading="false" protected="false" file="ATGParticles/CasinoLogo/CasinoLogo.efx" />
+		<collision name="Col" deferred_loading="false" protected="false" file="furniture/casinosetdressing/Hustler.hkx" />
+		<anim name="ChipFlipAni" deferred_loading="false" protected="false" file="furniture/casinosetdressing/ChipFlip.ani" />
+		<anim name="HustlerAni" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Hustler.ani" />
+		<skeleton name="ChipFlipSkn" deferred_loading="false" protected="false" file="furniture/casinosetdressing/ChipFlip.skn" />
+		<skeleton name="HustlerSkn" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_Hustler.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Casino_Limo/lua/MiniGameSports.lua" />
+	</local>
+	<external />
+</resources>

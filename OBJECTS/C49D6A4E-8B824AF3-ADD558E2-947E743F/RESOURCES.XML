@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="point" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/point.dds" />
+		<texture name="controller" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/controller.dds" />
+		<texture name="console_back" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/console_back.dds" />
+		<texture name="triangle" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/triangle.dds" />
+		<texture name="howtoplay" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/howtoplay.dds" />
+		<texture name="change" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/change.dds" />
+		<texture name="alternate" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/alternate.dds" />
+		<file name="rom" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/Asteroids.bin" />
+		<soundbank name="sounds" deferred_loading="false" protected="false" file="ArcadeGames/Asteroids/Sounds/asteroids.bnk" />
+		<lua name="optimised.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/optimised.luac" />
+		<lua name="6502.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/6502.luac" />
+		<lua name="game.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/game.luac" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/main.luac" />
+		<lua name="mainloop.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/mainloop.luac" />
+		<lua name="save.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/save.luac" />
+		<lua name="controller.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/controller.luac" />
+		<lua name="fullscreen.lua" deferred_loading="false" protected="true" file="ArcadeGames/Asteroids/fullscreen.luac" />
+	</local>
+	<external />
+</resources>

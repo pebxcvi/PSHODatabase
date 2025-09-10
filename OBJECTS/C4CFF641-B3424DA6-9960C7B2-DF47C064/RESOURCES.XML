@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="yc_gate.mdl" deferred_loading="false" protected="false" file="games/common/props/yc_gate/yc_gate.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="games/RewardGate_YC/file/Network.xml" />
+		<collision name="yc_gate_collision.hkx" deferred_loading="false" protected="false" file="games/common/props/yc_gate/yc_gate_collision.hkx" />
+		<anim name="yc_gate.ani" deferred_loading="false" protected="false" file="games/common/props/yc_gate/yc_gate.ani" />
+		<skeleton name="yc_gate.skn" deferred_loading="false" protected="false" file="games/common/props/yc_gate/yc_gate.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/MiniGame.luac" memory="main" />
+		<lua name="Utility_TriggerMover.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/Library/Utility_TriggerMover.luac" memory="main" />
+		<lua name="Misc_OSD.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/Library/Misc_OSD.luac" memory="main" />
+		<lua name="RewardCheck.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/RewardCheck.luac" memory="main" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/Library/Core.luac" memory="main" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/Library/Misc.luac" memory="main" />
+		<lua name="Communicator.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator.luac" memory="main" />
+		<lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="Lua_Library/Communicator/Communicator_ProjectDefined.luac" memory="main" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/Library/Util.luac" memory="main" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="games/RewardGate_YC/lua/Library/StateMachine.luac" />
+	</local>
+	<external />
+</resources>

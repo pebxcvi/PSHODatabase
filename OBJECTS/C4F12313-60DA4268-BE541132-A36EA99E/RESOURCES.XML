@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="DDR.mdl" deferred_loading="false" protected="false" file="environments/Konami_Space/props/statues/ddr/DDR.mdl" />
+		<model name="mgs.mdl" deferred_loading="false" protected="false" file="environments/Konami_Space/props/statues/frogger/Froger_Statue.mdl" />
+		<model name="gradius.mdl" deferred_loading="false" protected="false" file="environments/Konami_Space/props/statues/gradius_statue/gradius_statue.mdl" />
+		<model name="proevo.mdl" deferred_loading="false" protected="false" file="environments/Konami_Space/props/statues/rocket_knight/Rocket_Knight.mdl" />
+		<model name="silenthill.mdl" deferred_loading="false" protected="false" file="environments/Konami_Space/props/statues/silenthill/Triangle_head_statue.mdl" />
+		<model name="castlevania.mdl" deferred_loading="false" protected="false" file="environments/Konami_Space/props/statues/gabriel/Gabriel_Low_Statue.mdl" />
+		<texture name="konamiLogo.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/textures/konamiLogo.dds" />
+		<texture name="TweetBkgrnd.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/Twitter/Graphics/TweetBkgrnd.dds" />
+		<texture name="LPBackdropnew.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/textures/LPBackdropnew.dds" />
+		<texture name="LeaderboardMain.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/textures/LeaderboardMain.dds" />
+		<texture name="LeaderboardPanel.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/textures/LeaderboardPanel.dds" />
+		<texture name="LeaderboardPanelHi.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/textures/LeaderboardPanelHi.dds" />
+		<texture name="MessageBox.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/textures/MessageBox.dds" />
+		<texture name="smallboard.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/textures/smallboard.dds" />
+		<texture name="loading_1.dds" deferred_loading="false" protected="false" file="MiniGames/konami_space/PR/MyLibrary/BoardOfLeaders/loading_1.dds" />
+		<lua name="pr_screen.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/pr_screen.lua" />
+		<lua name="pr_screen_mgr.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/pr_screen_mgr.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/Main.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/Controller.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/OHS.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/Jamin.lua" />
+		<lua name="Kpoints.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/Kpoints.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/NetLib.lua" />
+		<lua name="statue_defs.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/statue_defs.lua" />
+		<lua name="Screensaver.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/Screensaver.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/Tween.lua" />
+		<lua name="Screen_defs.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/Screen_defs.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/misc.lua" />
+		<lua name="BoardOfLeaders.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/MyLibrary/BoardOfLeaders/BoardOfLeaders.lua" />
+		<lua name="motd.lua" deferred_loading="false" protected="true" file="MiniGames/konami_space/PR/motd.lua" />
+	</local>
+	<external />
+</resources>

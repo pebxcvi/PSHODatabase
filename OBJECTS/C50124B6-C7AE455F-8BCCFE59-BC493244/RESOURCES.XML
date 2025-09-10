@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/xmas13_piano/XMAS13_Piano.mdl" memory="main" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/file/Network.xml" memory="main" />
+    <collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/xmas13_piano/XMAS13_Piano.hkx" memory="main" />
+    <anim name="XMAS13_Female_Piano_Anim.ani" deferred_loading="false" protected="false" file="furniture/xmas13_piano/anims/XMAS13_Female_Piano_Anim.ani" memory="host" />
+    <anim name="XMAS13_Male_Piano_Anim.ani" deferred_loading="false" protected="false" file="furniture/xmas13_piano/anims/XMAS13_Male_Piano_Anim.ani" memory="host" />
+    <anim name="XMAS13_Female_Piano_Idle.ani" deferred_loading="false" protected="false" file="furniture/xmas13_piano/anims/XMAS13_Female_Piano_Idle.ani" memory="main" />
+    <anim name="XMAS13_Male_Piano_Idle.ani" deferred_loading="false" protected="false" file="furniture/xmas13_piano/anims/XMAS13_Male_Piano_Idle.ani" memory="main" />
+    <soundstream name="Guitar" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Lute.mp3" memory="main" />
+    <soundstream name="Piano" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Piano.mp3" memory="main" />
+    <soundstream name="Bass" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Bass.mp3" memory="main" />
+    <soundstream name="Drums" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Drums.mp3" memory="main" />
+    <soundstream name="Flute" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Flute.mp3" memory="main" />
+    <soundstream name="Trumpet" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/Trumpet.mp3" memory="main" />
+    <soundstream name="FemaleCaroler" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/FemaleCaroler.mp3" memory="main" />
+    <soundstream name="JingleBells" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/JingleBells.mp3" memory="main" />
+    <soundstream name="MaleCaroler" deferred_loading="false" protected="false" file="MiniGames/XMAS13_Active_Caroler/MaleCaroler.mp3" memory="main" />
+    <repertoire name="male" deferred_loading="true" protected="false" file="MiniGames/XMAS13_Active_Caroler/repertoire_Piano/male.xml" memory="main" />
+    <repertoire name="female" deferred_loading="true" protected="false" file="MiniGames/XMAS13_Active_Caroler/repertoire_Piano/female.xml" memory="main" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/xmas13_active_caroler/lua/minigame_piano.luac" memory="main" />
+  </local>
+  <external />
+</resources>

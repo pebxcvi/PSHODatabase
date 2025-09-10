@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SphereHead_mdl" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/SphereHead.mdl" memory="host" />
+		<model name="Screen_mdl" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/screen/Screen.mdl" />
+		<model name="SphereTotum_mdl" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/SphereTotum.mdl" memory="host" />
+		<texture name="green_tick_dds" deferred_loading="true" protected="false" file="Scripts/PS_Move_Minigame/images/order_screen/result_green_tick.dds" memory="host" />
+		<texture name="red_cross_dds" deferred_loading="true" protected="false" file="Scripts/PS_Move_Minigame/images/order_screen/result_red_cross.dds" memory="host" />
+		<texture name="move_menu_panel_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/move_menu/move_menu_panel.dds" memory="host" />
+		<texture name="move_archer_dds" deferred_loading="true" protected="false" file="Scripts/PS_Move_Minigame/images/order_screen/move_archer.dds" memory="host" />
+		<texture name="move_boxer_dds" deferred_loading="true" protected="false" file="Scripts/PS_Move_Minigame/images/order_screen/move_boxer.dds" memory="host" />
+		<texture name="move_sword_dds" deferred_loading="true" protected="false" file="Scripts/PS_Move_Minigame/images/order_screen/move_sword.dds" memory="host" />
+		<texture name="move_wand_dds" deferred_loading="true" protected="false" file="Scripts/PS_Move_Minigame/images/order_screen/move_wand.dds" memory="host" />
+		<texture name="team_panel_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/team_hud/team_panel.dds" memory="host" />
+		<texture name="BlueGlowPS_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/sphere_textures/BlueGlowPS.dds" memory="host" />
+		<texture name="GreenGlowPS_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/sphere_textures/GreenGlowPS.dds" memory="host" />
+		<texture name="RedGlowPS_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/sphere_textures/RedGlowPS.dds" memory="host" />
+		<texture name="whiteGlow_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/sphere_textures/whiteGlow.dds" memory="host" />
+		<texture name="YellowGlow_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/sphere_textures/YellowGlow.dds" memory="host" />
+		<texture name="team_player_green_tick_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/team_hud/team_player_green_tick.dds" memory="host" />
+		<texture name="team_player_red_cross_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/team_hud/team_player_red_cross.dds" memory="host" />
+		<texture name="move_menu_archer_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/move_menu/move_menu_archer.dds" memory="host" />
+		<texture name="move_menu_boxer_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/move_menu/move_menu_boxer.dds" memory="host" />
+		<texture name="move_menu_sword_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/move_menu/move_menu_sword.dds" memory="host" />
+		<texture name="move_menu_wand_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/move_menu/move_menu_wand.dds" memory="host" />
+		<texture name="panel_osd_blue_medium_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/panels/panel_osd_blue_medium.dds" memory="host" />
+		<texture name="panel_osd_blue_small_dds" deferred_loading="false" protected="false" file="Scripts/PS_Move_Minigame/images/panels/panel_osd_blue_small.dds" />
+		<anim name="Boxer_Male" deferred_loading="false" protected="false" file="Animation/female/boxer/Boxer.ani" />
+		<anim name="Archer_Male" deferred_loading="false" protected="false" file="Animation/male/archer/archer.ani" />
+		<anim name="MagicWand_Male" deferred_loading="false" protected="false" file="Animation/male/magicwand/MagicWand.ani" />
+		<anim name="SwordSwipe_Male" deferred_loading="false" protected="false" file="Animation/male/swordswipe/SwordSwipe.ani" />
+		<anim name="Boxer_Female" deferred_loading="false" protected="false" file="Animation/female/boxer/Boxer.ani" />
+		<anim name="Archer_Female" deferred_loading="false" protected="false" file="Animation/female/archer/archer.ani" />
+		<anim name="MagicWand_Female" deferred_loading="false" protected="false" file="Animation/female/magicwand/MagicWand.ani" />
+		<anim name="SwordSwipe_Female" deferred_loading="false" protected="false" file="Animation/female/swordswipe/SwordSwipe.ani" />
+		<anim name="SphereHead_ani" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/SphereHead.ani" memory="host" />
+		<anim name="FemaleSphereHead_ani" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/FemaleSphereHead.ani" memory="host" />
+		<anim name="SphereTotum_ani" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/SphereTotum.ani" memory="host" />
+		<skeleton name="SphereHead_skn" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/SphereHead.skn" memory="host" />
+		<skeleton name="FemaleSphereHead_skn" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/FemaleSphereHead.skn" memory="host" />
+		<skeleton name="SphereTotum_skn" deferred_loading="false" protected="false" file="environments/scee_psmove_backstag_e4fd_5641/SphereTotum.skn" memory="host" />
+		<repertoire name="PS_Moves_Challenge_M" deferred_loading="false" protected="false" file="objects/C43CB89C-B2E541EE-A63042D1-6C186262/repertoire_anim_data_male.xml" />
+		<repertoire name="PS_Moves_Challenge_F" deferred_loading="false" protected="false" file="objects/C43CB89C-B2E541EE-A63042D1-6C186262/repertoire_anim_data_female.xml" />
+		<lua name="PS_Move_minigame_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/PS_Move_minigame.lua" memory="host" />
+		<lua name="Util_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/Util.lua" memory="host" />
+		<lua name="Constants_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/Constants.lua" memory="host" />
+		<lua name="TeamData_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/TeamData.lua" memory="host" />
+		<lua name="Network_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/Network.lua" memory="host" />
+		<lua name="_Debug.lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/_Debug.lua" memory="host" />
+		<lua name="ClockTimer_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/ClockTimer.lua" memory="host" />
+		<lua name="Screen3DPopUp_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/Screen3DPopUp.lua" memory="host" />
+		<lua name="DeferredResource_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/DeferredResource.lua" memory="host" />
+		<lua name="SimpleTextPanel_lua" deferred_loading="false" protected="true" file="Scripts/PS_Move_Minigame/SimpleTextPanel.lua" memory="host" />
+	</local>
+	<external />
+</resources>

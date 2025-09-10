@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="softball.mdl" deferred_loading="false" file="MiniGames/SplitMilk/Models/softball.mdl" />
+		<model name="milk_bottle.mdl" deferred_loading="false" file="MiniGames/SplitMilk/Models/milk_bottle.mdl" />
+		<model name="softball_on_countertop.mdl" deferred_loading="false" file="MiniGames/SplitMilk/Models/softball.mdl" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/SplitMilk/Images/SM_OSD_Goal_c.dds" />
+		<texture name="goalcheck" deferred_loading="false" file="generic_shared_textures/Green_Check_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/SplitMilk/Images/SM_OSD_Bullet_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="generic_shared_textures/FranticFreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_SM_Logo_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_SM_Logo_THMB_128.png" />
+		<texture name="Prize2" deferred_loading="false" file="thumbnails_in_game/SM_SpiltMilk_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails_in_game/SM_CatStarRug_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/SM_Stuffed_Cat_THMB_128.png" />
+		<texture name="Prize5" deferred_loading="false" file="thumbnails_in_game/SM_LitterBox_THMB_128.png" />
+		<texture name="Prize6" deferred_loading="false" file="thumbnails_in_game/SM_pedestal_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails_in_game/SM_Poster_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" file="thumbnails_in_game/Male01_hat_baseballcap_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" file="thumbnails_in_game/Female01_hat_baseballcap_THMB_128.png" />
+		<texture name="Prize9" deferred_loading="false" file="thumbnails_in_game/SM_BottleLamp_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_SM_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_SM_THMB_128.png" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/SplitMilk/OSD/types.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<collision name="milk_bottle.hkx" deferred_loading="false" file="MiniGames/SplitMilk/Models/milk_bottle.hkx" />
+		<collision name="softball.hkx" deferred_loading="false" file="MiniGames/SplitMilk/Models/softball.hkx" />
+		<anim name="ThrowIdle_Male" deferred_loading="false" file="animation/male/sm_throw_idle.ani" />
+		<anim name="Throw_Male" deferred_loading="false" file="animation/male/sm_throw.ani" />
+		<anim name="ThrowIdle_Female" deferred_loading="false" file="animation/female/sm_idle.ani" />
+		<anim name="Throw_Female" deferred_loading="false" file="animation/female/sm_throw.ani" />
+		<repertoire name="spiltmilk_animations_male" deferred_loading="false" file="MiniGames/SplitMilk/spiltmilk_animations_male.xml" />
+		<repertoire name="spiltmilk_animations_female" deferred_loading="false" file="MiniGames/SplitMilk/spiltmilk_animations_female.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Game.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Math.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Player.lua" />
+		<lua name="Jug.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Jug.lua" />
+		<lua name="Ball.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/Ball.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="SM_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/SplitMilk/Source/SM_Settings.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/themidway/SceneScripts/GlobalDefines.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/kc_cat_clock/KC_Cat_Clock_Frame.mdl" />
+		<model name="KC_Cat_Clock_LEye.mdl" deferred_loading="false" protected="false" file="furniture/kc_cat_clock/KC_Cat_Clock_LEye.mdl" />
+		<model name="KC_Cat_Clock_Minutes.mdl" deferred_loading="false" protected="false" file="furniture/kc_cat_clock/KC_Cat_Clock_Minutes.mdl" />
+		<model name="KC_Cat_Clock_REye.mdl" deferred_loading="false" protected="false" file="furniture/kc_cat_clock/KC_Cat_Clock_REye.mdl" />
+		<model name="KC_Cat_Clock_Tail.mdl" deferred_loading="false" protected="false" file="furniture/kc_cat_clock/KC_Cat_Clock_Tail.mdl" />
+		<model name="KC_Cat_Clock_Hours.mdl" deferred_loading="false" protected="false" file="furniture/kc_cat_clock/KC_Cat_Clock_Hours.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/kc_cat_clock/KC_Cat_Clock_Frame.hkx" />
+		<lua name="KCCatClockScript.lua" deferred_loading="false" protected="true" file="furniture/kc_cat_clock/scripts/KCCatClockScript.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Tech_Hat.mdl" deferred_loading="false" protected="false" file="assets/tech_hat/Tech_Hat.mdl" />
+		<texture name="Commerce_Terminal_blue_c.dds" deferred_loading="false" protected="false" file="assets/commerceterminal/textures/Commerce_Terminal_blue_c.dds" />
+		<texture name="Commerce_Terminal_blue_glow.dds" deferred_loading="false" protected="false" file="assets/commerceterminal/textures/Commerce_Terminal_blue_glow.dds" />
+		<texture name="SpotlightMaskSoft.dds" deferred_loading="false" protected="false" file="generic_shared_textures/SpotlightMaskSoft.dds" />
+		<texture name="Center_Ring_Mask.dds" deferred_loading="false" protected="false" file="environments/volcanobasestub/Textures/Center_Ring_Mask.dds" />
+		<texture name="raidlaunch.dds" deferred_loading="false" protected="false" file="assets/vbwisperlogo/textures/raidlaunch.dds" />
+		<texture name="raidlaunchFrench.dds" deferred_loading="false" protected="false" file="assets/vbwisperlogo/textures/raidlaunchFrench.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/VolcanoBase/file/Network.xml" />
+		<file name="resources.xml" deferred_loading="false" protected="false" file="objects/C4CDFCA9-5AEB4895-9A629213-C65625D4/resourcesCopy.xml" />
+		<collision name="CommerceTerminal.hkx" deferred_loading="false" protected="false" file="assets/commerceterminal/CommerceTerminal.hkx" />
+		<anim name="Tech_Hat.ani" deferred_loading="false" protected="false" file="assets/tech_hat/Tech_Hat.ani" />
+		<skeleton name="Tech_Hat.skn" deferred_loading="false" protected="false" file="assets/tech_hat/Tech_Hat.skn" />
+		<soundstream name="amb_volcano.mp3" deferred_loading="false" protected="false" file="assets/audio/Ambience/amb_volcano.mp3" />
+		<soundstream name="mus_volcano_3.mp3" deferred_loading="false" protected="false" file="assets/audio/music/mus_volcano_3.mp3" />
+		<soundstream name="mus_volcano_2.mp3" deferred_loading="false" protected="false" file="assets/audio/music/mus_volcano_2.mp3" />
+		<soundstream name="mus_volcano_1.mp3" deferred_loading="false" protected="false" file="assets/audio/music/mus_volcano_1.mp3" />
+		<lua name="VolcaneBaseScene.lua" deferred_loading="false" protected="true" file="MiniGames/VolcanoBase/lua/VolcanoBaseScene.lua" />
+		<lua name="WebUtilities.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebUtilities.lua" />
+		<lua name="WebServiceController.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebServiceController.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Queue.lua" />
+		<lua name="XmlHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/XmlHelpers.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/StateMachine.lua" />
+		<lua name="VolcanoBaseNetwork.lua" deferred_loading="false" protected="true" file="MiniGames/VolcanoBase/lua/VolcanoBaseNetwork.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="comp_model" file="MiniGames/computer/models/TOC_monitor.mdl" deferred_loading="false" />
+		<texture name="toc_screen" file="MiniGames/computer/images/toc_screen.dds" deferred_loading="false" />
+		<texture name="taskbar" file="MiniGames/computer/images/taskbar.dds" deferred_loading="false" />
+		<texture name="cursor" file="MiniGames/computer/images/cursor.dds" deferred_loading="false" />
+		<texture name="close" file="MiniGames/computer/images/close.dds" deferred_loading="false" />
+		<texture name="TOC_Icons_Computer.dds" file="MiniGames/computer/images/TOC_Icons_Computer.dds" deferred_loading="false" />
+		<texture name="TOC_Icons_Trash.dds" file="MiniGames/computer/images/TOC_Icons_Trash.dds" deferred_loading="false" />
+		<file name="toc_terminal.lua" file="MiniGames/computer/toc_terminal.lua" deferred_loading="false" />
+		<file name="shared_terminal.lua" file="MiniGames/computer/shared_terminal.lua" deferred_loading="false" />
+		<file name="constants.lua" file="MiniGames/computer/constants.lua" deferred_loading="false" />
+		<file name="wordwrap.lua" file="MiniGames/SCEA_fn_lib/wordwrap.lua" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Checker_MDL" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/Checkers.mdl" />
+		<model name="ChessBoard_MDL" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/ChessBoard.mdl" />
+		<model name="YellowIndicator_MDL" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/CommJuly_Checkers_MoveGlow.mdl" />
+		<model name="CommJuly_CheckersSet3_MDL" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/CommJuly_CheckersSet3.mdl" />
+		<texture name="Red_checkerpieces_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/checkers/textures/Red_checkerpieces_c.dds" />
+		<texture name="White_checkerpieces_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/checkers/textures/White_checkerpieces_c.dds" />
+		<texture name="blank_DDS" deferred_loading="false" protected="false" file="ActiveItems/checkers/textures/blank.dds" />
+		<texture name="test_checker_noglow_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/checkers/textures/test_checker_noglow_c.dds" />
+		<texture name="test_checkerglowred_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/checkers/textures/test_checkerglowred_c.dds" />
+		<texture name="test_checkerglowblue_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/checkers/textures/test_checkerglowblue_c.dds" />
+		<texture name="test_checkerglowyellow_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/checkers/textures/test_checkerglowyellow_c.dds" />
+		<particle name="burst-white.efx" deferred_loading="false" protected="false" file="ActiveItems/checkers/ATGParticles/burst-white.efx" memory="host" />
+		<particle name="burst-blue.efx" deferred_loading="false" protected="false" file="ActiveItems/checkers/ATGParticles/burst-blue.efx" memory="main" />
+		<particle name="burst-orange.efx" deferred_loading="false" protected="false" file="ActiveItems/checkers/ATGParticles/burst-orange.efx" memory="main" />
+		<particle name="burst-pink.efx" deferred_loading="false" protected="false" file="ActiveItems/checkers/ATGParticles/burst-pink.efx" memory="main" />
+		<particle name="burst-red.efx" deferred_loading="false" protected="false" file="ActiveItems/checkers/ATGParticles/burst-red.efx" memory="main" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/checkers/Network.xml" memory="main" />
+		<file name="basictext.xml" deferred_loading="false" protected="false" file="ActiveItems/checkers/OSD/basictext.xml" />
+		<file name="simplemenu.xml" deferred_loading="false" protected="false" file="ActiveItems/checkers/OSD/simplemenu.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="ActiveItems/checkers/OSD/types.xml" />
+		<file name="osd_textpanel" deferred_loading="false" protected="false" file="ActiveItems/checkers/OSD/textpanel.xml" />
+		<collision name="Checker_HKX" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/Checkers.hkx" />
+		<collision name="ChessBoard_HKX" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/ChessBoard.hkx" />
+		<collision name="CommJuly_CheckersSet1_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/CommJuly_CheckersSet1_SafeVolume.hkx" />
+		<collision name="CommJuly_CheckersSet3_HKX" deferred_loading="false" protected="false" file="ActiveItems/checkers/model/CommJuly_CheckersSet3.hkx" />
+		<soundbank name="SoundBank01_BNK" deferred_loading="false" protected="false" file="ActiveItems/checkers/sound/SoundBank01.bnk" memory="host" />
+		<soundbank name="SoundBank02_BNK" deferred_loading="false" protected="false" file="ActiveItems/checkers/sound/SoundBank02.bnk" memory="host" />
+		<lua name="GameManager_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/GameManager.lua" />
+		<lua name="NetworkLayer_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/NetworkLayer.lua" />
+		<lua name="MyCamera_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/MyCamera.lua" />
+		<lua name="Checkers_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/Checkers.lua" />
+		<lua name="DebugLine_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/DebugLine.lua" />
+		<lua name="Board_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/Board.lua" />
+		<lua name="CheckerPiece_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/CheckerPiece.lua" />
+		<lua name="MyPad_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/MyPad.lua" />
+		<lua name="Indicator_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/Indicator.lua" />
+		<lua name="HUD_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/HUD.lua" />
+		<lua name="MoveList_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/MoveList.lua" />
+		<lua name="Fireworks_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/Fireworks.lua" />
+		<lua name="List_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/List.lua" />
+		<lua name="CheatCode_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/CheatCode.lua" />
+		<lua name="SoundMgr_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/SoundMgr.lua" />
+		<lua name="MovingAverage_LUA" deferred_loading="false" protected="true" file="ActiveItems/checkers/programming/MovingAverage.lua" />
+	</local>
+	<external />
+</resources>

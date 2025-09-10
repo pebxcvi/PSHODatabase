@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="On_Lights.mdl" deferred_loading="false" file="MiniGames/MG10/Models/MG10_Prize_Wall_On_Lights.mdl" />
+		<model name="Prize_Wall.mdl" deferred_loading="false" file="MiniGames/MG10/Models/MG10_Prize_Wall.mdl" />
+		<model name="led_red_9.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_9.mdl" />
+		<model name="led_red_0.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_0.mdl" />
+		<model name="led_red_1.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_1.mdl" />
+		<model name="led_red_2.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_2.mdl" />
+		<model name="led_red_3.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_3.mdl" />
+		<model name="led_red_4.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_4.mdl" />
+		<model name="led_red_5.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_5.mdl" />
+		<model name="led_red_6.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_6.mdl" />
+		<model name="led_red_7.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_7.mdl" />
+		<model name="led_red_8.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_red_8.mdl" />
+		<model name="led_colon_red.mdl" deferred_loading="false" file="MiniGames/Common/Models/led_colon_red.mdl" />
+		<model name="CheckMark.mdl" deferred_loading="false" file="MiniGames/MG10/Models/PrizePlacard_CheckMark.mdl" />
+		<texture name="CountDown3" deferred_loading="false" file="generic_shared_textures/Number_3.dds" />
+		<texture name="CountDown1" deferred_loading="false" file="generic_shared_textures/Number_1.dds" />
+		<texture name="CountDown2" deferred_loading="false" file="generic_shared_textures/Number_2.dds" />
+		<texture name="CountDown0" deferred_loading="false" file="generic_shared_textures/Go.dds" />
+		<texture name="PrizeTexture_1.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_1.dds" />
+		<texture name="PrizeTexture_16.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_16.dds" />
+		<texture name="PrizeTexture_2.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_2.dds" />
+		<texture name="PrizeTexture_3.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_3.dds" />
+		<texture name="PrizeTexture_4.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_4.dds" />
+		<texture name="PrizeTexture_5.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_5.dds" />
+		<texture name="PrizeTexture_6.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_6.dds" />
+		<texture name="PrizeTexture_7.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_7.dds" />
+		<texture name="PrizeTexture_8.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_8.dds" />
+		<texture name="PrizeTexture_9.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_9.dds" />
+		<texture name="PrizeTexture_10.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_10.dds" />
+		<texture name="PrizeTexture_11.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_11.dds" />
+		<texture name="PrizeTexture_12.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_12.dds" />
+		<texture name="PrizeTexture_13.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_13.dds" />
+		<texture name="PrizeTexture_14.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_14.dds" />
+		<texture name="PrizeTexture_15.dds" deferred_loading="false" file="MiniGames/MG10/Textures/PrizeTextures/PrizeTexture_15.dds" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG10/OSD/types.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Player.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Settings.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="PrizeGrab.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/PrizeGrab.lua" />
+		<lua name="Light.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Light.lua" />
+		<lua name="Prizes.lua" deferred_loading="false" protected="true" file="MiniGames/MG10/Source/Prizes.lua" />
+	</local>
+	<external />
+</resources>
