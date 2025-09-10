@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="darts_dart.mdl" deferred_loading="false" file="MiniGames/Darts/Models/darts_dart.mdl" />
+		<model name="cross_hairs.mdl" deferred_loading="false" file="MiniGames/Darts/Models/cross_hairs.mdl" />
+		<model name="darts_arrowhead.mdl" deferred_loading="false" file="MiniGames/Darts/Models/darts_arrowhead.mdl" />
+		<model name="darts_balloon_a_red.mdl" deferred_loading="false" file="MiniGames/Darts/Models/darts_balloon_a_red.mdl" />
+		<model name="darts_arrowhead_double.mdl" deferred_loading="false" file="MiniGames/Darts/Models/darts_arrowhead_double.mdl" />
+		<model name="darts_inlefthand.mdl" deferred_loading="false" file="MiniGames/Darts/Models/darts_inlefthand.mdl" />
+		<model name="number_plus.mdl" deferred_loading="false" file="generic_shared_models/number_plus.mdl" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/Darts/Images/Darts_OSD_Goal_c.dds" />
+		<texture name="scorebox" deferred_loading="false" file="generic_shared_textures/Score_Box_OSD_c.dds" />
+		<texture name="scorebar" deferred_loading="false" file="generic_shared_textures/Score_Bar_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/Darts/Images/Darts_OSD_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="generic_shared_textures/FranticFreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_DD_Logo_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_DD_Logo_THMB_128.png" />
+		<texture name="Prize2_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Hat_DD_Hat_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Hat_DD_Hat_THMB_128.png" />
+		<texture name="Prize3_Female" deferred_loading="false" file="thumbnails_in_game/Female01_JewelLeftEar_DD_DartEarRing_THMB_128.png" />
+		<texture name="Prize3_Male" deferred_loading="false" file="thumbnails_in_game/male01_JewelLeftEar_DD_DartEarRing_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/DD_NeonKiss_THMB_128.png" />
+		<texture name="Prize5" deferred_loading="false" file="thumbnails_in_game/DD_Lamp_THMB_128.png" />
+		<texture name="Prize6_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_DD_DartHeart_THMB_128.png" />
+		<texture name="Prize6_Male" deferred_loading="false" file="thumbnails_in_game/male01_Torso_DD_DartHeart_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails_in_game/DD_Poster_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_DD_MadonnaCorset_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_DD_Tanktop_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" file="thumbnails_in_game/Female01_HeadPhones_DD_DartInHead_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" file="thumbnails_in_game/Male01_HeadPhones_DD_DartInHead_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_DD_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_DD_THMB_128.png" />
+		<texture name="9.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/9.dds" />
+		<texture name="0.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/0.dds" />
+		<texture name="1.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/1.dds" />
+		<texture name="2.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/2.dds" />
+		<texture name="3.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/3.dds" />
+		<texture name="4.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/4.dds" />
+		<texture name="5.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/5.dds" />
+		<texture name="6.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/6.dds" />
+		<texture name="7.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/7.dds" />
+		<texture name="8.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/8.dds" />
+		<texture name="darts_balloons_green_c.dds" deferred_loading="false" protected="false" file="MiniGames/Darts/Models/Textures/darts_balloons_green_c.dds" />
+		<texture name="darts_balloons_orange_c.dds" deferred_loading="false" protected="false" file="MiniGames/Darts/Models/Textures/darts_balloons_orange_c.dds" />
+		<texture name="darts_balloons_pink_c.dds" deferred_loading="false" protected="false" file="MiniGames/Darts/Models/Textures/darts_balloons_pink_c.dds" />
+		<texture name="darts_balloons_blue_c.dds" deferred_loading="false" protected="false" file="MiniGames/Darts/Models/Textures/darts_balloons_blue_c.dds" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/Darts/OSD/osd_types.xml" />
+		<file name="WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<anim name="dart_idle_female" deferred_loading="false" file="animation/female/dd_idle.ani" />
+		<anim name="dart_idle_male" deferred_loading="false" file="animation/male/dart_throw_02_posetothrow.ani" />
+		<anim name="dart_throw_male" deferred_loading="false" file="animation/male/dart_throw_03_throw.ani" />
+		<anim name="dart_throw_female" deferred_loading="false" file="animation/female/dd_throw.ani" />
+		<repertoire name="dart_animations_male" deferred_loading="false" file="MiniGames/Darts/dart_animations_male.xml" />
+		<repertoire name="dart_animations_female" deferred_loading="false" file="MiniGames/Darts/dart_animations_female.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Camera.lua" />
+		<lua name="Debug.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Debug.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Game.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/HelperFunctions.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Math.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Player.lua" />
+		<lua name="Balloon.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Balloon.lua" />
+		<lua name="Dart.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/Dart.lua" />
+		<lua name="AimSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/AimSystem.lua" />
+		<lua name="DD_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/Darts/Source/DD_Settings.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="FloatingNumber.lua" deferred_loading="false" protected="true" file="generic_shared_code/FloatingNumber.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/themidway/SceneScripts/GlobalDefines.lua" />
+	</local>
+	<external />
+</resources>

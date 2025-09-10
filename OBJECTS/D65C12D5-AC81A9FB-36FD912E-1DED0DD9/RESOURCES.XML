@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Halloween_canopticjar.mdl" deferred_loading="false" protected="false" file="halloween/models/Halloween_canopticjar.mdl" />
+		<model name="pickaxe_mesh.mdl" deferred_loading="false" protected="false" file="halloween/models/pickaxe_mesh.mdl" />
+		<model name="burial_site_1" deferred_loading="true" protected="false" file="halloween/models/Halloween_hole_V1.mdl" />
+		<model name="mdl.skydome" deferred_loading="false" protected="false" file="halloween/models/Halloween_skyDome.mdl" />
+		<model name="mdl.ocean" deferred_loading="false" protected="false" file="halloween/models/Halloween_oceanOverlay.mdl" />
+		<model name="burial_site_2" deferred_loading="true" protected="false" file="halloween/models/Halloween_hole_V2.mdl" />
+		<model name="burial_site_3" deferred_loading="true" protected="false" file="halloween/models/Halloween_hole_V3.mdl" />
+		<model name="burial_site_4" deferred_loading="true" protected="false" file="halloween/models/DIG_SITE_MESH.mdl" />
+		<texture name="vignette.dds" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/vignette.dds" />
+		<texture name="popup_background" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/halloween_popup.dds" />
+		<texture name="tex.cloud" deferred_loading="false" protected="false" file="halloween/envfx/textures/CloudSet1_c.dds" />
+		<texture name="tex.fork" deferred_loading="false" protected="false" file="halloween/envfx/textures/fork.dds" />
+		<texture name="tex.moon" deferred_loading="false" protected="false" file="halloween/envfx/textures/EvilMoon2_c.dds" />
+		<texture name="tex.moonshape" deferred_loading="false" protected="false" file="halloween/envfx/textures/moonshape.dds" />
+		<texture name="tex.pointer" deferred_loading="false" protected="false" file="halloween/envfx/textures/pointer.dds" />
+		<texture name="tex.moonglow" deferred_loading="false" protected="false" file="halloween/envfx/textures/moonglow.dds" />
+		<texture name="tex.moonevil" deferred_loading="false" protected="false" file="halloween/envfx/textures/EvilMoon_c.dds" />
+		<texture name="tex.halo" deferred_loading="false" protected="false" file="halloween/envfx/textures/halo.dds" />
+		<texture name="tex.forkglow" deferred_loading="false" protected="false" file="halloween/envfx/textures/forkglow.dds" />
+		<texture name="tex.forkspot" deferred_loading="false" protected="false" file="halloween/envfx/textures/forkspot.dds" />
+		<texture name="tex.mooncloud" deferred_loading="false" protected="false" file="halloween/envfx/textures/CloudSet2_c.dds" />
+		<texture name="static.dds" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/static.dds" />
+		<texture name="MummyFace_01.dds" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/MummyFace_01.dds" />
+		<texture name="halloween_note.dds" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/halloween_note.dds" />
+		<particle name="green_smoke_01.efx" deferred_loading="false" protected="false" file="halloween/particles/green_smoke_01.efx" />
+		<collision name="sarcophagus.hkx" deferred_loading="true" protected="false" file="halloween/models/sarcophagus.hkx" />
+		<anim name="DIG_F_01.ani" deferred_loading="false" protected="false" file="halloween/models/DIG_F_01.ani" />
+		<anim name="DIG_M_01.ani" deferred_loading="false" protected="false" file="halloween/models/DIG_M_01.ani" />
+		<anim name="DIG_SITE_01.ani" deferred_loading="false" protected="false" file="halloween/models/DIG_SITE_01.ani" />
+		<anim name="DIG_SITE_02.ani" deferred_loading="false" protected="false" file="halloween/models/DIG_SITE_02.ani" />
+		<skeleton name="DIG_SITE_MESH.skn" deferred_loading="false" protected="false" file="halloween/models/DIG_SITE_MESH.skn" />
+		<soundbank name="Halloween.bnk" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/Halloween.bnk" memory="host" />
+		<soundstream name="GypsyRadioSpooky.mp3" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/GypsyRadioSpooky.mp3" />
+		<soundstream name="GypsyRadioSlow.mp3" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/GypsyRadioSlow.mp3" />
+		<soundstream name="GypsyRadioSpookySlow.mp3" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/GypsyRadioSpookySlow.mp3" />
+		<soundstream name="GypsyRadioStatic.mp3" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/GypsyRadioStatic.mp3" />
+		<soundstream name="GypsyRadio.mp3" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/assets/GypsyRadio.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/repertoires/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/HalloweenMinigame/repertoires/female.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/lua/MiniGame.lua" />
+		<lua name="savedata.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/savedata.lua" />
+		<lua name="ui.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/ui.lua" />
+		<lua name="halloweenminigame.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/halloweenminigame.lua" />
+		<lua name="ui_basicmenu.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/ui_basicmenu.lua" />
+		<lua name="curse.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/curse.lua" />
+		<lua name="effect_manager.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effect_manager.lua" />
+		<lua name="scene_spawns.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/scene_spawns.lua" />
+		<lua name="effectbase.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effects/effectbase.lua" />
+		<lua name="effects_list.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effects/effects_list.lua" />
+		<lua name="graph.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effects/graph.lua" />
+		<lua name="interactive_entity.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/interactive_entity.lua" />
+		<lua name="controller.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/controller.lua" />
+		<lua name="libs.system.alert" deferred_loading="false" protected="true" file="libs/system/Assert.lua" />
+		<lua name="libs.system.log" deferred_loading="false" protected="true" file="libs/system/Log.lua" />
+		<lua name="libs.system.coroutine" deferred_loading="false" protected="true" file="libs/system/Coroutine.lua" />
+		<lua name="libs.system.threadmanager" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" />
+		<lua name="libs.util.easing" deferred_loading="false" protected="true" file="libs/util/Easing.lua" />
+		<lua name="libs.gui.canvas" deferred_loading="false" protected="true" file="libs/gui/Canvas.lua" />
+		<lua name="libs.gui.colours" deferred_loading="false" protected="true" file="libs/gui/Colours.lua" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="halloween/envfx/lua/boot.lua" />
+		<lua name="lua.animregisters" deferred_loading="false" protected="true" file="halloween/envfx/lua/animregisters.lua" />
+		<lua name="lua.scenery" deferred_loading="false" protected="true" file="halloween/envfx/lua/scenery.lua" />
+		<lua name="lua.clouds" deferred_loading="false" protected="true" file="halloween/envfx/lua/clouds.lua" />
+		<lua name="lua.debug" deferred_loading="false" protected="true" file="halloween/envfx/lua/debug.lua" />
+		<lua name="lua.ctrl_colour" deferred_loading="false" protected="true" file="halloween/envfx/lua/ctrl_colour.lua" />
+		<lua name="lua.ctrl_number" deferred_loading="false" protected="true" file="halloween/envfx/lua/ctrl_number.lua" />
+		<lua name="lua.controllers" deferred_loading="false" protected="true" file="halloween/envfx/lua/controllers.lua" />
+		<lua name="lua.halloween_scene" deferred_loading="false" protected="true" file="halloween/envfx/lua/halloween_scene.lua" />
+		<lua name="Effect_cameratwist.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/Effect_cameratwist.lua" />
+		<lua name="Effect_camerashake.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/Effect_camerashake.lua" />
+		<lua name="effect_desaturate.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effect_desaturate.lua" />
+		<lua name="effect_headsize.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effect_headsize.lua" />
+		<lua name="effect_oldtv.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effect_oldtv.lua" />
+		<lua name="effect_aspect.lua" deferred_loading="false" protected="true" file="MiniGames/HalloweenMinigame/shared/lua/effect_aspect.lua" />
+	</local>
+	<external />
+</resources>

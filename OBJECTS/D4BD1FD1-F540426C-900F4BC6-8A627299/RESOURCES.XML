@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model_Puddles" deferred_loading="false" file="MiniGames/HomePlaza/Weather/Meshes/Puddles.mdl" />
+		<model name="model_Rainbow" deferred_loading="false" file="MiniGames/HomePlaza/Weather/Meshes/Rainbow.mdl" />
+		<model name="model_Snow" deferred_loading="false" file="MiniGames/HomePlaza/Weather/Meshes/Snow.mdl" />
+		<model name="model_SkyRain" deferred_loading="false" file="MiniGames/HomePlaza/Weather/Meshes/SkyRain.mdl" />
+		<model name="model_SkySnow" deferred_loading="false" file="MiniGames/HomePlaza/Weather/Meshes/SkySnow.mdl" />
+		<particle name="particle_Rain" deferred_loading="false" file="MiniGames/HomePlaza/Weather/Particles/rain.efx" />
+		<particle name="particle_Snow" deferred_loading="false" file="MiniGames/HomePlaza/Weather/Particles/snow.efx" />
+		<lua name="weatherMain.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/weatherMain.lua" />
+		<lua name="Remote.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/Remote.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/Log.lua" />
+		<lua name="weatherEffects.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/weatherEffects.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/Tween.lua" />
+		<lua name="TableF.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/TableF.lua" />
+		<lua name="Vector.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/Vector.lua" />
+		<lua name="DebugDraw.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/DebugDraw.lua" />
+		<lua name="Intersect.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/Intersect.lua" />
+		<lua name="PositionMonitor.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/PositionMonitor.lua" />
+		<lua name="Maths.lua" deferred_loading="false" protected="true" file="MiniGames/HomePlaza/Weather/Maths.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/MiniGame.lua" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/Core.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/EventManager.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/StateMachine.lua" />
+		<lua name="Table_x.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/Table_x.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/Util.lua" />
+		<lua name="AsyncCommandManager.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/Communicator/AsyncCommandManager.lua" />
+		<lua name="Communicator.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/Communicator/Communicator.lua" />
+		<lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/Communicator/Communicator_ProjectDefined.lua" />
+		<lua name="NPTCommunicator.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/Communicator/NPTCommunicator.lua" />
+		<lua name="RewardCheck.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/RewardCheck.lua" />
+		<lua name="ControllerModule.lua" deferred_loading="false" protected="true" file="games/PrivateApartment/SceneTeleporters/lua/Library/ControllerModule.lua" />
+	</local>
+	<external />
+</resources>

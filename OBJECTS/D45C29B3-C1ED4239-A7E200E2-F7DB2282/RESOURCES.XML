@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="CommerceKiosk_Hologram.mdl" deferred_loading="false" protected="false" file="scea_props/commerce/CommerceKiosk_Hologram.mdl" />
+    <texture name="commercekiosk_hologram_c.dds" deferred_loading="false" protected="false" file="scea_props/commerce/textures/commercekiosk_hologram_c.dds" />
+    <texture name="hologramstripes_c.dds" deferred_loading="false" protected="false" file="scea_props/commerce/textures/hologramstripes_c.dds" />
+    <texture name="placeholder_n.dds" deferred_loading="false" protected="false" file="scea_props/commerce/textures/placeholder_n.dds" />
+    <texture name="placeholder_s.dds" deferred_loading="false" protected="false" file="scea_props/commerce/textures/placeholder_s.dds" />
+    <texture name="CK_Default_Icon.dds" deferred_loading="false" protected="false" file="MiniGames/Commerce_Kiosk/file/CK_Default_Icon.dds" />
+    <texture name="ps_storebag_c.dds" deferred_loading="false" protected="false" file="scea_props/commerce/textures/ps_storebag_c.dds" />
+    <texture name="rib_metal_s.dds" deferred_loading="false" protected="false" file="scea_props/commerce/textures/rib_metal_s.dds" />
+    <texture name="crystal.dds" deferred_loading="false" protected="false" file="scea_props/commerce/textures/crystal.dds" />
+    <collision name="CommerceKiosk_Hologram.hkx" deferred_loading="false" protected="false" file="scea_props/commerce/CommerceKiosk_Hologram.hkx" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/commerce_kiosk/lua/minigame.luac" />
+    <lua name="XmlElement.lua" deferred_loading="false" protected="true" file="minigames/scea_fn_lib/xmlelement.luac" />
+    <lua name="CommerceKiosk.lua" deferred_loading="false" protected="true" file="minigames/commerce_kiosk/lua/commercekiosk.luac" />
+  </local>
+  <external />
+</resources>

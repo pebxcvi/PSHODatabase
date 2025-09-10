@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="MainMenu_Background.png" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/graphics/MainMenu_Background.png" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/file/Network.xml" />
+		<soundstream name="MusicBoxSong1.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/audio/MusicBoxSong1.mp3" />
+		<soundstream name="MusicBoxSong2.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/audio/MusicBoxSong2.mp3" />
+		<soundstream name="MusicBoxSong3.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/audio/MusicBoxSong3.mp3" />
+		<soundstream name="MusicBoxSong4.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/audio/MusicBoxSong4.mp3" />
+		<soundstream name="MusicBoxSong5.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/audio/MusicBoxSong5.mp3" />
+		<soundstream name="MusicBoxSong6.mp3" deferred_loading="false" protected="false" file="MiniGames/FARM_MusicBox/audio/MusicBoxSong6.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_MusicBox/lua/MiniGame.luac" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_MusicBox/lua/Network/MessageManager.luac" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_MusicBox/lua/States/State_Idle.luac" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_MusicBox/lua/States/State_MainMenu.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_MusicBox/lua/Utility/Pad.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_MusicBox/lua/Utility/StateMachine.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/FARM_MusicBox/lua/Utility/Utility.luac" />
+	</local>
+	<external />
+</resources>

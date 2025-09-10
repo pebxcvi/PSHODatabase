@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/MovieDanceMoves/file/configuration.xml" memory="host" />
+		<anim name="HeadBob" deferred_loading="true" protected="false" file="animation/male/moviedances/HeadBob.ani" memory="host" />
+		<anim name="Roxbury.ani" deferred_loading="true" protected="false" file="animation/male/moviedances/Roxbury.ani" />
+		<anim name="timeWrap.ani" deferred_loading="true" protected="false" file="animation/male/moviedances/timeWrap.ani" />
+		<anim name="F_Headbob.ani" deferred_loading="true" protected="false" file="animation/female/moviedances/F_Headbob.ani" />
+		<anim name="F_Roxbury.ani" deferred_loading="true" protected="false" file="animation/female/moviedances/F_Roxbury.ani" />
+		<anim name="F_timeWrap.ani" deferred_loading="true" protected="false" file="animation/female/moviedances/F_timeWrap.ani" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/comedies/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/comedies/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/comedies/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/comedies/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/MovieDanceMoves/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

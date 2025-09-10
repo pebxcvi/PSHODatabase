@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="mask1.dds" deferred_loading="false" protected="false" file="EmbeddedObjects/Tool_DayNightShift/textures/mask1.dds" />
+		<particle name="shower_effect.efx" deferred_loading="false" protected="false" file="ATGParticles/shower_effect.efx" />
+		<collision name="Yacht_Fridge.hkx" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_Fridge.hkx" />
+		<collision name="Yacht_BathroomDoors.hkx" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_BathroomDoors.hkx" />
+		<collision name="Yacht_Oven.hkx" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_Oven.hkx" />
+		<anim name="Yacht_Fridge.ani" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_Fridge.ani" />
+		<anim name="Yacht_BathroomDoors.ani" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_BathroomDoors.ani" />
+		<anim name="Yacht_Oven.ani" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_Oven.ani" />
+		<anim name="Yacht_Stove.ani" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_Stove.ani" />
+		<anim name="Yacht_Bathtub_Water.ani" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_Bathtub_Water.ani" />
+		<anim name="Yacht_Bathtub_Waterfall.ani" deferred_loading="false" protected="false" file="games/common/environments/mbm_yacht/activeitems/Yacht_Bathtub_Waterfall.ani" />
+		<soundbank name="MansionSoundbank.bnk" deferred_loading="false" protected="false" file="games/common/Audio/MansionSoundbank.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/MiniGame.luac" />
+		<lua name="AnimationObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/AnimationObject.luac" />
+		<lua name="InteractiveObjectsManager.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/InteractiveObjectsManager.luac" />
+		<lua name="InteractiveObjectsResources.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/InteractiveObjectsResources.luac" />
+		<lua name="ModelObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/ModelObject.luac" />
+		<lua name="Component_GameTriggerMove.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/Library/Component_GameTriggerMove.luac" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/Library/Misc.luac" />
+		<lua name="MultiStateModelObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/MultiStateModelObject.luac" />
+		<lua name="CeilingFan.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/CeilingFan.luac" />
+		<lua name="FanObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/FanObject.luac" />
+		<lua name="GamePad.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/Library/GamePad.luac" />
+		<lua name="SoundObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/SoundObject.luac" />
+		<lua name="DeferredLoadingResources.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/DeferredLoadingResources.luac" />
+		<lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/Library/ResourceManager.luac" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/Library/Core.luac" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="games/ActiveObjects_Yacht_OH/lua/Library/Util.luac" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Snowmobile_Rig.mdl" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/Snowmobile_Rig.mdl" memory="host" />
+		<model name="Snowmobile_LOD.mdl" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/Snowmobile_LOD.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/file/config.xml" memory="host" />
+		<anim name="F_Idle" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/F_Idle.ani" memory="host" />
+		<anim name="F_Run" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/F_Run.ani" memory="main" />
+		<anim name="M_Idle" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/M_Idle.ani" memory="host" />
+		<anim name="M_Run" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/M_Run.ani" memory="main" />
+		<anim name="Snowmobile_Run.ani" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/Snowmobile_Run.ani" memory="host" />
+		<anim name="Snowmobile_Idle.ani" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/Snowmobile_Idle.ani" memory="host" />
+		<skeleton name="Snowmobile_Rig.skn" deferred_loading="true" protected="false" file="locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/Snowmobile_Rig.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/01_Jan-Snowmobile-Apartment-Locomotion-Falan_Azure/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

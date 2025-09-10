@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">Liars Dice Game</LANG>
+    <LANG ID="en-GB">Liar's Dice Game</LANG>
+    <LANG ID="fr-FR">Dés du menteur</LANG>
+    <LANG ID="en-US">Liar's Dice Game</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">INSTRUCTIONS_2</LANG>
+    <LANG ID="en-GB">Use [RIGHT][LEFT][DOWN][UP] to change bid\n\nPress [ACCEPT] to place bid\n\nPress [SQUARE] to call liar</LANG>
+    <LANG ID="fr-FR">Utilisez [RIGHT][LEFT][DOWN][UP] pour modifier votre enchère.\n\nAppuyez sur [ACCEPT] pour placer une enchère.\n\nAppuyez sur [SQUARE] pour déclarer votre adversaire "menteur".</LANG>
+    <LANG ID="en-US">Use [RIGHT][LEFT][DOWN][UP] to change bid\n\nPress [ACCEPT] to place bid\n\nPress [SQUARE] to call liar</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">INSTRUCTIONS_TITLE</LANG>
+    <LANG ID="en-GB">Liar's Dice</LANG>
+    <LANG ID="fr-FR">Dés du menteur</LANG>
+    <LANG ID="en-US">Liar's Dice</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">INSTRUCTIONS_CONTINUE</LANG>
+    <LANG ID="en-GB">Press [ACCEPT] to continue...</LANG>
+    <LANG ID="fr-FR">Appuyez sur [ACCEPT] pour continuer...</LANG>
+    <LANG ID="en-US">Press [ACCEPT] to continue...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">POINTS</LANG>
+    <LANG ID="en-GB">points</LANG>
+    <LANG ID="fr-FR">points</LANG>
+    <LANG ID="en-US">points</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GAMESTATE_IDLE</LANG>
+    <LANG ID="en-GB">Waiting for players...</LANG>
+    <LANG ID="fr-FR">En attente de joueurs...</LANG>
+    <LANG ID="en-US">Waiting for players...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GAMESTATE_INIT_ROUND</LANG>
+    <LANG ID="en-GB">Press [ACCEPT] to start!</LANG>
+    <LANG ID="fr-FR">Appuyez sur [ACCEPT] pour commencer!</LANG>
+    <LANG ID="en-US">Press [ACCEPT] to start!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GAMESTATE_SHOWING_ROLL</LANG>
+    <LANG ID="en-GB">Rolling dice...</LANG>
+    <LANG ID="fr-FR">Lancer de dés...</LANG>
+    <LANG ID="en-US">Rolling dice...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GAMESTATE_BIDDING</LANG>
+    <LANG ID="en-GB">Bidding...</LANG>
+    <LANG ID="fr-FR">Enchère en cours...</LANG>
+    <LANG ID="en-US">Bidding...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GAMESTATE_UPDATE_BID</LANG>
+    <LANG ID="en-GB">Updating...</LANG>
+    <LANG ID="fr-FR">Mise à jour...</LANG>
+    <LANG ID="en-US">Updating...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GAMESTATE_RESOLVE_BID</LANG>
+    <LANG ID="en-GB">Resolving...</LANG>
+    <LANG ID="fr-FR">Décision...</LANG>
+    <LANG ID="en-US">Resolving...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">GAMESTATE_END_ROUND</LANG>
+    <LANG ID="en-GB">Round is over!</LANG>
+    <LANG ID="fr-FR">La manche est terminée!</LANG>
+    <LANG ID="en-US">Round is over!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">CURRENT_BID</LANG>
+    <LANG ID="en-GB">CURRENT BID</LANG>
+    <LANG ID="fr-FR">ENCHÈRE</LANG>
+    <LANG ID="en-US">CURRENT BID</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PROMPT_MAKE_A_BID</LANG>
+    <LANG ID="en-GB">MAKE A BID!</LANG>
+    <LANG ID="fr-FR">PLACEZ UNE ENCHÈRE!</LANG>
+    <LANG ID="en-US">MAKE A BID!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PROMPT_PRESS_X_TO_START</LANG>
+    <LANG ID="en-GB">PRESS [ACCEPT] TO START!</LANG>
+    <LANG ID="fr-FR">APPUYEZ SUR [ACCEPT] POUR COMMENCER!</LANG>
+    <LANG ID="en-US">PRESS [ACCEPT] TO START!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PROMPT_WAITING</LANG>
+    <LANG ID="en-GB">Waiting...</LANG>
+    <LANG ID="fr-FR">En attente...</LANG>
+    <LANG ID="en-US">Waiting...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LIAR_CALL_RIGHT</LANG>
+    <LANG ID="en-GB">: LIAR call was RIGHT!</LANG>
+    <LANG ID="fr-FR">: CORRECT, votre adversaire est un "menteur"!</LANG>
+    <LANG ID="en-US">: LIAR call was RIGHT!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LIAR_CALL_WRONG</LANG>
+    <LANG ID="en-GB">: LIAR call was WRONG.</LANG>
+    <LANG ID="fr-FR">: FAUX, votre adversaire n'est pas un "menteur"!</LANG>
+    <LANG ID="en-US">: LIAR call was WRONG.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">MAX_BID_RIGHT</LANG>
+    <LANG ID="en-GB">: max bid was RIGHT!</LANG>
+    <LANG ID="fr-FR">: l'enchère maximale est CORRECTE!</LANG>
+    <LANG ID="en-US">: max bid was RIGHT!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">MAX_BID_WRONG</LANG>
+    <LANG ID="en-GB">: max bid was WRONG.</LANG>
+    <LANG ID="fr-FR">: l'enchère maximale est FAUSSE!</LANG>
+    <LANG ID="en-US">: max bid was WRONG.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">POINT</LANG>
+    <LANG ID="en-GB">point</LANG>
+    <LANG ID="fr-FR">point</LANG>
+    <LANG ID="en-US">point</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PROMPT_JOIN_ME</LANG>
+    <LANG ID="en-GB">Join now!</LANG>
+    <LANG ID="fr-FR">Rejoignez la partie maintenant!</LANG>
+    <LANG ID="en-US">Join now!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PROMPT_GAME_IS_FULL</LANG>
+    <LANG ID="en-GB">Game is full...</LANG>
+    <LANG ID="fr-FR">La partie est complète...</LANG>
+    <LANG ID="en-US">Game is full...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">CALL_LIAR</LANG>
+    <LANG ID="en-GB">LIAR!</LANG>
+    <LANG ID="fr-FR">MENTEUR!</LANG>
+    <LANG ID="en-US">LIAR!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">CALL_RIGHT</LANG>
+    <LANG ID="en-GB">RIGHT!</LANG>
+    <LANG ID="fr-FR">CORRECT!</LANG>
+    <LANG ID="en-US">RIGHT!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">CALL_WRONG</LANG>
+    <LANG ID="en-GB">WRONG!</LANG>
+    <LANG ID="fr-FR">FAUX!</LANG>
+    <LANG ID="en-US">WRONG!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">INSTRUCTIONS_1</LANG>
+    <LANG ID="en-GB">Each player has 5 hidden dice. On your turn,\nbid how many of a certain die value there\nare, or call the last bid a lie.  Score points by\ncorrectly calling 'liar' on your opponents.</LANG>
+    <LANG ID="fr-FR">Chaque joueur a 5 dés cachés. Lorsque c'est à vous de jouer, \nenchérissez sur la valeur des dés présents, ou déclarez \nque l'enchère précédente est fausse.  Marquez des points \nen accusant, à juste titre, votre adversaire de "menteur".</LANG>
+    <LANG ID="en-US">Each player has 5 hidden dice. On your turn,\nbid how many of a certain die value there\nare, or call the last bid a lie.  Score points by\ncorrectly calling 'liar' on your opponents.</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">SCORE</LANG>
+    <LANG ID="en-GB">SCORE</LANG>
+    <LANG ID="fr-FR">SCORE</LANG>
+    <LANG ID="en-US">SCORE</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PROMPT_OTHER_PLAYERS_BIDDING</LANG>
+    <LANG ID="en-GB">Other players are bidding...</LANG>
+    <LANG ID="fr-FR">D'autres joueurs placent une enchère...</LANG>
+    <LANG ID="en-US">Other players are bidding...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">PROMPT_DPAD</LANG>
+    <LANG ID="en-GB">[DOWN][UP][RIGHT] [LEFT]</LANG>
+    <LANG ID="fr-FR">[DOWN][UP][RIGHT] [LEFT]</LANG>
+    <LANG ID="en-US">[DOWN][UP][RIGHT] [LEFT]</LANG>
+  </PHRASE>
+</LOCALISATION>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="event_corner_mark_yl.mdl" deferred_loading="false" file="furniture/eventcorneryl/event_corner_mark_yl.mdl" />
+		<model name="event_corner_base.mdl" deferred_loading="false" file="furniture/eventcorneryl/event_corner_base.mdl" />
+		<texture name="edge.dds" deferred_loading="false" file="Scripts/common/tex/edge.dds" />
+		<texture name="homelogo.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/homelogo.dds" />
+		<texture name="rate3.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate3.dds" />
+		<texture name="intro_title.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/intro_title.dds" />
+		<texture name="rate1.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate1.dds" />
+		<texture name="rate2.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate2.dds" />
+		<texture name="result_title.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/result_title.dds" />
+		<texture name="middle_title.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/middle_title.dds" />
+		<texture name="rank1.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rank1.dds" />
+		<texture name="rank2.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rank2.dds" />
+		<texture name="rank3.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rank3.dds" />
+		<texture name="rate9.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate9.dds" />
+		<texture name="rate4.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate4.dds" />
+		<texture name="rate5.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate5.dds" />
+		<texture name="rate6.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate6.dds" />
+		<texture name="rate7.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate7.dds" />
+		<texture name="rate8.dds" deferred_loading="false" file="MiniGames/LiarGameEden2/textures/rate8.dds" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/LiarGameEden2/Network.xml" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/LiarGameEden2/osd/types.xml" />
+		<file name="osd_entryselect" deferred_loading="false" file="MiniGames/LiarGameEden2/osd/entryselect.xml" />
+		<file name="osd_description" deferred_loading="false" file="MiniGames/LiarGameEden2/osd/description.xml" />
+		<file name="osd_post_description" deferred_loading="false" file="MiniGames/LiarGameEden2/osd/post_description.xml" />
+		<file name="osd_post_select" deferred_loading="false" file="MiniGames/LiarGameEden2/osd/post_select.xml" />
+		<file name="osd_post_close_description" deferred_loading="false" file="MiniGames/LiarGameEden2/osd/post_close_description.xml" />
+		<xml name="localise_ja_JP.xml" deferred_loading="true" protected="true" file="MiniGames/LiarGameEden2/localise_ja_JP.xml" />
+		<collision name="event_corner_mark_yl.hkx" deferred_loading="false" file="furniture/eventcorneryl/event_corner_mark_yl.hkx" />
+		<collision name="event_corner_base.hkx" deferred_loading="false" file="furniture/eventcorneryl/event_corner_base.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/main.lua" />
+		<lua name="paHomeCommon.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeCommon.lua" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="Scripts/common/MsgWnd.lua" />
+		<lua name="headlineMsg.lua" deferred_loading="false" protected="true" file="Scripts/common/headlineMsg.lua" />
+		<lua name="paHomeServerBase.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeServerBase.lua" />
+		<lua name="paHomeServerGeneral.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeServerGeneral.lua" />
+		<lua name="paHomeServerItemRanking.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeServerItemRanking.lua" />
+		<lua name="paHomeServerTrigger.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeServerTrigger.lua" />
+		<lua name="MainScreen.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/MainScreen.lua" />
+		<lua name="GraphicChip.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/GraphicChip.lua" />
+		<lua name="paHomeServerCustom.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeServerCustom.lua" />
+		<lua name="paHomeServerCommon.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeServerCommon.lua" />
+		<lua name="game_main.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/game_main.lua" />
+		<lua name="eden_common.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/eden_common.lua" />
+		<lua name="event_main.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/event_main.lua" />
+		<lua name="event_scheduler.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/event_scheduler.lua" />
+		<lua name="share_setting.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/share_setting.lua" />
+		<lua name="debug.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/common/debug.lua" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/common/mathx.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/common/misc.lua" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/common/padUtil.lua" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/common/task.lua" />
+		<lua name="time.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/common/time.lua" />
+		<lua name="ResDownload.lua" deferred_loading="false" protected="true" file="Scripts/common/ResDownload.lua" />
+		<lua name="ScreenTimer.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/ScreenTimer.lua" />
+		<lua name="localise_data.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/localise_data.lua" />
+		<lua name="parameters.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/parameters.lua" />
+		<lua name="paHomeCommonDebug.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeCommonDebug.lua" />
+		<lua name="paHomeServerAccount.lua" deferred_loading="false" protected="true" file="MiniGames/LiarGameEden2/scripts/pa/paHomeServerAccount.lua" />
+	</local>
+	<external />
+</resources>

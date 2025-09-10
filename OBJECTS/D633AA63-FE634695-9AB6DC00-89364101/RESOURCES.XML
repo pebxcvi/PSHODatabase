@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="hockey.mdl" deferred_loading="true" protected="false" file="Locomotion/hockey/hockey_redcolor.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/hockey/file/config_2.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/idle.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/walk.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/walk_female.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/idle_female.ani" memory="host" />
+		<anim name="avatar_boost.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/boost.ani" memory="host" />
+		<anim name="avatar_boostf.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/boostf.ani" memory="host" />
+		<anim name="walk.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/hockey.ani" memory="host" />
+		<anim name="boost.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/hockey.ani" memory="host" />
+		<anim name="hockey.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/hockey.ani" memory="host" />
+		<anim name="avatar_boostl" deferred_loading="true" protected="false" file="Locomotion/hockey/avatar_boostl.ani" memory="host" />
+		<anim name="avatar_boostr" deferred_loading="true" protected="false" file="Locomotion/hockey/avatar_boostr.ani" memory="host" />
+		<anim name="avatar_boostlf.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/avatar_boostlf.ani" memory="host" />
+		<anim name="avatar_boostrf.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/avatar_boostrf.ani" memory="host" />
+		<anim name="walk_female.ani" deferred_loading="true" protected="false" file="Locomotion/hockey/walk_female.ani" memory="host" />
+		<skeleton name="hockey.skn" deferred_loading="true" protected="false" file="Locomotion/hockey/hockey.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/hockey/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/hockey/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/hockey/repertoire/female.repertoire_circuit" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/hockey/repertoire/male.repertoire_circuit" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Angel_wings/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

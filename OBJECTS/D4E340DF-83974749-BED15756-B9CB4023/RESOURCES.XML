@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Skate_MaleL.mdl" deferred_loading="false" protected="false" file="Locomotion/xmas13_iceskates/XMAS13_Skates_Male_OrientedSkate_L.mdl" memory="host" />
+		<model name="Skate_MaleR.mdl" deferred_loading="false" protected="false" file="Locomotion/xmas13_iceskates/XMAS13_Skates_Male_OrientedSkate_R.mdl" memory="host" />
+		<particle name="pfx01" deferred_loading="true" protected="false" file="Tools/AtgParticles/WINT12/IceSkate_Trail.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/file/config.xml" memory="host" />
+		<anim name="WINT12_Skates_Male_Run.ani" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/WINT12_Skates_Male_Run.ani" memory="host" />
+		<anim name="WINT12_Skates_Male_Idle01" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/WINT12_Skates_Male_Idle01.ani" memory="host" />
+		<anim name="WINT12_Skates_Male_Walk" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/WINT12_Skates_Male_Walk.ani" memory="host" />
+		<anim name="WINT12_Skates_Female_Walk" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/WINT12_Skates_Female_Walk.ani" memory="host" />
+		<anim name="WINT12_Skates_Female_Run" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/WINT12_Skates_Female_Run.ani" memory="host" />
+		<anim name="WINT12_Skates_Female_Idle01" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/WINT12_Skates_Female_Idle01.ani" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="Locomotion/WINT12_IceSkates/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/WINT12_IceSkates/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/WINT12_IceSkates/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/WINT12_IceSkates/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

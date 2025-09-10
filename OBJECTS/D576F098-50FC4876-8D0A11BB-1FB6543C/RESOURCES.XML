@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="StarFieldModel.mdl" deferred_loading="false" protected="false" file="MiniGames/DayNightCycleSample/models/StarFieldModel.mdl" memory="host" />
+    <model name="Moonlight.mdl" deferred_loading="false" protected="false" file="environments/peakvoxlounge/Moonlight.mdl" memory="host" />
+    <model name="Sunlight.mdl" deferred_loading="false" protected="false" file="environments/peakvoxlounge/Sunlight.mdl" />
+    <texture name="PVL_ticket_free" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/textures/PVL_ticket_free.dds" memory="host" />
+    <texture name="PVL_ticket_waku" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/textures/PVL_ticket_waku.dds" memory="host" />
+    <texture name="PVL_logo" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/textures/PVL_logo.dds" memory="host" />
+    <texture name="icon_SaveLoad_cube.dds" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/textures/icon_SaveLoad_cube.dds" />
+    <texture name="icon_SaveLoad.dds" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/textures/icon_SaveLoad.dds" />
+    <particle name="warp_02.efx" deferred_loading="false" protected="false" file="ATGParticles/ExampleEffects/Efx/warp_02.efx" memory="host" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/file/Network.xml" memory="host" />
+    <soundstream name="PVL_BGM04.mp3" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/sound/PVL_BGM04.mp3" />
+    <soundstream name="kev_attack.mp3" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/sound/kev_attack.mp3" />
+    <soundstream name="kev_game.mp3" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/sound/kev_game.mp3" />
+    <soundstream name="iae.mp3" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/sound/iae.mp3" />
+    <soundstream name="iae2_boss.mp3" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/sound/iae2_boss.mp3" />
+    <soundstream name="iae2_game.mp3" deferred_loading="false" protected="false" file="MiniGames/EU_UnionSaveObject/sound/iae2_game.mp3" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/main.luac" memory="host" />
+    <lua name="saveLoad.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/saveload.luac" memory="host" />
+    <lua name="params.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/params.luac" memory="host" />
+    <lua name="listener.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/listener.luac" memory="host" />
+    <lua name="ticket.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/ticket.luac" memory="host" />
+    <lua name="all.lua" deferred_loading="false" protected="true" file="environments/scenescript/all.luac" memory="host" />
+    <lua name="telop.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/telop.luac" memory="host" />
+    <lua name="network.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/network.luac" memory="host" />
+    <lua name="reward.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/reward.luac" memory="host" />
+    <lua name="itemListCheker.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/itemlistcheker.luac" memory="host" />
+    <lua name="warpSystem.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/warpsystem.luac" memory="host" />
+    <lua name="DayNightCycle.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/daynightcycle.luac" />
+    <lua name="bgmMgr.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/bgmmgr.luac" />
+    <lua name="consumeItemListCheker.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/consumeitemlistcheker.luac" />
+    <lua name="DebugMenu.lua" deferred_loading="false" protected="true" file="minigames/eu_unionsaveobject/lua/debugmenu.luac" />
+  </local>
+  <external />
+</resources>

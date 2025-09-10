@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="6sided_die.mdl" deferred_loading="false" file="MiniGames/LiarsDice/6sided_die.mdl" />
+		<model name="dice_cup.mdl" deferred_loading="false" file="MiniGames/LiarsDice/dice_cup.mdl" />
+		<model name="liars_dice_display.mdl" deferred_loading="false" file="MiniGames/LiarsDice/liars_dice_display.mdl" />
+		<texture name="dice_01" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/dice_01.dds" />
+		<texture name="dice_02" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/dice_02.dds" />
+		<texture name="dice_03" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/dice_03.dds" />
+		<texture name="dice_04" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/dice_04.dds" />
+		<texture name="dice_05" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/dice_05.dds" />
+		<texture name="dice_06" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/dice_06.dds" />
+		<texture name="dice_XX" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/dice_XX.dds" />
+		<texture name="thoughtblob" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/thoughtblob.dds" />
+		<texture name="thoughtbubblepointer.dds" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/thoughtbubblepointer.dds" />
+		<texture name="speechbubblepointer.dds" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/speechbubblepointer.dds" />
+		<texture name="bg.dds" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/bg.dds" />
+		<texture name="speechbubble_texture" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/speechbubble_200x100.dds" />
+		<texture name="thoughtbubble_texture" deferred_loading="false" file="MiniGames/LiarsDice/art_2d/thoughtbubble_200x100_new.dds" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/LiarsDice/Network.xml" />
+		<collision name="6sided_die.hkx" deferred_loading="false" file="MiniGames/LiarsDice/6sided_die.hkx" />
+		<collision name="dice_cup.hkx" deferred_loading="false" file="MiniGames/LiarsDice/dice_cup.hkx" />
+		<soundbank name="soundbank" deferred_loading="false" file="MiniGames/LiarsDice/audio/GameLounge_LiarDice01_SCREAM525.bnk" />
+		<lua name="LiarsDice.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/LiarsDice.lua" />
+		<lua name="CPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CPlayer.lua" />
+		<lua name="CPlayerManager.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CPlayerManager.lua" />
+		<lua name="CSixSidedDie.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CSixSidedDie.lua" />
+		<lua name="Messages.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/Messages.lua" />
+		<lua name="CGameState.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CGameState.lua" />
+		<lua name="CTableTopScreen.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CTableTopScreen.lua" />
+		<lua name="CThoughtBubble.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CThoughtBubble.lua" />
+		<lua name="CSpeechBubble.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CSpeechBubble.lua" />
+		<lua name="HudDefinitions.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/HudDefinitions.lua" />
+		<lua name="CPlayerHud.lua" deferred_loading="false" protected="true" file="MiniGames/LiarsDice/CPlayerHud.lua" />
+	</local>
+	<external />
+</resources>

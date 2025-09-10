@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/farm_r_bed/FARM_R_Bed.mdl" />
+		<model name="FARM_R_Bed_ComforterAndPillows.mdl" deferred_loading="false" protected="false" file="furniture/farm_r_bed/FARM_R_Bed_ComforterAndPillows.mdl" memory="host" />
+		<texture name="comforter_2_c.dds" deferred_loading="false" protected="false" file="furniture/farm_r_bed/comforter_2_c.dds" memory="host" />
+		<texture name="comforter_3_c.dds" deferred_loading="false" protected="false" file="furniture/farm_r_bed/comforter_3_c.dds" memory="host" />
+		<texture name="comforter_c.dds" deferred_loading="false" protected="false" file="furniture/farm_r_bed/comforter_c.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/farm_r_bed/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_r_bed/FARM_R_Bed.hkx" memory="host" />
+		<anim name="Female_RusticBedPose.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Female_RusticBedPose.ani" memory="host" />
+		<anim name="Female_RusticBedPose_L.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Female_RusticBedPose_L.ani" memory="host" />
+		<anim name="Female_RusticBedPose02.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Female_RusticBedPose02.ani" memory="host" />
+		<anim name="Female_RusticBedPose02_L.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Female_RusticBedPose02_L.ani" memory="host" />
+		<anim name="Female_RusticBedPose03.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Female_RusticBedPose03.ani" memory="host" />
+		<anim name="Female_RusticBedPose03_L.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Female_RusticBedPose03_L.ani" memory="host" />
+		<anim name="Male_RusticBedPose.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Male_RusticBedPose.ani" memory="host" />
+		<anim name="Male_RusticBedPose_L.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Male_RusticBedPose_L.ani" memory="host" />
+		<anim name="Male_RusticBedPose02.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Male_RusticBedPose02.ani" memory="host" />
+		<anim name="Male_RusticBedPose02_L.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Male_RusticBedPose02_L.ani" />
+		<anim name="Male_RusticBedPose03.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Male_RusticBedPose03.ani" />
+		<anim name="Male_RusticBedPose03_L.ani" deferred_loading="false" protected="false" file="furniture/farm_r_bed/anims/Male_RusticBedPose03_L.ani" />
+		<soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/farm_r_bed/camera.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="furniture/farm_r_bed/reps/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="furniture/farm_r_bed/reps/female.xml" memory="host" />
+		<lua name="BedCamera.lua" deferred_loading="false" protected="true" file="furniture/farm_r_bed/BedCamera.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/farm_r_bed/Pad.luac" memory="host" />
+		<lua name="RusticBedMain.lua" deferred_loading="false" protected="true" file="furniture/farm_r_bed/RusticBedMain.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_r_bed/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

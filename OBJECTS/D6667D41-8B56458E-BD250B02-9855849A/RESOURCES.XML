@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Game_Model" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/model/MusicUnlimitedPS4.mdl" />
+		<model name="Background_Model" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/model/Cube.mdl" />
+		<model name="Logo_Model" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/model/MusicUnlimitedPS4_Logo.mdl" />
+		<texture name="HUD_Highlight_Box" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/textures/Intro_Selecter.dds" />
+		<texture name="HUD_Background" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/textures/Background.dds" />
+		<texture name="HUD_TrialHighlight" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/textures/TrialHighlight.dds" />
+		<texture name="HUD_Video" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/textures/Video.dds" />
+		<texture name="HUD_VideoHighlight" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/textures/VideoHighlight.dds" />
+		<texture name="HUD_InfoTextBox" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/textures/InfoTextBox.dds" />
+		<collision name="Game_Collision" deferred_loading="false" protected="false" file="MiniGames/musicunlimitedplinth/MusicUnlimitedPlinthBase.hkx" />
+		<anim name="Game_Anim" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/model/MusicUnlimitedPS4.ani" />
+		<skeleton name="Game_Skel" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/model/MusicUnlimitedPS4.skn" />
+		<soundbank name="sounds" deferred_loading="false" protected="false" file="MiniGames/MusicUnlimitedPS4/sound/sounds.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/musicunlimitedps4/scripts/MiniGame.lua" />
+		<lua name="Pad" deferred_loading="false" protected="true" file="MiniGames/musicunlimitedps4/scripts/Pad.lua" />
+		<lua name="VHTTPRequest.lua" deferred_loading="false" protected="true" file="MiniGames/musicunlimitedps4/scripts/Framework/VHTTPRequest.lua" />
+		<lua name="VLog.lua" deferred_loading="false" protected="true" file="MiniGames/musicunlimitedps4/scripts/Framework/VLog.lua" />
+		<lua name="JSONUtility.lua" deferred_loading="false" protected="true" file="MiniGames/musicunlimitedps4/scripts/Framework/JSONUtility.lua" />
+		<lua name="Stats.lua" deferred_loading="false" protected="true" file="MiniGames/musicunlimitedps4/scripts/Framework/Stats.lua" />
+		<lua name="StringUtility.lua" deferred_loading="false" protected="true" file="MiniGames/musicunlimitedps4/scripts/Framework/StringUtility.lua" />
+		<lua name="Screen.lua" deferred_loading="false" protected="true" file="MiniGames/MusicUnlimitedPS4/scripts/Screen.lua" />
+		<lua name="Sound.lua" deferred_loading="false" protected="true" file="MiniGames/MusicUnlimitedPS4/scripts/Sound.lua" />
+	</local>
+	<external />
+</resources>

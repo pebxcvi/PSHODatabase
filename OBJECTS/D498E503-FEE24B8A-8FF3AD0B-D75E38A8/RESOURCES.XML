@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01_dami.mdl" />
+		<model name="mvig01.mdl" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01_dami.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01_dami.safevolume.hkx" />
+		<anim name="mvig01_Flight_idle01.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01_Flight_idle01.ani" />
+		<anim name="mvig01_Human_idle01.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01_Human_idle01.ani" />
+		<anim name="mvig01_Human_to_Flight.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01_Human_to_Flight.ani" />
+		<anim name="mvig01_Flight_ito_Human.ani" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01_Flight_ito_Human.ani" />
+		<skeleton name="mvig01.skn" deferred_loading="false" protected="false" file="furniture/lagrange/mvig01/mvig01.skn" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="objects/D498E503-FEE24B8A-8FF3AD0B-D75E38A8/main.lua" />
+	</local>
+	<external />
+</resources>

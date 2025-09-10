@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/K-Pop_Male/file/configuration.xml" memory="host" />
+		<anim name="kpop_01.ani" deferred_loading="false" protected="false" file="animation/male/kpop_01/kpop_01.ani" memory="host" />
+		<anim name="kpop_02.ani" deferred_loading="false" protected="false" file="animation/male/kpop_02/kpop_02.ani" memory="host" />
+		<anim name="kpop_03.ani" deferred_loading="false" protected="false" file="animation/male/kpop_03/kpop_03.ani" />
+		<soundbank name="bnk.audio" deferred_loading="true" protected="false" file="AvatarAnimPacks/K-Pop_Male/soundbank/audio.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/K-Pop_Male/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/K-Pop_Male/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/K-Pop_Male/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/K-Pop_Male/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/K-Pop_Male/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

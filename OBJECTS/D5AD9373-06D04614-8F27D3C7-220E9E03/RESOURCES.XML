@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="AvatarAnimPacks/thriller/file/configuration.xml" memory="host" />
+		<anim name="Thriller_ArmsOutHeadSnap" deferred_loading="true" protected="false" file="animation/male/thriller_dance/Thriller_ArmsOutHeadSnap.ani" />
+		<anim name="Thriller_ClapArms" deferred_loading="true" protected="false" file="animation/male/thriller_dance/Thriller_ClapArms.ani" memory="host" />
+		<anim name="Thriller_HipSwing" deferred_loading="true" protected="false" file="animation/male/thriller_dance/Thriller_HipSwing.ani" />
+		<anim name="Thriller_HipThrust" deferred_loading="true" protected="false" file="animation/male/thriller_dance/Thriller_HipThrust.ani" memory="main" />
+		<anim name="Thriller_ScareArms" deferred_loading="true" protected="false" file="animation/male/thriller_dance/Thriller_ScareArms.ani" />
+		<anim name="Thriller_ZombieArms" deferred_loading="true" protected="false" file="animation/male/thriller_dance/Thriller_ZombieArms.ani" />
+		<anim name="Thriller_female_ArmsOut" deferred_loading="true" protected="false" file="animation/female/thriller_female/Thriller_female_ArmsOut.ani" />
+		<anim name="Thriller_female_Clap" deferred_loading="true" protected="false" file="animation/female/thriller_female/Thriller_female_Clap.ani" memory="host" />
+		<anim name="Thriller_female_HipSwing" deferred_loading="true" protected="false" file="animation/female/thriller_female/Thriller_female_HipSwing.ani" />
+		<anim name="Thriller_female_HipThrust" deferred_loading="true" protected="false" file="animation/female/thriller_female/Thriller_female_HipThrust.ani" memory="main" />
+		<anim name="Thriller_female_ScareArms" deferred_loading="true" protected="false" file="animation/female/thriller_female/Thriller_female_ScareArms.ani" />
+		<anim name="Thriller_female_ZombieArms" deferred_loading="true" protected="false" file="animation/female/thriller_female/Thriller_female_ZombieArms.ani" />
+		<soundbank name="bnk.audio" deferred_loading="true" protected="false" file="AvatarAnimPacks/thriller/soundbank/audio.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="AvatarAnimPacks/thriller/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="AvatarAnimPacks/thriller/repertoire/female.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/thriller/emotes/male_emotes.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="AvatarAnimPacks/thriller/emotes/female_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarAnimPacks/thriller/lua/boot.luac" memory="host" id="323389241" />
+	</local>
+	<external />
+</resources>

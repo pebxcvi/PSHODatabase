@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="logo_twitter_wordmark_1000_w.png" deferred_loading="false" protected="false" file="MiniGames/SA_TwitterFeed/textures/logo_twitter_wordmark_1000_w.png" />
+		<file name="AGENCYB.TTF" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/AGENCYB.TTF" />
+		<lua name="twitter_main.lua" deferred_loading="false" protected="true" file="MiniGames/SA_TwitterFeed/lua/twitter_main.luac" />
+		<lua name="xml_parser.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/xml_parser.luac" />
+		<lua name="coroutine_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/coroutine_lib.luac" />
+	</local>
+	<external />
+</resources>

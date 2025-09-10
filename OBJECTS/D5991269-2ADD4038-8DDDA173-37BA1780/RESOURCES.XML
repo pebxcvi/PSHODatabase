@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Big_Stairs.mdl" deferred_loading="false" protected="false" file="environmentanimation/Big_Stairs.mdl" />
+		<model name="shoma_Island.mdl" deferred_loading="false" protected="false" file="environmentanimation/shoma_Island.mdl" />
+		<texture name="dialog_1.dds" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/texture/dialog_1.dds" />
+		<texture name="dialog_2.dds" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/texture/dialog_2.dds" />
+		<texture name="ui_count.dds" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/texture/ui_count.dds" />
+		<texture name="dialog_3.dds" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/texture/dialog_3.dds" />
+		<texture name="dialog_4.dds" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/texture/dialog_4.dds" />
+		<texture name="dialog_5.dds" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/texture/dialog_5.dds" />
+		<texture name="dialog_6.dds" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/texture/dialog_6.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/LiveSupport/file/Network.xml" />
+		<anim name="Big_Stairs.ani" deferred_loading="false" protected="false" file="environmentanimation/Big_Stairs.ani" />
+		<anim name="shoma_Island.ani" deferred_loading="false" protected="false" file="environmentanimation/shoma_Island.ani" />
+		<skeleton name="Big_Stairs.skn" deferred_loading="false" protected="false" file="environmentanimation/Big_Stairs.skn" />
+		<skeleton name="shoma_Island.skn" deferred_loading="false" protected="false" file="environmentanimation/shoma_Island.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/LiveSupport/lua/MiniGame.lua" />
+		<lua name="libcore.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libcore.lua" />
+		<lua name="libgame.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libgame.lua" />
+		<lua name="liblistener.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/liblistener.lua" />
+		<lua name="Server.lua" deferred_loading="false" protected="true" file="Scripts/Server.lua" />
+		<lua name="SoundControl.lua" deferred_loading="false" protected="true" file="Scripts/SoundControl.lua" />
+		<lua name="global.lua" deferred_loading="false" protected="true" file="Scripts/global.lua" />
+		<lua name="LiveSupport.lua" deferred_loading="false" protected="true" file="MiniGames/LiveSupport/lua/LiveSupport.lua" />
+		<lua name="ParticleControl.lua" deferred_loading="false" protected="true" file="Scripts/ParticleControl.lua" />
+		<lua name="SpeakDialog.lua" deferred_loading="false" protected="true" file="Scripts/SpeakDialog.lua" />
+		<lua name="MessageDialog.lua" deferred_loading="false" protected="true" file="Scripts/MessageDialog.lua" />
+		<lua name="camera.lua" deferred_loading="false" protected="true" file="MiniGames/LiveSupport/lua/camera.lua" />
+		<lua name="Osd.lua" deferred_loading="false" protected="true" file="MiniGames/LiveSupport/lua/Osd.lua" />
+		<lua name="uvData.lua" deferred_loading="false" protected="true" file="MiniGames/LiveSupport/lua/uvData.lua" />
+		<lua name="libtime.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libtime.lua" />
+	</local>
+	<external />
+</resources>
