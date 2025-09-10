@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/models/CommOct_PresentsMusic.mdl" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/models/CommOct_PresentsMusic.hkx" />
+		<soundstream name="3_We_Wish_You_A_Merry_Christmas.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/sound/3_We_Wish_You_A_Merry_Christmas.mp3" />
+		<soundstream name="2_Deck_The_Halls.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/sound/2_Deck_The_Halls.mp3" />
+		<soundstream name="1_Joy_To_The_World.mp3" deferred_loading="false" protected="false" file="ActiveItems/christmasmusic_2010/present/sound/1_Joy_To_The_World.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/christmasmusic_2010/present/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="ActiveItems/christmasmusic_2010/present/programming/Boombox.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bb_target.mdl" deferred_loading="false" file="MiniGames/BigBang/Models/bb_target.mdl" />
+		<model name="bb_cannon.mdl" deferred_loading="false" file="MiniGames/BigBang/Models/bb_cannon.mdl" />
+		<model name="bb_cannon_base.mdl" deferred_loading="false" file="MiniGames/BigBang/Models/bb_cannon_base.mdl" />
+		<model name="number_plus.mdl" deferred_loading="false" file="generic_shared_models/number_plus.mdl" />
+		<model name="barrier.mdl" deferred_loading="false" file="environments/themidway_p_13/themidway_p_13/SceneCollision/midwaypersonalspace_barrier.mdl" />
+		<texture name="scorebox" deferred_loading="false" file="generic_shared_textures/Score_Box_OSD_c.dds" />
+		<texture name="scorebar" deferred_loading="false" file="generic_shared_textures/Score_Bar_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/BigBang/Images/BB_CannonAmmo_128x128.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/BigBang/Images/BB_HitTarget_64x64.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_BB_Shirt_THMB_128.png" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_BB_Shirt_THMB_128.png" />
+		<texture name="Prize2" deferred_loading="false" file="thumbnails_in_game/BB_CannonModel_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails_in_game/BB_Poster_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/BB_Rug_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_BB_THMB_128.png" />
+		<texture name="Prize5_female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_BB_THMB_128.png" />
+		<texture name="0.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/0.dds" />
+		<texture name="1.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/1.dds" />
+		<texture name="2.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/2.dds" />
+		<texture name="3.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/3.dds" />
+		<texture name="4.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/4.dds" />
+		<texture name="5.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/5.dds" />
+		<texture name="6.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/6.dds" />
+		<texture name="7.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/7.dds" />
+		<texture name="8.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/8.dds" />
+		<texture name="9.dds" deferred_loading="false" protected="false" file="generic_shared_models/textures/9.dds" />
+		<particle name="cannon_boom.efx" deferred_loading="false" file="MiniGames/BigBang/Effects/cannon_boom.efx" />
+		<particle name="player_trail.efx" deferred_loading="false" file="MiniGames/BigBang/Effects/player_trail.efx" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/BigBang/OSD/types.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="osd_LockedDialog.xml" deferred_loading="false" file="MiniGames/BigBang/OSD/NotUnlockedDialog.xml" />
+		<collision name="bb_cannon.hkx" deferred_loading="false" file="MiniGames/BigBang/Models/bb_cannon.hkx" />
+		<anim name="female_bb_cannonball.ani" deferred_loading="false" file="animation/female/bb_cannonball.ani" />
+		<anim name="male_bb_cannonball.ani" deferred_loading="false" file="animation/male/bb_cannonball.ani" />
+		<repertoire name="male_cannonball" deferred_loading="false" file="MiniGames/BigBang/male_big_bang.xml" />
+		<repertoire name="female_cannonball" deferred_loading="false" file="MiniGames/BigBang/female_big_bang.xml" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="Settings_BB.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Settings_BB.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Network.lua" />
+		<lua name="OnScreenDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/OnScreenDisplay.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Player.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Math.lua" />
+		<lua name="Cursor.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Cursor.lua" />
+		<lua name="Cannon.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/Cannon.lua" />
+		<lua name="FloatingNumber.lua" deferred_loading="false" protected="true" file="generic_shared_code/FloatingNumber.lua" />
+		<lua name="SceneCollision.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/SceneCollision.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="generic_shared_code/GlobalDefines.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/BigBang/Source/HelperFunctions.lua" />
+	</local>
+	<external />
+</resources>

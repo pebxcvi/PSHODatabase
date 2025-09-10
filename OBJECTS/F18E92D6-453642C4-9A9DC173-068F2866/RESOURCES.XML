@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="true" protected="false" file="physicalinteractions/greetings/file/configuration.xml" memory="host" />
+		<anim name="hi5.ani" deferred_loading="true" protected="false" file="animation/male/greetings/hi5.ani" memory="host" />
+		<anim name="hi5F.ani" deferred_loading="true" protected="false" file="animation/female/greetings/hi5f.ani" memory="host" />
+		<anim name="handShakeF.ani" deferred_loading="true" protected="false" file="animation/female/greetings/handshakef.ani" memory="host" />
+		<anim name="handShake.ani" deferred_loading="true" protected="false" file="animation/male/greetings/handshake.ani" memory="host" />
+		<anim name="broFist.ani" deferred_loading="true" protected="false" file="animation/male/greetings/brifist.ani" memory="host" />
+		<anim name="broFistF.ani" deferred_loading="true" protected="false" file="animation/female/greetings/brofistf.ani" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="physicalinteractions/embraces/repertoire/male_new.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="physicalinteractions/embraces/repertoire/female_new.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="AvatarInteractionPacks/AvatarInteraction_Test/lua/boot.luac" memory="host" id="2854038485" />
+	</local>
+	<external />
+</resources>

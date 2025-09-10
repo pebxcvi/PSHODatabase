@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Map_BG.dds" deferred_loading="false" protected="false" file="ResourcePacks/RegistrationPack/Map_BG.dds" />
+		<texture name="yesNoButton_c.dds" deferred_loading="false" protected="false" file="ResourcePacks/RegistrationPack/yesNoButton_c.dds" />
+		<texture name="yesNoButtonSelected_c.dds" deferred_loading="false" protected="false" file="ResourcePacks/RegistrationPack/yesNoButtonSelected_c.dds" />
+		<file name="BOOKOS.TTF" deferred_loading="false" protected="false" file="UI/Fonts/BOOKOS.TTF" />
+		<soundbank name="PM_SFX_LinkToPottermore.bnk" deferred_loading="false" protected="false" file="Audio/PM_SFX_LinkToPottermore.bnk" />
+		<lua name="Registration.lua" deferred_loading="false" protected="true" file="ResourcePacks/RegistrationPack/Registration.lua" />
+		<lua name="SignInScreen.lua" deferred_loading="false" protected="true" file="ResourcePacks/RegistrationPack/SignInScreen.lua" />
+		<lua name="PottermoreCom.lua" deferred_loading="false" protected="true" file="Lua/Shared/PottermoreCom.lua" />
+		<lua name="SimpleSaveData.lua" deferred_loading="false" protected="true" file="Lua/Shared/SimpleSaveData.lua" />
+		<lua name="ServerConfig.lua" deferred_loading="false" protected="true" file="Lua/Shared/ServerConfig.lua" />
+		<lua name="Stats.lua" deferred_loading="false" protected="true" file="libs/System/Stats.lua" />
+	</local>
+	<external />
+</resources>

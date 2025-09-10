@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Sneaking_Pack/file/config.xml" memory="host" />
+		<anim name="1Emote" deferred_loading="true" protected="false" file="animation/male/sneaking/1Emote.ani" />
+		<anim name="2Emote" deferred_loading="true" protected="false" file="animation/male/sneaking/2Emote.ani" />
+		<anim name="3Emote" deferred_loading="true" protected="false" file="animation/male/sneaking/3Emote.ani" />
+		<anim name="crawling" deferred_loading="true" protected="false" file="animation/male/sneaking/crawling.ani" />
+		<anim name="main_idle" deferred_loading="true" protected="false" file="animation/male/sneaking/main_idle.ani" />
+		<anim name="main_transition" deferred_loading="true" protected="false" file="animation/male/sneaking/main_transition.ani" />
+		<anim name="run" deferred_loading="true" protected="false" file="animation/male/sneaking/run.ani" />
+		<anim name="second_idle" deferred_loading="true" protected="false" file="animation/male/sneaking/second_idle.ani" />
+		<anim name="secondary_jog" deferred_loading="true" protected="false" file="animation/male/sneaking/secondary_jog.ani" />
+		<anim name="secondary_run" deferred_loading="true" protected="false" file="animation/male/sneaking/secondary_run.ani" memory="host" />
+		<anim name="secondary_transition" deferred_loading="true" protected="false" file="animation/male/sneaking/secondary_transition.ani" />
+		<anim name="Agent_JudoChop" deferred_loading="true" protected="false" file="animation/male/sneaking/Agent_JudoChop.ani" memory="host" />
+		<anim name="Fem_JudoChop" deferred_loading="true" protected="false" file="animation/female/femsneaking/Fem_JudoChop.ani" memory="host" />
+		<anim name="FemSneaking_1emote" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_1emote.ani" />
+		<anim name="FemSneaking_2emote" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_2emote.ani" />
+		<anim name="FemSneaking_3emote" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_3emote.ani" />
+		<anim name="FemSneaking_crawl" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_crawl.ani" />
+		<anim name="FemSneaking_MainIdle" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_MainIdle.ani" />
+		<anim name="FemSneaking_MainTransition" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_MainTransition.ani" />
+		<anim name="FemSneaking_Run" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_Run.ani" />
+		<anim name="FemSneaking_SecondaryIdle" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_SecondaryIdle.ani" />
+		<anim name="FemSneaking_SecondaryJog" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_SecondaryJog.ani" />
+		<anim name="FemSneaking_SecondaryRun" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_SecondaryRun.ani" memory="host" />
+		<anim name="FemSneaking_SecondaryTransition" deferred_loading="true" protected="false" file="animation/female/femsneaking/FemSneaking_SecondaryTransition.ani" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Sneaking_Pack/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Sneaking_Pack/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Sneaking_Pack/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Sneaking_Pack/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Sneaking_Pack/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

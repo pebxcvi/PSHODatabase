@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bellringer_puck.mdl" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_puck.mdl" />
+		<model name="bellringer_game.mdl" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_game.mdl" />
+		<model name="br_strikeplate.mdl" deferred_loading="false" file="environmentanimations/br_strikeplate/br_strikeplate.mdl" />
+		<model name="emissivecube.mdl" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_emmissivecube.mdl" />
+		<model name="malletOnGround.mdl" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_malletonground.mdl" />
+		<model name="avatar_hammer.mdl" deferred_loading="false" file="MiniGames/BellRinger/Models/br_avatar_hammer.mdl" />
+		<model name="attachable_mallet_female.mdl" deferred_loading="false" file="MiniGames/BellRinger/Models/br_avatar_female_hammer.mdl" />
+		<model name="attachable_mallet_male.mdl" deferred_loading="false" file="MiniGames/BellRinger/Models/br_avatar_hammer.mdl" />
+		<texture name="Powerbar" deferred_loading="false" file="MiniGames/BellRinger/Models/Textures/BellRinger_Powerbar_c.dds" />
+		<texture name="PowerBall" deferred_loading="false" file="MiniGames/BellRinger/Models/Textures/BellRinger_Ball_c.dds" />
+		<texture name="Bar" deferred_loading="false" file="MiniGames/BellRinger/Models/Textures/BellRinger_Bar.dds" />
+		<texture name="AccuracyPoint" deferred_loading="false" file="MiniGames/BellRinger/Models/Textures/BellRinger_Accuracy_Point.dds" />
+		<texture name="Target" deferred_loading="false" file="MiniGames/BellRinger/Models/Textures/BellRinger_Target_c.dds" />
+		<texture name="goalcheck" deferred_loading="false" file="generic_shared_textures/Green_Check_OSD_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/BellRinger/Images/BR_OSD_Goal_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/BellRinger/Images/BR_OSD_Bullet_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="generic_shared_textures/FranticFreePlay.dds" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_BR_Logo_THMB_128.png" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/female01_Torso_BR_Logo_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Hands_BR_Dumbbell_THMB_128.png" />
+		<texture name="Prize2_Female" deferred_loading="false" file="thumbnails_in_game/female01_Hands_BR_Dumbbell_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails_in_game/BR_Rug_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/BR_Stuffed_Elephant_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Legs_BR_Speedo_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" file="thumbnails_in_game/female01_Legs_BR_Speedo_THMB_128.png" />
+		<texture name="Prize6" deferred_loading="false" file="thumbnails_in_game/BR_500lb_table_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails_in_game/BR_Poster_THMB_128.png" />
+		<texture name="Prize8" deferred_loading="false" file="thumbnails_in_game/BR_FloorLamp_THMB_128.png" />
+		<texture name="Prize9" deferred_loading="false" file="thumbnails_in_game/BR_DumbBellSeat_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_BR_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_BR_THMB_128.png" />
+		<texture name="Prize5_Male_Japan" deferred_loading="false" protected="false" file="thumbnails/Male01_Legs_BR_Speedo_Japan_THMB_128.png" />
+		<texture name="Prize5_Female_Japan" deferred_loading="false" protected="false" file="thumbnails/Female01_Legs_BR_Speedo_Japan_THMB_128.png" />
+		<particle name="fireworks.efx" deferred_loading="false" file="MiniGames/BellRinger/Particles/fireworks.efx" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/BellRinger/OSD/types.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<collision name="bellringer_game.hkx" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_game.hkx" />
+		<collision name="bellringer_mallet.hkx" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_mallet.hkx" />
+		<collision name="bellringer_puck.hkx" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_puck.hkx" />
+		<collision name="emissivecube.hkx" deferred_loading="false" file="MiniGames/BellRinger/Models/bellringer_emmissivecube.hkx" />
+		<anim name="MaleHammerDown" deferred_loading="false" file="animation/male/br_hammerdown_03_strike.ani" />
+		<anim name="strikeplate_hit.ani" deferred_loading="false" file="environmentanimations/br_strikeplate/br_strikeplate.ani" />
+		<anim name="strikeplate_rest.ani" deferred_loading="false" file="environmentanimations/br_strikeplate/br_strikeplate_rest.ani" />
+		<anim name="MaleHammerOverShoulder" deferred_loading="false" file="animation/male/br_hammerdown_02_overshoulder.ani" />
+		<anim name="MaleHammerLowSwinging" deferred_loading="false" file="animation/male/br_hammerdown_01swinging.ani" />
+		<anim name="FemaleSwingHammer" deferred_loading="false" file="animation/female/br_female_swinghammer.ani" />
+		<anim name="FemaleIdle" deferred_loading="false" file="animation/female/br_female_idle.ani" />
+		<skeleton name="strikeplate.skn" deferred_loading="false" file="environmentanimations/br_strikeplate/br_strikeplate.skn" />
+		<repertoire name="BellRingerMale" deferred_loading="false" file="MiniGames/BellRinger/bellringer_male.xml" />
+		<repertoire name="BellRingerFemale" deferred_loading="false" file="MiniGames/BellRinger/bellringer_female.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Game.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/HelperFunctions.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Math.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Player.lua" />
+		<lua name="AccuracyState.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/AccuracyState.lua" />
+		<lua name="PowerState.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/PowerState.lua" />
+		<lua name="PresentationState.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/PresentationState.lua" />
+		<lua name="StateSystem.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/StateSystem.lua" />
+		<lua name="CountdownTimer.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/CountdownTimer.lua" />
+		<lua name="PowerBar.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/PowerBar.lua" />
+		<lua name="Spirograph.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Spirograph.lua" />
+		<lua name="AccuracyGame.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/AccuracyGame.lua" />
+		<lua name="HighStriker.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/HighStriker.lua" />
+		<lua name="Mallet.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Mallet.lua" />
+		<lua name="LightSet.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/LightSet.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="SpriteFader.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/SpriteFader.lua" />
+		<lua name="BR_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/BR_Settings.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="Fireworks.lua" deferred_loading="false" protected="true" file="MiniGames/BellRinger/Source/Fireworks.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/themidway/SceneScripts/GlobalDefines.lua" />
+	</local>
+	<external />
+</resources>

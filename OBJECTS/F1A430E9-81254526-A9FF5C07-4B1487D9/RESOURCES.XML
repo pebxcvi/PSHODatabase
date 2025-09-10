@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="liarsDiceTable.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/models/liarsDiceTable.mdl" />
+		<model name="liarsDiceCoins200.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/models/liarsDiceCoins200.mdl" />
+		<model name="liarsDiceCoins300.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/models/liarsDiceCoins300.mdl" />
+		<model name="liarsDiceCup.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/models/liarsDiceCup.mdl" />
+		<model name="liarsDiceDice.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/models/liarsDiceDice.mdl" />
+		<model name="liarsDiceCoins400.mdl" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/models/liarsDiceCoins.mdl" />
+		<texture name="backdrop_join.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/backdrop_join.dds" />
+		<texture name="die1.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/die1.dds" />
+		<texture name="die2.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/die2.dds" />
+		<texture name="die3.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/die3.dds" />
+		<texture name="die4.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/die4.dds" />
+		<texture name="die5.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/die5.dds" />
+		<texture name="die6.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/die6.dds" />
+		<texture name="backdrop_result.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/backdrop_result.dds" />
+		<texture name="die_select.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/die_select.dds" />
+		<texture name="count_die1.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/count_die1.dds" />
+		<texture name="count_die2.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/count_die2.dds" />
+		<texture name="count_die3.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/count_die3.dds" />
+		<texture name="count_die4.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/count_die4.dds" />
+		<texture name="count_die5.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/count_die5.dds" />
+		<texture name="count_die0.dds" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/hud/count_die0.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates\docks/minigames/liars_dice/file/Network.xml" />
+		<collision name="liarsDiceTable.hkx" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/models/liarsDiceTable.hkx" />
+		<soundbank name="sound.bnk" deferred_loading="false" protected="false" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/sound/sound.bnk" />
+		<lua name="EventMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/EventMgr.lua" />
+		<lua name="InputMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/InputMgr.lua" />
+		<lua name="InputMgrH.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/InputMgrH.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/Main.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/Player.lua" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/SoundMgr.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/MyPad.lua" />
+		<lua name="NetMessage.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/NetMessage.lua" />
+		<lua name="NetworkMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/NetworkMgr.lua" />
+		<lua name="EventH.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/EventH.lua" />
+		<lua name="File.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/File.lua" />
+		<lua name="GameDataService.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/GameDataService.lua" />
+		<lua name="Messaging.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/Messaging.lua" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/Updater.lua" />
+		<lua name="UiConsumable.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/UiConsumable.lua" />
+		<lua name="AsyncConsumable.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/AsyncConsumable.lua" />
+		<lua name="ConsumableManager.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/ConsumableManager.lua" />
+		<lua name="GameState.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/GameState.lua" />
+		<lua name="GameStateMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/GameStateMgr.lua" />
+		<lua name="GSJoin.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/GSJoin.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/HUD.lua" />
+		<lua name="HUDItem.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/HUDItem.lua" />
+		<lua name="HUDMgr.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/HUDMgr.lua" />
+		<lua name="GSRound.lua" deferred_loading="false" protected="true" file="environments/2011/per/per_pirates/docks/minigames/liars_dice/lua/GSRound.lua" />
+	</local>
+	<external />
+</resources>

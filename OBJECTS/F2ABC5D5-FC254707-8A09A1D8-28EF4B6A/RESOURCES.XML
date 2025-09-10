@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cat_tabby_01.mdl" deferred_loading="true" protected="false" file="companions/cat/cat_tabby_01.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/tabby_cat/file/config.xml" memory="host" id="3913912857" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/tabby_cat/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="cat_idle_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_idle_01.ani" memory="host" />
+		<anim name="cat_idle_02.ani" deferred_loading="true" protected="false" file="companions/cat/cat_idle_02.ani" memory="host" />
+		<anim name="cat_idle_03.ani" deferred_loading="true" protected="false" file="companions/cat/cat_idle_03.ani" memory="host" />
+		<anim name="cat_idle_04.ani" deferred_loading="true" protected="false" file="companions/cat/cat_idle_04.ani" memory="host" />
+		<anim name="cat_idle_05.ani" deferred_loading="true" protected="false" file="companions/cat/cat_idle_05.ani" memory="host" />
+		<anim name="cat_idle_T_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_idle_T_01.ani" memory="host" />
+		<anim name="cat_run_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_run_01.ani" memory="host" />
+		<anim name="cat_run_L_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_run_L_01.ani" memory="host" />
+		<anim name="cat_run_R_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_run_R_01.ani" memory="host" />
+		<anim name="cat_twist_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_twist_01.ani" memory="host" />
+		<anim name="cat_walk_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_walk_01.ani" memory="host" />
+		<anim name="cat_walk_L_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_walk_L_01.ani" memory="host" />
+		<anim name="cat_walk_R_01.ani" deferred_loading="true" protected="false" file="companions/cat/cat_walk_R_01.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="companions/cat/cat_tabby_01.skn" memory="host" />
+		<soundbank name="PM_SFX_Pet_Cat.bnk" deferred_loading="true" protected="false" file="Audio/Companions/PM_SFX_Pet_Cat.bnk" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/tabby_cat/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

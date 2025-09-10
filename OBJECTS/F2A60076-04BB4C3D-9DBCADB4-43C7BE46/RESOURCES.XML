@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="softball.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/softball.mdl" memory="host" />
+		<model name="Seat_Idle.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Seat_Idle.mdl" memory="host" />
+		<model name="Cursor.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/WW_Reticle.mdl" memory="host" />
+		<model name="pole.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/WW_targets.mdl" memory="host" />
+		<model name="target.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/WW_circular_target.mdl" memory="host" />
+		<model name="HitCountNumber.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/WW_number_placard.mdl" memory="host" />
+		<model name="Carla_fall_hair.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_fall_hair.mdl" memory="host" />
+		<model name="Impact.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/WW_impact.mdl" memory="host" />
+		<model name="Carla_fall.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_fall.mdl" memory="host" />
+		<model name="Platform.mdl" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/WW_KissingStand.mdl" memory="host" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/WetNWild/Textures/SM_OSD_Bullet_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/WetNWild/Textures/SM_OSD_Goal_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails/prizeplacard_01_01_Female_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails/prizeplacard_01_01_Male_THMB_128.png" />
+		<texture name="Prize2_female" deferred_loading="false" file="thumbnails/prizeplacard_01_02_Female_THMB_128.png" />
+		<texture name="Prize2_Male" deferred_loading="false" file="thumbnails/prizeplacard_01_02_Male_THMB_128.png" />
+		<texture name="Prize3_Female" deferred_loading="false" file="thumbnails/prizeplacard_01_03_Female_THMB_128.png" />
+		<texture name="Prize3_Male" deferred_loading="false" file="thumbnails/prizeplacard_01_03_Male_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails/prizeplacard_01_04_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" file="thumbnails/prizeplacard_01_05_Female_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" file="thumbnails/prizeplacard_01_05_Male_THMB_128.png" />
+		<texture name="Prize6_Female" deferred_loading="false" file="thumbnails/prizeplacard_01_06_Female_THMB_128.png" />
+		<texture name="Prize6_Male" deferred_loading="false" file="thumbnails/prizeplacard_01_06_Male_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails/prizeplacard_01_07_THMB_128.png" />
+		<texture name="Prize8" deferred_loading="false" file="thumbnails/prizeplacard_01_08_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" file="thumbnails/prizeplacard_01_09_Female_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" file="thumbnails/prizeplacard_01_09_Male_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails/prizeplacard_01_10_Female_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails/prizeplacard_01_10_Male_THMB_128.png" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="goalcheck" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Green_Check_OSD_c.dds" />
+		<texture name="HitCountDigit9.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_9_c.dds" />
+		<texture name="HitCountDigit0.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_0_c.dds" />
+		<texture name="HitCountDigit1.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_1_c.dds" />
+		<texture name="HitCountDigit2.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_2_c.dds" />
+		<texture name="HitCountDigit3.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_3_c.dds" />
+		<texture name="HitCountDigit4.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_4_c.dds" />
+		<texture name="HitCountDigit5.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_5_c.dds" />
+		<texture name="HitCountDigit6.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_6_c.dds" />
+		<texture name="HitCountDigit8.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/WW_Score_8_c.dds" />
+		<texture name="HitCountDigit7.dds" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Models/Textures/ww_score_7_c.dds" />
+		<texture name="Prize2_Male_Japan" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_01_02_male_THMB_128_Japan.png" />
+		<texture name="Prize2_Female_Japan" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_01_02_female_Japan_THMB_128.png" />
+		<particle name="TankSplash.efx" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Particles/TankSplash.efx" memory="host" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/StartUpDialog.xml" memory="host" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/WinnerDialog.xml" memory="host" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" memory="host" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" memory="host" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHud.xml" memory="host" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/WetNWild/OSD/types.xml" memory="host" />
+		<anim name="Male_Throw" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Male_throw.ani" memory="host" />
+		<anim name="Male_Throw_Idle" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Male_throw_idle.ani" memory="host" />
+		<anim name="Female_Throw" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Female_throw.ani" memory="host" />
+		<anim name="Female_Throw_Idle" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Female_throw_idle.ani" memory="host" />
+		<anim name="Carla_fall.ani" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_fall.ani" memory="host" />
+		<anim name="Carla_fall_hair.ani" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_fall_hair.ani" memory="host" />
+		<anim name="Carla_sit.ani" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_sit.ani" memory="host" />
+		<anim name="Carla_sit_hair.ani" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_sit_hair.ani" memory="host" />
+		<anim name="Seat_Drop.ani" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Seat_Drop.ani" memory="host" />
+		<anim name="Seat_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Seat_Idle.ani" memory="host" />
+		<anim name="Seat_Reset.ani" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Seat_Reset.ani" memory="host" />
+		<anim name="Male_Kissing" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Male_Kissing.ani" memory="host" />
+		<anim name="Female_Kissing" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Female_Kissing.ani" memory="host" />
+		<skeleton name="Seat_Idle.skn" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Seat_Idle.skn" memory="host" />
+		<skeleton name="Carla_fall_hair.skn" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_fall_hair.skn" memory="host" />
+		<skeleton name="Carla_fall.skn" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/carla/Carla_fall.skn" memory="host" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Male_Animations.xml" memory="host" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/WetNWild/Animations/Female_Animations.xml" memory="host" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Audio.lua" memory="host" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Camera.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Game.lua" memory="host" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Network.lua" memory="host" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" memory="host" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" memory="host" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" memory="host" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" memory="host" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" memory="host" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" memory="host" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Settings.lua" memory="host" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Player.lua" memory="host" />
+		<lua name="Ball.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Ball.lua" memory="host" />
+		<lua name="Target.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Target.lua" memory="host" />
+		<lua name="Karla.lua" deferred_loading="false" protected="true" file="MiniGames/WetNWild/Source/Karla.lua" memory="host" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" memory="host" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Tails.mdl" deferred_loading="true" protected="false" file="locomotion/tails_loco/WhimsyTails_vari5.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Tails_loco/file/config.xml" memory="host" />
+		<anim name="M_TailLoco_run.ani" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/M_TailLoco_run.ani" memory="host" />
+		<anim name="M_TailLoco_walk.ani" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/M_TailLoco_walk.ani" memory="host" />
+		<anim name="Tail_run.ani" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/TailLoco_run.ani" memory="host" />
+		<anim name="Tail_walk.ani" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/TailLoco_walk.ani" memory="host" />
+		<anim name="Tail_idle.ani" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/TailLoco_idle.ani" memory="host" />
+		<anim name="M_TailLoco_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/M_TailLoco_Idle.ani" memory="host" />
+		<anim name="F_TailLoco_run" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/F_TailLoco_run.ani" memory="host" />
+		<anim name="F_TailLoco_walk" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/F_TailLoco_walk.ani" memory="host" />
+		<anim name="F_TailLoco_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/F_TailLoco_Idle.ani" memory="host" />
+		<skeleton name="Tails.skn" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/WhimsyTails.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Tails_loco/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Tails_loco/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

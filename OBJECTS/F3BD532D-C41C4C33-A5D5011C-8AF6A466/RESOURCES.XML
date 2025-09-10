@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotkitty_condo/CommOct_RobotKitty_Condo.mdl" />
+		<model name="Pet.mdl" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/RobotCatV1.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotkitty_condo/CommOct_RobotKitty_Condo.hkx" />
+		<collision name="Pet.hkx" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/RobotCat_Collision.hkx" />
+		<anim name="WalkToHunt.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_WalkToHunt.ani" />
+		<anim name="HuntToWalk.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_HuntToWalk.ani" />
+		<anim name="Hunting.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_HuntWalking.ani" />
+		<anim name="Jumping_Down.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Jumping_Down.ani" />
+		<anim name="Jumping_Up.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Jumping_Up.ani" />
+		<anim name="Land_Down.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Land_Down.ani" />
+		<anim name="Land_Up.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_LandUp.ani" />
+		<anim name="Laying_HeadUp.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_LayDown_HeadUp.ani" />
+		<anim name="Laying_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_LayDownIdle.ani" />
+		<anim name="Pounce.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Pounce.ani" />
+		<anim name="Sitting_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Sitting_Idle.ani" />
+		<anim name="Sitting_LickPaw.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Sitting_LickPaw.ani" />
+		<anim name="Sitting_Scratching.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Sitting_Scratching.ani" />
+		<anim name="Standing_Idle.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Standing_Idle.ani" />
+		<anim name="Walk.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Walk.ani" />
+		<anim name="Sitting_GetUp.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_SittingToStand.ani" />
+		<anim name="Laying_GetUp.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_LayDownToStanding.ani" />
+		<anim name="Lay_Down.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_LayDown.ani" />
+		<anim name="Sit_Down.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_Sit.ani" />
+		<anim name="Jump_Up.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_JumpUp.ani" />
+		<anim name="Jump_Down.ani" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/anims/CommOct_RobotCatV1_JumpDown.ani" />
+		<skeleton name="Pet.skn" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/models/RobotCatV1.skn" />
+		<soundbank name="RobotCat.bnk" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/sound/RobotCat.bnk" />
+		<soundbank name="RobotCat2.bnk" deferred_loading="false" protected="false" file="ActiveItems/commoctober_2010/commoct_robotcatv1/sound/RobotCat2.bnk" memory="host" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_robotcatv1/programming/Main.lua" />
+		<lua name="Pet.lua" deferred_loading="false" protected="true" file="ActiveItems/commoctober_2010/commoct_robotcatv1/programming/Pet.lua" />
+	</local>
+	<external />
+</resources>
