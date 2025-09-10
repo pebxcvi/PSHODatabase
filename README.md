@@ -12,8 +12,6 @@ Home Laboratory Archive -> https://github.com/pebxcvi/PSHomeCacheDepot
 
 Each Object is expected to include the following files; however, due to the challenges of preservation, some files may be absent altogether until recovered from PlayStation®Home Caches.
 
-Cache Information -> https://github.com/pebxcvi/PSHomeCacheDepot#-playstationhome-cache-information-
-
 ```
 OBJECTS/UUID/   
 ├── LOCALISATION.XML
@@ -25,3 +23,4 @@ OBJECTS/UUID/
 └── SMALL.PNG
 ```
 
+Cache Information -> https://github.com/pebxcvi/PSHomeCacheDepot#-playstationhome-cache-information-
