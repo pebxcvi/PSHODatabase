@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/NAUT_nautlamp_01.mdl" memory="host" />
+		<model name="NAUT_nautlamp_01_RIG.mdl" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/NAUT_nautlamp_01_RIG.mdl" />
+		<texture name="light_resource_light_mask_0" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/nautlamp_lightcast_c.dds" />
+		<texture name="test_caustic_env.dds" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/test_caustic_env.dds" />
+		<texture name="generic_colorswatch_grey.dds" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/generic_colorswatch_grey.dds" />
+		<texture name="random_colorswatch.dds" deferred_loading="false" protected="false" file="Tools/generic_shared_textures/random_colorswatch.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/NAUT_nautlamp_01.hkx" memory="host" />
+		<anim name="NAUT_nautlamp_01_Anim01.ani" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/NAUT_nautlamp_01_Anim01.ani" />
+		<skeleton name="NAUT_nautlamp_01_RIG.skn" deferred_loading="false" protected="false" file="furniture/naut_nautlamp_01/NAUT_nautlamp_01_RIG.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/naut_nautlamp_01/MiniGame.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/naut_nautlamp_01/Pad.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/naut_nautlamp_01/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

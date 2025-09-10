@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Prinny_m02.mdl" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m02.mdl" />
+		<model name="R9a_eff_CaptureLight_A01.mdl" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/R9a_eff_CaptureLight_A01.mdl" />
+		<model name="R9a_eff_jet_A01.mdl" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/R9a_eff_jet_A01.mdl" />
+		<model name="R9a_m01.mdl" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/R9a_m01.mdl" />
+		<model name="Prinny_m03.mdl" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m03.mdl" />
+		<particle name="eff_R9_Convection_02.efx" deferred_loading="false" file="IremLounge/design/ATGParticles/Efx/eff_R9_Convection_02.efx" />
+		<particle name="eff_R9_Bomd_A00.efx" deferred_loading="false" file="IremLounge/design/ATGParticles/Efx/eff_R9_Bomd_A00.efx" />
+		<particle name="eff_R9_Convection_01.efx" deferred_loading="false" file="IremLounge/design/ATGParticles/Efx/eff_R9_Convection_01.efx" />
+		<file name="types.xml" deferred_loading="false" file="IremLounge/soft_asia_01/Prinny4/OSD/types.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="IremLounge/soft_asia_01/Prinny4/OSD/SelectionButton.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="IremLounge/soft_asia_01/Prinny4/OSD/WndTab.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="IremLounge/soft_asia_01/Prinny4/OSD/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="IremLounge/soft_asia_01/Prinny4/OSD/WndTabSelectDialog.xml" />
+		<collision name="Prinny_m04_atr.hkx" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m04_atr.hkx" />
+		<anim name="Prinny_m02_anm_01.ani" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m02_anm_01.ani" />
+		<anim name="Prinny_m02_anm_02.ani" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m02_anm_02.ani" />
+		<anim name="R9a_eff_jet_A01.ani" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/R9a_eff_jet_A01.ani" />
+		<anim name="R9a_m01.ani" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/R9a_m01.ani" />
+		<anim name="Prinny_m03_anm_01.ani" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m03_anm_01.ani" />
+		<skeleton name="Prinny_m02_anm_01.skn" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m02_anm_01.skn" />
+		<skeleton name="R9a_eff_jet_A01.skn" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/R9a_eff_jet_A01.skn" />
+		<skeleton name="R9a_m01.skn" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/R9a_m01.skn" />
+		<skeleton name="Prinny_m03.skn" deferred_loading="false" file="IremLounge/design/minigames_r9_pny/scenes/Prinny_m03.skn" />
+		<soundbank name="SOUND_R9arrival.bnk" deferred_loading="false" file="IremLounge/sound/SOUND_R9arrival.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/main.lua" />
+		<lua name="game_flow.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/game_flow.lua" />
+		<lua name="game_act.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/game_act.lua" />
+		<lua name="LuaTask.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaTask.lua" />
+		<lua name="LuaMemblock.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaMemblock.lua" />
+		<lua name="LuaSingleEvent.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaSingleEvent.lua" />
+		<lua name="LuaUtil.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaUtil.lua" />
+		<lua name="LuaPadUtil.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaPadUtil.lua" />
+		<lua name="DialogBasicS.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/Dialog/DialogBasicS.lua" />
+		<lua name="DialogTabSelectS.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/Dialog/DialogTabSelectS.lua" />
+		<lua name="paHomeServerTrigger.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/paHomeServerTrigger.lua" />
+		<lua name="paHomeCommon.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/paHomeCommon.lua" />
+		<lua name="paHomeServerBase.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/paHomeServerBase.lua" />
+		<lua name="paHomeServerCommon.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/paHomeServerCommon.lua" />
+		<lua name="paHomeServerCustom.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/paHomeServerCustom.lua" />
+		<lua name="event_stat.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/event_stat.lua" />
+		<lua name="paHomeDbgCommon.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/paHomeDbgCommon.lua" />
+		<lua name="LuaMath.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaMath.lua" />
+		<lua name="fade.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/fade.lua" />
+		<lua name="bspline.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/bspline.lua" />
+		<lua name="LuaObj.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaObj.lua" />
+		<lua name="LuaSimpleEffect.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaSimpleEffect.lua" />
+		<lua name="R9_act.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/R9/R9_act.lua" />
+		<lua name="R9_flow.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/R9/R9_flow.lua" />
+		<lua name="LuaCamera.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/LuaCamera.lua" />
+		<lua name="Prinny4_rail.lua" deferred_loading="false" protected="true" file="IremLounge/design/minigames_r9_pny/RailPass/Prinny4_rail.lua" />
+		<lua name="CustomWaitOsd.lua" deferred_loading="false" protected="true" file="IremLounge/soft_asia_01/Prinny4/CustomWaitOsd.lua" />
+	</local>
+	<external />
+</resources>

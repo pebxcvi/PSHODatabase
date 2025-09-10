@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="furniture/yoda_fountain_private_space/yoda_fountain_private_space.mdl" />
+		<texture name="tex_textbubble_rectangle" deferred_loading="false" file="furniture/yoda_fountain_private_space/OSD/textbubble_bg_rectangle.dds" />
+		<texture name="tex_textbubble_triangle" deferred_loading="false" file="furniture/yoda_fountain_private_space/OSD/textbubble_bg_triangle.dds" />
+		<particle name="efx_waterFX" deferred_loading="false" file="furniture/yoda_fountain_private_space/efx/Yoda_Fountain_Public_Square_waterFX.efx" />
+		<file name="main.lua" deferred_loading="false" file="furniture/yoda_fountain_private_space/main.lua" />
+		<file name="xml_Questions" deferred_loading="false" file="furniture/yoda_fountain_private_space/Yoda_Questions.xml" />
+		<file name="xml_Answers" deferred_loading="false" file="furniture/yoda_fountain_private_space/Yoda_Answers.xml" />
+		<file name="xml_network" deferred_loading="false" file="furniture/yoda_fountain_private_space/Network.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" file="furniture/yoda_fountain_private_space/OSD/simplemenu.xml" />
+		<file name="osd_textbubble" deferred_loading="false" file="furniture/yoda_fountain_private_space/OSD/textbubble.xml" />
+		<file name="osd_types" deferred_loading="false" file="furniture/yoda_fountain_private_space/OSD/types.xml" />
+		<collision name="collision" deferred_loading="false" file="furniture/yoda_fountain_private_space/yoda_fountain_private_space.hkx" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="game_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank.mdl" />
+		<model name="Tank_FishTribalTatsnarf_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishTribalTatsnarf.mdl" />
+		<model name="Tank_FishTeenyEmo_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishTeenyEmo.mdl" />
+		<model name="Tank_FishRoboticSnike_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishRoboticSnike.mdl" />
+		<model name="Tank_FishPsychedelicLeery_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishPsychedelicLeery.mdl" />
+		<model name="Tank_FishLePussin_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishLePussin.mdl" />
+		<model name="Tank_FishKissinWhimsy_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishKissinWhimsy.mdl" />
+		<model name="Tank_FishJuggalorca_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishJuggalorca.mdl" />
+		<model name="Tank_FishDobsonsInvader_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishDobsonsInvader.mdl" />
+		<model name="Tank_FishCamouflange_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishCamouflange.mdl" />
+		<model name="Tank_FishYoHoAlbacore_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishYoHoAlbacore.mdl" />
+		<model name="Tank_FishXraySpix_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishXraySpix.mdl" />
+		<model name="Tank_FishToxicMoofty_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishToxicMoofty.mdl" />
+		<model name="Tank_FishRedWhiteBloop_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishRedWhiteBloop.mdl" />
+		<model name="Tank_FishDaBling_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishDaBling.mdl" />
+		<model name="Tank_FishCranialLebe_model" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishCranialLebe.mdl" />
+		<texture name="GameOverScreen_TitleBox" deferred_loading="false" protected="false" file="MiniGames/GoFish/Textures/GameOverScreen_TitleBox.dds" />
+		<texture name="Tex_SharedBackGround" deferred_loading="false" protected="false" file="MiniGames/GoFish/Textures/GoFishScreen.dds" />
+		<texture name="Tex_Question_Mark" deferred_loading="false" protected="false" file="MiniGames/GoFish/Textures/Icon_QuestionMark.dds" />
+		<texture name="HUD_Fish" deferred_loading="false" protected="false" file="MiniGames/GoFish/Models/textures/fishtextures_c.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Network.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/OSD/types.xml" />
+		<collision name="game_collision" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank.hkx" />
+		<anim name="Tank_FishYoHoAlbacore_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishYoHoAlbacore.ani" />
+		<anim name="Tank_FishXraySpix_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishXraySpix.ani" />
+		<anim name="Tank_FishTribalTatsnarf_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishTribalTatsnarf.ani" />
+		<anim name="Tank_FishTeenyEmo_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishTeenyEmo.ani" />
+		<anim name="Tank_FishRoboticSnike_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishRoboticSnike.ani" />
+		<anim name="Tank_FishPsychedelicLeery_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishPsychedelicLeery.ani" />
+		<anim name="Tank_FishLePussin_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishLePussin.ani" />
+		<anim name="Tank_FishKissinWhimsy_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishKissinWhimsy.ani" />
+		<anim name="Tank_FishJuggalorca_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishJuggalorca.ani" />
+		<anim name="Tank_FishDobsonsInvader_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishDobsonsInvader.ani" />
+		<anim name="Tank_FishCamouflange_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishCamouflange.ani" />
+		<anim name="Tank_FishToxicMoofty_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishToxicMoofty.ani" />
+		<anim name="Tank_FishRedWhiteBloop_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishRedWhiteBloop.ani" />
+		<anim name="Tank_FishDaBling_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishDaBling.ani" />
+		<anim name="Tank_FishCranialLebe_anim" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishCranialLebe.ani" />
+		<skeleton name="Tank_FishYoHoAlbacore_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishYoHoAlbacore.skn" />
+		<skeleton name="Tank_FishCamouflange_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishCamouflange.skn" />
+		<skeleton name="Tank_FishDobsonsInvader_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishDobsonsInvader.skn" />
+		<skeleton name="Tank_FishJuggalorca_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishJuggalorca.skn" />
+		<skeleton name="Tank_FishKissinWhimsy_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishKissinWhimsy.skn" />
+		<skeleton name="Tank_FishLePussin_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishLePussin.skn" />
+		<skeleton name="Tank_FishXraySpix_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishXraySpix.skn" />
+		<skeleton name="Tank_FishTribalTatsnarf_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishTribalTatsnarf.skn" />
+		<skeleton name="Tank_FishRoboticSnike_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishRoboticSnike.skn" />
+		<skeleton name="Tank_FishPsychedelicLeery_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishPsychedelicLeery.skn" />
+		<skeleton name="Tank_FishTeenyEmo_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishTeenyEmo.skn" />
+		<skeleton name="Tank_FishRedWhiteBloop_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishRedWhiteBloop.skn" />
+		<skeleton name="Tank_FishDaBling_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishDaBling.skn" />
+		<skeleton name="Tank_FishCranialLebe_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishCranialLebe.skn" />
+		<skeleton name="Tank_FishToxicMoofty_Skel" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Models/Tank_FishToxicMoofty.skn" />
+		<soundbank name="GoFishSounds" deferred_loading="false" protected="false" file="MiniGames/GoFishTank/Sound/Sounds.bnk" />
+		<lua name="VMObjectPool" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMObjectPool.lua" />
+		<lua name="VMDebug" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMDebug.lua" />
+		<lua name="VMLights" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMLights.lua" />
+		<lua name="VMMiniGame" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMMiniGame.lua" />
+		<lua name="VMGame" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMGame.lua" />
+		<lua name="VMSounds" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMSounds.lua" />
+		<lua name="VMDynamicEntity" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMDynamicEntity.lua" />
+		<lua name="GFFish" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/GFFish.lua" />
+		<lua name="VMTimers" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMTimers.lua" />
+		<lua name="VMInventory" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMInventory.lua" />
+		<lua name="VMBit" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMBit.lua" />
+		<lua name="VMInventoryRequest" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMInventoryRequest.lua" />
+		<lua name="VMPad" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMPad.lua" />
+		<lua name="VMHud" deferred_loading="false" protected="true" file="MiniGames/GoFishTank/VMHud.lua" />
+	</local>
+	<external />
+</resources>

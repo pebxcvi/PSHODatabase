@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/model/Mantis_Hi.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/model/Mantis_Lo.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/fidle.ani" memory="host" />
+		<anim name="beast_idle.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/Mantis_Idle2.ani" memory="host" />
+		<anim name="beast_run.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/Mantis_Run.ani" />
+		<anim name="beast_walk.ani" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/anim/Mantis_walk.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/skeleton/Mantis_Hi.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Giant_Mantis_-_LMO/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Giant_Mantis_-_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

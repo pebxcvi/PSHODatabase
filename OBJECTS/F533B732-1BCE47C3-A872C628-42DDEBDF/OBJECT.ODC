@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <version>1.0</version>
+  <uuid>F533B732-1BCE47C3-A872C628-42DDEBDF</uuid>
+  <name lang="en-GB" default="true">Ice Breaker t-shirt</name>
+  <name lang="fr-FR" default="false">T-shirt Ice Breaker</name>
+  <name lang="de-DE" default="false">"Ice Breaker"-T-Shirt</name>
+  <name lang="it-IT" default="false">T-shirt Ice Breaker</name>
+  <name lang="es-ES" default="false">Camiseta Ice Breaker</name>
+  <name lang="ko-KR" default="false">Ice Breaker 티셔츠</name>
+  <name lang="zh-HK" default="false">Ice Breaker T恤</name>
+  <name lang="zh-TW" default="false">Ice Breaker T恤</name>
+  <description lang="en-GB" default="true">An Ice Breaker T-Shirt, received as a reward for beating Level 8 of the Ice Breaker Arcade Game</description>
+  <description lang="fr-FR" default="false">T-shirt Ice Breaker attribué pour vous récompenser d'avoir réussi le niveau 8 du jeu d'arcade Ice Breaker.</description>
+  <description lang="de-DE" default="false">Ein "Ice Breaker"-T-Shirt als Belohnung für das erfolgreiche Abschließen von Level 8 des Arcade-Spiels "Ice Breaker".</description>
+  <description lang="it-IT" default="false">T-shirt Ice Breaker, ricevuta in premio per aver superato il livello 8 del gioco arcade Ice Braeker.</description>
+  <description lang="es-ES" default="false">Una camiseta Ice Breaker, entregada como premio por superar el nivel 8 del juego arcade Ice Breaker.</description>
+  <description lang="ja-JP" default="false">Ice Breaker レベル8クリアのリワードアイテムです。</description>
+  <description lang="ko-KR" default="false">Ice Breaker 게임의레벨 8을통과해서얻은보상</description>
+  <description lang="zh-HK" default="false">通過 Ice Breaker街機遊戲第8關即可取得Ice Breaker的T恤。</description>
+  <description lang="zh-TW" default="false">通過 Ice Breaker街機遊戲第8關即可取得Ice Breaker的T恤。</description>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small.png</small_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="7" parental_control_level="3" />
+    <age_rating country="US" minimum_age="0" parental_control_level="1" />
+    <age_rating country="JP" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="1" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="CA" minimum_age="0" parental_control_level="1" />
+  </legal>
+</odc>

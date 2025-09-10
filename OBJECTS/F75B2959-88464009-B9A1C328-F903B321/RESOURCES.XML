@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/StationIntro/file/Network.xml" />
+    <file name="station.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/voiceover/station.xml" />
+    <file name="tutorial.xml" deferred_loading="false" protected="false" file="hellfiretest/datafiles/voiceover/tutorial.xml" />
+    <soundstream name="kM0_obj1.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj1.mp3" />
+    <soundstream name="kM0_obj3.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj3.mp3" />
+    <soundstream name="kM0_obj4.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj4.mp3" />
+    <soundstream name="kM0_obj4b.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj4b.mp3" />
+    <soundstream name="kM0_obj5.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj5.mp3" />
+    <soundstream name="kM0_obj6.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj6.mp3" />
+    <soundstream name="kM0_obj6b.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj6b.mp3" />
+    <soundstream name="kM0_obj7.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj7.mp3" />
+    <soundstream name="kM0_obj8.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj8.mp3" />
+    <soundstream name="kM0_obj14.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj14.mp3" />
+    <soundstream name="kM0_obj15.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Tutorial/kM0_obj15.mp3" />
+    <soundstream name="SV01.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV01.mp3" />
+    <soundstream name="SV02.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV02.mp3" />
+    <soundstream name="SV03.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV03.mp3" />
+    <soundstream name="SV04.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV04.mp3" />
+    <soundstream name="SV06.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV06.mp3" />
+    <soundstream name="SV07.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV07.mp3" />
+    <soundstream name="SV08.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV08.mp3" />
+    <soundstream name="SV09.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV09.mp3" />
+    <soundstream name="SV010.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV010.mp3" />
+    <soundstream name="SV011.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV011.mp3" />
+    <soundstream name="SV012.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV012.mp3" />
+    <soundstream name="SV013.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV013.mp3" />
+    <soundstream name="SV014.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV014.mp3" />
+    <soundstream name="SV015.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV015.mp3" />
+    <soundstream name="SV016.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV016.mp3" />
+    <soundstream name="SV05.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV05.mp3" />
+    <soundstream name="SV017.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV017.mp3" />
+    <soundstream name="SV018.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV018.mp3" />
+    <soundstream name="SV019.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV019.mp3" />
+    <soundstream name="SV020.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV020.mp3" />
+    <soundstream name="SV021.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV021.mp3" />
+    <soundstream name="SV022.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV022.mp3" />
+    <soundstream name="SV023.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV023.mp3" />
+    <soundstream name="SV024.mp3" deferred_loading="false" protected="false" file="hellfiretest/audio/voice/Station/SV024.mp3" />
+    <lua name="Game_StationIntro.lua" deferred_loading="false" protected="true" file="scripts/games/game_stationintro.luac" />
+    <lua name="class.lua" deferred_loading="false" protected="true" file="scripts/misc/class.luac" />
+    <lua name="VoiceOver.lua" deferred_loading="false" protected="true" file="scripts/misc/voiceover.luac" />
+    <lua name="Serialization.lua" deferred_loading="false" protected="true" file="scripts/misc/serialization.luac" />
+    <lua name="Sound.lua" deferred_loading="false" protected="true" file="scripts/misc/sound.luac" />
+    <lua name="Callback.lua" deferred_loading="false" protected="true" file="scripts/misc/callback.luac" />
+    <lua name="Debug.lua" deferred_loading="false" protected="true" file="scripts/misc/debug.luac" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_Train" deferred_loading="false" protected="false" file="environments/trainstation/Train.mdl" />
+		<model name="mdl_HomeTycoon_logo" deferred_loading="false" protected="false" file="environments/trainstation/HomeTycoon_logo_j.mdl" />
+		<model name="mdl_Bear_Idle_Anim" deferred_loading="false" protected="false" file="Models/animals/bear/Bear_Idle_Anim.mdl" />
+		<texture name="tex_BasicMenu_Bottom" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Bottom.dds" />
+		<texture name="tex_BasicMenu_BottomLeft" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_BottomLeft.dds" />
+		<texture name="tex_BasicMenu_BottomRight" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_BottomRight.dds" />
+		<texture name="tex_BasicMenu_Center" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Center.dds" />
+		<texture name="tex_BasicMenu_Left" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Left.dds" />
+		<texture name="tex_BasicMenu_Right" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Right.dds" />
+		<texture name="tex_BasicMenu_Top" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_Top.dds" />
+		<texture name="tex_BasicMenu_TopLeft" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_TopLeft.dds" />
+		<texture name="tex_BasicMenu_TopRight" deferred_loading="false" protected="false" file="Textures/Hud/BasicMenu_TopRight.dds" />
+		<texture name="tex_SmallMenu_Bottom" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_Bottom.dds" />
+		<texture name="tex_SmallMenu_BottomLeft" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_BottomLeft.dds" />
+		<texture name="tex_SmallMenu_BottomRight" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_BottomRight.dds" />
+		<texture name="tex_SmallMenu_Center" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_Center.dds" />
+		<texture name="tex_SmallMenu_Left" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_Left.dds" />
+		<texture name="tex_SmallMenu_Right" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_Right.dds" />
+		<texture name="tex_SmallMenu_Top" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_Top.dds" />
+		<texture name="tex_SmallMenu_TopLeft" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_TopLeft.dds" />
+		<texture name="tex_SmallMenu_TopRight" deferred_loading="false" protected="false" file="Textures/Hud/SmallMenu_TopRight.dds" />
+		<texture name="tex_nocityscreenshot" deferred_loading="false" protected="false" file="Textures/Icons/nocityscreenshot.dds" />
+		<texture name="tex_leaderboard_bg" deferred_loading="false" protected="false" file="Textures/Leaderboard/Leaderboard_01c.dds" />
+		<texture name="tex_leaderboard_fg" deferred_loading="false" protected="false" file="Textures/Leaderboard/Leaderboard_frame_01c.dds" />
+		<texture name="tex_leaderboard_header" deferred_loading="false" protected="false" file="Textures/Leaderboard/Leaderboard_header_01c.dds" />
+		<particle name="efx_train_rays" deferred_loading="false" protected="false" file="ATGParticles/Train_Station/train_rays.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/TrainStation/file/Network.xml" />
+		<file name="ttf_slapstick" deferred_loading="false" protected="false" file="Fonts/slapstick.ttf" />
+		<file name="ttf_brody" deferred_loading="false" protected="false" file="Fonts/BRODY.TTF" />
+		<file name="ttf_expon" deferred_loading="false" protected="false" file="Fonts/EXPON.TTF" />
+		<file name="ttf_playbill" deferred_loading="false" protected="false" file="Fonts/Playbill.ttf" />
+		<file name="ttf_DAYPBL" deferred_loading="false" protected="false" file="Fonts/DAYPBL__.ttf" />
+		<anim name="ani_Train" deferred_loading="false" protected="false" file="environments/trainstation/Train.ani" />
+		<anim name="ani_HomeTycoon_logo" deferred_loading="false" protected="false" file="environments/trainstation/HomeTycoon_logo.ani" />
+		<anim name="ani_Bear_Idle_Anim" deferred_loading="false" protected="false" file="Models/animals/bear/Bear_Idle_Anim.ani" />
+		<skeleton name="skn_Train" deferred_loading="false" protected="false" file="environments/trainstation/Train.skn" />
+		<skeleton name="skn_HomeTycoon_logo" deferred_loading="false" protected="false" file="environments/trainstation/HomeTycoon_logo.skn" />
+		<skeleton name="skn_Bear_Idle_Anim" deferred_loading="false" protected="false" file="Models/animals/bear/Bear_Idle_Anim.skn" />
+		<soundbank name="bnk_HT_UI" deferred_loading="false" protected="false" file="Audio/SFX/HT_UI.bnk" />
+		<soundstream name="mp3_TrainStation" deferred_loading="false" protected="false" file="Audio/Music/TrainStationFullLoopable.mp3" />
+		<soundstream name="mp3_Driving" deferred_loading="false" protected="false" file="Audio/Music/Driving3_Loopable_Faster.mp3" />
+		<soundstream name="mp3_GloboDyne" deferred_loading="false" protected="false" file="Audio/Music/GloboDyneFullLoopable.mp3" />
+		<soundstream name="mp3_Neutral" deferred_loading="false" protected="false" file="Audio/Music/NeutralWalkingFullLoopable.mp3" />
+		<soundstream name="mp3_PlannerMode" deferred_loading="false" protected="false" file="Audio/Music/PlanningModeFullLoopable.mp3" />
+		<soundstream name="mp3_TransUtopia" deferred_loading="false" protected="false" file="Audio/Music/TransUtopiaFullLoopable.mp3" />
+		<lua name="TrainStation.lua" deferred_loading="false" protected="true" file="Scripts/TrainStation/TrainStation.lua" />
+		<lua name="Callback.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Callback.lua" />
+		<lua name="class.lua" deferred_loading="false" protected="true" file="Scripts/Misc/class.lua" />
+		<lua name="Debug.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Debug.lua" />
+		<lua name="Events.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Events.lua" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Globals.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="Scripts/Misc/List.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Math.lua" />
+		<lua name="Music.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Music.lua" />
+		<lua name="Serialization.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Serialization.lua" />
+		<lua name="Sound.lua" deferred_loading="false" protected="true" file="Scripts/Misc/Sound.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="Scripts/Misc/StateMachine.lua" />
+		<lua name="GridWindow.lua" deferred_loading="false" protected="true" file="Scripts/GUI/GridWindow.lua" />
+		<lua name="Layout.lua" deferred_loading="false" protected="true" file="Scripts/GUI/Layout.lua" />
+		<lua name="Menu.lua" deferred_loading="false" protected="true" file="Scripts/GUI/Menu.lua" />
+		<lua name="Window.lua" deferred_loading="false" protected="true" file="Scripts/GUI/Window.lua" />
+		<lua name="MayorsDesk.lua" deferred_loading="false" protected="true" file="Scripts/GUI/MayorsDesk.lua" />
+		<lua name="HomeTownServer.lua" deferred_loading="false" protected="true" file="Scripts/HomeTown/HomeTownServer.lua" />
+		<lua name="Postcard.lua" deferred_loading="false" protected="true" file="Scripts/HomeTown/Postcard.lua" />
+		<lua name="CityNavigator.lua" deferred_loading="false" protected="true" file="Scripts/GUI/CityNavigator.lua" />
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="Scripts/Misc/AsyncCommandJobManager.lua" />
+	</local>
+	<external />
+</resources>

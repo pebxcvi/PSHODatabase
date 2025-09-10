@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/model/hummingbirds_Hi.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/model/hummingbirds_Lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/MythAvatarPhoenix/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/fidle.ani" memory="host" />
+		<anim name="beast_idle.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/Hummingbirds_Idle.ani" memory="host" />
+		<anim name="beast_run.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/Hummingbirds_Run.ani" />
+		<anim name="beast_walk.ani" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/anim/Hummingbirds_Walk.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/skeleton/hummingbirds_Hi.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Swarm_of_Hummingbirds/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Swarm_of_Hummingbirds/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

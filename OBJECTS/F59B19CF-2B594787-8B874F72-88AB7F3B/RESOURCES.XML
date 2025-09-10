@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="AuroraReLocater.mdl" deferred_loading="false" protected="false" file="Re_locater/AuroraReLocater.mdl" />
+		<particle name="PinkSmokeStack.efx" deferred_loading="false" protected="false" file="Re_locater/Particles/PinkSmokeStack.efx" />
+		<collision name="AuroraReLocater.hkx" deferred_loading="false" protected="false" file="Re_locater/AuroraReLocater.hkx" />
+		<anim name="AuroraReLocater.ani" deferred_loading="false" protected="false" file="Re_locater/AuroraReLocater.ani" />
+		<skeleton name="AuroraReLocater.skn" deferred_loading="false" protected="false" file="Re_locater/AuroraReLocater.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/AuroraTeleporter/lua/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

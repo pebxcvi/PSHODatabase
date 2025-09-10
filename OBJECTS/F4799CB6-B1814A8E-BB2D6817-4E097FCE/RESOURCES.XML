@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Mini_Tank2.mdl" deferred_loading="true" protected="false" file="animatedmodels/mini_tank/Mini_Tank2_Russian.mdl" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Russian_Tank/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Russian_Tank/file/config.xml" memory="host" />
+		<anim name="Mini_Tank2_idle.ani" deferred_loading="true" protected="false" file="animatedmodels/mini_tank/Mini_Tank2_idle.ani" />
+		<anim name="Mini_Tank2_run.ani" deferred_loading="true" protected="false" file="animatedmodels/mini_tank/Mini_Tank2_run.ani" memory="host" />
+		<anim name="Mini_Tank2_walk.ani" deferred_loading="true" protected="false" file="animatedmodels/mini_tank/Mini_Tank2_walk.ani" />
+		<anim name="fetank_sitting.ani" deferred_loading="true" protected="false" file="animation/female/fetank_sitting_/fetank_sitting.ani" memory="host" />
+		<anim name="tank_sitting.ani" deferred_loading="true" protected="false" file="animation/male/tank_sitting/tank_sitting.ani" memory="host" />
+		<skeleton name="Mini_Tank2.skn" deferred_loading="true" protected="false" file="animatedmodels/mini_tank/Mini_Tank2.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Russian_Tank/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Russian_Tank/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Russian_Tank/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Russian_Tank/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Russian_Tank/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

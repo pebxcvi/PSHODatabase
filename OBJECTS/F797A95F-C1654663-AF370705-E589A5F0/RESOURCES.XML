@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/critter_tombstone/CRITTER_Tombstone.mdl" />
+		<model name="CRITTER_Ghostling.mdl" deferred_loading="false" protected="false" file="MiniGames/heavy_critters/CRITTER_Ghostling.mdl" />
+		<particle name="ghostAura.efx" deferred_loading="false" protected="false" file="MiniGames/heavy_critters/EFX/ghostAura.efx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/critter_tombstone/CRITTER_Tombstone.hkx" />
+		<collision name="safe_volume" deferred_loading="false" protected="false" file="furniture/critter_tombstone/CRITTER_Tombstone.safevolume.hkx" />
+		<anim name="CRITTER_Ghostling.ani" deferred_loading="false" protected="false" file="MiniGames/heavy_critters/CRITTER_Ghostling.ani" />
+		<skeleton name="CRITTER_Ghostling.skn" deferred_loading="false" protected="false" file="MiniGames/heavy_critters/CRITTER_Ghostling.skn" />
+		<lua name="RoamingPet_Ghostling.lua" deferred_loading="false" protected="true" file="MiniGames/heavy_critters/RoamingPet_Ghostling.lua" />
+	</local>
+	<external />
+</resources>

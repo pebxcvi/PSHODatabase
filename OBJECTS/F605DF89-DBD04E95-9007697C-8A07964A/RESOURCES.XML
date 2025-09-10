@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Kappa01.mdl" deferred_loading="false" protected="false" file="companion_follower/Kappa01/model/Kappa01.mdl" memory="host" />
+		<model name="Kappa02.mdl" deferred_loading="false" protected="false" file="companion_follower/kappa02/model/Kappa02.mdl" memory="host" />
+		<model name="Kappa03.mdl" deferred_loading="false" protected="false" file="companion_follower/kappa03/model/Kappa03.mdl" memory="host" />
+		<model name="Greys01.mdl" deferred_loading="false" protected="false" file="companion_follower/Greys01/model/Greys01.mdl" memory="host" />
+		<model name="Lion01.mdl" deferred_loading="false" protected="false" file="companion_follower/Lion01/model/Lion01.mdl" memory="host" />
+		<model name="Dragon01.mdl" deferred_loading="false" protected="false" file="companion_follower/Dragon01/model/Dragon01.mdl" memory="host" />
+		<model name="oni01.mdl" deferred_loading="false" protected="false" file="companion_follower/oni01/model/oni01.mdl" memory="host" />
+		<model name="oni02.mdl" deferred_loading="false" protected="false" file="companion_follower/oni02/model/oni02.mdl" memory="host" />
+		<model name="oni03.mdl" deferred_loading="false" protected="false" file="companion_follower/oni03/model/oni03.mdl" memory="host" />
+		<model name="oni04.mdl" deferred_loading="false" protected="false" file="companion_follower/oni04/model/oni04.mdl" memory="host" />
+		<model name="Kappa01_nusi01.mdl" deferred_loading="false" protected="false" file="companion_follower/kappa01_nusi01/model/Kappa01_nusi01.mdl" memory="host" />
+		<model name="Koinobori01.mdl" deferred_loading="false" protected="false" file="companion_follower/koinobori01/model/Koinobori01.mdl" memory="host" />
+		<model name="Koinobori02.mdl" deferred_loading="false" protected="false" file="companion_follower/koinobori02/model/Koinobori02.mdl" memory="host" />
+		<model name="Kama01.mdl" deferred_loading="false" protected="false" file="companion_follower/kama01/model/Kama01.mdl" memory="host" />
+		<model name="Kama02.mdl" deferred_loading="false" protected="false" file="companion_follower/Kama02/model/Kama02.mdl" memory="host" />
+		<model name="Rainboy01.mdl" deferred_loading="false" protected="false" file="companion_follower/rainboy01/model/Rainboy01.mdl" memory="host" />
+		<model name="Rainboy02.mdl" deferred_loading="false" protected="false" file="companion_follower/rainboy02/model/Rainboy02.mdl" memory="host" />
+		<model name="oni01_nusi01.mdl" deferred_loading="false" protected="false" file="companion_follower/oni01_nusi01/model/oni01_nusi01.mdl" memory="host" />
+		<model name="Hina01.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/hina01/model/Hina01.mdl" memory="host" />
+		<model name="Hina02.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/hina02/model/Hina02.mdl" memory="host" />
+		<model name="Hinezumi01.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi01/model/Hinezumi01.mdl" memory="host" />
+		<model name="Hinezumi02.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi02/model/Hinezumi02.mdl" memory="host" />
+		<model name="Karasu01.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/karasu01/model/Karasu01.mdl" memory="host" />
+		<model name="Karasu02.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/karasu02/model/Karasu02.mdl" memory="host" />
+		<model name="Tuti01.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/tuti01/model/Tuti01.mdl" memory="host" />
+		<model name="Dragon01_nusi01.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/dragon01_nusi01/model/Dragon01_nusi01.mdl" memory="host" />
+		<model name="Koinobori01_Nusi01.mdl" deferred_loading="false" protected="false" file="CompanionFollowers/koinobori01_nusi01/model/Koinobori01_Nusi01.mdl" memory="host" />
+		<texture name="select_bar.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/select_bar.dds" memory="host" />
+		<texture name="select_bar_top.dds" deferred_loading="false" protected="false" file="MiniGames/FishingServer/texture/select_bar_top.dds" memory="host" />
+		<texture name="thumbnails.png" deferred_loading="false" protected="false" file="thumbnails/thumbnails.png" memory="host" />
+		<texture name="Kappa01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kappa01_S.png" memory="host" />
+		<texture name="Kappa02_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kappa02_S.png" memory="host" />
+		<texture name="Kappa03_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kappa03_S.png" memory="host" />
+		<texture name="Greys01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Greys01_S.png" memory="host" />
+		<texture name="Lion01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Lion01_S.png" memory="host" />
+		<texture name="Dragon01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Dragon01_S.png" memory="host" />
+		<texture name="oni04_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni04_S.png" memory="host" />
+		<texture name="oni01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni01_S.png" memory="host" />
+		<texture name="oni02_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni02_S.png" memory="host" />
+		<texture name="oni03_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni03_S.png" memory="host" />
+		<texture name="KappaNushi01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/KappaNushi01_S.png" memory="host" />
+		<texture name="portable_icon01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/portable_icon01.dds" memory="host" />
+		<texture name="Kama01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kama01_S.png" memory="host" />
+		<texture name="Kama02_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Kama02_S.png" memory="host" />
+		<texture name="Koinobori01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Koinobori01_S.png" memory="host" />
+		<texture name="Koinobori02_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/Koinobori02_S.png" memory="host" />
+		<texture name="Rainboy01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/rainboy01_S.png" memory="host" />
+		<texture name="Rainboy02_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/rainboy02_S.png" memory="host" />
+		<texture name="oni01_nusi01_S.png" deferred_loading="false" protected="false" file="thumbnails/companion_follower/oni01_nusi01_S.png" memory="host" />
+		<texture name="Hina01_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hina01_S.png" memory="host" />
+		<texture name="Hina02_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hina02_S.png" memory="host" />
+		<texture name="Hinezumi01_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hinezumi01_S.png" memory="host" />
+		<texture name="Hinezumi02_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Hinezumi02_S.png" memory="host" />
+		<texture name="Karasu01_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Karasu01_S.png" memory="host" />
+		<texture name="Karasu02_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Karasu02_S.png" memory="host" />
+		<texture name="Tuti01_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Tuti01_S.png" memory="host" />
+		<texture name="PT_icon.dds" deferred_loading="false" protected="false" file="EmbeddedObjects/receptionist/Texture/PT_icon.dds" memory="host" />
+		<texture name="Pet_hunger01.dds" deferred_loading="false" protected="false" file="RealTimeGames/RtGame/texture/Pet_hunger01.dds" memory="host" />
+		<texture name="Dragon01_nusi01_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Dragon01_nusi01_S.png" memory="host" />
+		<texture name="Koinobori01_Nusi01_S.png" deferred_loading="false" protected="false" file="thumbnails/CompanionFollowers/Koinobori01_Nusi01_S.png" memory="host" />
+		<texture name="Travel_bg001.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_bg001.dds" memory="host" />
+		<texture name="Travel_bg002.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_bg002.dds" memory="host" />
+		<texture name="Travel_bg003.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_bg003.dds" memory="host" />
+		<texture name="Travel_bg004.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_bg004.dds" memory="host" />
+		<texture name="Travel_obj_Treasure01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Treasure01.dds" memory="host" />
+		<texture name="Travel_obj_Treasure02.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Treasure02.dds" memory="host" />
+		<texture name="Travel_obj_Treasure03.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Treasure03.dds" memory="host" />
+		<texture name="Travel_obj_Treasure04.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Treasure04.dds" memory="host" />
+		<texture name="Travel_screen01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_screen01.dds" memory="host" />
+		<texture name="Race_skill_window.dds" deferred_loading="false" protected="false" file="RealTimeGames/RtGame/texture/Race_skill_window.dds" memory="host" />
+		<texture name="Pet_Dragon01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Dragon01_S.dds" memory="host" />
+		<texture name="Pet_Greys01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Greys01_S.dds" memory="host" />
+		<texture name="Pet_Kama01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Kama01_S.dds" memory="host" />
+		<texture name="Pet_Koinobori01_Nusi01_L.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Koinobori01_Nusi01_L.dds" memory="host" />
+		<texture name="Pet_Koinobori01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Koinobori01_S.dds" memory="host" />
+		<texture name="Pet_Lion01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Lion01_S.dds" memory="host" />
+		<texture name="Pet_oni01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_oni01_S.dds" memory="host" />
+		<texture name="Pet_oni02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_oni02_S.dds" memory="host" />
+		<texture name="Pet_Rainboy01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Rainboy01_S.dds" memory="host" />
+		<texture name="Travel_hit01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_hit01.dds" memory="host" />
+		<texture name="Travel_icon01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_icon01.dds" memory="host" />
+		<texture name="Travel_icon02.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_icon02.dds" memory="host" />
+		<texture name="Travel_icon03.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_icon03.dds" memory="host" />
+		<texture name="Travel_obj_Gate01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Gate01.dds" memory="host" />
+		<texture name="Travel_obj_Gate02.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Gate02.dds" memory="host" />
+		<texture name="Travel_obj_Quake01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Quake01.dds" memory="host" />
+		<texture name="Travel_obj_Rock01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Rock01.dds" memory="host" />
+		<texture name="Travel_obj_Rock02.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Rock02.dds" memory="host" />
+		<texture name="Travel_text001.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_text001.dds" memory="host" />
+		<texture name="Travel_text002.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_text002.dds" memory="host" />
+		<texture name="Travel_text003.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_text003.dds" memory="host" />
+		<texture name="Skill_icon_st_confusion.dds" deferred_loading="false" protected="false" file="RealTimeGames/RtGame/texture/Skill_icon_st_confusion.dds" memory="host" />
+		<texture name="Skill_icon_st_downmove.dds" deferred_loading="false" protected="false" file="RealTimeGames/RtGame/texture/Skill_icon_st_downmove.dds" memory="host" />
+		<texture name="Skill_icon_st_tiredness.dds" deferred_loading="false" protected="false" file="RealTimeGames/RtGame/texture/Skill_icon_st_tiredness.dds" memory="host" />
+		<texture name="Travel_obj_Wind01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_obj_Wind01.dds" memory="host" />
+		<texture name="Result_plate_Travel_JA.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Result_plate_Travel_JA.dds" memory="host" />
+		<texture name="Pet_Tuti01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Tuti01_S.dds" memory="host" />
+		<texture name="Pet_Dragon01_nusi01_L.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Dragon01_nusi01_L.dds" memory="host" />
+		<texture name="Pet_Kappa03_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Kappa03_S.dds" memory="host" />
+		<texture name="Pet_Hina01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Hina01_S.dds" memory="host" />
+		<texture name="Pet_oni01_nusi01_L.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_oni01_nusi01_L.dds" memory="host" />
+		<texture name="Pet_KappaNushi01_L.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_KappaNushi01_L.dds" memory="host" />
+		<texture name="Pet_Rainboy02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Rainboy02_S.dds" memory="host" />
+		<texture name="Pet_Karasu01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Karasu01_S.dds" memory="host" />
+		<texture name="Pet_Koinobori02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Koinobori02_S.dds" memory="host" />
+		<texture name="Pet_oni04_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_oni04_S.dds" memory="host" />
+		<texture name="Pet_Kappa02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Kappa02_S.dds" memory="host" />
+		<texture name="Pet_Kappa01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Kappa01_S.dds" memory="host" />
+		<texture name="Pet_Kama02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Kama02_S.dds" memory="host" />
+		<texture name="Pet_Hinezumi02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Hinezumi02_S.dds" memory="host" />
+		<texture name="Pet_Hinezumi01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Hinezumi01_S.dds" memory="host" />
+		<texture name="Pet_Hina02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Hina02_S.dds" memory="host" />
+		<texture name="Pet_Karasu02_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_Karasu02_S.dds" memory="host" />
+		<texture name="Pet_oni03_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_oni03_S.dds" memory="host" />
+		<texture name="Enemy01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy01.dds" memory="host" />
+		<texture name="Enemy02.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy02.dds" memory="host" />
+		<texture name="Enemy03.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy03.dds" memory="host" />
+		<texture name="Enemy04.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy04.dds" memory="host" />
+		<texture name="Enemy05.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy05.dds" memory="host" />
+		<texture name="Enemy06.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy06.dds" memory="host" />
+		<texture name="Enemy07.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy07.dds" memory="host" />
+		<texture name="Enemy08.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy08.dds" memory="host" />
+		<texture name="Enemy09.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy09.dds" memory="host" />
+		<texture name="Enemy10.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy10.dds" memory="host" />
+		<texture name="Travel_pet_shadow01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_pet_shadow01.dds" memory="host" />
+		<texture name="Travel_pet_shadow02.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_pet_shadow02.dds" memory="host" />
+		<texture name="Pet_hero_kappa01_S.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Pet_hero_kappa01_S.dds" />
+		<texture name="Travel_black_screen01.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Travel_black_screen01.dds" />
+		<texture name="Result_level_up.dds" deferred_loading="false" protected="false" file="RealTimeGames/RtGame/texture/Result_level_up.dds" />
+		<texture name="Enemy11.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy11.dds" />
+		<texture name="Enemy12.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy12.dds" />
+		<texture name="Enemy13.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy13.dds" />
+		<texture name="Enemy14.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy14.dds" />
+		<texture name="Enemy15.dds" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/Enemy15.dds" />
+		<texture name="thum_hero_kappa01_MG.png" deferred_loading="false" protected="false" file="MiniGames/PictureBook/Texture/thum_hero_kappa01_MG.png" />
+		<file name="type.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/type.xml" />
+		<file name="osd_SelectWindowEx.xml" deferred_loading="false" protected="false" file="EmbeddedObjects/receptionist/OSD/osd_SelectWindowEx.xml" />
+		<file name="osd_SelectItem.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_SelectPet.xml" />
+		<file name="osd_MessageWindow.xml" deferred_loading="false" protected="false" file="EmbeddedObjects/receptionist/OSD/osd_MessageWindow.xml" />
+		<file name="osd_SelectWindow.xml" deferred_loading="false" protected="false" file="EmbeddedObjects/receptionist/OSD/osd_SelectWindow.xml" />
+		<file name="osd_PictureBookSelectItem.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_PictureBookSelectItem.xml" />
+		<file name="osd_PictureBookContent.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_PictureBookContent.xml" />
+		<file name="osd_PopupWindow.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_PopupWindow.xml" />
+		<file name="osd_PetStatusWindow.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_PetStatusWindow.xml" />
+		<file name="osd_ShopDerbyPointView.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_ShopDerbyPointView.xml" />
+		<file name="osd_SelectSimpleItem.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_SelectSimpleItem.xml" />
+		<file name="osd_SelectSimpleWindow.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_SelectSimpleWindow.xml" />
+		<file name="PetEquipList.xml" deferred_loading="false" protected="false" file="MiniGames/PetCommon/file/PetEquipList.xml" />
+		<file name="osd_TravelArea.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_TravelArea.xml" />
+		<file name="osd_AreaGrp.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_AreaGrp.xml" />
+		<file name="osd_ViewMsgWindow.xml" deferred_loading="false" protected="false" file="MiniGames/PictureBook/file/osd_ViewMsgWindow.xml" />
+		<anim name="Kappa01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/Kappa01/anim/Kappa01_walk.ani" />
+		<anim name="Kappa01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/Kappa01/anim/Kappa01_idle1.ani" />
+		<anim name="Kappa01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/Kappa01/anim/Kappa01_idle2.ani" />
+		<anim name="Kappa01_run.ani" deferred_loading="false" protected="false" file="companion_follower/Kappa01/anim/Kappa01_run.ani" />
+		<anim name="Kappa02_walk.ani" deferred_loading="false" protected="false" file="companion_follower/kappa02/anim/Kappa02_walk.ani" />
+		<anim name="Kappa02_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/kappa02/anim/Kappa02_idle1.ani" />
+		<anim name="Kappa02_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/kappa02/anim/Kappa02_idle2.ani" />
+		<anim name="Kappa02_run.ani" deferred_loading="false" protected="false" file="companion_follower/kappa02/anim/Kappa02_run.ani" />
+		<anim name="Kappa03_walk.ani" deferred_loading="false" protected="false" file="companion_follower/kappa03/anim/Kappa03_walk.ani" />
+		<anim name="Kappa03_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/kappa03/anim/Kappa03_idle1.ani" />
+		<anim name="Kappa03_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/kappa03/anim/Kappa03_idle2.ani" />
+		<anim name="Kappa03_run.ani" deferred_loading="false" protected="false" file="companion_follower/kappa03/anim/Kappa03_run.ani" />
+		<anim name="Greys01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/Greys01/anim/Greys01_walk.ani" />
+		<anim name="Greys01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/Greys01/anim/Greys01_idle1.ani" />
+		<anim name="Greys01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/Greys01/anim/Greys01_idle2.ani" />
+		<anim name="Greys01_run.ani" deferred_loading="false" protected="false" file="companion_follower/Greys01/anim/Greys01_run.ani" />
+		<anim name="Lion01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/Lion01/anim/Lion01_walk.ani" />
+		<anim name="Lion01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/Lion01/anim/Lion01_idle1.ani" />
+		<anim name="Lion01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/Lion01/anim/Lion01_idle2.ani" />
+		<anim name="Lion01_run.ani" deferred_loading="false" protected="false" file="companion_follower/Lion01/anim/Lion01_run.ani" />
+		<anim name="Dragon01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/Dragon01/anim/Dragon01_walk.ani" />
+		<anim name="Dragon01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/Dragon01/anim/Dragon01_idle1.ani" />
+		<anim name="Dragon01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/Dragon01/anim/Dragon01_idle2.ani" />
+		<anim name="Dragon01_run.ani" deferred_loading="false" protected="false" file="companion_follower/Dragon01/anim/Dragon01_run.ani" />
+		<anim name="oni01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/oni01/anim/oni01_walk.ani" />
+		<anim name="oni01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/oni01/anim/oni01_idle1.ani" />
+		<anim name="oni01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/oni01/anim/oni01_idle2.ani" />
+		<anim name="oni01_run.ani" deferred_loading="false" protected="false" file="companion_follower/oni01/anim/oni01_run.ani" />
+		<anim name="oni02_walk.ani" deferred_loading="false" protected="false" file="companion_follower/oni02/anim/oni02_walk.ani" />
+		<anim name="oni02_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/oni02/anim/oni02_idle1.ani" />
+		<anim name="oni02_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/oni02/anim/oni02_idle2.ani" />
+		<anim name="oni02_run.ani" deferred_loading="false" protected="false" file="companion_follower/oni02/anim/oni02_run.ani" />
+		<anim name="oni03_walk.ani" deferred_loading="false" protected="false" file="companion_follower/oni03/anim/oni03_walk.ani" />
+		<anim name="oni03_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/oni03/anim/oni03_idle1.ani" />
+		<anim name="oni03_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/oni03/anim/oni03_idle2.ani" />
+		<anim name="oni03_run.ani" deferred_loading="false" protected="false" file="companion_follower/oni03/anim/oni03_run.ani" />
+		<anim name="oni04_run.ani" deferred_loading="false" protected="false" file="companion_follower/oni04/anim/oni04_run.ani" />
+		<anim name="oni04_walk.ani" deferred_loading="false" protected="false" file="companion_follower/oni04/anim/oni04_walk.ani" />
+		<anim name="oni04_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/oni04/anim/oni04_idle1.ani" />
+		<anim name="oni04_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/oni04/anim/oni04_idle2.ani" />
+		<anim name="Kappa01_nusi01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/kappa01_nusi01/anim/Kappa01_nusi01_walk.ani" />
+		<anim name="Kappa01_nusi01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/kappa01_nusi01/anim/Kappa01_nusi01_idle1.ani" />
+		<anim name="Kappa01_nusi01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/kappa01_nusi01/anim/Kappa01_nusi01_idle2.ani" />
+		<anim name="Kappa01_nusi01_run.ani" deferred_loading="false" protected="false" file="companion_follower/kappa01_nusi01/anim/Kappa01_nusi01_run.ani" />
+		<anim name="Koinobori01_run.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori01/anim/Koinobori01_run.ani" />
+		<anim name="Koinobori01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori01/anim/Koinobori01_walk.ani" />
+		<anim name="Koinobori01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori01/anim/Koinobori01_idle1.ani" />
+		<anim name="Koinobori01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori01/anim/Koinobori01_idle2.ani" />
+		<anim name="Koinobori02_run.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori02/anim/Koinobori02_run.ani" />
+		<anim name="Koinobori02_walk.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori02/anim/Koinobori02_walk.ani" />
+		<anim name="Koinobori02_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori02/anim/Koinobori02_idle1.ani" />
+		<anim name="Koinobori02_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/koinobori02/anim/Koinobori02_idle2.ani" />
+		<anim name="Kama01_run.ani" deferred_loading="false" protected="false" file="companion_follower/kama01/anim/Kama01_run.ani" />
+		<anim name="Kama01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/kama01/anim/Kama01_walk.ani" />
+		<anim name="Kama01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/kama01/anim/Kama01_idle1.ani" />
+		<anim name="Kama01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/kama01/anim/Kama01_idle2.ani" />
+		<anim name="Kama02_run.ani" deferred_loading="false" protected="false" file="companion_follower/Kama02/anim/Kama02_run.ani" />
+		<anim name="Kama02_walk.ani" deferred_loading="false" protected="false" file="companion_follower/Kama02/anim/Kama02_walk.ani" />
+		<anim name="Kama02_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/Kama02/anim/Kama02_idle1.ani" />
+		<anim name="Kama02_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/Kama02/anim/Kama02_idle2.ani" />
+		<anim name="Rainboy01_run.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy01/anim/Rainboy01_run.ani" />
+		<anim name="Rainboy01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy01/anim/Rainboy01_walk.ani" />
+		<anim name="Rainboy01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy01/anim/Rainboy01_idle1.ani" />
+		<anim name="Rainboy01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy01/anim/Rainboy01_idle2.ani" />
+		<anim name="Rainboy02_run.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy02/anim/Rainboy02_run.ani" />
+		<anim name="Rainboy02_walk.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy02/anim/Rainboy02_walk.ani" />
+		<anim name="Rainboy02_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy02/anim/Rainboy02_idle1.ani" />
+		<anim name="Rainboy02_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/rainboy02/anim/Rainboy02_idle2.ani" />
+		<anim name="oni01_nusi01_walk.ani" deferred_loading="false" protected="false" file="companion_follower/oni01_nusi01/anim/oni01_walk.ani" />
+		<anim name="oni01_nusi01_idle1.ani" deferred_loading="false" protected="false" file="companion_follower/oni01_nusi01/anim/oni01_nusi01_idle1.ani" />
+		<anim name="oni01_nusi01_idle2.ani" deferred_loading="false" protected="false" file="companion_follower/oni01_nusi01/anim/oni01_nusi01_idle2.ani" />
+		<anim name="oni01_nusi01_run.ani" deferred_loading="false" protected="false" file="companion_follower/oni01_nusi01/anim/oni01_run.ani" />
+		<anim name="Hina01_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina01/anim/Hina01_run.ani" />
+		<anim name="Hina01_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina01/anim/Hina01_walk.ani" />
+		<anim name="Hina01_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina01/anim/Hina01_idle1.ani" />
+		<anim name="Hina01_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina01/anim/Hina01_idle2.ani" />
+		<anim name="Hina02_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina02/anim/Hina02_run.ani" />
+		<anim name="Hina02_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina02/anim/Hina02_walk.ani" />
+		<anim name="Hina02_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina02/anim/Hina02_idle1.ani" />
+		<anim name="Hina02_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hina02/anim/Hina02_idle2.ani" />
+		<anim name="Hinezumi01_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi01/anim/Hinezumi01_run.ani" />
+		<anim name="Hinezumi01_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi01/anim/Hinezumi01_walk.ani" />
+		<anim name="Hinezumi01_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi01/anim/Hinezumi01_idle1.ani" />
+		<anim name="Hinezumi01_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi01/anim/Hinezumi01_idle2.ani" />
+		<anim name="Hinezumi02_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi02/anim/Hinezumi02_run.ani" />
+		<anim name="Hinezumi02_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi02/anim/Hinezumi02_walk.ani" />
+		<anim name="Hinezumi02_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi02/anim/Hinezumi02_idle1.ani" />
+		<anim name="Hinezumi02_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi02/anim/Hinezumi02_idle2.ani" />
+		<anim name="Karasu01_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu01/anim/Karasu01_run.ani" />
+		<anim name="Karasu01_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu01/anim/Karasu01_walk.ani" />
+		<anim name="Karasu01_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu01/anim/Karasu01_idle1.ani" />
+		<anim name="Karasu01_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu01/anim/Karasu01_idle2.ani" />
+		<anim name="Karasu02_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu02/anim/Karasu02_run.ani" />
+		<anim name="Karasu02_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu02/anim/Karasu02_walk.ani" />
+		<anim name="Karasu02_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu02/anim/Karasu02_idle1.ani" />
+		<anim name="Karasu02_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/karasu02/anim/Karasu02_idle2.ani" />
+		<anim name="Tuti01_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/tuti01/anim/Tuti01_run.ani" />
+		<anim name="Tuti01_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/tuti01/anim/Tuti01_walk.ani" />
+		<anim name="Tuti01_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/tuti01/anim/Tuti01_idle1.ani" />
+		<anim name="Tuti01_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/tuti01/anim/Tuti01_idle2.ani" />
+		<anim name="Dragon01_nusi01_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/dragon01_nusi01/anim/Dragon01_nusi01_idle1.ani" />
+		<anim name="Dragon01_nusi01_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/dragon01_nusi01/anim/Dragon01_nusi01_idle2.ani" />
+		<anim name="Dragon01_nusi01_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/dragon01_nusi01/anim/Dragon01_nusi01_run.ani" />
+		<anim name="Dragon01_nusi01_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/dragon01_nusi01/anim/Dragon01_nusi01_walk.ani" />
+		<anim name="Koinobori01_Nusi01_idle1.ani" deferred_loading="false" protected="false" file="CompanionFollowers/koinobori01_nusi01/anim/Koinobori01_Nusi01_idle1.ani" />
+		<anim name="Koinobori01_Nusi01_idle2.ani" deferred_loading="false" protected="false" file="CompanionFollowers/koinobori01_nusi01/anim/Koinobori01_Nusi01_idle2.ani" />
+		<anim name="Koinobori01_Nusi01_run.ani" deferred_loading="false" protected="false" file="CompanionFollowers/koinobori01_nusi01/anim/Koinobori01_Nusi01_run.ani" />
+		<anim name="Koinobori01_Nusi01_walk.ani" deferred_loading="false" protected="false" file="CompanionFollowers/koinobori01_nusi01/anim/Koinobori01_Nusi01_walk.ani" />
+		<skeleton name="Kappa01.skn" deferred_loading="false" protected="false" file="companion_follower/Kappa01/skeleton/Kappa01.skn" />
+		<skeleton name="Kappa02.skn" deferred_loading="false" protected="false" file="companion_follower/kappa02/skeleton/Kappa02.skn" />
+		<skeleton name="Kappa03.skn" deferred_loading="false" protected="false" file="companion_follower/kappa03/skeleton/Kappa03.skn" />
+		<skeleton name="Greys01.skn" deferred_loading="false" protected="false" file="companion_follower/Greys01/skeleton/Greys01.skn" />
+		<skeleton name="Lion01.skn" deferred_loading="false" protected="false" file="companion_follower/Lion01/skeleton/Lion01.skn" />
+		<skeleton name="Dragon01.skn" deferred_loading="false" protected="false" file="companion_follower/Dragon01/skeleton/Dragon01.skn" />
+		<skeleton name="oni01.skn" deferred_loading="false" protected="false" file="companion_follower/oni01/skeleton/oni01.skn" />
+		<skeleton name="oni02.skn" deferred_loading="false" protected="false" file="companion_follower/oni02/skeleton/oni02.skn" />
+		<skeleton name="oni03.skn" deferred_loading="false" protected="false" file="companion_follower/oni03/skeleton/oni03.skn" />
+		<skeleton name="oni04.skn" deferred_loading="false" protected="false" file="companion_follower/oni04/skeleton/oni04.skn" />
+		<skeleton name="Kappa01_nusi01.skn" deferred_loading="false" protected="false" file="companion_follower/kappa01_nusi01/skeleton/Kappa01_nusi01.skn" />
+		<skeleton name="Koinobori01.skn" deferred_loading="false" protected="false" file="companion_follower/koinobori01/skeleton/Koinobori01.skn" />
+		<skeleton name="Koinobori02.skn" deferred_loading="false" protected="false" file="companion_follower/koinobori02/skeleton/Koinobori02.skn" />
+		<skeleton name="Kama01.skn" deferred_loading="false" protected="false" file="companion_follower/kama01/skeleton/Kama01.skn" />
+		<skeleton name="Kama02.skn" deferred_loading="false" protected="false" file="companion_follower/Kama02/skeleton/Kama02.skn" />
+		<skeleton name="Rainboy01.skn" deferred_loading="false" protected="false" file="companion_follower/rainboy01/skeleton/Rainboy01.skn" />
+		<skeleton name="Rainboy02.skn" deferred_loading="false" protected="false" file="companion_follower/rainboy02/skeleton/Rainboy02.skn" />
+		<skeleton name="oni01_nusi01.skn" deferred_loading="false" protected="false" file="companion_follower/oni01_nusi01/skeleton/oni01_nusi01.skn" />
+		<skeleton name="Hina01.skn" deferred_loading="false" protected="false" file="CompanionFollowers/hina01/skeleton/Hina01.skn" />
+		<skeleton name="Hina02.skn" deferred_loading="false" protected="false" file="CompanionFollowers/hina02/skeleton/Hina02.skn" />
+		<skeleton name="Hinezumi01.skn" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi01/skeleton/Hinezumi01.skn" />
+		<skeleton name="Hinezumi02.skn" deferred_loading="false" protected="false" file="CompanionFollowers/hinezumi02/skeleton/Hinezumi02.skn" />
+		<skeleton name="Karasu01.skn" deferred_loading="false" protected="false" file="CompanionFollowers/karasu01/skeleton/Karasu01.skn" />
+		<skeleton name="Karasu02.skn" deferred_loading="false" protected="false" file="CompanionFollowers/karasu02/skeleton/Karasu02.skn" />
+		<skeleton name="Tuti01.skn" deferred_loading="false" protected="false" file="CompanionFollowers/tuti01/skeleton/Tuti01.skn" />
+		<skeleton name="Dragon01_nusi01.skn" deferred_loading="false" protected="false" file="CompanionFollowers/dragon01_nusi01/skeleton/Dragon01_nusi01.skn" />
+		<skeleton name="Koinobori01_Nusi01.skn" deferred_loading="false" protected="false" file="CompanionFollowers/koinobori01_nusi01/skeleton/Koinobori01_Nusi01.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/MiniGame.lua" />
+		<lua name="NPCMessageWindow.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/NPCMessageWindow.lua" />
+		<lua name="NPCSelectWindowBase.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/NPCSelectWindowBase.lua" />
+		<lua name="NPCSelectWindow.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/NPCSelectWindow.lua" />
+		<lua name="NPCSelectWindowEx.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/NPCSelectWindowEx.lua" />
+		<lua name="NPCSelectSimpleWindow.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/Lua/NPCSelectSimpleWindow.lua" />
+		<lua name="NPCPetStatusWindow.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/NPCPetStatusWindow.lua" />
+		<lua name="DataAccessDef.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccessDef.lua" />
+		<lua name="DataAccessCore.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccessCore.lua" />
+		<lua name="DataAccess.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccess.lua" />
+		<lua name="NPC.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/NPC.lua" />
+		<lua name="PurpleKappa.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/PurpleKappa.lua" />
+		<lua name="TimeCounter.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/TimeCounter.lua" />
+		<lua name="utility.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/utility.lua" />
+		<lua name="PictureBook.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/PictureBook.lua" />
+		<lua name="PictureBookPet.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/PictureBookPet.lua" />
+		<lua name="FadeEffect.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/FadeEffect.lua" />
+		<lua name="def_cmn.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_cmn.lua" />
+		<lua name="def_object.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_object.lua" />
+		<lua name="func_cmn.lua" deferred_loading="false" protected="true" file="luacommon/lua/func_cmn.lua" />
+		<lua name="PetCommon.lua" deferred_loading="false" protected="true" file="MiniGames/PetCommon/lua/PetCommon.lua" />
+		<lua name="PetSkillList.lua" deferred_loading="false" protected="true" file="MiniGames/PetCommon/lua/PetSkillList.lua" />
+		<lua name="def_pet.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_pet.lua" />
+		<lua name="DataAccessDerby.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/DataAccessDerby.lua" />
+		<lua name="def_catch.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_catch.lua" />
+		<lua name="def_bait.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_bait.lua" />
+		<lua name="def_purple.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/def_purple.lua" />
+		<lua name="ServerAccessPurple.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/ServerAccessPurple.lua" />
+		<lua name="ServerAccessCore.lua" deferred_loading="false" protected="true" file="MiniGames/DataAccessCmn/lua/ServerAccessCore.lua" />
+		<lua name="def_objservsav.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_objservsav.lua" />
+		<lua name="PurpleTravel.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/PurpleTravel.lua" />
+		<lua name="draw2d.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/draw2d.lua" />
+		<lua name="FadeDraw.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/FadeDraw.lua" />
+		<lua name="SoundAccess.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/receptionist/Lua/SoundAccess.lua" />
+		<lua name="def_objsnd.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/def_objsnd.lua" />
+		<lua name="TravelView.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/TravelView.lua" />
+		<lua name="def_travelinfo.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/def_travelinfo.lua" />
+		<lua name="def_travel.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_travel.lua" />
+		<lua name="DataAccessHelper.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/DataAccessHelper.lua" />
+		<lua name="def_derby.lua" deferred_loading="false" protected="true" file="luacommon/lua/def_derby.lua" />
+		<lua name="view_box.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/view_box.lua" />
+		<lua name="ViewCtrl.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/ViewCtrl.lua" />
+		<lua name="view_block.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/view_block.lua" />
+		<lua name="view_npc.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/view_npc.lua" />
+		<lua name="view_sleep.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/view_sleep.lua" />
+		<lua name="view_goal.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/view_goal.lua" />
+		<lua name="view_breeze.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/view_breeze.lua" />
+		<lua name="view_fight.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/view_fight.lua" />
+		<lua name="EvTblWork.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/EvTblWork.lua" />
+		<lua name="AnimCtrl.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/AnimCtrl.lua" />
+		<lua name="TravelResult.lua" deferred_loading="false" protected="true" file="MiniGames/PictureBook/lua/TravelResult.lua" />
+		<lua name="legend.lua" deferred_loading="false" protected="true" file="luacommon/lua/legend.lua" />
+		<lua name="linear.lua" deferred_loading="false" protected="true" file="MiniGames/FishingServer/lua/linear.lua" />
+		<lua name="MesCommon.lua" deferred_loading="false" protected="true" file="MiniGames/ServerSave/lua/MesCommon.lua" />
+	</local>
+	<external />
+</resources>

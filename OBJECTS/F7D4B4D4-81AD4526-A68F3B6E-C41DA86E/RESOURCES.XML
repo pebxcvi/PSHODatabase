@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/littledragon/models/dragon_cage/LittleDragonCage.mdl" />
+		<model name="LittleDragon.mdl" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/LittleDragon.mdl" />
+		<particle name="flame.efx" deferred_loading="false" protected="false" file="ActiveItems/littledragon/ATGParticles/flame.efx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/littledragon/models/dragon_cage/LittleDragonCage.hkx" />
+		<anim name="CommJune_LittleDragon_Hovering.ani" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/anims/CommJune_LittleDragon_Hovering.ani" />
+		<anim name="CommJune_LittleDragon_Landing.ani" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/anims/CommJune_LittleDragon_Landing.ani" />
+		<anim name="CommJune_LittleDragon_StandingIdle.ani" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/anims/CommJune_LittleDragon_StandingIdle.ani" />
+		<anim name="CommJune_LittleDragon_TakeOff.ani" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/anims/CommJune_LittleDragon_TakeOff.ani" />
+		<anim name="CommJune_LittleDragon_BreathingFire.ani" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/anims/CommJune_LittleDragon_BreathingFire.ani" />
+		<anim name="CommJune_LittleDragon_Feeding.ani" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/anims/CommJune_LittleDragon_Feeding.ani" />
+		<skeleton name="LittleDragon.skn" deferred_loading="false" protected="false" file="ActiveItems/littledragon/models/LittleDragon.skn" />
+		<soundbank name="dragon_audio.bnk" deferred_loading="false" protected="false" file="ActiveItems/littledragon/dragon_audio.bnk" />
+		<lua name="dragon.lua" deferred_loading="false" protected="true" file="ActiveItems/littledragon/dragon.lua" />
+	</local>
+	<external />
+</resources>

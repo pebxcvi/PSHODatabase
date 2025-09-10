@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/commmay_evolvingplant/CommMay_EvolvingPlant.mdl" />
+		<model name="CommMay_EvolvingPlantFlower_Stage1.mdl" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage1.mdl" />
+		<model name="CommMay_EvolvingPlantFlower_Stage2.mdl" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage2.mdl" />
+		<model name="CommMay_EvolvingPlantFlower_Stage3.mdl" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage3.mdl" />
+		<model name="CommMay_EvolvingPlantFlower_Stage4.mdl" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage4.mdl" />
+		<model name="CommMay_EvolvingPlantFlower_Stage5.mdl" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage5.mdl" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="furniture/commmay_evolvingplant/blank.dds" />
+		<particle name="pollen.efx" deferred_loading="false" protected="false" file="ATGParticles/Custom/Efx/pollen.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/commmay_evolvingplant/Network.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/commmay_evolvingplant/CommMay_EvolvingPlant.hkx" />
+		<anim name="CommMay_EvolvingPlantFlower_Stage1.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage1.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Stage2.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage2.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Stage3.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage3.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Stage4.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage4.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Stage5.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage5.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Grow1.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Grow1.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Grow2.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Grow2.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Grow4.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Grow4.ani" />
+		<anim name="CommMay_EvolvingPlantFlower_Grow3.ani" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Grow3.ani" />
+		<skeleton name="CommMay_EvolvingPlantFlower_Stage5.skn" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage5.skn" />
+		<skeleton name="CommMay_EvolvingPlantFlower_Stage1.skn" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage1.skn" />
+		<skeleton name="CommMay_EvolvingPlantFlower_Stage2.skn" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage2.skn" />
+		<skeleton name="CommMay_EvolvingPlantFlower_Stage3.skn" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage3.skn" />
+		<skeleton name="CommMay_EvolvingPlantFlower_Stage4.skn" deferred_loading="false" protected="false" file="environmentanimations/commmay_evolvingplantanim/CommMay_EvolvingPlantFlower_Stage4.skn" />
+		<lua name="MiracleGrow.lua" deferred_loading="false" protected="true" file="furniture/commmay_evolvingplant/MiracleGrow.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="furniture/commmay_evolvingplant/MyPad.lua" />
+	</local>
+	<external />
+</resources>

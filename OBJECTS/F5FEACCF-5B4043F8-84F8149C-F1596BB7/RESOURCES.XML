@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Clock.mdl" deferred_loading="false" protected="false" file="furniture/stafurn_017_clock_08/Body_Blue.mdl" memory="host" />
+		<model name="HourHand.mdl" deferred_loading="false" protected="false" file="furniture/stafurn_017_clock_08/Hour.mdl" memory="host" />
+		<model name="MinHand.mdl" deferred_loading="false" protected="false" file="furniture/stafurn_017_clock_08/Min.mdl" memory="host" />
+		<collision name="Clock.hkx" deferred_loading="false" protected="false" file="furniture/stafurn_017_clock_08/Body.hkx" memory="host" />
+		<anim name="Cuckoo.ani" deferred_loading="false" protected="false" file="furniture/stafurn_017_clock_08/cuckoo.ani" />
+		<skeleton name="Cuckoo.skn" deferred_loading="false" protected="false" file="furniture/stafurn_017_clock_08/Body.skn" />
+		<soundbank name="sounds" deferred_loading="true" protected="false" file="MiniGames/Clock/clockSoundsCuckoo.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Clock/lua/MiniGame.luac" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="MiniGames/Clock/lua/Game.luac" memory="host" />
+		<lua name="Sound.lua" deferred_loading="true" protected="true" file="MiniGames/Clock/lua/Sound.luac" memory="host" />
+	</local>
+	<external />
+</resources>

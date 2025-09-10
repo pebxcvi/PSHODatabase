@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" file="companion_follower/Dragon_Year_Mercenary_Woman/model/DragonYearMercenaryW.mdl" memory="host" />
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="companion_follower/Dragon_Year_Mercenary_Woman/file/configuration.xml" />
+		<anim name="walk" deferred_loading="false" protected="false" file="companion_follower/Dragon_Year_Mercenary_Woman/anim/walk.ani" memory="main" />
+		<anim name="idle3" deferred_loading="false" protected="false" file="companion_follower/Dragon_Year_Mercenary_Woman/anim/idle3.ani" memory="host" />
+		<anim name="idle1" deferred_loading="false" protected="false" file="companion_follower/Dragon_Year_Mercenary_Woman/anim/idle1.ani" memory="host" />
+		<anim name="idle2" deferred_loading="false" protected="false" file="companion_follower/Dragon_Year_Mercenary_Woman/anim/idle2.ani" memory="host" />
+		<anim name="run" deferred_loading="false" protected="false" file="companion_follower/Dragon_Year_Mercenary_Woman/anim/run.ani" memory="main" />
+		<skeleton name="skeleton" deferred_loading="false" protected="false" file="companion_follower/Dragon_Year_Mercenary_Woman/skeleton/DragonYearMercenaryW.skn" memory="main" />
+		<lua name="scriptremote.lua" deferred_loading="true" protected="true" file="companion_follower/Dragon_Year_Mercenary_Woman/lua/scriptremote.luac" id="217002282" />
+		<lua name="script.lua" deferred_loading="false" protected="true" file="companion_follower/Dragon_Year_Mercenary_Woman/lua/script.luac" memory="main" id="2428944273" />
+		<lua name="xml.lua" deferred_loading="false" protected="true" file="companion_follower/Dragon_Year_Mercenary_Woman/lua/xml.luac" memory="main" id="146193299" />
+		<lua name="scriptlocal.lua" deferred_loading="true" protected="true" file="companion_follower/Dragon_Year_Mercenary_Woman/lua/scriptlocal.luac" id="3209855585" />
+	</local>
+	<external />
+</resources>
