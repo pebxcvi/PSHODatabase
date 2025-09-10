@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/stpatricks/models/CommDec_StPatPot.mdl" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/boombox_songlist.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/Network.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/OSD/types.xml" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/OSD/textbox.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/stpatricks/models/CommDec_StPatPot.hkx" />
+		<soundstream name="2_The_King_Of_The_Fairies.mp3" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/sound/2_The_King_Of_The_Fairies.mp3" />
+		<soundstream name="1_The_Choice_Wife.mp3" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/sound/1_The_Choice_Wife.mp3" />
+		<soundstream name="3_Set_Dance.mp3" deferred_loading="false" protected="false" file="ActiveItems/2011/soundgroup/stpatricks/sound/3_Set_Dance.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/2011/soundgroup/stpatricks/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="ActiveItems/2011/soundgroup/stpatricks/programming/Boombox.lua" />
+	</local>
+	<external />
+</resources>

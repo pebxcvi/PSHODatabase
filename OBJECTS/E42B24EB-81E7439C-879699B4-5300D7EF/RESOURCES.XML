@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Model.mdl" deferred_loading="false" protected="false" file="companion_follower/Zombie_Cat/model/Model.mdl" />
+    <model name="pethouse_nipper.mdl" deferred_loading="false" protected="false" file="furniture/pethouse_nipper/pethouse_nipper.mdl" />
+    <file name="config.xml" deferred_loading="false" protected="false" file="Actives/Autom/file/config_Nipper.xml" />
+    <collision name="pethouse_nipper.hkx" deferred_loading="false" protected="false" file="furniture/pethouse_nipper/pethouse_nipper.hkx" />
+    <collision name="sphere.hkx" deferred_loading="false" protected="false" file="Actives/Autom/file/sphere.hkx" />
+    <collision name="SafeVolume.hkx" deferred_loading="false" protected="false" file="furniture/pethouse_nipper/SafeVolume.hkx" />
+    <anim name="idle1.ani" deferred_loading="false" protected="false" file="companion_follower/Zombie_Cat/anim/idle1.ani" />
+    <anim name="idle2.ani" deferred_loading="false" protected="false" file="companion_follower/Zombie_Cat/anim/idle2.ani" />
+    <anim name="idle3.ani" deferred_loading="false" protected="false" file="companion_follower/Zombie_Cat/anim/idle3.ani" />
+    <anim name="walk.ani" deferred_loading="false" protected="false" file="companion_follower/Zombie_Cat/anim/walk.ani" />
+    <skeleton name="Model.skn" deferred_loading="false" protected="false" file="companion_follower/Zombie_Cat/model/Model.skn" />
+    <soundbank name="CreatureSoundBank" deferred_loading="false" protected="false" file="Actives/Autom/file/Nipper.bnk" />
+    <lua name="Active.lua" deferred_loading="false" protected="true" file="actives/autom/lua/active.luac" />
+    <lua name="SingleAutomaton.lua" deferred_loading="false" protected="true" file="actives/autom/lua/singleautomaton.luac" />
+    <lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="actives/autom/lua/coroutinemanager.luac" />
+    <lua name="ConfigLoader.lua" deferred_loading="false" protected="true" file="actives/autom/lua/configloader.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="scripts/libs/utility.luac" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="teleporter.mdl" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/teleporter.mdl" />
+		<model name="teleporter_cylinder.mdl" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/teleporter_cylinder.mdl" />
+		<texture name="mg04_button_selected.dds" deferred_loading="false" protected="false" file="MiniGames/MG04/Textures/mg04_button_selected.dds" />
+		<texture name="mg04_button_unselected.dds" deferred_loading="false" protected="false" file="MiniGames/MG04/Textures/mg04_button_unselected.dds" />
+		<texture name="mg04_seperator.dds" deferred_loading="false" protected="false" file="MiniGames/MG04/Textures/mg04_seperator.dds" />
+		<particle name="teleport_particles.efx" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/Particles/teleport_particles.efx" />
+		<file name="Button.xml" deferred_loading="false" protected="false" file="MiniGames/MG04/OSD/Button.xml" />
+		<file name="ButtonPanel.xml" deferred_loading="false" protected="false" file="MiniGames/MG04/OSD/ButtonPanel.xml" />
+		<file name="MainPanel.xml" deferred_loading="false" protected="false" file="MiniGames/MG04/OSD/MainPanel.xml" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/MG04/OSD/types.xml" />
+		<collision name="teleporter.hkx" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/teleporter.hkx" />
+		<anim name="teleporter.ani" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/teleporter.ani" />
+		<anim name="teleporter_cylinder.ani" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/teleporter_cylinder.ani" />
+		<skeleton name="teleporter.skn" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/teleporter.skn" />
+		<skeleton name="teleporter_cylinder.skn" deferred_loading="false" protected="false" file="MiniGames/MG04/Models/teleporter_cylinder.skn" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Network.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Settings.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Player.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Audio.lua" />
+		<lua name="Teleporter.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Teleporter.lua" />
+		<lua name="OnScreenDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/OnScreenDisplay.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG04/Source/Camera.lua" />
+	</local>
+	<external />
+</resources>

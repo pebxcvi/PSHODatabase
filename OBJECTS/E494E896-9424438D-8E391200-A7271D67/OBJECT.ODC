@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.82.0.17.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>E494E896-9424438D-8E391200-A7271D67</uuid>
+  <name lang="en-GB" default="true">Castle Durrant</name>
+  <name lang="fr-FR" default="false">Château Durrant</name>
+  <name lang="de-DE" default="false">Schloss Durrant</name>
+  <name lang="it-IT" default="false">Castello Durrant</name>
+  <name lang="es-ES" default="false">Castillo Durrant</name>
+  <description lang="en-GB" default="true">An understated residence for aspiring nobility to call their own. A perfect place to relax and hold out against the siege of life. [#Legal]</description>
+  <description lang="fr-FR" default="false">Un petit pied-à-terre pour les aspirants à la noblesse qui cherchent un toit. L'endroit idéal pour se détendre et se protéger des assauts de la vie. [#Legal]</description>
+  <description lang="de-DE" default="false">Eine dezente Residenz für aufstrebende Edelleute. Der perfekte Ort, um sich auszuruhen und der Belagerung des Lebens standzuhalten. [#Legal]</description>
+  <description lang="it-IT" default="false">Sobria residenza ideale per aspiranti nobili. Un posto perfetto per rilassarsi e resistere agli assedi del mondo esterno. [#Legal]</description>
+  <description lang="es-ES" default="false">Una residencia infravalorada para todo aspirante a noble que se precie. Un lugar perfecto para relajarse y evadirse del asedio de la vida. [#Legal]</description>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T035.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T035.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T035.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">Castle_DA_8953</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat />
+  <timestamp>E431C6A4</timestamp>
+</odc>

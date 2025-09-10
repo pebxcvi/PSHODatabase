@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="reticle.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/reticle.mdl" />
+		<model name="ToyStory_Dart.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/ToyStory_Dart.mdl" />
+		<model name="Scoreboard.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard.mdl" />
+		<model name="popupScore_num_9.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_9.mdl" />
+		<model name="popupScore_BG.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_BG.mdl" />
+		<model name="popupScore_num_0.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_0.mdl" />
+		<model name="popupScore_num_1.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_1.mdl" />
+		<model name="popupScore_num_2.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_2.mdl" />
+		<model name="popupScore_num_3.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_3.mdl" />
+		<model name="popupScore_num_4.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_4.mdl" />
+		<model name="popupScore_num_5.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_5.mdl" />
+		<model name="popupScore_num_6.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_6.mdl" />
+		<model name="popupScore_num_7.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_7.mdl" />
+		<model name="popupScore_num_8.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/popupScore_num_8.mdl" />
+		<model name="Scoreboard_dart.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_dart.mdl" />
+		<model name="Scoreboard_num_0.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_0.mdl" />
+		<model name="Scoreboard_num_1.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_1.mdl" />
+		<model name="Scoreboard_num_2.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_2.mdl" />
+		<model name="Scoreboard_num_3.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_3.mdl" />
+		<model name="Scoreboard_num_4.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_4.mdl" />
+		<model name="Scoreboard_num_5.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_5.mdl" />
+		<model name="Scoreboard_num_6.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_6.mdl" />
+		<model name="Scoreboard_num_7.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_7.mdl" />
+		<model name="Scoreboard_num_8.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_8.mdl" />
+		<model name="Scoreboard_num_9.mdl" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard_num_9.mdl" />
+		<texture name="Darts_OSD_c.dds" deferred_loading="false" protected="false" file="MiniGames/MG03/Textures/Darts_OSD_c.dds" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/MG03/OSD/types.xml" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/StartUpDialog.xml" />
+		<file name="osd_MiniGameHud.xml" deferred_loading="false" protected="false" file="MiniGames/MG03/OSD/MiniGameHud.xml" />
+		<collision name="Scoreboard.hkx" deferred_loading="false" protected="false" file="MiniGames/MG03/Models/Scoreboard.hkx" />
+		<anim name="male_dart_hold.ani" deferred_loading="false" protected="false" file="animation/male/dart_hold/dart_hold.ani" />
+		<anim name="male_dart_pickup.ani" deferred_loading="false" protected="false" file="animation/male/dart_pickup/dart_pickup.ani" />
+		<anim name="male_dart_throw.ani" deferred_loading="false" protected="false" file="animation/male/dart_throw/dart_throw.ani" />
+		<anim name="female_dart_hold.ani" deferred_loading="false" protected="false" file="animation/female/dart_hold/dart_hold.ani" />
+		<anim name="female_dart_pickup.ani" deferred_loading="false" protected="false" file="animation/female/dart_pickup/dart_pickup.ani" />
+		<anim name="female_dart_throw.ani" deferred_loading="false" protected="false" file="animation/female/dart_throw/dart_throw.ani" />
+		<repertoire name="male_animations" deferred_loading="false" protected="false" file="MiniGames/MG03/male_animations.xml" />
+		<repertoire name="female_animations" deferred_loading="false" protected="false" file="MiniGames/MG03/female_animations.xml" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG03/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG03/Source/Network.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG03/Source/Settings.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG03/Source/Player.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG03/Source/Camera.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/MG03/Source/Math.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG03/Source/Audio.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+	</local>
+	<external />
+</resources>

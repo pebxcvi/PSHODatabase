@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.80.0.53.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>E51BDFA1-1F5A4A0F-AE805D9F-35BCCCF3</uuid>
+  <name lang="en-GB" default="true">Football</name>
+  <name lang="fr-FR" default="false">Ballon de football</name>
+  <name lang="de-DE" default="false">Fußball</name>
+  <name lang="it-IT" default="false">Pallone da Calcio</name>
+  <name lang="es-ES" default="false">Balón de fútbol</name>
+  <name lang="en-US" default="false">Soccer Ball</name>
+  <description lang="en-GB" default="true">A ball to kick around. It is a reward from the SeaClyff Retreat personal space. This is an interactive active object item. [#Legal]</description>
+  <description lang="fr-FR" default="false">Un ballon dans lequel on peut taper du pied. C'est une récompense de l'espace personnel SeaClyff Refuge. Il s'agit d'un objet actif interactif. [#Legal]</description>
+  <description lang="de-DE" default="false">Ein Ball zum Herumkicken. Du erhältst ihn als Belohnung im persönlichen Raum "Rückzugsort an der Meeresklippe". Dies ist ein interaktiver, aktiver Gegenstand. [#Legal]</description>
+  <description lang="it-IT" default="false">Una palla da calciare. È un premio dallo spazio personale del Seaclyff Retreat. È un oggetto attivo interattivo. [#Legal]</description>
+  <description lang="es-ES" default="false">Un balón al que dar patadas. Es un premio del espacio personal del Refugio SeaClyff. Es un artículo-objeto interactivo activo. [#Legal]</description>
+  <maker lang="en-GB" default="true">Game Mechanics</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T032.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T032.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T032.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat>
+    <main>2</main>
+    <host>2</host>
+    <vram>1</vram>
+    <ppu>2</ppu>
+    <net>1</net>
+  </heat>
+  <timestamp>9479BED3</timestamp>
+</odc>

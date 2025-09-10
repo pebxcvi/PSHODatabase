@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="sweep.mdl" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_sweep.mdl" memory="host" />
+		<model name="setter.mdl" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_setter.mdl" memory="host" />
+		<model name="pin.mdl" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_pin.mdl" memory="host" />
+		<model name="ball.mdl" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_ball.mdl" memory="host" />
+		<model name="guide.mdl" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_guide.mdl" memory="host" />
+		<model name="arrow.mdl" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_arrow.mdl" memory="host" />
+		<texture name="effect" deferred_loading="true" file="MiniGames/LuaBowling/res/radial.dds" />
+		<texture name="gametype1" deferred_loading="false" file="MiniGames/LuaBowling/osd/bowlingIcon.dds" />
+		<texture name="dot" deferred_loading="false" file="MiniGames/LuaBowling/Textures/dot.dds" />
+		<texture name="left" deferred_loading="false" file="MiniGames/LuaBowling/osd/left.png" />
+		<texture name="right" deferred_loading="false" file="MiniGames/LuaBowling/osd/right.png" />
+		<texture name="centre" deferred_loading="false" file="MiniGames/LuaBowling/osd/centre.png" />
+		<texture name="topleft" deferred_loading="false" file="MiniGames/LuaBowling/osd/topleft.png" />
+		<texture name="top" deferred_loading="false" file="MiniGames/LuaBowling/osd/top.png" />
+		<texture name="topright" deferred_loading="false" file="MiniGames/LuaBowling/osd/topright.png" />
+		<texture name="bottomleft" deferred_loading="false" file="MiniGames/LuaBowling/osd/bottomleft.png" />
+		<texture name="bottom" deferred_loading="false" file="MiniGames/LuaBowling/osd/bottom.png" />
+		<texture name="bottomright" deferred_loading="false" file="MiniGames/LuaBowling/osd/bottomright.png" />
+		<texture name="white" deferred_loading="false" file="MiniGames/LuaBowling/osd/white.png" />
+		<texture name="bowlingball" deferred_loading="false" file="MiniGames/LuaBowling/osd/bowlingBall.dds" />
+		<texture name="ball" deferred_loading="false" file="MiniGames/LuaBowling/osd/ballHUD.dds" />
+		<texture name="pinUp" deferred_loading="false" file="MiniGames/LuaBowling/osd/fullPinHUD.dds" />
+		<texture name="pinDn" deferred_loading="false" file="MiniGames/LuaBowling/osd/emptyPinHUD.dds" />
+		<texture name="player1" deferred_loading="false" file="MiniGames/LuaBowling/osd/playerBlue.dds" />
+		<texture name="player2" deferred_loading="false" file="MiniGames/LuaBowling/osd/playerRed.dds" />
+		<texture name="player3" deferred_loading="false" file="MiniGames/LuaBowling/osd/playerYellow.dds" />
+		<texture name="player4" deferred_loading="false" file="MiniGames/LuaBowling/osd/playerPurple.dds" />
+		<texture name="UpArrow" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/osd/topArrow.dds" />
+		<texture name="DownArrow" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/osd/downArrow.dds" />
+		<texture name="player0" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/osd/playerEmpty.dds" />
+		<collision name="pin.hkx" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_pin.hkx" memory="host" />
+		<collision name="ball.hkx" deferred_loading="false" file="MiniGames/LuaBowling/res/lb_ball.hkx" memory="host" />
+		<collision name="sweep.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_sweep.hkx" memory="host" />
+		<collision name="lb_gutter.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_gutter.hkx" memory="host" />
+		<collision name="lb_lane.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_lane.hkx" memory="host" />
+		<collision name="lb_dry_lane.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_dry_lane.hkx" memory="host" />
+		<collision name="lb_oil_lane.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_oil_lane.hkx" memory="host" />
+		<collision name="lb_pitback.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_pitback.hkx" memory="host" />
+		<collision name="lb_pitfloor.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_pitfloor.hkx" memory="host" />
+		<collision name="lb_pitfront.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_pitfront.hkx" memory="host" />
+		<collision name="lb_wall.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_wall.hkx" memory="host" />
+		<collision name="lb_roof.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/lb_roof.hkx" memory="host" />
+		<collision name="game_col.hkx" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/game_col.hkx" memory="host" />
+		<anim name="M_Idle" deferred_loading="false" file="Animation_V4/male/B_M_01.ani" memory="host" />
+		<anim name="M_StepLeft" deferred_loading="false" file="Animation_V4/male/B_M_02.ani" memory="host" />
+		<anim name="M_StepRight" deferred_loading="false" file="Animation_V4/male/B_M_03.ani" memory="host" />
+		<anim name="M_Bowl" deferred_loading="false" file="Animation_V4/male/B_M_04.ani" memory="host" />
+		<anim name="M_Celebrate1" deferred_loading="false" file="Animation_V4/male/B_M_05.ani" memory="host" />
+		<anim name="M_Celebrate2" deferred_loading="false" file="Animation_V4/male/B_M_06.ani" memory="host" />
+		<anim name="M_Celebrate3" deferred_loading="false" file="Animation_V4/male/B_M_07.ani" memory="host" />
+		<anim name="M_Disappoint1" deferred_loading="false" file="Animation_V4/male/BU_M_03.ani" memory="host" />
+		<anim name="M_Disappoint2" deferred_loading="false" file="Animation_V4/male/BU_M_04.ani" memory="host" />
+		<anim name="M_Disappoint3" deferred_loading="false" file="Animation_V4/male/BU_M_05.ani" memory="host" />
+		<anim name="F_Idle" deferred_loading="false" file="Animation_V4/female/B_F_01.ani" memory="host" />
+		<anim name="F_StepLeft" deferred_loading="false" file="Animation_V4/female/B_F_02.ani" memory="host" />
+		<anim name="F_StepRight" deferred_loading="false" file="Animation_V4/female/B_F_03.ani" memory="host" />
+		<anim name="F_Bowl" deferred_loading="false" file="Animation_V4/female/B_F_04.ani" memory="host" />
+		<anim name="F_Celebrate1" deferred_loading="false" file="Animation_V4/female/B_F_05.ani" memory="host" />
+		<anim name="F_Celebrate2" deferred_loading="false" file="Animation_V4/female/B_F_06.ani" memory="host" />
+		<anim name="F_Celebrate3" deferred_loading="false" file="Animation_V4/female/B_F_07.ani" memory="host" />
+		<anim name="F_Disappoint1" deferred_loading="false" file="Animation_V4/female/BU_F_03.ani" memory="host" />
+		<anim name="F_Disappoint2" deferred_loading="false" file="Animation_V4/female/BU_F_04.ani" memory="host" />
+		<anim name="F_Disappoint3" deferred_loading="false" file="Animation_V4/female/BU_F_05.ani" memory="host" />
+		<soundbank name="audio" deferred_loading="false" protected="false" file="MiniGames/LuaBowling/res/bowling.bnk" memory="host" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" file="MiniGames/LuaBowling/res/Male_BowlingRepertoire.xml" memory="host" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" file="MiniGames/LuaBowling/res/Female_BowlingRepertoire.xml" memory="host" />
+		<lua name="game.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/game.lua" memory="host" />
+		<lua name="gsm.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/gsm.lua" memory="host" />
+		<lua name="manager.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/manager.lua" memory="host" />
+		<lua name="menu.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/menu.lua" memory="host" />
+		<lua name="mod_idle.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/mod_idle.lua" memory="host" />
+		<lua name="mod_lobby.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/mod_lobby.lua" memory="host" />
+		<lua name="mod_practice.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/mod_practice.lua" memory="host" />
+		<lua name="mod_tenpin.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/mod_tenpin.lua" memory="host" />
+		<lua name="msg.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/msg.lua" memory="host" />
+		<lua name="osd.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/osd.lua" memory="host" />
+		<lua name="players.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/players.lua" memory="host" />
+		<lua name="settings.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/settings.lua" memory="host" />
+		<lua name="sim.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/sim.lua" memory="host" />
+		<lua name="turn.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/turn.lua" memory="host" />
+		<lua name="user.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/user.lua" memory="host" />
+		<lua name="util.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/util.lua" memory="host" />
+		<lua name="card.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/card.lua" memory="host" />
+		<lua name="score.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/score.lua" memory="host" />
+		<lua name="camera.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/camera.lua" memory="host" />
+		<lua name="replay.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/replay.lua" memory="host" />
+		<lua name="world.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/world.lua" memory="host" />
+		<lua name="focus.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/focus.lua" memory="host" />
+		<lua name="visibility.lua" deferred_loading="false" protected="true" file="MiniGames/LuaBowling/script/visibility.lua" memory="host" />
+		<lua name="testbed.lua" deferred_loading="true" protected="true" file="MiniGames/LuaBowling/script/testbed.lua" memory="host" />
+		<lua name="PostScore.lua" deferred_loading="false" protected="true" file="libs/util/PostScore.lua" memory="host" />
+	</local>
+	<external />
+</resources>

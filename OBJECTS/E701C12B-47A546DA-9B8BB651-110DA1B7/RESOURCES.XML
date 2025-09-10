@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="RoofCeiling_Openup2.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_Openup2.mdl" memory="main" />
+		<model name="Blinds_topf1.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/Blinds_topf1.mdl" memory="main" />
+		<model name="Blinds_topf2.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/Blinds_topf2.mdl" memory="main" />
+		<model name="RoofCeiling_Closed.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_Closed.mdl" memory="main" />
+		<model name="RoofCeiling_locking.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_locking.mdl" memory="main" />
+		<model name="RoofCeiling_Openup1.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_Openup1.mdl" memory="main" />
+		<model name="RINGLIGHT_MID.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RINGLIGHT_MID.mdl" memory="main" />
+		<model name="RingLight_White.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RingLight_White.mdl" memory="main" />
+		<model name="LightRing_BasePool.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/LightRing_BasePool.mdl" memory="main" />
+		<model name="LightRing_MidFloor.mdl" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/LightRing_MidFloor.mdl" memory="main" />
+		<texture name="CubeLightMid.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/CubeLightMid.dds" memory="main" />
+		<texture name="CubeLightTop.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/textures/CubeLightTop.dds" memory="main" />
+		<anim name="RoofCeiling_Openup2.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_Openup2.ani" memory="main" />
+		<anim name="Blinds_topf1.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/Blinds_topf1.ani" memory="main" />
+		<anim name="Blinds_topf2.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/Blinds_topf2.ani" memory="main" />
+		<anim name="RoofCeiling_locking.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_locking.ani" memory="main" />
+		<anim name="RoofCeiling_Openup1.ani" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_Openup1.ani" memory="main" />
+		<skeleton name="RoofCeiling_Openup2.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_Openup2.skn" memory="main" />
+		<skeleton name="Blinds_topf1.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/Blinds_topf1.skn" memory="main" />
+		<skeleton name="Blinds_topf2.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/Blinds_topf2.skn" memory="main" />
+		<skeleton name="RoofCeiling_locking.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_locking.skn" memory="main" />
+		<skeleton name="RoofCeiling_Openup1.skn" deferred_loading="false" protected="false" file="environments/loot_space_apartment/assets/RoofCeiling_Openup1.skn" memory="main" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/SA_Environment/lua/MiniGame.luac" memory="main" />
+		<lua name="blinds_main.lua" deferred_loading="false" protected="true" file="MiniGames/SA_Environment/lua/blinds_main.luac" memory="main" />
+		<lua name="ceiling_main.lua" deferred_loading="false" protected="true" file="MiniGames/SA_Environment/lua/ceiling_main.luac" memory="main" />
+		<lua name="lighting_main.lua" deferred_loading="false" protected="true" file="MiniGames/SA_Environment/lua/lighting_main.luac" memory="main" />
+	</local>
+	<external />
+</resources>

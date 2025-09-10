@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="TEX_title_00" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/title.dds" />
+		<texture name="TEX_background" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/background.dds" />
+		<texture name="TEX_selectground" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/selectground.dds" />
+		<texture name="TEX_prize_00" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/prize00.dds" memory="main" />
+		<texture name="TEX_prize_01" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/prize01.dds" memory="main" />
+		<texture name="TEX_prize_02" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/prize02.dds" memory="main" />
+		<texture name="TEX_character" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/character.dds" />
+		<texture name="TEX_bullet" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/shell.dds" />
+		<texture name="TEX_enemy" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/enemy.dds" />
+		<texture name="TEX_game_clear" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/game_clear.dds" />
+		<texture name="TEX_game_over" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/game_over.dds" />
+		<texture name="TEX_manual" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/manual.dds" />
+		<texture name="TEX_game_start" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/game_start.dds" />
+		<texture name="TEX_start_01" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/start_01.dds" />
+		<texture name="TEX_start_02" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/start_02.dds" />
+		<texture name="TEX_start_03" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/start_03.dds" />
+		<texture name="TEX_block_del" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/block_delete.dds" />
+		<texture name="TEX_smoke" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/smoke.dds" />
+		<texture name="TEX_cursor" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/select_cursor.dds" />
+		<texture name="TEX_time" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/gauge.dds" />
+		<texture name="TEX_result" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/result.dds" />
+		<texture name="TEX_opening" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/opening.dds" />
+		<texture name="TEX_titletext" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/title_id.dds" />
+		<texture name="TEX_timeup" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/game_timeup.dds" />
+		<texture name="TEX_block" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/block.dds" />
+		<texture name="TEX_blast" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/blast.dds" />
+		<texture name="TEX_bullet_b" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/shell_b.dds" />
+		<texture name="TEX_opening01" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/opening01.dds" />
+		<texture name="TEX_opening02" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/opening02.dds" />
+		<texture name="TEX_opening03" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/opening03.dds" />
+		<texture name="TEX_girl_01" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/girl01.dds" />
+		<texture name="TEX_filter_w" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/white_filter.dds" />
+		<texture name="TEX_girl_02" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/girl02.dds" />
+		<texture name="TEX_girl_03" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/character/girl03.dds" />
+		<texture name="TEX_credit" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/credit.dds" />
+		<texture name="TEX_rail" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/hud/grid.dds" />
+		<texture name="TEX_continue" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/text/continue.dds" />
+		<texture name="TEX_select_filter" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/select_filter.dds" />
+		<texture name="TEX_mark" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Textures/effect/mark.dds" />
+		<soundbank name="SE_Arcade" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/Arcade_SE.bnk" />
+		<soundstream name="BGM_title" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM01.mp3" />
+		<soundstream name="BGM_select" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM02.mp3" />
+		<soundstream name="BGM_mainA" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM03.mp3" />
+		<soundstream name="BGM_mainB" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM04.mp3" />
+		<soundstream name="BGM_clear" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM06.mp3" />
+		<soundstream name="BGM_manual" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM05.mp3" />
+		<soundstream name="BGM_titleroll" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM07.mp3" />
+		<soundstream name="BGM_clearB" deferred_loading="false" protected="false" file="ArcadeGames/puzzle/Sounds/BGM08.mp3" />
+		<lua name="main" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/main.lua" />
+		<lua name="lua_title" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_title.lua" />
+		<lua name="lua_object" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_object.lua" />
+		<lua name="lua_main" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_main.lua" />
+		<lua name="lua_character" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_character.lua" />
+		<lua name="lua_unit_task" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Library/lua_unit_task.lua" />
+		<lua name="lua_scene_task" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Library/lua_scene_task.lua" />
+		<lua name="lua_pad" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Library/lua_pad.lua" />
+		<lua name="lua_func" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Library/lua_func.lua" />
+		<lua name="lua_select" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_select.lua" />
+		<lua name="lua_result" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_result.lua" />
+		<lua name="lua_enemy" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_enemy.lua" />
+		<lua name="lua_define" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_define.lua" />
+		<lua name="lua_sysObject" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_sysObject.lua" />
+		<lua name="lua_mapObject" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_mapObject.lua" />
+		<lua name="lua_opening" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_opening.lua" />
+		<lua name="lua_credit" deferred_loading="false" protected="true" file="ArcadeGames/puzzle/Lua_Source/lua_credit.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="LightMeUp_AmberLight_OFF.mdl" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Models/LightMeUp_AmberLight_OFF.mdl" />
+		<model name="LightMeUp_AmberLight_ON.mdl" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Models/LightMeUp_AmberLight_ON.mdl" />
+		<model name="LightMeUp_Booth.mdl" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Models/LightMeUp_Booth.mdl" memory="host" />
+		<model name="LightMeUp_Cursor.mdl" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Models/LightMeUp_Cursor.mdl" memory="host" />
+		<model name="LightMeUp_Face.mdl" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Models/LightMeUp_Face.mdl" memory="host" />
+		<model name="LightMeUp_Face_Win.mdl" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Models/LightMeUp_Face_Win.mdl" memory="host" />
+		<model name="ScoreDisplayBox.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayBox.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_0.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_0.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_1.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_1.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_2.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_2.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_3.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_3.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_4.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_4.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_5.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_5.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_6.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_6.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_7.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_7.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_8.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_8.mdl" memory="host" />
+		<model name="ScoreDisplayNumber_9.mdl" deferred_loading="false" protected="false" file="MiniGames/Common/Models/ScoreDisplayNumber_9.mdl" memory="host" />
+		<texture name="ammo1" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Textures/LU_OSD_Bullet_c.dds" memory="host" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" memory="host" />
+		<texture name="FreePlay" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/FreePlay.dds" memory="host" />
+		<texture name="goal1" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Textures/LU_OSD_Goal_c.dds" memory="host" />
+		<texture name="Prize1_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_01_female_THMB_128.png" memory="host" />
+		<texture name="Prize1_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_01_male_THMB_128.png" memory="host" />
+		<texture name="Prize10_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_10_female_THMB_128.png" memory="host" />
+		<texture name="Prize10_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_10_male_THMB_128.png" memory="host" />
+		<texture name="Prize2" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_02_THMB_128.png" memory="host" />
+		<texture name="Prize3_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_03_female_THMB_128.png" memory="host" />
+		<texture name="Prize3_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_03_male_THMB_128.png" memory="host" />
+		<texture name="Prize4" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_04_THMB_128.png" memory="host" />
+		<texture name="Prize5" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_05_THMB_128.png" memory="host" />
+		<texture name="Prize6_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_06_female_THMB_128.png" memory="host" />
+		<texture name="Prize6_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_06_male_THMB_128.png" memory="host" />
+		<texture name="Prize7" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_07_THMB_128.png" memory="host" />
+		<texture name="Prize8" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_08_THMB_128.png" memory="host" />
+		<texture name="Prize9_Female" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_09_female_THMB_128.png" memory="host" />
+		<texture name="Prize9_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacards/prizeplacard_05_09_male_THMB_128.png" memory="host" />
+		<texture name="scorebar" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Bar_OSD_c.dds" memory="host" />
+		<texture name="scorebox" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Box_OSD_c.dds" memory="host" />
+		<texture name="ammo2" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Textures/LU_OSD_Bullet2_c.dds" memory="host" />
+		<file name="MinigameHud.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/MinigameHud.xml" memory="host" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" memory="host" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" memory="host" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/StartUpDialog.xml" memory="host" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/WinnerDialog.xml" memory="host" />
+		<file name="types.xml" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/OSD/types.xml" memory="host" />
+		<anim name="Female_Idle" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/female/Female_Idle.ani" memory="host" />
+		<anim name="Female_Shocked" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/female/Female_Shocked.ani" memory="host" />
+		<anim name="Female_SlapButton" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/female/Female_SlapButton.ani" memory="host" />
+		<anim name="Male_Idle" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/male/Male_Idle.ani" memory="host" />
+		<anim name="Male_Shocked.ani" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/male/Male_Shocked.ani" memory="host" />
+		<anim name="Male_SlapButton" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/male/Male_SlapButton.ani" memory="host" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/Female_Animations.xml" memory="host" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/LightMeUp/Animations/Male_Animations.xml" memory="host" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Audio.lua" memory="host" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" memory="host" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Camera.lua" memory="host" />
+		<lua name="Face.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Face.lua" memory="host" />
+		<lua name="FloatingNumber.lua" deferred_loading="false" protected="true" file="MiniGames/Common/FloatingNumber.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Game.lua" memory="host" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" memory="host" />
+		<lua name="Globals.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Globals.lua" memory="host" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" memory="host" />
+		<lua name="Light.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Light.lua" memory="host" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" memory="host" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" memory="host" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" memory="host" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" memory="host" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Network.lua" memory="host" />
+		<lua name="ScoreBox.lua" deferred_loading="false" protected="true" file="MiniGames/Common/ScoreBox.lua" memory="host" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/Settings.lua" memory="host" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/LightMeUp/Source/StateMachine.lua" memory="host" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" memory="host" />
+	</local>
+	<external />
+</resources>

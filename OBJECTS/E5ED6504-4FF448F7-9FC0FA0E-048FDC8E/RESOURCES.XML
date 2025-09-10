@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="globe.mdl" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/models/globe.mdl" />
+		<model name="NorthernLights.mdl" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/models/NorthernLights.mdl" />
+		<texture name="nightsky.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/models/textures/nightsky.dds" />
+		<texture name="sky.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/models/textures/sky.dds" />
+		<texture name="caustic_0000.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0000.dds" />
+		<texture name="caustic_0001.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0001.dds" />
+		<texture name="caustic_0002.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0002.dds" />
+		<texture name="caustic_0003.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0003.dds" />
+		<texture name="caustic_0004.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0004.dds" />
+		<texture name="caustic_0005.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0005.dds" />
+		<texture name="caustic_0006.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0006.dds" />
+		<texture name="caustic_0007.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0007.dds" />
+		<texture name="caustic_0008.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0008.dds" />
+		<texture name="caustic_0009.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0009.dds" />
+		<texture name="caustic_0010.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0010.dds" />
+		<texture name="caustic_0011.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0011.dds" />
+		<texture name="caustic_0012.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0012.dds" />
+		<texture name="caustic_0013.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0013.dds" />
+		<texture name="caustic_0014.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0014.dds" />
+		<texture name="caustic_0015.dds" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Textures/caustic_0015.dds" />
+		<particle name="heavySnowWithGravity.efx" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/Effects/heavySnowWithGravity.efx" />
+		<collision name="globe.hkx" deferred_loading="false" protected="false" file="MiniGames/YachtApartment/ArcticDayNight/models/globe.hkx" />
+		<lua name="AtmosFettler.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/AtmosFettler.lua" />
+		<lua name="AtmosSetup.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/AtmosSetup.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Controller.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Jamin.lua" />
+		<lua name="Lights.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Lights.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Main.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Misc.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/NetLib.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/OHS.lua" />
+		<lua name="CausticLights.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/CausticLights.lua" />
+		<lua name="Snow.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Snow.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Math.lua" />
+		<lua name="NorthernLights.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/NorthernLights.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/YachtApartment/ArcticDayNight/Code/Playmetrix.lua" />
+	</local>
+	<external />
+</resources>
