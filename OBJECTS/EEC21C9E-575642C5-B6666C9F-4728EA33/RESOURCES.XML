@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/Card_MagicCarpet_Fly.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/Card_MagicCarpet_Idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/Card_MagicCarpet_Fly.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/anim/fidle.ani" memory="host" />
+		<anim name="Loco_MagicCarpet_Right" deferred_loading="true" protected="false" file="animation/male/loco_magiccarpet/Loco_MagicCarpet_Right.ani" />
+		<anim name="Loco_MagicCarpet_Straight" deferred_loading="true" protected="false" file="animation/male/loco_magiccarpet/Loco_MagicCarpet_Straight.ani" />
+		<anim name="Loco_MagicCarpet_Left" deferred_loading="true" protected="false" file="animation/male/loco_magiccarpet/Loco_MagicCarpet_Left.ani" />
+		<anim name="Loco_MagicCarpet_Idle" deferred_loading="true" protected="false" file="animation/male/loco_magiccarpet/Loco_MagicCarpet_Idle.ani" />
+		<anim name="LocoMagicCarpet_F_Straight" deferred_loading="true" protected="false" file="animation/female/locomagiccarpet/LocoMagicCarpet_F_Straight.ani" />
+		<anim name="LocoMagicCarpet_F_Idle" deferred_loading="true" protected="false" file="animation/female/locomagiccarpet/LocoMagicCarpet_F_Idle.ani" />
+		<anim name="LocoMagicCarpet_F_Left" deferred_loading="true" protected="false" file="animation/female/locomagiccarpet/LocoMagicCarpet_F_Left.ani" />
+		<anim name="LocoMagicCarpet_F_Right" deferred_loading="true" protected="false" file="animation/female/locomagiccarpet/LocoMagicCarpet_F_Right.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/Card_MagicCarpet_Fly.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Playing_Card_Magic_Carpet/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Playing_Card_Magic_Carpet/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

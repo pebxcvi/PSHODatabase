@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="arcade.mdl" deferred_loading="false" protected="false" file="environments/ArcadeTutorial/arcade.mdl" />
+    <texture name="worldmap_dds" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/worldmaptrans.dds" />
+    <texture name="gun" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/gun.dds" />
+    <texture name="ndlogo" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/ndlogo.dds" />
+    <texture name="logo6" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/logo6.dds" />
+    <texture name="logo1" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/logo1.dds" />
+    <texture name="logo2" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/logo2.dds" />
+    <texture name="logo3" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/logo3.dds" />
+    <texture name="logo4" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/logo4.dds" />
+    <texture name="logo5" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/logo5.dds" />
+    <texture name="city1" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/iconsCity.dds" />
+    <texture name="citycross" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/citycross.dds" />
+    <texture name="city2" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/iconsAgent.dds" />
+    <texture name="city3" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/iconsSabateur.dds" />
+    <texture name="city4" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/iconsSpyMaster.dds" />
+    <texture name="city5" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/iconsDoubleAgent.dds" />
+    <texture name="highlight" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/iconsOutline.dds" />
+    <texture name="targetcircle" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/targetcircle.dds" />
+    <texture name="bulletmenu" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/bulletmenu.dds" />
+    <texture name="bulletmenuhl" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/bulletmenuhl.dds" />
+    <texture name="biglogo6" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/biglogo6.dds" />
+    <texture name="biglogo1" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/biglogo1.dds" />
+    <texture name="biglogo2" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/biglogo2.dds" />
+    <texture name="biglogo3" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/biglogo3.dds" />
+    <texture name="biglogo4" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/biglogo4.dds" />
+    <texture name="biglogo5" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/biglogo5.dds" />
+    <texture name="cityclear" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/iconsCityClear.dds" />
+    <texture name="rewards.dds" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/rewards.dds" />
+    <texture name="scoreHolder" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/scoreHolder.dds" />
+    <texture name="commercepointbag" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/comercepointbag.dds" />
+    <file name="bankgthd" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/textures/bankgthd.ttf" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Espionage_9/file/Network.xml" />
+    <collision name="arcade.hkx" deferred_loading="false" protected="false" file="environments/ArcadeTutorial/arcade.hkx" />
+    <soundbank name="esp9sound" deferred_loading="true" protected="false" file="MiniGames/Espionage_9/esp9sound.bnk" />
+    <soundstream name="spytheme" deferred_loading="false" protected="false" file="MiniGames/Espionage_9/spytheme.mp3" />
+    <lua name="esp9main.lua" deferred_loading="false" protected="true" file="minigames/espionage_9/lua/esp9main.luac" />
+    <lua name="Server.lua" deferred_loading="false" protected="true" file="scripts/lualibs/server.luac" />
+    <lua name="PlayerServerData.lua" deferred_loading="false" protected="true" file="minigames/espionage_9/lua/playerserverdata.luac" />
+    <lua name="DeferredResource.lua" deferred_loading="false" protected="true" file="scripts/lualibs/deferredresource.luac" />
+    <lua name="Active.lua" deferred_loading="false" protected="true" file="actives/lua/active.luac" />
+  </local>
+  <external />
+</resources>

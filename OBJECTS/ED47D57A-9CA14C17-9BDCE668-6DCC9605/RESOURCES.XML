@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="RaidFactionBackground.dds" deferred_loading="false" protected="false" file="assets/FactionMinigame/RaidFactionBackground.dds" />
+		<texture name="RaidFactionIncLogo.dds" deferred_loading="false" protected="false" file="assets/FactionMinigame/RaidFactionIncLogo.dds" />
+		<texture name="RaidFactionReusLogo.dds" deferred_loading="false" protected="false" file="assets/FactionMinigame/RaidFactionReusLogo.dds" />
+		<texture name="RaidFactionWisperwyreLogo.dds" deferred_loading="false" protected="false" file="assets/FactionMinigame/RaidFactionWisperwyreLogo.dds" />
+		<texture name="RaidFactionItemBackgrounds.dds" deferred_loading="false" protected="false" file="assets/FactionMinigame/RaidFactionItemBackgrounds.dds" />
+		<texture name="RaidFactionSelectionRow.dds" deferred_loading="false" protected="false" file="assets/FactionMinigame/RaidFactionSelectionRow.dds" />
+		<texture name="ScrollIndicator.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/ScrollIndicator.dds" />
+		<texture name="SpinnerRotation.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/SpinnerRotation.dds" />
+		<texture name="AlertBarIndicator.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/HUD/AlertBarIndicator.dds" />
+		<texture name="Suitcase.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/HUD/EquippableItems/Suitcase.dds" />
+		<file name="ui_audio.bnk.xml" deferred_loading="false" protected="false" file="assets/audio/ui_audio.bnk.xml" />
+		<file name="resources.xml" deferred_loading="false" protected="false" file="objects/ED47D57A-9CA14C17-9BDCE668-6DCC9605/resourcesCopy.xml" />
+		<soundbank name="ui_audio.bnk" deferred_loading="false" protected="false" file="assets/audio/ui_audio.bnk" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/StateMachine.lua" />
+		<lua name="FactionRep.lua" deferred_loading="false" protected="true" file="MiniGames/FactionRep/FactionRep.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/FactionRep/main.lua" />
+		<lua name="ControllerController.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/ControllerController.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Utility.lua" />
+		<lua name="WebUtilities.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebUtilities.lua" />
+		<lua name="WebServiceController.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebServiceController.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Queue.lua" />
+		<lua name="XmlHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/XmlHelpers.lua" />
+		<lua name="Strings.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Strings.lua" />
+		<lua name="Hub.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Hub.lua" />
+		<lua name="Strings.lua_1" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Strings.lua" />
+	</local>
+	<external />
+</resources>

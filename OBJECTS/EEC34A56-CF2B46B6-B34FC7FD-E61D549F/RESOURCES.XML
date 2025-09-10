@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Icon_Backwards.dds" deferred_loading="false" file="MiniGames/ChangeView/Textures/Icon_Backwards.dds" />
+		<texture name="Icon_Forward.dds" deferred_loading="false" file="MiniGames/ChangeView/Textures/Icon_Forward.dds" />
+		<texture name="Icon_Play.dds" deferred_loading="false" file="MiniGames/ChangeView/Textures/Icon_Play.dds" />
+		<texture name="Icon_Pause.dds" deferred_loading="false" file="MiniGames/ChangeView/Textures/Icon_Pause.dds" />
+		<particle name="LBPStardust.efx" deferred_loading="false" file="ATGParticles/LBPEffects/Efx/LBPStardust.efx" />
+		<file name="Types.xml" deferred_loading="false" file="MiniGames/ChangeView/OSD/Types.xml" />
+		<file name="Instructions.xml" deferred_loading="false" file="MiniGames/ChangeView/OSD/Instructions.xml" />
+		<file name="ActionIcon.xml" deferred_loading="false" file="MiniGames/ChangeView/OSD/ActionIcon.xml" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/ChangeView/Network.xml" />
+		<soundbank name="SoundEffects.bnk" deferred_loading="false" file="MiniGames/ChangeView/SoundEffects.bnk" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Main.lua" />
+		<lua name="Input.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Input.lua" />
+		<lua name="Satellite.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Satellite.lua" />
+		<lua name="Helpers.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Helpers.lua" />
+		<lua name="Particle.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Particle.lua" />
+		<lua name="OnScreenDisplay.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/OnScreenDisplay.lua" />
+		<lua name="Class.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Class.lua" />
+		<lua name="Vector3.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Vector3.lua" />
+		<lua name="MotorSound.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/MotorSound.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/ChangeView/Source/Network.lua" />
+	</local>
+	<external />
+</resources>

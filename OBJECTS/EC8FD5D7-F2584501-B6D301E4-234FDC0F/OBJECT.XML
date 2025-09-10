@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.86.0.17.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">kName</name>
+		<description type="string">kDesc</description>
+		<help_text type="string"></help_text>
+		<author type="string">dave</author>
+		<object_version type="string">S3.0</object_version>
+		<company type="string">VEEMEE</company>
+		<template type="string">scene_minigame</template>
+		<template_version type="string">1.1.2</template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">KR</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">3</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+		<LPID type="string"></LPID>
+	</header>
+	<lua_environment>
+		<script type="string">Core.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string">*OnCoreListenerReceivedData</on_listener_received_data>
+		<on_destroy type="string">*OnCoreDestroy</on_destroy>
+		<on_clothing_change type="string"></on_clothing_change>
+		<senders type="list" />
+	</lua_environment>
+	<targetable>
+		<interactive type="bool">true</interactive>
+		<on_activated type="string"></on_activated>
+		<on_targeted type="string"></on_targeted>
+		<is_targetable_by_remote_people type="bool">false</is_targetable_by_remote_people>
+		<trigger_radius type="float">-1</trigger_radius>
+		<can_be_targeted_while_seated type="bool">false</can_be_targeted_while_seated>
+	</targetable>
+	<entity />
+	<particles />
+	<network>
+		<definition type="string">Network.xml</definition>
+		<on_bag_created type="string">*OnCoreBagCreated</on_bag_created>
+		<on_bag_deleted type="string">*OnCoreBagDestroyed</on_bag_deleted>
+		<on_message_received type="string">*OnCoreMessageReceived</on_message_received>
+		<auto_replicate type="bool">true</auto_replicate>
+	</network>
+	<mini_game>
+		<on_update type="string">*OnCoreUpdate</on_update>
+		<on_send_welcome_message type="string">*OnCoreSendWelcomeMessage</on_send_welcome_message>
+		<on_render type="string">*OnCoreRender</on_render>
+		<on_can_local_player_join type="string">*OnCoreCanLocalPlayerJoin</on_can_local_player_join>
+		<on_add_player type="string">*OnCoreAddPlayer</on_add_player>
+		<on_remove_player type="string">*OnCoreRemovePlayer</on_remove_player>
+		<on_local_player_join type="string">*OnCoreLocalPlayerJoin</on_local_player_join>
+		<on_local_player_leave type="string">*OnCoreLocalPlayerLeave</on_local_player_leave>
+		<on_local_player_update_gameplay type="string">*OnCoreLocalPlayerUpdate</on_local_player_update_gameplay>
+		<join_type type="string">minimal</join_type>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<session_size type="int">60</session_size>
+		<network_session type="bool">true</network_session>
+		<on_custom_exit_menu_option_selected type="string"></on_custom_exit_menu_option_selected>
+		<is_allowed_presence_broadcast type="bool">false</is_allowed_presence_broadcast>
+	</mini_game>
+	<pad />
+	<renderer />
+	<camera />
+	<light />
+	<repertoire>
+		<is_exclusive type="bool">false</is_exclusive>
+		<target_rigs type="list">
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleDummyRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleDummyRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">malePicnicRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">malePicnicRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femalePicnicRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femalePicnicRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleTrainRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleTrainRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleTrainRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleTrainRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleBikeRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleBikeRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleBikeRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleBikeRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleBoatRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleBoatRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleBoatRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleBoatRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleCoffeeRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleCoffeeRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleCoffeeRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleCoffeeRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleIceCreamRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleIceCreamRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleIceCreamRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleIceCreamRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleHotdogRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleHotdogRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleHotdogRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleHotdogRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">malePretzelRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">malePretzelRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femalePretzelRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femalePretzelRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleCandyFlossRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleCandyFlossRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleCandyFlossRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleCandyFlossRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleRCRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleRCRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleRCRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleRCRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleDiningRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleDiningRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleDiningRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleDiningRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleChestnutRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleChestnutRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleChestnutRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleChestnutRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000001</rig>
+				<repertoire_resource type="string">femaleFlowersRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">femaleFlowersRep</label>
+			</target>
+			<target type="bag">
+				<rig type="string">00000000-00000000-00000010-00000000</rig>
+				<repertoire_resource type="string">maleFlowersRep</repertoire_resource>
+				<emote_resource type="string"></emote_resource>
+				<label type="string">maleFlowersRep</label>
+			</target>
+		</target_rigs>
+		<anim_registers type="bag">
+			<max_players type="int">60</max_players>
+			<string_registers type="list" />
+			<bool_registers type="list" />
+			<number_registers type="list" />
+			<integer_registers type="list" />
+		</anim_registers>
+	</repertoire>
+	<resource_pack>
+		<is_resource_pack type="bool">false</is_resource_pack>
+		<objects type="list">
+			<object type="bag">
+				<id type="string">2505B3E6-1F874BF0-B4868114-BD42CFB8</id>
+			</object>
+			<object type="bag">
+				<id type="string">1C5DFCB2-4F2C495B-B9FC11C5-490E555B</id>
+			</object>
+			<object type="bag">
+				<id type="string">2EFA1854-A7C7431D-BB622F88-4207B70D</id>
+			</object>
+			<object type="bag">
+				<id type="string">CE8E5168-77A94D8A-96E30116-62EF21D9</id>
+			</object>
+			<object type="bag">
+				<id type="string">15CFB384-ADF84D33-A0C6E862-E3F2B2ED</id>
+			</object>
+			<object type="bag">
+				<id type="string">4DE7CE17-8A5C431A-8C086526-95C0A876</id>
+			</object>
+			<object type="bag">
+				<id type="string">4107C018-9B3F47CF-81B789B1-29727951</id>
+			</object>
+			<object type="bag">
+				<id type="string">8ACDF0AC-8835436D-9CC76EAC-5FFE86E8</id>
+			</object>
+			<object type="bag">
+				<id type="string">B6DD2311-08DF43BD-A25884EC-32C09C9F</id>
+			</object>
+			<object type="bag">
+				<id type="string">A1487D58-BC9B4F9B-8609D65D-0F10827C</id>
+			</object>
+			<object type="bag">
+				<id type="string">ABEECA8E-4C014FB2-8AE21C27-CC0D96BC</id>
+			</object>
+			<object type="bag">
+				<id type="string">67C2BB11-9799446D-8E14BA9E-EBB6D0BF</id>
+			</object>
+			<object type="bag">
+				<id type="string">8E2B140B-93ED437B-A2697E6A-A7AB16E5</id>
+			</object>
+			<object type="bag">
+				<id type="string">C8EF674E-3AD04675-AC639CC3-E90F5391</id>
+			</object>
+			<object type="bag">
+				<id type="string">54BD36FE-0E534AD9-B3336697-FBFF035B</id>
+			</object>
+			<object type="bag">
+				<id type="string">34BB0F98-53E44291-9A950189-6B929A40</id>
+			</object>
+			<object type="bag">
+				<id type="string">9FAFCEFC-6B3D4244-88B7CA46-A529B7AD</id>
+			</object>
+			<object type="bag">
+				<id type="string">643A8EA4-D7504385-AF3A74AD-392826BA</id>
+			</object>
+			<object type="bag">
+				<id type="string">6038253D-8B744A7D-BE265009-5C9D7EE1</id>
+			</object>
+			<object type="bag">
+				<id type="string">CF718976-57D64F79-B85B7AFF-B1699E76</id>
+			</object>
+			<object type="bag">
+				<id type="string">EB17FBC1-1AB848CA-B3F2CF16-44AB271F</id>
+			</object>
+			<object type="bag">
+				<id type="string">D50B1047-257C488E-BAC441AF-98A86DB2</id>
+			</object>
+			<object type="bag">
+				<id type="string">8AAB777C-7FBB4206-A9F4664F-F68B9203</id>
+			</object>
+			<object type="bag">
+				<id type="string">AD01CDB6-34E84417-9032A681-33BC30B5</id>
+			</object>
+			<object type="bag">
+				<id type="string">4C62AD7D-3C254FE1-A6433915-3934B4B8</id>
+			</object>
+			<object type="bag">
+				<id type="string">59046F1F-E3D64818-8D1B9843-EF4BC215</id>
+			</object>
+			<object type="bag">
+				<id type="string">8E790F46-682443BB-9BD3B7C6-EEA99C5E</id>
+			</object>
+			<object type="bag">
+				<id type="string">796EF573-EFC44EFB-B9C4C214-E73D25FD</id>
+			</object>
+			<object type="bag">
+				<id type="string">C6AD00CA-2172405E-85AAE93B-04BA3535</id>
+			</object>
+			<object type="bag">
+				<id type="string">616455AB-42BF4C18-B3B26CD1-FC459A75</id>
+			</object>
+			<object type="bag">
+				<id type="string">2DD7A1BC-EF6F4404-BBCE0D22-14CEA16B</id>
+			</object>
+			<object type="bag">
+				<id type="string">8C9C3D24-74BB4FDF-89C1823A-20647C78</id>
+			</object>
+			<object type="bag">
+				<id type="string">B87F8048-4BE94E78-904FA226-C08F1C73</id>
+			</object>
+			<object type="bag">
+				<id type="string">AECB5381-68B94D32-B8C7E205-B3032B84</id>
+			</object>
+			<object type="bag">
+				<id type="string">1F0768AF-F7A64A9E-82918B80-7AD78E47</id>
+			</object>
+			<object type="bag">
+				<id type="string">64359605-B13D4D68-831BEF19-6E1EA87C</id>
+			</object>
+			<object type="bag">
+				<id type="string">C0716BF3-94864BDD-9D9117E7-3DB7959B</id>
+			</object>
+			<object type="bag">
+				<id type="string">A7E3EB9B-63D74F01-ADBC81F2-9A17F8A3</id>
+			</object>
+			<object type="bag">
+				<id type="string">D897C32B-A23B49C5-89EAF292-B0C0B53D</id>
+			</object>
+			<object type="bag">
+				<id type="string">9F46CC2B-DA044A09-8E7F8720-25AA24F4</id>
+			</object>
+			<object type="bag">
+				<id type="string">81448013-8F844CB9-A5849FD0-20FC55DC</id>
+			</object>
+			<object type="bag">
+				<id type="string">7F22C34B-199C4D15-B227BDC3-7FC2F927</id>
+			</object>
+			<object type="bag">
+				<id type="string">90A8A0ED-8DAA4544-8FF2A8A1-95B7B28E</id>
+			</object>
+			<object type="bag">
+				<id type="string">B70EE843-1C7D4D4E-AD8D63B2-4B1BC9BA</id>
+			</object>
+			<object type="bag">
+				<id type="string">6C41E65D-637A4670-A8B8D9A6-AE8ABD28</id>
+			</object>
+			<object type="bag">
+				<id type="string">1D0448EC-17B44E52-B1443FE4-4FDAB547</id>
+			</object>
+			<object type="bag">
+				<id type="string">96002BD7-2CA34DDA-BBD0BF22-1FCEE889</id>
+			</object>
+			<object type="bag">
+				<id type="string">8044908A-32284F80-B24D4281-A8E3525A</id>
+			</object>
+			<object type="bag">
+				<id type="string">E5EE78F3-D6F640E7-A31D2B12-5B87B5BA</id>
+			</object>
+		</objects>
+	</resource_pack>
+</objectdef>

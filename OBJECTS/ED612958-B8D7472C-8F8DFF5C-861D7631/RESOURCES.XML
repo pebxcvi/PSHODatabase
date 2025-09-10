@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="skates.mdl" deferred_loading="false" protected="false" file="Locomotion/Ice_Skate_LMO/Ice_Skates_Green.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Ice_Skate_LMO/file/config.xml" memory="host" />
+		<anim name="F_Arabesque" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/F_Arabesque.ani" memory="host" />
+		<anim name="F_Idle" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/F_Idle.ani" memory="host" />
+		<anim name="F_Left" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/F_Left.ani" memory="host" />
+		<anim name="F_Right" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/F_Right.ani" memory="host" />
+		<anim name="F_Walk" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/F_Walk.ani" memory="host" />
+		<anim name="M_Idle" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/M_Idle.ani" memory="host" />
+		<anim name="M_Left" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/M_Left.ani" memory="host" />
+		<anim name="M_Right" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/M_Right.ani" memory="host" />
+		<anim name="M_Walk" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/M_Walk.ani" memory="host" />
+		<anim name="M_Arabesque" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/M_Arabesque.ani" memory="host" />
+		<skeleton name="skates.skn" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/Ice_Skates_Mesh.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Ice_Skate_LMO/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Ice_Skate_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

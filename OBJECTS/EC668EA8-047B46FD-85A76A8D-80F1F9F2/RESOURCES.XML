@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="buybag.mdl" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/buybag.mdl" />
+		<model name="padlock.mdl" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/padlock.mdl" />
+		<texture name="commerce_bag_standalone.dds" deferred_loading="false" protected="false" file="MiniGames/Cottage/HUDTextures/commerce_bag_standalone.dds" />
+		<texture name="button_O" deferred_loading="false" protected="false">
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" locale="ja-*" />
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" locale="zh-*" />
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" locale="ko-*" />
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" locale="en-SG" />
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" locale="en-ID" />
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" locale="en-MY" />
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" locale="en-TH" />
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" />
+		</texture>
+		<texture name="button_X" deferred_loading="false" protected="false">
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" locale="ja-*" />
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" locale="zh-*" />
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" locale="ko-*" />
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" locale="en-SG" />
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" locale="en-ID" />
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" locale="en-MY" />
+			<override file="MiniGames/Cottage/HUDTextures/button_O.dds" locale="en-TH" />
+			<override file="MiniGames/Cottage/HUDTextures/button_X.dds" />
+		</texture>
+		<collision name="buybag.hkx" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/buybag.hkx" />
+		<collision name="padlock.hkx" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/padlock.hkx" />
+		<anim name="buybag.ani" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/buybag.ani" />
+		<anim name="padlock.ani" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/padlock.ani" />
+		<skeleton name="buybag.skn" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/buybag.skn" />
+		<skeleton name="padlock.skn" deferred_loading="false" protected="false" file="MiniGames/Cottage/Models/padlock.skn" />
+		<soundstream name="CottageAmbience.mp3" deferred_loading="false" protected="false" file="MiniGames/Cottage/Sounds/WinterCottageAmbience.mp3" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Jamin.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Math.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Misc.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Playmetrix.lua" />
+		<lua name="Rewarder.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Rewarder.lua" />
+		<lua name="VidCapture.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/VidCapture.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Winter/WinterMainPublic.lua" />
+		<lua name="Trigger.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Trigger.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/Controller.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/HUDLib/HUD.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Cottage/Code/GameHud.lua" />
+	</local>
+	<external />
+</resources>

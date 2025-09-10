@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="tutorial_model" file="EnvironmentAnimations/dancebot/CH_BASE_DanceBot.mdl" deferred_loading="false" />
+		<texture name="gameInstructFrameFull_dds" file="Environments/nsirchome_skunkworks_143c_baef/Textures/gameInstructFrameFull.dds" deferred_loading="false" />
+		<file name="tutorial_lua" file="environments/nsirchome_skunkworks_143c_baef/Tutorial/tutorial.lua" deferred_loading="false" />
+		<file name="osd_types" file="environments/nsirchome_skunkworks_143c_baef/Tutorial/OSD/types.xml" deferred_loading="false" />
+		<file name="osd_tutorialpanel" file="environments/nsirchome_skunkworks_143c_baef/Tutorial/OSD/tutorialpanel.xml" deferred_loading="false" />
+		<file name="Platform_lua" file="Scripts/Platform.lua" deferred_loading="false" />
+		<anim name="tutorial_idle_anim" file="EnvironmentAnimations/dancebot/DanceBot_Idle.ani" deferred_loading="false" />
+		<skeleton name="tutorial_skeleton" file="EnvironmentAnimations/dancebot/CH_BASE_DanceBot.skn" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

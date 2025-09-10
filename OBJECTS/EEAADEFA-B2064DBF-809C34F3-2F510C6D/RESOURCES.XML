@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CUTT_pot_1.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_pot_1.mdl" />
+		<model name="CUTT_pot_2.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_pot_2.mdl" />
+		<model name="CUTT_pot_3.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_pot_3.mdl" />
+		<model name="CUTT_CharredSkull.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull.mdl" />
+		<model name="CUTT_knife_0.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_knife_0.mdl" />
+		<model name="CUTT_CharredSkull_RIG.mdl" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_RIG.mdl" />
+		<texture name="DamageSprite.dds" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/graphics/DamageSprite.dds" />
+		<texture name="whiteout.dds" deferred_loading="true" protected="false" file="furniture/winds_decorative_lounger/whiteout.dds" />
+		<texture name="CUTT_logomark.dds" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_2012_Generic/CUTT_logomark.dds" />
+		<particle name="Green_Smoke.efx" deferred_loading="true" protected="false" file="Tools/AtgParticles/Cutterridge/Green_Smoke.efx" />
+		<particle name="Red_Smoke.efx" deferred_loading="true" protected="false" file="Tools/AtgParticles/Cutterridge/Red_Smoke.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/file/Network.xml" />
+		<collision name="CUTT_pot_1.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_pot_1.hkx" />
+		<collision name="CUTT_pot_2.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_pot_2.hkx" />
+		<collision name="CUTT_pot_3.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_pot_3.hkx" />
+		<collision name="CUTT_knife_0.hkx" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/poltergeist_cookware/CUTT_knife_0.hkx" />
+		<anim name="CUTT_CharredSkull.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull.ani" />
+		<anim name="CUTT_CharredSkull_IntroAnim.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_IntroAnim.ani" />
+		<anim name="CUTT_Poltergeist_IntroCam.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_Poltergeist_IntroCam.ani" />
+		<anim name="CUTT_CharredSkull_Idle01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_Idle01.ani" />
+		<anim name="CUTT_CharredSkull_travel01.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_travel01.ani" />
+		<anim name="CUTT_CharredSkull_travel02.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_travel02.ani" />
+		<anim name="CUTT_CharredSkull_travel03.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_travel03.ani" />
+		<anim name="CUTT_CharredSkull_travel04.ani" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_travel04.ani" />
+		<anim name="Female_GrabAnim.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/anims/Female_GrabAnim.ani" />
+		<anim name="Male_GrabAnim.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/anims/Male_GrabAnim.ani" />
+		<anim name="Male_GrabStruggle.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/anims/Male_GrabStruggle.ani" />
+		<anim name="Female_GrabStruggle.ani" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/anims/Female_GrabStruggle.ani" />
+		<skeleton name="CUTT_CharredSkull.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull.skn" />
+		<skeleton name="CUTT_CornMaze_DeathCam.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CornMaze_DeathCam.skn" />
+		<skeleton name="CUTT_CharredSkull_RIG.skn" deferred_loading="true" protected="false" file="environments/cutteridge_mansion/cutt_2012/models/CUTT_CharredSkull_RIG.skn" />
+		<soundbank name="Cutteridge_2012_Poltergiest.bnk" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/Audio/Cutteridge_2012_Poltergiest.bnk" />
+		<soundstream name="KnifeHit.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/Audio/KnifeHit.mp3" />
+		<soundstream name="Cackle1.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/Audio/Cackle1.mp3" />
+		<soundstream name="Cackle2.mp3" deferred_loading="true" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/Audio/Cackle2.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/reps/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/Cutteridge_Poltergeist_Minigame/reps/female.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/MiniGame.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/Pad.luac" />
+		<lua name="State_InGame.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/State_InGame.luac" />
+		<lua name="State_Lost.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/State_Lost.luac" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/State_MainMenu.luac" />
+		<lua name="State_Won.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/State_Won.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/StateMachine.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/Utility.luac" />
+		<lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/BatchResourceLoader.luac" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/CoroutineManager.luac" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/State_Idle.luac" />
+		<lua name="State_Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/State_Intro.luac" />
+		<lua name="ItemManager.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/ItemManager.luac" />
+		<lua name="Skull.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/Skull.luac" />
+		<lua name="HideRemotePeople.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/HideRemotePeople.luac" />
+		<lua name="InventoryChecker.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_Poltergeist_Minigame/lua/InventoryChecker.luac" />
+		<lua name="State_LanternNotOwned.lua" deferred_loading="false" protected="true" file="MiniGames/Cutteridge_2012_Generic/State_LanternNotOwned.luac" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="crossbow.mdl" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/HUNT_Crossbow_RIG.mdl" memory="host" />
+		<model name="crossbow_remote.mdl" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/HUNT_Crossbow_remote_RIG.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/HUNT_Crossbow_LMO/file/config.xml" memory="host" />
+		<anim name="Female_Crossbow_FireBolt.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Female_Crossbow_FireBolt.ani" memory="host" />
+		<anim name="Female_Crossbow_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Female_Crossbow_Idle.ani" memory="main" />
+		<anim name="Female_Crossbow_Run.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Female_Crossbow_Run.ani" memory="main" />
+		<anim name="Female_Crossbow_TrackPrey.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Female_Crossbow_TrackPrey.ani" memory="host" />
+		<anim name="Female_Crossbow_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Female_Crossbow_Walk.ani" memory="host" />
+		<anim name="Male_Crossbow_FireBolt.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Male_Crossbow_FireBolt.ani" memory="host" />
+		<anim name="Male_Crossbow_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Male_Crossbow_Idle.ani" memory="main" />
+		<anim name="Male_Crossbow_Run.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Male_Crossbow_Run.ani" memory="main" />
+		<anim name="Male_Crossbow_TrackPrey.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Male_Crossbow_TrackPrey.ani" memory="host" />
+		<anim name="Male_Crossbow_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/Male_Crossbow_Walk.ani" memory="host" />
+		<anim name="crossbow_idle.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/HUNT_Crossbow_IdleAnim.ani" memory="host" />
+		<anim name="crossbow_fire.ani" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/HUNT_Crossbow_FireAnim.ani" memory="host" />
+		<skeleton name="crossbow.skn" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/HUNT_Crossbow_RIG.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/HUNT_Crossbow_LMO/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/HUNT_Crossbow_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

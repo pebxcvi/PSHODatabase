@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Casino_VideoPokerActive.mdl" deferred_loading="false" protected="false" file="furniture/casino_videopokeractive/Casino_VideoPokerActive.mdl" />
+		<texture name="C1" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/acec.dds" memory="host" />
+		<texture name="D1" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/aced.dds" memory="host" />
+		<texture name="H1" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/aceh.dds" memory="host" />
+		<texture name="S1" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/aces.dds" memory="host" />
+		<texture name="C2" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/twoc.dds" memory="host" />
+		<texture name="D2" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/twod.dds" memory="host" />
+		<texture name="H2" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/twoh.dds" memory="host" />
+		<texture name="S2" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/twos.dds" memory="host" />
+		<texture name="C3" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/threec.dds" memory="host" />
+		<texture name="D3" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/threed.dds" memory="host" />
+		<texture name="H3" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/threeh.dds" memory="host" />
+		<texture name="S3" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/threes.dds" memory="host" />
+		<texture name="C4" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fourc.dds" memory="host" />
+		<texture name="D4" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fourd.dds" memory="host" />
+		<texture name="H4" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fourh.dds" memory="host" />
+		<texture name="S4" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fours.dds" memory="host" />
+		<texture name="C5" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fivec.dds" memory="host" />
+		<texture name="D5" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fived.dds" memory="host" />
+		<texture name="H5" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fiveh.dds" memory="host" />
+		<texture name="S5" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/fives.dds" memory="host" />
+		<texture name="C6" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sixc.dds" memory="host" />
+		<texture name="D6" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sixd.dds" memory="host" />
+		<texture name="H6" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sixh.dds" memory="host" />
+		<texture name="S6" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sixs.dds" memory="host" />
+		<texture name="C7" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sevenc.dds" memory="host" />
+		<texture name="D7" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sevend.dds" memory="host" />
+		<texture name="H7" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sevenh.dds" memory="host" />
+		<texture name="S7" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/sevens.dds" memory="host" />
+		<texture name="C8" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/eightc.dds" memory="host" />
+		<texture name="D8" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/eightd.dds" memory="host" />
+		<texture name="H8" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/eighth.dds" memory="host" />
+		<texture name="S8" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/eights.dds" memory="host" />
+		<texture name="D9" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/nind.dds" memory="host" />
+		<texture name="C9" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/ninec.dds" memory="host" />
+		<texture name="H9" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/nineh.dds" memory="host" />
+		<texture name="S9" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/nines.dds" memory="host" />
+		<texture name="C10" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/tenc.dds" memory="host" />
+		<texture name="D10" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/tend.dds" memory="host" />
+		<texture name="H10" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/tenh.dds" memory="host" />
+		<texture name="S10" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/tens.dds" memory="host" />
+		<texture name="C11" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/jackc.dds" memory="host" />
+		<texture name="D11" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/jackd.dds" memory="host" />
+		<texture name="H11" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/jackh.dds" memory="host" />
+		<texture name="S11" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/jacks.dds" memory="host" />
+		<texture name="C12" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/queenc.dds" memory="host" />
+		<texture name="D12" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/queend.dds" memory="host" />
+		<texture name="H12" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/queenh.dds" memory="host" />
+		<texture name="S12" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/queens.dds" memory="host" />
+		<texture name="C13" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/kingc.dds" memory="host" />
+		<texture name="D13" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/kingd.dds" memory="host" />
+		<texture name="H13" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/kingh.dds" memory="host" />
+		<texture name="S13" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/kings.dds" memory="host" />
+		<texture name="cardback.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Cards/cardback.dds" memory="host" />
+		<texture name="X_Button.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/X_Button.dds" memory="host" />
+		<texture name="Circle_Button.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Circle_Button.dds" memory="host" />
+		<texture name="Screen.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Screen.dds" memory="host" />
+		<texture name="paneHoldings.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/paneHoldings.dds" memory="host" />
+		<texture name="Draw_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Draw.dds" memory="host" />
+		<texture name="Draw_Over_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Draw_Over.dds" memory="host" />
+		<texture name="BetMax_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/BetMax.dds" memory="host" />
+		<texture name="BetMax_Over_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/BetMax_Over.dds" memory="host" />
+		<texture name="BetOne_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/BetOne.dds" memory="host" />
+		<texture name="BetOne_Over_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/BetOne_Over.dds" memory="host" />
+		<texture name="Deal_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Deal.dds" memory="host" />
+		<texture name="Deal_Over_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Deal_Over.dds" memory="host" />
+		<texture name="WinBar.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/WinBar.dds" memory="host" />
+		<texture name="Hold_Inactive_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Hold_Inactive.dds" memory="host" />
+		<texture name="Hold_Selected_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Hold_Selected.dds" memory="host" />
+		<texture name="Hold_Unselected_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Hold_Unselected.dds" memory="host" />
+		<texture name="PayOutHighlight.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/PayOutHighlight.dds" memory="host" />
+		<texture name="Held_en.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/Held.dds" memory="host" />
+		<texture name="BetOne_Over_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/BetOne_Over_de.dds" memory="host" />
+		<texture name="Deal_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Deal_de.dds" memory="host" />
+		<texture name="Deal_Over_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Deal_Over_de.dds" memory="host" />
+		<texture name="Draw_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Draw_de.dds" memory="host" />
+		<texture name="Draw_Over_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Draw_Over_de.dds" memory="host" />
+		<texture name="Held_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Held_de.dds" memory="host" />
+		<texture name="Hold_Inactive_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Hold_Inactive_de.dds" memory="host" />
+		<texture name="Hold_Selected_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Hold_Selected_de.dds" memory="host" />
+		<texture name="Hold_Unselected_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/Hold_Unselected_de.dds" memory="host" />
+		<texture name="BetMax_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/BetMax_de.dds" memory="host" />
+		<texture name="BetMax_Over_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/BetMax_Over_de.dds" memory="host" />
+		<texture name="BetOne_de.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/de/BetOne_de.dds" memory="host" />
+		<texture name="BetMax_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/BetMax_it.dds" memory="host" />
+		<texture name="BetMax_Over_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/BetMax_Over_it.dds" memory="host" />
+		<texture name="BetOne_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/BetOne_it.dds" memory="host" />
+		<texture name="BetOne_Over_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/BetOne_Over_it.dds" memory="host" />
+		<texture name="Deal_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Deal_it.dds" memory="host" />
+		<texture name="Deal_Over_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Deal_Over_it.dds" memory="host" />
+		<texture name="Draw_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Draw_it.dds" memory="host" />
+		<texture name="Draw_Over_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Draw_Over_it.dds" memory="host" />
+		<texture name="Held_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Held_it.dds" memory="host" />
+		<texture name="Hold_Inactive_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Hold_Inactive_it.dds" memory="host" />
+		<texture name="Hold_Selected_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Hold_Selected_it.dds" memory="host" />
+		<texture name="Hold_Unselected_it.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/it/Hold_Unselected_it.dds" memory="host" />
+		<texture name="BetMax_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/BetMax_fr.dds" memory="host" />
+		<texture name="BetMax_Over_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/BetMax_Over_fr.dds" memory="host" />
+		<texture name="BetOne_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/BetOne_fr.dds" memory="host" />
+		<texture name="BetOne_Over_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/BetOne_Over_fr.dds" memory="host" />
+		<texture name="Deal_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Deal_fr.dds" memory="host" />
+		<texture name="Deal_Over_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Deal_Over_fr.dds" memory="host" />
+		<texture name="Draw_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Draw_fr.dds" memory="host" />
+		<texture name="Draw_Over_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Draw_Over_fr.dds" memory="host" />
+		<texture name="Held_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Held_fr.dds" memory="host" />
+		<texture name="Hold_Inactive_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Hold_Inactive_fr.dds" memory="host" />
+		<texture name="Hold_Selected_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Hold_Selected_fr.dds" memory="host" />
+		<texture name="Hold_Unselected_fr.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/fr/Hold_Unselected_fr.dds" memory="host" />
+		<texture name="BetMax_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/BetMax_es.dds" memory="host" />
+		<texture name="BetMax_Over_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/BetMax_Over_es.dds" memory="host" />
+		<texture name="BetOne_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/BetOne_es.dds" memory="host" />
+		<texture name="BetOne_Over_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/BetOne_Over_es.dds" memory="host" />
+		<texture name="Deal_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Deal_es.dds" memory="host" />
+		<texture name="Deal_Over_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Deal_Over_es.dds" memory="host" />
+		<texture name="Draw_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Draw_es.dds" memory="host" />
+		<texture name="Draw_Over_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Draw_Over_es.dds" memory="host" />
+		<texture name="Held_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Held_es.dds" memory="host" />
+		<texture name="Hold_Inactive_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Hold_Inactive_es.dds" memory="host" />
+		<texture name="Hold_Selected_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Hold_Selected_es.dds" memory="host" />
+		<texture name="Hold_Unselected_es.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/es/Hold_Unselected_es.dds" memory="host" />
+		<texture name="displaySquare.dds" deferred_loading="true" protected="false" file="MiniGames/VideoPoker/art/displaySquare.dds" memory="host" />
+		<texture name="displaySquare.dds_1" deferred_loading="false" protected="false" file="MiniGames/VideoBlackjack/art/displaySquare.dds" />
+		<texture name="Center.dds" deferred_loading="false" protected="false" file="MiniGames/PersonalVideoBlackjack/textures/Center.dds" />
+		<texture name="Corner.dds" deferred_loading="false" protected="false" file="MiniGames/PersonalVideoBlackjack/textures/Corner.dds" />
+		<texture name="Edge.dds" deferred_loading="false" protected="false" file="MiniGames/PersonalVideoBlackjack/textures/Edge.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/VideoPoker/file/Network.xml" memory="host" />
+		<collision name="Casino_VideoPokerActive.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/casino_videopokeractive/Casino_VideoPokerActive.safevolume.hkx" />
+		<collision name="Casino_VideoPokerActive.hkx" deferred_loading="false" protected="false" file="furniture/casino_videopokeractive/Casino_VideoPokerActive.hkx" />
+		<soundbank name="VideoPoker_sound" deferred_loading="false" protected="false" file="MiniGames/VideoPoker/Sounds/VideoPoker.bnk" memory="host" />
+		<lua name="SoundPlayer" deferred_loading="false" protected="true" file="MiniGames/BlackJack/SoundPlayer.lua" memory="host" />
+		<lua name="PersonalVideoPoker" deferred_loading="false" protected="true" file="MiniGames/PersonalVideoPoker/lua/PersonalVideoPoker.lua" memory="host" />
+	</local>
+	<external />
+</resources>

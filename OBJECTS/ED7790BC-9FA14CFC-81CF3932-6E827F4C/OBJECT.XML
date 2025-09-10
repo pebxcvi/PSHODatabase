@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Animated Halloween Skirt with Socks</name>
+		<description type="string">description</description>
+		<author type="string">Lockwood</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string">Sodium - Lockwood</company>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string" />
+				<rating type="string" />
+				<minimum_age type="int">13</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">Animated Halloweena Skirt with Socks</name>
+		<type type="string">Legs</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_Legs_LW_Witch_0</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_Legs_LW_Witch_0.lod1</lod1>
+					<lod2 type="string">Female01_Legs_LW_Witch_0.lod2</lod2>
+					<lod3 type="string">Female01_Legs_LW_Witch_0.lod3</lod3>
+				</lods>
+				<skeleton type="string" />
+				<materials type="list">
+					<material type="bag">
+						<type type="string">emissive</type>
+						<shadingGroup type="string">ATGMaterial1SG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">emissiveMap</name>
+								<source type="string">Female01_Legs_LW_Witch_0.ATGMaterial1SG.emissiveMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">legsSG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Legs_LW_Witch_0.legsSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Legs_LW_Witch_0.legsSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Legs_LW_Witch_0.legsSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">skin</type>
+						<shadingGroup type="string">bodySG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">FemaleSkinBodyColour</source>
+								<format type="string">generated</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Legs_LW_Witch_0.bodySG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">FemaleSkinBodySpecular</source>
+								<format type="string">generated</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

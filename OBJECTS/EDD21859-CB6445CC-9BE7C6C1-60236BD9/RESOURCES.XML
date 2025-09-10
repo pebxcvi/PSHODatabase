@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Boad_poster_01.mdl" deferred_loading="false" protected="false" file="furniture/boad_poster/Boad_poster_01.mdl" />
+		<model name="Boad_poster_02.mdl" deferred_loading="false" protected="false" file="furniture/boad_poster/Boad_poster_02.mdl" />
+		<model name="Ballot_box.mdl" deferred_loading="false" protected="false" file="furniture/ballot_box/Ballot_box.mdl" />
+		<texture name="textboard.dds" deferred_loading="false" protected="false" file="MiniGames/Vote/tex/textboard.dds" />
+		<collision name="Ballot_box.hkx" deferred_loading="false" protected="false" file="furniture/ballot_box/Ballot_box.hkx" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Vote/lua/MiniGame.lua" />
+		<lua name="libcore.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libcore.lua" />
+		<lua name="libgame.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libgame.lua" />
+		<lua name="liblistener.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/liblistener.lua" />
+		<lua name="libpad.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libpad.lua" />
+		<lua name="global.lua" deferred_loading="false" protected="true" file="Scripts/global.lua" />
+		<lua name="Server.lua" deferred_loading="false" protected="true" file="Scripts/Server.lua" />
+		<lua name="VoteServer.lua" deferred_loading="false" protected="true" file="MiniGames/Vote/lua/VoteServer.lua" />
+		<lua name="VoteScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Vote/lua/VoteScreen.lua" />
+		<lua name="libtime.lua" deferred_loading="false" protected="true" file="Scripts/OOLibrary/libtime.lua" />
+		<lua name="Osd.lua" deferred_loading="false" protected="true" file="MiniGames/Vote/lua/Osd.lua" />
+		<lua name="MessageDialog.lua" deferred_loading="false" protected="true" file="Scripts/MessageDialog.lua" />
+		<lua name="SoundControl.lua" deferred_loading="false" protected="true" file="Scripts/SoundControl.lua" />
+	</local>
+	<external />
+</resources>
