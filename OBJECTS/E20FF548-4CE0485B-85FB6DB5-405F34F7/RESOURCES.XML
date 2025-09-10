@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cheergirl_00.mdl" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/model/cheergirl_00.mdl" memory="host" />
+		<model name="cheergirl_remote_00.mdl" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/model/cheergirl_remote_00.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/cheergirl_00/file/config.xml" memory="main" />
+
+		<anim name="male_idle.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/male_idle.ani" memory="main" />
+		<anim name="male_walk.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/male_walk.ani" memory="main" />
+		<anim name="male_run.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/male_run.ani" memory="main" />
+		<anim name="male_pose_01.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/male_pose_01.ani" memory="host" />
+		<anim name="male_pose_02.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/male_pose_02.ani" memory="host" />
+		<anim name="male_pose_03.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/male_pose_03.ani" memory="host" />
+
+		<anim name="female_idle.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/female_idle.ani" memory="main" />
+		<anim name="female_walk.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/female_walk.ani" memory="main" />
+		<anim name="female_run.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/female_run.ani" memory="main" />
+		<anim name="female_pose_01.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/female_pose_01.ani" memory="host" />
+		<anim name="female_pose_02.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/female_pose_02.ani" memory="host" />
+		<anim name="female_pose_03.ani" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/anim/female_pose_03.ani" memory="host" />
+
+
+		
+		<skeleton name="cheergirl_00.skn" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/skeleton/cheergirl_00.skn" memory="main" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/repertoire/female.xml" memory="main" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/repertoire/male.xml" memory="main" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/emotes/female_emotes.xml" memory="main" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/cheergirl_00/emotes/male_emotes.xml" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/cheergirl_00/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SilverBack_LOD.mdl" deferred_loading="true" protected="false" file="locomotion/gorilla_lmo/SilverBack_LOD.mdl" />
+		<model name="SilverBack.mdl" deferred_loading="true" protected="false" file="locomotion/gorilla_lmo/SilverBack.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Gorilla_LMO/file/config.xml" memory="host" />
+		<anim name="SilverBack_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/SilverBack_Idle.ani" memory="host" />
+		<anim name="SilverBack_Run.ani" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/SilverBack_Run.ani" memory="host" />
+		<anim name="M_SilverBack_Idle" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/M_SilverBack_Idle.ani" memory="host" />
+		<anim name="M_SilverBack_Run" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/M_SilverBack_Run.ani" memory="host" />
+		<anim name="F_SilverBack_Run" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/F_SilverBack_Run.ani" memory="host" />
+		<anim name="F_SilverBack_Idle" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/F_SilverBack_Idle.ani" memory="host" />
+		<anim name="F_SilverBack_Action" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/F_SilverBack_Action.ani" memory="host" />
+		<anim name="M_SilverBack_Action" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/M_SilverBack_Action.ani" memory="host" />
+		<anim name="SilverBack_action.ani" deferred_loading="false" protected="false" file="Locomotion/Gorilla_LMO/SilverBack_action.ani" />
+		<skeleton name="SilverBack.skn" deferred_loading="false" protected="false" file="locomotion/gorilla_lmo/SilverBack.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Gorilla_LMO/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Gorilla_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

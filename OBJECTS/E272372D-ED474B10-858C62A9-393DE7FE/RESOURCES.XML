@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/techangelwings/model/TechAngelWings.mdl" memory="host" />
+		<model name="wings.mdl" deferred_loading="true" protected="false" file="Locomotion/techangelwings/model/WingsOnly.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/anim/idle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/techangelwings/anim/left.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/anim/move.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/techangelwings/anim/right.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/anim/fleft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/anim/fmove.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/anim/fright.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/anim/fidle.ani" memory="host" />
+		<anim name="wings_idle.ani" deferred_loading="true" protected="false" file="Locomotion/techangelwings/anim/wings_idle.ani" />
+		<anim name="wings_move.ani" deferred_loading="true" protected="false" file="Locomotion/techangelwings/anim/wings_move.ani" />
+		<anim name="wings_hidden.ani" deferred_loading="true" protected="false" file="Locomotion/techangelwings/anim/wings_hidden.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/techangelwings/model/TechAngelWings.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/TechAngelWings/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/TechAngelWings/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

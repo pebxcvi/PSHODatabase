@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/cutt_demonic_ottoman/CUTT_Demonic_Ottoman_01.mdl" />
+    <model name="HALL13_HauntedOrgan_RIG.mdl" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/HALL13_HauntedOrgan_RIG.mdl" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/newy12_partymachine2013/lua/Network.xml" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/HALL13_HauntedOrgan.hkx" />
+    <anim name="HALL13_HauntedOrgan_PlayingIdle.ani" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/HALL13_HauntedOrgan_PlayingIdle.ani" />
+    <anim name="HALL13_HauntedOrgan_StillIdle.ani" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/HALL13_HauntedOrgan_StillIdle.ani" />
+    <skeleton name="HALL13_HauntedOrgan_RIG.skn" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/HALL13_HauntedOrgan_RIG.skn" />
+    <soundstream name="track_01.mp3" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/toccata_louder.mp3" />
+    <soundstream name="track_02.mp3" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/buxt_louder.mp3" />
+    <soundstream name="track_03.mp3" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/fantasy_louder.mp3" />
+    <soundstream name="track_04.mp3" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/nun_louder.mp3" />
+    <soundstream name="track_05.mp3" deferred_loading="false" protected="false" file="furniture/hall13_hauntedorgan/threeanti_louder.mp3" />
+    <lua name="PartyMachine2013.lua" deferred_loading="false" protected="true" file="furniture/hall13_hauntedorgan/hauntedorgan.luac" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/newy12_partymachine2013/lua/pad.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/newy12_partymachine2013/lua/utility.luac" />
+  </local>
+  <external />
+</resources>

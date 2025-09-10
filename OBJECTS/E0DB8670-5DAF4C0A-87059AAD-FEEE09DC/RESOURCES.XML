@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="horse.mdl" deferred_loading="true" protected="false" file="locomotion/horse_side/HorseBrown_SaddleBrown.mdl" memory="host" />
+		<model name="horse_lod.mdl" deferred_loading="true" protected="false" file="locomotion/horse_side/HorseBrown_SaddleBrown_LOD.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Horse_Side/file/config.xml" memory="host" />
+		<anim name="horse_canter.ani" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/horse_canter.ani" memory="host" />
+		<anim name="horse_trot.ani" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/horse_trot.ani" memory="host" />
+		<anim name="horse_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/horse_Idle.ani" memory="host" />
+		<anim name="Female_idle" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/Female_idle.ani" memory="host" />
+		<anim name="Female_trot" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/Female_trot.ani" memory="host" />
+		<anim name="Female_canter" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/Female_canter.ani" memory="main" />
+		<anim name="Male_idle" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/Male_idle.ani" memory="host" />
+		<anim name="Male_trot" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/Male_trot.ani" memory="host" />
+		<anim name="Male_canter" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/Male_canter.ani" memory="main" />
+		<skeleton name="horse.skn" deferred_loading="true" protected="false" file="locomotion/horse_side/Horse_Saddle.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Horse_Side/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Horse_Side/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

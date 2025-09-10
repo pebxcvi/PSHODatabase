@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="islandoceanreflection.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/islandoceanreflection.mdl" memory="host" />
+		<model name="island_buoy.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/island_buoy.mdl" memory="host" />
+		<model name="IslandsLoop.mdl" deferred_loading="false" protected="false" file="environments/island_boat/anims/IslandsLoop.mdl" memory="host" />
+		<model name="dolphin_ad_seq1path1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path1.mdl" memory="host" />
+		<model name="shark_close_swim1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_close_swim1.mdl" memory="host" />
+		<model name="whale_close_breathe1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_breathe1.mdl" memory="host" />
+		<model name="dolphin_ad_seq3path1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq3path1.mdl" memory="host" />
+		<model name="dolphin_close_seq4path1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_seq4path1.mdl" memory="host" />
+		<model name="dolphin_close_seq5path1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_seq5path1.mdl" memory="host" />
+		<model name="dolphin_toboat_seq3.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_toboat_seq3.mdl" memory="host" />
+		<model name="dolphin_close_Breathepath1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_Breathepath1.mdl" memory="host" />
+		<model name="dolphin_close_Breathepath2.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_Breathepath2.mdl" memory="host" />
+		<model name="whale_far_breatheturn1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_breatheturn1.mdl" memory="host" />
+		<model name="whale_far_jump1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_jump1.mdl" memory="host" />
+		<model name="whale_far_swim1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_swim1.mdl" memory="host" />
+		<model name="whale_toboat_breathe.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_breathe.mdl" memory="host" />
+		<model name="whale_toboat_swim1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_swim1.mdl" memory="host" />
+		<model name="dolphin_ad_seq1path3.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path3.mdl" memory="host" />
+		<model name="dolphin_ad_seq1path2.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path2.mdl" memory="host" />
+		<model name="Pelican_flight1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/Pelican_flight1.mdl" memory="host" />
+		<model name="Pelican_flightpaths.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/Pelican_flightpaths.mdl" memory="host" />
+		<model name="whale_close_jump1.mdl" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_jump1.mdl" memory="host" />
+		<particle name="BoatWake.efx" deferred_loading="false" file="ATGParticles/IslandEffects/Efx/BoatWake.efx" memory="host" />
+		<particle name="BoatBowWakeThickSpray.efx" deferred_loading="false" file="ATGParticles/IslandEffects/Efx/BoatBowWakeThickSpray.efx" memory="host" />
+		<particle name="BoatBowWakeThinSpray.efx" deferred_loading="false" file="ATGParticles/IslandEffects/Efx/BoatBowWakeThinSpray.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" file="MiniGames/Lagoon/Network.xml" memory="host" />
+		<anim name="island_buoy.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/island_buoy.ani" memory="host" />
+		<anim name="IslandsLoop.ani" deferred_loading="false" protected="false" file="environments/island_boat/anims/IslandsLoop.ani" memory="host" />
+		<anim name="dolphin_ad_seq1path1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path1.ani" memory="host" />
+		<anim name="dolphin_ad_seq1path2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path2.ani" memory="host" />
+		<anim name="dolphin_ad_seq1path3.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path3.ani" memory="host" />
+		<anim name="dolphin_ad_seq3path1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq3path1.ani" memory="host" />
+		<anim name="dolphin_close_Breathepath1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_Breathepath1.ani" memory="host" />
+		<anim name="dolphin_close_Breathepath2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_Breathepath2.ani" memory="main" />
+		<anim name="dolphin_close_Breathepath3.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_Breathepath3.ani" memory="host" />
+		<anim name="dolphin_close_seq4path1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_seq4path1.ani" memory="main" />
+		<anim name="dolphin_close_seq5path1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_seq5path1.ani" memory="main" />
+		<anim name="shark_close_swim1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_close_swim1.ani" memory="main" />
+		<anim name="shark_close_swim2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_close_swim2.ani" memory="main" />
+		<anim name="shark_close_swim3.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_close_swim3.ani" memory="main" />
+		<anim name="shark_close_swim4.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_close_swim4.ani" memory="main" />
+		<anim name="shark_far_swim1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_far_swim1.ani" memory="main" />
+		<anim name="shark_far_swim2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_far_swim2.ani" memory="main" />
+		<anim name="shark_far_swim3.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_far_swim3.ani" memory="main" />
+		<anim name="shark_leave_swim1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_leave_swim1.ani" memory="main" />
+		<anim name="shark_toboat_swim1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_toboat_swim1.ani" memory="main" />
+		<anim name="shark_toboat_swim2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_toboat_swim2.ani" memory="main" />
+		<anim name="whale_close_breathe1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_breathe1.ani" memory="main" />
+		<anim name="whale_close_breatheturn.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_breatheturn.ani" memory="main" />
+		<anim name="whale_close_underboat1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_underboat1.ani" memory="main" />
+		<anim name="whale_far_breatheturn1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_breatheturn1.ani" memory="main" />
+		<anim name="whale_far_breatheturn2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_breatheturn2.ani" memory="main" />
+		<anim name="whale_far_jump1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_jump1.ani" memory="host" />
+		<anim name="whale_far_swim1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_swim1.ani" memory="host" />
+		<anim name="whale_far_swim2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_swim2.ani" memory="host" />
+		<anim name="whale_far_swim3.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_swim3.ani" memory="host" />
+		<anim name="whale_far_swim4.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_swim4.ani" memory="host" />
+		<anim name="whale_far_swim5.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_swim5.ani" memory="host" />
+		<anim name="whale_leave_breathe.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_leave_breathe.ani" memory="host" />
+		<anim name="whale_toboat_breathe.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_breathe.ani" memory="host" />
+		<anim name="whale_toboat_swim1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_swim1.ani" memory="host" />
+		<anim name="whale_toboat_swim2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_swim2.ani" memory="host" />
+		<anim name="dolphin_toboat_seq3.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_toboat_seq3.ani" memory="host" />
+		<anim name="dolphin_leave_seq3.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_leave_seq3.ani" memory="host" />
+		<anim name="Pelican_flight1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/Pelican_flight1.ani" memory="host" />
+		<anim name="Pelican_flight2.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/Pelican_flight2.ani" memory="host" />
+		<anim name="Pelican_flightpaths.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/Pelican_flightpaths.ani" memory="host" />
+		<anim name="whale_close_jump1.ani" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_jump1.ani" memory="host" />
+		<skeleton name="island_buoy.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/island_buoy.skn" />
+		<skeleton name="IslandsLoop.skn" deferred_loading="false" protected="false" file="environments/island_boat/anims/IslandsLoop.skn" />
+		<skeleton name="whale_toboat_swim2.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_swim2.skn" />
+		<skeleton name="dolphin_ad_seq1path1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path1.skn" />
+		<skeleton name="shark_close_swim1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/shark_close_swim1.skn" />
+		<skeleton name="whale_close_breathe1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_breathe1.skn" />
+		<skeleton name="dolphin_close_seq5path1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_seq5path1.skn" />
+		<skeleton name="dolphin_toboat_seq3.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_toboat_seq3.skn" />
+		<skeleton name="dolphin_ad_seq3path1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq3path1.skn" />
+		<skeleton name="dolphin_close_Breathepath1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_Breathepath1.skn" />
+		<skeleton name="dolphin_close_Breathepath2.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_Breathepath2.skn" />
+		<skeleton name="dolphin_close_seq4path1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_close_seq4path1.skn" />
+		<skeleton name="whale_toboat_swim1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_swim1.skn" />
+		<skeleton name="whale_far_breatheturn1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_breatheturn1.skn" />
+		<skeleton name="whale_far_jump1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_jump1.skn" />
+		<skeleton name="whale_far_swim1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_far_swim1.skn" />
+		<skeleton name="whale_toboat_breathe.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_toboat_breathe.skn" />
+		<skeleton name="dolphin_ad_seq1path3.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path3.skn" />
+		<skeleton name="dolphin_ad_seq1path2.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/dolphin_ad_seq1path2.skn" />
+		<skeleton name="Pelican_flightpaths.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/Pelican_flightpaths.skn" />
+		<skeleton name="Pelican_flight1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/Pelican_flight1.skn" />
+		<skeleton name="whale_close_jump1.skn" deferred_loading="false" protected="false" file="environments/island_boat/assets/whale_close_jump1.skn" memory="host" />
+		<soundbank name="audio_scripts.bnk" deferred_loading="false" protected="false" file="MiniGames/Lagoon/Audio/audio_scripts.bnk" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon/NewCode/main.lua" memory="host" />
+		<lua name="utility_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/utility_lib.lua" />
+		<lua name="capers.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon/NewCode/capers.lua" />
+		<lua name="environment.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon/NewCode/environment.lua" />
+		<lua name="network.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon/NewCode/network.lua" />
+		<lua name="particles.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon/NewCode/particles.lua" />
+		<lua name="animals.lua" deferred_loading="false" protected="true" file="MiniGames/Lagoon/NewCode/animals.lua" />
+	</local>
+	<external />
+</resources>

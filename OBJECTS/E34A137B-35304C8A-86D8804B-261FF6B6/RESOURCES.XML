@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/commapril_aqua/Ornament_CommApril_Aqua.mdl" />
+		<model name="Ornament_CommApril_FishAnimSlow.mdl" deferred_loading="false" protected="false" file="environmentanimations/ornament_commapril_fishanimslow/Ornament_CommApril_FishAnimSlow.mdl" />
+		<model name="Ornament_CommApril_FishAnimB.mdl" deferred_loading="false" protected="false" file="environmentanimations/ornament_commapril_fishanimb/Ornament_CommApril_FishAnimB.mdl" />
+		<particle name="FISHBUBBLES.efx" deferred_loading="false" protected="false" file="ATGParticles/Generic/Efx/FISHBUBBLES.efx" />
+		<particle name="fishTankEffect.efx" deferred_loading="false" protected="false" file="ATGParticles/Custom/Efx/fishTankEffect.efx" />
+		<particle name="fishTankDebris.efx" deferred_loading="false" protected="false" file="ATGParticles/Custom/Efx/fishTankDebris.efx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/commapril_aqua/Ornament_CommApril_Aqua.hkx" />
+		<anim name="Ornament_CommApril_FishAnimSlow.ani" deferred_loading="false" protected="false" file="environmentanimations/ornament_commapril_fishanimslow/Ornament_CommApril_FishAnimSlow.ani" />
+		<anim name="Ornament_CommApril_FishAnimB.ani" deferred_loading="false" protected="false" file="environmentanimations/ornament_commapril_fishanimb/Ornament_CommApril_FishAnimB.ani" />
+		<skeleton name="Ornament_CommApril_FishAnimSlow.skn" deferred_loading="false" protected="false" file="environmentanimations/ornament_commapril_fishanimslow/Ornament_CommApril_FishAnimSlow.skn" />
+		<skeleton name="Ornament_CommApril_FishAnimB.skn" deferred_loading="false" protected="false" file="environmentanimations/ornament_commapril_fishanimb/Ornament_CommApril_FishAnimB.skn" />
+		<soundbank name="AQUARIUM.bnk" deferred_loading="false" protected="false" file="furniture/commapril_aqua/AQUARIUM.bnk" />
+		<lua name="SwimFish.lua" deferred_loading="false" protected="true" file="furniture/commapril_aqua/SwimFish.lua" />
+	</local>
+	<external />
+</resources>

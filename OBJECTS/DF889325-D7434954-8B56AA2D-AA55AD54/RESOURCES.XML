@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Information_Board_B_mdl" file="JapanEvents/informationboardb/Information_Board_B.mdl" deferred_loading="false" />
+		<texture name="ranking01" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/textures/RankingBoard1_female.dds" deferred_loading="false" />
+		<texture name="ranking02" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/textures/RankingBoard2.dds" deferred_loading="false" />
+		<texture name="ranking03" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/textures/RankingBoard3.dds" deferred_loading="false" />
+		<texture name="crownG01" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/textures/Ranking_Crown_Gold1.dds" deferred_loading="false" />
+		<texture name="crownS01" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/textures/Ranking_Crown_Silver1.dds" deferred_loading="false" />
+		<texture name="crownB01" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/textures/Ranking_Crown_Bronze1.dds" deferred_loading="false" />
+		<file name="paHomeServerItemRanking" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/paHomeServerItemRanking.lua" deferred_loading="false" />
+		<file name="paHomeServerGeneral" file="objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/paHomeServerGeneral.lua" deferred_loading="false" />
+		<file name="paHomeServerTrigger" file="objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/paHomeServerTrigger.lua" deferred_loading="false" />
+		<file name="paHomeServerBase" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/paHomeServerBase.lua" deferred_loading="false" />
+		<file name="paHomeCommon" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/paHomeCommon.lua" deferred_loading="false" />
+		<file name="ranking_board" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/ranking_board.lua" deferred_loading="false" />
+		<file name="globalmain" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/globalmain.lua" deferred_loading="false" />
+		<file name="eventTrigger" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/eventTrigger.lua" deferred_loading="false" />
+		<file name="ajust_propaty" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/ajust_propaty.lua" deferred_loading="false" />
+		<file name="always_osd" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/osd/always.xml" deferred_loading="false" />
+		<file name="selectbar_osd" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/osd/selectbar.xml" deferred_loading="false" />
+		<file name="types_osd" file="Objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/osd/types.xml" deferred_loading="false" />
+		<file name="eventScreen" file="objects/DF889325-D7434954-8B56AA2D-AA55AD54/Rankingboard/eventScreen.lua" deferred_loading="false" />
+		<collision name="Information_Board_B_hkx" file="JapanEvents/informationboardb/Information_Board_B.hkx" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Broom_Broom" deferred_loading="false" protected="false" file="Spumpkinland/SharedModels/BroomBroom/BroomBroom.mdl" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/spun_broom_broom/file/config_broombroom.xml" memory="host" />
+		<anim name="BroomBroom_loop.ani" deferred_loading="true" protected="false" file="animation/male/spun_broom_broom/BroomBroom_loop.ani" memory="host" />
+		<anim name="BroomBroom_fast.ani" deferred_loading="true" protected="false" file="animation/male/spun_broom_broom/Broom_Broom_fast.ani" memory="host" />
+		<anim name="BroomBroom_medium.ani" deferred_loading="true" protected="false" file="animation/male/spun_broom_broom/BroomBroom_medium.ani" memory="host" />
+		<anim name="BroomBroom_slow.ani" deferred_loading="true" protected="false" file="animation/male/spun_broom_broom/BroomBroom_slow.ani" memory="host" />
+		<anim name="BroomBroom_idle.ani" deferred_loading="true" protected="false" file="animation/male/spun_broom_broom/BroomBroom_idle.ani" />
+		<anim name="f_BroomBroom_fast.ani" deferred_loading="true" protected="false" file="animation/female/spun_broom_broom/f_BroomBroom_fast.ani" />
+		<anim name="f_BroomBroom_idle.ani" deferred_loading="true" protected="false" file="animation/female/spun_broom_broom/f_BroomBroom_idle.ani" />
+		<anim name="f_BroomBroom_medium.ani" deferred_loading="true" protected="false" file="animation/female/spun_broom_broom/f_BroomBroom_medium.ani" />
+		<anim name="f_BroomBroom_slow.ani" deferred_loading="true" protected="false" file="animation/female/spun_broom_broom/f_BroomBroom_slow.ani" />
+		<anim name="f_BroomBroom_spin.ani" deferred_loading="true" protected="false" file="animation/female/spun_broom_broom/f_BroomBroom_spin.ani" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/spun_broom_broom/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/spun_broom_broom/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/spun_broom_broom/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/spun_broom_broom/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/spunland_rabbit_hop/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

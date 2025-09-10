@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="companions/ickleghost/cuteghost_MESH.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="false" protected="false" file="companions/ickleghost/cuteghost_MESH_R.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/Ickle_Ghost/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/Ickle_Ghost/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="IDLE_GHOST_01.ani" deferred_loading="false" protected="false" file="companions/ickleghost/IDLE_GHOST_01.ani" memory="host" />
+		<anim name="RUN_GHOST_01.ani" deferred_loading="false" protected="false" file="companions/ickleghost/RUN_GHOST_01.ani" memory="host" />
+		<anim name="WALK_GHOST_01.ani" deferred_loading="false" protected="false" file="companions/ickleghost/WALK_GHOST_01.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="companions/ickleghost/cuteghost_MESH.skn" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/Ickle_Ghost/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

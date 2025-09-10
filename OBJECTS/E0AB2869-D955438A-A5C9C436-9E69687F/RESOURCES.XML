@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bowl.mdl" deferred_loading="true" file="Environments/Home_internal_SCEE/Home_Lobbies/Xmas_Event_2009/props/xmas_punch_cauldron.mdl" />
+		<texture name="flame.dds" deferred_loading="true" file="environments/Home_internal_SCEE/Home_Lobbies/Xmas_Event_2009/textures/Xmas_Punch_Icon_Fire.dds" />
+		<texture name="lemon.dds" deferred_loading="true" file="environments/Home_internal_SCEE/Home_Lobbies/Xmas_Event_2009/textures/Xmas_Punch_Icon_Lemon.dds" />
+		<texture name="spice.dds" deferred_loading="true" file="environments/Home_internal_SCEE/Home_Lobbies/Xmas_Event_2009/textures/Xmas_Punch_Icon_Chilli.dds" />
+		<texture name="sugar.dds" deferred_loading="true" file="environments/Home_internal_SCEE/Home_Lobbies/Xmas_Event_2009/textures/Xmas_Punch_Icon_Sugar.dds" />
+		<texture name="clock9" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim9.dds" />
+		<texture name="clock1" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim1.dds" />
+		<texture name="clock2" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim2.dds" />
+		<texture name="clock3" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim3.dds" />
+		<texture name="clock4" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim4.dds" />
+		<texture name="clock5" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim5.dds" />
+		<texture name="clock6" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim6.dds" />
+		<texture name="clock7" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim7.dds" />
+		<texture name="clock8" deferred_loading="true" file="MiniGames/SantasQuests/Textures/countdown_anim8.dds" />
+		<texture name="iconTriangle" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_triangle.dds" />
+		<texture name="iconCircle" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_circle.dds" />
+		<texture name="iconCross" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_cross.dds" />
+		<texture name="iconSquare" deferred_loading="true" file="MiniGames/SantasQuests/Textures/large_square.dds" />
+		<texture name="white.dds" deferred_loading="true" file="MiniGames/SantasQuests/xmasfirewood/small_white.dds" />
+		<particle name="ripple.efx" deferred_loading="true" file="ATGParticles/generic/efx/xmas_caludron_ripple.efx" />
+		<particle name="effect.efx" deferred_loading="true" file="ATGParticles/generic/efx/xmas_caludron_effect.efx" />
+		<particle name="fire.efx" deferred_loading="true" file="ATGParticles/generic/efx/fire_brazier.efx" />
+		<particle name="plop.efx" deferred_loading="true" file="ATGParticles/Generic/Efx/xmas_caludron_plop.efx" />
+		<soundbank name="audio" deferred_loading="true" file="MiniGames/SantasQuests/sounds/cauldron_game.bnk" />
+		<lua name="framework.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasmulledwine/framework.lua" />
+		<lua name="wine.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasmulledwine/wine.lua" />
+		<lua name="cutscene.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/cutscene.lua" />
+		<lua name="xmasshared.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/xmasshared.lua" />
+		<lua name="CallSanta.lua" deferred_loading="false" protected="true" file="MiniGames/SantasQuests/CallSanta.lua" />
+	</local>
+	<external />
+</resources>

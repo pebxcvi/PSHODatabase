@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/models/Furniture_Ornament_CommDec_VCandyBox.mdl" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/models/Furniture_Ornament_CommDec_VCandyBox.hkx" />
+		<soundstream name="2_Feel_Like_Makin_Love.mp3" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/sound/2_Feel_Like_Makin_Love.mp3" />
+		<soundstream name="1_I_Only_Have_Eyes_For_You.mp3" deferred_loading="false" protected="false" file="ActiveItems/valentines_2011/heart/sound/1_I_Only_Have_Eyes_For_You.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/valentines_2011/heart/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="ActiveItems/valentines_2011/heart/programming/Boombox.lua" />
+	</local>
+	<external />
+</resources>

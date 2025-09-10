@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CakeFull.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/models/CakeFull.mdl" />
+		<model name="CakeSlice.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/models/CakeSlice.mdl" />
+		<model name="ClownNPC_Rig.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/models/ClownNPC_Rig.mdl" />
+		<texture name="ShopBackground" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/textures/Noticeboard_Background.dds" />
+		<texture name="ShopSelection" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ShopSelection.dds" />
+		<texture name="ShopArrowDown" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowDown.dds" />
+		<texture name="ShopArrowUp" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/ArrowUp.dds" />
+		<texture name="ShopBoughtIcon" deferred_loading="false" protected="false" file="MiniGames/VEEMEE_Token_Shop/textures/BoughtIcon.dds" />
+		<texture name="ShopFrame" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/ParkManager/textures/Frame.dds" />
+		<texture name="EasterEggIntroMessageHUD.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/PinataCakeMG/Textures/HUD/BirthdayIntroMessageHUD.dds" />
+		<texture name="EasterEggRewardMessageHUD.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/PinataCakeMG/Textures/HUD/BirthdayRewardMessageHUD.dds" />
+		<texture name="SnowballHUD.dds" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/PinataCakeMG/Textures/HUD/BirthdayInGameHUD.dds" />
+		<collision name="SnowballPileModel.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/SnowballingMG/models/SnowballPileModel.hkx" />
+		<collision name="Clown.hkx" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/Jukebox.hkx" />
+		<collision name="CakeSlice.hkx" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/models/CakeSlice.hkx" />
+		<anim name="EggPileModel.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/EggHuntMG/model/Egg.ani" />
+		<anim name="Clown_Crying_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/anim/Clown_Crying_Idle.ani" />
+		<anim name="Clown_Happy.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/anim/Clown_Happy.ani" />
+		<anim name="CakeSlice.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/models/CakeSlice.ani" />
+		<skeleton name="EggPileModel.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/EggHuntMG/model/Egg.skn" />
+		<skeleton name="CakeSlice.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/models/CakeSlice.skn" />
+		<skeleton name="ClownNPC_Rig.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/models/ClownNPC_Rig.skn" />
+		<soundbank name="sounds" deferred_loading="false" protected="false" file="MiniGames/50sDinner/Jukebox/jukebox.bnk" />
+		<soundbank name="CakeSniffers.bnk" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/cakesniffers/sounds/CakeSniffers.bnk" />
+		<lua name="Shop.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/EggHuntMG/lua/Shop.lua" />
+		<lua name="class.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/class.lua" />
+		<lua name="CommerceManager.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/CommerceManager.lua" />
+		<lua name="ConfigurationManager.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/ConfigurationManager.lua" />
+		<lua name="Consumable.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Consumable.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Inventory.lua" />
+		<lua name="JSONUtility.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/JSONUtility.lua" />
+		<lua name="SelectableTextBox.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/SelectableTextBox.lua" />
+		<lua name="StatsManager.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/StatsManager.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/Utility.lua" />
+		<lua name="VHTTPRequest.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/VHTTPRequest.lua" />
+		<lua name="VLog.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/VLog.lua" />
+		<lua name="ObjectMetadata.lua" deferred_loading="false" protected="true" file="MiniGames/Framework/ObjectMetadata.lua" />
+		<lua name="StringUtility.lua" deferred_loading="false" protected="true" file="MiniGames/myGym/framework/StringUtility.lua" />
+		<lua name="TextBox.lua" deferred_loading="false" protected="true" file="MiniGames/FitnessMachine/lua/Framework/TextBox.lua" />
+		<lua name="CakeHuntManager.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/cakesniffers/scripts/CakeHuntManager.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/cakesniffers/scripts/MiniGame.lua" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/cakesniffers/scripts/Pad.lua" />
+		<lua name="Menu.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/cakesniffers/scripts/Menu.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/cakesniffers/scripts/Game.lua" />
+	</local>
+	<external />
+</resources>

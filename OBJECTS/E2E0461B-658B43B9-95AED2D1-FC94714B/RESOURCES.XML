@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="YellowCursor1" deferred_loading="false" file="MiniGames/LocoOthello/cursor_models/cursor_yellow_1.mdl" />
+		<model name="YellowCursor2" deferred_loading="false" file="MiniGames/LocoOthello/cursor_models/cursor_yellow_2.mdl" />
+		<model name="BlackCursor1" deferred_loading="false" file="MiniGames/LocoOthello/cursor_models/cursor_black_1.mdl" />
+		<model name="BlackCursor2" deferred_loading="false" file="MiniGames/LocoOthello/cursor_models/cursor_black_2.mdl" />
+		<model name="yel_sleep_mdl" deferred_loading="false" file="Furniture/loco_othello/loco_02_close_niko.mdl" />
+		<model name="yel_right_mdl" deferred_loading="false" file="Furniture/loco_othello/loco_03_open_niko_right.mdl" />
+		<model name="yel_left_mdl" deferred_loading="false" file="Furniture/loco_othello/loco_04_open_niko_left.mdl" />
+		<model name="yel_talkopen_mdl" deferred_loading="false" file="Furniture/loco_othello/loco_05_open_open.mdl" />
+		<model name="yel_talkclose_mdl" deferred_loading="false" file="Furniture/loco_othello/loco_06_open_close.mdl" />
+		<model name="yel_niko_mdl" deferred_loading="false" file="Furniture/loco_othello/loco_07_open_niko.mdl" />
+		<model name="yel_niko2x2_mdl" deferred_loading="false" file="Furniture/loco_othello/loco_08_open_niko_2x2.mdl" />
+		<model name="blk_sleep_mdl" deferred_loading="false" file="Furniture/loco_othello/buzzi_02_close_close_sleep.mdl" />
+		<model name="blk_right_mdl" deferred_loading="false" file="Furniture/loco_othello/buzzi_03_open_open_right.mdl" />
+		<model name="blk_left_mdl" deferred_loading="false" file="Furniture/loco_othello/buzzi_04_open_open_left.mdl" />
+		<model name="blk_talkopen_mdl" deferred_loading="false" file="Furniture/loco_othello/buzzi_05_open_open.mdl" />
+		<model name="blk_talkclose_mdl" deferred_loading="false" file="Furniture/loco_othello/buzzi_06_open_close.mdl" />
+		<model name="blk_niko_mdl" deferred_loading="false" file="Furniture/loco_othello/buzzi_07_open_close.mdl" />
+		<model name="blk_niko2x2_mdl" deferred_loading="false" file="Furniture/loco_othello/buzzi_08_open_close.mdl" />
+		<texture name="icon_loco_Y.dds" deferred_loading="false" file="MiniGames/LocoOthello/textures/icon_loco_Y.dds" />
+		<texture name="icon_loco_K.dds" deferred_loading="false" file="MiniGames/LocoOthello/textures/icon_loco_K.dds" />
+		<file name="osd_textbox" deferred_loading="false" file="MiniGames/LocoOthello/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/LocoOthello/OSD/types.xml" />
+		<collision name="locoothello_00.hkx" deferred_loading="false" file="environments/locohouse_test_001/locoothello_00.hkx" />
+		<anim name="MuiMui_burabura_anim" deferred_loading="false" file="Furniture/muimui/06_muimui_sit_burabura.ani" />
+		<anim name="MuiMui_hakushu_anim" deferred_loading="false" file="Furniture/muimui/15_sit_hakushu.ani" />
+		<anim name="MuiMui_kubikashige_anim" deferred_loading="false" file="Furniture/muimui/16_sit_kubi_kasige.ani" />
+		<anim name="yel_small_standby_anim" deferred_loading="false" file="Furniture/loco_othello/loco_07_open_niko.ani" />
+		<anim name="yel_big_standby_anim" deferred_loading="false" file="Furniture/loco_othello/loco_08_open_niko_2x2.ani" />
+		<anim name="yel_small_jump_anim" deferred_loading="false" file="Furniture/loco_othello/loco_09_open_niko_jump.ani" />
+		<anim name="yel_big_jump_anim" deferred_loading="false" file="Furniture/loco_othello/loco_10_open_niko_2x2_jump.ani" />
+		<anim name="blk_small_standby_anim" deferred_loading="false" file="Furniture/loco_othello/buzzi_07_open_close.ani" />
+		<anim name="blk_big_standby_anim" deferred_loading="false" file="Furniture/loco_othello/buzzi_08_open_close.ani" />
+		<anim name="blk_small_jump_anim" deferred_loading="false" file="Furniture/loco_othello/buzzi_09_open_close_jump.ani" />
+		<anim name="blk_big_jump_anim" deferred_loading="false" file="Furniture/loco_othello/buzzi_10_open_close_2x2_jump.ani" />
+		<skeleton name="yel_small_skel" deferred_loading="false" file="Furniture/loco_othello/loco_02_close_niko.skn" />
+		<skeleton name="yel_big_skel" deferred_loading="false" file="Furniture/loco_othello/loco_08_open_niko_2x2.skn" />
+		<skeleton name="blk_small_skel" deferred_loading="false" file="Furniture/loco_othello/buzzi_02_close_close_sleep.skn" />
+		<skeleton name="blk_big_skel" deferred_loading="false" file="Furniture/loco_othello/buzzi_08_open_close.skn" />
+		<lua name="OthelloMain" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/OthelloMain.lua" />
+		<lua name="PlayerManager" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/PlayerManager.lua" />
+		<lua name="OthelloControl" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/OthelloControl.lua" />
+		<lua name="OthelloCpu" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/OthelloCpu.lua" />
+		<lua name="messages" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/messages.lua" />
+		<lua name="controller" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/controller.lua" />
+		<lua name="animation" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/animation.lua" />
+		<lua name="utility" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/utility.lua" />
+		<lua name="osd" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/osd.lua" />
+		<lua name="muimui_othello" deferred_loading="false" protected="true" file="MiniGames/LocoOthello/muimui_othello.lua" />
+		<lua name="cmnDefinition.lua" deferred_loading="false" protected="true" file="environments/locohouse/script/cmnDefinition.lua" />
+		<lua name="listener.lua" deferred_loading="false" protected="true" file="environments/locohouse/script/listener.lua" />
+	</local>
+	<external />
+</resources>

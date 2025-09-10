@@ -1,0 +1,903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="en-GB">Brimstone Poker Table</LANG>
+    <LANG ID="fr-FR">Table de poker Brimstone</LANG>
+    <LANG ID="de-DE">Brimstone-Pokertisch</LANG>
+    <LANG ID="it-IT">Poker Brimstone</LANG>
+    <LANG ID="es-ES">Brimstone Poker</LANG>
+    <LANG ID="en-US">Brimstone Poker Table</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="en-GB">A devilishly fun poker table. [#Legal]</LANG>
+    <LANG ID="fr-FR">Une table diaboliquement amusante [#Legal]</LANG>
+    <LANG ID="de-DE">Ein teuflisch guter Pokertisch. [#Legal]</LANG>
+    <LANG ID="it-IT">Il divertimento è assicurato. [#Legal]</LANG>
+    <LANG ID="es-ES">Un juego de póker lleno de diversión. [#Legal]</LANG>
+    <LANG ID="en-US">A devilishly fun poker table. [#Legal]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAce</LANG>
+    <LANG ID="en-GB">Ace</LANG>
+    <LANG ID="fr-FR">As</LANG>
+    <LANG ID="de-DE">Ass</LANG>
+    <LANG ID="it-IT">Asso</LANG>
+    <LANG ID="es-ES">As</LANG>
+    <LANG ID="en-US">Ace</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kJack</LANG>
+    <LANG ID="en-GB">Jack</LANG>
+    <LANG ID="fr-FR">Valet</LANG>
+    <LANG ID="de-DE">Bube</LANG>
+    <LANG ID="it-IT">Jack</LANG>
+    <LANG ID="es-ES">Sota</LANG>
+    <LANG ID="en-US">Jack</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kQueen</LANG>
+    <LANG ID="en-GB">Queen</LANG>
+    <LANG ID="fr-FR">Reine</LANG>
+    <LANG ID="de-DE">Dame</LANG>
+    <LANG ID="it-IT">Regina</LANG>
+    <LANG ID="es-ES">Reina</LANG>
+    <LANG ID="en-US">Queen</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kKing</LANG>
+    <LANG ID="en-GB">King</LANG>
+    <LANG ID="fr-FR">Roi</LANG>
+    <LANG ID="de-DE">König</LANG>
+    <LANG ID="it-IT">Re</LANG>
+    <LANG ID="es-ES">Rey</LANG>
+    <LANG ID="en-US">King</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSHigh</LANG>
+    <LANG ID="en-GB">%s High</LANG>
+    <LANG ID="fr-FR">Haut %s</LANG>
+    <LANG ID="de-DE">Höchste Karte: %s</LANG>
+    <LANG ID="it-IT">carta più alta %s</LANG>
+    <LANG ID="es-ES">%s de carta alta</LANG>
+    <LANG ID="en-US">%s High</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPairOfS</LANG>
+    <LANG ID="en-GB">Pair of %s</LANG>
+    <LANG ID="fr-FR">paire de %s</LANG>
+    <LANG ID="de-DE">Paar %s</LANG>
+    <LANG ID="it-IT">coppia di %s</LANG>
+    <LANG ID="es-ES">Par de %s</LANG>
+    <LANG ID="en-US">Pair of %s</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTwoPairSS</LANG>
+    <LANG ID="en-GB">Two Pair, %s over %s</LANG>
+    <LANG ID="fr-FR">deux paires, %s sur %s</LANG>
+    <LANG ID="de-DE">Zwei Paare, %s und %s</LANG>
+    <LANG ID="it-IT">Doppia coppia di %s e %s</LANG>
+    <LANG ID="es-ES">Doble par de %s y %s</LANG>
+    <LANG ID="en-US">Two Pair, %s over %s</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kThreeS</LANG>
+    <LANG ID="en-GB">Three %s</LANG>
+    <LANG ID="fr-FR">Brelan de %s</LANG>
+    <LANG ID="de-DE">Drei %s</LANG>
+    <LANG ID="it-IT">Tre %s</LANG>
+    <LANG ID="es-ES">Trío de %s</LANG>
+    <LANG ID="en-US">Three %s</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFullHouseSS</LANG>
+    <LANG ID="en-GB">Full House, %s over %s</LANG>
+    <LANG ID="fr-FR">Full, %s sur %s</LANG>
+    <LANG ID="de-DE">Full House, %s und %s</LANG>
+    <LANG ID="it-IT">full di %s e %s</LANG>
+    <LANG ID="es-ES">Full de %s y %s</LANG>
+    <LANG ID="en-US">Full House, %s over %s</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFourS</LANG>
+    <LANG ID="en-GB">Four %s</LANG>
+    <LANG ID="fr-FR">Carré de %s</LANG>
+    <LANG ID="de-DE">Vier %s</LANG>
+    <LANG ID="it-IT">Quattro %s</LANG>
+    <LANG ID="es-ES">Póker de %s</LANG>
+    <LANG ID="en-US">Four %s</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSHighStraight</LANG>
+    <LANG ID="en-GB">%s High Straight</LANG>
+    <LANG ID="fr-FR">quinte haute %s</LANG>
+    <LANG ID="de-DE">Straße, Höchste Karte: %s</LANG>
+    <LANG ID="it-IT">scala con %s</LANG>
+    <LANG ID="es-ES">Escalera con %s</LANG>
+    <LANG ID="en-US">%s High Straight</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSHighFlush</LANG>
+    <LANG ID="en-GB">%s High Flush</LANG>
+    <LANG ID="fr-FR">couleur haute %s</LANG>
+    <LANG ID="de-DE">Flush, Höchste Karte: %s</LANG>
+    <LANG ID="it-IT">colore con %s</LANG>
+    <LANG ID="es-ES">Color con %s</LANG>
+    <LANG ID="en-US">%s High Flush</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSStraightFlush</LANG>
+    <LANG ID="en-GB">%s High Straight Flush</LANG>
+    <LANG ID="fr-FR">quinte flush haute %s</LANG>
+    <LANG ID="de-DE">Straight Flush, Höchste Karte: %s</LANG>
+    <LANG ID="it-IT">scala di colore con %s</LANG>
+    <LANG ID="es-ES">Escalera de color con %s</LANG>
+    <LANG ID="en-US">%s High Straight Flush</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRoyalFlush</LANG>
+    <LANG ID="en-GB">Royal Flush</LANG>
+    <LANG ID="fr-FR">quinte flush royale</LANG>
+    <LANG ID="de-DE">ein Royal Flush</LANG>
+    <LANG ID="it-IT">scala reale</LANG>
+    <LANG ID="es-ES">Escalera real</LANG>
+    <LANG ID="en-US">Royal Flush</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDealingNewHand</LANG>
+    <LANG ID="en-GB">Dealing a new hand!</LANG>
+    <LANG ID="fr-FR">Donne d'une nouvelle main !</LANG>
+    <LANG ID="de-DE">Neue Runde!</LANG>
+    <LANG ID="it-IT">Nuova mano!</LANG>
+    <LANG ID="es-ES">Nueva mano. . .</LANG>
+    <LANG ID="en-US">Dealing a new hand!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSWinsDWithS</LANG>
+    <LANG ID="en-GB">%s wins %d with: %s!</LANG>
+    <LANG ID="fr-FR">%s gagne %d avec : %s!</LANG>
+    <LANG ID="de-DE">%s gewinnt %d mit: %s!</LANG>
+    <LANG ID="it-IT">%s vince %d con: %s!</LANG>
+    <LANG ID="es-ES">%s gana %d con: %s</LANG>
+    <LANG ID="en-US">%s wins %d with: %s!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kYouWinDWithS</LANG>
+    <LANG ID="en-GB">You win %d with: %s!</LANG>
+    <LANG ID="fr-FR">Vous gagnez %d avec : %s!</LANG>
+    <LANG ID="de-DE">Sie gewinnen %d mit: %s!</LANG>
+    <LANG ID="it-IT">Vinci %d con: %s!</LANG>
+    <LANG ID="es-ES">Ganas %d con: %s</LANG>
+    <LANG ID="en-US">You win %d with: %s!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kUnoccupied</LANG>
+    <LANG ID="en-GB">Unoccupied</LANG>
+    <LANG ID="fr-FR">Vide</LANG>
+    <LANG ID="de-DE">Frei</LANG>
+    <LANG ID="it-IT">Libero</LANG>
+    <LANG ID="es-ES">Lugar libre</LANG>
+    <LANG ID="en-US">Unoccupied</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCashD</LANG>
+    <LANG ID="en-GB">Cash: %d</LANG>
+    <LANG ID="fr-FR">Argent : %d</LANG>
+    <LANG ID="de-DE">Geld: %d</LANG>
+    <LANG ID="it-IT">Denaro: %d</LANG>
+    <LANG ID="es-ES">Monto: %d</LANG>
+    <LANG ID="en-US">Cash: %d</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kWaiting</LANG>
+    <LANG ID="en-GB">Waiting</LANG>
+    <LANG ID="fr-FR">Attend</LANG>
+    <LANG ID="de-DE">Warten</LANG>
+    <LANG ID="it-IT">In attesa</LANG>
+    <LANG ID="es-ES">En espera. . .</LANG>
+    <LANG ID="en-US">Waiting</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kObserving</LANG>
+    <LANG ID="en-GB">Observing</LANG>
+    <LANG ID="fr-FR">Observe</LANG>
+    <LANG ID="de-DE">Beobachten</LANG>
+    <LANG ID="it-IT">In osservazione</LANG>
+    <LANG ID="es-ES">Espectador</LANG>
+    <LANG ID="en-US">Observing</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFolded</LANG>
+    <LANG ID="en-GB">Folded</LANG>
+    <LANG ID="fr-FR">Se couche</LANG>
+    <LANG ID="de-DE">Steigt aus</LANG>
+    <LANG ID="it-IT">Passa</LANG>
+    <LANG ID="es-ES">Al mazo</LANG>
+    <LANG ID="en-US">Folded</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChecked</LANG>
+    <LANG ID="en-GB">Checked</LANG>
+    <LANG ID="fr-FR">Check</LANG>
+    <LANG ID="de-DE">Schiebt</LANG>
+    <LANG ID="it-IT">Cip</LANG>
+    <LANG ID="es-ES">Pasa</LANG>
+    <LANG ID="en-US">Checked</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBetted</LANG>
+    <LANG ID="en-GB">Bet</LANG>
+    <LANG ID="fr-FR">Mise</LANG>
+    <LANG ID="de-DE">Setzt</LANG>
+    <LANG ID="it-IT">Punta</LANG>
+    <LANG ID="es-ES">Apuesta</LANG>
+    <LANG ID="en-US">Bet</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCalled</LANG>
+    <LANG ID="en-GB">Called</LANG>
+    <LANG ID="fr-FR">Suit</LANG>
+    <LANG ID="de-DE">Geht mit</LANG>
+    <LANG ID="it-IT">Vedi puntata</LANG>
+    <LANG ID="es-ES">Iguala</LANG>
+    <LANG ID="en-US">Called</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRaised</LANG>
+    <LANG ID="en-GB">Raised</LANG>
+    <LANG ID="fr-FR">Relance</LANG>
+    <LANG ID="de-DE">Erhöht</LANG>
+    <LANG ID="it-IT">Rilancia</LANG>
+    <LANG ID="es-ES">Sube</LANG>
+    <LANG ID="en-US">Raised</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAllIned</LANG>
+    <LANG ID="en-GB">All In</LANG>
+    <LANG ID="fr-FR">All In</LANG>
+    <LANG ID="de-DE">All-In</LANG>
+    <LANG ID="it-IT">Punta tutto</LANG>
+    <LANG ID="es-ES">Apuesta todo</LANG>
+    <LANG ID="en-US">All In</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kHandS</LANG>
+    <LANG ID="en-GB">Hand: %s</LANG>
+    <LANG ID="fr-FR">Main : %s</LANG>
+    <LANG ID="de-DE">Hand: %s</LANG>
+    <LANG ID="it-IT">Mano: %s</LANG>
+    <LANG ID="es-ES">Mano: %s</LANG>
+    <LANG ID="en-US">Hand: %s</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDealerButton</LANG>
+    <LANG ID="en-GB">D</LANG>
+    <LANG ID="fr-FR">D</LANG>
+    <LANG ID="de-DE">D</LANG>
+    <LANG ID="it-IT">D</LANG>
+    <LANG ID="es-ES">D</LANG>
+    <LANG ID="en-US">D</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBigButton</LANG>
+    <LANG ID="en-GB">B</LANG>
+    <LANG ID="fr-FR">B</LANG>
+    <LANG ID="de-DE">B</LANG>
+    <LANG ID="it-IT">B</LANG>
+    <LANG ID="es-ES">B</LANG>
+    <LANG ID="en-US">B</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSmallButton</LANG>
+    <LANG ID="en-GB">S</LANG>
+    <LANG ID="fr-FR">S</LANG>
+    <LANG ID="de-DE">S</LANG>
+    <LANG ID="it-IT">S</LANG>
+    <LANG ID="es-ES">S</LANG>
+    <LANG ID="en-US">S</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRaise</LANG>
+    <LANG ID="en-GB">Raise %d (%d) [CIRCLE]</LANG>
+    <LANG ID="fr-FR">Relancer %d (%d) [CIRCLE]</LANG>
+    <LANG ID="de-DE">Erhöhen %d (%d) [CIRCLE]</LANG>
+    <LANG ID="it-IT">Rilancia %d (%d) [CIRCLE]</LANG>
+    <LANG ID="es-ES">Subir %d (%d) [CIRCLE]</LANG>
+    <LANG ID="en-US">Raise %d (%d) [CIRCLE]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBet</LANG>
+    <LANG ID="en-GB">Bet (%d) [CIRCLE]</LANG>
+    <LANG ID="fr-FR">Miser (%d) [CIRCLE]</LANG>
+    <LANG ID="de-DE">Setzen (%d) [CIRCLE]</LANG>
+    <LANG ID="it-IT">Punta (%d) [CIRCLE]</LANG>
+    <LANG ID="es-ES">Apostar (%d) [CIRCLE]</LANG>
+    <LANG ID="en-US">Bet (%d) [CIRCLE]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFold</LANG>
+    <LANG ID="en-GB">Fold [SQUARE]</LANG>
+    <LANG ID="fr-FR">Se coucher [SQUARE]</LANG>
+    <LANG ID="de-DE">Aussteigen [SQUARE]</LANG>
+    <LANG ID="it-IT">Passa [SQUARE]</LANG>
+    <LANG ID="es-ES">Al mazo [SQUARE]</LANG>
+    <LANG ID="en-US">Fold [SQUARE]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCall</LANG>
+    <LANG ID="en-GB">Call (%d) [CROSS]</LANG>
+    <LANG ID="fr-FR">Suivre (%d) [CROSS]</LANG>
+    <LANG ID="de-DE">Mitgehen (%d) [CROSS]</LANG>
+    <LANG ID="it-IT">Vedi puntata (%d) [CROSS]</LANG>
+    <LANG ID="es-ES">Igualar (%d) [CROSS]</LANG>
+    <LANG ID="en-US">Call (%d) [CROSS]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCheck</LANG>
+    <LANG ID="en-GB">Check [CROSS]</LANG>
+    <LANG ID="fr-FR">Checker [CROSS]</LANG>
+    <LANG ID="de-DE">Schieben [CROSS]</LANG>
+    <LANG ID="it-IT">Cip [CROSS]</LANG>
+    <LANG ID="es-ES">Pasar [CROSS]</LANG>
+    <LANG ID="en-US">Check [CROSS]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFoldX</LANG>
+    <LANG ID="en-GB">Fold [CROSS]</LANG>
+    <LANG ID="fr-FR">Se coucher [CROSS]</LANG>
+    <LANG ID="de-DE">Aussteigen [CROSS]</LANG>
+    <LANG ID="it-IT">Passa [CROSS]</LANG>
+    <LANG ID="es-ES">Al mazo [CROSS]</LANG>
+    <LANG ID="en-US">Fold [CROSS]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAllInX</LANG>
+    <LANG ID="en-GB">All In [CROSS]</LANG>
+    <LANG ID="fr-FR">All In [CROSS]</LANG>
+    <LANG ID="de-DE">All In [CROSS]</LANG>
+    <LANG ID="it-IT">Punta tutto [CROSS]</LANG>
+    <LANG ID="es-ES">Apuesta todo [CROSS]</LANG>
+    <LANG ID="en-US">All In [CROSS]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBetX</LANG>
+    <LANG ID="en-GB">Bet (%d) [CROSS]</LANG>
+    <LANG ID="fr-FR">Miser (%d) [CROSS]</LANG>
+    <LANG ID="de-DE">Setzen (%d) [CROSS]</LANG>
+    <LANG ID="it-IT">Punta (%d) [CROSS]</LANG>
+    <LANG ID="es-ES">Apostar (%d) [CROSS]</LANG>
+    <LANG ID="en-US">Bet (%d) [CROSS]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRaiseX</LANG>
+    <LANG ID="en-GB">Raise %d (%d) [CROSS]</LANG>
+    <LANG ID="fr-FR">Relancer %d (%d) [CROSS]</LANG>
+    <LANG ID="de-DE">Erhöhen %d (%d) [CROSS]</LANG>
+    <LANG ID="it-IT">Rilancia %d (%d) [CROSS]</LANG>
+    <LANG ID="es-ES">Subir %d (%d) [CROSS]</LANG>
+    <LANG ID="en-US">Raise %d (%d) [CROSS]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kIncreaseBet</LANG>
+    <LANG ID="en-GB">Increase Bet [RIGHT]</LANG>
+    <LANG ID="fr-FR">Disminuya Mise [RIGHT]</LANG>
+    <LANG ID="de-DE">Vermehren Setzt [RIGHT]</LANG>
+    <LANG ID="it-IT">Aumentare la Punta [RIGHT]</LANG>
+    <LANG ID="es-ES">Aumente Apuesta [RIGHT]</LANG>
+    <LANG ID="en-US">Increase Bet [RIGHT]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDecreaseBet</LANG>
+    <LANG ID="en-GB">Decrease Bet [LEFT]</LANG>
+    <LANG ID="fr-FR">Diminuer Mise [LEFT]</LANG>
+    <LANG ID="de-DE">Nehmen Setzt [LEFT]</LANG>
+    <LANG ID="it-IT">Diminuire la Punta [LEFT]</LANG>
+    <LANG ID="es-ES">Disminuya Apuesta [LEFT]</LANG>
+    <LANG ID="en-US">Decrease Bet [LEFT]</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTwo</LANG>
+    <LANG ID="en-GB">Two</LANG>
+    <LANG ID="fr-FR">Deux</LANG>
+    <LANG ID="de-DE">Zwei</LANG>
+    <LANG ID="it-IT">Due</LANG>
+    <LANG ID="es-ES">Dos</LANG>
+    <LANG ID="en-US">Two</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTwos</LANG>
+    <LANG ID="en-GB">Twos</LANG>
+    <LANG ID="fr-FR">Deux</LANG>
+    <LANG ID="de-DE">Zweien</LANG>
+    <LANG ID="it-IT">Due</LANG>
+    <LANG ID="es-ES">Doses</LANG>
+    <LANG ID="en-US">Twos</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kThree</LANG>
+    <LANG ID="en-GB">Three</LANG>
+    <LANG ID="fr-FR">Trois</LANG>
+    <LANG ID="de-DE">Drei</LANG>
+    <LANG ID="it-IT">Tre</LANG>
+    <LANG ID="es-ES">Tres</LANG>
+    <LANG ID="en-US">Three</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kThrees</LANG>
+    <LANG ID="en-GB">Threes</LANG>
+    <LANG ID="fr-FR">Trois</LANG>
+    <LANG ID="de-DE">Dreien</LANG>
+    <LANG ID="it-IT">Tre</LANG>
+    <LANG ID="es-ES">Treses</LANG>
+    <LANG ID="en-US">Threes</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFour</LANG>
+    <LANG ID="en-GB">Four</LANG>
+    <LANG ID="fr-FR">Quatre</LANG>
+    <LANG ID="de-DE">Vier</LANG>
+    <LANG ID="it-IT">Quattro</LANG>
+    <LANG ID="es-ES">Cuatro</LANG>
+    <LANG ID="en-US">Four</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFours</LANG>
+    <LANG ID="en-GB">Fours</LANG>
+    <LANG ID="fr-FR">Quatre</LANG>
+    <LANG ID="de-DE">Vieren</LANG>
+    <LANG ID="it-IT">Quattro</LANG>
+    <LANG ID="es-ES">Cuatros</LANG>
+    <LANG ID="en-US">Fours</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFive</LANG>
+    <LANG ID="en-GB">Five</LANG>
+    <LANG ID="fr-FR">Cinq</LANG>
+    <LANG ID="de-DE">Fünf</LANG>
+    <LANG ID="it-IT">Cinque</LANG>
+    <LANG ID="es-ES">Cinco</LANG>
+    <LANG ID="en-US">Five</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFives</LANG>
+    <LANG ID="en-GB">Fives</LANG>
+    <LANG ID="fr-FR">Cinq</LANG>
+    <LANG ID="de-DE">Fünfen</LANG>
+    <LANG ID="it-IT">Cinque</LANG>
+    <LANG ID="es-ES">Cincos</LANG>
+    <LANG ID="en-US">Fives</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSix</LANG>
+    <LANG ID="en-GB">Six</LANG>
+    <LANG ID="fr-FR">Six</LANG>
+    <LANG ID="de-DE">Sechs</LANG>
+    <LANG ID="it-IT">Sei</LANG>
+    <LANG ID="es-ES">Seis</LANG>
+    <LANG ID="en-US">Six</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSixes</LANG>
+    <LANG ID="en-GB">Sixes</LANG>
+    <LANG ID="fr-FR">Six</LANG>
+    <LANG ID="de-DE">Sechsen</LANG>
+    <LANG ID="it-IT">Sei</LANG>
+    <LANG ID="es-ES">Seises</LANG>
+    <LANG ID="en-US">Sixes</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSeven</LANG>
+    <LANG ID="en-GB">Seven</LANG>
+    <LANG ID="fr-FR">Sept</LANG>
+    <LANG ID="de-DE">Sieben</LANG>
+    <LANG ID="it-IT">Sette</LANG>
+    <LANG ID="es-ES">Siete</LANG>
+    <LANG ID="en-US">Seven</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSevens</LANG>
+    <LANG ID="en-GB">Sevens</LANG>
+    <LANG ID="fr-FR">Sept</LANG>
+    <LANG ID="de-DE">Siebenen</LANG>
+    <LANG ID="it-IT">Sette</LANG>
+    <LANG ID="es-ES">Sietes</LANG>
+    <LANG ID="en-US">Sevens</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEight</LANG>
+    <LANG ID="en-GB">Eight</LANG>
+    <LANG ID="fr-FR">Huit</LANG>
+    <LANG ID="de-DE">Acht</LANG>
+    <LANG ID="it-IT">Otto</LANG>
+    <LANG ID="es-ES">Ocho</LANG>
+    <LANG ID="en-US">Eight</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEights</LANG>
+    <LANG ID="en-GB">Eights</LANG>
+    <LANG ID="fr-FR">Huit</LANG>
+    <LANG ID="de-DE">Achten</LANG>
+    <LANG ID="it-IT">Otto</LANG>
+    <LANG ID="es-ES">Ochos</LANG>
+    <LANG ID="en-US">Eights</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kNine</LANG>
+    <LANG ID="en-GB">Nine</LANG>
+    <LANG ID="fr-FR">Neuf</LANG>
+    <LANG ID="de-DE">Neun</LANG>
+    <LANG ID="it-IT">Nove</LANG>
+    <LANG ID="es-ES">Nueve</LANG>
+    <LANG ID="en-US">Nine</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kNines</LANG>
+    <LANG ID="en-GB">Nines</LANG>
+    <LANG ID="fr-FR">Neuf</LANG>
+    <LANG ID="de-DE">Neunen</LANG>
+    <LANG ID="it-IT">Nove</LANG>
+    <LANG ID="es-ES">Nueves</LANG>
+    <LANG ID="en-US">Nines</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTen</LANG>
+    <LANG ID="en-GB">Ten</LANG>
+    <LANG ID="fr-FR">Dix</LANG>
+    <LANG ID="de-DE">Zehn</LANG>
+    <LANG ID="it-IT">Dieci</LANG>
+    <LANG ID="es-ES">Diez</LANG>
+    <LANG ID="en-US">Ten</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kTens</LANG>
+    <LANG ID="en-GB">Tens</LANG>
+    <LANG ID="fr-FR">Dix</LANG>
+    <LANG ID="de-DE">Zehnen</LANG>
+    <LANG ID="it-IT">Dieci</LANG>
+    <LANG ID="es-ES">Dieces</LANG>
+    <LANG ID="en-US">Tens</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kJacks</LANG>
+    <LANG ID="en-GB">Jacks</LANG>
+    <LANG ID="fr-FR">Valets</LANG>
+    <LANG ID="de-DE">Buben</LANG>
+    <LANG ID="it-IT">Jack</LANG>
+    <LANG ID="es-ES">Sotas</LANG>
+    <LANG ID="en-US">Jacks</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kQueens</LANG>
+    <LANG ID="en-GB">Queens</LANG>
+    <LANG ID="fr-FR">Reines</LANG>
+    <LANG ID="de-DE">Damen</LANG>
+    <LANG ID="it-IT">Regine</LANG>
+    <LANG ID="es-ES">Reinas</LANG>
+    <LANG ID="en-US">Queens</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kKings</LANG>
+    <LANG ID="en-GB">Kings</LANG>
+    <LANG ID="fr-FR">Rois</LANG>
+    <LANG ID="de-DE">Könige</LANG>
+    <LANG ID="it-IT">Re</LANG>
+    <LANG ID="es-ES">Reyes</LANG>
+    <LANG ID="en-US">Kings</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kAces</LANG>
+    <LANG ID="en-GB">Aces</LANG>
+    <LANG ID="fr-FR">As</LANG>
+    <LANG ID="de-DE">Asse</LANG>
+    <LANG ID="it-IT">Assi</LANG>
+    <LANG ID="es-ES">Ases</LANG>
+    <LANG ID="en-US">Aces</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRaisesLC</LANG>
+    <LANG ID="en-GB">raises</LANG>
+    <LANG ID="fr-FR">relance</LANG>
+    <LANG ID="de-DE">erhöht</LANG>
+    <LANG ID="it-IT">rilancia</LANG>
+    <LANG ID="es-ES">sube</LANG>
+    <LANG ID="en-US">raises</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kRaiseLC</LANG>
+    <LANG ID="en-GB">raise</LANG>
+    <LANG ID="fr-FR">relancer</LANG>
+    <LANG ID="de-DE">erhöhen</LANG>
+    <LANG ID="it-IT">rilanciano</LANG>
+    <LANG ID="es-ES">suben</LANG>
+    <LANG ID="en-US">raise</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBetsLC</LANG>
+    <LANG ID="en-GB">bets</LANG>
+    <LANG ID="fr-FR">mise</LANG>
+    <LANG ID="de-DE">setzt</LANG>
+    <LANG ID="it-IT">punta</LANG>
+    <LANG ID="es-ES">apuesta</LANG>
+    <LANG ID="en-US">bets</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kBetLC</LANG>
+    <LANG ID="en-GB">bet</LANG>
+    <LANG ID="fr-FR">miser</LANG>
+    <LANG ID="de-DE">setzen</LANG>
+    <LANG ID="it-IT">puntano</LANG>
+    <LANG ID="es-ES">apuestan</LANG>
+    <LANG ID="en-US">bet</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCallsLC</LANG>
+    <LANG ID="en-GB">calls</LANG>
+    <LANG ID="fr-FR">suit</LANG>
+    <LANG ID="de-DE">geht mit</LANG>
+    <LANG ID="it-IT">vede puntata</LANG>
+    <LANG ID="es-ES">iguala</LANG>
+    <LANG ID="en-US">calls</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCallLC</LANG>
+    <LANG ID="en-GB">call</LANG>
+    <LANG ID="fr-FR">suivre</LANG>
+    <LANG ID="de-DE">gehen mit</LANG>
+    <LANG ID="it-IT">vedono puntata</LANG>
+    <LANG ID="es-ES">igualan</LANG>
+    <LANG ID="en-US">call</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFoldsLC</LANG>
+    <LANG ID="en-GB">folds</LANG>
+    <LANG ID="fr-FR">se couche</LANG>
+    <LANG ID="de-DE">steigt aus</LANG>
+    <LANG ID="it-IT">passa</LANG>
+    <LANG ID="es-ES">se va al mazo</LANG>
+    <LANG ID="en-US">folds</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kFoldLC</LANG>
+    <LANG ID="en-GB">fold</LANG>
+    <LANG ID="fr-FR">se coucher</LANG>
+    <LANG ID="de-DE">steigen aus</LANG>
+    <LANG ID="it-IT">passano</LANG>
+    <LANG ID="es-ES">se van al mazo</LANG>
+    <LANG ID="en-US">fold</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kIsAllInLC</LANG>
+    <LANG ID="en-GB">is all in!</LANG>
+    <LANG ID="fr-FR">est all in!</LANG>
+    <LANG ID="de-DE">geht All-In!</LANG>
+    <LANG ID="it-IT">ha puntato tutto!</LANG>
+    <LANG ID="es-ES">apuesta todo</LANG>
+    <LANG ID="en-US">is all in!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChecksLC</LANG>
+    <LANG ID="en-GB">checks</LANG>
+    <LANG ID="fr-FR">check</LANG>
+    <LANG ID="de-DE">schiebt</LANG>
+    <LANG ID="it-IT">cip</LANG>
+    <LANG ID="es-ES">pasa</LANG>
+    <LANG ID="en-US">checks</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCheckLC</LANG>
+    <LANG ID="en-GB">check</LANG>
+    <LANG ID="fr-FR">checker</LANG>
+    <LANG ID="de-DE">schieben</LANG>
+    <LANG ID="it-IT">cip</LANG>
+    <LANG ID="es-ES">pasan</LANG>
+    <LANG ID="en-US">check</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kShowdown</LANG>
+    <LANG ID="en-GB">Showdown!</LANG>
+    <LANG ID="fr-FR">Abattage !</LANG>
+    <LANG ID="de-DE">Showdown!</LANG>
+    <LANG ID="it-IT">Scopri carte!</LANG>
+    <LANG ID="es-ES">A ver las cartas...</LANG>
+    <LANG ID="en-US">Showdown!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPotD</LANG>
+    <LANG ID="en-GB">Pot: %d</LANG>
+    <LANG ID="fr-FR">Pot: %d</LANG>
+    <LANG ID="de-DE">Pot: %d</LANG>
+    <LANG ID="it-IT">Piatto: %d</LANG>
+    <LANG ID="es-ES">En juego: %d</LANG>
+    <LANG ID="en-US">Pot: %d</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kWaitingForPeeps</LANG>
+    <LANG ID="en-GB">Waiting for players. . .</LANG>
+    <LANG ID="fr-FR">Attente de joueurs. . .</LANG>
+    <LANG ID="de-DE">Warten auf Spieler. . .</LANG>
+    <LANG ID="it-IT">In attesa dei giocatori. . .</LANG>
+    <LANG ID="es-ES">A la espera de jugadores. . .</LANG>
+    <LANG ID="en-US">Waiting for players. . .</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kPressToStartGame</LANG>
+    <LANG ID="en-GB">Press [ACCEPT] to start the game</LANG>
+    <LANG ID="fr-FR">Appuyez sur [ACCEPT] pour commencer la partie</LANG>
+    <LANG ID="de-DE">Klicken Sie auf [ACCEPT], um das Spiel zu starten</LANG>
+    <LANG ID="it-IT">Premi [ACCEPT] per iniziare il gioco</LANG>
+    <LANG ID="es-ES">Haz clic en [ACCEPT] para comenzar el juego</LANG>
+    <LANG ID="en-US">Press [ACCEPT] to start the game</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kWaitingForSToStart</LANG>
+    <LANG ID="en-GB">Waiting for %s</LANG>
+    <LANG ID="fr-FR">Nous attendons %s</LANG>
+    <LANG ID="de-DE">Warten auf %s</LANG>
+    <LANG ID="it-IT">In attesa di %s</LANG>
+    <LANG ID="es-ES">A la espera de %s</LANG>
+    <LANG ID="en-US">Waiting for %s</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCameraModeNormal</LANG>
+    <LANG ID="en-GB">Camera Mode: Normal</LANG>
+    <LANG ID="fr-FR">Mode caméra : Normal</LANG>
+    <LANG ID="de-DE">Kameramodus: Normal</LANG>
+    <LANG ID="it-IT">Inquadratura: normale</LANG>
+    <LANG ID="es-ES">Cámara: Normal</LANG>
+    <LANG ID="en-US">Camera Mode: Normal</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCameraModeTV</LANG>
+    <LANG ID="en-GB">Camera Mode: TV</LANG>
+    <LANG ID="fr-FR">Mode caméra : TV</LANG>
+    <LANG ID="de-DE">Kameramodus: TV</LANG>
+    <LANG ID="it-IT">Inquadratura: TV</LANG>
+    <LANG ID="es-ES">Cámara: TV</LANG>
+    <LANG ID="en-US">Camera Mode: TV</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kCameraModePOV</LANG>
+    <LANG ID="en-GB">Camera Mode: POV</LANG>
+    <LANG ID="fr-FR">Mode caméra : subjectif</LANG>
+    <LANG ID="de-DE">Kameramodus: POV</LANG>
+    <LANG ID="it-IT">Inquadratura: soggettiva</LANG>
+    <LANG ID="es-ES">Cámara: Subjetiva</LANG>
+    <LANG ID="en-US">Camera Mode: POV</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kChatName</LANG>
+    <LANG ID="en-GB">Poker Table</LANG>
+    <LANG ID="fr-FR">Table de poker</LANG>
+    <LANG ID="de-DE">Pokertisch</LANG>
+    <LANG ID="it-IT">Tavolo da poker</LANG>
+    <LANG ID="es-ES">Mesa de póker</LANG>
+    <LANG ID="en-US">Poker Table</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDealingFlop</LANG>
+    <LANG ID="en-GB">Dealing the flop!</LANG>
+    <LANG ID="fr-FR">Donne du flop !</LANG>
+    <LANG ID="de-DE">Aufdecken des Flop</LANG>
+    <LANG ID="it-IT">Distribuzione del flop!</LANG>
+    <LANG ID="es-ES">1.ª fase...</LANG>
+    <LANG ID="en-US">Dealing the flop!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDealingTurn</LANG>
+    <LANG ID="en-GB">Dealing the turn!</LANG>
+    <LANG ID="fr-FR">Donne du turn !</LANG>
+    <LANG ID="de-DE">Aufdecken des Turn</LANG>
+    <LANG ID="it-IT">Distribuzione del turn!</LANG>
+    <LANG ID="es-ES">2.ª fase...</LANG>
+    <LANG ID="en-US">Dealing the turn!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDealingRiver</LANG>
+    <LANG ID="en-GB">Dealing the river!</LANG>
+    <LANG ID="fr-FR">Donne de la river !</LANG>
+    <LANG ID="de-DE">Aufdecken des River</LANG>
+    <LANG ID="it-IT">Distribuzione del river!</LANG>
+    <LANG ID="es-ES">3.ª fase...</LANG>
+    <LANG ID="en-US">Dealing the river!</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kEveryoneElseFolded</LANG>
+    <LANG ID="en-GB">everyone else folded</LANG>
+    <LANG ID="fr-FR">tous les autres se sont couchés</LANG>
+    <LANG ID="de-DE">alle anderen sind ausgestiegen</LANG>
+    <LANG ID="it-IT">tutti gli altri hanno passato</LANG>
+    <LANG ID="es-ES">todos se fueron al mazo</LANG>
+    <LANG ID="en-US">everyone else folded</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kGameNameLimit</LANG>
+    <LANG ID="en-GB">Limit Hold'em</LANG>
+    <LANG ID="fr-FR">Limit Hold'em</LANG>
+    <LANG ID="de-DE">Limit Hold'em</LANG>
+    <LANG ID="it-IT">Limit Hold'em</LANG>
+    <LANG ID="es-ES">Limit Hold'em</LANG>
+    <LANG ID="en-US">Limit Hold'em</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kGameNameNoLimit</LANG>
+    <LANG ID="en-GB">No-Limit Tournament</LANG>
+    <LANG ID="fr-FR">No-Limit Tournoi</LANG>
+    <LANG ID="de-DE">No-Limit Turniere</LANG>
+    <LANG ID="it-IT">No-limit Torneo</LANG>
+    <LANG ID="es-ES">No-limit Torneo</LANG>
+    <LANG ID="en-US">No-Limit Tournament</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDecrease</LANG>
+    <LANG ID="en-GB">Decrease Bet</LANG>
+    <LANG ID="fr-FR">Disminuya Mise</LANG>
+    <LANG ID="de-DE">Vermehren Setzt</LANG>
+    <LANG ID="it-IT">Aumentare la Punta</LANG>
+    <LANG ID="es-ES">Aumente Apuesta</LANG>
+    <LANG ID="en-US">Decrease Bet</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kIncrease</LANG>
+    <LANG ID="en-GB">Increase Bet</LANG>
+    <LANG ID="fr-FR">Diminuer Mise</LANG>
+    <LANG ID="de-DE">Nehmen Setzt</LANG>
+    <LANG ID="it-IT">Diminuire la Punta</LANG>
+    <LANG ID="es-ES">Disminuya Apuesta</LANG>
+    <LANG ID="en-US">Increase Bet</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSOutInPlace6</LANG>
+    <LANG ID="en-GB">%s went out in 6th place</LANG>
+    <LANG ID="fr-FR">%s est sorti dans le 6 lieu</LANG>
+    <LANG ID="de-DE">%s ist in 6. Ort ausgegangen</LANG>
+    <LANG ID="it-IT">%s è uscito nel luogo 6</LANG>
+    <LANG ID="es-ES">%s salió en el lugar 6</LANG>
+    <LANG ID="en-US">%s went out in 6th place</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSOutInPlace5</LANG>
+    <LANG ID="en-GB">%s went out in 5th place</LANG>
+    <LANG ID="fr-FR">%s est sorti dans le 5 lieu</LANG>
+    <LANG ID="de-DE">%s ist in 5. Ort ausgegangen</LANG>
+    <LANG ID="it-IT">%s è uscito nel luogo 5</LANG>
+    <LANG ID="es-ES">%s salió en el lugar 5</LANG>
+    <LANG ID="en-US">%s went out in 5th place</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSOutInPlace4</LANG>
+    <LANG ID="en-GB">%s went out in 4th place</LANG>
+    <LANG ID="fr-FR">%s est sorti dans le 4 lieu</LANG>
+    <LANG ID="de-DE">%s ist in 4. Ort ausgegangen</LANG>
+    <LANG ID="it-IT">%s è uscito nel luogo 4</LANG>
+    <LANG ID="es-ES">%s salió en el lugar 4</LANG>
+    <LANG ID="en-US">%s went out in 4th place</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSOutInPlace3</LANG>
+    <LANG ID="en-GB">%s went out in 3rd place</LANG>
+    <LANG ID="fr-FR">%s est sorti dans le 3 lieu</LANG>
+    <LANG ID="de-DE">%s ist in 3. Ort ausgegangen</LANG>
+    <LANG ID="it-IT">%s è uscito nel luogo 3</LANG>
+    <LANG ID="es-ES">%s salió en el lugar 3</LANG>
+    <LANG ID="en-US">%s went out in 3rd place</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSOutInPlace2</LANG>
+    <LANG ID="en-GB">%s went out in 2nd place</LANG>
+    <LANG ID="fr-FR">%s est sorti dans le 2 lieu</LANG>
+    <LANG ID="de-DE">%s ist in 2. Ort ausgegangen</LANG>
+    <LANG ID="it-IT">%s è uscito nel luogo 2</LANG>
+    <LANG ID="es-ES">%s salió en el lugar 2</LANG>
+    <LANG ID="en-US">%s went out in 2nd place</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kSOutInPlace1</LANG>
+    <LANG ID="en-GB">%s won the tournament!</LANG>
+    <LANG ID="fr-FR">%s a gagné le tournoi !</LANG>
+    <LANG ID="de-DE">%s hat das Turnier gewonnen!</LANG>
+    <LANG ID="it-IT">%s ha vinto il torneo!</LANG>
+    <LANG ID="es-ES">¡ %s ganó el torneo!</LANG>
+    <LANG ID="en-US">%s won the tournament!</LANG>
+  </PHRASE>
+</LOCALISATION>
