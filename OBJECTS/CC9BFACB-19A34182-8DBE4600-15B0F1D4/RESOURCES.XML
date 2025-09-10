@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/FARM_F_FineCupboard.mdl" memory="host" />
+		<model name="Cupboard_Fork.mdl" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Fork.mdl" memory="host" />
+		<model name="Cupboard_Knife.mdl" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Knife.mdl" memory="host" />
+		<model name="Cupboard_Plate.mdl" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Plate.mdl" memory="host" />
+		<model name="Cupboard_Spoon.mdl" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Spoon.mdl" memory="host" />
+		<model name="Cupboard_SugarContainer.mdl" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_SugarContainer.mdl" memory="host" />
+		<model name="Cupboard_TeaCup.mdl" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_TeaCup.mdl" memory="host" />
+		<model name="Cupboard_TeaSet.mdl" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_TeaSet.mdl" memory="host" />
+		<texture name="constructor_cangrab.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_cangrab.dds" memory="host" />
+		<texture name="Constructor_ItemLocked.png" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/Constructor_ItemLocked.png" memory="host" />
+		<texture name="constructor_movingitem.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_movingitem.dds" memory="host" />
+		<texture name="constructor_nothingselected.dds" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/graphics/constructor_nothingselected.dds" memory="host" />
+		<texture name="cup.png" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Graphics/cup.png" memory="host" />
+		<texture name="fork.png" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Graphics/fork.png" memory="host" />
+		<texture name="knife.png" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Graphics/knife.png" memory="host" />
+		<texture name="plate.png" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Graphics/plate.png" memory="host" />
+		<texture name="pot.png" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Graphics/pot.png" memory="host" />
+		<texture name="spoon.png" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Graphics/spoon.png" memory="host" />
+		<texture name="sugar.png" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Graphics/sugar.png" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/Network.xml" memory="host" />
+		<file name="Bramblenook_UI.bank" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/audio/Bramblenook_UI.bank" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/FARM_F_FineCupboard.hkx" memory="host" />
+		<collision name="Sprg13_Egghunt_Collider.hkx" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/models/Constructor_Collider.hkx" memory="host" />
+		<collision name="Cupboard_Fork.hkx" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Fork.hkx" memory="host" />
+		<collision name="Cupboard_Knife.hkx" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Knife.hkx" memory="host" />
+		<collision name="Cupboard_Plate.hkx" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Plate.hkx" memory="host" />
+		<collision name="Cupboard_Spoon.hkx" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_Spoon.hkx" memory="host" />
+		<collision name="Cupboard_SugarContainer.hkx" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_SugarContainer.hkx" memory="host" />
+		<collision name="Cupboard_TeaCup.hkx" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_TeaCup.hkx" memory="host" />
+		<collision name="Cupboard_TeaSet.hkx" deferred_loading="false" protected="false" file="furniture/farm_f_finecupboard/Cupboard_TeaSet.hkx" memory="host" />
+		<soundbank name="Bramblenook_UI.bnk" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/props/tony_cityelements/furniture/MINIB_Geometry_Forest/audio/Bramblenook_UI.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/MiniGame.lua" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/utilities/Pad.lua" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/utilities/StateMachine.lua" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/utilities/Utility.lua" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/states/State_Idle.lua" memory="host" />
+		<lua name="State_PlaceItems.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/states/State_PlaceItems.lua" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/network/MessageManager.lua" memory="host" />
+		<lua name="Constructor.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/constructor/Constructor.lua" memory="host" />
+		<lua name="Level.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/constructor/Level.lua" memory="host" />
+		<lua name="LevelComponents.lua" deferred_loading="false" protected="true" file="furniture/farm_f_finecupboard/lua/constructor/LevelComponents.lua" memory="host" />
+	</local>
+	<external />
+</resources>

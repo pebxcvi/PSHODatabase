@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/bat_001_anifurn_005/PlaceholderCube.mdl" />
+		<model name="MyModel" deferred_loading="false" protected="false" file="furniture/bat_001_anifurn_005/bat_001_aniFurn_005.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/bat_001_anifurn_005/bat_001_aniFurn_005.hkx" />
+		<collision name="SafeCollision" deferred_loading="false" protected="false" file="furniture/bat_001_anifurn_005/bat_001_aniFurn_005.safevolume.hkx" />
+		<anim name="MyAnim" deferred_loading="false" protected="false" file="furniture/bat_001_anifurn_005/bat_001_aniFurn_005.ani" />
+		<skeleton name="MySkel" deferred_loading="false" protected="false" file="furniture/bat_001_anifurn_005/bat_001_aniFurn_005.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/DippingBird/MiniGame.lua" />
+	</local>
+	<external />
+</resources>

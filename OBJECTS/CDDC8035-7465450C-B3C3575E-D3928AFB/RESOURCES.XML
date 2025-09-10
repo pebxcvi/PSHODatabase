@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Ball_blue" file="MiniGames/Triball/Triball_ball_blue.mdl" memory="host" />
+		<model name="Ball_green" file="MiniGames/Triball/Triball_ball_green.mdl" memory="host" />
+		<model name="Ball_red" file="MiniGames/Triball/Triball_ball_red.mdl" memory="host" />
+		<model name="Beam_white" file="MiniGames/Triball/Triball_beam_white.mdl" memory="host" />
+		<model name="Beam_red" file="MiniGames/Triball/Triball_beam_red.mdl" memory="host" />
+		<model name="Beam_green" file="MiniGames/Triball/Triball_beam_green.mdl" memory="host" />
+		<model name="Beam_blue" file="MiniGames/Triball/Triball_beam_blue.mdl" memory="host" />
+		<model name="Ball_white" file="MiniGames/Triball/Triball_ball_white.mdl" memory="host" />
+		<model name="Triball_sphere" file="MiniGames/Triball/Triball_sphere.mdl" memory="host" />
+		<model name="Tri1_green" file="MiniGames/Triball/Triball_tri1_green.mdl" memory="host" />
+		<model name="Tri1_red" file="MiniGames/Triball/Triball_tri1_red.mdl" memory="host" />
+		<model name="Tri2_green" file="MiniGames/Triball/Triball_tri2_green.mdl" memory="host" />
+		<model name="Tri2_red" file="MiniGames/Triball/Triball_tri2_red.mdl" memory="host" />
+		<model name="Claim_Flash" file="MiniGames/Triball/Triball_claim_flash.mdl" memory="host" />
+		<model name="Tri_Flash" file="MiniGames/Triball/Triball_claim_Tri_flash.mdl" memory="host" />
+		<model name="Logos" file="MiniGames/Triball/Triball_sphere_logos.mdl" memory="host" />
+		<texture name="effects_texture" file="MiniGames/Triball/triball_effects.dds" memory="host" />
+		<texture name="triball_players_osd" deferred_loading="false" file="MiniGames/Triball/triball_players_osd.dds" memory="host" />
+		<texture name="triball_winner_osd" deferred_loading="false" file="MiniGames/Triball/triball_winner_osd.dds" memory="host" />
+		<texture name="tribal_info_red_osd" deferred_loading="false" file="MiniGames/Triball/Tribal_info_red_osd.dds" memory="host" />
+		<texture name="tribal_info_green_osd" deferred_loading="false" file="MiniGames/Triball/Tribal_info_green_osd.dds" memory="host" />
+		<texture name="Ps3_pad_L_Stick" deferred_loading="false" file="MiniGames/Triball/Ps3_pad_L_Stick.dds" memory="host" />
+		<texture name="Ps3_pad_x" deferred_loading="false" file="MiniGames/Triball/Ps3_pad_x.dds" memory="host" />
+		<texture name="Ps3_pad_Tri_Blue" deferred_loading="false" protected="" file="MiniGames/Triball/Ps3_pad_Tri_Blue.dds" memory="host" />
+		<texture name="Ps3_pad_Tri" deferred_loading="false" protected="" file="MiniGames/Triball/Ps3_pad_Tri.dds" memory="host" />
+		<file name="OSD_types" file="MiniGames/Triball/OSD/types.xml" memory="host" />
+		<file name="OSD_text" deferred_loading="false" file="MiniGames/Triball/OSD/text.xml" memory="host" />
+		<file name="OSD_graphicstypes" deferred_loading="false" file="MiniGames/Triball/OSD/graphicstypes.xml" memory="host" />
+		<soundbank name="Triball_Sounds" file="MiniGames/Triball/Triball_sounds.bnk" memory="host" />
+		<lua name="TriBall_main" deferred_loading="" protected="true" file="MiniGames/Triball/Triball_main.lua" memory="host" />
+		<lua name="TriBall_MeshData" deferred_loading="" protected="true" file="MiniGames/Triball/triball_MeshExport.lua" memory="host" />
+		<lua name="Tweener" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/tweener.lua" memory="host" />
+		<lua name="Dampener" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/dampener.lua" memory="host" />
+		<lua name="Matrix" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/matrix.lua" memory="host" />
+		<lua name="GeneralFnLib" deferred_loading="" protected="true" file="MiniGames/Lua_fn_libs/General_Fn_Lib.lua" memory="host" />
+		<lua name="TriBall_AnimData" deferred_loading="" protected="true" file="MiniGames/Triball/Triball_AnimData.lua" memory="host" />
+		<lua name="Triball_Spiral_Anim" deferred_loading="" protected="true" file="MiniGames/Triball/Triball_Spiral_AnimData.lua" memory="host" />
+	</local>
+	<external />
+</resources>

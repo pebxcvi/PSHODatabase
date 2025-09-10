@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="demonTiger.mdl" deferred_loading="true" protected="false" file="Locomotion/demon_tiger_lmo/demontiger_red.mdl" memory="host" />
+		<model name="demontiger_lod.mdl" deferred_loading="true" protected="false" file="Locomotion/demon_tiger_lmo/demontiger_red_lod.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Demon_Tiger_lmo/file/config.xml" memory="host" />
+		<anim name="demontiger_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/demontiger_Idle.ani" memory="host" />
+		<anim name="demontiger_Run.ani" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/demontiger_Run.ani" memory="host" />
+		<anim name="demontiger_Sprint.ani" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/demontiger_Sprint.ani" memory="host" />
+		<anim name="F_demontiger_Idle" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/F_demontiger_Idle.ani" memory="host" />
+		<anim name="F_demontiger_Run" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/F_demontiger_Run.ani" memory="host" />
+		<anim name="F_demontiger_Sprint" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/F_demontiger_Sprint.ani" memory="host" />
+		<anim name="M_demontiger_Idle" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/M_demontiger_Idle.ani" memory="host" />
+		<anim name="M_demontiger_Run" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/M_demontiger_Run.ani" memory="host" />
+		<anim name="M_demontiger_Sprint" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/M_demontiger_Sprint.ani" memory="host" />
+		<skeleton name="demonTiger.skn" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/demontiger.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Demon_Tiger_lmo/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Demon_Tiger_lmo/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

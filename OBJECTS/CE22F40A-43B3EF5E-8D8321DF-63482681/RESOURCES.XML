@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Game_Model" deferred_loading="false" protected="false" file="MiniGames/hedkandiplinth/EsParadisPlinth.mdl" />
+		<collision name="Game_Collision" deferred_loading="false" protected="false" file="MiniGames/trrelocator/models/TRRelocator.hkx" />
+		<anim name="Game_Anim" deferred_loading="false" protected="false" file="MiniGames/hedkandiplinth/EsParadisPlinth.ani" />
+		<skeleton name="Game_Skel" deferred_loading="false" protected="false" file="MiniGames/hedkandiplinth/EsParadisPlinth.skn" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/HedKandi/MiniGameHS.lua" />
+		<lua name="Pad" deferred_loading="false" protected="true" file="MiniGames/pacha_jumppoint/Pad.lua" />
+		<lua name="VHTTPRequest.lua" deferred_loading="false" protected="true" file="MiniGames/HedKandi/Framework/VHTTPRequest.lua" />
+		<lua name="VLog.lua" deferred_loading="false" protected="true" file="MiniGames/HedKandi/Framework/VLog.lua" />
+		<lua name="JSONUtility.lua" deferred_loading="false" protected="true" file="MiniGames/HedKandi/Framework/JSONUtility.lua" />
+		<lua name="Stats.lua" deferred_loading="false" protected="true" file="MiniGames/HedKandi/Framework/Stats.lua" />
+		<lua name="StringUtility.lua" deferred_loading="false" protected="true" file="MiniGames/HedKandi/Framework/StringUtility.lua" />
+	</local>
+	<external />
+</resources>

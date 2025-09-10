@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bs_ball.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/bs_ball.mdl" />
+		<model name="bs_stick_l.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/bs_stick_l.mdl" />
+		<model name="bs_stick_r.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/bs_stick_r.mdl" />
+		<model name="BS_Numbers_50_red.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_50_red.mdl" />
+		<model name="BS_Numbers_00.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_00.mdl" />
+		<model name="BS_Numbers_00_red.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_00_red.mdl" />
+		<model name="BS_Numbers_10.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_10.mdl" />
+		<model name="BS_Numbers_10_red.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_10_red.mdl" />
+		<model name="BS_Numbers_20.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_20.mdl" />
+		<model name="BS_Numbers_20_red.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_20_red.mdl" />
+		<model name="BS_Numbers_30.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_30.mdl" />
+		<model name="BS_Numbers_30_red.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_30_red.mdl" />
+		<model name="BS_Numbers_40.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_40.mdl" />
+		<model name="BS_Numbers_40_red.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_40_red.mdl" />
+		<model name="BS_Numbers_50.mdl" deferred_loading="false" file="MiniGames/BallSqueezer/Models/BS_Numbers_50.mdl" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/BallSqueezer/Images/BS_OSD_Goal_c.dds" />
+		<texture name="scorebar" deferred_loading="false" file="generic_shared_textures/Score_Bar_OSD_c.dds" />
+		<texture name="scorebox" deferred_loading="false" file="generic_shared_textures/Score_Box_OSD_c.dds" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/BallSqueezer/Images/BS_OSD_Bullet_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="generic_shared_textures/FreePlay.dds" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="generic_shared_textures/FranticFreePlay.dds" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_BS_Logo_THMB_128.png" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_BS_Logo_THMB_128.png" />
+		<texture name="Prize2" deferred_loading="false" file="thumbnails_in_game/BS_Nutcracker_THMB_128.png" />
+		<texture name="Prize3" deferred_loading="false" file="thumbnails_in_game/BS_Rug_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails_in_game/BS_Stuffed_Pig_THMB_128.png" />
+		<texture name="Prize5" deferred_loading="false" file="thumbnails_in_game/BS_Adironack_Chair_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Torso_LVL_10_BS_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails_in_game/Female01_Torso_LVL_10_BS_THMB_128.png" />
+		<texture name="Prize9" deferred_loading="false" file="thumbnails_in_game/BS_KnickAKnack_THMB_128.png" />
+		<texture name="Prize8" deferred_loading="false" file="thumbnails_in_game/BS_Adironack_Sofa_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails_in_game/BS_Poster_THMB_128.png" />
+		<texture name="Prize6_Male" deferred_loading="false" file="thumbnails_in_game/Male01_Spectecles_BS_BigEyeGlasses_THMB_128.png" />
+		<texture name="Prize6_Female" deferred_loading="false" file="thumbnails_in_game/Male01_Spectecles_BS_BigEyeGlasses_THMB_128.png" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="generic_shared_osd/StartUpDialog.xml" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="generic_shared_osd/WinnerDialog.xml" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="generic_shared_osd/PlayAgainDialog.xml" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="generic_shared_osd/NoTicketDialog.xml" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="generic_shared_osd/MinigameHud.xml" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/BallSqueezer/OSD/types.xml" />
+		<file name="BallSqueezer.txt" deferred_loading="false" file="MiniGames/BallSqueezer/Sound/BallSqueezer.txt" />
+		<file name="BallSqueezer.bank" deferred_loading="false" file="MiniGames/BallSqueezer/Sound/BallSqueezer.bank" />
+		<anim name="bs_jitter_male" deferred_loading="false" file="animation/male/bs_crouching.ani" />
+		<anim name="bs_jitter_female" deferred_loading="false" file="animation/female/bs_crouching.ani" />
+		<soundbank name="BallSqueezer.bnk" deferred_loading="false" file="MiniGames/BallSqueezer/Sound/BallSqueezer.bnk" />
+		<repertoire name="bs_male" deferred_loading="false" file="MiniGames/BallSqueezer/bs_male.xml" />
+		<repertoire name="bs_female" deferred_loading="false" file="MiniGames/BallSqueezer/bs_female.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/Audio.lua" />
+		<lua name="BS_Settings.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/BS_Settings.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/Game.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/HelperFunctions.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/Math.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/Player.lua" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameManager.lua" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigameDialogs.lua" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="generic_shared_code/Timer.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="generic_shared_code/AudioSystem.lua" />
+		<lua name="BSqueezer.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/BSqueezer.lua" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="generic_shared_code/MinigamePrizes.lua" />
+		<lua name="FloatingNumber.lua" deferred_loading="false" protected="true" file="generic_shared_code/FloatingNumber.lua" />
+		<lua name="ScoreNumbers.lua" deferred_loading="false" protected="true" file="MiniGames/BallSqueezer/Source/ScoreNumbers.lua" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/themidway/SceneScripts/GlobalDefines.lua" />
+	</local>
+	<external />
+</resources>

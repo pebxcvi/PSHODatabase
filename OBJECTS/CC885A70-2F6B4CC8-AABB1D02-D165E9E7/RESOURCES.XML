@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="Control_Screen.mdl" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/models/Control_Screen.mdl" />
+    <texture name="button-gray.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/hud/button-gray.dds" />
+    <texture name="button-red.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/hud/button-red.dds" />
+    <texture name="hilite.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/hilite.dds" />
+    <texture name="hint_color.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/hint_color.dds" />
+    <texture name="hint_correct.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/hint_correct.dds" />
+    <texture name="hint_nothing.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/hint_nothing.dds" />
+    <texture name="hud.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/hud.dds" />
+    <texture name="peg_blue.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/peg_blue.dds" />
+    <texture name="peg_green.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/peg_green.dds" />
+    <texture name="peg_orange.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/peg_orange.dds" />
+    <texture name="peg_pink.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/peg_pink.dds" />
+    <texture name="peg_red.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/peg_red.dds" />
+    <texture name="peg_yellow.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/CodeBreaker/hud/peg_yellow.dds" />
+    <texture name="helicopter.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/hud/helicopter.dds" />
+    <texture name="toilet.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/hud/toilet.dds" />
+    <texture name="checkbox-off.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/hud/checkbox-off.dds" />
+    <texture name="checkbox-on.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/hud/checkbox-on.dds" />
+    <texture name="GameMechanicsLogo.dds" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/hud/GameMechanicsLogo.dds" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/files/Network.xml" />
+    <collision name="Control_Screen.hkx" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/models/Control_Screen.hkx" />
+    <soundbank name="panel.bnk" deferred_loading="false" protected="false" file="environments/racing_apt/games/panel/sound/panel.bnk" />
+    <lua name="EventH.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/eventh.luac" />
+    <lua name="EventMgr.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/eventmgr.luac" />
+    <lua name="HUD.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/hud.luac" />
+    <lua name="HUDItem.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/huditem.luac" />
+    <lua name="InputMgr.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/inputmgr.luac" />
+    <lua name="InputMgrH.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/inputmgrh.luac" />
+    <lua name="Random.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/random.luac" />
+    <lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/soundmgr.luac" />
+    <lua name="SoundStreamMgr.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/soundstreammgr.luac" />
+    <lua name="Updater.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/updater.luac" />
+    <lua name="Main-Top.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/main-top.luac" />
+    <lua name="TopFloorPanel.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/panel/lua/topfloorpanel.luac" />
+  </local>
+  <external />
+</resources>

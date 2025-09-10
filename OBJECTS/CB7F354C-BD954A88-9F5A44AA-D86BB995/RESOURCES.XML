@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Elevator_MDL" deferred_loading="false" protected="false" file="environments/2010/per/per_tycoonpenthouse/TycoonPenthouse_Elevator.mdl" />
+		<model name="Button_MDL" deferred_loading="false" protected="false" file="environments/2010/per/per_tycoonpenthouse/TycoonPenthouse_Elevator_Button.mdl" />
+		<model name="DoorLeft_MDL" deferred_loading="false" protected="false" file="environments/2010/per/per_tycoonpenthouse/TycoonPenthouse_Elevator_Door.mdl" />
+		<model name="DoorRight_MDL" deferred_loading="false" protected="false" file="environments/2010/per/per_tycoonpenthouse/TycoonPenthouse_Elevator_Door2.mdl" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="environments/2010/pub/pub_tycoon_penthouse/minigames/elevators/textures/blank.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="environments/2010/pub/pub_tycoon_penthouse/minigames/elevators/Network.xml" />
+		<collision name="Elevator_HKX" deferred_loading="false" protected="false" file="environments/2010/per/per_tycoonpenthouse/TycoonPenthouse_Elevator.hkx" />
+		<collision name="DoorLeft_HKX" deferred_loading="false" protected="false" file="environments/2010/per/per_tycoonpenthouse/TycoonPenthouse_Elevator_Door.hkx" />
+		<collision name="DoorRight_HKX" deferred_loading="false" protected="false" file="environments/2010/per/per_tycoonpenthouse/TycoonPenthouse_Elevator_Door2.hkx" />
+		<soundbank name="Sound_BNK" deferred_loading="false" protected="false" file="environments/2010/pub/pub_tycoon_penthouse/minigames/elevators/sound/elevator.bnk" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="environments/2010/pub/pub_tycoon_penthouse/minigames/elevators/programming/Main.lua" />
+		<lua name="Doors.lua" deferred_loading="false" protected="true" file="environments/2010/pub/pub_tycoon_penthouse/minigames/elevators/programming/Doors.lua" />
+		<lua name="Elevator.lua" deferred_loading="false" protected="true" file="environments/2010/pub/pub_tycoon_penthouse/minigames/elevators/programming/Elevator.lua" />
+		<lua name="HmRenderer.lua" deferred_loading="false" protected="true" file="environments/2010/pub/pub_tycoon_penthouse/minigames/elevators/programming/HmRenderer.lua" />
+	</local>
+	<external />
+</resources>

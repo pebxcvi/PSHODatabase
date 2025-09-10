@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ceiling_fan_blades.mdl" deferred_loading="true" protected="false" file="games/common/props/ceiling_fan/ceiling_fan_blades.mdl" />
+		<model name="ceiling_fan_shaft.mdl" deferred_loading="true" protected="false" file="games/common/props/ceiling_fan/ceiling_fan_shaft.mdl" />
+		<model name="ceiling_fan_light.mdl" deferred_loading="true" protected="false" file="games/common/props/ceiling_fan/ceiling_fan_light.mdl" />
+		<model name="ceiling_fan_shaft_pool.mdl" deferred_loading="true" protected="false" file="games/common/props/ceiling_fan/ceiling_fan_shaft_pool.mdl" />
+		<model name="mist_puffs.mdl" deferred_loading="true" protected="false" file="games/common/props/mister/mist_puffs.mdl" />
+		<texture name="mbm_windows_c1.dds" deferred_loading="true" protected="false" file="games/common/props/mbm_windows/textures/mbm_windows_c1.dds" />
+		<texture name="mbm_windows_c2.dds" deferred_loading="true" protected="false" file="games/common/props/mbm_windows/textures/mbm_windows_c2.dds" />
+		<texture name="mbm_windows_c3.dds" deferred_loading="true" protected="false" file="games/common/props/mbm_windows/textures/mbm_windows_c3.dds" />
+		<texture name="mbm_windows_c4.dds" deferred_loading="true" protected="false" file="games/common/props/mbm_windows/textures/mbm_windows_c4.dds" />
+		<texture name="mbm_windows_c5.dds" deferred_loading="true" protected="false" file="games/common/props/mbm_windows/textures/mbm_windows_c5.dds" />
+		<texture name="mask1.dds" deferred_loading="true" protected="false" file="EmbeddedObjects/Tool_DayNightShift/textures/mask1.dds" />
+		<particle name="shower_effect.efx" deferred_loading="false" protected="false" file="ATGParticles/shower_effect.efx" />
+		<collision name="Slider_door.hkx" deferred_loading="true" protected="false" file="games/common/props/slider_door/Slider_door.hkx" />
+		<collision name="Fridge_animated.hkx" deferred_loading="true" protected="false" file="games/common/props/wall_appliances/Fridge_animated.hkx" />
+		<collision name="Oven_animation.hkx" deferred_loading="true" protected="false" file="games/common/props/wall_appliances/Oven_animation.hkx" />
+		<collision name="Powderroom_Door.hkx" deferred_loading="true" protected="false" file="games/common/props/powderroom_door/Powderroom_Door.hkx" />
+		<collision name="front_door.hkx" deferred_loading="true" protected="false" file="games/common/props/slider_door/front_door.hkx" />
+		<anim name="Fridge_animation.ani" deferred_loading="true" protected="false" file="games/common/props/wall_appliances/Fridge_animation.ani" />
+		<anim name="Pantry01_animation.ani" deferred_loading="true" protected="false" file="games/common/props/wall_appliances/Pantry01_animation.ani" />
+		<anim name="pantry02_animation.ani" deferred_loading="true" protected="false" file="games/common/props/wall_appliances/pantry02_animation.ani" />
+		<anim name="stove01.ani" deferred_loading="true" protected="false" file="games/common/props/stove/stove01.ani" />
+		<anim name="Oven_animation.ani" deferred_loading="true" protected="false" file="games/common/props/wall_appliances/Oven_animation.ani" />
+		<anim name="Powderroom_Door.ani" deferred_loading="true" protected="false" file="games/common/props/powderroom_door/Powderroom_Door.ani" />
+		<anim name="Slider_door.ani" deferred_loading="true" protected="false" file="games/common/props/slider_door/Slider_door.ani" />
+		<anim name="Slider_glass.ani" deferred_loading="true" protected="false" file="games/common/props/slider_door/Slider_glass.ani" />
+		<anim name="front_door.ani" deferred_loading="true" protected="false" file="games/common/props/slider_door/front_door.ani" />
+		<anim name="front_door_glass.ani" deferred_loading="true" protected="false" file="games/common/props/slider_door/front_door_glass.ani" />
+		<anim name="bathtub_water.ani" deferred_loading="false" protected="false" file="games/common/props/bathtub/bathtub_water.ani" />
+		<anim name="bathtub_waterfall.ani" deferred_loading="false" protected="false" file="games/common/props/bathtub/bathtub_waterfall.ani" />
+		<soundbank name="MansionSoundbank.bnk" deferred_loading="true" protected="false" file="games/common/Audio/MansionSoundbank.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/MiniGame.luac" />
+		<lua name="AnimationObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/AnimationObject.luac" />
+		<lua name="InteractiveObjectsManager.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/InteractiveObjectsManager.luac" />
+		<lua name="InteractiveObjectsResources.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/InteractiveObjectsResources.luac" />
+		<lua name="ModelObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/ModelObject.luac" />
+		<lua name="Component_GameTriggerMove.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/Library/Component_GameTriggerMove.luac" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/Library/Misc.luac" />
+		<lua name="MultiStateModelObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/MultiStateModelObject.luac" />
+		<lua name="CeilingFan.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/CeilingFan.luac" />
+		<lua name="FanObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/FanObject.luac" />
+		<lua name="GamePad.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/Library/GamePad.luac" />
+		<lua name="SoundObject.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/SoundObject.luac" />
+		<lua name="DeferredLoadingResources.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/DeferredLoadingResources.luac" />
+		<lua name="ResourceManager.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/Library/ResourceManager.luac" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/Library/Core.luac" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="games/ActiveObjects/lua/Library/Util.luac" />
+	</local>
+	<external />
+</resources>

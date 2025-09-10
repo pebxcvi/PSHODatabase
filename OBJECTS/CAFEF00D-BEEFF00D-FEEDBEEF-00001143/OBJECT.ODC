@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.83.0.11.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>CAFEF00D-BEEFF00D-FEEDBEEF-00001143</uuid>
+  <name lang="en-GB" default="true">Model Space Craft</name>
+  <name lang="fr-FR" default="false">Vaisseau Spatial Miniature</name>
+  <name lang="de-DE" default="false">Raumschiff-Modell</name>
+  <name lang="it-IT" default="false">Modellino Astronave</name>
+  <name lang="es-ES" default="false">Modelo De Nave Espacial</name>
+  <description lang="en-GB" default="true">A model space craft floating within a magentic field. [#Legal]</description>
+  <description lang="fr-FR" default="false">Un vaisseau spatial miniature qui flotte dans un champ magnétique. [#Legal]</description>
+  <description lang="de-DE" default="false">Ein Raumschiff-Modell, das in einem Magnetfeld schwebt. [#Legal]</description>
+  <description lang="it-IT" default="false">Modellino di astronave fluttuante all'interno di un campo magnetico. [#Legal]</description>
+  <description lang="es-ES" default="false">Modelo de nave espacial flotando en un campo magnético. [#Legal]</description>
+  <maker lang="en-GB" default="true">Sony Computer Entertainment</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat>
+    <main>2</main>
+    <host>2</host>
+    <vram>3</vram>
+    <ppu>8</ppu>
+    <net>1</net>
+  </heat>
+  <entitlements>
+    <entitlement_id territory="SCEE">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">AUTOMATIC_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">AUTOMATIC_REWARD</entitlement_id>
+  </entitlements>
+  <timestamp>4F423FED</timestamp>
+</odc>

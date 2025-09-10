@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="CHESSBOARD_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessBOARD.mdl" />
+		<model name="BISHOP_BLACK_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceBISHOP_Black.mdl" />
+		<model name="ROOK_WHITE_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceROOK_White.mdl" />
+		<model name="BISHOP_WHITE_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceBISHOP_White.mdl" />
+		<model name="KING_BLACK_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceKING_Black.mdl" />
+		<model name="KING_WHITE_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceKING_White.mdl" />
+		<model name="KNIGHT_BLACK_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceKnight_Black.mdl" />
+		<model name="KNIGHT_WHITE_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceKNIGHT_White.mdl" />
+		<model name="QUEEN_BLACK_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceQUEEN_Black.mdl" />
+		<model name="QUEEN_WHITE_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceQUEEN_White.mdl" />
+		<model name="ROOK_BLACK_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPieceROOK_Black.mdl" />
+		<model name="Base.mdl" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/Base.mdl" />
+		<model name="PAWN_BLACK_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPiecePAWN_Black.mdl" />
+		<model name="PAWN_WHITE_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessPiecePAWN_White.mdl" />
+		<model name="YellowIndicator_MDL" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommJuly_Checkers_MoveGlow.mdl" />
+		<texture name="test_checkerglowblue_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/textures/test_checkerglowblue_c.dds" />
+		<texture name="test_checkerglowred_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/textures/test_checkerglowred_c.dds" />
+		<texture name="blank_DDS" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/textures/blank.dds" />
+		<texture name="test_checkerglowyellow_c_DDS" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/textures/test_checkerglowyellow_c.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/Network.xml" />
+		<collision name="CHESSBOARD_HKX" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessBOARD.hkx" />
+		<collision name="Base.hkx" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/Base.hkx" />
+		<collision name="CommAug_ChessBOARD_SafeVolume.hkx" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/models/CommAug_ChessBOARD_SafeVolume.hkx" />
+		<soundbank name="SoundBank01.bnk" deferred_loading="false" protected="false" file="ActiveItems/commdecember_2010/commdec_bigchess/sounds/SoundBank01.bnk" memory="host" />
+		<lua name="SoundMgr.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/SoundMgr.lua" />
+		<lua name="Board.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/Board.lua" />
+		<lua name="CheatCode.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/CheatCode.lua" />
+		<lua name="Chess.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/Chess.lua" />
+		<lua name="DebugLine.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/DebugLine.lua" />
+		<lua name="GameManager.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/GameManager.lua" />
+		<lua name="HashBoard.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/HashBoard.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/HUD.lua" />
+		<lua name="Indicator.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/Indicator.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/List.lua" />
+		<lua name="MoveList.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/MoveList.lua" />
+		<lua name="MovingAverage.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/MovingAverage.lua" />
+		<lua name="MyCamera.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/MyCamera.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/MyPad.lua" />
+		<lua name="NetworkLayer.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/NetworkLayer.lua" />
+		<lua name="Piece.lua" deferred_loading="false" protected="true" file="ActiveItems/commdecember_2010/commdec_bigchess/programming/Piece.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Active_Model" deferred_loading="false" protected="false" file="MiniGames/50sDinner/CashRegister/models/retro_cash_register_ma.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Active_Item_Minigame_Template/file/Network.xml" memory="host" />
+		<collision name="Active_Collision" deferred_loading="false" protected="false" file="MiniGames/50sDinner/CashRegister/models/retro_cash_register_ma.hkx" memory="host" />
+		<collision name="Active_SafeVolume_Collision" deferred_loading="false" protected="false" file="MiniGames/50sDinner/CashRegister/models/retro_cash_register_SafeVolume.hkx" memory="host" />
+		<anim name="retro_cash_register_Close.ani" deferred_loading="false" protected="false" file="MiniGames/50sDinner/CashRegister/models/retro_cash_register_Close.ani" />
+		<anim name="retro_cash_register_Open.ani" deferred_loading="false" protected="false" file="MiniGames/50sDinner/CashRegister/models/retro_cash_register_Open.ani" />
+		<skeleton name="Skeleton" deferred_loading="false" protected="false" file="MiniGames/50sDinner/CashRegister/models/retro_cash_register_ma.skn" />
+		<soundbank name="sounds" deferred_loading="true" protected="false" file="MiniGames/50sDinner/CashRegister/cash.bnk" memory="host" />
+		<lua name="Anim.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/Anim.lua" memory="host" />
+		<lua name="JSONUtility.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/JSONUtility.lua" memory="host" />
+		<lua name="Menu.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/Menu.lua" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/50sDinner/CashRegister/MiniGame.lua" memory="host" />
+		<lua name="Pad.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/Pad.lua" memory="host" />
+		<lua name="PlayerProfile.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/PlayerProfile.lua" memory="host" />
+		<lua name="Sound.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/Sound.lua" memory="host" />
+		<lua name="Stats.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/Stats.lua" memory="host" />
+		<lua name="StringUtility.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/StringUtility.lua" memory="host" />
+		<lua name="VHTTPRequest.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/VHTTPRequest.lua" memory="host" />
+		<lua name="VLog.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/Framework/VLog.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/CashRegister/Game.lua" memory="host" />
+		<lua name="CashRegister.lua" deferred_loading="true" protected="true" file="MiniGames/50sDinner/CashRegister/CashRegister.lua" memory="host" />
+	</local>
+	<external />
+</resources>

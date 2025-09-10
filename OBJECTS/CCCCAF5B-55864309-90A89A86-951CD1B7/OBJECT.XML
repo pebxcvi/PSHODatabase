@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Indonesian Formal Shorts</name>
+		<description type="string">Tropical dress pants.</description>
+		<author type="string">Vance Wu</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string" />
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string" />
+				<rating_system type="string">ESRB</rating_system>
+				<rating type="string">E</rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">0</parental_control_level>
+				<content_type type="string" />
+				<additional_data type="string" />
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">Indonesian Formal Shorts</name>
+		<type type="string">Legs</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Male01_Legs_IndonesianSkirtMale</name>
+				<lods type="bag">
+					<lod1 type="string">Male01_Legs_IndonesianSkirtMale.lod1</lod1>
+					<lod2 type="string">Male01_Legs_IndonesianSkirtMale.lod2</lod2>
+					<lod3 type="string">Male01_Legs_IndonesianSkirtMale.lod3</lod3>
+				</lods>
+				<skeleton type="string" />
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">legsSG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_Legs_IndonesianSkirtMale.legsSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_Legs_IndonesianSkirtMale.legsSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_Legs_IndonesianSkirtMale.legsSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">skin</type>
+						<shadingGroup type="string">bodySG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">MaleSkinBodyColour</source>
+								<format type="string">generated</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_Legs_IndonesianSkirtMale.bodySG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">MaleSkinBodySpecular</source>
+								<format type="string">generated</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

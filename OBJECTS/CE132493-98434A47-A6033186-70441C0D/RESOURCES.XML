@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="toilet_top.mdl" deferred_loading="false" protected="false" file="environments/racing_apt/models/doors/toilet_top.mdl" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="environments/racing_apt/games/toilet/files/Network.xml" />
+    <collision name="toilet_top.hkx" deferred_loading="false" protected="false" file="environments/racing_apt/models/doors/toilet_top.hkx" />
+    <soundbank name="toilet.bnk" deferred_loading="false" protected="false" file="environments/racing_apt/games/toilet/sound/toilet.bnk" />
+    <soundstream name="noises.mp3" deferred_loading="false" protected="false" file="environments/racing_apt/games/toilet/sound/noises.mp3" />
+    <soundstream name="toilet_flush.mp3" deferred_loading="false" protected="false" file="environments/racing_apt/games/toilet/sound/toilet_flush.mp3" />
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="environments/racing_apt/games/toilet/lua/main.luac" />
+    <lua name="Inside.lua" deferred_loading="false" protected="true" file="environments/racing_apt/lua/inside.luac" />
+  </local>
+  <external />
+</resources>

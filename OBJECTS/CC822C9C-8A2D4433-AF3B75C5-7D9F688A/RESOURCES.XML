@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_RIG.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_Remote_RIG.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/HALL13_Zombie_Companion/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/HALL13_Zombie_Companion/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_Idle01.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_Walk.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_Run.ani" memory="host" />
+		<anim name="ani.bite" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_Bite.ani" memory="host" />
+		<anim name="ani.bite02" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_Bite02.ani" memory="host" />
+		<anim name="ani.roar" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_Roar.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/hall13_zombie_companion/Zombie_RIG.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/HALL13_Zombie_Companion/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/HALL13_Zombie_Companion/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

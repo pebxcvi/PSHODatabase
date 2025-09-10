@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="zombieMesh" file="environments/d6_test/zombieAnim1.mdl" deferred_loading="false" />
+		<texture name="num_1" file="MiniGames/OSD_D6/OSD/num_1.dds" deferred_loading="false" />
+		<texture name="num_2" file="MiniGames/OSD_D6/OSD/num_2.dds" deferred_loading="false" />
+		<texture name="num_3" file="MiniGames/OSD_D6/OSD/num_3.dds" deferred_loading="false" />
+		<texture name="num_4" file="MiniGames/OSD_D6/OSD/num_4.dds" deferred_loading="false" />
+		<texture name="num_5" file="MiniGames/OSD_D6/OSD/num_5.dds" deferred_loading="false" />
+		<texture name="num_6" file="MiniGames/OSD_D6/OSD/num_6.dds" deferred_loading="false" />
+		<texture name="num_7" file="MiniGames/OSD_D6/OSD/num_7.dds" deferred_loading="false" />
+		<texture name="num_8" file="MiniGames/OSD_D6/OSD/num_8.dds" deferred_loading="false" />
+		<texture name="num_9" file="MiniGames/OSD_D6/OSD/num_9.dds" deferred_loading="false" />
+		<texture name="num_0" file="MiniGames/OSD_D6/OSD/num_0.dds" deferred_loading="false" />
+		<texture name="num_colon" file="MiniGames/OSD_D6/OSD/num_c.dds" deferred_loading="false" />
+		<file name="main" file="MiniGames/OSD_D6/osd_d6.lua" deferred_loading="false" />
+		<file name="osd_basictext" file="MiniGames/OSD_D6/OSD/basictext.xml" deferred_loading="false" />
+		<file name="osd_types" file="MiniGames/OSD_D6/OSD/types.xml" deferred_loading="false" />
+		<file name="osd_basicsinglegraphic" file="MiniGames/OSD_D6/OSD/basicsinglegraphic.xml" deferred_loading="false" />
+		<file name="osd_timer" file="MiniGames/OSD_D6/OSD/timerGraphics.xml" deferred_loading="false" />
+		<file name="osd_basicchip" file="MiniGames/OSD_D6/OSD/basicchip.xml" deferred_loading="false" />
+		<anim name="zombieAnim1" file="environments/d6_test/zombieAnim1.ani" deferred_loading="false" />
+		<anim name="zombieAnim2" file="environments/d6_test/zombieAnim2.ani" deferred_loading="false" />
+		<skeleton name="zombieSkin" file="environments/d6_test/zombieAnim1.skn" deferred_loading="false" />
+		<soundbank name="d6_sounds" file="environments/d6_test/audio/d6_sounds.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

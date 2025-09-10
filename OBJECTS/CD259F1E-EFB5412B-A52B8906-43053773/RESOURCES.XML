@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Single_fountain.mdl" deferred_loading="false" protected="false" file="MiniGames/MG12/Animations/Single_fountain.mdl" />
+		<model name="water_tube.mdl" deferred_loading="false" protected="false" file="MiniGames/MG12/Models/water_tube.mdl" />
+		<texture name="UFC_1_undisputed_Stencil_c.dds" deferred_loading="false" protected="false" file="MiniGames/MG12/Textures/UFC_1_undisputed_Stencil_c.dds" />
+		<particle name="water_rings.efx" deferred_loading="false" protected="false" file="MiniGames/MG12/Efx/water_rings.efx" />
+		<particle name="water_falling.efx" deferred_loading="false" protected="false" file="MiniGames/MG12/Efx/water_falling.efx" />
+		<anim name="Single_fountain.ani" deferred_loading="false" protected="false" file="MiniGames/MG12/Animations/Single_fountain.ani" />
+		<skeleton name="Single_fountain.skn" deferred_loading="false" protected="false" file="MiniGames/MG12/Animations/Single_fountain.skn" />
+		<soundbank name="MG12.bnk" deferred_loading="false" protected="false" file="MiniGames/MG12/Sound/MG12.bnk" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG12/Source/Settings.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG12/Source/Audio.lua" />
+		<lua name="Fountains.lua" deferred_loading="false" protected="true" file="MiniGames/MG12/Source/Fountains.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG12/Source/Game.lua" />
+		<lua name="Lights.lua" deferred_loading="false" protected="true" file="MiniGames/MG12/Source/Lights.lua" />
+	</local>
+	<external />
+</resources>
