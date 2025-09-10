@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Map_Stand.mdl" deferred_loading="false" protected="false" file="environments/Theatre/props/Map_Stand.mdl" />
+		<texture name="TheaterMap.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/TheaterMap.dds" />
+		<texture name="magnifying-glass.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/magnifying-glass.dds" />
+		<texture name="bottom.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/bottom.dds" />
+		<texture name="bottom_left.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/bottom_left.dds" />
+		<texture name="bottom_right.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/bottom_right.dds" />
+		<texture name="center.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/center.dds" />
+		<texture name="left.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/left.dds" />
+		<texture name="right.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/right.dds" />
+		<texture name="top.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/top.dds" />
+		<texture name="top_left.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/top_left.dds" />
+		<texture name="top_right.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/window/top_right.dds" />
+		<texture name="button_O.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/button_O.dds" />
+		<texture name="button_X.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/button_X.dds" />
+		<texture name="announcement.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/announcement.dds" />
+		<texture name="psn.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/psn.dds" />
+		<texture name="Numbers6.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/Numbers6.dds" />
+		<texture name="Numbers1.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/Numbers1.dds" />
+		<texture name="Numbers2.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/Numbers2.dds" />
+		<texture name="Numbers3.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/Numbers3.dds" />
+		<texture name="Numbers4.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/Numbers4.dds" />
+		<texture name="Numbers5.dds" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/images/Numbers5.dds" />
+		<texture name="Numbers8.dds" deferred_loading="false" protected="false" file="MiniGames/theatre/TheaterMapV2/images/Numbers8.dds" />
+		<texture name="Numbers7.dds" deferred_loading="false" protected="false" file="MiniGames/theatre/TheaterMapV2/images/Numbers7.dds" />
+		<xml name="osd_doublepanel" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/XML/osd_panel.xml" />
+		<xml name="osd_types" deferred_loading="false" protected="false" file="MiniGames/Theatre/TheaterMapV2/XML/osd_types.xml" />
+		<collision name="Map_Stand.hkx" deferred_loading="false" protected="false" file="environments/Theatre/props/Map_Stand.hkx" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/theatre/TheaterMapV2/Main.lua" />
+		<lua name="Remote.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/Util/Remote.lua" />
+		<lua name="Serialize.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/Util/Serialize.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/Math.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/Controller.lua" />
+		<lua name="Map.lua" deferred_loading="false" protected="true" file="MiniGames/theatre/TheaterMapV2/Map.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/HUDLib/HUDTextPanel.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/Tween.lua" />
+		<lua name="TheaterServer.lua" deferred_loading="false" protected="true" file="MiniGames/Theatre/TheaterMapV2/TheaterServer.lua" />
+	</local>
+	<external />
+</resources>

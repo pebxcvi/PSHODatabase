@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/logo.mdl" />
+		<texture name="overlay.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/0_background.dds" />
+		<texture name="1.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/1_ratchet.dds" />
+		<texture name="2.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/2_heihachi.dds" />
+		<texture name="3.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/3_gcole.dds" />
+		<texture name="4.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/4_spike.dds" />
+		<texture name="5.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/5_toro.dds" />
+		<texture name="6.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/6_sweettooth.dds" />
+		<texture name="7.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/19_drake.dds" />
+		<texture name="8.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/12_kratos.dds" />
+		<texture name="9.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/10_nariko.dds" />
+		<texture name="10.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/11_raiden.dds" />
+		<texture name="11.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/9_sackboy.dds" />
+		<texture name="12.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/8_sirdaniel.dds" />
+		<texture name="13.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/7_sly.dds" />
+		<texture name="14.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/18_parappa.dds" />
+		<texture name="15.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/13_radec.dds" />
+		<texture name="16.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/14_bigdaddy.dds" />
+		<texture name="17.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/15_dante.dds" />
+		<texture name="18.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/16_ecole.dds" />
+		<texture name="19.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/17_princess.dds" />
+		<texture name="20.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/20_jak.dds" />
+		<texture name="select.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/stickers/21_selector.dds" />
+		<texture name="arrow.dds" deferred_loading="false" protected="false" file="MiniGames/BattleRoyale/file/gui/arrow.dds" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/logo.hkx" />
+		<soundbank name="StickerBook.bnk" deferred_loading="false" protected="false" file="Scripts/Sound/StickerBook.bnk" />
+		<lua name="Active.lua" deferred_loading="false" protected="true" file="Active/StickerBook/lua/Active.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="Active/StickerBook/lua/Util.lua" />
+		<lua name="AsyncInventoryChecker.lua" deferred_loading="false" protected="true" file="MiniGames/BattleRoyale/lua/AsyncInventoryChecker.lua" />
+	</local>
+	<external />
+</resources>

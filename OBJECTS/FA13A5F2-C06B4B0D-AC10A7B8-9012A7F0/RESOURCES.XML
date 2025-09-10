@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="RewardMachine.mdl" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/models/RewardMachine.mdl" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/blank.dds" />
+		<texture name="Furniture_Ornament_CommOct_Parrot.dds" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/Machine1/textures/Furniture_Ornament_CommOct_Parrot.dds" />
+		<texture name="Furniture_Ornament_CommOct_Parrot_d.dds" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/Machine1/textures/Furniture_Ornament_CommOct_Parrot_d.dds" />
+		<texture name="Furniture_Ornament_CommOct_Parrot_h.dds" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/Machine1/textures/Furniture_Ornament_CommOct_Parrot_h.dds" />
+		<texture name="Furniture_Ornament_CommOct_Parrot_n.dds" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/Machine1/textures/Furniture_Ornament_CommOct_Parrot_n.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/Network.xml" />
+		<file name="machine_rewardlist.xml" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/Machine1/machine_rewardlist.xml" />
+		<soundbank name="RewardMachine.bnk" deferred_loading="false" protected="false" file="MiniGames/RainforestGiftMachine/sound/RewardMachine.bnk" />
+		<lua name="InventoryCheck.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/InventoryCheck.lua" />
+		<lua name="Machine.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/Machine.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/Main.lua" />
+		<lua name="MyCamera.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/MyCamera.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/MyPad.lua" />
+		<lua name="State.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/State.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/StateMachine.lua" />
+		<lua name="Updater.lua" deferred_loading="false" protected="true" file="MiniGames/RainforestGiftMachine/programming/Updater.lua" />
+	</local>
+	<external />
+</resources>

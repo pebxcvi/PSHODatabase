@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/models/BoomBoxDuckDown.mdl" />
+		<model name="BoomBoxPowerLight.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/models/BoomBoxDuckDown_Light.mdl" />
+		<file name="osd_basictext" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/OSD/basictext.xml" />
+		<file name="osd_simplemenu" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/OSD/simplemenu.xml" />
+		<file name="osd_textbox" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/OSD/textbox.xml" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/OSD/types.xml" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/models/BoomBoxDuckDown.hkx" />
+		<soundstream name="Speakers_On_Blast.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/sound/Speakers_On_Blast.mp3" />
+		<soundstream name="Lets_Go.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/sound/Lets_Go.mp3" />
+		<soundstream name="Shine_Clean.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/sound/Shine_Clean.mp3" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/programming/MyPad.lua" />
+		<lua name="Boombox.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/programming/Boombox.lua" />
+		<lua name="MusicPlayer.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_boomboxduckdown/programming/MusicPlayer.lua" />
+	</local>
+	<external />
+</resources>

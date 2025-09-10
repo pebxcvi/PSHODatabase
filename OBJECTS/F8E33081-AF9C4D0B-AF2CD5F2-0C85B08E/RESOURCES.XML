@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="SpeedBag.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_speedbag.mdl" />
+		<model name="SpeedBag_Rig.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_speedbag_rig.mdl" />
+		<model name="ScoreBoardBackBoard.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_frame.mdl" />
+		<model name="ScoreBoardColon.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_colon.mdl" />
+		<model name="ScoreBoard0.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_0.mdl" />
+		<model name="ScoreBoard1.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_1.mdl" />
+		<model name="ScoreBoard2.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_2.mdl" />
+		<model name="ScoreBoard3.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_3.mdl" />
+		<model name="ScoreBoard4.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_4.mdl" />
+		<model name="ScoreBoard5.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_5.mdl" />
+		<model name="ScoreBoard6.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_6.mdl" />
+		<model name="ScoreBoard7.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_7.mdl" />
+		<model name="ScoreBoard8.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_8.mdl" />
+		<model name="ScoreBoard9.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_9.mdl" />
+		<model name="PowerDashRed.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_powerbar.mdl" />
+		<model name="PowerDashYellow.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_powerbar_yellow.mdl" />
+		<model name="PowerDashGreen.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_led_powerbar_green.mdl" />
+		<model name="SpeedBag_Rig_WallMount.mdl" deferred_loading="false" file="MiniGames/MG08/Models/mg08_speedbag_rig_wallmount.mdl" />
+		<texture name="CountDown3" deferred_loading="false" file="generic_shared_textures/Number_3.dds" />
+		<texture name="CountDown1" deferred_loading="false" file="generic_shared_textures/Number_1.dds" />
+		<texture name="CountDown2" deferred_loading="false" file="generic_shared_textures/Number_2.dds" />
+		<texture name="CountDown0" deferred_loading="false" file="generic_shared_textures/Go.dds" />
+		<particle name="HitEffect.efx" deferred_loading="false" file="MiniGames/MG08/Particles/HitEffect.efx" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG08/OSD/types.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<anim name="male_idle" deferred_loading="false" file="MiniGames/MG08/Animations/male/speedbag_idle.ani" />
+		<anim name="male_rightjab" deferred_loading="false" file="MiniGames/MG08/Animations/male/speedbag_right_jab.ani" />
+		<anim name="male_leftjab" deferred_loading="false" file="MiniGames/MG08/Animations/male/speedbag_left_jab.ani" />
+		<anim name="female_idle" deferred_loading="false" file="MiniGames/MG08/Animations/female/speedbag_idle.ani" />
+		<anim name="female_leftjab" deferred_loading="false" file="MiniGames/MG08/Animations/female/speedbag_left_jab.ani" />
+		<anim name="female_rightjab" deferred_loading="false" file="MiniGames/MG08/Animations/female/speedbag_right_jab.ani" />
+		<repertoire name="Male_Animations" deferred_loading="false" file="MiniGames/MG08/Animations/Male_Animations.xml" />
+		<repertoire name="Female_Animations" deferred_loading="false" file="MiniGames/MG08/Animations/Female_Animations.xml" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/Player.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/Settings.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="SpeedBag.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/SpeedBag.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="ScoreBoard.lua" deferred_loading="false" protected="true" file="MiniGames/MG08/Source/ScoreBoard.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+	</local>
+	<external />
+</resources>

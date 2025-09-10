@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BiteMe_Door.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/BiteMe_Door.mdl" memory="host" />
+		<model name="BiteMe_Worm.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/BiteMe_Worm.mdl" memory="host" />
+		<model name="BiteMe_Fish.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/BiteMe_Fish.mdl" memory="host" />
+		<model name="BiteMe_Hole.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/BiteMe_Hole.mdl" memory="host" />
+		<model name="BiteMe_Playfield.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/BiteMe_Playfield.mdl" memory="host" />
+		<model name="BiteMe_String.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/BiteMe_String.mdl" memory="host" />
+		<model name="BiteMe_pole.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/pole/BiteMe_pole.mdl" memory="host" />
+		<model name="BiteMe_Worm_Shadow.mdl" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/BiteMe_Worm_Shadow.mdl" memory="host" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/BiteMe/Textures/BM_OSD_Bullet_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/BiteMe/Textures/BM_OSD_Goal_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" file="thumbnails/prizeplacard_10_01_female_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" file="thumbnails/prizeplacard_10_01_male_THMB_128.png" />
+		<texture name="Prize2" deferred_loading="false" file="thumbnails/prizeplacard_10_02_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" file="thumbnails/prizeplacard_10_04_THMB_128.png" />
+		<texture name="Prize6_Female" deferred_loading="false" file="thumbnails/prizeplacard_10_06_female_THMB_128.png" />
+		<texture name="Prize6_Male" deferred_loading="false" file="thumbnails/prizeplacard_10_06_male_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" file="thumbnails/prizeplacard_10_07_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails/prizeplacard_10_10_female_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" file="thumbnails/prizeplacard_10_10_male_THMB_128.png" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="biteme_fish_green.dds" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/Textures/biteme_fish.dds" />
+		<texture name="biteme_fish_red.dds" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/Textures/biteme_fish_r.dds" />
+		<texture name="biteme_fish_yellow.dds" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Models/Textures/biteme_fish_y.dds" />
+		<texture name="BiteMe_HookShadow.dds" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Textures/BiteMe_HookShadow.dds" />
+		<texture name="Prize3_Female" deferred_loading="false" file="thumbnails/prizeplacard_10_03_female_THMB_128.png" />
+		<texture name="Prize3_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_10_03_male_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" file="thumbnails/prizeplacard_10_05_female_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_10_05_male_THMB_128.png" />
+		<texture name="Prize8" deferred_loading="false" file="thumbnails/prizeplacard_10_08_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" file="thumbnails/prizeplacard_10_09_female_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_10_09_male_THMB_128.png" />
+		<texture name="ScoreBox" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Box_OSD_c.dds" />
+		<texture name="ScoreBar" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Bar_OSD_c.dds" />
+		<texture name="Prize5_Female_Japan" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_10_05_female_THMB_128_Japan.png" />
+		<texture name="Prize5_Male_Japan" deferred_loading="false" protected="false" file="thumbnails/prizeplacard_10_05_male_THMB_128_Japan.png" />
+		<particle name="fish_pop.efx" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Efx/fish_pop.efx" memory="host" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/StartUpDialog.xml" memory="host" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/WinnerDialog.xml" memory="host" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" memory="host" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" memory="host" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHud.xml" memory="host" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/BiteMe/OSD/types.xml" memory="host" />
+		<anim name="Male_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/male/Idle.ani" />
+		<anim name="Male_ReelingUp.ani" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/male/ReelingUp.ani" />
+		<anim name="BiteMe_pole.ani" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/pole/BiteMe_pole.ani" />
+		<anim name="Female_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/female/idle.ani" />
+		<anim name="Female_ReelingUp.ani" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/female/ReelingUp.ani" />
+		<skeleton name="BiteMe_pole.skn" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/pole/BiteMe_pole.skn" memory="host" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/Male_Animations.xml" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/BiteMe/Animations/Female_Animations.xml" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Audio.lua" memory="host" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Camera.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Game.lua" memory="host" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Network.lua" memory="host" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" memory="host" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" memory="host" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" memory="host" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" memory="host" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" memory="host" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" memory="host" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Settings.lua" memory="host" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" memory="host" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" memory="host" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" memory="host" />
+		<lua name="FishDisk.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/FishDisk.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Player.lua" memory="host" />
+		<lua name="Fish.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Fish.lua" memory="host" />
+		<lua name="Hole.lua" deferred_loading="false" protected="true" file="MiniGames/BiteMe/Source/Hole.lua" memory="host" />
+	</local>
+	<external />
+</resources>

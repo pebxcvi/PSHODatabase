@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/spunland_picture_1/spunland_picture_1.mdl" />
+		<texture name="circle" deferred_loading="false" protected="false" file="Spunland/SharedTextures/circle.dds" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/spunland_picture_1/spunland_picture_1.hkx" />
+		<lua name="spunland_picture_1" deferred_loading="false" protected="true" file="furniture/spunland_picture_1/lua/spunland_picture_1.lua" />
+		<lua name="cCircleSprite" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cCircleSprite.lua" />
+		<lua name="cColourSet" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cColourSet.lua" />
+		<lua name="cSpriteSet" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cSpriteSet.lua" />
+		<lua name="cSpriteSetManager" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cSpriteSetManager.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="bar.dds" deferred_loading="false" file="environments/locohouse_test_001/screencontent/images/bar.dds" />
+		<texture name="bowl.dds" deferred_loading="false" file="environments/locohouse_test_001/screencontent/images/bowl.dds" />
+		<texture name="renewal_texture" deferred_loading="false" file="MiniGames/RSSScreen/renewal_texture.dds" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/RSSScreen/osd_types.xml" />
+		<file name="osd.xml" deferred_loading="false" file="MiniGames/RSSScreen/osd.xml" />
+		<file name="debug_xml.xml" deferred_loading="false" file="MiniGames/RSSScreen/debug_xml.xml" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="Scripts/common/mathx.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="Scripts/common/misc.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/RSSScreen/main.lua" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="Scripts/common/padUtil.lua" />
+		<lua name="cmnDefinition.lua" deferred_loading="false" protected="true" file="environments/locohouse/script/cmnDefinition.lua" />
+		<lua name="listener.lua" deferred_loading="false" protected="true" file="environments/locohouse/script/listener_rss.lua" />
+		<lua name="rss_core.lua" deferred_loading="false" protected="true" file="MiniGames/RSSScreen/rss_core.lua" />
+	</local>
+	<external />
+</resources>

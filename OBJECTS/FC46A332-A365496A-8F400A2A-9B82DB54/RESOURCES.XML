@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="MiniBot_Stand_Idle_LowerTorso.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_Idle_LowerTorso.mdl" memory="main" />
+    <model name="MiniBot_Stand_Idle_UpperTorso.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_Idle_UpperTorso.mdl" memory="main" />
+    <model name="WEAPON_assaulter.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_assaulter.mdl" memory="main" />
+    <model name="WEAPON_grenade.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_grenade.mdl" memory="main" />
+    <model name="WEAPON_shotgun.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_shotgun.mdl" memory="main" />
+    <model name="BULLET_lightning_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/BULLET_lightning_01.mdl" memory="main" />
+    <model name="BULLET_laser_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/BULLET_laser_01.mdl" memory="main" />
+    <model name="FX_shockwave_ball_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/FX_shockwave_ball_01.mdl" memory="main" />
+    <model name="WEAPON_blade.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_blade.mdl" memory="main" />
+    <model name="WEAPON_blaster.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_blaster.mdl" memory="main" />
+    <model name="WEAPON_beamer.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_beamer.mdl" memory="main" />
+    <model name="BULLET_deathray_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/BULLET_deathray_01.mdl" memory="main" />
+    <model name="WEAPON_launcher.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_launcher.mdl" />
+    <model name="WEAPON_devestator.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_devestator.mdl" memory="main" />
+    <model name="WEAPON_devestator_rotator.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_devestator_rotator.mdl" memory="main" />
+    <model name="CODEX_devestator.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/CODEX_devestator.mdl" memory="main" />
+    <model name="CODEX_blade.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/CODEX_blade.mdl" memory="main" />
+    <model name="DECO_Face_00.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Face_00.mdl" />
+    <model name="DECO_Face_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Face_01.mdl" />
+    <model name="DECO_Face_02.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Face_02.mdl" />
+    <model name="DECO_Face_03.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Face_03.mdl" />
+    <model name="DECO_Face_04.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Face_04.mdl" />
+    <model name="GADGET_guardian.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_guardian.mdl" memory="main" />
+    <model name="GADGET_sentry.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_sentry.mdl" memory="main" />
+    <model name="GADGET_turret.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_turret.mdl" memory="main" />
+    <model name="GADGET_turret_guns.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_turret_guns.mdl" memory="main" />
+    <model name="DECO_Deputyhat.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Deputyhat.mdl" memory="main" />
+    <model name="DECO_GladiatorHelm.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_GladiatorHelm.mdl" />
+    <model name="DECO_Gent.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Gent.mdl" />
+    <model name="DECO_Lady.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Lady.mdl" />
+    <model name="DECO_LoveSlave.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_LoveSlave.mdl" />
+    <model name="DECO_Master.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Master.mdl" />
+    <model name="DECO_RipperBait.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_RipperBait.mdl" />
+    <model name="DECO_SkullMetal.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_SkullMetal.mdl" />
+    <model name="DECO_SpyGoggles.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_SpyGoggles.mdl" />
+    <model name="DECO_VikingHelm.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_VikingHelm.mdl" />
+    <model name="BULLET_healingray_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/BULLET_healingray_01.mdl" memory="main" />
+    <model name="WEAPON_sniper.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_sniper.mdl" />
+    <model name="WEAPON_blade_slash.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_blade_slash.mdl" />
+    <model name="SNIPER_beam.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/SNIPER_beam.mdl" />
+    <model name="DECO_CutteridgeHorns.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_CutteridgeHorns.mdl" />
+    <model name="DECO_EvilBunnyBot.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_EvilBunnyBot.mdl" />
+    <model name="DECO_MechJaw.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_MechJaw.mdl" />
+    <model name="DECO_RocketeerHelm.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_RocketeerHelm.mdl" />
+    <model name="DECO_MonsterHoodie.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_MonsterHoodie.mdl" />
+    <model name="DECO_WizardHat.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_WizardHat.mdl" />
+    <model name="WEAPON_PAD_Generic.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_PAD_Generic.mdl" />
+    <model name="DECO_SamuraiHelm.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_SamuraiHelm.mdl" />
+    <model name="JUGGERNAUT_CAKE.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/juggernaut_cake/JUGGERNAUT_CAKE.mdl" />
+    <model name="power_pulse.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/juggernaut_cake/power_pulse.mdl" />
+    <model name="WEAPON_axe_swoosh.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_axe_swoosh.mdl" />
+    <model name="WEAPON_axe.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_axe.mdl" />
+    <model name="CODEX_axe.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/CODEX_axe.mdl" />
+    <model name="DECO_DragonHat.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_DragonHat.mdl" />
+    <model name="DECO_CatEars.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_CatEars.mdl" />
+    <model name="GADGET_remote.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_remote.mdl" />
+    <model name="DECO_PirateHat.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_PirateHat.mdl" />
+    <model name="WEAPON_flamer.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_flamer.mdl" />
+    <model name="Deco_Bear.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/Deco_Bear.mdl" />
+    <model name="DECO_BunnyEars.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_BunnyEars.mdl" />
+    <model name="DECO_Scanner.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_Scanner.mdl" />
+    <model name="DECO_ToombsHeadband.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/DECO_ToombsHeadband.mdl" />
+    <model name="Minibots_Hoverboard_RIG.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/Minibots_Hoverboard_RIG.mdl" />
+    <model name="MINIBOTS_Pillar_01.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pillar_01/MINIBOTS_Pillar_01.mdl" />
+    <model name="MINIBOTS_Wall_01.mdl" deferred_loading="true" protected="false" file="furniture/minibots_wall_01/MINIBOTS_Wall_01.mdl" />
+    <model name="MINIBOTS_Barrier_02.mdl" deferred_loading="true" protected="false" file="furniture/minibots_barrier_02/MINIBOTS_Barrier_02.mdl" />
+    <model name="MINIBOTS_Ramp_01.mdl" deferred_loading="true" protected="false" file="furniture/minibots_ramp_01/MINIBOTS_Ramp_01.mdl" />
+    <model name="MINIBOTS_Shield_01.mdl" deferred_loading="true" protected="false" file="furniture/minibots_shield_01/MINIBOTS_Shield_01.mdl" />
+    <model name="MINIBOTS_Platform_01.mdl" deferred_loading="true" protected="false" file="furniture/minibots_platform_01/MINIBOTS_Platform_01.mdl" />
+    <model name="MINIBOTS_Effect_Bumper.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_bumper/MINIBOTS_Effect_Bumper.mdl" />
+    <model name="MINIBOTS_Effect_Acid.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_acid/MINIBOTS_Effect_Acid.mdl" />
+    <model name="MINIBOTS_Effect_ElectricFloor.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_electricfloor/MINIBOTS_Effect_ElectricFloor.mdl" />
+    <model name="MINIBOTS_Effect_ElectricWall.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_electricwall/MINIBOTS_Effect_ElectricWall.mdl" />
+    <model name="MINIBOTS_Effect_Jump.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_jump/MINIBOTS_Effect_Jump.mdl" />
+    <model name="MINIBOTS_Effect_Medic.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_medic/MINIBOTS_Effect_Medic.mdl" />
+    <model name="MINIBOTS_Effect_Oil.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_oil/MINIBOTS_Effect_Oil.mdl" />
+    <model name="MINIBOTS_Effect_Sticky.mdl" deferred_loading="true" protected="false" file="furniture/minibots_effect_sticky/MINIBOTS_Effect_Sticky.mdl" />
+    <model name="MINIBOTS_Pad_Abuser.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_abuser/MINIBOTS_Pad_Abuser.mdl" />
+    <model name="MINIBOTS_Pad_Ammo.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_ammo/MINIBOTS_Pad_Ammo.mdl" />
+    <model name="MINIBOTS_Pad_Assaulter.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_assaulter/MINIBOTS_Pad_Assaulter.mdl" />
+    <model name="MINIBOTS_Pad_Axe.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_axe/MINIBOTS_Pad_Axe.mdl" />
+    <model name="MINIBOTS_Pad_Blade.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_blade/MINIBOTS_Pad_Blade.mdl" />
+    <model name="MINIBOTS_Pad_Blaster.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_blaster/MINIBOTS_Pad_Blaster.mdl" />
+    <model name="MINIBOTS_Pad_Death.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_death/MINIBOTS_Pad_Death.mdl" />
+    <model name="MINIBOTS_Pad_Devestator.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_devestator/MINIBOTS_Pad_Devestator.mdl" />
+    <model name="MINIBOTS_Pad_Flamethrower.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_flamethrower/MINIBOTS_Pad_Flamethrower.mdl" />
+    <model name="MINIBOTS_Pad_Sniper.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_sniper/MINIBOTS_Pad_Sniper.mdl" />
+    <model name="MINIBOTS_Pad_Thunder.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pad_thunder/MINIBOTS_Pad_Thunder.mdl" />
+    <model name="MINIB_PlayerCollider_01.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/MINIB_PlayerCollider_01.mdl" />
+    <model name="LEVEL_Facility.mdl" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Facility.mdl" />
+    <model name="MINIB_Facility_Cube.mdl" deferred_loading="true" protected="false" file="furniture/minib_facility_cube/MINIB_Facility_Cube.mdl" />
+    <model name="MINIB_Facility_Floor.mdl" deferred_loading="true" protected="false" file="furniture/minib_facility_floor/MINIB_Facility_Floor.mdl" />
+    <model name="MINIB_Facility_Wall.mdl" deferred_loading="true" protected="false" file="furniture/minib_facility_wall/MINIB_Facility_Wall.mdl" />
+    <model name="MINIB_Facility_Ramp.mdl" deferred_loading="true" protected="false" file="furniture/minib_facility_ramp/MINIB_Facility_Ramp.mdl" />
+    <model name="MainMenuBackground.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/MainMenuBackground.mdl" />
+    <model name="MINIB_Grass_MagicMushroom.mdl" deferred_loading="true" protected="false" file="furniture/minib_grass_magicmushroom/MINIB_Grass_MagicMushroom.mdl" />
+    <model name="MINIB_Grass_CastleCutout.mdl" deferred_loading="true" protected="false" file="furniture/minib_grass_castlecutout/MINIB_Grass_CastleCutout.mdl" />
+    <model name="MINIB_Grass_FaerieRing.mdl" deferred_loading="true" protected="false" file="furniture/minib_grass_faeriering/MINIB_Grass_FaerieRing.mdl" />
+    <model name="MINIB_Grass_GrassyHill.mdl" deferred_loading="true" protected="false" file="furniture/minib_grass_grassyhill/MINIB_Grass_GrassyHill.mdl" />
+    <model name="MINIB_Grass_Tree.mdl" deferred_loading="true" protected="false" file="furniture/minib_grass_tree/MINIB_Grass_Tree.mdl" />
+    <model name="MINIB_Facility_SmallWall.mdl" deferred_loading="true" protected="false" file="furniture/minib_facility_smallwall/MINIB_Facility_SmallWall.mdl" />
+    <model name="MINIB_Facility_SmallCube.mdl" deferred_loading="true" protected="false" file="furniture/minib_facility_smallcube/MINIB_Facility_SmallCube.mdl" />
+    <model name="LEVEL_Grass.mdl" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Grass.mdl" />
+    <model name="MINIBOTS_Wood_Bridge.mdl" deferred_loading="true" protected="false" file="furniture/minibots_wood_bridge/MINIBOTS_Wood_Bridge.mdl" />
+    <model name="MINIBOTS_Wood_Fort.mdl" deferred_loading="true" protected="false" file="furniture/minibots_wood_fort/MINIBOTS_Wood_Fort.mdl" />
+    <model name="MINIBOTS_Wood_Platform.mdl" deferred_loading="true" protected="false" file="furniture/minibots_wood_platform/MINIBOTS_Wood_Platform.mdl" />
+    <model name="MINIBOTS_Wood_Wall_Short.mdl" deferred_loading="true" protected="false" file="furniture/minibots_wood_wall_short/MINIBOTS_Wood_Wall_Short.mdl" />
+    <model name="MINIBOTS_WoodenBarricade.mdl" deferred_loading="true" protected="false" file="furniture/minibots_woodenbarricade/MINIBOTS_WoodenBarricade.mdl" />
+    <model name="MINIBOTS_woodenSpikes.mdl" deferred_loading="true" protected="false" file="furniture/minibots_woodenspikes/MINIBOTS_woodenSpikes.mdl" />
+    <model name="LEVEL_Desert.mdl" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Desert.mdl" />
+    <model name="MINIB_Desert_BoneFortress.mdl" deferred_loading="true" protected="false" file="furniture/minib_desert_bonefortress/MINIB_Desert_BoneFortress.mdl" />
+    <model name="MINIB_Desert_LargeCactus.mdl" deferred_loading="true" protected="false" file="furniture/minib_desert_largecactus/MINIB_Desert_LargeCactus.mdl" />
+    <model name="MINIB_Desert_SandDune.mdl" deferred_loading="true" protected="false" file="furniture/minib_desert_sanddune/MINIB_Desert_SandDune.mdl" />
+    <model name="MINIB_Desert_ScorpionPit.mdl" deferred_loading="true" protected="false" file="furniture/minib_desert_scorpionpit/MINIB_Desert_ScorpionPit.mdl" />
+    <model name="MINIB_Desert_SmallCactus.mdl" deferred_loading="true" protected="false" file="furniture/minib_desert_smallcactus/MINIB_Desert_SmallCactus.mdl" />
+    <model name="LEVEL_Snow.mdl" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Snow.mdl" />
+    <model name="MINIB_Snow_Igloo.mdl" deferred_loading="true" protected="false" file="furniture/minib_snow_igloo/MINIB_Snow_Igloo.mdl" />
+    <model name="LEVEL_Alien.mdl" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Alien.mdl" />
+    <model name="LEVEL_Urban.mdl" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Urban.mdl" />
+    <model name="DECO_RankHelmet_tier_1.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/accessories/DECO_RankHelmet_tier_1.mdl" />
+    <model name="DECO_RankHelmet_tier_2.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/accessories/DECO_RankHelmet_tier_2.mdl" />
+    <model name="DECO_RankHelmet_tier_3.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/accessories/DECO_RankHelmet_tier_3.mdl" />
+    <model name="DECO_RankHelmet_tier_4.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/accessories/DECO_RankHelmet_tier_4.mdl" />
+    <model name="DECO_RankHelmet_tier_5.mdl" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/accessories/DECO_RankHelmet_tier_5.mdl" />
+    <model name="MINIB_Snow_FrozenLake.mdl" deferred_loading="true" protected="false" file="furniture/minib_snow_frozenlake/MINIB_Snow_FrozenLake.mdl" />
+    <model name="MINIB_Snow_IcicleWall.mdl" deferred_loading="true" protected="false" file="furniture/minib_snow_iciclewall/MINIB_Snow_IcicleWall.mdl" />
+    <model name="MINIB_Snow_LargeSnowDrift.mdl" deferred_loading="true" protected="false" file="furniture/minib_snow_largesnowdrift/MINIB_Snow_LargeSnowDrift.mdl" />
+    <model name="MINIB_Snow_SmallSnowDrift.mdl" deferred_loading="true" protected="false" file="furniture/minib_snow_smallsnowdrift/MINIB_Snow_SmallSnowDrift.mdl" />
+    <model name="MINIB_Snow_WinterHolly.mdl" deferred_loading="true" protected="false" file="furniture/minib_snow_winterholly/MINIB_Snow_WinterHolly.mdl" />
+    <model name="MINIB_Alien_AlienArtifact.mdl" deferred_loading="true" protected="false" file="furniture/minib_alien_alienartifact/MINIB_Alien_AlienArtifact.mdl" />
+    <model name="MINIB_Alien_SmallAlienPlant.mdl" deferred_loading="true" protected="false" file="furniture/minib_alien_smallalienplant/MINIB_Alien_SmallAlienPlant.mdl" />
+    <model name="MINIB_Alien_LargeAlienPlant.mdl" deferred_loading="true" protected="false" file="furniture/minib_alien_largealienplant/MINIB_Alien_LargeAlienPlant.mdl" />
+    <model name="MINIB_Alien_AlienFortress.mdl" deferred_loading="true" protected="false" file="furniture/minib_alien_alienfortress/MINIB_Alien_AlienFortress.mdl" />
+    <model name="MINIB_Urban_BrokenGlass.mdl" deferred_loading="true" protected="false" file="furniture/minib_urban_brokenglass/MINIB_Urban_BrokenGlass.mdl" />
+    <model name="MINIB_Urban_Planter.mdl" deferred_loading="true" protected="false" file="furniture/minib_urban_planter/MINIB_Urban_Planter.mdl" />
+    <model name="MINIB_Urban_GraffittiWall.mdl" deferred_loading="true" protected="false" file="furniture/minib_urban_graffittiwall/MINIB_Urban_GraffittiWall.mdl" />
+    <model name="MINIB_Urban_Dumpster.mdl" deferred_loading="true" protected="false" file="furniture/minib_urban_dumpster/MINIB_Urban_Dumpster.mdl" />
+    <model name="MINIB_Urban_CardboardFortress.mdl" deferred_loading="true" protected="false" file="furniture/minib_urban_cardboardfortress/MINIB_Urban_CardboardFortress.mdl" />
+    <model name="MINIBOTS_Bluebase.mdl" deferred_loading="true" protected="false" file="furniture/minibots_bluebase/MINIBOTS_Bluebase.mdl" />
+    <model name="MINIBOTS_Redbase.mdl" deferred_loading="true" protected="false" file="furniture/minibots_redbase/MINIBOTS_Redbase.mdl" />
+    <model name="MINIBOTS_StarterBase.mdl" deferred_loading="true" protected="false" file="furniture/minibots_starterbase/MINIBOTS_StarterBase.mdl" />
+    <model name="MINIBOTS_Terrain_Hill_Grass.mdl" deferred_loading="true" protected="false" file="furniture/minibots_terrain_hill_grass/MINIBOTS_Terrain_Hill_Grass.mdl" />
+    <model name="MINIBOTS_Tree_01.mdl" deferred_loading="true" protected="false" file="furniture/minibots_tree_01/MINIBOTS_Tree_01.mdl" />
+    <model name="MINIBOTS_spookyTree.mdl" deferred_loading="true" protected="false" file="furniture/minibots_spookytree/MINIBOTS_spookyTree.mdl" />
+    <model name="MINIBOTS_Terrain_Plant_Swamp_01.mdl" deferred_loading="true" protected="false" file="furniture/minibots_terrain_plant_swamp_01/MINIBOTS_Terrain_Plant_Swamp_01.mdl" />
+    <model name="MINIBOTS_Footpath.mdl" deferred_loading="true" protected="false" file="furniture/minibots_footpath/MINIBOTS_Footpath.mdl" />
+    <model name="MINIBOTS_Footpath_Generic.mdl" deferred_loading="true" protected="false" file="furniture/minibots_footpath_generic/MINIBOTS_Footpath_Generic.mdl" />
+    <model name="MINIBOTS_FootpathBlue.mdl" deferred_loading="true" protected="false" file="furniture/minibots_footpathblue/MINIBOTS_FootpathBlue.mdl" />
+    <model name="MINIBOTS_BlueSignalFlare.mdl" deferred_loading="true" protected="false" file="furniture/minibots_bluesignalflare/MINIBOTS_BlueSignalFlare.mdl" />
+    <model name="MINIBOTS_SignalFlareBlueLarge.mdl" deferred_loading="true" protected="false" file="furniture/minibots_signalflarebluelarge/MINIBOTS_SignalFlareBlueLarge.mdl" />
+    <model name="MINIBOTS_SignalFlare.mdl" deferred_loading="true" protected="false" file="furniture/minibots_signalflare/MINIBOTS_SignalFlare.mdl" />
+    <model name="MINIBOTS_SignalFlareLarge.mdl" deferred_loading="true" protected="false" file="furniture/minibots_signalflarelarge/MINIBOTS_SignalFlareLarge.mdl" />
+    <model name="MINIBOTS_SignalFlareRed.mdl" deferred_loading="true" protected="false" file="furniture/minibots_signalflarered/MINIBOTS_SignalFlareRed.mdl" />
+    <model name="MINIBOTS_SignalFlareRedLarge.mdl" deferred_loading="true" protected="false" file="furniture/minibots_signalflareredlarge/MINIBOTS_SignalFlareRedLarge.mdl" />
+    <model name="MINIBOTS_GlassTunnel.mdl" deferred_loading="true" protected="false" file="furniture/minibots_glasstunnel/MINIBOTS_GlassTunnel.mdl" />
+    <model name="MINIBOTS_DisplayBase.mdl" deferred_loading="true" protected="false" file="furniture/minibots_displaybase/MINIBOTS_DisplayBase.mdl" />
+    <model name="MINIBOTS_GlasstunnelTshape.mdl" deferred_loading="true" protected="false" file="furniture/minibots_glasstunneltshape/MINIBOTS_GlasstunnelTshape.mdl" />
+    <model name="MINIBOTS_Shield_02_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_shield_02/MINIBOTS_Shield_02_Red.mdl" />
+    <model name="MINIBOTS_Pulse_Shield_Chair_Red.mdl" deferred_loading="false" protected="false" file="furniture/minibots_pulse_shield_chair/MINIBOTS_Pulse_Shield_Chair_Red.mdl" />
+    <model name="MINIBOTS_Lightning_Light.mdl" deferred_loading="true" protected="false" file="furniture/minibots_lightning_light/MINIBOTS_Lightning_Light.mdl" />
+    <model name="MINIBOTS_Death_Ray_Light.mdl" deferred_loading="true" protected="false" file="furniture/minibots_death_ray_light/MINIBOTS_Death_Ray_Light.mdl" />
+    <model name="MINIBOTS_ScortchRug.mdl" deferred_loading="true" protected="false" file="furniture/minibots_scortchrug/MINIBOTS_ScortchRug.mdl" />
+    <model name="MINIBOTS_Minibot_Trophy.mdl" deferred_loading="true" protected="false" file="furniture/minibots_minibot_trophy/MINIBOTS_Minibot_Trophy.mdl" />
+    <model name="MINIBOTS_Glass_Platform.mdl" deferred_loading="true" protected="false" file="furniture/minibots_glass_platform/MINIBOTS_Glass_Platform.mdl" />
+    <model name="MINIBOTS_Barrier_02_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_barrier_02/MINIBOTS_Barrier_02_Red.mdl" />
+    <model name="MINIBOTS_Platform_01_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_platform_01/MINIBOTS_Platform_01_Red.mdl" />
+    <model name="MINIBOTS_Catwalk_01_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_catwalk_01/MINIBOTS_Catwalk_01_Red.mdl" />
+    <model name="MINIBOTS_Ramp_01_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_ramp_01/MINIBOTS_Ramp_01_Red.mdl" />
+    <model name="MINIBOTS_Shield_01_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_shield_01/MINIBOTS_Shield_01_Red.mdl" />
+    <model name="MINIBOTS_Pillar_01_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_pillar_01/MINIBOTS_Pillar_01_Red.mdl" />
+    <model name="MINIBOTS_Wall_01_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_wall_01/MINIBOTS_Wall_01_Red.mdl" />
+    <model name="MINIBOTS_ExplosiveBarrell_Red.mdl" deferred_loading="true" protected="false" file="furniture/minibots_explosivebarrell/MINIBOTS_ExplosiveBarrell_Red.mdl" />
+    <model name="MINIBOTS_90DGlassTunnel.mdl" deferred_loading="true" protected="false" file="furniture/minibots_90dglasstunnel/MINIBOTS_90DGlassTunnel.mdl" />
+    <model name="MINIBOTS_Banner_Red_2013Stand.mdl" deferred_loading="true" protected="false" file="furniture/minibots_banner_red/MINIBOTS_Banner_Red_2013Stand.mdl" />
+    <model name="MINIBOTS_BlueBanner_2013_Stand.mdl" deferred_loading="false" protected="false" file="furniture/minibots_bluebanner/MINIBOTS_BlueBanner_2013_Stand.mdl" />
+    <model name="MINIB_Alien_TenticleGrowth_InGame_RIG.mdl" deferred_loading="true" protected="false" file="furniture/minib_alien_tenticlegrowth/MINIB_Alien_TenticleGrowth_InGame_RIG.mdl" />
+    <model name="MINIB_Grass_MagicMushroom_ANIM01.mdl" deferred_loading="true" protected="false" file="furniture/minib_grass_magicmushroom/MINIB_Grass_MagicMushroom_ANIM01.mdl" />
+    <texture name="life_chip.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/life_chip.dds" memory="main" />
+    <texture name="minibot_decal_01.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/minibot_decal_01.dds" memory="main" />
+    <texture name="minibot_decal_02.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/minibot_decal_02.dds" memory="main" />
+    <texture name="MiniBot_decal_03.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_03.dds" memory="main" />
+    <texture name="MiniBot_decal_04.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_04.dds" memory="main" />
+    <texture name="MiniBot_decal_05.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_05.dds" memory="main" />
+    <texture name="MiniBot_decal_06.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_06.dds" memory="main" />
+    <texture name="placeholder_s.dds" deferred_loading="false" protected="false" file="tools/generic_shared_textures/placeholder_s.dds" memory="main" />
+    <texture name="icon_assaulter.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_assaulter.dds" memory="main" />
+    <texture name="icon_grenade.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_grenade.dds" memory="main" />
+    <texture name="icon_shotgun.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_shotgun.dds" memory="main" />
+    <texture name="reticule_assaulter_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/reticule_assaulter_96.dds" memory="main" />
+    <texture name="reticule_shotgun_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/reticule_shotgun_96.dds" memory="main" />
+    <texture name="icon_gadget_boots.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_boots.dds" memory="main" />
+    <texture name="icon_gadget_pulse.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_pulse.dds" memory="main" />
+    <texture name="icon_gadget_sentry.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_sentry.dds" memory="main" />
+    <texture name="icon_gadget_stealth.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_stealth.dds" memory="main" />
+    <texture name="icon_gadget_teleport.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_teleport.dds" memory="main" />
+    <texture name="icon_gadget_turret.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_turret.dds" memory="main" />
+    <texture name="icon_kingdingaling.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_kingdingaling.dds" memory="main" />
+    <texture name="graphic_hit_direction.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/graphic_hit_direction.dds" memory="main" />
+    <texture name="gadget_lock_128.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/gadget_lock_128.dds" memory="main" />
+    <texture name="title_01.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/title_01.dds" memory="main" />
+    <texture name="reticule_assaulter_zoom_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/reticule_assaulter_zoom_96.dds" memory="main" />
+    <texture name="reticule_beamer_counter_8.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_beamer_counter_8.dds" memory="main" />
+    <texture name="reticule_beamer_main_64.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_beamer_main_64.dds" memory="main" />
+    <texture name="reticule_launcher_96.dds" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/graphics/reticule_launcher_96.dds" memory="main" />
+    <texture name="background_main.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_main.dds" memory="main" />
+    <texture name="background_countdown.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_countdown.dds" memory="main" />
+    <texture name="background_hud.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_hud.dds" memory="main" />
+    <texture name="background_hud_gadget.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_hud_gadget.dds" memory="main" />
+    <texture name="background_hud_wavescore.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_hud_wavescore.dds" memory="main" />
+    <texture name="power_bar_active.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/power_bar_active.dds" memory="main" />
+    <texture name="power_bar_inactive.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/power_bar_inactive.dds" memory="main" />
+    <texture name="power_bar_off.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/power_bar_off.dds" memory="main" />
+    <texture name="ui_bullet.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_bullet.dds" memory="main" />
+    <texture name="reticule_blade_main_64.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/reticule_blade_main_64.dds" />
+    <texture name="icon_blade.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_blade.dds" memory="main" />
+    <texture name="ui_shell_bolt.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_bolt.dds" />
+    <texture name="ui_shell_bullet.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_bullet.dds" />
+    <texture name="ui_shell_dash.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_dash.dds" />
+    <texture name="ui_shell_rocket.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_rocket.dds" />
+    <texture name="icon_launcher.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_launcher.dds" />
+    <texture name="icon_beamer.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_beamer.dds" />
+    <texture name="ui_shell_shotgun.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_shotgun.dds" />
+    <texture name="reticule_launcher_charged_96.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/reticule_launcher_charged_96.dds" memory="main" />
+    <texture name="icon_dgun.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_dgun.dds" memory="main" />
+    <texture name="MiniBot_1024_c.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_1024_c.dds" />
+    <texture name="MiniBot_decal_07.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_07.dds" />
+    <texture name="minibot_decal_08.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/minibot_decal_08.dds" />
+    <texture name="MiniBot_decal_09.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_09.dds" />
+    <texture name="MiniBot_decal_10.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_10.dds" />
+    <texture name="MiniBot_decal_11.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_11.dds" />
+    <texture name="minibot_decal_12.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/minibot_decal_12.dds" />
+    <texture name="icon_blaster.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_blaster.dds" memory="main" />
+    <texture name="reticule_no_ammo.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/reticule_no_ammo.dds" />
+    <texture name="icon_gadget_guardian.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_guardian.dds" />
+    <texture name="icon_sniper.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_sniper.dds" />
+    <texture name="reticule_sniper_16.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/reticule_sniper_16.dds" />
+    <texture name="ui_shell_fuel.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_fuel.dds" />
+    <texture name="ui_shell_fuel_overlay.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_fuel_overlay.dds" />
+    <texture name="ui_shell_sniper.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_shell_sniper.dds" />
+    <texture name="icon_observer.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_observer.dds" />
+    <texture name="icon_axe.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_axe.dds" />
+    <texture name="icon_gadget_cake.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_cake.dds" />
+    <texture name="rewardedItem_DE.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/rewardedItem_DE.dds" />
+    <texture name="rewardedItem_EN.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/rewardedItem_EN.dds" />
+    <texture name="rewardedItem_ES.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/rewardedItem_ES.dds" />
+    <texture name="rewardedItem_FR.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/rewardedItem_FR.dds" />
+    <texture name="rewardedItem_IT.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/rewardedItem_IT.dds" />
+    <texture name="icon_deaths.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_deaths.dds" />
+    <texture name="icon_kills.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_kills.dds" />
+    <texture name="icon_flamer.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_flamer.dds" />
+    <texture name="icon_gadget_disc.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/icon_gadget_disc.dds" />
+    <texture name="minibot_decal_bear.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/minibot_decal_bear.dds" />
+    <texture name="MiniBot_decal_SAMSCANNER.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_SAMSCANNER.dds" />
+    <texture name="MiniBot_decal_TOOMBS.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/MiniBot_decal_TOOMBS.dds" />
+    <texture name="Shinra_MINIBOTS_Decal_CLR.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/textures/Shinra_MINIBOTS_Decal_CLR.dds" />
+    <texture name="pillar_01_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/pillar_01_128.png" />
+    <texture name="wall_01_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/wall_01_128.png" />
+    <texture name="energy_barrier_01_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/energy_barrier_01_128.png" />
+    <texture name="blast_shield_01_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/blast_shield_01_128.png" />
+    <texture name="platform_01_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/platform_01_128.png" />
+    <texture name="constructor_cangrab.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/constructor_cangrab.dds" />
+    <texture name="Constructor_ItemLocked.png" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/Constructor_ItemLocked.png" />
+    <texture name="constructor_movingitem.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/constructor_movingitem.dds" />
+    <texture name="constructor_nothingselected.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/constructor_nothingselected.dds" />
+    <texture name="ramp_01_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ramp_01_128.png" />
+    <texture name="Pad_Effect_Acid_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Acid_128.png" />
+    <texture name="Pad_Effect_Bumper_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Bumper_128.png" />
+    <texture name="Pad_Effect_Dfloor_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Dfloor_128.png" />
+    <texture name="Pad_Effect_Dwall_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Dwall_128.png" />
+    <texture name="Pad_Effect_Glue_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Glue_128.png" />
+    <texture name="Pad_Effect_Ice_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Ice_128.png" />
+    <texture name="Pad_Effect_Jump_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Jump_128.png" />
+    <texture name="Pad_Effect_Medic_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Effect_Medic_128.png" />
+    <texture name="Pad_Abuser_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Abuser_128.png" />
+    <texture name="Pad_Ammo_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Ammo_128.png" />
+    <texture name="Pad_Assaulter_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Assaulter_128.png" />
+    <texture name="Pad_Axe_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Axe_128.png" />
+    <texture name="Pad_Blade_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Blade_128.png" />
+    <texture name="Pad_Blaster_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Blaster_128.png" />
+    <texture name="Pad_Death_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Death_128.png" />
+    <texture name="Pad_Devastator_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Devastator_128.png" />
+    <texture name="Pad_Sniper_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Sniper_128.png" />
+    <texture name="Pad_Thunder_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Pad_Thunder_128.png" />
+    <texture name="WEAPON_flamer_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/WEAPON_flamer_128.png" />
+    <texture name="Facility_Cube_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIB/Levels/Facility/Facility_Cube_128.png" />
+    <texture name="Facility_Floor_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIB/Levels/Facility/Facility_Floor_128.png" />
+    <texture name="Facility_Wall_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIB/Levels/Facility/Facility_Wall_128.png" />
+    <texture name="background_customize_items.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_customize_items.dds" />
+    <texture name="background_locked.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_locked.dds" />
+    <texture name="background_multiplayeroutro.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_multiplayeroutro.dds" />
+    <texture name="leveledup.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/leveledup.dds" />
+    <texture name="Thumbnail_CastleCutout_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_CastleCutout_128.png" />
+    <texture name="Thumbnail_FaerieRing_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_FaerieRing_128.png" />
+    <texture name="Thumbnail_GrassyHill_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_GrassyHill_128.png" />
+    <texture name="Thumbnail_LargeTree_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_LargeTree_128.png" />
+    <texture name="Thumbnail_MagicMushroom_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_MagicMushroom_128.png" />
+    <texture name="Facility_SmallWall_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIB/Levels/Facility/Facility_SmallWall_128.png" />
+    <texture name="Facility_Ramp_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIB/Levels/Facility/Facility_Ramp_128.png" />
+    <texture name="Facility_SmallCube_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIB/Levels/Facility/Facility_SmallCube_128.png" />
+    <texture name="KM_Assaulter.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Assaulter.dds" />
+    <texture name="KM_Axe.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Axe.dds" />
+    <texture name="KM_Beamer.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Beamer.dds" />
+    <texture name="KM_Blade.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Blade.dds" />
+    <texture name="KM_Blaster.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Blaster.dds" />
+    <texture name="KM_Devistator.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Devistator.dds" />
+    <texture name="KM_Flamer.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Flamer.dds" />
+    <texture name="KM_Grenade.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Grenade.dds" />
+    <texture name="KM_Launcher.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Launcher.dds" />
+    <texture name="KM_Sentry.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Sentry.dds" />
+    <texture name="KM_Sniper.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Sniper.dds" />
+    <texture name="KM_Turret.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Turret.dds" />
+    <texture name="KM_Headbutt.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Headbutt.dds" />
+    <texture name="KM_Abuser.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/KillMessageIcons/KM_Abuser.dds" />
+    <texture name="ui_xpbar.png" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_xpbar.png" />
+    <texture name="ui_xpbar_underlay.png" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_xpbar_underlay.png" />
+    <texture name="WoodBarricade_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/WoodBarricade_128.png" />
+    <texture name="WoodRamp_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/WoodRamp_128.png" />
+    <texture name="FORT_bridge_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/FORT_bridge_128.png" />
+    <texture name="FORT_long_wall_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/FORT_long_wall_128.png" />
+    <texture name="FORT_platform_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/FORT_platform_128.png" />
+    <texture name="FORT_short_wall_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/FORT_short_wall_128.png" />
+    <texture name="Thumbnail_BoneFortress_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_BoneFortress_128.png" />
+    <texture name="Thumbnail_LargeCactus_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_LargeCactus_128.png" />
+    <texture name="Thumbnail_SandDune_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_SandDune_128.png" />
+    <texture name="Thumbnail_ScorpionPit_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_ScorpionPit_128.png" />
+    <texture name="Thumbnail_SmallCactus_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_SmallCactus_128.png" />
+    <texture name="Popup_Background.png" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/Popup_Background.png" />
+    <texture name="ui_xpbar_boost_overlay.png" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_xpbar_boost_overlay.png" />
+    <texture name="Thumbnail_Igloo_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_Igloo_128.png" />
+    <texture name="ui_xpbar_BG.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/ui_xpbar_BG.dds" />
+    <texture name="background_loading.dds" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/background_loading.dds" />
+    <texture name="Thumbnail_FrozenLake_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_FrozenLake_128.png" />
+    <texture name="Thumbnail_IcicleWall_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_IcicleWall_128.png" />
+    <texture name="Thumbnail_LargeSnowDrift_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_LargeSnowDrift_128.png" />
+    <texture name="Thumbnail_SmallSnowDrift_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_SmallSnowDrift_128.png" />
+    <texture name="Thumbnail_WinterHolly_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_WinterHolly_128.png" />
+    <texture name="Thumbnail_AlienArtifact_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_AlienArtifact_128.png" />
+    <texture name="Thumbnail_AlienFortress_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_AlienFortress_128.png" />
+    <texture name="Thumbnail_LargeAlienPlant_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_LargeAlienPlant_128.png" />
+    <texture name="Thumbnail_SmallAlienPlant128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_SmallAlienPlant128.png" />
+    <texture name="Thumbnail_TenticleGrowth_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_TenticleGrowth_128.png" />
+    <texture name="Thumbnail_BrokenGlassPile_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_BrokenGlassPile_128.png" />
+    <texture name="Thumbnail_CardboardFortress_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_CardboardFortress_128.png" />
+    <texture name="Thumbnail_Dumpster_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_Dumpster_128.png" />
+    <texture name="Thumbnail_GraffittiCoveredWall_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_GraffittiCoveredWall_128.png" />
+    <texture name="Thumbnail_Planter_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_Planter_128.png" />
+    <texture name="BlueFootpath_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/BlueFootpath_128.png" />
+    <texture name="GreenFootpath_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/GreenFootpath_128.png" />
+    <texture name="RedFootpath_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/RedFootpath_128.png" />
+    <texture name="GRASS_tree_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/GRASS_tree_128.png" />
+    <texture name="cattails_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/cattails_128.png" />
+    <texture name="grass_knoll_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/grass_knoll_128.png" />
+    <texture name="GRASS_spooky_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/GRASS_spooky_128.png" />
+    <texture name="RedBase_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/RedBase_128.png" />
+    <texture name="BlueBase_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/BlueBase_128.png" />
+    <texture name="GenericBase_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/GenericBase_128.png" />
+    <texture name="BlueSignalFlare_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/BlueSignalFlare_128.png" />
+    <texture name="RedSignalFlare_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/RedSignalFlare_128.png" />
+    <texture name="RedSignalFlareLarge_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/RedSignalFlareLarge_128.png" />
+    <texture name="SignalFlare_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/SignalFlare_128.png" />
+    <texture name="SignalFlareBlueLarge_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/SignalFlareBlueLarge_128.png" />
+    <texture name="SignalFlareLarge_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/MINIBOTS_alt/ArenaBox/AB_Thumbs/SignalFlareLarge_128.png" />
+    <texture name="pillar_01_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/pillar_01_red_128.png" />
+    <texture name="platform_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/platform_red_128.png" />
+    <texture name="PulseChair_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/PulseChair_128.png" />
+    <texture name="ramp_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/ramp_red_128.png" />
+    <texture name="RedPowerShield_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/RedPowerShield_128.png" />
+    <texture name="wall_02_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/wall_02_red_128.png" />
+    <texture name="bar_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/bar_red_128.png" />
+    <texture name="barrier_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/barrier_red_128.png" />
+    <texture name="blast_shield_01_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/blast_shield_01_red_128.png" />
+    <texture name="catwalk_red_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/catwalk_red_128.png" />
+    <texture name="Display_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/Display_128.png" />
+    <texture name="glass_platform_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/Facility/glass_platform_128.png" />
+    <texture name="DeathRayLight_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/ArenaBox/AB_Thumbs/DeathRayLight_128.png" />
+    <texture name="GlassTube_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/ArenaBox/AB_Thumbs/GlassTube_128.png" />
+    <texture name="GlassTubeBend_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/ArenaBox/AB_Thumbs/GlassTubeBend_128.png" />
+    <texture name="GlassTubeT_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/ArenaBox/AB_Thumbs/GlassTubeT_128.png" />
+    <texture name="LightningLamp_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/ArenaBox/AB_Thumbs/LightningLamp_128.png" />
+    <texture name="MinibotTrophy_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/ArenaBox/AB_Thumbs/MinibotTrophy_128.png" />
+    <texture name="ScorchRug_128.png" deferred_loading="false" protected="false" file="thumbnails/MINIBOTS/MINIBOTS/ArenaBox/AB_Thumbs/ScorchRug_128.png" />
+    <texture name="Thumbnail_BlueBannerStand2013_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_BlueBannerStand2013_128.png" />
+    <texture name="Thumbnail_RedBannerStand2013_128.png" deferred_loading="false" protected="false" file="thumbnails/Mini_Arena_Sets/Thumbnail_RedBannerStand2013_128.png" />
+    <texture name="Instruction_DE.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/Instruction_DE.dds" />
+    <texture name="Instruction_EN.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/Instruction_EN.dds" />
+    <texture name="Instruction_ES.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/Instruction_ES.dds" />
+    <texture name="Instruction_FR.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/Instruction_FR.dds" />
+    <texture name="Instruction_IT.dds" deferred_loading="true" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/Instruction_IT.dds" />
+    <texture name="CATAGORY_Effects.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CATAGORY_Effects.dds" />
+    <texture name="CATAGORY_Furniture.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CATAGORY_Furniture.dds" />
+    <texture name="CATAGORY_Weapons.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CATAGORY_Weapons.dds" />
+    <texture name="BACKGROUND_Items.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/BACKGROUND_Items.dds" />
+    <texture name="BACKGROUND_Verticle.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/BACKGROUND_Verticle.dds" />
+    <texture name="CON_ClassicItems.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CON_ClassicItems.dds" />
+    <texture name="CON_TerrainAlien.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CON_TerrainAlien.dds" />
+    <texture name="CON_TerrainDesert.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CON_TerrainDesert.dds" />
+    <texture name="CON_TerrainFacility.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CON_TerrainFacility.dds" />
+    <texture name="CON_TerrainGrass.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CON_TerrainGrass.dds" />
+    <texture name="CON_TerrainSnow.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CON_TerrainSnow.dds" />
+    <texture name="CON_TerrainStreets.dds" deferred_loading="false" protected="false" file="MiniGames/MINIB_AlvinArmory/graphics/CON_TerrainStreets.dds" />
+    <texture name="icon_gadget_none.dds" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/graphics/icon_gadget_none.dds" />
+    <texture name="LoadingIcon.png" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/graphics/LoadingIcon.png" />
+    <texture name="Nat3Image_DE.dds" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/graphics/Nat3Image_DE.dds" />
+    <texture name="Nat3Image_EN.dds" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/graphics/Nat3Image_EN.dds" />
+    <texture name="Nat3Image_ES.dds" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/graphics/Nat3Image_ES.dds" />
+    <texture name="Nat3Image_FR.dds" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/graphics/Nat3Image_FR.dds" />
+    <texture name="Nat3Image_IT.dds" deferred_loading="false" protected="false" file="realtimegames/MINIB_MinibotArena/graphics/Nat3Image_IT.dds" />
+    <particle name="explosion.efx" deferred_loading="false" protected="false" file="MiniGames/MiniBots_BattleBox/atgparticles/efx/explosion.efx" memory="main" />
+    <particle name="teleport_in.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/teleport_in.efx" memory="main" />
+    <particle name="rocketloop.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/rocketloop.efx" memory="main" />
+    <particle name="MiniBotBoltImpact.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/MiniBotBoltImpact.efx" memory="main" />
+    <particle name="RingwaveBlast_blue.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/RingwaveBlast_blue.efx" memory="main" />
+    <particle name="MDR_Impact.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/MDR_Impact.efx" memory="main" />
+    <particle name="SpawnPoint2.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/SpawnPoint2.efx" />
+    <particle name="Blaster_Impact.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/Blaster_Impact.efx" />
+    <particle name="HealBot.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/HealBot.efx" memory="main" />
+    <particle name="GrenadeRadius.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Lee/GrenadeRadius.efx" />
+    <particle name="Lobby_fountain.efx" deferred_loading="true" protected="false" file="environments/minibots_training_facility/Particles/Lobby_fountain.efx" />
+    <particle name="PulseFieldSparks.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/PulseFieldSparks.efx" />
+    <particle name="StealthFieldParticle.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/StealthFieldParticle.efx" />
+    <particle name="BotSpawn.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/BotSpawn.efx" />
+    <particle name="ShellCasing.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/ShellCasing.efx" />
+    <particle name="berserkbot_effect.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/berserkbot_effect.efx" />
+    <particle name="Fireworks.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/Fireworks.efx" />
+    <particle name="flamethrower.efx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/atgparticles/efx/flamethrower.efx" />
+    <particle name="Flamer01.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/MiniBots/Flamer01.efx" />
+    <particle name="RTG_Exhaust.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/MiniBots/RTG_Exhaust.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/file/Network.xml" />
+    <collision name="MiniBot_collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/MiniBot_collider.hkx" memory="main" />
+    <collision name="WEAPON_grenade.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_grenade.hkx" memory="main" />
+    <collision name="GADGET_guardian.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_guardian.hkx" memory="main" />
+    <collision name="GADGET_sentry.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_sentry.hkx" memory="main" />
+    <collision name="GADGET_turret.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/GADGET_turret.hkx" memory="main" />
+    <collision name="WEAPON_PAD_Generic.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/WEAPON_PAD_Generic.hkx" />
+    <collision name="JUGGERNAUT_CAKE.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/juggernaut_cake/JUGGERNAUT_CAKE.hkx" />
+    <collision name="DISC_collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/disc/DISC_collider.hkx" />
+    <collision name="Minibots_Hoverboard_RIG.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/Minibots_Hoverboard_RIG.hkx" />
+    <collision name="MINIBOTS_Pillar_01.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pillar_01/MINIBOTS_Pillar_01.hkx" />
+    <collision name="MINIBOTS_Wall_01.hkx" deferred_loading="false" protected="false" file="furniture/minibots_wall_01/MINIBOTS_Wall_01.hkx" />
+    <collision name="MINIBOTS_Barrier_02.hkx" deferred_loading="false" protected="false" file="furniture/minibots_barrier_02/MINIBOTS_Barrier_02.hkx" />
+    <collision name="MINIBOTS_Ramp_01.hkx" deferred_loading="false" protected="false" file="furniture/minibots_ramp_01/MINIBOTS_Ramp_01.hkx" />
+    <collision name="MINIBOTS_Shield_01.hkx" deferred_loading="false" protected="false" file="furniture/minibots_shield_01/MINIBOTS_Shield_01.hkx" />
+    <collision name="MINIBOTS_Platform_01.hkx" deferred_loading="false" protected="false" file="furniture/minibots_platform_01/MINIBOTS_Platform_01.hkx" />
+    <collision name="MINIBOTS_Effect_Bumper.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_bumper/MINIBOTS_Effect_Bumper.hkx" />
+    <collision name="MINIBOTS_Effect_Acid.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_acid/MINIBOTS_Effect_Acid.hkx" />
+    <collision name="MINIBOTS_Effect_ElectricFloor.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_electricfloor/MINIBOTS_Effect_ElectricFloor.hkx" />
+    <collision name="MINIBOTS_Effect_ElectricWall.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_electricwall/MINIBOTS_Effect_ElectricWall.hkx" />
+    <collision name="MINIBOTS_Effect_Jump.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_jump/MINIBOTS_Effect_Jump.hkx" />
+    <collision name="MINIBOTS_Effect_Medic.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_medic/MINIBOTS_Effect_Medic.hkx" />
+    <collision name="MINIBOTS_Effect_Oil.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_oil/MINIBOTS_Effect_Oil.hkx" />
+    <collision name="MINIBOTS_Effect_Sticky.hkx" deferred_loading="false" protected="false" file="furniture/minibots_effect_sticky/MINIBOTS_Effect_Sticky.hkx" />
+    <collision name="MINIBOTS_Pad_Abuser.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_abuser/MINIBOTS_Pad_Abuser.hkx" />
+    <collision name="MINIBOTS_Pad_Ammo.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_ammo/MINIBOTS_Pad_Ammo.hkx" />
+    <collision name="MINIBOTS_Pad_Assaulter.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_assaulter/MINIBOTS_Pad_Assaulter.hkx" />
+    <collision name="MINIBOTS_Pad_Axe.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_axe/MINIBOTS_Pad_Axe.hkx" />
+    <collision name="MINIBOTS_Pad_Blade.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_blade/MINIBOTS_Pad_Blade.hkx" />
+    <collision name="MINIBOTS_Pad_Blaster.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_blaster/MINIBOTS_Pad_Blaster.hkx" />
+    <collision name="MINIBOTS_Pad_Death.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_death/MINIBOTS_Pad_Death.hkx" />
+    <collision name="MINIBOTS_Pad_Devestator.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_devestator/MINIBOTS_Pad_Devestator.hkx" />
+    <collision name="MINIBOTS_Pad_Flamethrower.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_flamethrower/MINIBOTS_Pad_Flamethrower.hkx" />
+    <collision name="MINIBOTS_Pad_Sniper.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_sniper/MINIBOTS_Pad_Sniper.hkx" />
+    <collision name="MINIBOTS_Pad_Thunder.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pad_thunder/MINIBOTS_Pad_Thunder.hkx" />
+    <collision name="MINIB_PlayerCollider_01.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/MINIB_PlayerCollider_01.hkx" />
+    <collision name="LEVEL_Facility.hkx" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Facility.hkx" />
+    <collision name="MINIB_Facility_Cube.hkx" deferred_loading="false" protected="false" file="furniture/minib_facility_cube/MINIB_Facility_Cube.hkx" />
+    <collision name="MINIB_Facility_Floor.hkx" deferred_loading="false" protected="false" file="furniture/minib_facility_floor/MINIB_Facility_Floor.hkx" />
+    <collision name="MINIB_Facility_Wall.hkx" deferred_loading="false" protected="false" file="furniture/minib_facility_wall/MINIB_Facility_Wall.hkx" />
+    <collision name="MINIB_Facility_Ramp.hkx" deferred_loading="false" protected="false" file="furniture/minib_facility_ramp/MINIB_Facility_Ramp.hkx" />
+    <collision name="MINIB_Grass_MagicMushroom.hkx" deferred_loading="false" protected="false" file="furniture/minib_grass_magicmushroom/MINIB_Grass_MagicMushroom.hkx" />
+    <collision name="MINIB_Grass_CastleCutout.hkx" deferred_loading="false" protected="false" file="furniture/minib_grass_castlecutout/MINIB_Grass_CastleCutout.hkx" />
+    <collision name="MINIB_Grass_FaerieRing.hkx" deferred_loading="false" protected="false" file="furniture/minib_grass_faeriering/MINIB_Grass_FaerieRing.hkx" />
+    <collision name="MINIB_Grass_GrassyHill.hkx" deferred_loading="false" protected="false" file="furniture/minib_grass_grassyhill/MINIB_Grass_GrassyHill.hkx" />
+    <collision name="MINIB_Grass_Tree.hkx" deferred_loading="false" protected="false" file="furniture/minib_grass_tree/MINIB_Grass_Tree.hkx" />
+    <collision name="MINIB_Facility_SmallWall.hkx" deferred_loading="false" protected="false" file="furniture/minib_facility_smallwall/MINIB_Facility_SmallWall.hkx" />
+    <collision name="MINIB_Facility_SmallCube.hkx" deferred_loading="false" protected="false" file="furniture/minib_facility_smallcube/MINIB_Facility_SmallCube.hkx" />
+    <collision name="LEVEL_Grass.hkx" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Grass.hkx" />
+    <collision name="MINIBOTS_Wood_Bridge.hkx" deferred_loading="false" protected="false" file="furniture/minibots_wood_bridge/MINIBOTS_Wood_Bridge.hkx" />
+    <collision name="MINIBOTS_Wood_Fort.hkx" deferred_loading="false" protected="false" file="furniture/minibots_wood_fort/MINIBOTS_Wood_Fort.hkx" />
+    <collision name="MINIBOTS_Wood_Platform.hkx" deferred_loading="false" protected="false" file="furniture/minibots_wood_platform/MINIBOTS_Wood_Platform.hkx" />
+    <collision name="MINIBOTS_Wood_Wall_Short.hkx" deferred_loading="false" protected="false" file="furniture/minibots_wood_wall_short/MINIBOTS_Wood_Wall_Short.hkx" />
+    <collision name="MINIBOTS_WoodenBarricade.hkx" deferred_loading="false" protected="false" file="furniture/minibots_woodenbarricade/MINIBOTS_WoodenBarricade.hkx" />
+    <collision name="MINIBOTS_woodenSpikes.hkx" deferred_loading="false" protected="false" file="furniture/minibots_woodenspikes/MINIBOTS_woodenSpikes.hkx" />
+    <collision name="LEVEL_Desert.hkx" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Desert.hkx" />
+    <collision name="MINIB_Desert_BoneFortress.hkx" deferred_loading="false" protected="false" file="furniture/minib_desert_bonefortress/MINIB_Desert_BoneFortress.hkx" />
+    <collision name="MINIB_Desert_LargeCactus.hkx" deferred_loading="false" protected="false" file="furniture/minib_desert_largecactus/MINIB_Desert_LargeCactus.hkx" />
+    <collision name="MINIB_Desert_SandDune.hkx" deferred_loading="false" protected="false" file="furniture/minib_desert_sanddune/MINIB_Desert_SandDune.hkx" />
+    <collision name="MINIB_Desert_ScorpionPit.hkx" deferred_loading="false" protected="false" file="furniture/minib_desert_scorpionpit/MINIB_Desert_ScorpionPit.hkx" />
+    <collision name="MINIB_Desert_SmallCactus.hkx" deferred_loading="false" protected="false" file="furniture/minib_desert_smallcactus/MINIB_Desert_SmallCactus.hkx" />
+    <collision name="LEVEL_Snow.hkx" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Snow.hkx" />
+    <collision name="MINIB_Snow_Igloo.hkx" deferred_loading="false" protected="false" file="furniture/minib_snow_igloo/MINIB_Snow_Igloo.hkx" />
+    <collision name="LEVEL_Alien.hkx" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Alien.hkx" />
+    <collision name="LEVEL_Urban.hkx" deferred_loading="true" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Urban.hkx" />
+    <collision name="MINIB_Teleport_Collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/MINIB_Teleport_Collider.hkx" />
+    <collision name="MINIB_Snow_FrozenLake.hkx" deferred_loading="false" protected="false" file="furniture/minib_snow_frozenlake/MINIB_Snow_FrozenLake.hkx" />
+    <collision name="MINIB_Snow_IcicleWall.hkx" deferred_loading="false" protected="false" file="furniture/minib_snow_iciclewall/MINIB_Snow_IcicleWall.hkx" />
+    <collision name="MINIB_Snow_LargeSnowDrift.hkx" deferred_loading="false" protected="false" file="furniture/minib_snow_largesnowdrift/MINIB_Snow_LargeSnowDrift.hkx" />
+    <collision name="MINIB_Snow_SmallSnowDrift.hkx" deferred_loading="false" protected="false" file="furniture/minib_snow_smallsnowdrift/MINIB_Snow_SmallSnowDrift.hkx" />
+    <collision name="MINIB_Snow_WinterHolly.hkx" deferred_loading="false" protected="false" file="furniture/minib_snow_winterholly/MINIB_Snow_WinterHolly.hkx" />
+    <collision name="MINIB_Alien_AlienArtifact.hkx" deferred_loading="false" protected="false" file="furniture/minib_alien_alienartifact/MINIB_Alien_AlienArtifact.hkx" />
+    <collision name="MINIB_Alien_TenticleGrowth.hkx" deferred_loading="false" protected="false" file="furniture/minib_alien_tenticlegrowth/MINIB_Alien_TenticleGrowth.hkx" />
+    <collision name="MINIB_Alien_SmallAlienPlant.hkx" deferred_loading="false" protected="false" file="furniture/minib_alien_smallalienplant/MINIB_Alien_SmallAlienPlant.hkx" />
+    <collision name="MINIB_Alien_LargeAlienPlant.hkx" deferred_loading="false" protected="false" file="furniture/minib_alien_largealienplant/MINIB_Alien_LargeAlienPlant.hkx" />
+    <collision name="MINIB_Alien_AlienFortress.hkx" deferred_loading="false" protected="false" file="furniture/minib_alien_alienfortress/MINIB_Alien_AlienFortress.hkx" />
+    <collision name="MINIB_Urban_BrokenGlass.hkx" deferred_loading="false" protected="false" file="furniture/minib_urban_brokenglass/MINIB_Urban_BrokenGlass.hkx" />
+    <collision name="MINIB_Urban_Planter.hkx" deferred_loading="false" protected="false" file="furniture/minib_urban_planter/MINIB_Urban_Planter.hkx" />
+    <collision name="MINIB_Urban_GraffittiWall.hkx" deferred_loading="false" protected="false" file="furniture/minib_urban_graffittiwall/MINIB_Urban_GraffittiWall.hkx" />
+    <collision name="MINIB_Urban_Dumpster.hkx" deferred_loading="false" protected="false" file="furniture/minib_urban_dumpster/MINIB_Urban_Dumpster.hkx" />
+    <collision name="MINIB_Urban_CardboardFortress.hkx" deferred_loading="false" protected="false" file="furniture/minib_urban_cardboardfortress/MINIB_Urban_CardboardFortress.hkx" />
+    <collision name="Constructor_Collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/models/Constructor_Collider.hkx" />
+    <collision name="MINIBOTS_Bluebase.hkx" deferred_loading="false" protected="false" file="furniture/minibots_bluebase/MINIBOTS_Bluebase.hkx" />
+    <collision name="MINIBOTS_Redbase.hkx" deferred_loading="false" protected="false" file="furniture/minibots_redbase/MINIBOTS_Redbase.hkx" />
+    <collision name="MINIBOTS_StarterBase.hkx" deferred_loading="false" protected="false" file="furniture/minibots_starterbase/MINIBOTS_StarterBase.hkx" />
+    <collision name="MINIBOTS_Terrain_Hill_Grass.hkx" deferred_loading="false" protected="false" file="furniture/minibots_terrain_hill_grass/MINIBOTS_Terrain_Hill_Grass.hkx" />
+    <collision name="MINIBOTS_Tree_01.hkx" deferred_loading="false" protected="false" file="furniture/minibots_tree_01/MINIBOTS_Tree_01.hkx" />
+    <collision name="MINIBOTS_spookyTree.hkx" deferred_loading="false" protected="false" file="furniture/minibots_spookytree/MINIBOTS_spookyTree.hkx" />
+    <collision name="MINIBOTS_Terrain_Plant_Swamp_01.hkx" deferred_loading="false" protected="false" file="furniture/minibots_terrain_plant_swamp_01/MINIBOTS_Terrain_Plant_Swamp_01.hkx" />
+    <collision name="MINIBOTS_Footpath.hkx" deferred_loading="false" protected="false" file="furniture/minibots_footpath/MINIBOTS_Footpath.hkx" />
+    <collision name="MINIBOTS_Footpath_Generic.hkx" deferred_loading="false" protected="false" file="furniture/minibots_footpath_generic/MINIBOTS_Footpath_Generic.hkx" />
+    <collision name="MINIBOTS_FootpathBlue.hkx" deferred_loading="false" protected="false" file="furniture/minibots_footpathblue/MINIBOTS_FootpathBlue.hkx" />
+    <collision name="MINIBOTS_BlueSignalFlare.hkx" deferred_loading="false" protected="false" file="furniture/minibots_bluesignalflare/MINIBOTS_BlueSignalFlare.hkx" />
+    <collision name="MINIBOTS_SignalFlareBlueLarge.hkx" deferred_loading="false" protected="false" file="furniture/minibots_signalflarebluelarge/MINIBOTS_SignalFlareBlueLarge.hkx" />
+    <collision name="MINIBOTS_SignalFlare.hkx" deferred_loading="false" protected="false" file="furniture/minibots_signalflare/MINIBOTS_SignalFlare.hkx" />
+    <collision name="MINIBOTS_SignalFlareLarge.hkx" deferred_loading="false" protected="false" file="furniture/minibots_signalflarelarge/MINIBOTS_SignalFlareLarge.hkx" />
+    <collision name="MINIBOTS_SignalFlareRed.hkx" deferred_loading="false" protected="false" file="furniture/minibots_signalflarered/MINIBOTS_SignalFlareRed.hkx" />
+    <collision name="MINIBOTS_SignalFlareRedLarge.hkx" deferred_loading="false" protected="false" file="furniture/minibots_signalflareredlarge/MINIBOTS_SignalFlareRedLarge.hkx" />
+    <collision name="MINIBOTS_GlassTunnel.hkx" deferred_loading="false" protected="false" file="furniture/minibots_glasstunnel/MINIBOTS_GlassTunnel.hkx" />
+    <collision name="MINIBOTS_DisplayBase.hkx" deferred_loading="false" protected="false" file="furniture/minibots_displaybase/MINIBOTS_DisplayBase.hkx" />
+    <collision name="MINIBOTS_GlasstunnelTshape.hkx" deferred_loading="false" protected="false" file="furniture/minibots_glasstunneltshape/MINIBOTS_GlasstunnelTshape.hkx" />
+    <collision name="MINIBOTS_Shield_02_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_shield_02/MINIBOTS_Shield_02_Red.hkx" />
+    <collision name="MINIBOTS_Pulse_Shield_Chair_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pulse_shield_chair/MINIBOTS_Pulse_Shield_Chair_Red.hkx" />
+    <collision name="MINIBOTS_Lightning_Light.hkx" deferred_loading="false" protected="false" file="furniture/minibots_lightning_light/MINIBOTS_Lightning_Light.hkx" />
+    <collision name="MINIBOTS_Death_Ray_Light.hkx" deferred_loading="false" protected="false" file="furniture/minibots_death_ray_light/MINIBOTS_Death_Ray_Light.hkx" />
+    <collision name="MINIBOTS_ScortchRug.hkx" deferred_loading="false" protected="false" file="furniture/minibots_scortchrug/MINIBOTS_ScortchRug.hkx" />
+    <collision name="MINIBOTS_Minibot_Trophy.hkx" deferred_loading="false" protected="false" file="furniture/minibots_minibot_trophy/MINIBOTS_Minibot_Trophy.hkx" />
+    <collision name="MINIBOTS_Glass_Platform.hkx" deferred_loading="false" protected="false" file="furniture/minibots_glass_platform/MINIBOTS_Glass_Platform.hkx" />
+    <collision name="MINIBOTS_Barrier_02_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_barrier_02/MINIBOTS_Barrier_02_Red.hkx" />
+    <collision name="MINIBOTS_Platform_01_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_platform_01/MINIBOTS_Platform_01_Red.hkx" />
+    <collision name="MINIBOTS_Catwalk_01_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_catwalk_01/MINIBOTS_Catwalk_01_Red.hkx" />
+    <collision name="MINIBOTS_Ramp_01_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_ramp_01/MINIBOTS_Ramp_01_Red.hkx" />
+    <collision name="MINIBOTS_Shield_01_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_shield_01/MINIBOTS_Shield_01_Red.hkx" />
+    <collision name="MINIBOTS_Pillar_01_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_pillar_01/MINIBOTS_Pillar_01_Red.hkx" />
+    <collision name="MINIBOTS_Wall_01_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_wall_01/MINIBOTS_Wall_01_Red.hkx" />
+    <collision name="MINIBOTS_ExplosiveBarrell_Red.hkx" deferred_loading="false" protected="false" file="furniture/minibots_explosivebarrell/MINIBOTS_ExplosiveBarrell_Red.hkx" />
+    <collision name="MINIBOTS_90DGlassTunnel.hkx" deferred_loading="false" protected="false" file="furniture/minibots_90dglasstunnel/MINIBOTS_90DGlassTunnel.hkx" />
+    <collision name="MINIBOTS_Banner_Red_2013Stand.hkx" deferred_loading="false" protected="false" file="furniture/minibots_banner_red/MINIBOTS_Banner_Red_2013Stand.hkx" />
+    <collision name="MINIBOTS_BlueBanner_2013_Stand.hkx" deferred_loading="false" protected="false" file="furniture/minibots_bluebanner/MINIBOTS_BlueBanner_2013_Stand.hkx" />
+    <anim name="MiniBot_Stand_Idle_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_Idle_LowerTorso.ani" memory="main" />
+    <anim name="MiniBot_Stand_Idle_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_Idle_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Stand_RunForward_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_RunForward_LowerTorso.ani" memory="main" />
+    <anim name="MiniBot_Stand_RunForward_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_RunForward_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Jump_Float_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Jump_Float_LowerTorso.ani" memory="main" />
+    <anim name="MiniBot_Jump_Float_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Jump_Float_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Jump_Start_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Jump_Start_LowerTorso.ani" memory="main" />
+    <anim name="MiniBot_Jump_Start_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Jump_Start_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Stand_FireWeapon_UpperBody.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_FireWeapon_UpperBody.ani" memory="main" />
+    <anim name="MiniBot_Jump_FloatForward_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Jump_FloatForward_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Jump_FloatForward_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Jump_FloatForward_LowerTorso.ani" memory="main" />
+    <anim name="MiniBot_Weapon_Equip_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Weapon_Equip_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Weapon_Unequip_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Weapon_Unequip_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_HeadButt_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_HeadButt_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Weapon_ReloadLoop_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Weapon_ReloadLoop_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Weapon_ReloadStart_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Weapon_ReloadStart_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Death_StandingDeath_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Death_StandingDeath_LowerTorso.ani" memory="main" />
+    <anim name="MiniBot_Death_StandingDeath_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Death_StandingDeath_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Grenade_Throw_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Grenade_Throw_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Stand_PulseExplosion_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_PulseExplosion_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Death_SelfDestruct_LowerTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Death_SelfDestruct_LowerTorso.ani" memory="main" />
+    <anim name="MiniBot_Death_SelfDestruct_UpperTorso.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Death_SelfDestruct_UpperTorso.ani" memory="main" />
+    <anim name="MiniBot_Blade_Attack.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Blade_Attack.ani" memory="main" />
+    <anim name="MiniBot_Blade_Idle.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Blade_Idle.ani" memory="main" />
+    <anim name="MiniBot_Blade_RunForward.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Blade_RunForward.ani" memory="main" />
+    <anim name="MiniBot_Blade_DashPose_LowerBody.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Blade_DashPose_LowerBody.ani" memory="main" />
+    <anim name="MiniBot_Blade_DashPose_UpperBody.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Blade_DashPose_UpperBody.ani" memory="main" />
+    <anim name="AlvinBot_Idle01.ani" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/shopkeepers/AlvinBot_Idle01.ani" />
+    <anim name="SherryBot_Idle01.ani" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/shopkeepers/SherryBot_Idle01.ani" />
+    <anim name="AlvinBot_ShopGreeting01.ani" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/shopkeepers/AlvinBot_ShopGreeting01.ani" />
+    <anim name="SherryBot_ShopGreeting01.ani" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/shopkeepers/SherryBot_ShopGreeting01.ani" />
+    <anim name="MiniBot_Axe_Spin.ani" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Axe_Spin.ani" />
+    <anim name="ARMORY_Doors_Combined.ani" deferred_loading="false" protected="false" file="environments/minibots_training_facility/models/ARMORY_Doors_Combined.ani" />
+    <anim name="LEVEL_Desert.ani" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Desert.ani" />
+    <anim name="MINIB_Alien_TenticleGrowth_Idle_01.ani" deferred_loading="false" protected="false" file="furniture/minib_alien_tenticlegrowth/MINIB_Alien_TenticleGrowth_Idle_01.ani" />
+    <anim name="MINIB_Alien_LargeAlienPlant.ani" deferred_loading="false" protected="false" file="furniture/minib_alien_largealienplant/MINIB_Alien_LargeAlienPlant.ani" />
+    <anim name="MINIB_Alien_SmallAlienPlant.ani" deferred_loading="false" protected="false" file="furniture/minib_alien_smallalienplant/MINIB_Alien_SmallAlienPlant.ani" />
+    <anim name="MINIB_Grass_MagicMushroom_ANIM01.ani" deferred_loading="false" protected="false" file="furniture/minib_grass_magicmushroom/MINIB_Grass_MagicMushroom_ANIM01.ani" />
+    <skeleton name="MiniBot_Stand_Idle_LowerTorso.skn" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_Idle_LowerTorso.skn" memory="main" />
+    <skeleton name="MiniBot_Stand_Idle_UpperTorso.skn" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/animations/MiniBot_Stand_Idle_UpperTorso.skn" memory="main" />
+    <skeleton name="AlvinBot_RIG.skn" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/shopkeepers/AlvinBot_RIG.skn" />
+    <skeleton name="SherryBot_RIG.skn" deferred_loading="true" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/shopkeepers/SherryBot_RIG.skn" />
+    <skeleton name="Minibots_Hoverboard_RIG.skn" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/models/accessories/Minibots_Hoverboard_RIG.skn" />
+    <skeleton name="LEVEL_Desert.skn" deferred_loading="false" protected="false" file="environments/minib_minibot_city/models/levels/LEVEL_Desert.skn" />
+    <skeleton name="MINIB_Alien_TenticleGrowth_RIG.skn" deferred_loading="false" protected="false" file="furniture/minib_alien_tenticlegrowth/MINIB_Alien_TenticleGrowth_RIG.skn" />
+    <skeleton name="MINIB_Alien_LargeAlienPlant.skn" deferred_loading="false" protected="false" file="furniture/minib_alien_largealienplant/MINIB_Alien_LargeAlienPlant.skn" />
+    <skeleton name="MINIB_Alien_SmallAlienPlant.skn" deferred_loading="false" protected="false" file="furniture/minib_alien_smallalienplant/MINIB_Alien_SmallAlienPlant.skn" />
+    <skeleton name="MINIB_Grass_MagicMushroom_ANIM01.skn" deferred_loading="false" protected="false" file="furniture/minib_grass_magicmushroom/MINIB_Grass_MagicMushroom_ANIM01.skn" />
+    <soundbank name="MinibotSoundbank1.bnk" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/MinibotSoundbank1.bnk" memory="main" />
+    <soundbank name="MinibotSoundbankUI.bnk" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/MinibotSoundbankUI.bnk" memory="main" />
+    <soundbank name="MinibotSoundBank2.bnk" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/MinibotSoundBank2.bnk" />
+    <soundbank name="TrainingFacililtyMapEffects.bnk" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/TrainingFacililtyMapEffects.bnk" />
+    <soundbank name="TrainingFacilityWeapons.bnk" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/TrainingFacilityWeapons.bnk" />
+    <soundstream name="BackgroundMusic.mp3" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/BackgroundMusic.mp3" memory="main" />
+    <soundstream name="DoorOpen.mp3" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/DoorOpen.mp3" />
+    <soundstream name="Spawn.mp3" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/Spawn.mp3" />
+    <soundstream name="Die.mp3" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/Die.mp3" />
+    <soundstream name="Victory.mp3" deferred_loading="false" protected="false" file="RealTimeGames/MinibotsTrainingFacility/Audio/Victory.mp3" />
+    <soundstream name="SarlakPit.mp3" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/Audio/SarlakPit.mp3" />
+    <soundstream name="TentacleStartAttack.mp3" deferred_loading="false" protected="false" file="RealTimeGames/MINIB_MinibotArena/Audio/TentacleStartAttack.mp3" />
+    <lua name="RealTimeGame.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/realtimegame.luac" memory="main" />
+    <lua name="MinibotDebris.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/minibotdebris.luac" memory="main" />
+    <lua name="RocketBoots.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/rocketboots.luac" memory="main" />
+    <lua name="GadgetSentry.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/gadgetsentry.luac" memory="main" />
+    <lua name="aBuserShot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playershots/abusershot.luac" memory="main" />
+    <lua name="AssaulterShot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playershots/assaultershot.luac" memory="main" />
+    <lua name="PlayerWeaponaBuser.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponabuser.luac" memory="main" />
+    <lua name="PlayerWeaponAssaulter.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponassaulter.luac" memory="main" />
+    <lua name="Rayball.lua" deferred_loading="true" protected="true" file="realtimegames/minib_minibotarena/lua/mapper/rayball.luac" memory="main" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/utility.luac" memory="main" />
+    <lua name="ApartmentMapper.lua" deferred_loading="true" protected="true" file="realtimegames/minib_minibotarena/lua/mapper/apartmentmapper.luac" memory="main" />
+    <lua name="SentryPointCheck.lua" deferred_loading="true" protected="true" file="realtimegames/minib_minibotarena/lua/mapper/sentrypointcheck.luac" memory="main" />
+    <lua name="WeaponPointCheck.lua" deferred_loading="true" protected="true" file="realtimegames/minib_minibotarena/lua/mapper/weaponpointcheck.luac" memory="main" />
+    <lua name="PickupManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/pickups/pickupmanager.luac" memory="main" />
+    <lua name="PlayerWeaponGrenade.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweapongrenade.luac" memory="main" />
+    <lua name="BackgroundMinibot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/minibots/backgroundminibot.luac" memory="main" />
+    <lua name="Minibot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/minibots/minibot.luac" memory="main" />
+    <lua name="MinibotCamera.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/minibots/minibotcamera.luac" memory="main" />
+    <lua name="MinibotHealthChip.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/minibots/minibothealthchip.luac" memory="main" />
+    <lua name="StealthField.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/stealthfield.luac" memory="main" />
+    <lua name="TurretGadget.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/turretgadget.luac" memory="main" />
+    <lua name="NetworkMinibot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/multiplayer/networkminibot.luac" memory="main" />
+    <lua name="State_CustomizeMenu.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_customizemenu.luac" memory="main" />
+    <lua name="State_Gadget.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_gadget.luac" memory="main" />
+    <lua name="State_Lobby.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_lobby.luac" memory="main" />
+    <lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_mainmenu.luac" memory="main" />
+    <lua name="State_Multiplayer.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_multiplayer.luac" memory="main" />
+    <lua name="StateMachine.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/statemachine.luac" memory="main" />
+    <lua name="State_Idle.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_idle.luac" memory="main" />
+    <lua name="GlobalLib.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/globallib.luac" memory="main" />
+    <lua name="State_LocalPlayerJoin.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_localplayerjoin.luac" memory="main" />
+    <lua name="ParticleManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/particlemanager.luac" memory="main" />
+    <lua name="TeleporterGadget.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/teleportergadget.luac" memory="main" />
+    <lua name="PulseExplosionGadget.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/pulseexplosiongadget.luac" memory="main" />
+    <lua name="InventoryChecker.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/settingsinventory/inventorychecker.luac" memory="main" />
+    <lua name="Mapper.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/mapper/mapper.luac" memory="main" />
+    <lua name="State_HowToPlay.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_howtoplay.luac" memory="main" />
+    <lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/coroutinemanager.luac" memory="main" />
+    <lua name="NetworkMessageManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/multiplayer/networkmessagemanager.luac" memory="main" />
+    <lua name="BeamerShot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playershots/beamershot.luac" memory="main" />
+    <lua name="LauncherShot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playershots/launchershot.luac" memory="main" />
+    <lua name="PlayerWeaponBeamer.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponbeamer.luac" memory="main" />
+    <lua name="PlayerWeaponLauncher.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponlauncher.luac" memory="main" />
+    <lua name="PlayerWeaponBlade.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponblade.luac" />
+    <lua name="PlayerWeaponBlaster.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponblaster.luac" memory="main" />
+    <lua name="BlasterShot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playershots/blastershot.luac" memory="main" />
+    <lua name="PlayerWeaponDevistator.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweapondevistator.luac" memory="main" />
+    <lua name="DevistatorShot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playershots/devistatorshot.luac" memory="main" />
+    <lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/batchresourceloader.luac" memory="main" />
+    <lua name="EventManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/eventmanager.luac" memory="main" />
+    <lua name="MapEffectManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/mapeffects/mapeffectmanager.luac" memory="main" />
+    <lua name="MinibotHeads.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/minibots/minibotheads.luac" />
+    <lua name="PlayerSettings.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/settingsinventory/playersettings.luac" memory="main" />
+    <lua name="GadgetManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/settingsinventory/gadgetmanager.luac" memory="main" />
+    <lua name="WeaponManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/settingsinventory/weaponmanager.luac" memory="main" />
+    <lua name="Pad.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/pad.luac" />
+    <lua name="SpawnManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/spawning/spawnmanager.luac" memory="main" />
+    <lua name="AchievementManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/achievements/achievementmanager.luac" />
+    <lua name="Achievements.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/achievements/achievements.luac" />
+    <lua name="Guardian.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/guardian.luac" />
+    <lua name="SniperShot.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playershots/snipershot.luac" />
+    <lua name="PlayerWeaponSniper.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponsniper.luac" />
+    <lua name="ArmoryManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/armory/armorymanager.luac" />
+    <lua name="PlayerEffectManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playereffects/playereffectmanager.luac" />
+    <lua name="State_MutliplayerGames.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_mutliplayergames.luac" />
+    <lua name="State_CreateGame.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_creategame.luac" />
+    <lua name="Observer.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/observer/observer.luac" />
+    <lua name="Pickups.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/pickups/pickups.luac" />
+    <lua name="JumpbotronManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/mapeffects/jumpbotronmanager.luac" />
+    <lua name="State_ScoreboardFromMainMenu.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_scoreboardfrommainmenu.luac" />
+    <lua name="State_ScoreboardFromMultiplayerGame.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_scoreboardfrommultiplayergame.luac" />
+    <lua name="MinibotSpawnPointCheck.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/mapper/minibotspawnpointcheck.luac" />
+    <lua name="HideRemotePeople.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/hideremotepeople.luac" />
+    <lua name="CakeGadget.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/cakegadget.luac" />
+    <lua name="PlayerWeaponAxe.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponaxe.luac" />
+    <lua name="RemoteMineGadget.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/remoteminegadget.luac" />
+    <lua name="Flying_Hover.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/vehicles/flying_hover.luac" />
+    <lua name="Telemetry.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/telemetry/telemetry.luac" />
+    <lua name="PlayerWeaponFlamer.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/playerweapons/playerweaponflamer.luac" />
+    <lua name="VehicleWeapon_Assaulter.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/vehicles/vehicleweapons/vehicleweapon_assaulter.luac" />
+    <lua name="VehicleShot_Assaulter.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/vehicles/vehicleshots/vehicleshot_assaulter.luac" />
+    <lua name="HoverBoardGadget.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/gadgets/hoverboardgadget.luac" />
+    <lua name="Constructor.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/levelbuilding/constructor.luac" />
+    <lua name="Level.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/levelbuilding/level.luac" />
+    <lua name="LevelComponents.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/levelbuilding/levelcomponents.luac" />
+    <lua name="LevelManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/levelbuilding/levelmanager.luac" />
+    <lua name="State_PickLevelToEdit.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/levelstates/state_pickleveltoedit.luac" />
+    <lua name="State_CustomizeLevel.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/levelstates/state_customizelevel.luac" />
+    <lua name="MessageManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/network/messagemanager.luac" />
+    <lua name="Server.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/network/server.luac" />
+    <lua name="GameplayMessageManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/network/gameplaymessagemanager.luac" />
+    <lua name="GameplayObjectManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/network/gameplayobjectmanager.luac" />
+    <lua name="State_Settings.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_settings.luac" />
+    <lua name="XPManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/achievements/xpmanager.luac" />
+    <lua name="TransObject.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/transobject.luac" />
+    <lua name="State_Customize.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_customize.luac" />
+    <lua name="State_LoadingGame.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_loadinggame.luac" />
+    <lua name="CoinsManager.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/achievements/coinsmanager.luac" />
+    <lua name="State_Outro.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/states/state_outro.luac" />
+    <lua name="MenuCamera.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/menucamera.luac" />
+    <lua name="ConfirmationPopup.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/utility/confirmationpopup.luac" />
+    <lua name="LevelAtmos.lua" deferred_loading="false" protected="true" file="realtimegames/minib_minibotarena/lua/levelbuilding/levelatmos.luac" />
+  </local>
+  <external />
+</resources>

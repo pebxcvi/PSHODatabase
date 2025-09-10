@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/spunland_picture_3/spunland_picture_3.mdl" />
+		<model name="pictoGrid" deferred_loading="false" protected="false" file="furniture/spunland_picture_3/gridModel_64.mdl" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/spunland_picture_3/spunland_picture_3.hkx" />
+		<lua name="spunland_picture_3" deferred_loading="false" protected="true" file="furniture/spunland_picture_3/lua/spunland_picture_3.lua" />
+		<lua name="tex_1" deferred_loading="false" protected="true" file="Spunland/SharedScripts/textureTables/tex8_1.lua" />
+		<lua name="tex_2" deferred_loading="false" protected="true" file="Spunland/SharedScripts/textureTables/tex8_2.lua" />
+		<lua name="cDecompressTable_Type_1" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cDecompressTable_Type_1.lua" />
+		<lua name="cTextureTable" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cTextureTable.lua" />
+		<lua name="cVectorBlend" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cVectorBlend.lua" />
+		<lua name="hexFunctions" deferred_loading="false" protected="true" file="Spunland/SharedScripts/hexFunctions.lua" />
+		<lua name="cPictoManager" deferred_loading="false" protected="true" file="Spunland/SharedScripts/spunPicto/cPictoManager.lua" />
+		<lua name="cEntityColourSet" deferred_loading="false" protected="true" file="Spunland/SharedScripts/cEntityColourSet.lua" />
+		<lua name="spiralArray8" deferred_loading="false" protected="true" file="Spunland/SharedScripts/spiralArray8.lua" />
+		<lua name="cEntityManager" deferred_loading="false" protected="true" file="Spunland/SharedScripts/spunPicto/cEntityManager.lua" />
+	</local>
+	<external />
+</resources>

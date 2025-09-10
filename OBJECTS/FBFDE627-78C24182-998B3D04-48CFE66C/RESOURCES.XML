@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="panel.dds" deferred_loading="false" protected="false" file="EmbeddedObjects/Tutorial/file/panel.dds" />
+		<particle name="location_pfx" deferred_loading="false" protected="false" file="ATGParticles/generic/efx/UI_EFFECT_0002.efx" />
+		<lua name="framework.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/Tutorial/lua/framework.lua" />
+		<lua name="log.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/Tutorial/lua/log.lua" />
+		<lua name="thread_manager.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/Tutorial/lua/thread_manager.lua" />
+		<lua name="utility.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/Tutorial/lua/utility.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/Tutorial/lua/main.lua" />
+		<lua name="debug_manager.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/Tutorial/lua/debug_manager.lua" />
+		<lua name="loadfiles.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/Tutorial/lua/loadfiles.lua" />
+	</local>
+	<external />
+</resources>

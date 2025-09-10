@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="legend_icon.dds" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/legend_icon.dds" />
+		<texture name="whiteout.dds" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/whiteout.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Bathtub_Left/file/Network.xml" />
+		<anim name="Female_BathtubPose_R.ani" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Bathtub/anims/Female_BathtubPose_R.ani" />
+		<anim name="Male_BathtubPose_R.ani" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Bathtub/anims/Male_BathtubPose_R.ani" />
+		<soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/camera.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Bathtub_Left/rep/male.xml" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Bathtub_Left/rep/female.xml" />
+		<lua name="LoungeCamera.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Bathtub/lua/LoungeCamera.luac" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Bathtub/lua/MiniGame.luac" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Bathtub/lua/Utility/Pad.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Bathtub/lua/Utility/Utility.luac" />
+	</local>
+	<external />
+</resources>
