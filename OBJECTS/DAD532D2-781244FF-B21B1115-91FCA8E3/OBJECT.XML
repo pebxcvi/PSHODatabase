@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.41.0.37.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">亜麻音　なりきりコスチューム（男性用）</name>
+		<description type="string">亜麻音さんともっと話したい。もっと見ていたい。もっと一緒にいたい…\n ならば、人知れずなりきってしまえばいい…そんな控えめな発想から生まれました。\n 清楚なイメージのフリルが可愛い制服です。引込み思案で、籠の中の鳥のような夢見るお嬢様気分を存分に堪能できる至高の一着です。\n [#Legal]</description>
+		<author type="string">tnakanishi</author>
+		<object_version type="string">1.03</object_version>
+		<company type="string">D3PUBLISHER Inc.</company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<clothing>
+		<name type="string">Male01_TorsoLegsFeet_amane</name>
+		<type type="string">TorsoLegsAndFeet</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Male01_TorsoLegsFeet_amane</name>
+				<lods type="bag">
+					<lod1 type="string">Male01_TorsoLegsFeet_amane_lod1.mdl</lod1>
+					<lod2 type="string">Male01_TorsoLegsFeet_amane_lod2.mdl</lod2>
+					<lod3 type="string">Male01_TorsoLegsFeet_amane_lod3.mdl</lod3>
+				</lods>
+				<skeleton type="string"></skeleton>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn3SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn3SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn3SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn3SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn9SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn9SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn9SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn9SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn10SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn10SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn10SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn10SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn14SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn14SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn14SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn14SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">skin</type>
+						<shadingGroup type="string">bodySG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">MaleSkinBodyColour</source>
+								<format type="string">generated</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.bodySG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">MaleSkinBodySpecular</source>
+								<format type="string">generated</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn11SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn11SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn11SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn11SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn12SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn12SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn12SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn12SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn2SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn2SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn2SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn2SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female01_TorsoLegsFeet_amaneunitATGbody:blinn13SG</shadingGroup>
+						<path type="string"></path>
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn13SG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn13SG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Male01_TorsoLegsFeet_amane.Female01_TorsoLegsFeet_amaneunitATGbody:blinn13SG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

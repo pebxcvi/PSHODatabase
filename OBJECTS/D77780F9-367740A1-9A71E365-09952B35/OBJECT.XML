@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">NAME</name>
+		<description type="string">desc</description>
+		<author type="string">mvan</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string" />
+		<legal type="list" />
+	</header>
+	<clothing>
+		<name type="string">Female01_Hat_CommMarch_QueensCrown</name>
+		<type type="string">Hat</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_Hat_CommMarch_QueensCrown</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_Hat_CommMarch_QueensCrown.lod1</lod1>
+					<lod2 type="string">Female01_Hat_CommMarch_QueensCrown.lod2</lod2>
+					<lod3 type="string">Female01_Hat_CommMarch_QueensCrown.lod3</lod3>
+				</lods>
+				<skeleton type="string">head</skeleton>
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">tempImport__ATGMaterial1SG3</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Hat_CommMarch_QueensCrown.tempImport__ATGMaterial1SG3.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Hat_CommMarch_QueensCrown.tempImport__ATGMaterial1SG3.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Hat_CommMarch_QueensCrown.tempImport__ATGMaterial1SG3.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+					<material type="bag">
+						<type type="string">hair</type>
+						<shadingGroup type="string">hairSG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Hat_CommMarch_QueensCrown.hairSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">alphaMap</name>
+								<source type="string">Female01_Hat_CommMarch_QueensCrown.hairSG.alphaMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Hat_CommMarch_QueensCrown.hairSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>

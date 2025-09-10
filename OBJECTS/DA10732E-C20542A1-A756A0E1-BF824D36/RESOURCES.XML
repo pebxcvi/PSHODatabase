@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Pillow_02.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/Pillow_02.mdl" />
+		<model name="PlayGrid01.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/PlayGrid01.mdl" />
+		<model name="shadow.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/shadow.mdl" />
+		<model name="PillowTrans.mdl" deferred_loading="false" protected="false">
+			<override file="minigames/axe_angels/models/pillowtrans_lynx.mdl" locale="en-GB" />
+			<override file="MiniGames/axe_angels/models/PillowTrans.mdl" />
+		</model>
+		<model name="Angel_01.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/axeangel/Angel_01.mdl" />
+		<model name="Angel_02.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/axeangel/Angel_02.mdl" />
+		<model name="Angel_03.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/axeangel/Angel_03.mdl" />
+		<model name="Feathers_Falling_working.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Feathers_Falling_working.mdl" />
+		<model name="tiles_02.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/tiles_02.mdl" />
+		<model name="shadow_tube.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/shadow_tube.mdl" />
+		<model name="outdoor_tile_large.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_large.mdl" />
+		<model name="outdoor_tile_long.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_long.mdl" />
+		<model name="outdoor_tile_small.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_small.mdl" />
+		<model name="Axe_Can.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/Axe_Can.mdl" />
+		<model name="pillow_female.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/pillow_female.mdl" />
+		<model name="Pillow_male.mdl" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/Pillow_male.mdl" />
+		<texture name="00.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/00.dds" />
+		<texture name="01.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/01.dds" />
+		<texture name="02.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/02.dds" />
+		<texture name="03.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/03.dds" />
+		<texture name="04.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/04.dds" />
+		<texture name="05.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/05.dds" />
+		<texture name="06.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/06.dds" />
+		<texture name="07.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/07.dds" />
+		<texture name="08.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/08.dds" />
+		<texture name="09.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/09.dds" />
+		<texture name="slash.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/character_set/slash.dds" />
+		<texture name="AngelHud.dds" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/UI/AngelHud.dds" />
+		<texture name="lynx_pillow_s" deferred_loading="false" protected="false" file="MiniGames/axe_angels/textures/lynx_pillow_s.dds" />
+		<texture name="lynx_pillow_c" deferred_loading="false" protected="false" file="MiniGames/axe_angels/textures/lynx_pillow_c.dds" />
+		<particle name="pink_puff.efx" deferred_loading="false" protected="false" file="MiniGames/axe_angels/effects/pink_puff.efx" />
+		<particle name="dust_effect01.efx" deferred_loading="false" protected="false" file="MiniGames/axe_angels/effects/dust_effect01.efx" />
+		<collision name="PlayGrid01.hkx" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/PlayGrid01.hkx" />
+		<collision name="Axe_Angel_Fountain.hkx" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/Axe_Angel_Fountain.hkx" />
+		<collision name="Angel_01.hkx" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/axeangel/Angel_01.hkx" />
+		<anim name="Angel_Fall01.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Angel_Fall01.ani" />
+		<anim name="Angel_Fall2Land.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Angel_Fall2Land.ani" />
+		<anim name="Angel_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Angel_Idle.ani" />
+		<anim name="Angel_walk.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Angel_walk.ani" />
+		<anim name="Feathers_Falling_working.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Feathers_Falling_working.ani" />
+		<anim name="Angel_Fly.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Angel_Fly.ani" />
+		<anim name="Angel_Converse.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Angel_Converse.ani" />
+		<anim name="Axe_Bodyspray" deferred_loading="false" protected="false" file="animation/male/axe_spray/Axe_Bodyspray.ani" />
+		<anim name="Male_Pillow_walk" deferred_loading="false" protected="false" file="animation/male/axe_pillow/Male_Pillow_walk.ani" />
+		<anim name="Male_Pillow_Idle" deferred_loading="false" protected="false" file="animation/male/axe_pillow/Male_Pillow_Idle.ani" />
+		<anim name="Male_Pillow_run" deferred_loading="false" protected="false" file="animation/male/axe_pillow/Male_Pillow_run.ani" />
+		<anim name="Female_Pillow_Walk_Cycle" deferred_loading="false" protected="false" file="animation/female/axe_pillow/Female_Pillow_Walk_Cycle.ani" />
+		<anim name="Axe_Spray" deferred_loading="false" protected="false" file="animation/female/axe_pillow/Axe_Spray.ani" />
+		<anim name="Female_Pillow_Idle" deferred_loading="false" protected="false" file="animation/female/axe_pillow/Female_Pillow_Idle.ani" />
+		<anim name="Female_Pillow_Run_Cycle" deferred_loading="false" protected="false" file="animation/female/axe_pillow/Female_Pillow_Run_Cycle.ani" />
+		<anim name="Angel_Fly_Loop.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Angel_Fly_Loop.ani" />
+		<anim name="Female_HoldPillow" deferred_loading="false" protected="false" file="animation/female/axe_pillow/Female_HoldPillow.ani" />
+		<anim name="Male_HoldPillow" deferred_loading="false" protected="false" file="animation/male/axe_pillow/Male_HoldPillow.ani" />
+		<anim name="outdoor_tile_large.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_large.ani" />
+		<anim name="outdoor_tile_long.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_long.ani" />
+		<anim name="outdoor_tile_small.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_small.ani" />
+		<anim name="tiles_02.ani" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/tiles_02.ani" />
+		<skeleton name="Angel_01.skn" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/axeangel/Angel_01.skn" />
+		<skeleton name="Feathers_Falling_working.skn" deferred_loading="false" protected="false" file="MiniGames/axe_angels/animations/Feathers_Falling_working.skn" />
+		<skeleton name="outdoor_tile_large.skn" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_large.skn" />
+		<skeleton name="outdoor_tile_long.skn" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_long.skn" />
+		<skeleton name="outdoor_tile_small.skn" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/outdoor_tile_small.skn" />
+		<skeleton name="tiles_02.skn" deferred_loading="false" protected="false" file="MiniGames/axe_angels/models/tiles_02.skn" />
+		<soundbank name="Axe.bnk" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/Axe.bnk" />
+		<soundstream name="Axe_Angel_Fountain.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/Axe_Angel_Fountain.mp3" />
+		<soundstream name="AXE_VO_01.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/AXE_VO_01.mp3" />
+		<soundstream name="AXE_VO_02.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/AXE_VO_02.mp3" />
+		<soundstream name="AXE_VO_03.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/AXE_VO_03.mp3" />
+		<soundstream name="AXE_VO_04.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/AXE_VO_04.mp3" />
+		<soundstream name="AXE_VO_05.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/AXE_VO_05.mp3" />
+		<soundstream name="AXE_VO_06.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/AXE_VO_06.mp3" />
+		<soundstream name="AXE_VO_07.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/AXE_VO_07.mp3" />
+		<soundstream name="Axe_BG_Music.mp3" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/audio/Axe_BG_Music.mp3" memory="main" />
+		<repertoire name="axe_male_repertoire" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/repertoires/axe_male_repertoire.xml" />
+		<repertoire name="axe_female_repertoire" deferred_loading="false" protected="false" file="MiniGames/Axe_Minigame/repertoires/axe_female_repertoire.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/MiniGame.lua" />
+		<lua name="PlayArea.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/PlayArea.lua" />
+		<lua name="Angels.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Angels.lua" />
+		<lua name="Pillows.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Pillows.lua" />
+		<lua name="aHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/aHelpers.lua" />
+		<lua name="SceneAngelManager.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/SceneAngelManager.lua" />
+		<lua name="SceneAngel.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel.lua" />
+		<lua name="SceneAngel_FallState.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel_FallState.lua" />
+		<lua name="SceneAngel_IdleState.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel_IdleState.lua" />
+		<lua name="SceneAngel_LandState.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel_LandState.lua" />
+		<lua name="SceneAngel_MoveState.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel_MoveState.lua" />
+		<lua name="SceneAngel_RestartState.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel_RestartState.lua" />
+		<lua name="SceneAngel_StandState.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel_StandState.lua" />
+		<lua name="Dispatcher.lua" deferred_loading="false" protected="true" file="MiniGames/Dispatcher.lua" />
+		<lua name="AngelState_Crouching.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/AngelState_Crouching.lua" />
+		<lua name="AngelState_Falling.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/AngelState_Falling.lua" />
+		<lua name="AngelState_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/AngelState_Idle.lua" />
+		<lua name="AngelState_Leaving.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/AngelState_Leaving.lua" />
+		<lua name="AngelState_Splash.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/AngelState_Splash.lua" />
+		<lua name="AngelState_Stand.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/AngelState_Stand.lua" />
+		<lua name="AngelState_Wait.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/AngelState_Wait.lua" />
+		<lua name="FeatherEffects.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/FeatherEffects.lua" />
+		<lua name="GroundEffects.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/GroundEffects.lua" />
+		<lua name="GameState_Intro.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/GameState_Intro.lua" />
+		<lua name="GameState_Outro.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/GameState_Outro.lua" />
+		<lua name="GameState_Play.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/GameState_Play.lua" />
+		<lua name="GameState_PrePlay.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/GameState_PrePlay.lua" />
+		<lua name="GameState_Instructions.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/GameState_Instructions.lua" />
+		<lua name="OSD_Board.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/OSD_Board.lua" />
+		<lua name="Hud.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Hud.lua" />
+		<lua name="GameState_Reward.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/GameState_Reward.lua" />
+		<lua name="Rewards.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Rewards.lua" />
+		<lua name="SceneAngel_TalkState.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/Scene_Angel/SceneAngel_TalkState.lua" />
+		<lua name="VMEventTrack.lua" deferred_loading="false" protected="true" file="MiniGames/Axe_Minigame/lua/VMEventTrack.lua" />
+	</local>
+	<external />
+</resources>

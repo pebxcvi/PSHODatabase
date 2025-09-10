@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="cannon_top.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/cannon_top.mdl" />
+		<model name="cannon_holder.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/cannon_holder.mdl" />
+		<model name="cannon_mid.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/cannon_mid.mdl" />
+		<model name="cannon_turret.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/cannon_turret.mdl" />
+		<model name="proj_50mmCannon.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/proj_50mmCannon.mdl" />
+		<model name="ship_small.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/ship_small.mdl" />
+		<model name="rocket.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/rocket.mdl" />
+		<model name="Powerup_MissileAmmo.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/Powerup_MissileAmmo.mdl" />
+		<model name="Powerup_BonusHealth.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/Powerup_BonusHealth.mdl" />
+		<model name="Powerup_MultipleTargeting.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/Powerup_MultipleTargeting.mdl" />
+		<model name="Powerup_Coolant.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/Powerup_Coolant.mdl" />
+		<model name="Powerup_Explosion.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/Powerup_Explosion.mdl" />
+		<model name="ship_meduim.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/ship_meduim.mdl" />
+		<model name="ship_large.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/ship_large.mdl" />
+		<model name="engine_no_damage.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/engine_no_damage.mdl" />
+		<model name="engine_damage_1.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/engine_damage_1.mdl" />
+		<model name="engine_damage_2.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/engine_damage_2.mdl" />
+		<model name="rocket_launcher_head1.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/rocket_launcher_head1.mdl" />
+		<model name="rocket_launcher_base1.mdl" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/rocket_launcher_base1.mdl" />
+		<texture name="Backdrop_Reflect_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Backdrop_Reflect_col.dds" />
+		<texture name="buttons_ps3_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/buttons_ps3_col.dds" />
+		<texture name="Topbar_Middle_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Topbar_Middle_col.dds" />
+		<texture name="Topbar_Endcap_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Topbar_Endcap_col.dds" />
+		<texture name="Reticule_new.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Reticule_new.dds" />
+		<texture name="Reticule_Locked_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Reticule_Locked_col.dds" />
+		<texture name="Reticule_Lockon_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Reticule_Lockon_col.dds" />
+		<texture name="Icon_Missile.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Icon_Missile.dds" />
+		<texture name="Blip_Circle_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Blip_Circle_col.dds" />
+		<texture name="hud_blip_heavy.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/hud_blip_heavy.dds" />
+		<texture name="hud_blip_light.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/hud_blip_light.dds" />
+		<texture name="hud_blip_medium.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/hud_blip_medium.dds" />
+		<texture name="hud_blip_missile.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/hud_blip_missile.dds" />
+		<texture name="Radr_BG_Col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Radr_BG_Col.dds" />
+		<texture name="incoming.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/incoming.dds" />
+		<texture name="Warhawk_col.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Warhawk_col.dds" />
+		<texture name="whawk_sky.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/models/whawk_sky.dds" />
+		<texture name="Powerup_Icon_BonusHealth.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Powerup_Icon_BonusHealth.dds" />
+		<texture name="Powerup_Icon_Coolant.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Powerup_Icon_Coolant.dds" />
+		<texture name="Powerup_Icon_Explosion.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Powerup_Icon_Explosion.dds" />
+		<texture name="Powerup_Icon_MissileAmmo.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Powerup_Icon_MissileAmmo.dds" />
+		<texture name="Powerup_Icon_MultipleTargeting.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/Powerup_Icon_MultipleTargeting.dds" />
+		<texture name="sticks0010.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/sticks0010.dds" />
+		<texture name="bigGlow.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/bigGlow.dds" />
+		<texture name="dust.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/dust.dds" />
+		<texture name="flareStar.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/flareStar.dds" />
+		<texture name="flow2.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/flow2.dds" />
+		<texture name="FuzzySmoke3.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/FuzzySmoke3.dds" />
+		<texture name="gasGlow_d.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/gasGlow_d.dds" />
+		<texture name="pointGlow.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/pointGlow.dds" />
+		<texture name="pointGlowRed.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/pointGlowRed.dds" />
+		<texture name="ringWave.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/ringWave.dds" />
+		<texture name="Smoke0.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/Smoke0.dds" />
+		<texture name="Smoke1.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/Smoke1.dds" />
+		<texture name="Smoke2_d.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/Smoke2_d.dds" />
+		<texture name="Smoke4.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/Smoke4.dds" />
+		<texture name="spark2_c.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/spark2_c.dds" />
+		<texture name="sparks01.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/Textures/sparks01.dds" />
+		<texture name="spotLight.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/spotLight.dds" />
+		<texture name="WH_HUD_arrows.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/WH_HUD_arrows.dds" />
+		<texture name="tone_separator.dds" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/textures/HUD/tone_separator.dds" />
+		<particle name="explosion.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/explosion.efx" />
+		<particle name="barrelFlash.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/barrelFlash.efx" />
+		<particle name="clouds.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/clouds.efx" />
+		<particle name="contrail.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/contrail.efx" />
+		<particle name="engineSmokeFlame.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/engineSmokeFlame.efx" />
+		<particle name="engineSmoke.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/engineSmoke.efx" />
+		<particle name="missileSmoke.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/missileSmoke.efx" />
+		<particle name="small_hitFlash.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/small_hitFlash.efx" />
+		<particle name="missileIntercept.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/missileIntercept.efx" />
+		<particle name="sparks.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/sparks.efx" />
+		<particle name="largeMissileExplode.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/largeMissileExplode.efx" />
+		<particle name="missileExplode.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/missileExplode.efx" />
+		<particle name="explosion_flash.efx" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/explosion_flash.efx" />
+		<file name="BarrelFlash.effect" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/effects/BarrelFlash.effect" />
+		<file name="osd_types" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/OSD/types.xml" />
+		<file name="osd_exitD" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/OSD/exitDialog.xml" />
+		<soundbank name="Warhawk.bnk" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/sounds/Warhawk.bnk" />
+		<soundstream name="bgMusic" deferred_loading="false" file="MiniGames/Warhawk/WarhawkShooter/sounds/The_Warhawk.mp3" />
+		<lua name="turret_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/turret_Defs.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/main.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/Controller.lua" />
+		<lua name="game.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/game.lua" />
+		<lua name="levelHud.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/levelHud.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/HUDLib/HUDLib.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/HUDLib/HUD.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/HUDLib/HUDObject.lua" />
+		<lua name="network.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/network.lua" />
+		<lua name="aircraft.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/aircraft.lua" />
+		<lua name="SausageSim.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/SausageSim.lua" />
+		<lua name="Sausage.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Sausage.lua" />
+		<lua name="assortedFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/assortedFunctions.lua" />
+		<lua name="turret.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/turret.lua" />
+		<lua name="Dampener2.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/Dampener2.lua" />
+		<lua name="CameraShaker.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/CameraShaker.lua" />
+		<lua name="EntityDB.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/EntityDB.lua" />
+		<lua name="gameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/gameHud.lua" />
+		<lua name="HUDRadar.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/HUDLib/HUDRadar.lua" />
+		<lua name="Colour.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/Colour.lua" />
+		<lua name="HUDBarSegments.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/HUDLib/HUDBarSegments.lua" />
+		<lua name="Bit.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/Bit.lua" />
+		<lua name="HUDBar.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Lua_fn_libs/HUDLib/HUDBar.lua" />
+		<lua name="skyDome.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/skyDome.lua" />
+		<lua name="gun_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/gun_Defs.lua" />
+		<lua name="gun.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/gun.lua" />
+		<lua name="projectile_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/projectile_Defs.lua" />
+		<lua name="projectile.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/projectile.lua" />
+		<lua name="level.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/level.lua" />
+		<lua name="level_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/level_Defs.lua" />
+		<lua name="wave_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/wave_Defs.lua" />
+		<lua name="wave.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/wave.lua" />
+		<lua name="enemy_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/enemy_Defs.lua" />
+		<lua name="enemy.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/enemy.lua" />
+		<lua name="engine_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/engine_Defs.lua" />
+		<lua name="engine.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/engine.lua" />
+		<lua name="sausageSimCallbacks.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/sausageSimCallbacks.lua" />
+		<lua name="WarhawkShooter_Fx.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/WarhawkShooter_Fx.lua" />
+		<lua name="Vector.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Vector.lua" />
+		<lua name="Matrix.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Matrix.lua" />
+		<lua name="statsGatherer.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/statsGatherer.lua" />
+		<lua name="powerUps_Defs.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/powerUps_Defs.lua" />
+		<lua name="powerUps.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/powerUps.lua" />
+		<lua name="powerUpCallbacks.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/powerUpCallbacks.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/OHS.lua" />
+		<lua name="encrypt.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/encrypt.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Jamin.lua" />
+		<lua name="Warhawk_DynFx_settings.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Warhawk_DynFx_settings.lua" />
+		<lua name="DynFx.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/DynFx.lua" />
+		<lua name="perlin.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/perlin.lua" />
+		<lua name="ScoreManager.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/ScoreManager.lua" />
+		<lua name="Account.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Account.lua" />
+		<lua name="Leaderboard.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Leaderboard.lua" />
+		<lua name="TableF.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/TableF.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/Log.lua" />
+		<lua name="door.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/door.lua" />
+		<lua name="sceneExit.lua" deferred_loading="false" protected="true" file="MiniGames/Warhawk/WarhawkShooter/sceneExit.lua" />
+	</local>
+	<external />
+</resources>

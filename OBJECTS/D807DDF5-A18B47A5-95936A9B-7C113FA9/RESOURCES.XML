@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive.mdl" memory="host" />
+		<model name="active.model" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive_HoloAnim.mdl" memory="host" />
+		<model name="VDAY13_Romantisizer_RIG.mdl" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_Romantisizer_RIG.mdl" memory="host" />
+		<model name="VDAY13_RomantisizerActive_HoloAnim.mdl" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive_HoloAnim.mdl" memory="host" />
+		<particle name="Hearts.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/VDAY13/Hearts.efx" memory="host" />
+		<particle name="HeartBeam.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/VDAY13/HeartBeam.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive.hkx" memory="host" />
+		<collision name="Player_Collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/Seven_Winds_Flying/Player_Collider.hkx" memory="host" />
+		<anim name="active.ani.idle" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive_HoloAnim.ani" memory="host" />
+		<anim name="SnowBall_Machine_Female_FireSnowball.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Female_FireSnowball.ani" memory="host" />
+		<anim name="SnowBall_Machine_Female_Idle01.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Female_Idle01.ani" memory="host" />
+		<anim name="SnowBall_Machine_Female_Run.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Female_Run.ani" memory="host" />
+		<anim name="SnowBall_Machine_Female_Walk.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Female_Walk.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_BackpackFireSnowball.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_BackpackFireSnowball.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_BackpackIdle01.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_BackpackIdle01.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_BackpackRun.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_BackpackRun.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_BackpackWalk.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_BackpackWalk.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_FireSnowball.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_FireSnowball.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_Idle01.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_Idle01.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_Run.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_Run.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_Walk.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/Animations/SnowBall_Machine_Male_Walk.ani" memory="host" />
+		<anim name="SnowBall_Machine_Female_FireSnowball_UB.ani" deferred_loading="false" protected="false" file="Locomotion/wint12_snowballmachine/SnowBall_Machine_Female_FireSnowball_UB.ani" memory="host" />
+		<anim name="SnowBall_Machine_Male_FireSnowball_UB.ani" deferred_loading="false" protected="false" file="Locomotion/wint12_snowballmachine/SnowBall_Machine_Male_FireSnowball_UB.ani" memory="host" />
+		<anim name="VDAY13_RomantisizerActive_HoloAnim.ani" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive_HoloAnim.ani" memory="host" />
+		<skeleton name="active.skeleton" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive_HoloAnim.skn" memory="host" />
+		<skeleton name="SnowBall_Machine_RIG.skn" deferred_loading="false" protected="false" file="Locomotion/wint12_snowballmachine/SnowBall_Machine_RIG.skn" memory="host" />
+		<skeleton name="VDAY13_RomantisizerActive_HoloAnim.skn" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/VDAY13_RomantisizerActive_HoloAnim.skn" memory="host" />
+		<soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/camera.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/reps/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="furniture/vday13_romantisizeractive/reps/female.xml" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="furniture/vday13_romantisizeractive/lua/MiniGame.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/vday13_romantisizeractive/lua/Pad.luac" memory="host" />
+		<lua name="PlayerController.lua" deferred_loading="false" protected="true" file="furniture/vday13_romantisizeractive/lua/PlayerController.luac" memory="host" />
+		<lua name="RemotePlayer.lua" deferred_loading="false" protected="true" file="furniture/vday13_romantisizeractive/lua/RemotePlayer.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="furniture/vday13_romantisizeractive/lua/State_Idle.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="furniture/vday13_romantisizeractive/lua/StateMachine.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/vday13_romantisizeractive/lua/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.60.0.450.BETA" version="1.0">
+  <version>1.0</version>
+  <uuid>D8278FCD-5CFC43D7-BACED7EA-68D72CC3</uuid>
+  <name lang="fr-FR" default="false">Coffre de marchandises de Mercia</name>
+  <name lang="de-DE" default="false">Mercia-Warentruhe</name>
+  <name lang="it-IT" default="false">Baule Mercian</name>
+  <name lang="es-ES" default="false">Cofre de artículos de Mercia</name>
+  <name lang="ja-JP" default="false">*Not Localised*</name>
+  <name lang="ko-KR" default="false">*Not Localised*</name>
+  <name lang="en-SG" default="false">*Not Localised*</name>
+  <name lang="zh-HK" default="false">*Not Localised*</name>
+  <name lang="zh-TW" default="false">*Not Localised*</name>
+  <name lang="en-US" default="true">Mercian Goods Chest</name>
+  <description lang="fr-FR" default="false">Coffre mercian décoratif, utilisé pour transporter des marchandises d'un territoire à un autre. [#Legal]</description>
+  <description lang="de-DE" default="false">Eine dekorative Mercia-Truhe, in der Waren durch die Länder transportiert werden. [#Legal]</description>
+  <description lang="it-IT" default="false">Un baule Mercian ornamentale usato per trasportare oggetti tra le varie terre. [#Legal]</description>
+  <description lang="es-ES" default="false">Un cofre decorativo de Mercia utilizado para transportar artículos. [#Legal]</description>
+  <description lang="ja-JP" default="false">*Not Localised* [#Legal]</description>
+  <description lang="ko-KR" default="false">*Not Localised* [#Legal]</description>
+  <description lang="en-SG" default="false">*Not Localised* [#Legal]</description>
+  <description lang="zh-HK" default="false">*Not Localised* [#Legal]</description>
+  <description lang="zh-TW" default="false">*Not Localised* [#Legal]</description>
+  <description lang="en-US" default="true">A decorative Mercian Chest, used to transport goods between lands. [#Legal]</description>
+  <maker lang="en-US" default="true">Lockwood</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T034.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T034.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T034.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating country="US" minimum_age="13" parental_control_level="0" />
+    <age_rating country="CA" minimum_age="16" parental_control_level="5" />
+    <age_rating country="CA" minimum_age="13" parental_control_level="0" />
+  </legal>
+  <heat>
+    <main>1</main>
+    <host>1</host>
+    <vram>1</vram>
+    <ppu>1</ppu>
+    <net>1</net>
+  </heat>
+  <timestamp>FA465513</timestamp>
+</odc>

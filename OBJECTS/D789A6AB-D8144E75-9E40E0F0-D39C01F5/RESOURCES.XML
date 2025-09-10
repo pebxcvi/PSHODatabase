@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="keypad.mdl" deferred_loading="true" protected="false" file="game/keypad/keypad.mdl" />
+		<model name="keypadv2.mdl" deferred_loading="true" protected="false" file="game/keypad/keypadv2.mdl" />
+		<file name="KeyPadEvents.xml" deferred_loading="false" protected="false" file="XMLS/KeypadEvents/KeyPadEvents.xml" />
+		<soundbank name="keypad_sfx.bnk" deferred_loading="false" protected="false" file="Scripts/SceneScript/Sound/keypad_sfx.bnk" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/KeyPad/lua/MiniGame.luac" />
+		<lua name="XiMgr_Comms.lua" deferred_loading="false" protected="true" file="Scripts/Common/Object_Comms/XiMgr_Comms.luac" />
+	</local>
+	<external />
+</resources>

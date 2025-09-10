@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BlackJackStool.mdl" deferred_loading="false" protected="false" file="furniture/blackjackstool/BlackJackStool.mdl" memory="main" />
+		<model name="5Chip-Tall.mdl" deferred_loading="false" protected="false" file="furniture/playchips/maya/5Chip-Tall.mdl" memory="main" />
+		<model name="25Chip-Tall.mdl" deferred_loading="false" protected="false" file="furniture/playchips/maya/25Chip-Tall.mdl" memory="main" />
+		<model name="50Chip-Tall.mdl" deferred_loading="false" protected="false" file="furniture/playchips/maya/50Chip-Tall.mdl" memory="main" />
+		<model name="100Chip-Tall.mdl" deferred_loading="false" protected="false" file="furniture/playchips/maya/100Chip-Tall.mdl" memory="main" />
+		<model name="500Chip-Tall.mdl" deferred_loading="false" protected="false" file="furniture/playchips/maya/500Chip-Tall.mdl" memory="main" />
+		<model name="10Chip-Tall.mdl" deferred_loading="false" protected="false" file="furniture/playchips/maya/10Chip-Tall.mdl" memory="main" />
+		<model name="RouletteOuter2.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuter2.mdl" memory="main" />
+		<model name="RouletteInner2.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteInner2.mdl" memory="main" />
+		<model name="RouletteTick2.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteTick2.mdl" memory="main" />
+		<model name="RouletteBase3.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteBase3.mdl" memory="main" />
+		<model name="RouletteTick3.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteTick3.mdl" memory="main" />
+		<model name="RouletteMesh_Inner.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteMesh_Inner.mdl" memory="main" />
+		<model name="RouletteMesh_outer.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteMesh_outer.mdl" memory="main" />
+		<model name="RouletteOuterWall.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuterWall.mdl" memory="main" />
+		<model name="RouletteOuterTick_Hort_2.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuterTick_Hort_2.mdl" memory="main" />
+		<model name="RouletteBallWhite.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteBallWhite.mdl" memory="main" />
+		<model name="RouletteOuterTick_Vert_2.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuterTick_Vert_2.mdl" memory="main" />
+		<model name="RouletteReflector.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteReflector.mdl" memory="main" />
+		<model name="HighlightBlock_2.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/HighlightBlock_2.mdl" memory="main" />
+		<model name="HighlightBlock_1.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/HighlightBlock_1.mdl" memory="main" />
+		<model name="Roulette_Marker.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/Roulette_Marker.mdl" memory="main" />
+		<model name="RouletteCenterSpinner.mdl" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteCenterSpinner.mdl" memory="main" />
+		<model name="Casino_RouletteActive.mdl" deferred_loading="false" protected="false" file="furniture/casino_rouletteactive/Casino_RouletteActive.mdl" />
+		<texture name="bettingBox" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/BetBox.dds" memory="main" />
+		<texture name="0Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/0.dds" memory="main" />
+		<texture name="1Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/1.dds" memory="main" />
+		<texture name="2Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/2.dds" memory="main" />
+		<texture name="3Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/3.dds" memory="main" />
+		<texture name="4Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/4.dds" memory="main" />
+		<texture name="5Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/5.dds" memory="main" />
+		<texture name="6Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/6.dds" memory="main" />
+		<texture name="7Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/7.dds" memory="main" />
+		<texture name="8Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/8.dds" memory="main" />
+		<texture name="9Dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/9.dds" memory="main" />
+		<texture name="Circle_Button" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/Circle_Button.dds" memory="main" />
+		<texture name="DownPressed" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/DownPressed.dds" memory="main" />
+		<texture name="NumberHighlight" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/NumberHighlight.dds" memory="main" />
+		<texture name="UpPressed" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/UpPressed.dds" memory="main" />
+		<texture name="X_Button" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/BettingBox/X_Button.dds" memory="main" />
+		<texture name="paneMessage.dds" deferred_loading="false" protected="false" file="MiniGames/Poker/Textures/paneMessage.dds" memory="main" />
+		<texture name="panePot.dds" deferred_loading="false" protected="false" file="MiniGames/Poker/Textures/panePot.dds" memory="main" />
+		<texture name="cPad_None.dds" deferred_loading="false" protected="false" file="MiniGames/Poker/Textures/ControlPad/cPad_None.dds" memory="main" />
+		<texture name="displaySquare.dds" deferred_loading="false" protected="false" file="MiniGames/LiarsDice/textures/displaySquare.dds" memory="main" />
+		<texture name="Instructions.dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/paneInstruct.dds" memory="main" />
+		<texture name="Shop_Icon_Small.dds" deferred_loading="false" protected="false" file="MiniGames/BlackJack/Textures/Shop_Icon_Small.dds" memory="main" />
+		<texture name="R2_Button.dds" deferred_loading="false" protected="false" file="MiniGames/Big_Six_Wheel/R2_Button.dds" memory="main" />
+		<texture name="Display_Temp.dds" deferred_loading="false" protected="false" file="furniture/roulettewheel/photoshop/Display_Temp.dds" memory="main" />
+		<texture name="L1_Button.dds" deferred_loading="false" protected="false" file="MiniGames/Roulette/L1_Button.dds" memory="main" />
+		<texture name="R3_Button.dds" deferred_loading="false" protected="false" file="MiniGames/Roulette/R3_Button.dds" memory="main" />
+		<texture name="L2_Button.dds" deferred_loading="false" protected="false" file="MiniGames/Roulette/L2_Button.dds" memory="main" />
+		<texture name="Prompt_Red.dds" deferred_loading="false" protected="false" file="furniture/roulettewheel/photoshop/Prompt_Red.dds" memory="main" />
+		<texture name="Prompt_Black.dds" deferred_loading="false" protected="false" file="furniture/roulettewheel/photoshop/Prompt_Black.dds" memory="main" />
+		<texture name="Prompt_Green.dds" deferred_loading="false" protected="false" file="furniture/roulettewheel/photoshop/Prompt_Green.dds" memory="main" />
+		<texture name="Arrow_Right" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/buttonPageRight.dds" memory="main" />
+		<texture name="Arrow_Left" deferred_loading="false" protected="false" file="MiniGames/InfoTerminal/Textures/buttonPageLeft.dds" memory="main" />
+		<texture name="paneHoldings.dds" deferred_loading="false" protected="false" file="MiniGames/Libs/Textures/paneHoldings.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Roulette/file/Network.xml" memory="main" />
+		<file name="passphrase" deferred_loading="false" protected="true" file="MiniGames/Libs/passphrase" memory="main" />
+		<collision name="RouletteOuter2.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuter2.hkx" memory="main" />
+		<collision name="RouletteInner2.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteInner2.hkx" memory="main" />
+		<collision name="RouletteTick2.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteTick2.hkx" memory="main" />
+		<collision name="RouletteTick3.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteTick3.hkx" memory="main" />
+		<collision name="RouletteOuterWall.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuterWall.hkx" memory="main" />
+		<collision name="RouletteBallWhite.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteBallWhite.hkx" memory="main" />
+		<collision name="RouletteOuterTick_Hort_2.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuterTick_Hort_2.hkx" memory="main" />
+		<collision name="RouletteOuterTick_Vert_2.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteOuterTick_Vert_2.hkx" memory="main" />
+		<collision name="RouletteReflector.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteReflector.hkx" memory="main" />
+		<collision name="RouletteTableTop.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/Roulette_TableTop.hkx" memory="main" />
+		<collision name="RouletteCenterSpinner.hkx" deferred_loading="false" protected="false" file="furniture/roulettewheel/RouletteCenterSpinner.hkx" memory="main" />
+		<collision name="Casino_RouletteActive.hkx" deferred_loading="false" protected="false" file="furniture/casino_rouletteactive/Casino_RouletteActive.hkx" />
+		<anim name="Poker_Female_Bet" deferred_loading="false" protected="false" file="animation/female/poker_female/Poker_Female_Bet.ani" memory="main" />
+		<anim name="Poker_Male_Bet" deferred_loading="false" protected="false" file="animation/male/poker_male_bet/Poker_Male_Bet.ani" memory="main" />
+		<anim name="Roulette_Bet_Low" deferred_loading="false" protected="false" file="animation/male/roulette_bet_mid/Roulette_Bet_Low.ani" memory="main" />
+		<anim name="Roulette_Bet_Mid" deferred_loading="false" protected="false" file="animation/male/roulette_bet_mid/Roulette_Bet_Mid.ani" memory="main" />
+		<anim name="Roulette_Bet_High" deferred_loading="false" protected="false" file="animation/male/roulette_bet_mid/Roulette_Bet_High.ani" memory="main" />
+		<anim name="FRoulette_Bet_Low" deferred_loading="false" protected="false" file="animation/female/roulette_bet_mid/FRoulette_Bet_Low.ani" memory="main" />
+		<anim name="FRoulette_Bet_Mid" deferred_loading="false" protected="false" file="animation/female/roulette_bet_mid/FRoulette_Bet_Mid.ani" memory="main" />
+		<anim name="FRoulette_Bet_High" deferred_loading="false" protected="false" file="animation/female/roulette_bet_mid/FRoulette_Bet_High.ani" memory="main" />
+		<soundbank name="RouletteSound" deferred_loading="false" protected="false" file="MiniGames/Roulette/Sounds/roulette.bnk" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="objects/06BFEC61-EE5F49C4-B7380D75-9524894A/FemaleRepertoire.xml" memory="main" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="objects/06BFEC61-EE5F49C4-B7380D75-9524894A/MaleRepertoire.xml" memory="main" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="objects/06BFEC61-EE5F49C4-B7380D75-9524894A/MaleEmotes.xml" memory="main" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="objects/06BFEC61-EE5F49C4-B7380D75-9524894A/FemaleEmotes.xml" memory="main" />
+		<lua name="Player" deferred_loading="false" protected="true" file="MiniGames/BlackJack/Player_.lua" memory="main" />
+		<lua name="GuiElement" deferred_loading="false" protected="true" file="MiniGames/BlackJack/GuiElement_.lua" memory="main" />
+		<lua name="Gui" deferred_loading="false" protected="true" file="MiniGames/BlackJack/gui_.lua" memory="main" />
+		<lua name="Chip" deferred_loading="false" protected="true" file="MiniGames/BlackJack/Chips_.lua" memory="main" />
+		<lua name="PlayerList" deferred_loading="false" protected="true" file="MiniGames/BlackJack/playerList_.lua" memory="main" />
+		<lua name="StateManager" deferred_loading="false" protected="true" file="MiniGames/BlackJack/StateManager_.lua" memory="main" />
+		<lua name="ChipPools" deferred_loading="false" protected="true" file="MiniGames/BlackJack/ChipPools_.lua" memory="main" />
+		<lua name="ChipAnims" deferred_loading="false" protected="true" file="MiniGames/BlackJack/ChipAnims_.lua" memory="main" />
+		<lua name="BetRoller" deferred_loading="false" protected="true" file="MiniGames/Libs/BetRoller_.lua" memory="main" />
+		<lua name="NetworkManager" deferred_loading="false" protected="true" file="MiniGames/Keno/lua/NetworkManager_.lua" memory="main" />
+		<lua name="SoundPlayer" deferred_loading="false" protected="true" file="MiniGames/BlackJack/SoundPlayer_.lua" memory="main" />
+		<lua name="Hand" deferred_loading="false" protected="true" file="MiniGames/BlackJack/Hand_.lua" memory="main" />
+		<lua name="PersonalRouletteBaked" deferred_loading="false" protected="true" file="MiniGames/PersonalRouletteBaked/lua/PersonalRouletteBaked_.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="chicken_idle.mdl" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Chicken/chicken_idle.mdl" />
+		<model name="Lantern.mdl" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Lantern/Lantern.mdl" />
+		<model name="Rope.mdl" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Rope/Rope.mdl" />
+		<model name="Hidden_Icon.mdl" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/buybag/Hidden_Icon.mdl" />
+		<model name="Dragon_B.mdl" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/dragon/Dragon_B.mdl" />
+		<texture name="dragon_skin1" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/DragonTextures/dragon_black_d.dds" />
+		<texture name="dragon_skin2" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/DragonTextures/dragon_red_d.dds" />
+		<texture name="dragon_skin3" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/DragonTextures/dragon_blue_d.dds" />
+		<texture name="dragon_skin4" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/DragonTextures/dragon_green_d.dds" />
+		<texture name="lightmap_d.dds" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Lantern/lightmap_d.dds" />
+		<texture name="WoodBG.dds" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/HUDTextures/WoodBG.dds" />
+		<particle name="Feathers.efx" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Effects/Feathers.efx" />
+		<particle name="campfire.efx" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Effects/campfire.efx" />
+		<collision name="chicken_idle.hkx" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Chicken/chicken_idle.hkx" />
+		<collision name="Lantern.hkx" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Lantern/Lantern.hkx" />
+		<collision name="Rope.hkx" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Rope/Rope.hkx" />
+		<anim name="chicken_idle.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Chicken/chicken_idle.ani" />
+		<anim name="chicken_move.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Chicken/chicken_move.ani" />
+		<anim name="chicken_peck.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Chicken/chicken_peck.ani" />
+		<anim name="Hidden_Icon.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/buybag/Hidden_Icon.ani" />
+		<anim name="Dragon_Dive.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/dragon/Dragon_Dive.ani" />
+		<anim name="Dragon_Fly.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/dragon/Dragon_Fly.ani" />
+		<anim name="Dragon_Idle1.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/dragon/Dragon_Idle.ani" />
+		<anim name="Dragon_Idle2.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/dragon/Dragon_Idle_2.ani" />
+		<anim name="Dragon_Idle3.ani" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/dragon/Dragon_Fire.ani" />
+		<skeleton name="chicken_idle.skn" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/Chicken/chicken_idle.skn" />
+		<skeleton name="Hidden_Icon.skn" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/buybag/Hidden_Icon.skn" />
+		<skeleton name="Dragon_B.skn" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Models/dragon/Dragon_B.skn" />
+		<soundbank name="GameSounds.bnk" deferred_loading="false" protected="false" file="MiniGames/Mountain_Top/Game/Sounds/GameSounds.bnk" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Camera.lua" />
+		<lua name="Controller.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Controller.lua" />
+		<lua name="GameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/GameHud.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Jamin.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Main.lua" />
+		<lua name="Math.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Math.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Misc.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/OHS.lua" />
+		<lua name="Playmetrix.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Playmetrix.lua" />
+		<lua name="RockClimb.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/RockClimb.lua" />
+		<lua name="Tween.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Tween.lua" />
+		<lua name="HUD.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUD.lua" />
+		<lua name="HUDLib.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUDLib.lua" />
+		<lua name="HUDListBox.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUDListBox.lua" />
+		<lua name="HUDObject.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUDObject.lua" />
+		<lua name="HUDRectangle.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUDRectangle.lua" />
+		<lua name="HUDSprite.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUDSprite.lua" />
+		<lua name="HUDText.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUDText.lua" />
+		<lua name="HUDTextPanel.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/HUDLib/HUDTextPanel.lua" />
+		<lua name="Spline.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Spline.lua" />
+		<lua name="Rewarder.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Rewarder.lua" />
+		<lua name="Chicken.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Chicken.lua" />
+		<lua name="Dragons.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Dragons.lua" />
+		<lua name="Candle.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/Candle.lua" />
+		<lua name="DayNight.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/DayNight.lua" />
+		<lua name="AtmosFettler.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/AtmosFettler.lua" />
+		<lua name="AtmosSetup.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/AtmosSetup.lua" />
+		<lua name="NetLib.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/NetLib.lua" />
+		<lua name="ApartmentRewards.lua" deferred_loading="false" protected="true" file="MiniGames/Mountain_Top/Game/Code/ApartmentRewards.lua" />
+		<texture name="star_large.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/texture/star_large.dds" />
+		<texture name="coin_large.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/texture/coin_large.dds" />
+		<texture name="lion_large.dds" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/texture/lion_large.dds" />
+		<soundbank name="LockwoodLife.bnk" deferred_loading="false" protected="false" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/sound/LockwoodLife.bnk" />
+		<lua name="LockwoodLife.lua" deferred_loading="false" protected="true" file="MiniGames/Lockwood/Active_Objects_2012/Redeeminator/lua/LockwoodLife.lua" />
+	</local>
+	<external />
+</resources>

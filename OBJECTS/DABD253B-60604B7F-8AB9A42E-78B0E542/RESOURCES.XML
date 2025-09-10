@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="sf_title_01.dds" deferred_loading="true" protected="false">
+			<override file="lg_world_sanfrancisco2/cmn_design/2D/title/sf_title_01_fr.dds" locale="fr-*" />
+			<override file="lg_world_sanfrancisco2/cmn_design/2D/title/sf_title_01_it.dds" locale="it-*" />
+			<override file="lg_world_sanfrancisco2/cmn_design/2D/title/sf_title_01_es.dds" locale="es-*" />
+			<override file="lg_world_sanfrancisco2/cmn_design/2D/title/sf_title_01_de.dds" locale="de-*" />
+			<override file="lg_world_sanfrancisco2/cmn_design/2D/title/sf_title_01_us.dds" />
+		</texture>
+		<model name="cablecar_01.mdl" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/model/cablecar_01.mdl" />
+		
+		<soundstream name="bgm01.mp3" deferred_loading="false" protected="false" file="LG_world_sanfrancisco2\sound\MP3\SFbgm_intro.mp3" />
+		<soundbank name="CableCar.bnk" deferred_loading="false" protected="false" file="LG_world_sanfrancisco2/sound/CableCar.bnk" />
+		
+		<repertoire name="RepertoireMale" deferred_loading="false" protected="false" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/file/RepertoireMale.xml" />
+		<repertoire name="RepertoireFemale" deferred_loading="false" protected="false" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/file/RepertoireFemale.xml" />
+		
+		
+		<anim name="anm_M_cablecar_01.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_M_cablecar_01.ani" />
+		<anim name="anm_M_cablecar_02.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_M_cablecar_02.ani" />
+		<anim name="anm_M_cablecar_03.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_M_cablecar_03.ani" />
+		<anim name="anm_M_cablecar_04.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_M_cablecar_04.ani" />
+		
+		<anim name="anm_F_cablecar_01.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_F_cablecar_01.ani" />
+		<anim name="anm_F_cablecar_02.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_F_cablecar_02.ani" />
+		<anim name="anm_F_cablecar_03.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_F_cablecar_03.ani" />
+		<anim name="anm_F_cablecar_04.ani" deferred_loading="false" protected="false" file="lg_world_sanfrancisco2/cmn_design/cablecar/motion/anm_F_cablecar_04.ani" />
+		
+		
+		<lua name="TrainCmn.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Train/TrainCmn.lua" />
+		<lua name="Train.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Train/Train.lua" />
+		
+		
+		<lua name="DebugMenu.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/DebugMenu.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Game.lua" />
+		<lua name="GameCamera.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/GameCamera.lua" />
+		
+		<lua name="MgData.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Data/MgData.lua" />
+		<lua name="EventData.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Data/EventData.lua" />
+		<lua name="SeatData.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Data/SeatData.lua" />
+		<lua name="RailData.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Data/RailData.lua" />
+		<lua name="GameData.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Data/GameData.lua" />
+		<lua name="DebugMenuData.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Data/DebugMenuData.lua" />
+		
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/MgMain.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/MiniGame.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Network.lua" />
+		<lua name="PhaseCmn.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/PhaseCmn.lua" />
+		<lua name="Rail.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/Rail.lua" />
+		<lua name="CableCarIF.lua" deferred_loading="false" protected="true" file="LG_world_sanfrancisco2/soft_jp_00/CableCar/lua/CableCarIF.lua" />
+		
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/lua/PhaseCtrl.lua" />
+		<lua name="TaskCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/temputil/TaskCtrl.lua" />
+		<lua name="PadIo.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/lua/PadIo.lua" />
+		
+		<lua name="UtilDebug.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilDebug.lua" />
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/lua/UtilGarbage.lua" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/lua/UtilDeferredLoad.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="UtilParam.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/tempUtil/UtilParam.lua" />
+		<lua name="UtilFunc.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFunc.lua" />
+		<lua name="UtilFade.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/lua/UtilFade.lua" />
+		<lua name="UtilTime.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/tempUtil/UtilTime.lua" />
+		<lua name="UtilSprite.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/tempUtil/UtilSprite.lua" />
+		<lua name="UtilCamera.lua" deferred_loading="false" protected="true" file="home_gzcmn/Lib/tempUtil/UtilCamera.lua" />
+		<lua name="Snd.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Snd.lua" />
+		
+	</local>
+	<external />
+</resources>

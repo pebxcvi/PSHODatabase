@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.41.0.37.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>DB3088E4-7BD14979-8639CE12-350AF649</uuid>
+  <name lang="en-GB" default="true">Def Jam Rapstar Studio</name>
+  <name lang="fr-FR" default="false">Studio Def Jam Rapstar</name>
+  <name lang="de-DE" default="false">Def Jam-Rapstar-Studio</name>
+  <name lang="it-IT" default="false">Studio Def Jam Rapstar</name>
+  <name lang="es-ES" default="false">Estudio Def Jam Rapsar</name>
+  <description lang="en-GB" default="true">State of the art in-home recording and mixing studio. [#Legal]</description>
+  <description lang="fr-FR" default="false">Home studio d'enregistrement et de mixage à la pointe de la technologie. [#Legal]</description>
+  <description lang="de-DE" default="false">Modernstes Aufnahme- und Mischstudio für Zuhause [#Legal]</description>
+  <description lang="it-IT" default="false">Studio interno di registrazione e mixing all'avanguardia [#Legal]</description>
+  <description lang="es-ES" default="false">Centro en el arte de las grabaciones caseras y estudio de mezcla. [#Legal]</description>
+  <maker lang="en-GB" default="true">Konami</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">scea_def_jam_apt_b83e_18e4</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">EP0101-NPER00034_00-000119</entitlement_id>
+    <entitlement_id territory="SCEA">UP0101-NPUR30230_00-000608</entitlement_id>
+    <category_id territory="SCEE">EP0101-NPER00034_00</category_id>
+    <category_id territory="SCEA">UP0101-NPUR30230_00</category_id>
+    <product_id territory="SCEE">EP0101-NPER00034_00-DEFJAMRAPS000119</product_id>
+    <product_id territory="SCEA">UP0101-NPUR30230_00-KDEDJRAPSTARAPT1</product_id>
+  </entitlements>
+  <legal>
+    <age_rating rating_system="ESRB" rating="T" minimum_age="13" parental_control_level="5" />
+    <age_rating rating_system="OFLCAU" rating="M" minimum_age="12" parental_control_level="7" />
+    <age_rating rating_system="OFLCNZ" rating="M" minimum_age="12" parental_control_level="7" />
+    <age_rating rating_system="USK" rating="Everyone" minimum_age="0" parental_control_level="1" />
+    <age_rating rating_system="PEGI" rating="12+" minimum_age="12" parental_control_level="5" />
+  </legal>
+  <timestamp>F7CE3835</timestamp>
+</odc>

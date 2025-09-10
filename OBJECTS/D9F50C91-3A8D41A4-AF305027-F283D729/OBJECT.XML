@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" hdk_version="1.52.0.2.PUB" file_version="1" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Untitled</name>
+		<description type="string">Untitled</description>
+		<author type="string">NIPPON ICHI SOFTWARE INC.</author>
+		<object_version type="string">1</object_version>
+		<company type="string">NIPPON ICHI SOFTWARE INC.</company>
+		<template type="string"></template>
+		<template_version type="string"></template_version>
+		<legal type="list">
+			<age_rating type="bag">
+				<country type="string"></country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">TW</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">SG</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">JP</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">TH</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">ID</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">HK</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">KR</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">999</minimum_age>
+				<parental_control_level type="int">11</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">MY</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">US</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+			<age_rating type="bag">
+				<country type="string">CA</country>
+				<rating_system type="string"></rating_system>
+				<rating type="string"></rating>
+				<minimum_age type="int">0</minimum_age>
+				<parental_control_level type="int">1</parental_control_level>
+				<content_type type="string"></content_type>
+				<additional_data type="string"></additional_data>
+			</age_rating>
+		</legal>
+	</header>
+	<lua_environment>
+		<script type="string">main.lua</script>
+		<debug type="bool">false</debug>
+		<on_listener_received_data type="string"></on_listener_received_data>
+		<on_destroy type="string"></on_destroy>
+	</lua_environment>
+	<entity />
+	<particles />
+	<network>
+		<definition type="string"></definition>
+		<on_bag_created type="string"></on_bag_created>
+		<on_bag_deleted type="string"></on_bag_deleted>
+		<on_message_received type="string">OnMessageReceived()</on_message_received>
+		<auto_replicate type="bool">false</auto_replicate>
+	</network>
+	<osd>
+		<types type="string">types.xml</types>
+	</osd>
+	<mini_game>
+		<on_update type="string">OnUpdate()</on_update>
+		<on_send_welcome_message type="string">OnSendWelcomeMessage()</on_send_welcome_message>
+		<on_render type="string"></on_render>
+		<on_can_local_player_join type="string">OnCanLocalPlayerJoin()</on_can_local_player_join>
+		<on_add_player type="string">OnAddPlayer()</on_add_player>
+		<on_remove_player type="string"></on_remove_player>
+		<on_local_player_join type="string">OnLocalPlayerJoin()</on_local_player_join>
+		<on_local_player_leave type="string">OnLocalPlayerLeave()</on_local_player_leave>
+		<on_local_player_update_gameplay type="string">OnLocalPlayerUpdateGameplay()</on_local_player_update_gameplay>
+		<join_type type="string">normal</join_type>
+		<is_allowed_label_change type="bool">false</is_allowed_label_change>
+		<is_allowed_chat_bubble_change type="bool">false</is_allowed_chat_bubble_change>
+		<session_size type="int">2</session_size>
+		<network_session type="bool">true</network_session>
+	</mini_game>
+	<screen />
+	<pad />
+	<renderer />
+	<camera />
+	<light />
+</objectdef>
