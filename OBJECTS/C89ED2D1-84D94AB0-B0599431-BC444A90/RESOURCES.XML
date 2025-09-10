@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Screen.mdl" deferred_loading="false" protected="false" file="furniture/screen_new/screen_new.mdl" />
+		<texture name="Frame_s02.dds" deferred_loading="false" protected="false" file="MiniGames/HomeDoor/tex/Frame_s02.dds" />
+		<texture name="Frame_l01.dds" deferred_loading="false" protected="false" file="MiniGames/HomeDoor/tex/Frame_l01.dds" />
+		<texture name="Frame_l02.dds" deferred_loading="false" protected="false" file="MiniGames/HomeDoor/tex/Frame_l02.dds" />
+		<texture name="Frame_s01.dds" deferred_loading="false" protected="false" file="MiniGames/HomeDoor/tex/Frame_s01.dds" />
+		<texture name="ChatArrow.dds" deferred_loading="false" protected="false" file="MiniGames/HomeDoor/tex/ChatArrow.dds" />
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="MiniGames/HomeDoor/common/tex/edge.dds" />
+		<collision name="Screen.hkx" deferred_loading="false" protected="false" file="furniture/screen_new/screen_new.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/main.lua" />
+		<lua name="time.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/time.lua" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/mathx.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/misc.lua" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/MsgWnd.lua" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/padUtil.lua" />
+		<lua name="ResDownload.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/ResDownload.lua" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/task.lua" />
+		<lua name="Screen.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/Screen.lua" />
+		<lua name="Message.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/Message.lua" />
+		<lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/common/xmlUtil.lua" />
+		<lua name="scrollText.lua" deferred_loading="false" protected="true" file="MiniGames/HomeDoor/scrollText.lua" />
+	</local>
+	<external />
+</resources>

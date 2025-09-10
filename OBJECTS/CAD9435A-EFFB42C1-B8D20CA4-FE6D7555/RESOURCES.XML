@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/teleporter/novus_portal.mdl" />
+		<particle name="cripplingfield_active.efx" deferred_loading="false" protected="false" file="ATGParticles/CripplingField/cripplingfield_active.efx" />
+		<particle name="efx_portal" deferred_loading="false" protected="false" file="ATGParticles/Portal/portal.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Novus_Prime_Relocator/Network.xml" />
+		<collision name="hkx_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/teleporter/novus_portal.hkx" />
+		<anim name="ani_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/teleporter/novus_portal.ani" />
+		<skeleton name="skn_novus_portal" deferred_loading="false" protected="false" file="hellfiretest/teleporter/novus_portal.skn" />
+		<soundbank name="bnk_gamesound_teleporter" deferred_loading="false" protected="false" file="hellfiretest/audio/gamesound_teleporter.bnk" />
+		<lua name="NovusPrimeRelocator.lua" deferred_loading="false" protected="true" file="MiniGames/Novus_Prime_Relocator/NovusPrimeRelocator.lua" />
+	</local>
+	<external />
+</resources>

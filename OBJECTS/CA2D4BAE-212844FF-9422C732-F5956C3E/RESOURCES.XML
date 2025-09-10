@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="VetoxVendingMachine_lit.mdl" deferred_loading="false" file="MiniGames/Sodium/Use/models/VetoxVendingMachine_lit.mdl" />
+		<model name="VetoxVendingMachine.mdl" deferred_loading="false" file="MiniGames/Sodium/Use/models/VetoxVendingMachine.mdl" />
+		<model name="VetoxCan.mdl" deferred_loading="false" file="MiniGames/Sodium/Use/models/VetoxCan.mdl" />
+		<model name="MapScreen.mdl" deferred_loading="false" file="MiniGames/Sodium/Use/models/MapScreen.mdl" />
+		<model name="screen_stand.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/screens/screen_stand.mdl" memory="host" />
+		<model name="screen_1.mdl" deferred_loading="false" protected="false" file="MiniGames/Sodium/Shared/screens/screen_1.mdl" memory="host" />
+		<texture name="vetox_vending_buttons.dds" deferred_loading="false" file="MiniGames/Sodium/Use/textures/vetox_vending_buttons.dds" />
+		<texture name="loading.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/loading.dds" />
+		<texture name="Hud_Overlay1.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/Hud_Overlay1.dds" />
+		<texture name="Hud_Overlay_Text.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/Hud_Overlay_Text.dds" />
+		<texture name="Completion_Bar_2.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/Completion_Bar_2.dds" />
+		<texture name="Completion_Bar_1.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/Completion_Bar_1.dds" />
+		<texture name="network_disconnect_icon.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/network_disconnect_icon.dds" />
+		<texture name="network_connect_icon.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/network_connect_icon.dds" />
+		<texture name="currency_icon.dds" deferred_loading="false" file="MiniGames/Sodium/Shared/textures/currency_icon.dds" />
+		<texture name="Venomade1.dds" deferred_loading="false" file="MiniGames/Sodium/Use/textures/Venomade1.dds" />
+		<texture name="Sodium_Hub_Map.dds" deferred_loading="false" file="MiniGames/Sodium/Use/MapScreen/hud/Sodium_Hub_Map.dds" />
+		<texture name="Map_Overlay.dds" deferred_loading="false" file="MiniGames/Sodium/Use/MapScreen/hud/Map_Overlay.dds" />
+		<texture name="Map_TextButton.dds" deferred_loading="false" file="MiniGames/Sodium/Use/MapScreen/hud/Map_TextButton.dds" />
+		<texture name="Map_Marker.dds" deferred_loading="false" file="MiniGames/Sodium/Use/MapScreen/hud/Map_Marker.dds" />
+		<texture name="Map_Info_Panel.dds" deferred_loading="false" file="MiniGames/Sodium/Use/MapScreen/hud/Map_Info_Panel.dds" />
+		<particle name="VendingMachine.efx" deferred_loading="false" file="MiniGames/Sodium/Use/effects/VendingMachine.efx" />
+		<collision name="vetoxvendingmachine.hkx" deferred_loading="false" file="MiniGames/Sodium/Use/models/vetoxvendingmachine.hkx" />
+		<collision name="mapscreen.hkx" deferred_loading="false" file="MiniGames/Sodium/Use/models/mapscreen.hkx" />
+		<soundbank name="use.bnk" deferred_loading="false" protected="false" file="MiniGames/Sodium/Use/sound/use.bnk" />
+		<lua name="Use_Main.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/Use_Main.lua" />
+		<lua name="Version.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/Version.lua" />
+		<lua name="VendingMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/VendingMachine/VendingMachine.lua" />
+		<lua name="TriggerMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/TriggerMgr.lua" />
+		<lua name="Sign.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/Sign/Sign.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/Misc.lua" />
+		<lua name="XmlConvert.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/XmlConvert.lua" />
+		<lua name="VendingMachine_Drink.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/VendingMachine/VendingMachine_Drink.lua" />
+		<lua name="VendingMachine_Hud.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/VendingMachine/VendingMachine_Hud.lua" />
+		<lua name="OHS.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/OHS.lua" />
+		<lua name="Jamin.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Jamin.lua" />
+		<lua name="PersistenceMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/PersistenceMgr.lua" />
+		<lua name="FSM.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/FSM.lua" />
+		<lua name="FSM_2.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/FSM_2.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Queue.lua" />
+		<lua name="ResourceMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/ResourceMgr.lua" />
+		<lua name="ResourceMgr_2.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/ResourceMgr_2.lua" />
+		<lua name="RewardMgr.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/RewardMgr.lua" />
+		<lua name="Maths.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/Maths.lua" />
+		<lua name="qEntity.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/qEntity.lua" />
+		<lua name="PadControl.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/PadControl.lua" />
+		<lua name="VendingMachine_Game.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/VendingMachine/VendingMachine_Game.lua" />
+		<lua name="Telepad_Game.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/Telepad/Telepad_Game.lua" />
+		<lua name="Telepad.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/Telepad/Telepad.lua" />
+		<lua name="ToolTip.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/ToolTip/ToolTip.lua" />
+		<lua name="ToolTip_Game.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/ToolTip/ToolTip_Game.lua" />
+		<lua name="HudWidget.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/HudWidget.lua" />
+		<lua name="MapScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/MapScreen/MapScreen.lua" />
+		<lua name="MapScreen_Game.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/MapScreen/MapScreen_Game.lua" />
+		<lua name="MenuLib_Core.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/menuLib/MenuLib_Core.lua" />
+		<lua name="MenuLib_UIstyle_DebugText.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/menuLib/MenuLib_UIstyle_DebugText.lua" />
+		<lua name="MenuLib_UIstyle_Informer.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/menuLib/MenuLib_UIstyle_Informer.lua" />
+		<lua name="Informer.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/menuLib/Informer.lua" />
+		<lua name="vDampener.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Use/MapScreen/vDampener.lua" />
+		<lua name="PosterScreen.lua" deferred_loading="false" protected="true" file="MiniGames/Sodium/Shared/PosterScreen.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="Map_Rooftop_01.dds" deferred_loading="false" protected="false" file="games/common/ui/screens/Map_Rooftop_01.dds" />
+		<texture name="Generic_Screen_BG.dds" deferred_loading="false" protected="false" file="games/common/ui/screens/Generic_Screen_BG.dds" />
+		<texture name="Navigation_Arrow.dds" deferred_loading="false" protected="false" file="games/common/sprites/textures/Navigation_Arrow.dds" />
+		<texture name="EmoRay_V1_brief_1280x720.dds" deferred_loading="false" protected="false" file="games/RoofTop_Screens/images/EmoRay_V1_brief_1280x720.dds" />
+		<texture name="EmoRay_V1_rewards_1280x720.dds" deferred_loading="false" protected="false" file="games/RoofTop_Screens/images/EmoRay_V1_rewards_1280x720.dds" />
+		<file name="comic.ttf" deferred_loading="false" protected="false" file="Lua_library/UI/comic.ttf" />
+		<file name="BADABB_.TTF" deferred_loading="false" protected="false" file="Lua_library/UI/BADABB_.TTF" />
+		<soundbank name="LeaderboardSound.bnk" deferred_loading="false" protected="false" file="games/common/audio/Leaderboard/LeaderboardSound.bnk" />
+		<lua name="Audio_Resources.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Audio_Resources.lua" />
+		<lua name="Main.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Main.lua" />
+		<lua name="Main_Init.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Main_Init.lua" />
+		<lua name="Main_LoadLua.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Main_LoadLua.lua" />
+		<lua name="Main_Resources.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Main_Resources.lua" />
+		<lua name="ScreenManager.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/ScreenManager.lua" />
+		<lua name="MenuState_Main.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/MenuStates/MenuState_Main.lua" />
+		<lua name="Audio_Component.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Audio_Component.lua" />
+		<lua name="ControllerModule.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/ControllerModule.lua" />
+		<lua name="Core.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Core.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/EventManager.lua" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Misc.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/StateMachine.lua" />
+		<lua name="Table_x.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Table_x.lua" />
+		<lua name="Util.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Util.lua" />
+		<lua name="Utility_Oscillate.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Utility_Oscillate.lua" />
+		<lua name="Utility_TriggerMover.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Utility_TriggerMover.lua" />
+		<lua name="AsyncCommandManager.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Communicator/AsyncCommandManager.lua" />
+		<lua name="Communicator.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Communicator/Communicator.lua" />
+		<lua name="Communicator_ProjectDefined.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Communicator/Communicator_ProjectDefined.lua" />
+		<lua name="NPTCommunicator.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/Library/Communicator/NPTCommunicator.lua" />
+		<lua name="GameState_Idle.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/GameStates/GameState_Idle.lua" />
+		<lua name="GameState_Main.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/GameStates/GameState_Main.lua" />
+		<lua name="CameraState_Idle.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/CameraStates/CameraState_Idle.lua" />
+		<lua name="CameraState_Main.lua" deferred_loading="false" protected="true" file="games/RoofTop_Screens/lua/CameraStates/CameraState_Main.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="TargetingCone.mdl" deferred_loading="false" protected="false" file="assets/uiModels/TargetingCone.mdl" />
+		<texture name="CharacterSheetBG.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/CharacterSheetBG.dds" />
+		<texture name="CharacterSheetBGSelect.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/CharacterSheetBGSelect.dds" />
+		<texture name="CharacterSheetListSelect.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/CharacterSheetListSelect.dds" />
+		<texture name="CharacterSheetPopup.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/CharacterSheetPopup.dds" />
+		<texture name="CharacterSheetLoadoutItemBackground.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/CharacterSheetLoadoutItemBackground.dds" />
+		<texture name="CharacterSheetListItemBackground.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/CharacterSheetListItemBackground.dds" />
+		<texture name="ScrollIndicator.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/ScrollIndicator.dds" />
+		<texture name="SpinnerRotation.dds" deferred_loading="false" protected="false" file="assets/RaidCommon/GUI/SpinnerRotation.dds" />
+		<file name="resources.xml" deferred_loading="false" protected="false" file="objects/CA52FBAE-F9034D95-B4FFCF36-2F5995E5/resourcesCopy.xml" />
+		<file name="ui_audio.bnk.xml" deferred_loading="false" protected="false" file="assets/audio/ui_audio.bnk.xml" />
+		<soundbank name="ui_audio.bnk" deferred_loading="false" protected="false" file="assets/audio/ui_audio.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/LoadoutUI/main.lua" />
+		<lua name="Gui.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Gui.lua" />
+		<lua name="ControllerController.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/ControllerController.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Player.lua" />
+		<lua name="InventoryScreen.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/InventoryScreen.lua" />
+		<lua name="Inventory.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Inventory.lua" />
+		<lua name="WebUtilities.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebUtilities.lua" />
+		<lua name="WebServiceController.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/WebServiceController.lua" />
+		<lua name="Hub.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Hub.lua" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Utility.lua" />
+		<lua name="XmlHelpers.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/XmlHelpers.lua" />
+		<lua name="ValueMachine.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/ValueMachine.lua" />
+		<lua name="RaidFailedScreen.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/RaidFailedScreen.lua" />
+		<lua name="Queue.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Queue.lua" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/StateMachine.lua" />
+		<lua name="EventManager.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/EventManager.lua" />
+		<lua name="Heap.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Heap.lua" />
+		<lua name="RaidObjectManager.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/RaidObjectManager.lua" />
+		<lua name="TargetManager.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/TargetManager.lua" />
+		<lua name="Quadtree.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Quadtree.lua" />
+		<lua name="Level.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Level.lua" />
+		<lua name="NavigationGraph.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/NavigationGraph.lua" />
+		<lua name="PseudoScript.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/PseudoScript.lua" />
+		<lua name="LevelScripts.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/LevelScripts.lua" />
+		<lua name="PopupMessageScreen.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/PopupMessageScreen.lua" />
+		<lua name="StringTable.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/StringTable.lua" />
+		<lua name="Props.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Props.lua" />
+		<lua name="LevelPiece.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/LevelPiece.lua" />
+		<lua name="Targeter.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Targeter.lua" />
+		<lua name="AlarmLight.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/AlarmLight.lua" />
+		<lua name="Strings.lua" deferred_loading="false" protected="true" file="MiniGames/RaidCommon/Strings.lua" />
+	</local>
+	<external />
+</resources>

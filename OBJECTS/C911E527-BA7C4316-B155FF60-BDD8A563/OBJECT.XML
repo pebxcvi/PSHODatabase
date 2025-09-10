@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<objectdef xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns='http://home.scedev.net/schema/object'>
+	<header>
+		<name type='string'>kName</name>
+		<description type='string'>kDesc</description>
+		<author type='string'>Hot Shots Golf®</author>
+		<object_version type='string'>1.0</object_version>
+		<company type='string'>Hot Shots Golf®</company>
+		<legal type='list'>
+			<age_rating type='bag'>
+				<country type='string'/>
+				<rating_system type='string'/>
+				<rating type='string'/>
+				<minimum_age type='int'>0</minimum_age>
+				<parental_control_level type='int'>1</parental_control_level>
+				<content_type type='string'/>
+				<additional_data type='string'/>
+			</age_rating>
+		</legal>
+	</header>
+</objectdef>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="comp_model" file="MiniGames/ReubensComputer/models/comp.mdl" deferred_loading="false" />
+		<texture name="logo.dds" file="MiniGames/ReubensComputer/images/logo.dds" deferred_loading="false" />
+		<texture name="ufll.dds" file="MiniGames/ReubensComputer/images/ufll.dds" deferred_loading="false" />
+		<texture name="faction.dds" file="MiniGames/ReubensComputer/images/faction.dds" deferred_loading="false" />
+		<file name="shared_terminal.lua" file="MiniGames/ReubensComputer/shared_terminal.lua" deferred_loading="false" />
+		<file name="constants.lua" file="MiniGames/ReubensComputer/constants.lua" deferred_loading="false" />
+		<file name="reubens_computer.lua" file="MiniGames/ReubensComputer/reubens_computer.lua" deferred_loading="false" />
+		<file name="wordwrap.lua" file="MiniGames/SCEA_fn_lib/wordwrap.lua" deferred_loading="false" />
+		<collision name="comp.hkx" file="MiniGames/ReubensComputer/models/comp.hkx" deferred_loading="false" />
+		<soundbank name="reubenscomp.bnk" file="MiniGames/ReubensComputer/sounds/reubenscomp.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

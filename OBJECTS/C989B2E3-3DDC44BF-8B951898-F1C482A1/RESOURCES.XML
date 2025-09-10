@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/model/Miniplane_WW2_rig.mdl" memory="host" />
+		<model name="remote.mdl" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/model/Miniplane_WW2_lod02.mdl" memory="host" />
+		<particle name="flame.efx" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/particle/flame.efx" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/file/config.xml" memory="host" />
+		<anim name="idle.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_MIdle.ani" memory="host" />
+		<anim name="left.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_MLeft.ani" memory="host" />
+		<anim name="move.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_MRun.ani" memory="host" />
+		<anim name="right.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_MRight.ani" memory="host" />
+		<anim name="fleft.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_FLeft.ani" memory="host" />
+		<anim name="fmove.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_FRun.ani" memory="host" />
+		<anim name="fright.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_FRight.ani" memory="host" />
+		<anim name="fidle.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_FIdle.ani" memory="host" />
+		<anim name="plane_idle.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW2_Idle.ani" memory="main" />
+		<anim name="plane_run.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW2_Run.ani" memory="main" />
+		<anim name="plane_walk.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW2_Walk.ani" />
+		<anim name="mwalk.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_MWalk.ani" />
+		<anim name="fwalk.ani" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/anim/Miniplane_WW1_Triplane_FWalk.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/skeleton/Miniplane_WW2_rig.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Miniplane_WW2Fighter/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Miniplane_WW2Fighter/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

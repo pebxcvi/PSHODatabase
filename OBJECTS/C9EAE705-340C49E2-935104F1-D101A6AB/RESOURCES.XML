@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Treadmill.mdl" deferred_loading="false" protected="false" file="MiniGames/MG07/Models/MG07_Treadmill.mdl" />
+		<texture name="CountDown3" deferred_loading="false" file="generic_shared_textures/Number_3.dds" />
+		<texture name="CountDown1" deferred_loading="false" file="generic_shared_textures/Number_1.dds" />
+		<texture name="CountDown2" deferred_loading="false" file="generic_shared_textures/Number_2.dds" />
+		<texture name="CountDown0" deferred_loading="false" file="generic_shared_textures/Go.dds" />
+		<texture name="gamescreen.dds" deferred_loading="false" file="MiniGames/MG07/Textures/gamescreen.dds" />
+		<texture name="R1_button.dds" deferred_loading="false" protected="false" file="MiniGames/MG07/Textures/MG07_R1_button_c.dds" />
+		<texture name="L1_button.dds" deferred_loading="false" protected="false" file="MiniGames/MG07/Textures/MG07_L1_button_c.dds" />
+		<texture name="footright.dds" deferred_loading="false" protected="false" file="MiniGames/MG07/Textures/footright.dds" />
+		<texture name="footleft.dds" deferred_loading="false" protected="false" file="MiniGames/MG07/Textures/footleft.dds" />
+		<texture name="led_colon_red_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_colon_red_c.dds" />
+		<texture name="led_red_0_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_0_c.dds" />
+		<texture name="led_red_1_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_1_c.dds" />
+		<texture name="led_red_2_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_2_c.dds" />
+		<texture name="led_red_3_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_3_c.dds" />
+		<texture name="led_red_4_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_4_c.dds" />
+		<texture name="led_red_5_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_5_c.dds" />
+		<texture name="led_red_6_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_6_c.dds" />
+		<texture name="led_red_7_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_7_c.dds" />
+		<texture name="led_red_8_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_8_c.dds" />
+		<texture name="led_red_9_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_9_c.dds" />
+		<texture name="led_grey_bar_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_grey_bar_c.dds" />
+		<texture name="led_green_bar_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_green_bar_c.dds" />
+		<texture name="led_red_bar_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_bar_c.dds" />
+		<texture name="led_yellow_bar_c.dds" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_yellow_bar_c.dds" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG07/OSD/types.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<file name="led_red_c.psd" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/led_red_c.psd" />
+		<collision name="Treadmill.hkx" deferred_loading="false" protected="false" file="MiniGames/MG07/Models/mg07_treadmill.hkx" />
+		<collision name="Collision_Wall.hkx" deferred_loading="false" protected="false" file="MiniGames/MG07/Models/MG07_Treadmill_Collision_Wall.hkx" />
+		<anim name="wio_run1_male" deferred_loading="false" protected="false" file="MiniGames/MG07/Animations/male/run_cycle.ani" />
+		<anim name="wio_run1_female" deferred_loading="false" protected="false" file="MiniGames/MG07/Animations/female/run_cycle.ani" />
+		<soundbank name="MG07.bnk" deferred_loading="false" protected="false" file="MiniGames/MG07/Sound/MG07.bnk" />
+		<repertoire name="wio_male" deferred_loading="false" protected="false" file="MiniGames/MG07/wio_male.xml" />
+		<repertoire name="wio_female" deferred_loading="false" protected="false" file="MiniGames/MG07/wio_female.xml" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG07/Source/Audio.lua" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/MG07/Source/Camera.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG07/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG07/Source/Network.lua" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/MG07/Source/Player.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG07/Source/Settings.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="WalkItOff.lua" deferred_loading="false" protected="true" file="MiniGames/MG07/Source/WalkItOff.lua" />
+	</local>
+	<external />
+</resources>

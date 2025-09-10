@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="zoom.dds" deferred_loading="false" protected="false" file="MiniGames/PSMoveHeroesCamera/textures/zoom.dds" />
+		<texture name="arrow.dds" deferred_loading="false" protected="false" file="MiniGames/PSMoveHeroesCamera/textures/arrow.dds" />
+		<texture name="view_finder.dds" deferred_loading="false" protected="false" file="MiniGames/PSMoveHeroesCamera/textures/view_finder.dds" />
+		<texture name="HUD_Instructions" deferred_loading="false" protected="false" file="MiniGames/PSMoveHeroesCamera/textures/PlaystationHeroesOSD.dds" />
+		<collision name="boundary.hkx" deferred_loading="false" file="MiniGames/PSMoveHeroesCamera/models/boundary.hkx" />
+		<soundbank name="audio" deferred_loading="true" file="MiniGames/PSMoveHeroesCamera/sound/camera.bnk" />
+		<lua name="camera.lua" deferred_loading="false" protected="true" file="MiniGames/PSMoveHeroesCamera/camera.lua" />
+	</local>
+	<external />
+</resources>

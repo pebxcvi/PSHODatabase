@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="winds_fire_djiin_lamp.mdl" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Lamp_Fire/model/winds_fire_djiin_lamp.mdl" memory="host" />
+		<model name="Male01_Torso_Flames_Moved_lod1.mdl" deferred_loading="false" protected="false" file="characters_v2/male/male01/torso/Male01_Torso_Flames_Moved_lod1.mdl" memory="host" />
+		<particle name="GroundFire.efx" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Lamp_Fire/particles/GroundFire.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Lamp_Fire/file/Network.xml" memory="host" />
+		<collision name="winds_fire_djiin_lamp.hkx" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Lamp_Fire/model/winds_fire_djiin_lamp.hkx" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/MiniGame.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/Pad.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/State_Idle.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/StateMachine.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/Utility.luac" memory="host" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/State_MainMenu.luac" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/MessageManager.luac" memory="host" />
+		<lua name="FireManager.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Fire/lua/FireManager.luac" memory="host" />
+	</local>
+	<external />
+</resources>
