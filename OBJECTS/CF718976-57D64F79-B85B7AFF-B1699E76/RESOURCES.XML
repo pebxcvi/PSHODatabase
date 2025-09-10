@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Stand.mdl" deferred_loading="false" protected="false" file="environments/veemeepark/concessionstands/ThanksgivingStand.mdl" />
+		<model name="Npc.mdl" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/npc/NPC_4thJuly.mdl" />
+		<collision name="Stand.hkx" deferred_loading="false" protected="false" file="environments/veemeepark/concessionstands/ThanksgivingStand.hkx" />
+		<anim name="Npc_Idle.ani" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/npc/NpcAxeDude_Idle.ani" />
+		<skeleton name="Npc_Rig.skn" deferred_loading="false" protected="false" file="MiniGames/VeeMeePark/npc/NpcAxeDude_Rig.skn" />
+		<lua name="ThanksGivingVendorMG.lua" deferred_loading="false" protected="true" file="MiniGames/VeeMeePark/Concessions/ThanksGivingVendor/ThanksGivingVendorMG.lua" />
+	</local>
+	<external />
+</resources>

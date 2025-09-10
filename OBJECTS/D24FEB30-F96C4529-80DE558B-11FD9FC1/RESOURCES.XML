@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="brick.mdl" deferred_loading="false" protected="false" file="props/home_trigger/brick.mdl" memory="host" />
+		<model name="background.mdl" deferred_loading="false" protected="false" file="MiniGames/BrickWall/file/background.mdl" memory="host" />
+		<model name="wall.mdl" deferred_loading="false" protected="false" file="props/home_trigger/wall.mdl" memory="host" />
+		<model name="ScreechOwl_TriggerModel_01.mdl" deferred_loading="false" protected="false" file="props/home_trigger/ScreechOwl_TriggerModel_01.mdl" memory="host" />
+		<model name="brick2.mdl" deferred_loading="false" protected="false" file="props/home_trigger/brick2.mdl" memory="host" />
+		<collision name="brick.hkx" deferred_loading="false" protected="false" file="MiniGames/BrickWall/file/brick.hkx" memory="host" />
+		<collision name="wall.hkx" deferred_loading="false" protected="false" file="props/home_trigger/wall.hkx" />
+		<anim name="ScreechOwl_TriggerAnim_01.ani" deferred_loading="false" protected="false" file="props/home_trigger/ScreechOwl_TriggerAnim_01.ani" memory="host" />
+		<skeleton name="ScreechOwl_TriggerModel_01.skn" deferred_loading="false" protected="false" file="props/home_trigger/ScreechOwl_TriggerModel_01.skn" memory="host" />
+		<soundstream name="PM_SFX_BrickWallEnter_02.mp3" deferred_loading="false" protected="false" file="MiniGames/BrickWall/file/PM_SFX_BrickWallEnter_02.mp3" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/BrickWall/lua/MiniGame.lua" memory="host" />
+	</local>
+	<external />
+</resources>

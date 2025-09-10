@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board" file="MiniGames/Mancala/Models/board.mdl" deferred_loading="false" />
+		<model name="bullet" file="MiniGames/Mancala/Models/bullet.mdl" deferred_loading="false" />
+		<model name="selection_ring" file="MiniGames/Mancala/Models/selection_ring.mdl" deferred_loading="false" />
+		<model name="paper" file="MiniGames/Mancala/Models/FarCry2_Mancala_Paper.mdl" deferred_loading="false" />
+		<model name="num9" file="MiniGames/Mancala/Models/FarCry2_Mancala_num9.mdl" deferred_loading="false" />
+		<model name="num0" file="MiniGames/Mancala/Models/FarCry2_Mancala_num0.mdl" deferred_loading="false" />
+		<model name="num1" file="MiniGames/Mancala/Models/FarCry2_Mancala_num1.mdl" deferred_loading="false" />
+		<model name="num2" file="MiniGames/Mancala/Models/FarCry2_Mancala_num2.mdl" deferred_loading="false" />
+		<model name="num3" file="MiniGames/Mancala/Models/FarCry2_Mancala_num3.mdl" deferred_loading="false" />
+		<model name="num4" file="MiniGames/Mancala/Models/FarCry2_Mancala_num4.mdl" deferred_loading="false" />
+		<model name="num5" file="MiniGames/Mancala/Models/FarCry2_Mancala_num5.mdl" deferred_loading="false" />
+		<model name="num6" file="MiniGames/Mancala/Models/FarCry2_Mancala_num6.mdl" deferred_loading="false" />
+		<model name="num7" file="MiniGames/Mancala/Models/FarCry2_Mancala_num7.mdl" deferred_loading="false" />
+		<model name="num8" file="MiniGames/Mancala/Models/FarCry2_Mancala_num8.mdl" deferred_loading="false" />
+		<file name="mancala" file="MiniGames/Mancala/Scripts/Mancala.lua" deferred_loading="false" />
+		<file name="resources" file="MiniGames/Mancala/Scripts/resources.lua" deferred_loading="false" />
+		<file name="network_xml" file="MiniGames/Mancala/Network.xml" deferred_loading="false" />
+		<file name="osd_types" file="MiniGames/Mancala/OSD/types.xml" deferred_loading="false" />
+		<file name="osd_gameinfo" file="MiniGames/Mancala/OSD/gameinfo.xml" deferred_loading="false" />
+		<file name="osd_playerinfo" file="MiniGames/Mancala/OSD/playerinfo.xml" deferred_loading="false" />
+		<file name="osd_textbox" file="MiniGames/Mancala/OSD/textbox.xml" deferred_loading="false" />
+		<file name="osd_instructions" file="MiniGames/Mancala/OSD/instructions.xml" deferred_loading="false" />
+		<file name="utils" file="MiniGames/Mancala/Scripts/utils.lua" deferred_loading="false" />
+		<file name="stones" file="MiniGames/Mancala/Scripts/stones.lua" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Motorbike_Rig.mdl" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Motorbike_Rig.mdl" memory="host" />
+		<model name="MotorBike_lod.mdl" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/MotorBike_lod.mdl" memory="host" />
+		<particle name="smoke.efx" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/particle/smoke.efx" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/file/config.xml" memory="host" />
+		<anim name="Motorbike_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Motorbike_Idle.ani" memory="host" />
+		<anim name="Male_Motorbike_Idle.ani" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Male_Motorbike_Idle.ani" memory="host" />
+		<anim name="Male_Motorbike_Run" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Male_Motorbike_Run.ani" memory="host" />
+		<anim name="Male_Motorbike_Walk" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Male_Motorbike_Walk.ani" memory="host" />
+		<anim name="Male_Motorbike_TurnLeft" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Male_Motorbike_TurnLeft.ani" memory="host" />
+		<anim name="Male_Motorbike_TurnRight" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Male_Motorbike_TurnRight.ani" memory="host" />
+		<anim name="Motorbike_Walk.ani" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Motorbike_Walk.ani" memory="host" />
+		<anim name="Motorbike_Run.ani" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Motorbike_Run.ani" memory="host" />
+		<anim name="Female_Motorbike_Idle" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Female_Motorbike_Idle.ani" memory="host" />
+		<anim name="Female_Motorbike_Run" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Female_Motorbike_Run.ani" />
+		<anim name="Female_Motorbike_TurnLeft" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Female_Motorbike_TurnLeft.ani" />
+		<anim name="Female_Motorbike_TurnRight" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Female_Motorbike_TurnRight.ani" />
+		<anim name="Female_Motorbike_Walk" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Female_Motorbike_Walk.ani" />
+		<skeleton name="Motorbike_Rig.skn" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/Motorbike_Rig.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Motorbike_Yellow/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Motorbike_Yellow/lua/boot.luac" memory="host" id="3918214576" />
+	</local>
+	<external />
+</resources>

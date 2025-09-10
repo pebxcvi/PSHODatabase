@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/danceFloor.mdl" />
+		<model name="Corona.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/lights_assets/Corona.mdl" />
+		<model name="Lasers.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/lights_assets/Lasers.mdl" />
+		<model name="LightCone.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/lights_assets/LightCone.mdl" />
+		<model name="spotlightObject.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/lights_assets/spotlightObject.mdl" />
+		<model name="spotlightSwivelArm.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/lights_assets/spotlightSwivelArm.mdl" />
+		<model name="danceFloor_Lit.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/danceFloor_Lit.mdl" />
+		<model name="lit_block.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/lit_block.mdl" />
+		<model name="glass_block.mdl" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/glass_block.mdl" />
+		<texture name="lightmask_c.dds" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/lights_assets/textures/lightmask_c.dds" />
+		<particle name="bubbles.efx" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/atgparticles/bubbles.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/programming/Network.xml" />
+		<file name="boombox_songlist.xml" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/programming/boombox_songlist.xml" />
+		<collision name="collision" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/danceFloor.hkx" />
+		<soundstream name="DanceFloorMegaMix_loop.mp3" deferred_loading="false" protected="false" file="activeitems/2011/soundgroup/soundgroup_dancefloor/sound/DanceFloorMegaMix_loop.mp3" />
+		<lua name="SoundGroup_DanceFloor_main.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_dancefloor/programming/SoundGroup_DanceFloor_main.lua" />
+		<lua name="MusicPlayer.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_dancefloor/programming/MusicPlayer.lua" />
+		<lua name="MyPad.lua" deferred_loading="false" protected="true" file="activeitems/2011/soundgroup/soundgroup_dancefloor/programming/MyPad.lua" />
+	</local>
+	<external />
+</resources>

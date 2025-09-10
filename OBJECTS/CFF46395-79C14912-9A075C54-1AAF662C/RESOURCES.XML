@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="RCR_InformationRepository.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/RCR_InformationRepository/RCR_InformationRepository.luac" />
+		<lua name="Misc.lua" deferred_loading="false" protected="true" file="RCR_Resources/lua/Misc.luac" />
+		<lua name="RCR_ServerCommunicator.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/RCR_InformationRepository/RCR_ServerCommunicator.luac" />
+		<lua name="RCR_RewardCheck.lua" deferred_loading="false" protected="true" file="RCR_Resources/lua/RCR_RewardCheck.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="LUA_Resources/Library/StateMachine.luac" />
+		<lua name="RCR_GameDispatchCommunicator.lua" deferred_loading="false" protected="true" file="EmbeddedObjects/RCR_InformationRepository/RCR_GameDispatchCommunicator.luac" />
+		<lua name="BitCompressor.lua" deferred_loading="false" protected="true" file="RCR_Resources/lua/BitCompressor.luac" />
+	</local>
+	<external />
+</resources>

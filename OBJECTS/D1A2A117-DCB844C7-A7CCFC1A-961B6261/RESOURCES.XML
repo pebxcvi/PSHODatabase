@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="HourHandTemplate.mdl" deferred_loading="false" protected="false" file="furniture/modern_clock/model/Modern_Clock_HourHand.mdl" />
+		<model name="MinuteHandTemplate.mdl" deferred_loading="false" protected="false" file="furniture/modern_clock/model/Modern_Clock_MinHand.mdl" />
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/modern_clock/model/modernclock_active.mdl" />
+		<model name="SecondHandTemplate.mdl" deferred_loading="false" protected="false" file="furniture/modern_clock/model/Modern_Clock_SecondHand.mdl" />
+		<model name="ClockFaceTemplate.mdl" deferred_loading="false" protected="false" file="furniture/modern_clock/model/Modern_Clock_face.mdl" />
+		<file name="ClockConfig.xml" deferred_loading="false" protected="false" file="furniture/modern_clock/files/ClockConfig.xml" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/modern_clock/collision/Modern_Clock_face.hkx" />
+		<soundbank name="Clock_Modern.bnk" deferred_loading="false" protected="false" file="Scripts/Audio/Clock_Modern.bnk" />
+		<lua name="Active.lua" deferred_loading="false" protected="true" file="furniture/modern_clock/lua/Active.lua" />
+	</local>
+	<external />
+</resources>

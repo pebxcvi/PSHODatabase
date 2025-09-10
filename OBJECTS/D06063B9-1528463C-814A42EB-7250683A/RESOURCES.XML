@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/model/kirin_rare.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/model/kirin_rare_lo.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/file/config.xml" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/anim/idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/anim/walk.ani" memory="main" />
+		<anim name="ani.yawn" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/anim/an_yawn.ani" memory="host" />
+		<anim name="ani.dance" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/anim/dance.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/anim/run.ani" memory="main" />
+		<anim name="ani.shakefists" deferred_loading="true" protected="false" file="CompanionFollowers/kirin_rare/anim/shakefists.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="false" protected="false" file="CompanionFollowers/kirin_rare/skeleton/kirin_rare.skn" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/kirin_rare/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="softball.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/softball.mdl" memory="host" />
+		<model name="baseball.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/baseball.mdl" memory="host" />
+		<model name="bat.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/bat.mdl" memory="host" />
+		<model name="Swingers_PitchingMachine.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/pitchingmachine/Swingers_PitchingMachine.mdl" memory="host" />
+		<model name="baseball_shadow.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/baseball_shadow.mdl" memory="host" />
+		<model name="Swingers_BallLaunch.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/pitchingmachine/Swingers_BallLaunch.mdl" memory="host" />
+		<model name="number_plus.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/number_plus.mdl" memory="host" />
+		<model name="Number_placard.mdl" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Number_placard.mdl" memory="host" />
+		<texture name="ammo1" deferred_loading="false" file="MiniGames/Swingers/Textures/SM_OSD_Bullet_c.dds" />
+		<texture name="goal1" deferred_loading="false" file="MiniGames/Swingers/Textures/SM_OSD_Goal_c.dds" />
+		<texture name="FreePlay" deferred_loading="false" file="MiniGames/Common/Textures/FreePlay.dds" />
+		<texture name="Prize1_Female" deferred_loading="false" 	file="thumbnails/prizeplacard_06_01_Female_THMB_128.png" />
+		<texture name="Prize1_Male" deferred_loading="false" 	file="thumbnails/prizeplacard_06_01_Male_THMB_128.png" />
+		<texture name="Prize2" deferred_loading="false"  		file="thumbnails/prizeplacard_06_02_THMB_128.png" />
+		<texture name="Prize3_Female" deferred_loading="false"	file="thumbnails/prizeplacard_06_03_Female_THMB_128.png" />
+		<texture name="Prize3_Male" deferred_loading="false"	file="thumbnails/prizeplacard_06_03_Male_THMB_128.png" />
+		<texture name="Prize4" deferred_loading="false" 		file="thumbnails/prizeplacard_06_04_THMB_128.png" />
+		<texture name="Prize5_Female" deferred_loading="false" 	file="thumbnails/prizeplacard_06_05_Female_THMB_128.png" />
+		<texture name="Prize5_Male" deferred_loading="false" 	file="thumbnails/prizeplacard_06_05_Male_THMB_128.png" />
+		<texture name="Prize6_Female" deferred_loading="false" 	file="thumbnails/prizeplacard_06_06_Female_THMB_128.png" />
+		<texture name="Prize6_Male" deferred_loading="false" 	file="thumbnails/prizeplacard_06_06_Male_THMB_128.png" />
+		<texture name="Prize7" deferred_loading="false" 		file="thumbnails/prizeplacard_06_07_THMB_128.png" />
+		<texture name="Prize8_Female" deferred_loading="false" 	file="thumbnails/prizeplacard_06_08_female_THMB_128.png" />
+		<texture name="Prize8_Male" deferred_loading="false" 	file="thumbnails/prizeplacard_06_08_male_THMB_128.png" />
+		<texture name="Prize9_Female" deferred_loading="false" 	file="thumbnails/prizeplacard_06_09_Female_THMB_128.png" />
+		<texture name="Prize9_Male" deferred_loading="false" 	file="thumbnails/prizeplacard_06_09_Male_THMB_128.png" />
+		<texture name="Prize10_Female" deferred_loading="false" file="thumbnails/prizeplacard_06_10_Female_THMB_128.png" />
+		<texture name="Prize10_Male" deferred_loading="false" 	file="thumbnails/prizeplacard_06_10_Male_THMB_128.png" />
+		<texture name="FranticFreePlay.dds" deferred_loading="false" file="MiniGames/Common/Textures/FranticFreePlay.dds" />
+		<texture name="scorebox" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Box_OSD_c.dds" />
+		<texture name="scorebar" deferred_loading="false" protected="false" file="MiniGames/Common/Textures/Score_Bar_OSD_c.dds" />
+		<texture name="3.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/3.dds" />
+		<texture name="4.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/4.dds" />
+		<texture name="5.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/5.dds" />
+		<texture name="6.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/6.dds" />
+		<texture name="7.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/7.dds" />
+		<texture name="8.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/8.dds" />
+		<texture name="9.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/9.dds" />
+		<texture name="0.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/0.dds" />
+		<texture name="1.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/1.dds" />
+		<texture name="2.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Textures/2.dds" />
+		<texture name="Swingers_Score_9_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_9_c.dds" />
+		<texture name="swingers_score_0_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/swingers_score_0_c.dds" />
+		<texture name="swingers_score_1_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/swingers_score_1_c.dds" />
+		<texture name="Swingers_Score_2_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_2_c.dds" />
+		<texture name="Swingers_Score_3_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_3_c.dds" />
+		<texture name="Swingers_Score_4_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_4_c.dds" />
+		<texture name="Swingers_Score_5_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_5_c.dds" />
+		<texture name="Swingers_Score_6_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_6_c.dds" />
+		<texture name="Swingers_Score_7_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_7_c.dds" />
+		<texture name="Swingers_Score_8_c.dds" deferred_loading="false" protected="false" file="MiniGames/Swingers/Models/Textures/Swingers_Score_8_c.dds" />
+		<file name="osd_StartUpDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/StartUpDialog.xml" memory="host" />
+		<file name="osd_WinnerDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/WinnerDialog.xml" memory="host" />
+		<file name="osd_PlayAgainDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/PlayAgainDialog.xml" memory="host" />
+		<file name="osd_NoTicketDialog.xml" deferred_loading="false" file="MiniGames/Common/OSD/NoTicketDialog.xml" memory="host" />
+		<file name="MinigameHud.xml" deferred_loading="false" file="MiniGames/Common/OSD/MinigameHud.xml" memory="host" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/Swingers/OSD/types.xml" memory="host" />
+		<anim name="Idle_M.ani" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/male/Idle.ani" memory="host" />
+		<anim name="Swing_M.ani" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/male/Swing.ani" memory="host" />
+		<anim name="Swingers_PitchingMachine.ani" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/pitchingmachine/Swingers_PitchingMachine.ani" memory="host" />
+		<anim name="Idle_F.ani" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/female/Idle.ani" memory="host" />
+		<anim name="Swing_F.ani" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/female/Swing.ani" memory="host" />
+		<anim name="Swingers_BallLaunch.ani" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/pitchingmachine/Swingers_BallLaunch.ani" memory="host" />
+		<skeleton name="Swingers_PitchingMachine.skn" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/pitchingmachine/Swingers_PitchingMachine.skn" memory="host" />
+		<skeleton name="Swingers_BallLaunch.skn" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/pitchingmachine/Swingers_BallLaunch.skn" memory="host" />
+		<repertoire name="Male_Animations" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/Male_Animations.xml" memory="host" />
+		<repertoire name="Female_Animations" deferred_loading="false" protected="false" file="MiniGames/Swingers/Animations/Female_Animations.xml" memory="host" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/Swingers/Source/Audio.lua" memory="host" />
+		<lua name="Camera.lua" deferred_loading="false" protected="true" file="MiniGames/Swingers/Source/Camera.lua" memory="host" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/Swingers/Source/Game.lua" memory="host" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/Swingers/Source/Network.lua" memory="host" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" memory="host" />
+		<lua name="MinigameDialogs.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameDialogs.lua" memory="host" />
+		<lua name="Timer.lua" deferred_loading="false" protected="true" file="MiniGames/Common/Timer.lua" memory="host" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" memory="host" />
+		<lua name="MinigamePrizes.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigamePrizes.lua" memory="host" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" memory="host" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/Swingers/Source/Settings.lua" memory="host" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" memory="host" />
+		<lua name="SlotManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/SlotManager.lua" memory="host" />
+		<lua name="Player.lua" deferred_loading="false" protected="true" file="MiniGames/Swingers/Source/Player.lua" memory="host" />
+		<lua name="Ball.lua" deferred_loading="false" protected="true" file="MiniGames/Swingers/Source/Ball.lua" memory="host" />
+		<lua name="GlobalDefines.lua" deferred_loading="false" protected="true" file="environments/Scripts/GlobalDefines.lua" memory="host" />
+		<lua name="FloatingNumber.lua" deferred_loading="false" protected="true" file="MiniGames/Common/FloatingNumber.lua" memory="host" />
+	</local>
+	<external />
+</resources>

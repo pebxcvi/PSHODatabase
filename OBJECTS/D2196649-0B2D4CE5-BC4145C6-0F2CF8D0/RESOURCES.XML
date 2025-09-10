@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="WindDjinn_InflatedLoop01.mdl" deferred_loading="false" protected="false" file="companion_follower/WINDS_WindDjinn_Companion/WindDjinn_InflatedLoop01.mdl" memory="host" />
+		<model name="WINDS_Air_Djinn_Lamp.mdl" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Lamp_Wind/model/WINDS_Air_Djinn_Lamp.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Lamp_Wind/file/Network.xml" memory="host" />
+		<collision name="WindDjinn_Inflated_Collision.hkx" deferred_loading="false" protected="false" file="companion_follower/WINDS_WindDjinn_Companion/WindDjinn_Inflated_Collision.hkx" memory="host" />
+		<collision name="WINDS_Air_Djinn_Lamp.hkx" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Lamp_Wind/model/WINDS_Air_Djinn_Lamp.hkx" memory="host" />
+		<anim name="WindDjinn_InflatedLoop01.ani" deferred_loading="false" protected="false" file="companion_follower/WINDS_WindDjinn_Companion/WindDjinn_InflatedLoop01.ani" memory="host" />
+		<skeleton name="WindDjinn_InflatedLoop01.skn" deferred_loading="false" protected="false" file="companion_follower/WINDS_WindDjinn_Companion/WindDjinn_InflatedLoop01.skn" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/MiniGame.luac" memory="host" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/MessageManager.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/Pad.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/State_Idle.luac" memory="host" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/State_MainMenu.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/StateMachine.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/Utility.luac" memory="host" />
+		<lua name="WindManager.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Lamp_Wind/lua/WindManager.luac" memory="host" />
+	</local>
+	<external />
+</resources>

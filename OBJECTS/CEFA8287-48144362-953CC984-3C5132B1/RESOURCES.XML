@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Buzz_mdl" file="environments/buzz_tomatinalanding_5304_1780/objects/Buzz.mdl" deferred_loading="false" />
+		<model name="Tomato_Ball_mdl" file="environments/buzz_tomatinalanding_5304_1780/objects/TomatoThrow.mdl" deferred_loading="false" />
+		<model name="Buzz_Entrance_mdl" file="environments/buzz_tomatinalanding_5304_1780/objects/BuzzEntrance.mdl" deferred_loading="false" />
+		<model name="Target_mdl_1" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target01.mdl" deferred_loading="false" />
+		<model name="Target_mdl_2" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target02.mdl" deferred_loading="false" />
+		<model name="Target_mdl_3" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target03.mdl" deferred_loading="false" />
+		<model name="Target_mdl_4" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target04.mdl" deferred_loading="false" />
+		<model name="Target_mdl_5" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target05.mdl" deferred_loading="false" />
+		<model name="Target_mdl_6" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target06.mdl" deferred_loading="false" />
+		<model name="Target_mdl_7" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target07.mdl" deferred_loading="false" />
+		<model name="Target_mdl_8" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target08.mdl" deferred_loading="false" />
+		<model name="Target_mdl_9" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target09.mdl" deferred_loading="false" />
+		<model name="Target_mdl_10" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target10.mdl" deferred_loading="false" />
+		<model name="Target_mdl_11" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target11.mdl" deferred_loading="false" />
+		<model name="Target_mdl_12" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target12.mdl" deferred_loading="false" />
+		<model name="Target_mdl_13" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target13.mdl" deferred_loading="false" />
+		<model name="Target_mdl_14" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target14.mdl" deferred_loading="false" />
+		<model name="Target_mdl_15" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target15.mdl" deferred_loading="false" />
+		<model name="Target_mdl_16" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target16.mdl" deferred_loading="false" />
+		<model name="Target_mdl_17" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target17.mdl" deferred_loading="false" />
+		<model name="Target_mdl_18" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target18.mdl" deferred_loading="false" />
+		<model name="Target_mdl_19" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target19.mdl" deferred_loading="false" />
+		<model name="Target_mdl_20" file="environments/buzz_tomatinalanding_5304_1780/objects/targets/Buzz_Target20.mdl" deferred_loading="false" />
+		<texture name="Qs_panel_dds" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/panels/Buzz_Question_Panel.dds" deferred_loading="false" />
+		<texture name="Qs_item_selected_A" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/panels/Buzz_Question_PanelA1.dds" deferred_loading="false" />
+		<texture name="Qs_item_selected_C" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/panels/Buzz_Question_PanelA2.dds" deferred_loading="false" />
+		<texture name="Qs_item_selected_B" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/panels/Buzz_Question_PanelA3.dds" deferred_loading="false" />
+		<texture name="Qs_item_selected_D" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/panels/Buzz_Question_PanelA4.dds" deferred_loading="false" />
+		<texture name="Info_panel_dds" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/panels/Buzz_Info_Panel.dds" deferred_loading="false" />
+		<texture name="Player_Time_Icon_dds" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/buzz_time.dds" deferred_loading="false" />
+		<texture name="Player_Score_Icon_dds" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/buzz_targets.dds" deferred_loading="false" />
+		<texture name="Default_Console_bg_dds" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/images/panels/Buzz_Default_Panel_bg.dds" deferred_loading="false" />
+		<file name="Constants_lua" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/Constants.lua" deferred_loading="false" />
+		<file name="Util_lua" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/Util.lua" deferred_loading="false" />
+		<file name="Buzz_Tomatina_Quiz_minigame_lua" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/Buzz_Tomatina_Quiz_minigame.lua" deferred_loading="false" />
+		<collision name="Tomato_Ball_hkx" file="environments/buzz_tomatinalanding_5304_1780/objects/TomatoThrow.hkx" deferred_loading="false" />
+		<soundbank name="Buzz_SFX_bnk" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/audio/Buzz.bnk" deferred_loading="false" />
+		<soundstream name="buzz_music_mp3" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/audio/buzz_music.mp3" deferred_loading="false" />
+		<soundstream name="buzz_game_bg_mp3" file="Scripts/Buzz_Tomatina_Quiz_MiniGame/audio/buzz_game_bg.mp3" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

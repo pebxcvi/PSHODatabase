@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="tex.dialog" deferred_loading="false" protected="false" file="christmas/textures/comeback_msgbox.dds" />
+		<particle name="efx.footstep" deferred_loading="false" protected="false" file="atgparticles/generic/efx/snow_kickup_01.efx" />
+		<particle name="efx.cold_breath" deferred_loading="false" protected="false" file="atgparticles/generic/efx/cold_breath.efx" />
+		<soundbank name="bnk.footsteps" deferred_loading="false" protected="false" file="christmas/audio/FOOTSTEPS_SNOW.bnk" />
+		<soundstream name="mp3.music" deferred_loading="false" protected="false" file="christmas/audio/HomeChristmas_FullMusic.mp3" />
+		<soundstream name="mp3.maze" deferred_loading="false" protected="false" file="christmas/audio/WinterMaze_1_with_fade.mp3" />
+		<lua name="libs.system.assert" deferred_loading="false" protected="true" file="libs/system/Assert.lua" />
+		<lua name="libs.system.log" deferred_loading="false" protected="true" file="libs/system/Log.lua" />
+		<lua name="libs.system.threadmanager" deferred_loading="false" protected="true" file="libs/system/ThreadManager.lua" />
+		<lua name="lua.footsteps" deferred_loading="false" protected="true" file="christmas/lua/fx/footsteps.lua" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="christmas/lua/fx/boot.lua" />
+		<lua name="libs.gui.canvas" deferred_loading="false" protected="true" file="libs/gui/Canvas.lua" />
+		<lua name="libs.gui.colour" deferred_loading="false" protected="true" file="libs/gui/Colours.lua" />
+		<lua name="libs.util.animregisters" deferred_loading="false" protected="true" file="libs/util/animregisters.lua" />
+		<lua name="libs.util.easing" deferred_loading="false" protected="true" file="libs/util/Easing.lua" />
+	</local>
+	<external />
+</resources>

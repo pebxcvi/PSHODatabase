@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="discoball_model" file="EnvironmentAnimations/discoball/AP_BASE_DiscoBall.mdl" deferred_loading="false" />
+		<model name="dancebot_model" file="EnvironmentAnimations/dancebot/CH_BASE_DanceBot.mdl" deferred_loading="false" />
+		<particle name="prpdiscoball_efx" file="ATGParticles/Ratchet/efx/prpdiscoball.efx" deferred_loading="false" />
+		<file name="minigame_lua" file="environments/nsirchome_hub_2bc9_87fd/MiniGame/minigame.lua" deferred_loading="false" />
+		<anim name="discoball_start" file="EnvironmentAnimations/discoball/DiscoBall_Start.ani" deferred_loading="false" />
+		<anim name="discoball_stop" file="EnvironmentAnimations/discoball/DiscoBall_Stop.ani" deferred_loading="false" />
+		<anim name="discoball_idle" file="EnvironmentAnimations/discoball/DiscoBall_Idle.ani" deferred_loading="false" />
+		<anim name="discoball_loop" file="EnvironmentAnimations/discoball/DiscoBall_Loop.ani" deferred_loading="false" />
+		<anim name="dancebot_idle" file="EnvironmentAnimations/dancebot/DanceBot_Idle.ani" deferred_loading="false" />
+		<anim name="dancebot_carlton" file="EnvironmentAnimations/dancebot/DanceBot_CarltonDance.ani" deferred_loading="false" />
+		<anim name="dancebot_office" file="EnvironmentAnimations/dancebot/DanceBot_OfficeDance.ani" deferred_loading="false" />
+		<anim name="dancebot_disco" file="EnvironmentAnimations/dancebot/DanceBot_DiscoDance.ani" deferred_loading="false" />
+		<skeleton name="discoball_skeleton" file="EnvironmentAnimations/discoball/AP_BASE_DiscoBall.skn" deferred_loading="false" />
+		<skeleton name="dancebot_skeleton" file="EnvironmentAnimations/dancebot/CH_BASE_DanceBot.skn" deferred_loading="false" />
+		<soundstream name="DiscoTrack1_mp3" file="Sound/DiscoTrack1_128.mp3" deferred_loading="false" />
+		<soundstream name="DiscoTrack2_mp3" file="Sound/DiscoTrack2_128.mp3" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

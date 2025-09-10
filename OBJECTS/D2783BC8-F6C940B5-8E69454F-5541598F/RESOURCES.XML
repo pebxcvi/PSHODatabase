@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<texture name="edge.dds" deferred_loading="false" protected="false" file="SCEJ_Lib/ui/tex/edge.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/blog/file/Network.xml" />
+		<soundbank name="se_blog.bnk" deferred_loading="false" protected="false" file="MiniGames/Sound/snd/se_blog.bnk" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/blog/lua/MiniGame.luac" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/mathx.luac" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/misc.luac" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/padUtil.luac" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/task.luac" />
+		<lua name="Blog.lua" deferred_loading="false" protected="true" file="MiniGames/Blog/lua/Blog.luac" />
+		<lua name="EventServer.lua" deferred_loading="false" protected="true" file="objects/106099D5-8E4440F9-A0188DC6-6487D399/EventServer.luac" />
+		<lua name="xmlUtil.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/common/xmlUtil.luac" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/ui/MsgWnd.luac" />
+		<lua name="MsgDlg.lua" deferred_loading="false" protected="true" file="MiniGames/Blog/lua/MsgDlg.luac" />
+		<lua name="listerner_minigame.lua" deferred_loading="false" protected="true" file="MiniGames/common/lua/listerner_minigame.luac" />
+		<lua name="sound.lua" deferred_loading="false" protected="true" file="SCEJ_Lib/sound/sound.luac" />
+		<lua name="settings.lua" deferred_loading="false" protected="true" file="MiniGames/Sound/settings.luac" />
+	</local>
+	<external />
+</resources>

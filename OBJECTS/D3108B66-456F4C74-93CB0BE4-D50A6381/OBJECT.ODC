@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.3.5.121.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>D3108B66-456F4C74-93CB0BE4-D50A6381</uuid>
+  <name lang="fr-FR" default="false">Appartement de chasseur de trésors</name>
+  <name lang="de-DE" default="false">Uncharted™-Schatzsucher-Apartment</name>
+  <name lang="it-IT" default="false">Appartamento dei cacciatori di fortune</name>
+  <name lang="es-ES" default="false">Apartamento de cazador de fortunas</name>
+  <name lang="ko-KR" default="false">Uncharted 보물사냥꾼의 아파트</name>
+  <name lang="zh-HK" default="false">Uncharted 寶藏獵人的居所</name>
+  <name lang="zh-TW" default="false">Uncharted 寶藏獵人的居所</name>
+  <name lang="en-US" default="true">Uncharted Fortune Hunter's Apartment</name>
+  <description lang="fr-FR" default="false">Se lancer dans la chasse aux trésors, ce n'est jamais de tout repos. Vous êtes constamment en voyage à l'autre bout du monde et vous ne restez jamais au même endroit bien longtemps. Heureusement que vous avez un appartement comme celui-ci pour vous ressourcer. [#Legal]</description>
+  <description lang="de-DE" default="false">Ein Schatzsucher zu sein ist nicht leicht. Man muss bis ans Ende der Welt reisen und kann nie lange an einem Ort bleiben. Zum Glück kannst du ein Apartment wie dieses dein Zuhause nennen. [#Legal]</description>
+  <description lang="it-IT" default="false">Essere un cacciatore di fortune non è mai semplice. Si è costretti a viaggiare fino ai confini della Terra, senza poter restare in un posto per molto tempo. Fortunatamente hai un appartamento come questo tutto per te. [#Legal]</description>
+  <description lang="es-ES" default="false">Nadie dijo que ser un caza fortunas fuera fácil. Muchas veces te lleva a viajar hasta el fin del mundo sin poder quedarte en un determinado lugar durante mucho tiempo. Gracias a Dios que tienes un apartamento como este al que poder llamar hogar. [#Legal]</description>
+  <description lang="ko-KR" default="false">보물사냥꾼이 되는 일은 결코 쉽지 않습니다. 지구의 끝까지 여행을 계속하고, 같은 장소에 오래 머무는 일은 거의 없습니다. 그래도 이런 아파트를 집이라고 부를 수 있다면, 조금은 위안이 되겠지요. [#Legal]</description>
+  <description lang="zh-HK" default="false">寶藏獵人的生活一點也不易過。除了要長途跋涉去到世界的不同角落，想要找個較為舒適的落腳處也一點不易。幸好，您可以擁有這個公寓做為您的安樂窩！[#Legal]</description>
+  <description lang="zh-TW" default="false">寶藏獵人的生活一點也不易過。除了要長途跋涉去到世界的不同角落，想要找個較為舒適的落腳處也一點不易。幸好，您可以擁有這個公寓做為您的安樂窩！[#Legal]</description>
+  <description lang="en-US" default="true">Being a fortune hunter is never easy. It means having to travel to the ends of the Earth and rarely staying in one place too long. Good thing you have an apartment like this to call home. [#Legal]</description>
+  <maker lang="en-US" default="true">Sony Computer Entertainment</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T035.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T035.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T035.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">SCEA_Uncharted2Apt_B22D_53F2</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEA">UP9000-NPUQ00004_00-000560</entitlement_id>
+    <entitlement_id territory="SCEE">EP9000-NPEQ00014_00-000050</entitlement_id>
+    <entitlement_id territory="SCEAsia">HP9000-NPHQ00006_00-000095</entitlement_id>
+    <category_id territory="SCEA">UP9000-NPUQ00004_00</category_id>
+    <category_id territory="SCEE">EP9000-NPEQ00014_00</category_id>
+    <category_id territory="SCEAsia">HP9000-NPHQ00006_00</category_id>
+    <product_id territory="SCEA">UP9000-NPUQ00004_00-UNCHARTEDAPTMNT1</product_id>
+    <product_id territory="SCEE">EP9000-NPEQ00014_00-FORTUNEHUN000050</product_id>
+    <product_id territory="SCEAsia">HP9000-NPHQ00006_00-0000950000000000</product_id>
+  </entitlements>
+  <legal>
+    <age_rating rating_system="ESRB" rating="T" minimum_age="13" parental_control_level="5" />
+    <age_rating rating_system="PEGI" rating="16+" minimum_age="16" parental_control_level="1" content_type="PEGI_5" />
+    <age_rating rating_system="USK" rating="16" minimum_age="16" parental_control_level="1" />
+    <age_rating rating_system="OFLCAU" rating="MA15+" minimum_age="15" parental_control_level="1" content_type="OFLCAU_49" />
+    <age_rating rating_system="OFLCNZ" rating="R15" minimum_age="15" parental_control_level="1" content_type="OFLCNZ_37" />
+    <age_rating rating_system="SCEJ" rating="C" minimum_age="15" parental_control_level="7" />
+    <age_rating country="SG" minimum_age="0" parental_control_level="1" />
+    <age_rating country="ID" minimum_age="0" parental_control_level="1" />
+    <age_rating country="TH" minimum_age="0" parental_control_level="1" />
+    <age_rating country="MY" minimum_age="0" parental_control_level="1" />
+    <age_rating country="KR" minimum_age="0" parental_control_level="3" />
+    <age_rating country="TW" minimum_age="0" parental_control_level="1" />
+    <age_rating country="HK" minimum_age="0" parental_control_level="1" />
+  </legal>
+  <timestamp>8737006C</timestamp>
+</odc>

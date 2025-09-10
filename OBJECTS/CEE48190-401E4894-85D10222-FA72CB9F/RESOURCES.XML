@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Coin.mdl" deferred_loading="false" protected="false" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/models/Garage_CoinTossCoin.mdl" />
+		<texture name="blank.dds" deferred_loading="false" protected="false" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/models/textures/blank.dds" />
+		<particle name="smokeBG.efx" deferred_loading="false" protected="false" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/ATGparticles/smokeBG.efx" />
+		<particle name="splash.efx" deferred_loading="false" protected="false" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/ATGparticles/splash.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/Network.xml" />
+		<collision name="Coin.hkx" deferred_loading="false" protected="false" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/models/Garage_CoinTossCoin.hkx" />
+		<soundbank name="coinToss.bnk" deferred_loading="false" protected="false" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/sounds/coinToss.bnk" />
+		<lua name="coinToss.lua" deferred_loading="false" protected="true" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/programming/coinToss.lua" />
+		<lua name="MyCamera.lua" deferred_loading="false" protected="true" file="environments/2010/per/per_mansion/luxapt_mansion_garage/minigames/garage_cointoss/programming/MyCamera.lua" />
+	</local>
+	<external />
+</resources>

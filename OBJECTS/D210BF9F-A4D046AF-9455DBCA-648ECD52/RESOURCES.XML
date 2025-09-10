@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<particle name="Eff_taihou_00.efx" deferred_loading="false" protected="false" file="IremA7/design/ATGParticles/Efx/Eff_taihou_00.efx" />
+		<file name="osd_types.xml" deferred_loading="false" protected="false" file="IremA7/soft_jp_00/mini_games/TAIHOU/osd_types.xml" />
+		<file name="WndSimpleMenuDialog.xml" deferred_loading="false" protected="false" file="IremA7/soft_jp_00/common/OSD/WndSimpleMenuDialog.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" protected="false" file="IremA7/soft_jp_00/common/OSD/SelectionButton.xml" />
+		<file name="WndTab.xml" deferred_loading="false" protected="false" file="IremA7/soft_jp_00/common/OSD/WndTab.xml" />
+		<file name="WndSelectDialog.xml" deferred_loading="false" protected="false" file="IremA7/soft_jp_00/common/OSD/WndSelectDialog.xml" />
+		<anim name="anm_Male_A7_taihou.ani" deferred_loading="true" protected="false" file="IremA7/design/motion/anm_Male_A7_taihou.ani" />
+		<anim name="anm_Female_A7_taihou.ani" deferred_loading="true" protected="false" file="IremA7/design/motion/anm_Female_A7_taihou.ani" />
+		<soundbank name="taihou.bnk" deferred_loading="false" protected="false" file="IremA7/sound/mini_games/TAIHOU/taihou.bnk" />
+		<repertoire name="repertoire_m_taihou" deferred_loading="true" protected="false" file="objects/D210BF9F-A4D046AF-9455DBCA-648ECD52/repertoire_m_taihou.xml" />
+		<repertoire name="repertoire_f_taihou" deferred_loading="true" protected="false" file="objects/D210BF9F-A4D046AF-9455DBCA-648ECD52/repertoire_f_taihou.xml" />
+		<lua name="taihou.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/mini_games/TAIHOU/taihou.lua" />
+		<lua name="define.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/mini_games/TAIHOU/define.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/mini_games/TAIHOU/main.lua" />
+		<lua name="DialogTabSelectS.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/common/Dialog/DialogTabSelectS.lua" />
+		<lua name="LuaUtil.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/common/LuaUtil.lua" />
+		<lua name="LuaDebugUtil.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/common/LuaDebugUtil.lua" />
+		<lua name="LuaFade.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/common/LuaFade.lua" />
+		<lua name="LuaPadUtil.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/common/LuaPadUtil.lua" />
+		<lua name="LuaSingleEvent.lua" deferred_loading="false" protected="true" file="IremA7/soft_jp_00/common/LuaSingleEvent.lua" />
+	</local>
+	<external />
+</resources>

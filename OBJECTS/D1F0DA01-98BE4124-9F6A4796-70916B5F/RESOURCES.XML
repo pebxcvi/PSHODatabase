@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="NPC_Model" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_prefect_NPC.mdl" />
+		<anim name="NPC_anim_idle" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_SHIFTY_M_01.ani" />
+		<anim name="NPC_anim_beckon" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_SHIFTY_M_04.ani" />
+		<anim name="NPC_anim_spotIdle1" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_SHIFTY_M_02.ani" />
+		<anim name="NPC_anim_spotIdle2" deferred_loading="false" protected="false" file="realtimegames/wizardsduel/animation/DUEL_SHIFTY_M_03.ani" />
+		<skeleton name="NPC_Skeleton" deferred_loading="false" protected="false" file="characters_v2/male/male01/fullbodysuit/Male01_FullBodySuit_prefect_NPC.skn" />
+		<lua name="NPC_Lua" deferred_loading="false" protected="true" file="objects/D1F0DA01-98BE4124-9F6A4796-70916B5F/NPC.lua" />
+	</local>
+	<external />
+</resources>

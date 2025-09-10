@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" hdk_version="1.65.0.139.BETA" version="1.0">
+  <version>1.0</version>
+  <uuid>D1A1DF77-FC8B48B3-B566BFC9-5450EBB9</uuid>
+  <name lang="fr-FR" default="false">Centre d'entraînement MiniBots</name>
+  <name lang="de-DE" default="false">MiniBots-Trainingsanlage</name>
+  <name lang="it-IT" default="false">Struttura di addestramento MiniBot</name>
+  <name lang="es-ES" default="false">Instalaciones de entrenamiento de los MiniBots</name>
+  <name lang="en-US" default="true">MiniBots Training Facility</name>
+  <description lang="fr-FR" default="false">Cet espace personnel laisser vous créez et contrôlez un MiniBot personnalisé dans ce jeu pour 2-8 joueurs. S'affronter lors d'un combat à mort ou se rassembler avec les amis sans un jeu d'équipe. peuvent Récupérez des trophées cachés afin de déverrouiller récompenses uniques.</description>
+  <description lang="de-DE" default="false">In dieser persönlichen Umgebung können Sie einen individuellen MiniBot in einem schnellen und aktionsgeladenen Multiplier-Third Person-Shooter für 2-8 Spieler entwerfen und steuern. Kämpfen Sie es aus in einem kostenlosen Kampf, bei dem es am Ende nur einen geben kann - oder tun Sie sich für eine Schlacht im Team-Arena-Modus mit Freunden zusammen! Führen Sie verborgene Aufgaben aus, um einzigartige Belohnungen freizuschalten!</description>
+  <description lang="it-IT" default="false">Questo spazio personale ti consente di progettare e controllare un MiniBot personalizzato in uno sparatutto in terza persona in modalità multigiocatore dal ritmo adrenalinico dai 2 agli 8 giocatori. Combatti in una lotta all'ultimo robot Tutti contro tutti o alleati con altri amici per utilizzare la modalità gioco di squadra. Completa obiettivi nascosti per sbloccare premi unici!</description>
+  <description lang="es-ES" default="false">Este espacio personal te permite diseñar y controlar un MiniBot personalizado en un rápido disparador de terceros para varios jugadores (de 1 a 8 jugadores). Lucha hasta el final en una pelea hasta que caiga el último robot o únete a tus amigos para el modo Equipo Arena. ¡Completa logros ocultos para liberar recompensas exclusivas!</description>
+  <description lang="en-US" default="true">This personal space allows you to design and control a custom MiniBot in a fast-paced multiplayer third person shooter for 2-8 players. Battle it out in a last-bot standing Free-for-all brawl or  group with friends for Team Arena mode! Complete hidden achievements to unlock unique rewards!</description>
+  <maker lang="en-US" default="true">Juggernaut Games</maker>
+  <maker_image lang="en-US" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
+  <small_image lang="en-US" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
+  <large_image lang="en-US" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
+  <data component="scene_entitlement">
+    <element name="scenename">Minibots_TrainingApt_E8EE_2E12</element>
+    <element name="scene_type">apartment</element>
+  </data>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat />
+  <timestamp>B4C23B26</timestamp>
+</odc>

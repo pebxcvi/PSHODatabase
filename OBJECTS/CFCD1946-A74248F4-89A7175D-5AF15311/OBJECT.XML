@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objectdef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<header>
+		<name type="string">Female_Hamster_Feet</name>
+		<description type="string" />
+		<author type="string">jalmazan</author>
+		<object_version type="string">1.0</object_version>
+		<company type="string" />
+		<legal type="list" />
+	</header>
+	<clothing>
+		<name type="string">Female_Hamster_Feet</name>
+		<type type="string">Feet</type>
+		<models type="list">
+			<model type="bag">
+				<name type="string">Female01_Feet_Hamster_Feet</name>
+				<lods type="bag">
+					<lod1 type="string">Female01_Feet_Hamster_Feet.lod1</lod1>
+					<lod2 type="string">Female01_Feet_Hamster_Feet.lod2</lod2>
+					<lod3 type="string">Female01_Feet_Hamster_Feet.lod3</lod3>
+				</lods>
+				<skeleton type="string" />
+				<materials type="list">
+					<material type="bag">
+						<type type="string">default</type>
+						<shadingGroup type="string">Female_Hamster_Feet_export_Hamster_foot_export_feetSG</shadingGroup>
+						<path type="string" />
+						<maps type="list">
+							<map type="bag">
+								<name type="string">colourMap</name>
+								<source type="string">Female01_Feet_Hamster_Feet.Female_Hamster_Feet_export_Hamster_foot_export_feetSG.colourMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">normalMap</name>
+								<source type="string">Female01_Feet_Hamster_Feet.Female_Hamster_Feet_export_Hamster_foot_export_feetSG.normalMap</source>
+								<format type="string">resource</format>
+							</map>
+							<map type="bag">
+								<name type="string">specularMap</name>
+								<source type="string">Female01_Feet_Hamster_Feet.Female_Hamster_Feet_export_Hamster_foot_export_feetSG.specularMap</source>
+								<format type="string">resource</format>
+							</map>
+						</maps>
+					</material>
+				</materials>
+			</model>
+		</models>
+	</clothing>
+</objectdef>
