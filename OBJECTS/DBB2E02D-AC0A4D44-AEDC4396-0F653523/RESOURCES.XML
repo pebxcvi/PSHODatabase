@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="configuration.xml" deferred_loading="false" protected="false" file="soundpacks/keyboard/file/configuration.xml" memory="host" />
+		<anim name="airguitarf.ani" deferred_loading="true" protected="false" file="animation/female/soundpacks/airkeyboard/HammeringF.ani" memory="host" />
+		<anim name="ArmLoop_F.ani" deferred_loading="true" protected="false" file="animation/female/soundpacks/airkeyboard/intenseF.ani" memory="main" />
+		<anim name="jump_F.ani" deferred_loading="true" protected="false" file="animation/female/soundpacks/jump_f.ani" memory="host" />
+		<anim name="riff_F.ani" deferred_loading="true" protected="false" file="animation/female/soundpacks/airkeyboard/quietF.ani" memory="host" />
+		<anim name="airguitar.ani" deferred_loading="true" protected="false" file="animation/male/soundpacks/air-keyboard/hammering.ani" memory="host" />
+		<anim name="ArmLoop_M.ani" deferred_loading="true" protected="false" file="animation/male/soundpacks/air-keyboard/intense.ani" memory="host" />
+		<anim name="riff_M.ani" deferred_loading="true" protected="false" file="animation/male/soundpacks/air-keyboard/quiet.ani" memory="host" />
+		<anim name="Jump_M.ani" deferred_loading="true" protected="false" file="animation/male/soundpacks/jump_m.ani" memory="host" />
+		<soundbank name="bnk" deferred_loading="true" protected="false" file="soundpacks/keyboard/soundstream/AirKeyboard.bnk" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="soundpacks/keyboard/repertoire/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="SoundPacks/keyboard/repertoire/female.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="SoundPacks/AirGuitar186/lua/boot.luac" memory="host" id="3699705613" />
+	</local>
+	<external />
+</resources>

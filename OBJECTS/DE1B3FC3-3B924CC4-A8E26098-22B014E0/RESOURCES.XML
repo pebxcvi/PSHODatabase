@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl.local" deferred_loading="true" protected="false" file="CompanionFollowers/FARM_chicken/FARM_Chicken_Companion_RIG.mdl" memory="host" />
+		<model name="mdl.remote" deferred_loading="true" protected="false" file="CompanionFollowers/FARM_chicken/FARM_Chicken_Companion_RIG.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="CompanionFollowers/FARM_chicken/file/config.xml" memory="host" />
+		<collision name="col.sphere" deferred_loading="true" protected="false" file="CompanionFollowers/FARM_chicken/collision/sphere.hkx" memory="host" id="3913912857" />
+		<anim name="ani.idle" deferred_loading="true" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chicken_Idle.ani" memory="host" />
+		<anim name="ani.walk" deferred_loading="true" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chicken_Walk.ani" memory="host" />
+		<anim name="ani.run" deferred_loading="true" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chicken_Run.ani" memory="host" />
+		<anim name="ani.idle02" deferred_loading="true" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chicken_Idle_Unique.ani" memory="host" />
+		<anim name="ani.feed" deferred_loading="true" protected="false" file="environments/farm_bramblenook/models/animals/chicken/FARM_Chicken_Feed.ani" memory="host" />
+		<skeleton name="skn.companion" deferred_loading="true" protected="false" file="CompanionFollowers/FARM_chicken/FARM_Chicken_Companion_RIG.skn" memory="host" />
+		<soundbank name="audio.bnk" deferred_loading="true" protected="false" file="CompanionFollowers/FARM_chicken/soundbank/audio.bnk" memory="main" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="CompanionFollowers/FARM_chicken/lua/boot.luac" memory="host" id="2846966330" />
+	</local>
+	<external />
+</resources>

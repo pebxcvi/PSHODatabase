@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+  <PHRASE>
+    <LANG ID="REF">kName</LANG>
+    <LANG ID="ja-JP">浮き輪で遊泳</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">kDesc</LANG>
+    <LANG ID="ja-JP">浮き輪で遊泳(ラウンジ) [#Legal]</LANG>
+  </PHRASE>
+
+<!-- Legend-->
+  <PHRASE>
+    <LANG ID="REF">LegMenuSelect</LANG>
+    <LANG ID="ja-JP">[UP][DOWN]選択</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegMenuAccept</LANG>
+    <LANG ID="ja-JP">[ACCEPT]決定</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegMenuCancel</LANG>
+    <LANG ID="ja-JP">[DECLINE]キャンセル</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegNext</LANG>
+    <LANG ID="ja-JP">[ACCEPT]次へ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegBack</LANG>
+    <LANG ID="ja-JP">[DECLINE]戻る</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegCamReset</LANG>
+    <LANG ID="ja-JP">[R3]視点リセット</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegCapure</LANG>
+    <LANG ID="ja-JP">[SQUARE]撮影(長押しでフラッシュ)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegCloseLegend</LANG>
+    <LANG ID="ja-JP">[L2]表示/非表示</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegCam</LANG>
+    <LANG ID="ja-JP">[R1]視点切り替え</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegRolling</LANG>
+    <LANG ID="ja-JP">[ALL_REGION_CIRCLE]一回転</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegScream</LANG>
+    <LANG ID="ja-JP">[ALL_REGION_CROSS]絶叫</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">LegStartFlight</LANG>
+    <LANG ID="ja-JP">[ACCEPT]遊泳開始</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">LegMenuUpdate</LANG>
+    <LANG ID="ja-JP">[SQUARE]リスト更新</LANG>
+  </PHRASE>
+  
+  
+<!-- ロビー-->
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Select_01</LANG>
+    <LANG ID="ja-JP">「浮き輪」「浮き袋・マット」「浮き袋・イルカ」「浮き袋・シャチ」\n「イルカのスーツ」「サメのスーツ」のいずれかのアイテムを持っていると\nその遊具を使って　遊泳が楽しめます</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Select_02</LANG>
+    <LANG ID="ja-JP">遊泳に使用する遊具を選択してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Select_03</LANG>
+    <LANG ID="ja-JP">一緒に遊泳する人を募集しますか？</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Select_04</LANG>
+    <LANG ID="ja-JP">遊泳に使用する遊具のカラーを選択してください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Wait_Takeoff</LANG>
+    <LANG ID="ja-JP">遊泳開始まで　あと%3d秒</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Host_Wait_Client</LANG>
+    <LANG ID="ja-JP">一緒に遊泳する人を待っています…</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Client_Select_Host</LANG>
+    <LANG ID="ja-JP">誰の誘いに乗りますか？\n（[SQUARE]ボタンでリストを更新することができます）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Client_Wait_Host_Start</LANG>
+    <LANG ID="ja-JP">[ONLINEID]さんの開始を待っています…</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Host_Confirm_Client</LANG>
+    <LANG ID="ja-JP">[ONLINEID]さんが一緒に遊泳したいようです\n参加を承認しますか？</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Client_Confirm_Host</LANG>
+    <LANG ID="ja-JP">[ONLINEID]さんに遊泳の参加を申し込みました\n了承を待っています…</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_HostCowntDown</LANG>
+    <LANG ID="ja-JP">残り%d秒</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Disable_Playing</LANG>
+    <LANG ID="ja-JP">浮き輪で遊泳をするには　以下のいずれかのアイテムが必要です\n「浮き輪」「浮き袋・マット」「浮き袋・イルカ」「浮き袋・シャチ」\n「イルカのスーツ」「サメのスーツ」</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Disable_PlayingHost</LANG>
+    <LANG ID="ja-JP">一緒に泳ぐ相手を募集するには　以下のいずれかのアイテムが必要です\n「浮き袋・マット」「浮き袋・イルカ」「浮き袋・シャチ」\n（ほかの人の誘いに乗る場合は　持っていなくても参加できます）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_HostName</LANG>
+    <LANG ID="ja-JP">[ONLINEID] - [CONFTYPE]</LANG>
+  </PHRASE>
+   <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Host_Start_Party</LANG>
+    <LANG ID="ja-JP">遊泳を始めますか？</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Wait_Lobby01</LANG>
+    <LANG ID="ja-JP">しばらくお待ちください</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Wait_Lobby02</LANG>
+    <LANG ID="ja-JP">しばらくお待ちください（順番待ち：現在%s番目）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_WaitingLabel</LANG>
+    <LANG ID="ja-JP">メンバー募集中...</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Next</LANG>
+    <LANG ID="ja-JP">[ACCEPT]次へ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Host_Cancel</LANG>
+    <LANG ID="ja-JP">[ONLINEID]さんは募集を打ち切っています</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Host_Reject</LANG>
+    <LANG ID="ja-JP">[ONLINEID]さんから了承されませんでした</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextMes_Lobby_Host_PushButton</LANG>
+    <LANG ID="ja-JP">[ACCEPT]ボタンで遊泳を開始します</LANG>
+  </PHRASE>
+  
+  
+  
+
+<!-- ロビー選択肢-->
+  <PHRASE>
+    <LANG ID="REF">TextSel_OnePersonGame</LANG>
+    <LANG ID="ja-JP">ひとりで遊泳</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_GroupGame</LANG>
+    <LANG ID="ja-JP">ふたりで遊泳</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Beach</LANG>
+    <LANG ID="ja-JP">砂浜に戻る</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Quit</LANG>
+    <LANG ID="ja-JP">やめる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Course_01</LANG>
+    <LANG ID="ja-JP">のんびりコース</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Course_02</LANG>
+    <LANG ID="ja-JP">ドキドキコース</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Back</LANG>
+    <LANG ID="ja-JP">もどる</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">Yes</LANG>
+    <LANG ID="ja-JP">はい</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">No</LANG>
+    <LANG ID="ja-JP">いいえ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Mode_Host</LANG>
+    <LANG ID="ja-JP">自分で募集する</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Mode_Client</LANG>
+    <LANG ID="ja-JP">ほかの人の誘いに乗る</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_BGM_01</LANG>
+    <LANG ID="ja-JP">BGMあり</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_BGM_02</LANG>
+    <LANG ID="ja-JP">BGMなし</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">TextSel_Type_01</LANG>
+    <LANG ID="ja-JP">浮き輪</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Type_02</LANG>
+    <LANG ID="ja-JP">浮き袋・マット</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Type_03</LANG>
+    <LANG ID="ja-JP">浮き袋・イルカ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Type_04</LANG>
+    <LANG ID="ja-JP">浮き袋・シャチ</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Type_05</LANG>
+    <LANG ID="ja-JP">着ぐるみスーツ</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">TextSel_Float_Color_01</LANG>
+    <LANG ID="ja-JP">浮き輪(アクア)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Float_Color_02</LANG>
+    <LANG ID="ja-JP">浮き輪(ピンク)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Float_Color_03</LANG>
+    <LANG ID="ja-JP">浮き輪(グリーン)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Float_Color_04</LANG>
+    <LANG ID="ja-JP">浮き輪(イエロー)</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">TextSel_Bed_Color_01</LANG>
+    <LANG ID="ja-JP">浮き袋・マット(ブルー)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Bed_Color_02</LANG>
+    <LANG ID="ja-JP">浮き袋・マット(ピンク)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Bed_Color_03</LANG>
+    <LANG ID="ja-JP">浮き袋・マット(グリーン)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Bed_Color_04</LANG>
+    <LANG ID="ja-JP">浮き袋・マット(イエロー)</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">TextSel_Dolphin_Color_01</LANG>
+    <LANG ID="ja-JP">浮き袋・イルカ(アクア)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Dolphin_Color_02</LANG>
+    <LANG ID="ja-JP">浮き袋・イルカ(ピンク)</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">TextSel_Whale_Color_01</LANG>
+    <LANG ID="ja-JP">浮き袋・シャチ(ブラック)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Whale_Color_02</LANG>
+    <LANG ID="ja-JP">浮き袋・シャチ(ピンク)</LANG>
+  </PHRASE>
+  
+  <PHRASE>
+    <LANG ID="REF">TextSel_Suite_01</LANG>
+    <LANG ID="ja-JP">イルカのスーツ（アクア＆ホワイト）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Suite_02</LANG>
+    <LANG ID="ja-JP">イルカのスーツ（ピンク＆ホワイト）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Suite_03</LANG>
+    <LANG ID="ja-JP">サメのスーツ（ブルー＆ホワイト）</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Suite_04</LANG>
+    <LANG ID="ja-JP">サメのスーツ（ピンク＆ホワイト）</LANG>
+  </PHRASE>
+
+  <PHRASE>
+    <LANG ID="REF">TextSel_Float_Color_KIKAI</LANG>
+    <LANG ID="ja-JP">浮き輪(キカイ)</LANG>
+  </PHRASE>
+  <PHRASE>
+    <LANG ID="REF">TextSel_Bed_Color_KIKAI</LANG>
+    <LANG ID="ja-JP">浮き袋・マット(キカイ)</LANG>
+  </PHRASE>
+</LOCALISATION>

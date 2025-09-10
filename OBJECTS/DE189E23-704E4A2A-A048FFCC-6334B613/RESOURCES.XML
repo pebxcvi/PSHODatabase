@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="config.xml" deferred_loading="false" protected="false" file="locomotion/elegant_walk_masculine/file/config.xml" memory="host" />
+		<anim name="elegant_walk_01_f.ani" deferred_loading="true" protected="false" file="animation/female/elegant_walk_01_f/elegant_walk_01_f.ani" memory="host" />
+		<anim name="elegant_walk_02_f.ani" deferred_loading="true" protected="false" file="animation/female/elegant_walk_02_f/elegant_walk_02_f.ani" memory="host" />
+		<anim name="elegant_idle_01_f.ani" deferred_loading="true" protected="false" file="animation/female/elegant_idle_01_f/elegant_idle_01_f.ani" memory="host" />
+		<anim name="elegant_walk_01_m.ani" deferred_loading="true" protected="false" file="animation/male/elegant_walk_01_m/elegant_walk_01_m.ani" memory="host" />
+		<anim name="elegant_walk_02_m.ani" deferred_loading="true" protected="false" file="animation/male/elegant_walk_02_m/elegant_walk_02_m.ani" />
+		<anim name="elegant_idle_01_m.ani" deferred_loading="true" protected="false" file="animation/male/elegant_idle_01_m/elegant_idle_01_m.ani" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="locomotion/elegant_walk_masculine/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="locomotion/elegant_walk_masculine/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="locomotion/elegant_walk_masculine/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="locomotion/elegant_walk_masculine/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/werewolf_LMO/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

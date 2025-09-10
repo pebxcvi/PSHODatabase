@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="screen_blk_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_Black.mdl" />
+		<model name="screen_blk_blu_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_Black_Blue.mdl" />
+		<model name="screen_bwn_red_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_Brown_Red.mdl" />
+		<model name="screen_crm_pnk_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_Cream_Pink.mdl" />
+		<model name="screen_gry_blu_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_Gray_Blue.mdl" />
+		<model name="screen_mik_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_Miku.mdl" />
+		<model name="screen_nvy_ylw_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_Navy_Yellow.mdl" />
+		<model name="screen_wht_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_White.mdl" />
+		<model name="screen_wht_blu_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/gallery_screen/Gallery_Screen_White_Blue.mdl" />
+		<model name="ShootingStar_mdl" deferred_loading="false" protected="false" file="japanevents/musiccafe/shootingstar/ShootingStar.mdl" />
+		<texture name="error_img_dds" deferred_loading="false" protected="false" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/textures/error_img.dds" />
+		<texture name="wait_img_dds" deferred_loading="false" protected="false" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/textures/wait_img.dds" />
+		<texture name="count_img_dds" deferred_loading="false" protected="false" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/textures/count_img.dds" />
+		<particle name="Gallery_CherryBlossoms_efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Gallery_CherryBlossoms/efx/Gallery_CherryBlossoms.efx" />
+		<particle name="Gallery_Firefly_efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Gallery_Firefly/efx/Gallery_Firefly.efx" />
+		<particle name="Gallery_MapleLeaves_efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Gallery_MapleLeaves/efx/Gallery_MapleLeaves.efx" />
+		<particle name="Gallery_Snow_Above_efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Gallery_Snow/efx/Gallery_Snow_Above.efx" />
+		<particle name="Gallery_Snow_Front_efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Gallery_Snow/efx/Gallery_Snow_Front.efx" />
+		<particle name="Gallery_Snow_Side_efx" deferred_loading="false" protected="false" file="ATGParticles/japanevents/Gallery_Snow/efx/Gallery_Snow_Side.efx" />
+		<file name="types" deferred_loading="false" protected="false" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/osd/types.xml" />
+		<anim name="ShootingStar_ani" deferred_loading="false" protected="false" file="japanevents/musiccafe/shootingstar/ShootingStar.ani" />
+		<skeleton name="ShootingStars_skn" deferred_loading="false" protected="false" file="japanevents/musiccafe/shootingstar/ShootingStar.skn" />
+		<lua name="main" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/main.luac" />
+		<lua name="paHomeCommon" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomeCommon.luac" />
+		<lua name="paHomeCommonDebug" deferred_loading="true" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomeCommonDebug.luac" />
+		<lua name="paHomeServerBase" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomeServerBase.luac" />
+		<lua name="paHomeServerGeneral" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomeServerGeneral.luac" />
+		<lua name="paHomeServerTrigger" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomeServerTrigger.luac" />
+		<lua name="paHomeScreen" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomeScreen.luac" />
+		<lua name="paHomePosCalc" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomePosCalc.luac" />
+		<lua name="paHomeTime" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/paHomeTime.luac" />
+		<lua name="parameters" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/parameters.luac" />
+		<lua name="eventmain" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventmain.luac" />
+		<lua name="eventStateGame" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventStateGame.luac" />
+		<lua name="eventStateGlobal" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventStateGlobal.luac" />
+		<lua name="eventserver" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventserver.luac" />
+		<lua name="eventscreen" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventscreen.luac" />
+		<lua name="eventbackread" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventbackread.luac" />
+		<lua name="eventLoadLibrary" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventLoadLibrary.luac" />
+		<lua name="eventExternalData" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/eventExternalData.luac" />
+		<lua name="particleEffectMotion" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/particleEffectMotion.luac" />
+		<lua name="serverConfig" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/serverConfig.luac" />
+		<lua name="version" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/version.luac" />
+		<lua name="debugConfig" deferred_loading="false" protected="true" file="objects/DD4D1BE8-592E4AF3-A34C5FE6-29C9510A/scripts/debugConfig.luac" />
+	</local>
+	<external />
+</resources>

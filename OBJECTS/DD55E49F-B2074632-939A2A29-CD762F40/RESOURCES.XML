@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Window_design.mdl" deferred_loading="false" protected="false" file="MiniGames/MG11/Models/Window_design.mdl" />
+		<model name="Window_clear.mdl" deferred_loading="false" protected="false" file="MiniGames/MG11/Models/Window_clear.mdl" />
+		<model name="Single_fountain.mdl" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/Single_fountain.mdl" />
+		<model name="Fountain_Sculptures.mdl" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/Fountain_Sculptures.mdl" />
+		<model name="UFC_PersonalSpace_Umbrella_Close.mdl" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/UFC_PersonalSpace_Umbrella_Close.mdl" />
+		<model name="UFC_PersonalSpace_Umbrella_Open.mdl" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/UFC_PersonalSpace_Umbrella_Open.mdl" />
+		<model name="UFC_PersonalSpace_Umbrella_retracted.mdl" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/UFC_PersonalSpace_Umbrella_retracted.mdl" />
+		<texture name="mg11_arrow_down.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_arrow_down.dds" />
+		<texture name="mg11_arrow_right.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_arrow_right.dds" />
+		<texture name="mg11_arrow_up.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_arrow_up.dds" />
+		<texture name="mg11_fightbook_arrow.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_fightbook_arrow.dds" />
+		<texture name="mg11_fightbook_button_selected.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_fightbook_button_selected.dds" />
+		<texture name="mg11_fightbook_button_unselected.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_fightbook_button_unselected.dds" />
+		<texture name="mg11_fightbook_seperator.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_fightbook_seperator.dds" />
+		<texture name="mg11_arrow_left.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_arrow_left.dds" />
+		<texture name="mg11_osd_fullbackground.dds" deferred_loading="false" protected="false" file="MiniGames/MG11/Textures/mg11_osd_fullbackground.dds" />
+		<particle name="water_falling.efx" deferred_loading="false" protected="false" file="MiniGames/MG11/Efx/water_falling.efx" />
+		<particle name="Fire.efx" deferred_loading="false" protected="false" file="MiniGames/MG11/Efx/Fire.efx" />
+		<particle name="slpash.efx" deferred_loading="false" protected="false" file="MiniGames/MG11/Efx/slpash.efx" />
+		<file name="types.xml" deferred_loading="false" file="MiniGames/MG11/OSD/types.xml" />
+		<file name="MinigameHudType.xml" deferred_loading="false" protected="false" file="MiniGames/Common/OSD/MinigameHudType.xml" />
+		<file name="MG11.xml" deferred_loading="false" protected="false" file="MiniGames/MG11/OSD/MG11.xml" />
+		<file name="Button.xml" deferred_loading="false" protected="false" file="MiniGames/MG11/OSD/Button.xml" />
+		<file name="Contents.xml" deferred_loading="false" protected="false" file="MiniGames/MG11/OSD/Contents.xml" />
+		<collision name="Window_clear.hkx" deferred_loading="false" protected="false" file="MiniGames/MG11/Models/Window_clear.hkx" />
+		<collision name="Window_design.hkx" deferred_loading="false" protected="false" file="MiniGames/MG11/Models/Window_design.hkx" />
+		<anim name="Single_fountain.ani" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/Single_fountain.ani" />
+		<anim name="Fountain_Sculptures.ani" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/Fountain_Sculptures.ani" />
+		<anim name="UFC_PersonalSpace_Umbrella_Close.ani" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/UFC_PersonalSpace_Umbrella_Close.ani" />
+		<anim name="UFC_PersonalSpace_Umbrella_Open.ani" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/UFC_PersonalSpace_Umbrella_Open.ani" />
+		<skeleton name="Single_fountain.skn" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/Single_fountain.skn" />
+		<skeleton name="Fountain_Sculptures.skn" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/Fountain_Sculptures.skn" />
+		<skeleton name="UFC_PersonalSpace_Umbrella_Open.skn" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/UFC_PersonalSpace_Umbrella_Open.skn" />
+		<skeleton name="UFC_PersonalSpace_Umbrella_Close.skn" deferred_loading="false" protected="false" file="MiniGames/MG11/Animations/UFC_PersonalSpace_Umbrella_Close.skn" />
+		<soundbank name="MG11.bnk" deferred_loading="false" protected="false" file="MiniGames/MG11/Sound/MG11.bnk" />
+		<lua name="MinigameManager.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameManager.lua" />
+		<lua name="Audio.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Audio.lua" />
+		<lua name="Game.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Game.lua" />
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Network.lua" />
+		<lua name="Settings.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Settings.lua" />
+		<lua name="HelperFunctions.lua" deferred_loading="false" protected="true" file="MiniGames/Common/HelperFunctions.lua" />
+		<lua name="AudioSystem.lua" deferred_loading="false" protected="true" file="MiniGames/Common/AudioSystem.lua" />
+		<lua name="MinigameHud.lua" deferred_loading="false" protected="true" file="MiniGames/Common/MinigameHud.lua" />
+		<lua name="Fountains.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Fountains.lua" />
+		<lua name="MainPanel.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/MainPanel.lua" />
+		<lua name="Door.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Door.lua" />
+		<lua name="Panel.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Panel.lua" />
+		<lua name="Fireplace.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Fireplace.lua" />
+		<lua name="VideoScreen.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/VideoScreen.lua" />
+		<lua name="Sunshade.lua" deferred_loading="false" protected="true" file="MiniGames/MG11/Source/Sunshade.lua" />
+	</local>
+	<external />
+</resources>

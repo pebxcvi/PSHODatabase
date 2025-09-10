@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/large_cauldron_details/Large_Cauldron_details.mdl" />
+		<particle name="cauldronFire.efx" deferred_loading="false" protected="false" file="objects/DF2EBC67-723146D6-87FED0E0-4F11BB3C/cauldronFire.efx" />
+		<particle name="cauldronFog.efx" deferred_loading="false" protected="false" file="objects/DF2EBC67-723146D6-87FED0E0-4F11BB3C/cauldronFog.efx" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/large_cauldron_details/Large_Cauldron_details.hkx" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="objects/DF2EBC67-723146D6-87FED0E0-4F11BB3C/main.lua" />
+	</local>
+	<external />
+</resources>

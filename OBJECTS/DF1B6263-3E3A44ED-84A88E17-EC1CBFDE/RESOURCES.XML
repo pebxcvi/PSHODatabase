@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="dummy_01.mdl" deferred_loading="false" file="April2010/design/enemy/dummy_01.mdl" memory="host" />
+		<model name="bow_00_arrow.mdl" deferred_loading="false" file="April2010/design/wpn/bow_00_arrow.mdl" memory="host" />
+		<model name="bow_target_point_00.mdl" deferred_loading="false" file="April2010/design/effect/scenes/bow_target_point_00.mdl" memory="host" />
+		<model name="e604_catapult_01.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e604_catapult_01.mdl" memory="host" />
+		<model name="e604_catapult_01_stone.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e604_catapult_01_stone.mdl" memory="host" />
+		<model name="anm_e604_catapult_atk.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e604_catapult_atk.mdl" memory="host" />
+		<model name="anm_e604_catapult_atks.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e604_catapult_atks.mdl" memory="host" />
+		<model name="e603_skeleton_bow_01.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e603_skeleton_bow_01.mdl" memory="host" />
+		<model name="e603_skeleton_bow_arrow.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e603_skeleton_bow_arrow.mdl" memory="host" />
+		<model name="eff_hit_club_lv1.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_club_lv1.mdl" memory="host" />
+		<model name="eff_hit_club_lv2.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_club_lv2.mdl" memory="host" />
+		<model name="eff_hit_dagger_lv1.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv1.mdl" memory="host" />
+		<model name="eff_hit_dagger_lv2.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv2.mdl" memory="host" />
+		<model name="eff_hit_spear_lv1.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_spear_lv1.mdl" memory="host" />
+		<model name="eff_hit_spear_lv2.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_spear_lv2.mdl" memory="host" />
+		<model name="eff_hit_sword_lv1.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_sword_lv1.mdl" memory="host" />
+		<model name="eff_hit_sword_lv2.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_sword_lv2.mdl" memory="host" />
+		<model name="eff_hit_wand_lv1.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_wand_lv1.mdl" memory="host" />
+		<model name="eff_hit_wand_lv2.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_wand_lv2.mdl" memory="host" />
+		<model name="e204_skeleton_knight_01.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e204_skeleton_knight_01.mdl" memory="host" />
+		<model name="eff_magic_fire_ring.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_fire_ring.mdl" memory="host" />
+		<model name="eff_magic_fire5_ring.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_fire5_ring.mdl" memory="host" />
+		<model name="eff_magic_Thunder1_ring.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Thunder1_ring.mdl" memory="host" />
+		<model name="eff_magic_Thunder5_ring.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Thunder5_ring.mdl" memory="host" />
+		<model name="eff_magic_Dark1_ring.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Dark1_ring.mdl" memory="host" />
+		<model name="eff_magic_Dark5_ring.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Dark5_ring.mdl" memory="host" />
+		<model name="e701_cyclops_01.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e701_cyclops_01.mdl" memory="host" />
+		<model name="eff_e102_hadou_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_e102_hadou_01.mdl" memory="host" />
+		<model name="eff_e102_hadou_shock_wave_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_e102_hadou_shock_wave_01.mdl" memory="host" />
+		<model name="eff_e102_hadou_shock_wave_02.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_e102_hadou_shock_wave_02.mdl" memory="host" />
+		<model name="e102_cerberus_01.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e102_cerberus_01.mdl" memory="host" />
+		<model name="e102_cerberus_anchor.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/e102_cerberus_anchor.mdl" memory="host" />
+		<model name="anm_e102_cerberus_anchor_atks.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_atks.mdl" memory="host" />
+		<model name="anm_e102_cerberus_anchor_ntr.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_ntr.mdl" memory="host" />
+		<model name="anm_e102_cerberus_dfl.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_dfl.mdl" memory="host" />
+		<model name="anm_e102_cerberus_dfs.mdl" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_dfs.mdl" memory="host" />
+		<model name="eff_magic_firerange_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_firerange_01.mdl" memory="host" />
+		<model name="eff_magic_Foodrange_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_foodrange_01.mdl" memory="host" />
+		<model name="eff_magic_Foodrange_05.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_foodrange_05.mdl" memory="host" />
+		<model name="eff_magic_Happyrange_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_happyrange_01.mdl" memory="host" />
+		<model name="eff_magic_Happyrange_05.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_happyrange_05.mdl" memory="host" />
+		<model name="eff_magic_Holyrange_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_holyrange_01.mdl" memory="host" />
+		<model name="eff_magic_Holyrange_05.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_holyrange_05.mdl" memory="host" />
+		<model name="eff_magic_Icerange_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_icerange_01.mdl" memory="host" />
+		<model name="eff_magic_Icerange_05.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_icerange_05.mdl" memory="host" />
+		<model name="eff_magic_Loverange_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_loverange_01.mdl" memory="host" />
+		<model name="eff_magic_Loverange_05.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_loverange_05.mdl" memory="host" />
+		<model name="eff_magic_Recovery_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_recovery_01.mdl" memory="host" />
+		<model name="eff_magic_Waterrange_01.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_waterrange_01.mdl" memory="host" />
+		<model name="eff_magic_Waterrange_05.mdl" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_waterrange_05.mdl" memory="host" />
+		<model name="eff_hit_wand_power_lv1.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_wand_power_lv1.mdl" memory="host" />
+		<model name="eff_hit_wand_power_lv2.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_wand_power_lv2.mdl" memory="host" />
+		<model name="eff_hit_club_power_lv1.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_club_power_lv1.mdl" memory="host" />
+		<model name="eff_hit_dagger_power_lv1.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_dagger_power_lv1.mdl" memory="host" />
+		<model name="eff_hit_dagger_power_lv2.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_dagger_power_lv2.mdl" memory="host" />
+		<model name="eff_hit_spear_power_lv1.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_spear_power_lv1.mdl" memory="host" />
+		<model name="eff_hit_spear_power_lv2.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_spear_power_lv2.mdl" memory="host" />
+		<model name="eff_hit_sword_power_lv1.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_sword_power_lv1.mdl" memory="host" />
+		<model name="eff_hit_sword_power_lv2.mdl" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_sword_power_lv2.mdl" memory="host" />
+		<model name="eff_Cyclops_swing.mdl" deferred_loading="false" protected="false" file="IremSougen/a_jp_00/Chr/scenes/eff_Cyclops_swing.mdl" memory="host" />
+		<model name="e602_skeleton_load_01.mdl" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/e602_skeleton_load_01.mdl" memory="host" />
+		<model name="eff_hit_dagger_lv3.mdl" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv3.mdl" memory="host" />
+		<model name="eff_hit_dagger_lv4.mdl" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv4.mdl" memory="host" />
+		<model name="eff_hit_sword_lv3.mdl" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_sword_lv3.mdl" memory="host" />
+		<model name="eff_hit_dagger_power_lv3.mdl" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_Dagger_Power_Lv3.mdl" />
+		<model name="eff_hit_dagger_power_lv4.mdl" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_Dagger_Power_Lv4.mdl" />
+		<model name="eff_hit_sword_power_lv3.mdl" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_sword_Power_Lv3.mdl" />
+		<texture name="B1_gameover_font.dds" deferred_loading="false" file="V8Lounge/design/B1_MiniGames/sourceimages/B1_gameover_font.dds" memory="host" />
+		<texture name="HP_gage_waku.dds" deferred_loading="false" file="April2010/design/2D/Cockpit/HP_gage_waku.dds" memory="host" />
+		<particle name="DeathEfx" deferred_loading="false" file="V8Lounge/design/ATGParticles/Efx/Eff_skull_01.efx" memory="host" />
+		<particle name="Eff_sanddust_L.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_sanddust_L.efx" memory="host" />
+		<particle name="Eff_enemy_damage_A.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_enemy_damage_A.efx" memory="host" />
+		<particle name="Eff_enemy_death_light_B.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_enemy_death_light_B.efx" memory="host" />
+		<particle name="Eff_enemy_death_light_S.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_enemy_death_light_S.efx" memory="host" />
+		<particle name="Eff_enemy_death_sanddust_B.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_enemy_death_sanddust_B.efx" memory="host" />
+		<particle name="Eff_enemy_death_sanddust_S.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_enemy_death_sanddust_S.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_0.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_0.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_1.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_1.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_2.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_2.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_3.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_3.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_4.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_4.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_5.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_5.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_6.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_6.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_7.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_7.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_8.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_8.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_9.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_9.efx" memory="host" />
+		<particle name="Eff_e604_sanddust_01.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_e604_sanddust_01.efx" memory="host" />
+		<particle name="Eff_Magic_Fire1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Fire1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Fire1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Fire1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Fire5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Fire5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Fire5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Fire5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Thunder1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Thunder1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Thunder1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Thunder1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Thunder5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Thunder5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Thunder5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Thunder5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Dark1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Dark1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Dark1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Dark1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Dark5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Dark5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Dark5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Dark5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Ice1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Ice1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Ice1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Ice1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Ice5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Ice5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Ice5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Ice5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Water1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Water1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Water1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Water1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Water5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Water5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Water5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Water5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Love1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Love1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Love1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Love1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Love5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Love5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Love5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Love5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Holy1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Holy1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Holy1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Holy1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Holy5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Holy5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Holy5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Holy5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Food1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Food1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Food1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Food1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Food5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Food5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Food5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Food5_00.efx" memory="host" />
+		<particle name="Eff_Magic_Happy1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Happy1_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Happy1_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Happy1_00.efx" memory="host" />
+		<particle name="Eff_Magic_Happy5_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Happy5_hit.efx" memory="host" />
+		<particle name="Eff_Magic_Happy5_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Happy5_00.efx" memory="host" />
+		<particle name="Eff_e102_hadou_hashira_01.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_e102_hadou_hashira_01.efx" memory="host" />
+		<particle name="Eff_e102_anchor_ohiki_01.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_e102_anchor_ohiki_01.efx" memory="host" />
+		<particle name="Eff_e102_hadou_charge_01.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_e102_hadou_charge_01.efx" memory="host" />
+		<particle name="Eff_damage_hitmark_99.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_damage_hitmark_99.efx" memory="host" />
+		<particle name="Eff_Magic_Rec1_hit.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Magic_Rec1_hit.efx" memory="host" />
+		<particle name="Eff_enemy_smoke_M.efx" deferred_loading="false" file="IremSougen/design/ATGParticles/Efx/Eff_enemy_smoke_M.efx" memory="host" />
+		<particle name="Eff_enemy_smoke_S.efx" deferred_loading="false" file="IremSougen/design/ATGParticles/Efx/Eff_enemy_smoke_S.efx" memory="host" />
+		<particle name="Eff_Guard_hitmark_00.efx" deferred_loading="false" file="April2010/design/effect/Efx/Eff_Guard_hitmark_00.efx" memory="host" />
+		<particle name="Eff_smoke_03.efx" deferred_loading="false" protected="false" file="IremSougen/design/ATGParticles/Efx/Eff_smoke_03.efx" memory="host" />
+		<particle name="Eff_enemy_off_M.efx" deferred_loading="false" protected="false" file="IremSougen/design/ATGParticles/Efx/Eff_enemy_off_M.efx" memory="host" />
+		<particle name="Eff_enemy_off_S.efx" deferred_loading="false" protected="false" file="IremSougen/design/ATGParticles/Efx/Eff_enemy_off_S.efx" memory="host" />
+		<particle name="Eff_enemy_death_M.efx" deferred_loading="false" protected="false" file="IremSougen/design/ATGParticles/Efx/Eff_enemy_death_M.efx" memory="host" />
+		<particle name="Eff_enemy_death_S.efx" deferred_loading="false" protected="false" file="IremSougen/design/ATGParticles/Efx/Eff_enemy_death_S.efx" memory="host" />
+		<collision name="0.1m_atr_boll_01.hkx" deferred_loading="false" file="April2010/design/enemy/scenes/0.1m_atr_boll_01.hkx" memory="host" />
+		<collision name="e604_catapult_01_stone_atr.hkx" deferred_loading="false" file="April2010/design/enemy/scenes/e604_catapult_01_stone_atr.hkx" memory="host" />
+		<collision name="e604_catapult_01_atr.hkx" deferred_loading="false" file="April2010/design/enemy/scenes/e604_catapult_01_atr.hkx" memory="host" />
+		<collision name="Enemy_atr_boll_l.hkx" deferred_loading="false" file="April2010/design/enemy/scenes/Enemy_atr_boll_l.hkx" memory="host" />
+		<collision name="Enemy_atr_boll_m.hkx" deferred_loading="false" file="April2010/design/enemy/scenes/Enemy_atr_boll_m.hkx" memory="host" />
+		<collision name="Enemy_atr_boll_s.hkx" deferred_loading="false" file="April2010/design/enemy/scenes/Enemy_atr_boll_s.hkx" memory="host" />
+		<anim name="combat_atk_soldier_male" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_atk_soldier_male.ani" memory="host" />
+		<anim name="combat_grd_soldier_male" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_grd_soldier_male.ani" memory="host" />
+		<anim name="combat_ntl_soldier_male" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_ntl_soldier_male.ani" memory="host" />
+		<anim name="combat_grdlp_soldier_male" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_grdlp_soldier_male.ani" memory="host" />
+		<anim name="combat_atk_bow1_female" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_atk_bow1_female.ani" memory="host" />
+		<anim name="combat_ntl_bow1_female" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_ntl_bow1_female.ani" memory="host" />
+		<anim name="combat_atks_bow1_female" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_atks_bow1_female.ani" memory="host" />
+		<anim name="combat_atklp_bow1_female" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_atklp_bow1_female.ani" memory="host" />
+		<anim name="combat_atke_bow1_female" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_atke_bow1_female.ani" memory="host" />
+		<anim name="combat_ntl_wand1_male" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_ntl_wand1_male.ani" memory="host" />
+		<anim name="combat_atk_wand1_male" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_atk_wand1_male.ani" memory="host" />
+		<anim name="combat_mgc_wand1_male" deferred_loading="true" protected="" file="April2010/design/motion/scenes/combat_mgc_wand1_male.ani" memory="host" />
+		<anim name="combat_atk2_soldier_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_soldier_male.ani" memory="host" />
+		<anim name="combat_atk_soldier_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_soldier_female.ani" memory="host" />
+		<anim name="combat_atk2_soldier_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_soldier_female.ani" memory="host" />
+		<anim name="combat_atk2_bow1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_bow1_female.ani" memory="host" />
+		<anim name="combat_atk2_bow1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_bow1_male.ani" memory="host" />
+		<anim name="combat_atk_bow1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_bow1_male.ani" memory="host" />
+		<anim name="combat_ntl_bow1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_bow1_male.ani" memory="host" />
+		<anim name="combat_ntl_soldier_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_soldier_female.ani" memory="host" />
+		<anim name="combat_grd_soldier_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_grd_soldier_female.ani" memory="host" />
+		<anim name="combat_grdlp_soldier_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_grdlp_soldier_female.ani" memory="host" />
+		<anim name="combat_atk2_wand1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_wand1_male.ani" memory="host" />
+		<anim name="combat_atk_wand1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_wand1_female.ani" memory="host" />
+		<anim name="combat_atk2_wand1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_wand1_female.ani" memory="host" />
+		<anim name="combat_mgc_wand1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_mgc_wand1_female.ani" memory="host" />
+		<anim name="combat_ntl_wand1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_wand1_female.ani" memory="host" />
+		<anim name="combat_atk_dagger1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_dagger1_male.ani" memory="host" />
+		<anim name="combat_atk2_dagger1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_dagger1_male.ani" memory="host" />
+		<anim name="combat_ntl_dagge1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_dagge1_male.ani" memory="host" />
+		<anim name="combat_atk_dagger1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_dagger1_female.ani" memory="host" />
+		<anim name="combat_atk2_dagger1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_dagger1_female.ani" memory="host" />
+		<anim name="combat_ntl_dagger1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_dagger1_female.ani" memory="host" />
+		<anim name="combat_atk_spear1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_spear1_male.ani" memory="host" />
+		<anim name="combat_atk2_spear1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_spear1_male.ani" memory="host" />
+		<anim name="combat_ntl_spear1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_spear1_male.ani" memory="host" />
+		<anim name="combat_atk_spear1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_spear1_female.ani" memory="host" />
+		<anim name="combat_atk2_spear1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_spear1_female.ani" memory="host" />
+		<anim name="combat_ntl_spear1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_spear1_female.ani" memory="host" />
+		<anim name="combat_atk_club1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_club1_male.ani" memory="host" />
+		<anim name="combat_atk2_club1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_club1_male.ani" memory="host" />
+		<anim name="combat_ntl_club1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_club1_male.ani" memory="host" />
+		<anim name="combat_atk_club1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk_club1_female.ani" memory="host" />
+		<anim name="combat_atk2_club1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atk2_club1_female.ani" memory="host" />
+		<anim name="combat_ntl_club1_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_ntl_club1_female.ani" memory="host" />
+		<anim name="e604_catapult_01.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e604_catapult_01.ani" memory="host" />
+		<anim name="e604_catapult_01_stone.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e604_catapult_01_stone.ani" memory="host" />
+		<anim name="anm_e604_catapult_atk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e604_catapult_atk.ani" memory="host" />
+		<anim name="anm_e604_catapult_atks.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e604_catapult_atks.ani" memory="host" />
+		<anim name="anm_e601_s_gargoyle_atks.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e601_s_gargoyle_atks.ani" memory="host" />
+		<anim name="e603_skeleton_bow_01.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e603_skeleton_bow_01.ani" memory="host" />
+		<anim name="e603_skeleton_bow_arrow.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e603_skeleton_bow_arrow.ani" memory="host" />
+		<anim name="anm_e603_skeleton_bow_death.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e603_skeleton_bow_death.ani" memory="host" />
+		<anim name="anm_e603_skeleton_bow_atk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e603_skeleton_bow_atk.ani" memory="host" />
+		<anim name="anm_e603_skeleton_bow_atks.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e603_skeleton_bow_atks.ani" memory="host" />
+		<anim name="eff_hit_club_lv1.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_club_lv1.ani" memory="host" />
+		<anim name="eff_hit_club_lv2.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_club_lv2.ani" memory="host" />
+		<anim name="eff_hit_dagger_lv1.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_dagger_lv1.ani" memory="host" />
+		<anim name="eff_hit_dagger_lv2.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_dagger_lv2.ani" memory="host" />
+		<anim name="eff_hit_spear_lv1.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_spear_lv1.ani" memory="host" />
+		<anim name="eff_hit_spear_lv2.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_spear_lv2.ani" memory="host" />
+		<anim name="eff_hit_sword_lv1.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_sword_lv1.ani" memory="host" />
+		<anim name="eff_hit_sword_lv2.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_sword_lv2.ani" memory="host" />
+		<anim name="eff_hit_wand_lv1.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_wand_lv1.ani" memory="host" />
+		<anim name="eff_hit_wand_lv2.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_hit_wand_lv2.ani" memory="host" />
+		<anim name="e204_skeleton_knight_01.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e204_skeleton_knight_01.ani" memory="host" />
+		<anim name="anm_e204_skeleton_knight_atk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e204_skeleton_knight_atk.ani" memory="host" />
+		<anim name="anm_e204_skeleton_knight_atke.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e204_skeleton_knight_atke.ani" memory="host" />
+		<anim name="anm_e204_skeleton_knight_atks.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e204_skeleton_knight_atks.ani" memory="host" />
+		<anim name="anm_e204_skeleton_knight_death.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e204_skeleton_knight_death.ani" memory="host" />
+		<anim name="anm_e204_skeleton_knight_walk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e204_skeleton_knight_walk.ani" memory="host" />
+		<anim name="combat_dmg_soldier_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_dmg_soldier_male.ani" memory="host" />
+		<anim name="combat_dmg2_soldier_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_dmg2_soldier_male.ani" memory="host" />
+		<anim name="combat_dmg_soldier_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_dmg_soldier_female.ani" memory="host" />
+		<anim name="combat_dmg2_soldier_female.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_dmg2_soldier_female.ani" memory="host" />
+		<anim name="combat_atks_bow1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atks_bow1_male.ani" memory="host" />
+		<anim name="combat_atke_bow1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atke_bow1_male.ani" memory="host" />
+		<anim name="combat_atklp_bow1_male.ani" deferred_loading="true" protected="" file="april2010/design/motion/scenes/combat_atklp_bow1_male.ani" memory="host" />
+		<anim name="eff_magic_fire_ring.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_fire_ring.ani" memory="host" />
+		<anim name="eff_magic_fire5_ring.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_fire5_ring.ani" memory="host" />
+		<anim name="eff_magic_Thunder1_ring.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_Thunder1_ring.ani" memory="host" />
+		<anim name="eff_magic_Thunder5_ring.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_Thunder5_ring.ani" memory="host" />
+		<anim name="eff_magic_Dark1_ring.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_Dark1_ring.ani" memory="host" />
+		<anim name="eff_magic_Dark5_ring.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_Dark5_ring.ani" memory="host" />
+		<anim name="e701_cyclops_01.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e701_cyclops_01.ani" memory="host" />
+		<anim name="anm_e701_cyclops_atk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e701_cyclops_atk.ani" memory="host" />
+		<anim name="anm_e701_cyclops_atke.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e701_cyclops_atke.ani" memory="host" />
+		<anim name="anm_e701_cyclops_atks.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e701_cyclops_atks.ani" memory="host" />
+		<anim name="anm_e701_cyclops_death.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e701_cyclops_death.ani" memory="host" />
+		<anim name="anm_e701_cyclops_walk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e701_cyclops_walk.ani" memory="host" />
+		<anim name="eff_e102_hadou_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_e102_hadou_01.ani" memory="host" />
+		<anim name="eff_e102_hadou_shock_wave_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_e102_hadou_shock_wave_01.ani" memory="host" />
+		<anim name="eff_e102_hadou_shock_wave_02.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_e102_hadou_shock_wave_02.ani" memory="host" />
+		<anim name="e102_cerberus_01.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e102_cerberus_01.ani" memory="host" />
+		<anim name="e102_cerberus_anchor.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/e102_cerberus_anchor.ani" memory="host" />
+		<anim name="anm_e102_cerberus_anchor_atk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_atk.ani" memory="host" />
+		<anim name="anm_e102_cerberus_anchor_atke.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_atke.ani" memory="host" />
+		<anim name="anm_e102_cerberus_anchor_atkl.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_atkl.ani" memory="host" />
+		<anim name="anm_e102_cerberus_anchor_atks.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_atks.ani" memory="host" />
+		<anim name="anm_e102_cerberus_anchor_ntr.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_ntr.ani" memory="host" />
+		<anim name="anm_e102_cerberus_death.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_death.ani" memory="host" />
+		<anim name="anm_e102_cerberus_dfe.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_dfe.ani" memory="host" />
+		<anim name="anm_e102_cerberus_dfl.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_dfl.ani" memory="host" />
+		<anim name="anm_e102_cerberus_dfs.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_dfs.ani" memory="host" />
+		<anim name="anm_e102_cerberus_hadou_atk.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_hadou_atk.ani" memory="host" />
+		<anim name="anm_e102_cerberus_hadou_atks.ani" deferred_loading="false" protected="" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_hadou_atks.ani" memory="host" />
+		<anim name="eff_magic_firerange_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_firerange_01.ani" memory="host" />
+		<anim name="eff_magic_Foodrange_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_foodrange_01.ani" memory="host" />
+		<anim name="eff_magic_Foodrange_05.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_foodrange_05.ani" memory="host" />
+		<anim name="eff_magic_Happyrange_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_happyrange_01.ani" memory="host" />
+		<anim name="eff_magic_Happyrange_05.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_happyrange_05.ani" memory="host" />
+		<anim name="eff_magic_Holyrange_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_holyrange_01.ani" memory="host" />
+		<anim name="eff_magic_Holyrange_05.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_holyrange_05.ani" memory="host" />
+		<anim name="eff_magic_Icerange_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_icerange_01.ani" memory="host" />
+		<anim name="eff_magic_Icerange_05.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_icerange_05.ani" memory="host" />
+		<anim name="eff_magic_Loverange_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_loverange_01.ani" memory="host" />
+		<anim name="eff_magic_Loverange_05.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_loverange_05.ani" memory="host" />
+		<anim name="eff_magic_Waterrange_01.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_waterrange_01.ani" memory="host" />
+		<anim name="eff_magic_Waterrange_05.ani" deferred_loading="false" protected="" file="April2010/design/effect/scenes/eff_magic_waterrange_05.ani" memory="host" />
+		<anim name="eff_hit_wand_power_lv1.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_wand_power_lv1.ani" memory="host" />
+		<anim name="eff_hit_wand_power_lv2.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_wand_power_lv2.ani" memory="host" />
+		<anim name="eff_hit_club_power_lv1.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_club_power_lv1.ani" memory="host" />
+		<anim name="eff_hit_dagger_power_lv1.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_dagger_power_lv1.ani" memory="host" />
+		<anim name="eff_hit_dagger_power_lv2.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_dagger_power_lv2.ani" memory="host" />
+		<anim name="eff_hit_spear_power_lv1.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_spear_power_lv1.ani" memory="host" />
+		<anim name="eff_hit_spear_power_lv2.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_spear_power_lv2.ani" memory="host" />
+		<anim name="eff_hit_sword_power_lv1.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_sword_power_lv1.ani" memory="host" />
+		<anim name="eff_hit_sword_power_lv2.ani" deferred_loading="false" protected="" file="april2010/design/effect/scenes/eff_hit_sword_power_lv2.ani" memory="host" />
+		<anim name="anm_e701_cyclops_start.ani" deferred_loading="false" protected="" file="april2010/design/enemy/scenes/motion/anm_e701_cyclops_start.ani" memory="host" />
+		<anim name="eff_Cyclops_swing.ani" deferred_loading="false" protected="false" file="IremSougen/a_jp_00/Chr/scenes/eff_Cyclops_swing.ani" memory="host" />
+		<anim name="anm_E701_Cyclops_syoumetu.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_E701_Cyclops_syoumetu.ani" memory="host" />
+		<anim name="anm_E204_Skeleton_knight_syoumetu.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_E204_Skeleton_knight_syoumetu.ani" memory="host" />
+		<anim name="anm_E602_Skeleton_Load_syoumetu.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_E602_Skeleton_Load_syoumetu.ani" memory="host" />
+		<anim name="combat_atk3_soldier_male.ani" deferred_loading="false" protected="false" file="april2010/design/motion/scenes/combat_atk3_soldier_male.ani" memory="host" />
+		<anim name="combat_atk3_dagger1_male.ani" deferred_loading="false" protected="false" file="april2010/design/motion/scenes/combat_atk3_dagger1_male.ani" memory="host" />
+		<anim name="combat_atk4_dagger1_male.ani" deferred_loading="false" protected="false" file="april2010/design/motion/scenes/combat_atk4_dagger1_male.ani" memory="host" />
+		<anim name="combat_atk3_soldier_female.ani" deferred_loading="false" protected="false" file="april2010/design/motion/scenes/combat_atk3_soldier_female.ani" memory="host" />
+		<anim name="combat_atk4_dagger1_female.ani" deferred_loading="false" protected="false" file="april2010/design/motion/scenes/combat_atk4_dagger1_female.ani" memory="host" />
+		<anim name="combat_atk3_dagger1_female.ani" deferred_loading="false" protected="false" file="april2010/design/motion/scenes/combat_atk3_dagger1_female.ani" memory="host" />
+		<anim name="e602_skeleton_load_01.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/e602_skeleton_load_01.ani" memory="host" />
+		<anim name="anm_e602_skeleton_load_atk.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_e602_skeleton_load_atk.ani" memory="host" />
+		<anim name="anm_e602_skeleton_load_atke.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_e602_skeleton_load_atke.ani" memory="host" />
+		<anim name="anm_e602_skeleton_load_atks.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_e602_skeleton_load_atks.ani" memory="host" />
+		<anim name="anm_e602_skeleton_load_death.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_e602_skeleton_load_death.ani" memory="host" />
+		<anim name="anm_e602_skeleton_load_walk.ani" deferred_loading="false" protected="false" file="April2010/design/enemy/scenes/motion/anm_e602_skeleton_load_walk.ani" memory="host" />
+		<anim name="eff_hit_dagger_lv3.ani" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv3.ani" memory="host" />
+		<anim name="eff_hit_dagger_lv4.ani" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv4.ani" memory="host" />
+		<anim name="eff_hit_sword_lv3.ani" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_sword_lv3.ani" memory="host" />
+		<anim name="eff_hit_dagger_power_lv3.ani" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_Dagger_Power_Lv3.ani" />
+		<anim name="eff_hit_dagger_power_lv4.ani" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_Dagger_Power_Lv4.ani" />
+		<anim name="eff_hit_sword_power_lv3.ani" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_sword_Power_Lv3.ani" />
+		<skeleton name="dummy_01.skn" deferred_loading="false" file="April2010/design/enemy/dummy_01.skn" memory="host" />
+		<skeleton name="e602_skeleton_load_01.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e602_skeleton_load_01.skn" memory="host" />
+		<skeleton name="e604_catapult_01.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e604_catapult_01.skn" memory="host" />
+		<skeleton name="e604_catapult_01_stone.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e604_catapult_01_stone.skn" memory="host" />
+		<skeleton name="anm_e604_catapult_atks.skn" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e604_catapult_atks.skn" memory="host" />
+		<skeleton name="anm_e604_catapult_atk.skn" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e604_catapult_atk.skn" memory="host" />
+		<skeleton name="e603_skeleton_bow_arrow.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e603_skeleton_bow_arrow.skn" memory="host" />
+		<skeleton name="e603_skeleton_bow_01.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e603_skeleton_bow_01.skn" memory="host" />
+		<skeleton name="eff_hit_club_lv1.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_club_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_club_lv2.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_club_lv2.skn" memory="host" />
+		<skeleton name="eff_hit_dagger_lv1.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_dagger_lv2.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv2.skn" memory="host" />
+		<skeleton name="eff_hit_spear_lv1.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_spear_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_spear_lv2.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_spear_lv2.skn" memory="host" />
+		<skeleton name="eff_hit_sword_lv1.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_sword_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_sword_lv2.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_sword_lv2.skn" memory="host" />
+		<skeleton name="eff_hit_wand_lv1.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_wand_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_wand_lv2.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_hit_wand_lv2.skn" memory="host" />
+		<skeleton name="e204_skeleton_knight_01.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e204_skeleton_knight_01.skn" memory="host" />
+		<skeleton name="eff_magic_fire_ring.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_fire_ring.skn" memory="host" />
+		<skeleton name="eff_magic_fire5_ring.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_fire5_ring.skn" memory="host" />
+		<skeleton name="eff_magic_Thunder1_ring.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Thunder1_ring.skn" memory="host" />
+		<skeleton name="eff_magic_Thunder5_ring.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Thunder5_ring.skn" memory="host" />
+		<skeleton name="eff_magic_Dark1_ring.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Dark1_ring.skn" memory="host" />
+		<skeleton name="eff_magic_Dark5_ring.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_Dark5_ring.skn" memory="host" />
+		<skeleton name="e701_cyclops_01.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e701_cyclops_01.skn" memory="host" />
+		<skeleton name="eff_e102_hadou_shock_wave_02.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_e102_hadou_shock_wave_02.skn" memory="host" />
+		<skeleton name="eff_e102_hadou_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_e102_hadou_01.skn" memory="host" />
+		<skeleton name="eff_e102_hadou_shock_wave_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_e102_hadou_shock_wave_01.skn" memory="host" />
+		<skeleton name="e102_cerberus_01.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e102_cerberus_01.skn" memory="host" />
+		<skeleton name="e102_cerberus_anchor.skn" deferred_loading="false" file="April2010/design/enemy/scenes/e102_cerberus_anchor.skn" memory="host" />
+		<skeleton name="anm_e102_cerberus_anchor_atks.skn" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_atks.skn" memory="host" />
+		<skeleton name="anm_e102_cerberus_anchor_ntr.skn" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_anchor_ntr.skn" memory="host" />
+		<skeleton name="anm_e102_cerberus_dfl.skn" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_dfl.skn" memory="host" />
+		<skeleton name="anm_e102_cerberus_dfs.skn" deferred_loading="false" file="April2010/design/enemy/scenes/motion/anm_e102_cerberus_dfs.skn" memory="host" />
+		<skeleton name="eff_magic_firerange_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_firerange_01.skn" memory="host" />
+		<skeleton name="eff_magic_Foodrange_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_foodrange_01.skn" memory="host" />
+		<skeleton name="eff_magic_Foodrange_05.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_foodrange_05.skn" memory="host" />
+		<skeleton name="eff_magic_Happyrange_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_happyrange_01.skn" memory="host" />
+		<skeleton name="eff_magic_Happyrange_05.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_happyrange_05.skn" memory="host" />
+		<skeleton name="eff_magic_Holyrange_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_holyrange_01.skn" memory="host" />
+		<skeleton name="eff_magic_Holyrange_05.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_holyrange_05.skn" memory="host" />
+		<skeleton name="eff_magic_Icerange_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_icerange_01.skn" memory="host" />
+		<skeleton name="eff_magic_Icerange_05.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_icerange_05.skn" memory="host" />
+		<skeleton name="eff_magic_Loverange_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_loverange_01.skn" memory="host" />
+		<skeleton name="eff_magic_Loverange_05.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_loverange_05.skn" memory="host" />
+		<skeleton name="eff_magic_Waterrange_01.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_waterrange_01.skn" memory="host" />
+		<skeleton name="eff_magic_Waterrange_05.skn" deferred_loading="false" file="April2010/design/effect/scenes/eff_magic_waterrange_05.skn" memory="host" />
+		<skeleton name="eff_hit_wand_power_lv1.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_wand_power_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_wand_power_lv2.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_wand_power_lv2.skn" memory="host" />
+		<skeleton name="eff_hit_club_power_lv1.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_club_power_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_dagger_power_lv1.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_dagger_power_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_dagger_power_lv2.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_dagger_power_lv2.skn" memory="host" />
+		<skeleton name="eff_hit_spear_power_lv1.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_spear_power_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_spear_power_lv2.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_spear_power_lv2.skn" memory="host" />
+		<skeleton name="eff_hit_sword_power_lv1.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_sword_power_lv1.skn" memory="host" />
+		<skeleton name="eff_hit_sword_power_lv2.skn" deferred_loading="false" file="april2010/design/effect/scenes/eff_hit_sword_power_lv2.skn" memory="host" />
+		<skeleton name="eff_Cyclops_swing.skn" deferred_loading="false" protected="false" file="IremSougen/a_jp_00/Chr/scenes/eff_Cyclops_swing.skn" memory="host" />
+		<skeleton name="eff_hit_dagger_lv3.skn" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv3.skn" memory="host" />
+		<skeleton name="eff_hit_dagger_lv4.skn" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_dagger_lv4.skn" memory="host" />
+		<skeleton name="eff_hit_sword_lv3.skn" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_hit_sword_lv3.skn" memory="host" />
+		<skeleton name="eff_hit_dagger_power_lv3.skn" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_Dagger_Power_Lv3.skn" />
+		<skeleton name="eff_hit_dagger_power_lv4.skn" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_Dagger_Power_Lv4.skn" />
+		<skeleton name="eff_hit_sword_power_lv3.skn" deferred_loading="false" protected="false" file="April2010/design/effect/scenes/eff_Hit_sword_Power_Lv3.skn" />
+		<soundbank name="BattleSE.bnk" deferred_loading="false" file="IremSougen/sound/BattleSE.bnk" memory="host" />
+		<repertoire name="RP_W01_M" deferred_loading="false" protected="" file="objects/D0AE6335-874A4428-9A96FF0F-0939434F/RP/RP_W01_M.xml" memory="host" />
+		<repertoire name="RP_W01_F" deferred_loading="false" protected="" file="objects/D0AE6335-874A4428-9A96FF0F-0939434F/RP/RP_W01_F.xml" memory="host" />
+		<repertoire name="RP_W02_F" deferred_loading="false" protected="" file="objects/D0AE6335-874A4428-9A96FF0F-0939434F/RP/RP_W02_F.xml" memory="host" />
+		<repertoire name="RP_W02_M" deferred_loading="false" protected="" file="objects/D0AE6335-874A4428-9A96FF0F-0939434F/RP/RP_W02_M.xml" memory="host" />
+		<repertoire name="RP_W03_M" deferred_loading="false" protected="" file="objects/D0AE6335-874A4428-9A96FF0F-0939434F/RP/RP_W03_M.xml" memory="host" />
+		<repertoire name="RP_W03_F" deferred_loading="false" protected="" file="objects/D0AE6335-874A4428-9A96FF0F-0939434F/RP/RP_W03_F.xml" memory="host" />
+		<lua name="B1_Death.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Death/B1_Death.lua" />
+		<lua name="DeathPoint" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Death/Data/DeathPoint_IremSougen.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/main.lua" />
+		<lua name="Box.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/Box.lua" />
+		<lua name="game_flow.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/game_flow.lua" />
+		<lua name="game_act.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/game_act.lua" />
+		<lua name="LuaTask.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LuaTask.lua" />
+		<lua name="LuaMemblock.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LuaMemblock.lua" />
+		<lua name="LuaPadUtil.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LuaPadUtil.lua" />
+		<lua name="LuaUtil.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LuaUtil.lua" />
+		<lua name="CollisionBody.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/system/CollisionBody.lua" />
+		<lua name="Collision.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/system/Collision.lua" />
+		<lua name="player.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/player.lua" />
+		<lua name="enemy.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy.lua" />
+		<lua name="LuaMath.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LuaMath.lua" />
+		<lua name="playerData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/Data/playerData.lua" />
+		<lua name="arrow.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/arrow.lua" />
+		<lua name="bspline.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/bspline.lua" />
+		<lua name="hermite.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/hermite.lua" />
+		<lua name="enemyData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/enemyData.lua" />
+		<lua name="LoungeData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LoungeData/LoungeData_IremSougen.lua" />
+		<lua name="enemysource.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemysource.lua" />
+		<lua name="enemyID.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/enemyID.lua" />
+		<lua name="LuaSimpleEffect.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LuaSimpleEffect.lua" />
+		<lua name="Damage.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/system/Damage.lua" />
+		<lua name="bullet.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/bullet.lua" />
+		<lua name="hkxtable.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/system/hkxtable.lua" />
+		<lua name="magiccannon.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/magiccannon.lua" />
+		<lua name="magicheal.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/magicheal.lua" />
+		<lua name="magiccircle.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/magiccircle.lua" />
+		<lua name="CmnSE.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/system/CmnSE.lua" />
+		<lua name="enemy_regist.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy_regist.lua" />
+		<lua name="enemy_appear.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy_appear.lua" />
+		<lua name="enemy_death.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy_death.lua" />
+		<lua name="network.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/network.lua" />
+		<lua name="enemy_net.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy_net.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/DataStation/dataInterface.lua" />
+		<lua name="enemy_rail.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy_rail.lua" />
+		<lua name="e604.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/e604.lua" />
+		<lua name="e604FrameData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/Frame/e604FrameData.lua" />
+		<lua name="e604Data.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/e604Data.lua" />
+		<lua name="e603.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/e603.lua" />
+		<lua name="e603Data.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/e603Data.lua" />
+		<lua name="b003.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/b003.lua" />
+		<lua name="e602RailData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/Rail/e602RailData.lua" />
+		<lua name="WeaponData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/Data/WeaponData.lua" />
+		<lua name="MagicData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/Data/MagicData.lua" />
+		<lua name="e204.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/e204.lua" />
+		<lua name="e204Data.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/e204Data.lua" />
+		<lua name="e204RailData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/Rail/e204RailData.lua" />
+		<lua name="e603FrameData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/Frame/e603FrameData.lua" />
+		<lua name="e601RailData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/Rail/e601RailData.lua" />
+		<lua name="flash.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/system/flash.lua" />
+		<lua name="e701RailData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/Rail/e701RailData.lua" />
+		<lua name="MagicEffData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/player/Data/MagicEffData.lua" />
+		<lua name="b006.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/b006.lua" />
+		<lua name="e605.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/e605.lua" />
+		<lua name="e605Data.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/e605Data.lua" />
+		<lua name="b006Data.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/b006Data.lua" />
+		<lua name="padio.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/padio.lua" />
+		<lua name="battle_exec.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/battle_exec.lua" />
+		<lua name="battleio.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/battleio.lua" />
+		<lua name="e102.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/e102.lua" />
+		<lua name="e102Data.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/Data/e102Data.lua" />
+		<lua name="SimpleGauge.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/DataStation/SimpleGauge.lua" />
+		<lua name="camera2D.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/DataStation/camera2D.lua" />
+		<lua name="enemyHP.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/DataStation/enemyHP.lua" />
+		<lua name="LuaSingleEvent.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LuaSingleEvent.lua" />
+		<lua name="enemy_time.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy_time.lua" />
+		<lua name="enemy_killcount.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/enemy/enemy_killcount.lua" />
+		<lua name="WeaponDataQuery.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/WeaponDataQuery.lua" />
+		<lua name="ItemControl.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/ItemControl.lua" />
+		<lua name="BattleItemData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Item/BattleItemData.lua" />
+		<lua name="BattleItemMgr.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Item/BattleItemMgr.lua" />
+		<lua name="ItemControIF.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/ItemControIFforBattle.lua" />
+		<lua name="ExitCheck.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/ExitCheck.lua" />
+		<lua name="ExitData.lua" deferred_loading="false" protected="true" file="IremSougen/soft_asia_00/Battle/LoungeData/ExitData_IremSougen.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="model" deferred_loading="false" protected="false" file="furniture/hall13_witchcauldron/HALL13_WitchCauldron.mdl" memory="host" />
+    <particle name="Bubble_Fissure.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Nautilus/Bubble_Fissure.efx" memory="host" />
+    <particle name="BBQ_Smoke.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/COOK/BBQ_Smoke.efx" memory="host" />
+    <particle name="BoilingWater.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/COOK/BoilingWater.efx" memory="host" />
+    <particle name="BoilingWater02.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/COOK/BoilingWater02.efx" memory="host" />
+    <particle name="SauceSteam.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/COOK/SauceSteam.efx" />
+    <file name="Network.xml" deferred_loading="false" protected="false" file="furniture/hall13_witchcauldron/Network.xml" />
+    <collision name="collision" deferred_loading="false" protected="false" file="furniture/hall13_witchcauldron/HALL13_WitchCauldron.hkx" memory="host" />
+    <soundstream name="cauldron.mp3" deferred_loading="false" protected="false" file="furniture/hall13_witchcauldron/011503295-bubbles-witches-cauldron.mp3" memory="host" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="furniture/hall13_witchcauldron/main.luac" />
+    <lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/hall13_witchcauldron/utility.luac" />
+  </local>
+  <external />
+</resources>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="ActiveModel.mdl" deferred_loading="false" protected="false" file="furniture/winds_essence/Winds_Essence.mdl" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_EssenceOfFlight/file/Network.xml" memory="host" />
+		<collision name="ActiveModel.hkx" deferred_loading="false" protected="false" file="furniture/winds_essence/Winds_Essence.hkx" memory="host" />
+		<collision name="ActiveModel.safevolume.hkx" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_EssenceOfFlight/collision/ActiveModel.safevolume.hkx" memory="host" />
+		<collision name="Player_Collider.hkx" deferred_loading="false" protected="false" file="RealTimeGames/Seven_Winds_Flying/Player_Collider.hkx" />
+		<collision name="NAUT_TidesModel_SAFE.hkx" deferred_loading="false" protected="false" file="MiniGames/Naut_Swimming/NAUT_TidesModel_SAFE.hkx" />
+		<collision name="Player_Collider.mdl" deferred_loading="false" protected="false" file="realtimegames/Seven_Winds_Flying/Player_Collider.hkx" />
+		<anim name="Male_Flight_Down.ani" deferred_loading="false" protected="false" file="animation/male/winds_flightanimation/Male_Flight_Down.ani" memory="host" />
+		<anim name="Male_Flight_Forward.ani" deferred_loading="false" protected="false" file="animation/male/winds_flightanimation/Male_Flight_Forward.ani" memory="host" />
+		<anim name="Male_Flight_HoverIdle.ani" deferred_loading="false" protected="false" file="animation/male/winds_flightanimation/Male_Flight_HoverIdle.ani" memory="host" />
+		<anim name="Male_Flight_Up.ani" deferred_loading="false" protected="false" file="animation/male/winds_flightanimation/Male_Flight_Up.ani" memory="host" />
+		<anim name="Female_Flight_Down.ani" deferred_loading="false" protected="false" file="animation/female/winds_flightanimation/Female_Flight_Down.ani" memory="host" />
+		<anim name="Female_Flight_Forward.ani" deferred_loading="false" protected="false" file="animation/female/winds_flightanimation/Female_Flight_Forward.ani" memory="host" />
+		<anim name="Female_Flight_HoverIdle.ani" deferred_loading="false" protected="false" file="animation/female/winds_flightanimation/Female_Flight_HoverIdle.ani" memory="host" />
+		<anim name="Female_Flight_Up.ani" deferred_loading="false" protected="false" file="animation/female/winds_flightanimation/Female_Flight_Up.ani" memory="host" />
+		<anim name="Male_Flight_HoverSpin.ani" deferred_loading="false" protected="false" file="animation/male/winds_flightanimation/Male_Flight_HoverSpin.ani" />
+		<anim name="Male_Flight_Soar.ani" deferred_loading="false" protected="false" file="animation/male/winds_flightanimation/Male_Flight_Soar.ani" />
+		<anim name="Male_Flight_SoarBarrelRoll.ani" deferred_loading="false" protected="false" file="animation/male/winds_flightanimation/Male_Flight_SoarBarrelRoll.ani" memory="host" />
+		<anim name="Female_Flight_HoverSpin.ani" deferred_loading="false" protected="false" file="animation/female/winds_flightanimation/Female_Flight_HoverSpin.ani" memory="host" />
+		<anim name="Female_Flight_Soar.ani" deferred_loading="false" protected="false" file="animation/female/winds_flightanimation/Female_Flight_Soar.ani" memory="host" />
+		<anim name="Female_Flight_SoarBarrelRoll.ani" deferred_loading="false" protected="false" file="animation/female/winds_flightanimation/Female_Flight_SoarBarrelRoll.ani" memory="host" />
+		<soundstream name="Gust.mp3" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Scene_Flight/Audio/Gust.mp3" memory="host" />
+		<soundstream name="camera.mp3" deferred_loading="false" protected="false" file="furniture/winds_decorative_lounger/camera.mp3" memory="host" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_EssenceOfFlight/repertoires/male/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_EssenceOfFlight/repertoires/female/female.xml" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/MiniGame.luac" memory="host" />
+		<lua name="FreeFlyController.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/FreeFlyController.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/Pad.luac" memory="host" />
+		<lua name="RemoteFreeFlyPlayer.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/RemoteFreeFlyPlayer.luac" memory="host" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/State_Idle.luac" memory="host" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/StateMachine.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/Utility.luac" memory="host" />
+		<lua name="FlightCamera.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_EssenceOfFlight/lua/FlightCamera.luac" memory="host" />
+	</local>
+	<external />
+</resources>

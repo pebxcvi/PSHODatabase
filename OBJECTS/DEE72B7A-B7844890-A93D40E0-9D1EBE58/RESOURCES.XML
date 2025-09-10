@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Camel/model/UFO_model.mdl" memory="main" />
+		<model name="Camel_Companion_walk.mdl" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Camel/model/Camel_Companion_walk.mdl" memory="main" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Camel/file/config.xml" memory="host" />
+		<anim name="UFO_Locomotion_Walk" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/anim/UFO_Locomotion_Walk.ani" memory="main" />
+		<anim name="F_UFO_Locomotion_Walk" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/anim/F_UFO_Locomotion_Walk.ani" memory="host" />
+		<anim name="Camel_Companion_walk.ani" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Camel/anim/Camel_Companion_walk.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Camel/skeleton/UFO_model.skn" memory="host" />
+		<skeleton name="Camel_Companion_walk.skn" deferred_loading="false" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion_Camel/skeleton/Camel_Companion_walk.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Loot_FP_UFO_Locomotion/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Loot_FP_UFO_Locomotion/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BUSSTOP_MDL" deferred_loading="false" file="V8Lounge/design/map/scenes/obj_busstop_a01.mdl" />
+		<file name="osd_types.xml" deferred_loading="false" file="V8Lounge/soft/NPC_BUSSTOP/osd_types.xml" />
+		<file name="SelectionButton.xml" deferred_loading="false" file="V8Lounge/soft/NPC_BUSSTOP/OSD/SelectionButton.xml" />
+		<file name="WndTab.xml" deferred_loading="false" file="V8Lounge/soft/NPC_BUSSTOP/OSD/WndTab.xml" />
+		<file name="WndTabMessageDialog.xml" deferred_loading="false" file="V8Lounge/soft/NPC_BUSSTOP/OSD/WndTabMessageDialog.xml" />
+		<file name="WndTabSelectDialog.xml" deferred_loading="false" file="V8Lounge/soft/NPC_BUSSTOP/OSD/WndTabSelectDialog.xml" />
+		<collision name="BUSSTOP_HKX" deferred_loading="false" file="V8Lounge/design/map/scenes/obj_busstop_a01.hkx" />
+		<lua name="npc_busstop_cmn.lua" deferred_loading="false" protected="true" file="V8Lounge/soft/NPC_BUSSTOP/npc_busstop_cmn.lua" />
+		<lua name="LuaSingleEvent" deferred_loading="false" protected="true" file="V8Lounge/soft/NPC_BUSSTOP/LuaSingleEvent.lua" />
+		<lua name="DialogTabSelect" deferred_loading="false" protected="true" file="V8Lounge/soft/NPC_BUSSTOP/Dialog/DialogTabSelectS.lua" />
+		<lua name="DialogBasic" deferred_loading="false" protected="true" file="V8Lounge/soft/NPC_BUSSTOP/Dialog/DialogBasicS.lua" />
+		<lua name="LuaPadUtil" deferred_loading="false" protected="true" file="V8Lounge/soft/NPC_BUSSTOP/LuaPadUtil.lua" />
+		<lua name="NPC_BUSSTOP.lua" deferred_loading="false" protected="true" file="V8Lounge/soft/NPC_BUSSTOP/NPC_BUSSTOP.lua" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="V8Lounge/soft/NPC_BUSSTOP/main.lua" />
+	</local>
+	<external />
+</resources>

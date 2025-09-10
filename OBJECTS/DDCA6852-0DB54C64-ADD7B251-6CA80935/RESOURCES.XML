@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="BlackRollyShow_mdl" file="japanevents/rollycafe/rolly/BlackRollyShow.mdl" deferred_loading="false" />
+		<model name="PinkRollyShow_mdl" file="japanevents/rollycafe/rolly/PinkRollyShow.mdl" deferred_loading="false" />
+		<model name="WhiteRollyShow_mdl" file="japanevents/rollycafe/rolly/WhiteRollyShow.mdl" deferred_loading="false" />
+		<model name="MirrorBall_Base_mdl" file="japanevents/rollycafe/mirrorball/MirrorBall_Base.mdl" deferred_loading="false" />
+		<model name="MirrorBall_Head_mdl" file="japanevents/rollycafe/mirrorball/MirrorBall_Head.mdl" deferred_loading="false" />
+		<model name="Spotlight_Base_mdl" file="japanevents/rollycafe/spotlight/Spotlight_Base.mdl" deferred_loading="false" />
+		<model name="Spotlight_Arm_mdl" file="japanevents/rollycafe/spotlight/Spotlight_Arm.mdl" deferred_loading="false" />
+		<model name="Spotlight_Head_mdl" file="japanevents/rollycafe/spotlight/Spotlight_Head.mdl" deferred_loading="false" />
+		<texture name="stanby_rollycm_tex" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/textures/stanby_rollycm.dds" deferred_loading="false" />
+		<texture name="standby_image_jp_tex" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/textures/standby_image_jp.dds" deferred_loading="false" />
+		<texture name="spotlightmask_default_tex" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/textures/spotlightmask_default.dds" deferred_loading="false" />
+		<texture name="pointlightmask_mirror_tex" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/textures/pointlightmask_mirror.dds" deferred_loading="false" />
+		<texture name="pointlightmask_lamp_tex" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/textures/pointlightmask_lamp.dds" deferred_loading="false" />
+		<file name="main" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/main.lua" deferred_loading="false" />
+		<file name="always_osd" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/osd/always.xml" deferred_loading="false" />
+		<file name="types" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/osd/types.xml" deferred_loading="false" />
+		<file name="paHomeUI" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeUI.lua" deferred_loading="false" />
+		<file name="paHomeCommon" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeCommon.lua" deferred_loading="false" />
+		<file name="paHomeEventScreen" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeEventScreen.lua" deferred_loading="false" />
+		<file name="paHomeServerBase" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeServerBase.lua" deferred_loading="false" />
+		<file name="paHomeServerTrigger" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeServerTrigger.lua" deferred_loading="false" />
+		<file name="paHomeServerGeneral" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeServerGeneral.lua" deferred_loading="false" />
+		<file name="paHomeSoundMgr" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeSoundMgr.lua" deferred_loading="false" />
+		<file name="paHomeSoundStream" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/paHomeSoundStream.lua" deferred_loading="false" />
+		<file name="parameters" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/parameters.lua" deferred_loading="false" />
+		<file name="eventmain" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventmain.lua" deferred_loading="false" />
+		<file name="eventcounter" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventcounter.lua" deferred_loading="false" />
+		<file name="eventosd" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventosd.lua" deferred_loading="false" />
+		<file name="eventtrigger" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventtrigger.lua" deferred_loading="false" />
+		<file name="eventsound" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventsound.lua" deferred_loading="false" />
+		<file name="eventserver" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventserver.lua" deferred_loading="false" />
+		<file name="eventscreen" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventscreen.lua" deferred_loading="false" />
+		<file name="eventlight" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventlight.lua" deferred_loading="false" />
+		<file name="eventmotion" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/eventmotion.lua" deferred_loading="false" />
+		<file name="cmBackread" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/cmBackread.lua" deferred_loading="false" />
+		<file name="registUpdate" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/registUpdate.lua" deferred_loading="false" />
+		<anim name="WhiteRollyShow_ani" file="japanevents/rollycafe/rolly/WhiteRollyShow.ani" deferred_loading="false" />
+		<anim name="WhiteRollyWait_ani" file="japanevents/rollycafe/rolly/WhiteRollyWait.ani" deferred_loading="false" />
+		<skeleton name="WhiteRollyShow_skn" file="japanevents/rollycafe/rolly/WhiteRollyShow.skn" deferred_loading="false" />
+		<soundstream name="asynchronous_mp3" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/sound/asynchronous.mp3" deferred_loading="false" />
+		<soundstream name="rollycm_mp3" file="objects/DDCA6852-0DB54C64-ADD7B251-6CA80935/rolly1f/sound/rollycm.mp3" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

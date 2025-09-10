@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <model name="debug_locator_model" deferred_loading="false" protected="false" file="MiniGames/SCEA_Utils/QuestManager/models_for_testing/minisphere.mdl" />
+    <lua name="main.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/main.luac" />
+    <lua name="QuestManager.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/questmanager.luac" />
+    <lua name="CCM_Position.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ccm_position.luac" />
+    <lua name="CCM_Progress.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ccm_progress.luac" />
+    <lua name="CSegmentTree.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/csegmenttree.luac" />
+    <lua name="CCM_PlayerActions.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ccm_playeractions.luac" />
+    <lua name="CCM_Inventory.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ccm_inventory.luac" />
+    <lua name="CEM_Screen.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cem_screen.luac" />
+    <lua name="CEM_Scene.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cem_scene.luac" />
+    <lua name="CEM_Media.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cem_media.luac" />
+    <lua name="CCM_Time.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ccm_time.luac" />
+    <lua name="ServerTime.lua" deferred_loading="false" protected="true" file="minigames/scea_fn_lib/servertime.lua" />
+    <lua name="WebImage.lua" deferred_loading="false" protected="true" file="minigames/scea_fn_lib/webimage.luac" />
+    <lua name="ME_ServerData.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/masterengine/scripts/me_serverdata.luac" />
+    <lua name="xml_utils.lua" deferred_loading="false" protected="true" file="minigames/scea_fn_lib/xml_utils.luac" />
+    <lua name="CTask.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ctask.luac" />
+    <lua name="CCondition.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ccondition.luac" />
+    <lua name="CEffect.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ceffect.luac" />
+    <lua name="CExitBlock.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cexitblock.luac" />
+    <lua name="CExitLogic.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cexitlogic.luac" />
+    <lua name="CGroup.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cgroup.luac" />
+    <lua name="CQuest.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cquest.luac" />
+    <lua name="XmlElement.lua" deferred_loading="false" protected="true" file="minigames/scea_fn_lib/xmlelement.luac" />
+    <lua name="LuaJSON.lua" deferred_loading="false" protected="true" file="minigames/scea_fn_lib/luajson.luac" />
+    <lua name="CUnstartedQuest.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/cunstartedquest.luac" />
+    <lua name="CCM_External.lua" deferred_loading="false" protected="true" file="minigames/scea_utils/questmanager/ccm_external.luac" />
+  </local>
+  <external />
+</resources>

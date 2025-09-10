@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="mdl_ScribbleArcadeCabinet" deferred_loading="false" protected="false" file="furniture/appliances/CP_arcade_cab_scribbleshooter.mdl" />
+		<texture name="0_scorefont_zero__1.dds" file="ArcadeGames/ScribbleShooter/Textures/0_scorefont_zero__1.dds" />
+		<texture name="0_scorefont_zero__2.dds" file="ArcadeGames/ScribbleShooter/Textures/0_scorefont_zero__2.dds" />
+		<texture name="1_scorefont_one__1.dds" file="ArcadeGames/ScribbleShooter/Textures/1_scorefont_one__1.dds" />
+		<texture name="1_scorefont_one__2.dds" file="ArcadeGames/ScribbleShooter/Textures/1_scorefont_one__2.dds" />
+		<texture name="2_scorefont_two__1.dds" file="ArcadeGames/ScribbleShooter/Textures/2_scorefont_two__1.dds" />
+		<texture name="2_scorefont_two__2.dds" file="ArcadeGames/ScribbleShooter/Textures/2_scorefont_two__2.dds" />
+		<texture name="3_scorefont_three__1.dds" file="ArcadeGames/ScribbleShooter/Textures/3_scorefont_three__1.dds" />
+		<texture name="3_scorefont_three__2.dds" file="ArcadeGames/ScribbleShooter/Textures/3_scorefont_three__2.dds" />
+		<texture name="4_scorefont_four__1.dds" file="ArcadeGames/ScribbleShooter/Textures/4_scorefont_four__1.dds" />
+		<texture name="4_scorefont_four__2.dds" file="ArcadeGames/ScribbleShooter/Textures/4_scorefont_four__2.dds" />
+		<texture name="5_scorefont_five__1.dds" file="ArcadeGames/ScribbleShooter/Textures/5_scorefont_five__1.dds" />
+		<texture name="5_scorefont_five__2.dds" file="ArcadeGames/ScribbleShooter/Textures/5_scorefont_five__2.dds" />
+		<texture name="6_scorefont_six__1.dds" file="ArcadeGames/ScribbleShooter/Textures/6_scorefont_six__1.dds" />
+		<texture name="6_scorefont_six__2.dds" file="ArcadeGames/ScribbleShooter/Textures/6_scorefont_six__2.dds" />
+		<texture name="7_scorefont_seven__1.dds" file="ArcadeGames/ScribbleShooter/Textures/7_scorefont_seven__1.dds" />
+		<texture name="7_scorefont_seven__2.dds" file="ArcadeGames/ScribbleShooter/Textures/7_scorefont_seven__2.dds" />
+		<texture name="8_scorefont_eight__1.dds" file="ArcadeGames/ScribbleShooter/Textures/8_scorefont_eight__1.dds" />
+		<texture name="8_scorefont_eight__2.dds" file="ArcadeGames/ScribbleShooter/Textures/8_scorefont_eight__2.dds" />
+		<texture name="9_scorefont_nine__1.dds" file="ArcadeGames/ScribbleShooter/Textures/9_scorefont_nine__1.dds" />
+		<texture name="9_scorefont_nine__2.dds" file="ArcadeGames/ScribbleShooter/Textures/9_scorefont_nine__2.dds" />
+		<texture name="Bomb_Primed_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_Primed_1.dds" />
+		<texture name="Bomb_Primed_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_Primed_2.dds" />
+		<texture name="Bomb_Primed_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_Primed_3.dds" />
+		<texture name="Bomb_Primed_4.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_Primed_4.dds" />
+		<texture name="Bomb__1.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb__1.dds" />
+		<texture name="Bomb__2.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb__2.dds" />
+		<texture name="Bomb__3.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb__3.dds" />
+		<texture name="Bomb__4.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb__4.dds" />
+		<texture name="Bomb_explode_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_explode_1.dds" />
+		<texture name="Bomb_explode_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_explode_2.dds" />
+		<texture name="Bomb_explode_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_explode_3.dds" />
+		<texture name="Bomb_explode_4.dds" file="ArcadeGames/ScribbleShooter/Textures/Bomb_explode_4.dds" />
+		<texture name="Boss_Snake_Eye_Close__1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Close__1.dds" />
+		<texture name="Boss_Snake_Eye_Close__2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Close__2.dds" />
+		<texture name="Boss_Snake_Eye_Close__3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Close__3.dds" />
+		<texture name="Boss_Snake_Eye_Close__4.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Close__4.dds" />
+		<texture name="Boss_Snake_Eye_Damaged.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Damaged.dds" />
+		<texture name="Boss_Snake_Eye_Damaged__1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Damaged__1.dds" />
+		<texture name="Boss_Snake_Eye_Damaged__2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Damaged__2.dds" />
+		<texture name="Boss_Snake_Eye_Damaged__3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Damaged__3.dds" />
+		<texture name="Boss_Snake_Eye_Damaged__4.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Damaged__4.dds" />
+		<texture name="Boss_Snake_Eye_Explode__1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Explode__1.dds" />
+		<texture name="Boss_Snake_Eye_Explode__2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Explode__2.dds" />
+		<texture name="Boss_Snake_Eye_Explode__3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Explode__3.dds" />
+		<texture name="Boss_Snake_Eye_Explode__4.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye_Explode__4.dds" />
+		<texture name="Boss_Snake_Eye__1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye__1.dds" />
+		<texture name="Boss_Snake_Eye__2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye__2.dds" />
+		<texture name="Boss_Snake_Eye__3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye__3.dds" />
+		<texture name="Boss_Snake_Eye__4.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Eye__4.dds" />
+		<texture name="Boss_Snake_Head__1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Head__1.dds" />
+		<texture name="Boss_Snake_Head__2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Head__2.dds" />
+		<texture name="Boss_Snake_Head__3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Head__3.dds" />
+		<texture name="Boss_Snake_Head__4.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Head__4.dds" />
+		<texture name="Boss_Snake_Neck__1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Neck__1.dds" />
+		<texture name="Boss_Snake_Neck__2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Neck__2.dds" />
+		<texture name="Boss_Snake_Neck__3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Neck__3.dds" />
+		<texture name="Boss_Snake_Neck__4.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Boss_Snake_Neck__4.dds" />
+		<texture name="Chaser__1.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser__1.dds" />
+		<texture name="Chaser__2.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser__2.dds" />
+		<texture name="Chaser__3.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser__3.dds" />
+		<texture name="Chaser__4.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser__4.dds" />
+		<texture name="Chaser_explode_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser_explode_1.dds" />
+		<texture name="Chaser_explode_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser_explode_2.dds" />
+		<texture name="Chaser_explode_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser_explode_3.dds" />
+		<texture name="Chaser_explode_4.dds" file="ArcadeGames/ScribbleShooter/Textures/Chaser_explode_4.dds" />
+		<texture name="Diver__1.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver__1.dds" />
+		<texture name="Diver__2.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver__2.dds" />
+		<texture name="Diver__3.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver__3.dds" />
+		<texture name="Diver__4.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver__4.dds" />
+		<texture name="Diver_explode_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver_explode_1.dds" />
+		<texture name="Diver_explode_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver_explode_2.dds" />
+		<texture name="Diver_explode_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver_explode_3.dds" />
+		<texture name="Diver_explode_4.dds" file="ArcadeGames/ScribbleShooter/Textures/Diver_explode_4.dds" />
+		<texture name="Dropper__1.dds" file="ArcadeGames/ScribbleShooter/Textures/Dropper__1.dds" />
+		<texture name="Dropper__2.dds" file="ArcadeGames/ScribbleShooter/Textures/Dropper__2.dds" />
+		<texture name="Dropper__3.dds" file="ArcadeGames/ScribbleShooter/Textures/Dropper__3.dds" />
+		<texture name="Dropper__4.dds" file="ArcadeGames/ScribbleShooter/Textures/Dropper__4.dds" />
+		<texture name="Fast_Stopper_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Fast_Stopper_1.dds" />
+		<texture name="Fast_Stopper_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Fast_Stopper_2.dds" />
+		<texture name="Fast_Stopper_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Fast_Stopper_3.dds" />
+		<texture name="Fast_Stopper_Damaged_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Fast_Stopper_Damaged_1.dds" />
+		<texture name="Fast_Stopper_Damaged_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Fast_Stopper_Damaged_2.dds" />
+		<texture name="Fast_Stopper_Damaged_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Fast_Stopper_Damaged_3.dds" />
+		<texture name="gameover_1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/title_skull_1.dds" />
+		<texture name="gameover_2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/title_skull_2.dds" />
+		<texture name="gameover_3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/title_skull_3.dds" />
+		<texture name="Hanger__1.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger__1.dds" />
+		<texture name="Hanger__2.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger__2.dds" />
+		<texture name="Hanger__3.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger__3.dds" />
+		<texture name="Hanger__4.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger__4.dds" />
+		<texture name="Hanger__5.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger__5.dds" />
+		<texture name="Hanger__6.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger__6.dds" />
+		<texture name="Hanger_explode_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_1.dds" />
+		<texture name="Hanger_explode_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_2.dds" />
+		<texture name="Hanger_explode_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_3.dds" />
+		<texture name="Hanger_explode_4.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_4.dds" />
+		<texture name="Hanger_explode_5.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_5.dds" />
+		<texture name="Hanger_explode_6.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_6.dds" />
+		<texture name="Hanger_explode_7.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_7.dds" />
+		<texture name="Hanger_explode_8.dds" file="ArcadeGames/ScribbleShooter/Textures/Hanger_explode_8.dds" />
+		<texture name="Missile_Turret1.dds" file="ArcadeGames/ScribbleShooter/Textures/Missile_Turret1.dds" />
+		<texture name="Missile_Turret2.dds" file="ArcadeGames/ScribbleShooter/Textures/Missile_Turret2.dds" />
+		<texture name="Missile_Turret3.dds" file="ArcadeGames/ScribbleShooter/Textures/Missile_Turret3.dds" />
+		<texture name="Missile_Turret4.dds" file="ArcadeGames/ScribbleShooter/Textures/Missile_Turret4.dds" />
+		<texture name="Pickup_Backshot_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Backshot_1.dds" />
+		<texture name="Pickup_Backshot_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Backshot_2.dds" />
+		<texture name="Pickup_Backshot_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Backshot_3.dds" />
+		<texture name="Pickup_Drone_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Drone_1.dds" />
+		<texture name="Pickup_Drone_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Drone_2.dds" />
+		<texture name="Pickup_Drone_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Drone_3.dds" />
+		<texture name="Pickup_Health_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Health_1.dds" />
+		<texture name="Pickup_Health_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Health_2.dds" />
+		<texture name="Pickup_Health_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Health_3.dds" />
+		<texture name="Pickup_Laser_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Laser_1.dds" />
+		<texture name="Pickup_Laser_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Laser_2.dds" />
+		<texture name="Pickup_Laser_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Laser_3.dds" />
+		<texture name="Pickup_Missile_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Missile_1.dds" />
+		<texture name="Pickup_Missile_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Missile_2.dds" />
+		<texture name="Pickup_Missile_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Missile_3.dds" />
+		<texture name="Pickup_Tripleshot_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Tripleshot_1.dds" />
+		<texture name="Pickup_Tripleshot_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Tripleshot_2.dds" />
+		<texture name="Pickup_Tripleshot_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Pickup_Tripleshot_3.dds" />
+		<texture name="Player__1.dds" file="ArcadeGames/ScribbleShooter/Textures/Player__1.dds" />
+		<texture name="Player__2.dds" file="ArcadeGames/ScribbleShooter/Textures/Player__2.dds" />
+		<texture name="Player__3.dds" file="ArcadeGames/ScribbleShooter/Textures/Player__3.dds" />
+		<texture name="Player__4.dds" file="ArcadeGames/ScribbleShooter/Textures/Player__4.dds" />
+		<texture name="Player__5.dds" file="ArcadeGames/ScribbleShooter/Textures/Player__5.dds" />
+		<texture name="Player__6.dds" file="ArcadeGames/ScribbleShooter/Textures/Player__6.dds" />
+		<texture name="Shield__1.dds" file="ArcadeGames/ScribbleShooter/Textures/Shield__1.dds" />
+		<texture name="Shield__2.dds" file="ArcadeGames/ScribbleShooter/Textures/Shield__2.dds" />
+		<texture name="Shield__3.dds" file="ArcadeGames/ScribbleShooter/Textures/Shield__3.dds" />
+		<texture name="Shield__4.dds" file="ArcadeGames/ScribbleShooter/Textures/Shield__4.dds" />
+		<texture name="Stopper_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_1.dds" />
+		<texture name="Stopper_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_2.dds" />
+		<texture name="Stopper_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_3.dds" />
+		<texture name="Stopper_4.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_4.dds" />
+		<texture name="Stopper_Stuck_1.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_Stuck_1.dds" />
+		<texture name="Stopper_Stuck_2.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_Stuck_2.dds" />
+		<texture name="Stopper_Stuck_3.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_Stuck_3.dds" />
+		<texture name="Stopper_Stuck_4.dds" file="ArcadeGames/ScribbleShooter/Textures/Stopper_Stuck_4.dds" />
+		<texture name="alien__1.dds" file="ArcadeGames/ScribbleShooter/Textures/alien__1.dds" />
+		<texture name="alien__2.dds" file="ArcadeGames/ScribbleShooter/Textures/alien__2.dds" />
+		<texture name="alien__3.dds" file="ArcadeGames/ScribbleShooter/Textures/alien__3.dds" />
+		<texture name="alien__4.dds" file="ArcadeGames/ScribbleShooter/Textures/alien__4.dds" />
+		<texture name="alien__5.dds" file="ArcadeGames/ScribbleShooter/Textures/alien__5.dds" />
+		<texture name="alien__6.dds" file="ArcadeGames/ScribbleShooter/Textures/alien__6.dds" />
+		<texture name="bullet__1.dds" file="ArcadeGames/ScribbleShooter/Textures/bullet__1.dds" />
+		<texture name="bullet__2.dds" file="ArcadeGames/ScribbleShooter/Textures/bullet__2.dds" />
+		<texture name="bullet__3.dds" file="ArcadeGames/ScribbleShooter/Textures/bullet__3.dds" />
+		<texture name="bullet_type2__1.dds" file="ArcadeGames/ScribbleShooter/Textures/bullet_type2__1.dds" />
+		<texture name="bullet_type2__2.dds" file="ArcadeGames/ScribbleShooter/Textures/bullet_type2__2.dds" />
+		<texture name="bullet_type2__3.dds" file="ArcadeGames/ScribbleShooter/Textures/bullet_type2__3.dds" />
+		<texture name="drone__1.dds" file="ArcadeGames/ScribbleShooter/Textures/drone__1.dds" />
+		<texture name="drone__2.dds" file="ArcadeGames/ScribbleShooter/Textures/drone__2.dds" />
+		<texture name="drone__3.dds" file="ArcadeGames/ScribbleShooter/Textures/drone__3.dds" />
+		<texture name="enemy_Train1.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_Train1.dds" />
+		<texture name="enemy_Train2.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_Train2.dds" />
+		<texture name="enemy_Train3.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_Train3.dds" />
+		<texture name="enemy_Turret1.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_Turret1.dds" />
+		<texture name="enemy_Turret2.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_Turret2.dds" />
+		<texture name="enemy_Turret3.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_Turret3.dds" />
+		<texture name="enemy_Turret4.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_Turret4.dds" />
+		<texture name="enemy_missile__1.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_missile__1.dds" />
+		<texture name="enemy_missile__2.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_missile__2.dds" />
+		<texture name="enemy_missile__3.dds" file="ArcadeGames/ScribbleShooter/Textures/enemy_missile__3.dds" />
+		<texture name="explode__1.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__1.dds" />
+		<texture name="explode__2.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__2.dds" />
+		<texture name="explode__3.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__3.dds" />
+		<texture name="explode__4.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__4.dds" />
+		<texture name="explode__5.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__5.dds" />
+		<texture name="explode__6.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__6.dds" />
+		<texture name="explode__7.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__7.dds" />
+		<texture name="explode__8.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__8.dds" />
+		<texture name="explode__9.dds" file="ArcadeGames/ScribbleShooter/Textures/explode__9.dds" />
+		<texture name="laser__1.dds" file="ArcadeGames/ScribbleShooter/Textures/laser__1.dds" />
+		<texture name="laser__2.dds" file="ArcadeGames/ScribbleShooter/Textures/laser__2.dds" />
+		<texture name="laser__3.dds" file="ArcadeGames/ScribbleShooter/Textures/laser__3.dds" />
+		<texture name="missile__1.dds" file="ArcadeGames/ScribbleShooter/Textures/missile__1.dds" />
+		<texture name="missile__2.dds" file="ArcadeGames/ScribbleShooter/Textures/missile__2.dds" />
+		<texture name="missile__3.dds" file="ArcadeGames/ScribbleShooter/Textures/missile__3.dds" />
+		<texture name="starfield.dds" file="ArcadeGames/ScribbleShooter/Textures/starfield.dds" />
+		<texture name="Alien_Shield_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_1.dds" />
+		<texture name="Alien_Shield_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_2.dds" />
+		<texture name="Alien_Shield_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_3.dds" />
+		<texture name="Alien_Shield_4.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_4.dds" />
+		<texture name="arrow_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/arrow_1.dds" />
+		<texture name="arrow_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/arrow_2.dds" />
+		<texture name="arrow_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/arrow_3.dds" />
+		<texture name="Tea_Stain_1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Tea_Stain_1.dds" />
+		<texture name="Tea_Stain_2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Tea_Stain_2.dds" />
+		<texture name="Ink_Splash_1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Ink_Splash_1.dds" />
+		<texture name="Ink_Splash_2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Ink_Splash_2.dds" />
+		<texture name="Ink_Splash_3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Ink_Splash_3.dds" />
+		<texture name="Power_Bar_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Power_Bar_3.dds" />
+		<texture name="Power_Bar_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Power_Bar_1.dds" />
+		<texture name="Power_Bar_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Power_Bar_2.dds" />
+		<texture name="Power_Bar_End_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Power_Bar_End_1.dds" />
+		<texture name="Power_Bar_End_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Power_Bar_End_2.dds" />
+		<texture name="Skull_End_8.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_8.dds" />
+		<texture name="Skull_End_9.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_9.dds" />
+		<texture name="Skull_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_1.dds" />
+		<texture name="Skull_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_2.dds" />
+		<texture name="Skull_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_3.dds" />
+		<texture name="Skull_4.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_4.dds" />
+		<texture name="Skull_5.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_5.dds" />
+		<texture name="Skull_6.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_6.dds" />
+		<texture name="Skull_End_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_1.dds" />
+		<texture name="Skull_End_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_2.dds" />
+		<texture name="Skull_End_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_3.dds" />
+		<texture name="Skull_End_4.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_4.dds" />
+		<texture name="Skull_End_5.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_5.dds" />
+		<texture name="Skull_End_6.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_6.dds" />
+		<texture name="Skull_End_7.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Skull_End_7.dds" />
+		<texture name="Alien_Shield_explode_4.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_explode_4.dds" />
+		<texture name="Alien_Shield_explode_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_explode_1.dds" />
+		<texture name="Alien_Shield_explode_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_explode_2.dds" />
+		<texture name="Alien_Shield_explode_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Alien_Shield_explode_3.dds" />
+		<texture name="Hi_Score_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Hi_Score_1.dds" />
+		<texture name="Hi_Score_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Hi_Score_2.dds" />
+		<texture name="Hi_Score_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Hi_Score_3.dds" />
+		<texture name="Options_3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Options_3.dds" />
+		<texture name="Options_1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Options_1.dds" />
+		<texture name="Options_2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Options_2.dds" />
+		<texture name="Start_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Start_3.dds" />
+		<texture name="Start_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Start_1.dds" />
+		<texture name="Start_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Start_2.dds" />
+		<texture name="pause_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/pause_3.dds" />
+		<texture name="pause_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/pause_1.dds" />
+		<texture name="pause_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/pause_2.dds" />
+		<texture name="Music_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Music_3.dds" />
+		<texture name="Re_Start_1.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Re_Start_1.dds" />
+		<texture name="Re_Start_2.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Re_Start_2.dds" />
+		<texture name="Re_Start_3.dds" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Textures/Re_Start_3.dds" />
+		<texture name="Sfx_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Sfx_1.dds" />
+		<texture name="Sfx_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Sfx_2.dds" />
+		<texture name="Sfx_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Sfx_3.dds" />
+		<texture name="Music_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Music_1.dds" />
+		<texture name="Music_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/Music_2.dds" />
+		<texture name="warning_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/warning_3.dds" />
+		<texture name="warning_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/warning_1.dds" />
+		<texture name="warning_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/warning_2.dds" />
+		<texture name="level_3.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/level_3.dds" />
+		<texture name="level_1.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/level_1.dds" />
+		<texture name="level_2.dds" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Textures/level_2.dds" />
+		<texture name="font3" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/font03.fnt.dds" />
+		<texture name="font1" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/font01.fnt.dds" />
+		<texture name="font2" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/font02.fnt.dds" />
+		<texture name="vignette.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/vignette.dds" />
+		<texture name="tick_tickbox3.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/tick_tickbox3.dds" />
+		<texture name="tick_tickbox1.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/tick_tickbox1.dds" />
+		<texture name="tick_tickbox2.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/tick_tickbox2.dds" />
+		<texture name="tickbox_3.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/tickbox_3.dds" />
+		<texture name="tickbox_1.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/tickbox_1.dds" />
+		<texture name="tickbox_2.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/tickbox_2.dds" />
+		<texture name="Back_3.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/Back_3.dds" />
+		<texture name="Back_1.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/Back_1.dds" />
+		<texture name="Back_2.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/Back_2.dds" />
+		<texture name="scribblefighter_splash_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/scribblefighter_splash_3.dds" />
+		<texture name="scribblefighter_splash_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/scribblefighter_splash_1.dds" />
+		<texture name="scribblefighter_splash_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/scribblefighter_splash_2.dds" />
+		<texture name="explode2_4.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/explode2_4.dds" />
+		<texture name="explode2_1.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/explode2_1.dds" />
+		<texture name="explode2_2.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/explode2_2.dds" />
+		<texture name="explode2_3.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/explode2_3.dds" />
+		<texture name="title_earth_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_earth_3.dds" />
+		<texture name="title_alien_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_alien_1.dds" />
+		<texture name="title_alien_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_alien_2.dds" />
+		<texture name="title_alien_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_alien_3.dds" />
+		<texture name="title_earth_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_earth_1.dds" />
+		<texture name="title_earth_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_earth_2.dds" />
+		<texture name="title_star_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_star_3.dds" />
+		<texture name="title_star_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_star_1.dds" />
+		<texture name="title_star_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/title_star_2.dds" />
+		<texture name="pip_3.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/pip_3.dds" />
+		<texture name="pip_1.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/pip_1.dds" />
+		<texture name="pip_2.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/pip_2.dds" />
+		<texture name="multiplier_3.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/multiplier_3.dds" />
+		<texture name="multiplier_1.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/multiplier_1.dds" />
+		<texture name="multiplier_2.dds" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Textures/multiplier_2.dds" />
+		<texture name="LandingZone_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/LandingZone_3.dds" />
+		<texture name="LandingZone_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/LandingZone_1.dds" />
+		<texture name="LandingZone_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/LandingZone_2.dds" />
+		<texture name="controller_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/controller_3.dds" />
+		<texture name="controller_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/controller_1.dds" />
+		<texture name="controller_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/controller_2.dds" />
+		<texture name="controllerhighlight_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/controllerhighlight_3.dds" />
+		<texture name="controllerhighlight_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/controllerhighlight_1.dds" />
+		<texture name="controllerhighlight_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/controllerhighlight_2.dds" />
+		<texture name="demo_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/demo_3.dds" />
+		<texture name="demo_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/demo_1.dds" />
+		<texture name="demo_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/demo_2.dds" />
+		<texture name="level10_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level10_3.dds" />
+		<texture name="level01_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level01_1.dds" />
+		<texture name="level01_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level01_2.dds" />
+		<texture name="level01_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level01_3.dds" />
+		<texture name="level02_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level02_1.dds" />
+		<texture name="level02_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level02_2.dds" />
+		<texture name="level02_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level02_3.dds" />
+		<texture name="level03_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level03_1.dds" />
+		<texture name="level03_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level03_2.dds" />
+		<texture name="level03_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level03_3.dds" />
+		<texture name="level04_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level04_1.dds" />
+		<texture name="level04_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level04_2.dds" />
+		<texture name="level04_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level04_3.dds" />
+		<texture name="level05_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level05_1.dds" />
+		<texture name="level05_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level05_2.dds" />
+		<texture name="level05_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level05_3.dds" />
+		<texture name="level06_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level06_1.dds" />
+		<texture name="level06_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level06_2.dds" />
+		<texture name="level06_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level06_3.dds" />
+		<texture name="level08_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level08_1.dds" />
+		<texture name="level08_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level08_2.dds" />
+		<texture name="level08_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level08_3.dds" />
+		<texture name="level09_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level09_1.dds" />
+		<texture name="level09_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level09_2.dds" />
+		<texture name="level09_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level09_3.dds" />
+		<texture name="level10_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level10_1.dds" />
+		<texture name="level10_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level10_2.dds" />
+		<texture name="padlock_4.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/padlock_4.dds" />
+		<texture name="padlock_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/padlock_1.dds" />
+		<texture name="padlock_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/padlock_2.dds" />
+		<texture name="padlock_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/padlock_3.dds" />
+		<texture name="level07_3.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level07_3.dds" />
+		<texture name="level07_1.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level07_1.dds" />
+		<texture name="level07_2.dds" deferred_loading="true" protected="false" file="ArcadeGames/ScribbleShooter/Textures/level07_2.dds" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/ScribbleShooter_PublicMiniGame/file/Network.xml" />
+		<file name="passphrase" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/passphrase_NPWR01232_00.bin" />
+		<collision name="hkx_ScribbleArcadeCabinet" deferred_loading="false" protected="false" file="furniture/appliances/arcade_machine_scribblefighter.hkx" />
+		<soundbank name="Sound" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Sounds/scribble_sfx.bnk" memory="host" />
+		<soundbank name="scribble_boss_snake.bnk" deferred_loading="true" file="ArcadeGames/ScribbleShooter/Sounds/scribble_boss_snake/scribble_boss_snake.bnk" />
+		<soundstream name="Title.mp3" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Music/Title.mp3" />
+		<soundstream name="Boss.mp3" deferred_loading="false" file="ArcadeGames/ScribbleShooter/Music/Boss150.mp3" />
+		<soundstream name="Boss_alt.mp3" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Music/Boss_alt.mp3" />
+		<soundstream name="InGame1.mp3" deferred_loading="false" protected="false" file="ArcadeGames/ScribbleShooter/Music/InGame1.mp3" />
+		<lua name="Debug.lua" deferred_loading="false" protected="true" file="MiniGames/ScribbleShooter_PublicMiniGame/lua/Debug.lua" />
+		<lua name="Main" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Main.lua" />
+		<lua name="Bezier" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Bezier.lua" />
+		<lua name="Boss" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss.lua" />
+		<lua name="BossComponent" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/BossComponent.lua" />
+		<lua name="BossManager" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/BossManager.lua" />
+		<lua name="Boss_Blackhole" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Blackhole.lua" />
+		<lua name="Boss_Blind" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Blind.lua" />
+		<lua name="Boss_Dragonfly" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Dragonfly.lua" />
+		<lua name="Boss_EvilPlayer" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_EvilPlayer.lua" />
+		<lua name="Boss_Eyemouth" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Eyemouth.lua" />
+		<lua name="Boss_Jellyfish" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Jellyfish.lua" />
+		<lua name="Boss_ShieldSpiral" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_ShieldSpiral.lua" />
+		<lua name="Boss_Snake" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Snake.lua" />
+		<lua name="Boss_Spiral" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Spiral.lua" />
+		<lua name="Boss_Worm" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Worm.lua" />
+		<lua name="Bullet" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Bullet.lua" />
+		<lua name="BulletManager" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/BulletManager.lua" />
+		<lua name="Collision" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Collision.lua" />
+		<lua name="Constants" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Constants.lua" />
+		<lua name="Debug" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Debug.lua" />
+		<lua name="Drone" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Drone.lua" />
+		<lua name="Enemy" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy.lua" />
+		<lua name="EnemyEmitter" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/EnemyEmitter.lua" />
+		<lua name="EnemyManager" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/EnemyManager.lua" />
+		<lua name="Enemy_Bezier" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy_Bezier.lua" />
+		<lua name="Enemy_Bomb" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy_Bomb.lua" />
+		<lua name="Enemy_Chaser" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy_Chaser.lua" />
+		<lua name="Enemy_Diver" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy_Diver.lua" />
+		<lua name="Enemy_Hanger" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy_Hanger.lua" />
+		<lua name="Enemy_Static" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy_Static.lua" />
+		<lua name="Enemy_Train" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Enemy_Train.lua" />
+		<lua name="Event" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Event.lua" />
+		<lua name="GameCamera" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/GameCamera.lua" />
+		<lua name="GameGL" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/GameGL.lua" />
+		<lua name="GameInterface" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/GameInterface.lua" />
+		<lua name="GameList" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/GameList.lua" />
+		<lua name="HandyUtils" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/HandyUtils.lua" />
+		<lua name="HomingMissile" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/HomingMissile.lua" />
+		<lua name="Landscape" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Landscape.lua" />
+		<lua name="LandscapeManager" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/LandscapeManager.lua" />
+		<lua name="Level" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Level.lua" />
+		<lua name="Line2D" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Line2D.lua" />
+		<lua name="LuaUtils" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/LuaUtils.lua" />
+		<lua name="Matrix22" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Matrix22.lua" />
+		<lua name="Minigame" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Minigame.lua" />
+		<lua name="Missile" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Missile.lua" />
+		<lua name="MissileManager" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/MissileManager.lua" />
+		<lua name="Pickup" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Pickup.lua" />
+		<lua name="PickupManager" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/PickupManager.lua" />
+		<lua name="Player" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Player.lua" />
+		<lua name="Random" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Random.lua" />
+		<lua name="Starship" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Starship.lua" />
+		<lua name="Text" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Text.lua" />
+		<lua name="TextureAnim" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/TextureAnim.lua" />
+		<lua name="TextureManager" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/TextureManager.lua" />
+		<lua name="Utils" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Utils.lua" />
+		<lua name="VSObject" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/VSObject.lua" />
+		<lua name="Vector2" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Vector2.lua" />
+		<lua name="Vector3" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Vector3.lua" />
+		<lua name="Weapon" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Weapon.lua" />
+		<lua name="class" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/class.lua" />
+		<lua name="audio" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/audio.lua" />
+		<lua name="rumble" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/rumble.lua" />
+		<lua name="ranking" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/ranking.lua" />
+		<lua name="Quads2d.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Quads2d.lua" />
+		<lua name="FontData1" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/font01.fnt.lua" />
+		<lua name="FontData2" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/font02.fnt.lua" />
+		<lua name="FontData3" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/font03.fnt.lua" />
+		<lua name="Boss_Spinner" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Spinner.lua" />
+		<lua name="Boss_Magic" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Boss_Magic.lua" />
+		<lua name="Render.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Render.lua" />
+		<lua name="WeaponPlayer" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/WeaponPlayer.lua" />
+		<lua name="Temp" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Temp.lua" />
+		<lua name="TextItem" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/TextItem.lua" />
+		<lua name="Starfield.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Starfield.lua" />
+		<lua name="data.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/data.lua" />
+		<lua name="ScribbleRandom.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/ScribbleRandom.lua" />
+		<lua name="utility" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/utility.lua" />
+		<lua name="ScribblePublicMiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/ScribbleShooter_PublicMiniGame/lua/PublicScribbleMiniGame.lua" />
+		<lua name="MainMiniGame.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/MainMiniGame.lua" />
+		<lua name="Mode_Demo.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Mode_E3.lua" />
+		<lua name="Mode_Retail.lua" deferred_loading="false" protected="true" file="ArcadeGames/ScribbleShooter/Scripts/Mode_Retail.lua" />
+		<lua name="E3.lua" deferred_loading="false" protected="true" file="MiniGames/ScribbleShooter_PublicMiniGame/lua/E3.lua" />
+		<lua name="List.lua" deferred_loading="false" protected="true" file="Scripts/List.lua" />
+	</local>
+	<external />
+</resources>
