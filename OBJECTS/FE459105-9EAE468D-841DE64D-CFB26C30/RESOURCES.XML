@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Nom_01.mdl" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_01.mdl" />
+		<model name="Nom_02.mdl" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_02.mdl" />
+		<model name="Nom_03.mdl" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_03.mdl" />
+		<model name="Nom_04.mdl" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_04.mdl" />
+		<model name="Nom_05.mdl" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_05.mdl" />
+		<model name="Nom_06.mdl" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_06.mdl" />
+		<model name="Nom_07.mdl" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_07.mdl" />
+		<model name="raincloud_RIG.mdl" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/raincloud_RIG.mdl" />
+		<model name="WINDS_Genie_RIG.mdl" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_RIG.mdl" />
+		<texture name="background_main.dds" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/graphics/background_main.dds" />
+		<texture name="Arrow_Icon_64.dds" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Genie_Game/graphics/Arrow_Icon_64.dds" />
+		<particle name="HealBot.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/Winds/Cloud_Poof.efx" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/file/Network.xml" />
+		<file name="nyala.ttf" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Genie_Game/fonts/nyala.ttf" />
+		<collision name="Nom_01.hkx" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_01.hkx" />
+		<collision name="Nom_02.hkx" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_02.hkx" />
+		<collision name="Nom_03.hkx" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_03.hkx" />
+		<collision name="Nom_04.hkx" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_04.hkx" />
+		<collision name="Nom_05.hkx" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_05.hkx" />
+		<collision name="Nom_06.hkx" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_06.hkx" />
+		<collision name="Nom_07.hkx" deferred_loading="false" protected="false" file="environments/seven_winds/models/feasting_pavilion/noms/Nom_07.hkx" />
+		<collision name="WINDS_Genie_RIG.hkx" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_RIG.hkx" />
+		<anim name="raincloud_endanimation.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/raincloud_endanimation.ani" />
+		<anim name="raincloud_idleanimation.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/raincloud_idleanimation.ani" />
+		<anim name="raincloud_startanimation.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/raincloud_startanimation.ani" />
+		<anim name="WINDS_Genie_Idle01.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_Idle01.ani" />
+		<anim name="WINDS_Genie_SnapFinger.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_SnapFinger.ani" />
+		<anim name="WINDS_Genie_SpeakingLoop.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_SpeakingLoop.ani" />
+		<anim name="WINDS_Genie_ClapHands.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_ClapHands.ani" />
+		<anim name="WINDS_Genie_Farewell.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_Farewell.ani" />
+		<anim name="WINDS_Genie_Greet.ani" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_Greet.ani" />
+		<skeleton name="raincloud_RIG.skn" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/raincloud_RIG.skn" />
+		<skeleton name="WINDS_Genie_RIG.skn" deferred_loading="false" protected="false" file="MiniGames/seven_winds_genie_game/models/WINDS_Genie_RIG.skn" />
+		<soundbank name="SevenWindsMerchantSoundbankUI.bnk" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Merchant/Audio/SevenWindsMerchantSoundbankUI.bnk" />
+		<soundstream name="Beware.mp3" deferred_loading="true" protected="false" file="MiniGames/seven_winds_genie_game/audio/Beware.mp3" />
+		<soundstream name="Cairo.mp3" deferred_loading="true" protected="false" file="MiniGames/seven_winds_genie_game/audio/Cairo.mp3" />
+		<soundstream name="IsraelVictory.mp3" deferred_loading="true" protected="false" file="MiniGames/seven_winds_genie_game/audio/IsraelVictory.mp3" />
+		<soundstream name="Pursuit.mp3" deferred_loading="true" protected="false" file="MiniGames/seven_winds_genie_game/audio/Pursuit.mp3" />
+		<soundstream name="Pyramid.mp3" deferred_loading="true" protected="false" file="MiniGames/seven_winds_genie_game/audio/Pyramid.mp3" />
+		<soundstream name="TheDesert.mp3" deferred_loading="true" protected="false" file="MiniGames/seven_winds_genie_game/audio/TheDesert.mp3" />
+		<soundstream name="WeTrust.mp3" deferred_loading="true" protected="false" file="MiniGames/seven_winds_genie_game/audio/WeTrust.mp3" />
+		<soundstream name="SummonFood.mp3" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Genie_Game/audio/SummonFood.mp3" />
+		<soundstream name="Teleport.mp3" deferred_loading="false" protected="false" file="MiniGames/Seven_Winds_Genie_Game/audio/Teleport.mp3" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/Pad.luac" />
+		<lua name="State_Idle.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/State_Idle.luac" />
+		<lua name="StateMachine.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/StateMachine.luac" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/Utility.luac" />
+		<lua name="MessageManager.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/MessageManager.luac" />
+		<lua name="State_MainMenu.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/State_MainMenu.luac" />
+		<lua name="EffectManager.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/EffectManager.luac" />
+		<lua name="State_QuestionGame.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/State_QuestionGame.luac" />
+		<lua name="GenieAnimationManager.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/GenieAnimationManager.luac" />
+		<lua name="State_EffectChange.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/State_EffectChange.luac" />
+		<lua name="BatchResourceLoader.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/BatchResourceLoader.luac" />
+		<lua name="CoroutineManager.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/CoroutineManager.luac" />
+		<lua name="State_MusicMenu.lua" deferred_loading="false" protected="true" file="MiniGames/seven_winds_genie_game/lua/State_MusicMenu.luac" />
+		<lua name="MiniGame_Public.lua" deferred_loading="false" protected="true" file="MiniGames/Seven_Winds_Genie_Game/lua/MiniGame_Public.luac" />
+	</local>
+	<external />
+</resources>

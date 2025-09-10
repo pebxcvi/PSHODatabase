@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/WINT12_SnowballPile.mdl" memory="host" />
+		<model name="Snowball01.mdl" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/Snowball01.mdl" memory="host" />
+		<model name="Wint12_SnowballFlag.mdl" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/Wint12_SnowballFlag.mdl" memory="host" />
+		<texture name="blueFlag" deferred_loading="true" protected="false" file="furniture/wint12_snowballpile/textures/winterflag_bluec.dds" memory="host" />
+		<texture name="controls_DE.dds" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/graphics/controls_DE.dds" memory="host" />
+		<texture name="controls_ES.dds" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/graphics/controls_ES.dds" memory="host" />
+		<texture name="controls_FR.dds" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/graphics/controls_FR.dds" memory="host" />
+		<texture name="controls_GB.dds" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/graphics/controls_GB.dds" memory="host" />
+		<texture name="controls_IT.dds" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/graphics/controls_IT.dds" memory="host" />
+		<texture name="controls_US.dds" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/graphics/controls_US.dds" memory="host" />
+		<particle name="SnowBall_Hit.efx" deferred_loading="false" protected="false" file="Tools/AtgParticles/WINT12/SnowBall_Hit.efx" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/Network.xml" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/WINT12_SnowballPile.hkx" memory="host" />
+		<collision name="Snowball01.hkx" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/Snowball01.hkx" memory="host" />
+		<anim name="WINT12_Female_SnowballFight_Throw.ani" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/anim/WINT12_Female_SnowballFight_Throw.ani" memory="host" />
+		<anim name="WINT12_Male_SnowballFight_Throw.ani" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/anim/WINT12_Male_SnowballFight_Throw.ani" memory="host" />
+		<soundstream name="Snowball_Impact.mp3" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/audio/Snowball_Impact.mp3" />
+		<soundstream name="Snowball_Throw.mp3" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/audio/Snowball_Throw.mp3" />
+		<repertoire name="male" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/reps/male.xml" memory="host" />
+		<repertoire name="female" deferred_loading="false" protected="false" file="furniture/wint12_snowballpile/reps/female.xml" memory="host" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="furniture/wint12_snowballpile/main.luac" memory="host" />
+		<lua name="LocalPlayerController.lua" deferred_loading="false" protected="true" file="furniture/wint12_snowballpile/LocalPlayerController.luac" memory="host" />
+		<lua name="Snowball.lua" deferred_loading="false" protected="true" file="furniture/wint12_snowballpile/Snowball.luac" memory="host" />
+		<lua name="Pad.lua" deferred_loading="false" protected="true" file="furniture/wint12_snowballpile/Pad.luac" memory="host" />
+		<lua name="Utility.lua" deferred_loading="false" protected="true" file="furniture/wint12_snowballpile/Utility.luac" memory="host" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="Cannon_1_Turret_mdl" file="environments/gamescom_2009_Podium/objects/cannon_gun_low.mdl" deferred_loading="false" />
+		<model name="Cannon_1_Base_mdl" file="environments/gamescom_2009_Podium/objects/cannon_base_low.mdl" deferred_loading="false" />
+		<model name="GreenHoop_mdl" file="environments/gamescom_2009_Podium/objects/greenhoop.mdl" deferred_loading="false" />
+		<model name="RedHoop_mdl" file="environments/gamescom_2009_Podium/objects/redhoop.mdl" deferred_loading="false" />
+		<model name="Cannon_fizzball_mdl" file="environments/gamescom_2009_Podium/objects/cannon_fizzball.mdl" deferred_loading="false" />
+		<texture name="LargePanel_GC_dds" file="Scripts/gamescom_2009_Podium/images/panels/LargePanel_GC_plain.dds" deferred_loading="false" />
+		<texture name="SmallPanel_GC_dds" file="Scripts/gamescom_2009_Podium/images/panels/SmallPanel_GC_plain.dds" deferred_loading="false" />
+		<texture name="Power_meter_bottom_dds" file="Scripts/gamescom_2009_Podium/images/power_meter_bottom.dds" deferred_loading="false" />
+		<texture name="Power_meter_mid_dds" file="Scripts/gamescom_2009_Podium/images/power_meter_mid.dds" deferred_loading="false" />
+		<texture name="Power_meter_top_dds" file="Scripts/gamescom_2009_Podium/images/power_meter_top.dds" deferred_loading="false" />
+		<texture name="Ammo_Score_icon_dds" file="Scripts/gamescom_2009_Podium/images/ammo_score_icon.dds" deferred_loading="false" />
+		<particle name="Fizz_trail_efx" file="ATGParticles/GamesCom/fizz_trail.efx" deferred_loading="false" />
+		<particle name="Fizz_ball_trail_efx" file="ATGParticles/GamesCom/fizz_ball_trail.efx" deferred_loading="false" />
+		<file name="Util_lua" file="Scripts/gamescom_2009_Podium/Util.lua" deferred_loading="false" />
+		<file name="Gamescom_minigame_lua" file="Scripts/gamescom_2009_Podium/Gamescom_fizz_cannon_minigame.lua" deferred_loading="false" />
+		<file name="Constants_lua" file="Scripts/gamescom_2009_Podium/Constants.lua" deferred_loading="false" />
+		<collision name="Cannon_fizzball_hkx" file="environments/gamescom_2009_Podium/objects/cannon_fizzball.hkx" deferred_loading="false" />
+		<soundbank name="Fizz_Audio_bnk" file="Scripts/gamescom_2009_Podium/audio/Fizz_Audio.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="fire_base_file.mdl" deferred_loading="true" protected="false" file="Locomotion/fire_base_file.mdl" memory="host" />
+		<model name="fire_base_file_remote.mdl" deferred_loading="true" protected="false" file="Locomotion/fire_base_file_remote.mdl" memory="host" />
+		<model name="Fire_beam_alone_alternate.mdl" deferred_loading="true" protected="false" file="Locomotion/Fire_beam_alone_alternate.mdl" memory="host" />
+		<file name="config.xml" deferred_loading="false" protected="false" file="Locomotion/Fire_Powers/file/config.xml" memory="host" />
+		<anim name="Elemental_Masters_Fire_1Attack.ani" deferred_loading="true" protected="false" file="Locomotion/animations/Elemental_Masters_Fire_1Attack.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_1AttackIdle.ani" deferred_loading="true" protected="false" file="Locomotion/animations/Elemental_Masters_Fire_1AttackIdle.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_Charge.ani" deferred_loading="true" protected="false" file="Locomotion/animations/Elemental_Masters_Fire_Charge.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_Explode.ani" deferred_loading="true" protected="false" file="Locomotion/animations/Elemental_Masters_Fire_Explode.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FlyingRun.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/animations/Elemental_Masters_Fire_FlyingRun.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FlyingWalk.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/animations/Elemental_Masters_Fire_FlyingWalk.ani" memory="host" />
+		<anim name="Fire_beam_fly.ani" deferred_loading="true" protected="false" file="Locomotion/Fire_beam_fly.ani" memory="main" />
+		<anim name="Fire_beam_shoot.ani" deferred_loading="true" protected="false" file="Locomotion/Fire_beam_shoot.ani" memory="main" />
+		<anim name="feet_rings_animation.ani" deferred_loading="true" protected="false" file="Locomotion/feet_rings_animation.ani" memory="main" />
+		<anim name="Explode_animation.ani" deferred_loading="true" protected="false" file="Locomotion/Explode_animation.ani" memory="host" />
+		<anim name="fire_idle.ani" deferred_loading="true" protected="false" file="Locomotion/fire_idle.ani" />
+		<anim name="Elemental_Masters_Fire_Fem1Attack.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_Fem1Attack.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_Fem1AttackIdle.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_Fem1AttackIdle.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FemCharge.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_FemCharge.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FemExplode.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_FemExplode.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FemFlyIdle.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_FemFlyIdle.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FemFlyRun.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_FemFlyRun.ani" memory="main" />
+		<anim name="Elemental_Masters_Fire_FemFlyWalk.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_FemFlyWalk.ani" memory="host" />
+		<anim name="NEW_FIRE_IDLE_bake.ani" deferred_loading="true" protected="false" file="Locomotion/animations/NEW_FIRE_IDLE_bake.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FlyingIdle_NEW.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/animations/Elemental_Masters_Fire_FlyingIdle_NEW_Bake.ani" memory="host" />
+		<anim name="Fire_beam_alone_alternate_spin.ani" deferred_loading="true" protected="false" file="Locomotion/Fire_beam_alone_alternate_spin.ani" memory="host" />
+		<anim name="Elemental_Masters_Fire_FemIdle_NEW.ani" deferred_loading="true" protected="false" file="Locomotion/fire_samurai/female/Elemental_Masters_Fire_FemIdle_NEW.ani" memory="host" />
+		<skeleton name="fire_base_file.skn" deferred_loading="true" protected="false" file="Locomotion/fire_base_file.skn" memory="host" />
+		<skeleton name="fire_base_file_remote.skn" deferred_loading="true" protected="false" file="Locomotion/fire_base_file_remote.skn" memory="host" />
+		<skeleton name="Fire_beam_alone_alternate.skn" deferred_loading="true" protected="false" file="Locomotion/Fire_beam_alone_alternate.skn" memory="host" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/Fire_Powers/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/Fire_Powers/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/Fire_Powers/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/Fire_Powers/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/Fire_Powers/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

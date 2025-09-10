@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="runner_01.mdl" deferred_loading="false" protected="false" file="furniture/runner_01/model/runner_01.mdl" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="furniture/runner_01/file/Network.xml" />
+		<collision name="runner_01.hkx" deferred_loading="false" protected="false" file="furniture/runner_01/collision/runner_01.hkx" />
+		<collision name="runner_01.safevolume.hkx" deferred_loading="false" protected="false" file="furniture/runner_01/collision/runner_01.safevolume.hkx" />
+		<anim name="Female_runner_02_down.ani" deferred_loading="false" protected="false" file="furniture/runner_01/animation/Female_runner_02_down.ani" />
+		<anim name="Female_runner_02_loop.ani" deferred_loading="false" protected="false" file="furniture/runner_01/animation/Female_runner_02_loop.ani" />
+		<anim name="Female_runner_02_up.ani" deferred_loading="false" protected="false" file="furniture/runner_01/animation/Female_runner_02_up.ani" />
+		<anim name="Male_runner_02_down.ani" deferred_loading="false" protected="false" file="furniture/runner_01/animation/Male_runner_02_down.ani" />
+		<anim name="Male_runner_02_loop.ani" deferred_loading="false" protected="false" file="furniture/runner_01/animation/Male_runner_02_loop.ani" />
+		<anim name="Male_runner_02_up.ani" deferred_loading="false" protected="false" file="furniture/runner_01/animation/Male_runner_02_up.ani" />
+		<repertoire name="MaleRep" deferred_loading="false" protected="false" file="furniture/runner_01/rep/MaleRep.xml" />
+		<repertoire name="FemaleRep" deferred_loading="false" protected="false" file="furniture/runner_01/rep/FemaleRep.xml" />
+		<emotes name="MaleEmotes" deferred_loading="true" protected="false" file="furniture/runner_01/rep/MaleEmotes.xml" />
+		<emotes name="FemaleEmotes" deferred_loading="true" protected="false" file="furniture/runner_01/rep/FemaleEmotes.xml" />
+		<lua name="runner.lua" deferred_loading="false" protected="true" file="furniture/runner_01/lua/runner.lua" />
+	</local>
+	<external />
+</resources>

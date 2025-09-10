@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="slot_reel01" deferred_loading="false" protected="false" file="furniture/slot/slot_reel01.mdl" />
+		<model name="slot_reel02" deferred_loading="false" protected="false" file="furniture/slot/slot_reel02.mdl" />
+		<model name="slot_reel03" deferred_loading="false" protected="false" file="furniture/slot/slot_reel03.mdl" />
+		<model name="slot_main" deferred_loading="false" protected="false" file="furniture/slot/slot_main.mdl" />
+		<model name="slot_button" deferred_loading="false" protected="false" file="furniture/slot/slot_button.mdl" />
+		<model name="slot_lever" deferred_loading="false" protected="false" file="furniture/slot/slot_lever.mdl" />
+		<texture name="ui_lobby_01.dds" deferred_loading="false" protected="false" file="MiniGames/entry_menu/texture/ui_lobby_01.dds" />
+		<texture name="ui_storeicon_01.dds" deferred_loading="false" protected="false" file="MiniGames/ninja_shooter/textures/ui/ui_storeicon_01.dds" />
+		<texture name="ui_help_img_01.dds" deferred_loading="false" protected="false" file="MiniGames/ninja_shooter/textures/ui/ui_help_img_01.dds" />
+		<texture name="ui_slotbg_02.dds" deferred_loading="false" protected="false" file="MiniGames/ninja_shooter/textures/ui/ui_slotbg_02.dds" />
+		<texture name="ui_cursol_01.dds" deferred_loading="false" protected="false" file="MiniGames/ninja_shooter/textures/ui/ui_cursol_01.dds" />
+		<collision name="slot_main.hkx" deferred_loading="false" protected="false" file="furniture/slot/slot_main.hkx" />
+		<anim name="slot_button_loop.ani" deferred_loading="false" protected="false" file="furniture/slot/slot_button_loop.ani" />
+		<anim name="slot_button_on_ani3" deferred_loading="false" protected="false" file="furniture/slot/slot_button_onright.ani" />
+		<anim name="slot_button_on_ani2" deferred_loading="false" protected="false" file="furniture/slot/slot_button_oncenter.ani" />
+		<anim name="slot_button_on_ani1" deferred_loading="false" protected="false" file="furniture/slot/slot_button_onleft.ani" />
+		<skeleton name="slot_button.skn" deferred_loading="false" protected="false" file="furniture/slot/slot_button.skn" />
+		<soundbank name="PNS_lobby.bnk" deferred_loading="false" protected="false" file="MiniGames/union_system/sound/PNS_lobby.bnk" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/slot_machine/lua/main.lua" />
+		<lua name="all.lua" deferred_loading="false" protected="true" file="MiniGames/all.lua" />
+		<lua name="libUnion.lua" deferred_loading="false" protected="true" file="MiniGames/libUnion.lua" />
+		<lua name="pad.lua" deferred_loading="false" protected="true" file="MiniGames/pad.lua" />
+		<lua name="params.lua" deferred_loading="false" protected="true" file="MiniGames/slot_machine/lua/params.lua" />
+		<lua name="slotMachine.lua" deferred_loading="false" protected="true" file="MiniGames/slot_machine/lua/slotMachine.lua" />
+		<lua name="listenerMgr.lua" deferred_loading="false" protected="true" file="MiniGames/entry_menu/lua/listenerMgr.lua" />
+		<lua name="HelpRender.lua" deferred_loading="false" protected="true" file="MiniGames/HelpRender.lua" />
+		<lua name="params_reward.lua" deferred_loading="false" protected="true" file="MiniGames/params_reward.lua" />
+	</local>
+	<external />
+</resources>

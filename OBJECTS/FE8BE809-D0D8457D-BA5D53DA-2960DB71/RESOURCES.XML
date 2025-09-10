@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="OPENHOUSE_promoPOINT_SingleItems.mdl" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_promoPOINT_SingleItems.mdl" />
+		<model name="Promo_ItemCube.mdl" deferred_loading="false" protected="false" file="furniture/promo_itemcube/Promo_ItemCube.mdl" />
+		<texture name="PLAYSTATIONSTORE_ICON_256X32.dds" deferred_loading="false" protected="false" file="environments/loot_space_station/textures/PLAYSTATIONSTORE_ICON_256X32.dds" />
+		<texture name="Spaceapt_MENU_896x384.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/work/MENU/Spaceapt_MENU_896x384.dds" memory="main" />
+		<texture name="Spaceapt_MENU_1024x192.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/work/MENU/Spaceapt_MENU_1024x192.dds" />
+		<texture name="Slider_16x128.dds" deferred_loading="false" protected="false" file="environments/loot_space_apartment/work/MENU/Slider_16x128.dds" />
+		<texture name="load_icon.dds" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/SingleItemPurchaseMode/Textures/load_icon.dds" />
+		<texture name="promotional_image.dds" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/SingleItemPurchaseMode/Textures/promotional_image.dds" />
+		<texture name="PEG_12.dds" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/SingleItemPurchaseMode/Textures/PEG_12.dds" />
+		<texture name="ESRB_Teen.dds" deferred_loading="false" protected="false" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/SingleItemPurchaseMode/Textures/ESRB_Teen.dds" />
+		<anim name="OPENHOUSE_promoPOINT_SingleItems.ani" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_promoPOINT_SingleItems.ani" />
+		<skeleton name="OPENHOUSE_promoPOINT_SingleItems.skn" deferred_loading="false" protected="false" file="furniture/openhouse_promopoint/OPENHOUSE_promoPOINT_SingleItems.skn" />
+		<lua name="lgs_menu_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/lgs_menu_lib.luac" />
+		<lua name="utility_lib.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/SA_Shared/utility_lib.luac" />
+		<lua name="object_data.lua" deferred_loading="false" protected="true" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/SingleItemPurchaseMode/object_data.luac" />
+		<lua name="shopping_main.lua" deferred_loading="false" protected="true" file="MiniGames/PromotionalSpaceMiniGames/BaseCode/SingleItemPurchaseMode/shopping_main.luac" />
+		<lua name="sipm_gb_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/Ghostbusters/SingleItemPurchaseMode/sipm_gb_settings.luac" memory="host" />
+		<lua name="sipm_hhh_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/HHH/SingleItemPurchaseMode/sipm_hhh_settings.luac" memory="host" />
+		<lua name="sipm_sa_scea_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/SpaceApartment_SCEA/SingleItemPurchaseMode/sipm_sa_scea_settings.luac" memory="host" />
+		<lua name="sipm_ss2_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/SS2/SingleItemPurchaseMode/sipm_ss2_settings.luac" memory="host" />
+		<lua name="sipm_ss3_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/SS3/SingleItemPurchaseMode/sipm_ss3_settings.luac" memory="host" />
+		<lua name="sipm_yacht_settings.lua" deferred_loading="true" protected="true" file="MiniGames/PromotionalSpaceMiniGames/Yacht/SingleItemPurchaseMode/sipm_yacht_settings.luac" memory="host" />
+		<lua name="strict.lua" deferred_loading="false" protected="true" file="MiniGames/Libraries/strict.luac" />
+	</local>
+	<external />
+</resources>

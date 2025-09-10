@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="V8_MG_korogari_iwa_00.mdl" file="V8Lounge/design/B1_MiniGames/scenes/V8_MG_korogari_iwa_00.mdl" deferred_loading="false" />
+		<model name="V8_MG_item_flash.mdl" file="V8Lounge/design/B1_MiniGames/scenes/V8_MG_item_flash.mdl" deferred_loading="false" />
+		<model name="V8_MG_item_bomb.mdl" file="V8Lounge/design/B1_MiniGames/scenes/V8_MG_item_bomb.mdl" deferred_loading="false" />
+		<model name="V8_MG_item_key.mdl" file="V8Lounge/design/B1_MiniGames/scenes/V8_MG_item_key.mdl" deferred_loading="false" />
+		<model name="V8_MG_korogari_iwa_atr.mdl" file="V8Lounge/design/B1_MiniGames/scenes/V8_MG_korogari_iwa_atr.mdl" deferred_loading="false" />
+		<texture name="SpotlightMask.dds" file="environments/LightTutorial/SpotlightMask.dds" deferred_loading="false" />
+		<texture name="item_get_mark_key.dds" file="V8Lounge/design/B1_MiniGames/sourceimages/item_get_mark_key.dds" deferred_loading="false" />
+		<texture name="item_get_mark_bomb.dds" file="V8Lounge/design/B1_MiniGames/sourceimages/item_get_mark_bomb.dds" deferred_loading="false" />
+		<texture name="item_get_mark_flash.dds" file="V8Lounge/design/B1_MiniGames/sourceimages/item_get_mark_flash.dds" deferred_loading="false" />
+		<texture name="B1_gameover_font.dds" file="V8Lounge/design/B1_MiniGames/sourceimages/B1_gameover_font.dds" deferred_loading="false" />
+		<particle name="Eff_Fire_B00.efx" file="V8Lounge/design/ATGParticles/Efx/Eff_Fire_B00.efx" deferred_loading="false" />
+		<particle name="DeathEfx" file="V8Lounge/design/ATGParticles/Efx/Eff_skull_01.efx" deferred_loading="false" />
+		<file name="main" file="V8Lounge/soft/B1_BackSync/main.lua" deferred_loading="false" />
+		<file name="HeadLight" file="V8Lounge/soft/B1_BackSync/HeadLight/HeadLight.lua" deferred_loading="false" />
+		<file name="RollingRock" file="V8Lounge/soft/B1_BackSync/RollingRock/RollingRock.lua" deferred_loading="false" />
+		<file name="Box" file="V8Lounge/soft/B1_BackSync/Box.lua" deferred_loading="false" />
+		<file name="RollingRockData" file="V8Lounge/soft/B1_BackSync/RollingRock/Data/RollingRockData.lua" deferred_loading="false" />
+		<file name="B1_Death" file="V8Lounge/soft/B1_Death/B1_Death.lua" deferred_loading="false" />
+		<file name="B1_ItemMark" file="V8Lounge/soft/B1_ItemMark/B1_ItemMark.lua" deferred_loading="false" />
+		<file name="ItemPick" file="V8Lounge/soft/B1_BackSync/ItemPick/ItemPick.lua" deferred_loading="false" />
+		<file name="FlamePillar" file="V8Lounge/soft/B1_BackSync/FlamePillar/FlamePillar.lua" deferred_loading="false" />
+		<file name="FlamePillarData" file="V8Lounge/soft/B1_BackSync/FlamePillar/Data/FlamePillarData.lua" deferred_loading="false" />
+		<file name="FlamePillarDesign" file="V8Lounge/design/B1_MiniGames/FlamePillar/FlamePillarDesign.lua" deferred_loading="false" />
+		<file name="bspline" file="V8Lounge/soft/B1_BackSync/RollingRock/bspline.lua" deferred_loading="false" />
+		<file name="LuaMath" file="V8Lounge/soft/B1_BackSync/LuaMath.lua" deferred_loading="false" />
+		<file name="LuaCamera" file="V8Lounge/soft/B1_BackSync/LuaCamera.lua" deferred_loading="false" />
+		<collision name="V8_MG_korogari_iwa_00.hkx" file="V8Lounge/design/B1_MiniGames/scenes/V8_MG_korogari_iwa_00.hkx" deferred_loading="false" />
+		<collision name="V8_MG_korogari_iwa_atr.hkx" file="V8Lounge/design/B1_MiniGames/scenes/V8_MG_korogari_iwa_atr.hkx" deferred_loading="false" />
+		<soundbank name="SE_Death" file="V8Lounge/soft/B1_Death/Death.bnk" deferred_loading="false" />
+		<soundbank name="BackSync.bnk" file="V8Lounge/sound/BackSync.bnk" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

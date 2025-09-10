@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="bd_lift_rail" deferred_loading="false" protected="false" file="environmentanimations/bd_lift_plate/bd_lift_rail.mdl" memory="host" />
+		<model name="bd_match_floor" deferred_loading="false" protected="false" file="environmentanimations/bd_match_floor/bd_match_floor.mdl" memory="host" />
+		<model name="bman_mirrorball_mdl" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_mirrorball.mdl" memory="host" />
+		<model name="bman_spot_mdl" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_spot_01.mdl" memory="main" />
+		<model name="bman_equalizer_mdl" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_equalizer.mdl" memory="host" />
+		<model name="bd_stage_ef_mdl" deferred_loading="false" protected="false" file="environmentanimations/bd_info/bd_stage_ef.mdl" memory="host" />
+		<model name="bd_stage_mdl" deferred_loading="false" protected="false" file="environmentanimations/bd_info/bd_stage.mdl" memory="host" />
+		<texture name="light_mask" deferred_loading="false" protected="false" file="MiniGames/bombstage/light_mask.dds" />
+		<texture name="light_mask_3" deferred_loading="false" protected="false" file="MiniGames/bombstage/light_mask_3.dds" />
+		<texture name="light_mask_2" deferred_loading="false" protected="false" file="MiniGames/bombstage/light_mask_2.dds" />
+		<file name="osd_types" deferred_loading="false" protected="false" file="MiniGames/bombstage/types.xml" />
+		<file name="osd_title" deferred_loading="false" protected="false" file="MiniGames/bombstage/title.xml" />
+		<anim name="bman_mirrorball_ani_01" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_mirrorball_ani_01.ani" memory="host" />
+		<anim name="bman_mirrorball_ani_02" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_mirrorball_ani_02.ani" memory="host" />
+		<anim name="bman_mirrorball_ani_03" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_mirrorball_ani_03.ani" memory="host" />
+		<anim name="bman_spot_ani_02" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_spot_01_ani_02.ani" memory="host" />
+		<anim name="bman_spot_ani_01" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_spot_01_ani_01.ani" memory="host" />
+		<anim name="bman_spot_ani_03" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_spot_01_ani_03.ani" memory="host" />
+		<anim name="bman_equalizer_ani_01" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_equalizer_ani_01.ani" memory="host" />
+		<anim name="bman_equalizer_ani_02" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_equalizer_ani_02.ani" memory="host" />
+		<anim name="bman_equalizer_ani_03" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_equalizer_ani_03.ani" memory="host" />
+		<anim name="bman_spot_ani_04" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_spot_01_ani_04.ani" memory="host" />
+		<anim name="bd_stage_ani" deferred_loading="false" protected="false" file="environmentanimations/bd_info/bd_stage.ani" memory="host" />
+		<skeleton name="bman_mirrorball_skn" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_mirrorball.skn" memory="host" />
+		<skeleton name="bman_spot_skn" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_spot_01.skn" memory="host" />
+		<skeleton name="bman_equalizer_skn" deferred_loading="false" protected="false" file="environmentanimations/bomberman/bman_equalizer.skn" memory="host" />
+		<skeleton name="bd_stage_skn" deferred_loading="false" protected="false" file="environmentanimations/bd_info/bd_stage.skn" memory="host" />
+		<soundbank name="bgm_1" deferred_loading="true" protected="false" file="environments/bomber_dome/audio/bgm_bnf.bnk" memory="host" />
+		<soundbank name="bgm_2" deferred_loading="true" protected="false" file="environments/bomber_dome/audio/bgm_dolphie.bnk" memory="host" />
+		<soundbank name="bgm_3" deferred_loading="true" protected="false" file="environments/bomber_dome/audio/bgm_dolphie_2.bnk" memory="host" />
+		<lua name="stage" deferred_loading="false" protected="true" file="MiniGames/bombstage/stage.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/Pacha_Dance/file/Network.xml" />
+		<anim name="PoleDance.ani" deferred_loading="false" protected="false" file="animation/female/poledance/PoleDance.ani" />
+		<anim name="m_PoleDance.ani" deferred_loading="false" protected="false" file="animation/male/poledance/m_PoleDance.ani" />
+		<repertoire name="male_repertoire" deferred_loading="false" protected="false" file="MiniGames/Pacha_Dance/repertoire/male_pacha_dance.xml" />
+		<repertoire name="female_repertoire" deferred_loading="false" protected="false" file="MiniGames/Pacha_Dance/repertoire/female_pacha_dance.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="MiniGames/Pacha_Dance/lua/MiniGame.lua" />
+		<lua name="VMEventTrack" deferred_loading="false" protected="true" file="MiniGames/pacha_jumppoint/VMEventTrack.lua" />
+	</local>
+	<external />
+</resources>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="GEORGIA_woman.mdl" deferred_loading="false" file="characters_v2/female/npc/fifa_companion.mdl" />
+		<texture name="win_allow.dds" deferred_loading="false" file="Scripts/common/tex/win_allow.dds" />
+		<texture name="win_edge.dds" deferred_loading="false" file="Scripts/common/tex/win_edge.dds" />
+		<texture name="win_side.dds" deferred_loading="false" file="Scripts/common/tex/win_side.dds" />
+		<texture name="edge.dds" deferred_loading="false" protected="" file="Scripts/common/tex/edge.dds" />
+		<particle name="teleport.efx" deferred_loading="false" file="ATGParticles/FIFA/Efx/teleport.efx" />
+		<file name="osd_types.xml" deferred_loading="false" file="MiniGames/PressLocalise/osd/osd_types.xml" />
+		<file name="osd_Navi.xml" deferred_loading="false" file="MiniGames/PressLocalise/osd/osd_Navi.xml" />
+		<xml name="press_event.xml" deferred_loading="true" file="MiniGames/PressLocalise/press_event.xml" />
+		<xml name="press_schedule.xml" deferred_loading="true" file="MiniGames/PressLocalise/press_schedule.xml" />
+		<collision name="GEORGIA_woman.hkx" deferred_loading="false" file="environmentanimations/georgia_woman/GEORGIA_woman.hkx" />
+		<anim name="GA_woman_ani_talk_set_B.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_talk_set_b.ani" />
+		<anim name="GA_woman_ani_talk_set_C.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_talk_set_c.ani" />
+		<anim name="GA_woman_ani_talk_set_D.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_talk_set_d.ani" />
+		<anim name="GEORGIA_woman.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion.ani" />
+		<anim name="GA_woman_ani_bow.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_bow.ani" />
+		<anim name="GA_woman_ani_eye_cl_stay.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_eye_cl_stay.ani" />
+		<anim name="GA_woman_ani_stay.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_stay.ani" />
+		<anim name="GA_woman_ani_stay_L.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_stay_l.ani" />
+		<anim name="GA_woman_ani_talk_set_A.ani" deferred_loading="false" file="characters_v2/female/npc/fifa_companion_ani_talk_set_a.ani" />
+		<skeleton name="GEORGIA_woman.skn" deferred_loading="false" file="characters_v2/female/npc/fifa_companion.skn" />
+		<lua name="main.lua" deferred_loading="false" protected="true" file="MiniGames/PressLocalise/main.lua" />
+		<lua name="padUtil.lua" deferred_loading="false" protected="true" file="Scripts/common/padUtil.lua" />
+		<lua name="misc.lua" deferred_loading="false" protected="true" file="Scripts/common/misc.lua" />
+		<lua name="mathx.lua" deferred_loading="false" protected="true" file="Scripts/common/mathx.lua" />
+		<lua name="animationModel.lua" deferred_loading="false" protected="true" file="Scripts/common/animationModel.lua" />
+		<lua name="setting.lua" deferred_loading="false" protected="true" file="MiniGames/PressLocalise/setting.lua" />
+		<lua name="task.lua" deferred_loading="false" protected="true" file="Scripts/common/task.lua" />
+		<lua name="balloonMsg.lua" deferred_loading="false" protected="true" file="Scripts/common/balloonMsg.lua" />
+		<lua name="headlineMsg.lua" deferred_loading="false" protected="true" file="Scripts/common/headlineMsg.lua" />
+		<lua name="NpcMessagePanel.lua" deferred_loading="false" protected="true" file="MiniGames/PressLocalise/NpcMessagePanel.lua" />
+		<lua name="MsgWnd.lua" deferred_loading="false" protected="true" file="Scripts/common/MsgWnd.lua" />
+		<lua name="time.lua" deferred_loading="false" protected="true" file="MiniGames/PressLocalise/time.lua" />
+		<lua name="debug.lua" deferred_loading="false" protected="true" file="MiniGames/PressLocalise/debug.lua" />
+	</local>
+	<external />
+</resources>

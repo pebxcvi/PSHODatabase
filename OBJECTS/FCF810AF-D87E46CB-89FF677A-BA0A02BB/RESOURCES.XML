@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="board.mdl" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/wreck.mdl" memory="host" />
+		<model name="sledge.mdl" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/sledge.mdl" />
+		<file name="config.xml" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/file/config.xml" memory="host" />
+		<anim name="wreck_idle.ani" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/wreck_idle.ani" />
+		<anim name="Male_idle.ani" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/Male_idle_s2B.ani" />
+		<anim name="sledge_h.ani" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/sledge_h.ani" />
+		<anim name="sledge_s.ani" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/sledge_s.ani" />
+		<anim name="female_idle.ani" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/female_idleb.ani" />
+		<skeleton name="board.skn" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/wreck.skn" memory="host" />
+		<skeleton name="sledge.skn" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/sledge.skn" />
+		<repertoire name="female" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/repertoire/female.xml" memory="host" />
+		<repertoire name="male" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/repertoire/male.xml" memory="host" />
+		<emotes name="female_emotes" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/emotes/female_emotes.xml" memory="host" />
+		<emotes name="male_emotes" deferred_loading="true" protected="false" file="Locomotion/swing_wreck/emotes/male_emotes.xml" memory="host" />
+		<lua name="lua.boot" deferred_loading="false" protected="true" file="Locomotion/swing_wreck/lua/boot.luac" memory="host" id="3604697652" />
+	</local>
+	<external />
+</resources>

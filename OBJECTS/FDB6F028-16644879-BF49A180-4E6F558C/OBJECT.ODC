@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.70.0.93.PUB" version="1.0">
+  <version>1.0</version>
+  <uuid>FDB6F028-16644879-BF49A180-4E6F558C</uuid>
+  <name lang="en-GB" default="true">Dungeon Key</name>
+  <name lang="fr-FR" default="false">Clef du Donjon</name>
+  <name lang="de-DE" default="false">Schlüssel zum Dungeon</name>
+  <name lang="it-IT" default="false">Chiave Segreta</name>
+  <name lang="es-ES" default="false">Llave de la Mazmorra</name>
+  <description lang="en-GB" default="true">Unlocks the Dungeon in the Avalon Keep [#Legal]</description>
+  <description lang="fr-FR" default="false">Déverrouille le Donjon du Château Avalon [#Legal]</description>
+  <description lang="de-DE" default="false">Entriegelt das Verlies im Avalon Burg [#Legal]</description>
+  <description lang="it-IT" default="false">Sblocca il Dungeon nel Castello Avalon [#Legal]</description>
+  <description lang="es-ES" default="false">Abre la Mazmorra del Castillo Avalon [#Legal]</description>
+  <maker lang="en-GB" default="true">Heavy Water</maker>
+  <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T032.png</maker_image>
+  <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T032.png</small_image>
+  <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T032.png</large_image>
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
+  <legal>
+    <age_rating minimum_age="0" parental_control_level="1" />
+  </legal>
+  <heat />
+  <timestamp>FB6C27E5</timestamp>
+</odc>

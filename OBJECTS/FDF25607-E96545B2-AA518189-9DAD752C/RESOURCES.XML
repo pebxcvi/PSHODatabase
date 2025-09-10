@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="model" deferred_loading="false" protected="false" file="furniture/farm_w_globe/FARM_W_Globe.mdl" memory="host" />
+		<model name="FARM_W_Globe_RIG.mdl" deferred_loading="false" protected="false" file="furniture/farm_w_globe/FARM_W_Globe_RIG.mdl" memory="host" />
+		<collision name="collision" deferred_loading="false" protected="false" file="furniture/farm_w_globe/FARM_W_Globe.hkx" memory="host" />
+		<anim name="FARM_W_Globe_Idle01.ani" deferred_loading="false" protected="false" file="furniture/farm_w_globe/FARM_W_Globe_Idle01.ani" memory="host" />
+		<skeleton name="FARM_W_Globe_RIG.skn" deferred_loading="false" protected="false" file="furniture/farm_w_globe/FARM_W_Globe_RIG.skn" memory="host" />
+		<lua name="FARM_W_Globe.lua" deferred_loading="false" protected="true" file="furniture/farm_w_globe/FARM_W_Globe.lua" memory="host" />
+	</local>
+	<external />
+</resources>
