@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <lua name="Main.lua" deferred_loading="false" protected="true" file="embeddedobjects/cmnmenu/lua/main.luac" />
+    <lua name="CmnMenu.lua" deferred_loading="false" protected="true" file="embeddedobjects/cmnmenu/lua/cmnmenu.luac" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" />
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" />
+    <lua name="libSoundHelper.lua" deferred_loading="false" protected="true" file="lualibs/sound/soundhelper.luac" />
+    <lua name="libGlobalSettingHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/globalsettinghelper.luac" />
+    <lua name="libUserDataHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/userdatahelper.luac" />
+    <texture name="slp1.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/slp1.dds" />
+    <texture name="slp2.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/slp2.dds" />
+    <texture name="slp3.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/slp3.dds" />
+    <texture name="slb_l.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/slb_l.dds" />
+    <texture name="slb.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/slb.dds" />
+    <texture name="UserGuide_Plate.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/UserGuide_Plate.dds" />
+    <texture name="dlp.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/dlp.dds" />
+    <texture name="dlb.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/dlb.dds" />
+    <texture name="dlb_l.dds" deferred_loading="false" protected="false" file="Resources/UI/Menu/dlb_l.dds" />
+  </local>
+  <external />
+</resources>

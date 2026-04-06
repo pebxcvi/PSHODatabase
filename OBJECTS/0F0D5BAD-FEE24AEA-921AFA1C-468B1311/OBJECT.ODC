@@ -2,13 +2,38 @@
 <odc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" hdk_version="1.83.0.11.PUB" version="1.0">
   <version>1.0</version>
   <uuid>0F0D5BAD-FEE24AEA-921AFA1C-468B1311</uuid>
-  <name lang="en-GB" default="true">Male01_Hands_katana_nitou_00_1</name>
-  <name lang="ja-JP" default="false">*Not Localised* Male01_Hands_katana_nitou_00_1</name>
-  <description lang="ja-JP" default="false">*Not Localised* Male01_Hands_katana_nitou_00_1 [#Legal]</description>
+  <name lang="en-GB" default="true">Twin Katanas - Non-elemental, Drawn (Men)</name>
+  <name lang="ja-JP" default="false">二刀流の刀・無属性・抜刀時（男性）</name>
+  <name lang="en-US" default="false">Twin Katanas - Non-elemental, Drawn (Men)</name>
+  <name lang="en-SG" default="false">Twin Katanas - Non-elemental, Drawn (Men)</name>
+  <name lang="fr-FR" default="false">Katanas jumeaux - Non élémentaire, dégainée (homme)</name>
+  <name lang="es-ES" default="false">Katanas gemelas - No elemental, desenvainada (hombre)</name>
+  <name lang="it-IT" default="false">Katana gemelle - Non elementale, sguainata (da uomo)</name>
+  <name lang="de-DE" default="false">Zwillingskatana - Nicht-elementar, gezogen (für männer)</name>
+  <name lang="zh-HK" default="false">双武士刀 - 無屬性，拔刀（男性）</name>
+  <name lang="zh-TW" default="false">双武士刀 - 無屬性，拔刀（男性）</name>
+  <name lang="ko-KR" default="false">쌍카타나 - 무속성, 발도 상태 (남성)</name>
+  <description lang="en-GB" default="true">Two dangerously sharp katanas\nAttacking Strength: ★★★-[#Legal]</description>
+  <description lang="ja-JP" default="false">切れ味の鋭い二本の刀。\n攻撃力　：★★★-[#Legal]</description>
+  <description lang="en-US" default="false">Two dangerously sharp katanas\nAttacking Strength: ★★★-[#Legal]</description>
+  <description lang="en-SG" default="false">Two dangerously sharp katanas\nAttacking Strength: ★★★-[#Legal]</description>
+  <description lang="fr-FR" default="false">Deux katanas dangereusement affûtés.\nPuissance d'attaque : ★★★-[#Legal]</description>
+  <description lang="es-ES" default="false">Dos katanas peligrosamente afiladas\nAtaque: ★★★-[#Legal]</description>
+  <description lang="it-IT" default="false">Un paio di katana gemelle affilate\n\nAttacco: ★★★-[#Legal]</description>
+  <description lang="de-DE" default="false">Zwei gefährlich scharfe Katana.\nAngriff: ★★★-[#Legal]</description> 
+  <description lang="zh-HK" default="false">兩把危險鋒利的武士刀\n攻擊力:★★★-[#Legal]</description>
+  <description lang="zh-TW" default="false">兩把危險鋒利的武士刀\n攻擊力:★★★-[#Legal]</description>
+  <description lang="ko-KR" default="false">두 자루의 매우 날카로운 카타나\n공격력:★★★-[#Legal]</description>
+  <maker lang="en-GB" default="true">Granzella Inc.</maker>
   <maker_image lang="en-GB" default="true">[THUMBNAIL_ROOT]maker_T031.png</maker_image>
   <small_image lang="en-GB" default="true">[THUMBNAIL_ROOT]small_T031.png</small_image>
   <large_image lang="en-GB" default="true">[THUMBNAIL_ROOT]large_T031.png</large_image>
-  <entitlements />
+  <entitlements>
+    <entitlement_id territory="SCEE">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEA">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEJ">LUA_REWARD</entitlement_id>
+    <entitlement_id territory="SCEAsia">LUA_REWARD</entitlement_id>
+  </entitlements>
   <legal>
     <age_rating minimum_age="0" parental_control_level="1" />
     <age_rating country="KR" minimum_age="0" parental_control_level="3" />

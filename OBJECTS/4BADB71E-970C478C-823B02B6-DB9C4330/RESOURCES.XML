@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+  <local>
+    <file name="Network.xml" deferred_loading="false" protected="false" file="MiniGames/EffectSystemForGarden/file/Network.xml" memory="host" />
+    <lua name="MiniGame.lua" deferred_loading="false" protected="true" file="minigames/effectsystem/lua/minigame.luac" memory="host" />
+    <lua name="libDefine.lua" deferred_loading="false" protected="true" file="lualibs/define.luac" memory="host" />
+    <lua name="libJob.lua" deferred_loading="false" protected="true" file="lualibs/system/job.luac" memory="host" />
+    <lua name="libUtil.lua" deferred_loading="false" protected="true" file="lualibs/util/util.luac" memory="host" />
+    <lua name="libMath.lua" deferred_loading="false" protected="true" file="lualibs/util/math.luac" memory="host" />
+    <lua name="libSoundHelper.lua" deferred_loading="false" protected="true" file="lualibs/sound/soundhelper.luac" memory="host" />
+    <lua name="libGlobalSettingHelper.lua" deferred_loading="false" protected="true" file="lualibs/system/globalsettinghelper.luac" memory="host" />
+    <lua name="Effect.lua" deferred_loading="false" protected="true" file="minigames/effectsystem/lua/effect.luac" memory="host" />
+    <particle name="growsmoke02.efx" deferred_loading="false" protected="false" file="AtgParticles/Versatile_Set/efx/growsmoke02.efx" memory="host" />
+    <particle name="growsmoke03.efx" deferred_loading="false" protected="false" file="AtgParticles/Versatile_Set/efx/growsmoke03.efx" memory="host" />
+    <particle name="growsmoke04.efx" deferred_loading="false" protected="false" file="AtgParticles/Versatile_Set/efx/growsmoke04.efx" memory="host" />
+    <lua name="Setting.lua" deferred_loading="false" protected="true" file="resourcepacks/effectrespackforgarden/setting.luac" memory="host" />
+  </local>
+  <external />
+</resources>
