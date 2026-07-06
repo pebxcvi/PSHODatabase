@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="UFO_Target_mdl" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/UFO_Target.mdl" />
+		<model name="Navi_With_UFO_mdl" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO.mdl" deferred_loading="false" />
+		<model name="Navi_With_UFO_Tokyo_mdl" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO_Tokyo.mdl" deferred_loading="false" />
+		<model name="Navi_With_UFO_Yamagata_mdl" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO_Yamagata.mdl" deferred_loading="false" />
+		<model name="Navi_With_UFO_Miyagi_mdl" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO_Miyagi.mdl" deferred_loading="false" />
+		<model name="Fallen_Mother_Ship_mdl" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Fallen_Mother_Ship.mdl" deferred_loading="false" />
+		<texture name="rewardimg_jp" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Textures/rewardimg_jp.dds" />
+		<texture name="navi_poster" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Textures/navi_poster.dds" />
+		<file name="network_xml" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Network.xml" />
+		<file name="UFO_MOV" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/UFO_MOV.lua" />
+		<file name="UFO_OSD" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/UFO_OSD.lua" deferred_loading="false" />
+		<file name="serveraccess" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/serveraccess.lua" deferred_loading="false" />
+		<file name="paHomeSound" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/paHomeSound.lua" deferred_loading="false" />
+		<file name="paHomeCommon" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/paHomeCommon.lua" deferred_loading="false" />
+		<file name="paHomeUI" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/paHomeUI.lua" deferred_loading="false" />
+		<file name="paHomeObject" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/paHomeObject.lua" deferred_loading="false" />
+		<file name="serverurl" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/serverurl.lua" deferred_loading="false" />
+		<file name="selectbar_osd" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/OSD/selectbar.xml" />
+		<file name="err_osd" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/OSD/err.xml" deferred_loading="false" />
+		<file name="chip_osd" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/OSD/chip.xml" />
+		<file name="type_osd" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/OSD/types.xml" deferred_loading="false" />
+		<anim name="UFO_Target_ani" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/anims/UFO_Target.ani" deferred_loading="false" />
+		<anim name="Navi_With_UFO_ani" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/anims/Navi_With_UFO.ani" deferred_loading="false" />
+		<anim name="Navi_With_UFO_Tokyo_ani" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/anims/Navi_With_UFO_Tokyo.ani" deferred_loading="false" />
+		<anim name="Navi_With_UFO_Yamagata_ani" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/anims/Navi_With_UFO_Yamagata.ani" deferred_loading="false" />
+		<anim name="Navi_With_UFO_Miyagi_ani" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/anims/Navi_With_UFO_Miyagi.ani" deferred_loading="false" />
+		<skeleton name="Navi_With_UFO_Miyagi_skn" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO_Miyagi.skn" deferred_loading="false" />
+		<skeleton name="Navi_With_UFO_Yamagata_skn" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO_Yamagata.skn" deferred_loading="false" />
+		<skeleton name="Navi_With_UFO_skn" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO.skn" deferred_loading="false" />
+		<skeleton name="Navi_With_UFO_Tokyo_skn" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/Navi_With_UFO_Tokyo.skn" deferred_loading="false" />
+		<skeleton name="UFO_Target_skn" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/Models/UFO_Target.skn" deferred_loading="false" />
+		<soundbank name="se_001" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/sound/0042_all.bnk" deferred_loading="false" />
+		<soundstream name="answer_mp3" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/sound/answer.mp3" deferred_loading="false" />
+		<soundstream name="talking_mp3" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/sound/talking.mp3" deferred_loading="false" />
+		<soundstream name="clear_mp3" file="objects/41653678-ED7E45AB-AECE0529-411BDF06/UFO_MOV/sound/clear.mp3" deferred_loading="false" />
+	</local>
+	<external />
+</resources>

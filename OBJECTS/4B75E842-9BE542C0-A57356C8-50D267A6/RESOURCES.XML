@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<model name="NPC_female_04.mdl" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_04.mdl" />
+		<model name="NPC_female_05.mdl" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_05.mdl" />
+		<model name="NPC_female_09.mdl" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_09.mdl" />
+		<model name="NPC_male_01.mdl" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_male_01.mdl" />
+		<model name="NPC_male_10.mdl" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_male_10.mdl" />
+		<model name="NPC_male_09.mdl" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_male_09.mdl" />
+		
+		<model name="NPC_female_13.mdl" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_13.mdl" />
+		
+		
+		<texture name="CommonUI_bar_01.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/disco/disco_screen_005.dds" />
+		<texture name="CommonUI_bar_02.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/disco/disco_screen_003.dds" />
+		<texture name="CommonUI_window_01.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_01.dds" />
+		<texture name="CommonUI_window_02.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_02.dds" />
+		<texture name="CommonUI_window_03.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_03.dds" />
+		<texture name="CommonUI_window_04.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_04.dds" />
+		<texture name="CommonUI_window_05.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_05.dds" />
+		<texture name="CommonUI_window_06.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_06.dds" />
+		<texture name="CommonUI_window_07.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_07.dds" />
+		<texture name="CommonUI_window_08.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_08.dds" />
+		<texture name="CommonUI_window_09.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_09.dds" />
+		<texture name="CommonUI_namewindow_01.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_01.dds" />
+		<texture name="CommonUI_namewindow_02.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_02.dds" />
+		<texture name="CommonUI_namewindow_03.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_03.dds" />
+		<texture name="CommonUI_namewindow_04.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_04.dds" />
+		<texture name="CommonUI_namewindow_05.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_05.dds" />
+		<texture name="CommonUI_namewindow_06.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_06.dds" />
+		<texture name="CommonUI_namewindow_07.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_07.dds" />
+		<texture name="CommonUI_namewindow_08.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_08.dds" />
+		<texture name="CommonUI_namewindow_09.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_09.dds" />
+		<texture name="CommonUI_notselect_01.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_01.dds" />
+		<texture name="CommonUI_notselect_02.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_02.dds" />
+		<texture name="CommonUI_notselect_03.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_03.dds" />
+		<texture name="CommonUI_notselect_04.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_04.dds" />
+		<texture name="CommonUI_notselect_05.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_05.dds" />
+		<texture name="CommonUI_notselect_06.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_06.dds" />
+		<texture name="CommonUI_notselect_07.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_07.dds" />
+		<texture name="CommonUI_notselect_08.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_08.dds" />
+		<texture name="CommonUI_notselect_09.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_09.dds" />
+		<texture name="CommonUI_select_01.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_01.dds" />
+		<texture name="CommonUI_select_02.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_02.dds" />
+		<texture name="CommonUI_select_03.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_03.dds" />
+		<texture name="CommonUI_select_04.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_04.dds" />
+		<texture name="CommonUI_select_05.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_05.dds" />
+		<texture name="CommonUI_select_06.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_06.dds" />
+		<texture name="CommonUI_select_07.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_07.dds" />
+		<texture name="CommonUI_select_08.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_08.dds" />
+		<texture name="CommonUI_select_09.dds" deferred_loading="false" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_09.dds" />
+		<texture name="female01_skin_body_white_c.dds" deferred_loading="false" protected="false" file="hankagai/cmn_design/npc/sourceimages/female01_skin_body_white_c.dds" />
+		<texture name="female01_skin_body_s.dds" deferred_loading="false" protected="false" file="hankagai/cmn_design/npc/sourceimages/female01_skin_body_s.dds" />
+		<texture name="male01_skin_body_white_c.dds" deferred_loading="false" protected="false" file="hankagai/cmn_design/npc/sourceimages/male01_skin_body_white_c.dds" />
+		<texture name="male01_skin_body_white_s.dds" deferred_loading="false" protected="false" file="hankagai/cmn_design/npc/sourceimages/male01_skin_body_white_s.dds" />
+		<anim name="anm_NPC_M_ps_bose_s.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_bose_s.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_bose_s.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_bose_s.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_bose_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_bose_ntr.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_bose_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_bose_ntr.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_bose_e.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_bose_e.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_bose_e.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_bose_e.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_vomit_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_vomit_ntr.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_vomit_e.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_vomit_e.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_phone_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_phone_ntr.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_phone_e.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_phone_e.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_anger_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_anger_ntr.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_anger_e.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_anger_e.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_apologize_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_apologize_ntr.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_apologize_e.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_apologize_e.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_confronting_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_confronting_ntr.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_confronting_act1.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_confronting_act1.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_confronting_act2.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_confronting_act2.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_confronting_act3.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_confronting_act3.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_confronting_act4.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_confronting_act4.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_affair_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_affair_ntr.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_affair_act1.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_affair_act1.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_affair_act2.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_affair_act2.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_affair_ntr.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_affair_ntr.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_affair_act1.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_affair_act1.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_affair_act2.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_affair_act2.ani" memory="host" />
+		
+		<anim name="anm_NPC_F_ps_nekomimi_act_01.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_nekomimi_act_01.ani" memory="host" />
+		<anim name="anm_NPC_F_ps_nekomimi_act_02.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_F_ps_nekomimi_act_02.ani" memory="host" />
+		<anim name="anm_NPC_M_ps_act_01.ani" deferred_loading="true" protected="false" file="Hankagai/cmn_design/motion/anm_NPC_M_ps_act_01.ani" memory="host" />
+		
+		
+		
+		<anim name="anm_PS_room_window_opne_ntr.ani" deferred_loading="false" protected="false" file="Hankagai/a_jp_00/map/scenes/ps_model/anm_PS_room5_window_opne_ntr.ani" memory="host" />
+		<anim name="anm_PS_room_window_opne.ani" deferred_loading="false" protected="false" file="Hankagai/a_jp_00/map/scenes/ps_model/anm_PS_room5_window_opne.ani" memory="host" />
+		<anim name="anm_PS_room_window_close.ani" deferred_loading="false" protected="false" file="Hankagai/a_jp_00/map/scenes/ps_model/anm_PS_room5_window_close.ani" memory="host" />
+		<anim name="anm_PS_room_window_close_ntr.ani" deferred_loading="false" protected="false" file="Hankagai/a_jp_00/map/scenes/ps_model/anm_PS_room5_window_close_ntr.ani" memory="host" />
+		<anim name="anm_F_ps_window_close.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_F_ps_window_close.ani" memory="host" />
+		<anim name="anm_F_ps_window_ntr.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_F_ps_window_ntr.ani" memory="host" />
+		<anim name="anm_F_ps_window_open.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_F_ps_window_open.ani" memory="host" />
+		<anim name="anm_M_ps_window_close.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_M_ps_window_close.ani" memory="host" />
+		<anim name="anm_M_ps_window_ntr.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_M_ps_window_ntr.ani" memory="host" />
+		<anim name="anm_M_ps_window_open.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_M_ps_window_open.ani" memory="host" />
+		<anim name="anm_F_ps_peek_e.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_F_ps_peek_e.ani" memory="host" />
+		<anim name="anm_F_ps_peek_ntr.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_F_ps_peek_ntr.ani" memory="host" />
+		<anim name="anm_F_ps_peek_s.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_F_ps_peek_s.ani" memory="host" />
+		<anim name="anm_M_ps_peek_e.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_M_ps_peek_e.ani" memory="host" />
+		<anim name="anm_M_ps_peek_ntr.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_M_ps_peek_ntr.ani" memory="host" />
+		<anim name="anm_M_ps_peek_s.ani" deferred_loading="false" protected="false" file="Hankagai/cmn_design/motion/anm_M_ps_peek_s.ani" memory="host" />
+		<skeleton name="NPC_female_04.skn" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_04.skn" memory="host" />
+		<skeleton name="NPC_female_05.skn" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_05.skn" memory="host" />
+		<skeleton name="NPC_female_09.skn" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_09.skn" memory="host" />
+		<skeleton name="NPC_male_01.skn" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_male_01.skn" memory="host" />
+		<skeleton name="NPC_male_10.skn" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_male_10.skn" memory="host" />
+		<skeleton name="NPC_male_09.skn" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_male_09.skn" memory="host" />
+		
+		<skeleton name="NPC_female_13.skn" deferred_loading="true" protected="false" file="Hankagai/cmn_design/npc/scenes/NPC_female_13.skn" memory="host" />
+		
+		
+		<soundbank name="message.bnk" deferred_loading="false" protected="false" file="Hankagai/sound/message.bnk" memory="host" />
+		<soundbank name="mado.bnk" deferred_loading="true" protected="false" file="Hankagai/sound/mado.bnk" memory="host" />
+		<soundstream name="sukima_5.mp3" deferred_loading="false" protected="false" file="Hankagai/soft_jp_00/Drama/file/sukima_5.mp3" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="Hankagai/soft_jp_00/Drama/file/MaleRepertoire.xml" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="Hankagai/soft_jp_00/Drama/file/FemaleRepertoire.xml" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Drama/lua/ver2/MiniGame.lua" />
+		<lua name="data.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Drama/lua/ver2/data.lua" />
+		<lua name="DeferredLoad.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Drama/lua/ver2/DeferredLoad.lua" />
+		<lua name="GameMain.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Drama/lua/ver2/GameMain.lua" />
+		<lua name="WindowData.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Drama/lua/ver2/WindowData.lua" />
+		<lua name="MessageSound.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/MessageSound.lua" />
+		<lua name="dataInterface.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/DataStation/lua/dataInterface.lua" />
+		<lua name="CommonMessageWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonMessageWindow.lua" />
+		<lua name="CommonSelectWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonSelectWindow.lua" />
+		<lua name="EventData.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Drama/lua/ver2/EventData.lua" />
+		<lua name="Owner.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Lib/lua/Owner.lua" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="Hankagai/soft_jp_00/Lib/lua/Log.lua" />
+	</local>
+	<external />
+</resources>

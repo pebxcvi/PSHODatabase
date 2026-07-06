@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="Edo/GetRegionUUIDLight.lua"  memory="host" />
+		<collision name="NPC_collision.hkx" deferred_loading="false" protected="false" file="Edo/cmn_design/npc/NPC_Collision_01.hkx" />
+		<lua name="Data.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCControllerEdo/lua_Setsubun/Data.lua" />
+		<lua name="GameMain.lua" deferred_loading="true" protected="true" file="Edo/soft_jp_00/NPCControllerEdo/lua_Setsubun/GameMain.lua" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCControllerEdo/lua_Setsubun/MiniGame.lua" />
+		<lua name="MessageData.lua" deferred_loading="true" protected="true" file="Edo/soft_jp_00/NPCControllerEdo/lua_Setsubun/MessageData.lua" />
+		<lua name="WindowData.lua" deferred_loading="true" protected="true" file="Edo/soft_jp_00/NPCControllerEdo/lua_Setsubun/WindowData.lua" />
+		
+		<lua name="doYouHaveWeapon.lua" deferred_loading="false" protected="true" file="Edo/soft_jp_00/NPCControllerEdo/lua_Setsubun/doYouHaveWeapon.lua" />
+		<lua name="datainterface.lua" deferred_loading="true" protected="true" file="Edo/soft_eu_00/datastation/lua/datainterfaceLight.lua" />
+		
+		
+		
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilGarbage.lua" />
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" />
+		<lua name="UtilWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/UtilWindow.lua" />
+		<lua name="UtilFunc.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFunc.lua" />
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" />
+	</local>
+	<external />
+</resources>

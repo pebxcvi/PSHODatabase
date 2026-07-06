@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LOCALISATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" default_language="en-GB" xmlns="http://home.scedev.net/schema/object">
+	<PHRASE>
+		<LANG ID="REF">kName</LANG>
+		<LANG ID="ja-JP">machineViewer</LANG>
+		<LANG ID="de-DE">machineViewer</LANG>
+		<LANG ID="en-GB">machineViewer</LANG>
+		<LANG ID="fr-FR">machineViewer</LANG>
+		<LANG ID="it-IT">machineViewer</LANG>
+		<LANG ID="es-ES">machineViewer</LANG>
+		<LANG ID="en-US">machineViewer</LANG>
+		<LANG ID="en-SG">machineViewer</LANG>
+		<LANG ID="ko-KR">machineViewer</LANG>
+		<LANG ID="zh-HK">machineViewer</LANG>
+		<LANG ID="zh-TW">machineViewer</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">kDesc</LANG>
+		<LANG ID="ja-JP">machineViewer [#Legal]</LANG>
+		<LANG ID="de-DE">machineViewer [#Legal]</LANG>
+		<LANG ID="en-GB">machineViewer [#Legal]</LANG>
+		<LANG ID="fr-FR">machineViewer [#Legal]</LANG>
+		<LANG ID="it-IT">machineViewer [#Legal]</LANG>
+		<LANG ID="es-ES">machineViewer [#Legal]</LANG>
+		<LANG ID="en-US">machineViewer [#Legal]</LANG>
+		<LANG ID="en-SG">machineViewer [#Legal]</LANG>
+		<LANG ID="ko-KR">machineViewer [#Legal]</LANG>
+		<LANG ID="zh-HK">machineViewer [#Legal]</LANG>
+		<LANG ID="zh-TW">machineViewer [#Legal]</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Leg_Rote</LANG>
+		<LANG ID="ja-JP">[R1][L1]回転</LANG>
+		<LANG ID="de-DE">[R1][L1]: Rotieren</LANG>
+		<LANG ID="en-GB">[R1][L1]: Rotate</LANG>
+		<LANG ID="fr-FR">[R1][L1] : Pivoter</LANG>
+		<LANG ID="it-IT">[R1][L1]: Ruota</LANG>
+		<LANG ID="es-ES">[R1][L1]: Rotar</LANG>
+		<LANG ID="en-US">[R1][L1]: Rotate</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Leg_Back</LANG>
+		<LANG ID="ja-JP">[DECLINE]戻る</LANG>
+		<LANG ID="de-DE">[DECLINE] Zurück</LANG>
+		<LANG ID="en-GB">[DECLINE] Back</LANG>
+		<LANG ID="fr-FR">[DECLINE] Retour</LANG>
+		<LANG ID="it-IT">[DECLINE] Indietro</LANG>
+		<LANG ID="es-ES">[DECLINE] Atrás</LANG>
+		<LANG ID="en-US">[DECLINE] Back</LANG>
+		<LANG ID="en-SG">[DECLINE] Back</LANG>
+		<LANG ID="ko-KR">[DECLINE] 돌아간다</LANG>
+		<LANG ID="zh-HK">[DECLINE] 返回</LANG>
+		<LANG ID="zh-TW">[DECLINE] 返回</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_01.mdl</LANG>
+		<LANG ID="ja-JP">＜マシンガンキカイ兵＞\n
+\n
+耐久力　：　★\n
+攻撃力　：　★★\n
+\n
+危険度　：　★+</LANG>
+		<LANG ID="de-DE">&lt;Kikai-Soldat mit Maschinengewehr&gt;\n
+\n
+Ausdauer: ★\n
+Angriff: ★★\n
+\n
+Bedrohlichkeit: ★+</LANG>
+		<LANG ID="en-GB">&lt;Machine Gun Kikai Soldier&gt;\n
+\n
+Stamina: ★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★+</LANG>
+		<LANG ID="fr-FR">&lt;Soldat Kikai mitrailleur&gt;\n
+\n
+Vitalité : ★\n
+Puissance d'attaque : ★★\n
+\n
+Niveau de menace : ★+</LANG>
+		<LANG ID="it-IT">&lt;Soldato Kikai mitragliatrice&gt;\n
+\n
+Stamina: ★\n
+Attacco: ★★\n
+\n
+Livello minaccia: ★+</LANG>
+		<LANG ID="es-ES">&lt;Soldado Kikai con metralleta&gt;\n
+\n
+Aguante: ★\n
+Ataque: ★★\n
+\n
+Nivel de amenaza: ★+</LANG>
+		<LANG ID="en-US">&lt;Machine Gun Kikai Soldier&gt;\n
+\n
+Stamina: ★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★+</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_02.mdl</LANG>
+		<LANG ID="ja-JP">＜ミサイルキカイ兵＞\n
+\n
+耐久力　：　★\n
+攻撃力　：　★★\n
+\n
+危険度　：　★+</LANG>
+		<LANG ID="de-DE">&lt;Kikai-Soldat mit Raketen&gt;\n
+\n
+Ausdauer: ★\n
+Angriff: ★★\n
+\n
+Bedrohlichkeit: ★+</LANG>
+		<LANG ID="en-GB">&lt;Missile Kikai Soldier&gt;\n
+\n
+Stamina: ★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★+</LANG>
+		<LANG ID="fr-FR">&lt;Soldat Kikai lance-missiles&gt;\n
+\n
+Vitalité : ★\n
+Puissance d'attaque : ★★\n
+\n
+Niveau de menace : ★+</LANG>
+		<LANG ID="it-IT">&lt;Soldato Kikai missile&gt;\n
+\n
+Stamina: ★\n
+Attacco: ★★\n
+\n
+Livello minaccia: ★+</LANG>
+		<LANG ID="es-ES">&lt;Soldado Kikai con lanzamisiles&gt;\n
+\n
+Aguante: ★\n
+Ataque: ★★\n
+\n
+Nivel de amenaza: ★+</LANG>
+		<LANG ID="en-US">&lt;Missile Kikai Soldier&gt;\n
+\n
+Stamina: ★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★+</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_03.mdl</LANG>
+		<LANG ID="ja-JP">＜ソードキカイ兵＞\n
+\n
+耐久力　：　★★\n
+攻撃力　：　★★\n
+\n
+危険度　：　★★</LANG>
+		<LANG ID="de-DE">&lt;Kikai-Soldat mit Schwert&gt;\n
+\n
+Ausdauer: ★★\n
+Angriff: ★★\n
+\n
+Bedrohlichkeit: ★★</LANG>
+		<LANG ID="en-GB">&lt;Sword Kikai Soldier&gt;\n
+\n
+Stamina: ★★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★★</LANG>
+		<LANG ID="fr-FR">&lt;Soldat Kikai épéiste&gt;\n
+\n
+Vitalité : ★★\n
+Puissance d'attaque : ★★\n
+\n
+Niveau de menace : ★★</LANG>
+		<LANG ID="it-IT">&lt;Soldato Kikai spada&gt;\n
+\n
+Stamina: ★★\n
+Attacco: ★★\n
+\n
+Livello minaccia: ★★</LANG>
+		<LANG ID="es-ES">&lt;Soldado Kikai con espada&gt;\n
+\n
+Aguante: ★★\n
+Ataque: ★★\n
+\n
+Nivel de amenaza: ★★</LANG>
+		<LANG ID="en-US">&lt;Sword Kikai Soldier&gt;\n
+\n
+Stamina: ★★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★★</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_04.mdl</LANG>
+		<LANG ID="ja-JP">＜キカイ士官＞\n
+\n
+耐久力　：　★★★\n
+攻撃力　：　★★\n
+\n
+危険度　：　★★★</LANG>
+		<LANG ID="de-DE">&lt;Kikai-Offizier&gt;\n
+\n
+Ausdauer: ★★★\n
+Angriff: ★★\n
+\n
+Bedrohlichkeit: ★★★</LANG>
+		<LANG ID="en-GB">&lt;Kikai Officer&gt;\n
+\n
+Stamina: ★★★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★★★</LANG>
+		<LANG ID="fr-FR">&lt;Officier Kikai&gt;\n
+\n
+Vitalité : ★★★\n
+Puissance d'attaque : ★★\n
+\n
+Niveau de menace : ★★★</LANG>
+		<LANG ID="it-IT">&lt;Ufficiale Kikai&gt;\n
+\n
+Stamina: ★★★\n
+Attacco: ★★\n
+\n
+Livello minaccia: ★★★</LANG>
+		<LANG ID="es-ES">&lt;Oficial Kikai&gt;\n
+\n
+Aguante: ★★★\n
+Ataque: ★★\n
+\n
+Nivel de amenaza: ★★★</LANG>
+		<LANG ID="en-US">&lt;Kikai Officer&gt;\n
+\n
+Stamina: ★★★\n
+Attack Strength: ★★\n
+\n
+Threat level: ★★★</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_05.mdl</LANG>
+		<LANG ID="ja-JP">＜キカイ親衛隊＞\n
+\n
+耐久力　：　★\n
+攻撃力　：　★★★\n
+\n
+危険度　：　★★</LANG>
+		<LANG ID="de-DE">&lt;Kikai-Elitewächter&gt;\n
+\n
+Ausdauer: ★\n
+Angriff: ★★★\n
+\n
+Bedrohlichkeit: ★★</LANG>
+		<LANG ID="en-GB">&lt;Kikai Elite Guard&gt;\n
+\n
+Stamina: ★\n
+Attack Strength: ★★★\n
+\n
+Threat level: ★★</LANG>
+		<LANG ID="fr-FR">&lt;Garde d'élite Kikai&gt;\n
+\n
+Vitalité : ★\n
+Puissance d'attaque : ★★★\n
+\n
+Niveau de menace : ★★</LANG>
+		<LANG ID="it-IT">&lt;Sentinella d'elite Kikai&gt;\n
+\n
+Stamina: ★\n
+Attacco: ★★★\n
+\n
+Livello minaccia: ★★</LANG>
+		<LANG ID="es-ES">&lt;Guardia élite Kikai&gt;\n
+\n
+Aguante: ★\n
+Ataque: ★★★\n
+\n
+Nivel de amenaza: ★★</LANG>
+		<LANG ID="en-US">&lt;Kikai Elite Guard&gt;\n
+\n
+Stamina: ★\n
+Attack Strength: ★★★\n
+\n
+Threat level: ★★</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_06.mdl</LANG>
+		<LANG ID="ja-JP">＜キカイ大臣＞\n
+\n
+耐久力　：　★★★★★\n
+攻撃力　：　★★★★\n
+\n
+危険度　：　★★★★+</LANG>
+		<LANG ID="de-DE">&lt;Kikai-Minister&gt;\n
+\n
+Ausdauer: ★★★★★\n
+Angriff: ★★★★\n
+\n
+Bedrohlichkeit: ★★★★+</LANG>
+		<LANG ID="en-GB">&lt;Kikai Minister&gt;\n
+\n
+Stamina: ★★★★★\n
+Attack Strength: ★★★★\n
+\n
+Threat level: ★★★★+</LANG>
+		<LANG ID="fr-FR">&lt;Ministre Kikai&gt;\n
+\n
+Vitalité : ★★★★★\n
+Puissance d'attaque : ★★★★\n
+\n
+Niveau de menace : ★★★★+</LANG>
+		<LANG ID="it-IT">&lt;Ministro Kikai&gt;\n
+\n
+Stamina: ★★★★★\n
+Attacco: ★★★★\n
+\n
+Livello minaccia: ★★★★+</LANG>
+		<LANG ID="es-ES">&lt;Ministro Kikai&gt;\n
+\n
+Aguante: ★★★★★\n
+Ataque: ★★★★\n
+\n
+Nivel de amenaza: ★★★★+</LANG>
+		<LANG ID="en-US">&lt;Kikai Minister&gt;\n
+\n
+Stamina: ★★★★★\n
+Attack Strength: ★★★★\n
+\n
+Threat level: ★★★★+</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_07.mdl</LANG>
+		<LANG ID="ja-JP">＜キカイ皇帝＞\n
+\n
+耐久力　：　！！！！！！！！！！\n
+攻撃力　：　！！！！！！！！！！\n
+\n
+危険度　：　！！！！！！！！！！</LANG>
+		<LANG ID="de-DE">&lt;Kikai-Kaiser&gt;\n
+\n
+Ausdauer: !!!!!!!!!!\n
+Angriff: !!!!!!!!!!\n
+\n
+Bedrohlichkeit: !!!!!!!!!!</LANG>
+		<LANG ID="en-GB">&lt;Kikai Emperor&gt;\n
+\n
+Stamina: !!!!!!!!!!\n
+Attack Strength: !!!!!!!!!!\n
+\n
+Threat level: !!!!!!!!!!</LANG>
+		<LANG ID="fr-FR">&lt;Empereur Kikai&gt;\n
+\n
+Vitalité : !!!!!!!!!!\n
+Puissance d'attaque : !!!!!!!!!!\n
+\n
+Niveau de menace : !!!!!!!!!!</LANG>
+		<LANG ID="it-IT">&lt;Imperatore Kikai&gt;\n
+\n
+Stamina: !!!!!!!!!!\n
+Attacco: !!!!!!!!!!\n
+\n
+Livello minaccia: !!!!!!!!!!</LANG>
+		<LANG ID="es-ES">&lt;Emperador Kikai&gt;\n
+\n
+Aguante: !!!!!!!!!!\n
+Ataque: !!!!!!!!!!\n
+\n
+Nivel de amenaza: !!!!!!!!!!</LANG>
+		<LANG ID="en-US">&lt;Kikai Emperor&gt;\n
+\n
+Stamina: !!!!!!!!!!\n
+Attack Strength: !!!!!!!!!!\n
+\n
+Threat level: !!!!!!!!!!</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_08.mdl</LANG>
+		<LANG ID="ja-JP">＜キカイ円盤＞\n
+\n
+耐久力　：　★-\n
+攻撃力　：　★★★\n
+\n
+危険度　：　★★-</LANG>
+		<LANG ID="de-DE">&lt;Fliegende Kikai-Untertasse&gt;\n
+\n
+Ausdauer: ★-\n
+Angriff: ★★★\n
+\n
+Bedrohlichkeit: ★★-</LANG>
+		<LANG ID="en-GB">&lt;Kikai Flying Saucer&gt;\n
+\n
+Stamina: ★-\n
+Attack Strength: ★★★\n
+\n
+Threat level: ★★-</LANG>
+		<LANG ID="fr-FR">&lt;Soucoupe volante Kikai&gt;\n
+\n
+Vitalité : ★-\n
+Puissance d'attaque : ★★★\n
+\n
+Niveau de menace : ★★-</LANG>
+		<LANG ID="it-IT">&lt;Disco volante Kikai&gt;\n
+\n
+Stamina: ★-\n
+Attacco: ★★★\n
+\n
+Livello minaccia: ★★-</LANG>
+		<LANG ID="es-ES">&lt;Platillo volador Kikai&gt;\n
+\n
+Aguante: ★-\n
+Ataque: ★★★\n
+\n
+Nivel de amenaza: ★★-</LANG>
+		<LANG ID="en-US">&lt;Kikai Flying Saucer&gt;\n
+\n
+Stamina: ★-\n
+Attack Strength: ★★★\n
+\n
+Threat level: ★★-</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_09.mdl</LANG>
+		<LANG ID="ja-JP">Emodel_09.mdl</LANG>
+		<LANG ID="de-DE">Emodel_09.mdl</LANG>
+		<LANG ID="en-GB">Emodel_09.mdl</LANG>
+		<LANG ID="fr-FR">Emodel_09.mdl</LANG>
+		<LANG ID="it-IT">Emodel_09.mdl</LANG>
+		<LANG ID="es-ES">Emodel_09.mdl</LANG>
+		<LANG ID="en-US">Emodel_09.mdl</LANG>
+		<LANG ID="en-SG">Emodel_09.mdl</LANG>
+		<LANG ID="ko-KR">Emodel_09.mdl</LANG>
+		<LANG ID="zh-HK">Emodel_09.mdl</LANG>
+		<LANG ID="zh-TW">Emodel_09.mdl</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_10.mdl</LANG>
+		<LANG ID="ja-JP">＜二足歩行掃討兵器チゴール・ゲイン＞\n
+\n
+耐久力　：　★★★\n
+攻撃力　：　★★★★\n
+\n
+危険度　：　★★★+</LANG>
+		<LANG ID="de-DE">&lt;Zweibeinige Vernichtungswaffe Chigore-Gayne&gt;\n
+\n
+Ausdauer: ★★★\n
+Angriff: ★★★★\n
+\n
+Bedrohlichkeit: ★★★+</LANG>
+		<LANG ID="en-GB">&lt;Bipedal Cleaner Ordnance Chigore-Gayne&gt;\n
+\n
+Stamina: ★★★\n
+Attack Strength: ★★★★\n
+\n
+Threat level: ★★★+</LANG>
+		<LANG ID="fr-FR">&lt;Nettoyeur bipède Chigore-Gayne&gt;\n
+\n
+Vitalité : ★★★\n
+Puissance d'attaque : ★★★★\n
+\n
+Niveau de menace : ★★★+</LANG>
+		<LANG ID="it-IT">&lt;Rastrellatore bipede Chigore-Gayne&gt;\n
+\n
+Stamina: ★★★\n
+Attacco: ★★★★\n
+\n
+Livello minaccia: ★★★+</LANG>
+		<LANG ID="es-ES">&lt;Artillería bípeda destructora Chigore-Gayne&gt;\n
+\n
+Aguante: ★★★\n
+Ataque: ★★★★\n
+\n
+Nivel de amenaza: ★★★+</LANG>
+		<LANG ID="en-US">&lt;Bipedal Cleaner Ordnance Chigore-Gayne&gt;\n
+\n
+Stamina: ★★★\n
+Attack Strength: ★★★★\n
+\n
+Threat level: ★★★+</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_11.mdl</LANG>
+		<LANG ID="ja-JP">＜爆撃機ゾ・イヤール＞\n
+\n
+耐久力　：　－\n
+攻撃力　：　★★★★★\n
+\n
+危険度　：　★★★★★★★</LANG>
+		<LANG ID="de-DE">&lt;Bomber Zo-Iyaar&gt;\n
+\n
+ Ausdauer: －\n
+Angriff: ★★★★★\n
+\n
+Bedrohlichkeit: ★★★★★★★</LANG>
+		<LANG ID="en-GB">&lt;Bomber Zo-Iyaar&gt;\n
+\n
+ Stamina: －\n
+Attack Strength: ★★★★★\n
+\n
+Threat level: ★★★★★★★</LANG>
+		<LANG ID="fr-FR">&lt;Bombardier Zo-Iyaar&gt;\n
+\n
+ Vitalité : －\n
+Puissance d'attaque : ★★★★★\n
+\n
+Niveau de menace : ★★★★★★★</LANG>
+		<LANG ID="it-IT">&lt;Bombardiere Zo-Iyaar&gt;\n
+\n
+ Stamina: －\n
+Attacco: ★★★★★\n
+\n
+Livello minaccia: ★★★★★★★</LANG>
+		<LANG ID="es-ES">&lt;Bombardero Zo-Iyaar&gt;\n
+\n
+ Aguante: －\n
+Ataque: ★★★★★\n
+\n
+Nivel de amenaza: ★★★★★★★</LANG>
+		<LANG ID="en-US">&lt;Bomber Zo-Iyaar&gt;\n
+\n
+ Stamina: －\n
+Attack Strength: ★★★★★\n
+\n
+Threat level: ★★★★★★★</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Emodel_12.mdl</LANG>
+		<LANG ID="ja-JP">＜四足歩行ミサイル兵器デ・キラー・ウンケ＞\n
+\n
+耐久力　：　★★★★★\n
+攻撃力　：　★★★★★★★\n
+\n
+危険度　：　★★★★★★</LANG>
+		<LANG ID="de-DE">&lt;Vierbeiniger Raketenwerfer Die Killer Unke&gt;\n
+\n
+Ausdauer: ★★★★★\n
+Angriff: ★★★★★★★\n
+\n
+Bedrohlichkeit: ★★★★★★</LANG>
+		<LANG ID="en-GB">&lt;Quadruped Missile Ordnance Die Killer Unke&gt;\n
+\n
+Stamina: ★★★★★\n
+Attack Strength: ★★★★★★★\n
+\n
+Threat level: ★★★★★★</LANG>
+		<LANG ID="fr-FR">&lt;Lance-missiles Quadrupède Killer Unke&gt;\n
+\n
+Vitalité : ★★★★★\n
+Puissance d'attaque : ★★★★★★★\n
+\n
+Niveau de menace : ★★★★★★</LANG>
+		<LANG ID="it-IT">&lt;Cannoniere quadrupede De-Kira-Unke&gt;\n
+\n
+Stamina: ★★★★★\n
+Attacco: ★★★★★★★\n
+\n
+Livello minaccia: ★★★★★★</LANG>
+		<LANG ID="es-ES">&lt;Artillería cuadrúpeda de misiles Die Killer Unke&gt;\n
+\n
+Aguante: ★★★★★\n
+Ataque: ★★★★★★★\n
+\n
+Nivel de amenaza: ★★★★★★</LANG>
+		<LANG ID="en-US">&lt;Quadruped Missile Ordnance Die Killer Unke&gt;\n
+\n
+Stamina: ★★★★★\n
+Attack Strength: ★★★★★★★\n
+\n
+Threat level: ★★★★★★</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">Next</LANG>
+		<LANG ID="ja-JP">[DECLINE] 戻る</LANG>
+		<LANG ID="de-DE">[DECLINE] Zurück</LANG>
+		<LANG ID="en-GB">[DECLINE] Back</LANG>
+		<LANG ID="fr-FR">[DECLINE] Retour</LANG>
+		<LANG ID="it-IT">[DECLINE] Indietro</LANG>
+		<LANG ID="es-ES">[DECLINE] Atrás</LANG>
+		<LANG ID="en-US">[DECLINE] Back</LANG>
+		<LANG ID="en-SG">[DECLINE] Back</LANG>
+		<LANG ID="ko-KR">[DECLINE] 돌아간다</LANG>
+		<LANG ID="zh-HK">[DECLINE] 返回</LANG>
+		<LANG ID="zh-TW">[DECLINE] 返回</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">L1</LANG>
+		<LANG ID="ja-JP">[L1]左回転</LANG>
+		<LANG ID="de-DE">[L1]: Links drehen</LANG>
+		<LANG ID="en-GB">[L1]: Left Rotate</LANG>
+		<LANG ID="fr-FR">[L1] : Tourner à gauche</LANG>
+		<LANG ID="it-IT">[L1]: Ruota a sinistra</LANG>
+		<LANG ID="es-ES">[L1]: rotar hacia la izquierda</LANG>
+		<LANG ID="en-US">[L1]: Left Rotate</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+	<PHRASE>
+		<LANG ID="REF">R1</LANG>
+		<LANG ID="ja-JP">[R1]右回転</LANG>
+		<LANG ID="de-DE">[R1]: rechts drehen</LANG>
+		<LANG ID="en-GB">[R1]: Right Rotate</LANG>
+		<LANG ID="fr-FR">[R1] : Tourner à droite</LANG>
+		<LANG ID="it-IT">[R1]: Ruota a destra</LANG>
+		<LANG ID="es-ES">[R1]: rotar hacia la derecha</LANG>
+		<LANG ID="en-US">[R1]: Right Rotate</LANG>
+		<LANG ID="en-SG">n/a</LANG>
+		<LANG ID="ko-KR">n/a</LANG>
+		<LANG ID="zh-HK">n/a</LANG>
+		<LANG ID="zh-TW">n/a</LANG>
+	</PHRASE>
+</LOCALISATION>

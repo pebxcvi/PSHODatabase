@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://home.scedev.net/schema/object">
+	<local>
+		<lua name="GetRegionUUID.lua" deferred_loading="false" protected="true" file="Edo/GetRegionUUIDTeaRoom.lua" memory="host" />
+		
+		<model name="tyawan_00.mdl" deferred_loading="true" protected="false" file="LG_tea_room/cmn_design/tyaki/scenes/tyawan_00.mdl" memory="host" />
+		<model name="tyasen_00.mdl" deferred_loading="true" protected="false" file="LG_tea_room/cmn_design/tyaki/scenes/tyasen_00.mdl" memory="host" />
+		<model name="okashi_01.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_01.mdl" memory="host" />
+		<model name="okashi_02.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_02.mdl" memory="host" />
+		<model name="okashi_03.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_03.mdl" memory="host" />
+		<model name="okashi_04.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_04.mdl" memory="host" />
+		<model name="okashi_05.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_05.mdl" memory="host" />
+		<model name="okashi_06.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_06.mdl" memory="host" />
+		<model name="okashi_07.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_07.mdl" memory="host" />
+		<model name="okashi_08.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_08.mdl" memory="host" />
+		<model name="okashi_09.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_09.mdl" memory="host" />
+		<model name="okashi_10.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_10.mdl" memory="host" />
+		<model name="okashi_11.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_11.mdl" memory="host" />
+		<model name="okashi_12.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_12.mdl" memory="host" />
+		<model name="okashi_13.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_13.mdl" memory="host" />
+		<model name="okashi_14.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_14.mdl" memory="host" />
+		<model name="okashi_15.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_15.mdl" memory="host" />
+		<model name="okashi_16.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_16.mdl" memory="host" />
+		<model name="okashi_17.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_17.mdl" memory="host" />
+		<model name="okashi_18.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_18.mdl" memory="host" />
+		<model name="okashi_19.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_19.mdl" memory="host" />
+		
+		<model name="okashi_20.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_20.mdl" memory="host" />
+		<model name="okashi_21.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_21.mdl" memory="host" />
+		<model name="okashi_22.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_22.mdl" memory="host" />
+		<model name="okashi_23.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_23.mdl" memory="host" />
+		<model name="okashi_24.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_24.mdl" memory="host" />
+		<model name="okashi_25.mdl" deferred_loading="true" protected="false" file="lg_tea_room/a_jp_00/map/scenes/item/okashi_25.mdl" memory="host" />
+		
+		<model name="tea_icon_001.mdl" deferred_loading="false" protected="false" file="LG_tea_room/cmn_design/tyaki/scenes/tea_icon_001.mdl" memory="host" />
+		<model name="tyagama_01.mdl" deferred_loading="true" protected="false" file="LG_tea_room/a_jp_00/map/scenes/item/tyagama_01.mdl" memory="host" />
+		<texture name="CommonUI_window_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_01.dds" memory="host" />
+		<texture name="CommonUI_window_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_02.dds" memory="host" />
+		<texture name="CommonUI_window_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_03.dds" memory="host" />
+		<texture name="CommonUI_window_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_04.dds" memory="host" />
+		<texture name="CommonUI_window_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_05.dds" memory="host" />
+		<texture name="CommonUI_window_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_06.dds" memory="host" />
+		<texture name="CommonUI_window_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_07.dds" memory="host" />
+		<texture name="CommonUI_window_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_08.dds" memory="host" />
+		<texture name="CommonUI_window_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_window_09.dds" memory="host" />
+		<texture name="CommonUI_namewindow_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_01.dds" memory="host" />
+		<texture name="CommonUI_namewindow_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_02.dds" memory="host" />
+		<texture name="CommonUI_namewindow_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_03.dds" memory="host" />
+		<texture name="CommonUI_namewindow_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_04.dds" memory="host" />
+		<texture name="CommonUI_namewindow_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_05.dds" memory="host" />
+		<texture name="CommonUI_namewindow_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_06.dds" memory="host" />
+		<texture name="CommonUI_namewindow_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_07.dds" memory="host" />
+		<texture name="CommonUI_namewindow_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_08.dds" memory="host" />
+		<texture name="CommonUI_namewindow_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_selectwindow_09.dds" memory="host" />
+		<texture name="CommonUI_notselect_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_01.dds" memory="host" />
+		<texture name="CommonUI_notselect_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_02.dds" memory="host" />
+		<texture name="CommonUI_notselect_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_03.dds" memory="host" />
+		<texture name="CommonUI_notselect_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_04.dds" memory="host" />
+		<texture name="CommonUI_notselect_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_05.dds" memory="host" />
+		<texture name="CommonUI_notselect_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_06.dds" memory="host" />
+		<texture name="CommonUI_notselect_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_07.dds" memory="host" />
+		<texture name="CommonUI_notselect_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_08.dds" memory="host" />
+		<texture name="CommonUI_notselect_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_off_09.dds" memory="host" />
+		<texture name="CommonUI_select_01.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_01.dds" memory="host" />
+		<texture name="CommonUI_select_02.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_02.dds" memory="host" />
+		<texture name="CommonUI_select_03.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_03.dds" memory="host" />
+		<texture name="CommonUI_select_04.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_04.dds" memory="host" />
+		<texture name="CommonUI_select_05.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_05.dds" memory="host" />
+		<texture name="CommonUI_select_06.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_06.dds" memory="host" />
+		<texture name="CommonUI_select_07.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_07.dds" memory="host" />
+		<texture name="CommonUI_select_08.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_08.dds" memory="host" />
+		<texture name="CommonUI_select_09.dds" deferred_loading="true" protected="false" file="Hankagai/cmn_design/2D/PersonalSpace/ps_select_on_09.dds" memory="host" />
+		<file name="Network.xml" deferred_loading="false" protected="false" file="LG_tea_room/soft_jp_00/TeaParty/file/Network.xml" memory="host" />
+		<anim name="anm_M_seiza_s.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_seiza_s.ani" memory="host" />
+		<anim name="anm_M_room_admission1.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_seiza_lp.ani" memory="host" />
+		<anim name="anm_M_room_katana1.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_room_katana1.ani" memory="host" />
+		<anim name="anm_M_sadoo_admission1.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_seiza_lp.ani" memory="host" />
+		<anim name="anm_M_sadoo_eat01.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_eat01.ani" memory="host" />
+		<anim name="anm_M_sadoo_eat02.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_eat02.ani" memory="host" />
+		<anim name="anm_M_sadoo_eat03.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_eat03.ani" memory="host" />
+		<anim name="anm_M_sadoo_kashidashi.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_kashidashi.ani" memory="host" />
+		<anim name="anm_M_sadoo_look_have.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_look_have.ani" memory="host" />
+		<anim name="anm_M_sadoo_look_haveback.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_look_haveback.ani" memory="host" />
+		<anim name="anm_M_sadoo_look_normal.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_look_normal.ani" memory="host" />
+		<anim name="anm_M_sadoo_teadrink_normal.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_teadrink_normal.ani" memory="host" />
+		<anim name="anm_M_sadoo_teadrink_quick.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_teadrink_quick.ani" memory="host" />
+		<anim name="anm_M_sadoo_teaMake00.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_teaMake00.ani" memory="host" />
+		<anim name="anm_M_sadoo_teaMake01.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_teaMake01.ani" memory="host" />
+		<anim name="anm_M_sadoo_teaMake02.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_teaMake02.ani" memory="host" />
+		<anim name="anm_M_sadoo_zarei.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_zarei.ani" memory="host" />
+		<anim name="anm_M_seiza_e.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_seiza_e.ani" memory="host" />
+		<anim name="anm_M_seiza_lp.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_seiza_lp.ani" memory="host" />
+		<anim name="anm_M_sadoo_walk_lp.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_seiza_lp.ani" memory="host" />
+		<anim name="anm_M_sadoo_seki.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_M_sadoo_seki.ani" memory="host" />
+		<anim name="anm_F_seiza_s.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_seiza_s.ani" memory="host" />
+		<anim name="anm_F_room_admission1.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_seiza_lp.ani" memory="host" />
+		<anim name="anm_F_room_katana1.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_room_katana1.ani" memory="host" />
+		<anim name="anm_F_sadoo_admission1.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_seiza_lp.ani" memory="host" />
+		<anim name="anm_F_sadoo_eat01.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_eat01.ani" memory="host" />
+		<anim name="anm_F_sadoo_eat02.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_eat02.ani" memory="host" />
+		<anim name="anm_F_sadoo_eat03.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_eat03.ani" memory="host" />
+		<anim name="anm_F_sadoo_kashidashi.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_kashidashi.ani" memory="host" />
+		<anim name="anm_F_sadoo_look_have.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_look_have.ani" memory="host" />
+		<anim name="anm_F_sadoo_look_haveback.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_look_haveback.ani" memory="host" />
+		<anim name="anm_F_sadoo_look_normal.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_look_normal.ani" memory="host" />
+		<anim name="anm_F_sadoo_teadrink_normal.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_teadrink_normal.ani" memory="host" />
+		<anim name="anm_F_sadoo_teadrink_quick.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_teadrink_quick.ani" memory="host" />
+		<anim name="anm_F_sadoo_teaMake00.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_teaMake00.ani" memory="host" />
+		<anim name="anm_F_sadoo_teaMake01.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_teaMake01.ani" memory="host" />
+		<anim name="anm_F_sadoo_teaMake02.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_teaMake02.ani" memory="host" />
+		<anim name="anm_F_sadoo_zarei.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_zarei.ani" memory="host" />
+		<anim name="anm_F_seiza_e.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_seiza_e.ani" memory="host" />
+		<anim name="anm_F_seiza_lp.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_seiza_lp.ani" memory="host" />
+		<anim name="anm_F_sadoo_walk_lp.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_seiza_lp.ani" memory="host" />
+		<anim name="anm_F_sadoo_seki.ani" deferred_loading="false" protected="false" file="lg_tea_room/cmn_design/motion/anm_F_sadoo_seki.ani" memory="host" />
+		<anim name="tea_icon_001.ani" deferred_loading="false" protected="false" file="LG_tea_room/cmn_design/tyaki/scenes/tea_icon_001.ani" memory="host" />
+		<skeleton name="tea_icon_001.skn" deferred_loading="false" protected="false" file="LG_tea_room/cmn_design/tyaki/scenes/tea_icon_001.skn" memory="host" />
+		<soundbank name="message.bnk" deferred_loading="true" protected="false" file="home_gzcmn/sound/message.bnk" memory="host" />
+		<soundbank name="chakai.bnk" deferred_loading="true" protected="false" file="LG_tea_room/sound/chakai.bnk" memory="host" />
+		<soundstream name="bgm01" deferred_loading="false" protected="false" file="lg_tea_room/sound/MP3/01.mp3" />
+		<soundstream name="bgm02" deferred_loading="false" protected="false" file="lg_tea_room/sound/MP3/02.mp3" />
+		<repertoire name="MaleRepertoire" deferred_loading="false" protected="false" file="LG_tea_room/soft_jp_00/TeaParty/file/MaleRepertoire.xml" memory="host" />
+		<repertoire name="FemaleRepertoire" deferred_loading="false" protected="false" file="LG_tea_room/soft_jp_00/TeaParty/file/FemaleRepertoire.xml" memory="host" />
+		<lua name="CommonMessageWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonMessageWindow.lua" memory="host" />
+		<lua name="CommonSelectWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/CommonSelectWindow.lua" memory="host" />
+		<lua name="MessageSound.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/MessageSound.lua" memory="host" />
+		<lua name="PadIo.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/PadIo.lua" memory="host" />
+		<lua name="Log.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/Log.lua" memory="host"/>
+		<lua name="PhaseCtrl.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/PhaseCtrl.lua" memory="host"/>
+		<lua name="UtilGarbage.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilGarbage.lua" memory="host"/>
+		<lua name="UtilResource.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilResource.lua" memory="host"/>
+		<lua name="UtilDeferredLoad.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilDeferredLoad.lua" memory="host"/>
+		<lua name="UtilWindow.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/UtilWindow.lua" memory="host" />
+		<lua name="UtilFade.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilFade.lua" memory="host"/>
+		<lua name="UtilMultiFocus.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilMultiFocus.lua" memory="host"/>
+		<lua name="Snd.lua" deferred_loading="true" protected="true" file="home_gzcmn/lib/lua/Snd.lua" memory="host" />
+		<lua name="MgData.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/MgData.lua" memory="host"/>
+		<lua name="MgMain.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/MgMain.lua" memory="host"/>
+		<lua name="WindowData.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/WindowData.lua" memory="host" />
+		<lua name="EventData.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/EventData.lua" memory="host" />
+		<lua name="GameData.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/GameData.lua" memory="host" />
+		<lua name="GameMain.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/GameMain.lua" memory="host" />
+		<lua name="GameCamera.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/GameCamera.lua" memory="host" />
+		<lua name="GameLobby.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/GameLobby.lua" memory="host" />
+		<lua name="GameTeaParty.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/GameTeaParty.lua" memory="host" />
+		<lua name="MiniGame.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/MiniGame.lua" memory="host"/>
+		<lua name="Network.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/Network.lua" memory="host"/>
+		<lua name="PhaseExit.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/PhaseExit.lua" memory="host"/>
+		<lua name="PhaseIdle.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/PhaseIdle.lua" memory="host"/>
+		<lua name="PhaseList.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/PhaseList.lua" memory="host"/>
+		<lua name="PhaseLoad.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/PhaseLoad.lua" memory="host"/>
+		<lua name="PhaseLobby.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/PhaseLobby.lua" memory="host"/>
+		<lua name="PhaseTeaParty.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/PhaseTeaParty.lua" memory="host"/>
+		<lua name="UtilDebug.lua" deferred_loading="false" protected="true" file="LG_tea_room/soft_jp_00/TeaParty/lua/UtilDebug.lua" memory="host"/>
+		<lua name="CaptureCameraIF.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/CaptureCamera/lua/CaptureCameraIF.lua" memory="host" />
+		<lua name="UtilInventory.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/UtilInventory.lua" memory="host"/>
+		<lua name="AsyncCommandJobManager.lua" deferred_loading="false" protected="true" file="home_gzcmn/lib/lua/AsyncCommandJobManager.lua" memory="host"/>
+		
+		<lua name="ReplaceFurnitureIF.lua" deferred_loading="true" protected="true" file="LG_tea_room/soft_jp_00/ReplaceFurniture/lua/ReplaceFurnitureIF.lua" memory="host" />
+	</local>
+	<external />
+</resources>
